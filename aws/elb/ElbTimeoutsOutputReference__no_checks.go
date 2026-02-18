@@ -47,7 +47,7 @@ func (e *jsiiProxy_ElbTimeoutsOutputReference) validateInterpolationForAttribute
 	return nil
 }
 
-func (e *jsiiProxy_ElbTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElbTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ElbTimeoutsOutputReference) validateSetTerraformAttributePara
 	return nil
 }
 
-func (j *jsiiProxy_ElbTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElbTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ElbTimeoutsOutputReference) validateSetUpdateParameters(val *
 	return nil
 }
 
-func validateNewElbTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewElbTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

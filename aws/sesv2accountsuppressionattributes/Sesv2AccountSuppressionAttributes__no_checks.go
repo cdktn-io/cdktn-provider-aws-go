@@ -99,7 +99,7 @@ func (j *jsiiProxy_Sesv2AccountSuppressionAttributes) validateSetCountParameters
 	return nil
 }
 
-func (j *jsiiProxy_Sesv2AccountSuppressionAttributes) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Sesv2AccountSuppressionAttributes) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

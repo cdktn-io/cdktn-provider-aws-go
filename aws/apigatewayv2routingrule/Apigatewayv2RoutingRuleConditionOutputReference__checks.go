@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) validatePutM
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Apigatewayv2RoutingRuleConditionMatchBasePaths:
 		value := value.(*[]*Apigatewayv2RoutingRuleConditionMatchBasePaths)
@@ -117,7 +117,7 @@ func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) validatePutM
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Apigatewayv2RoutingRuleConditionMatchBasePaths; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Apigatewayv2RoutingRuleConditionMatchBasePaths; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) validatePutM
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Apigatewayv2RoutingRuleConditionMatchHeaders:
 		value := value.(*[]*Apigatewayv2RoutingRuleConditionMatchHeaders)
@@ -148,14 +148,14 @@ func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) validatePutM
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Apigatewayv2RoutingRuleConditionMatchHeaders; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Apigatewayv2RoutingRuleConditionMatchHeaders; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) validateSetC
 
 func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *Apigatewayv2RoutingRuleCondition:
 		val := val.(*Apigatewayv2RoutingRuleCondition)
@@ -245,7 +245,7 @@ func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) validateSetI
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *Apigatewayv2RoutingRuleCondition; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *Apigatewayv2RoutingRuleCondition; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -260,7 +260,7 @@ func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -268,7 +268,7 @@ func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) validateSetT
 	return nil
 }
 
-func validateNewApigatewayv2RoutingRuleConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApigatewayv2RoutingRuleConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

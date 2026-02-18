@@ -15,7 +15,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigParseToOcsfList) val
 	return nil
 }
 
-func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigParseToOcsfList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigParseToOcsfList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigParseToOcsfList) val
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigParseToOcsfList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigParseToOcsfList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigParseToOcsfList) val
 	return nil
 }
 
-func validateNewCloudwatchLogTransformerTransformerConfigParseToOcsfListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudwatchLogTransformerTransformerConfigParseToOcsfListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

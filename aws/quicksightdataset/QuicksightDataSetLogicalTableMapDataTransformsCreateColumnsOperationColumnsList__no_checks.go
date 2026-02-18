@@ -15,7 +15,7 @@ func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOp
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumnsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumnsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOp
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumnsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumnsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOp
 	return nil
 }
 
-func validateNewQuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumnsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewQuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumnsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (m *jsiiProxy_MskClusterOpenMonitoringPrometheusNodeExporterOutputReference
 	return nil
 }
 
-func (m *jsiiProxy_MskClusterOpenMonitoringPrometheusNodeExporterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MskClusterOpenMonitoringPrometheusNodeExporterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_MskClusterOpenMonitoringPrometheusNodeExporterOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_MskClusterOpenMonitoringPrometheusNodeExporterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MskClusterOpenMonitoringPrometheusNodeExporterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMskClusterOpenMonitoringPrometheusNodeExporterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMskClusterOpenMonitoringPrometheusNodeExporterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

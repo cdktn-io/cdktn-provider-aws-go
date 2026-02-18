@@ -115,7 +115,7 @@ func (j *jsiiProxy_S3ControlMultiRegionAccessPoint) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_S3ControlMultiRegionAccessPoint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_S3ControlMultiRegionAccessPoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

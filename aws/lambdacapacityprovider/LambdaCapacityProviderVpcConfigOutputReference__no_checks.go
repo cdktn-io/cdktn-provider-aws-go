@@ -47,7 +47,7 @@ func (l *jsiiProxy_LambdaCapacityProviderVpcConfigOutputReference) validateInter
 	return nil
 }
 
-func (l *jsiiProxy_LambdaCapacityProviderVpcConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LambdaCapacityProviderVpcConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_LambdaCapacityProviderVpcConfigOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_LambdaCapacityProviderVpcConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LambdaCapacityProviderVpcConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLambdaCapacityProviderVpcConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLambdaCapacityProviderVpcConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

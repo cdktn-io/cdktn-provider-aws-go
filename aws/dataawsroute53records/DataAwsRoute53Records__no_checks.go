@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsRoute53Records) validateSetCountParameters(val interfa
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRoute53Records) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsRoute53Records) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

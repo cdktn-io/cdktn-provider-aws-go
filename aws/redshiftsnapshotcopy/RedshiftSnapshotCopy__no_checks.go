@@ -107,7 +107,7 @@ func (j *jsiiProxy_RedshiftSnapshotCopy) validateSetDestinationRegionParameters(
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftSnapshotCopy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RedshiftSnapshotCopy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

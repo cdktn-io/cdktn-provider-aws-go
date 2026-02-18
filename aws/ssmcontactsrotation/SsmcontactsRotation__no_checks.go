@@ -107,7 +107,7 @@ func (j *jsiiProxy_SsmcontactsRotation) validateSetCountParameters(val interface
 	return nil
 }
 
-func (j *jsiiProxy_SsmcontactsRotation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SsmcontactsRotation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

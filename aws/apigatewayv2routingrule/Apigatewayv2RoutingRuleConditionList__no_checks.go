@@ -15,7 +15,7 @@ func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionList) validateGetParameters(i
 	return nil
 }
 
-func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewApigatewayv2RoutingRuleConditionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApigatewayv2RoutingRuleConditionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

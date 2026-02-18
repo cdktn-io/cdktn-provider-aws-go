@@ -8,7 +8,7 @@ package odbnetwork
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (o *jsiiProxy_OdbNetworkManagedServicesZeroEtlAccessList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (o *jsiiProxy_OdbNetworkManagedServicesZeroEtlAccessList) validateGetParame
 	return nil
 }
 
-func (o *jsiiProxy_OdbNetworkManagedServicesZeroEtlAccessList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OdbNetworkManagedServicesZeroEtlAccessList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_OdbNetworkManagedServicesZeroEtlAccessList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_OdbNetworkManagedServicesZeroEtlAccessList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OdbNetworkManagedServicesZeroEtlAccessList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_OdbNetworkManagedServicesZeroEtlAccessList) validateSetWrapsS
 	return nil
 }
 
-func validateNewOdbNetworkManagedServicesZeroEtlAccessListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOdbNetworkManagedServicesZeroEtlAccessListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SagemakerSpaceSpaceSettingsCodeEditorAppSettingsDefaultResour
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerSpaceSpaceSettingsCodeEditorAppSettingsDefaultResourceSpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerSpaceSpaceSettingsCodeEditorAppSettingsDefaultResourceSpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_SagemakerSpaceSpaceSettingsCodeEditorAppSettingsDefaultResour
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerSpaceSpaceSettingsCodeEditorAppSettingsDefaultResourceSpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerSpaceSpaceSettingsCodeEditorAppSettingsDefaultResourceSpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerSpaceSpaceSettingsCodeEditorAppSettingsDefaultResourceSpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerSpaceSpaceSettingsCodeEditorAppSettingsDefaultResourceSpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

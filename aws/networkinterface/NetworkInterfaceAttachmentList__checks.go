@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (n *jsiiProxy_NetworkInterfaceAttachmentList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (n *jsiiProxy_NetworkInterfaceAttachmentList) validateGetParameters(index *
 	return nil
 }
 
-func (n *jsiiProxy_NetworkInterfaceAttachmentList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkInterfaceAttachmentList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (n *jsiiProxy_NetworkInterfaceAttachmentList) validateResolveParameters(con
 
 func (j *jsiiProxy_NetworkInterfaceAttachmentList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*NetworkInterfaceAttachment:
 		val := val.(*[]*NetworkInterfaceAttachment)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_NetworkInterfaceAttachmentList) validateSetInternalValueParam
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*NetworkInterfaceAttachment; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*NetworkInterfaceAttachment; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_NetworkInterfaceAttachmentList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_NetworkInterfaceAttachmentList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkInterfaceAttachmentList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_NetworkInterfaceAttachmentList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewNetworkInterfaceAttachmentListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkInterfaceAttachmentListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

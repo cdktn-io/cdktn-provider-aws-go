@@ -15,7 +15,7 @@ func (d *jsiiProxy_DynamodbGlobalTableReplicaList) validateGetParameters(index *
 	return nil
 }
 
-func (d *jsiiProxy_DynamodbGlobalTableReplicaList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DynamodbGlobalTableReplicaList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DynamodbGlobalTableReplicaList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_DynamodbGlobalTableReplicaList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DynamodbGlobalTableReplicaList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DynamodbGlobalTableReplicaList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewDynamodbGlobalTableReplicaListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDynamodbGlobalTableReplicaListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

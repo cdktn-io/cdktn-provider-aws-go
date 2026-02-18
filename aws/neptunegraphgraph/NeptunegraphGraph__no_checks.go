@@ -123,7 +123,7 @@ func (j *jsiiProxy_NeptunegraphGraph) validateSetKmsKeyIdentifierParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_NeptunegraphGraph) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NeptunegraphGraph) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (e *jsiiProxy_EfsFileSystemLifecyclePolicyOutputReference) validateInterpol
 	return nil
 }
 
-func (e *jsiiProxy_EfsFileSystemLifecyclePolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EfsFileSystemLifecyclePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_EfsFileSystemLifecyclePolicyOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_EfsFileSystemLifecyclePolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EfsFileSystemLifecyclePolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_EfsFileSystemLifecyclePolicyOutputReference) validateSetTrans
 	return nil
 }
 
-func validateNewEfsFileSystemLifecyclePolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEfsFileSystemLifecyclePolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

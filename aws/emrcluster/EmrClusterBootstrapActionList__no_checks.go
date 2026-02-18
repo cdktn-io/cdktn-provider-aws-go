@@ -15,7 +15,7 @@ func (e *jsiiProxy_EmrClusterBootstrapActionList) validateGetParameters(index *f
 	return nil
 }
 
-func (e *jsiiProxy_EmrClusterBootstrapActionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EmrClusterBootstrapActionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EmrClusterBootstrapActionList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_EmrClusterBootstrapActionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EmrClusterBootstrapActionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EmrClusterBootstrapActionList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewEmrClusterBootstrapActionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEmrClusterBootstrapActionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

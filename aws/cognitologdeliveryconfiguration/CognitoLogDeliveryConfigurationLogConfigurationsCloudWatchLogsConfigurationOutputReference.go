@@ -5,14 +5,14 @@ package cognitologdeliveryconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/cognitologdeliveryconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/cognitologdeliveryconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfiguration
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfiguration
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetLogGroupArn()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfiguration
 
 // The jsii proxy struct for CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference
 type jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLog
 	return returns
 }
 
-func (j *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLog
 }
 
 
-func NewCognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference {
+func NewCognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -191,7 +191,7 @@ func NewCognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurat
 	return &j
 }
 
-func NewCognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference_Override(c CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewCognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference_Override(c CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLog
 	)
 }
 
-func (j *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (c *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLog
 	return returns
 }
 
-func (c *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -424,8 +424,8 @@ func (c *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLog
 	return returns
 }
 
-func (c *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -437,11 +437,11 @@ func (c *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLog
 	return returns
 }
 
-func (c *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -461,7 +461,7 @@ func (c *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLog
 	)
 }
 
-func (c *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsCloudWatchLogsConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

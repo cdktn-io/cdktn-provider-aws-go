@@ -51,7 +51,7 @@ func (g *jsiiProxy_GameliftGameServerGroupAutoScalingPolicyOutputReference) vali
 	return nil
 }
 
-func (g *jsiiProxy_GameliftGameServerGroupAutoScalingPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GameliftGameServerGroupAutoScalingPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GameliftGameServerGroupAutoScalingPolicyOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_GameliftGameServerGroupAutoScalingPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GameliftGameServerGroupAutoScalingPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGameliftGameServerGroupAutoScalingPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGameliftGameServerGroupAutoScalingPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

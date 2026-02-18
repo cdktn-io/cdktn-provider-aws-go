@@ -59,7 +59,7 @@ func (c *jsiiProxy_CeCostCategoryRuleRuleOrOrOutputReference) validatePutTagsPar
 	return nil
 }
 
-func (c *jsiiProxy_CeCostCategoryRuleRuleOrOrOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CeCostCategoryRuleRuleOrOrOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_CeCostCategoryRuleRuleOrOrOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_CeCostCategoryRuleRuleOrOrOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CeCostCategoryRuleRuleOrOrOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCeCostCategoryRuleRuleOrOrOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCeCostCategoryRuleRuleOrOrOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

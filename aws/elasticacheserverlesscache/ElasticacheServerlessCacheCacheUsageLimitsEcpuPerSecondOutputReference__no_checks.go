@@ -47,7 +47,7 @@ func (e *jsiiProxy_ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondOutput
 	return nil
 }
 
-func (e *jsiiProxy_ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondOutput
 	return nil
 }
 
-func (j *jsiiProxy_ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

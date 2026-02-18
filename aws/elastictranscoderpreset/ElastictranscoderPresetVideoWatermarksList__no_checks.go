@@ -15,7 +15,7 @@ func (e *jsiiProxy_ElastictranscoderPresetVideoWatermarksList) validateGetParame
 	return nil
 }
 
-func (e *jsiiProxy_ElastictranscoderPresetVideoWatermarksList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElastictranscoderPresetVideoWatermarksList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ElastictranscoderPresetVideoWatermarksList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_ElastictranscoderPresetVideoWatermarksList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElastictranscoderPresetVideoWatermarksList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ElastictranscoderPresetVideoWatermarksList) validateSetWrapsS
 	return nil
 }
 
-func validateNewElastictranscoderPresetVideoWatermarksListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewElastictranscoderPresetVideoWatermarksListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

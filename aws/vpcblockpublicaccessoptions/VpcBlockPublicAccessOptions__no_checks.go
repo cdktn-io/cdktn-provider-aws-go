@@ -107,7 +107,7 @@ func (j *jsiiProxy_VpcBlockPublicAccessOptions) validateSetInternetGatewayBlockM
 	return nil
 }
 
-func (j *jsiiProxy_VpcBlockPublicAccessOptions) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VpcBlockPublicAccessOptions) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

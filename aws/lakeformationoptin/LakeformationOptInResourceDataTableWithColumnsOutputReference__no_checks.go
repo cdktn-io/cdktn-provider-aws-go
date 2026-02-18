@@ -51,7 +51,7 @@ func (l *jsiiProxy_LakeformationOptInResourceDataTableWithColumnsOutputReference
 	return nil
 }
 
-func (l *jsiiProxy_LakeformationOptInResourceDataTableWithColumnsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LakeformationOptInResourceDataTableWithColumnsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_LakeformationOptInResourceDataTableWithColumnsOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_LakeformationOptInResourceDataTableWithColumnsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LakeformationOptInResourceDataTableWithColumnsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLakeformationOptInResourceDataTableWithColumnsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLakeformationOptInResourceDataTableWithColumnsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

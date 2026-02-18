@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppmeshVirtualNodeSpecServiceDiscoveryDnsOutputReference) val
 	return nil
 }
 
-func (a *jsiiProxy_AppmeshVirtualNodeSpecServiceDiscoveryDnsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppmeshVirtualNodeSpecServiceDiscoveryDnsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_AppmeshVirtualNodeSpecServiceDiscoveryDnsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshVirtualNodeSpecServiceDiscoveryDnsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppmeshVirtualNodeSpecServiceDiscoveryDnsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppmeshVirtualNodeSpecServiceDiscoveryDnsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppmeshVirtualNodeSpecServiceDiscoveryDnsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

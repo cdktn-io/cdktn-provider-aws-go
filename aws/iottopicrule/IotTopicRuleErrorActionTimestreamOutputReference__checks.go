@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (i *jsiiProxy_IotTopicRuleErrorActionTimestreamOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (i *jsiiProxy_IotTopicRuleErrorActionTimestreamOutputReference) validatePut
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IotTopicRuleErrorActionTimestreamDimension:
 		value := value.(*[]*IotTopicRuleErrorActionTimestreamDimension)
@@ -117,7 +117,7 @@ func (i *jsiiProxy_IotTopicRuleErrorActionTimestreamOutputReference) validatePut
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IotTopicRuleErrorActionTimestreamDimension; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IotTopicRuleErrorActionTimestreamDimension; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -135,7 +135,7 @@ func (i *jsiiProxy_IotTopicRuleErrorActionTimestreamOutputReference) validatePut
 	return nil
 }
 
-func (i *jsiiProxy_IotTopicRuleErrorActionTimestreamOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotTopicRuleErrorActionTimestreamOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -248,7 +248,7 @@ func (j *jsiiProxy_IotTopicRuleErrorActionTimestreamOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_IotTopicRuleErrorActionTimestreamOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotTopicRuleErrorActionTimestreamOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -256,7 +256,7 @@ func (j *jsiiProxy_IotTopicRuleErrorActionTimestreamOutputReference) validateSet
 	return nil
 }
 
-func validateNewIotTopicRuleErrorActionTimestreamOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIotTopicRuleErrorActionTimestreamOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsConnectUserHierarchyGroupHierarchyPathList) validateGe
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsConnectUserHierarchyGroupHierarchyPathList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsConnectUserHierarchyGroupHierarchyPathList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsConnectUserHierarchyGroupHierarchyPathList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsConnectUserHierarchyGroupHierarchyPathList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsConnectUserHierarchyGroupHierarchyPathList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsConnectUserHierarchyGroupHierarchyPathList) validateSe
 	return nil
 }
 
-func validateNewDataAwsConnectUserHierarchyGroupHierarchyPathListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsConnectUserHierarchyGroupHierarchyPathListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

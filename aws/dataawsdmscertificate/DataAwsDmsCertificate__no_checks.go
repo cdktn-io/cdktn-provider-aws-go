@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsDmsCertificate) validateSetIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDmsCertificate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsDmsCertificate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

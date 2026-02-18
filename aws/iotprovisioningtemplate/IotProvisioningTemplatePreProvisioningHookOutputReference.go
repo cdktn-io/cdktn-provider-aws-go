@@ -5,14 +5,14 @@ package iotprovisioningtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/iotprovisioningtemplate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/iotprovisioningtemplate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type IotProvisioningTemplatePreProvisioningHookOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type IotProvisioningTemplatePreProvisioningHookOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type IotProvisioningTemplatePreProvisioningHookOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetPayloadVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type IotProvisioningTemplatePreProvisioningHookOutputReference interface {
 
 // The jsii proxy struct for IotProvisioningTemplatePreProvisioningHookOutputReference
 type jsiiProxy_IotProvisioningTemplatePreProvisioningHookOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_IotProvisioningTemplatePreProvisioningHookOutputReference) ComplexObjectIndex() interface{} {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_IotProvisioningTemplatePreProvisioningHookOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_IotProvisioningTemplatePreProvisioningHookOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_IotProvisioningTemplatePreProvisioningHookOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_IotProvisioningTemplatePreProvisioningHookOutputReference) Te
 }
 
 
-func NewIotProvisioningTemplatePreProvisioningHookOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) IotProvisioningTemplatePreProvisioningHookOutputReference {
+func NewIotProvisioningTemplatePreProvisioningHookOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) IotProvisioningTemplatePreProvisioningHookOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewIotProvisioningTemplatePreProvisioningHookOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewIotProvisioningTemplatePreProvisioningHookOutputReference(terraformResou
 	return &j
 }
 
-func NewIotProvisioningTemplatePreProvisioningHookOutputReference_Override(i IotProvisioningTemplatePreProvisioningHookOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewIotProvisioningTemplatePreProvisioningHookOutputReference_Override(i IotProvisioningTemplatePreProvisioningHookOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_IotProvisioningTemplatePreProvisioningHookOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_IotProvisioningTemplatePreProvisioningHookOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_IotProvisioningTemplatePreProvisioningHookOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (i *jsiiProxy_IotProvisioningTemplatePreProvisioningHookOutputReference) Ge
 	return returns
 }
 
-func (i *jsiiProxy_IotProvisioningTemplatePreProvisioningHookOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IotProvisioningTemplatePreProvisioningHookOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -458,8 +458,8 @@ func (i *jsiiProxy_IotProvisioningTemplatePreProvisioningHookOutputReference) Ge
 	return returns
 }
 
-func (i *jsiiProxy_IotProvisioningTemplatePreProvisioningHookOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_IotProvisioningTemplatePreProvisioningHookOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -471,11 +471,11 @@ func (i *jsiiProxy_IotProvisioningTemplatePreProvisioningHookOutputReference) In
 	return returns
 }
 
-func (i *jsiiProxy_IotProvisioningTemplatePreProvisioningHookOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IotProvisioningTemplatePreProvisioningHookOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -495,7 +495,7 @@ func (i *jsiiProxy_IotProvisioningTemplatePreProvisioningHookOutputReference) Re
 	)
 }
 
-func (i *jsiiProxy_IotProvisioningTemplatePreProvisioningHookOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_IotProvisioningTemplatePreProvisioningHookOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

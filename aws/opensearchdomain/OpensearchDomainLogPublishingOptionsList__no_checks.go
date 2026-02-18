@@ -15,7 +15,7 @@ func (o *jsiiProxy_OpensearchDomainLogPublishingOptionsList) validateGetParamete
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchDomainLogPublishingOptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchDomainLogPublishingOptionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_OpensearchDomainLogPublishingOptionsList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchDomainLogPublishingOptionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchDomainLogPublishingOptionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_OpensearchDomainLogPublishingOptionsList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewOpensearchDomainLogPublishingOptionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOpensearchDomainLogPublishingOptionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

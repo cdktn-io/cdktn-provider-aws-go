@@ -5,14 +5,14 @@ package servicecatalogprovisionedproduct
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/servicecatalogprovisionedproduct/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/servicecatalogprovisionedproduct/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ServicecatalogProvisionedProductProvisioningParametersOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type ServicecatalogProvisionedProductProvisioningParametersOutputReference inter
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UsePreviousValue() interface{}
 	SetUsePreviousValue(val interface{})
 	UsePreviousValueInput() interface{}
@@ -54,7 +54,7 @@ type ServicecatalogProvisionedProductProvisioningParametersOutputReference inter
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,14 +70,14 @@ type ServicecatalogProvisionedProductProvisioningParametersOutputReference inter
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetUsePreviousValue()
 	ResetValue()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type ServicecatalogProvisionedProductProvisioningParametersOutputReference inter
 
 // The jsii proxy struct for ServicecatalogProvisionedProductProvisioningParametersOutputReference
 type jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputReference) ComplexObjectIndex() interface{} {
@@ -170,8 +170,8 @@ func (j *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputR
 	return returns
 }
 
-func (j *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputR
 }
 
 
-func NewServicecatalogProvisionedProductProvisioningParametersOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ServicecatalogProvisionedProductProvisioningParametersOutputReference {
+func NewServicecatalogProvisionedProductProvisioningParametersOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ServicecatalogProvisionedProductProvisioningParametersOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewServicecatalogProvisionedProductProvisioningParametersOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -238,7 +238,7 @@ func NewServicecatalogProvisionedProductProvisioningParametersOutputReference(te
 	return &j
 }
 
-func NewServicecatalogProvisionedProductProvisioningParametersOutputReference_Override(s ServicecatalogProvisionedProductProvisioningParametersOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewServicecatalogProvisionedProductProvisioningParametersOutputReference_Override(s ServicecatalogProvisionedProductProvisioningParametersOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -303,7 +303,7 @@ func (j *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputR
 	)
 }
 
-func (j *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -365,11 +365,11 @@ func (s *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputR
 	return returns
 }
 
-func (s *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -493,8 +493,8 @@ func (s *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputR
 	return returns
 }
 
-func (s *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -506,11 +506,11 @@ func (s *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputR
 	return returns
 }
 
-func (s *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -538,7 +538,7 @@ func (s *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputR
 	)
 }
 
-func (s *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

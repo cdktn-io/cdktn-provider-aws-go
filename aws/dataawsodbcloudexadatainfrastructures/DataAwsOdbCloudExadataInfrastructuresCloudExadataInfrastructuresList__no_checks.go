@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsOdbCloudExadataInfrastructuresCloudExadataInfrastructu
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsOdbCloudExadataInfrastructuresCloudExadataInfrastructuresList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsOdbCloudExadataInfrastructuresCloudExadataInfrastructuresList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsOdbCloudExadataInfrastructuresCloudExadataInfrastructu
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOdbCloudExadataInfrastructuresCloudExadataInfrastructuresList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsOdbCloudExadataInfrastructuresCloudExadataInfrastructuresList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsOdbCloudExadataInfrastructuresCloudExadataInfrastructu
 	return nil
 }
 
-func validateNewDataAwsOdbCloudExadataInfrastructuresCloudExadataInfrastructuresListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsOdbCloudExadataInfrastructuresCloudExadataInfrastructuresListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

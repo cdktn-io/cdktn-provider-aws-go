@@ -5,20 +5,20 @@ package apigatewayv2domainname
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/apigatewayv2domainname/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/apigatewayv2domainname/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/apigatewayv2_domain_name aws_apigatewayv2_domain_name}.
 type Apigatewayv2DomainName interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApiMappingSelectionExpression() *string
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -39,9 +39,9 @@ type Apigatewayv2DomainName interface {
 	DomainNameConfigurationInput() *Apigatewayv2DomainNameDomainNameConfiguration
 	DomainNameInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -50,17 +50,17 @@ type Apigatewayv2DomainName interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MutualTlsAuthentication() Apigatewayv2DomainNameMutualTlsAuthenticationOutputReference
 	MutualTlsAuthenticationInput() *Apigatewayv2DomainNameMutualTlsAuthentication
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -80,7 +80,7 @@ type Apigatewayv2DomainName interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -95,7 +95,7 @@ type Apigatewayv2DomainName interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -113,9 +113,9 @@ type Apigatewayv2DomainName interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -158,7 +158,7 @@ type Apigatewayv2DomainName interface {
 
 // The jsii proxy struct for Apigatewayv2DomainName
 type jsiiProxy_Apigatewayv2DomainName struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_Apigatewayv2DomainName) ApiMappingSelectionExpression() *string {
@@ -181,8 +181,8 @@ func (j *jsiiProxy_Apigatewayv2DomainName) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Apigatewayv2DomainName) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_Apigatewayv2DomainName) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -271,8 +271,8 @@ func (j *jsiiProxy_Apigatewayv2DomainName) DomainNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Apigatewayv2DomainName) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_Apigatewayv2DomainName) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -321,8 +321,8 @@ func (j *jsiiProxy_Apigatewayv2DomainName) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Apigatewayv2DomainName) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_Apigatewayv2DomainName) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -361,8 +361,8 @@ func (j *jsiiProxy_Apigatewayv2DomainName) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_Apigatewayv2DomainName) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_Apigatewayv2DomainName) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -471,8 +471,8 @@ func (j *jsiiProxy_Apigatewayv2DomainName) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_Apigatewayv2DomainName) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_Apigatewayv2DomainName) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -592,7 +592,7 @@ func (j *jsiiProxy_Apigatewayv2DomainName)SetDomainName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Apigatewayv2DomainName)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_Apigatewayv2DomainName)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -611,7 +611,7 @@ func (j *jsiiProxy_Apigatewayv2DomainName)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Apigatewayv2DomainName)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_Apigatewayv2DomainName)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -622,7 +622,7 @@ func (j *jsiiProxy_Apigatewayv2DomainName)SetLifecycle(val *cdktf.TerraformResou
 	)
 }
 
-func (j *jsiiProxy_Apigatewayv2DomainName)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_Apigatewayv2DomainName)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -685,14 +685,14 @@ func (j *jsiiProxy_Apigatewayv2DomainName)SetTagsAll(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a Apigatewayv2DomainName resource upon running "cdktf plan <stack-name>".
-func Apigatewayv2DomainName_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a Apigatewayv2DomainName resource upon running "cdktn plan <stack-name>".
+func Apigatewayv2DomainName_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateApigatewayv2DomainName_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.apigatewayv2DomainName.Apigatewayv2DomainName",
@@ -826,11 +826,11 @@ func (a *jsiiProxy_Apigatewayv2DomainName) GetAnyMapAttribute(terraformAttribute
 	return returns
 }
 
-func (a *jsiiProxy_Apigatewayv2DomainName) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_Apigatewayv2DomainName) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -967,7 +967,7 @@ func (a *jsiiProxy_Apigatewayv2DomainName) HasResourceMove() interface{} {
 	return returns
 }
 
-func (a *jsiiProxy_Apigatewayv2DomainName) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_Apigatewayv2DomainName) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -978,11 +978,11 @@ func (a *jsiiProxy_Apigatewayv2DomainName) ImportFrom(id *string, provider cdktf
 	)
 }
 
-func (a *jsiiProxy_Apigatewayv2DomainName) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_Apigatewayv2DomainName) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

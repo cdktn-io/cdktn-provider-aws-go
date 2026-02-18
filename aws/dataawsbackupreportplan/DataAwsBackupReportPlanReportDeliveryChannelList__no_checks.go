@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsBackupReportPlanReportDeliveryChannelList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsBackupReportPlanReportDeliveryChannelList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsBackupReportPlanReportDeliveryChannelList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsBackupReportPlanReportDeliveryChannelList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsBackupReportPlanReportDeliveryChannelList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsBackupReportPlanReportDeliveryChannelList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsBackupReportPlanReportDeliveryChannelList) validateSet
 	return nil
 }
 
-func validateNewDataAwsBackupReportPlanReportDeliveryChannelListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsBackupReportPlanReportDeliveryChannelListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

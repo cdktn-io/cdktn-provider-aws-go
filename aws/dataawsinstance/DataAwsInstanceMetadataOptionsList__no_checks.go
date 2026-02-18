@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsInstanceMetadataOptionsList) validateGetParameters(ind
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsInstanceMetadataOptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsInstanceMetadataOptionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsInstanceMetadataOptionsList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsInstanceMetadataOptionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsInstanceMetadataOptionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsInstanceMetadataOptionsList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewDataAwsInstanceMetadataOptionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsInstanceMetadataOptionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

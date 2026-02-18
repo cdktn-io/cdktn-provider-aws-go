@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsGlueScriptDagNodeArgsList) validateGetParameters(index
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsGlueScriptDagNodeArgsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsGlueScriptDagNodeArgsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsGlueScriptDagNodeArgsList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsGlueScriptDagNodeArgsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsGlueScriptDagNodeArgsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsGlueScriptDagNodeArgsList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewDataAwsGlueScriptDagNodeArgsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsGlueScriptDagNodeArgsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

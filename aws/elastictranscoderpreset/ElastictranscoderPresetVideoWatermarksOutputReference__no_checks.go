@@ -47,7 +47,7 @@ func (e *jsiiProxy_ElastictranscoderPresetVideoWatermarksOutputReference) valida
 	return nil
 }
 
-func (e *jsiiProxy_ElastictranscoderPresetVideoWatermarksOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElastictranscoderPresetVideoWatermarksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_ElastictranscoderPresetVideoWatermarksOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_ElastictranscoderPresetVideoWatermarksOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElastictranscoderPresetVideoWatermarksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -111,7 +111,7 @@ func (j *jsiiProxy_ElastictranscoderPresetVideoWatermarksOutputReference) valida
 	return nil
 }
 
-func validateNewElastictranscoderPresetVideoWatermarksOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewElastictranscoderPresetVideoWatermarksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

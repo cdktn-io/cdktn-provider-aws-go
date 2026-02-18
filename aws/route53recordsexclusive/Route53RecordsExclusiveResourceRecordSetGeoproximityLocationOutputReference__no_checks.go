@@ -51,7 +51,7 @@ func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationO
 	return nil
 }
 
-func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationO
 	return nil
 }
 
-func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRoute53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRoute53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

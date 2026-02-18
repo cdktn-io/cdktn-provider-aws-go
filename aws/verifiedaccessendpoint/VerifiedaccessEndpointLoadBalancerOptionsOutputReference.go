@@ -5,14 +5,14 @@ package verifiedaccessendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/verifiedaccessendpoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/verifiedaccessendpoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VerifiedaccessEndpointLoadBalancerOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -51,15 +51,15 @@ type VerifiedaccessEndpointLoadBalancerOptionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -75,9 +75,9 @@ type VerifiedaccessEndpointLoadBalancerOptionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutPortRange(value interface{})
 	ResetLoadBalancerArn()
 	ResetPort()
@@ -86,7 +86,7 @@ type VerifiedaccessEndpointLoadBalancerOptionsOutputReference interface {
 	ResetSubnetIds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type VerifiedaccessEndpointLoadBalancerOptionsOutputReference interface {
 
 // The jsii proxy struct for VerifiedaccessEndpointLoadBalancerOptionsOutputReference
 type jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsOutputReference) ComplexObjectIndex() interface{} {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsOutputReference) Ter
 }
 
 
-func NewVerifiedaccessEndpointLoadBalancerOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VerifiedaccessEndpointLoadBalancerOptionsOutputReference {
+func NewVerifiedaccessEndpointLoadBalancerOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VerifiedaccessEndpointLoadBalancerOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVerifiedaccessEndpointLoadBalancerOptionsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewVerifiedaccessEndpointLoadBalancerOptionsOutputReference(terraformResour
 	return &j
 }
 
-func NewVerifiedaccessEndpointLoadBalancerOptionsOutputReference_Override(v VerifiedaccessEndpointLoadBalancerOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVerifiedaccessEndpointLoadBalancerOptionsOutputReference_Override(v VerifiedaccessEndpointLoadBalancerOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -385,7 +385,7 @@ func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -425,11 +425,11 @@ func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsOutputReference) Get
 	return returns
 }
 
-func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -553,8 +553,8 @@ func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsOutputReference) Get
 	return returns
 }
 
-func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -566,11 +566,11 @@ func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsOutputReference) Int
 	return returns
 }
 
-func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -633,7 +633,7 @@ func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsOutputReference) Res
 	)
 }
 
-func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (k *jsiiProxy_KendraFaqS3PathOutputReference) validateInterpolationForAttri
 	return nil
 }
 
-func (k *jsiiProxy_KendraFaqS3PathOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KendraFaqS3PathOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_KendraFaqS3PathOutputReference) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_KendraFaqS3PathOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KendraFaqS3PathOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKendraFaqS3PathOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKendraFaqS3PathOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package dataawsmemorydbsnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsmemorydbsnapshot/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsmemorydbsnapshot/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsMemorydbSnapshotClusterConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,9 +49,9 @@ type DataAwsMemorydbSnapshotClusterConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TopicArn() *string
 	VpcId() *string
 	// Experimental.
@@ -59,7 +59,7 @@ type DataAwsMemorydbSnapshotClusterConfigurationOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -75,12 +75,12 @@ type DataAwsMemorydbSnapshotClusterConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -90,7 +90,7 @@ type DataAwsMemorydbSnapshotClusterConfigurationOutputReference interface {
 
 // The jsii proxy struct for DataAwsMemorydbSnapshotClusterConfigurationOutputReference
 type jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -273,8 +273,8 @@ func (j *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -304,7 +304,7 @@ func (j *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationOutputReference) V
 }
 
 
-func NewDataAwsMemorydbSnapshotClusterConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsMemorydbSnapshotClusterConfigurationOutputReference {
+func NewDataAwsMemorydbSnapshotClusterConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsMemorydbSnapshotClusterConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsMemorydbSnapshotClusterConfigurationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -321,7 +321,7 @@ func NewDataAwsMemorydbSnapshotClusterConfigurationOutputReference(terraformReso
 	return &j
 }
 
-func NewDataAwsMemorydbSnapshotClusterConfigurationOutputReference_Override(d DataAwsMemorydbSnapshotClusterConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsMemorydbSnapshotClusterConfigurationOutputReference_Override(d DataAwsMemorydbSnapshotClusterConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -375,7 +375,7 @@ func (j *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -415,11 +415,11 @@ func (d *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationOutputReference) G
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -543,8 +543,8 @@ func (d *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationOutputReference) G
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -556,11 +556,11 @@ func (d *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationOutputReference) I
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -572,7 +572,7 @@ func (d *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationOutputReference) I
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

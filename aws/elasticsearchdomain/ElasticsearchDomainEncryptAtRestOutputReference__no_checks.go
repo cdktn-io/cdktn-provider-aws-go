@@ -47,7 +47,7 @@ func (e *jsiiProxy_ElasticsearchDomainEncryptAtRestOutputReference) validateInte
 	return nil
 }
 
-func (e *jsiiProxy_ElasticsearchDomainEncryptAtRestOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticsearchDomainEncryptAtRestOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ElasticsearchDomainEncryptAtRestOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ElasticsearchDomainEncryptAtRestOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticsearchDomainEncryptAtRestOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewElasticsearchDomainEncryptAtRestOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewElasticsearchDomainEncryptAtRestOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

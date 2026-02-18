@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsQuicksightDataSetLogicalTableMapDataTransformsFilterOp
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsQuicksightDataSetLogicalTableMapDataTransformsFilterOperationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsQuicksightDataSetLogicalTableMapDataTransformsFilterOperationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsQuicksightDataSetLogicalTableMapDataTransformsFilterOp
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsQuicksightDataSetLogicalTableMapDataTransformsFilterOperationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsQuicksightDataSetLogicalTableMapDataTransformsFilterOperationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsQuicksightDataSetLogicalTableMapDataTransformsFilterOp
 	return nil
 }
 
-func validateNewDataAwsQuicksightDataSetLogicalTableMapDataTransformsFilterOperationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsQuicksightDataSetLogicalTableMapDataTransformsFilterOperationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsOdbNetwork) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOdbNetwork) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsOdbNetwork) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

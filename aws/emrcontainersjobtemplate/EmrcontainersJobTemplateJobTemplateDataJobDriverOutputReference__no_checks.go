@@ -55,7 +55,7 @@ func (e *jsiiProxy_EmrcontainersJobTemplateJobTemplateDataJobDriverOutputReferen
 	return nil
 }
 
-func (e *jsiiProxy_EmrcontainersJobTemplateJobTemplateDataJobDriverOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EmrcontainersJobTemplateJobTemplateDataJobDriverOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EmrcontainersJobTemplateJobTemplateDataJobDriverOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_EmrcontainersJobTemplateJobTemplateDataJobDriverOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EmrcontainersJobTemplateJobTemplateDataJobDriverOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEmrcontainersJobTemplateJobTemplateDataJobDriverOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEmrcontainersJobTemplateJobTemplateDataJobDriverOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package internetmonitormonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/internetmonitormonitor/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/internetmonitormonitor/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference interf
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,14 +63,14 @@ type InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference interf
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutS3Config(value *InternetmonitorMonitorInternetMeasurementsLogDeliveryS3Config)
 	ResetS3Config()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference interf
 
 // The jsii proxy struct for InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference
 type jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputRe
 	return returns
 }
 
-func (j *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputRe
 }
 
 
-func NewInternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference {
+func NewInternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewInternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewInternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference(ter
 	return &j
 }
 
-func NewInternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference_Override(i InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewInternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference_Override(i InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputRe
 	)
 }
 
-func (j *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -285,11 +285,11 @@ func (i *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputRe
 	return returns
 }
 
-func (i *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -413,8 +413,8 @@ func (i *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputRe
 	return returns
 }
 
-func (i *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -426,11 +426,11 @@ func (i *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputRe
 	return returns
 }
 
-func (i *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -461,7 +461,7 @@ func (i *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputRe
 	)
 }
 
-func (i *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

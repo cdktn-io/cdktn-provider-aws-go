@@ -5,14 +5,14 @@ package inspector2filter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/inspector2filter/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/inspector2filter/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Inspector2FilterFilterCriteriaEcrImageHashOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Comparison() *string
 	SetComparison(val *string)
 	ComparisonInput() *string
@@ -40,9 +40,9 @@ type Inspector2FilterFilterCriteriaEcrImageHashOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Value() *string
 	SetValue(val *string)
 	ValueInput() *string
@@ -51,7 +51,7 @@ type Inspector2FilterFilterCriteriaEcrImageHashOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type Inspector2FilterFilterCriteriaEcrImageHashOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type Inspector2FilterFilterCriteriaEcrImageHashOutputReference interface {
 
 // The jsii proxy struct for Inspector2FilterFilterCriteriaEcrImageHashOutputReference
 type jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference) Comparison() *string {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference) Va
 }
 
 
-func NewInspector2FilterFilterCriteriaEcrImageHashOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Inspector2FilterFilterCriteriaEcrImageHashOutputReference {
+func NewInspector2FilterFilterCriteriaEcrImageHashOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Inspector2FilterFilterCriteriaEcrImageHashOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewInspector2FilterFilterCriteriaEcrImageHashOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -213,7 +213,7 @@ func NewInspector2FilterFilterCriteriaEcrImageHashOutputReference(terraformResou
 	return &j
 }
 
-func NewInspector2FilterFilterCriteriaEcrImageHashOutputReference_Override(i Inspector2FilterFilterCriteriaEcrImageHashOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewInspector2FilterFilterCriteriaEcrImageHashOutputReference_Override(i Inspector2FilterFilterCriteriaEcrImageHashOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference) Ge
 	return returns
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -457,8 +457,8 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference) Ge
 	return returns
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -470,11 +470,11 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference) In
 	return returns
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -486,7 +486,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference) In
 	return returns
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

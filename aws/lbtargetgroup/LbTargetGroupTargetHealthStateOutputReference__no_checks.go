@@ -47,7 +47,7 @@ func (l *jsiiProxy_LbTargetGroupTargetHealthStateOutputReference) validateInterp
 	return nil
 }
 
-func (l *jsiiProxy_LbTargetGroupTargetHealthStateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LbTargetGroupTargetHealthStateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_LbTargetGroupTargetHealthStateOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_LbTargetGroupTargetHealthStateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LbTargetGroupTargetHealthStateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LbTargetGroupTargetHealthStateOutputReference) validateSetUnh
 	return nil
 }
 
-func validateNewLbTargetGroupTargetHealthStateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLbTargetGroupTargetHealthStateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SagemakerPipelineParallelismConfigurationOutputReference) val
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerPipelineParallelismConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerPipelineParallelismConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SagemakerPipelineParallelismConfigurationOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerPipelineParallelismConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerPipelineParallelismConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerPipelineParallelismConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerPipelineParallelismConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

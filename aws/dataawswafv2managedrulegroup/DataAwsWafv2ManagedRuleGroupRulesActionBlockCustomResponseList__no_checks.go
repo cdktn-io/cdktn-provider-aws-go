@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupRulesActionBlockCustomResponseLis
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupRulesActionBlockCustomResponseList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupRulesActionBlockCustomResponseList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupRulesActionBlockCustomResponseLis
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupRulesActionBlockCustomResponseList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupRulesActionBlockCustomResponseList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupRulesActionBlockCustomResponseLis
 	return nil
 }
 
-func validateNewDataAwsWafv2ManagedRuleGroupRulesActionBlockCustomResponseListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsWafv2ManagedRuleGroupRulesActionBlockCustomResponseListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

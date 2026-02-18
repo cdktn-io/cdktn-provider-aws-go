@@ -55,7 +55,7 @@ func (e *jsiiProxy_EcsClusterConfigurationOutputReference) validatePutManagedSto
 	return nil
 }
 
-func (e *jsiiProxy_EcsClusterConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsClusterConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EcsClusterConfigurationOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_EcsClusterConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsClusterConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEcsClusterConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEcsClusterConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,21 +5,21 @@ package elasticacheserverlesscache
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/elasticacheserverlesscache/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/elasticacheserverlesscache/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/elasticache_serverless_cache aws_elasticache_serverless_cache}.
 type ElasticacheServerlessCache interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	CacheUsageLimits() ElasticacheServerlessCacheCacheUsageLimitsList
 	CacheUsageLimitsInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -46,9 +46,9 @@ type ElasticacheServerlessCache interface {
 	SetEngine(val *string)
 	EngineInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -59,9 +59,9 @@ type ElasticacheServerlessCache interface {
 	SetKmsKeyId(val *string)
 	KmsKeyIdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MajorEngineVersion() *string
 	SetMajorEngineVersion(val *string)
 	MajorEngineVersionInput() *string
@@ -71,9 +71,9 @@ type ElasticacheServerlessCache interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -99,10 +99,10 @@ type ElasticacheServerlessCache interface {
 	SubnetIdsInput() *[]*string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
-	TagsAll() cdktf.StringMap
+	TagsAll() cdktn.StringMap
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -120,7 +120,7 @@ type ElasticacheServerlessCache interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -138,9 +138,9 @@ type ElasticacheServerlessCache interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -188,7 +188,7 @@ type ElasticacheServerlessCache interface {
 
 // The jsii proxy struct for ElasticacheServerlessCache
 type jsiiProxy_ElasticacheServerlessCache struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ElasticacheServerlessCache) Arn() *string {
@@ -221,8 +221,8 @@ func (j *jsiiProxy_ElasticacheServerlessCache) CacheUsageLimitsInput() interface
 	return returns
 }
 
-func (j *jsiiProxy_ElasticacheServerlessCache) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ElasticacheServerlessCache) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -351,8 +351,8 @@ func (j *jsiiProxy_ElasticacheServerlessCache) EngineInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ElasticacheServerlessCache) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ElasticacheServerlessCache) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -421,8 +421,8 @@ func (j *jsiiProxy_ElasticacheServerlessCache) KmsKeyIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ElasticacheServerlessCache) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ElasticacheServerlessCache) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -481,8 +481,8 @@ func (j *jsiiProxy_ElasticacheServerlessCache) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_ElasticacheServerlessCache) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ElasticacheServerlessCache) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -641,8 +641,8 @@ func (j *jsiiProxy_ElasticacheServerlessCache) Tags() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ElasticacheServerlessCache) TagsAll() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_ElasticacheServerlessCache) TagsAll() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tagsAll",
@@ -661,8 +661,8 @@ func (j *jsiiProxy_ElasticacheServerlessCache) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ElasticacheServerlessCache) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ElasticacheServerlessCache) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -824,7 +824,7 @@ func (j *jsiiProxy_ElasticacheServerlessCache)SetEngine(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ElasticacheServerlessCache)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ElasticacheServerlessCache)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -843,7 +843,7 @@ func (j *jsiiProxy_ElasticacheServerlessCache)SetKmsKeyId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ElasticacheServerlessCache)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ElasticacheServerlessCache)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -876,7 +876,7 @@ func (j *jsiiProxy_ElasticacheServerlessCache)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ElasticacheServerlessCache)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ElasticacheServerlessCache)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -972,14 +972,14 @@ func (j *jsiiProxy_ElasticacheServerlessCache)SetUserGroupId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a ElasticacheServerlessCache resource upon running "cdktf plan <stack-name>".
-func ElasticacheServerlessCache_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ElasticacheServerlessCache resource upon running "cdktn plan <stack-name>".
+func ElasticacheServerlessCache_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateElasticacheServerlessCache_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCache",
@@ -1113,11 +1113,11 @@ func (e *jsiiProxy_ElasticacheServerlessCache) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (e *jsiiProxy_ElasticacheServerlessCache) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_ElasticacheServerlessCache) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -1254,7 +1254,7 @@ func (e *jsiiProxy_ElasticacheServerlessCache) HasResourceMove() interface{} {
 	return returns
 }
 
-func (e *jsiiProxy_ElasticacheServerlessCache) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (e *jsiiProxy_ElasticacheServerlessCache) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := e.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1265,11 +1265,11 @@ func (e *jsiiProxy_ElasticacheServerlessCache) ImportFrom(id *string, provider c
 	)
 }
 
-func (e *jsiiProxy_ElasticacheServerlessCache) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_ElasticacheServerlessCache) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,

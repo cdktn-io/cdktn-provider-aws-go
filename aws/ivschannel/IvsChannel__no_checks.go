@@ -115,7 +115,7 @@ func (j *jsiiProxy_IvsChannel) validateSetLatencyModeParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_IvsChannel) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IvsChannel) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

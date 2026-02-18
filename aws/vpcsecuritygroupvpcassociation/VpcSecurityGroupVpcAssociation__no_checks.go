@@ -103,7 +103,7 @@ func (j *jsiiProxy_VpcSecurityGroupVpcAssociation) validateSetCountParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_VpcSecurityGroupVpcAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VpcSecurityGroupVpcAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

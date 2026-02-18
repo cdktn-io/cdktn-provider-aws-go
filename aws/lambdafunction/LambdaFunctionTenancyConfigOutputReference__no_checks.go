@@ -47,7 +47,7 @@ func (l *jsiiProxy_LambdaFunctionTenancyConfigOutputReference) validateInterpola
 	return nil
 }
 
-func (l *jsiiProxy_LambdaFunctionTenancyConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LambdaFunctionTenancyConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_LambdaFunctionTenancyConfigOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_LambdaFunctionTenancyConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LambdaFunctionTenancyConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLambdaFunctionTenancyConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLambdaFunctionTenancyConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

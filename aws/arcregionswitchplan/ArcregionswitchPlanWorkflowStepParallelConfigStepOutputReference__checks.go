@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepArcRoutingControlConfig:
 		value := value.(*[]*ArcregionswitchPlanWorkflowStepParallelConfigStepArcRoutingControlConfig)
@@ -117,7 +117,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepArcRoutingControlConfig; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepArcRoutingControlConfig; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepCustomActionLambdaConfig:
 		value := value.(*[]*ArcregionswitchPlanWorkflowStepParallelConfigStepCustomActionLambdaConfig)
@@ -148,7 +148,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepCustomActionLambdaConfig; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepCustomActionLambdaConfig; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepDocumentDbConfig:
 		value := value.(*[]*ArcregionswitchPlanWorkflowStepParallelConfigStepDocumentDbConfig)
@@ -179,7 +179,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepDocumentDbConfig; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepDocumentDbConfig; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -191,7 +191,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfig:
 		value := value.(*[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfig)
@@ -210,7 +210,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfig; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfig; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEcsCapacityIncreaseConfig:
 		value := value.(*[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEcsCapacityIncreaseConfig)
@@ -241,7 +241,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEcsCapacityIncreaseConfig; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEcsCapacityIncreaseConfig; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -253,7 +253,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfig:
 		value := value.(*[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfig)
@@ -272,7 +272,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfig; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfig; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -284,7 +284,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepExecutionApprovalConfig:
 		value := value.(*[]*ArcregionswitchPlanWorkflowStepParallelConfigStepExecutionApprovalConfig)
@@ -303,7 +303,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepExecutionApprovalConfig; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepExecutionApprovalConfig; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -315,7 +315,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepGlobalAuroraConfig:
 		value := value.(*[]*ArcregionswitchPlanWorkflowStepParallelConfigStepGlobalAuroraConfig)
@@ -334,7 +334,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepGlobalAuroraConfig; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepGlobalAuroraConfig; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -346,7 +346,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepRegionSwitchPlanConfig:
 		value := value.(*[]*ArcregionswitchPlanWorkflowStepParallelConfigStepRegionSwitchPlanConfig)
@@ -365,7 +365,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepRegionSwitchPlanConfig; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepRegionSwitchPlanConfig; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -377,7 +377,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepRoute53HealthCheckConfig:
 		value := value.(*[]*ArcregionswitchPlanWorkflowStepParallelConfigStepRoute53HealthCheckConfig)
@@ -396,14 +396,14 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepRoute53HealthCheckConfig; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepRoute53HealthCheckConfig; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -494,7 +494,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 
 func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *ArcregionswitchPlanWorkflowStepParallelConfigStep:
 		val := val.(*ArcregionswitchPlanWorkflowStepParallelConfigStep)
@@ -509,7 +509,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *ArcregionswitchPlanWorkflowStepParallelConfigStep; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *ArcregionswitchPlanWorkflowStepParallelConfigStep; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -532,7 +532,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -540,7 +540,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 	return nil
 }
 
-func validateNewArcregionswitchPlanWorkflowStepParallelConfigStepOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewArcregionswitchPlanWorkflowStepParallelConfigStepOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

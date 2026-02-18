@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsFsxOntapStorageVirtualMachineFilterList) validateGetPa
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsFsxOntapStorageVirtualMachineFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsFsxOntapStorageVirtualMachineFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsFsxOntapStorageVirtualMachineFilterList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsFsxOntapStorageVirtualMachineFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsFsxOntapStorageVirtualMachineFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsFsxOntapStorageVirtualMachineFilterList) validateSetWr
 	return nil
 }
 
-func validateNewDataAwsFsxOntapStorageVirtualMachineFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsFsxOntapStorageVirtualMachineFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

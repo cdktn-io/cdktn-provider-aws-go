@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsCloudwatchContributorManagedInsightRulesManagedRulesLi
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCloudwatchContributorManagedInsightRulesManagedRulesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCloudwatchContributorManagedInsightRulesManagedRulesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsCloudwatchContributorManagedInsightRulesManagedRulesLi
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCloudwatchContributorManagedInsightRulesManagedRulesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCloudwatchContributorManagedInsightRulesManagedRulesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsCloudwatchContributorManagedInsightRulesManagedRulesLi
 	return nil
 }
 
-func validateNewDataAwsCloudwatchContributorManagedInsightRulesManagedRulesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsCloudwatchContributorManagedInsightRulesManagedRulesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

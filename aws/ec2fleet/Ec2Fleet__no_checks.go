@@ -147,7 +147,7 @@ func (j *jsiiProxy_Ec2Fleet) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_Ec2Fleet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Ec2Fleet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

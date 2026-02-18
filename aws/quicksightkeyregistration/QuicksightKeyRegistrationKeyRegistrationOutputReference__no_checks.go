@@ -47,7 +47,7 @@ func (q *jsiiProxy_QuicksightKeyRegistrationKeyRegistrationOutputReference) vali
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightKeyRegistrationKeyRegistrationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightKeyRegistrationKeyRegistrationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_QuicksightKeyRegistrationKeyRegistrationOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightKeyRegistrationKeyRegistrationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightKeyRegistrationKeyRegistrationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewQuicksightKeyRegistrationKeyRegistrationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewQuicksightKeyRegistrationKeyRegistrationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

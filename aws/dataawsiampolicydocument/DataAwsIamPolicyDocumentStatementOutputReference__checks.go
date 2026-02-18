@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataAwsIamPolicyDocumentStatementOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (d *jsiiProxy_DataAwsIamPolicyDocumentStatementOutputReference) validatePut
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataAwsIamPolicyDocumentStatementCondition:
 		value := value.(*[]*DataAwsIamPolicyDocumentStatementCondition)
@@ -117,7 +117,7 @@ func (d *jsiiProxy_DataAwsIamPolicyDocumentStatementOutputReference) validatePut
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataAwsIamPolicyDocumentStatementCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataAwsIamPolicyDocumentStatementCondition; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (d *jsiiProxy_DataAwsIamPolicyDocumentStatementOutputReference) validatePut
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataAwsIamPolicyDocumentStatementNotPrincipals:
 		value := value.(*[]*DataAwsIamPolicyDocumentStatementNotPrincipals)
@@ -148,7 +148,7 @@ func (d *jsiiProxy_DataAwsIamPolicyDocumentStatementOutputReference) validatePut
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataAwsIamPolicyDocumentStatementNotPrincipals; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataAwsIamPolicyDocumentStatementNotPrincipals; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (d *jsiiProxy_DataAwsIamPolicyDocumentStatementOutputReference) validatePut
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataAwsIamPolicyDocumentStatementPrincipals:
 		value := value.(*[]*DataAwsIamPolicyDocumentStatementPrincipals)
@@ -179,14 +179,14 @@ func (d *jsiiProxy_DataAwsIamPolicyDocumentStatementOutputReference) validatePut
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataAwsIamPolicyDocumentStatementPrincipals; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataAwsIamPolicyDocumentStatementPrincipals; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsIamPolicyDocumentStatementOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsIamPolicyDocumentStatementOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -277,7 +277,7 @@ func (j *jsiiProxy_DataAwsIamPolicyDocumentStatementOutputReference) validateSet
 
 func (j *jsiiProxy_DataAwsIamPolicyDocumentStatementOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *DataAwsIamPolicyDocumentStatement:
 		val := val.(*DataAwsIamPolicyDocumentStatement)
@@ -292,7 +292,7 @@ func (j *jsiiProxy_DataAwsIamPolicyDocumentStatementOutputReference) validateSet
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *DataAwsIamPolicyDocumentStatement; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *DataAwsIamPolicyDocumentStatement; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -339,7 +339,7 @@ func (j *jsiiProxy_DataAwsIamPolicyDocumentStatementOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsIamPolicyDocumentStatementOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsIamPolicyDocumentStatementOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -347,7 +347,7 @@ func (j *jsiiProxy_DataAwsIamPolicyDocumentStatementOutputReference) validateSet
 	return nil
 }
 
-func validateNewDataAwsIamPolicyDocumentStatementOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsIamPolicyDocumentStatementOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

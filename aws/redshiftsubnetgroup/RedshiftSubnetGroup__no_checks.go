@@ -107,7 +107,7 @@ func (j *jsiiProxy_RedshiftSubnetGroup) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftSubnetGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RedshiftSubnetGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

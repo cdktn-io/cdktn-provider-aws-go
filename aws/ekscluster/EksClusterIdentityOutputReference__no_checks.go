@@ -47,7 +47,7 @@ func (e *jsiiProxy_EksClusterIdentityOutputReference) validateInterpolationForAt
 	return nil
 }
 
-func (e *jsiiProxy_EksClusterIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksClusterIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_EksClusterIdentityOutputReference) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_EksClusterIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksClusterIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEksClusterIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEksClusterIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

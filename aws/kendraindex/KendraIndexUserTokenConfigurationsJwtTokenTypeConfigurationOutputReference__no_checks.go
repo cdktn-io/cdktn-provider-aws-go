@@ -47,7 +47,7 @@ func (k *jsiiProxy_KendraIndexUserTokenConfigurationsJwtTokenTypeConfigurationOu
 	return nil
 }
 
-func (k *jsiiProxy_KendraIndexUserTokenConfigurationsJwtTokenTypeConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KendraIndexUserTokenConfigurationsJwtTokenTypeConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_KendraIndexUserTokenConfigurationsJwtTokenTypeConfigurationOu
 	return nil
 }
 
-func (j *jsiiProxy_KendraIndexUserTokenConfigurationsJwtTokenTypeConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KendraIndexUserTokenConfigurationsJwtTokenTypeConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_KendraIndexUserTokenConfigurationsJwtTokenTypeConfigurationOu
 	return nil
 }
 
-func validateNewKendraIndexUserTokenConfigurationsJwtTokenTypeConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKendraIndexUserTokenConfigurationsJwtTokenTypeConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

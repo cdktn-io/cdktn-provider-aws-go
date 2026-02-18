@@ -95,7 +95,7 @@ func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) validateSetLicenseModelPar
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

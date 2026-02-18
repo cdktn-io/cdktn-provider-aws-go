@@ -15,7 +15,7 @@ func (n *jsiiProxy_NatGatewayAvailabilityZoneAddressList) validateGetParameters(
 	return nil
 }
 
-func (n *jsiiProxy_NatGatewayAvailabilityZoneAddressList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NatGatewayAvailabilityZoneAddressList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_NatGatewayAvailabilityZoneAddressList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_NatGatewayAvailabilityZoneAddressList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NatGatewayAvailabilityZoneAddressList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_NatGatewayAvailabilityZoneAddressList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewNatGatewayAvailabilityZoneAddressListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNatGatewayAvailabilityZoneAddressListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

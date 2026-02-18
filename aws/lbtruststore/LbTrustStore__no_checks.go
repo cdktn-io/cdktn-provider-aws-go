@@ -119,7 +119,7 @@ func (j *jsiiProxy_LbTrustStore) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_LbTrustStore) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LbTrustStore) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

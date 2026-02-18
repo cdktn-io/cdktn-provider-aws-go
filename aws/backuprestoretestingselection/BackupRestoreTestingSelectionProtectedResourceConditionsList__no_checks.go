@@ -15,7 +15,7 @@ func (b *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsList)
 	return nil
 }
 
-func (b *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsList)
 	return nil
 }
 
-func (j *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsList)
 	return nil
 }
 
-func validateNewBackupRestoreTestingSelectionProtectedResourceConditionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBackupRestoreTestingSelectionProtectedResourceConditionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

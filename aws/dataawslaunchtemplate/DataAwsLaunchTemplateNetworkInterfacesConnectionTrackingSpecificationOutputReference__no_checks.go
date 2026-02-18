@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsLaunchTemplateNetworkInterfacesConnectionTrackingSpeci
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLaunchTemplateNetworkInterfacesConnectionTrackingSpecificationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLaunchTemplateNetworkInterfacesConnectionTrackingSpecificationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsLaunchTemplateNetworkInterfacesConnectionTrackingSpeci
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLaunchTemplateNetworkInterfacesConnectionTrackingSpecificationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLaunchTemplateNetworkInterfacesConnectionTrackingSpecificationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsLaunchTemplateNetworkInterfacesConnectionTrackingSpecificationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsLaunchTemplateNetworkInterfacesConnectionTrackingSpecificationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

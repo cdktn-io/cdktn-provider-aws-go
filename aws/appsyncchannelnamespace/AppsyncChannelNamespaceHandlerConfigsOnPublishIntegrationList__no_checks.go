@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationList
 	return nil
 }
 
-func (a *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationList
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationList
 	return nil
 }
 
-func validateNewAppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

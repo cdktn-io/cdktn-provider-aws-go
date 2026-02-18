@@ -47,7 +47,7 @@ func (d *jsiiProxy_DirectoryServiceDirectoryVpcSettingsOutputReference) validate
 	return nil
 }
 
-func (d *jsiiProxy_DirectoryServiceDirectoryVpcSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DirectoryServiceDirectoryVpcSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DirectoryServiceDirectoryVpcSettingsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_DirectoryServiceDirectoryVpcSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DirectoryServiceDirectoryVpcSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DirectoryServiceDirectoryVpcSettingsOutputReference) validate
 	return nil
 }
 
-func validateNewDirectoryServiceDirectoryVpcSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDirectoryServiceDirectoryVpcSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

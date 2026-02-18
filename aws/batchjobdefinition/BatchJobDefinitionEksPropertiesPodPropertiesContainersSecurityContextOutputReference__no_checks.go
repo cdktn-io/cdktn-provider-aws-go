@@ -47,7 +47,7 @@ func (b *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurit
 	return nil
 }
 
-func (b *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurit
 	return nil
 }
 
-func (j *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

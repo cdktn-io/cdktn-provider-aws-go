@@ -47,7 +47,7 @@ func (e *jsiiProxy_EfsBackupPolicyBackupPolicyOutputReference) validateInterpola
 	return nil
 }
 
-func (e *jsiiProxy_EfsBackupPolicyBackupPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EfsBackupPolicyBackupPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_EfsBackupPolicyBackupPolicyOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_EfsBackupPolicyBackupPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EfsBackupPolicyBackupPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEfsBackupPolicyBackupPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEfsBackupPolicyBackupPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

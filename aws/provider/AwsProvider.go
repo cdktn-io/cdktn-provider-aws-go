@@ -5,16 +5,16 @@ package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/provider/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/provider/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs aws}.
 type AwsProvider interface {
-	cdktf.TerraformProvider
+	cdktn.TerraformProvider
 	AccessKey() *string
 	SetAccessKey(val *string)
 	AccessKeyInput() *string
@@ -31,7 +31,7 @@ type AwsProvider interface {
 	SetAssumeRoleWithWebIdentity(val interface{})
 	AssumeRoleWithWebIdentityInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	CustomCaBundle() *string
@@ -123,7 +123,7 @@ type AwsProvider interface {
 	SetTagPolicyCompliance(val *string)
 	TagPolicyComplianceInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformProviderSource() *string
 	// Experimental.
@@ -202,7 +202,7 @@ type AwsProvider interface {
 
 // The jsii proxy struct for AwsProvider
 type jsiiProxy_AwsProvider struct {
-	internal.Type__cdktfTerraformProvider
+	internal.Type__cdktnTerraformProvider
 }
 
 func (j *jsiiProxy_AwsProvider) AccessKey() *string {
@@ -305,8 +305,8 @@ func (j *jsiiProxy_AwsProvider) AssumeRoleWithWebIdentityInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_AwsProvider) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_AwsProvider) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -895,8 +895,8 @@ func (j *jsiiProxy_AwsProvider) TagPolicyComplianceInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AwsProvider) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_AwsProvider) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1379,14 +1379,14 @@ func (j *jsiiProxy_AwsProvider)SetUserAgent(val *[]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a AwsProvider resource upon running "cdktf plan <stack-name>".
-func AwsProvider_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a AwsProvider resource upon running "cdktn plan <stack-name>".
+func AwsProvider_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateAwsProvider_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.provider.AwsProvider",

@@ -5,14 +5,14 @@ package kinesisfirehosedeliverystream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/kinesisfirehosedeliverystream/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/kinesisfirehosedeliverystream/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfiguration
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfiguration
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfiguration
 
 // The jsii proxy struct for KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsList
 type jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessin
 	return returns
 }
 
-func (j *jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessin
 }
 
 
-func NewKinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsList {
+func NewKinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsList {
 	_init_.Initialize()
 
 	if err := validateNewKinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewKinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurat
 	return &j
 }
 
-func NewKinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsList_Override(k KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewKinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsList_Override(k KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessin
 	)
 }
 
-func (j *jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessin
 	)
 }
 
-func (k *jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (k *jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := k.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		k,
@@ -231,7 +231,7 @@ func (k *jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessin
 	return returns
 }
 
-func (k *jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfigurationProcessorsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

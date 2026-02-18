@@ -47,7 +47,7 @@ func (r *jsiiProxy_Route53KeySigningKeyTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (r *jsiiProxy_Route53KeySigningKeyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_Route53KeySigningKeyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_Route53KeySigningKeyTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_Route53KeySigningKeyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Route53KeySigningKeyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_Route53KeySigningKeyTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewRoute53KeySigningKeyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRoute53KeySigningKeyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

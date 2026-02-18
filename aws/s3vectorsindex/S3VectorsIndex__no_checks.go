@@ -123,7 +123,7 @@ func (j *jsiiProxy_S3VectorsIndex) validateSetIndexNameParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_S3VectorsIndex) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_S3VectorsIndex) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -107,7 +107,7 @@ func (j *jsiiProxy_Route53RecordsExclusive) validateSetCountParameters(val inter
 	return nil
 }
 
-func (j *jsiiProxy_Route53RecordsExclusive) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Route53RecordsExclusive) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (d *jsiiProxy_DataAwsGlueScriptDagNodeOutputReference) validatePutArgsParam
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsGlueScriptDagNodeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsGlueScriptDagNodeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_DataAwsGlueScriptDagNodeOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsGlueScriptDagNodeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsGlueScriptDagNodeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsGlueScriptDagNodeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsGlueScriptDagNodeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (q *jsiiProxy_QuicksightRefreshScheduleScheduleScheduleFrequencyList) valid
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightRefreshScheduleScheduleScheduleFrequencyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightRefreshScheduleScheduleScheduleFrequencyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_QuicksightRefreshScheduleScheduleScheduleFrequencyList) valid
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightRefreshScheduleScheduleScheduleFrequencyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightRefreshScheduleScheduleScheduleFrequencyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_QuicksightRefreshScheduleScheduleScheduleFrequencyList) valid
 	return nil
 }
 
-func validateNewQuicksightRefreshScheduleScheduleScheduleFrequencyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewQuicksightRefreshScheduleScheduleScheduleFrequencyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

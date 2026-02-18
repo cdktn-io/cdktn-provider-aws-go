@@ -111,7 +111,7 @@ func (j *jsiiProxy_AppsyncSourceApiAssociation) validateSetDescriptionParameters
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncSourceApiAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppsyncSourceApiAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

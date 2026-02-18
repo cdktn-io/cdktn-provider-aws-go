@@ -5,22 +5,22 @@ package wafv2ipset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/wafv2ipset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/wafv2ipset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/wafv2_ip_set aws_wafv2_ip_set}.
 type Wafv2IpSet interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Addresses() *[]*string
 	SetAddresses(val *[]*string)
 	AddressesInput() *[]*string
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -39,9 +39,9 @@ type Wafv2IpSet interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -53,9 +53,9 @@ type Wafv2IpSet interface {
 	SetIpAddressVersion(val *string)
 	IpAddressVersionInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LockToken() *string
 	Name() *string
 	SetName(val *string)
@@ -66,9 +66,9 @@ type Wafv2IpSet interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -88,7 +88,7 @@ type Wafv2IpSet interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -101,7 +101,7 @@ type Wafv2IpSet interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -119,9 +119,9 @@ type Wafv2IpSet interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -162,7 +162,7 @@ type Wafv2IpSet interface {
 
 // The jsii proxy struct for Wafv2IpSet
 type jsiiProxy_Wafv2IpSet struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_Wafv2IpSet) Addresses() *[]*string {
@@ -195,8 +195,8 @@ func (j *jsiiProxy_Wafv2IpSet) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Wafv2IpSet) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_Wafv2IpSet) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -265,8 +265,8 @@ func (j *jsiiProxy_Wafv2IpSet) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Wafv2IpSet) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_Wafv2IpSet) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -335,8 +335,8 @@ func (j *jsiiProxy_Wafv2IpSet) IpAddressVersionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Wafv2IpSet) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_Wafv2IpSet) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -405,8 +405,8 @@ func (j *jsiiProxy_Wafv2IpSet) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_Wafv2IpSet) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_Wafv2IpSet) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -515,8 +515,8 @@ func (j *jsiiProxy_Wafv2IpSet) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_Wafv2IpSet) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_Wafv2IpSet) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -627,7 +627,7 @@ func (j *jsiiProxy_Wafv2IpSet)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Wafv2IpSet)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_Wafv2IpSet)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -657,7 +657,7 @@ func (j *jsiiProxy_Wafv2IpSet)SetIpAddressVersion(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Wafv2IpSet)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_Wafv2IpSet)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -690,7 +690,7 @@ func (j *jsiiProxy_Wafv2IpSet)SetNamePrefix(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Wafv2IpSet)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_Wafv2IpSet)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -753,14 +753,14 @@ func (j *jsiiProxy_Wafv2IpSet)SetTagsAll(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a Wafv2IpSet resource upon running "cdktf plan <stack-name>".
-func Wafv2IpSet_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a Wafv2IpSet resource upon running "cdktn plan <stack-name>".
+func Wafv2IpSet_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateWafv2IpSet_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.wafv2IpSet.Wafv2IpSet",
@@ -894,11 +894,11 @@ func (w *jsiiProxy_Wafv2IpSet) GetAnyMapAttribute(terraformAttribute *string) *m
 	return returns
 }
 
-func (w *jsiiProxy_Wafv2IpSet) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_Wafv2IpSet) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -1035,7 +1035,7 @@ func (w *jsiiProxy_Wafv2IpSet) HasResourceMove() interface{} {
 	return returns
 }
 
-func (w *jsiiProxy_Wafv2IpSet) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (w *jsiiProxy_Wafv2IpSet) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := w.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1046,11 +1046,11 @@ func (w *jsiiProxy_Wafv2IpSet) ImportFrom(id *string, provider cdktf.TerraformPr
 	)
 }
 
-func (w *jsiiProxy_Wafv2IpSet) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_Wafv2IpSet) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,

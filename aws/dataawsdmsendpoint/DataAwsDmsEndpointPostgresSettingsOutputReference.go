@@ -5,18 +5,18 @@ package dataawsdmsendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsdmsendpoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsdmsendpoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsDmsEndpointPostgresSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AfterConnectScript() *string
 	AuthenticationMethod() *string
 	BabelfishDatabaseName() *string
-	CaptureDdls() cdktf.IResolvable
+	CaptureDdls() cdktn.IResolvable
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -35,16 +35,16 @@ type DataAwsDmsEndpointPostgresSettingsOutputReference interface {
 	DatabaseMode() *string
 	DdlArtifactsSchema() *string
 	ExecuteTimeout() *float64
-	FailTasksOnLobTruncation() cdktf.IResolvable
+	FailTasksOnLobTruncation() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
-	HeartbeatEnable() cdktf.IResolvable
+	HeartbeatEnable() cdktn.IResolvable
 	HeartbeatFrequency() *float64
 	HeartbeatSchema() *string
 	InternalValue() *DataAwsDmsEndpointPostgresSettings
 	SetInternalValue(val *DataAwsDmsEndpointPostgresSettings)
-	MapBooleanAsBoolean() cdktf.IResolvable
-	MapJsonbAsClob() cdktf.IResolvable
+	MapBooleanAsBoolean() cdktn.IResolvable
+	MapJsonbAsClob() cdktn.IResolvable
 	MapLongVarcharAs() *string
 	MaxFileSize() *float64
 	PluginName() *string
@@ -55,15 +55,15 @@ type DataAwsDmsEndpointPostgresSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,12 +79,12 @@ type DataAwsDmsEndpointPostgresSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -94,7 +94,7 @@ type DataAwsDmsEndpointPostgresSettingsOutputReference interface {
 
 // The jsii proxy struct for DataAwsDmsEndpointPostgresSettingsOutputReference
 type jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) AfterConnectScript() *string {
@@ -127,8 +127,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) BabelfishD
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) CaptureDdls() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) CaptureDdls() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"captureDdls",
@@ -197,8 +197,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) ExecuteTim
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) FailTasksOnLobTruncation() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) FailTasksOnLobTruncation() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"failTasksOnLobTruncation",
@@ -217,8 +217,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) Fqn() *str
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) HeartbeatEnable() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) HeartbeatEnable() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"heartbeatEnable",
@@ -257,8 +257,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) InternalVa
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) MapBooleanAsBoolean() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) MapBooleanAsBoolean() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"mapBooleanAsBoolean",
@@ -267,8 +267,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) MapBoolean
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) MapJsonbAsClob() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) MapJsonbAsClob() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"mapJsonbAsClob",
@@ -337,8 +337,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -348,7 +348,7 @@ func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) TerraformR
 }
 
 
-func NewDataAwsDmsEndpointPostgresSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsDmsEndpointPostgresSettingsOutputReference {
+func NewDataAwsDmsEndpointPostgresSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsDmsEndpointPostgresSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsDmsEndpointPostgresSettingsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -365,7 +365,7 @@ func NewDataAwsDmsEndpointPostgresSettingsOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewDataAwsDmsEndpointPostgresSettingsOutputReference_Override(d DataAwsDmsEndpointPostgresSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsDmsEndpointPostgresSettingsOutputReference_Override(d DataAwsDmsEndpointPostgresSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -419,7 +419,7 @@ func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -459,11 +459,11 @@ func (d *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) GetAnyMapA
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -587,8 +587,8 @@ func (d *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) GetStringM
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -600,11 +600,11 @@ func (d *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) Interpolat
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -616,7 +616,7 @@ func (d *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) Interpolat
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

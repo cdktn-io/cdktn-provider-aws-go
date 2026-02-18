@@ -51,7 +51,7 @@ func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) vali
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOpensearchDomainClusterConfigNodeOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOpensearchDomainClusterConfigNodeOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

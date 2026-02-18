@@ -47,7 +47,7 @@ func (c *jsiiProxy_CodedeployDeploymentGroupDeploymentStyleOutputReference) vali
 	return nil
 }
 
-func (c *jsiiProxy_CodedeployDeploymentGroupDeploymentStyleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodedeployDeploymentGroupDeploymentStyleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CodedeployDeploymentGroupDeploymentStyleOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_CodedeployDeploymentGroupDeploymentStyleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodedeployDeploymentGroupDeploymentStyleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCodedeployDeploymentGroupDeploymentStyleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCodedeployDeploymentGroupDeploymentStyleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

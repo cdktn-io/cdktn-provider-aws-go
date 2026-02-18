@@ -5,16 +5,16 @@ package mqbroker
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/mqbroker/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/mqbroker/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/mq_broker aws_mq_broker}.
 type MqBroker interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApplyImmediately() interface{}
 	SetApplyImmediately(val interface{})
 	ApplyImmediatelyInput() interface{}
@@ -29,7 +29,7 @@ type MqBroker interface {
 	SetBrokerName(val *string)
 	BrokerNameInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Configuration() MqBrokerConfigurationOutputReference
 	ConfigurationInput() *MqBrokerConfiguration
 	// Experimental.
@@ -64,9 +64,9 @@ type MqBroker interface {
 	SetEngineVersion(val *string)
 	EngineVersionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -81,9 +81,9 @@ type MqBroker interface {
 	LdapServerMetadata() MqBrokerLdapServerMetadataOutputReference
 	LdapServerMetadataInput() *MqBrokerLdapServerMetadata
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Logs() MqBrokerLogsOutputReference
 	LogsInput() *MqBrokerLogs
 	MaintenanceWindowStartTime() MqBrokerMaintenanceWindowStartTimeOutputReference
@@ -92,9 +92,9 @@ type MqBroker interface {
 	Node() constructs.Node
 	PendingDataReplicationMode() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -123,7 +123,7 @@ type MqBroker interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -140,7 +140,7 @@ type MqBroker interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -158,9 +158,9 @@ type MqBroker interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -220,7 +220,7 @@ type MqBroker interface {
 
 // The jsii proxy struct for MqBroker
 type jsiiProxy_MqBroker struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_MqBroker) ApplyImmediately() interface{} {
@@ -313,8 +313,8 @@ func (j *jsiiProxy_MqBroker) BrokerNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_MqBroker) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_MqBroker) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -503,8 +503,8 @@ func (j *jsiiProxy_MqBroker) EngineVersionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_MqBroker) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_MqBroker) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -603,8 +603,8 @@ func (j *jsiiProxy_MqBroker) LdapServerMetadataInput() *MqBrokerLdapServerMetada
 	return returns
 }
 
-func (j *jsiiProxy_MqBroker) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_MqBroker) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -673,8 +673,8 @@ func (j *jsiiProxy_MqBroker) PendingDataReplicationMode() *string {
 	return returns
 }
 
-func (j *jsiiProxy_MqBroker) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_MqBroker) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -843,8 +843,8 @@ func (j *jsiiProxy_MqBroker) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_MqBroker) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_MqBroker) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1072,7 +1072,7 @@ func (j *jsiiProxy_MqBroker)SetEngineVersion(val *string) {
 	)
 }
 
-func (j *jsiiProxy_MqBroker)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_MqBroker)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1102,7 +1102,7 @@ func (j *jsiiProxy_MqBroker)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_MqBroker)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_MqBroker)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1113,7 +1113,7 @@ func (j *jsiiProxy_MqBroker)SetLifecycle(val *cdktf.TerraformResourceLifecycle) 
 	)
 }
 
-func (j *jsiiProxy_MqBroker)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_MqBroker)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1209,14 +1209,14 @@ func (j *jsiiProxy_MqBroker)SetTagsAll(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a MqBroker resource upon running "cdktf plan <stack-name>".
-func MqBroker_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a MqBroker resource upon running "cdktn plan <stack-name>".
+func MqBroker_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateMqBroker_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.mqBroker.MqBroker",
@@ -1350,11 +1350,11 @@ func (m *jsiiProxy_MqBroker) GetAnyMapAttribute(terraformAttribute *string) *map
 	return returns
 }
 
-func (m *jsiiProxy_MqBroker) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MqBroker) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -1491,7 +1491,7 @@ func (m *jsiiProxy_MqBroker) HasResourceMove() interface{} {
 	return returns
 }
 
-func (m *jsiiProxy_MqBroker) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (m *jsiiProxy_MqBroker) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := m.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1502,11 +1502,11 @@ func (m *jsiiProxy_MqBroker) ImportFrom(id *string, provider cdktf.TerraformProv
 	)
 }
 
-func (m *jsiiProxy_MqBroker) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MqBroker) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,

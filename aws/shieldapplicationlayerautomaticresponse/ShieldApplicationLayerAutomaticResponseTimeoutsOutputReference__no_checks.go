@@ -47,7 +47,7 @@ func (s *jsiiProxy_ShieldApplicationLayerAutomaticResponseTimeoutsOutputReferenc
 	return nil
 }
 
-func (s *jsiiProxy_ShieldApplicationLayerAutomaticResponseTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ShieldApplicationLayerAutomaticResponseTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ShieldApplicationLayerAutomaticResponseTimeoutsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_ShieldApplicationLayerAutomaticResponseTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ShieldApplicationLayerAutomaticResponseTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ShieldApplicationLayerAutomaticResponseTimeoutsOutputReferenc
 	return nil
 }
 
-func validateNewShieldApplicationLayerAutomaticResponseTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewShieldApplicationLayerAutomaticResponseTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

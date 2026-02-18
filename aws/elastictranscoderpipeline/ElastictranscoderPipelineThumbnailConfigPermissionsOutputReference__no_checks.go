@@ -47,7 +47,7 @@ func (e *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputRefe
 	return nil
 }
 
-func (e *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewElastictranscoderPipelineThumbnailConfigPermissionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewElastictranscoderPipelineThumbnailConfigPermissionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

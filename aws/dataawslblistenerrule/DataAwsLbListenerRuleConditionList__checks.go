@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataAwsLbListenerRuleConditionList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (d *jsiiProxy_DataAwsLbListenerRuleConditionList) validateGetParameters(ind
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLbListenerRuleConditionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLbListenerRuleConditionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (d *jsiiProxy_DataAwsLbListenerRuleConditionList) validateResolveParameters
 
 func (j *jsiiProxy_DataAwsLbListenerRuleConditionList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataAwsLbListenerRuleCondition:
 		val := val.(*[]*DataAwsLbListenerRuleCondition)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_DataAwsLbListenerRuleConditionList) validateSetInternalValueP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*DataAwsLbListenerRuleCondition; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*DataAwsLbListenerRuleCondition; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_DataAwsLbListenerRuleConditionList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLbListenerRuleConditionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLbListenerRuleConditionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_DataAwsLbListenerRuleConditionList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewDataAwsLbListenerRuleConditionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsLbListenerRuleConditionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

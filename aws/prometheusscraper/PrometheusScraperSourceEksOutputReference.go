@@ -5,14 +5,14 @@ package prometheusscraper
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/prometheusscraper/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/prometheusscraper/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PrometheusScraperSourceEksOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ClusterArn() *string
 	SetClusterArn(val *string)
 	ClusterArnInput() *string
@@ -46,15 +46,15 @@ type PrometheusScraperSourceEksOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type PrometheusScraperSourceEksOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetSecurityGroupIds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type PrometheusScraperSourceEksOutputReference interface {
 
 // The jsii proxy struct for PrometheusScraperSourceEksOutputReference
 type jsiiProxy_PrometheusScraperSourceEksOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PrometheusScraperSourceEksOutputReference) ClusterArn() *string {
@@ -209,8 +209,8 @@ func (j *jsiiProxy_PrometheusScraperSourceEksOutputReference) TerraformAttribute
 	return returns
 }
 
-func (j *jsiiProxy_PrometheusScraperSourceEksOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PrometheusScraperSourceEksOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_PrometheusScraperSourceEksOutputReference) TerraformResource(
 }
 
 
-func NewPrometheusScraperSourceEksOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) PrometheusScraperSourceEksOutputReference {
+func NewPrometheusScraperSourceEksOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) PrometheusScraperSourceEksOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPrometheusScraperSourceEksOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -237,7 +237,7 @@ func NewPrometheusScraperSourceEksOutputReference(terraformResource cdktf.IInter
 	return &j
 }
 
-func NewPrometheusScraperSourceEksOutputReference_Override(p PrometheusScraperSourceEksOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewPrometheusScraperSourceEksOutputReference_Override(p PrometheusScraperSourceEksOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -324,7 +324,7 @@ func (j *jsiiProxy_PrometheusScraperSourceEksOutputReference)SetTerraformAttribu
 	)
 }
 
-func (j *jsiiProxy_PrometheusScraperSourceEksOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PrometheusScraperSourceEksOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (p *jsiiProxy_PrometheusScraperSourceEksOutputReference) GetAnyMapAttribute
 	return returns
 }
 
-func (p *jsiiProxy_PrometheusScraperSourceEksOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrometheusScraperSourceEksOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -492,8 +492,8 @@ func (p *jsiiProxy_PrometheusScraperSourceEksOutputReference) GetStringMapAttrib
 	return returns
 }
 
-func (p *jsiiProxy_PrometheusScraperSourceEksOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PrometheusScraperSourceEksOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -505,11 +505,11 @@ func (p *jsiiProxy_PrometheusScraperSourceEksOutputReference) InterpolationAsLis
 	return returns
 }
 
-func (p *jsiiProxy_PrometheusScraperSourceEksOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrometheusScraperSourceEksOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -529,7 +529,7 @@ func (p *jsiiProxy_PrometheusScraperSourceEksOutputReference) ResetSecurityGroup
 	)
 }
 
-func (p *jsiiProxy_PrometheusScraperSourceEksOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PrometheusScraperSourceEksOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

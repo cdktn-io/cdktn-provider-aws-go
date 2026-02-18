@@ -239,7 +239,7 @@ func (j *jsiiProxy_SpotInstanceRequest) validateSetLaunchGroupParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_SpotInstanceRequest) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SpotInstanceRequest) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (f *jsiiProxy_FinspaceKxDataviewSegmentConfigurationsOutputReference) valid
 	return nil
 }
 
-func (f *jsiiProxy_FinspaceKxDataviewSegmentConfigurationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FinspaceKxDataviewSegmentConfigurationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_FinspaceKxDataviewSegmentConfigurationsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_FinspaceKxDataviewSegmentConfigurationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FinspaceKxDataviewSegmentConfigurationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_FinspaceKxDataviewSegmentConfigurationsOutputReference) valid
 	return nil
 }
 
-func validateNewFinspaceKxDataviewSegmentConfigurationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFinspaceKxDataviewSegmentConfigurationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

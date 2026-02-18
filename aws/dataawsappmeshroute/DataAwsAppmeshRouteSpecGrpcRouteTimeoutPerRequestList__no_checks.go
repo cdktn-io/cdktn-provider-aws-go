@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsAppmeshRouteSpecGrpcRouteTimeoutPerRequestList) valida
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAppmeshRouteSpecGrpcRouteTimeoutPerRequestList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAppmeshRouteSpecGrpcRouteTimeoutPerRequestList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsAppmeshRouteSpecGrpcRouteTimeoutPerRequestList) valida
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAppmeshRouteSpecGrpcRouteTimeoutPerRequestList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAppmeshRouteSpecGrpcRouteTimeoutPerRequestList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsAppmeshRouteSpecGrpcRouteTimeoutPerRequestList) valida
 	return nil
 }
 
-func validateNewDataAwsAppmeshRouteSpecGrpcRouteTimeoutPerRequestListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsAppmeshRouteSpecGrpcRouteTimeoutPerRequestListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

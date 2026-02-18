@@ -15,7 +15,7 @@ func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsRSessionAppSettingsCustomIm
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsRSessionAppSettingsCustomImageList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsRSessionAppSettingsCustomImageList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsRSessionAppSettingsCustomIm
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsRSessionAppSettingsCustomImageList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsRSessionAppSettingsCustomImageList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsRSessionAppSettingsCustomIm
 	return nil
 }
 
-func validateNewSagemakerDomainDefaultUserSettingsRSessionAppSettingsCustomImageListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSagemakerDomainDefaultUserSettingsRSessionAppSettingsCustomImageListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

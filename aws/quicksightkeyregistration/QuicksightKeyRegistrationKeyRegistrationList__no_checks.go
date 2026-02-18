@@ -15,7 +15,7 @@ func (q *jsiiProxy_QuicksightKeyRegistrationKeyRegistrationList) validateGetPara
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightKeyRegistrationKeyRegistrationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightKeyRegistrationKeyRegistrationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_QuicksightKeyRegistrationKeyRegistrationList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightKeyRegistrationKeyRegistrationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightKeyRegistrationKeyRegistrationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_QuicksightKeyRegistrationKeyRegistrationList) validateSetWrap
 	return nil
 }
 
-func validateNewQuicksightKeyRegistrationKeyRegistrationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewQuicksightKeyRegistrationKeyRegistrationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

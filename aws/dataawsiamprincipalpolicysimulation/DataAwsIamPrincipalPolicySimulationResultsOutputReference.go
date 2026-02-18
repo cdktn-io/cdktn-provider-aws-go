@@ -5,16 +5,16 @@ package dataawsiamprincipalpolicysimulation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsiamprincipalpolicysimulation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsiamprincipalpolicysimulation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsIamPrincipalPolicySimulationResultsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ActionName() *string
-	Allowed() cdktf.IResolvable
+	Allowed() cdktn.IResolvable
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -31,7 +31,7 @@ type DataAwsIamPrincipalPolicySimulationResultsOutputReference interface {
 	// Experimental.
 	CreationStack() *[]*string
 	Decision() *string
-	DecisionDetails() cdktf.StringMap
+	DecisionDetails() cdktn.StringMap
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsIamPrincipalPolicySimulationResults
@@ -44,15 +44,15 @@ type DataAwsIamPrincipalPolicySimulationResultsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -68,12 +68,12 @@ type DataAwsIamPrincipalPolicySimulationResultsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type DataAwsIamPrincipalPolicySimulationResultsOutputReference interface {
 
 // The jsii proxy struct for DataAwsIamPrincipalPolicySimulationResultsOutputReference
 type jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) ActionName() *string {
@@ -96,8 +96,8 @@ func (j *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) Ac
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) Allowed() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) Allowed() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"allowed",
@@ -146,8 +146,8 @@ func (j *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) De
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) DecisionDetails() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) DecisionDetails() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"decisionDetails",
@@ -216,8 +216,8 @@ func (j *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -227,7 +227,7 @@ func (j *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) Te
 }
 
 
-func NewDataAwsIamPrincipalPolicySimulationResultsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsIamPrincipalPolicySimulationResultsOutputReference {
+func NewDataAwsIamPrincipalPolicySimulationResultsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsIamPrincipalPolicySimulationResultsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsIamPrincipalPolicySimulationResultsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -244,7 +244,7 @@ func NewDataAwsIamPrincipalPolicySimulationResultsOutputReference(terraformResou
 	return &j
 }
 
-func NewDataAwsIamPrincipalPolicySimulationResultsOutputReference_Override(d DataAwsIamPrincipalPolicySimulationResultsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsIamPrincipalPolicySimulationResultsOutputReference_Override(d DataAwsIamPrincipalPolicySimulationResultsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -298,7 +298,7 @@ func (j *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -338,11 +338,11 @@ func (d *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) Ge
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -466,8 +466,8 @@ func (d *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) Ge
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -479,11 +479,11 @@ func (d *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) In
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -495,7 +495,7 @@ func (d *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) In
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

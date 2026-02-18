@@ -59,7 +59,7 @@ func (c *jsiiProxy_CloudfrontDistributionTenantCustomizationsOutputReference) va
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontDistributionTenantCustomizationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontDistributionTenantCustomizationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_CloudfrontDistributionTenantCustomizationsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontDistributionTenantCustomizationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontDistributionTenantCustomizationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudfrontDistributionTenantCustomizationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudfrontDistributionTenantCustomizationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

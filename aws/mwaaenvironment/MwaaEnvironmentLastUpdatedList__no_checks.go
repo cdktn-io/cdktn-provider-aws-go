@@ -15,7 +15,7 @@ func (m *jsiiProxy_MwaaEnvironmentLastUpdatedList) validateGetParameters(index *
 	return nil
 }
 
-func (m *jsiiProxy_MwaaEnvironmentLastUpdatedList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MwaaEnvironmentLastUpdatedList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_MwaaEnvironmentLastUpdatedList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_MwaaEnvironmentLastUpdatedList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MwaaEnvironmentLastUpdatedList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_MwaaEnvironmentLastUpdatedList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewMwaaEnvironmentLastUpdatedListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMwaaEnvironmentLastUpdatedListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

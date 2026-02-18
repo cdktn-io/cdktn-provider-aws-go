@@ -103,7 +103,7 @@ func (j *jsiiProxy_LambdaFunctionRecursionConfig) validateSetFunctionNameParamet
 	return nil
 }
 
-func (j *jsiiProxy_LambdaFunctionRecursionConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LambdaFunctionRecursionConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

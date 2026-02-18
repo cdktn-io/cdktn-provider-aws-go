@@ -119,7 +119,7 @@ func (j *jsiiProxy_OsisPipeline) validateSetCountParameters(val interface{}) err
 	return nil
 }
 
-func (j *jsiiProxy_OsisPipeline) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_OsisPipeline) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

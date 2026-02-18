@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionOutputRe
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

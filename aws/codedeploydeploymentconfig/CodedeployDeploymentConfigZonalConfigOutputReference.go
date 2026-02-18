@@ -5,14 +5,14 @@ package codedeploydeploymentconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/codedeploydeploymentconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/codedeploydeploymentconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CodedeployDeploymentConfigZonalConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -45,15 +45,15 @@ type CodedeployDeploymentConfigZonalConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,16 +69,16 @@ type CodedeployDeploymentConfigZonalConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutMinimumHealthyHostsPerZone(value *CodedeployDeploymentConfigZonalConfigMinimumHealthyHostsPerZone)
 	ResetFirstZoneMonitorDurationInSeconds()
 	ResetMinimumHealthyHostsPerZone()
 	ResetMonitorDurationInSeconds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type CodedeployDeploymentConfigZonalConfigOutputReference interface {
 
 // The jsii proxy struct for CodedeployDeploymentConfigZonalConfigOutputReference
 type jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) Terrafo
 }
 
 
-func NewCodedeployDeploymentConfigZonalConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CodedeployDeploymentConfigZonalConfigOutputReference {
+func NewCodedeployDeploymentConfigZonalConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CodedeployDeploymentConfigZonalConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCodedeployDeploymentConfigZonalConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewCodedeployDeploymentConfigZonalConfigOutputReference(terraformResource c
 	return &j
 }
 
-func NewCodedeployDeploymentConfigZonalConfigOutputReference_Override(c CodedeployDeploymentConfigZonalConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCodedeployDeploymentConfigZonalConfigOutputReference_Override(c CodedeployDeploymentConfigZonalConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -355,11 +355,11 @@ func (c *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) GetAnyM
 	return returns
 }
 
-func (c *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -483,8 +483,8 @@ func (c *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) GetStri
 	return returns
 }
 
-func (c *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -496,11 +496,11 @@ func (c *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) Interpo
 	return returns
 }
 
-func (c *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -547,7 +547,7 @@ func (c *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) ResetMo
 	)
 }
 
-func (c *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataAwsRoute53ResolverQueryLogConfigFilterOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (d *jsiiProxy_DataAwsRoute53ResolverQueryLogConfigFilterOutputReference) va
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsRoute53ResolverQueryLogConfigFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsRoute53ResolverQueryLogConfigFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -168,7 +168,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverQueryLogConfigFilterOutputReference) va
 
 func (j *jsiiProxy_DataAwsRoute53ResolverQueryLogConfigFilterOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *DataAwsRoute53ResolverQueryLogConfigFilter:
 		val := val.(*DataAwsRoute53ResolverQueryLogConfigFilter)
@@ -183,7 +183,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverQueryLogConfigFilterOutputReference) va
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *DataAwsRoute53ResolverQueryLogConfigFilter; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *DataAwsRoute53ResolverQueryLogConfigFilter; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -206,7 +206,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverQueryLogConfigFilterOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRoute53ResolverQueryLogConfigFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsRoute53ResolverQueryLogConfigFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -222,7 +222,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverQueryLogConfigFilterOutputReference) va
 	return nil
 }
 
-func validateNewDataAwsRoute53ResolverQueryLogConfigFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsRoute53ResolverQueryLogConfigFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

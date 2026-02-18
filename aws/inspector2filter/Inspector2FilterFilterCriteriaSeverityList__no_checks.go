@@ -15,7 +15,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaSeverityList) validateGetParame
 	return nil
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaSeverityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaSeverityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaSeverityList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_Inspector2FilterFilterCriteriaSeverityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Inspector2FilterFilterCriteriaSeverityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaSeverityList) validateSetWrapsS
 	return nil
 }
 
-func validateNewInspector2FilterFilterCriteriaSeverityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewInspector2FilterFilterCriteriaSeverityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

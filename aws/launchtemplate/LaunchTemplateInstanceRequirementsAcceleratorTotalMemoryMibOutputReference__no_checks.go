@@ -47,7 +47,7 @@ func (l *jsiiProxy_LaunchTemplateInstanceRequirementsAcceleratorTotalMemoryMibOu
 	return nil
 }
 
-func (l *jsiiProxy_LaunchTemplateInstanceRequirementsAcceleratorTotalMemoryMibOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LaunchTemplateInstanceRequirementsAcceleratorTotalMemoryMibOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_LaunchTemplateInstanceRequirementsAcceleratorTotalMemoryMibOu
 	return nil
 }
 
-func (j *jsiiProxy_LaunchTemplateInstanceRequirementsAcceleratorTotalMemoryMibOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LaunchTemplateInstanceRequirementsAcceleratorTotalMemoryMibOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLaunchTemplateInstanceRequirementsAcceleratorTotalMemoryMibOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLaunchTemplateInstanceRequirementsAcceleratorTotalMemoryMibOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (r *jsiiProxy_Route53RecordGeoproximityRoutingPolicyOutputReference) valida
 	return nil
 }
 
-func (r *jsiiProxy_Route53RecordGeoproximityRoutingPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_Route53RecordGeoproximityRoutingPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_Route53RecordGeoproximityRoutingPolicyOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_Route53RecordGeoproximityRoutingPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Route53RecordGeoproximityRoutingPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRoute53RecordGeoproximityRoutingPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRoute53RecordGeoproximityRoutingPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

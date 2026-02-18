@@ -103,7 +103,7 @@ func (j *jsiiProxy_SagemakerModelPackageGroup) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerModelPackageGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SagemakerModelPackageGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

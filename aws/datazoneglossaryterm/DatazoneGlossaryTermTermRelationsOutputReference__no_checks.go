@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) validateInt
 	return nil
 }
 
-func (d *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatazoneGlossaryTermTermRelationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDatazoneGlossaryTermTermRelationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

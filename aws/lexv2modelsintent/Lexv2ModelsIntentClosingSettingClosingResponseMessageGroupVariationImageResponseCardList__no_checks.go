@@ -15,7 +15,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentClosingSettingClosingResponseMessageGroupVar
 	return nil
 }
 
-func (l *jsiiProxy_Lexv2ModelsIntentClosingSettingClosingResponseMessageGroupVariationImageResponseCardList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_Lexv2ModelsIntentClosingSettingClosingResponseMessageGroupVariationImageResponseCardList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Lexv2ModelsIntentClosingSettingClosingResponseMessageGroupVar
 	return nil
 }
 
-func (j *jsiiProxy_Lexv2ModelsIntentClosingSettingClosingResponseMessageGroupVariationImageResponseCardList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Lexv2ModelsIntentClosingSettingClosingResponseMessageGroupVariationImageResponseCardList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Lexv2ModelsIntentClosingSettingClosingResponseMessageGroupVar
 	return nil
 }
 
-func validateNewLexv2ModelsIntentClosingSettingClosingResponseMessageGroupVariationImageResponseCardListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLexv2ModelsIntentClosingSettingClosingResponseMessageGroupVariationImageResponseCardListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

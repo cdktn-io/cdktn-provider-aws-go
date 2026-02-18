@@ -5,14 +5,14 @@ package lakeformationoptin
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lakeformationoptin/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lakeformationoptin/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LakeformationOptInResourceDataCatalogOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type LakeformationOptInResourceDataCatalogOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type LakeformationOptInResourceDataCatalogOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type LakeformationOptInResourceDataCatalogOutputReference interface {
 
 // The jsii proxy struct for LakeformationOptInResourceDataCatalogOutputReference
 type jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) Terrafo
 }
 
 
-func NewLakeformationOptInResourceDataCatalogOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) LakeformationOptInResourceDataCatalogOutputReference {
+func NewLakeformationOptInResourceDataCatalogOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) LakeformationOptInResourceDataCatalogOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLakeformationOptInResourceDataCatalogOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -191,7 +191,7 @@ func NewLakeformationOptInResourceDataCatalogOutputReference(terraformResource c
 	return &j
 }
 
-func NewLakeformationOptInResourceDataCatalogOutputReference_Override(l LakeformationOptInResourceDataCatalogOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewLakeformationOptInResourceDataCatalogOutputReference_Override(l LakeformationOptInResourceDataCatalogOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (l *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) GetAnyM
 	return returns
 }
 
-func (l *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -424,8 +424,8 @@ func (l *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) GetStri
 	return returns
 }
 
-func (l *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -437,11 +437,11 @@ func (l *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) Interpo
 	return returns
 }
 
-func (l *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -461,7 +461,7 @@ func (l *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) ResetId
 	)
 }
 
-func (l *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

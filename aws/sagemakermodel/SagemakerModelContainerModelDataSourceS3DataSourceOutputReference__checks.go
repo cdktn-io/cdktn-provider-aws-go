@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_SagemakerModelContainerModelDataSourceS3DataSourceOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -104,7 +104,7 @@ func (s *jsiiProxy_SagemakerModelContainerModelDataSourceS3DataSourceOutputRefer
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerModelContainerModelDataSourceS3DataSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerModelContainerModelDataSourceS3DataSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -187,7 +187,7 @@ func (j *jsiiProxy_SagemakerModelContainerModelDataSourceS3DataSourceOutputRefer
 
 func (j *jsiiProxy_SagemakerModelContainerModelDataSourceS3DataSourceOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *SagemakerModelContainerModelDataSourceS3DataSource:
 		val := val.(*SagemakerModelContainerModelDataSourceS3DataSource)
@@ -202,7 +202,7 @@ func (j *jsiiProxy_SagemakerModelContainerModelDataSourceS3DataSourceOutputRefer
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *SagemakerModelContainerModelDataSourceS3DataSource; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *SagemakerModelContainerModelDataSourceS3DataSource; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -233,7 +233,7 @@ func (j *jsiiProxy_SagemakerModelContainerModelDataSourceS3DataSourceOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerModelContainerModelDataSourceS3DataSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerModelContainerModelDataSourceS3DataSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -241,7 +241,7 @@ func (j *jsiiProxy_SagemakerModelContainerModelDataSourceS3DataSourceOutputRefer
 	return nil
 }
 
-func validateNewSagemakerModelContainerModelDataSourceS3DataSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSagemakerModelContainerModelDataSourceS3DataSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

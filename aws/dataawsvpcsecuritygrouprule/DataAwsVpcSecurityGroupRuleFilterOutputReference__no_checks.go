@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsVpcSecurityGroupRuleFilterOutputReference) validateInt
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsVpcSecurityGroupRuleFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsVpcSecurityGroupRuleFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataAwsVpcSecurityGroupRuleFilterOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVpcSecurityGroupRuleFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsVpcSecurityGroupRuleFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsVpcSecurityGroupRuleFilterOutputReference) validateSet
 	return nil
 }
 
-func validateNewDataAwsVpcSecurityGroupRuleFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsVpcSecurityGroupRuleFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

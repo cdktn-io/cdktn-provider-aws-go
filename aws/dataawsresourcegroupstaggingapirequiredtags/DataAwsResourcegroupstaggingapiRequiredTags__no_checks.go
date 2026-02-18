@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsResourcegroupstaggingapiRequiredTags) validateSetCount
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsResourcegroupstaggingapiRequiredTags) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsResourcegroupstaggingapiRequiredTags) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (l *jsiiProxy_LakeformationOptInResourceDataTableWithColumnsColumnWildcardL
 	return nil
 }
 
-func (l *jsiiProxy_LakeformationOptInResourceDataTableWithColumnsColumnWildcardList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LakeformationOptInResourceDataTableWithColumnsColumnWildcardList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LakeformationOptInResourceDataTableWithColumnsColumnWildcardL
 	return nil
 }
 
-func (j *jsiiProxy_LakeformationOptInResourceDataTableWithColumnsColumnWildcardList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LakeformationOptInResourceDataTableWithColumnsColumnWildcardList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LakeformationOptInResourceDataTableWithColumnsColumnWildcardL
 	return nil
 }
 
-func validateNewLakeformationOptInResourceDataTableWithColumnsColumnWildcardListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLakeformationOptInResourceDataTableWithColumnsColumnWildcardListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

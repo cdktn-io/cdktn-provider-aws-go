@@ -47,7 +47,7 @@ func (o *jsiiProxy_OpensearchDomainNodeToNodeEncryptionOutputReference) validate
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchDomainNodeToNodeEncryptionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchDomainNodeToNodeEncryptionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_OpensearchDomainNodeToNodeEncryptionOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchDomainNodeToNodeEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchDomainNodeToNodeEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOpensearchDomainNodeToNodeEncryptionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOpensearchDomainNodeToNodeEncryptionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

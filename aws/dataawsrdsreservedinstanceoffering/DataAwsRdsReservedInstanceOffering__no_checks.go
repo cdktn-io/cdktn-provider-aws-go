@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsRdsReservedInstanceOffering) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRdsReservedInstanceOffering) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsRdsReservedInstanceOffering) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceA
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceA
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

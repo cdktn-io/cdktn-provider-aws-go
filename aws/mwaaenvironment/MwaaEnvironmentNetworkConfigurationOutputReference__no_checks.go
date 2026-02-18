@@ -47,7 +47,7 @@ func (m *jsiiProxy_MwaaEnvironmentNetworkConfigurationOutputReference) validateI
 	return nil
 }
 
-func (m *jsiiProxy_MwaaEnvironmentNetworkConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MwaaEnvironmentNetworkConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_MwaaEnvironmentNetworkConfigurationOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_MwaaEnvironmentNetworkConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MwaaEnvironmentNetworkConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMwaaEnvironmentNetworkConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMwaaEnvironmentNetworkConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

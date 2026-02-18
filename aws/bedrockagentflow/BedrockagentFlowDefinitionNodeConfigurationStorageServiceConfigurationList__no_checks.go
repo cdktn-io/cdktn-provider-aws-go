@@ -15,7 +15,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationStorageServiceConf
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationStorageServiceConf
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationStorageServiceConf
 	return nil
 }
 
-func validateNewBedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

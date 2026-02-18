@@ -51,7 +51,7 @@ func (a *jsiiProxy_AppmeshVirtualGatewaySpecLoggingOutputReference) validatePutA
 	return nil
 }
 
-func (a *jsiiProxy_AppmeshVirtualGatewaySpecLoggingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppmeshVirtualGatewaySpecLoggingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AppmeshVirtualGatewaySpecLoggingOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshVirtualGatewaySpecLoggingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppmeshVirtualGatewaySpecLoggingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppmeshVirtualGatewaySpecLoggingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppmeshVirtualGatewaySpecLoggingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

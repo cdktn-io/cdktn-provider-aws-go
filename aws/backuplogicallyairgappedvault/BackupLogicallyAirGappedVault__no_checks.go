@@ -107,7 +107,7 @@ func (j *jsiiProxy_BackupLogicallyAirGappedVault) validateSetEncryptionKeyArnPar
 	return nil
 }
 
-func (j *jsiiProxy_BackupLogicallyAirGappedVault) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BackupLogicallyAirGappedVault) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -59,7 +59,7 @@ func (a *jsiiProxy_AppmeshGatewayRouteSpecOutputReference) validatePutHttpRouteP
 	return nil
 }
 
-func (a *jsiiProxy_AppmeshGatewayRouteSpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppmeshGatewayRouteSpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_AppmeshGatewayRouteSpecOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshGatewayRouteSpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppmeshGatewayRouteSpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppmeshGatewayRouteSpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppmeshGatewayRouteSpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

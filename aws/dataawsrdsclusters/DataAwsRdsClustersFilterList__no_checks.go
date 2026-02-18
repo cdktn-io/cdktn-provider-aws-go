@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsRdsClustersFilterList) validateGetParameters(index *fl
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsRdsClustersFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsRdsClustersFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsRdsClustersFilterList) validateSetTerraformAttributePa
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRdsClustersFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsRdsClustersFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsRdsClustersFilterList) validateSetWrapsSetParameters(v
 	return nil
 }
 
-func validateNewDataAwsRdsClustersFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsRdsClustersFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

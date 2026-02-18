@@ -47,7 +47,7 @@ func (r *jsiiProxy_RdsClusterMasterUserSecretOutputReference) validateInterpolat
 	return nil
 }
 
-func (r *jsiiProxy_RdsClusterMasterUserSecretOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RdsClusterMasterUserSecretOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_RdsClusterMasterUserSecretOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_RdsClusterMasterUserSecretOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RdsClusterMasterUserSecretOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRdsClusterMasterUserSecretOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRdsClusterMasterUserSecretOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

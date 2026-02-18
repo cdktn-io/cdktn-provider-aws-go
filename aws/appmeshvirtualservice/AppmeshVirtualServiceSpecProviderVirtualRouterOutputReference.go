@@ -5,14 +5,14 @@ package appmeshvirtualservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/appmeshvirtualservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appmeshvirtualservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VirtualRouterName() *string
 	SetVirtualRouterName(val *string)
 	VirtualRouterNameInput() *string
@@ -48,7 +48,7 @@ type AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference interface {
 
 // The jsii proxy struct for AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference
 type jsiiProxy_AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference) ComplexObjectIndex() interface{} {
@@ -142,8 +142,8 @@ func (j *jsiiProxy_AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference
 }
 
 
-func NewAppmeshVirtualServiceSpecProviderVirtualRouterOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference {
+func NewAppmeshVirtualServiceSpecProviderVirtualRouterOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAppmeshVirtualServiceSpecProviderVirtualRouterOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewAppmeshVirtualServiceSpecProviderVirtualRouterOutputReference(terraformR
 	return &j
 }
 
-func NewAppmeshVirtualServiceSpecProviderVirtualRouterOutputReference_Override(a AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAppmeshVirtualServiceSpecProviderVirtualRouterOutputReference_Override(a AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -244,7 +244,7 @@ func (j *jsiiProxy_AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference
 	)
 }
 
-func (j *jsiiProxy_AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (a *jsiiProxy_AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference
 	return returns
 }
 
-func (a *jsiiProxy_AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -423,8 +423,8 @@ func (a *jsiiProxy_AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference
 	return returns
 }
 
-func (a *jsiiProxy_AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -436,11 +436,11 @@ func (a *jsiiProxy_AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference
 	return returns
 }
 
-func (a *jsiiProxy_AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -452,7 +452,7 @@ func (a *jsiiProxy_AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference
 	return returns
 }
 
-func (a *jsiiProxy_AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppmeshVirtualServiceSpecProviderVirtualRouterOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

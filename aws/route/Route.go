@@ -5,21 +5,21 @@ package route
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/route/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/route/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/route aws_route}.
 type Route interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	CarrierGatewayId() *string
 	SetCarrierGatewayId(val *string)
 	CarrierGatewayIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -50,9 +50,9 @@ type Route interface {
 	SetEgressOnlyGatewayId(val *string)
 	EgressOnlyGatewayIdInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -66,9 +66,9 @@ type Route interface {
 	InstanceId() *string
 	InstanceOwnerId() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LocalGatewayId() *string
 	SetLocalGatewayId(val *string)
 	LocalGatewayIdInput() *string
@@ -82,9 +82,9 @@ type Route interface {
 	Node() constructs.Node
 	Origin() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -99,7 +99,7 @@ type Route interface {
 	RouteTableIdInput() *string
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -123,7 +123,7 @@ type Route interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -141,9 +141,9 @@ type Route interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -193,7 +193,7 @@ type Route interface {
 
 // The jsii proxy struct for Route
 type jsiiProxy_Route struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_Route) CarrierGatewayId() *string {
@@ -216,8 +216,8 @@ func (j *jsiiProxy_Route) CarrierGatewayIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Route) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_Route) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -366,8 +366,8 @@ func (j *jsiiProxy_Route) EgressOnlyGatewayIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Route) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_Route) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -456,8 +456,8 @@ func (j *jsiiProxy_Route) InstanceOwnerId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Route) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_Route) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -546,8 +546,8 @@ func (j *jsiiProxy_Route) Origin() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Route) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_Route) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -626,8 +626,8 @@ func (j *jsiiProxy_Route) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Route) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_Route) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -862,7 +862,7 @@ func (j *jsiiProxy_Route)SetEgressOnlyGatewayId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Route)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_Route)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -892,7 +892,7 @@ func (j *jsiiProxy_Route)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Route)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_Route)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -936,7 +936,7 @@ func (j *jsiiProxy_Route)SetNetworkInterfaceId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Route)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_Route)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1010,14 +1010,14 @@ func (j *jsiiProxy_Route)SetVpcPeeringConnectionId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a Route resource upon running "cdktf plan <stack-name>".
-func Route_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a Route resource upon running "cdktn plan <stack-name>".
+func Route_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateRoute_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.route.Route",
@@ -1151,11 +1151,11 @@ func (r *jsiiProxy_Route) GetAnyMapAttribute(terraformAttribute *string) *map[st
 	return returns
 }
 
-func (r *jsiiProxy_Route) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_Route) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -1292,7 +1292,7 @@ func (r *jsiiProxy_Route) HasResourceMove() interface{} {
 	return returns
 }
 
-func (r *jsiiProxy_Route) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (r *jsiiProxy_Route) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := r.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1303,11 +1303,11 @@ func (r *jsiiProxy_Route) ImportFrom(id *string, provider cdktf.TerraformProvide
 	)
 }
 
-func (r *jsiiProxy_Route) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_Route) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,

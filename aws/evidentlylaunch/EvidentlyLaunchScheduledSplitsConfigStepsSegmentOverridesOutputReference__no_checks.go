@@ -47,7 +47,7 @@ func (e *jsiiProxy_EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesOutp
 	return nil
 }
 
-func (e *jsiiProxy_EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesOutp
 	return nil
 }
 
-func (j *jsiiProxy_EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesOutp
 	return nil
 }
 
-func validateNewEvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

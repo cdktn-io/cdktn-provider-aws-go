@@ -47,7 +47,7 @@ func (w *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyVerifiedAccessInstance
 	return nil
 }
 
-func (w *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyVerifiedAccessInstanceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyVerifiedAccessInstanceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyVerifiedAccessInstance
 	return nil
 }
 
-func (j *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyVerifiedAccessInstanceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyVerifiedAccessInstanceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWafv2WebAclAssociationConfigRequestBodyVerifiedAccessInstanceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWafv2WebAclAssociationConfigRequestBodyVerifiedAccessInstanceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

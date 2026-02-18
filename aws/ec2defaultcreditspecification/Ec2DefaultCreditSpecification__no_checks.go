@@ -111,7 +111,7 @@ func (j *jsiiProxy_Ec2DefaultCreditSpecification) validateSetInstanceFamilyParam
 	return nil
 }
 
-func (j *jsiiProxy_Ec2DefaultCreditSpecification) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Ec2DefaultCreditSpecification) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

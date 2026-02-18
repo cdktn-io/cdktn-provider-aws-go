@@ -5,14 +5,14 @@ package fsxlustrefilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/fsxlustrefilesystem/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/fsxlustrefilesystem/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FsxLustreFileSystemLogConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type FsxLustreFileSystemLogConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type FsxLustreFileSystemLogConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDestination()
 	ResetLevel()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type FsxLustreFileSystemLogConfigurationOutputReference interface {
 
 // The jsii proxy struct for FsxLustreFileSystemLogConfigurationOutputReference
 type jsiiProxy_FsxLustreFileSystemLogConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FsxLustreFileSystemLogConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_FsxLustreFileSystemLogConfigurationOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_FsxLustreFileSystemLogConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FsxLustreFileSystemLogConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_FsxLustreFileSystemLogConfigurationOutputReference) Terraform
 }
 
 
-func NewFsxLustreFileSystemLogConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) FsxLustreFileSystemLogConfigurationOutputReference {
+func NewFsxLustreFileSystemLogConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) FsxLustreFileSystemLogConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFsxLustreFileSystemLogConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewFsxLustreFileSystemLogConfigurationOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewFsxLustreFileSystemLogConfigurationOutputReference_Override(f FsxLustreFileSystemLogConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewFsxLustreFileSystemLogConfigurationOutputReference_Override(f FsxLustreFileSystemLogConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_FsxLustreFileSystemLogConfigurationOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_FsxLustreFileSystemLogConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FsxLustreFileSystemLogConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (f *jsiiProxy_FsxLustreFileSystemLogConfigurationOutputReference) GetAnyMap
 	return returns
 }
 
-func (f *jsiiProxy_FsxLustreFileSystemLogConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FsxLustreFileSystemLogConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -459,8 +459,8 @@ func (f *jsiiProxy_FsxLustreFileSystemLogConfigurationOutputReference) GetString
 	return returns
 }
 
-func (f *jsiiProxy_FsxLustreFileSystemLogConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FsxLustreFileSystemLogConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -472,11 +472,11 @@ func (f *jsiiProxy_FsxLustreFileSystemLogConfigurationOutputReference) Interpola
 	return returns
 }
 
-func (f *jsiiProxy_FsxLustreFileSystemLogConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FsxLustreFileSystemLogConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -504,7 +504,7 @@ func (f *jsiiProxy_FsxLustreFileSystemLogConfigurationOutputReference) ResetLeve
 	)
 }
 
-func (f *jsiiProxy_FsxLustreFileSystemLogConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FsxLustreFileSystemLogConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

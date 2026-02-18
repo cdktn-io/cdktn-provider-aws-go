@@ -115,7 +115,7 @@ func (j *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateSetIpv6SupportParamet
 	return nil
 }
 
-func (j *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

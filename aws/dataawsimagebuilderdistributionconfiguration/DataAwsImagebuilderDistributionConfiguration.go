@@ -5,21 +5,21 @@ package dataawsimagebuilderdistributionconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsimagebuilderdistributionconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsimagebuilderdistributionconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/imagebuilder_distribution_configuration aws_imagebuilder_distribution_configuration}.
 type DataAwsImagebuilderDistributionConfiguration interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	Arn() *string
 	SetArn(val *string)
 	ArnInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type DataAwsImagebuilderDistributionConfiguration interface {
 	Description() *string
 	Distribution() DataAwsImagebuilderDistributionConfigurationDistributionList
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,16 +46,16 @@ type DataAwsImagebuilderDistributionConfiguration interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -65,7 +65,7 @@ type DataAwsImagebuilderDistributionConfiguration interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -75,7 +75,7 @@ type DataAwsImagebuilderDistributionConfiguration interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -91,7 +91,7 @@ type DataAwsImagebuilderDistributionConfiguration interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -117,7 +117,7 @@ type DataAwsImagebuilderDistributionConfiguration interface {
 
 // The jsii proxy struct for DataAwsImagebuilderDistributionConfiguration
 type jsiiProxy_DataAwsImagebuilderDistributionConfiguration struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) Arn() *string {
@@ -140,8 +140,8 @@ func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) ArnInput() *str
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -220,8 +220,8 @@ func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) Distribution() 
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -270,8 +270,8 @@ func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) IdInput() *stri
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -300,8 +300,8 @@ func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) Node() construc
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -360,8 +360,8 @@ func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) TagsInput() *ma
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -450,7 +450,7 @@ func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration)SetDependsOn(val
 	)
 }
 
-func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -469,7 +469,7 @@ func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration)SetId(val *strin
 	)
 }
 
-func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -480,7 +480,7 @@ func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration)SetLifecycle(val
 	)
 }
 
-func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -510,14 +510,14 @@ func (j *jsiiProxy_DataAwsImagebuilderDistributionConfiguration)SetTags(val *map
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsImagebuilderDistributionConfiguration resource upon running "cdktf plan <stack-name>".
-func DataAwsImagebuilderDistributionConfiguration_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsImagebuilderDistributionConfiguration resource upon running "cdktn plan <stack-name>".
+func DataAwsImagebuilderDistributionConfiguration_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsImagebuilderDistributionConfiguration_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsImagebuilderDistributionConfiguration.DataAwsImagebuilderDistributionConfiguration",
@@ -640,11 +640,11 @@ func (d *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) GetAnyMapAttrib
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -768,11 +768,11 @@ func (d *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) GetStringMapAtt
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsImagebuilderDistributionConfiguration) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

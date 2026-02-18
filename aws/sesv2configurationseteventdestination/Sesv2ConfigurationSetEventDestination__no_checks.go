@@ -115,7 +115,7 @@ func (j *jsiiProxy_Sesv2ConfigurationSetEventDestination) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_Sesv2ConfigurationSetEventDestination) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Sesv2ConfigurationSetEventDestination) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

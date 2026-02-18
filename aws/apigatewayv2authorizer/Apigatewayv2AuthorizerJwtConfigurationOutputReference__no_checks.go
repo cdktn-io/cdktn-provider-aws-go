@@ -47,7 +47,7 @@ func (a *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) valida
 	return nil
 }
 
-func (a *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApigatewayv2AuthorizerJwtConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApigatewayv2AuthorizerJwtConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SsmquicksetupConfigurationManagerStatusSummariesOutputReferen
 	return nil
 }
 
-func (s *jsiiProxy_SsmquicksetupConfigurationManagerStatusSummariesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsmquicksetupConfigurationManagerStatusSummariesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_SsmquicksetupConfigurationManagerStatusSummariesOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_SsmquicksetupConfigurationManagerStatusSummariesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsmquicksetupConfigurationManagerStatusSummariesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSsmquicksetupConfigurationManagerStatusSummariesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSsmquicksetupConfigurationManagerStatusSummariesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

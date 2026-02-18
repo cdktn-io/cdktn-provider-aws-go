@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsDbProxyAuthList) validateGetParameters(index *float64)
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsDbProxyAuthList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsDbProxyAuthList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsDbProxyAuthList) validateSetTerraformAttributeParamete
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDbProxyAuthList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsDbProxyAuthList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsDbProxyAuthList) validateSetWrapsSetParameters(val *bo
 	return nil
 }
 
-func validateNewDataAwsDbProxyAuthListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsDbProxyAuthListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

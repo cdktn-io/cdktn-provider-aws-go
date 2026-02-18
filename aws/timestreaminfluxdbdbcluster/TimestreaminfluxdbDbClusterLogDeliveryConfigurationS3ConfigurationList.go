@@ -5,14 +5,14 @@ package timestreaminfluxdbdbcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/timestreaminfluxdbdbcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/timestreaminfluxdbdbcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList inte
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList inte
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList inte
 
 // The jsii proxy struct for TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList
 type jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3Configur
 	return returns
 }
 
-func (j *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3Configur
 }
 
 
-func NewTimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList {
+func NewTimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList {
 	_init_.Initialize()
 
 	if err := validateNewTimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewTimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList(t
 	return &j
 }
 
-func NewTimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList_Override(t TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewTimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList_Override(t TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3Configur
 	)
 }
 
-func (j *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3Configur
 	)
 }
 
-func (t *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (t *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := t.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		t,
@@ -231,7 +231,7 @@ func (t *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3Configur
 	return returns
 }
 
-func (t *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList) Resolve(context cdktf.IResolveContext) interface{} {
+func (t *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := t.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

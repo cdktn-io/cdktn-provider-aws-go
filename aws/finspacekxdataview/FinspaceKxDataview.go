@@ -5,16 +5,16 @@ package finspacekxdataview
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/finspacekxdataview/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/finspacekxdataview/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/finspace_kx_dataview aws_finspace_kx_dataview}.
 type FinspaceKxDataview interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	AutoUpdate() interface{}
 	SetAutoUpdate(val interface{})
@@ -26,7 +26,7 @@ type FinspaceKxDataview interface {
 	SetAzMode(val *string)
 	AzModeInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ChangesetId() *string
 	SetChangesetId(val *string)
 	ChangesetIdInput() *string
@@ -55,9 +55,9 @@ type FinspaceKxDataview interface {
 	SetEnvironmentId(val *string)
 	EnvironmentIdInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -67,18 +67,18 @@ type FinspaceKxDataview interface {
 	IdInput() *string
 	LastModifiedTimestamp() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -101,7 +101,7 @@ type FinspaceKxDataview interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -116,7 +116,7 @@ type FinspaceKxDataview interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -134,9 +134,9 @@ type FinspaceKxDataview interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -181,7 +181,7 @@ type FinspaceKxDataview interface {
 
 // The jsii proxy struct for FinspaceKxDataview
 type jsiiProxy_FinspaceKxDataview struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_FinspaceKxDataview) Arn() *string {
@@ -254,8 +254,8 @@ func (j *jsiiProxy_FinspaceKxDataview) AzModeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FinspaceKxDataview) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_FinspaceKxDataview) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -394,8 +394,8 @@ func (j *jsiiProxy_FinspaceKxDataview) EnvironmentIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FinspaceKxDataview) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_FinspaceKxDataview) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -454,8 +454,8 @@ func (j *jsiiProxy_FinspaceKxDataview) LastModifiedTimestamp() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FinspaceKxDataview) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_FinspaceKxDataview) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -494,8 +494,8 @@ func (j *jsiiProxy_FinspaceKxDataview) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_FinspaceKxDataview) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_FinspaceKxDataview) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -634,8 +634,8 @@ func (j *jsiiProxy_FinspaceKxDataview) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_FinspaceKxDataview) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_FinspaceKxDataview) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -821,7 +821,7 @@ func (j *jsiiProxy_FinspaceKxDataview)SetEnvironmentId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_FinspaceKxDataview)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_FinspaceKxDataview)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -840,7 +840,7 @@ func (j *jsiiProxy_FinspaceKxDataview)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_FinspaceKxDataview)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_FinspaceKxDataview)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -862,7 +862,7 @@ func (j *jsiiProxy_FinspaceKxDataview)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_FinspaceKxDataview)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_FinspaceKxDataview)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -925,14 +925,14 @@ func (j *jsiiProxy_FinspaceKxDataview)SetTagsAll(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a FinspaceKxDataview resource upon running "cdktf plan <stack-name>".
-func FinspaceKxDataview_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a FinspaceKxDataview resource upon running "cdktn plan <stack-name>".
+func FinspaceKxDataview_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateFinspaceKxDataview_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.finspaceKxDataview.FinspaceKxDataview",
@@ -1066,11 +1066,11 @@ func (f *jsiiProxy_FinspaceKxDataview) GetAnyMapAttribute(terraformAttribute *st
 	return returns
 }
 
-func (f *jsiiProxy_FinspaceKxDataview) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FinspaceKxDataview) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -1207,7 +1207,7 @@ func (f *jsiiProxy_FinspaceKxDataview) HasResourceMove() interface{} {
 	return returns
 }
 
-func (f *jsiiProxy_FinspaceKxDataview) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (f *jsiiProxy_FinspaceKxDataview) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := f.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1218,11 +1218,11 @@ func (f *jsiiProxy_FinspaceKxDataview) ImportFrom(id *string, provider cdktf.Ter
 	)
 }
 
-func (f *jsiiProxy_FinspaceKxDataview) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FinspaceKxDataview) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,

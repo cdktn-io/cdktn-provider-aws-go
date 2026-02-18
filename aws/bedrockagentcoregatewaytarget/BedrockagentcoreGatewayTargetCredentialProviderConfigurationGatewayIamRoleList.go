@@ -5,14 +5,14 @@ package bedrockagentcoregatewaytarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/bedrockagentcoregatewaytarget/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/bedrockagentcoregatewaytarget/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleL
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleL
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleL
 
 // The jsii proxy struct for BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleList
 type jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationG
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationG
 }
 
 
-func NewBedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleList {
+func NewBedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleList {
 	_init_.Initialize()
 
 	if err := validateNewBedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewBedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRo
 	return &j
 }
 
-func NewBedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleList_Override(b BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewBedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleList_Override(b BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationG
 	)
 }
 
-func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationG
 	)
 }
 
-func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := b.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		b,
@@ -231,7 +231,7 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationG
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleList) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

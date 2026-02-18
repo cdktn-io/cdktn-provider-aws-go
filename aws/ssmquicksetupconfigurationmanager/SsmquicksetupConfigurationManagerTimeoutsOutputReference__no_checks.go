@@ -47,7 +47,7 @@ func (s *jsiiProxy_SsmquicksetupConfigurationManagerTimeoutsOutputReference) val
 	return nil
 }
 
-func (s *jsiiProxy_SsmquicksetupConfigurationManagerTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsmquicksetupConfigurationManagerTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SsmquicksetupConfigurationManagerTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_SsmquicksetupConfigurationManagerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsmquicksetupConfigurationManagerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_SsmquicksetupConfigurationManagerTimeoutsOutputReference) val
 	return nil
 }
 
-func validateNewSsmquicksetupConfigurationManagerTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSsmquicksetupConfigurationManagerTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

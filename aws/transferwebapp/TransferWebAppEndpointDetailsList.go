@@ -5,14 +5,14 @@ package transferwebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/transferwebapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/transferwebapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type TransferWebAppEndpointDetailsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type TransferWebAppEndpointDetailsList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type TransferWebAppEndpointDetailsList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) TransferWebAppEndpointDetailsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type TransferWebAppEndpointDetailsList interface {
 
 // The jsii proxy struct for TransferWebAppEndpointDetailsList
 type jsiiProxy_TransferWebAppEndpointDetailsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_TransferWebAppEndpointDetailsList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_TransferWebAppEndpointDetailsList) TerraformAttribute() *stri
 	return returns
 }
 
-func (j *jsiiProxy_TransferWebAppEndpointDetailsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_TransferWebAppEndpointDetailsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_TransferWebAppEndpointDetailsList) WrapsSet() *bool {
 }
 
 
-func NewTransferWebAppEndpointDetailsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TransferWebAppEndpointDetailsList {
+func NewTransferWebAppEndpointDetailsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TransferWebAppEndpointDetailsList {
 	_init_.Initialize()
 
 	if err := validateNewTransferWebAppEndpointDetailsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewTransferWebAppEndpointDetailsList(terraformResource cdktf.IInterpolating
 	return &j
 }
 
-func NewTransferWebAppEndpointDetailsList_Override(t TransferWebAppEndpointDetailsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewTransferWebAppEndpointDetailsList_Override(t TransferWebAppEndpointDetailsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_TransferWebAppEndpointDetailsList)SetTerraformAttribute(val *
 	)
 }
 
-func (j *jsiiProxy_TransferWebAppEndpointDetailsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_TransferWebAppEndpointDetailsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_TransferWebAppEndpointDetailsList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (t *jsiiProxy_TransferWebAppEndpointDetailsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (t *jsiiProxy_TransferWebAppEndpointDetailsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := t.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		t,
@@ -231,7 +231,7 @@ func (t *jsiiProxy_TransferWebAppEndpointDetailsList) Get(index *float64) Transf
 	return returns
 }
 
-func (t *jsiiProxy_TransferWebAppEndpointDetailsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (t *jsiiProxy_TransferWebAppEndpointDetailsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := t.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

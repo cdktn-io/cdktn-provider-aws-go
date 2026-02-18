@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsVpcIpams) validateSetIpamIdsParameters(val *[]*string)
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVpcIpams) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsVpcIpams) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

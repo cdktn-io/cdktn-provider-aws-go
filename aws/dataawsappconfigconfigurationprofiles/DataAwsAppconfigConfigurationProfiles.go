@@ -5,21 +5,21 @@ package dataawsappconfigconfigurationprofiles
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsappconfigconfigurationprofiles/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsappconfigconfigurationprofiles/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/appconfig_configuration_profiles aws_appconfig_configuration_profiles}.
 type DataAwsAppconfigConfigurationProfiles interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	ApplicationId() *string
 	SetApplicationId(val *string)
 	ApplicationIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ConfigurationProfileIds() *[]*string
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
@@ -32,9 +32,9 @@ type DataAwsAppconfigConfigurationProfiles interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -43,22 +43,22 @@ type DataAwsAppconfigConfigurationProfiles interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -68,7 +68,7 @@ type DataAwsAppconfigConfigurationProfiles interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -84,7 +84,7 @@ type DataAwsAppconfigConfigurationProfiles interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -109,7 +109,7 @@ type DataAwsAppconfigConfigurationProfiles interface {
 
 // The jsii proxy struct for DataAwsAppconfigConfigurationProfiles
 type jsiiProxy_DataAwsAppconfigConfigurationProfiles struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles) ApplicationId() *string {
@@ -132,8 +132,8 @@ func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles) ApplicationIdInput() *
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -182,8 +182,8 @@ func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles) DependsOn() *[]*string
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -232,8 +232,8 @@ func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -252,8 +252,8 @@ func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles) Node() constructs.Node
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -292,8 +292,8 @@ func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles) RegionInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -382,7 +382,7 @@ func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles)SetDependsOn(val *[]*st
 	)
 }
 
-func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -401,7 +401,7 @@ func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -412,7 +412,7 @@ func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles)SetLifecycle(val *cdktf
 	)
 }
 
-func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -431,14 +431,14 @@ func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles)SetRegion(val *string) 
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsAppconfigConfigurationProfiles resource upon running "cdktf plan <stack-name>".
-func DataAwsAppconfigConfigurationProfiles_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsAppconfigConfigurationProfiles resource upon running "cdktn plan <stack-name>".
+func DataAwsAppconfigConfigurationProfiles_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsAppconfigConfigurationProfiles_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsAppconfigConfigurationProfiles.DataAwsAppconfigConfigurationProfiles",
@@ -561,11 +561,11 @@ func (d *jsiiProxy_DataAwsAppconfigConfigurationProfiles) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsAppconfigConfigurationProfiles) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsAppconfigConfigurationProfiles) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -689,11 +689,11 @@ func (d *jsiiProxy_DataAwsAppconfigConfigurationProfiles) GetStringMapAttribute(
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsAppconfigConfigurationProfiles) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsAppconfigConfigurationProfiles) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

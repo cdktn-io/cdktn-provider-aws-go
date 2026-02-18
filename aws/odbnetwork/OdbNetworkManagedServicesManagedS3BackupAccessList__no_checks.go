@@ -15,7 +15,7 @@ func (o *jsiiProxy_OdbNetworkManagedServicesManagedS3BackupAccessList) validateG
 	return nil
 }
 
-func (o *jsiiProxy_OdbNetworkManagedServicesManagedS3BackupAccessList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OdbNetworkManagedServicesManagedS3BackupAccessList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_OdbNetworkManagedServicesManagedS3BackupAccessList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_OdbNetworkManagedServicesManagedS3BackupAccessList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OdbNetworkManagedServicesManagedS3BackupAccessList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_OdbNetworkManagedServicesManagedS3BackupAccessList) validateS
 	return nil
 }
 
-func validateNewOdbNetworkManagedServicesManagedS3BackupAccessListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOdbNetworkManagedServicesManagedS3BackupAccessListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

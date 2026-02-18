@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsVpcSecurityGroupRule) validateSetCountParameters(val i
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVpcSecurityGroupRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsVpcSecurityGroupRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

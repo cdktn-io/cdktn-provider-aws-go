@@ -15,7 +15,7 @@ func (e *jsiiProxy_EcsExpressGatewayServicePrimaryContainerSecretList) validateG
 	return nil
 }
 
-func (e *jsiiProxy_EcsExpressGatewayServicePrimaryContainerSecretList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsExpressGatewayServicePrimaryContainerSecretList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EcsExpressGatewayServicePrimaryContainerSecretList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_EcsExpressGatewayServicePrimaryContainerSecretList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsExpressGatewayServicePrimaryContainerSecretList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EcsExpressGatewayServicePrimaryContainerSecretList) validateS
 	return nil
 }
 
-func validateNewEcsExpressGatewayServicePrimaryContainerSecretListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEcsExpressGatewayServicePrimaryContainerSecretListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

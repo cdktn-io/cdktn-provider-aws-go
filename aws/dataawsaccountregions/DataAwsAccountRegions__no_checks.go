@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsAccountRegions) validateSetCountParameters(val interfa
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAccountRegions) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsAccountRegions) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

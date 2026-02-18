@@ -15,7 +15,7 @@ func (g *jsiiProxy_GlueCrawlerHudiTargetList) validateGetParameters(index *float
 	return nil
 }
 
-func (g *jsiiProxy_GlueCrawlerHudiTargetList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueCrawlerHudiTargetList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GlueCrawlerHudiTargetList) validateSetTerraformAttributeParam
 	return nil
 }
 
-func (j *jsiiProxy_GlueCrawlerHudiTargetList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueCrawlerHudiTargetList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GlueCrawlerHudiTargetList) validateSetWrapsSetParameters(val 
 	return nil
 }
 
-func validateNewGlueCrawlerHudiTargetListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGlueCrawlerHudiTargetListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsTimestreamwriteTableRetentionPropertiesOutputReference
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsTimestreamwriteTableRetentionPropertiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsTimestreamwriteTableRetentionPropertiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsTimestreamwriteTableRetentionPropertiesOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsTimestreamwriteTableRetentionPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsTimestreamwriteTableRetentionPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsTimestreamwriteTableRetentionPropertiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsTimestreamwriteTableRetentionPropertiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

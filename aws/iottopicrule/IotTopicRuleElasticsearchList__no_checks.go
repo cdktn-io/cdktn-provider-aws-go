@@ -15,7 +15,7 @@ func (i *jsiiProxy_IotTopicRuleElasticsearchList) validateGetParameters(index *f
 	return nil
 }
 
-func (i *jsiiProxy_IotTopicRuleElasticsearchList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotTopicRuleElasticsearchList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_IotTopicRuleElasticsearchList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_IotTopicRuleElasticsearchList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotTopicRuleElasticsearchList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_IotTopicRuleElasticsearchList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewIotTopicRuleElasticsearchListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIotTopicRuleElasticsearchListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

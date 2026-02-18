@@ -5,14 +5,14 @@ package seseventdestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/seseventdestination/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/seseventdestination/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SesEventDestinationCloudwatchDestinationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type SesEventDestinationCloudwatchDestinationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	ValueSource() *string
 	SetValueSource(val *string)
 	ValueSourceInput() *string
@@ -54,7 +54,7 @@ type SesEventDestinationCloudwatchDestinationOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type SesEventDestinationCloudwatchDestinationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type SesEventDestinationCloudwatchDestinationOutputReference interface {
 
 // The jsii proxy struct for SesEventDestinationCloudwatchDestinationOutputReference
 type jsiiProxy_SesEventDestinationCloudwatchDestinationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SesEventDestinationCloudwatchDestinationOutputReference) ComplexObjectIndex() interface{} {
@@ -188,8 +188,8 @@ func (j *jsiiProxy_SesEventDestinationCloudwatchDestinationOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_SesEventDestinationCloudwatchDestinationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SesEventDestinationCloudwatchDestinationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_SesEventDestinationCloudwatchDestinationOutputReference) Valu
 }
 
 
-func NewSesEventDestinationCloudwatchDestinationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SesEventDestinationCloudwatchDestinationOutputReference {
+func NewSesEventDestinationCloudwatchDestinationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SesEventDestinationCloudwatchDestinationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSesEventDestinationCloudwatchDestinationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -236,7 +236,7 @@ func NewSesEventDestinationCloudwatchDestinationOutputReference(terraformResourc
 	return &j
 }
 
-func NewSesEventDestinationCloudwatchDestinationOutputReference_Override(s SesEventDestinationCloudwatchDestinationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSesEventDestinationCloudwatchDestinationOutputReference_Override(s SesEventDestinationCloudwatchDestinationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -312,7 +312,7 @@ func (j *jsiiProxy_SesEventDestinationCloudwatchDestinationOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_SesEventDestinationCloudwatchDestinationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SesEventDestinationCloudwatchDestinationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -363,11 +363,11 @@ func (s *jsiiProxy_SesEventDestinationCloudwatchDestinationOutputReference) GetA
 	return returns
 }
 
-func (s *jsiiProxy_SesEventDestinationCloudwatchDestinationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SesEventDestinationCloudwatchDestinationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -491,8 +491,8 @@ func (s *jsiiProxy_SesEventDestinationCloudwatchDestinationOutputReference) GetS
 	return returns
 }
 
-func (s *jsiiProxy_SesEventDestinationCloudwatchDestinationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SesEventDestinationCloudwatchDestinationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -504,11 +504,11 @@ func (s *jsiiProxy_SesEventDestinationCloudwatchDestinationOutputReference) Inte
 	return returns
 }
 
-func (s *jsiiProxy_SesEventDestinationCloudwatchDestinationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SesEventDestinationCloudwatchDestinationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -520,7 +520,7 @@ func (s *jsiiProxy_SesEventDestinationCloudwatchDestinationOutputReference) Inte
 	return returns
 }
 
-func (s *jsiiProxy_SesEventDestinationCloudwatchDestinationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SesEventDestinationCloudwatchDestinationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

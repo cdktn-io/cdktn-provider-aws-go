@@ -47,7 +47,7 @@ func (s *jsiiProxy_SagemakerMonitoringScheduleMonitoringScheduleConfigScheduleCo
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerMonitoringScheduleMonitoringScheduleConfigScheduleConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerMonitoringScheduleMonitoringScheduleConfigScheduleConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SagemakerMonitoringScheduleMonitoringScheduleConfigScheduleCo
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerMonitoringScheduleMonitoringScheduleConfigScheduleConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerMonitoringScheduleMonitoringScheduleConfigScheduleConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerMonitoringScheduleMonitoringScheduleConfigScheduleConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerMonitoringScheduleMonitoringScheduleConfigScheduleConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

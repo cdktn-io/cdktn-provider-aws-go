@@ -47,7 +47,7 @@ func (e *jsiiProxy_EmrserverlessApplicationSchedulerConfigurationOutputReference
 	return nil
 }
 
-func (e *jsiiProxy_EmrserverlessApplicationSchedulerConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EmrserverlessApplicationSchedulerConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EmrserverlessApplicationSchedulerConfigurationOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_EmrserverlessApplicationSchedulerConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EmrserverlessApplicationSchedulerConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEmrserverlessApplicationSchedulerConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEmrserverlessApplicationSchedulerConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

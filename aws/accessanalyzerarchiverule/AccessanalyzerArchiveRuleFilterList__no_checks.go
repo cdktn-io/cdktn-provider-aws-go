@@ -15,7 +15,7 @@ func (a *jsiiProxy_AccessanalyzerArchiveRuleFilterList) validateGetParameters(in
 	return nil
 }
 
-func (a *jsiiProxy_AccessanalyzerArchiveRuleFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AccessanalyzerArchiveRuleFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AccessanalyzerArchiveRuleFilterList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_AccessanalyzerArchiveRuleFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AccessanalyzerArchiveRuleFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AccessanalyzerArchiveRuleFilterList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewAccessanalyzerArchiveRuleFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAccessanalyzerArchiveRuleFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

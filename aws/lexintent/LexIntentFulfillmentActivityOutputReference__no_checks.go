@@ -51,7 +51,7 @@ func (l *jsiiProxy_LexIntentFulfillmentActivityOutputReference) validatePutCodeH
 	return nil
 }
 
-func (l *jsiiProxy_LexIntentFulfillmentActivityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LexIntentFulfillmentActivityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_LexIntentFulfillmentActivityOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_LexIntentFulfillmentActivityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LexIntentFulfillmentActivityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LexIntentFulfillmentActivityOutputReference) validateSetTypeP
 	return nil
 }
 
-func validateNewLexIntentFulfillmentActivityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLexIntentFulfillmentActivityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

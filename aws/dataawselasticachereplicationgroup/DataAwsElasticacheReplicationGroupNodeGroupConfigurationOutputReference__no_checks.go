@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsElasticacheReplicationGroupNodeGroupConfigurationOutpu
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsElasticacheReplicationGroupNodeGroupConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsElasticacheReplicationGroupNodeGroupConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsElasticacheReplicationGroupNodeGroupConfigurationOutpu
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsElasticacheReplicationGroupNodeGroupConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsElasticacheReplicationGroupNodeGroupConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsElasticacheReplicationGroupNodeGroupConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsElasticacheReplicationGroupNodeGroupConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

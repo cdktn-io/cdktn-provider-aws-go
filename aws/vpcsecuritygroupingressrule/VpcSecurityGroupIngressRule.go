@@ -5,19 +5,19 @@ package vpcsecuritygroupingressrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/vpcsecuritygroupingressrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/vpcsecuritygroupingressrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/vpc_security_group_ingress_rule aws_vpc_security_group_ingress_rule}.
 type VpcSecurityGroupIngressRule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CidrIpv4() *string
 	SetCidrIpv4(val *string)
 	CidrIpv4Input() *string
@@ -42,9 +42,9 @@ type VpcSecurityGroupIngressRule interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -57,18 +57,18 @@ type VpcSecurityGroupIngressRule interface {
 	SetIpProtocol(val *string)
 	IpProtocolInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	PrefixListId() *string
 	SetPrefixListId(val *string)
 	PrefixListIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -87,10 +87,10 @@ type VpcSecurityGroupIngressRule interface {
 	SecurityGroupRuleId() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
-	TagsAll() cdktf.StringMap
+	TagsAll() cdktn.StringMap
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -106,7 +106,7 @@ type VpcSecurityGroupIngressRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -124,9 +124,9 @@ type VpcSecurityGroupIngressRule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -168,7 +168,7 @@ type VpcSecurityGroupIngressRule interface {
 
 // The jsii proxy struct for VpcSecurityGroupIngressRule
 type jsiiProxy_VpcSecurityGroupIngressRule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_VpcSecurityGroupIngressRule) Arn() *string {
@@ -181,8 +181,8 @@ func (j *jsiiProxy_VpcSecurityGroupIngressRule) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VpcSecurityGroupIngressRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_VpcSecurityGroupIngressRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -291,8 +291,8 @@ func (j *jsiiProxy_VpcSecurityGroupIngressRule) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VpcSecurityGroupIngressRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_VpcSecurityGroupIngressRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -371,8 +371,8 @@ func (j *jsiiProxy_VpcSecurityGroupIngressRule) IpProtocolInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VpcSecurityGroupIngressRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_VpcSecurityGroupIngressRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -411,8 +411,8 @@ func (j *jsiiProxy_VpcSecurityGroupIngressRule) PrefixListIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VpcSecurityGroupIngressRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_VpcSecurityGroupIngressRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -521,8 +521,8 @@ func (j *jsiiProxy_VpcSecurityGroupIngressRule) Tags() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_VpcSecurityGroupIngressRule) TagsAll() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_VpcSecurityGroupIngressRule) TagsAll() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tagsAll",
@@ -541,8 +541,8 @@ func (j *jsiiProxy_VpcSecurityGroupIngressRule) TagsInput() *map[string]*string 
 	return returns
 }
 
-func (j *jsiiProxy_VpcSecurityGroupIngressRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_VpcSecurityGroupIngressRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -684,7 +684,7 @@ func (j *jsiiProxy_VpcSecurityGroupIngressRule)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_VpcSecurityGroupIngressRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_VpcSecurityGroupIngressRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -714,7 +714,7 @@ func (j *jsiiProxy_VpcSecurityGroupIngressRule)SetIpProtocol(val *string) {
 	)
 }
 
-func (j *jsiiProxy_VpcSecurityGroupIngressRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_VpcSecurityGroupIngressRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -736,7 +736,7 @@ func (j *jsiiProxy_VpcSecurityGroupIngressRule)SetPrefixListId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_VpcSecurityGroupIngressRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_VpcSecurityGroupIngressRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -810,14 +810,14 @@ func (j *jsiiProxy_VpcSecurityGroupIngressRule)SetToPort(val *float64) {
 	)
 }
 
-// Generates CDKTF code for importing a VpcSecurityGroupIngressRule resource upon running "cdktf plan <stack-name>".
-func VpcSecurityGroupIngressRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a VpcSecurityGroupIngressRule resource upon running "cdktn plan <stack-name>".
+func VpcSecurityGroupIngressRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateVpcSecurityGroupIngressRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.vpcSecurityGroupIngressRule.VpcSecurityGroupIngressRule",
@@ -951,11 +951,11 @@ func (v *jsiiProxy_VpcSecurityGroupIngressRule) GetAnyMapAttribute(terraformAttr
 	return returns
 }
 
-func (v *jsiiProxy_VpcSecurityGroupIngressRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpcSecurityGroupIngressRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -1092,7 +1092,7 @@ func (v *jsiiProxy_VpcSecurityGroupIngressRule) HasResourceMove() interface{} {
 	return returns
 }
 
-func (v *jsiiProxy_VpcSecurityGroupIngressRule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (v *jsiiProxy_VpcSecurityGroupIngressRule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := v.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1103,11 +1103,11 @@ func (v *jsiiProxy_VpcSecurityGroupIngressRule) ImportFrom(id *string, provider 
 	)
 }
 
-func (v *jsiiProxy_VpcSecurityGroupIngressRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpcSecurityGroupIngressRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,

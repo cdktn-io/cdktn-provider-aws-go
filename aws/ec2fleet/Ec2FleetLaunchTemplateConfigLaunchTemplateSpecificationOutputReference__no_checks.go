@@ -47,7 +47,7 @@ func (e *jsiiProxy_Ec2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutput
 	return nil
 }
 
-func (e *jsiiProxy_Ec2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_Ec2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_Ec2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutput
 	return nil
 }
 
-func (j *jsiiProxy_Ec2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Ec2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_Ec2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutput
 	return nil
 }
 
-func validateNewEc2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEc2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

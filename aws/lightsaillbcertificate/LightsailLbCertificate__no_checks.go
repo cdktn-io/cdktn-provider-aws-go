@@ -111,7 +111,7 @@ func (j *jsiiProxy_LightsailLbCertificate) validateSetLbNameParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_LightsailLbCertificate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LightsailLbCertificate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

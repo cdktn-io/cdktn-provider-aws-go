@@ -15,7 +15,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList) validateG
 	return nil
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList) validateS
 	return nil
 }
 
-func validateNewInspector2FilterFilterCriteriaEcrImageRegistryListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewInspector2FilterFilterCriteriaEcrImageRegistryListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

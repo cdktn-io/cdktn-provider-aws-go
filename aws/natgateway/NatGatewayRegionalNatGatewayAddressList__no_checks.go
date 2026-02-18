@@ -15,7 +15,7 @@ func (n *jsiiProxy_NatGatewayRegionalNatGatewayAddressList) validateGetParameter
 	return nil
 }
 
-func (n *jsiiProxy_NatGatewayRegionalNatGatewayAddressList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NatGatewayRegionalNatGatewayAddressList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_NatGatewayRegionalNatGatewayAddressList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_NatGatewayRegionalNatGatewayAddressList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NatGatewayRegionalNatGatewayAddressList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_NatGatewayRegionalNatGatewayAddressList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewNatGatewayRegionalNatGatewayAddressListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNatGatewayRegionalNatGatewayAddressListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

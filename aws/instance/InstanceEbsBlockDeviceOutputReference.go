@@ -5,14 +5,14 @@ package instance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/instance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/instance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type InstanceEbsBlockDeviceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -61,9 +61,9 @@ type InstanceEbsBlockDeviceOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Throughput() *float64
 	SetThroughput(val *float64)
 	ThroughputInput() *float64
@@ -79,7 +79,7 @@ type InstanceEbsBlockDeviceOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -95,9 +95,9 @@ type InstanceEbsBlockDeviceOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDeleteOnTermination()
 	ResetEncrypted()
 	ResetIops()
@@ -110,7 +110,7 @@ type InstanceEbsBlockDeviceOutputReference interface {
 	ResetVolumeType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -120,7 +120,7 @@ type InstanceEbsBlockDeviceOutputReference interface {
 
 // The jsii proxy struct for InstanceEbsBlockDeviceOutputReference
 type jsiiProxy_InstanceEbsBlockDeviceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_InstanceEbsBlockDeviceOutputReference) ComplexObjectIndex() interface{} {
@@ -343,8 +343,8 @@ func (j *jsiiProxy_InstanceEbsBlockDeviceOutputReference) TerraformAttribute() *
 	return returns
 }
 
-func (j *jsiiProxy_InstanceEbsBlockDeviceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_InstanceEbsBlockDeviceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -424,7 +424,7 @@ func (j *jsiiProxy_InstanceEbsBlockDeviceOutputReference) VolumeTypeInput() *str
 }
 
 
-func NewInstanceEbsBlockDeviceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) InstanceEbsBlockDeviceOutputReference {
+func NewInstanceEbsBlockDeviceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) InstanceEbsBlockDeviceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewInstanceEbsBlockDeviceOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -441,7 +441,7 @@ func NewInstanceEbsBlockDeviceOutputReference(terraformResource cdktf.IInterpola
 	return &j
 }
 
-func NewInstanceEbsBlockDeviceOutputReference_Override(i InstanceEbsBlockDeviceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewInstanceEbsBlockDeviceOutputReference_Override(i InstanceEbsBlockDeviceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -583,7 +583,7 @@ func (j *jsiiProxy_InstanceEbsBlockDeviceOutputReference)SetTerraformAttribute(v
 	)
 }
 
-func (j *jsiiProxy_InstanceEbsBlockDeviceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_InstanceEbsBlockDeviceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -656,11 +656,11 @@ func (i *jsiiProxy_InstanceEbsBlockDeviceOutputReference) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (i *jsiiProxy_InstanceEbsBlockDeviceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_InstanceEbsBlockDeviceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -784,8 +784,8 @@ func (i *jsiiProxy_InstanceEbsBlockDeviceOutputReference) GetStringMapAttribute(
 	return returns
 }
 
-func (i *jsiiProxy_InstanceEbsBlockDeviceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_InstanceEbsBlockDeviceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -797,11 +797,11 @@ func (i *jsiiProxy_InstanceEbsBlockDeviceOutputReference) InterpolationAsList() 
 	return returns
 }
 
-func (i *jsiiProxy_InstanceEbsBlockDeviceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_InstanceEbsBlockDeviceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -893,7 +893,7 @@ func (i *jsiiProxy_InstanceEbsBlockDeviceOutputReference) ResetVolumeType() {
 	)
 }
 
-func (i *jsiiProxy_InstanceEbsBlockDeviceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_InstanceEbsBlockDeviceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

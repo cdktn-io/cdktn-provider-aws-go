@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEcrpublicImagesImageIdsList) validateGetParameters(ind
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEcrpublicImagesImageIdsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEcrpublicImagesImageIdsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsEcrpublicImagesImageIdsList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEcrpublicImagesImageIdsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEcrpublicImagesImageIdsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsEcrpublicImagesImageIdsList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewDataAwsEcrpublicImagesImageIdsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEcrpublicImagesImageIdsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

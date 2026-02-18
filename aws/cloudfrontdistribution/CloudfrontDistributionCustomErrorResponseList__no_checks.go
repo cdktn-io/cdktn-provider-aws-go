@@ -15,7 +15,7 @@ func (c *jsiiProxy_CloudfrontDistributionCustomErrorResponseList) validateGetPar
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontDistributionCustomErrorResponseList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontDistributionCustomErrorResponseList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CloudfrontDistributionCustomErrorResponseList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontDistributionCustomErrorResponseList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontDistributionCustomErrorResponseList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CloudfrontDistributionCustomErrorResponseList) validateSetWra
 	return nil
 }
 
-func validateNewCloudfrontDistributionCustomErrorResponseListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudfrontDistributionCustomErrorResponseListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

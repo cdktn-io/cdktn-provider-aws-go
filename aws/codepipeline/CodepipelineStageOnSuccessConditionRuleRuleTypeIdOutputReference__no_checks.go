@@ -47,7 +47,7 @@ func (c *jsiiProxy_CodepipelineStageOnSuccessConditionRuleRuleTypeIdOutputRefere
 	return nil
 }
 
-func (c *jsiiProxy_CodepipelineStageOnSuccessConditionRuleRuleTypeIdOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodepipelineStageOnSuccessConditionRuleRuleTypeIdOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_CodepipelineStageOnSuccessConditionRuleRuleTypeIdOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_CodepipelineStageOnSuccessConditionRuleRuleTypeIdOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodepipelineStageOnSuccessConditionRuleRuleTypeIdOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_CodepipelineStageOnSuccessConditionRuleRuleTypeIdOutputRefere
 	return nil
 }
 
-func validateNewCodepipelineStageOnSuccessConditionRuleRuleTypeIdOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCodepipelineStageOnSuccessConditionRuleRuleTypeIdOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

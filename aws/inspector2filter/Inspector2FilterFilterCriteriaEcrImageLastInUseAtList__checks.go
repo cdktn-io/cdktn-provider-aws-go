@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageLastInUseAtList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageLastInUseAtList) valida
 	return nil
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageLastInUseAtList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageLastInUseAtList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageLastInUseAtList) valida
 
 func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageLastInUseAtList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Inspector2FilterFilterCriteriaEcrImageLastInUseAt:
 		val := val.(*[]*Inspector2FilterFilterCriteriaEcrImageLastInUseAt)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageLastInUseAtList) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*Inspector2FilterFilterCriteriaEcrImageLastInUseAt; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*Inspector2FilterFilterCriteriaEcrImageLastInUseAt; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageLastInUseAtList) valida
 	return nil
 }
 
-func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageLastInUseAtList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageLastInUseAtList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageLastInUseAtList) valida
 	return nil
 }
 
-func validateNewInspector2FilterFilterCriteriaEcrImageLastInUseAtListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewInspector2FilterFilterCriteriaEcrImageLastInUseAtListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

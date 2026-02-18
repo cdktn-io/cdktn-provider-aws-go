@@ -47,7 +47,7 @@ func (c *jsiiProxy_CodegurureviewerRepositoryAssociationRepositoryBitbucketOutpu
 	return nil
 }
 
-func (c *jsiiProxy_CodegurureviewerRepositoryAssociationRepositoryBitbucketOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodegurureviewerRepositoryAssociationRepositoryBitbucketOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_CodegurureviewerRepositoryAssociationRepositoryBitbucketOutpu
 	return nil
 }
 
-func (j *jsiiProxy_CodegurureviewerRepositoryAssociationRepositoryBitbucketOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodegurureviewerRepositoryAssociationRepositoryBitbucketOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCodegurureviewerRepositoryAssociationRepositoryBitbucketOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCodegurureviewerRepositoryAssociationRepositoryBitbucketOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

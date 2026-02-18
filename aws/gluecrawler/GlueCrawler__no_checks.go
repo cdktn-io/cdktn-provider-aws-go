@@ -167,7 +167,7 @@ func (j *jsiiProxy_GlueCrawler) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_GlueCrawler) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GlueCrawler) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

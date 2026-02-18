@@ -115,7 +115,7 @@ func (j *jsiiProxy_EmrStudioSessionMapping) validateSetIdentityTypeParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_EmrStudioSessionMapping) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EmrStudioSessionMapping) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

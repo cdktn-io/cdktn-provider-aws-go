@@ -139,7 +139,7 @@ func (j *jsiiProxy_LbTargetGroup) validateSetLambdaMultiValueHeadersEnabledParam
 	return nil
 }
 
-func (j *jsiiProxy_LbTargetGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LbTargetGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

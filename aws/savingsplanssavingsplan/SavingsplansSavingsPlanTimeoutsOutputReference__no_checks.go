@@ -47,7 +47,7 @@ func (s *jsiiProxy_SavingsplansSavingsPlanTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (s *jsiiProxy_SavingsplansSavingsPlanTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SavingsplansSavingsPlanTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SavingsplansSavingsPlanTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_SavingsplansSavingsPlanTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SavingsplansSavingsPlanTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSavingsplansSavingsPlanTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSavingsplansSavingsPlanTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package ecsservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ecsservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ecsservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EcsServiceDeploymentConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BakeTimeInMinutes() *string
 	SetBakeTimeInMinutes(val *string)
 	BakeTimeInMinutesInput() *string
@@ -49,15 +49,15 @@ type EcsServiceDeploymentConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,9 +73,9 @@ type EcsServiceDeploymentConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCanaryConfiguration(value *EcsServiceDeploymentConfigurationCanaryConfiguration)
 	PutLifecycleHook(value interface{})
 	PutLinearConfiguration(value *EcsServiceDeploymentConfigurationLinearConfiguration)
@@ -86,7 +86,7 @@ type EcsServiceDeploymentConfigurationOutputReference interface {
 	ResetStrategy()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type EcsServiceDeploymentConfigurationOutputReference interface {
 
 // The jsii proxy struct for EcsServiceDeploymentConfigurationOutputReference
 type jsiiProxy_EcsServiceDeploymentConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) BakeTimeInMinutes() *string {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) TerraformRe
 }
 
 
-func NewEcsServiceDeploymentConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) EcsServiceDeploymentConfigurationOutputReference {
+func NewEcsServiceDeploymentConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) EcsServiceDeploymentConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEcsServiceDeploymentConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewEcsServiceDeploymentConfigurationOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewEcsServiceDeploymentConfigurationOutputReference_Override(e EcsServiceDeploymentConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEcsServiceDeploymentConfigurationOutputReference_Override(e EcsServiceDeploymentConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -363,7 +363,7 @@ func (j *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -403,11 +403,11 @@ func (e *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (e *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -531,8 +531,8 @@ func (e *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) GetStringMa
 	return returns
 }
 
-func (e *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -544,11 +544,11 @@ func (e *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) Interpolati
 	return returns
 }
 
-func (e *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -633,7 +633,7 @@ func (e *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) ResetStrate
 	)
 }
 
-func (e *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SyntheticsCanaryScheduleRetryConfigOutputReference) validateI
 	return nil
 }
 
-func (s *jsiiProxy_SyntheticsCanaryScheduleRetryConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SyntheticsCanaryScheduleRetryConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SyntheticsCanaryScheduleRetryConfigOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_SyntheticsCanaryScheduleRetryConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SyntheticsCanaryScheduleRetryConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSyntheticsCanaryScheduleRetryConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSyntheticsCanaryScheduleRetryConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

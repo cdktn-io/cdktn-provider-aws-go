@@ -139,7 +139,7 @@ func (j *jsiiProxy_PipesPipe) validateSetKmsKeyIdentifierParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipe) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PipesPipe) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

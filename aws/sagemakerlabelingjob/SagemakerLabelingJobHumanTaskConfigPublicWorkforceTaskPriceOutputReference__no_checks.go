@@ -51,7 +51,7 @@ func (s *jsiiProxy_SagemakerLabelingJobHumanTaskConfigPublicWorkforceTaskPriceOu
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerLabelingJobHumanTaskConfigPublicWorkforceTaskPriceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerLabelingJobHumanTaskConfigPublicWorkforceTaskPriceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SagemakerLabelingJobHumanTaskConfigPublicWorkforceTaskPriceOu
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerLabelingJobHumanTaskConfigPublicWorkforceTaskPriceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerLabelingJobHumanTaskConfigPublicWorkforceTaskPriceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerLabelingJobHumanTaskConfigPublicWorkforceTaskPriceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSagemakerLabelingJobHumanTaskConfigPublicWorkforceTaskPriceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

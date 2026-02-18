@@ -107,7 +107,7 @@ func (j *jsiiProxy_CloudfrontkeyvaluestoreKey) validateSetKeyValueStoreArnParame
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontkeyvaluestoreKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudfrontkeyvaluestoreKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

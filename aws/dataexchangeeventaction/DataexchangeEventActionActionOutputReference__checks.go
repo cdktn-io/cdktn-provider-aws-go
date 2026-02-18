@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataexchangeEventActionActionOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (d *jsiiProxy_DataexchangeEventActionActionOutputReference) validatePutExpo
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataexchangeEventActionActionExportRevisionToS3:
 		value := value.(*[]*DataexchangeEventActionActionExportRevisionToS3)
@@ -117,14 +117,14 @@ func (d *jsiiProxy_DataexchangeEventActionActionOutputReference) validatePutExpo
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataexchangeEventActionActionExportRevisionToS3; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataexchangeEventActionActionExportRevisionToS3; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (d *jsiiProxy_DataexchangeEventActionActionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataexchangeEventActionActionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -199,7 +199,7 @@ func (j *jsiiProxy_DataexchangeEventActionActionOutputReference) validateSetComp
 
 func (j *jsiiProxy_DataexchangeEventActionActionOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *DataexchangeEventActionAction:
 		val := val.(*DataexchangeEventActionAction)
@@ -214,7 +214,7 @@ func (j *jsiiProxy_DataexchangeEventActionActionOutputReference) validateSetInte
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *DataexchangeEventActionAction; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *DataexchangeEventActionAction; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -229,7 +229,7 @@ func (j *jsiiProxy_DataexchangeEventActionActionOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DataexchangeEventActionActionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataexchangeEventActionActionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -237,7 +237,7 @@ func (j *jsiiProxy_DataexchangeEventActionActionOutputReference) validateSetTerr
 	return nil
 }
 
-func validateNewDataexchangeEventActionActionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataexchangeEventActionActionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

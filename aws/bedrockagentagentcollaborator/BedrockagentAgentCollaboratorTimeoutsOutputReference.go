@@ -5,14 +5,14 @@ package bedrockagentagentcollaborator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/bedrockagentagentcollaborator/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/bedrockagentagentcollaborator/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BedrockagentAgentCollaboratorTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type BedrockagentAgentCollaboratorTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type BedrockagentAgentCollaboratorTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type BedrockagentAgentCollaboratorTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type BedrockagentAgentCollaboratorTimeoutsOutputReference interface {
 
 // The jsii proxy struct for BedrockagentAgentCollaboratorTimeoutsOutputReference
 type jsiiProxy_BedrockagentAgentCollaboratorTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BedrockagentAgentCollaboratorTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_BedrockagentAgentCollaboratorTimeoutsOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentAgentCollaboratorTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BedrockagentAgentCollaboratorTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_BedrockagentAgentCollaboratorTimeoutsOutputReference) UpdateI
 }
 
 
-func NewBedrockagentAgentCollaboratorTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BedrockagentAgentCollaboratorTimeoutsOutputReference {
+func NewBedrockagentAgentCollaboratorTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BedrockagentAgentCollaboratorTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBedrockagentAgentCollaboratorTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewBedrockagentAgentCollaboratorTimeoutsOutputReference(terraformResource c
 	return &j
 }
 
-func NewBedrockagentAgentCollaboratorTimeoutsOutputReference_Override(b BedrockagentAgentCollaboratorTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBedrockagentAgentCollaboratorTimeoutsOutputReference_Override(b BedrockagentAgentCollaboratorTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_BedrockagentAgentCollaboratorTimeoutsOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_BedrockagentAgentCollaboratorTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BedrockagentAgentCollaboratorTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (b *jsiiProxy_BedrockagentAgentCollaboratorTimeoutsOutputReference) GetAnyM
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentAgentCollaboratorTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BedrockagentAgentCollaboratorTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -494,8 +494,8 @@ func (b *jsiiProxy_BedrockagentAgentCollaboratorTimeoutsOutputReference) GetStri
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentAgentCollaboratorTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BedrockagentAgentCollaboratorTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -507,11 +507,11 @@ func (b *jsiiProxy_BedrockagentAgentCollaboratorTimeoutsOutputReference) Interpo
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentAgentCollaboratorTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BedrockagentAgentCollaboratorTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -547,7 +547,7 @@ func (b *jsiiProxy_BedrockagentAgentCollaboratorTimeoutsOutputReference) ResetUp
 	)
 }
 
-func (b *jsiiProxy_BedrockagentAgentCollaboratorTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BedrockagentAgentCollaboratorTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

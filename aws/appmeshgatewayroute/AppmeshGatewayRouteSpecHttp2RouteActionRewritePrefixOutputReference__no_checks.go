@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppmeshGatewayRouteSpecHttp2RouteActionRewritePrefixOutputRef
 	return nil
 }
 
-func (a *jsiiProxy_AppmeshGatewayRouteSpecHttp2RouteActionRewritePrefixOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppmeshGatewayRouteSpecHttp2RouteActionRewritePrefixOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_AppmeshGatewayRouteSpecHttp2RouteActionRewritePrefixOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshGatewayRouteSpecHttp2RouteActionRewritePrefixOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppmeshGatewayRouteSpecHttp2RouteActionRewritePrefixOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AppmeshGatewayRouteSpecHttp2RouteActionRewritePrefixOutputRef
 	return nil
 }
 
-func validateNewAppmeshGatewayRouteSpecHttp2RouteActionRewritePrefixOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppmeshGatewayRouteSpecHttp2RouteActionRewritePrefixOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

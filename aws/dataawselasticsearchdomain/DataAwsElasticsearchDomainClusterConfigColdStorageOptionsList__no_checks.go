@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsElasticsearchDomainClusterConfigColdStorageOptionsList
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsElasticsearchDomainClusterConfigColdStorageOptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsElasticsearchDomainClusterConfigColdStorageOptionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsElasticsearchDomainClusterConfigColdStorageOptionsList
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsElasticsearchDomainClusterConfigColdStorageOptionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsElasticsearchDomainClusterConfigColdStorageOptionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsElasticsearchDomainClusterConfigColdStorageOptionsList
 	return nil
 }
 
-func validateNewDataAwsElasticsearchDomainClusterConfigColdStorageOptionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsElasticsearchDomainClusterConfigColdStorageOptionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

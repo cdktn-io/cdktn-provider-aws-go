@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsAppmeshVirtualGatewaySpecLoggingAccessLogList) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAppmeshVirtualGatewaySpecLoggingAccessLogList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAppmeshVirtualGatewaySpecLoggingAccessLogList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsAppmeshVirtualGatewaySpecLoggingAccessLogList) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAppmeshVirtualGatewaySpecLoggingAccessLogList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAppmeshVirtualGatewaySpecLoggingAccessLogList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsAppmeshVirtualGatewaySpecLoggingAccessLogList) validat
 	return nil
 }
 
-func validateNewDataAwsAppmeshVirtualGatewaySpecLoggingAccessLogListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsAppmeshVirtualGatewaySpecLoggingAccessLogListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -107,7 +107,7 @@ func (j *jsiiProxy_RamResourceShareAccepter) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_RamResourceShareAccepter) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RamResourceShareAccepter) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

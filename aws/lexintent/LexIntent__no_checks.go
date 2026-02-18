@@ -143,7 +143,7 @@ func (j *jsiiProxy_LexIntent) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_LexIntent) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LexIntent) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

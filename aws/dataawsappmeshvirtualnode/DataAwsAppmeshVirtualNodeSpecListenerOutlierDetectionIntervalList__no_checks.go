@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionInterval
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionIntervalList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionIntervalList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionInterval
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionIntervalList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionIntervalList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionInterval
 	return nil
 }
 
-func validateNewDataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionIntervalListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionIntervalListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

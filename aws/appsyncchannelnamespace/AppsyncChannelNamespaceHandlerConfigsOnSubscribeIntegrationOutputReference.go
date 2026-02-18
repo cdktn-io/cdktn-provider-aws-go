@@ -5,14 +5,14 @@ package appsyncchannelnamespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/appsyncchannelnamespace/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appsyncchannelnamespace/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,15 +42,15 @@ type AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,14 +66,14 @@ type AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutLambdaConfig(value interface{})
 	ResetLambdaConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference 
 
 // The jsii proxy struct for AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference
 type jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference) ComplexObjectIndex() interface{} {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOu
 	return returns
 }
 
-func (j *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOu
 }
 
 
-func NewAppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference {
+func NewAppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -214,7 +214,7 @@ func NewAppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReferen
 	return &j
 }
 
-func NewAppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference_Override(a AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewAppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference_Override(a AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -279,7 +279,7 @@ func (j *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOu
 	)
 }
 
-func (j *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -319,11 +319,11 @@ func (a *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOu
 	return returns
 }
 
-func (a *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -447,8 +447,8 @@ func (a *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOu
 	return returns
 }
 
-func (a *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -460,11 +460,11 @@ func (a *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOu
 	return returns
 }
 
-func (a *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -495,7 +495,7 @@ func (a *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOu
 	)
 }
 
-func (a *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -107,7 +107,7 @@ func (j *jsiiProxy_ApiGatewayClientCertificate) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_ApiGatewayClientCertificate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApiGatewayClientCertificate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

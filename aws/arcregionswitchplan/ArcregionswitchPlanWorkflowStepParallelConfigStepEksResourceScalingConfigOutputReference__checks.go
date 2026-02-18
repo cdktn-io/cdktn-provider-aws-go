@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceS
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigEksClusters:
 		value := value.(*[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigEksClusters)
@@ -117,7 +117,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceS
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigEksClusters; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigEksClusters; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceS
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigKubernetesResourceType:
 		value := value.(*[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigKubernetesResourceType)
@@ -148,7 +148,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceS
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigKubernetesResourceType; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigKubernetesResourceType; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceS
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigScalingResources:
 		value := value.(*[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigScalingResources)
@@ -179,7 +179,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceS
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigScalingResources; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigScalingResources; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -191,7 +191,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceS
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigUngraceful:
 		value := value.(*[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigUngraceful)
@@ -210,14 +210,14 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceS
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigUngraceful; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigUngraceful; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -300,7 +300,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceS
 
 func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfig:
 		val := val.(*ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfig)
@@ -315,7 +315,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceS
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfig; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfig; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -338,7 +338,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceS
 	return nil
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -354,7 +354,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceS
 	return nil
 }
 
-func validateNewArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

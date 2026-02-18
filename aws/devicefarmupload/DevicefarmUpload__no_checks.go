@@ -107,7 +107,7 @@ func (j *jsiiProxy_DevicefarmUpload) validateSetIdParameters(val *string) error 
 	return nil
 }
 
-func (j *jsiiProxy_DevicefarmUpload) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DevicefarmUpload) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

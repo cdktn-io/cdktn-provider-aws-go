@@ -5,14 +5,14 @@ package backuprestoretestingselection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/backuprestoretestingselection/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/backuprestoretestingselection/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,15 +41,15 @@ type BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference int
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,16 +65,16 @@ type BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference int
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutStringEquals(value interface{})
 	PutStringNotEquals(value interface{})
 	ResetStringEquals()
 	ResetStringNotEquals()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference int
 
 // The jsii proxy struct for BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference
 type jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsOutpu
 	return returns
 }
 
-func (j *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsOutpu
 }
 
 
-func NewBackupRestoreTestingSelectionProtectedResourceConditionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference {
+func NewBackupRestoreTestingSelectionProtectedResourceConditionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBackupRestoreTestingSelectionProtectedResourceConditionsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -215,7 +215,7 @@ func NewBackupRestoreTestingSelectionProtectedResourceConditionsOutputReference(
 	return &j
 }
 
-func NewBackupRestoreTestingSelectionProtectedResourceConditionsOutputReference_Override(b BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewBackupRestoreTestingSelectionProtectedResourceConditionsOutputReference_Override(b BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -269,7 +269,7 @@ func (j *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsOutpu
 	)
 }
 
-func (j *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -309,11 +309,11 @@ func (b *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsOutpu
 	return returns
 }
 
-func (b *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -437,8 +437,8 @@ func (b *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsOutpu
 	return returns
 }
 
-func (b *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -450,11 +450,11 @@ func (b *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsOutpu
 	return returns
 }
 
-func (b *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -504,7 +504,7 @@ func (b *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsOutpu
 	)
 }
 
-func (b *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

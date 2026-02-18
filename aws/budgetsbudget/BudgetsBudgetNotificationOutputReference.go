@@ -5,14 +5,14 @@ package budgetsbudget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/budgetsbudget/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/budgetsbudget/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BudgetsBudgetNotificationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ComparisonOperator() *string
 	SetComparisonOperator(val *string)
 	ComparisonOperatorInput() *string
@@ -49,9 +49,9 @@ type BudgetsBudgetNotificationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Threshold() *float64
 	SetThreshold(val *float64)
 	ThresholdInput() *float64
@@ -63,7 +63,7 @@ type BudgetsBudgetNotificationOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,14 +79,14 @@ type BudgetsBudgetNotificationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetSubscriberEmailAddresses()
 	ResetSubscriberSnsTopicArns()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type BudgetsBudgetNotificationOutputReference interface {
 
 // The jsii proxy struct for BudgetsBudgetNotificationOutputReference
 type jsiiProxy_BudgetsBudgetNotificationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BudgetsBudgetNotificationOutputReference) ComparisonOperator() *string {
@@ -239,8 +239,8 @@ func (j *jsiiProxy_BudgetsBudgetNotificationOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_BudgetsBudgetNotificationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BudgetsBudgetNotificationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -290,7 +290,7 @@ func (j *jsiiProxy_BudgetsBudgetNotificationOutputReference) ThresholdTypeInput(
 }
 
 
-func NewBudgetsBudgetNotificationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BudgetsBudgetNotificationOutputReference {
+func NewBudgetsBudgetNotificationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BudgetsBudgetNotificationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBudgetsBudgetNotificationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -307,7 +307,7 @@ func NewBudgetsBudgetNotificationOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewBudgetsBudgetNotificationOutputReference_Override(b BudgetsBudgetNotificationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewBudgetsBudgetNotificationOutputReference_Override(b BudgetsBudgetNotificationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -405,7 +405,7 @@ func (j *jsiiProxy_BudgetsBudgetNotificationOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_BudgetsBudgetNotificationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BudgetsBudgetNotificationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -467,11 +467,11 @@ func (b *jsiiProxy_BudgetsBudgetNotificationOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (b *jsiiProxy_BudgetsBudgetNotificationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BudgetsBudgetNotificationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -595,8 +595,8 @@ func (b *jsiiProxy_BudgetsBudgetNotificationOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (b *jsiiProxy_BudgetsBudgetNotificationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BudgetsBudgetNotificationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -608,11 +608,11 @@ func (b *jsiiProxy_BudgetsBudgetNotificationOutputReference) InterpolationAsList
 	return returns
 }
 
-func (b *jsiiProxy_BudgetsBudgetNotificationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BudgetsBudgetNotificationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -640,7 +640,7 @@ func (b *jsiiProxy_BudgetsBudgetNotificationOutputReference) ResetSubscriberSnsT
 	)
 }
 
-func (b *jsiiProxy_BudgetsBudgetNotificationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BudgetsBudgetNotificationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

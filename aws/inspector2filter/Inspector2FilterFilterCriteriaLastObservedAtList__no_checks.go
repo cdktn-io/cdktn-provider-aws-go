@@ -15,7 +15,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaLastObservedAtList) validateGet
 	return nil
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaLastObservedAtList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaLastObservedAtList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaLastObservedAtList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_Inspector2FilterFilterCriteriaLastObservedAtList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Inspector2FilterFilterCriteriaLastObservedAtList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaLastObservedAtList) validateSet
 	return nil
 }
 
-func validateNewInspector2FilterFilterCriteriaLastObservedAtListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewInspector2FilterFilterCriteriaLastObservedAtListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

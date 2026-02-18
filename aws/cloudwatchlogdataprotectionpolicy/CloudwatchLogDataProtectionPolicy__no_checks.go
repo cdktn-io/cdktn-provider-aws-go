@@ -103,7 +103,7 @@ func (j *jsiiProxy_CloudwatchLogDataProtectionPolicy) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchLogDataProtectionPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudwatchLogDataProtectionPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

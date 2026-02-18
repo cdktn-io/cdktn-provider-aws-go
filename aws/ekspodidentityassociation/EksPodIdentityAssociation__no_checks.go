@@ -107,7 +107,7 @@ func (j *jsiiProxy_EksPodIdentityAssociation) validateSetDisableSessionTagsParam
 	return nil
 }
 
-func (j *jsiiProxy_EksPodIdentityAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EksPodIdentityAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

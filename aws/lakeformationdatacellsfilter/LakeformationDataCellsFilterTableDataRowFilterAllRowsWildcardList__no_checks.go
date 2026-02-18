@@ -15,7 +15,7 @@ func (l *jsiiProxy_LakeformationDataCellsFilterTableDataRowFilterAllRowsWildcard
 	return nil
 }
 
-func (l *jsiiProxy_LakeformationDataCellsFilterTableDataRowFilterAllRowsWildcardList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LakeformationDataCellsFilterTableDataRowFilterAllRowsWildcardList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LakeformationDataCellsFilterTableDataRowFilterAllRowsWildcard
 	return nil
 }
 
-func (j *jsiiProxy_LakeformationDataCellsFilterTableDataRowFilterAllRowsWildcardList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LakeformationDataCellsFilterTableDataRowFilterAllRowsWildcardList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LakeformationDataCellsFilterTableDataRowFilterAllRowsWildcard
 	return nil
 }
 
-func validateNewLakeformationDataCellsFilterTableDataRowFilterAllRowsWildcardListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLakeformationDataCellsFilterTableDataRowFilterAllRowsWildcardListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

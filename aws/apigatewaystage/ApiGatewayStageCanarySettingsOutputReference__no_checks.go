@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiGatewayStageCanarySettingsOutputReference) validateInterpo
 	return nil
 }
 
-func (a *jsiiProxy_ApiGatewayStageCanarySettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiGatewayStageCanarySettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ApiGatewayStageCanarySettingsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_ApiGatewayStageCanarySettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiGatewayStageCanarySettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ApiGatewayStageCanarySettingsOutputReference) validateSetUseS
 	return nil
 }
 
-func validateNewApiGatewayStageCanarySettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiGatewayStageCanarySettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataexchangeRevisionAssetsAssetImportAssetsFromS3List) valida
 	return nil
 }
 
-func (d *jsiiProxy_DataexchangeRevisionAssetsAssetImportAssetsFromS3List) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataexchangeRevisionAssetsAssetImportAssetsFromS3List) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataexchangeRevisionAssetsAssetImportAssetsFromS3List) valida
 	return nil
 }
 
-func (j *jsiiProxy_DataexchangeRevisionAssetsAssetImportAssetsFromS3List) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataexchangeRevisionAssetsAssetImportAssetsFromS3List) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataexchangeRevisionAssetsAssetImportAssetsFromS3List) valida
 	return nil
 }
 
-func validateNewDataexchangeRevisionAssetsAssetImportAssetsFromS3ListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataexchangeRevisionAssetsAssetImportAssetsFromS3ListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

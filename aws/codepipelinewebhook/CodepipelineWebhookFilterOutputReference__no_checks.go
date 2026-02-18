@@ -47,7 +47,7 @@ func (c *jsiiProxy_CodepipelineWebhookFilterOutputReference) validateInterpolati
 	return nil
 }
 
-func (c *jsiiProxy_CodepipelineWebhookFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodepipelineWebhookFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CodepipelineWebhookFilterOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_CodepipelineWebhookFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodepipelineWebhookFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCodepipelineWebhookFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCodepipelineWebhookFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

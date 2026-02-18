@@ -47,7 +47,7 @@ func (a *jsiiProxy_Apigatewayv2StageAccessLogSettingsOutputReference) validateIn
 	return nil
 }
 
-func (a *jsiiProxy_Apigatewayv2StageAccessLogSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_Apigatewayv2StageAccessLogSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_Apigatewayv2StageAccessLogSettingsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_Apigatewayv2StageAccessLogSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Apigatewayv2StageAccessLogSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApigatewayv2StageAccessLogSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApigatewayv2StageAccessLogSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

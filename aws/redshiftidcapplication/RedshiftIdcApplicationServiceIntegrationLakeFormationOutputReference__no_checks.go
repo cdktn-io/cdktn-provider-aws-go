@@ -51,7 +51,7 @@ func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationLakeFormationOutputRe
 	return nil
 }
 
-func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationLakeFormationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationLakeFormationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationLakeFormationOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationLakeFormationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationLakeFormationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRedshiftIdcApplicationServiceIntegrationLakeFormationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRedshiftIdcApplicationServiceIntegrationLakeFormationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

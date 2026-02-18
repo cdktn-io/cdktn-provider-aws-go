@@ -5,14 +5,14 @@ package wafv2rulegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/wafv2rulegroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/wafv2rulegroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Wafv2RuleGroupRuleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Action() Wafv2RuleGroupRuleActionOutputReference
 	ActionInput() *Wafv2RuleGroupRuleAction
 	CaptchaConfig() Wafv2RuleGroupRuleCaptchaConfigOutputReference
@@ -52,9 +52,9 @@ type Wafv2RuleGroupRuleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VisibilityConfig() Wafv2RuleGroupRuleVisibilityConfigOutputReference
 	VisibilityConfigInput() *Wafv2RuleGroupRuleVisibilityConfig
 	// Experimental.
@@ -62,7 +62,7 @@ type Wafv2RuleGroupRuleOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -78,9 +78,9 @@ type Wafv2RuleGroupRuleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAction(value *Wafv2RuleGroupRuleAction)
 	PutCaptchaConfig(value *Wafv2RuleGroupRuleCaptchaConfig)
 	PutRuleLabel(value interface{})
@@ -90,7 +90,7 @@ type Wafv2RuleGroupRuleOutputReference interface {
 	ResetStatement()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -100,7 +100,7 @@ type Wafv2RuleGroupRuleOutputReference interface {
 
 // The jsii proxy struct for Wafv2RuleGroupRuleOutputReference
 type jsiiProxy_Wafv2RuleGroupRuleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Wafv2RuleGroupRuleOutputReference) Action() Wafv2RuleGroupRuleActionOutputReference {
@@ -283,8 +283,8 @@ func (j *jsiiProxy_Wafv2RuleGroupRuleOutputReference) TerraformAttribute() *stri
 	return returns
 }
 
-func (j *jsiiProxy_Wafv2RuleGroupRuleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Wafv2RuleGroupRuleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -314,7 +314,7 @@ func (j *jsiiProxy_Wafv2RuleGroupRuleOutputReference) VisibilityConfigInput() *W
 }
 
 
-func NewWafv2RuleGroupRuleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Wafv2RuleGroupRuleOutputReference {
+func NewWafv2RuleGroupRuleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Wafv2RuleGroupRuleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWafv2RuleGroupRuleOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -331,7 +331,7 @@ func NewWafv2RuleGroupRuleOutputReference(terraformResource cdktf.IInterpolating
 	return &j
 }
 
-func NewWafv2RuleGroupRuleOutputReference_Override(w Wafv2RuleGroupRuleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewWafv2RuleGroupRuleOutputReference_Override(w Wafv2RuleGroupRuleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -418,7 +418,7 @@ func (j *jsiiProxy_Wafv2RuleGroupRuleOutputReference)SetTerraformAttribute(val *
 	)
 }
 
-func (j *jsiiProxy_Wafv2RuleGroupRuleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Wafv2RuleGroupRuleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -458,11 +458,11 @@ func (w *jsiiProxy_Wafv2RuleGroupRuleOutputReference) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (w *jsiiProxy_Wafv2RuleGroupRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_Wafv2RuleGroupRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -586,8 +586,8 @@ func (w *jsiiProxy_Wafv2RuleGroupRuleOutputReference) GetStringMapAttribute(terr
 	return returns
 }
 
-func (w *jsiiProxy_Wafv2RuleGroupRuleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_Wafv2RuleGroupRuleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -599,11 +599,11 @@ func (w *jsiiProxy_Wafv2RuleGroupRuleOutputReference) InterpolationAsList() cdkt
 	return returns
 }
 
-func (w *jsiiProxy_Wafv2RuleGroupRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_Wafv2RuleGroupRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -683,7 +683,7 @@ func (w *jsiiProxy_Wafv2RuleGroupRuleOutputReference) ResetStatement() {
 	)
 }
 
-func (w *jsiiProxy_Wafv2RuleGroupRuleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_Wafv2RuleGroupRuleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

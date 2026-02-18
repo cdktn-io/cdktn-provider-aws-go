@@ -47,7 +47,7 @@ func (i *jsiiProxy_InstanceCapacityReservationSpecificationCapacityReservationTa
 	return nil
 }
 
-func (i *jsiiProxy_InstanceCapacityReservationSpecificationCapacityReservationTargetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_InstanceCapacityReservationSpecificationCapacityReservationTargetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_InstanceCapacityReservationSpecificationCapacityReservationTa
 	return nil
 }
 
-func (j *jsiiProxy_InstanceCapacityReservationSpecificationCapacityReservationTargetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_InstanceCapacityReservationSpecificationCapacityReservationTargetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewInstanceCapacityReservationSpecificationCapacityReservationTargetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewInstanceCapacityReservationSpecificationCapacityReservationTargetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

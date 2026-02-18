@@ -135,7 +135,7 @@ func (j *jsiiProxy_SsmAssociation) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_SsmAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SsmAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

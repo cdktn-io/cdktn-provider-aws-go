@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppfabricAppAuthorizationCredentialList) validateGetParameter
 	return nil
 }
 
-func (a *jsiiProxy_AppfabricAppAuthorizationCredentialList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppfabricAppAuthorizationCredentialList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppfabricAppAuthorizationCredentialList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_AppfabricAppAuthorizationCredentialList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppfabricAppAuthorizationCredentialList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppfabricAppAuthorizationCredentialList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewAppfabricAppAuthorizationCredentialListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppfabricAppAuthorizationCredentialListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

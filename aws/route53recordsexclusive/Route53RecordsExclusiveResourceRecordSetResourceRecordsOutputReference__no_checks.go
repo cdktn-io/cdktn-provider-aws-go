@@ -47,7 +47,7 @@ func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetResourceRecordsOutput
 	return nil
 }
 
-func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetResourceRecordsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetResourceRecordsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetResourceRecordsOutput
 	return nil
 }
 
-func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetResourceRecordsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetResourceRecordsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetResourceRecordsOutput
 	return nil
 }
 
-func validateNewRoute53RecordsExclusiveResourceRecordSetResourceRecordsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRoute53RecordsExclusiveResourceRecordSetResourceRecordsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

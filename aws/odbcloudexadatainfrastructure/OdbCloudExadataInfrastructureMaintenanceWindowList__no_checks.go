@@ -15,7 +15,7 @@ func (o *jsiiProxy_OdbCloudExadataInfrastructureMaintenanceWindowList) validateG
 	return nil
 }
 
-func (o *jsiiProxy_OdbCloudExadataInfrastructureMaintenanceWindowList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OdbCloudExadataInfrastructureMaintenanceWindowList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_OdbCloudExadataInfrastructureMaintenanceWindowList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_OdbCloudExadataInfrastructureMaintenanceWindowList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OdbCloudExadataInfrastructureMaintenanceWindowList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_OdbCloudExadataInfrastructureMaintenanceWindowList) validateS
 	return nil
 }
 
-func validateNewOdbCloudExadataInfrastructureMaintenanceWindowListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOdbCloudExadataInfrastructureMaintenanceWindowListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

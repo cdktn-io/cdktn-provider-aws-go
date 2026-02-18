@@ -47,7 +47,7 @@ func (q *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) va
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -123,7 +123,7 @@ func (j *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -135,7 +135,7 @@ func (j *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) va
 	return nil
 }
 
-func validateNewQuicksightThemeConfigurationUiColorPaletteOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewQuicksightThemeConfigurationUiColorPaletteOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

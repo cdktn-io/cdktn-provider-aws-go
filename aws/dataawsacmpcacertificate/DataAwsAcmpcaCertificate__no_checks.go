@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsAcmpcaCertificate) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAcmpcaCertificate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsAcmpcaCertificate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigDateTimeConverterOut
 	return nil
 }
 
-func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigDateTimeConverterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigDateTimeConverterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigDateTimeConverterOut
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigDateTimeConverterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigDateTimeConverterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudwatchLogTransformerTransformerConfigDateTimeConverterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudwatchLogTransformerTransformerConfigDateTimeConverterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

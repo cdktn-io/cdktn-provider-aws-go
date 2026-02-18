@@ -183,7 +183,7 @@ func (j *jsiiProxy_RedshiftCluster) validateSetKmsKeyIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RedshiftCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

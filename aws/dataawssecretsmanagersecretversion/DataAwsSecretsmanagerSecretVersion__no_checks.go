@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsSecretsmanagerSecretVersion) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSecretsmanagerSecretVersion) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsSecretsmanagerSecretVersion) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataAwsLbListenerRuleTransformOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (d *jsiiProxy_DataAwsLbListenerRuleTransformOutputReference) validatePutHos
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataAwsLbListenerRuleTransformHostHeaderRewriteConfig:
 		value := value.(*[]*DataAwsLbListenerRuleTransformHostHeaderRewriteConfig)
@@ -117,7 +117,7 @@ func (d *jsiiProxy_DataAwsLbListenerRuleTransformOutputReference) validatePutHos
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataAwsLbListenerRuleTransformHostHeaderRewriteConfig; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataAwsLbListenerRuleTransformHostHeaderRewriteConfig; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (d *jsiiProxy_DataAwsLbListenerRuleTransformOutputReference) validatePutUrl
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataAwsLbListenerRuleTransformUrlRewriteConfig:
 		value := value.(*[]*DataAwsLbListenerRuleTransformUrlRewriteConfig)
@@ -148,14 +148,14 @@ func (d *jsiiProxy_DataAwsLbListenerRuleTransformOutputReference) validatePutUrl
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataAwsLbListenerRuleTransformUrlRewriteConfig; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataAwsLbListenerRuleTransformUrlRewriteConfig; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLbListenerRuleTransformOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLbListenerRuleTransformOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_DataAwsLbListenerRuleTransformOutputReference) validateSetCom
 
 func (j *jsiiProxy_DataAwsLbListenerRuleTransformOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *DataAwsLbListenerRuleTransform:
 		val := val.(*DataAwsLbListenerRuleTransform)
@@ -245,7 +245,7 @@ func (j *jsiiProxy_DataAwsLbListenerRuleTransformOutputReference) validateSetInt
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *DataAwsLbListenerRuleTransform; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *DataAwsLbListenerRuleTransform; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -260,7 +260,7 @@ func (j *jsiiProxy_DataAwsLbListenerRuleTransformOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLbListenerRuleTransformOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLbListenerRuleTransformOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -268,7 +268,7 @@ func (j *jsiiProxy_DataAwsLbListenerRuleTransformOutputReference) validateSetTer
 	return nil
 }
 
-func validateNewDataAwsLbListenerRuleTransformOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsLbListenerRuleTransformOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

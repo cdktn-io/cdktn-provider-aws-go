@@ -15,7 +15,7 @@ func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationL
 	return nil
 }
 
-func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationL
 	return nil
 }
 
-func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationL
 	return nil
 }
 
-func validateNewRoute53RecordsExclusiveResourceRecordSetGeoproximityLocationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRoute53RecordsExclusiveResourceRecordSetGeoproximityLocationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

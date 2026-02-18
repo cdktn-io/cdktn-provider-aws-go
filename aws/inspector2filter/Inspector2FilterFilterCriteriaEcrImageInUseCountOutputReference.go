@@ -5,14 +5,14 @@ package inspector2filter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/inspector2filter/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/inspector2filter/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UpperInclusive() *float64
 	SetUpperInclusive(val *float64)
 	UpperInclusiveInput() *float64
@@ -51,7 +51,7 @@ type Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference interface {
 
 // The jsii proxy struct for Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference
 type jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference) ComplexObjectIndex() interface{} {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReferen
 	return returns
 }
 
-func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReferen
 }
 
 
-func NewInspector2FilterFilterCriteriaEcrImageInUseCountOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference {
+func NewInspector2FilterFilterCriteriaEcrImageInUseCountOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewInspector2FilterFilterCriteriaEcrImageInUseCountOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -213,7 +213,7 @@ func NewInspector2FilterFilterCriteriaEcrImageInUseCountOutputReference(terrafor
 	return &j
 }
 
-func NewInspector2FilterFilterCriteriaEcrImageInUseCountOutputReference_Override(i Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewInspector2FilterFilterCriteriaEcrImageInUseCountOutputReference_Override(i Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReferen
 	)
 }
 
-func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReferen
 	return returns
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -457,8 +457,8 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReferen
 	return returns
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -470,11 +470,11 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReferen
 	return returns
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -486,7 +486,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReferen
 	return returns
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

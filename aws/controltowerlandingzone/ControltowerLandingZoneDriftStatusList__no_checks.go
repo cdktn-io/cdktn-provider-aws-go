@@ -15,7 +15,7 @@ func (c *jsiiProxy_ControltowerLandingZoneDriftStatusList) validateGetParameters
 	return nil
 }
 
-func (c *jsiiProxy_ControltowerLandingZoneDriftStatusList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ControltowerLandingZoneDriftStatusList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_ControltowerLandingZoneDriftStatusList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_ControltowerLandingZoneDriftStatusList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ControltowerLandingZoneDriftStatusList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_ControltowerLandingZoneDriftStatusList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewControltowerLandingZoneDriftStatusListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewControltowerLandingZoneDriftStatusListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

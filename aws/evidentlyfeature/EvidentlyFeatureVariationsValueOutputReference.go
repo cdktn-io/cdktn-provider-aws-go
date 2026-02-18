@@ -5,14 +5,14 @@ package evidentlyfeature
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/evidentlyfeature/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/evidentlyfeature/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EvidentlyFeatureVariationsValueOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BoolValue() *string
 	SetBoolValue(val *string)
 	BoolValueInput() *string
@@ -49,15 +49,15 @@ type EvidentlyFeatureVariationsValueOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type EvidentlyFeatureVariationsValueOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBoolValue()
 	ResetDoubleValue()
 	ResetLongValue()
 	ResetStringValue()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type EvidentlyFeatureVariationsValueOutputReference interface {
 
 // The jsii proxy struct for EvidentlyFeatureVariationsValueOutputReference
 type jsiiProxy_EvidentlyFeatureVariationsValueOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) BoolValue() *string {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) TerraformReso
 }
 
 
-func NewEvidentlyFeatureVariationsValueOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) EvidentlyFeatureVariationsValueOutputReference {
+func NewEvidentlyFeatureVariationsValueOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) EvidentlyFeatureVariationsValueOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEvidentlyFeatureVariationsValueOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewEvidentlyFeatureVariationsValueOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewEvidentlyFeatureVariationsValueOutputReference_Override(e EvidentlyFeatureVariationsValueOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEvidentlyFeatureVariationsValueOutputReference_Override(e EvidentlyFeatureVariationsValueOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -361,7 +361,7 @@ func (j *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (e *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (e *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -529,8 +529,8 @@ func (e *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) GetStringMapA
 	return returns
 }
 
-func (e *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -542,11 +542,11 @@ func (e *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) Interpolation
 	return returns
 }
 
-func (e *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -590,7 +590,7 @@ func (e *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) ResetStringVa
 	)
 }
 
-func (e *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

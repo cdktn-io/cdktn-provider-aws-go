@@ -47,7 +47,7 @@ func (p *jsiiProxy_PipesPipeTimeoutsOutputReference) validateInterpolationForAtt
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_PipesPipeTimeoutsOutputReference) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_PipesPipeTimeoutsOutputReference) validateSetUpdateParameters
 	return nil
 }
 
-func validateNewPipesPipeTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPipesPipeTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

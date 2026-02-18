@@ -103,7 +103,7 @@ func (j *jsiiProxy_WafregionalRegexPatternSet) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_WafregionalRegexPatternSet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_WafregionalRegexPatternSet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

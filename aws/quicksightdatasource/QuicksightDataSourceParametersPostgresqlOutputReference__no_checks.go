@@ -47,7 +47,7 @@ func (q *jsiiProxy_QuicksightDataSourceParametersPostgresqlOutputReference) vali
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDataSourceParametersPostgresqlOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDataSourceParametersPostgresqlOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_QuicksightDataSourceParametersPostgresqlOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDataSourceParametersPostgresqlOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDataSourceParametersPostgresqlOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewQuicksightDataSourceParametersPostgresqlOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewQuicksightDataSourceParametersPostgresqlOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (t *jsiiProxy_TimestreamqueryScheduledQueryLastRunSummaryErrorReportLocatio
 	return nil
 }
 
-func (t *jsiiProxy_TimestreamqueryScheduledQueryLastRunSummaryErrorReportLocationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TimestreamqueryScheduledQueryLastRunSummaryErrorReportLocationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_TimestreamqueryScheduledQueryLastRunSummaryErrorReportLocatio
 	return nil
 }
 
-func (j *jsiiProxy_TimestreamqueryScheduledQueryLastRunSummaryErrorReportLocationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TimestreamqueryScheduledQueryLastRunSummaryErrorReportLocationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_TimestreamqueryScheduledQueryLastRunSummaryErrorReportLocatio
 	return nil
 }
 
-func validateNewTimestreamqueryScheduledQueryLastRunSummaryErrorReportLocationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewTimestreamqueryScheduledQueryLastRunSummaryErrorReportLocationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

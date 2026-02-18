@@ -15,7 +15,7 @@ func (s *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsList) validateGe
 	return nil
 }
 
-func (s *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsList) validateSe
 	return nil
 }
 
-func validateNewSsoadminApplicationPortalOptionsSignInOptionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSsoadminApplicationPortalOptionsSignInOptionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

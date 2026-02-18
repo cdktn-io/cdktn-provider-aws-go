@@ -15,7 +15,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInfer
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationTextList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationTextList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInfer
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationTextList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationTextList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInfer
 	return nil
 }
 
-func validateNewBedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationTextListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationTextListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

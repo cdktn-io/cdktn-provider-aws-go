@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsWorkspacesDirectoryWorkspaceAccessPropertiesList) vali
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsWorkspacesDirectoryWorkspaceAccessPropertiesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsWorkspacesDirectoryWorkspaceAccessPropertiesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsWorkspacesDirectoryWorkspaceAccessPropertiesList) vali
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsWorkspacesDirectoryWorkspaceAccessPropertiesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsWorkspacesDirectoryWorkspaceAccessPropertiesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsWorkspacesDirectoryWorkspaceAccessPropertiesList) vali
 	return nil
 }
 
-func validateNewDataAwsWorkspacesDirectoryWorkspaceAccessPropertiesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsWorkspacesDirectoryWorkspaceAccessPropertiesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

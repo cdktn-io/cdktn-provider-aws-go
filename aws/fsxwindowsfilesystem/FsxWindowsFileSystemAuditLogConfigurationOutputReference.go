@@ -5,14 +5,14 @@ package fsxwindowsfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/fsxwindowsfilesystem/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/fsxwindowsfilesystem/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FsxWindowsFileSystemAuditLogConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AuditLogDestination() *string
 	SetAuditLogDestination(val *string)
 	AuditLogDestinationInput() *string
@@ -46,15 +46,15 @@ type FsxWindowsFileSystemAuditLogConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type FsxWindowsFileSystemAuditLogConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAuditLogDestination()
 	ResetFileAccessAuditLogLevel()
 	ResetFileShareAccessAuditLogLevel()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type FsxWindowsFileSystemAuditLogConfigurationOutputReference interface {
 
 // The jsii proxy struct for FsxWindowsFileSystemAuditLogConfigurationOutputReference
 type jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) AuditLogDestination() *string {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) Ter
 }
 
 
-func NewFsxWindowsFileSystemAuditLogConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) FsxWindowsFileSystemAuditLogConfigurationOutputReference {
+func NewFsxWindowsFileSystemAuditLogConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) FsxWindowsFileSystemAuditLogConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFsxWindowsFileSystemAuditLogConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewFsxWindowsFileSystemAuditLogConfigurationOutputReference(terraformResour
 	return &j
 }
 
-func NewFsxWindowsFileSystemAuditLogConfigurationOutputReference_Override(f FsxWindowsFileSystemAuditLogConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewFsxWindowsFileSystemAuditLogConfigurationOutputReference_Override(f FsxWindowsFileSystemAuditLogConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (f *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) Get
 	return returns
 }
 
-func (f *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -494,8 +494,8 @@ func (f *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) Get
 	return returns
 }
 
-func (f *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -507,11 +507,11 @@ func (f *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) Int
 	return returns
 }
 
-func (f *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -547,7 +547,7 @@ func (f *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) Res
 	)
 }
 
-func (f *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

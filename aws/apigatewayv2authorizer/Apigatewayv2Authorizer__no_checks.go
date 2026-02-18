@@ -143,7 +143,7 @@ func (j *jsiiProxy_Apigatewayv2Authorizer) validateSetIdentitySourcesParameters(
 	return nil
 }
 
-func (j *jsiiProxy_Apigatewayv2Authorizer) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Apigatewayv2Authorizer) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

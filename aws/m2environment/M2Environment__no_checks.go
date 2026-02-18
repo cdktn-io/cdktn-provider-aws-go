@@ -139,7 +139,7 @@ func (j *jsiiProxy_M2Environment) validateSetKmsKeyIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_M2Environment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_M2Environment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

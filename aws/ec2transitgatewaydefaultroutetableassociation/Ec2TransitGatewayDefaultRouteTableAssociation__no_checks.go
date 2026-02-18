@@ -103,7 +103,7 @@ func (j *jsiiProxy_Ec2TransitGatewayDefaultRouteTableAssociation) validateSetCou
 	return nil
 }
 
-func (j *jsiiProxy_Ec2TransitGatewayDefaultRouteTableAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Ec2TransitGatewayDefaultRouteTableAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

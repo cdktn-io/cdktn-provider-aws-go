@@ -51,7 +51,7 @@ func (i *jsiiProxy_ImagebuilderImageRecipeComponentOutputReference) validatePutP
 	return nil
 }
 
-func (i *jsiiProxy_ImagebuilderImageRecipeComponentOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_ImagebuilderImageRecipeComponentOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ImagebuilderImageRecipeComponentOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ImagebuilderImageRecipeComponentOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ImagebuilderImageRecipeComponentOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewImagebuilderImageRecipeComponentOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewImagebuilderImageRecipeComponentOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

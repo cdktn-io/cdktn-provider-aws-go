@@ -5,25 +5,25 @@ package dataawss3bucketobject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawss3bucketobject/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawss3bucketobject/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/s3_bucket_object aws_s3_bucket_object}.
 type DataAwsS3BucketObject interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	Arn() *string
 	Body() *string
 	Bucket() *string
 	SetBucket(val *string)
 	BucketInput() *string
-	BucketKeyEnabled() cdktf.IResolvable
+	BucketKeyEnabled() cdktn.IResolvable
 	CacheControl() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	ContentDisposition() *string
@@ -43,9 +43,9 @@ type DataAwsS3BucketObject interface {
 	Expiration() *string
 	Expires() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -58,19 +58,19 @@ type DataAwsS3BucketObject interface {
 	KeyInput() *string
 	LastModified() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
-	Metadata() cdktf.StringMap
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	Metadata() cdktn.StringMap
 	// The tree node.
 	Node() constructs.Node
 	ObjectLockLegalHoldStatus() *string
 	ObjectLockMode() *string
 	ObjectLockRetainUntilDate() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	Range() *string
 	SetRange(val *string)
 	RangeInput() *string
@@ -86,7 +86,7 @@ type DataAwsS3BucketObject interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -100,7 +100,7 @@ type DataAwsS3BucketObject interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -116,7 +116,7 @@ type DataAwsS3BucketObject interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -144,7 +144,7 @@ type DataAwsS3BucketObject interface {
 
 // The jsii proxy struct for DataAwsS3BucketObject
 type jsiiProxy_DataAwsS3BucketObject struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsS3BucketObject) Arn() *string {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_DataAwsS3BucketObject) BucketInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3BucketObject) BucketKeyEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsS3BucketObject) BucketKeyEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"bucketKeyEnabled",
@@ -207,8 +207,8 @@ func (j *jsiiProxy_DataAwsS3BucketObject) CacheControl() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3BucketObject) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsS3BucketObject) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -327,8 +327,8 @@ func (j *jsiiProxy_DataAwsS3BucketObject) Expires() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3BucketObject) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsS3BucketObject) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -407,8 +407,8 @@ func (j *jsiiProxy_DataAwsS3BucketObject) LastModified() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3BucketObject) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsS3BucketObject) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -417,8 +417,8 @@ func (j *jsiiProxy_DataAwsS3BucketObject) Lifecycle() *cdktf.TerraformResourceLi
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3BucketObject) Metadata() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAwsS3BucketObject) Metadata() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"metadata",
@@ -467,8 +467,8 @@ func (j *jsiiProxy_DataAwsS3BucketObject) ObjectLockRetainUntilDate() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3BucketObject) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsS3BucketObject) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -577,8 +577,8 @@ func (j *jsiiProxy_DataAwsS3BucketObject) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3BucketObject) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsS3BucketObject) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -697,7 +697,7 @@ func (j *jsiiProxy_DataAwsS3BucketObject)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsS3BucketObject)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsS3BucketObject)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -727,7 +727,7 @@ func (j *jsiiProxy_DataAwsS3BucketObject)SetKey(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsS3BucketObject)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsS3BucketObject)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -738,7 +738,7 @@ func (j *jsiiProxy_DataAwsS3BucketObject)SetLifecycle(val *cdktf.TerraformResour
 	)
 }
 
-func (j *jsiiProxy_DataAwsS3BucketObject)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsS3BucketObject)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -790,14 +790,14 @@ func (j *jsiiProxy_DataAwsS3BucketObject)SetVersionId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsS3BucketObject resource upon running "cdktf plan <stack-name>".
-func DataAwsS3BucketObject_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsS3BucketObject resource upon running "cdktn plan <stack-name>".
+func DataAwsS3BucketObject_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsS3BucketObject_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsS3BucketObject.DataAwsS3BucketObject",
@@ -920,11 +920,11 @@ func (d *jsiiProxy_DataAwsS3BucketObject) GetAnyMapAttribute(terraformAttribute 
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsS3BucketObject) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsS3BucketObject) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1048,11 +1048,11 @@ func (d *jsiiProxy_DataAwsS3BucketObject) GetStringMapAttribute(terraformAttribu
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsS3BucketObject) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsS3BucketObject) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

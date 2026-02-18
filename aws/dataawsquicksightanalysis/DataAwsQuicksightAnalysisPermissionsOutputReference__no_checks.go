@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsQuicksightAnalysisPermissionsOutputReference) validate
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsQuicksightAnalysisPermissionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsQuicksightAnalysisPermissionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsQuicksightAnalysisPermissionsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsQuicksightAnalysisPermissionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsQuicksightAnalysisPermissionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsQuicksightAnalysisPermissionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsQuicksightAnalysisPermissionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

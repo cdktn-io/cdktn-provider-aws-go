@@ -15,7 +15,7 @@ func (i *jsiiProxy_IotTopicRuleErrorActionKafkaHeaderList) validateGetParameters
 	return nil
 }
 
-func (i *jsiiProxy_IotTopicRuleErrorActionKafkaHeaderList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotTopicRuleErrorActionKafkaHeaderList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_IotTopicRuleErrorActionKafkaHeaderList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_IotTopicRuleErrorActionKafkaHeaderList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotTopicRuleErrorActionKafkaHeaderList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_IotTopicRuleErrorActionKafkaHeaderList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewIotTopicRuleErrorActionKafkaHeaderListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIotTopicRuleErrorActionKafkaHeaderListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

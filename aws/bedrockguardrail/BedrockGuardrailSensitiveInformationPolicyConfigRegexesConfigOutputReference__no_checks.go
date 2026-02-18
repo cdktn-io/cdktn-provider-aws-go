@@ -47,7 +47,7 @@ func (b *jsiiProxy_BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfig
 	return nil
 }
 
-func (b *jsiiProxy_BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,11 +99,11 @@ func (j *jsiiProxy_BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfig
 	return nil
 }
 
-func (j *jsiiProxy_BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

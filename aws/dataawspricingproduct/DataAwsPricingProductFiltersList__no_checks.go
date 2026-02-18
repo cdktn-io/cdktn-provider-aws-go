@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsPricingProductFiltersList) validateGetParameters(index
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsPricingProductFiltersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsPricingProductFiltersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsPricingProductFiltersList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsPricingProductFiltersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsPricingProductFiltersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsPricingProductFiltersList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewDataAwsPricingProductFiltersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsPricingProductFiltersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

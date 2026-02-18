@@ -5,14 +5,14 @@ package ssoadmincustomermanagedpolicyattachmentsexclusive
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ssoadmincustomermanagedpolicyattachmentsexclusive/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ssoadmincustomermanagedpolicyattachmentsexclusive/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference in
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -51,7 +51,7 @@ type SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference in
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference in
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference in
 
 // The jsii proxy struct for SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference
 type jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -167,8 +167,8 @@ func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutp
 	return returns
 }
 
-func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutp
 }
 
 
-func NewSsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference {
+func NewSsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewSsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference
 	return &j
 }
 
-func NewSsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference_Override(s SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference_Override(s SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutp
 	)
 }
 
-func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (s *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutp
 	return returns
 }
 
-func (s *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -459,8 +459,8 @@ func (s *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutp
 	return returns
 }
 
-func (s *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -472,11 +472,11 @@ func (s *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutp
 	return returns
 }
 
-func (s *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -504,7 +504,7 @@ func (s *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutp
 	)
 }
 
-func (s *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

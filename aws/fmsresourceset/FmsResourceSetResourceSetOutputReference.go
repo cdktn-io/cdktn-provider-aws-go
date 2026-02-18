@@ -5,14 +5,14 @@ package fmsresourceset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/fmsresourceset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/fmsresourceset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FmsResourceSetResourceSetOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -51,9 +51,9 @@ type FmsResourceSetResourceSetOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UpdateToken() *string
 	SetUpdateToken(val *string)
 	UpdateTokenInput() *string
@@ -62,7 +62,7 @@ type FmsResourceSetResourceSetOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -78,16 +78,16 @@ type FmsResourceSetResourceSetOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDescription()
 	ResetResourceSetStatus()
 	ResetResourceTypeList()
 	ResetUpdateToken()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -97,7 +97,7 @@ type FmsResourceSetResourceSetOutputReference interface {
 
 // The jsii proxy struct for FmsResourceSetResourceSetOutputReference
 type jsiiProxy_FmsResourceSetResourceSetOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FmsResourceSetResourceSetOutputReference) ComplexObjectIndex() interface{} {
@@ -260,8 +260,8 @@ func (j *jsiiProxy_FmsResourceSetResourceSetOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_FmsResourceSetResourceSetOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FmsResourceSetResourceSetOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -291,7 +291,7 @@ func (j *jsiiProxy_FmsResourceSetResourceSetOutputReference) UpdateTokenInput() 
 }
 
 
-func NewFmsResourceSetResourceSetOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) FmsResourceSetResourceSetOutputReference {
+func NewFmsResourceSetResourceSetOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) FmsResourceSetResourceSetOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFmsResourceSetResourceSetOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -308,7 +308,7 @@ func NewFmsResourceSetResourceSetOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewFmsResourceSetResourceSetOutputReference_Override(f FmsResourceSetResourceSetOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewFmsResourceSetResourceSetOutputReference_Override(f FmsResourceSetResourceSetOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -406,7 +406,7 @@ func (j *jsiiProxy_FmsResourceSetResourceSetOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_FmsResourceSetResourceSetOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FmsResourceSetResourceSetOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -457,11 +457,11 @@ func (f *jsiiProxy_FmsResourceSetResourceSetOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (f *jsiiProxy_FmsResourceSetResourceSetOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FmsResourceSetResourceSetOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -585,8 +585,8 @@ func (f *jsiiProxy_FmsResourceSetResourceSetOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (f *jsiiProxy_FmsResourceSetResourceSetOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FmsResourceSetResourceSetOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -598,11 +598,11 @@ func (f *jsiiProxy_FmsResourceSetResourceSetOutputReference) InterpolationAsList
 	return returns
 }
 
-func (f *jsiiProxy_FmsResourceSetResourceSetOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FmsResourceSetResourceSetOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -646,7 +646,7 @@ func (f *jsiiProxy_FmsResourceSetResourceSetOutputReference) ResetUpdateToken() 
 	)
 }
 
-func (f *jsiiProxy_FmsResourceSetResourceSetOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FmsResourceSetResourceSetOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

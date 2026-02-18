@@ -15,7 +15,7 @@ func (q *jsiiProxy_QuicksightDataSetColumnGroupsList) validateGetParameters(inde
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDataSetColumnGroupsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDataSetColumnGroupsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_QuicksightDataSetColumnGroupsList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDataSetColumnGroupsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDataSetColumnGroupsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_QuicksightDataSetColumnGroupsList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewQuicksightDataSetColumnGroupsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewQuicksightDataSetColumnGroupsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

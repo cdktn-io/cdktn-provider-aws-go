@@ -47,7 +47,7 @@ func (l *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) validateInt
 	return nil
 }
 
-func (l *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) validateSet
 	return nil
 }
 
-func validateNewLexv2ModelsBotLocaleVoiceSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLexv2ModelsBotLocaleVoiceSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

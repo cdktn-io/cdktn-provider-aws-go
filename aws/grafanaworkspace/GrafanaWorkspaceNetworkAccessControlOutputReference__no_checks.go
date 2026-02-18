@@ -47,7 +47,7 @@ func (g *jsiiProxy_GrafanaWorkspaceNetworkAccessControlOutputReference) validate
 	return nil
 }
 
-func (g *jsiiProxy_GrafanaWorkspaceNetworkAccessControlOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GrafanaWorkspaceNetworkAccessControlOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GrafanaWorkspaceNetworkAccessControlOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_GrafanaWorkspaceNetworkAccessControlOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GrafanaWorkspaceNetworkAccessControlOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GrafanaWorkspaceNetworkAccessControlOutputReference) validate
 	return nil
 }
 
-func validateNewGrafanaWorkspaceNetworkAccessControlOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGrafanaWorkspaceNetworkAccessControlOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

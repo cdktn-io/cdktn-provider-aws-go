@@ -191,7 +191,7 @@ func (j *jsiiProxy_IotTopicRule) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_IotTopicRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IotTopicRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

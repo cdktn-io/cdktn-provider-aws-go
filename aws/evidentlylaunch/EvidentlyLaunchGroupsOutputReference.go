@@ -5,14 +5,14 @@ package evidentlylaunch
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/evidentlylaunch/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/evidentlylaunch/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EvidentlyLaunchGroupsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type EvidentlyLaunchGroupsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Variation() *string
 	SetVariation(val *string)
 	VariationInput() *string
@@ -57,7 +57,7 @@ type EvidentlyLaunchGroupsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,13 +73,13 @@ type EvidentlyLaunchGroupsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDescription()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -89,7 +89,7 @@ type EvidentlyLaunchGroupsOutputReference interface {
 
 // The jsii proxy struct for EvidentlyLaunchGroupsOutputReference
 type jsiiProxy_EvidentlyLaunchGroupsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EvidentlyLaunchGroupsOutputReference) ComplexObjectIndex() interface{} {
@@ -212,8 +212,8 @@ func (j *jsiiProxy_EvidentlyLaunchGroupsOutputReference) TerraformAttribute() *s
 	return returns
 }
 
-func (j *jsiiProxy_EvidentlyLaunchGroupsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EvidentlyLaunchGroupsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -243,7 +243,7 @@ func (j *jsiiProxy_EvidentlyLaunchGroupsOutputReference) VariationInput() *strin
 }
 
 
-func NewEvidentlyLaunchGroupsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EvidentlyLaunchGroupsOutputReference {
+func NewEvidentlyLaunchGroupsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EvidentlyLaunchGroupsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEvidentlyLaunchGroupsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -260,7 +260,7 @@ func NewEvidentlyLaunchGroupsOutputReference(terraformResource cdktf.IInterpolat
 	return &j
 }
 
-func NewEvidentlyLaunchGroupsOutputReference_Override(e EvidentlyLaunchGroupsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewEvidentlyLaunchGroupsOutputReference_Override(e EvidentlyLaunchGroupsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -347,7 +347,7 @@ func (j *jsiiProxy_EvidentlyLaunchGroupsOutputReference)SetTerraformAttribute(va
 	)
 }
 
-func (j *jsiiProxy_EvidentlyLaunchGroupsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EvidentlyLaunchGroupsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -398,11 +398,11 @@ func (e *jsiiProxy_EvidentlyLaunchGroupsOutputReference) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (e *jsiiProxy_EvidentlyLaunchGroupsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EvidentlyLaunchGroupsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -526,8 +526,8 @@ func (e *jsiiProxy_EvidentlyLaunchGroupsOutputReference) GetStringMapAttribute(t
 	return returns
 }
 
-func (e *jsiiProxy_EvidentlyLaunchGroupsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EvidentlyLaunchGroupsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -539,11 +539,11 @@ func (e *jsiiProxy_EvidentlyLaunchGroupsOutputReference) InterpolationAsList() c
 	return returns
 }
 
-func (e *jsiiProxy_EvidentlyLaunchGroupsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EvidentlyLaunchGroupsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -563,7 +563,7 @@ func (e *jsiiProxy_EvidentlyLaunchGroupsOutputReference) ResetDescription() {
 	)
 }
 
-func (e *jsiiProxy_EvidentlyLaunchGroupsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EvidentlyLaunchGroupsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

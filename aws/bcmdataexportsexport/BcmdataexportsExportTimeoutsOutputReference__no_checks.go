@@ -47,7 +47,7 @@ func (b *jsiiProxy_BcmdataexportsExportTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (b *jsiiProxy_BcmdataexportsExportTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BcmdataexportsExportTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_BcmdataexportsExportTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_BcmdataexportsExportTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BcmdataexportsExportTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_BcmdataexportsExportTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewBcmdataexportsExportTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBcmdataexportsExportTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

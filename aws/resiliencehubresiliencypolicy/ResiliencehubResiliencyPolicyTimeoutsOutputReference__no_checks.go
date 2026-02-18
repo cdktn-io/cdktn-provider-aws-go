@@ -47,7 +47,7 @@ func (r *jsiiProxy_ResiliencehubResiliencyPolicyTimeoutsOutputReference) validat
 	return nil
 }
 
-func (r *jsiiProxy_ResiliencehubResiliencyPolicyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_ResiliencehubResiliencyPolicyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicyTimeoutsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_ResiliencehubResiliencyPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ResiliencehubResiliencyPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicyTimeoutsOutputReference) validat
 	return nil
 }
 
-func validateNewResiliencehubResiliencyPolicyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewResiliencehubResiliencyPolicyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

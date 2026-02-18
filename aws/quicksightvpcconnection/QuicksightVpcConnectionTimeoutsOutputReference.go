@@ -5,14 +5,14 @@ package quicksightvpcconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/quicksightvpcconnection/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/quicksightvpcconnection/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type QuicksightVpcConnectionTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type QuicksightVpcConnectionTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type QuicksightVpcConnectionTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type QuicksightVpcConnectionTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type QuicksightVpcConnectionTimeoutsOutputReference interface {
 
 // The jsii proxy struct for QuicksightVpcConnectionTimeoutsOutputReference
 type jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) UpdateInput()
 }
 
 
-func NewQuicksightVpcConnectionTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) QuicksightVpcConnectionTimeoutsOutputReference {
+func NewQuicksightVpcConnectionTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) QuicksightVpcConnectionTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewQuicksightVpcConnectionTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewQuicksightVpcConnectionTimeoutsOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewQuicksightVpcConnectionTimeoutsOutputReference_Override(q QuicksightVpcConnectionTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewQuicksightVpcConnectionTimeoutsOutputReference_Override(q QuicksightVpcConnectionTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (q *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (q *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := q.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -494,8 +494,8 @@ func (q *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) GetStringMapA
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (q *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -507,11 +507,11 @@ func (q *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) Interpolation
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (q *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := q.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -547,7 +547,7 @@ func (q *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) ResetUpdate()
 	)
 }
 
-func (q *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (q *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := q.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

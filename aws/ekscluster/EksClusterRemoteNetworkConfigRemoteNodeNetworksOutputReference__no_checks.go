@@ -47,7 +47,7 @@ func (e *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReferenc
 	return nil
 }
 
-func (e *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package networkmanagercorenetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/networkmanagercorenetwork/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/networkmanagercorenetwork/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetworkmanagerCoreNetworkEdgesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Asn() *float64
 	// the index of the complex object in a list.
 	// Experimental.
@@ -40,15 +40,15 @@ type NetworkmanagerCoreNetworkEdgesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type NetworkmanagerCoreNetworkEdgesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type NetworkmanagerCoreNetworkEdgesOutputReference interface {
 
 // The jsii proxy struct for NetworkmanagerCoreNetworkEdgesOutputReference
 type jsiiProxy_NetworkmanagerCoreNetworkEdgesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NetworkmanagerCoreNetworkEdgesOutputReference) Asn() *float64 {
@@ -172,8 +172,8 @@ func (j *jsiiProxy_NetworkmanagerCoreNetworkEdgesOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_NetworkmanagerCoreNetworkEdgesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetworkmanagerCoreNetworkEdgesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -183,7 +183,7 @@ func (j *jsiiProxy_NetworkmanagerCoreNetworkEdgesOutputReference) TerraformResou
 }
 
 
-func NewNetworkmanagerCoreNetworkEdgesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NetworkmanagerCoreNetworkEdgesOutputReference {
+func NewNetworkmanagerCoreNetworkEdgesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NetworkmanagerCoreNetworkEdgesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNetworkmanagerCoreNetworkEdgesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -200,7 +200,7 @@ func NewNetworkmanagerCoreNetworkEdgesOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewNetworkmanagerCoreNetworkEdgesOutputReference_Override(n NetworkmanagerCoreNetworkEdgesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewNetworkmanagerCoreNetworkEdgesOutputReference_Override(n NetworkmanagerCoreNetworkEdgesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -254,7 +254,7 @@ func (j *jsiiProxy_NetworkmanagerCoreNetworkEdgesOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_NetworkmanagerCoreNetworkEdgesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetworkmanagerCoreNetworkEdgesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -294,11 +294,11 @@ func (n *jsiiProxy_NetworkmanagerCoreNetworkEdgesOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (n *jsiiProxy_NetworkmanagerCoreNetworkEdgesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkmanagerCoreNetworkEdgesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -422,8 +422,8 @@ func (n *jsiiProxy_NetworkmanagerCoreNetworkEdgesOutputReference) GetStringMapAt
 	return returns
 }
 
-func (n *jsiiProxy_NetworkmanagerCoreNetworkEdgesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NetworkmanagerCoreNetworkEdgesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -435,11 +435,11 @@ func (n *jsiiProxy_NetworkmanagerCoreNetworkEdgesOutputReference) InterpolationA
 	return returns
 }
 
-func (n *jsiiProxy_NetworkmanagerCoreNetworkEdgesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkmanagerCoreNetworkEdgesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -451,7 +451,7 @@ func (n *jsiiProxy_NetworkmanagerCoreNetworkEdgesOutputReference) InterpolationF
 	return returns
 }
 
-func (n *jsiiProxy_NetworkmanagerCoreNetworkEdgesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetworkmanagerCoreNetworkEdgesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

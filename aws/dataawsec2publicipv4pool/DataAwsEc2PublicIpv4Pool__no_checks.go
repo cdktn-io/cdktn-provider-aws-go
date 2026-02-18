@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsEc2PublicIpv4Pool) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2PublicIpv4Pool) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsEc2PublicIpv4Pool) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

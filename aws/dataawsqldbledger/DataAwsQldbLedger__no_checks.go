@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsQldbLedger) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsQldbLedger) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsQldbLedger) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

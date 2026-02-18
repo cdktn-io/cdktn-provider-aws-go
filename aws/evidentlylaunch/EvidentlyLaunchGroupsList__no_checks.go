@@ -15,7 +15,7 @@ func (e *jsiiProxy_EvidentlyLaunchGroupsList) validateGetParameters(index *float
 	return nil
 }
 
-func (e *jsiiProxy_EvidentlyLaunchGroupsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EvidentlyLaunchGroupsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EvidentlyLaunchGroupsList) validateSetTerraformAttributeParam
 	return nil
 }
 
-func (j *jsiiProxy_EvidentlyLaunchGroupsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EvidentlyLaunchGroupsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EvidentlyLaunchGroupsList) validateSetWrapsSetParameters(val 
 	return nil
 }
 
-func validateNewEvidentlyLaunchGroupsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEvidentlyLaunchGroupsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

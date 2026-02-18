@@ -99,7 +99,7 @@ func (j *jsiiProxy_CloudwatchContributorInsightRule) validateSetCountParameters(
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchContributorInsightRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudwatchContributorInsightRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

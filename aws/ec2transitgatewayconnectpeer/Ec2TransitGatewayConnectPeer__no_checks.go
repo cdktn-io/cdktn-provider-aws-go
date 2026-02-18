@@ -115,7 +115,7 @@ func (j *jsiiProxy_Ec2TransitGatewayConnectPeer) validateSetInsideCidrBlocksPara
 	return nil
 }
 
-func (j *jsiiProxy_Ec2TransitGatewayConnectPeer) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Ec2TransitGatewayConnectPeer) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

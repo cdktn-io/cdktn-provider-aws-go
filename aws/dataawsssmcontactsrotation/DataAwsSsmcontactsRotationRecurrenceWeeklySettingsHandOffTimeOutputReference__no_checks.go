@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsSsmcontactsRotationRecurrenceWeeklySettingsHandOffTime
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsSsmcontactsRotationRecurrenceWeeklySettingsHandOffTimeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsSsmcontactsRotationRecurrenceWeeklySettingsHandOffTimeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsSsmcontactsRotationRecurrenceWeeklySettingsHandOffTime
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSsmcontactsRotationRecurrenceWeeklySettingsHandOffTimeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsSsmcontactsRotationRecurrenceWeeklySettingsHandOffTimeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsSsmcontactsRotationRecurrenceWeeklySettingsHandOffTimeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsSsmcontactsRotationRecurrenceWeeklySettingsHandOffTimeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

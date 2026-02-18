@@ -11,7 +11,7 @@ import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (i *jsiiProxy_IotTopicRule) validateAddMoveTargetParameters(moveTarget *string) error {
@@ -212,7 +212,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutCloudwatchAlarmParameters(value inte
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IotTopicRuleCloudwatchAlarm:
 		value := value.(*[]*IotTopicRuleCloudwatchAlarm)
@@ -231,7 +231,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutCloudwatchAlarmParameters(value inte
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IotTopicRuleCloudwatchAlarm; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IotTopicRuleCloudwatchAlarm; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -243,7 +243,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutCloudwatchLogsParameters(value inter
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IotTopicRuleCloudwatchLogs:
 		value := value.(*[]*IotTopicRuleCloudwatchLogs)
@@ -262,7 +262,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutCloudwatchLogsParameters(value inter
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IotTopicRuleCloudwatchLogs; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IotTopicRuleCloudwatchLogs; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -274,7 +274,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutCloudwatchMetricParameters(value int
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IotTopicRuleCloudwatchMetric:
 		value := value.(*[]*IotTopicRuleCloudwatchMetric)
@@ -293,7 +293,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutCloudwatchMetricParameters(value int
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IotTopicRuleCloudwatchMetric; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IotTopicRuleCloudwatchMetric; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -305,7 +305,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutDynamodbParameters(value interface{}
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IotTopicRuleDynamodb:
 		value := value.(*[]*IotTopicRuleDynamodb)
@@ -324,7 +324,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutDynamodbParameters(value interface{}
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IotTopicRuleDynamodb; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IotTopicRuleDynamodb; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -336,7 +336,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutDynamodbv2Parameters(value interface
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IotTopicRuleDynamodbv2:
 		value := value.(*[]*IotTopicRuleDynamodbv2)
@@ -355,7 +355,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutDynamodbv2Parameters(value interface
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IotTopicRuleDynamodbv2; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IotTopicRuleDynamodbv2; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -367,7 +367,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutElasticsearchParameters(value interf
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IotTopicRuleElasticsearch:
 		value := value.(*[]*IotTopicRuleElasticsearch)
@@ -386,7 +386,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutElasticsearchParameters(value interf
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IotTopicRuleElasticsearch; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IotTopicRuleElasticsearch; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -409,7 +409,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutFirehoseParameters(value interface{}
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IotTopicRuleFirehose:
 		value := value.(*[]*IotTopicRuleFirehose)
@@ -428,7 +428,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutFirehoseParameters(value interface{}
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IotTopicRuleFirehose; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IotTopicRuleFirehose; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -440,7 +440,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutHttpParameters(value interface{}) er
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IotTopicRuleHttp:
 		value := value.(*[]*IotTopicRuleHttp)
@@ -459,7 +459,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutHttpParameters(value interface{}) er
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IotTopicRuleHttp; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IotTopicRuleHttp; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -471,7 +471,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutIotAnalyticsParameters(value interfa
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IotTopicRuleIotAnalytics:
 		value := value.(*[]*IotTopicRuleIotAnalytics)
@@ -490,7 +490,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutIotAnalyticsParameters(value interfa
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IotTopicRuleIotAnalytics; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IotTopicRuleIotAnalytics; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -502,7 +502,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutIotEventsParameters(value interface{
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IotTopicRuleIotEvents:
 		value := value.(*[]*IotTopicRuleIotEvents)
@@ -521,7 +521,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutIotEventsParameters(value interface{
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IotTopicRuleIotEvents; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IotTopicRuleIotEvents; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -533,7 +533,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutKafkaParameters(value interface{}) e
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IotTopicRuleKafka:
 		value := value.(*[]*IotTopicRuleKafka)
@@ -552,7 +552,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutKafkaParameters(value interface{}) e
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IotTopicRuleKafka; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IotTopicRuleKafka; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -564,7 +564,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutKinesisParameters(value interface{})
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IotTopicRuleKinesis:
 		value := value.(*[]*IotTopicRuleKinesis)
@@ -583,7 +583,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutKinesisParameters(value interface{})
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IotTopicRuleKinesis; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IotTopicRuleKinesis; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -595,7 +595,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutLambdaParameters(value interface{}) 
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IotTopicRuleLambda:
 		value := value.(*[]*IotTopicRuleLambda)
@@ -614,7 +614,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutLambdaParameters(value interface{}) 
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IotTopicRuleLambda; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IotTopicRuleLambda; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -626,7 +626,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutRepublishParameters(value interface{
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IotTopicRuleRepublish:
 		value := value.(*[]*IotTopicRuleRepublish)
@@ -645,7 +645,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutRepublishParameters(value interface{
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IotTopicRuleRepublish; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IotTopicRuleRepublish; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -657,7 +657,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutS3Parameters(value interface{}) erro
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IotTopicRuleS3:
 		value := value.(*[]*IotTopicRuleS3)
@@ -676,7 +676,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutS3Parameters(value interface{}) erro
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IotTopicRuleS3; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IotTopicRuleS3; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -688,7 +688,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutSnsParameters(value interface{}) err
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IotTopicRuleSns:
 		value := value.(*[]*IotTopicRuleSns)
@@ -707,7 +707,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutSnsParameters(value interface{}) err
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IotTopicRuleSns; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IotTopicRuleSns; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -719,7 +719,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutSqsParameters(value interface{}) err
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IotTopicRuleSqs:
 		value := value.(*[]*IotTopicRuleSqs)
@@ -738,7 +738,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutSqsParameters(value interface{}) err
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IotTopicRuleSqs; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IotTopicRuleSqs; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -750,7 +750,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutStepFunctionsParameters(value interf
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IotTopicRuleStepFunctions:
 		value := value.(*[]*IotTopicRuleStepFunctions)
@@ -769,7 +769,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutStepFunctionsParameters(value interf
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IotTopicRuleStepFunctions; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IotTopicRuleStepFunctions; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -781,7 +781,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutTimestreamParameters(value interface
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IotTopicRuleTimestream:
 		value := value.(*[]*IotTopicRuleTimestream)
@@ -800,7 +800,7 @@ func (i *jsiiProxy_IotTopicRule) validatePutTimestreamParameters(value interface
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IotTopicRuleTimestream; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IotTopicRuleTimestream; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -849,31 +849,31 @@ func validateIotTopicRule_IsTerraformResourceParameters(x interface{}) error {
 
 func (j *jsiiProxy_IotTopicRule) validateSetConnectionParameters(val interface{}) error {
 	switch val.(type) {
-	case *cdktf.SSHProvisionerConnection:
-		val := val.(*cdktf.SSHProvisionerConnection)
+	case *cdktn.SSHProvisionerConnection:
+		val := val.(*cdktn.SSHProvisionerConnection)
 		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 			return err
 		}
-	case cdktf.SSHProvisionerConnection:
-		val_ := val.(cdktf.SSHProvisionerConnection)
+	case cdktn.SSHProvisionerConnection:
+		val_ := val.(cdktn.SSHProvisionerConnection)
 		val := &val_
 		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 			return err
 		}
-	case *cdktf.WinrmProvisionerConnection:
-		val := val.(*cdktf.WinrmProvisionerConnection)
+	case *cdktn.WinrmProvisionerConnection:
+		val := val.(*cdktn.WinrmProvisionerConnection)
 		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 			return err
 		}
-	case cdktf.WinrmProvisionerConnection:
-		val_ := val.(cdktf.WinrmProvisionerConnection)
+	case cdktn.WinrmProvisionerConnection:
+		val_ := val.(cdktn.WinrmProvisionerConnection)
 		val := &val_
 		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 			return err
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *cdktf.SSHProvisionerConnection, *cdktf.WinrmProvisionerConnection; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *cdktn.SSHProvisionerConnection, *cdktn.WinrmProvisionerConnection; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -926,11 +926,11 @@ func (j *jsiiProxy_IotTopicRule) validateSetCountParameters(val interface{}) err
 		// ok
 	case uint64:
 		// ok
-	case cdktf.TerraformCount:
+	case cdktn.TerraformCount:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *float64, cdktf.TerraformCount; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *float64, cdktn.TerraformCount; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -954,11 +954,11 @@ func (j *jsiiProxy_IotTopicRule) validateSetEnabledParameters(val interface{}) e
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -973,7 +973,7 @@ func (j *jsiiProxy_IotTopicRule) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_IotTopicRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IotTopicRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
 	}
@@ -992,42 +992,42 @@ func (j *jsiiProxy_IotTopicRule) validateSetNameParameters(val *string) error {
 func (j *jsiiProxy_IotTopicRule) validateSetProvisionersParameters(val *[]interface{}) error {
 	for idx_97dfc6, v := range *val {
 		switch v.(type) {
-		case *cdktf.FileProvisioner:
-			v := v.(*cdktf.FileProvisioner)
+		case *cdktn.FileProvisioner:
+			v := v.(*cdktn.FileProvisioner)
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
 				return err
 			}
-		case cdktf.FileProvisioner:
-			v_ := v.(cdktf.FileProvisioner)
+		case cdktn.FileProvisioner:
+			v_ := v.(cdktn.FileProvisioner)
 			v := &v_
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
 				return err
 			}
-		case *cdktf.LocalExecProvisioner:
-			v := v.(*cdktf.LocalExecProvisioner)
+		case *cdktn.LocalExecProvisioner:
+			v := v.(*cdktn.LocalExecProvisioner)
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
 				return err
 			}
-		case cdktf.LocalExecProvisioner:
-			v_ := v.(cdktf.LocalExecProvisioner)
+		case cdktn.LocalExecProvisioner:
+			v_ := v.(cdktn.LocalExecProvisioner)
 			v := &v_
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
 				return err
 			}
-		case *cdktf.RemoteExecProvisioner:
-			v := v.(*cdktf.RemoteExecProvisioner)
+		case *cdktn.RemoteExecProvisioner:
+			v := v.(*cdktn.RemoteExecProvisioner)
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
 				return err
 			}
-		case cdktf.RemoteExecProvisioner:
-			v_ := v.(cdktf.RemoteExecProvisioner)
+		case cdktn.RemoteExecProvisioner:
+			v_ := v.(cdktn.RemoteExecProvisioner)
 			v := &v_
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
 				return err
 			}
 		default:
 			if !_jsii_.IsAnonymousProxy(v) {
-				return fmt.Errorf("parameter val[%#v] must be one of the allowed types: *cdktf.FileProvisioner, *cdktf.LocalExecProvisioner, *cdktf.RemoteExecProvisioner; received %#v (a %T)", idx_97dfc6, v, v)
+				return fmt.Errorf("parameter val[%#v] must be one of the allowed types: *cdktn.FileProvisioner, *cdktn.LocalExecProvisioner, *cdktn.RemoteExecProvisioner; received %#v (a %T)", idx_97dfc6, v, v)
 			}
 		}
 	}

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsLambdaFunctionUrlCorsList) validateGetParameters(index
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLambdaFunctionUrlCorsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLambdaFunctionUrlCorsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsLambdaFunctionUrlCorsList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLambdaFunctionUrlCorsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLambdaFunctionUrlCorsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsLambdaFunctionUrlCorsList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewDataAwsLambdaFunctionUrlCorsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsLambdaFunctionUrlCorsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

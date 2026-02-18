@@ -71,7 +71,7 @@ func (k *jsiiProxy_KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputRefe
 	return nil
 }
 
-func (k *jsiiProxy_KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -147,7 +147,7 @@ func (j *jsiiProxy_KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -155,7 +155,7 @@ func (j *jsiiProxy_KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputRefe
 	return nil
 }
 
-func validateNewKinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

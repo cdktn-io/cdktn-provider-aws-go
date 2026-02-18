@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocument) validateSetCountParameters
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocument) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocument) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

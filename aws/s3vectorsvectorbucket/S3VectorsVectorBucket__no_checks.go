@@ -107,7 +107,7 @@ func (j *jsiiProxy_S3VectorsVectorBucket) validateSetForceDestroyParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_S3VectorsVectorBucket) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_S3VectorsVectorBucket) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

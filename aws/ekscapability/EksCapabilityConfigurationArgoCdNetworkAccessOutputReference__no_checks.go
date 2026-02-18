@@ -47,7 +47,7 @@ func (e *jsiiProxy_EksCapabilityConfigurationArgoCdNetworkAccessOutputReference)
 	return nil
 }
 
-func (e *jsiiProxy_EksCapabilityConfigurationArgoCdNetworkAccessOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksCapabilityConfigurationArgoCdNetworkAccessOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_EksCapabilityConfigurationArgoCdNetworkAccessOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_EksCapabilityConfigurationArgoCdNetworkAccessOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksCapabilityConfigurationArgoCdNetworkAccessOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_EksCapabilityConfigurationArgoCdNetworkAccessOutputReference)
 	return nil
 }
 
-func validateNewEksCapabilityConfigurationArgoCdNetworkAccessOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEksCapabilityConfigurationArgoCdNetworkAccessOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

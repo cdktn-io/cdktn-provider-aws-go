@@ -5,14 +5,14 @@ package budgetsbudgetaction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/budgetsbudgetaction/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/budgetsbudgetaction/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BudgetsBudgetActionSubscriberList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type BudgetsBudgetActionSubscriberList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type BudgetsBudgetActionSubscriberList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) BudgetsBudgetActionSubscriberOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type BudgetsBudgetActionSubscriberList interface {
 
 // The jsii proxy struct for BudgetsBudgetActionSubscriberList
 type jsiiProxy_BudgetsBudgetActionSubscriberList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_BudgetsBudgetActionSubscriberList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_BudgetsBudgetActionSubscriberList) TerraformAttribute() *stri
 	return returns
 }
 
-func (j *jsiiProxy_BudgetsBudgetActionSubscriberList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BudgetsBudgetActionSubscriberList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_BudgetsBudgetActionSubscriberList) WrapsSet() *bool {
 }
 
 
-func NewBudgetsBudgetActionSubscriberList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BudgetsBudgetActionSubscriberList {
+func NewBudgetsBudgetActionSubscriberList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BudgetsBudgetActionSubscriberList {
 	_init_.Initialize()
 
 	if err := validateNewBudgetsBudgetActionSubscriberListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewBudgetsBudgetActionSubscriberList(terraformResource cdktf.IInterpolating
 	return &j
 }
 
-func NewBudgetsBudgetActionSubscriberList_Override(b BudgetsBudgetActionSubscriberList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewBudgetsBudgetActionSubscriberList_Override(b BudgetsBudgetActionSubscriberList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_BudgetsBudgetActionSubscriberList)SetTerraformAttribute(val *
 	)
 }
 
-func (j *jsiiProxy_BudgetsBudgetActionSubscriberList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BudgetsBudgetActionSubscriberList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_BudgetsBudgetActionSubscriberList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (b *jsiiProxy_BudgetsBudgetActionSubscriberList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (b *jsiiProxy_BudgetsBudgetActionSubscriberList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := b.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		b,
@@ -231,7 +231,7 @@ func (b *jsiiProxy_BudgetsBudgetActionSubscriberList) Get(index *float64) Budget
 	return returns
 }
 
-func (b *jsiiProxy_BudgetsBudgetActionSubscriberList) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BudgetsBudgetActionSubscriberList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

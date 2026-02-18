@@ -47,7 +47,7 @@ func (e *jsiiProxy_EcsServiceDeploymentConfigurationLinearConfigurationOutputRef
 	return nil
 }
 
-func (e *jsiiProxy_EcsServiceDeploymentConfigurationLinearConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsServiceDeploymentConfigurationLinearConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EcsServiceDeploymentConfigurationLinearConfigurationOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_EcsServiceDeploymentConfigurationLinearConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsServiceDeploymentConfigurationLinearConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEcsServiceDeploymentConfigurationLinearConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEcsServiceDeploymentConfigurationLinearConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

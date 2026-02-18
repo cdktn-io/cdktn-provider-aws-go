@@ -47,7 +47,7 @@ func (d *jsiiProxy_DbInstanceBlueGreenUpdateOutputReference) validateInterpolati
 	return nil
 }
 
-func (d *jsiiProxy_DbInstanceBlueGreenUpdateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DbInstanceBlueGreenUpdateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DbInstanceBlueGreenUpdateOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_DbInstanceBlueGreenUpdateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DbInstanceBlueGreenUpdateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDbInstanceBlueGreenUpdateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDbInstanceBlueGreenUpdateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -99,7 +99,7 @@ func (j *jsiiProxy_Sesv2TenantResourceAssociation) validateSetCountParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_Sesv2TenantResourceAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Sesv2TenantResourceAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (r *jsiiProxy_RbinRuleResourceTagsList) validateGetParameters(index *float6
 	return nil
 }
 
-func (r *jsiiProxy_RbinRuleResourceTagsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RbinRuleResourceTagsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_RbinRuleResourceTagsList) validateSetTerraformAttributeParame
 	return nil
 }
 
-func (j *jsiiProxy_RbinRuleResourceTagsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RbinRuleResourceTagsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_RbinRuleResourceTagsList) validateSetWrapsSetParameters(val *
 	return nil
 }
 
-func validateNewRbinRuleResourceTagsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRbinRuleResourceTagsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

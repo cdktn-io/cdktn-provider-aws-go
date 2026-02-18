@@ -115,7 +115,7 @@ func (j *jsiiProxy_EvidentlyProject) validateSetIdParameters(val *string) error 
 	return nil
 }
 
-func (j *jsiiProxy_EvidentlyProject) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EvidentlyProject) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsFsxOntapStorageVirtualMachineLifecycleTransitionReason
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsFsxOntapStorageVirtualMachineLifecycleTransitionReasonOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsFsxOntapStorageVirtualMachineLifecycleTransitionReasonOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsFsxOntapStorageVirtualMachineLifecycleTransitionReason
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsFsxOntapStorageVirtualMachineLifecycleTransitionReasonOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsFsxOntapStorageVirtualMachineLifecycleTransitionReasonOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsFsxOntapStorageVirtualMachineLifecycleTransitionReasonOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsFsxOntapStorageVirtualMachineLifecycleTransitionReasonOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

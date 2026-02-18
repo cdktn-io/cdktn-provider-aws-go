@@ -15,7 +15,7 @@ func (s *jsiiProxy_S3VectorsVectorBucketEncryptionConfigurationList) validateGet
 	return nil
 }
 
-func (s *jsiiProxy_S3VectorsVectorBucketEncryptionConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3VectorsVectorBucketEncryptionConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_S3VectorsVectorBucketEncryptionConfigurationList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_S3VectorsVectorBucketEncryptionConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3VectorsVectorBucketEncryptionConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_S3VectorsVectorBucketEncryptionConfigurationList) validateSet
 	return nil
 }
 
-func validateNewS3VectorsVectorBucketEncryptionConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewS3VectorsVectorBucketEncryptionConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

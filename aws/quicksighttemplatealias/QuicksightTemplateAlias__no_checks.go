@@ -107,7 +107,7 @@ func (j *jsiiProxy_QuicksightTemplateAlias) validateSetCountParameters(val inter
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightTemplateAlias) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_QuicksightTemplateAlias) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

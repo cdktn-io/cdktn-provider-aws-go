@@ -5,19 +5,19 @@ package codecommitapprovalruletemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/codecommitapprovalruletemplate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/codecommitapprovalruletemplate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/codecommit_approval_rule_template aws_codecommit_approval_rule_template}.
 type CodecommitApprovalRuleTemplate interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApprovalRuleTemplateId() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -40,9 +40,9 @@ type CodecommitApprovalRuleTemplate interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -53,18 +53,18 @@ type CodecommitApprovalRuleTemplate interface {
 	LastModifiedDate() *string
 	LastModifiedUser() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -76,7 +76,7 @@ type CodecommitApprovalRuleTemplate interface {
 	RegionInput() *string
 	RuleContentSha256() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type CodecommitApprovalRuleTemplate interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -107,9 +107,9 @@ type CodecommitApprovalRuleTemplate interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -145,7 +145,7 @@ type CodecommitApprovalRuleTemplate interface {
 
 // The jsii proxy struct for CodecommitApprovalRuleTemplate
 type jsiiProxy_CodecommitApprovalRuleTemplate struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_CodecommitApprovalRuleTemplate) ApprovalRuleTemplateId() *string {
@@ -158,8 +158,8 @@ func (j *jsiiProxy_CodecommitApprovalRuleTemplate) ApprovalRuleTemplateId() *str
 	return returns
 }
 
-func (j *jsiiProxy_CodecommitApprovalRuleTemplate) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_CodecommitApprovalRuleTemplate) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -258,8 +258,8 @@ func (j *jsiiProxy_CodecommitApprovalRuleTemplate) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CodecommitApprovalRuleTemplate) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_CodecommitApprovalRuleTemplate) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -328,8 +328,8 @@ func (j *jsiiProxy_CodecommitApprovalRuleTemplate) LastModifiedUser() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CodecommitApprovalRuleTemplate) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_CodecommitApprovalRuleTemplate) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -368,8 +368,8 @@ func (j *jsiiProxy_CodecommitApprovalRuleTemplate) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_CodecommitApprovalRuleTemplate) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_CodecommitApprovalRuleTemplate) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -428,8 +428,8 @@ func (j *jsiiProxy_CodecommitApprovalRuleTemplate) RuleContentSha256() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CodecommitApprovalRuleTemplate) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_CodecommitApprovalRuleTemplate) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -540,7 +540,7 @@ func (j *jsiiProxy_CodecommitApprovalRuleTemplate)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CodecommitApprovalRuleTemplate)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_CodecommitApprovalRuleTemplate)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -559,7 +559,7 @@ func (j *jsiiProxy_CodecommitApprovalRuleTemplate)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CodecommitApprovalRuleTemplate)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_CodecommitApprovalRuleTemplate)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -581,7 +581,7 @@ func (j *jsiiProxy_CodecommitApprovalRuleTemplate)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CodecommitApprovalRuleTemplate)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_CodecommitApprovalRuleTemplate)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -611,14 +611,14 @@ func (j *jsiiProxy_CodecommitApprovalRuleTemplate)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a CodecommitApprovalRuleTemplate resource upon running "cdktf plan <stack-name>".
-func CodecommitApprovalRuleTemplate_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a CodecommitApprovalRuleTemplate resource upon running "cdktn plan <stack-name>".
+func CodecommitApprovalRuleTemplate_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateCodecommitApprovalRuleTemplate_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.codecommitApprovalRuleTemplate.CodecommitApprovalRuleTemplate",
@@ -752,11 +752,11 @@ func (c *jsiiProxy_CodecommitApprovalRuleTemplate) GetAnyMapAttribute(terraformA
 	return returns
 }
 
-func (c *jsiiProxy_CodecommitApprovalRuleTemplate) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CodecommitApprovalRuleTemplate) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -893,7 +893,7 @@ func (c *jsiiProxy_CodecommitApprovalRuleTemplate) HasResourceMove() interface{}
 	return returns
 }
 
-func (c *jsiiProxy_CodecommitApprovalRuleTemplate) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_CodecommitApprovalRuleTemplate) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -904,11 +904,11 @@ func (c *jsiiProxy_CodecommitApprovalRuleTemplate) ImportFrom(id *string, provid
 	)
 }
 
-func (c *jsiiProxy_CodecommitApprovalRuleTemplate) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CodecommitApprovalRuleTemplate) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEc2InstanceTypeFpgasList) validateGetParameters(index 
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEc2InstanceTypeFpgasList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEc2InstanceTypeFpgasList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsEc2InstanceTypeFpgasList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceTypeFpgasList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEc2InstanceTypeFpgasList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsEc2InstanceTypeFpgasList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewDataAwsEc2InstanceTypeFpgasListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEc2InstanceTypeFpgasListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

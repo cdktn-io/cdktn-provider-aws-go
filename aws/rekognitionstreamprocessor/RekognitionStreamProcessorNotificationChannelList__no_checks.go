@@ -15,7 +15,7 @@ func (r *jsiiProxy_RekognitionStreamProcessorNotificationChannelList) validateGe
 	return nil
 }
 
-func (r *jsiiProxy_RekognitionStreamProcessorNotificationChannelList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RekognitionStreamProcessorNotificationChannelList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorNotificationChannelList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_RekognitionStreamProcessorNotificationChannelList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RekognitionStreamProcessorNotificationChannelList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorNotificationChannelList) validateSe
 	return nil
 }
 
-func validateNewRekognitionStreamProcessorNotificationChannelListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRekognitionStreamProcessorNotificationChannelListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsCognitoUserPoolLambdaConfigCustomSmsSenderOutputRefere
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCognitoUserPoolLambdaConfigCustomSmsSenderOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCognitoUserPoolLambdaConfigCustomSmsSenderOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolLambdaConfigCustomSmsSenderOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolLambdaConfigCustomSmsSenderOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCognitoUserPoolLambdaConfigCustomSmsSenderOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsCognitoUserPoolLambdaConfigCustomSmsSenderOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsCognitoUserPoolLambdaConfigCustomSmsSenderOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

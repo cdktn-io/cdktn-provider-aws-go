@@ -15,7 +15,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceS
 	return nil
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceS
 	return nil
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceS
 	return nil
 }
 
-func validateNewArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

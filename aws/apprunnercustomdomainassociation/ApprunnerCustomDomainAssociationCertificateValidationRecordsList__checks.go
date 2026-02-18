@@ -8,7 +8,7 @@ package apprunnercustomdomainassociation
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_ApprunnerCustomDomainAssociationCertificateValidationRecordsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (a *jsiiProxy_ApprunnerCustomDomainAssociationCertificateValidationRecordsL
 	return nil
 }
 
-func (a *jsiiProxy_ApprunnerCustomDomainAssociationCertificateValidationRecordsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApprunnerCustomDomainAssociationCertificateValidationRecordsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_ApprunnerCustomDomainAssociationCertificateValidationRecordsL
 	return nil
 }
 
-func (j *jsiiProxy_ApprunnerCustomDomainAssociationCertificateValidationRecordsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApprunnerCustomDomainAssociationCertificateValidationRecordsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_ApprunnerCustomDomainAssociationCertificateValidationRecordsL
 	return nil
 }
 
-func validateNewApprunnerCustomDomainAssociationCertificateValidationRecordsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApprunnerCustomDomainAssociationCertificateValidationRecordsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

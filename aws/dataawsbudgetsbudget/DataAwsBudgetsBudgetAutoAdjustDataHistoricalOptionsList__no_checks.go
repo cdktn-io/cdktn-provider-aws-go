@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsBudgetsBudgetAutoAdjustDataHistoricalOptionsList) vali
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsBudgetsBudgetAutoAdjustDataHistoricalOptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsBudgetsBudgetAutoAdjustDataHistoricalOptionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsBudgetsBudgetAutoAdjustDataHistoricalOptionsList) vali
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsBudgetsBudgetAutoAdjustDataHistoricalOptionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsBudgetsBudgetAutoAdjustDataHistoricalOptionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsBudgetsBudgetAutoAdjustDataHistoricalOptionsList) vali
 	return nil
 }
 
-func validateNewDataAwsBudgetsBudgetAutoAdjustDataHistoricalOptionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsBudgetsBudgetAutoAdjustDataHistoricalOptionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

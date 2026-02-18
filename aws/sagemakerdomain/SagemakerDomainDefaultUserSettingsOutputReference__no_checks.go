@@ -99,7 +99,7 @@ func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) validatePu
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -139,11 +139,11 @@ func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerDomainDefaultUserSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerDomainDefaultUserSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

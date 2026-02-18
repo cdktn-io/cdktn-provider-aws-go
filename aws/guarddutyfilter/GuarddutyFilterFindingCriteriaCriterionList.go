@@ -5,14 +5,14 @@ package guarddutyfilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/guarddutyfilter/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/guarddutyfilter/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GuarddutyFilterFindingCriteriaCriterionList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type GuarddutyFilterFindingCriteriaCriterionList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type GuarddutyFilterFindingCriteriaCriterionList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) GuarddutyFilterFindingCriteriaCriterionOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type GuarddutyFilterFindingCriteriaCriterionList interface {
 
 // The jsii proxy struct for GuarddutyFilterFindingCriteriaCriterionList
 type jsiiProxy_GuarddutyFilterFindingCriteriaCriterionList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionList) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionList) WrapsSet() *bool
 }
 
 
-func NewGuarddutyFilterFindingCriteriaCriterionList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GuarddutyFilterFindingCriteriaCriterionList {
+func NewGuarddutyFilterFindingCriteriaCriterionList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GuarddutyFilterFindingCriteriaCriterionList {
 	_init_.Initialize()
 
 	if err := validateNewGuarddutyFilterFindingCriteriaCriterionListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewGuarddutyFilterFindingCriteriaCriterionList(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewGuarddutyFilterFindingCriteriaCriterionList_Override(g GuarddutyFilterFindingCriteriaCriterionList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewGuarddutyFilterFindingCriteriaCriterionList_Override(g GuarddutyFilterFindingCriteriaCriterionList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionList)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionList)SetWrapsSet(val *
 	)
 }
 
-func (g *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (g *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := g.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		g,
@@ -231,7 +231,7 @@ func (g *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionList) Get(index *float
 	return returns
 }
 
-func (g *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionList) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

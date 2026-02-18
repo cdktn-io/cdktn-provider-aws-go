@@ -99,7 +99,7 @@ func (j *jsiiProxy_ConfigRetentionConfiguration) validateSetCountParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_ConfigRetentionConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ConfigRetentionConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

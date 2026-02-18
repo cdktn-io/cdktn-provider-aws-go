@@ -5,14 +5,14 @@ package s3bucketlifecycleconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/s3bucketlifecycleconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/s3bucketlifecycleconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type S3BucketLifecycleConfigurationRuleFilterOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	And() S3BucketLifecycleConfigurationRuleFilterAndList
 	AndInput() interface{}
 	// the index of the complex object in a list.
@@ -50,15 +50,15 @@ type S3BucketLifecycleConfigurationRuleFilterOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -74,9 +74,9 @@ type S3BucketLifecycleConfigurationRuleFilterOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAnd(value interface{})
 	PutTag(value interface{})
 	ResetAnd()
@@ -86,7 +86,7 @@ type S3BucketLifecycleConfigurationRuleFilterOutputReference interface {
 	ResetTag()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type S3BucketLifecycleConfigurationRuleFilterOutputReference interface {
 
 // The jsii proxy struct for S3BucketLifecycleConfigurationRuleFilterOutputReference
 type jsiiProxy_S3BucketLifecycleConfigurationRuleFilterOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleFilterOutputReference) And() S3BucketLifecycleConfigurationRuleFilterAndList {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleFilterOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleFilterOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleFilterOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleFilterOutputReference) Terr
 }
 
 
-func NewS3BucketLifecycleConfigurationRuleFilterOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) S3BucketLifecycleConfigurationRuleFilterOutputReference {
+func NewS3BucketLifecycleConfigurationRuleFilterOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) S3BucketLifecycleConfigurationRuleFilterOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewS3BucketLifecycleConfigurationRuleFilterOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -287,7 +287,7 @@ func NewS3BucketLifecycleConfigurationRuleFilterOutputReference(terraformResourc
 	return &j
 }
 
-func NewS3BucketLifecycleConfigurationRuleFilterOutputReference_Override(s S3BucketLifecycleConfigurationRuleFilterOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewS3BucketLifecycleConfigurationRuleFilterOutputReference_Override(s S3BucketLifecycleConfigurationRuleFilterOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -374,7 +374,7 @@ func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleFilterOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleFilterOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleFilterOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -414,11 +414,11 @@ func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleFilterOutputReference) GetA
 	return returns
 }
 
-func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleFilterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleFilterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -542,8 +542,8 @@ func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleFilterOutputReference) GetS
 	return returns
 }
 
-func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleFilterOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleFilterOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -555,11 +555,11 @@ func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleFilterOutputReference) Inte
 	return returns
 }
 
-func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleFilterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleFilterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -633,7 +633,7 @@ func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleFilterOutputReference) Rese
 	)
 }
 
-func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleFilterOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleFilterOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

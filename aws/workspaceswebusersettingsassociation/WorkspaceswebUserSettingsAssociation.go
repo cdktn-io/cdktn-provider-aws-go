@@ -5,18 +5,18 @@ package workspaceswebusersettingsassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/workspaceswebusersettingsassociation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/workspaceswebusersettingsassociation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/workspacesweb_user_settings_association aws_workspacesweb_user_settings_association}.
 type WorkspaceswebUserSettingsAssociation interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -32,26 +32,26 @@ type WorkspaceswebUserSettingsAssociation interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	PortalArn() *string
 	SetPortalArn(val *string)
 	PortalArnInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -62,7 +62,7 @@ type WorkspaceswebUserSettingsAssociation interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -78,7 +78,7 @@ type WorkspaceswebUserSettingsAssociation interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -96,9 +96,9 @@ type WorkspaceswebUserSettingsAssociation interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -132,11 +132,11 @@ type WorkspaceswebUserSettingsAssociation interface {
 
 // The jsii proxy struct for WorkspaceswebUserSettingsAssociation
 type jsiiProxy_WorkspaceswebUserSettingsAssociation struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -185,8 +185,8 @@ func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation) DependsOn() *[]*string 
 	return returns
 }
 
-func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -215,8 +215,8 @@ func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation) FriendlyUniqueId() *str
 	return returns
 }
 
-func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -255,8 +255,8 @@ func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation) PortalArnInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -305,8 +305,8 @@ func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -415,7 +415,7 @@ func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation)SetDependsOn(val *[]*str
 	)
 }
 
-func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -423,7 +423,7 @@ func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation)SetForEach(val cdktf.ITe
 	)
 }
 
-func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -445,7 +445,7 @@ func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation)SetPortalArn(val *string
 	)
 }
 
-func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -486,14 +486,14 @@ func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation)SetUserSettingsArn(val *
 	)
 }
 
-// Generates CDKTF code for importing a WorkspaceswebUserSettingsAssociation resource upon running "cdktf plan <stack-name>".
-func WorkspaceswebUserSettingsAssociation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a WorkspaceswebUserSettingsAssociation resource upon running "cdktn plan <stack-name>".
+func WorkspaceswebUserSettingsAssociation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateWorkspaceswebUserSettingsAssociation_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.workspaceswebUserSettingsAssociation.WorkspaceswebUserSettingsAssociation",
@@ -627,11 +627,11 @@ func (w *jsiiProxy_WorkspaceswebUserSettingsAssociation) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (w *jsiiProxy_WorkspaceswebUserSettingsAssociation) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WorkspaceswebUserSettingsAssociation) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -768,7 +768,7 @@ func (w *jsiiProxy_WorkspaceswebUserSettingsAssociation) HasResourceMove() inter
 	return returns
 }
 
-func (w *jsiiProxy_WorkspaceswebUserSettingsAssociation) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (w *jsiiProxy_WorkspaceswebUserSettingsAssociation) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := w.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -779,11 +779,11 @@ func (w *jsiiProxy_WorkspaceswebUserSettingsAssociation) ImportFrom(id *string, 
 	)
 }
 
-func (w *jsiiProxy_WorkspaceswebUserSettingsAssociation) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WorkspaceswebUserSettingsAssociation) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,

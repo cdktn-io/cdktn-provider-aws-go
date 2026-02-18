@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsLambdaFunctionFileSystemConfigList) validateGetParamet
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLambdaFunctionFileSystemConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLambdaFunctionFileSystemConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsLambdaFunctionFileSystemConfigList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLambdaFunctionFileSystemConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLambdaFunctionFileSystemConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsLambdaFunctionFileSystemConfigList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewDataAwsLambdaFunctionFileSystemConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsLambdaFunctionFileSystemConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

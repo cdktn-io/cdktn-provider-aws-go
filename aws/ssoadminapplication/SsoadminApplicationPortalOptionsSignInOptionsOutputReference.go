@@ -5,14 +5,14 @@ package ssoadminapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ssoadminapplication/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ssoadminapplication/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SsoadminApplicationPortalOptionsSignInOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ApplicationUrl() *string
 	SetApplicationUrl(val *string)
 	ApplicationUrlInput() *string
@@ -43,15 +43,15 @@ type SsoadminApplicationPortalOptionsSignInOptionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type SsoadminApplicationPortalOptionsSignInOptionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetApplicationUrl()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type SsoadminApplicationPortalOptionsSignInOptionsOutputReference interface {
 
 // The jsii proxy struct for SsoadminApplicationPortalOptionsSignInOptionsOutputReference
 type jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsOutputReference) ApplicationUrl() *string {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsOutputReference)
 	return returns
 }
 
-func (j *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsOutputReference)
 }
 
 
-func NewSsoadminApplicationPortalOptionsSignInOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SsoadminApplicationPortalOptionsSignInOptionsOutputReference {
+func NewSsoadminApplicationPortalOptionsSignInOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SsoadminApplicationPortalOptionsSignInOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSsoadminApplicationPortalOptionsSignInOptionsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -214,7 +214,7 @@ func NewSsoadminApplicationPortalOptionsSignInOptionsOutputReference(terraformRe
 	return &j
 }
 
-func NewSsoadminApplicationPortalOptionsSignInOptionsOutputReference_Override(s SsoadminApplicationPortalOptionsSignInOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSsoadminApplicationPortalOptionsSignInOptionsOutputReference_Override(s SsoadminApplicationPortalOptionsSignInOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsOutputReference)
 	)
 }
 
-func (j *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (s *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsOutputReference)
 	return returns
 }
 
-func (s *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -458,8 +458,8 @@ func (s *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsOutputReference)
 	return returns
 }
 
-func (s *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -471,11 +471,11 @@ func (s *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsOutputReference)
 	return returns
 }
 
-func (s *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -495,7 +495,7 @@ func (s *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsOutputReference)
 	)
 }
 
-func (s *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

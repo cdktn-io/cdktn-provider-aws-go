@@ -5,14 +5,14 @@ package elb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/elb/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/elb/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ElbAccessLogsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Bucket() *string
 	SetBucket(val *string)
 	BucketInput() *string
@@ -49,15 +49,15 @@ type ElbAccessLogsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,15 +73,15 @@ type ElbAccessLogsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBucketPrefix()
 	ResetEnabled()
 	ResetInterval()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type ElbAccessLogsOutputReference interface {
 
 // The jsii proxy struct for ElbAccessLogsOutputReference
 type jsiiProxy_ElbAccessLogsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ElbAccessLogsOutputReference) Bucket() *string {
@@ -234,8 +234,8 @@ func (j *jsiiProxy_ElbAccessLogsOutputReference) TerraformAttribute() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ElbAccessLogsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ElbAccessLogsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -245,7 +245,7 @@ func (j *jsiiProxy_ElbAccessLogsOutputReference) TerraformResource() cdktf.IInte
 }
 
 
-func NewElbAccessLogsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ElbAccessLogsOutputReference {
+func NewElbAccessLogsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ElbAccessLogsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewElbAccessLogsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -262,7 +262,7 @@ func NewElbAccessLogsOutputReference(terraformResource cdktf.IInterpolatingParen
 	return &j
 }
 
-func NewElbAccessLogsOutputReference_Override(e ElbAccessLogsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewElbAccessLogsOutputReference_Override(e ElbAccessLogsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -360,7 +360,7 @@ func (j *jsiiProxy_ElbAccessLogsOutputReference)SetTerraformAttribute(val *strin
 	)
 }
 
-func (j *jsiiProxy_ElbAccessLogsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ElbAccessLogsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -400,11 +400,11 @@ func (e *jsiiProxy_ElbAccessLogsOutputReference) GetAnyMapAttribute(terraformAtt
 	return returns
 }
 
-func (e *jsiiProxy_ElbAccessLogsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_ElbAccessLogsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -528,8 +528,8 @@ func (e *jsiiProxy_ElbAccessLogsOutputReference) GetStringMapAttribute(terraform
 	return returns
 }
 
-func (e *jsiiProxy_ElbAccessLogsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_ElbAccessLogsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -541,11 +541,11 @@ func (e *jsiiProxy_ElbAccessLogsOutputReference) InterpolationAsList() cdktf.IRe
 	return returns
 }
 
-func (e *jsiiProxy_ElbAccessLogsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_ElbAccessLogsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -581,7 +581,7 @@ func (e *jsiiProxy_ElbAccessLogsOutputReference) ResetInterval() {
 	)
 }
 
-func (e *jsiiProxy_ElbAccessLogsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_ElbAccessLogsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -5,14 +5,14 @@ package apprunnervpcingressconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/apprunnervpcingressconnection/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/apprunnervpcingressconnection/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference interfa
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VpcEndpointId() *string
 	SetVpcEndpointId(val *string)
 	VpcEndpointIdInput() *string
@@ -51,7 +51,7 @@ type ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference interfa
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference interfa
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetVpcEndpointId()
 	ResetVpcId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference interfa
 
 // The jsii proxy struct for ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference
 type jsiiProxy_ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -147,8 +147,8 @@ func (j *jsiiProxy_ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputRef
 	return returns
 }
 
-func (j *jsiiProxy_ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputRef
 }
 
 
-func NewApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference {
+func NewApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference(terr
 	return &j
 }
 
-func NewApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference_Override(a ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference_Override(a ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -269,7 +269,7 @@ func (j *jsiiProxy_ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputRef
 	)
 }
 
-func (j *jsiiProxy_ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (a *jsiiProxy_ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputRef
 	return returns
 }
 
-func (a *jsiiProxy_ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -459,8 +459,8 @@ func (a *jsiiProxy_ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputRef
 	return returns
 }
 
-func (a *jsiiProxy_ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -472,11 +472,11 @@ func (a *jsiiProxy_ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputRef
 	return returns
 }
 
-func (a *jsiiProxy_ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -504,7 +504,7 @@ func (a *jsiiProxy_ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputRef
 	)
 }
 
-func (a *jsiiProxy_ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -5,19 +5,19 @@ package defaultvpcdhcpoptions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/defaultvpcdhcpoptions/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/defaultvpcdhcpoptions/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/default_vpc_dhcp_options aws_default_vpc_dhcp_options}.
 type DefaultVpcDhcpOptions interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type DefaultVpcDhcpOptions interface {
 	DomainName() *string
 	DomainNameServers() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -47,9 +47,9 @@ type DefaultVpcDhcpOptions interface {
 	IdInput() *string
 	Ipv6AddressPreferredLeaseTime() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	NetbiosNameServers() *string
 	NetbiosNodeType() *string
 	// The tree node.
@@ -59,9 +59,9 @@ type DefaultVpcDhcpOptions interface {
 	SetOwnerId(val *string)
 	OwnerIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -78,7 +78,7 @@ type DefaultVpcDhcpOptions interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -91,7 +91,7 @@ type DefaultVpcDhcpOptions interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -109,9 +109,9 @@ type DefaultVpcDhcpOptions interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -149,7 +149,7 @@ type DefaultVpcDhcpOptions interface {
 
 // The jsii proxy struct for DefaultVpcDhcpOptions
 type jsiiProxy_DefaultVpcDhcpOptions struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_DefaultVpcDhcpOptions) Arn() *string {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_DefaultVpcDhcpOptions) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DefaultVpcDhcpOptions) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DefaultVpcDhcpOptions) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -232,8 +232,8 @@ func (j *jsiiProxy_DefaultVpcDhcpOptions) DomainNameServers() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DefaultVpcDhcpOptions) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DefaultVpcDhcpOptions) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -292,8 +292,8 @@ func (j *jsiiProxy_DefaultVpcDhcpOptions) Ipv6AddressPreferredLeaseTime() *strin
 	return returns
 }
 
-func (j *jsiiProxy_DefaultVpcDhcpOptions) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DefaultVpcDhcpOptions) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -362,8 +362,8 @@ func (j *jsiiProxy_DefaultVpcDhcpOptions) OwnerIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DefaultVpcDhcpOptions) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DefaultVpcDhcpOptions) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -452,8 +452,8 @@ func (j *jsiiProxy_DefaultVpcDhcpOptions) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DefaultVpcDhcpOptions) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DefaultVpcDhcpOptions) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -542,7 +542,7 @@ func (j *jsiiProxy_DefaultVpcDhcpOptions)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DefaultVpcDhcpOptions)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DefaultVpcDhcpOptions)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -561,7 +561,7 @@ func (j *jsiiProxy_DefaultVpcDhcpOptions)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DefaultVpcDhcpOptions)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DefaultVpcDhcpOptions)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -583,7 +583,7 @@ func (j *jsiiProxy_DefaultVpcDhcpOptions)SetOwnerId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DefaultVpcDhcpOptions)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DefaultVpcDhcpOptions)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -635,14 +635,14 @@ func (j *jsiiProxy_DefaultVpcDhcpOptions)SetTagsAll(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a DefaultVpcDhcpOptions resource upon running "cdktf plan <stack-name>".
-func DefaultVpcDhcpOptions_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DefaultVpcDhcpOptions resource upon running "cdktn plan <stack-name>".
+func DefaultVpcDhcpOptions_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDefaultVpcDhcpOptions_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.defaultVpcDhcpOptions.DefaultVpcDhcpOptions",
@@ -776,11 +776,11 @@ func (d *jsiiProxy_DefaultVpcDhcpOptions) GetAnyMapAttribute(terraformAttribute 
 	return returns
 }
 
-func (d *jsiiProxy_DefaultVpcDhcpOptions) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DefaultVpcDhcpOptions) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -917,7 +917,7 @@ func (d *jsiiProxy_DefaultVpcDhcpOptions) HasResourceMove() interface{} {
 	return returns
 }
 
-func (d *jsiiProxy_DefaultVpcDhcpOptions) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (d *jsiiProxy_DefaultVpcDhcpOptions) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := d.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -928,11 +928,11 @@ func (d *jsiiProxy_DefaultVpcDhcpOptions) ImportFrom(id *string, provider cdktf.
 	)
 }
 
-func (d *jsiiProxy_DefaultVpcDhcpOptions) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DefaultVpcDhcpOptions) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

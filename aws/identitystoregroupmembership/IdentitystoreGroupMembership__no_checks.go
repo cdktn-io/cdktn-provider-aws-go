@@ -111,7 +111,7 @@ func (j *jsiiProxy_IdentitystoreGroupMembership) validateSetIdentityStoreIdParam
 	return nil
 }
 
-func (j *jsiiProxy_IdentitystoreGroupMembership) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IdentitystoreGroupMembership) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

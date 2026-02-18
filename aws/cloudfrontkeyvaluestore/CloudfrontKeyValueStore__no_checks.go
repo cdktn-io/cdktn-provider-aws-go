@@ -107,7 +107,7 @@ func (j *jsiiProxy_CloudfrontKeyValueStore) validateSetCountParameters(val inter
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontKeyValueStore) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudfrontKeyValueStore) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

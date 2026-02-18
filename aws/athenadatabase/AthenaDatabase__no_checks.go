@@ -127,7 +127,7 @@ func (j *jsiiProxy_AthenaDatabase) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_AthenaDatabase) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AthenaDatabase) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

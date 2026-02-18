@@ -5,16 +5,16 @@ package codebuildproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/codebuildproject/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/codebuildproject/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/codebuild_project aws_codebuild_project}.
 type CodebuildProject interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	Artifacts() CodebuildProjectArtifactsOutputReference
 	ArtifactsInput() *CodebuildProjectArtifacts
@@ -33,7 +33,7 @@ type CodebuildProject interface {
 	Cache() CodebuildProjectCacheOutputReference
 	CacheInput() *CodebuildProjectCache
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ConcurrentBuildLimit() *float64
 	SetConcurrentBuildLimit(val *float64)
 	ConcurrentBuildLimitInput() *float64
@@ -62,9 +62,9 @@ type CodebuildProject interface {
 	FileSystemLocations() CodebuildProjectFileSystemLocationsList
 	FileSystemLocationsInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -73,9 +73,9 @@ type CodebuildProject interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LogsConfig() CodebuildProjectLogsConfigOutputReference
 	LogsConfigInput() *CodebuildProjectLogsConfig
 	Name() *string
@@ -87,9 +87,9 @@ type CodebuildProject interface {
 	SetProjectVisibility(val *string)
 	ProjectVisibilityInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -127,7 +127,7 @@ type CodebuildProject interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -142,7 +142,7 @@ type CodebuildProject interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -160,9 +160,9 @@ type CodebuildProject interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -228,7 +228,7 @@ type CodebuildProject interface {
 
 // The jsii proxy struct for CodebuildProject
 type jsiiProxy_CodebuildProject struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_CodebuildProject) Arn() *string {
@@ -371,8 +371,8 @@ func (j *jsiiProxy_CodebuildProject) CacheInput() *CodebuildProjectCache {
 	return returns
 }
 
-func (j *jsiiProxy_CodebuildProject) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_CodebuildProject) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -521,8 +521,8 @@ func (j *jsiiProxy_CodebuildProject) FileSystemLocationsInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_CodebuildProject) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_CodebuildProject) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -571,8 +571,8 @@ func (j *jsiiProxy_CodebuildProject) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CodebuildProject) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_CodebuildProject) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -651,8 +651,8 @@ func (j *jsiiProxy_CodebuildProject) ProjectVisibilityInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CodebuildProject) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_CodebuildProject) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -911,8 +911,8 @@ func (j *jsiiProxy_CodebuildProject) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_CodebuildProject) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_CodebuildProject) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1087,7 +1087,7 @@ func (j *jsiiProxy_CodebuildProject)SetEncryptionKey(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CodebuildProject)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_CodebuildProject)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1106,7 +1106,7 @@ func (j *jsiiProxy_CodebuildProject)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CodebuildProject)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_CodebuildProject)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1139,7 +1139,7 @@ func (j *jsiiProxy_CodebuildProject)SetProjectVisibility(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CodebuildProject)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_CodebuildProject)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1235,14 +1235,14 @@ func (j *jsiiProxy_CodebuildProject)SetTagsAll(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a CodebuildProject resource upon running "cdktf plan <stack-name>".
-func CodebuildProject_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a CodebuildProject resource upon running "cdktn plan <stack-name>".
+func CodebuildProject_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateCodebuildProject_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.codebuildProject.CodebuildProject",
@@ -1376,11 +1376,11 @@ func (c *jsiiProxy_CodebuildProject) GetAnyMapAttribute(terraformAttribute *stri
 	return returns
 }
 
-func (c *jsiiProxy_CodebuildProject) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CodebuildProject) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -1517,7 +1517,7 @@ func (c *jsiiProxy_CodebuildProject) HasResourceMove() interface{} {
 	return returns
 }
 
-func (c *jsiiProxy_CodebuildProject) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_CodebuildProject) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1528,11 +1528,11 @@ func (c *jsiiProxy_CodebuildProject) ImportFrom(id *string, provider cdktf.Terra
 	)
 }
 
-func (c *jsiiProxy_CodebuildProject) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CodebuildProject) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

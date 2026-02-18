@@ -123,7 +123,7 @@ func (j *jsiiProxy_DocdbelasticCluster) validateSetKmsKeyIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_DocdbelasticCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DocdbelasticCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

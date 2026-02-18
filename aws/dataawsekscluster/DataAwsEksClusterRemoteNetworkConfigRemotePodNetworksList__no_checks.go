@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEksClusterRemoteNetworkConfigRemotePodNetworksList) va
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEksClusterRemoteNetworkConfigRemotePodNetworksList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEksClusterRemoteNetworkConfigRemotePodNetworksList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsEksClusterRemoteNetworkConfigRemotePodNetworksList) va
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEksClusterRemoteNetworkConfigRemotePodNetworksList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEksClusterRemoteNetworkConfigRemotePodNetworksList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsEksClusterRemoteNetworkConfigRemotePodNetworksList) va
 	return nil
 }
 
-func validateNewDataAwsEksClusterRemoteNetworkConfigRemotePodNetworksListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEksClusterRemoteNetworkConfigRemotePodNetworksListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

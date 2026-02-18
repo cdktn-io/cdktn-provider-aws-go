@@ -15,7 +15,7 @@ func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaComplianceAssociatedStandard
 	return nil
 }
 
-func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaComplianceAssociatedStandardsIdList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaComplianceAssociatedStandardsIdList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaComplianceAssociatedStandard
 	return nil
 }
 
-func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaComplianceAssociatedStandardsIdList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaComplianceAssociatedStandardsIdList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaComplianceAssociatedStandard
 	return nil
 }
 
-func validateNewSecurityhubAutomationRuleCriteriaComplianceAssociatedStandardsIdListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSecurityhubAutomationRuleCriteriaComplianceAssociatedStandardsIdListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

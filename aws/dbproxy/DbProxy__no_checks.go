@@ -131,7 +131,7 @@ func (j *jsiiProxy_DbProxy) validateSetIdleClientTimeoutParameters(val *float64)
 	return nil
 }
 
-func (j *jsiiProxy_DbProxy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DbProxy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

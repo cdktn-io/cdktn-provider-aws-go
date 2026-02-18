@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpcIpamResourceDiscoveryOperatingRegionsOutputReference) vali
 	return nil
 }
 
-func (v *jsiiProxy_VpcIpamResourceDiscoveryOperatingRegionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpcIpamResourceDiscoveryOperatingRegionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_VpcIpamResourceDiscoveryOperatingRegionsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_VpcIpamResourceDiscoveryOperatingRegionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpcIpamResourceDiscoveryOperatingRegionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpcIpamResourceDiscoveryOperatingRegionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVpcIpamResourceDiscoveryOperatingRegionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

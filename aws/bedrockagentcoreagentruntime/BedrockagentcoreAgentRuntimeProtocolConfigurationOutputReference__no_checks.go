@@ -47,7 +47,7 @@ func (b *jsiiProxy_BedrockagentcoreAgentRuntimeProtocolConfigurationOutputRefere
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentcoreAgentRuntimeProtocolConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentcoreAgentRuntimeProtocolConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_BedrockagentcoreAgentRuntimeProtocolConfigurationOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreAgentRuntimeProtocolConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentcoreAgentRuntimeProtocolConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBedrockagentcoreAgentRuntimeProtocolConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBedrockagentcoreAgentRuntimeProtocolConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (a *jsiiProxy_AcmCertificateOptionsOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (a *jsiiProxy_AcmCertificateOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AcmCertificateOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AcmCertificateOptionsOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_AcmCertificateOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AcmCertificateOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAcmCertificateOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAcmCertificateOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

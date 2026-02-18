@@ -119,7 +119,7 @@ func (j *jsiiProxy_CeCostCategory) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_CeCostCategory) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CeCostCategory) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

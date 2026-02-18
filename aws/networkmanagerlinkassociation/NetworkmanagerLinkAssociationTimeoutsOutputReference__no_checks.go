@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkmanagerLinkAssociationTimeoutsOutputReference) validat
 	return nil
 }
 
-func (n *jsiiProxy_NetworkmanagerLinkAssociationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkmanagerLinkAssociationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_NetworkmanagerLinkAssociationTimeoutsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerLinkAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkmanagerLinkAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkmanagerLinkAssociationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkmanagerLinkAssociationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

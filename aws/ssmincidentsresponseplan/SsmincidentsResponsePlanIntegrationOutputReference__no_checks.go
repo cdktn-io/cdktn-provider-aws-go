@@ -51,7 +51,7 @@ func (s *jsiiProxy_SsmincidentsResponsePlanIntegrationOutputReference) validateP
 	return nil
 }
 
-func (s *jsiiProxy_SsmincidentsResponsePlanIntegrationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsmincidentsResponsePlanIntegrationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SsmincidentsResponsePlanIntegrationOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_SsmincidentsResponsePlanIntegrationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsmincidentsResponsePlanIntegrationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSsmincidentsResponsePlanIntegrationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSsmincidentsResponsePlanIntegrationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

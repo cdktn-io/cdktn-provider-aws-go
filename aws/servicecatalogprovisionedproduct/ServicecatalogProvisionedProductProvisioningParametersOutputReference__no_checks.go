@@ -47,7 +47,7 @@ func (s *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputR
 	return nil
 }
 
-func (s *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputR
 	return nil
 }
 
-func (j *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ServicecatalogProvisionedProductProvisioningParametersOutputR
 	return nil
 }
 
-func validateNewServicecatalogProvisionedProductProvisioningParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewServicecatalogProvisionedProductProvisioningParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

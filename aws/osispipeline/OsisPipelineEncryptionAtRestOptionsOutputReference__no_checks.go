@@ -47,7 +47,7 @@ func (o *jsiiProxy_OsisPipelineEncryptionAtRestOptionsOutputReference) validateI
 	return nil
 }
 
-func (o *jsiiProxy_OsisPipelineEncryptionAtRestOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OsisPipelineEncryptionAtRestOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_OsisPipelineEncryptionAtRestOptionsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_OsisPipelineEncryptionAtRestOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OsisPipelineEncryptionAtRestOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOsisPipelineEncryptionAtRestOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOsisPipelineEncryptionAtRestOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

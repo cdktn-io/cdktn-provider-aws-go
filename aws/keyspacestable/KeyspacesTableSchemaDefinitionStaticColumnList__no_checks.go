@@ -15,7 +15,7 @@ func (k *jsiiProxy_KeyspacesTableSchemaDefinitionStaticColumnList) validateGetPa
 	return nil
 }
 
-func (k *jsiiProxy_KeyspacesTableSchemaDefinitionStaticColumnList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KeyspacesTableSchemaDefinitionStaticColumnList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_KeyspacesTableSchemaDefinitionStaticColumnList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_KeyspacesTableSchemaDefinitionStaticColumnList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KeyspacesTableSchemaDefinitionStaticColumnList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_KeyspacesTableSchemaDefinitionStaticColumnList) validateSetWr
 	return nil
 }
 
-func validateNewKeyspacesTableSchemaDefinitionStaticColumnListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewKeyspacesTableSchemaDefinitionStaticColumnListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

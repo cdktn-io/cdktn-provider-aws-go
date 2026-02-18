@@ -51,7 +51,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigSubstituteStringOutp
 	return nil
 }
 
-func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigSubstituteStringOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigSubstituteStringOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigSubstituteStringOutp
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigSubstituteStringOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigSubstituteStringOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudwatchLogTransformerTransformerConfigSubstituteStringOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudwatchLogTransformerTransformerConfigSubstituteStringOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

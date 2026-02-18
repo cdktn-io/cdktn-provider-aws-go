@@ -5,14 +5,14 @@ package syntheticscanary
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/syntheticscanary/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/syntheticscanary/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SyntheticsCanaryVpcConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,16 +46,16 @@ type SyntheticsCanaryVpcConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VpcId() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -71,15 +71,15 @@ type SyntheticsCanaryVpcConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetIpv6AllowedForDualStack()
 	ResetSecurityGroupIds()
 	ResetSubnetIds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -89,7 +89,7 @@ type SyntheticsCanaryVpcConfigOutputReference interface {
 
 // The jsii proxy struct for SyntheticsCanaryVpcConfigOutputReference
 type jsiiProxy_SyntheticsCanaryVpcConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SyntheticsCanaryVpcConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -212,8 +212,8 @@ func (j *jsiiProxy_SyntheticsCanaryVpcConfigOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_SyntheticsCanaryVpcConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SyntheticsCanaryVpcConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -233,7 +233,7 @@ func (j *jsiiProxy_SyntheticsCanaryVpcConfigOutputReference) VpcId() *string {
 }
 
 
-func NewSyntheticsCanaryVpcConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SyntheticsCanaryVpcConfigOutputReference {
+func NewSyntheticsCanaryVpcConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SyntheticsCanaryVpcConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSyntheticsCanaryVpcConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -250,7 +250,7 @@ func NewSyntheticsCanaryVpcConfigOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewSyntheticsCanaryVpcConfigOutputReference_Override(s SyntheticsCanaryVpcConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSyntheticsCanaryVpcConfigOutputReference_Override(s SyntheticsCanaryVpcConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -337,7 +337,7 @@ func (j *jsiiProxy_SyntheticsCanaryVpcConfigOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_SyntheticsCanaryVpcConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SyntheticsCanaryVpcConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -377,11 +377,11 @@ func (s *jsiiProxy_SyntheticsCanaryVpcConfigOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (s *jsiiProxy_SyntheticsCanaryVpcConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SyntheticsCanaryVpcConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -505,8 +505,8 @@ func (s *jsiiProxy_SyntheticsCanaryVpcConfigOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (s *jsiiProxy_SyntheticsCanaryVpcConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SyntheticsCanaryVpcConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -518,11 +518,11 @@ func (s *jsiiProxy_SyntheticsCanaryVpcConfigOutputReference) InterpolationAsList
 	return returns
 }
 
-func (s *jsiiProxy_SyntheticsCanaryVpcConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SyntheticsCanaryVpcConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -558,7 +558,7 @@ func (s *jsiiProxy_SyntheticsCanaryVpcConfigOutputReference) ResetSubnetIds() {
 	)
 }
 
-func (s *jsiiProxy_SyntheticsCanaryVpcConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SyntheticsCanaryVpcConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

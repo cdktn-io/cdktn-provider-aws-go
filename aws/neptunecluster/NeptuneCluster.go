@@ -5,16 +5,16 @@ package neptunecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/neptunecluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/neptunecluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/neptune_cluster aws_neptune_cluster}.
 type NeptuneCluster interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AllowMajorVersionUpgrade() interface{}
 	SetAllowMajorVersionUpgrade(val interface{})
 	AllowMajorVersionUpgradeInput() interface{}
@@ -29,7 +29,7 @@ type NeptuneCluster interface {
 	SetBackupRetentionPeriod(val *float64)
 	BackupRetentionPeriodInput() *float64
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClusterIdentifier() *string
 	SetClusterIdentifier(val *string)
 	ClusterIdentifierInput() *string
@@ -72,9 +72,9 @@ type NeptuneCluster interface {
 	SetFinalSnapshotIdentifier(val *string)
 	FinalSnapshotIdentifierInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -96,9 +96,9 @@ type NeptuneCluster interface {
 	SetKmsKeyArn(val *string)
 	KmsKeyArnInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	NeptuneClusterParameterGroupName() *string
 	SetNeptuneClusterParameterGroupName(val *string)
 	NeptuneClusterParameterGroupNameInput() *string
@@ -120,9 +120,9 @@ type NeptuneCluster interface {
 	SetPreferredMaintenanceWindow(val *string)
 	PreferredMaintenanceWindowInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -157,7 +157,7 @@ type NeptuneCluster interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -175,7 +175,7 @@ type NeptuneCluster interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -193,9 +193,9 @@ type NeptuneCluster interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -264,7 +264,7 @@ type NeptuneCluster interface {
 
 // The jsii proxy struct for NeptuneCluster
 type jsiiProxy_NeptuneCluster struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_NeptuneCluster) AllowMajorVersionUpgrade() interface{} {
@@ -357,8 +357,8 @@ func (j *jsiiProxy_NeptuneCluster) BackupRetentionPeriodInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_NeptuneCluster) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_NeptuneCluster) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -597,8 +597,8 @@ func (j *jsiiProxy_NeptuneCluster) FinalSnapshotIdentifierInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NeptuneCluster) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_NeptuneCluster) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -737,8 +737,8 @@ func (j *jsiiProxy_NeptuneCluster) KmsKeyArnInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NeptuneCluster) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_NeptuneCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -877,8 +877,8 @@ func (j *jsiiProxy_NeptuneCluster) PreferredMaintenanceWindowInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NeptuneCluster) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_NeptuneCluster) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -1097,8 +1097,8 @@ func (j *jsiiProxy_NeptuneCluster) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_NeptuneCluster) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_NeptuneCluster) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1359,7 +1359,7 @@ func (j *jsiiProxy_NeptuneCluster)SetFinalSnapshotIdentifier(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NeptuneCluster)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_NeptuneCluster)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1422,7 +1422,7 @@ func (j *jsiiProxy_NeptuneCluster)SetKmsKeyArn(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NeptuneCluster)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_NeptuneCluster)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1499,7 +1499,7 @@ func (j *jsiiProxy_NeptuneCluster)SetPreferredMaintenanceWindow(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NeptuneCluster)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_NeptuneCluster)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1617,14 +1617,14 @@ func (j *jsiiProxy_NeptuneCluster)SetVpcSecurityGroupIds(val *[]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a NeptuneCluster resource upon running "cdktf plan <stack-name>".
-func NeptuneCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a NeptuneCluster resource upon running "cdktn plan <stack-name>".
+func NeptuneCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateNeptuneCluster_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.neptuneCluster.NeptuneCluster",
@@ -1758,11 +1758,11 @@ func (n *jsiiProxy_NeptuneCluster) GetAnyMapAttribute(terraformAttribute *string
 	return returns
 }
 
-func (n *jsiiProxy_NeptuneCluster) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NeptuneCluster) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -1899,7 +1899,7 @@ func (n *jsiiProxy_NeptuneCluster) HasResourceMove() interface{} {
 	return returns
 }
 
-func (n *jsiiProxy_NeptuneCluster) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (n *jsiiProxy_NeptuneCluster) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := n.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1910,11 +1910,11 @@ func (n *jsiiProxy_NeptuneCluster) ImportFrom(id *string, provider cdktf.Terrafo
 	)
 }
 
-func (n *jsiiProxy_NeptuneCluster) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NeptuneCluster) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,

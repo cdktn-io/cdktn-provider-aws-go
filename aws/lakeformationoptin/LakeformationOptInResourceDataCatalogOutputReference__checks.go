@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (l *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (l *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) validat
 	return nil
 }
 
-func (l *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -176,7 +176,7 @@ func (j *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) validat
 
 func (j *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *LakeformationOptInResourceDataCatalog:
 		val := val.(*LakeformationOptInResourceDataCatalog)
@@ -191,7 +191,7 @@ func (j *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) validat
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *LakeformationOptInResourceDataCatalog; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *LakeformationOptInResourceDataCatalog; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -206,7 +206,7 @@ func (j *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -214,7 +214,7 @@ func (j *jsiiProxy_LakeformationOptInResourceDataCatalogOutputReference) validat
 	return nil
 }
 
-func validateNewLakeformationOptInResourceDataCatalogOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLakeformationOptInResourceDataCatalogOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

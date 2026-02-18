@@ -103,7 +103,7 @@ func (j *jsiiProxy_XrayResourcePolicy) validateSetCountParameters(val interface{
 	return nil
 }
 
-func (j *jsiiProxy_XrayResourcePolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_XrayResourcePolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

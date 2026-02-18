@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsBackupPlanRuleLifecycleList) validateGetParameters(ind
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsBackupPlanRuleLifecycleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsBackupPlanRuleLifecycleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsBackupPlanRuleLifecycleList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsBackupPlanRuleLifecycleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsBackupPlanRuleLifecycleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsBackupPlanRuleLifecycleList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewDataAwsBackupPlanRuleLifecycleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsBackupPlanRuleLifecycleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

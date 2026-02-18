@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsIamPrincipalPolicySimulationContextList) validateGetPa
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsIamPrincipalPolicySimulationContextList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsIamPrincipalPolicySimulationContextList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsIamPrincipalPolicySimulationContextList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsIamPrincipalPolicySimulationContextList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsIamPrincipalPolicySimulationContextList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsIamPrincipalPolicySimulationContextList) validateSetWr
 	return nil
 }
 
-func validateNewDataAwsIamPrincipalPolicySimulationContextListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsIamPrincipalPolicySimulationContextListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (w *jsiiProxy_Wafv2WebAclCaptchaConfigImmunityTimePropertyOutputReference) 
 	return nil
 }
 
-func (w *jsiiProxy_Wafv2WebAclCaptchaConfigImmunityTimePropertyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_Wafv2WebAclCaptchaConfigImmunityTimePropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_Wafv2WebAclCaptchaConfigImmunityTimePropertyOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_Wafv2WebAclCaptchaConfigImmunityTimePropertyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Wafv2WebAclCaptchaConfigImmunityTimePropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWafv2WebAclCaptchaConfigImmunityTimePropertyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWafv2WebAclCaptchaConfigImmunityTimePropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

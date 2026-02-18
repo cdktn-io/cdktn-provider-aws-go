@@ -15,7 +15,7 @@ func (e *jsiiProxy_EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesList) va
 	return nil
 }
 
-func (e *jsiiProxy_EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesList) va
 	return nil
 }
 
-func (j *jsiiProxy_EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesList) va
 	return nil
 }
 
-func validateNewEksNodeGroupNodeRepairConfigNodeRepairConfigOverridesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEksNodeGroupNodeRepairConfigNodeRepairConfigOverridesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEcrRepositoryCreationTemplateEncryptionConfigurationLi
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEcrRepositoryCreationTemplateEncryptionConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEcrRepositoryCreationTemplateEncryptionConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsEcrRepositoryCreationTemplateEncryptionConfigurationLi
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEcrRepositoryCreationTemplateEncryptionConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEcrRepositoryCreationTemplateEncryptionConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsEcrRepositoryCreationTemplateEncryptionConfigurationLi
 	return nil
 }
 
-func validateNewDataAwsEcrRepositoryCreationTemplateEncryptionConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEcrRepositoryCreationTemplateEncryptionConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

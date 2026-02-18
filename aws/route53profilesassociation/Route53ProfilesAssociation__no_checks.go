@@ -103,7 +103,7 @@ func (j *jsiiProxy_Route53ProfilesAssociation) validateSetCountParameters(val in
 	return nil
 }
 
-func (j *jsiiProxy_Route53ProfilesAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Route53ProfilesAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

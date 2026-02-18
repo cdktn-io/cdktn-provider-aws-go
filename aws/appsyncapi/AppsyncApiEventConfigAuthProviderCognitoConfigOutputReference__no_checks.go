@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppsyncApiEventConfigAuthProviderCognitoConfigOutputReference
 	return nil
 }
 
-func (a *jsiiProxy_AppsyncApiEventConfigAuthProviderCognitoConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppsyncApiEventConfigAuthProviderCognitoConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderCognitoConfigOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderCognitoConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderCognitoConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderCognitoConfigOutputReference
 	return nil
 }
 
-func validateNewAppsyncApiEventConfigAuthProviderCognitoConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppsyncApiEventConfigAuthProviderCognitoConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

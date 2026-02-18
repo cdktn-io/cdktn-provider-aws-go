@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpclatticeServiceNetworkResourceAssociationDnsEntryOutputRefe
 	return nil
 }
 
-func (v *jsiiProxy_VpclatticeServiceNetworkResourceAssociationDnsEntryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpclatticeServiceNetworkResourceAssociationDnsEntryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_VpclatticeServiceNetworkResourceAssociationDnsEntryOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_VpclatticeServiceNetworkResourceAssociationDnsEntryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpclatticeServiceNetworkResourceAssociationDnsEntryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpclatticeServiceNetworkResourceAssociationDnsEntryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVpclatticeServiceNetworkResourceAssociationDnsEntryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

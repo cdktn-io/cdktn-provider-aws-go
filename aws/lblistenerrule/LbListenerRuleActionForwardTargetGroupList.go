@@ -5,14 +5,14 @@ package lblistenerrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lblistenerrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lblistenerrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LbListenerRuleActionForwardTargetGroupList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type LbListenerRuleActionForwardTargetGroupList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type LbListenerRuleActionForwardTargetGroupList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) LbListenerRuleActionForwardTargetGroupOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type LbListenerRuleActionForwardTargetGroupList interface {
 
 // The jsii proxy struct for LbListenerRuleActionForwardTargetGroupList
 type jsiiProxy_LbListenerRuleActionForwardTargetGroupList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_LbListenerRuleActionForwardTargetGroupList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_LbListenerRuleActionForwardTargetGroupList) TerraformAttribut
 	return returns
 }
 
-func (j *jsiiProxy_LbListenerRuleActionForwardTargetGroupList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LbListenerRuleActionForwardTargetGroupList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_LbListenerRuleActionForwardTargetGroupList) WrapsSet() *bool 
 }
 
 
-func NewLbListenerRuleActionForwardTargetGroupList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LbListenerRuleActionForwardTargetGroupList {
+func NewLbListenerRuleActionForwardTargetGroupList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LbListenerRuleActionForwardTargetGroupList {
 	_init_.Initialize()
 
 	if err := validateNewLbListenerRuleActionForwardTargetGroupListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewLbListenerRuleActionForwardTargetGroupList(terraformResource cdktf.IInte
 	return &j
 }
 
-func NewLbListenerRuleActionForwardTargetGroupList_Override(l LbListenerRuleActionForwardTargetGroupList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewLbListenerRuleActionForwardTargetGroupList_Override(l LbListenerRuleActionForwardTargetGroupList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_LbListenerRuleActionForwardTargetGroupList)SetTerraformAttrib
 	)
 }
 
-func (j *jsiiProxy_LbListenerRuleActionForwardTargetGroupList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LbListenerRuleActionForwardTargetGroupList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_LbListenerRuleActionForwardTargetGroupList)SetWrapsSet(val *b
 	)
 }
 
-func (l *jsiiProxy_LbListenerRuleActionForwardTargetGroupList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (l *jsiiProxy_LbListenerRuleActionForwardTargetGroupList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := l.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		l,
@@ -231,7 +231,7 @@ func (l *jsiiProxy_LbListenerRuleActionForwardTargetGroupList) Get(index *float6
 	return returns
 }
 
-func (l *jsiiProxy_LbListenerRuleActionForwardTargetGroupList) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LbListenerRuleActionForwardTargetGroupList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

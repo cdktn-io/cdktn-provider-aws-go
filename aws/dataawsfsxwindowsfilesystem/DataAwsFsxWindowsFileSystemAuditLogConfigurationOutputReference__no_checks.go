@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsFsxWindowsFileSystemAuditLogConfigurationOutputReferen
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsFsxWindowsFileSystemAuditLogConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsFsxWindowsFileSystemAuditLogConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsFsxWindowsFileSystemAuditLogConfigurationOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsFsxWindowsFileSystemAuditLogConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsFsxWindowsFileSystemAuditLogConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsFsxWindowsFileSystemAuditLogConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsFsxWindowsFileSystemAuditLogConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

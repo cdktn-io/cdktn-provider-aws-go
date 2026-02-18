@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEc2LocalGatewayRouteTableTimeoutsOutputReference) vali
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEc2LocalGatewayRouteTableTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEc2LocalGatewayRouteTableTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAwsEc2LocalGatewayRouteTableTimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2LocalGatewayRouteTableTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEc2LocalGatewayRouteTableTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsEc2LocalGatewayRouteTableTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAwsEc2LocalGatewayRouteTableTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

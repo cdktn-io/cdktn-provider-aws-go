@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsSsmcontactsRotationRecurrenceShiftCoveragesCoverageTim
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsSsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesEndOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsSsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesEndOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsSsmcontactsRotationRecurrenceShiftCoveragesCoverageTim
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesEndOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsSsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesEndOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsSsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesEndOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsSsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesEndOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

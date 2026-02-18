@@ -47,7 +47,7 @@ func (s *jsiiProxy_SchedulerScheduleTargetEcsParametersNetworkConfigurationOutpu
 	return nil
 }
 
-func (s *jsiiProxy_SchedulerScheduleTargetEcsParametersNetworkConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SchedulerScheduleTargetEcsParametersNetworkConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_SchedulerScheduleTargetEcsParametersNetworkConfigurationOutpu
 	return nil
 }
 
-func (j *jsiiProxy_SchedulerScheduleTargetEcsParametersNetworkConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SchedulerScheduleTargetEcsParametersNetworkConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSchedulerScheduleTargetEcsParametersNetworkConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSchedulerScheduleTargetEcsParametersNetworkConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

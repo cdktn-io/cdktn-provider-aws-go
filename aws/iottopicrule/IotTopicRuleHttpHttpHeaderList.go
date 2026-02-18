@@ -5,14 +5,14 @@ package iottopicrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/iottopicrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/iottopicrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type IotTopicRuleHttpHttpHeaderList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type IotTopicRuleHttpHttpHeaderList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type IotTopicRuleHttpHttpHeaderList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) IotTopicRuleHttpHttpHeaderOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type IotTopicRuleHttpHttpHeaderList interface {
 
 // The jsii proxy struct for IotTopicRuleHttpHttpHeaderList
 type jsiiProxy_IotTopicRuleHttpHttpHeaderList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_IotTopicRuleHttpHttpHeaderList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_IotTopicRuleHttpHttpHeaderList) TerraformAttribute() *string 
 	return returns
 }
 
-func (j *jsiiProxy_IotTopicRuleHttpHttpHeaderList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_IotTopicRuleHttpHttpHeaderList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_IotTopicRuleHttpHttpHeaderList) WrapsSet() *bool {
 }
 
 
-func NewIotTopicRuleHttpHttpHeaderList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotTopicRuleHttpHttpHeaderList {
+func NewIotTopicRuleHttpHttpHeaderList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotTopicRuleHttpHttpHeaderList {
 	_init_.Initialize()
 
 	if err := validateNewIotTopicRuleHttpHttpHeaderListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewIotTopicRuleHttpHttpHeaderList(terraformResource cdktf.IInterpolatingPar
 	return &j
 }
 
-func NewIotTopicRuleHttpHttpHeaderList_Override(i IotTopicRuleHttpHttpHeaderList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewIotTopicRuleHttpHttpHeaderList_Override(i IotTopicRuleHttpHttpHeaderList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_IotTopicRuleHttpHttpHeaderList)SetTerraformAttribute(val *str
 	)
 }
 
-func (j *jsiiProxy_IotTopicRuleHttpHttpHeaderList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_IotTopicRuleHttpHttpHeaderList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_IotTopicRuleHttpHttpHeaderList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (i *jsiiProxy_IotTopicRuleHttpHttpHeaderList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (i *jsiiProxy_IotTopicRuleHttpHttpHeaderList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := i.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		i,
@@ -231,7 +231,7 @@ func (i *jsiiProxy_IotTopicRuleHttpHttpHeaderList) Get(index *float64) IotTopicR
 	return returns
 }
 
-func (i *jsiiProxy_IotTopicRuleHttpHttpHeaderList) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_IotTopicRuleHttpHttpHeaderList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

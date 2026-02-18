@@ -47,7 +47,7 @@ func (s *jsiiProxy_SagemakerModelPrimaryContainerModelDataSourceS3DataSourceMode
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerModelPrimaryContainerModelDataSourceS3DataSourceModelAccessConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerModelPrimaryContainerModelDataSourceS3DataSourceModelAccessConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SagemakerModelPrimaryContainerModelDataSourceS3DataSourceMode
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerModelPrimaryContainerModelDataSourceS3DataSourceModelAccessConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerModelPrimaryContainerModelDataSourceS3DataSourceModelAccessConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerModelPrimaryContainerModelDataSourceS3DataSourceModelAccessConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerModelPrimaryContainerModelDataSourceS3DataSourceModelAccessConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

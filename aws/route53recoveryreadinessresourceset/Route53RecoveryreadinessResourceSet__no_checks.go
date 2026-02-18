@@ -111,7 +111,7 @@ func (j *jsiiProxy_Route53RecoveryreadinessResourceSet) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_Route53RecoveryreadinessResourceSet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Route53RecoveryreadinessResourceSet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

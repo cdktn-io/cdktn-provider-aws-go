@@ -103,7 +103,7 @@ func (j *jsiiProxy_IamInstanceProfile) validateSetIdParameters(val *string) erro
 	return nil
 }
 
-func (j *jsiiProxy_IamInstanceProfile) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IamInstanceProfile) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package pinpointemailtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/pinpointemailtemplate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/pinpointemailtemplate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PinpointEmailTemplateEmailTemplateOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -54,9 +54,9 @@ type PinpointEmailTemplateEmailTemplateOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TextPart() *string
 	SetTextPart(val *string)
 	TextPartInput() *string
@@ -65,7 +65,7 @@ type PinpointEmailTemplateEmailTemplateOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -81,9 +81,9 @@ type PinpointEmailTemplateEmailTemplateOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutHeader(value interface{})
 	ResetDefaultSubstitutions()
 	ResetDescription()
@@ -94,7 +94,7 @@ type PinpointEmailTemplateEmailTemplateOutputReference interface {
 	ResetTextPart()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -104,7 +104,7 @@ type PinpointEmailTemplateEmailTemplateOutputReference interface {
 
 // The jsii proxy struct for PinpointEmailTemplateEmailTemplateOutputReference
 type jsiiProxy_PinpointEmailTemplateEmailTemplateOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PinpointEmailTemplateEmailTemplateOutputReference) ComplexObjectIndex() interface{} {
@@ -287,8 +287,8 @@ func (j *jsiiProxy_PinpointEmailTemplateEmailTemplateOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_PinpointEmailTemplateEmailTemplateOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PinpointEmailTemplateEmailTemplateOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -318,7 +318,7 @@ func (j *jsiiProxy_PinpointEmailTemplateEmailTemplateOutputReference) TextPartIn
 }
 
 
-func NewPinpointEmailTemplateEmailTemplateOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) PinpointEmailTemplateEmailTemplateOutputReference {
+func NewPinpointEmailTemplateEmailTemplateOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) PinpointEmailTemplateEmailTemplateOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPinpointEmailTemplateEmailTemplateOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -335,7 +335,7 @@ func NewPinpointEmailTemplateEmailTemplateOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewPinpointEmailTemplateEmailTemplateOutputReference_Override(p PinpointEmailTemplateEmailTemplateOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewPinpointEmailTemplateEmailTemplateOutputReference_Override(p PinpointEmailTemplateEmailTemplateOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -444,7 +444,7 @@ func (j *jsiiProxy_PinpointEmailTemplateEmailTemplateOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_PinpointEmailTemplateEmailTemplateOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PinpointEmailTemplateEmailTemplateOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -495,11 +495,11 @@ func (p *jsiiProxy_PinpointEmailTemplateEmailTemplateOutputReference) GetAnyMapA
 	return returns
 }
 
-func (p *jsiiProxy_PinpointEmailTemplateEmailTemplateOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PinpointEmailTemplateEmailTemplateOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -623,8 +623,8 @@ func (p *jsiiProxy_PinpointEmailTemplateEmailTemplateOutputReference) GetStringM
 	return returns
 }
 
-func (p *jsiiProxy_PinpointEmailTemplateEmailTemplateOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PinpointEmailTemplateEmailTemplateOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -636,11 +636,11 @@ func (p *jsiiProxy_PinpointEmailTemplateEmailTemplateOutputReference) Interpolat
 	return returns
 }
 
-func (p *jsiiProxy_PinpointEmailTemplateEmailTemplateOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PinpointEmailTemplateEmailTemplateOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -719,7 +719,7 @@ func (p *jsiiProxy_PinpointEmailTemplateEmailTemplateOutputReference) ResetTextP
 	)
 }
 
-func (p *jsiiProxy_PinpointEmailTemplateEmailTemplateOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PinpointEmailTemplateEmailTemplateOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

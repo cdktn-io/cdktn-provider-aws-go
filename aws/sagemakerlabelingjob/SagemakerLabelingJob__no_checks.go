@@ -131,7 +131,7 @@ func (j *jsiiProxy_SagemakerLabelingJob) validateSetLabelingJobNameParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerLabelingJob) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SagemakerLabelingJob) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

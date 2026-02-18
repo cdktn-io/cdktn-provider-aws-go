@@ -115,7 +115,7 @@ func (j *jsiiProxy_S3DirectoryBucket) validateSetForceDestroyParameters(val inte
 	return nil
 }
 
-func (j *jsiiProxy_S3DirectoryBucket) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_S3DirectoryBucket) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

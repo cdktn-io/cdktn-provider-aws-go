@@ -123,7 +123,7 @@ func (j *jsiiProxy_LambdaCapacityProvider) validateSetKmsKeyArnParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_LambdaCapacityProvider) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LambdaCapacityProvider) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

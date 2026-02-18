@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsServicecatalogLaunchPathsSummariesOutputReference) val
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsServicecatalogLaunchPathsSummariesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsServicecatalogLaunchPathsSummariesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsServicecatalogLaunchPathsSummariesOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsServicecatalogLaunchPathsSummariesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsServicecatalogLaunchPathsSummariesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsServicecatalogLaunchPathsSummariesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsServicecatalogLaunchPathsSummariesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

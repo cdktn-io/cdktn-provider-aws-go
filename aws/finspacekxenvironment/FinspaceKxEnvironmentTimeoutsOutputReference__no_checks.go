@@ -47,7 +47,7 @@ func (f *jsiiProxy_FinspaceKxEnvironmentTimeoutsOutputReference) validateInterpo
 	return nil
 }
 
-func (f *jsiiProxy_FinspaceKxEnvironmentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FinspaceKxEnvironmentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_FinspaceKxEnvironmentTimeoutsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_FinspaceKxEnvironmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FinspaceKxEnvironmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_FinspaceKxEnvironmentTimeoutsOutputReference) validateSetUpda
 	return nil
 }
 
-func validateNewFinspaceKxEnvironmentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFinspaceKxEnvironmentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

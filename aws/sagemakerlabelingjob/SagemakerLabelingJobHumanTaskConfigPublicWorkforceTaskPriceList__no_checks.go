@@ -15,7 +15,7 @@ func (s *jsiiProxy_SagemakerLabelingJobHumanTaskConfigPublicWorkforceTaskPriceLi
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerLabelingJobHumanTaskConfigPublicWorkforceTaskPriceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerLabelingJobHumanTaskConfigPublicWorkforceTaskPriceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SagemakerLabelingJobHumanTaskConfigPublicWorkforceTaskPriceLi
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerLabelingJobHumanTaskConfigPublicWorkforceTaskPriceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerLabelingJobHumanTaskConfigPublicWorkforceTaskPriceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SagemakerLabelingJobHumanTaskConfigPublicWorkforceTaskPriceLi
 	return nil
 }
 
-func validateNewSagemakerLabelingJobHumanTaskConfigPublicWorkforceTaskPriceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSagemakerLabelingJobHumanTaskConfigPublicWorkforceTaskPriceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

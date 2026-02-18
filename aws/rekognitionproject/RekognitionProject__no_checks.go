@@ -111,7 +111,7 @@ func (j *jsiiProxy_RekognitionProject) validateSetFeatureParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_RekognitionProject) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RekognitionProject) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

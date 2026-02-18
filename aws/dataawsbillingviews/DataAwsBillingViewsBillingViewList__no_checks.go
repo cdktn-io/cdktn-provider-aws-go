@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsBillingViewsBillingViewList) validateGetParameters(ind
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsBillingViewsBillingViewList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsBillingViewsBillingViewList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsBillingViewsBillingViewList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsBillingViewsBillingViewList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsBillingViewsBillingViewList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsBillingViewsBillingViewList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewDataAwsBillingViewsBillingViewListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsBillingViewsBillingViewListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

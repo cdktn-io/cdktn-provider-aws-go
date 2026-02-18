@@ -47,7 +47,7 @@ func (g *jsiiProxy_GlueDataQualityRulesetTargetTableOutputReference) validateInt
 	return nil
 }
 
-func (g *jsiiProxy_GlueDataQualityRulesetTargetTableOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueDataQualityRulesetTargetTableOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GlueDataQualityRulesetTargetTableOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_GlueDataQualityRulesetTargetTableOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueDataQualityRulesetTargetTableOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGlueDataQualityRulesetTargetTableOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGlueDataQualityRulesetTargetTableOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

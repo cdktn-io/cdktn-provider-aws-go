@@ -15,7 +15,7 @@ func (b *jsiiProxy_BedrockagentcoreBrowserRecordingList) validateGetParameters(i
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentcoreBrowserRecordingList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentcoreBrowserRecordingList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BedrockagentcoreBrowserRecordingList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreBrowserRecordingList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentcoreBrowserRecordingList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BedrockagentcoreBrowserRecordingList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewBedrockagentcoreBrowserRecordingListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockagentcoreBrowserRecordingListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

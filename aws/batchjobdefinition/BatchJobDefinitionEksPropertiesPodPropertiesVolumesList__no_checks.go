@@ -15,7 +15,7 @@ func (b *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesVolumesList) vali
 	return nil
 }
 
-func (b *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesVolumesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesVolumesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesVolumesList) vali
 	return nil
 }
 
-func (j *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesVolumesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesVolumesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesVolumesList) vali
 	return nil
 }
 
-func validateNewBatchJobDefinitionEksPropertiesPodPropertiesVolumesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBatchJobDefinitionEksPropertiesPodPropertiesVolumesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

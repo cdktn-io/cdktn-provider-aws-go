@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsAppintegrationsEventIntegrationEventFilterOutputRefere
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAppintegrationsEventIntegrationEventFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAppintegrationsEventIntegrationEventFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsAppintegrationsEventIntegrationEventFilterOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAppintegrationsEventIntegrationEventFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAppintegrationsEventIntegrationEventFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsAppintegrationsEventIntegrationEventFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsAppintegrationsEventIntegrationEventFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

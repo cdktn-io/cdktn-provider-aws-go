@@ -51,7 +51,7 @@ func (l *jsiiProxy_Lexv2ModelsSlotTypeExternalSourceSettingOutputReference) vali
 	return nil
 }
 
-func (l *jsiiProxy_Lexv2ModelsSlotTypeExternalSourceSettingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_Lexv2ModelsSlotTypeExternalSourceSettingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_Lexv2ModelsSlotTypeExternalSourceSettingOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_Lexv2ModelsSlotTypeExternalSourceSettingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Lexv2ModelsSlotTypeExternalSourceSettingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLexv2ModelsSlotTypeExternalSourceSettingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLexv2ModelsSlotTypeExternalSourceSettingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

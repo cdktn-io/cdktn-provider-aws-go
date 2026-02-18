@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsDynamodbTableGlobalSecondaryIndexOnDemandThroughputOut
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsDynamodbTableGlobalSecondaryIndexOnDemandThroughputOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsDynamodbTableGlobalSecondaryIndexOnDemandThroughputOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsDynamodbTableGlobalSecondaryIndexOnDemandThroughputOut
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDynamodbTableGlobalSecondaryIndexOnDemandThroughputOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsDynamodbTableGlobalSecondaryIndexOnDemandThroughputOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsDynamodbTableGlobalSecondaryIndexOnDemandThroughputOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsDynamodbTableGlobalSecondaryIndexOnDemandThroughputOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

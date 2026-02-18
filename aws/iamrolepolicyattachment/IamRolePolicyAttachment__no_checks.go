@@ -103,7 +103,7 @@ func (j *jsiiProxy_IamRolePolicyAttachment) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_IamRolePolicyAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IamRolePolicyAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

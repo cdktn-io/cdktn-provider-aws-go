@@ -15,7 +15,7 @@ func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicyTrafficConfigSingleHeader
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicyTrafficConfigSingleHeaderConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicyTrafficConfigSingleHeaderConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CloudfrontContinuousDeploymentPolicyTrafficConfigSingleHeader
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontContinuousDeploymentPolicyTrafficConfigSingleHeaderConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontContinuousDeploymentPolicyTrafficConfigSingleHeaderConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CloudfrontContinuousDeploymentPolicyTrafficConfigSingleHeader
 	return nil
 }
 
-func validateNewCloudfrontContinuousDeploymentPolicyTrafficConfigSingleHeaderConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudfrontContinuousDeploymentPolicyTrafficConfigSingleHeaderConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

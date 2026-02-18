@@ -15,7 +15,7 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalytics
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalytics
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalytics
 	return nil
 }
 
-func validateNewBedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

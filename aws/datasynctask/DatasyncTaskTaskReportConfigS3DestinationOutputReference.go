@@ -5,14 +5,14 @@ package datasynctask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/datasynctask/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/datasynctask/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DatasyncTaskTaskReportConfigS3DestinationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BucketAccessRoleArn() *string
 	SetBucketAccessRoleArn(val *string)
 	BucketAccessRoleArnInput() *string
@@ -46,15 +46,15 @@ type DatasyncTaskTaskReportConfigS3DestinationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type DatasyncTaskTaskReportConfigS3DestinationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetSubdirectory()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type DatasyncTaskTaskReportConfigS3DestinationOutputReference interface {
 
 // The jsii proxy struct for DatasyncTaskTaskReportConfigS3DestinationOutputReference
 type jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference) BucketAccessRoleArn() *string {
@@ -209,8 +209,8 @@ func (j *jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference) Ter
 }
 
 
-func NewDatasyncTaskTaskReportConfigS3DestinationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DatasyncTaskTaskReportConfigS3DestinationOutputReference {
+func NewDatasyncTaskTaskReportConfigS3DestinationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DatasyncTaskTaskReportConfigS3DestinationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDatasyncTaskTaskReportConfigS3DestinationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -237,7 +237,7 @@ func NewDatasyncTaskTaskReportConfigS3DestinationOutputReference(terraformResour
 	return &j
 }
 
-func NewDatasyncTaskTaskReportConfigS3DestinationOutputReference_Override(d DatasyncTaskTaskReportConfigS3DestinationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDatasyncTaskTaskReportConfigS3DestinationOutputReference_Override(d DatasyncTaskTaskReportConfigS3DestinationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -324,7 +324,7 @@ func (j *jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (d *jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference) Get
 	return returns
 }
 
-func (d *jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -492,8 +492,8 @@ func (d *jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference) Get
 	return returns
 }
 
-func (d *jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -505,11 +505,11 @@ func (d *jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference) Int
 	return returns
 }
 
-func (d *jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -529,7 +529,7 @@ func (d *jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference) Res
 	)
 }
 
-func (d *jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsGlobalacceleratorAccelerator) validateSetCountParamete
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsGlobalacceleratorAccelerator) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsGlobalacceleratorAccelerator) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

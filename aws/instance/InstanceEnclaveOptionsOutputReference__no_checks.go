@@ -47,7 +47,7 @@ func (i *jsiiProxy_InstanceEnclaveOptionsOutputReference) validateInterpolationF
 	return nil
 }
 
-func (i *jsiiProxy_InstanceEnclaveOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_InstanceEnclaveOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_InstanceEnclaveOptionsOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_InstanceEnclaveOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_InstanceEnclaveOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewInstanceEnclaveOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewInstanceEnclaveOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

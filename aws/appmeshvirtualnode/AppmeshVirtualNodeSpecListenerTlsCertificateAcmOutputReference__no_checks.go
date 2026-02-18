@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppmeshVirtualNodeSpecListenerTlsCertificateAcmOutputReferenc
 	return nil
 }
 
-func (a *jsiiProxy_AppmeshVirtualNodeSpecListenerTlsCertificateAcmOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppmeshVirtualNodeSpecListenerTlsCertificateAcmOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AppmeshVirtualNodeSpecListenerTlsCertificateAcmOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshVirtualNodeSpecListenerTlsCertificateAcmOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppmeshVirtualNodeSpecListenerTlsCertificateAcmOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppmeshVirtualNodeSpecListenerTlsCertificateAcmOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppmeshVirtualNodeSpecListenerTlsCertificateAcmOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

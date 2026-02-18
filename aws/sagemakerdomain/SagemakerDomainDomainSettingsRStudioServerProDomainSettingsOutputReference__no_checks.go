@@ -51,7 +51,7 @@ func (s *jsiiProxy_SagemakerDomainDomainSettingsRStudioServerProDomainSettingsOu
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerDomainDomainSettingsRStudioServerProDomainSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerDomainDomainSettingsRStudioServerProDomainSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_SagemakerDomainDomainSettingsRStudioServerProDomainSettingsOu
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerDomainDomainSettingsRStudioServerProDomainSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerDomainDomainSettingsRStudioServerProDomainSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerDomainDomainSettingsRStudioServerProDomainSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerDomainDomainSettingsRStudioServerProDomainSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

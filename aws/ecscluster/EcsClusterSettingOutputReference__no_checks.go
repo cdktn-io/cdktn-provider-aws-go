@@ -47,7 +47,7 @@ func (e *jsiiProxy_EcsClusterSettingOutputReference) validateInterpolationForAtt
 	return nil
 }
 
-func (e *jsiiProxy_EcsClusterSettingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsClusterSettingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_EcsClusterSettingOutputReference) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_EcsClusterSettingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsClusterSettingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_EcsClusterSettingOutputReference) validateSetValueParameters(
 	return nil
 }
 
-func validateNewEcsClusterSettingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEcsClusterSettingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

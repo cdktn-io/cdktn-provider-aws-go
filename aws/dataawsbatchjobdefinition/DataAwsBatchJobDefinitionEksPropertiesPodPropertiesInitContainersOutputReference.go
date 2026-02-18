@@ -5,14 +5,14 @@ package dataawsbatchjobdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsbatchjobdefinition/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsbatchjobdefinition/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Args() *[]*string
 	Command() *[]*string
 	// the index of the complex object in a list.
@@ -45,16 +45,16 @@ type DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputRefe
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VolumeMounts() DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersVolumeMountsList
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputRefe
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputRefe
 
 // The jsii proxy struct for DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference
 type jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference) Args() *[]*string {
@@ -228,8 +228,8 @@ func (j *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContai
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -249,7 +249,7 @@ func (j *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContai
 }
 
 
-func NewDataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference {
+func NewDataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -266,7 +266,7 @@ func NewDataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputR
 	return &j
 }
 
-func NewDataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference_Override(d DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference_Override(d DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -320,7 +320,7 @@ func (j *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContai
 	)
 }
 
-func (j *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -360,11 +360,11 @@ func (d *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContai
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -488,8 +488,8 @@ func (d *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContai
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -501,11 +501,11 @@ func (d *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContai
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -517,7 +517,7 @@ func (d *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContai
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

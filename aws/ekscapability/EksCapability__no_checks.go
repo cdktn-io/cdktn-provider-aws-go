@@ -119,7 +119,7 @@ func (j *jsiiProxy_EksCapability) validateSetDeletePropagationPolicyParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_EksCapability) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EksCapability) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

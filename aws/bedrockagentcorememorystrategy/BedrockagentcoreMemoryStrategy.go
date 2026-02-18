@@ -5,18 +5,18 @@ package bedrockagentcorememorystrategy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/bedrockagentcorememorystrategy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/bedrockagentcorememorystrategy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/bedrockagentcore_memory_strategy aws_bedrockagentcore_memory_strategy}.
 type BedrockagentcoreMemoryStrategy interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Configuration() BedrockagentcoreMemoryStrategyConfigurationList
 	ConfigurationInput() interface{}
 	// Experimental.
@@ -37,17 +37,17 @@ type BedrockagentcoreMemoryStrategy interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MemoryExecutionRoleArn() *string
 	SetMemoryExecutionRoleArn(val *string)
 	MemoryExecutionRoleArnInput() *string
@@ -64,9 +64,9 @@ type BedrockagentcoreMemoryStrategy interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -77,7 +77,7 @@ type BedrockagentcoreMemoryStrategy interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -95,7 +95,7 @@ type BedrockagentcoreMemoryStrategy interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -113,9 +113,9 @@ type BedrockagentcoreMemoryStrategy interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -155,11 +155,11 @@ type BedrockagentcoreMemoryStrategy interface {
 
 // The jsii proxy struct for BedrockagentcoreMemoryStrategy
 type jsiiProxy_BedrockagentcoreMemoryStrategy struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -248,8 +248,8 @@ func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -278,8 +278,8 @@ func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) FriendlyUniqueId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -388,8 +388,8 @@ func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -438,8 +438,8 @@ func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -579,7 +579,7 @@ func (j *jsiiProxy_BedrockagentcoreMemoryStrategy)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_BedrockagentcoreMemoryStrategy)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_BedrockagentcoreMemoryStrategy)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -587,7 +587,7 @@ func (j *jsiiProxy_BedrockagentcoreMemoryStrategy)SetForEach(val cdktf.ITerrafor
 	)
 }
 
-func (j *jsiiProxy_BedrockagentcoreMemoryStrategy)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_BedrockagentcoreMemoryStrategy)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -642,7 +642,7 @@ func (j *jsiiProxy_BedrockagentcoreMemoryStrategy)SetNamespaces(val *[]*string) 
 	)
 }
 
-func (j *jsiiProxy_BedrockagentcoreMemoryStrategy)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_BedrockagentcoreMemoryStrategy)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -683,14 +683,14 @@ func (j *jsiiProxy_BedrockagentcoreMemoryStrategy)SetType(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a BedrockagentcoreMemoryStrategy resource upon running "cdktf plan <stack-name>".
-func BedrockagentcoreMemoryStrategy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a BedrockagentcoreMemoryStrategy resource upon running "cdktn plan <stack-name>".
+func BedrockagentcoreMemoryStrategy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateBedrockagentcoreMemoryStrategy_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.bedrockagentcoreMemoryStrategy.BedrockagentcoreMemoryStrategy",
@@ -824,11 +824,11 @@ func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) GetAnyMapAttribute(terraformA
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -965,7 +965,7 @@ func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) HasResourceMove() interface{}
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := b.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -976,11 +976,11 @@ func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) ImportFrom(id *string, provid
 	)
 }
 
-func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,

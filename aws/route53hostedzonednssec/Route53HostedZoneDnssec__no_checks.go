@@ -111,7 +111,7 @@ func (j *jsiiProxy_Route53HostedZoneDnssec) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_Route53HostedZoneDnssec) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Route53HostedZoneDnssec) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (t *jsiiProxy_TimestreamqueryScheduledQueryTimeoutsOutputReference) validat
 	return nil
 }
 
-func (t *jsiiProxy_TimestreamqueryScheduledQueryTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TimestreamqueryScheduledQueryTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_TimestreamqueryScheduledQueryTimeoutsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_TimestreamqueryScheduledQueryTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TimestreamqueryScheduledQueryTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_TimestreamqueryScheduledQueryTimeoutsOutputReference) validat
 	return nil
 }
 
-func validateNewTimestreamqueryScheduledQueryTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTimestreamqueryScheduledQueryTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

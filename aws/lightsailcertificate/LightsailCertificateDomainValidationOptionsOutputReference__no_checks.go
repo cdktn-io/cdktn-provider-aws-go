@@ -47,7 +47,7 @@ func (l *jsiiProxy_LightsailCertificateDomainValidationOptionsOutputReference) v
 	return nil
 }
 
-func (l *jsiiProxy_LightsailCertificateDomainValidationOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LightsailCertificateDomainValidationOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_LightsailCertificateDomainValidationOptionsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_LightsailCertificateDomainValidationOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LightsailCertificateDomainValidationOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLightsailCertificateDomainValidationOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLightsailCertificateDomainValidationOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

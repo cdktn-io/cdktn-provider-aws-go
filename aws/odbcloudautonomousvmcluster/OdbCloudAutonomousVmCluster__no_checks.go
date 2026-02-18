@@ -143,7 +143,7 @@ func (j *jsiiProxy_OdbCloudAutonomousVmCluster) validateSetLicenseModelParameter
 	return nil
 }
 
-func (j *jsiiProxy_OdbCloudAutonomousVmCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_OdbCloudAutonomousVmCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

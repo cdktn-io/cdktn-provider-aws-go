@@ -47,7 +47,7 @@ func (l *jsiiProxy_LbListenerMutualAuthenticationOutputReference) validateInterp
 	return nil
 }
 
-func (l *jsiiProxy_LbListenerMutualAuthenticationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LbListenerMutualAuthenticationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LbListenerMutualAuthenticationOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_LbListenerMutualAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LbListenerMutualAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_LbListenerMutualAuthenticationOutputReference) validateSetTru
 	return nil
 }
 
-func validateNewLbListenerMutualAuthenticationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLbListenerMutualAuthenticationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

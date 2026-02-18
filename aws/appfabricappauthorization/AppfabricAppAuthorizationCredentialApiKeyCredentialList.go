@@ -5,14 +5,14 @@ package appfabricappauthorization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/appfabricappauthorization/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appfabricappauthorization/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppfabricAppAuthorizationCredentialApiKeyCredentialList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type AppfabricAppAuthorizationCredentialApiKeyCredentialList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type AppfabricAppAuthorizationCredentialApiKeyCredentialList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) AppfabricAppAuthorizationCredentialApiKeyCredentialOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type AppfabricAppAuthorizationCredentialApiKeyCredentialList interface {
 
 // The jsii proxy struct for AppfabricAppAuthorizationCredentialApiKeyCredentialList
 type jsiiProxy_AppfabricAppAuthorizationCredentialApiKeyCredentialList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_AppfabricAppAuthorizationCredentialApiKeyCredentialList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_AppfabricAppAuthorizationCredentialApiKeyCredentialList) Terr
 	return returns
 }
 
-func (j *jsiiProxy_AppfabricAppAuthorizationCredentialApiKeyCredentialList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppfabricAppAuthorizationCredentialApiKeyCredentialList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_AppfabricAppAuthorizationCredentialApiKeyCredentialList) Wrap
 }
 
 
-func NewAppfabricAppAuthorizationCredentialApiKeyCredentialList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AppfabricAppAuthorizationCredentialApiKeyCredentialList {
+func NewAppfabricAppAuthorizationCredentialApiKeyCredentialList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AppfabricAppAuthorizationCredentialApiKeyCredentialList {
 	_init_.Initialize()
 
 	if err := validateNewAppfabricAppAuthorizationCredentialApiKeyCredentialListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewAppfabricAppAuthorizationCredentialApiKeyCredentialList(terraformResourc
 	return &j
 }
 
-func NewAppfabricAppAuthorizationCredentialApiKeyCredentialList_Override(a AppfabricAppAuthorizationCredentialApiKeyCredentialList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewAppfabricAppAuthorizationCredentialApiKeyCredentialList_Override(a AppfabricAppAuthorizationCredentialApiKeyCredentialList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_AppfabricAppAuthorizationCredentialApiKeyCredentialList)SetTe
 	)
 }
 
-func (j *jsiiProxy_AppfabricAppAuthorizationCredentialApiKeyCredentialList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppfabricAppAuthorizationCredentialApiKeyCredentialList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_AppfabricAppAuthorizationCredentialApiKeyCredentialList)SetWr
 	)
 }
 
-func (a *jsiiProxy_AppfabricAppAuthorizationCredentialApiKeyCredentialList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (a *jsiiProxy_AppfabricAppAuthorizationCredentialApiKeyCredentialList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := a.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		a,
@@ -231,7 +231,7 @@ func (a *jsiiProxy_AppfabricAppAuthorizationCredentialApiKeyCredentialList) Get(
 	return returns
 }
 
-func (a *jsiiProxy_AppfabricAppAuthorizationCredentialApiKeyCredentialList) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppfabricAppAuthorizationCredentialApiKeyCredentialList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

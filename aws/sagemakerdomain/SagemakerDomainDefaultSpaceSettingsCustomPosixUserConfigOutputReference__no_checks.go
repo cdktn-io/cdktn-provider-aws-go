@@ -47,7 +47,7 @@ func (s *jsiiProxy_SagemakerDomainDefaultSpaceSettingsCustomPosixUserConfigOutpu
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerDomainDefaultSpaceSettingsCustomPosixUserConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerDomainDefaultSpaceSettingsCustomPosixUserConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_SagemakerDomainDefaultSpaceSettingsCustomPosixUserConfigOutpu
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerDomainDefaultSpaceSettingsCustomPosixUserConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerDomainDefaultSpaceSettingsCustomPosixUserConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SagemakerDomainDefaultSpaceSettingsCustomPosixUserConfigOutpu
 	return nil
 }
 
-func validateNewSagemakerDomainDefaultSpaceSettingsCustomPosixUserConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerDomainDefaultSpaceSettingsCustomPosixUserConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

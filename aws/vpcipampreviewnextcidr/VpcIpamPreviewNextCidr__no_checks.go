@@ -111,7 +111,7 @@ func (j *jsiiProxy_VpcIpamPreviewNextCidr) validateSetIpamPoolIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_VpcIpamPreviewNextCidr) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VpcIpamPreviewNextCidr) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (s *jsiiProxy_S3BucketAbacAbacStatusList) validateGetParameters(index *floa
 	return nil
 }
 
-func (s *jsiiProxy_S3BucketAbacAbacStatusList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3BucketAbacAbacStatusList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_S3BucketAbacAbacStatusList) validateSetTerraformAttributePara
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketAbacAbacStatusList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3BucketAbacAbacStatusList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_S3BucketAbacAbacStatusList) validateSetWrapsSetParameters(val
 	return nil
 }
 
-func validateNewS3BucketAbacAbacStatusListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewS3BucketAbacAbacStatusListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

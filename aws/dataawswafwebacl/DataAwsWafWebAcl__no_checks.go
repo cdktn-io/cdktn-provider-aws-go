@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsWafWebAcl) validateSetIdParameters(val *string) error 
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsWafWebAcl) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsWafWebAcl) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

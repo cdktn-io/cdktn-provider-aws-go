@@ -51,7 +51,7 @@ func (s *jsiiProxy_SsoadminApplicationPortalOptionsOutputReference) validatePutS
 	return nil
 }
 
-func (s *jsiiProxy_SsoadminApplicationPortalOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsoadminApplicationPortalOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_SsoadminApplicationPortalOptionsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_SsoadminApplicationPortalOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsoadminApplicationPortalOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SsoadminApplicationPortalOptionsOutputReference) validateSetV
 	return nil
 }
 
-func validateNewSsoadminApplicationPortalOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSsoadminApplicationPortalOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

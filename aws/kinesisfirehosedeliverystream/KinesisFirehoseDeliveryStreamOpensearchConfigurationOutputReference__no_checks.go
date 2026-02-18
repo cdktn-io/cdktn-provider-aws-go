@@ -67,7 +67,7 @@ func (k *jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationOutputRef
 	return nil
 }
 
-func (k *jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -123,7 +123,7 @@ func (j *jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -131,7 +131,7 @@ func (j *jsiiProxy_KinesisFirehoseDeliveryStreamOpensearchConfigurationOutputRef
 	return nil
 }
 
-func validateNewKinesisFirehoseDeliveryStreamOpensearchConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKinesisFirehoseDeliveryStreamOpensearchConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -8,7 +8,7 @@ package bedrockcustommodel
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (b *jsiiProxy_BedrockCustomModelValidationMetricsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (b *jsiiProxy_BedrockCustomModelValidationMetricsList) validateGetParameter
 	return nil
 }
 
-func (b *jsiiProxy_BedrockCustomModelValidationMetricsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockCustomModelValidationMetricsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_BedrockCustomModelValidationMetricsList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_BedrockCustomModelValidationMetricsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockCustomModelValidationMetricsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_BedrockCustomModelValidationMetricsList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewBedrockCustomModelValidationMetricsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockCustomModelValidationMetricsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

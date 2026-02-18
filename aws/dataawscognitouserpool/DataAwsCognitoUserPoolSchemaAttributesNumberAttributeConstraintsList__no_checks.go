@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsCognitoUserPoolSchemaAttributesNumberAttributeConstrai
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCognitoUserPoolSchemaAttributesNumberAttributeConstraintsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCognitoUserPoolSchemaAttributesNumberAttributeConstraintsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolSchemaAttributesNumberAttributeConstrai
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolSchemaAttributesNumberAttributeConstraintsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCognitoUserPoolSchemaAttributesNumberAttributeConstraintsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolSchemaAttributesNumberAttributeConstrai
 	return nil
 }
 
-func validateNewDataAwsCognitoUserPoolSchemaAttributesNumberAttributeConstraintsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsCognitoUserPoolSchemaAttributesNumberAttributeConstraintsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

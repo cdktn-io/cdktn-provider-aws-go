@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (e *jsiiProxy_Ec2TransitGatewayDefaultRouteTablePropagationTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (e *jsiiProxy_Ec2TransitGatewayDefaultRouteTablePropagationTimeoutsOutputRe
 	return nil
 }
 
-func (e *jsiiProxy_Ec2TransitGatewayDefaultRouteTablePropagationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_Ec2TransitGatewayDefaultRouteTablePropagationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_Ec2TransitGatewayDefaultRouteTablePropagationTimeoutsOutputRe
 
 func (j *jsiiProxy_Ec2TransitGatewayDefaultRouteTablePropagationTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *Ec2TransitGatewayDefaultRouteTablePropagationTimeouts:
 		val := val.(*Ec2TransitGatewayDefaultRouteTablePropagationTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_Ec2TransitGatewayDefaultRouteTablePropagationTimeoutsOutputRe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *Ec2TransitGatewayDefaultRouteTablePropagationTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *Ec2TransitGatewayDefaultRouteTablePropagationTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_Ec2TransitGatewayDefaultRouteTablePropagationTimeoutsOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_Ec2TransitGatewayDefaultRouteTablePropagationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Ec2TransitGatewayDefaultRouteTablePropagationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_Ec2TransitGatewayDefaultRouteTablePropagationTimeoutsOutputRe
 	return nil
 }
 
-func validateNewEc2TransitGatewayDefaultRouteTablePropagationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEc2TransitGatewayDefaultRouteTablePropagationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -147,7 +147,7 @@ func (j *jsiiProxy_DatasyncLocationHdfs) validateSetKmsKeyProviderUriParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DatasyncLocationHdfs) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DatasyncLocationHdfs) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

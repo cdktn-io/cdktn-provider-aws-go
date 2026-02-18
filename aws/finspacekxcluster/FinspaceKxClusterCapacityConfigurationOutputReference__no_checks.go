@@ -47,7 +47,7 @@ func (f *jsiiProxy_FinspaceKxClusterCapacityConfigurationOutputReference) valida
 	return nil
 }
 
-func (f *jsiiProxy_FinspaceKxClusterCapacityConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FinspaceKxClusterCapacityConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_FinspaceKxClusterCapacityConfigurationOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_FinspaceKxClusterCapacityConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FinspaceKxClusterCapacityConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFinspaceKxClusterCapacityConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFinspaceKxClusterCapacityConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

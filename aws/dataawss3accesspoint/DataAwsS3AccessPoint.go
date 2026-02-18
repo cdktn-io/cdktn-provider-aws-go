@@ -5,16 +5,16 @@ package dataawss3accesspoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawss3accesspoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawss3accesspoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/s3_access_point aws_s3_access_point}.
 type DataAwsS3AccessPoint interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AccountId() *string
 	SetAccountId(val *string)
 	AccountIdInput() *string
@@ -23,7 +23,7 @@ type DataAwsS3AccessPoint interface {
 	Bucket() *string
 	BucketAccountId() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -36,19 +36,19 @@ type DataAwsS3AccessPoint interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	Endpoints() cdktf.StringMap
+	Endpoints() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -56,18 +56,18 @@ type DataAwsS3AccessPoint interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	PublicAccessBlockConfiguration() DataAwsS3AccessPointPublicAccessBlockConfigurationList
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -78,7 +78,7 @@ type DataAwsS3AccessPoint interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -94,7 +94,7 @@ type DataAwsS3AccessPoint interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -119,7 +119,7 @@ type DataAwsS3AccessPoint interface {
 
 // The jsii proxy struct for DataAwsS3AccessPoint
 type jsiiProxy_DataAwsS3AccessPoint struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsS3AccessPoint) AccountId() *string {
@@ -182,8 +182,8 @@ func (j *jsiiProxy_DataAwsS3AccessPoint) BucketAccountId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3AccessPoint) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsS3AccessPoint) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -242,8 +242,8 @@ func (j *jsiiProxy_DataAwsS3AccessPoint) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3AccessPoint) Endpoints() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAwsS3AccessPoint) Endpoints() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"endpoints",
@@ -252,8 +252,8 @@ func (j *jsiiProxy_DataAwsS3AccessPoint) Endpoints() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3AccessPoint) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsS3AccessPoint) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -282,8 +282,8 @@ func (j *jsiiProxy_DataAwsS3AccessPoint) FriendlyUniqueId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3AccessPoint) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsS3AccessPoint) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -332,8 +332,8 @@ func (j *jsiiProxy_DataAwsS3AccessPoint) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3AccessPoint) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsS3AccessPoint) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -382,8 +382,8 @@ func (j *jsiiProxy_DataAwsS3AccessPoint) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3AccessPoint) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAwsS3AccessPoint) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -392,8 +392,8 @@ func (j *jsiiProxy_DataAwsS3AccessPoint) Tags() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3AccessPoint) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsS3AccessPoint) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -492,7 +492,7 @@ func (j *jsiiProxy_DataAwsS3AccessPoint)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsS3AccessPoint)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsS3AccessPoint)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -500,7 +500,7 @@ func (j *jsiiProxy_DataAwsS3AccessPoint)SetForEach(val cdktf.ITerraformIterator)
 	)
 }
 
-func (j *jsiiProxy_DataAwsS3AccessPoint)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsS3AccessPoint)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -522,7 +522,7 @@ func (j *jsiiProxy_DataAwsS3AccessPoint)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsS3AccessPoint)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsS3AccessPoint)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -541,14 +541,14 @@ func (j *jsiiProxy_DataAwsS3AccessPoint)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsS3AccessPoint resource upon running "cdktf plan <stack-name>".
-func DataAwsS3AccessPoint_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsS3AccessPoint resource upon running "cdktn plan <stack-name>".
+func DataAwsS3AccessPoint_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsS3AccessPoint_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsS3AccessPoint.DataAwsS3AccessPoint",
@@ -671,11 +671,11 @@ func (d *jsiiProxy_DataAwsS3AccessPoint) GetAnyMapAttribute(terraformAttribute *
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsS3AccessPoint) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsS3AccessPoint) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -799,11 +799,11 @@ func (d *jsiiProxy_DataAwsS3AccessPoint) GetStringMapAttribute(terraformAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsS3AccessPoint) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsS3AccessPoint) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

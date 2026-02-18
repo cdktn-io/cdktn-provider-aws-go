@@ -15,7 +15,7 @@ func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationList) validateG
 	return nil
 }
 
-func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationList) validateS
 	return nil
 }
 
-func validateNewVerifiedpermissionsIdentitySourceConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVerifiedpermissionsIdentitySourceConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

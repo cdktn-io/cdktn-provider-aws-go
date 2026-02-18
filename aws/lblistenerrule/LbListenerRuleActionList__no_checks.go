@@ -15,7 +15,7 @@ func (l *jsiiProxy_LbListenerRuleActionList) validateGetParameters(index *float6
 	return nil
 }
 
-func (l *jsiiProxy_LbListenerRuleActionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LbListenerRuleActionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LbListenerRuleActionList) validateSetTerraformAttributeParame
 	return nil
 }
 
-func (j *jsiiProxy_LbListenerRuleActionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LbListenerRuleActionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LbListenerRuleActionList) validateSetWrapsSetParameters(val *
 	return nil
 }
 
-func validateNewLbListenerRuleActionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLbListenerRuleActionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

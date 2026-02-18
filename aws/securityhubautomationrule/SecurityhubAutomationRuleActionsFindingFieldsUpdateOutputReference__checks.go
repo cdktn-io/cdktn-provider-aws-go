@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_SecurityhubAutomationRuleActionsFindingFieldsUpdateOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (s *jsiiProxy_SecurityhubAutomationRuleActionsFindingFieldsUpdateOutputRefe
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*SecurityhubAutomationRuleActionsFindingFieldsUpdateNote:
 		value := value.(*[]*SecurityhubAutomationRuleActionsFindingFieldsUpdateNote)
@@ -117,7 +117,7 @@ func (s *jsiiProxy_SecurityhubAutomationRuleActionsFindingFieldsUpdateOutputRefe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*SecurityhubAutomationRuleActionsFindingFieldsUpdateNote; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SecurityhubAutomationRuleActionsFindingFieldsUpdateNote; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (s *jsiiProxy_SecurityhubAutomationRuleActionsFindingFieldsUpdateOutputRefe
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*SecurityhubAutomationRuleActionsFindingFieldsUpdateRelatedFindings:
 		value := value.(*[]*SecurityhubAutomationRuleActionsFindingFieldsUpdateRelatedFindings)
@@ -148,7 +148,7 @@ func (s *jsiiProxy_SecurityhubAutomationRuleActionsFindingFieldsUpdateOutputRefe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*SecurityhubAutomationRuleActionsFindingFieldsUpdateRelatedFindings; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SecurityhubAutomationRuleActionsFindingFieldsUpdateRelatedFindings; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (s *jsiiProxy_SecurityhubAutomationRuleActionsFindingFieldsUpdateOutputRefe
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*SecurityhubAutomationRuleActionsFindingFieldsUpdateSeverity:
 		value := value.(*[]*SecurityhubAutomationRuleActionsFindingFieldsUpdateSeverity)
@@ -179,7 +179,7 @@ func (s *jsiiProxy_SecurityhubAutomationRuleActionsFindingFieldsUpdateOutputRefe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*SecurityhubAutomationRuleActionsFindingFieldsUpdateSeverity; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SecurityhubAutomationRuleActionsFindingFieldsUpdateSeverity; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -191,7 +191,7 @@ func (s *jsiiProxy_SecurityhubAutomationRuleActionsFindingFieldsUpdateOutputRefe
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*SecurityhubAutomationRuleActionsFindingFieldsUpdateWorkflow:
 		value := value.(*[]*SecurityhubAutomationRuleActionsFindingFieldsUpdateWorkflow)
@@ -210,14 +210,14 @@ func (s *jsiiProxy_SecurityhubAutomationRuleActionsFindingFieldsUpdateOutputRefe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*SecurityhubAutomationRuleActionsFindingFieldsUpdateWorkflow; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SecurityhubAutomationRuleActionsFindingFieldsUpdateWorkflow; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (s *jsiiProxy_SecurityhubAutomationRuleActionsFindingFieldsUpdateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecurityhubAutomationRuleActionsFindingFieldsUpdateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -308,7 +308,7 @@ func (j *jsiiProxy_SecurityhubAutomationRuleActionsFindingFieldsUpdateOutputRefe
 
 func (j *jsiiProxy_SecurityhubAutomationRuleActionsFindingFieldsUpdateOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *SecurityhubAutomationRuleActionsFindingFieldsUpdate:
 		val := val.(*SecurityhubAutomationRuleActionsFindingFieldsUpdate)
@@ -323,7 +323,7 @@ func (j *jsiiProxy_SecurityhubAutomationRuleActionsFindingFieldsUpdateOutputRefe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *SecurityhubAutomationRuleActionsFindingFieldsUpdate; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *SecurityhubAutomationRuleActionsFindingFieldsUpdate; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -338,7 +338,7 @@ func (j *jsiiProxy_SecurityhubAutomationRuleActionsFindingFieldsUpdateOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_SecurityhubAutomationRuleActionsFindingFieldsUpdateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecurityhubAutomationRuleActionsFindingFieldsUpdateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -370,7 +370,7 @@ func (j *jsiiProxy_SecurityhubAutomationRuleActionsFindingFieldsUpdateOutputRefe
 	return nil
 }
 
-func validateNewSecurityhubAutomationRuleActionsFindingFieldsUpdateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSecurityhubAutomationRuleActionsFindingFieldsUpdateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

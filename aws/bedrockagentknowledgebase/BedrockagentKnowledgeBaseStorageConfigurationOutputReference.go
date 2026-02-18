@@ -5,14 +5,14 @@ package bedrockagentknowledgebase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/bedrockagentknowledgebase/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/bedrockagentknowledgebase/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BedrockagentKnowledgeBaseStorageConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -53,9 +53,9 @@ type BedrockagentKnowledgeBaseStorageConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -64,7 +64,7 @@ type BedrockagentKnowledgeBaseStorageConfigurationOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -80,9 +80,9 @@ type BedrockagentKnowledgeBaseStorageConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutMongoDbAtlasConfiguration(value interface{})
 	PutNeptuneAnalyticsConfiguration(value interface{})
 	PutOpensearchManagedClusterConfiguration(value interface{})
@@ -101,7 +101,7 @@ type BedrockagentKnowledgeBaseStorageConfigurationOutputReference interface {
 	ResetS3VectorsConfiguration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -111,7 +111,7 @@ type BedrockagentKnowledgeBaseStorageConfigurationOutputReference interface {
 
 // The jsii proxy struct for BedrockagentKnowledgeBaseStorageConfigurationOutputReference
 type jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -334,8 +334,8 @@ func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference)
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -365,7 +365,7 @@ func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference)
 }
 
 
-func NewBedrockagentKnowledgeBaseStorageConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BedrockagentKnowledgeBaseStorageConfigurationOutputReference {
+func NewBedrockagentKnowledgeBaseStorageConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BedrockagentKnowledgeBaseStorageConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBedrockagentKnowledgeBaseStorageConfigurationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -382,7 +382,7 @@ func NewBedrockagentKnowledgeBaseStorageConfigurationOutputReference(terraformRe
 	return &j
 }
 
-func NewBedrockagentKnowledgeBaseStorageConfigurationOutputReference_Override(b BedrockagentKnowledgeBaseStorageConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewBedrockagentKnowledgeBaseStorageConfigurationOutputReference_Override(b BedrockagentKnowledgeBaseStorageConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -436,7 +436,7 @@ func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference)
 	)
 }
 
-func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -487,11 +487,11 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference)
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -615,8 +615,8 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference)
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -628,11 +628,11 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference)
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -796,7 +796,7 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference)
 	)
 }
 
-func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

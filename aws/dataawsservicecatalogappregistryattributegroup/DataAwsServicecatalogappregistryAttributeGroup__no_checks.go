@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsServicecatalogappregistryAttributeGroup) validateSetId
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsServicecatalogappregistryAttributeGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsServicecatalogappregistryAttributeGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

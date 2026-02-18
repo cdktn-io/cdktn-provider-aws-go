@@ -127,7 +127,7 @@ func (j *jsiiProxy_EbsSnapshotImport) validateSetKmsKeyIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_EbsSnapshotImport) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EbsSnapshotImport) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

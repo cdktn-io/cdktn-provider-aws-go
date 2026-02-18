@@ -107,7 +107,7 @@ func (j *jsiiProxy_DataAwsRdsEngineVersion) validateSetLatestParameters(val inte
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRdsEngineVersion) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsRdsEngineVersion) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

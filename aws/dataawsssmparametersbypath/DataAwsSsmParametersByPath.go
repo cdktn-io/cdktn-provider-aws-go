@@ -5,19 +5,19 @@ package dataawsssmparametersbypath
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsssmparametersbypath/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsssmparametersbypath/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/ssm_parameters_by_path aws_ssm_parameters_by_path}.
 type DataAwsSsmParametersByPath interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	Arns() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -29,9 +29,9 @@ type DataAwsSsmParametersByPath interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -40,9 +40,9 @@ type DataAwsSsmParametersByPath interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Names() *[]*string
 	// The tree node.
 	Node() constructs.Node
@@ -50,9 +50,9 @@ type DataAwsSsmParametersByPath interface {
 	SetPath(val *string)
 	PathInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Recursive() interface{}
@@ -62,7 +62,7 @@ type DataAwsSsmParametersByPath interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -77,7 +77,7 @@ type DataAwsSsmParametersByPath interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -93,7 +93,7 @@ type DataAwsSsmParametersByPath interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -120,7 +120,7 @@ type DataAwsSsmParametersByPath interface {
 
 // The jsii proxy struct for DataAwsSsmParametersByPath
 type jsiiProxy_DataAwsSsmParametersByPath struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsSsmParametersByPath) Arns() *[]*string {
@@ -133,8 +133,8 @@ func (j *jsiiProxy_DataAwsSsmParametersByPath) Arns() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSsmParametersByPath) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsSsmParametersByPath) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -173,8 +173,8 @@ func (j *jsiiProxy_DataAwsSsmParametersByPath) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSsmParametersByPath) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsSsmParametersByPath) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -223,8 +223,8 @@ func (j *jsiiProxy_DataAwsSsmParametersByPath) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSsmParametersByPath) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsSsmParametersByPath) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -273,8 +273,8 @@ func (j *jsiiProxy_DataAwsSsmParametersByPath) PathInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSsmParametersByPath) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsSsmParametersByPath) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -333,8 +333,8 @@ func (j *jsiiProxy_DataAwsSsmParametersByPath) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSsmParametersByPath) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsSsmParametersByPath) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -452,7 +452,7 @@ func (j *jsiiProxy_DataAwsSsmParametersByPath)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsSsmParametersByPath)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsSsmParametersByPath)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -471,7 +471,7 @@ func (j *jsiiProxy_DataAwsSsmParametersByPath)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsSsmParametersByPath)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsSsmParametersByPath)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -493,7 +493,7 @@ func (j *jsiiProxy_DataAwsSsmParametersByPath)SetPath(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsSsmParametersByPath)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsSsmParametersByPath)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -534,14 +534,14 @@ func (j *jsiiProxy_DataAwsSsmParametersByPath)SetWithDecryption(val interface{})
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsSsmParametersByPath resource upon running "cdktf plan <stack-name>".
-func DataAwsSsmParametersByPath_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsSsmParametersByPath resource upon running "cdktn plan <stack-name>".
+func DataAwsSsmParametersByPath_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsSsmParametersByPath_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsSsmParametersByPath.DataAwsSsmParametersByPath",
@@ -664,11 +664,11 @@ func (d *jsiiProxy_DataAwsSsmParametersByPath) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsSsmParametersByPath) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsSsmParametersByPath) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -792,11 +792,11 @@ func (d *jsiiProxy_DataAwsSsmParametersByPath) GetStringMapAttribute(terraformAt
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsSsmParametersByPath) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsSsmParametersByPath) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

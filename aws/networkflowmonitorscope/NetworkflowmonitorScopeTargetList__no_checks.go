@@ -15,7 +15,7 @@ func (n *jsiiProxy_NetworkflowmonitorScopeTargetList) validateGetParameters(inde
 	return nil
 }
 
-func (n *jsiiProxy_NetworkflowmonitorScopeTargetList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkflowmonitorScopeTargetList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_NetworkflowmonitorScopeTargetList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_NetworkflowmonitorScopeTargetList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkflowmonitorScopeTargetList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_NetworkflowmonitorScopeTargetList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewNetworkflowmonitorScopeTargetListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkflowmonitorScopeTargetListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

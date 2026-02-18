@@ -47,7 +47,7 @@ func (s *jsiiProxy_SagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyC
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyConstraintsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyConstraintsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_SagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyC
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyConstraintsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyConstraintsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyC
 	return nil
 }
 
-func validateNewSagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyConstraintsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyConstraintsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

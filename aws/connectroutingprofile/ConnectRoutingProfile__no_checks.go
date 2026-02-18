@@ -123,7 +123,7 @@ func (j *jsiiProxy_ConnectRoutingProfile) validateSetInstanceIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_ConnectRoutingProfile) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ConnectRoutingProfile) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_CustomerprofilesDomainRuleBasedMatchingConflictResolutionOutp
 	return nil
 }
 
-func (c *jsiiProxy_CustomerprofilesDomainRuleBasedMatchingConflictResolutionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CustomerprofilesDomainRuleBasedMatchingConflictResolutionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CustomerprofilesDomainRuleBasedMatchingConflictResolutionOutp
 	return nil
 }
 
-func (j *jsiiProxy_CustomerprofilesDomainRuleBasedMatchingConflictResolutionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CustomerprofilesDomainRuleBasedMatchingConflictResolutionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCustomerprofilesDomainRuleBasedMatchingConflictResolutionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCustomerprofilesDomainRuleBasedMatchingConflictResolutionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

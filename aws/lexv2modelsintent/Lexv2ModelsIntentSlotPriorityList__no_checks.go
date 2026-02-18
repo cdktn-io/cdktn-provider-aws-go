@@ -15,7 +15,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentSlotPriorityList) validateGetParameters(inde
 	return nil
 }
 
-func (l *jsiiProxy_Lexv2ModelsIntentSlotPriorityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_Lexv2ModelsIntentSlotPriorityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Lexv2ModelsIntentSlotPriorityList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_Lexv2ModelsIntentSlotPriorityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Lexv2ModelsIntentSlotPriorityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Lexv2ModelsIntentSlotPriorityList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewLexv2ModelsIntentSlotPriorityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLexv2ModelsIntentSlotPriorityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

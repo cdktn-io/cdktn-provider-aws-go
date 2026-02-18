@@ -55,7 +55,7 @@ func (s *jsiiProxy_SagemakerAppImageConfigCodeEditorAppImageConfigOutputReferenc
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerAppImageConfigCodeEditorAppImageConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerAppImageConfigCodeEditorAppImageConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SagemakerAppImageConfigCodeEditorAppImageConfigOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerAppImageConfigCodeEditorAppImageConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerAppImageConfigCodeEditorAppImageConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerAppImageConfigCodeEditorAppImageConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerAppImageConfigCodeEditorAppImageConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

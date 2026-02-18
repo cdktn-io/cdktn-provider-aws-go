@@ -5,14 +5,14 @@ package codepipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/codepipeline/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/codepipeline/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CodepipelineTriggerGitConfigurationPushOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Branches() CodepipelineTriggerGitConfigurationPushBranchesOutputReference
 	BranchesInput() *CodepipelineTriggerGitConfigurationPushBranches
 	// the index of the complex object in a list.
@@ -43,15 +43,15 @@ type CodepipelineTriggerGitConfigurationPushOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,9 +67,9 @@ type CodepipelineTriggerGitConfigurationPushOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutBranches(value *CodepipelineTriggerGitConfigurationPushBranches)
 	PutFilePaths(value *CodepipelineTriggerGitConfigurationPushFilePaths)
 	PutTags(value *CodepipelineTriggerGitConfigurationPushTags)
@@ -78,7 +78,7 @@ type CodepipelineTriggerGitConfigurationPushOutputReference interface {
 	ResetTags()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type CodepipelineTriggerGitConfigurationPushOutputReference interface {
 
 // The jsii proxy struct for CodepipelineTriggerGitConfigurationPushOutputReference
 type jsiiProxy_CodepipelineTriggerGitConfigurationPushOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CodepipelineTriggerGitConfigurationPushOutputReference) Branches() CodepipelineTriggerGitConfigurationPushBranchesOutputReference {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_CodepipelineTriggerGitConfigurationPushOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_CodepipelineTriggerGitConfigurationPushOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CodepipelineTriggerGitConfigurationPushOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_CodepipelineTriggerGitConfigurationPushOutputReference) Terra
 }
 
 
-func NewCodepipelineTriggerGitConfigurationPushOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CodepipelineTriggerGitConfigurationPushOutputReference {
+func NewCodepipelineTriggerGitConfigurationPushOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CodepipelineTriggerGitConfigurationPushOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCodepipelineTriggerGitConfigurationPushOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -239,7 +239,7 @@ func NewCodepipelineTriggerGitConfigurationPushOutputReference(terraformResource
 	return &j
 }
 
-func NewCodepipelineTriggerGitConfigurationPushOutputReference_Override(c CodepipelineTriggerGitConfigurationPushOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewCodepipelineTriggerGitConfigurationPushOutputReference_Override(c CodepipelineTriggerGitConfigurationPushOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -293,7 +293,7 @@ func (j *jsiiProxy_CodepipelineTriggerGitConfigurationPushOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_CodepipelineTriggerGitConfigurationPushOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CodepipelineTriggerGitConfigurationPushOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -333,11 +333,11 @@ func (c *jsiiProxy_CodepipelineTriggerGitConfigurationPushOutputReference) GetAn
 	return returns
 }
 
-func (c *jsiiProxy_CodepipelineTriggerGitConfigurationPushOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CodepipelineTriggerGitConfigurationPushOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -461,8 +461,8 @@ func (c *jsiiProxy_CodepipelineTriggerGitConfigurationPushOutputReference) GetSt
 	return returns
 }
 
-func (c *jsiiProxy_CodepipelineTriggerGitConfigurationPushOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CodepipelineTriggerGitConfigurationPushOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -474,11 +474,11 @@ func (c *jsiiProxy_CodepipelineTriggerGitConfigurationPushOutputReference) Inter
 	return returns
 }
 
-func (c *jsiiProxy_CodepipelineTriggerGitConfigurationPushOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CodepipelineTriggerGitConfigurationPushOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -547,7 +547,7 @@ func (c *jsiiProxy_CodepipelineTriggerGitConfigurationPushOutputReference) Reset
 	)
 }
 
-func (c *jsiiProxy_CodepipelineTriggerGitConfigurationPushOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CodepipelineTriggerGitConfigurationPushOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

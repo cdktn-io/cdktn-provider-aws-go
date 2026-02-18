@@ -5,14 +5,14 @@ package emrcontainersvirtualcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/emrcontainersvirtualcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/emrcontainersvirtualcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EmrcontainersVirtualClusterContainerProviderInfoOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type EmrcontainersVirtualClusterContainerProviderInfoOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,13 +63,13 @@ type EmrcontainersVirtualClusterContainerProviderInfoOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutEksInfo(value *EmrcontainersVirtualClusterContainerProviderInfoEksInfo)
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type EmrcontainersVirtualClusterContainerProviderInfoOutputReference interface {
 
 // The jsii proxy struct for EmrcontainersVirtualClusterContainerProviderInfoOutputReference
 type jsiiProxy_EmrcontainersVirtualClusterContainerProviderInfoOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EmrcontainersVirtualClusterContainerProviderInfoOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_EmrcontainersVirtualClusterContainerProviderInfoOutputReferen
 	return returns
 }
 
-func (j *jsiiProxy_EmrcontainersVirtualClusterContainerProviderInfoOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EmrcontainersVirtualClusterContainerProviderInfoOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_EmrcontainersVirtualClusterContainerProviderInfoOutputReferen
 }
 
 
-func NewEmrcontainersVirtualClusterContainerProviderInfoOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) EmrcontainersVirtualClusterContainerProviderInfoOutputReference {
+func NewEmrcontainersVirtualClusterContainerProviderInfoOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) EmrcontainersVirtualClusterContainerProviderInfoOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEmrcontainersVirtualClusterContainerProviderInfoOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewEmrcontainersVirtualClusterContainerProviderInfoOutputReference(terrafor
 	return &j
 }
 
-func NewEmrcontainersVirtualClusterContainerProviderInfoOutputReference_Override(e EmrcontainersVirtualClusterContainerProviderInfoOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEmrcontainersVirtualClusterContainerProviderInfoOutputReference_Override(e EmrcontainersVirtualClusterContainerProviderInfoOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -244,7 +244,7 @@ func (j *jsiiProxy_EmrcontainersVirtualClusterContainerProviderInfoOutputReferen
 	)
 }
 
-func (j *jsiiProxy_EmrcontainersVirtualClusterContainerProviderInfoOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EmrcontainersVirtualClusterContainerProviderInfoOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -284,11 +284,11 @@ func (e *jsiiProxy_EmrcontainersVirtualClusterContainerProviderInfoOutputReferen
 	return returns
 }
 
-func (e *jsiiProxy_EmrcontainersVirtualClusterContainerProviderInfoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EmrcontainersVirtualClusterContainerProviderInfoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -412,8 +412,8 @@ func (e *jsiiProxy_EmrcontainersVirtualClusterContainerProviderInfoOutputReferen
 	return returns
 }
 
-func (e *jsiiProxy_EmrcontainersVirtualClusterContainerProviderInfoOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EmrcontainersVirtualClusterContainerProviderInfoOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -425,11 +425,11 @@ func (e *jsiiProxy_EmrcontainersVirtualClusterContainerProviderInfoOutputReferen
 	return returns
 }
 
-func (e *jsiiProxy_EmrcontainersVirtualClusterContainerProviderInfoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EmrcontainersVirtualClusterContainerProviderInfoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -452,7 +452,7 @@ func (e *jsiiProxy_EmrcontainersVirtualClusterContainerProviderInfoOutputReferen
 	)
 }
 
-func (e *jsiiProxy_EmrcontainersVirtualClusterContainerProviderInfoOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EmrcontainersVirtualClusterContainerProviderInfoOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

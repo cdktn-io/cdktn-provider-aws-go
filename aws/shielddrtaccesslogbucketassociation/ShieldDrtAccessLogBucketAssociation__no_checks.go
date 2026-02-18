@@ -103,7 +103,7 @@ func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation) validateSetCountParamete
 	return nil
 }
 
-func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

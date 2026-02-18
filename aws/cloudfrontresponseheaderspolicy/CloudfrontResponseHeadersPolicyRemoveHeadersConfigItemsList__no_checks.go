@@ -15,7 +15,7 @@ func (c *jsiiProxy_CloudfrontResponseHeadersPolicyRemoveHeadersConfigItemsList) 
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontResponseHeadersPolicyRemoveHeadersConfigItemsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontResponseHeadersPolicyRemoveHeadersConfigItemsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CloudfrontResponseHeadersPolicyRemoveHeadersConfigItemsList) 
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontResponseHeadersPolicyRemoveHeadersConfigItemsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontResponseHeadersPolicyRemoveHeadersConfigItemsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CloudfrontResponseHeadersPolicyRemoveHeadersConfigItemsList) 
 	return nil
 }
 
-func validateNewCloudfrontResponseHeadersPolicyRemoveHeadersConfigItemsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudfrontResponseHeadersPolicyRemoveHeadersConfigItemsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

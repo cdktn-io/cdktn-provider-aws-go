@@ -15,7 +15,7 @@ func (r *jsiiProxy_RedshiftserverlessEndpointAccessVpcEndpointList) validateGetP
 	return nil
 }
 
-func (r *jsiiProxy_RedshiftserverlessEndpointAccessVpcEndpointList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedshiftserverlessEndpointAccessVpcEndpointList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_RedshiftserverlessEndpointAccessVpcEndpointList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftserverlessEndpointAccessVpcEndpointList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedshiftserverlessEndpointAccessVpcEndpointList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_RedshiftserverlessEndpointAccessVpcEndpointList) validateSetW
 	return nil
 }
 
-func validateNewRedshiftserverlessEndpointAccessVpcEndpointListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRedshiftserverlessEndpointAccessVpcEndpointListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

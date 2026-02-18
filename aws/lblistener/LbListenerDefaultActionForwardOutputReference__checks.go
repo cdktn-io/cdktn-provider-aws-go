@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (l *jsiiProxy_LbListenerDefaultActionForwardOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -109,7 +109,7 @@ func (l *jsiiProxy_LbListenerDefaultActionForwardOutputReference) validatePutTar
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*LbListenerDefaultActionForwardTargetGroup:
 		value := value.(*[]*LbListenerDefaultActionForwardTargetGroup)
@@ -128,14 +128,14 @@ func (l *jsiiProxy_LbListenerDefaultActionForwardOutputReference) validatePutTar
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*LbListenerDefaultActionForwardTargetGroup; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*LbListenerDefaultActionForwardTargetGroup; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (l *jsiiProxy_LbListenerDefaultActionForwardOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LbListenerDefaultActionForwardOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -224,7 +224,7 @@ func (j *jsiiProxy_LbListenerDefaultActionForwardOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_LbListenerDefaultActionForwardOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LbListenerDefaultActionForwardOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -232,7 +232,7 @@ func (j *jsiiProxy_LbListenerDefaultActionForwardOutputReference) validateSetTer
 	return nil
 }
 
-func validateNewLbListenerDefaultActionForwardOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLbListenerDefaultActionForwardOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

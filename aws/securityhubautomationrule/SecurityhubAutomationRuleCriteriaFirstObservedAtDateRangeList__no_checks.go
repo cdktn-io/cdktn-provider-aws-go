@@ -15,7 +15,7 @@ func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaFirstObservedAtDateRangeList
 	return nil
 }
 
-func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaFirstObservedAtDateRangeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaFirstObservedAtDateRangeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaFirstObservedAtDateRangeList
 	return nil
 }
 
-func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaFirstObservedAtDateRangeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaFirstObservedAtDateRangeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaFirstObservedAtDateRangeList
 	return nil
 }
 
-func validateNewSecurityhubAutomationRuleCriteriaFirstObservedAtDateRangeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSecurityhubAutomationRuleCriteriaFirstObservedAtDateRangeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

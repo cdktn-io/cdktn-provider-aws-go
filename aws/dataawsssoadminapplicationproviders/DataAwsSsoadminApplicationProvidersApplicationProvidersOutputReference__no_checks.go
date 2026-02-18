@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsSsoadminApplicationProvidersApplicationProvidersOutput
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsSsoadminApplicationProvidersApplicationProvidersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsSsoadminApplicationProvidersApplicationProvidersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsSsoadminApplicationProvidersApplicationProvidersOutput
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSsoadminApplicationProvidersApplicationProvidersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsSsoadminApplicationProvidersApplicationProvidersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsSsoadminApplicationProvidersApplicationProvidersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsSsoadminApplicationProvidersApplicationProvidersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

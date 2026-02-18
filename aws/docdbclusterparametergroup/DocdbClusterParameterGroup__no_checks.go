@@ -115,7 +115,7 @@ func (j *jsiiProxy_DocdbClusterParameterGroup) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_DocdbClusterParameterGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DocdbClusterParameterGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

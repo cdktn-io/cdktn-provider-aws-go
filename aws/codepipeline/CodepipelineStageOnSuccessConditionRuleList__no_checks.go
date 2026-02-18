@@ -15,7 +15,7 @@ func (c *jsiiProxy_CodepipelineStageOnSuccessConditionRuleList) validateGetParam
 	return nil
 }
 
-func (c *jsiiProxy_CodepipelineStageOnSuccessConditionRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodepipelineStageOnSuccessConditionRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CodepipelineStageOnSuccessConditionRuleList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_CodepipelineStageOnSuccessConditionRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodepipelineStageOnSuccessConditionRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CodepipelineStageOnSuccessConditionRuleList) validateSetWraps
 	return nil
 }
 
-func validateNewCodepipelineStageOnSuccessConditionRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCodepipelineStageOnSuccessConditionRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

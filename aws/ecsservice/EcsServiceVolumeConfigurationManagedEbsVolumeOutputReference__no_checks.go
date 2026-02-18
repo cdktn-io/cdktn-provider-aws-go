@@ -51,7 +51,7 @@ func (e *jsiiProxy_EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference)
 	return nil
 }
 
-func (e *jsiiProxy_EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -115,7 +115,7 @@ func (j *jsiiProxy_EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference)
 	return nil
 }
 
-func validateNewEcsServiceVolumeConfigurationManagedEbsVolumeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEcsServiceVolumeConfigurationManagedEbsVolumeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

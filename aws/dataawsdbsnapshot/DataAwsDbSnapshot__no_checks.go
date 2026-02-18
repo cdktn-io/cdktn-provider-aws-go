@@ -95,7 +95,7 @@ func (j *jsiiProxy_DataAwsDbSnapshot) validateSetIncludeSharedParameters(val int
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDbSnapshot) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsDbSnapshot) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

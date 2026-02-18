@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersAnyOfOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersAnyOfOutputRefere
 	return nil
 }
 
-func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersAnyOfOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersAnyOfOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -176,7 +176,7 @@ func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersAnyOfOutputRefere
 
 func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersAnyOfOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *Apigatewayv2RoutingRuleConditionMatchHeadersAnyOf:
 		val := val.(*Apigatewayv2RoutingRuleConditionMatchHeadersAnyOf)
@@ -191,7 +191,7 @@ func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersAnyOfOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *Apigatewayv2RoutingRuleConditionMatchHeadersAnyOf; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *Apigatewayv2RoutingRuleConditionMatchHeadersAnyOf; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -206,7 +206,7 @@ func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersAnyOfOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersAnyOfOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersAnyOfOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -222,7 +222,7 @@ func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersAnyOfOutputRefere
 	return nil
 }
 
-func validateNewApigatewayv2RoutingRuleConditionMatchHeadersAnyOfOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApigatewayv2RoutingRuleConditionMatchHeadersAnyOfOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

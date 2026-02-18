@@ -15,7 +15,7 @@ func (g *jsiiProxy_GlueCatalogTableStorageDescriptorSortColumnsList) validateGet
 	return nil
 }
 
-func (g *jsiiProxy_GlueCatalogTableStorageDescriptorSortColumnsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueCatalogTableStorageDescriptorSortColumnsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GlueCatalogTableStorageDescriptorSortColumnsList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_GlueCatalogTableStorageDescriptorSortColumnsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueCatalogTableStorageDescriptorSortColumnsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GlueCatalogTableStorageDescriptorSortColumnsList) validateSet
 	return nil
 }
 
-func validateNewGlueCatalogTableStorageDescriptorSortColumnsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGlueCatalogTableStorageDescriptorSortColumnsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -73,7 +73,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRoute{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
@@ -110,7 +110,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecGrpcRouteActionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -143,7 +143,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecGrpcRouteActionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -168,7 +168,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecGrpcRouteActionTargetList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -202,7 +202,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecGrpcRouteActionTargetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -227,7 +227,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecGrpcRouteActionTargetVirtualServiceList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -260,7 +260,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecGrpcRouteActionTargetVirtualServiceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -281,7 +281,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecGrpcRouteList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -306,7 +306,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecGrpcRouteMatchList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -340,7 +340,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecGrpcRouteMatchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -374,7 +374,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecGrpcRouteOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -403,7 +403,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteActionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -437,7 +437,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteActionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -466,7 +466,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteActionRewriteHostnameList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -499,7 +499,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteActionRewriteHostnameOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -520,7 +520,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteActionRewriteList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -555,7 +555,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteActionRewriteOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -580,7 +580,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteActionRewritePathList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -613,7 +613,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteActionRewritePathOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -638,7 +638,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteActionRewritePrefixList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -672,7 +672,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteActionRewritePrefixOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -697,7 +697,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteActionTargetList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -731,7 +731,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteActionTargetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -756,7 +756,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteActionTargetVirtualServiceList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -789,7 +789,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteActionTargetVirtualServiceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -810,7 +810,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -839,7 +839,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteMatchHeaderList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -864,7 +864,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteMatchHeaderMatchList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -901,7 +901,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteMatchHeaderMatchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -926,7 +926,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteMatchHeaderMatchRangeList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -960,7 +960,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteMatchHeaderMatchRangeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -995,7 +995,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteMatchHeaderOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1020,7 +1020,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteMatchHostnameList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1054,7 +1054,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteMatchHostnameOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1075,7 +1075,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteMatchList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1113,7 +1113,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteMatchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1138,7 +1138,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteMatchPathList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1172,7 +1172,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteMatchPathOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1197,7 +1197,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteMatchQueryParameterList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1222,7 +1222,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteMatchQueryParameterMatchList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1255,7 +1255,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteMatchQueryParameterMatchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1289,7 +1289,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteMatchQueryParameterOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1323,7 +1323,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttp2RouteOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1352,7 +1352,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteActionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1386,7 +1386,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteActionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1415,7 +1415,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteActionRewriteHostnameList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1448,7 +1448,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteActionRewriteHostnameOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1469,7 +1469,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteActionRewriteList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1504,7 +1504,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteActionRewriteOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1529,7 +1529,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteActionRewritePathList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1562,7 +1562,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteActionRewritePathOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1587,7 +1587,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteActionRewritePrefixList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1621,7 +1621,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteActionRewritePrefixOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1646,7 +1646,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteActionTargetList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1680,7 +1680,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteActionTargetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1705,7 +1705,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteActionTargetVirtualServiceList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1738,7 +1738,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteActionTargetVirtualServiceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1759,7 +1759,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1788,7 +1788,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteMatchHeaderList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1813,7 +1813,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteMatchHeaderMatchList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1850,7 +1850,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteMatchHeaderMatchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1875,7 +1875,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteMatchHeaderMatchRangeList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1909,7 +1909,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteMatchHeaderMatchRangeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1944,7 +1944,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteMatchHeaderOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1969,7 +1969,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteMatchHostnameList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2003,7 +2003,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteMatchHostnameOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2024,7 +2024,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteMatchList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2062,7 +2062,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteMatchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2087,7 +2087,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteMatchPathList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2121,7 +2121,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteMatchPathOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2146,7 +2146,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteMatchQueryParameterList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2171,7 +2171,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteMatchQueryParameterMatchList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2204,7 +2204,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteMatchQueryParameterMatchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2238,7 +2238,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteMatchQueryParameterOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2272,7 +2272,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecHttpRouteOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2293,7 +2293,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2329,7 +2329,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshGatewayRouteSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

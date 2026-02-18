@@ -215,7 +215,7 @@ func (j *jsiiProxy_LaunchTemplate) validateSetKeyNameParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_LaunchTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LaunchTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

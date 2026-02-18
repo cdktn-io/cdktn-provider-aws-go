@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (f *jsiiProxy_FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (f *jsiiProxy_FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdent
 	return nil
 }
 
-func (f *jsiiProxy_FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (f *jsiiProxy_FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdent
 
 func (j *jsiiProxy_FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentity:
 		val := val.(*[]*FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentity)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdent
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentity; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentity; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdent
 	return nil
 }
 
-func (j *jsiiProxy_FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdent
 	return nil
 }
 
-func validateNewFsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

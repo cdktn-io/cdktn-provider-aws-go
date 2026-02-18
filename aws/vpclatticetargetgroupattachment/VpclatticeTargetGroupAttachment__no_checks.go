@@ -111,7 +111,7 @@ func (j *jsiiProxy_VpclatticeTargetGroupAttachment) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_VpclatticeTargetGroupAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VpclatticeTargetGroupAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (a *jsiiProxy_AlbListenerDefaultActionJwtValidationOutputReference) validat
 	return nil
 }
 
-func (a *jsiiProxy_AlbListenerDefaultActionJwtValidationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AlbListenerDefaultActionJwtValidationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_AlbListenerDefaultActionJwtValidationOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_AlbListenerDefaultActionJwtValidationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AlbListenerDefaultActionJwtValidationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAlbListenerDefaultActionJwtValidationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAlbListenerDefaultActionJwtValidationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (r *jsiiProxy_Route53DomainsDomainBillingContactExtraParamOutputReference) 
 	return nil
 }
 
-func (r *jsiiProxy_Route53DomainsDomainBillingContactExtraParamOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_Route53DomainsDomainBillingContactExtraParamOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_Route53DomainsDomainBillingContactExtraParamOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_Route53DomainsDomainBillingContactExtraParamOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Route53DomainsDomainBillingContactExtraParamOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_Route53DomainsDomainBillingContactExtraParamOutputReference) 
 	return nil
 }
 
-func validateNewRoute53DomainsDomainBillingContactExtraParamOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRoute53DomainsDomainBillingContactExtraParamOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementStrategyOu
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementStrategyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementStrategyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementStrategyOu
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementStrategyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementStrategyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementStrategyOu
 	return nil
 }
 
-func validateNewPipesPipeTargetParametersEcsTaskParametersPlacementStrategyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPipesPipeTargetParametersEcsTaskParametersPlacementStrategyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

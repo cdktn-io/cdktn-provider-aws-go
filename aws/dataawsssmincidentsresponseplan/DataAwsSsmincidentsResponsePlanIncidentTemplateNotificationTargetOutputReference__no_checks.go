@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsSsmincidentsResponsePlanIncidentTemplateNotificationTa
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsSsmincidentsResponsePlanIncidentTemplateNotificationTargetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsSsmincidentsResponsePlanIncidentTemplateNotificationTargetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsSsmincidentsResponsePlanIncidentTemplateNotificationTa
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSsmincidentsResponsePlanIncidentTemplateNotificationTargetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsSsmincidentsResponsePlanIncidentTemplateNotificationTargetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsSsmincidentsResponsePlanIncidentTemplateNotificationTargetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsSsmincidentsResponsePlanIncidentTemplateNotificationTargetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

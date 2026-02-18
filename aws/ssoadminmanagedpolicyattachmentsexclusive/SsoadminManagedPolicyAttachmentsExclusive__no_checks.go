@@ -107,7 +107,7 @@ func (j *jsiiProxy_SsoadminManagedPolicyAttachmentsExclusive) validateSetInstanc
 	return nil
 }
 
-func (j *jsiiProxy_SsoadminManagedPolicyAttachmentsExclusive) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SsoadminManagedPolicyAttachmentsExclusive) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

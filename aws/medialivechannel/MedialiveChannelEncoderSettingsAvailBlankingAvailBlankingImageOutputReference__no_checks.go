@@ -47,7 +47,7 @@ func (m *jsiiProxy_MedialiveChannelEncoderSettingsAvailBlankingAvailBlankingImag
 	return nil
 }
 
-func (m *jsiiProxy_MedialiveChannelEncoderSettingsAvailBlankingAvailBlankingImageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MedialiveChannelEncoderSettingsAvailBlankingAvailBlankingImageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_MedialiveChannelEncoderSettingsAvailBlankingAvailBlankingImag
 	return nil
 }
 
-func (j *jsiiProxy_MedialiveChannelEncoderSettingsAvailBlankingAvailBlankingImageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MedialiveChannelEncoderSettingsAvailBlankingAvailBlankingImageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_MedialiveChannelEncoderSettingsAvailBlankingAvailBlankingImag
 	return nil
 }
 
-func validateNewMedialiveChannelEncoderSettingsAvailBlankingAvailBlankingImageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMedialiveChannelEncoderSettingsAvailBlankingAvailBlankingImageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

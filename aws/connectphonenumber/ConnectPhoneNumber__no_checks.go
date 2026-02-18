@@ -115,7 +115,7 @@ func (j *jsiiProxy_ConnectPhoneNumber) validateSetIdParameters(val *string) erro
 	return nil
 }
 
-func (j *jsiiProxy_ConnectPhoneNumber) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ConnectPhoneNumber) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

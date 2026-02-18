@@ -47,7 +47,7 @@ func (t *jsiiProxy_TransferServerEndpointDetailsOutputReference) validateInterpo
 	return nil
 }
 
-func (t *jsiiProxy_TransferServerEndpointDetailsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TransferServerEndpointDetailsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_TransferServerEndpointDetailsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_TransferServerEndpointDetailsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TransferServerEndpointDetailsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_TransferServerEndpointDetailsOutputReference) validateSetVpcI
 	return nil
 }
 
-func validateNewTransferServerEndpointDetailsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTransferServerEndpointDetailsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeoptimizerRecommendationPreferencesExternalMetricsPrefe
 	return nil
 }
 
-func (c *jsiiProxy_ComputeoptimizerRecommendationPreferencesExternalMetricsPreferenceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeoptimizerRecommendationPreferencesExternalMetricsPreferenceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputeoptimizerRecommendationPreferencesExternalMetricsPrefe
 	return nil
 }
 
-func (j *jsiiProxy_ComputeoptimizerRecommendationPreferencesExternalMetricsPreferenceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeoptimizerRecommendationPreferencesExternalMetricsPreferenceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputeoptimizerRecommendationPreferencesExternalMetricsPrefe
 	return nil
 }
 
-func validateNewComputeoptimizerRecommendationPreferencesExternalMetricsPreferenceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeoptimizerRecommendationPreferencesExternalMetricsPreferenceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

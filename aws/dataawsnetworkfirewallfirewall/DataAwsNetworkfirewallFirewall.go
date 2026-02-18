@@ -5,30 +5,30 @@ package dataawsnetworkfirewallfirewall
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsnetworkfirewallfirewall/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsnetworkfirewallfirewall/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/networkfirewall_firewall aws_networkfirewall_firewall}.
 type DataAwsNetworkfirewallFirewall interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	Arn() *string
 	SetArn(val *string)
 	ArnInput() *string
-	AvailabilityZoneChangeProtection() cdktf.IResolvable
+	AvailabilityZoneChangeProtection() cdktn.IResolvable
 	AvailabilityZoneMapping() DataAwsNetworkfirewallFirewallAvailabilityZoneMappingList
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
-	DeleteProtection() cdktf.IResolvable
+	DeleteProtection() cdktn.IResolvable
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -37,12 +37,12 @@ type DataAwsNetworkfirewallFirewall interface {
 	EnabledAnalysisTypes() *[]*string
 	EncryptionConfiguration() DataAwsNetworkfirewallFirewallEncryptionConfigurationList
 	FirewallPolicyArn() *string
-	FirewallPolicyChangeProtection() cdktf.IResolvable
+	FirewallPolicyChangeProtection() cdktn.IResolvable
 	FirewallStatus() DataAwsNetworkfirewallFirewallFirewallStatusList
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -51,30 +51,30 @@ type DataAwsNetworkfirewallFirewall interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
-	SubnetChangeProtection() cdktf.IResolvable
+	SubnetChangeProtection() cdktn.IResolvable
 	SubnetMapping() DataAwsNetworkfirewallFirewallSubnetMappingList
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -88,7 +88,7 @@ type DataAwsNetworkfirewallFirewall interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -104,7 +104,7 @@ type DataAwsNetworkfirewallFirewall interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -132,7 +132,7 @@ type DataAwsNetworkfirewallFirewall interface {
 
 // The jsii proxy struct for DataAwsNetworkfirewallFirewall
 type jsiiProxy_DataAwsNetworkfirewallFirewall struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) Arn() *string {
@@ -155,8 +155,8 @@ func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) ArnInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) AvailabilityZoneChangeProtection() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) AvailabilityZoneChangeProtection() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"availabilityZoneChangeProtection",
@@ -175,8 +175,8 @@ func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) AvailabilityZoneMapping() Dat
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -205,8 +205,8 @@ func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) Count() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) DeleteProtection() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) DeleteProtection() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"deleteProtection",
@@ -265,8 +265,8 @@ func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) FirewallPolicyArn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) FirewallPolicyChangeProtection() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) FirewallPolicyChangeProtection() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"firewallPolicyChangeProtection",
@@ -285,8 +285,8 @@ func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) FirewallStatus() DataAwsNetwo
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -335,8 +335,8 @@ func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -375,8 +375,8 @@ func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -415,8 +415,8 @@ func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) SubnetChangeProtection() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) SubnetChangeProtection() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"subnetChangeProtection",
@@ -455,8 +455,8 @@ func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) TagsInput() *map[string]*stri
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsNetworkfirewallFirewall) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -585,7 +585,7 @@ func (j *jsiiProxy_DataAwsNetworkfirewallFirewall)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsNetworkfirewallFirewall)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsNetworkfirewallFirewall)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -604,7 +604,7 @@ func (j *jsiiProxy_DataAwsNetworkfirewallFirewall)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsNetworkfirewallFirewall)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsNetworkfirewallFirewall)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -626,7 +626,7 @@ func (j *jsiiProxy_DataAwsNetworkfirewallFirewall)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsNetworkfirewallFirewall)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsNetworkfirewallFirewall)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -656,14 +656,14 @@ func (j *jsiiProxy_DataAwsNetworkfirewallFirewall)SetTags(val *map[string]*strin
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsNetworkfirewallFirewall resource upon running "cdktf plan <stack-name>".
-func DataAwsNetworkfirewallFirewall_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsNetworkfirewallFirewall resource upon running "cdktn plan <stack-name>".
+func DataAwsNetworkfirewallFirewall_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsNetworkfirewallFirewall_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsNetworkfirewallFirewall.DataAwsNetworkfirewallFirewall",
@@ -786,11 +786,11 @@ func (d *jsiiProxy_DataAwsNetworkfirewallFirewall) GetAnyMapAttribute(terraformA
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsNetworkfirewallFirewall) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsNetworkfirewallFirewall) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -914,11 +914,11 @@ func (d *jsiiProxy_DataAwsNetworkfirewallFirewall) GetStringMapAttribute(terrafo
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsNetworkfirewallFirewall) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsNetworkfirewallFirewall) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

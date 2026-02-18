@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsLicensemanagerReceivedLicenseConsumptionConfigurationB
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLicensemanagerReceivedLicenseConsumptionConfigurationBorrowConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLicensemanagerReceivedLicenseConsumptionConfigurationBorrowConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsLicensemanagerReceivedLicenseConsumptionConfigurationB
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLicensemanagerReceivedLicenseConsumptionConfigurationBorrowConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLicensemanagerReceivedLicenseConsumptionConfigurationBorrowConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsLicensemanagerReceivedLicenseConsumptionConfigurationB
 	return nil
 }
 
-func validateNewDataAwsLicensemanagerReceivedLicenseConsumptionConfigurationBorrowConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsLicensemanagerReceivedLicenseConsumptionConfigurationBorrowConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

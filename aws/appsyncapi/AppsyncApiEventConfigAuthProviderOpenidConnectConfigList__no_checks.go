@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppsyncApiEventConfigAuthProviderOpenidConnectConfigList) val
 	return nil
 }
 
-func (a *jsiiProxy_AppsyncApiEventConfigAuthProviderOpenidConnectConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppsyncApiEventConfigAuthProviderOpenidConnectConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderOpenidConnectConfigList) val
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderOpenidConnectConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderOpenidConnectConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderOpenidConnectConfigList) val
 	return nil
 }
 
-func validateNewAppsyncApiEventConfigAuthProviderOpenidConnectConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppsyncApiEventConfigAuthProviderOpenidConnectConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

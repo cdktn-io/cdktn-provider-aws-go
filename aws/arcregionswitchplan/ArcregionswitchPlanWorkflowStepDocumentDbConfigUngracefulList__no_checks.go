@@ -15,7 +15,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepDocumentDbConfigUngracefulList
 	return nil
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepDocumentDbConfigUngracefulList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepDocumentDbConfigUngracefulList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepDocumentDbConfigUngracefulList
 	return nil
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepDocumentDbConfigUngracefulList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepDocumentDbConfigUngracefulList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepDocumentDbConfigUngracefulList
 	return nil
 }
 
-func validateNewArcregionswitchPlanWorkflowStepDocumentDbConfigUngracefulListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewArcregionswitchPlanWorkflowStepDocumentDbConfigUngracefulListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

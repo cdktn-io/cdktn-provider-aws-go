@@ -15,7 +15,7 @@ func (i *jsiiProxy_InspectorAssessmentTemplateEventSubscriptionList) validateGet
 	return nil
 }
 
-func (i *jsiiProxy_InspectorAssessmentTemplateEventSubscriptionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_InspectorAssessmentTemplateEventSubscriptionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_InspectorAssessmentTemplateEventSubscriptionList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_InspectorAssessmentTemplateEventSubscriptionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_InspectorAssessmentTemplateEventSubscriptionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_InspectorAssessmentTemplateEventSubscriptionList) validateSet
 	return nil
 }
 
-func validateNewInspectorAssessmentTemplateEventSubscriptionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewInspectorAssessmentTemplateEventSubscriptionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package cloudfrontdistribution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/cloudfrontdistribution/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/cloudfrontdistribution/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList interface
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList interface
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList interface
 
 // The jsii proxy struct for CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList
 type jsiiProxy_CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_CloudfrontDistributionOrderedCacheBehaviorFunctionAssociation
 	return returns
 }
 
-func (j *jsiiProxy_CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_CloudfrontDistributionOrderedCacheBehaviorFunctionAssociation
 }
 
 
-func NewCloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList {
+func NewCloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList {
 	_init_.Initialize()
 
 	if err := validateNewCloudfrontDistributionOrderedCacheBehaviorFunctionAssociationListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewCloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList(terraf
 	return &j
 }
 
-func NewCloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList_Override(c CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewCloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList_Override(c CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_CloudfrontDistributionOrderedCacheBehaviorFunctionAssociation
 	)
 }
 
-func (j *jsiiProxy_CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_CloudfrontDistributionOrderedCacheBehaviorFunctionAssociation
 	)
 }
 
-func (c *jsiiProxy_CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (c *jsiiProxy_CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := c.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		c,
@@ -231,7 +231,7 @@ func (c *jsiiProxy_CloudfrontDistributionOrderedCacheBehaviorFunctionAssociation
 	return returns
 }
 
-func (c *jsiiProxy_CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

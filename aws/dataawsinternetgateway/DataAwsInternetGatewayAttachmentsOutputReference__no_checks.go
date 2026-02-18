@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsInternetGatewayAttachmentsOutputReference) validateInt
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsInternetGatewayAttachmentsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsInternetGatewayAttachmentsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsInternetGatewayAttachmentsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsInternetGatewayAttachmentsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsInternetGatewayAttachmentsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsInternetGatewayAttachmentsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsInternetGatewayAttachmentsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsAuditmanagerFrameworkControlSetsOutputReference) valid
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAuditmanagerFrameworkControlSetsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAuditmanagerFrameworkControlSetsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsAuditmanagerFrameworkControlSetsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAuditmanagerFrameworkControlSetsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAuditmanagerFrameworkControlSetsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsAuditmanagerFrameworkControlSetsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsAuditmanagerFrameworkControlSetsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

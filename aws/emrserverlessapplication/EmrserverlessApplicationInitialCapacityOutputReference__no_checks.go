@@ -51,7 +51,7 @@ func (e *jsiiProxy_EmrserverlessApplicationInitialCapacityOutputReference) valid
 	return nil
 }
 
-func (e *jsiiProxy_EmrserverlessApplicationInitialCapacityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EmrserverlessApplicationInitialCapacityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EmrserverlessApplicationInitialCapacityOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_EmrserverlessApplicationInitialCapacityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EmrserverlessApplicationInitialCapacityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEmrserverlessApplicationInitialCapacityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEmrserverlessApplicationInitialCapacityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

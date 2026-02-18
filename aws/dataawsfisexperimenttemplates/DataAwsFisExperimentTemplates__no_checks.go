@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsFisExperimentTemplates) validateSetCountParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsFisExperimentTemplates) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsFisExperimentTemplates) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

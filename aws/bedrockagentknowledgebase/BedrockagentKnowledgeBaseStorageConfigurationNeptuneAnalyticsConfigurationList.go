@@ -5,14 +5,14 @@ package bedrockagentknowledgebase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/bedrockagentknowledgebase/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/bedrockagentknowledgebase/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationL
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationL
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationL
 
 // The jsii proxy struct for BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList
 type jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalytics
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalytics
 }
 
 
-func NewBedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList {
+func NewBedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList {
 	_init_.Initialize()
 
 	if err := validateNewBedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewBedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurati
 	return &j
 }
 
-func NewBedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList_Override(b BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewBedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList_Override(b BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalytics
 	)
 }
 
-func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalytics
 	)
 }
 
-func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := b.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		b,
@@ -231,7 +231,7 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalytics
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

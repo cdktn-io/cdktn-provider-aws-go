@@ -55,7 +55,7 @@ func (d *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3OutputReferenc
 	return nil
 }
 
-func (d *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3OutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3OutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3OutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3OutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3OutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataexchangeEventActionActionExportRevisionToS3OutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataexchangeEventActionActionExportRevisionToS3OutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

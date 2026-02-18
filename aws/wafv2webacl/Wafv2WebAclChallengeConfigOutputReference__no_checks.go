@@ -51,7 +51,7 @@ func (w *jsiiProxy_Wafv2WebAclChallengeConfigOutputReference) validatePutImmunit
 	return nil
 }
 
-func (w *jsiiProxy_Wafv2WebAclChallengeConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_Wafv2WebAclChallengeConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_Wafv2WebAclChallengeConfigOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_Wafv2WebAclChallengeConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Wafv2WebAclChallengeConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWafv2WebAclChallengeConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWafv2WebAclChallengeConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

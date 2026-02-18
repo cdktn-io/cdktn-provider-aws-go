@@ -103,7 +103,7 @@ func (j *jsiiProxy_ShieldSubscription) validateSetCountParameters(val interface{
 	return nil
 }
 
-func (j *jsiiProxy_ShieldSubscription) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ShieldSubscription) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

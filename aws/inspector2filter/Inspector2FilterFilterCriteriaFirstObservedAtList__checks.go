@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (i *jsiiProxy_Inspector2FilterFilterCriteriaFirstObservedAtList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaFirstObservedAtList) validateGe
 	return nil
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaFirstObservedAtList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaFirstObservedAtList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaFirstObservedAtList) validateRe
 
 func (j *jsiiProxy_Inspector2FilterFilterCriteriaFirstObservedAtList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Inspector2FilterFilterCriteriaFirstObservedAt:
 		val := val.(*[]*Inspector2FilterFilterCriteriaFirstObservedAt)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaFirstObservedAtList) validateSe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*Inspector2FilterFilterCriteriaFirstObservedAt; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*Inspector2FilterFilterCriteriaFirstObservedAt; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaFirstObservedAtList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_Inspector2FilterFilterCriteriaFirstObservedAtList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Inspector2FilterFilterCriteriaFirstObservedAtList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaFirstObservedAtList) validateSe
 	return nil
 }
 
-func validateNewInspector2FilterFilterCriteriaFirstObservedAtListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewInspector2FilterFilterCriteriaFirstObservedAtListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

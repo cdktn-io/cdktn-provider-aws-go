@@ -15,7 +15,7 @@ func (l *jsiiProxy_LexIntentRejectionStatementMessageList) validateGetParameters
 	return nil
 }
 
-func (l *jsiiProxy_LexIntentRejectionStatementMessageList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LexIntentRejectionStatementMessageList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LexIntentRejectionStatementMessageList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_LexIntentRejectionStatementMessageList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LexIntentRejectionStatementMessageList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LexIntentRejectionStatementMessageList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewLexIntentRejectionStatementMessageListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLexIntentRejectionStatementMessageListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (a *jsiiProxy_AppsyncFunctionSyncConfigOutputReference) validatePutLambdaCo
 	return nil
 }
 
-func (a *jsiiProxy_AppsyncFunctionSyncConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppsyncFunctionSyncConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_AppsyncFunctionSyncConfigOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncFunctionSyncConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppsyncFunctionSyncConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppsyncFunctionSyncConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppsyncFunctionSyncConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -111,7 +111,7 @@ func (j *jsiiProxy_LakeformationResource) validateSetIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_LakeformationResource) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LakeformationResource) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

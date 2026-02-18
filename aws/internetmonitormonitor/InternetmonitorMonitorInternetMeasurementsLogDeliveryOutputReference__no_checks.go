@@ -51,7 +51,7 @@ func (i *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputRe
 	return nil
 }
 
-func (i *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewInternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewInternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

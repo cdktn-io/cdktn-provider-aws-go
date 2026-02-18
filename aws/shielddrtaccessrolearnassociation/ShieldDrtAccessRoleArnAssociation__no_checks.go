@@ -103,7 +103,7 @@ func (j *jsiiProxy_ShieldDrtAccessRoleArnAssociation) validateSetCountParameters
 	return nil
 }
 
-func (j *jsiiProxy_ShieldDrtAccessRoleArnAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ShieldDrtAccessRoleArnAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GlobalacceleratorCustomRoutingAcceleratorTimeoutsOutputRefere
 	return nil
 }
 
-func (g *jsiiProxy_GlobalacceleratorCustomRoutingAcceleratorTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlobalacceleratorCustomRoutingAcceleratorTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GlobalacceleratorCustomRoutingAcceleratorTimeoutsOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_GlobalacceleratorCustomRoutingAcceleratorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlobalacceleratorCustomRoutingAcceleratorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GlobalacceleratorCustomRoutingAcceleratorTimeoutsOutputRefere
 	return nil
 }
 
-func validateNewGlobalacceleratorCustomRoutingAcceleratorTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGlobalacceleratorCustomRoutingAcceleratorTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -115,7 +115,7 @@ func (j *jsiiProxy_AmplifyWebhook) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_AmplifyWebhook) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AmplifyWebhook) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -139,7 +139,7 @@ func (j *jsiiProxy_GrafanaWorkspace) validateSetIdParameters(val *string) error 
 	return nil
 }
 
-func (j *jsiiProxy_GrafanaWorkspace) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GrafanaWorkspace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

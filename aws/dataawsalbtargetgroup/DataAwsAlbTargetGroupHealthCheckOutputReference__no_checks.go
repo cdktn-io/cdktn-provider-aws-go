@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsAlbTargetGroupHealthCheckOutputReference) validateInte
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAlbTargetGroupHealthCheckOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAlbTargetGroupHealthCheckOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsAlbTargetGroupHealthCheckOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAlbTargetGroupHealthCheckOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAlbTargetGroupHealthCheckOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsAlbTargetGroupHealthCheckOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsAlbTargetGroupHealthCheckOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

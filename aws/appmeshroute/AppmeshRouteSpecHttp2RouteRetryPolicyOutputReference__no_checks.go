@@ -51,7 +51,7 @@ func (a *jsiiProxy_AppmeshRouteSpecHttp2RouteRetryPolicyOutputReference) validat
 	return nil
 }
 
-func (a *jsiiProxy_AppmeshRouteSpecHttp2RouteRetryPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppmeshRouteSpecHttp2RouteRetryPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_AppmeshRouteSpecHttp2RouteRetryPolicyOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshRouteSpecHttp2RouteRetryPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppmeshRouteSpecHttp2RouteRetryPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppmeshRouteSpecHttp2RouteRetryPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppmeshRouteSpecHttp2RouteRetryPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

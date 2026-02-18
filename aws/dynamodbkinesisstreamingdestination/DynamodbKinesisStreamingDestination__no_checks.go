@@ -107,7 +107,7 @@ func (j *jsiiProxy_DynamodbKinesisStreamingDestination) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DynamodbKinesisStreamingDestination) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DynamodbKinesisStreamingDestination) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

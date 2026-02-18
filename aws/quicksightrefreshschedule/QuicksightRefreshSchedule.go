@@ -5,22 +5,22 @@ package quicksightrefreshschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/quicksightrefreshschedule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/quicksightrefreshschedule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/quicksight_refresh_schedule aws_quicksight_refresh_schedule}.
 type QuicksightRefreshSchedule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	AwsAccountId() *string
 	SetAwsAccountId(val *string)
 	AwsAccountIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -39,24 +39,24 @@ type QuicksightRefreshSchedule interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -72,7 +72,7 @@ type QuicksightRefreshSchedule interface {
 	ScheduleIdInput() *string
 	ScheduleInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -85,7 +85,7 @@ type QuicksightRefreshSchedule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -103,9 +103,9 @@ type QuicksightRefreshSchedule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -142,7 +142,7 @@ type QuicksightRefreshSchedule interface {
 
 // The jsii proxy struct for QuicksightRefreshSchedule
 type jsiiProxy_QuicksightRefreshSchedule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_QuicksightRefreshSchedule) Arn() *string {
@@ -175,8 +175,8 @@ func (j *jsiiProxy_QuicksightRefreshSchedule) AwsAccountIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_QuicksightRefreshSchedule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_QuicksightRefreshSchedule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -245,8 +245,8 @@ func (j *jsiiProxy_QuicksightRefreshSchedule) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_QuicksightRefreshSchedule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_QuicksightRefreshSchedule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -285,8 +285,8 @@ func (j *jsiiProxy_QuicksightRefreshSchedule) Id() *string {
 	return returns
 }
 
-func (j *jsiiProxy_QuicksightRefreshSchedule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_QuicksightRefreshSchedule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -305,8 +305,8 @@ func (j *jsiiProxy_QuicksightRefreshSchedule) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_QuicksightRefreshSchedule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_QuicksightRefreshSchedule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -395,8 +395,8 @@ func (j *jsiiProxy_QuicksightRefreshSchedule) ScheduleInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_QuicksightRefreshSchedule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_QuicksightRefreshSchedule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -507,7 +507,7 @@ func (j *jsiiProxy_QuicksightRefreshSchedule)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_QuicksightRefreshSchedule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_QuicksightRefreshSchedule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -515,7 +515,7 @@ func (j *jsiiProxy_QuicksightRefreshSchedule)SetForEach(val cdktf.ITerraformIter
 	)
 }
 
-func (j *jsiiProxy_QuicksightRefreshSchedule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_QuicksightRefreshSchedule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -526,7 +526,7 @@ func (j *jsiiProxy_QuicksightRefreshSchedule)SetLifecycle(val *cdktf.TerraformRe
 	)
 }
 
-func (j *jsiiProxy_QuicksightRefreshSchedule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_QuicksightRefreshSchedule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -567,14 +567,14 @@ func (j *jsiiProxy_QuicksightRefreshSchedule)SetScheduleId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a QuicksightRefreshSchedule resource upon running "cdktf plan <stack-name>".
-func QuicksightRefreshSchedule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a QuicksightRefreshSchedule resource upon running "cdktn plan <stack-name>".
+func QuicksightRefreshSchedule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateQuicksightRefreshSchedule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.quicksightRefreshSchedule.QuicksightRefreshSchedule",
@@ -708,11 +708,11 @@ func (q *jsiiProxy_QuicksightRefreshSchedule) GetAnyMapAttribute(terraformAttrib
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightRefreshSchedule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (q *jsiiProxy_QuicksightRefreshSchedule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := q.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -849,7 +849,7 @@ func (q *jsiiProxy_QuicksightRefreshSchedule) HasResourceMove() interface{} {
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightRefreshSchedule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (q *jsiiProxy_QuicksightRefreshSchedule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := q.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -860,11 +860,11 @@ func (q *jsiiProxy_QuicksightRefreshSchedule) ImportFrom(id *string, provider cd
 	)
 }
 
-func (q *jsiiProxy_QuicksightRefreshSchedule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (q *jsiiProxy_QuicksightRefreshSchedule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := q.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,

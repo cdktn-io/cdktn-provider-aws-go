@@ -47,7 +47,7 @@ func (g *jsiiProxy_GameliftGameServerGroupTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (g *jsiiProxy_GameliftGameServerGroupTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GameliftGameServerGroupTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GameliftGameServerGroupTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_GameliftGameServerGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GameliftGameServerGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGameliftGameServerGroupTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGameliftGameServerGroupTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

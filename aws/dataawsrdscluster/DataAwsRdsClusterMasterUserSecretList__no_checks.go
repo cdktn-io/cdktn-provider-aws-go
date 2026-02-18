@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsRdsClusterMasterUserSecretList) validateGetParameters(
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsRdsClusterMasterUserSecretList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsRdsClusterMasterUserSecretList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsRdsClusterMasterUserSecretList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRdsClusterMasterUserSecretList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsRdsClusterMasterUserSecretList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsRdsClusterMasterUserSecretList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewDataAwsRdsClusterMasterUserSecretListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsRdsClusterMasterUserSecretListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

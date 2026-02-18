@@ -15,7 +15,7 @@ func (c *jsiiProxy_CloudwatchLogDeliveryS3DeliveryConfigurationList) validateGet
 	return nil
 }
 
-func (c *jsiiProxy_CloudwatchLogDeliveryS3DeliveryConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudwatchLogDeliveryS3DeliveryConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CloudwatchLogDeliveryS3DeliveryConfigurationList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchLogDeliveryS3DeliveryConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudwatchLogDeliveryS3DeliveryConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CloudwatchLogDeliveryS3DeliveryConfigurationList) validateSet
 	return nil
 }
 
-func validateNewCloudwatchLogDeliveryS3DeliveryConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudwatchLogDeliveryS3DeliveryConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

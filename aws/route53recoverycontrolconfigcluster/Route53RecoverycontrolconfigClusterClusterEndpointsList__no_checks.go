@@ -15,7 +15,7 @@ func (r *jsiiProxy_Route53RecoverycontrolconfigClusterClusterEndpointsList) vali
 	return nil
 }
 
-func (r *jsiiProxy_Route53RecoverycontrolconfigClusterClusterEndpointsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_Route53RecoverycontrolconfigClusterClusterEndpointsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_Route53RecoverycontrolconfigClusterClusterEndpointsList) vali
 	return nil
 }
 
-func (j *jsiiProxy_Route53RecoverycontrolconfigClusterClusterEndpointsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Route53RecoverycontrolconfigClusterClusterEndpointsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_Route53RecoverycontrolconfigClusterClusterEndpointsList) vali
 	return nil
 }
 
-func validateNewRoute53RecoverycontrolconfigClusterClusterEndpointsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRoute53RecoverycontrolconfigClusterClusterEndpointsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

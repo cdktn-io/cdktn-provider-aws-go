@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (q *jsiiProxy_QuicksightDataSetPhysicalTableMapOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -126,7 +126,7 @@ func (q *jsiiProxy_QuicksightDataSetPhysicalTableMapOutputReference) validatePut
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDataSetPhysicalTableMapOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDataSetPhysicalTableMapOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -201,7 +201,7 @@ func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapOutputReference) validateSet
 
 func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *QuicksightDataSetPhysicalTableMap:
 		val := val.(*QuicksightDataSetPhysicalTableMap)
@@ -216,7 +216,7 @@ func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapOutputReference) validateSet
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *QuicksightDataSetPhysicalTableMap; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *QuicksightDataSetPhysicalTableMap; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -239,7 +239,7 @@ func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -247,7 +247,7 @@ func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapOutputReference) validateSet
 	return nil
 }
 
-func validateNewQuicksightDataSetPhysicalTableMapOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewQuicksightDataSetPhysicalTableMapOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

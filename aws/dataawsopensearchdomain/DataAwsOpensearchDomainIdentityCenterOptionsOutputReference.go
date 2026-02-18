@@ -5,14 +5,14 @@ package dataawsopensearchdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsopensearchdomain/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsopensearchdomain/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsOpensearchDomainIdentityCenterOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -28,7 +28,7 @@ type DataAwsOpensearchDomainIdentityCenterOptionsOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	EnabledApiAccess() cdktf.IResolvable
+	EnabledApiAccess() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
 	IdentityCenterInstanceArn() *string
@@ -41,15 +41,15 @@ type DataAwsOpensearchDomainIdentityCenterOptionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type DataAwsOpensearchDomainIdentityCenterOptionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type DataAwsOpensearchDomainIdentityCenterOptionsOutputReference interface {
 
 // The jsii proxy struct for DataAwsOpensearchDomainIdentityCenterOptionsOutputReference
 type jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference) ComplexObjectIndex() interface{} {
@@ -113,8 +113,8 @@ func (j *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference) EnabledApiAccess() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference) EnabledApiAccess() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enabledApiAccess",
@@ -183,8 +183,8 @@ func (j *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -194,7 +194,7 @@ func (j *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference) 
 }
 
 
-func NewDataAwsOpensearchDomainIdentityCenterOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsOpensearchDomainIdentityCenterOptionsOutputReference {
+func NewDataAwsOpensearchDomainIdentityCenterOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsOpensearchDomainIdentityCenterOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsOpensearchDomainIdentityCenterOptionsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -211,7 +211,7 @@ func NewDataAwsOpensearchDomainIdentityCenterOptionsOutputReference(terraformRes
 	return &j
 }
 
-func NewDataAwsOpensearchDomainIdentityCenterOptionsOutputReference_Override(d DataAwsOpensearchDomainIdentityCenterOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsOpensearchDomainIdentityCenterOptionsOutputReference_Override(d DataAwsOpensearchDomainIdentityCenterOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -265,7 +265,7 @@ func (j *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference)S
 	)
 }
 
-func (j *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -305,11 +305,11 @@ func (d *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference) 
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -433,8 +433,8 @@ func (d *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference) 
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -446,11 +446,11 @@ func (d *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference) 
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -462,7 +462,7 @@ func (d *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference) 
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

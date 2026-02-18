@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_MedialiveChannelDestinationsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (m *jsiiProxy_MedialiveChannelDestinationsOutputReference) validatePutMedia
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MedialiveChannelDestinationsMediaPackageSettings:
 		value := value.(*[]*MedialiveChannelDestinationsMediaPackageSettings)
@@ -117,7 +117,7 @@ func (m *jsiiProxy_MedialiveChannelDestinationsOutputReference) validatePutMedia
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*MedialiveChannelDestinationsMediaPackageSettings; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MedialiveChannelDestinationsMediaPackageSettings; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -140,7 +140,7 @@ func (m *jsiiProxy_MedialiveChannelDestinationsOutputReference) validatePutSetti
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MedialiveChannelDestinationsSettings:
 		value := value.(*[]*MedialiveChannelDestinationsSettings)
@@ -159,14 +159,14 @@ func (m *jsiiProxy_MedialiveChannelDestinationsOutputReference) validatePutSetti
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*MedialiveChannelDestinationsSettings; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MedialiveChannelDestinationsSettings; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (m *jsiiProxy_MedialiveChannelDestinationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MedialiveChannelDestinationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -249,7 +249,7 @@ func (j *jsiiProxy_MedialiveChannelDestinationsOutputReference) validateSetIdPar
 
 func (j *jsiiProxy_MedialiveChannelDestinationsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *MedialiveChannelDestinations:
 		val := val.(*MedialiveChannelDestinations)
@@ -264,7 +264,7 @@ func (j *jsiiProxy_MedialiveChannelDestinationsOutputReference) validateSetInter
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *MedialiveChannelDestinations; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *MedialiveChannelDestinations; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -279,7 +279,7 @@ func (j *jsiiProxy_MedialiveChannelDestinationsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_MedialiveChannelDestinationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MedialiveChannelDestinationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -287,7 +287,7 @@ func (j *jsiiProxy_MedialiveChannelDestinationsOutputReference) validateSetTerra
 	return nil
 }
 
-func validateNewMedialiveChannelDestinationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMedialiveChannelDestinationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

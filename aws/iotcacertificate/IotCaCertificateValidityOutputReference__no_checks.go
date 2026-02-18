@@ -47,7 +47,7 @@ func (i *jsiiProxy_IotCaCertificateValidityOutputReference) validateInterpolatio
 	return nil
 }
 
-func (i *jsiiProxy_IotCaCertificateValidityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotCaCertificateValidityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_IotCaCertificateValidityOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_IotCaCertificateValidityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotCaCertificateValidityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIotCaCertificateValidityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIotCaCertificateValidityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

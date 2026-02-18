@@ -47,7 +47,7 @@ func (r *jsiiProxy_Route53RecordGeolocationRoutingPolicyOutputReference) validat
 	return nil
 }
 
-func (r *jsiiProxy_Route53RecordGeolocationRoutingPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_Route53RecordGeolocationRoutingPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_Route53RecordGeolocationRoutingPolicyOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_Route53RecordGeolocationRoutingPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Route53RecordGeolocationRoutingPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRoute53RecordGeolocationRoutingPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRoute53RecordGeolocationRoutingPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

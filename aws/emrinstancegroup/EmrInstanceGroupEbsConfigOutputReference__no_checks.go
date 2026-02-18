@@ -47,7 +47,7 @@ func (e *jsiiProxy_EmrInstanceGroupEbsConfigOutputReference) validateInterpolati
 	return nil
 }
 
-func (e *jsiiProxy_EmrInstanceGroupEbsConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EmrInstanceGroupEbsConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_EmrInstanceGroupEbsConfigOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_EmrInstanceGroupEbsConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EmrInstanceGroupEbsConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_EmrInstanceGroupEbsConfigOutputReference) validateSetVolumesP
 	return nil
 }
 
-func validateNewEmrInstanceGroupEbsConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEmrInstanceGroupEbsConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

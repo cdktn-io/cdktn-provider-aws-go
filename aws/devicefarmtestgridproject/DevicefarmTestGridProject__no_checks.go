@@ -111,7 +111,7 @@ func (j *jsiiProxy_DevicefarmTestGridProject) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_DevicefarmTestGridProject) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DevicefarmTestGridProject) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

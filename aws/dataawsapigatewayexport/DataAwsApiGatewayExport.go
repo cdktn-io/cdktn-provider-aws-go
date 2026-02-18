@@ -5,22 +5,22 @@ package dataawsapigatewayexport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsapigatewayexport/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsapigatewayexport/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/api_gateway_export aws_api_gateway_export}.
 type DataAwsApiGatewayExport interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	Accepts() *string
 	SetAccepts(val *string)
 	AcceptsInput() *string
 	Body() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	ContentDisposition() *string
@@ -37,9 +37,9 @@ type DataAwsApiGatewayExport interface {
 	SetExportType(val *string)
 	ExportTypeInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -48,18 +48,18 @@ type DataAwsApiGatewayExport interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	Parameters() *map[string]*string
 	SetParameters(val *map[string]*string)
 	ParametersInput() *map[string]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -72,7 +72,7 @@ type DataAwsApiGatewayExport interface {
 	SetStageName(val *string)
 	StageNameInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -82,7 +82,7 @@ type DataAwsApiGatewayExport interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -98,7 +98,7 @@ type DataAwsApiGatewayExport interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -125,7 +125,7 @@ type DataAwsApiGatewayExport interface {
 
 // The jsii proxy struct for DataAwsApiGatewayExport
 type jsiiProxy_DataAwsApiGatewayExport struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsApiGatewayExport) Accepts() *string {
@@ -158,8 +158,8 @@ func (j *jsiiProxy_DataAwsApiGatewayExport) Body() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsApiGatewayExport) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsApiGatewayExport) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -238,8 +238,8 @@ func (j *jsiiProxy_DataAwsApiGatewayExport) ExportTypeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsApiGatewayExport) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsApiGatewayExport) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -288,8 +288,8 @@ func (j *jsiiProxy_DataAwsApiGatewayExport) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsApiGatewayExport) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsApiGatewayExport) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -328,8 +328,8 @@ func (j *jsiiProxy_DataAwsApiGatewayExport) ParametersInput() *map[string]*strin
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsApiGatewayExport) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsApiGatewayExport) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -408,8 +408,8 @@ func (j *jsiiProxy_DataAwsApiGatewayExport) StageNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsApiGatewayExport) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsApiGatewayExport) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -509,7 +509,7 @@ func (j *jsiiProxy_DataAwsApiGatewayExport)SetExportType(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsApiGatewayExport)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsApiGatewayExport)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -528,7 +528,7 @@ func (j *jsiiProxy_DataAwsApiGatewayExport)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsApiGatewayExport)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsApiGatewayExport)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -550,7 +550,7 @@ func (j *jsiiProxy_DataAwsApiGatewayExport)SetParameters(val *map[string]*string
 	)
 }
 
-func (j *jsiiProxy_DataAwsApiGatewayExport)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsApiGatewayExport)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -591,14 +591,14 @@ func (j *jsiiProxy_DataAwsApiGatewayExport)SetStageName(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsApiGatewayExport resource upon running "cdktf plan <stack-name>".
-func DataAwsApiGatewayExport_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsApiGatewayExport resource upon running "cdktn plan <stack-name>".
+func DataAwsApiGatewayExport_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsApiGatewayExport_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsApiGatewayExport.DataAwsApiGatewayExport",
@@ -721,11 +721,11 @@ func (d *jsiiProxy_DataAwsApiGatewayExport) GetAnyMapAttribute(terraformAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsApiGatewayExport) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsApiGatewayExport) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -849,11 +849,11 @@ func (d *jsiiProxy_DataAwsApiGatewayExport) GetStringMapAttribute(terraformAttri
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsApiGatewayExport) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsApiGatewayExport) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

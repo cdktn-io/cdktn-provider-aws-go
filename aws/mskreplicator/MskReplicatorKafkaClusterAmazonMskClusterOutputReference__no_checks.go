@@ -47,7 +47,7 @@ func (m *jsiiProxy_MskReplicatorKafkaClusterAmazonMskClusterOutputReference) val
 	return nil
 }
 
-func (m *jsiiProxy_MskReplicatorKafkaClusterAmazonMskClusterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MskReplicatorKafkaClusterAmazonMskClusterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_MskReplicatorKafkaClusterAmazonMskClusterOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_MskReplicatorKafkaClusterAmazonMskClusterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MskReplicatorKafkaClusterAmazonMskClusterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMskReplicatorKafkaClusterAmazonMskClusterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMskReplicatorKafkaClusterAmazonMskClusterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

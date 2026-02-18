@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsInstanceEnclaveOptionsOutputReference) validateInterpo
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsInstanceEnclaveOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsInstanceEnclaveOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsInstanceEnclaveOptionsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsInstanceEnclaveOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsInstanceEnclaveOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsInstanceEnclaveOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsInstanceEnclaveOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

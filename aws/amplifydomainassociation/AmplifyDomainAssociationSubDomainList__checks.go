@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_AmplifyDomainAssociationSubDomainList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (a *jsiiProxy_AmplifyDomainAssociationSubDomainList) validateGetParameters(
 	return nil
 }
 
-func (a *jsiiProxy_AmplifyDomainAssociationSubDomainList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AmplifyDomainAssociationSubDomainList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (a *jsiiProxy_AmplifyDomainAssociationSubDomainList) validateResolveParamet
 
 func (j *jsiiProxy_AmplifyDomainAssociationSubDomainList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*AmplifyDomainAssociationSubDomain:
 		val := val.(*[]*AmplifyDomainAssociationSubDomain)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_AmplifyDomainAssociationSubDomainList) validateSetInternalVal
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*AmplifyDomainAssociationSubDomain; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*AmplifyDomainAssociationSubDomain; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_AmplifyDomainAssociationSubDomainList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_AmplifyDomainAssociationSubDomainList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AmplifyDomainAssociationSubDomainList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_AmplifyDomainAssociationSubDomainList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewAmplifyDomainAssociationSubDomainListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAmplifyDomainAssociationSubDomainListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

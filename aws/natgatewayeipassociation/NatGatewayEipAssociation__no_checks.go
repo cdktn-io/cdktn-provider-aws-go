@@ -107,7 +107,7 @@ func (j *jsiiProxy_NatGatewayEipAssociation) validateSetCountParameters(val inte
 	return nil
 }
 
-func (j *jsiiProxy_NatGatewayEipAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NatGatewayEipAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

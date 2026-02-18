@@ -5,14 +5,14 @@ package dataawsec2localgatewayvirtualinterfacegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsec2localgatewayvirtualinterfacegroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsec2localgatewayvirtualinterfacegroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Values() *[]*string
 	SetValues(val *[]*string)
 	ValuesInput() *[]*string
@@ -51,7 +51,7 @@ type DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference interface 
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference interface 
 
 // The jsii proxy struct for DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference
 type jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference) ComplexObjectIndex() interface{} {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputRefere
 }
 
 
-func NewDataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference {
+func NewDataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -213,7 +213,7 @@ func NewDataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference(terrafo
 	return &j
 }
 
-func NewDataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference_Override(d DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference_Override(d DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputRefere
 	)
 }
 
-func (j *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (d *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -457,8 +457,8 @@ func (d *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -470,11 +470,11 @@ func (d *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -486,7 +486,7 @@ func (d *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupFilterOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

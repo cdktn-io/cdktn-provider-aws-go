@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataAwsRoute53TrafficPolicyDocumentRuleOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (d *jsiiProxy_DataAwsRoute53TrafficPolicyDocumentRuleOutputReference) valid
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataAwsRoute53TrafficPolicyDocumentRuleGeoProximityLocation:
 		value := value.(*[]*DataAwsRoute53TrafficPolicyDocumentRuleGeoProximityLocation)
@@ -117,7 +117,7 @@ func (d *jsiiProxy_DataAwsRoute53TrafficPolicyDocumentRuleOutputReference) valid
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataAwsRoute53TrafficPolicyDocumentRuleGeoProximityLocation; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataAwsRoute53TrafficPolicyDocumentRuleGeoProximityLocation; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (d *jsiiProxy_DataAwsRoute53TrafficPolicyDocumentRuleOutputReference) valid
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataAwsRoute53TrafficPolicyDocumentRuleItems:
 		value := value.(*[]*DataAwsRoute53TrafficPolicyDocumentRuleItems)
@@ -148,7 +148,7 @@ func (d *jsiiProxy_DataAwsRoute53TrafficPolicyDocumentRuleOutputReference) valid
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataAwsRoute53TrafficPolicyDocumentRuleItems; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataAwsRoute53TrafficPolicyDocumentRuleItems; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (d *jsiiProxy_DataAwsRoute53TrafficPolicyDocumentRuleOutputReference) valid
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataAwsRoute53TrafficPolicyDocumentRuleLocation:
 		value := value.(*[]*DataAwsRoute53TrafficPolicyDocumentRuleLocation)
@@ -179,7 +179,7 @@ func (d *jsiiProxy_DataAwsRoute53TrafficPolicyDocumentRuleOutputReference) valid
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataAwsRoute53TrafficPolicyDocumentRuleLocation; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataAwsRoute53TrafficPolicyDocumentRuleLocation; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -202,7 +202,7 @@ func (d *jsiiProxy_DataAwsRoute53TrafficPolicyDocumentRuleOutputReference) valid
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataAwsRoute53TrafficPolicyDocumentRuleRegion:
 		value := value.(*[]*DataAwsRoute53TrafficPolicyDocumentRuleRegion)
@@ -221,7 +221,7 @@ func (d *jsiiProxy_DataAwsRoute53TrafficPolicyDocumentRuleOutputReference) valid
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataAwsRoute53TrafficPolicyDocumentRuleRegion; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataAwsRoute53TrafficPolicyDocumentRuleRegion; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -239,7 +239,7 @@ func (d *jsiiProxy_DataAwsRoute53TrafficPolicyDocumentRuleOutputReference) valid
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsRoute53TrafficPolicyDocumentRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsRoute53TrafficPolicyDocumentRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -322,7 +322,7 @@ func (j *jsiiProxy_DataAwsRoute53TrafficPolicyDocumentRuleOutputReference) valid
 
 func (j *jsiiProxy_DataAwsRoute53TrafficPolicyDocumentRuleOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *DataAwsRoute53TrafficPolicyDocumentRule:
 		val := val.(*DataAwsRoute53TrafficPolicyDocumentRule)
@@ -337,7 +337,7 @@ func (j *jsiiProxy_DataAwsRoute53TrafficPolicyDocumentRuleOutputReference) valid
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *DataAwsRoute53TrafficPolicyDocumentRule; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *DataAwsRoute53TrafficPolicyDocumentRule; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsRoute53TrafficPolicyDocumentRuleOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRoute53TrafficPolicyDocumentRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsRoute53TrafficPolicyDocumentRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -368,7 +368,7 @@ func (j *jsiiProxy_DataAwsRoute53TrafficPolicyDocumentRuleOutputReference) valid
 	return nil
 }
 
-func validateNewDataAwsRoute53TrafficPolicyDocumentRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsRoute53TrafficPolicyDocumentRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

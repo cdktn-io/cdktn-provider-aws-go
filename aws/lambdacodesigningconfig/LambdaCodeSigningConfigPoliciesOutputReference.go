@@ -5,14 +5,14 @@ package lambdacodesigningconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lambdacodesigningconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lambdacodesigningconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LambdaCodeSigningConfigPoliciesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type LambdaCodeSigningConfigPoliciesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UntrustedArtifactOnDeployment() *string
 	SetUntrustedArtifactOnDeployment(val *string)
 	UntrustedArtifactOnDeploymentInput() *string
@@ -48,7 +48,7 @@ type LambdaCodeSigningConfigPoliciesOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type LambdaCodeSigningConfigPoliciesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type LambdaCodeSigningConfigPoliciesOutputReference interface {
 
 // The jsii proxy struct for LambdaCodeSigningConfigPoliciesOutputReference
 type jsiiProxy_LambdaCodeSigningConfigPoliciesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LambdaCodeSigningConfigPoliciesOutputReference) ComplexObjectIndex() interface{} {
@@ -142,8 +142,8 @@ func (j *jsiiProxy_LambdaCodeSigningConfigPoliciesOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_LambdaCodeSigningConfigPoliciesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LambdaCodeSigningConfigPoliciesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_LambdaCodeSigningConfigPoliciesOutputReference) UntrustedArti
 }
 
 
-func NewLambdaCodeSigningConfigPoliciesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LambdaCodeSigningConfigPoliciesOutputReference {
+func NewLambdaCodeSigningConfigPoliciesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LambdaCodeSigningConfigPoliciesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLambdaCodeSigningConfigPoliciesOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewLambdaCodeSigningConfigPoliciesOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewLambdaCodeSigningConfigPoliciesOutputReference_Override(l LambdaCodeSigningConfigPoliciesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLambdaCodeSigningConfigPoliciesOutputReference_Override(l LambdaCodeSigningConfigPoliciesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -244,7 +244,7 @@ func (j *jsiiProxy_LambdaCodeSigningConfigPoliciesOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_LambdaCodeSigningConfigPoliciesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LambdaCodeSigningConfigPoliciesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (l *jsiiProxy_LambdaCodeSigningConfigPoliciesOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (l *jsiiProxy_LambdaCodeSigningConfigPoliciesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LambdaCodeSigningConfigPoliciesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -423,8 +423,8 @@ func (l *jsiiProxy_LambdaCodeSigningConfigPoliciesOutputReference) GetStringMapA
 	return returns
 }
 
-func (l *jsiiProxy_LambdaCodeSigningConfigPoliciesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LambdaCodeSigningConfigPoliciesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -436,11 +436,11 @@ func (l *jsiiProxy_LambdaCodeSigningConfigPoliciesOutputReference) Interpolation
 	return returns
 }
 
-func (l *jsiiProxy_LambdaCodeSigningConfigPoliciesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LambdaCodeSigningConfigPoliciesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -452,7 +452,7 @@ func (l *jsiiProxy_LambdaCodeSigningConfigPoliciesOutputReference) Interpolation
 	return returns
 }
 
-func (l *jsiiProxy_LambdaCodeSigningConfigPoliciesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LambdaCodeSigningConfigPoliciesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

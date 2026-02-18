@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsServicequotasServiceQuota) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsServicequotasServiceQuota) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsServicequotasServiceQuota) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

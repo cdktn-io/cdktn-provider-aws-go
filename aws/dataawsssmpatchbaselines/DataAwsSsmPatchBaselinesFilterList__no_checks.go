@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsSsmPatchBaselinesFilterList) validateGetParameters(ind
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsSsmPatchBaselinesFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsSsmPatchBaselinesFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsSsmPatchBaselinesFilterList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSsmPatchBaselinesFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsSsmPatchBaselinesFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsSsmPatchBaselinesFilterList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewDataAwsSsmPatchBaselinesFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsSsmPatchBaselinesFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

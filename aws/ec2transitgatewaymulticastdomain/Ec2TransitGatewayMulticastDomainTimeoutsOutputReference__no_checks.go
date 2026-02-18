@@ -47,7 +47,7 @@ func (e *jsiiProxy_Ec2TransitGatewayMulticastDomainTimeoutsOutputReference) vali
 	return nil
 }
 
-func (e *jsiiProxy_Ec2TransitGatewayMulticastDomainTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_Ec2TransitGatewayMulticastDomainTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_Ec2TransitGatewayMulticastDomainTimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_Ec2TransitGatewayMulticastDomainTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Ec2TransitGatewayMulticastDomainTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEc2TransitGatewayMulticastDomainTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEc2TransitGatewayMulticastDomainTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

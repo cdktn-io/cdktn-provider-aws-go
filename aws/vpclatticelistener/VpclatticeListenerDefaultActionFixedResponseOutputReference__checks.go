@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (v *jsiiProxy_VpclatticeListenerDefaultActionFixedResponseOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (v *jsiiProxy_VpclatticeListenerDefaultActionFixedResponseOutputReference) 
 	return nil
 }
 
-func (v *jsiiProxy_VpclatticeListenerDefaultActionFixedResponseOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpclatticeListenerDefaultActionFixedResponseOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -190,7 +190,7 @@ func (j *jsiiProxy_VpclatticeListenerDefaultActionFixedResponseOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_VpclatticeListenerDefaultActionFixedResponseOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpclatticeListenerDefaultActionFixedResponseOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -198,7 +198,7 @@ func (j *jsiiProxy_VpclatticeListenerDefaultActionFixedResponseOutputReference) 
 	return nil
 }
 
-func validateNewVpclatticeListenerDefaultActionFixedResponseOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpclatticeListenerDefaultActionFixedResponseOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

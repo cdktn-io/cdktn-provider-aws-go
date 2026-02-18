@@ -71,7 +71,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNode{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
@@ -112,7 +112,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -145,7 +145,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -178,7 +178,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsCertificateFileList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -212,7 +212,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsCertificateFileOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -233,7 +233,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsCertificateList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -267,7 +267,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsCertificateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -292,7 +292,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsCertificateSdsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -325,7 +325,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsCertificateSdsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -346,7 +346,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -382,7 +382,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -407,7 +407,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -441,7 +441,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -466,7 +466,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationSubjectAlternativeNamesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -491,7 +491,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationSubjectAlternativeNamesMatchList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -524,7 +524,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationSubjectAlternativeNamesMatchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -557,7 +557,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationSubjectAlternativeNamesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -586,7 +586,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrustAcmList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -619,7 +619,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrustAcmOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -644,7 +644,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrustFileList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -677,7 +677,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrustFileOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -698,7 +698,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrustList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -733,7 +733,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrustOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -758,7 +758,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrustSdsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -791,7 +791,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrustSdsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -812,7 +812,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -845,7 +845,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendDefaultsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -866,7 +866,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -899,7 +899,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -928,7 +928,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -961,7 +961,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -994,7 +994,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertificateFileList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1028,7 +1028,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertificateFileOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1049,7 +1049,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertificateList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1083,7 +1083,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertificateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1108,7 +1108,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertificateSdsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1141,7 +1141,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertificateSdsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1162,7 +1162,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1198,7 +1198,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1223,7 +1223,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1257,7 +1257,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1282,7 +1282,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1307,7 +1307,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatchList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1340,7 +1340,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1373,7 +1373,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1402,7 +1402,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationTrustAcmList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1435,7 +1435,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationTrustAcmOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1460,7 +1460,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationTrustFileList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1493,7 +1493,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationTrustFileOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1514,7 +1514,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationTrustList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1549,7 +1549,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationTrustOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1574,7 +1574,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationTrustSdsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1607,7 +1607,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationTrustSdsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1628,7 +1628,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1662,7 +1662,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecBackendVirtualServiceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1683,7 +1683,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1716,7 +1716,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerConnectionPoolGrpcList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1749,7 +1749,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerConnectionPoolGrpcOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1778,7 +1778,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerConnectionPoolHttp2List{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1811,7 +1811,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerConnectionPoolHttp2OutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1832,7 +1832,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerConnectionPoolHttpList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1866,7 +1866,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerConnectionPoolHttpOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1887,7 +1887,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerConnectionPoolList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1923,7 +1923,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerConnectionPoolOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1948,7 +1948,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerConnectionPoolTcpList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1981,7 +1981,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerConnectionPoolTcpOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2006,7 +2006,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerHealthCheckList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2045,7 +2045,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerHealthCheckOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2066,7 +2066,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2095,7 +2095,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionBaseEjectionDurationList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2129,7 +2129,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionBaseEjectionDurationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2154,7 +2154,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionIntervalList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2188,7 +2188,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionIntervalOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2209,7 +2209,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2245,7 +2245,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerOutlierDetectionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2283,7 +2283,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2308,7 +2308,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerPortMappingList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2342,7 +2342,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerPortMappingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2375,7 +2375,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutGrpcIdleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2409,7 +2409,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutGrpcIdleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2430,7 +2430,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutGrpcList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2464,7 +2464,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutGrpcOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2489,7 +2489,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutGrpcPerRequestList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2523,7 +2523,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutGrpcPerRequestOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2556,7 +2556,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutHttp2IdleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2590,7 +2590,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutHttp2IdleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2611,7 +2611,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutHttp2List{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2645,7 +2645,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutHttp2OutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2670,7 +2670,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutHttp2PerRequestList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2704,7 +2704,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutHttp2PerRequestOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2729,7 +2729,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutHttpIdleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2763,7 +2763,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutHttpIdleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2784,7 +2784,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutHttpList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2818,7 +2818,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutHttpOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2843,7 +2843,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutHttpPerRequestList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2877,7 +2877,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutHttpPerRequestOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2898,7 +2898,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2934,7 +2934,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2963,7 +2963,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutTcpIdleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2997,7 +2997,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutTcpIdleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3018,7 +3018,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutTcpList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3051,7 +3051,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTimeoutTcpOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3084,7 +3084,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsCertificateAcmList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3117,7 +3117,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsCertificateAcmOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3142,7 +3142,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsCertificateFileList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3176,7 +3176,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsCertificateFileOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3197,7 +3197,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsCertificateList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3232,7 +3232,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsCertificateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3257,7 +3257,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsCertificateSdsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3290,7 +3290,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsCertificateSdsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3311,7 +3311,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3346,7 +3346,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3371,7 +3371,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsValidationList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3405,7 +3405,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsValidationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3430,7 +3430,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsValidationSubjectAlternativeNamesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3455,7 +3455,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsValidationSubjectAlternativeNamesMatchList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3488,7 +3488,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsValidationSubjectAlternativeNamesMatchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3521,7 +3521,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsValidationSubjectAlternativeNamesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3550,7 +3550,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsValidationTrustFileList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3583,7 +3583,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsValidationTrustFileOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3604,7 +3604,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsValidationTrustList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3638,7 +3638,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsValidationTrustOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3663,7 +3663,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsValidationTrustSdsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3696,7 +3696,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsValidationTrustSdsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3737,7 +3737,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecLoggingAccessLogFileFormatJsonList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3771,7 +3771,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecLoggingAccessLogFileFormatJsonOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3792,7 +3792,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecLoggingAccessLogFileFormatList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3826,7 +3826,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecLoggingAccessLogFileFormatOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3847,7 +3847,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecLoggingAccessLogFileList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3881,7 +3881,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecLoggingAccessLogFileOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3902,7 +3902,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecLoggingAccessLogList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3935,7 +3935,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecLoggingAccessLogOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3956,7 +3956,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecLoggingList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3989,7 +3989,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecLoggingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4026,7 +4026,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4055,7 +4055,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecServiceDiscoveryAwsCloudMapList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -4090,7 +4090,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecServiceDiscoveryAwsCloudMapOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4115,7 +4115,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecServiceDiscoveryDnsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -4150,7 +4150,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecServiceDiscoveryDnsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4171,7 +4171,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecServiceDiscoveryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -4205,7 +4205,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecServiceDiscoveryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

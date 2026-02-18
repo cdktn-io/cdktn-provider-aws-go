@@ -47,7 +47,7 @@ func (g *jsiiProxy_GlueTriggerEventBatchingConditionOutputReference) validateInt
 	return nil
 }
 
-func (g *jsiiProxy_GlueTriggerEventBatchingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueTriggerEventBatchingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GlueTriggerEventBatchingConditionOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_GlueTriggerEventBatchingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueTriggerEventBatchingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGlueTriggerEventBatchingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGlueTriggerEventBatchingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

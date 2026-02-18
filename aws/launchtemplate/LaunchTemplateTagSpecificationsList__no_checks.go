@@ -15,7 +15,7 @@ func (l *jsiiProxy_LaunchTemplateTagSpecificationsList) validateGetParameters(in
 	return nil
 }
 
-func (l *jsiiProxy_LaunchTemplateTagSpecificationsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LaunchTemplateTagSpecificationsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LaunchTemplateTagSpecificationsList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_LaunchTemplateTagSpecificationsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LaunchTemplateTagSpecificationsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LaunchTemplateTagSpecificationsList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewLaunchTemplateTagSpecificationsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLaunchTemplateTagSpecificationsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

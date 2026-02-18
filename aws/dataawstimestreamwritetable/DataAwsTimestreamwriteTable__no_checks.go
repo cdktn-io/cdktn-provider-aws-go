@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsTimestreamwriteTable) validateSetDatabaseNameParameter
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsTimestreamwriteTable) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsTimestreamwriteTable) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

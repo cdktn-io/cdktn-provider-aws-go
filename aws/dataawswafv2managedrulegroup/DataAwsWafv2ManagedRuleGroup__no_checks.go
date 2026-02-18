@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroup) validateSetCountParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

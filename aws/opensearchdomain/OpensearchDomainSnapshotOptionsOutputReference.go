@@ -5,14 +5,14 @@ package opensearchdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/opensearchdomain/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/opensearchdomain/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OpensearchDomainSnapshotOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AutomatedSnapshotStartHour() *float64
 	SetAutomatedSnapshotStartHour(val *float64)
 	AutomatedSnapshotStartHourInput() *float64
@@ -40,15 +40,15 @@ type OpensearchDomainSnapshotOptionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type OpensearchDomainSnapshotOptionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type OpensearchDomainSnapshotOptionsOutputReference interface {
 
 // The jsii proxy struct for OpensearchDomainSnapshotOptionsOutputReference
 type jsiiProxy_OpensearchDomainSnapshotOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OpensearchDomainSnapshotOptionsOutputReference) AutomatedSnapshotStartHour() *float64 {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_OpensearchDomainSnapshotOptionsOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_OpensearchDomainSnapshotOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OpensearchDomainSnapshotOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_OpensearchDomainSnapshotOptionsOutputReference) TerraformReso
 }
 
 
-func NewOpensearchDomainSnapshotOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) OpensearchDomainSnapshotOptionsOutputReference {
+func NewOpensearchDomainSnapshotOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) OpensearchDomainSnapshotOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOpensearchDomainSnapshotOptionsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewOpensearchDomainSnapshotOptionsOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewOpensearchDomainSnapshotOptionsOutputReference_Override(o OpensearchDomainSnapshotOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewOpensearchDomainSnapshotOptionsOutputReference_Override(o OpensearchDomainSnapshotOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_OpensearchDomainSnapshotOptionsOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_OpensearchDomainSnapshotOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OpensearchDomainSnapshotOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (o *jsiiProxy_OpensearchDomainSnapshotOptionsOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (o *jsiiProxy_OpensearchDomainSnapshotOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OpensearchDomainSnapshotOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -423,8 +423,8 @@ func (o *jsiiProxy_OpensearchDomainSnapshotOptionsOutputReference) GetStringMapA
 	return returns
 }
 
-func (o *jsiiProxy_OpensearchDomainSnapshotOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OpensearchDomainSnapshotOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -436,11 +436,11 @@ func (o *jsiiProxy_OpensearchDomainSnapshotOptionsOutputReference) Interpolation
 	return returns
 }
 
-func (o *jsiiProxy_OpensearchDomainSnapshotOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OpensearchDomainSnapshotOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -452,7 +452,7 @@ func (o *jsiiProxy_OpensearchDomainSnapshotOptionsOutputReference) Interpolation
 	return returns
 }
 
-func (o *jsiiProxy_OpensearchDomainSnapshotOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OpensearchDomainSnapshotOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

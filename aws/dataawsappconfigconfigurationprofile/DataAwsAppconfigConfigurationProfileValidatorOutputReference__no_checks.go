@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsAppconfigConfigurationProfileValidatorOutputReference)
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAppconfigConfigurationProfileValidatorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAppconfigConfigurationProfileValidatorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsAppconfigConfigurationProfileValidatorOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAppconfigConfigurationProfileValidatorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAppconfigConfigurationProfileValidatorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsAppconfigConfigurationProfileValidatorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsAppconfigConfigurationProfileValidatorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

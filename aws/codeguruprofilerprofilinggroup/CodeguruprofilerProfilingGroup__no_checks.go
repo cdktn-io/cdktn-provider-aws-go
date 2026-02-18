@@ -107,7 +107,7 @@ func (j *jsiiProxy_CodeguruprofilerProfilingGroup) validateSetCountParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_CodeguruprofilerProfilingGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CodeguruprofilerProfilingGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

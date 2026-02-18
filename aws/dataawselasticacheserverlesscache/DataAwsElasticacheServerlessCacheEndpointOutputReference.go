@@ -5,14 +5,14 @@ package dataawselasticacheserverlesscache
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawselasticacheserverlesscache/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawselasticacheserverlesscache/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsElasticacheServerlessCacheEndpointOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Address() *string
 	// the index of the complex object in a list.
 	// Experimental.
@@ -39,15 +39,15 @@ type DataAwsElasticacheServerlessCacheEndpointOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type DataAwsElasticacheServerlessCacheEndpointOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type DataAwsElasticacheServerlessCacheEndpointOutputReference interface {
 
 // The jsii proxy struct for DataAwsElasticacheServerlessCacheEndpointOutputReference
 type jsiiProxy_DataAwsElasticacheServerlessCacheEndpointOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsElasticacheServerlessCacheEndpointOutputReference) Address() *string {
@@ -161,8 +161,8 @@ func (j *jsiiProxy_DataAwsElasticacheServerlessCacheEndpointOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsElasticacheServerlessCacheEndpointOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsElasticacheServerlessCacheEndpointOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_DataAwsElasticacheServerlessCacheEndpointOutputReference) Ter
 }
 
 
-func NewDataAwsElasticacheServerlessCacheEndpointOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataAwsElasticacheServerlessCacheEndpointOutputReference {
+func NewDataAwsElasticacheServerlessCacheEndpointOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataAwsElasticacheServerlessCacheEndpointOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsElasticacheServerlessCacheEndpointOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -189,7 +189,7 @@ func NewDataAwsElasticacheServerlessCacheEndpointOutputReference(terraformResour
 	return &j
 }
 
-func NewDataAwsElasticacheServerlessCacheEndpointOutputReference_Override(d DataAwsElasticacheServerlessCacheEndpointOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataAwsElasticacheServerlessCacheEndpointOutputReference_Override(d DataAwsElasticacheServerlessCacheEndpointOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -243,7 +243,7 @@ func (j *jsiiProxy_DataAwsElasticacheServerlessCacheEndpointOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_DataAwsElasticacheServerlessCacheEndpointOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsElasticacheServerlessCacheEndpointOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (d *jsiiProxy_DataAwsElasticacheServerlessCacheEndpointOutputReference) Get
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsElasticacheServerlessCacheEndpointOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsElasticacheServerlessCacheEndpointOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -411,8 +411,8 @@ func (d *jsiiProxy_DataAwsElasticacheServerlessCacheEndpointOutputReference) Get
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsElasticacheServerlessCacheEndpointOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsElasticacheServerlessCacheEndpointOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -424,11 +424,11 @@ func (d *jsiiProxy_DataAwsElasticacheServerlessCacheEndpointOutputReference) Int
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsElasticacheServerlessCacheEndpointOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsElasticacheServerlessCacheEndpointOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -440,7 +440,7 @@ func (d *jsiiProxy_DataAwsElasticacheServerlessCacheEndpointOutputReference) Int
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsElasticacheServerlessCacheEndpointOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsElasticacheServerlessCacheEndpointOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

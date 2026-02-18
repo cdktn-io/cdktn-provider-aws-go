@@ -5,23 +5,23 @@ package dataawsodbdbnode
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsodbdbnode/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsodbdbnode/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/odb_db_node aws_odb_db_node}.
 type DataAwsOdbDbNode interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AdditionalDetails() *string
 	Arn() *string
 	BackupIpId() *string
 	BackupVnic2Id() *string
 	BackupVnicId() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CloudVmClusterId() *string
 	SetCloudVmClusterId(val *string)
 	CloudVmClusterIdInput() *string
@@ -43,9 +43,9 @@ type DataAwsOdbDbNode interface {
 	FaultDomain() *string
 	FloatingIpAddress() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -56,9 +56,9 @@ type DataAwsOdbDbNode interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MaintenanceType() *string
 	MemorySizeInGbs() *float64
 	// The tree node.
@@ -67,9 +67,9 @@ type DataAwsOdbDbNode interface {
 	OciResourceAnchorName() *string
 	PrivateIpAddress() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -79,7 +79,7 @@ type DataAwsOdbDbNode interface {
 	Status() *string
 	StatusReason() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -94,7 +94,7 @@ type DataAwsOdbDbNode interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -110,7 +110,7 @@ type DataAwsOdbDbNode interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -134,7 +134,7 @@ type DataAwsOdbDbNode interface {
 
 // The jsii proxy struct for DataAwsOdbDbNode
 type jsiiProxy_DataAwsOdbDbNode struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsOdbDbNode) AdditionalDetails() *string {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_DataAwsOdbDbNode) BackupVnicId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsOdbDbNode) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsOdbDbNode) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -317,8 +317,8 @@ func (j *jsiiProxy_DataAwsOdbDbNode) FloatingIpAddress() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsOdbDbNode) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsOdbDbNode) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -387,8 +387,8 @@ func (j *jsiiProxy_DataAwsOdbDbNode) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsOdbDbNode) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsOdbDbNode) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -457,8 +457,8 @@ func (j *jsiiProxy_DataAwsOdbDbNode) PrivateIpAddress() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsOdbDbNode) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsOdbDbNode) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -527,8 +527,8 @@ func (j *jsiiProxy_DataAwsOdbDbNode) StatusReason() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsOdbDbNode) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsOdbDbNode) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -667,7 +667,7 @@ func (j *jsiiProxy_DataAwsOdbDbNode)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsOdbDbNode)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsOdbDbNode)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -686,7 +686,7 @@ func (j *jsiiProxy_DataAwsOdbDbNode)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsOdbDbNode)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsOdbDbNode)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -697,7 +697,7 @@ func (j *jsiiProxy_DataAwsOdbDbNode)SetLifecycle(val *cdktf.TerraformResourceLif
 	)
 }
 
-func (j *jsiiProxy_DataAwsOdbDbNode)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsOdbDbNode)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -716,14 +716,14 @@ func (j *jsiiProxy_DataAwsOdbDbNode)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsOdbDbNode resource upon running "cdktf plan <stack-name>".
-func DataAwsOdbDbNode_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsOdbDbNode resource upon running "cdktn plan <stack-name>".
+func DataAwsOdbDbNode_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsOdbDbNode_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsOdbDbNode.DataAwsOdbDbNode",
@@ -846,11 +846,11 @@ func (d *jsiiProxy_DataAwsOdbDbNode) GetAnyMapAttribute(terraformAttribute *stri
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsOdbDbNode) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsOdbDbNode) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -974,11 +974,11 @@ func (d *jsiiProxy_DataAwsOdbDbNode) GetStringMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsOdbDbNode) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsOdbDbNode) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

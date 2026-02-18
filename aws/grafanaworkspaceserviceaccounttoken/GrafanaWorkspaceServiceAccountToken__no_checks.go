@@ -99,7 +99,7 @@ func (j *jsiiProxy_GrafanaWorkspaceServiceAccountToken) validateSetCountParamete
 	return nil
 }
 
-func (j *jsiiProxy_GrafanaWorkspaceServiceAccountToken) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GrafanaWorkspaceServiceAccountToken) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

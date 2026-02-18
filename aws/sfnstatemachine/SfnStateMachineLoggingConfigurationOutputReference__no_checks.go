@@ -47,7 +47,7 @@ func (s *jsiiProxy_SfnStateMachineLoggingConfigurationOutputReference) validateI
 	return nil
 }
 
-func (s *jsiiProxy_SfnStateMachineLoggingConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SfnStateMachineLoggingConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_SfnStateMachineLoggingConfigurationOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_SfnStateMachineLoggingConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SfnStateMachineLoggingConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSfnStateMachineLoggingConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSfnStateMachineLoggingConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

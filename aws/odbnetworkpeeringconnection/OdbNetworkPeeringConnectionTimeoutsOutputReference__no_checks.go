@@ -47,7 +47,7 @@ func (o *jsiiProxy_OdbNetworkPeeringConnectionTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (o *jsiiProxy_OdbNetworkPeeringConnectionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OdbNetworkPeeringConnectionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_OdbNetworkPeeringConnectionTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_OdbNetworkPeeringConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OdbNetworkPeeringConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_OdbNetworkPeeringConnectionTimeoutsOutputReference) validateS
 	return nil
 }
 
-func validateNewOdbNetworkPeeringConnectionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOdbNetworkPeeringConnectionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

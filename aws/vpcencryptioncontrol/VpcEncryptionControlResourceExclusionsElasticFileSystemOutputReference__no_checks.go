@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsElasticFileSystemOutput
 	return nil
 }
 
-func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsElasticFileSystemOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsElasticFileSystemOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_VpcEncryptionControlResourceExclusionsElasticFileSystemOutput
 	return nil
 }
 
-func (j *jsiiProxy_VpcEncryptionControlResourceExclusionsElasticFileSystemOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpcEncryptionControlResourceExclusionsElasticFileSystemOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpcEncryptionControlResourceExclusionsElasticFileSystemOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpcEncryptionControlResourceExclusionsElasticFileSystemOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

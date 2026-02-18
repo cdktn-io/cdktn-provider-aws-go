@@ -115,7 +115,7 @@ func (j *jsiiProxy_S3BucketIntelligentTieringConfiguration) validateSetIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketIntelligentTieringConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_S3BucketIntelligentTieringConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

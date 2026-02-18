@@ -15,7 +15,7 @@ func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesKeyModesOfUseList) validat
 	return nil
 }
 
-func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesKeyModesOfUseList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesKeyModesOfUseList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesKeyModesOfUseList) validat
 	return nil
 }
 
-func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesKeyModesOfUseList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesKeyModesOfUseList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesKeyModesOfUseList) validat
 	return nil
 }
 
-func validateNewPaymentcryptographyKeyKeyAttributesKeyModesOfUseListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewPaymentcryptographyKeyKeyAttributesKeyModesOfUseListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

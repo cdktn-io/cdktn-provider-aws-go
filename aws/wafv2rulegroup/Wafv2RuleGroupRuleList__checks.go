@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (w *jsiiProxy_Wafv2RuleGroupRuleList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (w *jsiiProxy_Wafv2RuleGroupRuleList) validateGetParameters(index *float64)
 	return nil
 }
 
-func (w *jsiiProxy_Wafv2RuleGroupRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_Wafv2RuleGroupRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (w *jsiiProxy_Wafv2RuleGroupRuleList) validateResolveParameters(context cdk
 
 func (j *jsiiProxy_Wafv2RuleGroupRuleList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Wafv2RuleGroupRule:
 		val := val.(*[]*Wafv2RuleGroupRule)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_Wafv2RuleGroupRuleList) validateSetInternalValueParameters(va
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*Wafv2RuleGroupRule; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*Wafv2RuleGroupRule; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_Wafv2RuleGroupRuleList) validateSetTerraformAttributeParamete
 	return nil
 }
 
-func (j *jsiiProxy_Wafv2RuleGroupRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Wafv2RuleGroupRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_Wafv2RuleGroupRuleList) validateSetWrapsSetParameters(val *bo
 	return nil
 }
 
-func validateNewWafv2RuleGroupRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWafv2RuleGroupRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

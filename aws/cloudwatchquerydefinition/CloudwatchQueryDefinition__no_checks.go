@@ -103,7 +103,7 @@ func (j *jsiiProxy_CloudwatchQueryDefinition) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchQueryDefinition) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudwatchQueryDefinition) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

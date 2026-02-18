@@ -5,14 +5,14 @@ package dataawsec2publicipv4pool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsec2publicipv4pool/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsec2publicipv4pool/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AddressCount() *float64
 	AvailableAddressCount() *float64
 	// the index of the complex object in a list.
@@ -41,15 +41,15 @@ type DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference interface {
 
 // The jsii proxy struct for DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference
 type jsiiProxy_DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference) AddressCount() *float64 {
@@ -183,8 +183,8 @@ func (j *jsiiProxy_DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -194,7 +194,7 @@ func (j *jsiiProxy_DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference) Ter
 }
 
 
-func NewDataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference {
+func NewDataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -211,7 +211,7 @@ func NewDataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference(terraformResour
 	return &j
 }
 
-func NewDataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference_Override(d DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference_Override(d DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -265,7 +265,7 @@ func (j *jsiiProxy_DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -305,11 +305,11 @@ func (d *jsiiProxy_DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference) Get
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -433,8 +433,8 @@ func (d *jsiiProxy_DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference) Get
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -446,11 +446,11 @@ func (d *jsiiProxy_DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference) Int
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -462,7 +462,7 @@ func (d *jsiiProxy_DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference) Int
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsEc2PublicIpv4PoolPoolAddressRangesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

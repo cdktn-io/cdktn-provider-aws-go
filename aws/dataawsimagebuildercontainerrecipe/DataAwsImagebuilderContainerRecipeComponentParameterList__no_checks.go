@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsImagebuilderContainerRecipeComponentParameterList) val
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsImagebuilderContainerRecipeComponentParameterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsImagebuilderContainerRecipeComponentParameterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsImagebuilderContainerRecipeComponentParameterList) val
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsImagebuilderContainerRecipeComponentParameterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsImagebuilderContainerRecipeComponentParameterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsImagebuilderContainerRecipeComponentParameterList) val
 	return nil
 }
 
-func validateNewDataAwsImagebuilderContainerRecipeComponentParameterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsImagebuilderContainerRecipeComponentParameterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

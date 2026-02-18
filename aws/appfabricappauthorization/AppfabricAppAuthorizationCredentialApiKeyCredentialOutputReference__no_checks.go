@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppfabricAppAuthorizationCredentialApiKeyCredentialOutputRefe
 	return nil
 }
 
-func (a *jsiiProxy_AppfabricAppAuthorizationCredentialApiKeyCredentialOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppfabricAppAuthorizationCredentialApiKeyCredentialOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AppfabricAppAuthorizationCredentialApiKeyCredentialOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_AppfabricAppAuthorizationCredentialApiKeyCredentialOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppfabricAppAuthorizationCredentialApiKeyCredentialOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppfabricAppAuthorizationCredentialApiKeyCredentialOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppfabricAppAuthorizationCredentialApiKeyCredentialOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -123,7 +123,7 @@ func (j *jsiiProxy_SecurityGroupRule) validateSetIpv6CidrBlocksParameters(val *[
 	return nil
 }
 
-func (j *jsiiProxy_SecurityGroupRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SecurityGroupRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

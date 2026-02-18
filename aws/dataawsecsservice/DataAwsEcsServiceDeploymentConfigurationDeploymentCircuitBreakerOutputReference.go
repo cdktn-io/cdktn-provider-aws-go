@@ -5,14 +5,14 @@ package dataawsecsservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsecsservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsecsservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -28,26 +28,26 @@ type DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputRefer
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	Enable() cdktf.IResolvable
+	Enable() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreaker
 	SetInternalValue(val *DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreaker)
-	Rollback() cdktf.IResolvable
+	Rollback() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputRefer
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputRefer
 
 // The jsii proxy struct for DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference
 type jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference) ComplexObjectIndex() interface{} {
@@ -111,8 +111,8 @@ func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBrea
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference) Enable() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference) Enable() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enable",
@@ -141,8 +141,8 @@ func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBrea
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference) Rollback() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference) Rollback() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"rollback",
@@ -161,8 +161,8 @@ func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBrea
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBrea
 }
 
 
-func NewDataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference {
+func NewDataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -189,7 +189,7 @@ func NewDataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputRe
 	return &j
 }
 
-func NewDataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference_Override(d DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference_Override(d DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -243,7 +243,7 @@ func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBrea
 	)
 }
 
-func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (d *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBrea
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -411,8 +411,8 @@ func (d *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBrea
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -424,11 +424,11 @@ func (d *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBrea
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -440,7 +440,7 @@ func (d *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBrea
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

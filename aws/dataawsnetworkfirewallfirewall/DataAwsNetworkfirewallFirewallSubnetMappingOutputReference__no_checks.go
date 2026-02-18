@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsNetworkfirewallFirewallSubnetMappingOutputReference) v
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsNetworkfirewallFirewallSubnetMappingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsNetworkfirewallFirewallSubnetMappingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsNetworkfirewallFirewallSubnetMappingOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsNetworkfirewallFirewallSubnetMappingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsNetworkfirewallFirewallSubnetMappingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsNetworkfirewallFirewallSubnetMappingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsNetworkfirewallFirewallSubnetMappingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

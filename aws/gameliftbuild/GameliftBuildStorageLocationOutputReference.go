@@ -5,14 +5,14 @@ package gameliftbuild
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/gameliftbuild/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/gameliftbuild/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GameliftBuildStorageLocationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Bucket() *string
 	SetBucket(val *string)
 	BucketInput() *string
@@ -49,15 +49,15 @@ type GameliftBuildStorageLocationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,13 +73,13 @@ type GameliftBuildStorageLocationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetObjectVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -89,7 +89,7 @@ type GameliftBuildStorageLocationOutputReference interface {
 
 // The jsii proxy struct for GameliftBuildStorageLocationOutputReference
 type jsiiProxy_GameliftBuildStorageLocationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GameliftBuildStorageLocationOutputReference) Bucket() *string {
@@ -232,8 +232,8 @@ func (j *jsiiProxy_GameliftBuildStorageLocationOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_GameliftBuildStorageLocationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GameliftBuildStorageLocationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -243,7 +243,7 @@ func (j *jsiiProxy_GameliftBuildStorageLocationOutputReference) TerraformResourc
 }
 
 
-func NewGameliftBuildStorageLocationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GameliftBuildStorageLocationOutputReference {
+func NewGameliftBuildStorageLocationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GameliftBuildStorageLocationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGameliftBuildStorageLocationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -260,7 +260,7 @@ func NewGameliftBuildStorageLocationOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewGameliftBuildStorageLocationOutputReference_Override(g GameliftBuildStorageLocationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGameliftBuildStorageLocationOutputReference_Override(g GameliftBuildStorageLocationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -358,7 +358,7 @@ func (j *jsiiProxy_GameliftBuildStorageLocationOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_GameliftBuildStorageLocationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GameliftBuildStorageLocationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -398,11 +398,11 @@ func (g *jsiiProxy_GameliftBuildStorageLocationOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (g *jsiiProxy_GameliftBuildStorageLocationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GameliftBuildStorageLocationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -526,8 +526,8 @@ func (g *jsiiProxy_GameliftBuildStorageLocationOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (g *jsiiProxy_GameliftBuildStorageLocationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GameliftBuildStorageLocationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -539,11 +539,11 @@ func (g *jsiiProxy_GameliftBuildStorageLocationOutputReference) InterpolationAsL
 	return returns
 }
 
-func (g *jsiiProxy_GameliftBuildStorageLocationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GameliftBuildStorageLocationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -563,7 +563,7 @@ func (g *jsiiProxy_GameliftBuildStorageLocationOutputReference) ResetObjectVersi
 	)
 }
 
-func (g *jsiiProxy_GameliftBuildStorageLocationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GameliftBuildStorageLocationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

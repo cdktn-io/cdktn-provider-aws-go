@@ -47,7 +47,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigUngra
 	return nil
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigUngracefulOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigUngracefulOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigUngra
 	return nil
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigUngracefulOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigUngracefulOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigUngracefulOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigUngracefulOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

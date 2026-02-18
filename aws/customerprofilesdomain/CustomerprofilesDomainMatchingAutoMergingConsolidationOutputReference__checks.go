@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_CustomerprofilesDomainMatchingAutoMergingConsolidationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (c *jsiiProxy_CustomerprofilesDomainMatchingAutoMergingConsolidationOutputR
 	return nil
 }
 
-func (c *jsiiProxy_CustomerprofilesDomainMatchingAutoMergingConsolidationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CustomerprofilesDomainMatchingAutoMergingConsolidationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -179,7 +179,7 @@ func (j *jsiiProxy_CustomerprofilesDomainMatchingAutoMergingConsolidationOutputR
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*[]*string:
 		// ok
@@ -187,7 +187,7 @@ func (j *jsiiProxy_CustomerprofilesDomainMatchingAutoMergingConsolidationOutputR
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*[]*string; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*[]*string; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -202,7 +202,7 @@ func (j *jsiiProxy_CustomerprofilesDomainMatchingAutoMergingConsolidationOutputR
 	return nil
 }
 
-func (j *jsiiProxy_CustomerprofilesDomainMatchingAutoMergingConsolidationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CustomerprofilesDomainMatchingAutoMergingConsolidationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -210,7 +210,7 @@ func (j *jsiiProxy_CustomerprofilesDomainMatchingAutoMergingConsolidationOutputR
 	return nil
 }
 
-func validateNewCustomerprofilesDomainMatchingAutoMergingConsolidationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCustomerprofilesDomainMatchingAutoMergingConsolidationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

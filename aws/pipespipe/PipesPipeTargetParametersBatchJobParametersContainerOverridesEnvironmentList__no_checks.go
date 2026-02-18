@@ -15,7 +15,7 @@ func (p *jsiiProxy_PipesPipeTargetParametersBatchJobParametersContainerOverrides
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironmentList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironmentList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersBatchJobParametersContainerOverrides
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironmentList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironmentList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersBatchJobParametersContainerOverrides
 	return nil
 }
 
-func validateNewPipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironmentListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewPipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironmentListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

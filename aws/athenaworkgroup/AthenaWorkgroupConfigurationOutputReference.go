@@ -5,14 +5,14 @@ package athenaworkgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/athenaworkgroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/athenaworkgroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AthenaWorkgroupConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BytesScannedCutoffPerQuery() *float64
 	SetBytesScannedCutoffPerQuery(val *float64)
 	BytesScannedCutoffPerQueryInput() *float64
@@ -67,15 +67,15 @@ type AthenaWorkgroupConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -91,9 +91,9 @@ type AthenaWorkgroupConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCustomerContentEncryptionConfiguration(value *AthenaWorkgroupConfigurationCustomerContentEncryptionConfiguration)
 	PutEngineVersion(value *AthenaWorkgroupConfigurationEngineVersion)
 	PutIdentityCenterConfiguration(value *AthenaWorkgroupConfigurationIdentityCenterConfiguration)
@@ -114,7 +114,7 @@ type AthenaWorkgroupConfigurationOutputReference interface {
 	ResetResultConfiguration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -124,7 +124,7 @@ type AthenaWorkgroupConfigurationOutputReference interface {
 
 // The jsii proxy struct for AthenaWorkgroupConfigurationOutputReference
 type jsiiProxy_AthenaWorkgroupConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) BytesScannedCutoffPerQuery() *float64 {
@@ -427,8 +427,8 @@ func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -438,7 +438,7 @@ func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) TerraformResourc
 }
 
 
-func NewAthenaWorkgroupConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AthenaWorkgroupConfigurationOutputReference {
+func NewAthenaWorkgroupConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AthenaWorkgroupConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAthenaWorkgroupConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -455,7 +455,7 @@ func NewAthenaWorkgroupConfigurationOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewAthenaWorkgroupConfigurationOutputReference_Override(a AthenaWorkgroupConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAthenaWorkgroupConfigurationOutputReference_Override(a AthenaWorkgroupConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -575,7 +575,7 @@ func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -615,11 +615,11 @@ func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -743,8 +743,8 @@ func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -756,11 +756,11 @@ func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) InterpolationAsL
 	return returns
 }
 
-func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -934,7 +934,7 @@ func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) ResetResultConfi
 	)
 }
 
-func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

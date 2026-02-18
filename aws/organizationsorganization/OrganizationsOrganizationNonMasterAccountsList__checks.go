@@ -8,7 +8,7 @@ package organizationsorganization
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (o *jsiiProxy_OrganizationsOrganizationNonMasterAccountsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (o *jsiiProxy_OrganizationsOrganizationNonMasterAccountsList) validateGetPa
 	return nil
 }
 
-func (o *jsiiProxy_OrganizationsOrganizationNonMasterAccountsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrganizationsOrganizationNonMasterAccountsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_OrganizationsOrganizationNonMasterAccountsList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_OrganizationsOrganizationNonMasterAccountsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrganizationsOrganizationNonMasterAccountsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_OrganizationsOrganizationNonMasterAccountsList) validateSetWr
 	return nil
 }
 
-func validateNewOrganizationsOrganizationNonMasterAccountsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOrganizationsOrganizationNonMasterAccountsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

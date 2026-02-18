@@ -15,7 +15,7 @@ func (c *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterList) validateG
 	return nil
 }
 
-func (c *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterList) validateS
 	return nil
 }
 
-func validateNewCodedeployDeploymentGroupEc2TagSetEc2TagFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCodedeployDeploymentGroupEc2TagSetEc2TagFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

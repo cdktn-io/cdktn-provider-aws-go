@@ -51,7 +51,7 @@ func (s *jsiiProxy_SagemakerModelPrimaryContainerImageConfigOutputReference) val
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerModelPrimaryContainerImageConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerModelPrimaryContainerImageConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SagemakerModelPrimaryContainerImageConfigOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerModelPrimaryContainerImageConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerModelPrimaryContainerImageConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerModelPrimaryContainerImageConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerModelPrimaryContainerImageConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

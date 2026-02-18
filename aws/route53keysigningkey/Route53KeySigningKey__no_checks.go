@@ -115,7 +115,7 @@ func (j *jsiiProxy_Route53KeySigningKey) validateSetKeyManagementServiceArnParam
 	return nil
 }
 
-func (j *jsiiProxy_Route53KeySigningKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Route53KeySigningKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

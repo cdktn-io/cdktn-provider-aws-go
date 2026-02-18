@@ -47,7 +47,7 @@ func (l *jsiiProxy_Lexv2ModelsBotDataPrivacyOutputReference) validateInterpolati
 	return nil
 }
 
-func (l *jsiiProxy_Lexv2ModelsBotDataPrivacyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_Lexv2ModelsBotDataPrivacyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_Lexv2ModelsBotDataPrivacyOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_Lexv2ModelsBotDataPrivacyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Lexv2ModelsBotDataPrivacyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLexv2ModelsBotDataPrivacyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLexv2ModelsBotDataPrivacyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

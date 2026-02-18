@@ -147,7 +147,7 @@ func (j *jsiiProxy_EcsTaskDefinition) validateSetIpcModeParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_EcsTaskDefinition) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EcsTaskDefinition) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

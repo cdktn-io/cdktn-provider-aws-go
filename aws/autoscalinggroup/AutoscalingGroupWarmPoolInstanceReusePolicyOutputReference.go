@@ -5,14 +5,14 @@ package autoscalinggroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/autoscalinggroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/autoscalinggroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetReuseOnScaleIn()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference interface {
 
 // The jsii proxy struct for AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference
 type jsiiProxy_AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference) T
 }
 
 
-func NewAutoscalingGroupWarmPoolInstanceReusePolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference {
+func NewAutoscalingGroupWarmPoolInstanceReusePolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAutoscalingGroupWarmPoolInstanceReusePolicyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewAutoscalingGroupWarmPoolInstanceReusePolicyOutputReference(terraformReso
 	return &j
 }
 
-func NewAutoscalingGroupWarmPoolInstanceReusePolicyOutputReference_Override(a AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAutoscalingGroupWarmPoolInstanceReusePolicyOutputReference_Override(a AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (a *jsiiProxy_AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference) G
 	return returns
 }
 
-func (a *jsiiProxy_AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -424,8 +424,8 @@ func (a *jsiiProxy_AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference) G
 	return returns
 }
 
-func (a *jsiiProxy_AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -437,11 +437,11 @@ func (a *jsiiProxy_AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference) I
 	return returns
 }
 
-func (a *jsiiProxy_AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -461,7 +461,7 @@ func (a *jsiiProxy_AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference) R
 	)
 }
 
-func (a *jsiiProxy_AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

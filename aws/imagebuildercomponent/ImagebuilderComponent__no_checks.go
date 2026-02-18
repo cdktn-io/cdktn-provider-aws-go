@@ -119,7 +119,7 @@ func (j *jsiiProxy_ImagebuilderComponent) validateSetKmsKeyIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_ImagebuilderComponent) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ImagebuilderComponent) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

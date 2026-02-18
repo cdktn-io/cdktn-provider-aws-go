@@ -47,7 +47,7 @@ func (n *jsiiProxy_NotificationsOrganizationsAccessTimeoutsOutputReference) vali
 	return nil
 }
 
-func (n *jsiiProxy_NotificationsOrganizationsAccessTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NotificationsOrganizationsAccessTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_NotificationsOrganizationsAccessTimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_NotificationsOrganizationsAccessTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NotificationsOrganizationsAccessTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_NotificationsOrganizationsAccessTimeoutsOutputReference) vali
 	return nil
 }
 
-func validateNewNotificationsOrganizationsAccessTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNotificationsOrganizationsAccessTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

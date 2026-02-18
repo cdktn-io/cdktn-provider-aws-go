@@ -47,7 +47,7 @@ func (f *jsiiProxy_FlowLogDestinationOptionsOutputReference) validateInterpolati
 	return nil
 }
 
-func (f *jsiiProxy_FlowLogDestinationOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FlowLogDestinationOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_FlowLogDestinationOptionsOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_FlowLogDestinationOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FlowLogDestinationOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFlowLogDestinationOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFlowLogDestinationOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

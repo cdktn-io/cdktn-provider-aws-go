@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudfrontOriginRequestPolicyQueryStringsConfigQueryStringsOu
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontOriginRequestPolicyQueryStringsConfigQueryStringsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontOriginRequestPolicyQueryStringsConfigQueryStringsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CloudfrontOriginRequestPolicyQueryStringsConfigQueryStringsOu
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontOriginRequestPolicyQueryStringsConfigQueryStringsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontOriginRequestPolicyQueryStringsConfigQueryStringsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudfrontOriginRequestPolicyQueryStringsConfigQueryStringsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudfrontOriginRequestPolicyQueryStringsConfigQueryStringsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (q *jsiiProxy_QuicksightDataSetPhysicalTableMapS3SourceInputColumnsList) va
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDataSetPhysicalTableMapS3SourceInputColumnsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDataSetPhysicalTableMapS3SourceInputColumnsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapS3SourceInputColumnsList) va
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapS3SourceInputColumnsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapS3SourceInputColumnsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapS3SourceInputColumnsList) va
 	return nil
 }
 
-func validateNewQuicksightDataSetPhysicalTableMapS3SourceInputColumnsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewQuicksightDataSetPhysicalTableMapS3SourceInputColumnsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

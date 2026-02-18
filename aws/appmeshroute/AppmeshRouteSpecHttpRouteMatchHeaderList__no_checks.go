@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppmeshRouteSpecHttpRouteMatchHeaderList) validateGetParamete
 	return nil
 }
 
-func (a *jsiiProxy_AppmeshRouteSpecHttpRouteMatchHeaderList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppmeshRouteSpecHttpRouteMatchHeaderList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppmeshRouteSpecHttpRouteMatchHeaderList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshRouteSpecHttpRouteMatchHeaderList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppmeshRouteSpecHttpRouteMatchHeaderList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppmeshRouteSpecHttpRouteMatchHeaderList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewAppmeshRouteSpecHttpRouteMatchHeaderListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppmeshRouteSpecHttpRouteMatchHeaderListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

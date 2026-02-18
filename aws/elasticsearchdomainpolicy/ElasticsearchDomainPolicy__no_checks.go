@@ -115,7 +115,7 @@ func (j *jsiiProxy_ElasticsearchDomainPolicy) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_ElasticsearchDomainPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ElasticsearchDomainPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (o *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (o *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowList) validateGet
 	return nil
 }
 
-func (o *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (o *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowList) validateRes
 
 func (j *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*OdbCloudAutonomousVmClusterMaintenanceWindow:
 		val := val.(*[]*OdbCloudAutonomousVmClusterMaintenanceWindow)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowList) validateSet
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*OdbCloudAutonomousVmClusterMaintenanceWindow; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*OdbCloudAutonomousVmClusterMaintenanceWindow; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowList) validateSet
 	return nil
 }
 
-func validateNewOdbCloudAutonomousVmClusterMaintenanceWindowListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOdbCloudAutonomousVmClusterMaintenanceWindowListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

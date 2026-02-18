@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsVerifiedpermissionsPolicyStore) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVerifiedpermissionsPolicyStore) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsVerifiedpermissionsPolicyStore) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

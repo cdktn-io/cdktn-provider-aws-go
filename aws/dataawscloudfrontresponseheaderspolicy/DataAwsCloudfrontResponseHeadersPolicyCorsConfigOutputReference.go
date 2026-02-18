@@ -5,15 +5,15 @@ package dataawscloudfrontresponseheaderspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawscloudfrontresponseheaderspolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawscloudfrontresponseheaderspolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference interface {
-	cdktf.ComplexObject
-	AccessControlAllowCredentials() cdktf.IResolvable
+	cdktn.ComplexObject
+	AccessControlAllowCredentials() cdktn.IResolvable
 	AccessControlAllowHeaders() DataAwsCloudfrontResponseHeadersPolicyCorsConfigAccessControlAllowHeadersList
 	AccessControlAllowMethods() DataAwsCloudfrontResponseHeadersPolicyCorsConfigAccessControlAllowMethodsList
 	AccessControlAllowOrigins() DataAwsCloudfrontResponseHeadersPolicyCorsConfigAccessControlAllowOriginsList
@@ -38,21 +38,21 @@ type DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference interface {
 	Fqn() *string
 	InternalValue() *DataAwsCloudfrontResponseHeadersPolicyCorsConfig
 	SetInternalValue(val *DataAwsCloudfrontResponseHeadersPolicyCorsConfig)
-	OriginOverride() cdktf.IResolvable
+	OriginOverride() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -68,12 +68,12 @@ type DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,11 +83,11 @@ type DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference interface {
 
 // The jsii proxy struct for DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference
 type jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
-func (j *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference) AccessControlAllowCredentials() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference) AccessControlAllowCredentials() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"accessControlAllowCredentials",
@@ -196,8 +196,8 @@ func (j *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReferen
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference) OriginOverride() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference) OriginOverride() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"originOverride",
@@ -216,8 +216,8 @@ func (j *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReferen
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -227,7 +227,7 @@ func (j *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReferen
 }
 
 
-func NewDataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference {
+func NewDataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -244,7 +244,7 @@ func NewDataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference(terrafor
 	return &j
 }
 
-func NewDataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference_Override(d DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference_Override(d DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -298,7 +298,7 @@ func (j *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReferen
 	)
 }
 
-func (j *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -338,11 +338,11 @@ func (d *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReferen
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -466,8 +466,8 @@ func (d *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReferen
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -479,11 +479,11 @@ func (d *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReferen
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -495,7 +495,7 @@ func (d *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReferen
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicyCorsConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

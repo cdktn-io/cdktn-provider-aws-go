@@ -47,7 +47,7 @@ func (f *jsiiProxy_FinspaceKxClusterCodeOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (f *jsiiProxy_FinspaceKxClusterCodeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FinspaceKxClusterCodeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_FinspaceKxClusterCodeOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_FinspaceKxClusterCodeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FinspaceKxClusterCodeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFinspaceKxClusterCodeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFinspaceKxClusterCodeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

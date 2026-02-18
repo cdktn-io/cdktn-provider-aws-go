@@ -15,7 +15,7 @@ func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsCanvasAppSettingsIdentityPr
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsCanvasAppSettingsIdentityProviderOauthSettingsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsCanvasAppSettingsIdentityProviderOauthSettingsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsCanvasAppSettingsIdentityPr
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsCanvasAppSettingsIdentityProviderOauthSettingsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsCanvasAppSettingsIdentityProviderOauthSettingsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsCanvasAppSettingsIdentityPr
 	return nil
 }
 
-func validateNewSagemakerDomainDefaultUserSettingsCanvasAppSettingsIdentityProviderOauthSettingsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSagemakerDomainDefaultUserSettingsCanvasAppSettingsIdentityProviderOauthSettingsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

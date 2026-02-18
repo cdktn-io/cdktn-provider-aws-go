@@ -15,7 +15,7 @@ func (g *jsiiProxy_GlobalacceleratorCustomRoutingEndpointGroupDestinationConfigu
 	return nil
 }
 
-func (g *jsiiProxy_GlobalacceleratorCustomRoutingEndpointGroupDestinationConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlobalacceleratorCustomRoutingEndpointGroupDestinationConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GlobalacceleratorCustomRoutingEndpointGroupDestinationConfigu
 	return nil
 }
 
-func (j *jsiiProxy_GlobalacceleratorCustomRoutingEndpointGroupDestinationConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlobalacceleratorCustomRoutingEndpointGroupDestinationConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GlobalacceleratorCustomRoutingEndpointGroupDestinationConfigu
 	return nil
 }
 
-func validateNewGlobalacceleratorCustomRoutingEndpointGroupDestinationConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGlobalacceleratorCustomRoutingEndpointGroupDestinationConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

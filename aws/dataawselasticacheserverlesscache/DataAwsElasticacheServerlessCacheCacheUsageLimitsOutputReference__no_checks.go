@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsElasticacheServerlessCacheCacheUsageLimitsOutputRefere
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsElasticacheServerlessCacheCacheUsageLimitsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsElasticacheServerlessCacheCacheUsageLimitsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsElasticacheServerlessCacheCacheUsageLimitsOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsElasticacheServerlessCacheCacheUsageLimitsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsElasticacheServerlessCacheCacheUsageLimitsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsElasticacheServerlessCacheCacheUsageLimitsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAwsElasticacheServerlessCacheCacheUsageLimitsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

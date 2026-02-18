@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsLbListenerDefaultActionList) validateGetParameters(ind
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLbListenerDefaultActionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLbListenerDefaultActionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsLbListenerDefaultActionList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLbListenerDefaultActionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLbListenerDefaultActionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsLbListenerDefaultActionList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewDataAwsLbListenerDefaultActionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsLbListenerDefaultActionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

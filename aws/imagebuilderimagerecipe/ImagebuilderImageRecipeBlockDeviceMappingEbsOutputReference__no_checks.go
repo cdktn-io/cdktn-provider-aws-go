@@ -47,7 +47,7 @@ func (i *jsiiProxy_ImagebuilderImageRecipeBlockDeviceMappingEbsOutputReference) 
 	return nil
 }
 
-func (i *jsiiProxy_ImagebuilderImageRecipeBlockDeviceMappingEbsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_ImagebuilderImageRecipeBlockDeviceMappingEbsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ImagebuilderImageRecipeBlockDeviceMappingEbsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_ImagebuilderImageRecipeBlockDeviceMappingEbsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ImagebuilderImageRecipeBlockDeviceMappingEbsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_ImagebuilderImageRecipeBlockDeviceMappingEbsOutputReference) 
 	return nil
 }
 
-func validateNewImagebuilderImageRecipeBlockDeviceMappingEbsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewImagebuilderImageRecipeBlockDeviceMappingEbsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

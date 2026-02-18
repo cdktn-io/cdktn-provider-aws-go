@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsVpcIpamsIpamsList) validateGetParameters(index *float6
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsVpcIpamsIpamsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsVpcIpamsIpamsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsVpcIpamsIpamsList) validateSetTerraformAttributeParame
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVpcIpamsIpamsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsVpcIpamsIpamsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsVpcIpamsIpamsList) validateSetWrapsSetParameters(val *
 	return nil
 }
 
-func validateNewDataAwsVpcIpamsIpamsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsVpcIpamsIpamsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

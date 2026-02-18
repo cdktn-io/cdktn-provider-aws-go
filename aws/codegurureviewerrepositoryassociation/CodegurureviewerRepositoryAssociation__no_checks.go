@@ -115,7 +115,7 @@ func (j *jsiiProxy_CodegurureviewerRepositoryAssociation) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_CodegurureviewerRepositoryAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CodegurureviewerRepositoryAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

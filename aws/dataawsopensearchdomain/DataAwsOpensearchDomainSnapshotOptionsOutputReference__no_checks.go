@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsOpensearchDomainSnapshotOptionsOutputReference) valida
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsOpensearchDomainSnapshotOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsOpensearchDomainSnapshotOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsOpensearchDomainSnapshotOptionsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOpensearchDomainSnapshotOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsOpensearchDomainSnapshotOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsOpensearchDomainSnapshotOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsOpensearchDomainSnapshotOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

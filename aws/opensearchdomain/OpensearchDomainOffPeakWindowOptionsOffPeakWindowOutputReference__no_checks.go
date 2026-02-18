@@ -51,7 +51,7 @@ func (o *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOffPeakWindowOutputRefere
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOffPeakWindowOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOffPeakWindowOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOffPeakWindowOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOffPeakWindowOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOffPeakWindowOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOpensearchDomainOffPeakWindowOptionsOffPeakWindowOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOpensearchDomainOffPeakWindowOptionsOffPeakWindowOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

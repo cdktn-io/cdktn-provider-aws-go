@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEksClusterKubernetesNetworkConfigOutputReference) vali
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEksClusterKubernetesNetworkConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEksClusterKubernetesNetworkConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsEksClusterKubernetesNetworkConfigOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEksClusterKubernetesNetworkConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEksClusterKubernetesNetworkConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsEksClusterKubernetesNetworkConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsEksClusterKubernetesNetworkConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

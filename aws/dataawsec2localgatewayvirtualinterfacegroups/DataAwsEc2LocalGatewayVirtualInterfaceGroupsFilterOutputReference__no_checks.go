@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupsFilterOutputRefer
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupsFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupsFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupsFilterOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupsFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupsFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroupsFilterOutputRefer
 	return nil
 }
 
-func validateNewDataAwsEc2LocalGatewayVirtualInterfaceGroupsFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsEc2LocalGatewayVirtualInterfaceGroupsFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

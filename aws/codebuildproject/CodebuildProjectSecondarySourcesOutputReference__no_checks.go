@@ -59,7 +59,7 @@ func (c *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) validatePutG
 	return nil
 }
 
-func (c *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -111,7 +111,7 @@ func (j *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) validateSetT
 	return nil
 }
 
-func validateNewCodebuildProjectSecondarySourcesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCodebuildProjectSecondarySourcesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

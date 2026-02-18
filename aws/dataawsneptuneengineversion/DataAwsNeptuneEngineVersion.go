@@ -5,18 +5,18 @@ package dataawsneptuneengineversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsneptuneengineversion/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsneptuneengineversion/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/neptune_engine_version aws_neptune_engine_version}.
 type DataAwsNeptuneEngineVersion interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -37,9 +37,9 @@ type DataAwsNeptuneEngineVersion interface {
 	EngineInput() *string
 	ExportableLogTypes() *[]*string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -57,9 +57,9 @@ type DataAwsNeptuneEngineVersion interface {
 	SetLatest(val interface{})
 	LatestInput() interface{}
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	ParameterGroupFamily() *string
@@ -75,9 +75,9 @@ type DataAwsNeptuneEngineVersion interface {
 	SetPreferredVersions(val *[]*string)
 	PreferredVersionsInput() *[]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -85,11 +85,11 @@ type DataAwsNeptuneEngineVersion interface {
 	RegionInput() *string
 	SupportedCharacterSets() *[]*string
 	SupportedTimezones() *[]*string
-	SupportsGlobalDatabases() cdktf.IResolvable
-	SupportsLogExportsToCloudwatch() cdktf.IResolvable
-	SupportsReadReplica() cdktf.IResolvable
+	SupportsGlobalDatabases() cdktn.IResolvable
+	SupportsLogExportsToCloudwatch() cdktn.IResolvable
+	SupportsReadReplica() cdktn.IResolvable
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -107,7 +107,7 @@ type DataAwsNeptuneEngineVersion interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -123,7 +123,7 @@ type DataAwsNeptuneEngineVersion interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -158,11 +158,11 @@ type DataAwsNeptuneEngineVersion interface {
 
 // The jsii proxy struct for DataAwsNeptuneEngineVersion
 type jsiiProxy_DataAwsNeptuneEngineVersion struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAwsNeptuneEngineVersion) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsNeptuneEngineVersion) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -271,8 +271,8 @@ func (j *jsiiProxy_DataAwsNeptuneEngineVersion) ExportableLogTypes() *[]*string 
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNeptuneEngineVersion) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsNeptuneEngineVersion) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -381,8 +381,8 @@ func (j *jsiiProxy_DataAwsNeptuneEngineVersion) LatestInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNeptuneEngineVersion) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsNeptuneEngineVersion) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -481,8 +481,8 @@ func (j *jsiiProxy_DataAwsNeptuneEngineVersion) PreferredVersionsInput() *[]*str
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNeptuneEngineVersion) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsNeptuneEngineVersion) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -541,8 +541,8 @@ func (j *jsiiProxy_DataAwsNeptuneEngineVersion) SupportedTimezones() *[]*string 
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNeptuneEngineVersion) SupportsGlobalDatabases() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsNeptuneEngineVersion) SupportsGlobalDatabases() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"supportsGlobalDatabases",
@@ -551,8 +551,8 @@ func (j *jsiiProxy_DataAwsNeptuneEngineVersion) SupportsGlobalDatabases() cdktf.
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNeptuneEngineVersion) SupportsLogExportsToCloudwatch() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsNeptuneEngineVersion) SupportsLogExportsToCloudwatch() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"supportsLogExportsToCloudwatch",
@@ -561,8 +561,8 @@ func (j *jsiiProxy_DataAwsNeptuneEngineVersion) SupportsLogExportsToCloudwatch()
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNeptuneEngineVersion) SupportsReadReplica() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsNeptuneEngineVersion) SupportsReadReplica() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"supportsReadReplica",
@@ -571,8 +571,8 @@ func (j *jsiiProxy_DataAwsNeptuneEngineVersion) SupportsReadReplica() cdktf.IRes
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNeptuneEngineVersion) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsNeptuneEngineVersion) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -742,7 +742,7 @@ func (j *jsiiProxy_DataAwsNeptuneEngineVersion)SetEngine(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsNeptuneEngineVersion)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsNeptuneEngineVersion)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -794,7 +794,7 @@ func (j *jsiiProxy_DataAwsNeptuneEngineVersion)SetLatest(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsNeptuneEngineVersion)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsNeptuneEngineVersion)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -849,7 +849,7 @@ func (j *jsiiProxy_DataAwsNeptuneEngineVersion)SetPreferredVersions(val *[]*stri
 	)
 }
 
-func (j *jsiiProxy_DataAwsNeptuneEngineVersion)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsNeptuneEngineVersion)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -879,14 +879,14 @@ func (j *jsiiProxy_DataAwsNeptuneEngineVersion)SetVersion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsNeptuneEngineVersion resource upon running "cdktf plan <stack-name>".
-func DataAwsNeptuneEngineVersion_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsNeptuneEngineVersion resource upon running "cdktn plan <stack-name>".
+func DataAwsNeptuneEngineVersion_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsNeptuneEngineVersion_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsNeptuneEngineVersion.DataAwsNeptuneEngineVersion",
@@ -1009,11 +1009,11 @@ func (d *jsiiProxy_DataAwsNeptuneEngineVersion) GetAnyMapAttribute(terraformAttr
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsNeptuneEngineVersion) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsNeptuneEngineVersion) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1137,11 +1137,11 @@ func (d *jsiiProxy_DataAwsNeptuneEngineVersion) GetStringMapAttribute(terraformA
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsNeptuneEngineVersion) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsNeptuneEngineVersion) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

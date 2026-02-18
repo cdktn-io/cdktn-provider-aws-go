@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsCodecatalystDevEnvironmentIdesOutputReference) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCodecatalystDevEnvironmentIdesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCodecatalystDevEnvironmentIdesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsCodecatalystDevEnvironmentIdesOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCodecatalystDevEnvironmentIdesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCodecatalystDevEnvironmentIdesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsCodecatalystDevEnvironmentIdesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsCodecatalystDevEnvironmentIdesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

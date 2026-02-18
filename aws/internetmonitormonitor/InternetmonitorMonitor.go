@@ -5,19 +5,19 @@ package internetmonitormonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/internetmonitormonitor/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/internetmonitormonitor/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/internetmonitor_monitor aws_internetmonitor_monitor}.
 type InternetmonitorMonitor interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -33,9 +33,9 @@ type InternetmonitorMonitor interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -48,9 +48,9 @@ type InternetmonitorMonitor interface {
 	InternetMeasurementsLogDelivery() InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference
 	InternetMeasurementsLogDeliveryInput() *InternetmonitorMonitorInternetMeasurementsLogDelivery
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MaxCityNetworksToMonitor() *float64
 	SetMaxCityNetworksToMonitor(val *float64)
 	MaxCityNetworksToMonitorInput() *float64
@@ -60,9 +60,9 @@ type InternetmonitorMonitor interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -85,7 +85,7 @@ type InternetmonitorMonitor interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -101,7 +101,7 @@ type InternetmonitorMonitor interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -119,9 +119,9 @@ type InternetmonitorMonitor interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -166,7 +166,7 @@ type InternetmonitorMonitor interface {
 
 // The jsii proxy struct for InternetmonitorMonitor
 type jsiiProxy_InternetmonitorMonitor struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_InternetmonitorMonitor) Arn() *string {
@@ -179,8 +179,8 @@ func (j *jsiiProxy_InternetmonitorMonitor) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_InternetmonitorMonitor) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_InternetmonitorMonitor) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -229,8 +229,8 @@ func (j *jsiiProxy_InternetmonitorMonitor) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_InternetmonitorMonitor) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_InternetmonitorMonitor) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -319,8 +319,8 @@ func (j *jsiiProxy_InternetmonitorMonitor) InternetMeasurementsLogDeliveryInput(
 	return returns
 }
 
-func (j *jsiiProxy_InternetmonitorMonitor) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_InternetmonitorMonitor) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -379,8 +379,8 @@ func (j *jsiiProxy_InternetmonitorMonitor) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_InternetmonitorMonitor) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_InternetmonitorMonitor) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -509,8 +509,8 @@ func (j *jsiiProxy_InternetmonitorMonitor) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_InternetmonitorMonitor) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_InternetmonitorMonitor) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -619,7 +619,7 @@ func (j *jsiiProxy_InternetmonitorMonitor)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_InternetmonitorMonitor)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_InternetmonitorMonitor)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -638,7 +638,7 @@ func (j *jsiiProxy_InternetmonitorMonitor)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_InternetmonitorMonitor)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_InternetmonitorMonitor)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -671,7 +671,7 @@ func (j *jsiiProxy_InternetmonitorMonitor)SetMonitorName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_InternetmonitorMonitor)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_InternetmonitorMonitor)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -756,14 +756,14 @@ func (j *jsiiProxy_InternetmonitorMonitor)SetTrafficPercentageToMonitor(val *flo
 	)
 }
 
-// Generates CDKTF code for importing a InternetmonitorMonitor resource upon running "cdktf plan <stack-name>".
-func InternetmonitorMonitor_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a InternetmonitorMonitor resource upon running "cdktn plan <stack-name>".
+func InternetmonitorMonitor_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateInternetmonitorMonitor_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.internetmonitorMonitor.InternetmonitorMonitor",
@@ -897,11 +897,11 @@ func (i *jsiiProxy_InternetmonitorMonitor) GetAnyMapAttribute(terraformAttribute
 	return returns
 }
 
-func (i *jsiiProxy_InternetmonitorMonitor) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_InternetmonitorMonitor) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -1038,7 +1038,7 @@ func (i *jsiiProxy_InternetmonitorMonitor) HasResourceMove() interface{} {
 	return returns
 }
 
-func (i *jsiiProxy_InternetmonitorMonitor) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (i *jsiiProxy_InternetmonitorMonitor) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := i.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1049,11 +1049,11 @@ func (i *jsiiProxy_InternetmonitorMonitor) ImportFrom(id *string, provider cdktf
 	)
 }
 
-func (i *jsiiProxy_InternetmonitorMonitor) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_InternetmonitorMonitor) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,

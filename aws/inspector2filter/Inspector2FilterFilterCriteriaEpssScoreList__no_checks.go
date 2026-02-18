@@ -15,7 +15,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaEpssScoreList) validateGetParam
 	return nil
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaEpssScoreList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaEpssScoreList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaEpssScoreList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_Inspector2FilterFilterCriteriaEpssScoreList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Inspector2FilterFilterCriteriaEpssScoreList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaEpssScoreList) validateSetWraps
 	return nil
 }
 
-func validateNewInspector2FilterFilterCriteriaEpssScoreListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewInspector2FilterFilterCriteriaEpssScoreListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

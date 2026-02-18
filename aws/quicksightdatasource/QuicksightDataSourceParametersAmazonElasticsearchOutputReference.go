@@ -5,14 +5,14 @@ package quicksightdatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/quicksightdatasource/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/quicksightdatasource/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type QuicksightDataSourceParametersAmazonElasticsearchOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type QuicksightDataSourceParametersAmazonElasticsearchOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type QuicksightDataSourceParametersAmazonElasticsearchOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type QuicksightDataSourceParametersAmazonElasticsearchOutputReference interface 
 
 // The jsii proxy struct for QuicksightDataSourceParametersAmazonElasticsearchOutputReference
 type jsiiProxy_QuicksightDataSourceParametersAmazonElasticsearchOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_QuicksightDataSourceParametersAmazonElasticsearchOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_QuicksightDataSourceParametersAmazonElasticsearchOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_QuicksightDataSourceParametersAmazonElasticsearchOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_QuicksightDataSourceParametersAmazonElasticsearchOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_QuicksightDataSourceParametersAmazonElasticsearchOutputRefere
 }
 
 
-func NewQuicksightDataSourceParametersAmazonElasticsearchOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) QuicksightDataSourceParametersAmazonElasticsearchOutputReference {
+func NewQuicksightDataSourceParametersAmazonElasticsearchOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) QuicksightDataSourceParametersAmazonElasticsearchOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewQuicksightDataSourceParametersAmazonElasticsearchOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewQuicksightDataSourceParametersAmazonElasticsearchOutputReference(terrafo
 	return &j
 }
 
-func NewQuicksightDataSourceParametersAmazonElasticsearchOutputReference_Override(q QuicksightDataSourceParametersAmazonElasticsearchOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewQuicksightDataSourceParametersAmazonElasticsearchOutputReference_Override(q QuicksightDataSourceParametersAmazonElasticsearchOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_QuicksightDataSourceParametersAmazonElasticsearchOutputRefere
 	)
 }
 
-func (j *jsiiProxy_QuicksightDataSourceParametersAmazonElasticsearchOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_QuicksightDataSourceParametersAmazonElasticsearchOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (q *jsiiProxy_QuicksightDataSourceParametersAmazonElasticsearchOutputRefere
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightDataSourceParametersAmazonElasticsearchOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (q *jsiiProxy_QuicksightDataSourceParametersAmazonElasticsearchOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := q.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -423,8 +423,8 @@ func (q *jsiiProxy_QuicksightDataSourceParametersAmazonElasticsearchOutputRefere
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightDataSourceParametersAmazonElasticsearchOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (q *jsiiProxy_QuicksightDataSourceParametersAmazonElasticsearchOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -436,11 +436,11 @@ func (q *jsiiProxy_QuicksightDataSourceParametersAmazonElasticsearchOutputRefere
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightDataSourceParametersAmazonElasticsearchOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (q *jsiiProxy_QuicksightDataSourceParametersAmazonElasticsearchOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := q.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -452,7 +452,7 @@ func (q *jsiiProxy_QuicksightDataSourceParametersAmazonElasticsearchOutputRefere
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightDataSourceParametersAmazonElasticsearchOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (q *jsiiProxy_QuicksightDataSourceParametersAmazonElasticsearchOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := q.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

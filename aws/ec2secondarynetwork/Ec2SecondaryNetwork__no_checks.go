@@ -107,7 +107,7 @@ func (j *jsiiProxy_Ec2SecondaryNetwork) validateSetIpv4CidrBlockParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_Ec2SecondaryNetwork) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Ec2SecondaryNetwork) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

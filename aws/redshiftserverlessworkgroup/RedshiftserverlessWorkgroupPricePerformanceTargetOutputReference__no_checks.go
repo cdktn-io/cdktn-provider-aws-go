@@ -47,7 +47,7 @@ func (r *jsiiProxy_RedshiftserverlessWorkgroupPricePerformanceTargetOutputRefere
 	return nil
 }
 
-func (r *jsiiProxy_RedshiftserverlessWorkgroupPricePerformanceTargetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedshiftserverlessWorkgroupPricePerformanceTargetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_RedshiftserverlessWorkgroupPricePerformanceTargetOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftserverlessWorkgroupPricePerformanceTargetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedshiftserverlessWorkgroupPricePerformanceTargetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRedshiftserverlessWorkgroupPricePerformanceTargetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRedshiftserverlessWorkgroupPricePerformanceTargetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

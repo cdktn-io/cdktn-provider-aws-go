@@ -47,7 +47,7 @@ func (e *jsiiProxy_ElastictranscoderPresetVideoOutputReference) validateInterpol
 	return nil
 }
 
-func (e *jsiiProxy_ElastictranscoderPresetVideoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElastictranscoderPresetVideoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -119,11 +119,11 @@ func (j *jsiiProxy_ElastictranscoderPresetVideoOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_ElastictranscoderPresetVideoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElastictranscoderPresetVideoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewElastictranscoderPresetVideoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewElastictranscoderPresetVideoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

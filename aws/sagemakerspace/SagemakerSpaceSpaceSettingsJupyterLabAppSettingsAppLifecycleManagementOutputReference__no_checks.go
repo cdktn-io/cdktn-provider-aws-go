@@ -51,7 +51,7 @@ func (s *jsiiProxy_SagemakerSpaceSpaceSettingsJupyterLabAppSettingsAppLifecycleM
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerSpaceSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerSpaceSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SagemakerSpaceSpaceSettingsJupyterLabAppSettingsAppLifecycleM
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerSpaceSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerSpaceSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerSpaceSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerSpaceSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsSesv2ConfigurationSetVdmOptionsDashboardOptionsList) v
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsSesv2ConfigurationSetVdmOptionsDashboardOptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsSesv2ConfigurationSetVdmOptionsDashboardOptionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsSesv2ConfigurationSetVdmOptionsDashboardOptionsList) v
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSesv2ConfigurationSetVdmOptionsDashboardOptionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsSesv2ConfigurationSetVdmOptionsDashboardOptionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsSesv2ConfigurationSetVdmOptionsDashboardOptionsList) v
 	return nil
 }
 
-func validateNewDataAwsSesv2ConfigurationSetVdmOptionsDashboardOptionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsSesv2ConfigurationSetVdmOptionsDashboardOptionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

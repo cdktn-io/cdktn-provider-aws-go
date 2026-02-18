@@ -47,7 +47,7 @@ func (l *jsiiProxy_LaunchTemplateCreditSpecificationOutputReference) validateInt
 	return nil
 }
 
-func (l *jsiiProxy_LaunchTemplateCreditSpecificationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LaunchTemplateCreditSpecificationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_LaunchTemplateCreditSpecificationOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_LaunchTemplateCreditSpecificationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LaunchTemplateCreditSpecificationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLaunchTemplateCreditSpecificationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLaunchTemplateCreditSpecificationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

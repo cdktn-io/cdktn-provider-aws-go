@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpcEndpointDnsOptionsOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (v *jsiiProxy_VpcEndpointDnsOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpcEndpointDnsOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_VpcEndpointDnsOptionsOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_VpcEndpointDnsOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpcEndpointDnsOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpcEndpointDnsOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpcEndpointDnsOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

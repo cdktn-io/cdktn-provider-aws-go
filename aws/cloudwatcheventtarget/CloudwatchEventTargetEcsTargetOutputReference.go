@@ -5,14 +5,14 @@ package cloudwatcheventtarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/cloudwatcheventtarget/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/cloudwatcheventtarget/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CloudwatchEventTargetEcsTargetOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CapacityProviderStrategy() CloudwatchEventTargetEcsTargetCapacityProviderStrategyList
 	CapacityProviderStrategyInput() interface{}
 	// the index of the complex object in a list.
@@ -72,15 +72,15 @@ type CloudwatchEventTargetEcsTargetOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -96,9 +96,9 @@ type CloudwatchEventTargetEcsTargetOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCapacityProviderStrategy(value interface{})
 	PutNetworkConfiguration(value *CloudwatchEventTargetEcsTargetNetworkConfiguration)
 	PutOrderedPlacementStrategy(value interface{})
@@ -117,7 +117,7 @@ type CloudwatchEventTargetEcsTargetOutputReference interface {
 	ResetTaskCount()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -127,7 +127,7 @@ type CloudwatchEventTargetEcsTargetOutputReference interface {
 
 // The jsii proxy struct for CloudwatchEventTargetEcsTargetOutputReference
 type jsiiProxy_CloudwatchEventTargetEcsTargetOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CloudwatchEventTargetEcsTargetOutputReference) CapacityProviderStrategy() CloudwatchEventTargetEcsTargetCapacityProviderStrategyList {
@@ -450,8 +450,8 @@ func (j *jsiiProxy_CloudwatchEventTargetEcsTargetOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_CloudwatchEventTargetEcsTargetOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CloudwatchEventTargetEcsTargetOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -461,7 +461,7 @@ func (j *jsiiProxy_CloudwatchEventTargetEcsTargetOutputReference) TerraformResou
 }
 
 
-func NewCloudwatchEventTargetEcsTargetOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CloudwatchEventTargetEcsTargetOutputReference {
+func NewCloudwatchEventTargetEcsTargetOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CloudwatchEventTargetEcsTargetOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCloudwatchEventTargetEcsTargetOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -478,7 +478,7 @@ func NewCloudwatchEventTargetEcsTargetOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewCloudwatchEventTargetEcsTargetOutputReference_Override(c CloudwatchEventTargetEcsTargetOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCloudwatchEventTargetEcsTargetOutputReference_Override(c CloudwatchEventTargetEcsTargetOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -631,7 +631,7 @@ func (j *jsiiProxy_CloudwatchEventTargetEcsTargetOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_CloudwatchEventTargetEcsTargetOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CloudwatchEventTargetEcsTargetOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -671,11 +671,11 @@ func (c *jsiiProxy_CloudwatchEventTargetEcsTargetOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (c *jsiiProxy_CloudwatchEventTargetEcsTargetOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudwatchEventTargetEcsTargetOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -799,8 +799,8 @@ func (c *jsiiProxy_CloudwatchEventTargetEcsTargetOutputReference) GetStringMapAt
 	return returns
 }
 
-func (c *jsiiProxy_CloudwatchEventTargetEcsTargetOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CloudwatchEventTargetEcsTargetOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -812,11 +812,11 @@ func (c *jsiiProxy_CloudwatchEventTargetEcsTargetOutputReference) InterpolationA
 	return returns
 }
 
-func (c *jsiiProxy_CloudwatchEventTargetEcsTargetOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudwatchEventTargetEcsTargetOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -968,7 +968,7 @@ func (c *jsiiProxy_CloudwatchEventTargetEcsTargetOutputReference) ResetTaskCount
 	)
 }
 
-func (c *jsiiProxy_CloudwatchEventTargetEcsTargetOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CloudwatchEventTargetEcsTargetOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -15,7 +15,7 @@ func (f *jsiiProxy_FmsResourceSetResourceSetList) validateGetParameters(index *f
 	return nil
 }
 
-func (f *jsiiProxy_FmsResourceSetResourceSetList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FmsResourceSetResourceSetList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_FmsResourceSetResourceSetList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_FmsResourceSetResourceSetList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FmsResourceSetResourceSetList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_FmsResourceSetResourceSetList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewFmsResourceSetResourceSetListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFmsResourceSetResourceSetListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

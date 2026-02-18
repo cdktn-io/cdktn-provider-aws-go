@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsMskCluster) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsMskCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsMskCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

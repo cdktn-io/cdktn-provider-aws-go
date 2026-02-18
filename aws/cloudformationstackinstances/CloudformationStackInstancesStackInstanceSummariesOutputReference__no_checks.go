@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudformationStackInstancesStackInstanceSummariesOutputRefer
 	return nil
 }
 
-func (c *jsiiProxy_CloudformationStackInstancesStackInstanceSummariesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudformationStackInstancesStackInstanceSummariesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_CloudformationStackInstancesStackInstanceSummariesOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_CloudformationStackInstancesStackInstanceSummariesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudformationStackInstancesStackInstanceSummariesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudformationStackInstancesStackInstanceSummariesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudformationStackInstancesStackInstanceSummariesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

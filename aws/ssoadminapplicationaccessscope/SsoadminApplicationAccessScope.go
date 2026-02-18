@@ -5,16 +5,16 @@ package ssoadminapplicationaccessscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ssoadminapplicationaccessscope/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ssoadminapplicationaccessscope/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope}.
 type SsoadminApplicationAccessScope interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApplicationArn() *string
 	SetApplicationArn(val *string)
 	ApplicationArnInput() *string
@@ -22,7 +22,7 @@ type SsoadminApplicationAccessScope interface {
 	SetAuthorizedTargets(val *[]*string)
 	AuthorizedTargetsInput() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,24 +38,24 @@ type SsoadminApplicationAccessScope interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -69,7 +69,7 @@ type SsoadminApplicationAccessScope interface {
 	SetScope(val *string)
 	ScopeInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -82,7 +82,7 @@ type SsoadminApplicationAccessScope interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -100,9 +100,9 @@ type SsoadminApplicationAccessScope interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -137,7 +137,7 @@ type SsoadminApplicationAccessScope interface {
 
 // The jsii proxy struct for SsoadminApplicationAccessScope
 type jsiiProxy_SsoadminApplicationAccessScope struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_SsoadminApplicationAccessScope) ApplicationArn() *string {
@@ -180,8 +180,8 @@ func (j *jsiiProxy_SsoadminApplicationAccessScope) AuthorizedTargetsInput() *[]*
 	return returns
 }
 
-func (j *jsiiProxy_SsoadminApplicationAccessScope) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_SsoadminApplicationAccessScope) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -230,8 +230,8 @@ func (j *jsiiProxy_SsoadminApplicationAccessScope) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_SsoadminApplicationAccessScope) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_SsoadminApplicationAccessScope) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -270,8 +270,8 @@ func (j *jsiiProxy_SsoadminApplicationAccessScope) Id() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SsoadminApplicationAccessScope) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_SsoadminApplicationAccessScope) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -290,8 +290,8 @@ func (j *jsiiProxy_SsoadminApplicationAccessScope) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_SsoadminApplicationAccessScope) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_SsoadminApplicationAccessScope) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -360,8 +360,8 @@ func (j *jsiiProxy_SsoadminApplicationAccessScope) ScopeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SsoadminApplicationAccessScope) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_SsoadminApplicationAccessScope) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -472,7 +472,7 @@ func (j *jsiiProxy_SsoadminApplicationAccessScope)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_SsoadminApplicationAccessScope)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_SsoadminApplicationAccessScope)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -480,7 +480,7 @@ func (j *jsiiProxy_SsoadminApplicationAccessScope)SetForEach(val cdktf.ITerrafor
 	)
 }
 
-func (j *jsiiProxy_SsoadminApplicationAccessScope)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_SsoadminApplicationAccessScope)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -491,7 +491,7 @@ func (j *jsiiProxy_SsoadminApplicationAccessScope)SetLifecycle(val *cdktf.Terraf
 	)
 }
 
-func (j *jsiiProxy_SsoadminApplicationAccessScope)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_SsoadminApplicationAccessScope)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -532,14 +532,14 @@ func (j *jsiiProxy_SsoadminApplicationAccessScope)SetScope(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a SsoadminApplicationAccessScope resource upon running "cdktf plan <stack-name>".
-func SsoadminApplicationAccessScope_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a SsoadminApplicationAccessScope resource upon running "cdktn plan <stack-name>".
+func SsoadminApplicationAccessScope_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateSsoadminApplicationAccessScope_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.ssoadminApplicationAccessScope.SsoadminApplicationAccessScope",
@@ -673,11 +673,11 @@ func (s *jsiiProxy_SsoadminApplicationAccessScope) GetAnyMapAttribute(terraformA
 	return returns
 }
 
-func (s *jsiiProxy_SsoadminApplicationAccessScope) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SsoadminApplicationAccessScope) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -814,7 +814,7 @@ func (s *jsiiProxy_SsoadminApplicationAccessScope) HasResourceMove() interface{}
 	return returns
 }
 
-func (s *jsiiProxy_SsoadminApplicationAccessScope) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_SsoadminApplicationAccessScope) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -825,11 +825,11 @@ func (s *jsiiProxy_SsoadminApplicationAccessScope) ImportFrom(id *string, provid
 	)
 }
 
-func (s *jsiiProxy_SsoadminApplicationAccessScope) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SsoadminApplicationAccessScope) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

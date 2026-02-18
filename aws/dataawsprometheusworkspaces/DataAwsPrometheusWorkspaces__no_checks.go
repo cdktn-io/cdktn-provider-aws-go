@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsPrometheusWorkspaces) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsPrometheusWorkspaces) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsPrometheusWorkspaces) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

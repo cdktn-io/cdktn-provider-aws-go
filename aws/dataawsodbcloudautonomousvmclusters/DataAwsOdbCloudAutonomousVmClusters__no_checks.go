@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsOdbCloudAutonomousVmClusters) validateSetCountParamete
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOdbCloudAutonomousVmClusters) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsOdbCloudAutonomousVmClusters) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

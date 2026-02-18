@@ -5,19 +5,19 @@ package dbproxyendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dbproxyendpoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dbproxyendpoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/db_proxy_endpoint aws_db_proxy_endpoint}.
 type DbProxyEndpoint interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -40,9 +40,9 @@ type DbProxyEndpoint interface {
 	SetDependsOn(val *[]*string)
 	Endpoint() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -50,17 +50,17 @@ type DbProxyEndpoint interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
-	IsDefault() cdktf.IResolvable
+	IsDefault() cdktn.IResolvable
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -80,7 +80,7 @@ type DbProxyEndpoint interface {
 	SetTargetRole(val *string)
 	TargetRoleInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -102,7 +102,7 @@ type DbProxyEndpoint interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -120,9 +120,9 @@ type DbProxyEndpoint interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -163,7 +163,7 @@ type DbProxyEndpoint interface {
 
 // The jsii proxy struct for DbProxyEndpoint
 type jsiiProxy_DbProxyEndpoint struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_DbProxyEndpoint) Arn() *string {
@@ -176,8 +176,8 @@ func (j *jsiiProxy_DbProxyEndpoint) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DbProxyEndpoint) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DbProxyEndpoint) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -276,8 +276,8 @@ func (j *jsiiProxy_DbProxyEndpoint) Endpoint() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DbProxyEndpoint) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DbProxyEndpoint) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -326,8 +326,8 @@ func (j *jsiiProxy_DbProxyEndpoint) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DbProxyEndpoint) IsDefault() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DbProxyEndpoint) IsDefault() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"isDefault",
@@ -336,8 +336,8 @@ func (j *jsiiProxy_DbProxyEndpoint) IsDefault() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DbProxyEndpoint) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DbProxyEndpoint) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -356,8 +356,8 @@ func (j *jsiiProxy_DbProxyEndpoint) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DbProxyEndpoint) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DbProxyEndpoint) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -466,8 +466,8 @@ func (j *jsiiProxy_DbProxyEndpoint) TargetRoleInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DbProxyEndpoint) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DbProxyEndpoint) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -648,7 +648,7 @@ func (j *jsiiProxy_DbProxyEndpoint)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DbProxyEndpoint)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DbProxyEndpoint)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -667,7 +667,7 @@ func (j *jsiiProxy_DbProxyEndpoint)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DbProxyEndpoint)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DbProxyEndpoint)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -678,7 +678,7 @@ func (j *jsiiProxy_DbProxyEndpoint)SetLifecycle(val *cdktf.TerraformResourceLife
 	)
 }
 
-func (j *jsiiProxy_DbProxyEndpoint)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DbProxyEndpoint)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -763,14 +763,14 @@ func (j *jsiiProxy_DbProxyEndpoint)SetVpcSubnetIds(val *[]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a DbProxyEndpoint resource upon running "cdktf plan <stack-name>".
-func DbProxyEndpoint_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DbProxyEndpoint resource upon running "cdktn plan <stack-name>".
+func DbProxyEndpoint_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDbProxyEndpoint_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dbProxyEndpoint.DbProxyEndpoint",
@@ -904,11 +904,11 @@ func (d *jsiiProxy_DbProxyEndpoint) GetAnyMapAttribute(terraformAttribute *strin
 	return returns
 }
 
-func (d *jsiiProxy_DbProxyEndpoint) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DbProxyEndpoint) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1045,7 +1045,7 @@ func (d *jsiiProxy_DbProxyEndpoint) HasResourceMove() interface{} {
 	return returns
 }
 
-func (d *jsiiProxy_DbProxyEndpoint) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (d *jsiiProxy_DbProxyEndpoint) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := d.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1056,11 +1056,11 @@ func (d *jsiiProxy_DbProxyEndpoint) ImportFrom(id *string, provider cdktf.Terraf
 	)
 }
 
-func (d *jsiiProxy_DbProxyEndpoint) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DbProxyEndpoint) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

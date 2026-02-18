@@ -15,7 +15,7 @@ func (r *jsiiProxy_Route53DomainsDelegationSignerRecordSigningAttributesList) va
 	return nil
 }
 
-func (r *jsiiProxy_Route53DomainsDelegationSignerRecordSigningAttributesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_Route53DomainsDelegationSignerRecordSigningAttributesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Route53DomainsDelegationSignerRecordSigningAttributesList) va
 	return nil
 }
 
-func (j *jsiiProxy_Route53DomainsDelegationSignerRecordSigningAttributesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Route53DomainsDelegationSignerRecordSigningAttributesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Route53DomainsDelegationSignerRecordSigningAttributesList) va
 	return nil
 }
 
-func validateNewRoute53DomainsDelegationSignerRecordSigningAttributesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRoute53DomainsDelegationSignerRecordSigningAttributesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

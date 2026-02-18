@@ -47,7 +47,7 @@ func (k *jsiiProxy_KendraIndexDocumentMetadataConfigurationUpdatesRelevanceOutpu
 	return nil
 }
 
-func (k *jsiiProxy_KendraIndexDocumentMetadataConfigurationUpdatesRelevanceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KendraIndexDocumentMetadataConfigurationUpdatesRelevanceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_KendraIndexDocumentMetadataConfigurationUpdatesRelevanceOutpu
 	return nil
 }
 
-func (j *jsiiProxy_KendraIndexDocumentMetadataConfigurationUpdatesRelevanceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KendraIndexDocumentMetadataConfigurationUpdatesRelevanceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_KendraIndexDocumentMetadataConfigurationUpdatesRelevanceOutpu
 	return nil
 }
 
-func validateNewKendraIndexDocumentMetadataConfigurationUpdatesRelevanceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKendraIndexDocumentMetadataConfigurationUpdatesRelevanceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package s3bucketinventory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/s3bucketinventory/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/s3bucketinventory/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,15 +37,15 @@ type S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -61,12 +61,12 @@ type S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -76,7 +76,7 @@ type S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference interface 
 
 // The jsii proxy struct for S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference
 type jsiiProxy_S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference) ComplexObjectIndex() interface{} {
@@ -139,8 +139,8 @@ func (j *jsiiProxy_S3BucketInventoryDestinationBucketEncryptionSseS3OutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -150,7 +150,7 @@ func (j *jsiiProxy_S3BucketInventoryDestinationBucketEncryptionSseS3OutputRefere
 }
 
 
-func NewS3BucketInventoryDestinationBucketEncryptionSseS3OutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference {
+func NewS3BucketInventoryDestinationBucketEncryptionSseS3OutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference {
 	_init_.Initialize()
 
 	if err := validateNewS3BucketInventoryDestinationBucketEncryptionSseS3OutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -167,7 +167,7 @@ func NewS3BucketInventoryDestinationBucketEncryptionSseS3OutputReference(terrafo
 	return &j
 }
 
-func NewS3BucketInventoryDestinationBucketEncryptionSseS3OutputReference_Override(s S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewS3BucketInventoryDestinationBucketEncryptionSseS3OutputReference_Override(s S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -221,7 +221,7 @@ func (j *jsiiProxy_S3BucketInventoryDestinationBucketEncryptionSseS3OutputRefere
 	)
 }
 
-func (j *jsiiProxy_S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -261,11 +261,11 @@ func (s *jsiiProxy_S3BucketInventoryDestinationBucketEncryptionSseS3OutputRefere
 	return returns
 }
 
-func (s *jsiiProxy_S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -389,8 +389,8 @@ func (s *jsiiProxy_S3BucketInventoryDestinationBucketEncryptionSseS3OutputRefere
 	return returns
 }
 
-func (s *jsiiProxy_S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -402,11 +402,11 @@ func (s *jsiiProxy_S3BucketInventoryDestinationBucketEncryptionSseS3OutputRefere
 	return returns
 }
 
-func (s *jsiiProxy_S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -418,7 +418,7 @@ func (s *jsiiProxy_S3BucketInventoryDestinationBucketEncryptionSseS3OutputRefere
 	return returns
 }
 
-func (s *jsiiProxy_S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

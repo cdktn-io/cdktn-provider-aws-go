@@ -111,7 +111,7 @@ func (j *jsiiProxy_Sesv2AccountVdmAttributes) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_Sesv2AccountVdmAttributes) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Sesv2AccountVdmAttributes) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (l *jsiiProxy_LightsailContainerServiceTimeoutsOutputReference) validateInt
 	return nil
 }
 
-func (l *jsiiProxy_LightsailContainerServiceTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LightsailContainerServiceTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_LightsailContainerServiceTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_LightsailContainerServiceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LightsailContainerServiceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_LightsailContainerServiceTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func validateNewLightsailContainerServiceTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLightsailContainerServiceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

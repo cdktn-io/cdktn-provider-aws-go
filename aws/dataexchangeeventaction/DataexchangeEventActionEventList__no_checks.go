@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataexchangeEventActionEventList) validateGetParameters(index
 	return nil
 }
 
-func (d *jsiiProxy_DataexchangeEventActionEventList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataexchangeEventActionEventList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataexchangeEventActionEventList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_DataexchangeEventActionEventList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataexchangeEventActionEventList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataexchangeEventActionEventList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewDataexchangeEventActionEventListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataexchangeEventActionEventListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

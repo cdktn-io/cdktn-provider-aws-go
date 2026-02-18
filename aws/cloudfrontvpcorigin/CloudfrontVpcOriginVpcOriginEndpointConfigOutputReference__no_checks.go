@@ -51,7 +51,7 @@ func (c *jsiiProxy_CloudfrontVpcOriginVpcOriginEndpointConfigOutputReference) va
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontVpcOriginVpcOriginEndpointConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontVpcOriginVpcOriginEndpointConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_CloudfrontVpcOriginVpcOriginEndpointConfigOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontVpcOriginVpcOriginEndpointConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontVpcOriginVpcOriginEndpointConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudfrontVpcOriginVpcOriginEndpointConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudfrontVpcOriginVpcOriginEndpointConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

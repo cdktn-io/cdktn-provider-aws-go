@@ -47,7 +47,7 @@ func (g *jsiiProxy_GlueMlTransformInputRecordTablesOutputReference) validateInte
 	return nil
 }
 
-func (g *jsiiProxy_GlueMlTransformInputRecordTablesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueMlTransformInputRecordTablesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GlueMlTransformInputRecordTablesOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_GlueMlTransformInputRecordTablesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueMlTransformInputRecordTablesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGlueMlTransformInputRecordTablesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGlueMlTransformInputRecordTablesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

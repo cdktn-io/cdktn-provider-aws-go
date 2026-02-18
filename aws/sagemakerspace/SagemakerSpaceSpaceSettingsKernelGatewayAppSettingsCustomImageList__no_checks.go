@@ -15,7 +15,7 @@ func (s *jsiiProxy_SagemakerSpaceSpaceSettingsKernelGatewayAppSettingsCustomImag
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerSpaceSpaceSettingsKernelGatewayAppSettingsCustomImageList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerSpaceSpaceSettingsKernelGatewayAppSettingsCustomImageList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SagemakerSpaceSpaceSettingsKernelGatewayAppSettingsCustomImag
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerSpaceSpaceSettingsKernelGatewayAppSettingsCustomImageList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerSpaceSpaceSettingsKernelGatewayAppSettingsCustomImageList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SagemakerSpaceSpaceSettingsKernelGatewayAppSettingsCustomImag
 	return nil
 }
 
-func validateNewSagemakerSpaceSpaceSettingsKernelGatewayAppSettingsCustomImageListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSagemakerSpaceSpaceSettingsKernelGatewayAppSettingsCustomImageListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

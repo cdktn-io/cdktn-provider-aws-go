@@ -111,7 +111,7 @@ func (j *jsiiProxy_ServicecatalogProductPortfolioAssociation) validateSetIdParam
 	return nil
 }
 
-func (j *jsiiProxy_ServicecatalogProductPortfolioAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ServicecatalogProductPortfolioAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

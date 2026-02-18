@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsMskconnectCustomPlugin) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsMskconnectCustomPlugin) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsMskconnectCustomPlugin) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

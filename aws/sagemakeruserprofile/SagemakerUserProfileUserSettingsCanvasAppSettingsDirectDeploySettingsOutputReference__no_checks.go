@@ -47,7 +47,7 @@ func (s *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsDirectDeploy
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsDirectDeploySettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsDirectDeploySettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsDirectDeploy
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsDirectDeploySettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsDirectDeploySettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerUserProfileUserSettingsCanvasAppSettingsDirectDeploySettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerUserProfileUserSettingsCanvasAppSettingsDirectDeploySettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

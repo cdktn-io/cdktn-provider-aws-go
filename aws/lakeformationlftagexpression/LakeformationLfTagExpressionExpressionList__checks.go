@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (l *jsiiProxy_LakeformationLfTagExpressionExpressionList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (l *jsiiProxy_LakeformationLfTagExpressionExpressionList) validateGetParame
 	return nil
 }
 
-func (l *jsiiProxy_LakeformationLfTagExpressionExpressionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LakeformationLfTagExpressionExpressionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (l *jsiiProxy_LakeformationLfTagExpressionExpressionList) validateResolvePa
 
 func (j *jsiiProxy_LakeformationLfTagExpressionExpressionList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*LakeformationLfTagExpressionExpression:
 		val := val.(*[]*LakeformationLfTagExpressionExpression)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_LakeformationLfTagExpressionExpressionList) validateSetIntern
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*LakeformationLfTagExpressionExpression; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*LakeformationLfTagExpressionExpression; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_LakeformationLfTagExpressionExpressionList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_LakeformationLfTagExpressionExpressionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LakeformationLfTagExpressionExpressionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_LakeformationLfTagExpressionExpressionList) validateSetWrapsS
 	return nil
 }
 
-func validateNewLakeformationLfTagExpressionExpressionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLakeformationLfTagExpressionExpressionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

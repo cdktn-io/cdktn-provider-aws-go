@@ -123,7 +123,7 @@ func (j *jsiiProxy_GlueCatalogDatabase) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_GlueCatalogDatabase) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GlueCatalogDatabase) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

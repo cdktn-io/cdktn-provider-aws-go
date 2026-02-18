@@ -15,7 +15,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentDialogCodeHookList) validateGetParameters(in
 	return nil
 }
 
-func (l *jsiiProxy_Lexv2ModelsIntentDialogCodeHookList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_Lexv2ModelsIntentDialogCodeHookList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Lexv2ModelsIntentDialogCodeHookList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_Lexv2ModelsIntentDialogCodeHookList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Lexv2ModelsIntentDialogCodeHookList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Lexv2ModelsIntentDialogCodeHookList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewLexv2ModelsIntentDialogCodeHookListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLexv2ModelsIntentDialogCodeHookListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

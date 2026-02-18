@@ -127,7 +127,7 @@ func (j *jsiiProxy_S3BucketInventory) validateSetIncludedObjectVersionsParameter
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketInventory) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_S3BucketInventory) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

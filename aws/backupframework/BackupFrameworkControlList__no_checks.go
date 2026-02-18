@@ -15,7 +15,7 @@ func (b *jsiiProxy_BackupFrameworkControlList) validateGetParameters(index *floa
 	return nil
 }
 
-func (b *jsiiProxy_BackupFrameworkControlList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BackupFrameworkControlList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BackupFrameworkControlList) validateSetTerraformAttributePara
 	return nil
 }
 
-func (j *jsiiProxy_BackupFrameworkControlList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BackupFrameworkControlList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BackupFrameworkControlList) validateSetWrapsSetParameters(val
 	return nil
 }
 
-func validateNewBackupFrameworkControlListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBackupFrameworkControlListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

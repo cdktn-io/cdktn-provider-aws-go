@@ -55,7 +55,7 @@ func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) validatePutM
 	return nil
 }
 
-func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApigatewayv2RoutingRuleConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApigatewayv2RoutingRuleConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -59,7 +59,7 @@ func (g *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReferen
 	return nil
 }
 
-func (g *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGlueSecurityConfigurationEncryptionConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGlueSecurityConfigurationEncryptionConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

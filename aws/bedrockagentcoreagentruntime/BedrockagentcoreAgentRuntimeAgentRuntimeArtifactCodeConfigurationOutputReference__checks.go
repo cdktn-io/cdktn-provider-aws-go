@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigura
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigurationCode:
 		value := value.(*[]*BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigurationCode)
@@ -117,14 +117,14 @@ func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigura
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigurationCode; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigurationCode; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -207,7 +207,7 @@ func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigura
 
 func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigurationOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfiguration:
 		val := val.(*BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfiguration)
@@ -222,7 +222,7 @@ func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigura
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfiguration; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfiguration; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -245,7 +245,7 @@ func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigura
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -253,7 +253,7 @@ func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigura
 	return nil
 }
 
-func validateNewBedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

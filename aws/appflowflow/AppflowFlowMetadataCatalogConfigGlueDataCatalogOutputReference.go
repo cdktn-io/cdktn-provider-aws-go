@@ -5,14 +5,14 @@ package appflowflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/appflowflow/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appflowflow/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference interface {
 
 // The jsii proxy struct for AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference
 type jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference) ComplexObjectIndex() interface{} {
@@ -208,8 +208,8 @@ func (j *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReferenc
 }
 
 
-func NewAppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference {
+func NewAppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -236,7 +236,7 @@ func NewAppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference(terraform
 	return &j
 }
 
-func NewAppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference_Override(a AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference_Override(a AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -323,7 +323,7 @@ func (j *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReferenc
 	)
 }
 
-func (j *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -363,11 +363,11 @@ func (a *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReferenc
 	return returns
 }
 
-func (a *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -491,8 +491,8 @@ func (a *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReferenc
 	return returns
 }
 
-func (a *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -504,11 +504,11 @@ func (a *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReferenc
 	return returns
 }
 
-func (a *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -520,7 +520,7 @@ func (a *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReferenc
 	return returns
 }
 
-func (a *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

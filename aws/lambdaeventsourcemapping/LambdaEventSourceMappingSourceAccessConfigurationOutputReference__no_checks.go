@@ -47,7 +47,7 @@ func (l *jsiiProxy_LambdaEventSourceMappingSourceAccessConfigurationOutputRefere
 	return nil
 }
 
-func (l *jsiiProxy_LambdaEventSourceMappingSourceAccessConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LambdaEventSourceMappingSourceAccessConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_LambdaEventSourceMappingSourceAccessConfigurationOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_LambdaEventSourceMappingSourceAccessConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LambdaEventSourceMappingSourceAccessConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LambdaEventSourceMappingSourceAccessConfigurationOutputRefere
 	return nil
 }
 
-func validateNewLambdaEventSourceMappingSourceAccessConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLambdaEventSourceMappingSourceAccessConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

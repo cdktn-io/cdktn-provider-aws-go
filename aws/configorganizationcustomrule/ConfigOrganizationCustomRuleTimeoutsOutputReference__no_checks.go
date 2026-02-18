@@ -47,7 +47,7 @@ func (c *jsiiProxy_ConfigOrganizationCustomRuleTimeoutsOutputReference) validate
 	return nil
 }
 
-func (c *jsiiProxy_ConfigOrganizationCustomRuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConfigOrganizationCustomRuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ConfigOrganizationCustomRuleTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_ConfigOrganizationCustomRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConfigOrganizationCustomRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ConfigOrganizationCustomRuleTimeoutsOutputReference) validate
 	return nil
 }
 
-func validateNewConfigOrganizationCustomRuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewConfigOrganizationCustomRuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

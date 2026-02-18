@@ -47,7 +47,7 @@ func (d *jsiiProxy_DocdbClusterParameterGroupParameterOutputReference) validateI
 	return nil
 }
 
-func (d *jsiiProxy_DocdbClusterParameterGroupParameterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DocdbClusterParameterGroupParameterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DocdbClusterParameterGroupParameterOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DocdbClusterParameterGroupParameterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DocdbClusterParameterGroupParameterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DocdbClusterParameterGroupParameterOutputReference) validateS
 	return nil
 }
 
-func validateNewDocdbClusterParameterGroupParameterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDocdbClusterParameterGroupParameterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

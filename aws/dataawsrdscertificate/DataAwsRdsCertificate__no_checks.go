@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsRdsCertificate) validateSetLatestValidTillParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRdsCertificate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsRdsCertificate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

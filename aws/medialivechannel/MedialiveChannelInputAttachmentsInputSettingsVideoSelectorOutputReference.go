@@ -5,14 +5,14 @@ package medialivechannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/medialivechannel/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/medialivechannel/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ColorSpace() *string
 	SetColorSpace(val *string)
 	ColorSpaceInput() *string
@@ -43,15 +43,15 @@ type MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference i
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference i
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetColorSpace()
 	ResetColorSpaceUsage()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference i
 
 // The jsii proxy struct for MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference
 type jsiiProxy_MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference) ColorSpace() *string {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOut
 	return returns
 }
 
-func (j *jsiiProxy_MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOut
 }
 
 
-func NewMedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference {
+func NewMedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewMedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReferenc
 	return &j
 }
 
-func NewMedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference_Override(m MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference_Override(m MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOut
 	)
 }
 
-func (j *jsiiProxy_MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (m *jsiiProxy_MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOut
 	return returns
 }
 
-func (m *jsiiProxy_MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -459,8 +459,8 @@ func (m *jsiiProxy_MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOut
 	return returns
 }
 
-func (m *jsiiProxy_MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -472,11 +472,11 @@ func (m *jsiiProxy_MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOut
 	return returns
 }
 
-func (m *jsiiProxy_MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -504,7 +504,7 @@ func (m *jsiiProxy_MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOut
 	)
 }
 
-func (m *jsiiProxy_MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

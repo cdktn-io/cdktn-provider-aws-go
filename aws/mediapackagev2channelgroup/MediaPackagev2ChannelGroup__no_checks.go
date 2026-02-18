@@ -103,7 +103,7 @@ func (j *jsiiProxy_MediaPackagev2ChannelGroup) validateSetDescriptionParameters(
 	return nil
 }
 
-func (j *jsiiProxy_MediaPackagev2ChannelGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MediaPackagev2ChannelGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

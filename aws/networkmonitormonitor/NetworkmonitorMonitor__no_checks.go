@@ -103,7 +103,7 @@ func (j *jsiiProxy_NetworkmonitorMonitor) validateSetCountParameters(val interfa
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmonitorMonitor) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkmonitorMonitor) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

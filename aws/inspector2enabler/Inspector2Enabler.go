@@ -5,21 +5,21 @@ package inspector2enabler
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/inspector2enabler/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/inspector2enabler/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/inspector2_enabler aws_inspector2_enabler}.
 type Inspector2Enabler interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccountIds() *[]*string
 	SetAccountIds(val *[]*string)
 	AccountIdsInput() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type Inspector2Enabler interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,15 +46,15 @@ type Inspector2Enabler interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -68,7 +68,7 @@ type Inspector2Enabler interface {
 	SetResourceTypes(val *[]*string)
 	ResourceTypesInput() *[]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -83,7 +83,7 @@ type Inspector2Enabler interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -101,9 +101,9 @@ type Inspector2Enabler interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -140,7 +140,7 @@ type Inspector2Enabler interface {
 
 // The jsii proxy struct for Inspector2Enabler
 type jsiiProxy_Inspector2Enabler struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_Inspector2Enabler) AccountIds() *[]*string {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_Inspector2Enabler) AccountIdsInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_Inspector2Enabler) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_Inspector2Enabler) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -213,8 +213,8 @@ func (j *jsiiProxy_Inspector2Enabler) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_Inspector2Enabler) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_Inspector2Enabler) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -263,8 +263,8 @@ func (j *jsiiProxy_Inspector2Enabler) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Inspector2Enabler) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_Inspector2Enabler) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -283,8 +283,8 @@ func (j *jsiiProxy_Inspector2Enabler) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_Inspector2Enabler) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_Inspector2Enabler) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -353,8 +353,8 @@ func (j *jsiiProxy_Inspector2Enabler) ResourceTypesInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_Inspector2Enabler) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_Inspector2Enabler) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -474,7 +474,7 @@ func (j *jsiiProxy_Inspector2Enabler)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_Inspector2Enabler)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_Inspector2Enabler)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -493,7 +493,7 @@ func (j *jsiiProxy_Inspector2Enabler)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Inspector2Enabler)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_Inspector2Enabler)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -504,7 +504,7 @@ func (j *jsiiProxy_Inspector2Enabler)SetLifecycle(val *cdktf.TerraformResourceLi
 	)
 }
 
-func (j *jsiiProxy_Inspector2Enabler)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_Inspector2Enabler)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -545,14 +545,14 @@ func (j *jsiiProxy_Inspector2Enabler)SetResourceTypes(val *[]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a Inspector2Enabler resource upon running "cdktf plan <stack-name>".
-func Inspector2Enabler_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a Inspector2Enabler resource upon running "cdktn plan <stack-name>".
+func Inspector2Enabler_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateInspector2Enabler_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.inspector2Enabler.Inspector2Enabler",
@@ -686,11 +686,11 @@ func (i *jsiiProxy_Inspector2Enabler) GetAnyMapAttribute(terraformAttribute *str
 	return returns
 }
 
-func (i *jsiiProxy_Inspector2Enabler) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_Inspector2Enabler) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -827,7 +827,7 @@ func (i *jsiiProxy_Inspector2Enabler) HasResourceMove() interface{} {
 	return returns
 }
 
-func (i *jsiiProxy_Inspector2Enabler) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (i *jsiiProxy_Inspector2Enabler) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := i.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -838,11 +838,11 @@ func (i *jsiiProxy_Inspector2Enabler) ImportFrom(id *string, provider cdktf.Terr
 	)
 }
 
-func (i *jsiiProxy_Inspector2Enabler) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_Inspector2Enabler) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,

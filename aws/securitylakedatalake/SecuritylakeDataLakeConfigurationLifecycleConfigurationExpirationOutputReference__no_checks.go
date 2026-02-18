@@ -47,7 +47,7 @@ func (s *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpira
 	return nil
 }
 
-func (s *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpira
 	return nil
 }
 
-func (j *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

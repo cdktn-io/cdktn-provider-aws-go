@@ -127,7 +127,7 @@ func (j *jsiiProxy_DocdbGlobalCluster) validateSetIdParameters(val *string) erro
 	return nil
 }
 
-func (j *jsiiProxy_DocdbGlobalCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DocdbGlobalCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsOpensearchDomainAutoTuneOptionsList) validateGetParame
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsOpensearchDomainAutoTuneOptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsOpensearchDomainAutoTuneOptionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsOpensearchDomainAutoTuneOptionsList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOpensearchDomainAutoTuneOptionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsOpensearchDomainAutoTuneOptionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsOpensearchDomainAutoTuneOptionsList) validateSetWrapsS
 	return nil
 }
 
-func validateNewDataAwsOpensearchDomainAutoTuneOptionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsOpensearchDomainAutoTuneOptionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

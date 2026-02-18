@@ -15,7 +15,7 @@ func (r *jsiiProxy_RekognitionStreamProcessorSettingsConnectedHomeList) validate
 	return nil
 }
 
-func (r *jsiiProxy_RekognitionStreamProcessorSettingsConnectedHomeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RekognitionStreamProcessorSettingsConnectedHomeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorSettingsConnectedHomeList) validate
 	return nil
 }
 
-func (j *jsiiProxy_RekognitionStreamProcessorSettingsConnectedHomeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RekognitionStreamProcessorSettingsConnectedHomeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorSettingsConnectedHomeList) validate
 	return nil
 }
 
-func validateNewRekognitionStreamProcessorSettingsConnectedHomeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRekognitionStreamProcessorSettingsConnectedHomeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

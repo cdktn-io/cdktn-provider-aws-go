@@ -143,7 +143,7 @@ func (j *jsiiProxy_NeptuneClusterInstance) validateSetInstanceClassParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_NeptuneClusterInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NeptuneClusterInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

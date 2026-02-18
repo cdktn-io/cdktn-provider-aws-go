@@ -5,14 +5,14 @@ package cloudwatchlogtransformer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/cloudwatchlogtransformer/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/cloudwatchlogtransformer/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference interf
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Value() *string
 	SetValue(val *string)
 	ValueInput() *string
@@ -54,7 +54,7 @@ type CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference interf
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference interf
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetOverwriteIfExists()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference interf
 
 // The jsii proxy struct for CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference
 type jsiiProxy_CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference) ComplexObjectIndex() interface{} {
@@ -189,8 +189,8 @@ func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputRe
 	return returns
 }
 
-func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputRe
 }
 
 
-func NewCloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference {
+func NewCloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -237,7 +237,7 @@ func NewCloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference(ter
 	return &j
 }
 
-func NewCloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference_Override(c CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewCloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference_Override(c CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -313,7 +313,7 @@ func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputRe
 	)
 }
 
-func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputRe
 	return returns
 }
 
-func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -492,8 +492,8 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputRe
 	return returns
 }
 
-func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -505,11 +505,11 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputRe
 	return returns
 }
 
-func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -529,7 +529,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputRe
 	)
 }
 
-func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -5,14 +5,14 @@ package emrserverlessapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/emrserverlessapplication/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/emrserverlessapplication/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -51,15 +51,15 @@ type EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurati
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -75,9 +75,9 @@ type EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurati
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutLogTypes(value interface{})
 	ResetEncryptionKeyArn()
 	ResetLogGroupName()
@@ -85,7 +85,7 @@ type EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurati
 	ResetLogTypes()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -95,7 +95,7 @@ type EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurati
 
 // The jsii proxy struct for EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference
 type jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -258,8 +258,8 @@ func (j *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLogg
 	return returns
 }
 
-func (j *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -269,7 +269,7 @@ func (j *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLogg
 }
 
 
-func NewEmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference {
+func NewEmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -286,7 +286,7 @@ func NewEmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigur
 	return &j
 }
 
-func NewEmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference_Override(e EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference_Override(e EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -384,7 +384,7 @@ func (j *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLogg
 	)
 }
 
-func (j *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -424,11 +424,11 @@ func (e *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLogg
 	return returns
 }
 
-func (e *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -552,8 +552,8 @@ func (e *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLogg
 	return returns
 }
 
-func (e *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -565,11 +565,11 @@ func (e *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLogg
 	return returns
 }
 
-func (e *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -624,7 +624,7 @@ func (e *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLogg
 	)
 }
 
-func (e *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

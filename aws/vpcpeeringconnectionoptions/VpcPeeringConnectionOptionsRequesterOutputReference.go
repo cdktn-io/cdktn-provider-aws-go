@@ -5,14 +5,14 @@ package vpcpeeringconnectionoptions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/vpcpeeringconnectionoptions/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/vpcpeeringconnectionoptions/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VpcPeeringConnectionOptionsRequesterOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowRemoteVpcDnsResolution() interface{}
 	SetAllowRemoteVpcDnsResolution(val interface{})
 	AllowRemoteVpcDnsResolutionInput() interface{}
@@ -40,15 +40,15 @@ type VpcPeeringConnectionOptionsRequesterOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type VpcPeeringConnectionOptionsRequesterOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAllowRemoteVpcDnsResolution()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type VpcPeeringConnectionOptionsRequesterOutputReference interface {
 
 // The jsii proxy struct for VpcPeeringConnectionOptionsRequesterOutputReference
 type jsiiProxy_VpcPeeringConnectionOptionsRequesterOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VpcPeeringConnectionOptionsRequesterOutputReference) AllowRemoteVpcDnsResolution() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_VpcPeeringConnectionOptionsRequesterOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_VpcPeeringConnectionOptionsRequesterOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VpcPeeringConnectionOptionsRequesterOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_VpcPeeringConnectionOptionsRequesterOutputReference) Terrafor
 }
 
 
-func NewVpcPeeringConnectionOptionsRequesterOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VpcPeeringConnectionOptionsRequesterOutputReference {
+func NewVpcPeeringConnectionOptionsRequesterOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VpcPeeringConnectionOptionsRequesterOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVpcPeeringConnectionOptionsRequesterOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewVpcPeeringConnectionOptionsRequesterOutputReference(terraformResource cd
 	return &j
 }
 
-func NewVpcPeeringConnectionOptionsRequesterOutputReference_Override(v VpcPeeringConnectionOptionsRequesterOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVpcPeeringConnectionOptionsRequesterOutputReference_Override(v VpcPeeringConnectionOptionsRequesterOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_VpcPeeringConnectionOptionsRequesterOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_VpcPeeringConnectionOptionsRequesterOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VpcPeeringConnectionOptionsRequesterOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (v *jsiiProxy_VpcPeeringConnectionOptionsRequesterOutputReference) GetAnyMa
 	return returns
 }
 
-func (v *jsiiProxy_VpcPeeringConnectionOptionsRequesterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpcPeeringConnectionOptionsRequesterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -424,8 +424,8 @@ func (v *jsiiProxy_VpcPeeringConnectionOptionsRequesterOutputReference) GetStrin
 	return returns
 }
 
-func (v *jsiiProxy_VpcPeeringConnectionOptionsRequesterOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VpcPeeringConnectionOptionsRequesterOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -437,11 +437,11 @@ func (v *jsiiProxy_VpcPeeringConnectionOptionsRequesterOutputReference) Interpol
 	return returns
 }
 
-func (v *jsiiProxy_VpcPeeringConnectionOptionsRequesterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpcPeeringConnectionOptionsRequesterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -461,7 +461,7 @@ func (v *jsiiProxy_VpcPeeringConnectionOptionsRequesterOutputReference) ResetAll
 	)
 }
 
-func (v *jsiiProxy_VpcPeeringConnectionOptionsRequesterOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VpcPeeringConnectionOptionsRequesterOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

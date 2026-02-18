@@ -5,14 +5,14 @@ package prometheusworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/prometheusworkspace/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/prometheusworkspace/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PrometheusWorkspaceLoggingConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type PrometheusWorkspaceLoggingConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type PrometheusWorkspaceLoggingConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type PrometheusWorkspaceLoggingConfigurationOutputReference interface {
 
 // The jsii proxy struct for PrometheusWorkspaceLoggingConfigurationOutputReference
 type jsiiProxy_PrometheusWorkspaceLoggingConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PrometheusWorkspaceLoggingConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_PrometheusWorkspaceLoggingConfigurationOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_PrometheusWorkspaceLoggingConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PrometheusWorkspaceLoggingConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_PrometheusWorkspaceLoggingConfigurationOutputReference) Terra
 }
 
 
-func NewPrometheusWorkspaceLoggingConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) PrometheusWorkspaceLoggingConfigurationOutputReference {
+func NewPrometheusWorkspaceLoggingConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) PrometheusWorkspaceLoggingConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPrometheusWorkspaceLoggingConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewPrometheusWorkspaceLoggingConfigurationOutputReference(terraformResource
 	return &j
 }
 
-func NewPrometheusWorkspaceLoggingConfigurationOutputReference_Override(p PrometheusWorkspaceLoggingConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewPrometheusWorkspaceLoggingConfigurationOutputReference_Override(p PrometheusWorkspaceLoggingConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_PrometheusWorkspaceLoggingConfigurationOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_PrometheusWorkspaceLoggingConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PrometheusWorkspaceLoggingConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (p *jsiiProxy_PrometheusWorkspaceLoggingConfigurationOutputReference) GetAn
 	return returns
 }
 
-func (p *jsiiProxy_PrometheusWorkspaceLoggingConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrometheusWorkspaceLoggingConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -423,8 +423,8 @@ func (p *jsiiProxy_PrometheusWorkspaceLoggingConfigurationOutputReference) GetSt
 	return returns
 }
 
-func (p *jsiiProxy_PrometheusWorkspaceLoggingConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PrometheusWorkspaceLoggingConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -436,11 +436,11 @@ func (p *jsiiProxy_PrometheusWorkspaceLoggingConfigurationOutputReference) Inter
 	return returns
 }
 
-func (p *jsiiProxy_PrometheusWorkspaceLoggingConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrometheusWorkspaceLoggingConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -452,7 +452,7 @@ func (p *jsiiProxy_PrometheusWorkspaceLoggingConfigurationOutputReference) Inter
 	return returns
 }
 
-func (p *jsiiProxy_PrometheusWorkspaceLoggingConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PrometheusWorkspaceLoggingConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

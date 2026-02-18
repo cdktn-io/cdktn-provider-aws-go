@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (w *jsiiProxy_WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (w *jsiiProxy_WorkspaceswebDataProtectionSettingsInlineRedactionConfigurati
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInlineRedactionPattern:
 		value := value.(*[]*WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInlineRedactionPattern)
@@ -117,14 +117,14 @@ func (w *jsiiProxy_WorkspaceswebDataProtectionSettingsInlineRedactionConfigurati
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInlineRedactionPattern; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInlineRedactionPattern; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (w *jsiiProxy_WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -223,7 +223,7 @@ func (j *jsiiProxy_WorkspaceswebDataProtectionSettingsInlineRedactionConfigurati
 
 func (j *jsiiProxy_WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *WorkspaceswebDataProtectionSettingsInlineRedactionConfiguration:
 		val := val.(*WorkspaceswebDataProtectionSettingsInlineRedactionConfiguration)
@@ -238,7 +238,7 @@ func (j *jsiiProxy_WorkspaceswebDataProtectionSettingsInlineRedactionConfigurati
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *WorkspaceswebDataProtectionSettingsInlineRedactionConfiguration; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *WorkspaceswebDataProtectionSettingsInlineRedactionConfiguration; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -253,7 +253,7 @@ func (j *jsiiProxy_WorkspaceswebDataProtectionSettingsInlineRedactionConfigurati
 	return nil
 }
 
-func (j *jsiiProxy_WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -261,7 +261,7 @@ func (j *jsiiProxy_WorkspaceswebDataProtectionSettingsInlineRedactionConfigurati
 	return nil
 }
 
-func validateNewWorkspaceswebDataProtectionSettingsInlineRedactionConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWorkspaceswebDataProtectionSettingsInlineRedactionConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

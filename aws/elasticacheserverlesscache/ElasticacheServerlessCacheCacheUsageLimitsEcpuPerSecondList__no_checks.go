@@ -15,7 +15,7 @@ func (e *jsiiProxy_ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondList) 
 	return nil
 }
 
-func (e *jsiiProxy_ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondList) 
 	return nil
 }
 
-func (j *jsiiProxy_ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondList) 
 	return nil
 }
 
-func validateNewElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

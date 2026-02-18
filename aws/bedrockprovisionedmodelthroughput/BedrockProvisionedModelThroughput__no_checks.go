@@ -107,7 +107,7 @@ func (j *jsiiProxy_BedrockProvisionedModelThroughput) validateSetCountParameters
 	return nil
 }
 
-func (j *jsiiProxy_BedrockProvisionedModelThroughput) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BedrockProvisionedModelThroughput) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

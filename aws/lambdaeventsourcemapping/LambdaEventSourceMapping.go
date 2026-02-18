@@ -5,16 +5,16 @@ package lambdaeventsourcemapping
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lambdaeventsourcemapping/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lambdaeventsourcemapping/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/lambda_event_source_mapping aws_lambda_event_source_mapping}.
 type LambdaEventSourceMapping interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AmazonManagedKafkaEventSourceConfig() LambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigOutputReference
 	AmazonManagedKafkaEventSourceConfigInput() *LambdaEventSourceMappingAmazonManagedKafkaEventSourceConfig
 	Arn() *string
@@ -25,7 +25,7 @@ type LambdaEventSourceMapping interface {
 	SetBisectBatchOnFunctionError(val interface{})
 	BisectBatchOnFunctionErrorInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -53,9 +53,9 @@ type LambdaEventSourceMapping interface {
 	FilterCriteria() LambdaEventSourceMappingFilterCriteriaOutputReference
 	FilterCriteriaInput() *LambdaEventSourceMappingFilterCriteria
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -76,9 +76,9 @@ type LambdaEventSourceMapping interface {
 	LastModified() *string
 	LastProcessingResult() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MaximumBatchingWindowInSeconds() *float64
 	SetMaximumBatchingWindowInSeconds(val *float64)
 	MaximumBatchingWindowInSecondsInput() *float64
@@ -96,9 +96,9 @@ type LambdaEventSourceMapping interface {
 	SetParallelizationFactor(val *float64)
 	ParallelizationFactorInput() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	ProvisionedPollerConfig() LambdaEventSourceMappingProvisionedPollerConfigOutputReference
 	ProvisionedPollerConfigInput() *LambdaEventSourceMappingProvisionedPollerConfig
 	// Experimental.
@@ -136,7 +136,7 @@ type LambdaEventSourceMapping interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -156,7 +156,7 @@ type LambdaEventSourceMapping interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -174,9 +174,9 @@ type LambdaEventSourceMapping interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -248,7 +248,7 @@ type LambdaEventSourceMapping interface {
 
 // The jsii proxy struct for LambdaEventSourceMapping
 type jsiiProxy_LambdaEventSourceMapping struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_LambdaEventSourceMapping) AmazonManagedKafkaEventSourceConfig() LambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigOutputReference {
@@ -321,8 +321,8 @@ func (j *jsiiProxy_LambdaEventSourceMapping) BisectBatchOnFunctionErrorInput() i
 	return returns
 }
 
-func (j *jsiiProxy_LambdaEventSourceMapping) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_LambdaEventSourceMapping) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -471,8 +471,8 @@ func (j *jsiiProxy_LambdaEventSourceMapping) FilterCriteriaInput() *LambdaEventS
 	return returns
 }
 
-func (j *jsiiProxy_LambdaEventSourceMapping) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_LambdaEventSourceMapping) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -611,8 +611,8 @@ func (j *jsiiProxy_LambdaEventSourceMapping) LastProcessingResult() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LambdaEventSourceMapping) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_LambdaEventSourceMapping) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -731,8 +731,8 @@ func (j *jsiiProxy_LambdaEventSourceMapping) ParallelizationFactorInput() *float
 	return returns
 }
 
-func (j *jsiiProxy_LambdaEventSourceMapping) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_LambdaEventSourceMapping) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -1001,8 +1001,8 @@ func (j *jsiiProxy_LambdaEventSourceMapping) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_LambdaEventSourceMapping) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_LambdaEventSourceMapping) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1185,7 +1185,7 @@ func (j *jsiiProxy_LambdaEventSourceMapping)SetEventSourceArn(val *string) {
 	)
 }
 
-func (j *jsiiProxy_LambdaEventSourceMapping)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_LambdaEventSourceMapping)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1237,7 +1237,7 @@ func (j *jsiiProxy_LambdaEventSourceMapping)SetKmsKeyArn(val *string) {
 	)
 }
 
-func (j *jsiiProxy_LambdaEventSourceMapping)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_LambdaEventSourceMapping)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1292,7 +1292,7 @@ func (j *jsiiProxy_LambdaEventSourceMapping)SetParallelizationFactor(val *float6
 	)
 }
 
-func (j *jsiiProxy_LambdaEventSourceMapping)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_LambdaEventSourceMapping)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1399,14 +1399,14 @@ func (j *jsiiProxy_LambdaEventSourceMapping)SetTumblingWindowInSeconds(val *floa
 	)
 }
 
-// Generates CDKTF code for importing a LambdaEventSourceMapping resource upon running "cdktf plan <stack-name>".
-func LambdaEventSourceMapping_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a LambdaEventSourceMapping resource upon running "cdktn plan <stack-name>".
+func LambdaEventSourceMapping_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateLambdaEventSourceMapping_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.lambdaEventSourceMapping.LambdaEventSourceMapping",
@@ -1540,11 +1540,11 @@ func (l *jsiiProxy_LambdaEventSourceMapping) GetAnyMapAttribute(terraformAttribu
 	return returns
 }
 
-func (l *jsiiProxy_LambdaEventSourceMapping) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LambdaEventSourceMapping) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -1681,7 +1681,7 @@ func (l *jsiiProxy_LambdaEventSourceMapping) HasResourceMove() interface{} {
 	return returns
 }
 
-func (l *jsiiProxy_LambdaEventSourceMapping) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (l *jsiiProxy_LambdaEventSourceMapping) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := l.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1692,11 +1692,11 @@ func (l *jsiiProxy_LambdaEventSourceMapping) ImportFrom(id *string, provider cdk
 	)
 }
 
-func (l *jsiiProxy_LambdaEventSourceMapping) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LambdaEventSourceMapping) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_S3TablesTableBucketEncryptionConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (s *jsiiProxy_S3TablesTableBucketEncryptionConfigurationOutputReference) va
 	return nil
 }
 
-func (s *jsiiProxy_S3TablesTableBucketEncryptionConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3TablesTableBucketEncryptionConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -168,7 +168,7 @@ func (j *jsiiProxy_S3TablesTableBucketEncryptionConfigurationOutputReference) va
 
 func (j *jsiiProxy_S3TablesTableBucketEncryptionConfigurationOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *S3TablesTableBucketEncryptionConfiguration:
 		val := val.(*S3TablesTableBucketEncryptionConfiguration)
@@ -183,7 +183,7 @@ func (j *jsiiProxy_S3TablesTableBucketEncryptionConfigurationOutputReference) va
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *S3TablesTableBucketEncryptionConfiguration; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *S3TablesTableBucketEncryptionConfiguration; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_S3TablesTableBucketEncryptionConfigurationOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_S3TablesTableBucketEncryptionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3TablesTableBucketEncryptionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -222,7 +222,7 @@ func (j *jsiiProxy_S3TablesTableBucketEncryptionConfigurationOutputReference) va
 	return nil
 }
 
-func validateNewS3TablesTableBucketEncryptionConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewS3TablesTableBucketEncryptionConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

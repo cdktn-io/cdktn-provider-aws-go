@@ -51,7 +51,7 @@ func (m *jsiiProxy_MedialiveChannelEncoderSettingsAvailBlankingOutputReference) 
 	return nil
 }
 
-func (m *jsiiProxy_MedialiveChannelEncoderSettingsAvailBlankingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MedialiveChannelEncoderSettingsAvailBlankingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_MedialiveChannelEncoderSettingsAvailBlankingOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_MedialiveChannelEncoderSettingsAvailBlankingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MedialiveChannelEncoderSettingsAvailBlankingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMedialiveChannelEncoderSettingsAvailBlankingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMedialiveChannelEncoderSettingsAvailBlankingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

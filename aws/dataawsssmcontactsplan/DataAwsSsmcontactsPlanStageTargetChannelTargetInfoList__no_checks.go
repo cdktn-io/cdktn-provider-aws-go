@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsSsmcontactsPlanStageTargetChannelTargetInfoList) valid
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsSsmcontactsPlanStageTargetChannelTargetInfoList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsSsmcontactsPlanStageTargetChannelTargetInfoList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsSsmcontactsPlanStageTargetChannelTargetInfoList) valid
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSsmcontactsPlanStageTargetChannelTargetInfoList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsSsmcontactsPlanStageTargetChannelTargetInfoList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsSsmcontactsPlanStageTargetChannelTargetInfoList) valid
 	return nil
 }
 
-func validateNewDataAwsSsmcontactsPlanStageTargetChannelTargetInfoListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsSsmcontactsPlanStageTargetChannelTargetInfoListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

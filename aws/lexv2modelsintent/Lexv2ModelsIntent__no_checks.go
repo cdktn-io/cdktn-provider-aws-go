@@ -155,7 +155,7 @@ func (j *jsiiProxy_Lexv2ModelsIntent) validateSetDescriptionParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_Lexv2ModelsIntent) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Lexv2ModelsIntent) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

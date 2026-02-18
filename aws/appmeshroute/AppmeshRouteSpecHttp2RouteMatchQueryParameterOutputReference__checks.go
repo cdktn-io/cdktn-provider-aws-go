@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_AppmeshRouteSpecHttp2RouteMatchQueryParameterOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -104,7 +104,7 @@ func (a *jsiiProxy_AppmeshRouteSpecHttp2RouteMatchQueryParameterOutputReference)
 	return nil
 }
 
-func (a *jsiiProxy_AppmeshRouteSpecHttp2RouteMatchQueryParameterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppmeshRouteSpecHttp2RouteMatchQueryParameterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -179,7 +179,7 @@ func (j *jsiiProxy_AppmeshRouteSpecHttp2RouteMatchQueryParameterOutputReference)
 
 func (j *jsiiProxy_AppmeshRouteSpecHttp2RouteMatchQueryParameterOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *AppmeshRouteSpecHttp2RouteMatchQueryParameter:
 		val := val.(*AppmeshRouteSpecHttp2RouteMatchQueryParameter)
@@ -194,7 +194,7 @@ func (j *jsiiProxy_AppmeshRouteSpecHttp2RouteMatchQueryParameterOutputReference)
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *AppmeshRouteSpecHttp2RouteMatchQueryParameter; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *AppmeshRouteSpecHttp2RouteMatchQueryParameter; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -217,7 +217,7 @@ func (j *jsiiProxy_AppmeshRouteSpecHttp2RouteMatchQueryParameterOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshRouteSpecHttp2RouteMatchQueryParameterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppmeshRouteSpecHttp2RouteMatchQueryParameterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -225,7 +225,7 @@ func (j *jsiiProxy_AppmeshRouteSpecHttp2RouteMatchQueryParameterOutputReference)
 	return nil
 }
 
-func validateNewAppmeshRouteSpecHttp2RouteMatchQueryParameterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppmeshRouteSpecHttp2RouteMatchQueryParameterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -15,7 +15,7 @@ func (c *jsiiProxy_ChimeVoiceConnectorGroupConnectorList) validateGetParameters(
 	return nil
 }
 
-func (c *jsiiProxy_ChimeVoiceConnectorGroupConnectorList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ChimeVoiceConnectorGroupConnectorList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ChimeVoiceConnectorGroupConnectorList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_ChimeVoiceConnectorGroupConnectorList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ChimeVoiceConnectorGroupConnectorList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ChimeVoiceConnectorGroupConnectorList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewChimeVoiceConnectorGroupConnectorListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewChimeVoiceConnectorGroupConnectorListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

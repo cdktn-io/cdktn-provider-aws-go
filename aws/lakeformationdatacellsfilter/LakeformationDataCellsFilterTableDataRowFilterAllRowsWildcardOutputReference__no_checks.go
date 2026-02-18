@@ -47,7 +47,7 @@ func (l *jsiiProxy_LakeformationDataCellsFilterTableDataRowFilterAllRowsWildcard
 	return nil
 }
 
-func (l *jsiiProxy_LakeformationDataCellsFilterTableDataRowFilterAllRowsWildcardOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LakeformationDataCellsFilterTableDataRowFilterAllRowsWildcardOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_LakeformationDataCellsFilterTableDataRowFilterAllRowsWildcard
 	return nil
 }
 
-func (j *jsiiProxy_LakeformationDataCellsFilterTableDataRowFilterAllRowsWildcardOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LakeformationDataCellsFilterTableDataRowFilterAllRowsWildcardOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLakeformationDataCellsFilterTableDataRowFilterAllRowsWildcardOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLakeformationDataCellsFilterTableDataRowFilterAllRowsWildcardOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

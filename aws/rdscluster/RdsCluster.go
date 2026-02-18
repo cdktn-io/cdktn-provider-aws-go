@@ -5,16 +5,16 @@ package rdscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/rdscluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/rdscluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/rds_cluster aws_rds_cluster}.
 type RdsCluster interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AllocatedStorage() *float64
 	SetAllocatedStorage(val *float64)
 	AllocatedStorageInput() *float64
@@ -39,7 +39,7 @@ type RdsCluster interface {
 	CaCertificateIdentifierInput() *string
 	CaCertificateValidTill() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClusterIdentifier() *string
 	SetClusterIdentifier(val *string)
 	ClusterIdentifierInput() *string
@@ -133,9 +133,9 @@ type RdsCluster interface {
 	SetFinalSnapshotIdentifier(val *string)
 	FinalSnapshotIdentifierInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -160,9 +160,9 @@ type RdsCluster interface {
 	SetKmsKeyId(val *string)
 	KmsKeyIdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	ManageMasterUserPassword() interface{}
 	SetManageMasterUserPassword(val interface{})
 	ManageMasterUserPasswordInput() interface{}
@@ -212,9 +212,9 @@ type RdsCluster interface {
 	SetPreferredMaintenanceWindow(val *string)
 	PreferredMaintenanceWindowInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -258,7 +258,7 @@ type RdsCluster interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -277,7 +277,7 @@ type RdsCluster interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -295,9 +295,9 @@ type RdsCluster interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -402,7 +402,7 @@ type RdsCluster interface {
 
 // The jsii proxy struct for RdsCluster
 type jsiiProxy_RdsCluster struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_RdsCluster) AllocatedStorage() *float64 {
@@ -565,8 +565,8 @@ func (j *jsiiProxy_RdsCluster) CaCertificateValidTill() *string {
 	return returns
 }
 
-func (j *jsiiProxy_RdsCluster) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_RdsCluster) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -1145,8 +1145,8 @@ func (j *jsiiProxy_RdsCluster) FinalSnapshotIdentifierInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_RdsCluster) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_RdsCluster) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -1305,8 +1305,8 @@ func (j *jsiiProxy_RdsCluster) KmsKeyIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_RdsCluster) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_RdsCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -1635,8 +1635,8 @@ func (j *jsiiProxy_RdsCluster) PreferredMaintenanceWindowInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_RdsCluster) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_RdsCluster) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -1935,8 +1935,8 @@ func (j *jsiiProxy_RdsCluster) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_RdsCluster) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_RdsCluster) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -2427,7 +2427,7 @@ func (j *jsiiProxy_RdsCluster)SetFinalSnapshotIdentifier(val *string) {
 	)
 }
 
-func (j *jsiiProxy_RdsCluster)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_RdsCluster)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -2501,7 +2501,7 @@ func (j *jsiiProxy_RdsCluster)SetKmsKeyId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_RdsCluster)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_RdsCluster)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -2677,7 +2677,7 @@ func (j *jsiiProxy_RdsCluster)SetPreferredMaintenanceWindow(val *string) {
 	)
 }
 
-func (j *jsiiProxy_RdsCluster)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_RdsCluster)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -2806,14 +2806,14 @@ func (j *jsiiProxy_RdsCluster)SetVpcSecurityGroupIds(val *[]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a RdsCluster resource upon running "cdktf plan <stack-name>".
-func RdsCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a RdsCluster resource upon running "cdktn plan <stack-name>".
+func RdsCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateRdsCluster_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.rdsCluster.RdsCluster",
@@ -2947,11 +2947,11 @@ func (r *jsiiProxy_RdsCluster) GetAnyMapAttribute(terraformAttribute *string) *m
 	return returns
 }
 
-func (r *jsiiProxy_RdsCluster) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RdsCluster) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -3088,7 +3088,7 @@ func (r *jsiiProxy_RdsCluster) HasResourceMove() interface{} {
 	return returns
 }
 
-func (r *jsiiProxy_RdsCluster) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (r *jsiiProxy_RdsCluster) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := r.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -3099,11 +3099,11 @@ func (r *jsiiProxy_RdsCluster) ImportFrom(id *string, provider cdktf.TerraformPr
 	)
 }
 
-func (r *jsiiProxy_RdsCluster) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RdsCluster) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,

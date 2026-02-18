@@ -107,7 +107,7 @@ func (j *jsiiProxy_WafregionalIpset) validateSetIdParameters(val *string) error 
 	return nil
 }
 
-func (j *jsiiProxy_WafregionalIpset) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_WafregionalIpset) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

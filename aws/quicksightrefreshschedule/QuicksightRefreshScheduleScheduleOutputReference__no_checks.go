@@ -51,7 +51,7 @@ func (q *jsiiProxy_QuicksightRefreshScheduleScheduleOutputReference) validatePut
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightRefreshScheduleScheduleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightRefreshScheduleScheduleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_QuicksightRefreshScheduleScheduleOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightRefreshScheduleScheduleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightRefreshScheduleScheduleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewQuicksightRefreshScheduleScheduleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewQuicksightRefreshScheduleScheduleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

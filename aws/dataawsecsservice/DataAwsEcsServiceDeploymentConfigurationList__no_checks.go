@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationList) validateGetPara
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationList) validateSetWrap
 	return nil
 }
 
-func validateNewDataAwsEcsServiceDeploymentConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEcsServiceDeploymentConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

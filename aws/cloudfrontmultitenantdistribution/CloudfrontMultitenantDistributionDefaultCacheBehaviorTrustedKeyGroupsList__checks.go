@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_CloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedKeyGroupsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (c *jsiiProxy_CloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedK
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedKeyGroupsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedKeyGroupsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (c *jsiiProxy_CloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedK
 
 func (j *jsiiProxy_CloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedKeyGroupsList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedKeyGroups:
 		val := val.(*[]*CloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedKeyGroups)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_CloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedK
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*CloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedKeyGroups; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*CloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedKeyGroups; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_CloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedK
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedKeyGroupsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedKeyGroupsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_CloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedK
 	return nil
 }
 
-func validateNewCloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedKeyGroupsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedKeyGroupsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -107,7 +107,7 @@ func (j *jsiiProxy_Route53VpcAssociationAuthorization) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_Route53VpcAssociationAuthorization) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Route53VpcAssociationAuthorization) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitio
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*VpclatticeResourceConfigurationResourceConfigurationDefinitionArnResource:
 		value := value.(*[]*VpclatticeResourceConfigurationResourceConfigurationDefinitionArnResource)
@@ -117,7 +117,7 @@ func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitio
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*VpclatticeResourceConfigurationResourceConfigurationDefinitionArnResource; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*VpclatticeResourceConfigurationResourceConfigurationDefinitionArnResource; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitio
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*VpclatticeResourceConfigurationResourceConfigurationDefinitionDnsResource:
 		value := value.(*[]*VpclatticeResourceConfigurationResourceConfigurationDefinitionDnsResource)
@@ -148,7 +148,7 @@ func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitio
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*VpclatticeResourceConfigurationResourceConfigurationDefinitionDnsResource; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*VpclatticeResourceConfigurationResourceConfigurationDefinitionDnsResource; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitio
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResource:
 		value := value.(*[]*VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResource)
@@ -179,14 +179,14 @@ func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitio
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResource; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResource; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -261,7 +261,7 @@ func (j *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitio
 
 func (j *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *VpclatticeResourceConfigurationResourceConfigurationDefinition:
 		val := val.(*VpclatticeResourceConfigurationResourceConfigurationDefinition)
@@ -276,7 +276,7 @@ func (j *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitio
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *VpclatticeResourceConfigurationResourceConfigurationDefinition; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *VpclatticeResourceConfigurationResourceConfigurationDefinition; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -291,7 +291,7 @@ func (j *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitio
 	return nil
 }
 
-func (j *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -299,7 +299,7 @@ func (j *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitio
 	return nil
 }
 
-func validateNewVpclatticeResourceConfigurationResourceConfigurationDefinitionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVpclatticeResourceConfigurationResourceConfigurationDefinitionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

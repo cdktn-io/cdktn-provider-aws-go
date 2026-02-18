@@ -107,7 +107,7 @@ func (j *jsiiProxy_CodebuildSourceCredential) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_CodebuildSourceCredential) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CodebuildSourceCredential) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

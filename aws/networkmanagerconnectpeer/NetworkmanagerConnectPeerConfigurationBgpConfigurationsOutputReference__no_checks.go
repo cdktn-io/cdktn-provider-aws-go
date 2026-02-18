@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkmanagerConnectPeerConfigurationBgpConfigurationsOutput
 	return nil
 }
 
-func (n *jsiiProxy_NetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_NetworkmanagerConnectPeerConfigurationBgpConfigurationsOutput
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

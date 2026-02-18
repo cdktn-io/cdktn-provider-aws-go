@@ -5,16 +5,16 @@ package eipassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/eipassociation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/eipassociation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/eip_association aws_eip_association}.
 type EipAssociation interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AllocationId() *string
 	SetAllocationId(val *string)
 	AllocationIdInput() *string
@@ -22,7 +22,7 @@ type EipAssociation interface {
 	SetAllowReassociation(val interface{})
 	AllowReassociationInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type EipAssociation interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,9 +52,9 @@ type EipAssociation interface {
 	SetInstanceId(val *string)
 	InstanceIdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	NetworkInterfaceId() *string
 	SetNetworkInterfaceId(val *string)
 	NetworkInterfaceIdInput() *string
@@ -64,9 +64,9 @@ type EipAssociation interface {
 	SetPrivateIpAddress(val *string)
 	PrivateIpAddressInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -80,7 +80,7 @@ type EipAssociation interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -93,7 +93,7 @@ type EipAssociation interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -111,9 +111,9 @@ type EipAssociation interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -154,7 +154,7 @@ type EipAssociation interface {
 
 // The jsii proxy struct for EipAssociation
 type jsiiProxy_EipAssociation struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_EipAssociation) AllocationId() *string {
@@ -197,8 +197,8 @@ func (j *jsiiProxy_EipAssociation) AllowReassociationInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_EipAssociation) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_EipAssociation) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -247,8 +247,8 @@ func (j *jsiiProxy_EipAssociation) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_EipAssociation) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_EipAssociation) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -317,8 +317,8 @@ func (j *jsiiProxy_EipAssociation) InstanceIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_EipAssociation) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_EipAssociation) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -377,8 +377,8 @@ func (j *jsiiProxy_EipAssociation) PrivateIpAddressInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_EipAssociation) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_EipAssociation) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -447,8 +447,8 @@ func (j *jsiiProxy_EipAssociation) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_EipAssociation) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_EipAssociation) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -559,7 +559,7 @@ func (j *jsiiProxy_EipAssociation)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_EipAssociation)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_EipAssociation)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -589,7 +589,7 @@ func (j *jsiiProxy_EipAssociation)SetInstanceId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_EipAssociation)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_EipAssociation)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -622,7 +622,7 @@ func (j *jsiiProxy_EipAssociation)SetPrivateIpAddress(val *string) {
 	)
 }
 
-func (j *jsiiProxy_EipAssociation)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_EipAssociation)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -663,14 +663,14 @@ func (j *jsiiProxy_EipAssociation)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a EipAssociation resource upon running "cdktf plan <stack-name>".
-func EipAssociation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a EipAssociation resource upon running "cdktn plan <stack-name>".
+func EipAssociation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateEipAssociation_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.eipAssociation.EipAssociation",
@@ -804,11 +804,11 @@ func (e *jsiiProxy_EipAssociation) GetAnyMapAttribute(terraformAttribute *string
 	return returns
 }
 
-func (e *jsiiProxy_EipAssociation) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EipAssociation) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -945,7 +945,7 @@ func (e *jsiiProxy_EipAssociation) HasResourceMove() interface{} {
 	return returns
 }
 
-func (e *jsiiProxy_EipAssociation) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (e *jsiiProxy_EipAssociation) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := e.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -956,11 +956,11 @@ func (e *jsiiProxy_EipAssociation) ImportFrom(id *string, provider cdktf.Terrafo
 	)
 }
 
-func (e *jsiiProxy_EipAssociation) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EipAssociation) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,

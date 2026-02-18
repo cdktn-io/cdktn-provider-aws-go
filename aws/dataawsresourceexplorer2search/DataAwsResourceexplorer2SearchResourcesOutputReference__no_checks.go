@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsResourceexplorer2SearchResourcesOutputReference) valid
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsResourceexplorer2SearchResourcesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsResourceexplorer2SearchResourcesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsResourceexplorer2SearchResourcesOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsResourceexplorer2SearchResourcesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsResourceexplorer2SearchResourcesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsResourceexplorer2SearchResourcesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsResourceexplorer2SearchResourcesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

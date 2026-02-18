@@ -5,14 +5,14 @@ package ecsservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ecsservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ecsservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference interfac
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference interfac
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetIdleTimeoutSeconds()
 	ResetPerRequestTimeoutSeconds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference interfac
 
 // The jsii proxy struct for EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference
 type jsiiProxy_EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_EcsServiceServiceConnectConfigurationServiceTimeoutOutputRefe
 	return returns
 }
 
-func (j *jsiiProxy_EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_EcsServiceServiceConnectConfigurationServiceTimeoutOutputRefe
 }
 
 
-func NewEcsServiceServiceConnectConfigurationServiceTimeoutOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference {
+func NewEcsServiceServiceConnectConfigurationServiceTimeoutOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEcsServiceServiceConnectConfigurationServiceTimeoutOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewEcsServiceServiceConnectConfigurationServiceTimeoutOutputReference(terra
 	return &j
 }
 
-func NewEcsServiceServiceConnectConfigurationServiceTimeoutOutputReference_Override(e EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEcsServiceServiceConnectConfigurationServiceTimeoutOutputReference_Override(e EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_EcsServiceServiceConnectConfigurationServiceTimeoutOutputRefe
 	)
 }
 
-func (j *jsiiProxy_EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (e *jsiiProxy_EcsServiceServiceConnectConfigurationServiceTimeoutOutputRefe
 	return returns
 }
 
-func (e *jsiiProxy_EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -459,8 +459,8 @@ func (e *jsiiProxy_EcsServiceServiceConnectConfigurationServiceTimeoutOutputRefe
 	return returns
 }
 
-func (e *jsiiProxy_EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -472,11 +472,11 @@ func (e *jsiiProxy_EcsServiceServiceConnectConfigurationServiceTimeoutOutputRefe
 	return returns
 }
 
-func (e *jsiiProxy_EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -504,7 +504,7 @@ func (e *jsiiProxy_EcsServiceServiceConnectConfigurationServiceTimeoutOutputRefe
 	)
 }
 
-func (e *jsiiProxy_EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -131,7 +131,7 @@ func (j *jsiiProxy_SnsPlatformApplication) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_SnsPlatformApplication) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SnsPlatformApplication) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

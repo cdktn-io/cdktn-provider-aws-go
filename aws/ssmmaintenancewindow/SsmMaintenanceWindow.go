@@ -5,21 +5,21 @@ package ssmmaintenancewindow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ssmmaintenancewindow/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ssmmaintenancewindow/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/ssm_maintenance_window aws_ssm_maintenance_window}.
 type SsmMaintenanceWindow interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AllowUnassociatedTargets() interface{}
 	SetAllowUnassociatedTargets(val interface{})
 	AllowUnassociatedTargetsInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -50,9 +50,9 @@ type SsmMaintenanceWindow interface {
 	SetEndDate(val *string)
 	EndDateInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -61,18 +61,18 @@ type SsmMaintenanceWindow interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -101,7 +101,7 @@ type SsmMaintenanceWindow interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -114,7 +114,7 @@ type SsmMaintenanceWindow interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -132,9 +132,9 @@ type SsmMaintenanceWindow interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -178,7 +178,7 @@ type SsmMaintenanceWindow interface {
 
 // The jsii proxy struct for SsmMaintenanceWindow
 type jsiiProxy_SsmMaintenanceWindow struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_SsmMaintenanceWindow) AllowUnassociatedTargets() interface{} {
@@ -201,8 +201,8 @@ func (j *jsiiProxy_SsmMaintenanceWindow) AllowUnassociatedTargetsInput() interfa
 	return returns
 }
 
-func (j *jsiiProxy_SsmMaintenanceWindow) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_SsmMaintenanceWindow) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -351,8 +351,8 @@ func (j *jsiiProxy_SsmMaintenanceWindow) EndDateInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SsmMaintenanceWindow) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_SsmMaintenanceWindow) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -401,8 +401,8 @@ func (j *jsiiProxy_SsmMaintenanceWindow) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SsmMaintenanceWindow) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_SsmMaintenanceWindow) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -441,8 +441,8 @@ func (j *jsiiProxy_SsmMaintenanceWindow) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_SsmMaintenanceWindow) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_SsmMaintenanceWindow) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -611,8 +611,8 @@ func (j *jsiiProxy_SsmMaintenanceWindow) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_SsmMaintenanceWindow) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_SsmMaintenanceWindow) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -767,7 +767,7 @@ func (j *jsiiProxy_SsmMaintenanceWindow)SetEndDate(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SsmMaintenanceWindow)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_SsmMaintenanceWindow)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -786,7 +786,7 @@ func (j *jsiiProxy_SsmMaintenanceWindow)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SsmMaintenanceWindow)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_SsmMaintenanceWindow)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -808,7 +808,7 @@ func (j *jsiiProxy_SsmMaintenanceWindow)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SsmMaintenanceWindow)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_SsmMaintenanceWindow)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -904,14 +904,14 @@ func (j *jsiiProxy_SsmMaintenanceWindow)SetTagsAll(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a SsmMaintenanceWindow resource upon running "cdktf plan <stack-name>".
-func SsmMaintenanceWindow_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a SsmMaintenanceWindow resource upon running "cdktn plan <stack-name>".
+func SsmMaintenanceWindow_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateSsmMaintenanceWindow_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.ssmMaintenanceWindow.SsmMaintenanceWindow",
@@ -1045,11 +1045,11 @@ func (s *jsiiProxy_SsmMaintenanceWindow) GetAnyMapAttribute(terraformAttribute *
 	return returns
 }
 
-func (s *jsiiProxy_SsmMaintenanceWindow) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SsmMaintenanceWindow) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -1186,7 +1186,7 @@ func (s *jsiiProxy_SsmMaintenanceWindow) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_SsmMaintenanceWindow) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_SsmMaintenanceWindow) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1197,11 +1197,11 @@ func (s *jsiiProxy_SsmMaintenanceWindow) ImportFrom(id *string, provider cdktf.T
 	)
 }
 
-func (s *jsiiProxy_SsmMaintenanceWindow) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SsmMaintenanceWindow) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

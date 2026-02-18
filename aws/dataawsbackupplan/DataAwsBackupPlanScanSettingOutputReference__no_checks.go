@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsBackupPlanScanSettingOutputReference) validateInterpol
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsBackupPlanScanSettingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsBackupPlanScanSettingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsBackupPlanScanSettingOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsBackupPlanScanSettingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsBackupPlanScanSettingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsBackupPlanScanSettingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsBackupPlanScanSettingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

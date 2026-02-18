@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsAppmeshRouteSpecHttp2RouteMatchQueryParameterMatchList
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAppmeshRouteSpecHttp2RouteMatchQueryParameterMatchList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAppmeshRouteSpecHttp2RouteMatchQueryParameterMatchList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsAppmeshRouteSpecHttp2RouteMatchQueryParameterMatchList
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAppmeshRouteSpecHttp2RouteMatchQueryParameterMatchList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAppmeshRouteSpecHttp2RouteMatchQueryParameterMatchList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsAppmeshRouteSpecHttp2RouteMatchQueryParameterMatchList
 	return nil
 }
 
-func validateNewDataAwsAppmeshRouteSpecHttp2RouteMatchQueryParameterMatchListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsAppmeshRouteSpecHttp2RouteMatchQueryParameterMatchListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

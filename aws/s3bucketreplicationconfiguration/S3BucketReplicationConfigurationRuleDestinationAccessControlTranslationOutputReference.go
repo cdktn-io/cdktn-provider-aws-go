@@ -5,14 +5,14 @@ package s3bucketreplicationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/s3bucketreplicationconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/s3bucketreplicationconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutp
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutp
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutp
 
 // The jsii proxy struct for S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference
 type jsiiProxy_S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_S3BucketReplicationConfigurationRuleDestinationAccessControlT
 	return returns
 }
 
-func (j *jsiiProxy_S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_S3BucketReplicationConfigurationRuleDestinationAccessControlT
 }
 
 
-func NewS3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference {
+func NewS3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewS3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewS3BucketReplicationConfigurationRuleDestinationAccessControlTranslationO
 	return &j
 }
 
-func NewS3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference_Override(s S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewS3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference_Override(s S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_S3BucketReplicationConfigurationRuleDestinationAccessControlT
 	)
 }
 
-func (j *jsiiProxy_S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (s *jsiiProxy_S3BucketReplicationConfigurationRuleDestinationAccessControlT
 	return returns
 }
 
-func (s *jsiiProxy_S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -423,8 +423,8 @@ func (s *jsiiProxy_S3BucketReplicationConfigurationRuleDestinationAccessControlT
 	return returns
 }
 
-func (s *jsiiProxy_S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -436,11 +436,11 @@ func (s *jsiiProxy_S3BucketReplicationConfigurationRuleDestinationAccessControlT
 	return returns
 }
 
-func (s *jsiiProxy_S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -452,7 +452,7 @@ func (s *jsiiProxy_S3BucketReplicationConfigurationRuleDestinationAccessControlT
 	return returns
 }
 
-func (s *jsiiProxy_S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_S3BucketReplicationConfigurationRuleDestinationAccessControlTranslationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsOpensearchserverlessCollection) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOpensearchserverlessCollection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsOpensearchserverlessCollection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

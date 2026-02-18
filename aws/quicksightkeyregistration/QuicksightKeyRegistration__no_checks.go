@@ -107,7 +107,7 @@ func (j *jsiiProxy_QuicksightKeyRegistration) validateSetCountParameters(val int
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightKeyRegistration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_QuicksightKeyRegistration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

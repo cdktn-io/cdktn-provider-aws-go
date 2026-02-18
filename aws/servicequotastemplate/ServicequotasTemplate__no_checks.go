@@ -103,7 +103,7 @@ func (j *jsiiProxy_ServicequotasTemplate) validateSetCountParameters(val interfa
 	return nil
 }
 
-func (j *jsiiProxy_ServicequotasTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ServicequotasTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

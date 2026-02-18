@@ -131,7 +131,7 @@ func (j *jsiiProxy_DxHostedPrivateVirtualInterface) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DxHostedPrivateVirtualInterface) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DxHostedPrivateVirtualInterface) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

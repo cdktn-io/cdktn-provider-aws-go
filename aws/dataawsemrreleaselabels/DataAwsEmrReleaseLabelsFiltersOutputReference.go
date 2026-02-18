@@ -5,14 +5,14 @@ package dataawsemrreleaselabels
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsemrreleaselabels/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsemrreleaselabels/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsEmrReleaseLabelsFiltersOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Application() *string
 	SetApplication(val *string)
 	ApplicationInput() *string
@@ -43,15 +43,15 @@ type DataAwsEmrReleaseLabelsFiltersOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type DataAwsEmrReleaseLabelsFiltersOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetApplication()
 	ResetPrefix()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type DataAwsEmrReleaseLabelsFiltersOutputReference interface {
 
 // The jsii proxy struct for DataAwsEmrReleaseLabelsFiltersOutputReference
 type jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference) Application() *string {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference) TerraformResou
 }
 
 
-func NewDataAwsEmrReleaseLabelsFiltersOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataAwsEmrReleaseLabelsFiltersOutputReference {
+func NewDataAwsEmrReleaseLabelsFiltersOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataAwsEmrReleaseLabelsFiltersOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsEmrReleaseLabelsFiltersOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewDataAwsEmrReleaseLabelsFiltersOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewDataAwsEmrReleaseLabelsFiltersOutputReference_Override(d DataAwsEmrReleaseLabelsFiltersOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataAwsEmrReleaseLabelsFiltersOutputReference_Override(d DataAwsEmrReleaseLabelsFiltersOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (d *jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -459,8 +459,8 @@ func (d *jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference) GetStringMapAt
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -472,11 +472,11 @@ func (d *jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference) InterpolationA
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -504,7 +504,7 @@ func (d *jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference) ResetPrefix() 
 	)
 }
 
-func (d *jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

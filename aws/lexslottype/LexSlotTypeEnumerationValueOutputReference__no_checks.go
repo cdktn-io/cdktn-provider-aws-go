@@ -47,7 +47,7 @@ func (l *jsiiProxy_LexSlotTypeEnumerationValueOutputReference) validateInterpola
 	return nil
 }
 
-func (l *jsiiProxy_LexSlotTypeEnumerationValueOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LexSlotTypeEnumerationValueOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_LexSlotTypeEnumerationValueOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_LexSlotTypeEnumerationValueOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LexSlotTypeEnumerationValueOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LexSlotTypeEnumerationValueOutputReference) validateSetValueP
 	return nil
 }
 
-func validateNewLexSlotTypeEnumerationValueOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLexSlotTypeEnumerationValueOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

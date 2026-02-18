@@ -47,7 +47,7 @@ func (l *jsiiProxy_LbListenerRuleConditionHttpHeaderOutputReference) validateInt
 	return nil
 }
 
-func (l *jsiiProxy_LbListenerRuleConditionHttpHeaderOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LbListenerRuleConditionHttpHeaderOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_LbListenerRuleConditionHttpHeaderOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_LbListenerRuleConditionHttpHeaderOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LbListenerRuleConditionHttpHeaderOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_LbListenerRuleConditionHttpHeaderOutputReference) validateSet
 	return nil
 }
 
-func validateNewLbListenerRuleConditionHttpHeaderOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLbListenerRuleConditionHttpHeaderOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

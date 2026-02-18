@@ -107,7 +107,7 @@ func (j *jsiiProxy_EbsFastSnapshotRestore) validateSetCountParameters(val interf
 	return nil
 }
 
-func (j *jsiiProxy_EbsFastSnapshotRestore) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EbsFastSnapshotRestore) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

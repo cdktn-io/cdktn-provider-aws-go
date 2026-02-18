@@ -47,7 +47,7 @@ func (o *jsiiProxy_OamLinkTimeoutsOutputReference) validateInterpolationForAttri
 	return nil
 }
 
-func (o *jsiiProxy_OamLinkTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OamLinkTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_OamLinkTimeoutsOutputReference) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_OamLinkTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OamLinkTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_OamLinkTimeoutsOutputReference) validateSetUpdateParameters(v
 	return nil
 }
 
-func validateNewOamLinkTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOamLinkTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsKendraThesaurus) validateSetIndexIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsKendraThesaurus) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsKendraThesaurus) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

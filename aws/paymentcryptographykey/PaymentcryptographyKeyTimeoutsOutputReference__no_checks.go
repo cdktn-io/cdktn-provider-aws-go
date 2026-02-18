@@ -47,7 +47,7 @@ func (p *jsiiProxy_PaymentcryptographyKeyTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (p *jsiiProxy_PaymentcryptographyKeyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PaymentcryptographyKeyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_PaymentcryptographyKeyTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_PaymentcryptographyKeyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PaymentcryptographyKeyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_PaymentcryptographyKeyTimeoutsOutputReference) validateSetUpd
 	return nil
 }
 
-func validateNewPaymentcryptographyKeyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPaymentcryptographyKeyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

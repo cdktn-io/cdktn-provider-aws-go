@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudsearchDomainScalingParametersOutputReference) validateIn
 	return nil
 }
 
-func (c *jsiiProxy_CloudsearchDomainScalingParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudsearchDomainScalingParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_CloudsearchDomainScalingParametersOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_CloudsearchDomainScalingParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudsearchDomainScalingParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudsearchDomainScalingParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudsearchDomainScalingParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

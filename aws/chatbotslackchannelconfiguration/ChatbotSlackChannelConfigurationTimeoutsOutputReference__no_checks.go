@@ -47,7 +47,7 @@ func (c *jsiiProxy_ChatbotSlackChannelConfigurationTimeoutsOutputReference) vali
 	return nil
 }
 
-func (c *jsiiProxy_ChatbotSlackChannelConfigurationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ChatbotSlackChannelConfigurationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ChatbotSlackChannelConfigurationTimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_ChatbotSlackChannelConfigurationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ChatbotSlackChannelConfigurationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ChatbotSlackChannelConfigurationTimeoutsOutputReference) vali
 	return nil
 }
 
-func validateNewChatbotSlackChannelConfigurationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewChatbotSlackChannelConfigurationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

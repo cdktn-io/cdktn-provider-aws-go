@@ -5,18 +5,18 @@ package dataawsvpcipampreviewnextcidr
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsvpcipampreviewnextcidr/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsvpcipampreviewnextcidr/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/vpc_ipam_preview_next_cidr aws_vpc_ipam_preview_next_cidr}.
 type DataAwsVpcIpamPreviewNextCidr interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Cidr() *string
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
@@ -32,9 +32,9 @@ type DataAwsVpcIpamPreviewNextCidr interface {
 	SetDisallowedCidrs(val *[]*string)
 	DisallowedCidrsInput() *[]*string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,25 +46,25 @@ type DataAwsVpcIpamPreviewNextCidr interface {
 	SetIpamPoolId(val *string)
 	IpamPoolIdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	NetmaskLength() *float64
 	SetNetmaskLength(val *float64)
 	NetmaskLengthInput() *float64
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -76,7 +76,7 @@ type DataAwsVpcIpamPreviewNextCidr interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -92,7 +92,7 @@ type DataAwsVpcIpamPreviewNextCidr interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -121,11 +121,11 @@ type DataAwsVpcIpamPreviewNextCidr interface {
 
 // The jsii proxy struct for DataAwsVpcIpamPreviewNextCidr
 type jsiiProxy_DataAwsVpcIpamPreviewNextCidr struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -194,8 +194,8 @@ func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr) DisallowedCidrsInput() *[]*str
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -264,8 +264,8 @@ func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr) IpamPoolIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -304,8 +304,8 @@ func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -344,8 +344,8 @@ func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -454,7 +454,7 @@ func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr)SetDisallowedCidrs(val *[]*stri
 	)
 }
 
-func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -484,7 +484,7 @@ func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr)SetIpamPoolId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -506,7 +506,7 @@ func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr)SetNetmaskLength(val *float64) 
 	)
 }
 
-func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -525,14 +525,14 @@ func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsVpcIpamPreviewNextCidr resource upon running "cdktf plan <stack-name>".
-func DataAwsVpcIpamPreviewNextCidr_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsVpcIpamPreviewNextCidr resource upon running "cdktn plan <stack-name>".
+func DataAwsVpcIpamPreviewNextCidr_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsVpcIpamPreviewNextCidr_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsVpcIpamPreviewNextCidr.DataAwsVpcIpamPreviewNextCidr",
@@ -655,11 +655,11 @@ func (d *jsiiProxy_DataAwsVpcIpamPreviewNextCidr) GetAnyMapAttribute(terraformAt
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsVpcIpamPreviewNextCidr) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsVpcIpamPreviewNextCidr) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -783,11 +783,11 @@ func (d *jsiiProxy_DataAwsVpcIpamPreviewNextCidr) GetStringMapAttribute(terrafor
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsVpcIpamPreviewNextCidr) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsVpcIpamPreviewNextCidr) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

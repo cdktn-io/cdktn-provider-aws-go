@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleExpirationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleExpirationOutputReference) 
 	return nil
 }
 
-func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleExpirationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleExpirationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -191,11 +191,11 @@ func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleExpirationOutputReference) 
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -204,7 +204,7 @@ func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleExpirationOutputReference) 
 
 func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleExpirationOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *S3BucketLifecycleConfigurationRuleExpiration:
 		val := val.(*S3BucketLifecycleConfigurationRuleExpiration)
@@ -219,7 +219,7 @@ func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleExpirationOutputReference) 
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *S3BucketLifecycleConfigurationRuleExpiration; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *S3BucketLifecycleConfigurationRuleExpiration; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -234,7 +234,7 @@ func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleExpirationOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleExpirationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleExpirationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -242,7 +242,7 @@ func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleExpirationOutputReference) 
 	return nil
 }
 
-func validateNewS3BucketLifecycleConfigurationRuleExpirationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewS3BucketLifecycleConfigurationRuleExpirationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GlueCatalogTableOpenTableFormatInputIcebergInputOutputReferen
 	return nil
 }
 
-func (g *jsiiProxy_GlueCatalogTableOpenTableFormatInputIcebergInputOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueCatalogTableOpenTableFormatInputIcebergInputOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GlueCatalogTableOpenTableFormatInputIcebergInputOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_GlueCatalogTableOpenTableFormatInputIcebergInputOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueCatalogTableOpenTableFormatInputIcebergInputOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GlueCatalogTableOpenTableFormatInputIcebergInputOutputReferen
 	return nil
 }
 
-func validateNewGlueCatalogTableOpenTableFormatInputIcebergInputOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGlueCatalogTableOpenTableFormatInputIcebergInputOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

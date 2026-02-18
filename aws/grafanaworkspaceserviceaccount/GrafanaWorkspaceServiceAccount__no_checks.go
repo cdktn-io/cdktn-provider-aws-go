@@ -103,7 +103,7 @@ func (j *jsiiProxy_GrafanaWorkspaceServiceAccount) validateSetGrafanaRoleParamet
 	return nil
 }
 
-func (j *jsiiProxy_GrafanaWorkspaceServiceAccount) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GrafanaWorkspaceServiceAccount) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

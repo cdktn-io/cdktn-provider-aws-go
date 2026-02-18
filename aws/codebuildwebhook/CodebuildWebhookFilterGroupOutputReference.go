@@ -5,14 +5,14 @@ package codebuildwebhook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/codebuildwebhook/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/codebuildwebhook/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CodebuildWebhookFilterGroupOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type CodebuildWebhookFilterGroupOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,14 +63,14 @@ type CodebuildWebhookFilterGroupOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutFilter(value interface{})
 	ResetFilter()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type CodebuildWebhookFilterGroupOutputReference interface {
 
 // The jsii proxy struct for CodebuildWebhookFilterGroupOutputReference
 type jsiiProxy_CodebuildWebhookFilterGroupOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CodebuildWebhookFilterGroupOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_CodebuildWebhookFilterGroupOutputReference) TerraformAttribut
 	return returns
 }
 
-func (j *jsiiProxy_CodebuildWebhookFilterGroupOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CodebuildWebhookFilterGroupOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_CodebuildWebhookFilterGroupOutputReference) TerraformResource
 }
 
 
-func NewCodebuildWebhookFilterGroupOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CodebuildWebhookFilterGroupOutputReference {
+func NewCodebuildWebhookFilterGroupOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CodebuildWebhookFilterGroupOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCodebuildWebhookFilterGroupOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -191,7 +191,7 @@ func NewCodebuildWebhookFilterGroupOutputReference(terraformResource cdktf.IInte
 	return &j
 }
 
-func NewCodebuildWebhookFilterGroupOutputReference_Override(c CodebuildWebhookFilterGroupOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewCodebuildWebhookFilterGroupOutputReference_Override(c CodebuildWebhookFilterGroupOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_CodebuildWebhookFilterGroupOutputReference)SetTerraformAttrib
 	)
 }
 
-func (j *jsiiProxy_CodebuildWebhookFilterGroupOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CodebuildWebhookFilterGroupOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -285,11 +285,11 @@ func (c *jsiiProxy_CodebuildWebhookFilterGroupOutputReference) GetAnyMapAttribut
 	return returns
 }
 
-func (c *jsiiProxy_CodebuildWebhookFilterGroupOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CodebuildWebhookFilterGroupOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -413,8 +413,8 @@ func (c *jsiiProxy_CodebuildWebhookFilterGroupOutputReference) GetStringMapAttri
 	return returns
 }
 
-func (c *jsiiProxy_CodebuildWebhookFilterGroupOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CodebuildWebhookFilterGroupOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -426,11 +426,11 @@ func (c *jsiiProxy_CodebuildWebhookFilterGroupOutputReference) InterpolationAsLi
 	return returns
 }
 
-func (c *jsiiProxy_CodebuildWebhookFilterGroupOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CodebuildWebhookFilterGroupOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -461,7 +461,7 @@ func (c *jsiiProxy_CodebuildWebhookFilterGroupOutputReference) ResetFilter() {
 	)
 }
 
-func (c *jsiiProxy_CodebuildWebhookFilterGroupOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CodebuildWebhookFilterGroupOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

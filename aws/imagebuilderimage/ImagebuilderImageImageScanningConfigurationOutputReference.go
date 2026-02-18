@@ -5,14 +5,14 @@ package imagebuilderimage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/imagebuilderimage/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/imagebuilderimage/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ImagebuilderImageImageScanningConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,15 +42,15 @@ type ImagebuilderImageImageScanningConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,15 +66,15 @@ type ImagebuilderImageImageScanningConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutEcrConfiguration(value *ImagebuilderImageImageScanningConfigurationEcrConfiguration)
 	ResetEcrConfiguration()
 	ResetImageScanningEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type ImagebuilderImageImageScanningConfigurationOutputReference interface {
 
 // The jsii proxy struct for ImagebuilderImageImageScanningConfigurationOutputReference
 type jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) T
 }
 
 
-func NewImagebuilderImageImageScanningConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ImagebuilderImageImageScanningConfigurationOutputReference {
+func NewImagebuilderImageImageScanningConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ImagebuilderImageImageScanningConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewImagebuilderImageImageScanningConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewImagebuilderImageImageScanningConfigurationOutputReference(terraformReso
 	return &j
 }
 
-func NewImagebuilderImageImageScanningConfigurationOutputReference_Override(i ImagebuilderImageImageScanningConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewImagebuilderImageImageScanningConfigurationOutputReference_Override(i ImagebuilderImageImageScanningConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -320,11 +320,11 @@ func (i *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) G
 	return returns
 }
 
-func (i *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -448,8 +448,8 @@ func (i *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) G
 	return returns
 }
 
-func (i *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -461,11 +461,11 @@ func (i *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) I
 	return returns
 }
 
-func (i *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -504,7 +504,7 @@ func (i *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) R
 	)
 }
 
-func (i *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

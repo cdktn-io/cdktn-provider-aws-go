@@ -119,7 +119,7 @@ func (j *jsiiProxy_AppsyncChannelNamespace) validateSetCountParameters(val inter
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncChannelNamespace) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppsyncChannelNamespace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

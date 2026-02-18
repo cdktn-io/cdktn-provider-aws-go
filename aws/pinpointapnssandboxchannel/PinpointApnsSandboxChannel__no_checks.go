@@ -123,7 +123,7 @@ func (j *jsiiProxy_PinpointApnsSandboxChannel) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_PinpointApnsSandboxChannel) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PinpointApnsSandboxChannel) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

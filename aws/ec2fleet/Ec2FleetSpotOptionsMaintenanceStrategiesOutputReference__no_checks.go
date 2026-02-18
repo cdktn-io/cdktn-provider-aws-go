@@ -51,7 +51,7 @@ func (e *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesOutputReference) vali
 	return nil
 }
 
-func (e *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEc2FleetSpotOptionsMaintenanceStrategiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEc2FleetSpotOptionsMaintenanceStrategiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

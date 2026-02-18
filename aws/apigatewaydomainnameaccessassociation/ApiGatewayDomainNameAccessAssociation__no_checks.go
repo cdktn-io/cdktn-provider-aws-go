@@ -111,7 +111,7 @@ func (j *jsiiProxy_ApiGatewayDomainNameAccessAssociation) validateSetDomainNameA
 	return nil
 }
 
-func (j *jsiiProxy_ApiGatewayDomainNameAccessAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApiGatewayDomainNameAccessAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

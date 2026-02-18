@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsVpnConnection) validateSetCountParameters(val interfac
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVpnConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsVpnConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

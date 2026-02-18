@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsFsxOntapFileSystemEndpointsList) validateGetParameters
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsFsxOntapFileSystemEndpointsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsFsxOntapFileSystemEndpointsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsFsxOntapFileSystemEndpointsList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsFsxOntapFileSystemEndpointsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsFsxOntapFileSystemEndpointsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsFsxOntapFileSystemEndpointsList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewDataAwsFsxOntapFileSystemEndpointsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsFsxOntapFileSystemEndpointsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

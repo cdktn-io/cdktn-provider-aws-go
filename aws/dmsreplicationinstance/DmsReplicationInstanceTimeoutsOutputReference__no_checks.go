@@ -47,7 +47,7 @@ func (d *jsiiProxy_DmsReplicationInstanceTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (d *jsiiProxy_DmsReplicationInstanceTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DmsReplicationInstanceTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DmsReplicationInstanceTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DmsReplicationInstanceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DmsReplicationInstanceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DmsReplicationInstanceTimeoutsOutputReference) validateSetUpd
 	return nil
 }
 
-func validateNewDmsReplicationInstanceTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDmsReplicationInstanceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsElasticBeanstalkApplicationAppversionLifecycleList) va
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsElasticBeanstalkApplicationAppversionLifecycleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsElasticBeanstalkApplicationAppversionLifecycleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsElasticBeanstalkApplicationAppversionLifecycleList) va
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsElasticBeanstalkApplicationAppversionLifecycleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsElasticBeanstalkApplicationAppversionLifecycleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsElasticBeanstalkApplicationAppversionLifecycleList) va
 	return nil
 }
 
-func validateNewDataAwsElasticBeanstalkApplicationAppversionLifecycleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsElasticBeanstalkApplicationAppversionLifecycleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

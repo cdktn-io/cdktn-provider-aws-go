@@ -5,14 +5,14 @@ package appfabricappauthorization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/appfabricappauthorization/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appfabricappauthorization/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppfabricAppAuthorizationCredentialOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ApiKeyCredential() AppfabricAppAuthorizationCredentialApiKeyCredentialList
 	ApiKeyCredentialInput() interface{}
 	// the index of the complex object in a list.
@@ -41,15 +41,15 @@ type AppfabricAppAuthorizationCredentialOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,16 +65,16 @@ type AppfabricAppAuthorizationCredentialOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutApiKeyCredential(value interface{})
 	PutOauth2Credential(value interface{})
 	ResetApiKeyCredential()
 	ResetOauth2Credential()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type AppfabricAppAuthorizationCredentialOutputReference interface {
 
 // The jsii proxy struct for AppfabricAppAuthorizationCredentialOutputReference
 type jsiiProxy_AppfabricAppAuthorizationCredentialOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AppfabricAppAuthorizationCredentialOutputReference) ApiKeyCredential() AppfabricAppAuthorizationCredentialApiKeyCredentialList {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_AppfabricAppAuthorizationCredentialOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_AppfabricAppAuthorizationCredentialOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppfabricAppAuthorizationCredentialOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_AppfabricAppAuthorizationCredentialOutputReference) Terraform
 }
 
 
-func NewAppfabricAppAuthorizationCredentialOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AppfabricAppAuthorizationCredentialOutputReference {
+func NewAppfabricAppAuthorizationCredentialOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AppfabricAppAuthorizationCredentialOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAppfabricAppAuthorizationCredentialOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -215,7 +215,7 @@ func NewAppfabricAppAuthorizationCredentialOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewAppfabricAppAuthorizationCredentialOutputReference_Override(a AppfabricAppAuthorizationCredentialOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewAppfabricAppAuthorizationCredentialOutputReference_Override(a AppfabricAppAuthorizationCredentialOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -269,7 +269,7 @@ func (j *jsiiProxy_AppfabricAppAuthorizationCredentialOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_AppfabricAppAuthorizationCredentialOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppfabricAppAuthorizationCredentialOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -309,11 +309,11 @@ func (a *jsiiProxy_AppfabricAppAuthorizationCredentialOutputReference) GetAnyMap
 	return returns
 }
 
-func (a *jsiiProxy_AppfabricAppAuthorizationCredentialOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppfabricAppAuthorizationCredentialOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -437,8 +437,8 @@ func (a *jsiiProxy_AppfabricAppAuthorizationCredentialOutputReference) GetString
 	return returns
 }
 
-func (a *jsiiProxy_AppfabricAppAuthorizationCredentialOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AppfabricAppAuthorizationCredentialOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -450,11 +450,11 @@ func (a *jsiiProxy_AppfabricAppAuthorizationCredentialOutputReference) Interpola
 	return returns
 }
 
-func (a *jsiiProxy_AppfabricAppAuthorizationCredentialOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppfabricAppAuthorizationCredentialOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -504,7 +504,7 @@ func (a *jsiiProxy_AppfabricAppAuthorizationCredentialOutputReference) ResetOaut
 	)
 }
 
-func (a *jsiiProxy_AppfabricAppAuthorizationCredentialOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppfabricAppAuthorizationCredentialOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -5,14 +5,14 @@ package dataawsecstaskexecution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsecstaskexecution/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsecstaskexecution/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Command() *[]*string
 	SetCommand(val *[]*string)
 	CommandInput() *[]*string
@@ -56,15 +56,15 @@ type DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference interface
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -80,9 +80,9 @@ type DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference interface
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutEnvironment(value interface{})
 	PutResourceRequirements(value interface{})
 	ResetCommand()
@@ -93,7 +93,7 @@ type DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference interface
 	ResetResourceRequirements()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -103,7 +103,7 @@ type DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference interface
 
 // The jsii proxy struct for DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference
 type jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference) Command() *[]*string {
@@ -306,8 +306,8 @@ func (j *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesOutputRefer
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -317,7 +317,7 @@ func (j *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesOutputRefer
 }
 
 
-func NewDataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference {
+func NewDataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsEcsTaskExecutionOverridesContainerOverridesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -334,7 +334,7 @@ func NewDataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference(terraf
 	return &j
 }
 
-func NewDataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference_Override(d DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference_Override(d DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -443,7 +443,7 @@ func (j *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesOutputRefer
 	)
 }
 
-func (j *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -483,11 +483,11 @@ func (d *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesOutputRefer
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -611,8 +611,8 @@ func (d *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesOutputRefer
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -624,11 +624,11 @@ func (d *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesOutputRefer
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -710,7 +710,7 @@ func (d *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesOutputRefer
 	)
 }
 
-func (d *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -5,19 +5,19 @@ package dataawsneptuneorderabledbinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsneptuneorderabledbinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsneptuneorderabledbinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/neptune_orderable_db_instance aws_neptune_orderable_db_instance}.
 type DataAwsNeptuneOrderableDbInstance interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AvailabilityZones() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type DataAwsNeptuneOrderableDbInstance interface {
 	SetEngineVersion(val *string)
 	EngineVersionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,39 +52,39 @@ type DataAwsNeptuneOrderableDbInstance interface {
 	SetLicenseModel(val *string)
 	LicenseModelInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MaxIopsPerDbInstance() *float64
 	MaxIopsPerGib() *float64
 	MaxStorageSize() *float64
 	MinIopsPerDbInstance() *float64
 	MinIopsPerGib() *float64
 	MinStorageSize() *float64
-	MultiAzCapable() cdktf.IResolvable
+	MultiAzCapable() cdktn.IResolvable
 	// The tree node.
 	Node() constructs.Node
 	PreferredInstanceClasses() *[]*string
 	SetPreferredInstanceClasses(val *[]*string)
 	PreferredInstanceClassesInput() *[]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
-	ReadReplicaCapable() cdktf.IResolvable
+	ReadReplicaCapable() cdktn.IResolvable
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
 	StorageType() *string
-	SupportsEnhancedMonitoring() cdktf.IResolvable
-	SupportsIamDatabaseAuthentication() cdktf.IResolvable
-	SupportsIops() cdktf.IResolvable
-	SupportsPerformanceInsights() cdktf.IResolvable
-	SupportsStorageEncryption() cdktf.IResolvable
+	SupportsEnhancedMonitoring() cdktn.IResolvable
+	SupportsIamDatabaseAuthentication() cdktn.IResolvable
+	SupportsIops() cdktn.IResolvable
+	SupportsPerformanceInsights() cdktn.IResolvable
+	SupportsStorageEncryption() cdktn.IResolvable
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -97,7 +97,7 @@ type DataAwsNeptuneOrderableDbInstance interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -113,7 +113,7 @@ type DataAwsNeptuneOrderableDbInstance interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -144,7 +144,7 @@ type DataAwsNeptuneOrderableDbInstance interface {
 
 // The jsii proxy struct for DataAwsNeptuneOrderableDbInstance
 type jsiiProxy_DataAwsNeptuneOrderableDbInstance struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) AvailabilityZones() *[]*string {
@@ -157,8 +157,8 @@ func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) AvailabilityZones() *[]*st
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -237,8 +237,8 @@ func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) EngineVersionInput() *stri
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -327,8 +327,8 @@ func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) LicenseModelInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -397,8 +397,8 @@ func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) MinStorageSize() *float64 
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) MultiAzCapable() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) MultiAzCapable() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"multiAzCapable",
@@ -437,8 +437,8 @@ func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) PreferredInstanceClassesIn
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -457,8 +457,8 @@ func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) RawOverrides() interface{}
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) ReadReplicaCapable() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) ReadReplicaCapable() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"readReplicaCapable",
@@ -497,8 +497,8 @@ func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) StorageType() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) SupportsEnhancedMonitoring() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) SupportsEnhancedMonitoring() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"supportsEnhancedMonitoring",
@@ -507,8 +507,8 @@ func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) SupportsEnhancedMonitoring
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) SupportsIamDatabaseAuthentication() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) SupportsIamDatabaseAuthentication() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"supportsIamDatabaseAuthentication",
@@ -517,8 +517,8 @@ func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) SupportsIamDatabaseAuthent
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) SupportsIops() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) SupportsIops() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"supportsIops",
@@ -527,8 +527,8 @@ func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) SupportsIops() cdktf.IReso
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) SupportsPerformanceInsights() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) SupportsPerformanceInsights() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"supportsPerformanceInsights",
@@ -537,8 +537,8 @@ func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) SupportsPerformanceInsight
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) SupportsStorageEncryption() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) SupportsStorageEncryption() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"supportsStorageEncryption",
@@ -547,8 +547,8 @@ func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) SupportsStorageEncryption(
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -668,7 +668,7 @@ func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance)SetEngineVersion(val *strin
 	)
 }
 
-func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -709,7 +709,7 @@ func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance)SetLicenseModel(val *string
 	)
 }
 
-func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -731,7 +731,7 @@ func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance)SetPreferredInstanceClasses
 	)
 }
 
-func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -761,14 +761,14 @@ func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance)SetVpc(val interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsNeptuneOrderableDbInstance resource upon running "cdktf plan <stack-name>".
-func DataAwsNeptuneOrderableDbInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsNeptuneOrderableDbInstance resource upon running "cdktn plan <stack-name>".
+func DataAwsNeptuneOrderableDbInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsNeptuneOrderableDbInstance_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsNeptuneOrderableDbInstance.DataAwsNeptuneOrderableDbInstance",
@@ -891,11 +891,11 @@ func (d *jsiiProxy_DataAwsNeptuneOrderableDbInstance) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsNeptuneOrderableDbInstance) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsNeptuneOrderableDbInstance) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1019,11 +1019,11 @@ func (d *jsiiProxy_DataAwsNeptuneOrderableDbInstance) GetStringMapAttribute(terr
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsNeptuneOrderableDbInstance) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsNeptuneOrderableDbInstance) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

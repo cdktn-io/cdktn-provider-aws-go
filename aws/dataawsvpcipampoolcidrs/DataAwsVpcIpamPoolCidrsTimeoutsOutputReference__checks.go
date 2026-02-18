@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataAwsVpcIpamPoolCidrsTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (d *jsiiProxy_DataAwsVpcIpamPoolCidrsTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsVpcIpamPoolCidrsTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsVpcIpamPoolCidrsTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -168,7 +168,7 @@ func (j *jsiiProxy_DataAwsVpcIpamPoolCidrsTimeoutsOutputReference) validateSetCo
 
 func (j *jsiiProxy_DataAwsVpcIpamPoolCidrsTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *DataAwsVpcIpamPoolCidrsTimeouts:
 		val := val.(*DataAwsVpcIpamPoolCidrsTimeouts)
@@ -183,7 +183,7 @@ func (j *jsiiProxy_DataAwsVpcIpamPoolCidrsTimeoutsOutputReference) validateSetIn
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *DataAwsVpcIpamPoolCidrsTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *DataAwsVpcIpamPoolCidrsTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -206,7 +206,7 @@ func (j *jsiiProxy_DataAwsVpcIpamPoolCidrsTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVpcIpamPoolCidrsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsVpcIpamPoolCidrsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -214,7 +214,7 @@ func (j *jsiiProxy_DataAwsVpcIpamPoolCidrsTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func validateNewDataAwsVpcIpamPoolCidrsTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAwsVpcIpamPoolCidrsTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImagePushedAtOutputReference
 	return nil
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImagePushedAtOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImagePushedAtOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImagePushedAtOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImagePushedAtOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImagePushedAtOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewInspector2FilterFilterCriteriaEcrImagePushedAtOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewInspector2FilterFilterCriteriaEcrImagePushedAtOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

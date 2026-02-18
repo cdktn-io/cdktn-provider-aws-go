@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsSesv2ConfigurationSetDeliveryOptionsList) validateGetP
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsSesv2ConfigurationSetDeliveryOptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsSesv2ConfigurationSetDeliveryOptionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsSesv2ConfigurationSetDeliveryOptionsList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSesv2ConfigurationSetDeliveryOptionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsSesv2ConfigurationSetDeliveryOptionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsSesv2ConfigurationSetDeliveryOptionsList) validateSetW
 	return nil
 }
 
-func validateNewDataAwsSesv2ConfigurationSetDeliveryOptionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsSesv2ConfigurationSetDeliveryOptionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

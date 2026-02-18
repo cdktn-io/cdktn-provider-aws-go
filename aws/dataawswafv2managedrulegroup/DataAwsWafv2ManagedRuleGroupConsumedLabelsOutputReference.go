@@ -5,14 +5,14 @@ package dataawswafv2managedrulegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawswafv2managedrulegroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawswafv2managedrulegroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -38,15 +38,15 @@ type DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -62,12 +62,12 @@ type DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -77,7 +77,7 @@ type DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference interface {
 
 // The jsii proxy struct for DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference
 type jsiiProxy_DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference) ComplexObjectIndex() interface{} {
@@ -150,8 +150,8 @@ func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -161,7 +161,7 @@ func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference) Te
 }
 
 
-func NewDataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference {
+func NewDataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -178,7 +178,7 @@ func NewDataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference(terraformResou
 	return &j
 }
 
-func NewDataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference_Override(d DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference_Override(d DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -232,7 +232,7 @@ func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -272,11 +272,11 @@ func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference) Ge
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -400,8 +400,8 @@ func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference) Ge
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -413,11 +413,11 @@ func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference) In
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -429,7 +429,7 @@ func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference) In
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupConsumedLabelsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

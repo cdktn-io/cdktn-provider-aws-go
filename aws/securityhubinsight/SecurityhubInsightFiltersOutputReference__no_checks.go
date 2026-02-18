@@ -399,7 +399,7 @@ func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) validatePutWorkflow
 	return nil
 }
 
-func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -419,11 +419,11 @@ func (j *jsiiProxy_SecurityhubInsightFiltersOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_SecurityhubInsightFiltersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecurityhubInsightFiltersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSecurityhubInsightFiltersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSecurityhubInsightFiltersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (e *jsiiProxy_EcrRepositoryCreationTemplateEncryptionConfigurationOutputRef
 	return nil
 }
 
-func (e *jsiiProxy_EcrRepositoryCreationTemplateEncryptionConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcrRepositoryCreationTemplateEncryptionConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EcrRepositoryCreationTemplateEncryptionConfigurationOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_EcrRepositoryCreationTemplateEncryptionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcrRepositoryCreationTemplateEncryptionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEcrRepositoryCreationTemplateEncryptionConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEcrRepositoryCreationTemplateEncryptionConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

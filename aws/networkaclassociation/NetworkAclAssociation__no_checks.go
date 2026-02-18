@@ -103,7 +103,7 @@ func (j *jsiiProxy_NetworkAclAssociation) validateSetIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_NetworkAclAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkAclAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

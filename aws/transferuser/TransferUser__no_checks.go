@@ -123,7 +123,7 @@ func (j *jsiiProxy_TransferUser) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_TransferUser) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_TransferUser) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

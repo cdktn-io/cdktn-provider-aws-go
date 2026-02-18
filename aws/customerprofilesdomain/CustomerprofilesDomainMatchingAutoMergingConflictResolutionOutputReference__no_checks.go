@@ -47,7 +47,7 @@ func (c *jsiiProxy_CustomerprofilesDomainMatchingAutoMergingConflictResolutionOu
 	return nil
 }
 
-func (c *jsiiProxy_CustomerprofilesDomainMatchingAutoMergingConflictResolutionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CustomerprofilesDomainMatchingAutoMergingConflictResolutionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CustomerprofilesDomainMatchingAutoMergingConflictResolutionOu
 	return nil
 }
 
-func (j *jsiiProxy_CustomerprofilesDomainMatchingAutoMergingConflictResolutionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CustomerprofilesDomainMatchingAutoMergingConflictResolutionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCustomerprofilesDomainMatchingAutoMergingConflictResolutionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCustomerprofilesDomainMatchingAutoMergingConflictResolutionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

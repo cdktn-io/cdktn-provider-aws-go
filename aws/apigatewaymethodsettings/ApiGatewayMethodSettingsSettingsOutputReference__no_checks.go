@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiGatewayMethodSettingsSettingsOutputReference) validateInte
 	return nil
 }
 
-func (a *jsiiProxy_ApiGatewayMethodSettingsSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiGatewayMethodSettingsSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_ApiGatewayMethodSettingsSettingsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ApiGatewayMethodSettingsSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiGatewayMethodSettingsSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -111,7 +111,7 @@ func (j *jsiiProxy_ApiGatewayMethodSettingsSettingsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewApiGatewayMethodSettingsSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiGatewayMethodSettingsSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

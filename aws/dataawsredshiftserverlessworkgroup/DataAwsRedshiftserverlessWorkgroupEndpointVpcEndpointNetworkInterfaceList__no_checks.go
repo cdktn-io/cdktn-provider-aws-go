@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsRedshiftserverlessWorkgroupEndpointVpcEndpointNetworkI
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsRedshiftserverlessWorkgroupEndpointVpcEndpointNetworkInterfaceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsRedshiftserverlessWorkgroupEndpointVpcEndpointNetworkInterfaceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsRedshiftserverlessWorkgroupEndpointVpcEndpointNetworkI
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRedshiftserverlessWorkgroupEndpointVpcEndpointNetworkInterfaceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsRedshiftserverlessWorkgroupEndpointVpcEndpointNetworkInterfaceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsRedshiftserverlessWorkgroupEndpointVpcEndpointNetworkI
 	return nil
 }
 
-func validateNewDataAwsRedshiftserverlessWorkgroupEndpointVpcEndpointNetworkInterfaceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsRedshiftserverlessWorkgroupEndpointVpcEndpointNetworkInterfaceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

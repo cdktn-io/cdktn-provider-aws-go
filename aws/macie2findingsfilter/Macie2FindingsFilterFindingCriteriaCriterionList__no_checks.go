@@ -15,7 +15,7 @@ func (m *jsiiProxy_Macie2FindingsFilterFindingCriteriaCriterionList) validateGet
 	return nil
 }
 
-func (m *jsiiProxy_Macie2FindingsFilterFindingCriteriaCriterionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_Macie2FindingsFilterFindingCriteriaCriterionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Macie2FindingsFilterFindingCriteriaCriterionList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_Macie2FindingsFilterFindingCriteriaCriterionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Macie2FindingsFilterFindingCriteriaCriterionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Macie2FindingsFilterFindingCriteriaCriterionList) validateSet
 	return nil
 }
 
-func validateNewMacie2FindingsFilterFindingCriteriaCriterionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMacie2FindingsFilterFindingCriteriaCriterionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

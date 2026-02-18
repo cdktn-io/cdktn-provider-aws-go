@@ -47,7 +47,7 @@ func (k *jsiiProxy_KendraExperienceConfigurationUserIdentityConfigurationOutputR
 	return nil
 }
 
-func (k *jsiiProxy_KendraExperienceConfigurationUserIdentityConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KendraExperienceConfigurationUserIdentityConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_KendraExperienceConfigurationUserIdentityConfigurationOutputR
 	return nil
 }
 
-func (j *jsiiProxy_KendraExperienceConfigurationUserIdentityConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KendraExperienceConfigurationUserIdentityConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKendraExperienceConfigurationUserIdentityConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKendraExperienceConfigurationUserIdentityConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

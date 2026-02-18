@@ -47,7 +47,7 @@ func (r *jsiiProxy_RolesanywhereTrustAnchorSourceSourceDataOutputReference) vali
 	return nil
 }
 
-func (r *jsiiProxy_RolesanywhereTrustAnchorSourceSourceDataOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RolesanywhereTrustAnchorSourceSourceDataOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_RolesanywhereTrustAnchorSourceSourceDataOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_RolesanywhereTrustAnchorSourceSourceDataOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RolesanywhereTrustAnchorSourceSourceDataOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_RolesanywhereTrustAnchorSourceSourceDataOutputReference) vali
 	return nil
 }
 
-func validateNewRolesanywhereTrustAnchorSourceSourceDataOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRolesanywhereTrustAnchorSourceSourceDataOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

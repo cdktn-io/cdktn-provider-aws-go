@@ -51,7 +51,7 @@ func (v *jsiiProxy_VerifiedaccessEndpointCidrOptionsOutputReference) validatePut
 	return nil
 }
 
-func (v *jsiiProxy_VerifiedaccessEndpointCidrOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VerifiedaccessEndpointCidrOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_VerifiedaccessEndpointCidrOptionsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_VerifiedaccessEndpointCidrOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VerifiedaccessEndpointCidrOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVerifiedaccessEndpointCidrOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVerifiedaccessEndpointCidrOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

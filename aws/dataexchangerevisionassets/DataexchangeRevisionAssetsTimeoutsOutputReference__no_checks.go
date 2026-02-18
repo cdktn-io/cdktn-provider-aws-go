@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataexchangeRevisionAssetsTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (d *jsiiProxy_DataexchangeRevisionAssetsTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataexchangeRevisionAssetsTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataexchangeRevisionAssetsTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataexchangeRevisionAssetsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataexchangeRevisionAssetsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataexchangeRevisionAssetsTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataexchangeRevisionAssetsTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

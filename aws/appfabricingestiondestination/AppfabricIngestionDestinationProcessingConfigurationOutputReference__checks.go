@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (a *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationOutputRef
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*AppfabricIngestionDestinationProcessingConfigurationAuditLog:
 		value := value.(*[]*AppfabricIngestionDestinationProcessingConfigurationAuditLog)
@@ -117,14 +117,14 @@ func (a *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationOutputRef
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*AppfabricIngestionDestinationProcessingConfigurationAuditLog; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*AppfabricIngestionDestinationProcessingConfigurationAuditLog; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (a *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -199,7 +199,7 @@ func (j *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationOutputRef
 
 func (j *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *AppfabricIngestionDestinationProcessingConfiguration:
 		val := val.(*AppfabricIngestionDestinationProcessingConfiguration)
@@ -214,7 +214,7 @@ func (j *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationOutputRef
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *AppfabricIngestionDestinationProcessingConfiguration; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *AppfabricIngestionDestinationProcessingConfiguration; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -229,7 +229,7 @@ func (j *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -237,7 +237,7 @@ func (j *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationOutputRef
 	return nil
 }
 
-func validateNewAppfabricIngestionDestinationProcessingConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppfabricIngestionDestinationProcessingConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

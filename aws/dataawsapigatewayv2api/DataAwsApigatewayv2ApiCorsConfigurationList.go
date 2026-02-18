@@ -5,14 +5,14 @@ package dataawsapigatewayv2api
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsapigatewayv2api/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsapigatewayv2api/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsApigatewayv2ApiCorsConfigurationList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type DataAwsApigatewayv2ApiCorsConfigurationList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type DataAwsApigatewayv2ApiCorsConfigurationList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataAwsApigatewayv2ApiCorsConfigurationOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type DataAwsApigatewayv2ApiCorsConfigurationList interface {
 
 // The jsii proxy struct for DataAwsApigatewayv2ApiCorsConfigurationList
 type jsiiProxy_DataAwsApigatewayv2ApiCorsConfigurationList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataAwsApigatewayv2ApiCorsConfigurationList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_DataAwsApigatewayv2ApiCorsConfigurationList) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsApigatewayv2ApiCorsConfigurationList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsApigatewayv2ApiCorsConfigurationList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataAwsApigatewayv2ApiCorsConfigurationList) WrapsSet() *bool
 }
 
 
-func NewDataAwsApigatewayv2ApiCorsConfigurationList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsApigatewayv2ApiCorsConfigurationList {
+func NewDataAwsApigatewayv2ApiCorsConfigurationList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsApigatewayv2ApiCorsConfigurationList {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsApigatewayv2ApiCorsConfigurationListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewDataAwsApigatewayv2ApiCorsConfigurationList(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewDataAwsApigatewayv2ApiCorsConfigurationList_Override(d DataAwsApigatewayv2ApiCorsConfigurationList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataAwsApigatewayv2ApiCorsConfigurationList_Override(d DataAwsApigatewayv2ApiCorsConfigurationList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_DataAwsApigatewayv2ApiCorsConfigurationList)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_DataAwsApigatewayv2ApiCorsConfigurationList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsApigatewayv2ApiCorsConfigurationList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_DataAwsApigatewayv2ApiCorsConfigurationList)SetWrapsSet(val *
 	)
 }
 
-func (d *jsiiProxy_DataAwsApigatewayv2ApiCorsConfigurationList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataAwsApigatewayv2ApiCorsConfigurationList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -208,7 +208,7 @@ func (d *jsiiProxy_DataAwsApigatewayv2ApiCorsConfigurationList) Get(index *float
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsApigatewayv2ApiCorsConfigurationList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsApigatewayv2ApiCorsConfigurationList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

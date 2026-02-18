@@ -111,7 +111,7 @@ func (j *jsiiProxy_QuicksightGroupMembership) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightGroupMembership) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_QuicksightGroupMembership) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

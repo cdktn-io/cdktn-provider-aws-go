@@ -111,7 +111,7 @@ func (j *jsiiProxy_Inspector2DelegatedAdminAccount) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_Inspector2DelegatedAdminAccount) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Inspector2DelegatedAdminAccount) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigCopyValueList) valid
 	return nil
 }
 
-func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigCopyValueList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigCopyValueList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigCopyValueList) valid
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigCopyValueList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigCopyValueList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigCopyValueList) valid
 	return nil
 }
 
-func validateNewCloudwatchLogTransformerTransformerConfigCopyValueListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudwatchLogTransformerTransformerConfigCopyValueListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

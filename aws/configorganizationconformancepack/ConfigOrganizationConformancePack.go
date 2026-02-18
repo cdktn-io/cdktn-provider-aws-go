@@ -5,19 +5,19 @@ package configorganizationconformancepack
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/configorganizationconformancepack/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/configorganizationconformancepack/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/config_organization_conformance_pack aws_config_organization_conformance_pack}.
 type ConfigOrganizationConformancePack interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -42,9 +42,9 @@ type ConfigOrganizationConformancePack interface {
 	SetExcludedAccounts(val *[]*string)
 	ExcludedAccountsInput() *[]*string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -55,18 +55,18 @@ type ConfigOrganizationConformancePack interface {
 	InputParameter() ConfigOrganizationConformancePackInputParameterList
 	InputParameterInput() interface{}
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -83,7 +83,7 @@ type ConfigOrganizationConformancePack interface {
 	SetTemplateS3Uri(val *string)
 	TemplateS3UriInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -98,7 +98,7 @@ type ConfigOrganizationConformancePack interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -116,9 +116,9 @@ type ConfigOrganizationConformancePack interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -162,7 +162,7 @@ type ConfigOrganizationConformancePack interface {
 
 // The jsii proxy struct for ConfigOrganizationConformancePack
 type jsiiProxy_ConfigOrganizationConformancePack struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ConfigOrganizationConformancePack) Arn() *string {
@@ -175,8 +175,8 @@ func (j *jsiiProxy_ConfigOrganizationConformancePack) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ConfigOrganizationConformancePack) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ConfigOrganizationConformancePack) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -285,8 +285,8 @@ func (j *jsiiProxy_ConfigOrganizationConformancePack) ExcludedAccountsInput() *[
 	return returns
 }
 
-func (j *jsiiProxy_ConfigOrganizationConformancePack) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ConfigOrganizationConformancePack) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -355,8 +355,8 @@ func (j *jsiiProxy_ConfigOrganizationConformancePack) InputParameterInput() inte
 	return returns
 }
 
-func (j *jsiiProxy_ConfigOrganizationConformancePack) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ConfigOrganizationConformancePack) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -395,8 +395,8 @@ func (j *jsiiProxy_ConfigOrganizationConformancePack) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_ConfigOrganizationConformancePack) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ConfigOrganizationConformancePack) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -485,8 +485,8 @@ func (j *jsiiProxy_ConfigOrganizationConformancePack) TemplateS3UriInput() *stri
 	return returns
 }
 
-func (j *jsiiProxy_ConfigOrganizationConformancePack) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ConfigOrganizationConformancePack) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -628,7 +628,7 @@ func (j *jsiiProxy_ConfigOrganizationConformancePack)SetExcludedAccounts(val *[]
 	)
 }
 
-func (j *jsiiProxy_ConfigOrganizationConformancePack)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ConfigOrganizationConformancePack)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -647,7 +647,7 @@ func (j *jsiiProxy_ConfigOrganizationConformancePack)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ConfigOrganizationConformancePack)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ConfigOrganizationConformancePack)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -669,7 +669,7 @@ func (j *jsiiProxy_ConfigOrganizationConformancePack)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ConfigOrganizationConformancePack)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ConfigOrganizationConformancePack)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -721,14 +721,14 @@ func (j *jsiiProxy_ConfigOrganizationConformancePack)SetTemplateS3Uri(val *strin
 	)
 }
 
-// Generates CDKTF code for importing a ConfigOrganizationConformancePack resource upon running "cdktf plan <stack-name>".
-func ConfigOrganizationConformancePack_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ConfigOrganizationConformancePack resource upon running "cdktn plan <stack-name>".
+func ConfigOrganizationConformancePack_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateConfigOrganizationConformancePack_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePack",
@@ -862,11 +862,11 @@ func (c *jsiiProxy_ConfigOrganizationConformancePack) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (c *jsiiProxy_ConfigOrganizationConformancePack) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ConfigOrganizationConformancePack) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -1003,7 +1003,7 @@ func (c *jsiiProxy_ConfigOrganizationConformancePack) HasResourceMove() interfac
 	return returns
 }
 
-func (c *jsiiProxy_ConfigOrganizationConformancePack) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_ConfigOrganizationConformancePack) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1014,11 +1014,11 @@ func (c *jsiiProxy_ConfigOrganizationConformancePack) ImportFrom(id *string, pro
 	)
 }
 
-func (c *jsiiProxy_ConfigOrganizationConformancePack) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ConfigOrganizationConformancePack) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

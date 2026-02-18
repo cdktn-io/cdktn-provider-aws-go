@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEfsFileSystemProtectionOutputReference) validateInterp
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEfsFileSystemProtectionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEfsFileSystemProtectionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsEfsFileSystemProtectionOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEfsFileSystemProtectionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEfsFileSystemProtectionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsEfsFileSystemProtectionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsEfsFileSystemProtectionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

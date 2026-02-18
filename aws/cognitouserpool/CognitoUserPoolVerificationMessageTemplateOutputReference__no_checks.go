@@ -47,7 +47,7 @@ func (c *jsiiProxy_CognitoUserPoolVerificationMessageTemplateOutputReference) va
 	return nil
 }
 
-func (c *jsiiProxy_CognitoUserPoolVerificationMessageTemplateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CognitoUserPoolVerificationMessageTemplateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_CognitoUserPoolVerificationMessageTemplateOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_CognitoUserPoolVerificationMessageTemplateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CognitoUserPoolVerificationMessageTemplateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCognitoUserPoolVerificationMessageTemplateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCognitoUserPoolVerificationMessageTemplateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

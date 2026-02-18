@@ -15,7 +15,7 @@ func (i *jsiiProxy_ImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisLast
 	return nil
 }
 
-func (i *jsiiProxy_ImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisLastLaunchedList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_ImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisLastLaunchedList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisLast
 	return nil
 }
 
-func (j *jsiiProxy_ImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisLastLaunchedList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisLastLaunchedList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisLast
 	return nil
 }
 
-func validateNewImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisLastLaunchedListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisLastLaunchedListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsIamServerCertificate) validateSetLatestParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsIamServerCertificate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsIamServerCertificate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

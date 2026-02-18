@@ -15,7 +15,7 @@ func (e *jsiiProxy_ElasticacheParameterGroupParameterList) validateGetParameters
 	return nil
 }
 
-func (e *jsiiProxy_ElasticacheParameterGroupParameterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticacheParameterGroupParameterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ElasticacheParameterGroupParameterList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_ElasticacheParameterGroupParameterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticacheParameterGroupParameterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ElasticacheParameterGroupParameterList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewElasticacheParameterGroupParameterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewElasticacheParameterGroupParameterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package dataawsopensearchserverlesssecurityconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsopensearchserverlesssecurityconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsopensearchserverlesssecurityconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsOpensearchserverlessSecurityConfigSamlOptionsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type DataAwsOpensearchserverlessSecurityConfigSamlOptionsList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type DataAwsOpensearchserverlessSecurityConfigSamlOptionsList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataAwsOpensearchserverlessSecurityConfigSamlOptionsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type DataAwsOpensearchserverlessSecurityConfigSamlOptionsList interface {
 
 // The jsii proxy struct for DataAwsOpensearchserverlessSecurityConfigSamlOptionsList
 type jsiiProxy_DataAwsOpensearchserverlessSecurityConfigSamlOptionsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataAwsOpensearchserverlessSecurityConfigSamlOptionsList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_DataAwsOpensearchserverlessSecurityConfigSamlOptionsList) Ter
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsOpensearchserverlessSecurityConfigSamlOptionsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsOpensearchserverlessSecurityConfigSamlOptionsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_DataAwsOpensearchserverlessSecurityConfigSamlOptionsList) Wra
 }
 
 
-func NewDataAwsOpensearchserverlessSecurityConfigSamlOptionsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsOpensearchserverlessSecurityConfigSamlOptionsList {
+func NewDataAwsOpensearchserverlessSecurityConfigSamlOptionsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsOpensearchserverlessSecurityConfigSamlOptionsList {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsOpensearchserverlessSecurityConfigSamlOptionsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewDataAwsOpensearchserverlessSecurityConfigSamlOptionsList(terraformResour
 	return &j
 }
 
-func NewDataAwsOpensearchserverlessSecurityConfigSamlOptionsList_Override(d DataAwsOpensearchserverlessSecurityConfigSamlOptionsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataAwsOpensearchserverlessSecurityConfigSamlOptionsList_Override(d DataAwsOpensearchserverlessSecurityConfigSamlOptionsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_DataAwsOpensearchserverlessSecurityConfigSamlOptionsList)SetT
 	)
 }
 
-func (j *jsiiProxy_DataAwsOpensearchserverlessSecurityConfigSamlOptionsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsOpensearchserverlessSecurityConfigSamlOptionsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_DataAwsOpensearchserverlessSecurityConfigSamlOptionsList)SetW
 	)
 }
 
-func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityConfigSamlOptionsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityConfigSamlOptionsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -231,7 +231,7 @@ func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityConfigSamlOptionsList) Get
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityConfigSamlOptionsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityConfigSamlOptionsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

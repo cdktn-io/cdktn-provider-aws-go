@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppsyncSourceApiAssociationSourceApiAssociationConfigList) va
 	return nil
 }
 
-func (a *jsiiProxy_AppsyncSourceApiAssociationSourceApiAssociationConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppsyncSourceApiAssociationSourceApiAssociationConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppsyncSourceApiAssociationSourceApiAssociationConfigList) va
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncSourceApiAssociationSourceApiAssociationConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppsyncSourceApiAssociationSourceApiAssociationConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppsyncSourceApiAssociationSourceApiAssociationConfigList) va
 	return nil
 }
 
-func validateNewAppsyncSourceApiAssociationSourceApiAssociationConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppsyncSourceApiAssociationSourceApiAssociationConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

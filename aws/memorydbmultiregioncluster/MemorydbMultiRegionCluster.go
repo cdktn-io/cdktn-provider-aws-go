@@ -5,19 +5,19 @@ package memorydbmultiregioncluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/memorydbmultiregioncluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/memorydbmultiregioncluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/memorydb_multi_region_cluster aws_memorydb_multi_region_cluster}.
 type MemorydbMultiRegionCluster interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -42,17 +42,17 @@ type MemorydbMultiRegionCluster interface {
 	SetEngineVersion(val *string)
 	EngineVersionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MultiRegionClusterName() *string
 	MultiRegionClusterNameSuffix() *string
 	SetMultiRegionClusterNameSuffix(val *string)
@@ -69,9 +69,9 @@ type MemorydbMultiRegionCluster interface {
 	SetNumShards(val *float64)
 	NumShardsInput() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -84,10 +84,10 @@ type MemorydbMultiRegionCluster interface {
 	Status() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
-	TagsAll() cdktf.StringMap
+	TagsAll() cdktn.StringMap
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -108,7 +108,7 @@ type MemorydbMultiRegionCluster interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -126,9 +126,9 @@ type MemorydbMultiRegionCluster interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -172,7 +172,7 @@ type MemorydbMultiRegionCluster interface {
 
 // The jsii proxy struct for MemorydbMultiRegionCluster
 type jsiiProxy_MemorydbMultiRegionCluster struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_MemorydbMultiRegionCluster) Arn() *string {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_MemorydbMultiRegionCluster) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_MemorydbMultiRegionCluster) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_MemorydbMultiRegionCluster) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -295,8 +295,8 @@ func (j *jsiiProxy_MemorydbMultiRegionCluster) EngineVersionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_MemorydbMultiRegionCluster) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_MemorydbMultiRegionCluster) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -325,8 +325,8 @@ func (j *jsiiProxy_MemorydbMultiRegionCluster) FriendlyUniqueId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_MemorydbMultiRegionCluster) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_MemorydbMultiRegionCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -435,8 +435,8 @@ func (j *jsiiProxy_MemorydbMultiRegionCluster) NumShardsInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_MemorydbMultiRegionCluster) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_MemorydbMultiRegionCluster) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -505,8 +505,8 @@ func (j *jsiiProxy_MemorydbMultiRegionCluster) Tags() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_MemorydbMultiRegionCluster) TagsAll() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_MemorydbMultiRegionCluster) TagsAll() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tagsAll",
@@ -525,8 +525,8 @@ func (j *jsiiProxy_MemorydbMultiRegionCluster) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_MemorydbMultiRegionCluster) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_MemorydbMultiRegionCluster) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -708,7 +708,7 @@ func (j *jsiiProxy_MemorydbMultiRegionCluster)SetEngineVersion(val *string) {
 	)
 }
 
-func (j *jsiiProxy_MemorydbMultiRegionCluster)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_MemorydbMultiRegionCluster)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -716,7 +716,7 @@ func (j *jsiiProxy_MemorydbMultiRegionCluster)SetForEach(val cdktf.ITerraformIte
 	)
 }
 
-func (j *jsiiProxy_MemorydbMultiRegionCluster)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_MemorydbMultiRegionCluster)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -771,7 +771,7 @@ func (j *jsiiProxy_MemorydbMultiRegionCluster)SetNumShards(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_MemorydbMultiRegionCluster)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_MemorydbMultiRegionCluster)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -834,14 +834,14 @@ func (j *jsiiProxy_MemorydbMultiRegionCluster)SetUpdateStrategy(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a MemorydbMultiRegionCluster resource upon running "cdktf plan <stack-name>".
-func MemorydbMultiRegionCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a MemorydbMultiRegionCluster resource upon running "cdktn plan <stack-name>".
+func MemorydbMultiRegionCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateMemorydbMultiRegionCluster_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionCluster",
@@ -975,11 +975,11 @@ func (m *jsiiProxy_MemorydbMultiRegionCluster) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (m *jsiiProxy_MemorydbMultiRegionCluster) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MemorydbMultiRegionCluster) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -1116,7 +1116,7 @@ func (m *jsiiProxy_MemorydbMultiRegionCluster) HasResourceMove() interface{} {
 	return returns
 }
 
-func (m *jsiiProxy_MemorydbMultiRegionCluster) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (m *jsiiProxy_MemorydbMultiRegionCluster) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := m.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1127,11 +1127,11 @@ func (m *jsiiProxy_MemorydbMultiRegionCluster) ImportFrom(id *string, provider c
 	)
 }
 
-func (m *jsiiProxy_MemorydbMultiRegionCluster) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MemorydbMultiRegionCluster) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,

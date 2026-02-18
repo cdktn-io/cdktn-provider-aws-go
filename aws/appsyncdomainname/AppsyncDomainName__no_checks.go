@@ -115,7 +115,7 @@ func (j *jsiiProxy_AppsyncDomainName) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncDomainName) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppsyncDomainName) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

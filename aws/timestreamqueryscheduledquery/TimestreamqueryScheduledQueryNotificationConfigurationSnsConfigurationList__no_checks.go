@@ -15,7 +15,7 @@ func (t *jsiiProxy_TimestreamqueryScheduledQueryNotificationConfigurationSnsConf
 	return nil
 }
 
-func (t *jsiiProxy_TimestreamqueryScheduledQueryNotificationConfigurationSnsConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TimestreamqueryScheduledQueryNotificationConfigurationSnsConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_TimestreamqueryScheduledQueryNotificationConfigurationSnsConf
 	return nil
 }
 
-func (j *jsiiProxy_TimestreamqueryScheduledQueryNotificationConfigurationSnsConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TimestreamqueryScheduledQueryNotificationConfigurationSnsConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_TimestreamqueryScheduledQueryNotificationConfigurationSnsConf
 	return nil
 }
 
-func validateNewTimestreamqueryScheduledQueryNotificationConfigurationSnsConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewTimestreamqueryScheduledQueryNotificationConfigurationSnsConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

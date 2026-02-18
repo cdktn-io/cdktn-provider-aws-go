@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (e *jsiiProxy_Ec2ManagedPrefixListEntryList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (e *jsiiProxy_Ec2ManagedPrefixListEntryList) validateGetParameters(index *f
 	return nil
 }
 
-func (e *jsiiProxy_Ec2ManagedPrefixListEntryList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_Ec2ManagedPrefixListEntryList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (e *jsiiProxy_Ec2ManagedPrefixListEntryList) validateResolveParameters(cont
 
 func (j *jsiiProxy_Ec2ManagedPrefixListEntryList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Ec2ManagedPrefixListEntry:
 		val := val.(*[]*Ec2ManagedPrefixListEntry)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_Ec2ManagedPrefixListEntryList) validateSetInternalValueParame
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*Ec2ManagedPrefixListEntry; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*Ec2ManagedPrefixListEntry; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_Ec2ManagedPrefixListEntryList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_Ec2ManagedPrefixListEntryList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Ec2ManagedPrefixListEntryList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_Ec2ManagedPrefixListEntryList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewEc2ManagedPrefixListEntryListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEc2ManagedPrefixListEntryListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (r *jsiiProxy_RedshiftserverlessWorkgroupTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (r *jsiiProxy_RedshiftserverlessWorkgroupTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedshiftserverlessWorkgroupTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_RedshiftserverlessWorkgroupTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftserverlessWorkgroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedshiftserverlessWorkgroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_RedshiftserverlessWorkgroupTimeoutsOutputReference) validateS
 	return nil
 }
 
-func validateNewRedshiftserverlessWorkgroupTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRedshiftserverlessWorkgroupTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

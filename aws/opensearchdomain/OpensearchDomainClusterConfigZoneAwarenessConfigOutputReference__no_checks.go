@@ -47,7 +47,7 @@ func (o *jsiiProxy_OpensearchDomainClusterConfigZoneAwarenessConfigOutputReferen
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchDomainClusterConfigZoneAwarenessConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchDomainClusterConfigZoneAwarenessConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_OpensearchDomainClusterConfigZoneAwarenessConfigOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchDomainClusterConfigZoneAwarenessConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchDomainClusterConfigZoneAwarenessConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOpensearchDomainClusterConfigZoneAwarenessConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOpensearchDomainClusterConfigZoneAwarenessConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

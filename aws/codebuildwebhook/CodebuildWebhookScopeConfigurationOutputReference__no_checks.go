@@ -47,7 +47,7 @@ func (c *jsiiProxy_CodebuildWebhookScopeConfigurationOutputReference) validateIn
 	return nil
 }
 
-func (c *jsiiProxy_CodebuildWebhookScopeConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodebuildWebhookScopeConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_CodebuildWebhookScopeConfigurationOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_CodebuildWebhookScopeConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodebuildWebhookScopeConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCodebuildWebhookScopeConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCodebuildWebhookScopeConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

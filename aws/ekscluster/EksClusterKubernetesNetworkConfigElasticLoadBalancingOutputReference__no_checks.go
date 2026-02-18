@@ -47,7 +47,7 @@ func (e *jsiiProxy_EksClusterKubernetesNetworkConfigElasticLoadBalancingOutputRe
 	return nil
 }
 
-func (e *jsiiProxy_EksClusterKubernetesNetworkConfigElasticLoadBalancingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksClusterKubernetesNetworkConfigElasticLoadBalancingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_EksClusterKubernetesNetworkConfigElasticLoadBalancingOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_EksClusterKubernetesNetworkConfigElasticLoadBalancingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksClusterKubernetesNetworkConfigElasticLoadBalancingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEksClusterKubernetesNetworkConfigElasticLoadBalancingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEksClusterKubernetesNetworkConfigElasticLoadBalancingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

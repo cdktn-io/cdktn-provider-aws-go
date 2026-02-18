@@ -103,7 +103,7 @@ func (j *jsiiProxy_EcrRegistryPolicy) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_EcrRegistryPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EcrRegistryPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

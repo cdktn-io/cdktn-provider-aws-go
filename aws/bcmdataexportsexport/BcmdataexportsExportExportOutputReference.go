@@ -5,14 +5,14 @@ package bcmdataexportsexport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/bcmdataexportsexport/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/bcmdataexportsexport/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BcmdataexportsExportExportOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -50,15 +50,15 @@ type BcmdataexportsExportExportOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -74,9 +74,9 @@ type BcmdataexportsExportExportOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDataQuery(value interface{})
 	PutDestinationConfigurations(value interface{})
 	PutRefreshCadence(value interface{})
@@ -86,7 +86,7 @@ type BcmdataexportsExportExportOutputReference interface {
 	ResetRefreshCadence()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type BcmdataexportsExportExportOutputReference interface {
 
 // The jsii proxy struct for BcmdataexportsExportExportOutputReference
 type jsiiProxy_BcmdataexportsExportExportOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BcmdataexportsExportExportOutputReference) ComplexObjectIndex() interface{} {
@@ -269,8 +269,8 @@ func (j *jsiiProxy_BcmdataexportsExportExportOutputReference) TerraformAttribute
 	return returns
 }
 
-func (j *jsiiProxy_BcmdataexportsExportExportOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BcmdataexportsExportExportOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -280,7 +280,7 @@ func (j *jsiiProxy_BcmdataexportsExportExportOutputReference) TerraformResource(
 }
 
 
-func NewBcmdataexportsExportExportOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BcmdataexportsExportExportOutputReference {
+func NewBcmdataexportsExportExportOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BcmdataexportsExportExportOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBcmdataexportsExportExportOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -297,7 +297,7 @@ func NewBcmdataexportsExportExportOutputReference(terraformResource cdktf.IInter
 	return &j
 }
 
-func NewBcmdataexportsExportExportOutputReference_Override(b BcmdataexportsExportExportOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewBcmdataexportsExportExportOutputReference_Override(b BcmdataexportsExportExportOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -373,7 +373,7 @@ func (j *jsiiProxy_BcmdataexportsExportExportOutputReference)SetTerraformAttribu
 	)
 }
 
-func (j *jsiiProxy_BcmdataexportsExportExportOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BcmdataexportsExportExportOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -413,11 +413,11 @@ func (b *jsiiProxy_BcmdataexportsExportExportOutputReference) GetAnyMapAttribute
 	return returns
 }
 
-func (b *jsiiProxy_BcmdataexportsExportExportOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BcmdataexportsExportExportOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -541,8 +541,8 @@ func (b *jsiiProxy_BcmdataexportsExportExportOutputReference) GetStringMapAttrib
 	return returns
 }
 
-func (b *jsiiProxy_BcmdataexportsExportExportOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BcmdataexportsExportExportOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -554,11 +554,11 @@ func (b *jsiiProxy_BcmdataexportsExportExportOutputReference) InterpolationAsLis
 	return returns
 }
 
-func (b *jsiiProxy_BcmdataexportsExportExportOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BcmdataexportsExportExportOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -635,7 +635,7 @@ func (b *jsiiProxy_BcmdataexportsExportExportOutputReference) ResetRefreshCadenc
 	)
 }
 
-func (b *jsiiProxy_BcmdataexportsExportExportOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BcmdataexportsExportExportOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -59,7 +59,7 @@ func (e *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validatePutR
 	return nil
 }
 
-func (e *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEksCapabilityConfigurationArgoCdOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEksCapabilityConfigurationArgoCdOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -107,7 +107,7 @@ func (j *jsiiProxy_Route53ResolverFirewallDomainList) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_Route53ResolverFirewallDomainList) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Route53ResolverFirewallDomainList) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

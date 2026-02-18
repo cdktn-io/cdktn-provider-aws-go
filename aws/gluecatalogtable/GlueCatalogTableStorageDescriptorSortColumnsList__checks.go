@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GlueCatalogTableStorageDescriptorSortColumnsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (g *jsiiProxy_GlueCatalogTableStorageDescriptorSortColumnsList) validateGet
 	return nil
 }
 
-func (g *jsiiProxy_GlueCatalogTableStorageDescriptorSortColumnsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueCatalogTableStorageDescriptorSortColumnsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (g *jsiiProxy_GlueCatalogTableStorageDescriptorSortColumnsList) validateRes
 
 func (j *jsiiProxy_GlueCatalogTableStorageDescriptorSortColumnsList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*GlueCatalogTableStorageDescriptorSortColumns:
 		val := val.(*[]*GlueCatalogTableStorageDescriptorSortColumns)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_GlueCatalogTableStorageDescriptorSortColumnsList) validateSet
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*GlueCatalogTableStorageDescriptorSortColumns; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*GlueCatalogTableStorageDescriptorSortColumns; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_GlueCatalogTableStorageDescriptorSortColumnsList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_GlueCatalogTableStorageDescriptorSortColumnsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueCatalogTableStorageDescriptorSortColumnsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_GlueCatalogTableStorageDescriptorSortColumnsList) validateSet
 	return nil
 }
 
-func validateNewGlueCatalogTableStorageDescriptorSortColumnsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGlueCatalogTableStorageDescriptorSortColumnsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

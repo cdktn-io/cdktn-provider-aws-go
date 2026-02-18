@@ -107,7 +107,7 @@ func (j *jsiiProxy_BackupGlobalSettings) validateSetIdParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_BackupGlobalSettings) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BackupGlobalSettings) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

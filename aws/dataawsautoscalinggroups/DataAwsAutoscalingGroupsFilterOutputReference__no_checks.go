@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsAutoscalingGroupsFilterOutputReference) validateInterp
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAutoscalingGroupsFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAutoscalingGroupsFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataAwsAutoscalingGroupsFilterOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAutoscalingGroupsFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAutoscalingGroupsFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsAutoscalingGroupsFilterOutputReference) validateSetVal
 	return nil
 }
 
-func validateNewDataAwsAutoscalingGroupsFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsAutoscalingGroupsFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (b *jsiiProxy_BedrockagentcoreAgentRuntimeNetworkConfigurationNetworkModeCo
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentcoreAgentRuntimeNetworkConfigurationNetworkModeConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentcoreAgentRuntimeNetworkConfigurationNetworkModeConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BedrockagentcoreAgentRuntimeNetworkConfigurationNetworkModeCo
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreAgentRuntimeNetworkConfigurationNetworkModeConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentcoreAgentRuntimeNetworkConfigurationNetworkModeConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBedrockagentcoreAgentRuntimeNetworkConfigurationNetworkModeConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBedrockagentcoreAgentRuntimeNetworkConfigurationNetworkModeConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package eksnodegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/eksnodegroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/eksnodegroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EksNodeGroupRemoteAccessOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type EksNodeGroupRemoteAccessOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type EksNodeGroupRemoteAccessOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEc2SshKey()
 	ResetSourceSecurityGroupIds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type EksNodeGroupRemoteAccessOutputReference interface {
 
 // The jsii proxy struct for EksNodeGroupRemoteAccessOutputReference
 type jsiiProxy_EksNodeGroupRemoteAccessOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EksNodeGroupRemoteAccessOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_EksNodeGroupRemoteAccessOutputReference) TerraformAttribute()
 	return returns
 }
 
-func (j *jsiiProxy_EksNodeGroupRemoteAccessOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EksNodeGroupRemoteAccessOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_EksNodeGroupRemoteAccessOutputReference) TerraformResource() 
 }
 
 
-func NewEksNodeGroupRemoteAccessOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) EksNodeGroupRemoteAccessOutputReference {
+func NewEksNodeGroupRemoteAccessOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) EksNodeGroupRemoteAccessOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEksNodeGroupRemoteAccessOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewEksNodeGroupRemoteAccessOutputReference(terraformResource cdktf.IInterpo
 	return &j
 }
 
-func NewEksNodeGroupRemoteAccessOutputReference_Override(e EksNodeGroupRemoteAccessOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEksNodeGroupRemoteAccessOutputReference_Override(e EksNodeGroupRemoteAccessOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_EksNodeGroupRemoteAccessOutputReference)SetTerraformAttribute
 	)
 }
 
-func (j *jsiiProxy_EksNodeGroupRemoteAccessOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EksNodeGroupRemoteAccessOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (e *jsiiProxy_EksNodeGroupRemoteAccessOutputReference) GetAnyMapAttribute(t
 	return returns
 }
 
-func (e *jsiiProxy_EksNodeGroupRemoteAccessOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EksNodeGroupRemoteAccessOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -459,8 +459,8 @@ func (e *jsiiProxy_EksNodeGroupRemoteAccessOutputReference) GetStringMapAttribut
 	return returns
 }
 
-func (e *jsiiProxy_EksNodeGroupRemoteAccessOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EksNodeGroupRemoteAccessOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -472,11 +472,11 @@ func (e *jsiiProxy_EksNodeGroupRemoteAccessOutputReference) InterpolationAsList(
 	return returns
 }
 
-func (e *jsiiProxy_EksNodeGroupRemoteAccessOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EksNodeGroupRemoteAccessOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -504,7 +504,7 @@ func (e *jsiiProxy_EksNodeGroupRemoteAccessOutputReference) ResetSourceSecurityG
 	)
 }
 
-func (e *jsiiProxy_EksNodeGroupRemoteAccessOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EksNodeGroupRemoteAccessOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

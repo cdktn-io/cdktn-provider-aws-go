@@ -47,7 +47,7 @@ func (f *jsiiProxy_FsxWindowsFileSystemTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (f *jsiiProxy_FsxWindowsFileSystemTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FsxWindowsFileSystemTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_FsxWindowsFileSystemTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_FsxWindowsFileSystemTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FsxWindowsFileSystemTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_FsxWindowsFileSystemTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewFsxWindowsFileSystemTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFsxWindowsFileSystemTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

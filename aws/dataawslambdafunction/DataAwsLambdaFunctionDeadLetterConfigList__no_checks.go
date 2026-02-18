@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsLambdaFunctionDeadLetterConfigList) validateGetParamet
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLambdaFunctionDeadLetterConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLambdaFunctionDeadLetterConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsLambdaFunctionDeadLetterConfigList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLambdaFunctionDeadLetterConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLambdaFunctionDeadLetterConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsLambdaFunctionDeadLetterConfigList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewDataAwsLambdaFunctionDeadLetterConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsLambdaFunctionDeadLetterConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_CognitoManagedLoginBrandingAssetOutputReference) validateInte
 	return nil
 }
 
-func (c *jsiiProxy_CognitoManagedLoginBrandingAssetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CognitoManagedLoginBrandingAssetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_CognitoManagedLoginBrandingAssetOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_CognitoManagedLoginBrandingAssetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CognitoManagedLoginBrandingAssetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCognitoManagedLoginBrandingAssetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCognitoManagedLoginBrandingAssetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SagemakerCodeRepositoryGitConfigOutputReference) validateInte
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerCodeRepositoryGitConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerCodeRepositoryGitConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_SagemakerCodeRepositoryGitConfigOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerCodeRepositoryGitConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerCodeRepositoryGitConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerCodeRepositoryGitConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerCodeRepositoryGitConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

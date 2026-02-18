@@ -47,7 +47,7 @@ func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestPolygonOutputRefer
 	return nil
 }
 
-func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestPolygonOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestPolygonOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestPolygonOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestPolygonOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestPolygonOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestPolygonOutputRefer
 	return nil
 }
 
-func validateNewRekognitionStreamProcessorRegionsOfInterestPolygonOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRekognitionStreamProcessorRegionsOfInterestPolygonOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

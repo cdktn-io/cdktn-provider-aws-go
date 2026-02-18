@@ -51,7 +51,7 @@ func (b *jsiiProxy_BudgetsBudgetAutoAdjustDataOutputReference) validatePutHistor
 	return nil
 }
 
-func (b *jsiiProxy_BudgetsBudgetAutoAdjustDataOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BudgetsBudgetAutoAdjustDataOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BudgetsBudgetAutoAdjustDataOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_BudgetsBudgetAutoAdjustDataOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BudgetsBudgetAutoAdjustDataOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBudgetsBudgetAutoAdjustDataOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBudgetsBudgetAutoAdjustDataOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

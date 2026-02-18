@@ -8,7 +8,7 @@ package ekscluster
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (e *jsiiProxy_EksClusterCertificateAuthorityList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (e *jsiiProxy_EksClusterCertificateAuthorityList) validateGetParameters(ind
 	return nil
 }
 
-func (e *jsiiProxy_EksClusterCertificateAuthorityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksClusterCertificateAuthorityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_EksClusterCertificateAuthorityList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_EksClusterCertificateAuthorityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksClusterCertificateAuthorityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_EksClusterCertificateAuthorityList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewEksClusterCertificateAuthorityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEksClusterCertificateAuthorityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

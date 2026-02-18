@@ -107,7 +107,7 @@ func (j *jsiiProxy_Ec2TrafficMirrorSession) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_Ec2TrafficMirrorSession) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Ec2TrafficMirrorSession) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

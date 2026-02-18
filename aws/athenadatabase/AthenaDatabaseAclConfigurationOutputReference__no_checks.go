@@ -47,7 +47,7 @@ func (a *jsiiProxy_AthenaDatabaseAclConfigurationOutputReference) validateInterp
 	return nil
 }
 
-func (a *jsiiProxy_AthenaDatabaseAclConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AthenaDatabaseAclConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AthenaDatabaseAclConfigurationOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_AthenaDatabaseAclConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AthenaDatabaseAclConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAthenaDatabaseAclConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAthenaDatabaseAclConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEcsTaskDefinitionRuntimePlatformList) validateGetParam
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEcsTaskDefinitionRuntimePlatformList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEcsTaskDefinitionRuntimePlatformList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsEcsTaskDefinitionRuntimePlatformList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEcsTaskDefinitionRuntimePlatformList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEcsTaskDefinitionRuntimePlatformList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsEcsTaskDefinitionRuntimePlatformList) validateSetWraps
 	return nil
 }
 
-func validateNewDataAwsEcsTaskDefinitionRuntimePlatformListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEcsTaskDefinitionRuntimePlatformListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

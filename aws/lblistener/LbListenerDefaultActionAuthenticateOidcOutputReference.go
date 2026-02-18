@@ -5,14 +5,14 @@ package lblistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lblistener/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lblistener/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LbListenerDefaultActionAuthenticateOidcOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AuthenticationRequestExtraParams() *map[string]*string
 	SetAuthenticationRequestExtraParams(val *map[string]*string)
 	AuthenticationRequestExtraParamsInput() *map[string]*string
@@ -64,9 +64,9 @@ type LbListenerDefaultActionAuthenticateOidcOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TokenEndpoint() *string
 	SetTokenEndpoint(val *string)
 	TokenEndpointInput() *string
@@ -78,7 +78,7 @@ type LbListenerDefaultActionAuthenticateOidcOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -94,9 +94,9 @@ type LbListenerDefaultActionAuthenticateOidcOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAuthenticationRequestExtraParams()
 	ResetOnUnauthenticatedRequest()
 	ResetScope()
@@ -104,7 +104,7 @@ type LbListenerDefaultActionAuthenticateOidcOutputReference interface {
 	ResetSessionTimeout()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -114,7 +114,7 @@ type LbListenerDefaultActionAuthenticateOidcOutputReference interface {
 
 // The jsii proxy struct for LbListenerDefaultActionAuthenticateOidcOutputReference
 type jsiiProxy_LbListenerDefaultActionAuthenticateOidcOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LbListenerDefaultActionAuthenticateOidcOutputReference) AuthenticationRequestExtraParams() *map[string]*string {
@@ -357,8 +357,8 @@ func (j *jsiiProxy_LbListenerDefaultActionAuthenticateOidcOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_LbListenerDefaultActionAuthenticateOidcOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LbListenerDefaultActionAuthenticateOidcOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -408,7 +408,7 @@ func (j *jsiiProxy_LbListenerDefaultActionAuthenticateOidcOutputReference) UserI
 }
 
 
-func NewLbListenerDefaultActionAuthenticateOidcOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LbListenerDefaultActionAuthenticateOidcOutputReference {
+func NewLbListenerDefaultActionAuthenticateOidcOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LbListenerDefaultActionAuthenticateOidcOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLbListenerDefaultActionAuthenticateOidcOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -425,7 +425,7 @@ func NewLbListenerDefaultActionAuthenticateOidcOutputReference(terraformResource
 	return &j
 }
 
-func NewLbListenerDefaultActionAuthenticateOidcOutputReference_Override(l LbListenerDefaultActionAuthenticateOidcOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLbListenerDefaultActionAuthenticateOidcOutputReference_Override(l LbListenerDefaultActionAuthenticateOidcOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -578,7 +578,7 @@ func (j *jsiiProxy_LbListenerDefaultActionAuthenticateOidcOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_LbListenerDefaultActionAuthenticateOidcOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LbListenerDefaultActionAuthenticateOidcOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -640,11 +640,11 @@ func (l *jsiiProxy_LbListenerDefaultActionAuthenticateOidcOutputReference) GetAn
 	return returns
 }
 
-func (l *jsiiProxy_LbListenerDefaultActionAuthenticateOidcOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LbListenerDefaultActionAuthenticateOidcOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -768,8 +768,8 @@ func (l *jsiiProxy_LbListenerDefaultActionAuthenticateOidcOutputReference) GetSt
 	return returns
 }
 
-func (l *jsiiProxy_LbListenerDefaultActionAuthenticateOidcOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LbListenerDefaultActionAuthenticateOidcOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -781,11 +781,11 @@ func (l *jsiiProxy_LbListenerDefaultActionAuthenticateOidcOutputReference) Inter
 	return returns
 }
 
-func (l *jsiiProxy_LbListenerDefaultActionAuthenticateOidcOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LbListenerDefaultActionAuthenticateOidcOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -837,7 +837,7 @@ func (l *jsiiProxy_LbListenerDefaultActionAuthenticateOidcOutputReference) Reset
 	)
 }
 
-func (l *jsiiProxy_LbListenerDefaultActionAuthenticateOidcOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LbListenerDefaultActionAuthenticateOidcOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

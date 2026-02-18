@@ -103,7 +103,7 @@ func (j *jsiiProxy_GlobalacceleratorCrossAccountAttachment) validateSetCountPara
 	return nil
 }
 
-func (j *jsiiProxy_GlobalacceleratorCrossAccountAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GlobalacceleratorCrossAccountAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

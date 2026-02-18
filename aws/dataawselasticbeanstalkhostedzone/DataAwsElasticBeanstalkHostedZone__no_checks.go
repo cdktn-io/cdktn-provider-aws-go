@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsElasticBeanstalkHostedZone) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsElasticBeanstalkHostedZone) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsElasticBeanstalkHostedZone) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

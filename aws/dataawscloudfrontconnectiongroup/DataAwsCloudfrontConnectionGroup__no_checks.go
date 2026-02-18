@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsCloudfrontConnectionGroup) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCloudfrontConnectionGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsCloudfrontConnectionGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

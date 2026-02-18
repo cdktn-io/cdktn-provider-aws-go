@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsImagebuilderImagePipelineImageTestsConfigurationOutput
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsImagebuilderImagePipelineImageTestsConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsImagebuilderImagePipelineImageTestsConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsImagebuilderImagePipelineImageTestsConfigurationOutput
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsImagebuilderImagePipelineImageTestsConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsImagebuilderImagePipelineImageTestsConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsImagebuilderImagePipelineImageTestsConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsImagebuilderImagePipelineImageTestsConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

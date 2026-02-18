@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsAppmeshVirtualRouterSpecList) validateGetParameters(in
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAppmeshVirtualRouterSpecList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAppmeshVirtualRouterSpecList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsAppmeshVirtualRouterSpecList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAppmeshVirtualRouterSpecList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAppmeshVirtualRouterSpecList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsAppmeshVirtualRouterSpecList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewDataAwsAppmeshVirtualRouterSpecListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsAppmeshVirtualRouterSpecListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -103,7 +103,7 @@ func (j *jsiiProxy_Route53ResolverQueryLogConfigAssociation) validateSetIdParame
 	return nil
 }
 
-func (j *jsiiProxy_Route53ResolverQueryLogConfigAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Route53ResolverQueryLogConfigAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

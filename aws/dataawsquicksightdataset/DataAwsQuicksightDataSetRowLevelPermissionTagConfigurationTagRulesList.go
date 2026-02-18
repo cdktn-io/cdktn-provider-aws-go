@@ -5,14 +5,14 @@ package dataawsquicksightdataset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsquicksightdataset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsquicksightdataset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList inte
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList inte
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList inte
 
 // The jsii proxy struct for DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList
 type jsiiProxy_DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTag
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTag
 }
 
 
-func NewDataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList {
+func NewDataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewDataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList(t
 	return &j
 }
 
-func NewDataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList_Override(d DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList_Override(d DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTag
 	)
 }
 
-func (j *jsiiProxy_DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTag
 	)
 }
 
-func (d *jsiiProxy_DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -208,7 +208,7 @@ func (d *jsiiProxy_DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTag
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

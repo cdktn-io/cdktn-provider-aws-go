@@ -47,7 +47,7 @@ func (t *jsiiProxy_TimestreamqueryScheduledQueryScheduleConfigurationOutputRefer
 	return nil
 }
 
-func (t *jsiiProxy_TimestreamqueryScheduledQueryScheduleConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TimestreamqueryScheduledQueryScheduleConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_TimestreamqueryScheduledQueryScheduleConfigurationOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_TimestreamqueryScheduledQueryScheduleConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TimestreamqueryScheduledQueryScheduleConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTimestreamqueryScheduledQueryScheduleConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewTimestreamqueryScheduledQueryScheduleConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

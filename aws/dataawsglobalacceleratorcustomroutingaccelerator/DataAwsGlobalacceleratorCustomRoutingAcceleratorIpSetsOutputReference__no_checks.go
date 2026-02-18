@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsGlobalacceleratorCustomRoutingAcceleratorIpSetsOutputR
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsGlobalacceleratorCustomRoutingAcceleratorIpSetsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsGlobalacceleratorCustomRoutingAcceleratorIpSetsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsGlobalacceleratorCustomRoutingAcceleratorIpSetsOutputR
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsGlobalacceleratorCustomRoutingAcceleratorIpSetsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsGlobalacceleratorCustomRoutingAcceleratorIpSetsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsGlobalacceleratorCustomRoutingAcceleratorIpSetsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsGlobalacceleratorCustomRoutingAcceleratorIpSetsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

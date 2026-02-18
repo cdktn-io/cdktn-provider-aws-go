@@ -47,7 +47,7 @@ func (l *jsiiProxy_LaunchTemplateInstanceRequirementsNetworkBandwidthGbpsOutputR
 	return nil
 }
 
-func (l *jsiiProxy_LaunchTemplateInstanceRequirementsNetworkBandwidthGbpsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LaunchTemplateInstanceRequirementsNetworkBandwidthGbpsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_LaunchTemplateInstanceRequirementsNetworkBandwidthGbpsOutputR
 	return nil
 }
 
-func (j *jsiiProxy_LaunchTemplateInstanceRequirementsNetworkBandwidthGbpsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LaunchTemplateInstanceRequirementsNetworkBandwidthGbpsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLaunchTemplateInstanceRequirementsNetworkBandwidthGbpsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLaunchTemplateInstanceRequirementsNetworkBandwidthGbpsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

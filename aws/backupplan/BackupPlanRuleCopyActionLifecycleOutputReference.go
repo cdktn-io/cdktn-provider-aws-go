@@ -5,14 +5,14 @@ package backupplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/backupplan/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/backupplan/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BackupPlanRuleCopyActionLifecycleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ColdStorageAfter() *float64
 	SetColdStorageAfter(val *float64)
 	ColdStorageAfterInput() *float64
@@ -46,15 +46,15 @@ type BackupPlanRuleCopyActionLifecycleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type BackupPlanRuleCopyActionLifecycleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetColdStorageAfter()
 	ResetDeleteAfter()
 	ResetOptInToArchiveForSupportedResources()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type BackupPlanRuleCopyActionLifecycleOutputReference interface {
 
 // The jsii proxy struct for BackupPlanRuleCopyActionLifecycleOutputReference
 type jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) ColdStorageAfter() *float64 {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) TerraformRe
 }
 
 
-func NewBackupPlanRuleCopyActionLifecycleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BackupPlanRuleCopyActionLifecycleOutputReference {
+func NewBackupPlanRuleCopyActionLifecycleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BackupPlanRuleCopyActionLifecycleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBackupPlanRuleCopyActionLifecycleOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewBackupPlanRuleCopyActionLifecycleOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewBackupPlanRuleCopyActionLifecycleOutputReference_Override(b BackupPlanRuleCopyActionLifecycleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBackupPlanRuleCopyActionLifecycleOutputReference_Override(b BackupPlanRuleCopyActionLifecycleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (b *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (b *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -494,8 +494,8 @@ func (b *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) GetStringMa
 	return returns
 }
 
-func (b *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -507,11 +507,11 @@ func (b *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) Interpolati
 	return returns
 }
 
-func (b *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -547,7 +547,7 @@ func (b *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) ResetOptInT
 	)
 }
 
-func (b *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

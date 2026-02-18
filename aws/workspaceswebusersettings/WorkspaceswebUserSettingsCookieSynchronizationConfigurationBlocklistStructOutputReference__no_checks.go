@@ -47,7 +47,7 @@ func (w *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationBl
 	return nil
 }
 
-func (w *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStructOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStructOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationBl
 	return nil
 }
 
-func (j *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStructOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStructOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStructOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStructOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (q *jsiiProxy_QuicksightDataSetColumnGroupsGeoSpatialColumnGroupOutputRefer
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDataSetColumnGroupsGeoSpatialColumnGroupOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDataSetColumnGroupsGeoSpatialColumnGroupOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_QuicksightDataSetColumnGroupsGeoSpatialColumnGroupOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDataSetColumnGroupsGeoSpatialColumnGroupOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDataSetColumnGroupsGeoSpatialColumnGroupOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewQuicksightDataSetColumnGroupsGeoSpatialColumnGroupOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewQuicksightDataSetColumnGroupsGeoSpatialColumnGroupOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

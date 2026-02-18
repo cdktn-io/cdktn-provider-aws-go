@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsKinesisStreamConsumer) validateSetIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsKinesisStreamConsumer) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsKinesisStreamConsumer) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

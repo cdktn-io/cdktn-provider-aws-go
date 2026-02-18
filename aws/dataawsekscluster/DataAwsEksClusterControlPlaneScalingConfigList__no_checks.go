@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEksClusterControlPlaneScalingConfigList) validateGetPa
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEksClusterControlPlaneScalingConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEksClusterControlPlaneScalingConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsEksClusterControlPlaneScalingConfigList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEksClusterControlPlaneScalingConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEksClusterControlPlaneScalingConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsEksClusterControlPlaneScalingConfigList) validateSetWr
 	return nil
 }
 
-func validateNewDataAwsEksClusterControlPlaneScalingConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEksClusterControlPlaneScalingConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

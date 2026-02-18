@@ -47,7 +47,7 @@ func (c *jsiiProxy_CodebuildProjectEnvironmentFleetOutputReference) validateInte
 	return nil
 }
 
-func (c *jsiiProxy_CodebuildProjectEnvironmentFleetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodebuildProjectEnvironmentFleetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CodebuildProjectEnvironmentFleetOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_CodebuildProjectEnvironmentFleetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodebuildProjectEnvironmentFleetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCodebuildProjectEnvironmentFleetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCodebuildProjectEnvironmentFleetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

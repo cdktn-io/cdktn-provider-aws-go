@@ -5,21 +5,21 @@ package s3bucketversioning
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/s3bucketversioning/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/s3bucketversioning/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/s3_bucket_versioning aws_s3_bucket_versioning}.
 type S3BucketVersioningA interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Bucket() *string
 	SetBucket(val *string)
 	BucketInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type S3BucketVersioningA interface {
 	SetExpectedBucketOwner(val *string)
 	ExpectedBucketOwnerInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,18 +49,18 @@ type S3BucketVersioningA interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Mfa() *string
 	SetMfa(val *string)
 	MfaInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -71,7 +71,7 @@ type S3BucketVersioningA interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -86,7 +86,7 @@ type S3BucketVersioningA interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -104,9 +104,9 @@ type S3BucketVersioningA interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -144,7 +144,7 @@ type S3BucketVersioningA interface {
 
 // The jsii proxy struct for S3BucketVersioningA
 type jsiiProxy_S3BucketVersioningA struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_S3BucketVersioningA) Bucket() *string {
@@ -167,8 +167,8 @@ func (j *jsiiProxy_S3BucketVersioningA) BucketInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_S3BucketVersioningA) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_S3BucketVersioningA) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -237,8 +237,8 @@ func (j *jsiiProxy_S3BucketVersioningA) ExpectedBucketOwnerInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_S3BucketVersioningA) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_S3BucketVersioningA) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -287,8 +287,8 @@ func (j *jsiiProxy_S3BucketVersioningA) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_S3BucketVersioningA) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_S3BucketVersioningA) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -327,8 +327,8 @@ func (j *jsiiProxy_S3BucketVersioningA) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_S3BucketVersioningA) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_S3BucketVersioningA) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -377,8 +377,8 @@ func (j *jsiiProxy_S3BucketVersioningA) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_S3BucketVersioningA) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_S3BucketVersioningA) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -509,7 +509,7 @@ func (j *jsiiProxy_S3BucketVersioningA)SetExpectedBucketOwner(val *string) {
 	)
 }
 
-func (j *jsiiProxy_S3BucketVersioningA)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_S3BucketVersioningA)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -528,7 +528,7 @@ func (j *jsiiProxy_S3BucketVersioningA)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_S3BucketVersioningA)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_S3BucketVersioningA)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -550,7 +550,7 @@ func (j *jsiiProxy_S3BucketVersioningA)SetMfa(val *string) {
 	)
 }
 
-func (j *jsiiProxy_S3BucketVersioningA)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_S3BucketVersioningA)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -580,14 +580,14 @@ func (j *jsiiProxy_S3BucketVersioningA)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a S3BucketVersioningA resource upon running "cdktf plan <stack-name>".
-func S3BucketVersioningA_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a S3BucketVersioningA resource upon running "cdktn plan <stack-name>".
+func S3BucketVersioningA_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateS3BucketVersioningA_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.s3BucketVersioning.S3BucketVersioningA",
@@ -721,11 +721,11 @@ func (s *jsiiProxy_S3BucketVersioningA) GetAnyMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (s *jsiiProxy_S3BucketVersioningA) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_S3BucketVersioningA) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -862,7 +862,7 @@ func (s *jsiiProxy_S3BucketVersioningA) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_S3BucketVersioningA) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_S3BucketVersioningA) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -873,11 +873,11 @@ func (s *jsiiProxy_S3BucketVersioningA) ImportFrom(id *string, provider cdktf.Te
 	)
 }
 
-func (s *jsiiProxy_S3BucketVersioningA) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_S3BucketVersioningA) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

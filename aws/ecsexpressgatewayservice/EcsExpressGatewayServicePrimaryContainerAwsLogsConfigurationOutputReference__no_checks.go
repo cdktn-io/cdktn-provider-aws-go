@@ -47,7 +47,7 @@ func (e *jsiiProxy_EcsExpressGatewayServicePrimaryContainerAwsLogsConfigurationO
 	return nil
 }
 
-func (e *jsiiProxy_EcsExpressGatewayServicePrimaryContainerAwsLogsConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsExpressGatewayServicePrimaryContainerAwsLogsConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EcsExpressGatewayServicePrimaryContainerAwsLogsConfigurationO
 	return nil
 }
 
-func (j *jsiiProxy_EcsExpressGatewayServicePrimaryContainerAwsLogsConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsExpressGatewayServicePrimaryContainerAwsLogsConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEcsExpressGatewayServicePrimaryContainerAwsLogsConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEcsExpressGatewayServicePrimaryContainerAwsLogsConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

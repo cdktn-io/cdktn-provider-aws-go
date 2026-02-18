@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComprehendEntityRecognizerInputDataConfigDocumentsOutputRefer
 	return nil
 }
 
-func (c *jsiiProxy_ComprehendEntityRecognizerInputDataConfigDocumentsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComprehendEntityRecognizerInputDataConfigDocumentsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ComprehendEntityRecognizerInputDataConfigDocumentsOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_ComprehendEntityRecognizerInputDataConfigDocumentsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComprehendEntityRecognizerInputDataConfigDocumentsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ComprehendEntityRecognizerInputDataConfigDocumentsOutputRefer
 	return nil
 }
 
-func validateNewComprehendEntityRecognizerInputDataConfigDocumentsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComprehendEntityRecognizerInputDataConfigDocumentsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

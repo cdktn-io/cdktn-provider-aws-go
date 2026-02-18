@@ -5,14 +5,14 @@ package appmeshvirtualnode
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/appmeshvirtualnode/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appmeshvirtualnode/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppmeshVirtualNodeSpecLoggingAccessLogOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type AppmeshVirtualNodeSpecLoggingAccessLogOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,14 +63,14 @@ type AppmeshVirtualNodeSpecLoggingAccessLogOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutFile(value *AppmeshVirtualNodeSpecLoggingAccessLogFile)
 	ResetFile()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type AppmeshVirtualNodeSpecLoggingAccessLogOutputReference interface {
 
 // The jsii proxy struct for AppmeshVirtualNodeSpecLoggingAccessLogOutputReference
 type jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogOutputReference) Terraf
 }
 
 
-func NewAppmeshVirtualNodeSpecLoggingAccessLogOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AppmeshVirtualNodeSpecLoggingAccessLogOutputReference {
+func NewAppmeshVirtualNodeSpecLoggingAccessLogOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AppmeshVirtualNodeSpecLoggingAccessLogOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAppmeshVirtualNodeSpecLoggingAccessLogOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewAppmeshVirtualNodeSpecLoggingAccessLogOutputReference(terraformResource 
 	return &j
 }
 
-func NewAppmeshVirtualNodeSpecLoggingAccessLogOutputReference_Override(a AppmeshVirtualNodeSpecLoggingAccessLogOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAppmeshVirtualNodeSpecLoggingAccessLogOutputReference_Override(a AppmeshVirtualNodeSpecLoggingAccessLogOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -285,11 +285,11 @@ func (a *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogOutputReference) GetAny
 	return returns
 }
 
-func (a *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -413,8 +413,8 @@ func (a *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogOutputReference) GetStr
 	return returns
 }
 
-func (a *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -426,11 +426,11 @@ func (a *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogOutputReference) Interp
 	return returns
 }
 
-func (a *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -461,7 +461,7 @@ func (a *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogOutputReference) ResetF
 	)
 }
 
-func (a *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

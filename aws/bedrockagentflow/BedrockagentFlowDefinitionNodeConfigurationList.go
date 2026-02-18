@@ -5,14 +5,14 @@ package bedrockagentflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/bedrockagentflow/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/bedrockagentflow/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BedrockagentFlowDefinitionNodeConfigurationList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type BedrockagentFlowDefinitionNodeConfigurationList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type BedrockagentFlowDefinitionNodeConfigurationList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) BedrockagentFlowDefinitionNodeConfigurationOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type BedrockagentFlowDefinitionNodeConfigurationList interface {
 
 // The jsii proxy struct for BedrockagentFlowDefinitionNodeConfigurationList
 type jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationList) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationList) WrapsSet() *
 }
 
 
-func NewBedrockagentFlowDefinitionNodeConfigurationList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockagentFlowDefinitionNodeConfigurationList {
+func NewBedrockagentFlowDefinitionNodeConfigurationList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockagentFlowDefinitionNodeConfigurationList {
 	_init_.Initialize()
 
 	if err := validateNewBedrockagentFlowDefinitionNodeConfigurationListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewBedrockagentFlowDefinitionNodeConfigurationList(terraformResource cdktf.
 	return &j
 }
 
-func NewBedrockagentFlowDefinitionNodeConfigurationList_Override(b BedrockagentFlowDefinitionNodeConfigurationList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewBedrockagentFlowDefinitionNodeConfigurationList_Override(b BedrockagentFlowDefinitionNodeConfigurationList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationList)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationList)SetWrapsSet(v
 	)
 }
 
-func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := b.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		b,
@@ -231,7 +231,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationList) Get(index *f
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationList) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

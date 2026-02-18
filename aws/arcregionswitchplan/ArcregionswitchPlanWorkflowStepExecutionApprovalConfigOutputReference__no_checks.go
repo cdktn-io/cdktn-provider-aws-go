@@ -47,7 +47,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepExecutionApprovalConfigOutputR
 	return nil
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepExecutionApprovalConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepExecutionApprovalConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepExecutionApprovalConfigOutputR
 	return nil
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepExecutionApprovalConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepExecutionApprovalConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepExecutionApprovalConfigOutputR
 	return nil
 }
 
-func validateNewArcregionswitchPlanWorkflowStepExecutionApprovalConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewArcregionswitchPlanWorkflowStepExecutionApprovalConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (i *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) validateInter
 	return nil
 }
 
-func (i *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) validateSetUr
 	return nil
 }
 
-func validateNewIvschatRoomMessageReviewHandlerOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIvschatRoomMessageReviewHandlerOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

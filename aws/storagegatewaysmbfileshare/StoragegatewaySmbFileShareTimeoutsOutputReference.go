@@ -5,14 +5,14 @@ package storagegatewaysmbfileshare
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/storagegatewaysmbfileshare/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/storagegatewaysmbfileshare/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type StoragegatewaySmbFileShareTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type StoragegatewaySmbFileShareTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type StoragegatewaySmbFileShareTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type StoragegatewaySmbFileShareTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type StoragegatewaySmbFileShareTimeoutsOutputReference interface {
 
 // The jsii proxy struct for StoragegatewaySmbFileShareTimeoutsOutputReference
 type jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) UpdateInpu
 }
 
 
-func NewStoragegatewaySmbFileShareTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) StoragegatewaySmbFileShareTimeoutsOutputReference {
+func NewStoragegatewaySmbFileShareTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) StoragegatewaySmbFileShareTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewStoragegatewaySmbFileShareTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewStoragegatewaySmbFileShareTimeoutsOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewStoragegatewaySmbFileShareTimeoutsOutputReference_Override(s StoragegatewaySmbFileShareTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewStoragegatewaySmbFileShareTimeoutsOutputReference_Override(s StoragegatewaySmbFileShareTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (s *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) GetAnyMapA
 	return returns
 }
 
-func (s *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -494,8 +494,8 @@ func (s *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) GetStringM
 	return returns
 }
 
-func (s *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -507,11 +507,11 @@ func (s *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) Interpolat
 	return returns
 }
 
-func (s *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -547,7 +547,7 @@ func (s *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) ResetUpdat
 	)
 }
 
-func (s *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

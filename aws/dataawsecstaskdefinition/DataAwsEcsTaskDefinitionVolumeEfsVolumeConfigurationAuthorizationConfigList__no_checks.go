@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationAuthoriza
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationAuthoriza
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationAuthoriza
 	return nil
 }
 
-func validateNewDataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

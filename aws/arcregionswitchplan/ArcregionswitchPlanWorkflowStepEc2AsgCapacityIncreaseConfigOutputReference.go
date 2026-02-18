@@ -5,14 +5,14 @@ package arcregionswitchplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/arcregionswitchplan/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/arcregionswitchplan/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Asg() ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigAsgList
 	AsgInput() interface{}
 	CapacityMonitoringApproach() *string
@@ -45,9 +45,9 @@ type ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TimeoutMinutes() *float64
 	SetTimeoutMinutes(val *float64)
 	TimeoutMinutesInput() *float64
@@ -58,7 +58,7 @@ type ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference 
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -74,9 +74,9 @@ type ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAsg(value interface{})
 	PutUngraceful(value interface{})
 	ResetAsg()
@@ -85,7 +85,7 @@ type ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference 
 	ResetUngraceful()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -95,7 +95,7 @@ type ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference 
 
 // The jsii proxy struct for ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference
 type jsiiProxy_ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference) Asg() ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigAsgList {
@@ -218,8 +218,8 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOu
 	return returns
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -269,7 +269,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOu
 }
 
 
-func NewArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference {
+func NewArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -286,7 +286,7 @@ func NewArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReferen
 	return &j
 }
 
-func NewArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference_Override(a ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference_Override(a ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -362,7 +362,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOu
 	)
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -413,11 +413,11 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOu
 	return returns
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -541,8 +541,8 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOu
 	return returns
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -554,11 +554,11 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOu
 	return returns
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -624,7 +624,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOu
 	)
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

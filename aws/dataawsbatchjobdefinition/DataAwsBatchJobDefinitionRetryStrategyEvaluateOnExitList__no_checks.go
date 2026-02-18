@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsBatchJobDefinitionRetryStrategyEvaluateOnExitList) val
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsBatchJobDefinitionRetryStrategyEvaluateOnExitList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsBatchJobDefinitionRetryStrategyEvaluateOnExitList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsBatchJobDefinitionRetryStrategyEvaluateOnExitList) val
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsBatchJobDefinitionRetryStrategyEvaluateOnExitList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsBatchJobDefinitionRetryStrategyEvaluateOnExitList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsBatchJobDefinitionRetryStrategyEvaluateOnExitList) val
 	return nil
 }
 
-func validateNewDataAwsBatchJobDefinitionRetryStrategyEvaluateOnExitListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsBatchJobDefinitionRetryStrategyEvaluateOnExitListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

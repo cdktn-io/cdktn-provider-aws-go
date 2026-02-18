@@ -5,14 +5,14 @@ package ivschatroom
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ivschatroom/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ivschatroom/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type IvschatRoomMessageReviewHandlerOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type IvschatRoomMessageReviewHandlerOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Uri() *string
 	SetUri(val *string)
 	UriInput() *string
@@ -51,7 +51,7 @@ type IvschatRoomMessageReviewHandlerOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type IvschatRoomMessageReviewHandlerOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetFallbackResult()
 	ResetUri()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type IvschatRoomMessageReviewHandlerOutputReference interface {
 
 // The jsii proxy struct for IvschatRoomMessageReviewHandlerOutputReference
 type jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) ComplexObjectIndex() interface{} {
@@ -167,8 +167,8 @@ func (j *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) UriInput() *s
 }
 
 
-func NewIvschatRoomMessageReviewHandlerOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) IvschatRoomMessageReviewHandlerOutputReference {
+func NewIvschatRoomMessageReviewHandlerOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) IvschatRoomMessageReviewHandlerOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewIvschatRoomMessageReviewHandlerOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewIvschatRoomMessageReviewHandlerOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewIvschatRoomMessageReviewHandlerOutputReference_Override(i IvschatRoomMessageReviewHandlerOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewIvschatRoomMessageReviewHandlerOutputReference_Override(i IvschatRoomMessageReviewHandlerOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (i *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (i *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -459,8 +459,8 @@ func (i *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) GetStringMapA
 	return returns
 }
 
-func (i *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -472,11 +472,11 @@ func (i *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) Interpolation
 	return returns
 }
 
-func (i *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -504,7 +504,7 @@ func (i *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) ResetUri() {
 	)
 }
 
-func (i *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

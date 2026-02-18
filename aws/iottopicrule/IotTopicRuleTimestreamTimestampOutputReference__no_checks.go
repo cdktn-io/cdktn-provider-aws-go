@@ -47,7 +47,7 @@ func (i *jsiiProxy_IotTopicRuleTimestreamTimestampOutputReference) validateInter
 	return nil
 }
 
-func (i *jsiiProxy_IotTopicRuleTimestreamTimestampOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotTopicRuleTimestreamTimestampOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_IotTopicRuleTimestreamTimestampOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_IotTopicRuleTimestreamTimestampOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotTopicRuleTimestreamTimestampOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_IotTopicRuleTimestreamTimestampOutputReference) validateSetVa
 	return nil
 }
 
-func validateNewIotTopicRuleTimestreamTimestampOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIotTopicRuleTimestreamTimestampOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

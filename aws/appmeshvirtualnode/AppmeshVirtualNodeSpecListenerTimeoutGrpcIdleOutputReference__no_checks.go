@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppmeshVirtualNodeSpecListenerTimeoutGrpcIdleOutputReference)
 	return nil
 }
 
-func (a *jsiiProxy_AppmeshVirtualNodeSpecListenerTimeoutGrpcIdleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppmeshVirtualNodeSpecListenerTimeoutGrpcIdleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_AppmeshVirtualNodeSpecListenerTimeoutGrpcIdleOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshVirtualNodeSpecListenerTimeoutGrpcIdleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppmeshVirtualNodeSpecListenerTimeoutGrpcIdleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AppmeshVirtualNodeSpecListenerTimeoutGrpcIdleOutputReference)
 	return nil
 }
 
-func validateNewAppmeshVirtualNodeSpecListenerTimeoutGrpcIdleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppmeshVirtualNodeSpecListenerTimeoutGrpcIdleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

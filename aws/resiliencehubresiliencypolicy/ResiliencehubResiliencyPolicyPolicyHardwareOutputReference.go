@@ -5,14 +5,14 @@ package resiliencehubresiliencypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/resiliencehubresiliencypolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/resiliencehubresiliencypolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ResiliencehubResiliencyPolicyPolicyHardwareOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type ResiliencehubResiliencyPolicyPolicyHardwareOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type ResiliencehubResiliencyPolicyPolicyHardwareOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type ResiliencehubResiliencyPolicyPolicyHardwareOutputReference interface {
 
 // The jsii proxy struct for ResiliencehubResiliencyPolicyPolicyHardwareOutputReference
 type jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareOutputReference) ComplexObjectIndex() interface{} {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareOutputReference) T
 }
 
 
-func NewResiliencehubResiliencyPolicyPolicyHardwareOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ResiliencehubResiliencyPolicyPolicyHardwareOutputReference {
+func NewResiliencehubResiliencyPolicyPolicyHardwareOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ResiliencehubResiliencyPolicyPolicyHardwareOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewResiliencehubResiliencyPolicyPolicyHardwareOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -213,7 +213,7 @@ func NewResiliencehubResiliencyPolicyPolicyHardwareOutputReference(terraformReso
 	return &j
 }
 
-func NewResiliencehubResiliencyPolicyPolicyHardwareOutputReference_Override(r ResiliencehubResiliencyPolicyPolicyHardwareOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewResiliencehubResiliencyPolicyPolicyHardwareOutputReference_Override(r ResiliencehubResiliencyPolicyPolicyHardwareOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareOutputReference) G
 	return returns
 }
 
-func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -457,8 +457,8 @@ func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareOutputReference) G
 	return returns
 }
 
-func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -470,11 +470,11 @@ func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareOutputReference) I
 	return returns
 }
 
-func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -486,7 +486,7 @@ func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareOutputReference) I
 	return returns
 }
 
-func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

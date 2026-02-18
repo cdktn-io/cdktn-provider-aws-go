@@ -111,7 +111,7 @@ func (j *jsiiProxy_SagemakerHumanTaskUi) validateSetIdParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerHumanTaskUi) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SagemakerHumanTaskUi) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

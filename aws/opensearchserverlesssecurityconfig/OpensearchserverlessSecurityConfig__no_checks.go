@@ -107,7 +107,7 @@ func (j *jsiiProxy_OpensearchserverlessSecurityConfig) validateSetDescriptionPar
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchserverlessSecurityConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_OpensearchserverlessSecurityConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

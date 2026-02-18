@@ -119,7 +119,7 @@ func (j *jsiiProxy_GlobalacceleratorListener) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_GlobalacceleratorListener) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GlobalacceleratorListener) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

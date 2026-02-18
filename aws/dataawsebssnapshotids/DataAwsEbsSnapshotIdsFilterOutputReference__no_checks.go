@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEbsSnapshotIdsFilterOutputReference) validateInterpola
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEbsSnapshotIdsFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEbsSnapshotIdsFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataAwsEbsSnapshotIdsFilterOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEbsSnapshotIdsFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEbsSnapshotIdsFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsEbsSnapshotIdsFilterOutputReference) validateSetValues
 	return nil
 }
 
-func validateNewDataAwsEbsSnapshotIdsFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsEbsSnapshotIdsFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

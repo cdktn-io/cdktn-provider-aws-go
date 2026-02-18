@@ -47,7 +47,7 @@ func (s *jsiiProxy_SagemakerSpaceSpaceSettingsCustomFileSystemEfsFileSystemOutpu
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerSpaceSpaceSettingsCustomFileSystemEfsFileSystemOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerSpaceSpaceSettingsCustomFileSystemEfsFileSystemOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SagemakerSpaceSpaceSettingsCustomFileSystemEfsFileSystemOutpu
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerSpaceSpaceSettingsCustomFileSystemEfsFileSystemOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerSpaceSpaceSettingsCustomFileSystemEfsFileSystemOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerSpaceSpaceSettingsCustomFileSystemEfsFileSystemOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerSpaceSpaceSettingsCustomFileSystemEfsFileSystemOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

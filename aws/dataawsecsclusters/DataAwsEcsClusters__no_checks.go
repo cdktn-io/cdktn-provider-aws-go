@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsEcsClusters) validateSetCountParameters(val interface{
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEcsClusters) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsEcsClusters) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

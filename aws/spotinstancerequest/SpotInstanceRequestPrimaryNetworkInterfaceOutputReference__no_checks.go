@@ -47,7 +47,7 @@ func (s *jsiiProxy_SpotInstanceRequestPrimaryNetworkInterfaceOutputReference) va
 	return nil
 }
 
-func (s *jsiiProxy_SpotInstanceRequestPrimaryNetworkInterfaceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpotInstanceRequestPrimaryNetworkInterfaceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_SpotInstanceRequestPrimaryNetworkInterfaceOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_SpotInstanceRequestPrimaryNetworkInterfaceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpotInstanceRequestPrimaryNetworkInterfaceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSpotInstanceRequestPrimaryNetworkInterfaceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSpotInstanceRequestPrimaryNetworkInterfaceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

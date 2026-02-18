@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsVpcIpamOperatingRegionsOutputReference) validateInterp
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsVpcIpamOperatingRegionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsVpcIpamOperatingRegionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsVpcIpamOperatingRegionsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVpcIpamOperatingRegionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsVpcIpamOperatingRegionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsVpcIpamOperatingRegionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsVpcIpamOperatingRegionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

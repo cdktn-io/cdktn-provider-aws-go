@@ -111,7 +111,7 @@ func (j *jsiiProxy_KeyspacesKeyspace) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_KeyspacesKeyspace) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KeyspacesKeyspace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

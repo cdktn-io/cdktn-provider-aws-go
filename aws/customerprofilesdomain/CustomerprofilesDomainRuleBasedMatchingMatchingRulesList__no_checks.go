@@ -15,7 +15,7 @@ func (c *jsiiProxy_CustomerprofilesDomainRuleBasedMatchingMatchingRulesList) val
 	return nil
 }
 
-func (c *jsiiProxy_CustomerprofilesDomainRuleBasedMatchingMatchingRulesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CustomerprofilesDomainRuleBasedMatchingMatchingRulesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CustomerprofilesDomainRuleBasedMatchingMatchingRulesList) val
 	return nil
 }
 
-func (j *jsiiProxy_CustomerprofilesDomainRuleBasedMatchingMatchingRulesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CustomerprofilesDomainRuleBasedMatchingMatchingRulesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CustomerprofilesDomainRuleBasedMatchingMatchingRulesList) val
 	return nil
 }
 
-func validateNewCustomerprofilesDomainRuleBasedMatchingMatchingRulesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCustomerprofilesDomainRuleBasedMatchingMatchingRulesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

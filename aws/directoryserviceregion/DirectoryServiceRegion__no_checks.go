@@ -119,7 +119,7 @@ func (j *jsiiProxy_DirectoryServiceRegion) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_DirectoryServiceRegion) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DirectoryServiceRegion) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

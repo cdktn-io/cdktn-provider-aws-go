@@ -103,7 +103,7 @@ func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) validateSetIdP
 	return nil
 }
 
-func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

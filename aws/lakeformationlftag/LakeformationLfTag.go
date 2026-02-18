@@ -5,21 +5,21 @@ package lakeformationlftag
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lakeformationlftag/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lakeformationlftag/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/lakeformation_lf_tag aws_lakeformation_lf_tag}.
 type LakeformationLfTag interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	CatalogId() *string
 	SetCatalogId(val *string)
 	CatalogIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type LakeformationLfTag interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,15 +49,15 @@ type LakeformationLfTag interface {
 	SetKey(val *string)
 	KeyInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -68,7 +68,7 @@ type LakeformationLfTag interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -84,7 +84,7 @@ type LakeformationLfTag interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -102,9 +102,9 @@ type LakeformationLfTag interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -140,7 +140,7 @@ type LakeformationLfTag interface {
 
 // The jsii proxy struct for LakeformationLfTag
 type jsiiProxy_LakeformationLfTag struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_LakeformationLfTag) CatalogId() *string {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_LakeformationLfTag) CatalogIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LakeformationLfTag) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_LakeformationLfTag) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -213,8 +213,8 @@ func (j *jsiiProxy_LakeformationLfTag) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_LakeformationLfTag) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_LakeformationLfTag) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -283,8 +283,8 @@ func (j *jsiiProxy_LakeformationLfTag) KeyInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LakeformationLfTag) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_LakeformationLfTag) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -303,8 +303,8 @@ func (j *jsiiProxy_LakeformationLfTag) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_LakeformationLfTag) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_LakeformationLfTag) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -353,8 +353,8 @@ func (j *jsiiProxy_LakeformationLfTag) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LakeformationLfTag) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_LakeformationLfTag) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -474,7 +474,7 @@ func (j *jsiiProxy_LakeformationLfTag)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_LakeformationLfTag)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_LakeformationLfTag)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -504,7 +504,7 @@ func (j *jsiiProxy_LakeformationLfTag)SetKey(val *string) {
 	)
 }
 
-func (j *jsiiProxy_LakeformationLfTag)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_LakeformationLfTag)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -515,7 +515,7 @@ func (j *jsiiProxy_LakeformationLfTag)SetLifecycle(val *cdktf.TerraformResourceL
 	)
 }
 
-func (j *jsiiProxy_LakeformationLfTag)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_LakeformationLfTag)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -556,14 +556,14 @@ func (j *jsiiProxy_LakeformationLfTag)SetValues(val *[]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a LakeformationLfTag resource upon running "cdktf plan <stack-name>".
-func LakeformationLfTag_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a LakeformationLfTag resource upon running "cdktn plan <stack-name>".
+func LakeformationLfTag_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateLakeformationLfTag_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.lakeformationLfTag.LakeformationLfTag",
@@ -697,11 +697,11 @@ func (l *jsiiProxy_LakeformationLfTag) GetAnyMapAttribute(terraformAttribute *st
 	return returns
 }
 
-func (l *jsiiProxy_LakeformationLfTag) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LakeformationLfTag) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -838,7 +838,7 @@ func (l *jsiiProxy_LakeformationLfTag) HasResourceMove() interface{} {
 	return returns
 }
 
-func (l *jsiiProxy_LakeformationLfTag) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (l *jsiiProxy_LakeformationLfTag) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := l.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -849,11 +849,11 @@ func (l *jsiiProxy_LakeformationLfTag) ImportFrom(id *string, provider cdktf.Ter
 	)
 }
 
-func (l *jsiiProxy_LakeformationLfTag) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LakeformationLfTag) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,

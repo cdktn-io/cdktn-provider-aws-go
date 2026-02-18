@@ -115,7 +115,7 @@ func (j *jsiiProxy_Route53ResolverEndpoint) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_Route53ResolverEndpoint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Route53ResolverEndpoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

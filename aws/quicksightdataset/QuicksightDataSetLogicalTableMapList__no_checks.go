@@ -15,7 +15,7 @@ func (q *jsiiProxy_QuicksightDataSetLogicalTableMapList) validateGetParameters(i
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDataSetLogicalTableMapList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDataSetLogicalTableMapList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_QuicksightDataSetLogicalTableMapList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDataSetLogicalTableMapList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDataSetLogicalTableMapList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_QuicksightDataSetLogicalTableMapList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewQuicksightDataSetLogicalTableMapListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewQuicksightDataSetLogicalTableMapListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

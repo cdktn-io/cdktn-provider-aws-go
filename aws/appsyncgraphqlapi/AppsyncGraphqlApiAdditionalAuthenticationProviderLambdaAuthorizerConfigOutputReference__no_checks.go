@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppsyncGraphqlApiAdditionalAuthenticationProviderLambdaAuthor
 	return nil
 }
 
-func (a *jsiiProxy_AppsyncGraphqlApiAdditionalAuthenticationProviderLambdaAuthorizerConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppsyncGraphqlApiAdditionalAuthenticationProviderLambdaAuthorizerConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_AppsyncGraphqlApiAdditionalAuthenticationProviderLambdaAuthor
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncGraphqlApiAdditionalAuthenticationProviderLambdaAuthorizerConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppsyncGraphqlApiAdditionalAuthenticationProviderLambdaAuthorizerConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppsyncGraphqlApiAdditionalAuthenticationProviderLambdaAuthorizerConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppsyncGraphqlApiAdditionalAuthenticationProviderLambdaAuthorizerConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

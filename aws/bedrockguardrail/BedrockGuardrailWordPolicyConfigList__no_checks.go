@@ -15,7 +15,7 @@ func (b *jsiiProxy_BedrockGuardrailWordPolicyConfigList) validateGetParameters(i
 	return nil
 }
 
-func (b *jsiiProxy_BedrockGuardrailWordPolicyConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockGuardrailWordPolicyConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BedrockGuardrailWordPolicyConfigList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_BedrockGuardrailWordPolicyConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockGuardrailWordPolicyConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BedrockGuardrailWordPolicyConfigList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewBedrockGuardrailWordPolicyConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockGuardrailWordPolicyConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

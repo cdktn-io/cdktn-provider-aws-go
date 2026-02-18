@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsOdbDbServersDbServersOutputReference) validateInterpol
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsOdbDbServersDbServersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsOdbDbServersDbServersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsOdbDbServersDbServersOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOdbDbServersDbServersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsOdbDbServersDbServersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsOdbDbServersDbServersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsOdbDbServersDbServersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

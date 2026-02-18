@@ -5,14 +5,14 @@ package lambdafunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lambdafunction/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lambdafunction/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LambdaFunctionFileSystemConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Arn() *string
 	SetArn(val *string)
 	ArnInput() *string
@@ -43,15 +43,15 @@ type LambdaFunctionFileSystemConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type LambdaFunctionFileSystemConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type LambdaFunctionFileSystemConfigOutputReference interface {
 
 // The jsii proxy struct for LambdaFunctionFileSystemConfigOutputReference
 type jsiiProxy_LambdaFunctionFileSystemConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LambdaFunctionFileSystemConfigOutputReference) Arn() *string {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_LambdaFunctionFileSystemConfigOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_LambdaFunctionFileSystemConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LambdaFunctionFileSystemConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_LambdaFunctionFileSystemConfigOutputReference) TerraformResou
 }
 
 
-func NewLambdaFunctionFileSystemConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LambdaFunctionFileSystemConfigOutputReference {
+func NewLambdaFunctionFileSystemConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LambdaFunctionFileSystemConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLambdaFunctionFileSystemConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewLambdaFunctionFileSystemConfigOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewLambdaFunctionFileSystemConfigOutputReference_Override(l LambdaFunctionFileSystemConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLambdaFunctionFileSystemConfigOutputReference_Override(l LambdaFunctionFileSystemConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_LambdaFunctionFileSystemConfigOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_LambdaFunctionFileSystemConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LambdaFunctionFileSystemConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (l *jsiiProxy_LambdaFunctionFileSystemConfigOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (l *jsiiProxy_LambdaFunctionFileSystemConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LambdaFunctionFileSystemConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -457,8 +457,8 @@ func (l *jsiiProxy_LambdaFunctionFileSystemConfigOutputReference) GetStringMapAt
 	return returns
 }
 
-func (l *jsiiProxy_LambdaFunctionFileSystemConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LambdaFunctionFileSystemConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -470,11 +470,11 @@ func (l *jsiiProxy_LambdaFunctionFileSystemConfigOutputReference) InterpolationA
 	return returns
 }
 
-func (l *jsiiProxy_LambdaFunctionFileSystemConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LambdaFunctionFileSystemConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -486,7 +486,7 @@ func (l *jsiiProxy_LambdaFunctionFileSystemConfigOutputReference) InterpolationF
 	return returns
 }
 
-func (l *jsiiProxy_LambdaFunctionFileSystemConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LambdaFunctionFileSystemConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

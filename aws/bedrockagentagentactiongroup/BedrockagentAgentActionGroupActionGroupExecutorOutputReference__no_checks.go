@@ -47,7 +47,7 @@ func (b *jsiiProxy_BedrockagentAgentActionGroupActionGroupExecutorOutputReferenc
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentAgentActionGroupActionGroupExecutorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentAgentActionGroupActionGroupExecutorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BedrockagentAgentActionGroupActionGroupExecutorOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentAgentActionGroupActionGroupExecutorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentAgentActionGroupActionGroupExecutorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBedrockagentAgentActionGroupActionGroupExecutorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBedrockagentAgentActionGroupActionGroupExecutorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

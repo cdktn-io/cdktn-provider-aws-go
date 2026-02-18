@@ -15,7 +15,7 @@ func (d *jsiiProxy_DbInstanceListenerEndpointList) validateGetParameters(index *
 	return nil
 }
 
-func (d *jsiiProxy_DbInstanceListenerEndpointList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DbInstanceListenerEndpointList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DbInstanceListenerEndpointList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_DbInstanceListenerEndpointList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DbInstanceListenerEndpointList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DbInstanceListenerEndpointList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewDbInstanceListenerEndpointListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDbInstanceListenerEndpointListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

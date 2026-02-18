@@ -15,7 +15,7 @@ func (f *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) validateGetParam
 	return nil
 }
 
-func (f *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) validateSetWraps
 	return nil
 }
 
-func validateNewFsxS3AccessPointAttachmentS3AccessPointListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFsxS3AccessPointAttachmentS3AccessPointListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

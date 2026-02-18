@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsFsxOntapStorageVirtualMachine) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsFsxOntapStorageVirtualMachine) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsFsxOntapStorageVirtualMachine) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

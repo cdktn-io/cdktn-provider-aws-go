@@ -51,7 +51,7 @@ func (d *jsiiProxy_DatapipelinePipelineDefinitionParameterObjectOutputReference)
 	return nil
 }
 
-func (d *jsiiProxy_DatapipelinePipelineDefinitionParameterObjectOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatapipelinePipelineDefinitionParameterObjectOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DatapipelinePipelineDefinitionParameterObjectOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_DatapipelinePipelineDefinitionParameterObjectOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatapipelinePipelineDefinitionParameterObjectOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatapipelinePipelineDefinitionParameterObjectOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDatapipelinePipelineDefinitionParameterObjectOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

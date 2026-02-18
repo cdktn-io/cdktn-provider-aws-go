@@ -47,7 +47,7 @@ func (i *jsiiProxy_IvsRecordingConfigurationDestinationConfigurationS3OutputRefe
 	return nil
 }
 
-func (i *jsiiProxy_IvsRecordingConfigurationDestinationConfigurationS3OutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IvsRecordingConfigurationDestinationConfigurationS3OutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_IvsRecordingConfigurationDestinationConfigurationS3OutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_IvsRecordingConfigurationDestinationConfigurationS3OutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IvsRecordingConfigurationDestinationConfigurationS3OutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIvsRecordingConfigurationDestinationConfigurationS3OutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIvsRecordingConfigurationDestinationConfigurationS3OutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

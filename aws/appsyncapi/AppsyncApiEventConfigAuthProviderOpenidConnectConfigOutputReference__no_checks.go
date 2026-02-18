@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppsyncApiEventConfigAuthProviderOpenidConnectConfigOutputRef
 	return nil
 }
 
-func (a *jsiiProxy_AppsyncApiEventConfigAuthProviderOpenidConnectConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppsyncApiEventConfigAuthProviderOpenidConnectConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderOpenidConnectConfigOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderOpenidConnectConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderOpenidConnectConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppsyncApiEventConfigAuthProviderOpenidConnectConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppsyncApiEventConfigAuthProviderOpenidConnectConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

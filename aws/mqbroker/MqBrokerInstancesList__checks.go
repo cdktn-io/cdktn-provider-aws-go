@@ -8,7 +8,7 @@ package mqbroker
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_MqBrokerInstancesList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (m *jsiiProxy_MqBrokerInstancesList) validateGetParameters(index *float64) 
 	return nil
 }
 
-func (m *jsiiProxy_MqBrokerInstancesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MqBrokerInstancesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_MqBrokerInstancesList) validateSetTerraformAttributeParameter
 	return nil
 }
 
-func (j *jsiiProxy_MqBrokerInstancesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MqBrokerInstancesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_MqBrokerInstancesList) validateSetWrapsSetParameters(val *boo
 	return nil
 }
 
-func validateNewMqBrokerInstancesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMqBrokerInstancesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

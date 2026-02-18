@@ -5,14 +5,14 @@ package dataawslaunchtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawslaunchtemplate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawslaunchtemplate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsLaunchTemplateInstanceRequirementsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AcceleratorCount() DataAwsLaunchTemplateInstanceRequirementsAcceleratorCountList
 	AcceleratorManufacturers() *[]*string
 	AcceleratorNames() *[]*string
@@ -52,16 +52,16 @@ type DataAwsLaunchTemplateInstanceRequirementsOutputReference interface {
 	NetworkBandwidthGbps() DataAwsLaunchTemplateInstanceRequirementsNetworkBandwidthGbpsList
 	NetworkInterfaceCount() DataAwsLaunchTemplateInstanceRequirementsNetworkInterfaceCountList
 	OnDemandMaxPricePercentageOverLowestPrice() *float64
-	RequireHibernateSupport() cdktf.IResolvable
+	RequireHibernateSupport() cdktn.IResolvable
 	SpotMaxPricePercentageOverLowestPrice() *float64
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TotalLocalStorageGb() DataAwsLaunchTemplateInstanceRequirementsTotalLocalStorageGbList
 	VcpuCount() DataAwsLaunchTemplateInstanceRequirementsVcpuCountList
 	// Experimental.
@@ -69,7 +69,7 @@ type DataAwsLaunchTemplateInstanceRequirementsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -85,12 +85,12 @@ type DataAwsLaunchTemplateInstanceRequirementsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -100,7 +100,7 @@ type DataAwsLaunchTemplateInstanceRequirementsOutputReference interface {
 
 // The jsii proxy struct for DataAwsLaunchTemplateInstanceRequirementsOutputReference
 type jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference) AcceleratorCount() DataAwsLaunchTemplateInstanceRequirementsAcceleratorCountList {
@@ -353,8 +353,8 @@ func (j *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference) OnD
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference) RequireHibernateSupport() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference) RequireHibernateSupport() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"requireHibernateSupport",
@@ -383,8 +383,8 @@ func (j *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -414,7 +414,7 @@ func (j *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference) Vcp
 }
 
 
-func NewDataAwsLaunchTemplateInstanceRequirementsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsLaunchTemplateInstanceRequirementsOutputReference {
+func NewDataAwsLaunchTemplateInstanceRequirementsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsLaunchTemplateInstanceRequirementsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsLaunchTemplateInstanceRequirementsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -431,7 +431,7 @@ func NewDataAwsLaunchTemplateInstanceRequirementsOutputReference(terraformResour
 	return &j
 }
 
-func NewDataAwsLaunchTemplateInstanceRequirementsOutputReference_Override(d DataAwsLaunchTemplateInstanceRequirementsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsLaunchTemplateInstanceRequirementsOutputReference_Override(d DataAwsLaunchTemplateInstanceRequirementsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -485,7 +485,7 @@ func (j *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -525,11 +525,11 @@ func (d *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference) Get
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -653,8 +653,8 @@ func (d *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference) Get
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -666,11 +666,11 @@ func (d *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference) Int
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -682,7 +682,7 @@ func (d *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference) Int
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsLaunchTemplateInstanceRequirementsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

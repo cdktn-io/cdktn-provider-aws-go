@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudfrontTrustStoreTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontTrustStoreTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontTrustStoreTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_CloudfrontTrustStoreTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontTrustStoreTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontTrustStoreTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_CloudfrontTrustStoreTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewCloudfrontTrustStoreTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudfrontTrustStoreTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

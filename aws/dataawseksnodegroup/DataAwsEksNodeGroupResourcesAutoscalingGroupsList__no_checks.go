@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEksNodeGroupResourcesAutoscalingGroupsList) validateGe
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEksNodeGroupResourcesAutoscalingGroupsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEksNodeGroupResourcesAutoscalingGroupsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsEksNodeGroupResourcesAutoscalingGroupsList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEksNodeGroupResourcesAutoscalingGroupsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEksNodeGroupResourcesAutoscalingGroupsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsEksNodeGroupResourcesAutoscalingGroupsList) validateSe
 	return nil
 }
 
-func validateNewDataAwsEksNodeGroupResourcesAutoscalingGroupsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEksNodeGroupResourcesAutoscalingGroupsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

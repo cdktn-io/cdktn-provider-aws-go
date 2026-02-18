@@ -115,7 +115,7 @@ func (j *jsiiProxy_OamLink) validateSetLabelTemplateParameters(val *string) erro
 	return nil
 }
 
-func (j *jsiiProxy_OamLink) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_OamLink) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

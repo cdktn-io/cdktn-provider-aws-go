@@ -51,7 +51,7 @@ func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputR
 	return nil
 }
 
-func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputR
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

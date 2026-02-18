@@ -5,14 +5,14 @@ package customerprofilesdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/customerprofilesdomain/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/customerprofilesdomain/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CustomerprofilesDomainMatchingExportingConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type CustomerprofilesDomainMatchingExportingConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,14 +63,14 @@ type CustomerprofilesDomainMatchingExportingConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutS3Exporting(value *CustomerprofilesDomainMatchingExportingConfigS3Exporting)
 	ResetS3Exporting()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type CustomerprofilesDomainMatchingExportingConfigOutputReference interface {
 
 // The jsii proxy struct for CustomerprofilesDomainMatchingExportingConfigOutputReference
 type jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference)
 	return returns
 }
 
-func (j *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference)
 }
 
 
-func NewCustomerprofilesDomainMatchingExportingConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CustomerprofilesDomainMatchingExportingConfigOutputReference {
+func NewCustomerprofilesDomainMatchingExportingConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CustomerprofilesDomainMatchingExportingConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCustomerprofilesDomainMatchingExportingConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewCustomerprofilesDomainMatchingExportingConfigOutputReference(terraformRe
 	return &j
 }
 
-func NewCustomerprofilesDomainMatchingExportingConfigOutputReference_Override(c CustomerprofilesDomainMatchingExportingConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCustomerprofilesDomainMatchingExportingConfigOutputReference_Override(c CustomerprofilesDomainMatchingExportingConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference)
 	)
 }
 
-func (j *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -285,11 +285,11 @@ func (c *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference)
 	return returns
 }
 
-func (c *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -413,8 +413,8 @@ func (c *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference)
 	return returns
 }
 
-func (c *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -426,11 +426,11 @@ func (c *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference)
 	return returns
 }
 
-func (c *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -461,7 +461,7 @@ func (c *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference)
 	)
 }
 
-func (c *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

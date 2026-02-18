@@ -15,7 +15,7 @@ func (e *jsiiProxy_EksAddonPodIdentityAssociationList) validateGetParameters(ind
 	return nil
 }
 
-func (e *jsiiProxy_EksAddonPodIdentityAssociationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksAddonPodIdentityAssociationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EksAddonPodIdentityAssociationList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_EksAddonPodIdentityAssociationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksAddonPodIdentityAssociationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EksAddonPodIdentityAssociationList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewEksAddonPodIdentityAssociationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEksAddonPodIdentityAssociationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (e *jsiiProxy_EcsTaskDefinitionRuntimePlatformOutputReference) validateInte
 	return nil
 }
 
-func (e *jsiiProxy_EcsTaskDefinitionRuntimePlatformOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsTaskDefinitionRuntimePlatformOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EcsTaskDefinitionRuntimePlatformOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_EcsTaskDefinitionRuntimePlatformOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsTaskDefinitionRuntimePlatformOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEcsTaskDefinitionRuntimePlatformOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEcsTaskDefinitionRuntimePlatformOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

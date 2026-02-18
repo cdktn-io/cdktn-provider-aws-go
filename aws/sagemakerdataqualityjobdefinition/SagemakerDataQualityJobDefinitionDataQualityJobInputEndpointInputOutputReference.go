@@ -5,14 +5,14 @@ package sagemakerdataqualityjobdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/sagemakerdataqualityjobdefinition/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/sagemakerdataqualityjobdefinition/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,15 +49,15 @@ type SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputRefe
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,15 +73,15 @@ type SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputRefe
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetLocalPath()
 	ResetS3DataDistributionType()
 	ResetS3InputMode()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputRefe
 
 // The jsii proxy struct for SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference
 type jsiiProxy_SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference) ComplexObjectIndex() interface{} {
@@ -234,8 +234,8 @@ func (j *jsiiProxy_SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointI
 	return returns
 }
 
-func (j *jsiiProxy_SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -245,7 +245,7 @@ func (j *jsiiProxy_SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointI
 }
 
 
-func NewSagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference {
+func NewSagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -262,7 +262,7 @@ func NewSagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputR
 	return &j
 }
 
-func NewSagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference_Override(s SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference_Override(s SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -360,7 +360,7 @@ func (j *jsiiProxy_SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointI
 	)
 }
 
-func (j *jsiiProxy_SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -400,11 +400,11 @@ func (s *jsiiProxy_SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointI
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -528,8 +528,8 @@ func (s *jsiiProxy_SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointI
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -541,11 +541,11 @@ func (s *jsiiProxy_SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointI
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -581,7 +581,7 @@ func (s *jsiiProxy_SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointI
 	)
 }
 
-func (s *jsiiProxy_SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SagemakerDataQualityJobDefinitionDataQualityJobInputEndpointInputOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

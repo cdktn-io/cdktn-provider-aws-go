@@ -47,7 +47,7 @@ func (i *jsiiProxy_IamRoleInlinePolicyOutputReference) validateInterpolationForA
 	return nil
 }
 
-func (i *jsiiProxy_IamRoleInlinePolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IamRoleInlinePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_IamRoleInlinePolicyOutputReference) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_IamRoleInlinePolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IamRoleInlinePolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIamRoleInlinePolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIamRoleInlinePolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

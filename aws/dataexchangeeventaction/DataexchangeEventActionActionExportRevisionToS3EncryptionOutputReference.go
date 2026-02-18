@@ -5,14 +5,14 @@ package dataexchangeeventaction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataexchangeeventaction/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataexchangeeventaction/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference in
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -51,7 +51,7 @@ type DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference in
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference in
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetKmsKeyArn()
 	ResetType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference in
 
 // The jsii proxy struct for DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference
 type jsiiProxy_DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference) ComplexObjectIndex() interface{} {
@@ -167,8 +167,8 @@ func (j *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3EncryptionOutp
 	return returns
 }
 
-func (j *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3EncryptionOutp
 }
 
 
-func NewDataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference {
+func NewDataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataexchangeEventActionActionExportRevisionToS3EncryptionOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -215,7 +215,7 @@ func NewDataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference
 	return &j
 }
 
-func NewDataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference_Override(d DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference_Override(d DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3EncryptionOutp
 	)
 }
 
-func (j *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (d *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3EncryptionOutp
 	return returns
 }
 
-func (d *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -459,8 +459,8 @@ func (d *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3EncryptionOutp
 	return returns
 }
 
-func (d *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -472,11 +472,11 @@ func (d *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3EncryptionOutp
 	return returns
 }
 
-func (d *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -504,7 +504,7 @@ func (d *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3EncryptionOutp
 	)
 }
 
-func (d *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

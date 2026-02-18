@@ -51,7 +51,7 @@ func (f *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointOutputReference) valid
 	return nil
 }
 
-func (f *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFsxS3AccessPointAttachmentS3AccessPointOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFsxS3AccessPointAttachmentS3AccessPointOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

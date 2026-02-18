@@ -99,7 +99,7 @@ func (j *jsiiProxy_Wafv2ApiKey) validateSetCountParameters(val interface{}) erro
 	return nil
 }
 
-func (j *jsiiProxy_Wafv2ApiKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Wafv2ApiKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (c *jsiiProxy_CodedeployDeploymentGroupEc2TagSetOutputReference) validatePu
 	return nil
 }
 
-func (c *jsiiProxy_CodedeployDeploymentGroupEc2TagSetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodedeployDeploymentGroupEc2TagSetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CodedeployDeploymentGroupEc2TagSetOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_CodedeployDeploymentGroupEc2TagSetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodedeployDeploymentGroupEc2TagSetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCodedeployDeploymentGroupEc2TagSetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCodedeployDeploymentGroupEc2TagSetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

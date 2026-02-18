@@ -131,7 +131,7 @@ func (j *jsiiProxy_CloudwatchCompositeAlarm) validateSetInsufficientDataActionsP
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchCompositeAlarm) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudwatchCompositeAlarm) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

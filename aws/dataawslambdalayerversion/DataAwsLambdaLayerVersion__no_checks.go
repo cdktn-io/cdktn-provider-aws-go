@@ -91,7 +91,7 @@ func (j *jsiiProxy_DataAwsLambdaLayerVersion) validateSetLayerNameParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLambdaLayerVersion) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsLambdaLayerVersion) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

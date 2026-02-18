@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEbsDefaultKmsKeyTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEbsDefaultKmsKeyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEbsDefaultKmsKeyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAwsEbsDefaultKmsKeyTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEbsDefaultKmsKeyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEbsDefaultKmsKeyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsEbsDefaultKmsKeyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAwsEbsDefaultKmsKeyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

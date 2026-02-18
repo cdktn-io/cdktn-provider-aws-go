@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppautoscalingPolicyStepScalingPolicyConfigurationStepAdjustm
 	return nil
 }
 
-func (a *jsiiProxy_AppautoscalingPolicyStepScalingPolicyConfigurationStepAdjustmentOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppautoscalingPolicyStepScalingPolicyConfigurationStepAdjustmentOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_AppautoscalingPolicyStepScalingPolicyConfigurationStepAdjustm
 	return nil
 }
 
-func (j *jsiiProxy_AppautoscalingPolicyStepScalingPolicyConfigurationStepAdjustmentOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppautoscalingPolicyStepScalingPolicyConfigurationStepAdjustmentOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppautoscalingPolicyStepScalingPolicyConfigurationStepAdjustmentOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppautoscalingPolicyStepScalingPolicyConfigurationStepAdjustmentOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

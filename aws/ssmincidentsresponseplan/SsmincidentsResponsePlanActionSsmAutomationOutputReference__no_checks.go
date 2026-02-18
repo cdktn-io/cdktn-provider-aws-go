@@ -51,7 +51,7 @@ func (s *jsiiProxy_SsmincidentsResponsePlanActionSsmAutomationOutputReference) v
 	return nil
 }
 
-func (s *jsiiProxy_SsmincidentsResponsePlanActionSsmAutomationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsmincidentsResponsePlanActionSsmAutomationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_SsmincidentsResponsePlanActionSsmAutomationOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_SsmincidentsResponsePlanActionSsmAutomationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsmincidentsResponsePlanActionSsmAutomationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSsmincidentsResponsePlanActionSsmAutomationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSsmincidentsResponsePlanActionSsmAutomationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -119,7 +119,7 @@ func (j *jsiiProxy_CloudsearchDomain) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_CloudsearchDomain) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudsearchDomain) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

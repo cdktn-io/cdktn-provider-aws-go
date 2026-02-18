@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudfrontAnycastIpListTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontAnycastIpListTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontAnycastIpListTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CloudfrontAnycastIpListTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontAnycastIpListTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontAnycastIpListTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudfrontAnycastIpListTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudfrontAnycastIpListTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_CustomerprofilesDomainRuleBasedMatchingExportingConfigS3Expor
 	return nil
 }
 
-func (c *jsiiProxy_CustomerprofilesDomainRuleBasedMatchingExportingConfigS3ExportingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CustomerprofilesDomainRuleBasedMatchingExportingConfigS3ExportingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CustomerprofilesDomainRuleBasedMatchingExportingConfigS3Expor
 	return nil
 }
 
-func (j *jsiiProxy_CustomerprofilesDomainRuleBasedMatchingExportingConfigS3ExportingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CustomerprofilesDomainRuleBasedMatchingExportingConfigS3ExportingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCustomerprofilesDomainRuleBasedMatchingExportingConfigS3ExportingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCustomerprofilesDomainRuleBasedMatchingExportingConfigS3ExportingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

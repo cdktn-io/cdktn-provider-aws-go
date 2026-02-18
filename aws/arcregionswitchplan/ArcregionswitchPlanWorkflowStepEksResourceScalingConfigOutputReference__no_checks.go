@@ -63,7 +63,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepEksResourceScalingConfigOutput
 	return nil
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepEksResourceScalingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepEksResourceScalingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepEksResourceScalingConfigOutput
 	return nil
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepEksResourceScalingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepEksResourceScalingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepEksResourceScalingConfigOutput
 	return nil
 }
 
-func validateNewArcregionswitchPlanWorkflowStepEksResourceScalingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewArcregionswitchPlanWorkflowStepEksResourceScalingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (e *jsiiProxy_EcsServiceVpcLatticeConfigurationsOutputReference) validateIn
 	return nil
 }
 
-func (e *jsiiProxy_EcsServiceVpcLatticeConfigurationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsServiceVpcLatticeConfigurationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_EcsServiceVpcLatticeConfigurationsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_EcsServiceVpcLatticeConfigurationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsServiceVpcLatticeConfigurationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEcsServiceVpcLatticeConfigurationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEcsServiceVpcLatticeConfigurationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

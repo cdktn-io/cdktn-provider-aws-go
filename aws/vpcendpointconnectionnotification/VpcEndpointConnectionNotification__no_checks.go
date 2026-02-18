@@ -111,7 +111,7 @@ func (j *jsiiProxy_VpcEndpointConnectionNotification) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_VpcEndpointConnectionNotification) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VpcEndpointConnectionNotification) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

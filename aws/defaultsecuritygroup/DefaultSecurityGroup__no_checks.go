@@ -111,7 +111,7 @@ func (j *jsiiProxy_DefaultSecurityGroup) validateSetIdParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_DefaultSecurityGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DefaultSecurityGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

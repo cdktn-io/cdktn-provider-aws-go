@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsMskKafkaVersion) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsMskKafkaVersion) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsMskKafkaVersion) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -111,7 +111,7 @@ func (j *jsiiProxy_CognitoIdentityPoolRolesAttachment) validateSetIdentityPoolId
 	return nil
 }
 
-func (j *jsiiProxy_CognitoIdentityPoolRolesAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CognitoIdentityPoolRolesAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

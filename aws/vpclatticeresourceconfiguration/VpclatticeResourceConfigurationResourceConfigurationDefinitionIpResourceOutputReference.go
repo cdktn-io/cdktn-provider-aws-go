@@ -5,14 +5,14 @@ package vpclatticeresourceconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/vpclatticeresourceconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/vpclatticeresourceconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOut
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOut
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOut
 
 // The jsii proxy struct for VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference
 type jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitio
 	return returns
 }
 
-func (j *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitio
 }
 
 
-func NewVpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference {
+func NewVpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -190,7 +190,7 @@ func NewVpclatticeResourceConfigurationResourceConfigurationDefinitionIpResource
 	return &j
 }
 
-func NewVpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference_Override(v VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewVpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference_Override(v VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitio
 	)
 }
 
-func (j *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitio
 	return returns
 }
 
-func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -423,8 +423,8 @@ func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitio
 	return returns
 }
 
-func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -436,11 +436,11 @@ func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitio
 	return returns
 }
 
-func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -452,7 +452,7 @@ func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitio
 	return returns
 }
 
-func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

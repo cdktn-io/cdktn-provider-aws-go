@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsIamRoleRoleLastUsedList) validateGetParameters(index *
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsIamRoleRoleLastUsedList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsIamRoleRoleLastUsedList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsIamRoleRoleLastUsedList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsIamRoleRoleLastUsedList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsIamRoleRoleLastUsedList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsIamRoleRoleLastUsedList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewDataAwsIamRoleRoleLastUsedListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsIamRoleRoleLastUsedListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_S3AccessPointVpcConfigurationOutputReference) validateInterpo
 	return nil
 }
 
-func (s *jsiiProxy_S3AccessPointVpcConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3AccessPointVpcConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_S3AccessPointVpcConfigurationOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_S3AccessPointVpcConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3AccessPointVpcConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_S3AccessPointVpcConfigurationOutputReference) validateSetVpcI
 	return nil
 }
 
-func validateNewS3AccessPointVpcConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewS3AccessPointVpcConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

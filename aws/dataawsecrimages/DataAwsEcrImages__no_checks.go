@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsEcrImages) validateSetCountParameters(val interface{})
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEcrImages) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsEcrImages) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

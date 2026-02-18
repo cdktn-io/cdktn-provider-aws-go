@@ -123,7 +123,7 @@ func (j *jsiiProxy_AcmpcaCertificateAuthority) validateSetKeyStorageSecurityStan
 	return nil
 }
 
-func (j *jsiiProxy_AcmpcaCertificateAuthority) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AcmpcaCertificateAuthority) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

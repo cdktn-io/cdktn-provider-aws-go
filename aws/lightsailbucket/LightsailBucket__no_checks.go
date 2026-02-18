@@ -111,7 +111,7 @@ func (j *jsiiProxy_LightsailBucket) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_LightsailBucket) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LightsailBucket) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

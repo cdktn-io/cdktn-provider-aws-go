@@ -15,7 +15,7 @@ func (o *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowList) validateGet
 	return nil
 }
 
-func (o *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowList) validateSet
 	return nil
 }
 
-func validateNewOdbCloudAutonomousVmClusterMaintenanceWindowListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOdbCloudAutonomousVmClusterMaintenanceWindowListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

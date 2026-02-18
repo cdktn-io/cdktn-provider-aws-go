@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsDynamodbTableTtlList) validateGetParameters(index *flo
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsDynamodbTableTtlList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsDynamodbTableTtlList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsDynamodbTableTtlList) validateSetTerraformAttributePar
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDynamodbTableTtlList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsDynamodbTableTtlList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsDynamodbTableTtlList) validateSetWrapsSetParameters(va
 	return nil
 }
 
-func validateNewDataAwsDynamodbTableTtlListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsDynamodbTableTtlListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

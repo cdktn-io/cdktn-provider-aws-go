@@ -107,7 +107,7 @@ func (j *jsiiProxy_AppmeshGatewayRoute) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshGatewayRoute) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppmeshGatewayRoute) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsVpcPeeringConnectionFilterList) validateGetParameters(
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsVpcPeeringConnectionFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsVpcPeeringConnectionFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsVpcPeeringConnectionFilterList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVpcPeeringConnectionFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsVpcPeeringConnectionFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsVpcPeeringConnectionFilterList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewDataAwsVpcPeeringConnectionFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsVpcPeeringConnectionFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

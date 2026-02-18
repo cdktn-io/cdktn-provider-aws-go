@@ -47,7 +47,7 @@ func (o *jsiiProxy_OpensearchOutboundConnectionConnectionPropertiesCrossClusterS
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchOutboundConnectionConnectionPropertiesCrossClusterSearchOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchOutboundConnectionConnectionPropertiesCrossClusterSearchOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_OpensearchOutboundConnectionConnectionPropertiesCrossClusterS
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchOutboundConnectionConnectionPropertiesCrossClusterSearchOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchOutboundConnectionConnectionPropertiesCrossClusterSearchOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOpensearchOutboundConnectionConnectionPropertiesCrossClusterSearchOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOpensearchOutboundConnectionConnectionPropertiesCrossClusterSearchOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

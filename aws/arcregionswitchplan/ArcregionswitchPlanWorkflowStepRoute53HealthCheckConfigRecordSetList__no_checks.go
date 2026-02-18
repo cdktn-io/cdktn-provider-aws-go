@@ -15,7 +15,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepRoute53HealthCheckConfigRecord
 	return nil
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepRoute53HealthCheckConfigRecordSetList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepRoute53HealthCheckConfigRecordSetList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepRoute53HealthCheckConfigRecord
 	return nil
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepRoute53HealthCheckConfigRecordSetList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepRoute53HealthCheckConfigRecordSetList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepRoute53HealthCheckConfigRecord
 	return nil
 }
 
-func validateNewArcregionswitchPlanWorkflowStepRoute53HealthCheckConfigRecordSetListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewArcregionswitchPlanWorkflowStepRoute53HealthCheckConfigRecordSetListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

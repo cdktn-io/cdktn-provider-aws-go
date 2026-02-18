@@ -47,7 +47,7 @@ func (o *jsiiProxy_OdbNetworkManagedServicesS3AccessOutputReference) validateInt
 	return nil
 }
 
-func (o *jsiiProxy_OdbNetworkManagedServicesS3AccessOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OdbNetworkManagedServicesS3AccessOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_OdbNetworkManagedServicesS3AccessOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_OdbNetworkManagedServicesS3AccessOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OdbNetworkManagedServicesS3AccessOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOdbNetworkManagedServicesS3AccessOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOdbNetworkManagedServicesS3AccessOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

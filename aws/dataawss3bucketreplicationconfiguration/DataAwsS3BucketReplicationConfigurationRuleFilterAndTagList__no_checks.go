@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagList) 
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagList) 
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagList) 
 	return nil
 }
 
-func validateNewDataAwsS3BucketReplicationConfigurationRuleFilterAndTagListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsS3BucketReplicationConfigurationRuleFilterAndTagListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

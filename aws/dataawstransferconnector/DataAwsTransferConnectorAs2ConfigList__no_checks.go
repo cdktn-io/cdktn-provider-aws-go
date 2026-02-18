@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsTransferConnectorAs2ConfigList) validateGetParameters(
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsTransferConnectorAs2ConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsTransferConnectorAs2ConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsTransferConnectorAs2ConfigList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsTransferConnectorAs2ConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsTransferConnectorAs2ConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsTransferConnectorAs2ConfigList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewDataAwsTransferConnectorAs2ConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsTransferConnectorAs2ConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

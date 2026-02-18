@@ -107,7 +107,7 @@ func (j *jsiiProxy_SesReceiptFilter) validateSetIdParameters(val *string) error 
 	return nil
 }
 
-func (j *jsiiProxy_SesReceiptFilter) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SesReceiptFilter) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

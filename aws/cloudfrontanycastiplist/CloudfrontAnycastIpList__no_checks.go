@@ -107,7 +107,7 @@ func (j *jsiiProxy_CloudfrontAnycastIpList) validateSetIpCountParameters(val *fl
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontAnycastIpList) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudfrontAnycastIpList) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package sagemakeruserprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/sagemakeruserprofile/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/sagemakeruserprofile/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AppLifecycleManagement() SagemakerUserProfileUserSettingsJupyterLabAppSettingsAppLifecycleManagementOutputReference
 	AppLifecycleManagementInput() *SagemakerUserProfileUserSettingsJupyterLabAppSettingsAppLifecycleManagement
 	BuiltInLifecycleConfigArn() *string
@@ -53,15 +53,15 @@ type SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference interf
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -77,9 +77,9 @@ type SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference interf
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAppLifecycleManagement(value *SagemakerUserProfileUserSettingsJupyterLabAppSettingsAppLifecycleManagement)
 	PutCodeRepository(value interface{})
 	PutCustomImage(value interface{})
@@ -94,7 +94,7 @@ type SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference interf
 	ResetLifecycleConfigArns()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -104,7 +104,7 @@ type SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference interf
 
 // The jsii proxy struct for SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference
 type jsiiProxy_SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference) AppLifecycleManagement() SagemakerUserProfileUserSettingsJupyterLabAppSettingsAppLifecycleManagementOutputReference {
@@ -307,8 +307,8 @@ func (j *jsiiProxy_SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputRe
 	return returns
 }
 
-func (j *jsiiProxy_SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -318,7 +318,7 @@ func (j *jsiiProxy_SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputRe
 }
 
 
-func NewSagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference {
+func NewSagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -335,7 +335,7 @@ func NewSagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference(ter
 	return &j
 }
 
-func NewSagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference_Override(s SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference_Override(s SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -411,7 +411,7 @@ func (j *jsiiProxy_SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputRe
 	)
 }
 
-func (j *jsiiProxy_SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -451,11 +451,11 @@ func (s *jsiiProxy_SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputRe
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -579,8 +579,8 @@ func (s *jsiiProxy_SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputRe
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -592,11 +592,11 @@ func (s *jsiiProxy_SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputRe
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -719,7 +719,7 @@ func (s *jsiiProxy_SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputRe
 	)
 }
 
-func (s *jsiiProxy_SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

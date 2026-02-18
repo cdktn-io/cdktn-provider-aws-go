@@ -91,7 +91,7 @@ func (j *jsiiProxy_DataAwsVpcIpamPoolCidrs) validateSetIpamPoolIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVpcIpamPoolCidrs) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsVpcIpamPoolCidrs) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

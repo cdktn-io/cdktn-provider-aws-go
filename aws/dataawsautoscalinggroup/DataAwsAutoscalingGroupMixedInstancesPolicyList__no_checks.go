@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsAutoscalingGroupMixedInstancesPolicyList) validateGetP
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAutoscalingGroupMixedInstancesPolicyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAutoscalingGroupMixedInstancesPolicyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsAutoscalingGroupMixedInstancesPolicyList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAutoscalingGroupMixedInstancesPolicyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAutoscalingGroupMixedInstancesPolicyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsAutoscalingGroupMixedInstancesPolicyList) validateSetW
 	return nil
 }
 
-func validateNewDataAwsAutoscalingGroupMixedInstancesPolicyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsAutoscalingGroupMixedInstancesPolicyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

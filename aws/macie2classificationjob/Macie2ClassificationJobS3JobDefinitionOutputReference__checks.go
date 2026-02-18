@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_Macie2ClassificationJobS3JobDefinitionOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -109,7 +109,7 @@ func (m *jsiiProxy_Macie2ClassificationJobS3JobDefinitionOutputReference) valida
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Macie2ClassificationJobS3JobDefinitionBucketDefinitions:
 		value := value.(*[]*Macie2ClassificationJobS3JobDefinitionBucketDefinitions)
@@ -128,7 +128,7 @@ func (m *jsiiProxy_Macie2ClassificationJobS3JobDefinitionOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Macie2ClassificationJobS3JobDefinitionBucketDefinitions; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Macie2ClassificationJobS3JobDefinitionBucketDefinitions; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -146,7 +146,7 @@ func (m *jsiiProxy_Macie2ClassificationJobS3JobDefinitionOutputReference) valida
 	return nil
 }
 
-func (m *jsiiProxy_Macie2ClassificationJobS3JobDefinitionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_Macie2ClassificationJobS3JobDefinitionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -235,7 +235,7 @@ func (j *jsiiProxy_Macie2ClassificationJobS3JobDefinitionOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_Macie2ClassificationJobS3JobDefinitionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Macie2ClassificationJobS3JobDefinitionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -243,7 +243,7 @@ func (j *jsiiProxy_Macie2ClassificationJobS3JobDefinitionOutputReference) valida
 	return nil
 }
 
-func validateNewMacie2ClassificationJobS3JobDefinitionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMacie2ClassificationJobS3JobDefinitionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

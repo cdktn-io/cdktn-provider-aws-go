@@ -131,7 +131,7 @@ func (j *jsiiProxy_AppconfigDeployment) validateSetKmsKeyIdentifierParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_AppconfigDeployment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppconfigDeployment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

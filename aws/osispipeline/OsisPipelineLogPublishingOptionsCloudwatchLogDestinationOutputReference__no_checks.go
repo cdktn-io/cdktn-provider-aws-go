@@ -47,7 +47,7 @@ func (o *jsiiProxy_OsisPipelineLogPublishingOptionsCloudwatchLogDestinationOutpu
 	return nil
 }
 
-func (o *jsiiProxy_OsisPipelineLogPublishingOptionsCloudwatchLogDestinationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OsisPipelineLogPublishingOptionsCloudwatchLogDestinationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_OsisPipelineLogPublishingOptionsCloudwatchLogDestinationOutpu
 	return nil
 }
 
-func (j *jsiiProxy_OsisPipelineLogPublishingOptionsCloudwatchLogDestinationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OsisPipelineLogPublishingOptionsCloudwatchLogDestinationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOsisPipelineLogPublishingOptionsCloudwatchLogDestinationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOsisPipelineLogPublishingOptionsCloudwatchLogDestinationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (e *jsiiProxy_EcrRegistryScanningConfigurationRuleOutputReference) validate
 	return nil
 }
 
-func (e *jsiiProxy_EcrRegistryScanningConfigurationRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcrRegistryScanningConfigurationRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EcrRegistryScanningConfigurationRuleOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_EcrRegistryScanningConfigurationRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcrRegistryScanningConfigurationRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEcrRegistryScanningConfigurationRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEcrRegistryScanningConfigurationRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

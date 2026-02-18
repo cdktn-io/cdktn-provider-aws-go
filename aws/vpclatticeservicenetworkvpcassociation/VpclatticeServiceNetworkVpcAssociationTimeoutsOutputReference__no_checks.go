@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpclatticeServiceNetworkVpcAssociationTimeoutsOutputReference
 	return nil
 }
 
-func (v *jsiiProxy_VpclatticeServiceNetworkVpcAssociationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpclatticeServiceNetworkVpcAssociationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_VpclatticeServiceNetworkVpcAssociationTimeoutsOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_VpclatticeServiceNetworkVpcAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpclatticeServiceNetworkVpcAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_VpclatticeServiceNetworkVpcAssociationTimeoutsOutputReference
 	return nil
 }
 
-func validateNewVpclatticeServiceNetworkVpcAssociationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpclatticeServiceNetworkVpcAssociationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

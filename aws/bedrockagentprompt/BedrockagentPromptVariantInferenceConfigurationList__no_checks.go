@@ -15,7 +15,7 @@ func (b *jsiiProxy_BedrockagentPromptVariantInferenceConfigurationList) validate
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentPromptVariantInferenceConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentPromptVariantInferenceConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BedrockagentPromptVariantInferenceConfigurationList) validate
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentPromptVariantInferenceConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentPromptVariantInferenceConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BedrockagentPromptVariantInferenceConfigurationList) validate
 	return nil
 }
 
-func validateNewBedrockagentPromptVariantInferenceConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockagentPromptVariantInferenceConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

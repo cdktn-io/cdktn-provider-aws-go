@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsCloudfrontRealtimeLogConfigEndpointKinesisStreamConfig
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCloudfrontRealtimeLogConfigEndpointKinesisStreamConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCloudfrontRealtimeLogConfigEndpointKinesisStreamConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsCloudfrontRealtimeLogConfigEndpointKinesisStreamConfig
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCloudfrontRealtimeLogConfigEndpointKinesisStreamConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCloudfrontRealtimeLogConfigEndpointKinesisStreamConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsCloudfrontRealtimeLogConfigEndpointKinesisStreamConfig
 	return nil
 }
 
-func validateNewDataAwsCloudfrontRealtimeLogConfigEndpointKinesisStreamConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsCloudfrontRealtimeLogConfigEndpointKinesisStreamConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

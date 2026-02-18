@@ -123,7 +123,7 @@ func (j *jsiiProxy_QuicksightTemplate) validateSetIdParameters(val *string) erro
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_QuicksightTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

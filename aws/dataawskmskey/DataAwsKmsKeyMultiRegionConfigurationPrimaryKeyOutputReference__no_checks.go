@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsKmsKeyMultiRegionConfigurationPrimaryKeyOutputReferenc
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsKmsKeyMultiRegionConfigurationPrimaryKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsKmsKeyMultiRegionConfigurationPrimaryKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsKmsKeyMultiRegionConfigurationPrimaryKeyOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsKmsKeyMultiRegionConfigurationPrimaryKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsKmsKeyMultiRegionConfigurationPrimaryKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsKmsKeyMultiRegionConfigurationPrimaryKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsKmsKeyMultiRegionConfigurationPrimaryKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

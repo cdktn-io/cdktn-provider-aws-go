@@ -5,22 +5,22 @@ package quicksightdataset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/quicksightdataset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/quicksightdataset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/quicksight_data_set aws_quicksight_data_set}.
 type QuicksightDataSet interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	AwsAccountId() *string
 	SetAwsAccountId(val *string)
 	AwsAccountIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ColumnGroups() QuicksightDataSetColumnGroupsList
 	ColumnGroupsInput() interface{}
 	ColumnLevelPermissionRules() QuicksightDataSetColumnLevelPermissionRulesList
@@ -47,9 +47,9 @@ type QuicksightDataSet interface {
 	FieldFolders() QuicksightDataSetFieldFoldersList
 	FieldFoldersInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -61,9 +61,9 @@ type QuicksightDataSet interface {
 	SetImportMode(val *string)
 	ImportModeInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LogicalTableMap() QuicksightDataSetLogicalTableMapList
 	LogicalTableMapInput() interface{}
 	Name() *string
@@ -77,9 +77,9 @@ type QuicksightDataSet interface {
 	PhysicalTableMap() QuicksightDataSetPhysicalTableMapList
 	PhysicalTableMapInput() interface{}
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -102,7 +102,7 @@ type QuicksightDataSet interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -118,7 +118,7 @@ type QuicksightDataSet interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -136,9 +136,9 @@ type QuicksightDataSet interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -197,7 +197,7 @@ type QuicksightDataSet interface {
 
 // The jsii proxy struct for QuicksightDataSet
 type jsiiProxy_QuicksightDataSet struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_QuicksightDataSet) Arn() *string {
@@ -230,8 +230,8 @@ func (j *jsiiProxy_QuicksightDataSet) AwsAccountIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_QuicksightDataSet) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_QuicksightDataSet) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -380,8 +380,8 @@ func (j *jsiiProxy_QuicksightDataSet) FieldFoldersInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_QuicksightDataSet) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_QuicksightDataSet) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -450,8 +450,8 @@ func (j *jsiiProxy_QuicksightDataSet) ImportModeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_QuicksightDataSet) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_QuicksightDataSet) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -560,8 +560,8 @@ func (j *jsiiProxy_QuicksightDataSet) PhysicalTableMapInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_QuicksightDataSet) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_QuicksightDataSet) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -710,8 +710,8 @@ func (j *jsiiProxy_QuicksightDataSet) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_QuicksightDataSet) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_QuicksightDataSet) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -842,7 +842,7 @@ func (j *jsiiProxy_QuicksightDataSet)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_QuicksightDataSet)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_QuicksightDataSet)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -872,7 +872,7 @@ func (j *jsiiProxy_QuicksightDataSet)SetImportMode(val *string) {
 	)
 }
 
-func (j *jsiiProxy_QuicksightDataSet)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_QuicksightDataSet)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -894,7 +894,7 @@ func (j *jsiiProxy_QuicksightDataSet)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_QuicksightDataSet)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_QuicksightDataSet)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -957,14 +957,14 @@ func (j *jsiiProxy_QuicksightDataSet)SetUseAs(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a QuicksightDataSet resource upon running "cdktf plan <stack-name>".
-func QuicksightDataSet_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a QuicksightDataSet resource upon running "cdktn plan <stack-name>".
+func QuicksightDataSet_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateQuicksightDataSet_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSet",
@@ -1098,11 +1098,11 @@ func (q *jsiiProxy_QuicksightDataSet) GetAnyMapAttribute(terraformAttribute *str
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightDataSet) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (q *jsiiProxy_QuicksightDataSet) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := q.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -1239,7 +1239,7 @@ func (q *jsiiProxy_QuicksightDataSet) HasResourceMove() interface{} {
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightDataSet) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (q *jsiiProxy_QuicksightDataSet) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := q.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1250,11 +1250,11 @@ func (q *jsiiProxy_QuicksightDataSet) ImportFrom(id *string, provider cdktf.Terr
 	)
 }
 
-func (q *jsiiProxy_QuicksightDataSet) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (q *jsiiProxy_QuicksightDataSet) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := q.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,

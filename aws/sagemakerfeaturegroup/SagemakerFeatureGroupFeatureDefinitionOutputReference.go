@@ -5,14 +5,14 @@ package sagemakerfeaturegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/sagemakerfeaturegroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/sagemakerfeaturegroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SagemakerFeatureGroupFeatureDefinitionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CollectionConfig() SagemakerFeatureGroupFeatureDefinitionCollectionConfigOutputReference
 	CollectionConfigInput() *SagemakerFeatureGroupFeatureDefinitionCollectionConfig
 	CollectionType() *string
@@ -48,15 +48,15 @@ type SagemakerFeatureGroupFeatureDefinitionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,9 +72,9 @@ type SagemakerFeatureGroupFeatureDefinitionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCollectionConfig(value *SagemakerFeatureGroupFeatureDefinitionCollectionConfig)
 	ResetCollectionConfig()
 	ResetCollectionType()
@@ -82,7 +82,7 @@ type SagemakerFeatureGroupFeatureDefinitionOutputReference interface {
 	ResetFeatureType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type SagemakerFeatureGroupFeatureDefinitionOutputReference interface {
 
 // The jsii proxy struct for SagemakerFeatureGroupFeatureDefinitionOutputReference
 type jsiiProxy_SagemakerFeatureGroupFeatureDefinitionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SagemakerFeatureGroupFeatureDefinitionOutputReference) CollectionConfig() SagemakerFeatureGroupFeatureDefinitionCollectionConfigOutputReference {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_SagemakerFeatureGroupFeatureDefinitionOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_SagemakerFeatureGroupFeatureDefinitionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SagemakerFeatureGroupFeatureDefinitionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_SagemakerFeatureGroupFeatureDefinitionOutputReference) Terraf
 }
 
 
-func NewSagemakerFeatureGroupFeatureDefinitionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SagemakerFeatureGroupFeatureDefinitionOutputReference {
+func NewSagemakerFeatureGroupFeatureDefinitionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SagemakerFeatureGroupFeatureDefinitionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSagemakerFeatureGroupFeatureDefinitionOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -263,7 +263,7 @@ func NewSagemakerFeatureGroupFeatureDefinitionOutputReference(terraformResource 
 	return &j
 }
 
-func NewSagemakerFeatureGroupFeatureDefinitionOutputReference_Override(s SagemakerFeatureGroupFeatureDefinitionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSagemakerFeatureGroupFeatureDefinitionOutputReference_Override(s SagemakerFeatureGroupFeatureDefinitionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_SagemakerFeatureGroupFeatureDefinitionOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_SagemakerFeatureGroupFeatureDefinitionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SagemakerFeatureGroupFeatureDefinitionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -390,11 +390,11 @@ func (s *jsiiProxy_SagemakerFeatureGroupFeatureDefinitionOutputReference) GetAny
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerFeatureGroupFeatureDefinitionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerFeatureGroupFeatureDefinitionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -518,8 +518,8 @@ func (s *jsiiProxy_SagemakerFeatureGroupFeatureDefinitionOutputReference) GetStr
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerFeatureGroupFeatureDefinitionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SagemakerFeatureGroupFeatureDefinitionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -531,11 +531,11 @@ func (s *jsiiProxy_SagemakerFeatureGroupFeatureDefinitionOutputReference) Interp
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerFeatureGroupFeatureDefinitionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerFeatureGroupFeatureDefinitionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -590,7 +590,7 @@ func (s *jsiiProxy_SagemakerFeatureGroupFeatureDefinitionOutputReference) ResetF
 	)
 }
 
-func (s *jsiiProxy_SagemakerFeatureGroupFeatureDefinitionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SagemakerFeatureGroupFeatureDefinitionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (c *jsiiProxy_CustomerprofilesProfileBillingAddressOutputReference) validat
 	return nil
 }
 
-func (c *jsiiProxy_CustomerprofilesProfileBillingAddressOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CustomerprofilesProfileBillingAddressOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -107,11 +107,11 @@ func (j *jsiiProxy_CustomerprofilesProfileBillingAddressOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_CustomerprofilesProfileBillingAddressOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CustomerprofilesProfileBillingAddressOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCustomerprofilesProfileBillingAddressOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCustomerprofilesProfileBillingAddressOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

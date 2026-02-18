@@ -47,7 +47,7 @@ func (g *jsiiProxy_GlueJobNotificationPropertyOutputReference) validateInterpola
 	return nil
 }
 
-func (g *jsiiProxy_GlueJobNotificationPropertyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueJobNotificationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GlueJobNotificationPropertyOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_GlueJobNotificationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueJobNotificationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGlueJobNotificationPropertyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGlueJobNotificationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

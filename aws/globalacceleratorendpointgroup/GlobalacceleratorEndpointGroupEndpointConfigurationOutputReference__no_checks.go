@@ -47,7 +47,7 @@ func (g *jsiiProxy_GlobalacceleratorEndpointGroupEndpointConfigurationOutputRefe
 	return nil
 }
 
-func (g *jsiiProxy_GlobalacceleratorEndpointGroupEndpointConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlobalacceleratorEndpointGroupEndpointConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GlobalacceleratorEndpointGroupEndpointConfigurationOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_GlobalacceleratorEndpointGroupEndpointConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlobalacceleratorEndpointGroupEndpointConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_GlobalacceleratorEndpointGroupEndpointConfigurationOutputRefe
 	return nil
 }
 
-func validateNewGlobalacceleratorEndpointGroupEndpointConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGlobalacceleratorEndpointGroupEndpointConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

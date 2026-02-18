@@ -47,7 +47,7 @@ func (c *jsiiProxy_ConfigConfigRuleEvaluationModeOutputReference) validateInterp
 	return nil
 }
 
-func (c *jsiiProxy_ConfigConfigRuleEvaluationModeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConfigConfigRuleEvaluationModeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ConfigConfigRuleEvaluationModeOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ConfigConfigRuleEvaluationModeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConfigConfigRuleEvaluationModeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewConfigConfigRuleEvaluationModeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewConfigConfigRuleEvaluationModeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

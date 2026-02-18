@@ -8,7 +8,7 @@ package networkmanagerconnectpeer
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (n *jsiiProxy_NetworkmanagerConnectPeerConfigurationList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (n *jsiiProxy_NetworkmanagerConnectPeerConfigurationList) validateGetParame
 	return nil
 }
 
-func (n *jsiiProxy_NetworkmanagerConnectPeerConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkmanagerConnectPeerConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_NetworkmanagerConnectPeerConfigurationList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerConnectPeerConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkmanagerConnectPeerConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_NetworkmanagerConnectPeerConfigurationList) validateSetWrapsS
 	return nil
 }
 
-func validateNewNetworkmanagerConnectPeerConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkmanagerConnectPeerConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

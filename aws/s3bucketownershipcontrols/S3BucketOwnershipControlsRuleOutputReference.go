@@ -5,14 +5,14 @@ package s3bucketownershipcontrols
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/s3bucketownershipcontrols/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/s3bucketownershipcontrols/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type S3BucketOwnershipControlsRuleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type S3BucketOwnershipControlsRuleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type S3BucketOwnershipControlsRuleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type S3BucketOwnershipControlsRuleOutputReference interface {
 
 // The jsii proxy struct for S3BucketOwnershipControlsRuleOutputReference
 type jsiiProxy_S3BucketOwnershipControlsRuleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) TerraformResour
 }
 
 
-func NewS3BucketOwnershipControlsRuleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) S3BucketOwnershipControlsRuleOutputReference {
+func NewS3BucketOwnershipControlsRuleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) S3BucketOwnershipControlsRuleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewS3BucketOwnershipControlsRuleOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewS3BucketOwnershipControlsRuleOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewS3BucketOwnershipControlsRuleOutputReference_Override(s S3BucketOwnershipControlsRuleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewS3BucketOwnershipControlsRuleOutputReference_Override(s S3BucketOwnershipControlsRuleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (s *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (s *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -423,8 +423,8 @@ func (s *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (s *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -436,11 +436,11 @@ func (s *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) InterpolationAs
 	return returns
 }
 
-func (s *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -452,7 +452,7 @@ func (s *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) InterpolationFo
 	return returns
 }
 
-func (s *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

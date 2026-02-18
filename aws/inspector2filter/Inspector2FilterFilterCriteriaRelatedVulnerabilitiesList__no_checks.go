@@ -15,7 +15,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaRelatedVulnerabilitiesList) val
 	return nil
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaRelatedVulnerabilitiesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaRelatedVulnerabilitiesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaRelatedVulnerabilitiesList) val
 	return nil
 }
 
-func (j *jsiiProxy_Inspector2FilterFilterCriteriaRelatedVulnerabilitiesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Inspector2FilterFilterCriteriaRelatedVulnerabilitiesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaRelatedVulnerabilitiesList) val
 	return nil
 }
 
-func validateNewInspector2FilterFilterCriteriaRelatedVulnerabilitiesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewInspector2FilterFilterCriteriaRelatedVulnerabilitiesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

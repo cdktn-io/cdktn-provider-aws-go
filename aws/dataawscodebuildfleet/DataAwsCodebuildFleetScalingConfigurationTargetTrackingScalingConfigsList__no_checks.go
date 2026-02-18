@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsCodebuildFleetScalingConfigurationTargetTrackingScalin
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCodebuildFleetScalingConfigurationTargetTrackingScalingConfigsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCodebuildFleetScalingConfigurationTargetTrackingScalingConfigsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsCodebuildFleetScalingConfigurationTargetTrackingScalin
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCodebuildFleetScalingConfigurationTargetTrackingScalingConfigsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCodebuildFleetScalingConfigurationTargetTrackingScalingConfigsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsCodebuildFleetScalingConfigurationTargetTrackingScalin
 	return nil
 }
 
-func validateNewDataAwsCodebuildFleetScalingConfigurationTargetTrackingScalingConfigsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsCodebuildFleetScalingConfigurationTargetTrackingScalingConfigsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

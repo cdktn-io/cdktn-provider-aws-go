@@ -47,7 +47,7 @@ func (i *jsiiProxy_IotTopicRuleCloudwatchAlarmOutputReference) validateInterpola
 	return nil
 }
 
-func (i *jsiiProxy_IotTopicRuleCloudwatchAlarmOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotTopicRuleCloudwatchAlarmOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_IotTopicRuleCloudwatchAlarmOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_IotTopicRuleCloudwatchAlarmOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotTopicRuleCloudwatchAlarmOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIotTopicRuleCloudwatchAlarmOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIotTopicRuleCloudwatchAlarmOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

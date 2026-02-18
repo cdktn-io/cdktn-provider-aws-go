@@ -47,7 +47,7 @@ func (w *jsiiProxy_WafRegexMatchSetRegexMatchTupleFieldToMatchOutputReference) v
 	return nil
 }
 
-func (w *jsiiProxy_WafRegexMatchSetRegexMatchTupleFieldToMatchOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WafRegexMatchSetRegexMatchTupleFieldToMatchOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_WafRegexMatchSetRegexMatchTupleFieldToMatchOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_WafRegexMatchSetRegexMatchTupleFieldToMatchOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WafRegexMatchSetRegexMatchTupleFieldToMatchOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WafRegexMatchSetRegexMatchTupleFieldToMatchOutputReference) v
 	return nil
 }
 
-func validateNewWafRegexMatchSetRegexMatchTupleFieldToMatchOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWafRegexMatchSetRegexMatchTupleFieldToMatchOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

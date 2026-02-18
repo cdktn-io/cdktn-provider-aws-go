@@ -139,7 +139,7 @@ func (j *jsiiProxy_RedshiftserverlessNamespace) validateSetKmsKeyIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftserverlessNamespace) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RedshiftserverlessNamespace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

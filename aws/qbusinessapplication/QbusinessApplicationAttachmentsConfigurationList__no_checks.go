@@ -15,7 +15,7 @@ func (q *jsiiProxy_QbusinessApplicationAttachmentsConfigurationList) validateGet
 	return nil
 }
 
-func (q *jsiiProxy_QbusinessApplicationAttachmentsConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QbusinessApplicationAttachmentsConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_QbusinessApplicationAttachmentsConfigurationList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_QbusinessApplicationAttachmentsConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QbusinessApplicationAttachmentsConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_QbusinessApplicationAttachmentsConfigurationList) validateSet
 	return nil
 }
 
-func validateNewQbusinessApplicationAttachmentsConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewQbusinessApplicationAttachmentsConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

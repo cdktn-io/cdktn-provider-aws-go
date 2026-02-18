@@ -47,7 +47,7 @@ func (e *jsiiProxy_ElasticsearchDomainVpcOptionsOutputReference) validateInterpo
 	return nil
 }
 
-func (e *jsiiProxy_ElasticsearchDomainVpcOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticsearchDomainVpcOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ElasticsearchDomainVpcOptionsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_ElasticsearchDomainVpcOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticsearchDomainVpcOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewElasticsearchDomainVpcOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewElasticsearchDomainVpcOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

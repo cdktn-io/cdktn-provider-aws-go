@@ -47,7 +47,7 @@ func (p *jsiiProxy_PrometheusResourcePolicyTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (p *jsiiProxy_PrometheusResourcePolicyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrometheusResourcePolicyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_PrometheusResourcePolicyTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_PrometheusResourcePolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrometheusResourcePolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_PrometheusResourcePolicyTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewPrometheusResourcePolicyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPrometheusResourcePolicyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

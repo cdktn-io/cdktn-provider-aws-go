@@ -5,14 +5,14 @@ package appsyncdatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/appsyncdatasource/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appsyncdatasource/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppsyncDatasourceDynamodbConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -45,9 +45,9 @@ type AppsyncDatasourceDynamodbConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UseCallerCredentials() interface{}
 	SetUseCallerCredentials(val interface{})
 	UseCallerCredentialsInput() interface{}
@@ -59,7 +59,7 @@ type AppsyncDatasourceDynamodbConfigOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -75,9 +75,9 @@ type AppsyncDatasourceDynamodbConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDeltaSyncConfig(value *AppsyncDatasourceDynamodbConfigDeltaSyncConfig)
 	ResetDeltaSyncConfig()
 	ResetRegion()
@@ -85,7 +85,7 @@ type AppsyncDatasourceDynamodbConfigOutputReference interface {
 	ResetVersioned()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -95,7 +95,7 @@ type AppsyncDatasourceDynamodbConfigOutputReference interface {
 
 // The jsii proxy struct for AppsyncDatasourceDynamodbConfigOutputReference
 type jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -218,8 +218,8 @@ func (j *jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -269,7 +269,7 @@ func (j *jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference) VersionedInpu
 }
 
 
-func NewAppsyncDatasourceDynamodbConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AppsyncDatasourceDynamodbConfigOutputReference {
+func NewAppsyncDatasourceDynamodbConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AppsyncDatasourceDynamodbConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAppsyncDatasourceDynamodbConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -286,7 +286,7 @@ func NewAppsyncDatasourceDynamodbConfigOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewAppsyncDatasourceDynamodbConfigOutputReference_Override(a AppsyncDatasourceDynamodbConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAppsyncDatasourceDynamodbConfigOutputReference_Override(a AppsyncDatasourceDynamodbConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -362,7 +362,7 @@ func (j *jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -424,11 +424,11 @@ func (a *jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (a *jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -552,8 +552,8 @@ func (a *jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference) GetStringMapA
 	return returns
 }
 
-func (a *jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -565,11 +565,11 @@ func (a *jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference) Interpolation
 	return returns
 }
 
-func (a *jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -624,7 +624,7 @@ func (a *jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference) ResetVersione
 	)
 }
 
-func (a *jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

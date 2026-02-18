@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEc2InstanceTypeTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEc2InstanceTypeTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEc2InstanceTypeTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAwsEc2InstanceTypeTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceTypeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEc2InstanceTypeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsEc2InstanceTypeTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAwsEc2InstanceTypeTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

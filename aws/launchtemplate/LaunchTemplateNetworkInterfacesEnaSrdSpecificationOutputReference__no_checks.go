@@ -51,7 +51,7 @@ func (l *jsiiProxy_LaunchTemplateNetworkInterfacesEnaSrdSpecificationOutputRefer
 	return nil
 }
 
-func (l *jsiiProxy_LaunchTemplateNetworkInterfacesEnaSrdSpecificationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LaunchTemplateNetworkInterfacesEnaSrdSpecificationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_LaunchTemplateNetworkInterfacesEnaSrdSpecificationOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_LaunchTemplateNetworkInterfacesEnaSrdSpecificationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LaunchTemplateNetworkInterfacesEnaSrdSpecificationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLaunchTemplateNetworkInterfacesEnaSrdSpecificationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLaunchTemplateNetworkInterfacesEnaSrdSpecificationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

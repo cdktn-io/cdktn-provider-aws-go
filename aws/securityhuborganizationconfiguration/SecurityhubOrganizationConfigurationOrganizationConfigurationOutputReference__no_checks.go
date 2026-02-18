@@ -47,7 +47,7 @@ func (s *jsiiProxy_SecurityhubOrganizationConfigurationOrganizationConfiguration
 	return nil
 }
 
-func (s *jsiiProxy_SecurityhubOrganizationConfigurationOrganizationConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecurityhubOrganizationConfigurationOrganizationConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SecurityhubOrganizationConfigurationOrganizationConfiguration
 	return nil
 }
 
-func (j *jsiiProxy_SecurityhubOrganizationConfigurationOrganizationConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecurityhubOrganizationConfigurationOrganizationConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSecurityhubOrganizationConfigurationOrganizationConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSecurityhubOrganizationConfigurationOrganizationConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

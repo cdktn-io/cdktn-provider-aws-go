@@ -15,7 +15,7 @@ func (s *jsiiProxy_ShieldProactiveEngagementEmergencyContactList) validateGetPar
 	return nil
 }
 
-func (s *jsiiProxy_ShieldProactiveEngagementEmergencyContactList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ShieldProactiveEngagementEmergencyContactList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ShieldProactiveEngagementEmergencyContactList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ShieldProactiveEngagementEmergencyContactList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ShieldProactiveEngagementEmergencyContactList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ShieldProactiveEngagementEmergencyContactList) validateSetWra
 	return nil
 }
 
-func validateNewShieldProactiveEngagementEmergencyContactListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewShieldProactiveEngagementEmergencyContactListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

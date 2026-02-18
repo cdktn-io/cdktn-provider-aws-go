@@ -139,7 +139,7 @@ func (j *jsiiProxy_AccountPrimaryContact) validateSetIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_AccountPrimaryContact) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AccountPrimaryContact) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

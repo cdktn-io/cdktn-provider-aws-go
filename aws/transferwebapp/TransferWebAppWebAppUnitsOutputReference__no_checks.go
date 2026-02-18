@@ -47,7 +47,7 @@ func (t *jsiiProxy_TransferWebAppWebAppUnitsOutputReference) validateInterpolati
 	return nil
 }
 
-func (t *jsiiProxy_TransferWebAppWebAppUnitsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TransferWebAppWebAppUnitsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_TransferWebAppWebAppUnitsOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_TransferWebAppWebAppUnitsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TransferWebAppWebAppUnitsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTransferWebAppWebAppUnitsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewTransferWebAppWebAppUnitsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

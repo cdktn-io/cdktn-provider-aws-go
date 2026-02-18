@@ -15,7 +15,7 @@ func (a *jsiiProxy_AlbTargetGroupTargetHealthStateList) validateGetParameters(in
 	return nil
 }
 
-func (a *jsiiProxy_AlbTargetGroupTargetHealthStateList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AlbTargetGroupTargetHealthStateList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AlbTargetGroupTargetHealthStateList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_AlbTargetGroupTargetHealthStateList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AlbTargetGroupTargetHealthStateList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AlbTargetGroupTargetHealthStateList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewAlbTargetGroupTargetHealthStateListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAlbTargetGroupTargetHealthStateListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

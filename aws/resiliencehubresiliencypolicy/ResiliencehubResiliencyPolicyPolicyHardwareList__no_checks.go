@@ -15,7 +15,7 @@ func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareList) validateGetP
 	return nil
 }
 
-func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicyPolicyHardwareList) validateSetW
 	return nil
 }
 
-func validateNewResiliencehubResiliencyPolicyPolicyHardwareListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewResiliencehubResiliencyPolicyPolicyHardwareListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

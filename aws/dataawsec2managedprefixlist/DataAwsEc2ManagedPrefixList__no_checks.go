@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsEc2ManagedPrefixList) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2ManagedPrefixList) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsEc2ManagedPrefixList) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

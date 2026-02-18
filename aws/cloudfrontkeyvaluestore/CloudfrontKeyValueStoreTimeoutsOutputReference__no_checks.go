@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudfrontKeyValueStoreTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontKeyValueStoreTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontKeyValueStoreTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CloudfrontKeyValueStoreTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontKeyValueStoreTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontKeyValueStoreTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudfrontKeyValueStoreTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudfrontKeyValueStoreTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

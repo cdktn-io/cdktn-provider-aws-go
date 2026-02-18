@@ -47,7 +47,7 @@ func (f *jsiiProxy_FsxOpenzfsVolumeTimeoutsOutputReference) validateInterpolatio
 	return nil
 }
 
-func (f *jsiiProxy_FsxOpenzfsVolumeTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FsxOpenzfsVolumeTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_FsxOpenzfsVolumeTimeoutsOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_FsxOpenzfsVolumeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FsxOpenzfsVolumeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_FsxOpenzfsVolumeTimeoutsOutputReference) validateSetUpdatePar
 	return nil
 }
 
-func validateNewFsxOpenzfsVolumeTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFsxOpenzfsVolumeTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

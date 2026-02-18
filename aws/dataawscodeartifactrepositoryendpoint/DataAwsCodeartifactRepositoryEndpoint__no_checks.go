@@ -91,7 +91,7 @@ func (j *jsiiProxy_DataAwsCodeartifactRepositoryEndpoint) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCodeartifactRepositoryEndpoint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsCodeartifactRepositoryEndpoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

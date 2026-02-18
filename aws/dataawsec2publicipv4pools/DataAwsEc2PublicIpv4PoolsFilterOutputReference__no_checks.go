@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEc2PublicIpv4PoolsFilterOutputReference) validateInter
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEc2PublicIpv4PoolsFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEc2PublicIpv4PoolsFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataAwsEc2PublicIpv4PoolsFilterOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2PublicIpv4PoolsFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEc2PublicIpv4PoolsFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsEc2PublicIpv4PoolsFilterOutputReference) validateSetVa
 	return nil
 }
 
-func validateNewDataAwsEc2PublicIpv4PoolsFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsEc2PublicIpv4PoolsFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

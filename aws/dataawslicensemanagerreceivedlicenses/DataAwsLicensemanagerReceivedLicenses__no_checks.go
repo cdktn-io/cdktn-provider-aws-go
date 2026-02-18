@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsLicensemanagerReceivedLicenses) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLicensemanagerReceivedLicenses) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsLicensemanagerReceivedLicenses) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

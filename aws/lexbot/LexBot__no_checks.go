@@ -143,7 +143,7 @@ func (j *jsiiProxy_LexBot) validateSetIdleSessionTtlInSecondsParameters(val *flo
 	return nil
 }
 
-func (j *jsiiProxy_LexBot) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LexBot) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

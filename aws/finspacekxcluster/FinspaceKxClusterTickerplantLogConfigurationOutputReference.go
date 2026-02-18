@@ -5,14 +5,14 @@ package finspacekxcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/finspacekxcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/finspacekxcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FinspaceKxClusterTickerplantLogConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type FinspaceKxClusterTickerplantLogConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TickerplantLogVolumes() *[]*string
 	SetTickerplantLogVolumes(val *[]*string)
 	TickerplantLogVolumesInput() *[]*string
@@ -48,7 +48,7 @@ type FinspaceKxClusterTickerplantLogConfigurationOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type FinspaceKxClusterTickerplantLogConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type FinspaceKxClusterTickerplantLogConfigurationOutputReference interface {
 
 // The jsii proxy struct for FinspaceKxClusterTickerplantLogConfigurationOutputReference
 type jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -142,8 +142,8 @@ func (j *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) 
 }
 
 
-func NewFinspaceKxClusterTickerplantLogConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) FinspaceKxClusterTickerplantLogConfigurationOutputReference {
+func NewFinspaceKxClusterTickerplantLogConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) FinspaceKxClusterTickerplantLogConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFinspaceKxClusterTickerplantLogConfigurationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -190,7 +190,7 @@ func NewFinspaceKxClusterTickerplantLogConfigurationOutputReference(terraformRes
 	return &j
 }
 
-func NewFinspaceKxClusterTickerplantLogConfigurationOutputReference_Override(f FinspaceKxClusterTickerplantLogConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewFinspaceKxClusterTickerplantLogConfigurationOutputReference_Override(f FinspaceKxClusterTickerplantLogConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -244,7 +244,7 @@ func (j *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference)S
 	)
 }
 
-func (j *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (f *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) 
 	return returns
 }
 
-func (f *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -423,8 +423,8 @@ func (f *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) 
 	return returns
 }
 
-func (f *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -436,11 +436,11 @@ func (f *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) 
 	return returns
 }
 
-func (f *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -452,7 +452,7 @@ func (f *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) 
 	return returns
 }
 
-func (f *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

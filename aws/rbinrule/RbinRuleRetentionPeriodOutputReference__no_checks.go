@@ -47,7 +47,7 @@ func (r *jsiiProxy_RbinRuleRetentionPeriodOutputReference) validateInterpolation
 	return nil
 }
 
-func (r *jsiiProxy_RbinRuleRetentionPeriodOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RbinRuleRetentionPeriodOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_RbinRuleRetentionPeriodOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_RbinRuleRetentionPeriodOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RbinRuleRetentionPeriodOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRbinRuleRetentionPeriodOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRbinRuleRetentionPeriodOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

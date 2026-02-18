@@ -5,14 +5,14 @@ package globalacceleratorcrossaccountattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/globalacceleratorcrossaccountattachment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/globalacceleratorcrossaccountattachment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GlobalacceleratorCrossAccountAttachmentResourceList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type GlobalacceleratorCrossAccountAttachmentResourceList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type GlobalacceleratorCrossAccountAttachmentResourceList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) GlobalacceleratorCrossAccountAttachmentResourceOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type GlobalacceleratorCrossAccountAttachmentResourceList interface {
 
 // The jsii proxy struct for GlobalacceleratorCrossAccountAttachmentResourceList
 type jsiiProxy_GlobalacceleratorCrossAccountAttachmentResourceList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_GlobalacceleratorCrossAccountAttachmentResourceList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_GlobalacceleratorCrossAccountAttachmentResourceList) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_GlobalacceleratorCrossAccountAttachmentResourceList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GlobalacceleratorCrossAccountAttachmentResourceList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_GlobalacceleratorCrossAccountAttachmentResourceList) WrapsSet
 }
 
 
-func NewGlobalacceleratorCrossAccountAttachmentResourceList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlobalacceleratorCrossAccountAttachmentResourceList {
+func NewGlobalacceleratorCrossAccountAttachmentResourceList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlobalacceleratorCrossAccountAttachmentResourceList {
 	_init_.Initialize()
 
 	if err := validateNewGlobalacceleratorCrossAccountAttachmentResourceListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewGlobalacceleratorCrossAccountAttachmentResourceList(terraformResource cd
 	return &j
 }
 
-func NewGlobalacceleratorCrossAccountAttachmentResourceList_Override(g GlobalacceleratorCrossAccountAttachmentResourceList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewGlobalacceleratorCrossAccountAttachmentResourceList_Override(g GlobalacceleratorCrossAccountAttachmentResourceList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_GlobalacceleratorCrossAccountAttachmentResourceList)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_GlobalacceleratorCrossAccountAttachmentResourceList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GlobalacceleratorCrossAccountAttachmentResourceList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_GlobalacceleratorCrossAccountAttachmentResourceList)SetWrapsS
 	)
 }
 
-func (g *jsiiProxy_GlobalacceleratorCrossAccountAttachmentResourceList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (g *jsiiProxy_GlobalacceleratorCrossAccountAttachmentResourceList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := g.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		g,
@@ -231,7 +231,7 @@ func (g *jsiiProxy_GlobalacceleratorCrossAccountAttachmentResourceList) Get(inde
 	return returns
 }
 
-func (g *jsiiProxy_GlobalacceleratorCrossAccountAttachmentResourceList) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GlobalacceleratorCrossAccountAttachmentResourceList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

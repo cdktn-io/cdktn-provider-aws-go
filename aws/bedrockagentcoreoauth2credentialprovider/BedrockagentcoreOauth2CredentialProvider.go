@@ -5,18 +5,18 @@ package bedrockagentcoreoauth2credentialprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/bedrockagentcoreoauth2credentialprovider/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/bedrockagentcoreoauth2credentialprovider/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/bedrockagentcore_oauth2_credential_provider aws_bedrockagentcore_oauth2_credential_provider}.
 type BedrockagentcoreOauth2CredentialProvider interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClientSecretArn() BedrockagentcoreOauth2CredentialProviderClientSecretArnList
 	// Experimental.
 	Connection() interface{}
@@ -37,17 +37,17 @@ type BedrockagentcoreOauth2CredentialProvider interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -56,9 +56,9 @@ type BedrockagentcoreOauth2CredentialProvider interface {
 	Oauth2ProviderConfig() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigList
 	Oauth2ProviderConfigInput() interface{}
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -69,7 +69,7 @@ type BedrockagentcoreOauth2CredentialProvider interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -82,7 +82,7 @@ type BedrockagentcoreOauth2CredentialProvider interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -100,9 +100,9 @@ type BedrockagentcoreOauth2CredentialProvider interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -138,11 +138,11 @@ type BedrockagentcoreOauth2CredentialProvider interface {
 
 // The jsii proxy struct for BedrockagentcoreOauth2CredentialProvider
 type jsiiProxy_BedrockagentcoreOauth2CredentialProvider struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -231,8 +231,8 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) DependsOn() *[]*str
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -261,8 +261,8 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) FriendlyUniqueId() 
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -321,8 +321,8 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) Oauth2ProviderConfi
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -371,8 +371,8 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) RegionInput() *stri
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -472,7 +472,7 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider)SetDependsOn(val *[]
 	)
 }
 
-func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -480,7 +480,7 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider)SetForEach(val cdktf
 	)
 }
 
-func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -502,7 +502,7 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider)SetName(val *string)
 	)
 }
 
-func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -532,14 +532,14 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider)SetRegion(val *strin
 	)
 }
 
-// Generates CDKTF code for importing a BedrockagentcoreOauth2CredentialProvider resource upon running "cdktf plan <stack-name>".
-func BedrockagentcoreOauth2CredentialProvider_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a BedrockagentcoreOauth2CredentialProvider resource upon running "cdktn plan <stack-name>".
+func BedrockagentcoreOauth2CredentialProvider_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateBedrockagentcoreOauth2CredentialProvider_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.bedrockagentcoreOauth2CredentialProvider.BedrockagentcoreOauth2CredentialProvider",
@@ -673,11 +673,11 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) GetAnyMapAttribute(
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -814,7 +814,7 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) HasResourceMove() i
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := b.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -825,11 +825,11 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) ImportFrom(id *stri
 	)
 }
 
-func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,

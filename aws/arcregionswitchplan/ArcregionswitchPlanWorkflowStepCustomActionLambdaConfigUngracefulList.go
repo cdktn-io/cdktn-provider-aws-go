@@ -5,14 +5,14 @@ package arcregionswitchplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/arcregionswitchplan/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/arcregionswitchplan/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList inter
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList inter
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList inter
 
 // The jsii proxy struct for ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList
 type jsiiProxy_ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngrac
 	return returns
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngrac
 }
 
 
-func NewArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList {
+func NewArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList {
 	_init_.Initialize()
 
 	if err := validateNewArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList(te
 	return &j
 }
 
-func NewArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList_Override(a ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList_Override(a ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngrac
 	)
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngrac
 	)
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := a.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		a,
@@ -231,7 +231,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngrac
 	return returns
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

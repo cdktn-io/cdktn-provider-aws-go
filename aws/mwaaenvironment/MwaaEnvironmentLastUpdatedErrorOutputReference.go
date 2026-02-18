@@ -5,14 +5,14 @@ package mwaaenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/mwaaenvironment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/mwaaenvironment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MwaaEnvironmentLastUpdatedErrorOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type MwaaEnvironmentLastUpdatedErrorOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type MwaaEnvironmentLastUpdatedErrorOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type MwaaEnvironmentLastUpdatedErrorOutputReference interface {
 
 // The jsii proxy struct for MwaaEnvironmentLastUpdatedErrorOutputReference
 type jsiiProxy_MwaaEnvironmentLastUpdatedErrorOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MwaaEnvironmentLastUpdatedErrorOutputReference) ComplexObjectIndex() interface{} {
@@ -161,8 +161,8 @@ func (j *jsiiProxy_MwaaEnvironmentLastUpdatedErrorOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_MwaaEnvironmentLastUpdatedErrorOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MwaaEnvironmentLastUpdatedErrorOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_MwaaEnvironmentLastUpdatedErrorOutputReference) TerraformReso
 }
 
 
-func NewMwaaEnvironmentLastUpdatedErrorOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) MwaaEnvironmentLastUpdatedErrorOutputReference {
+func NewMwaaEnvironmentLastUpdatedErrorOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) MwaaEnvironmentLastUpdatedErrorOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMwaaEnvironmentLastUpdatedErrorOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -189,7 +189,7 @@ func NewMwaaEnvironmentLastUpdatedErrorOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewMwaaEnvironmentLastUpdatedErrorOutputReference_Override(m MwaaEnvironmentLastUpdatedErrorOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewMwaaEnvironmentLastUpdatedErrorOutputReference_Override(m MwaaEnvironmentLastUpdatedErrorOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -243,7 +243,7 @@ func (j *jsiiProxy_MwaaEnvironmentLastUpdatedErrorOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_MwaaEnvironmentLastUpdatedErrorOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MwaaEnvironmentLastUpdatedErrorOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (m *jsiiProxy_MwaaEnvironmentLastUpdatedErrorOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (m *jsiiProxy_MwaaEnvironmentLastUpdatedErrorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MwaaEnvironmentLastUpdatedErrorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -411,8 +411,8 @@ func (m *jsiiProxy_MwaaEnvironmentLastUpdatedErrorOutputReference) GetStringMapA
 	return returns
 }
 
-func (m *jsiiProxy_MwaaEnvironmentLastUpdatedErrorOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MwaaEnvironmentLastUpdatedErrorOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -424,11 +424,11 @@ func (m *jsiiProxy_MwaaEnvironmentLastUpdatedErrorOutputReference) Interpolation
 	return returns
 }
 
-func (m *jsiiProxy_MwaaEnvironmentLastUpdatedErrorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MwaaEnvironmentLastUpdatedErrorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -440,7 +440,7 @@ func (m *jsiiProxy_MwaaEnvironmentLastUpdatedErrorOutputReference) Interpolation
 	return returns
 }
 
-func (m *jsiiProxy_MwaaEnvironmentLastUpdatedErrorOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MwaaEnvironmentLastUpdatedErrorOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

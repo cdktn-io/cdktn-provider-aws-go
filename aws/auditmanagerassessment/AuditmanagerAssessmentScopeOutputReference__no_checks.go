@@ -55,7 +55,7 @@ func (a *jsiiProxy_AuditmanagerAssessmentScopeOutputReference) validatePutAwsSer
 	return nil
 }
 
-func (a *jsiiProxy_AuditmanagerAssessmentScopeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AuditmanagerAssessmentScopeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AuditmanagerAssessmentScopeOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_AuditmanagerAssessmentScopeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AuditmanagerAssessmentScopeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAuditmanagerAssessmentScopeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAuditmanagerAssessmentScopeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SchedulerScheduleTargetKinesisParametersOutputReference) vali
 	return nil
 }
 
-func (s *jsiiProxy_SchedulerScheduleTargetKinesisParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SchedulerScheduleTargetKinesisParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SchedulerScheduleTargetKinesisParametersOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_SchedulerScheduleTargetKinesisParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SchedulerScheduleTargetKinesisParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSchedulerScheduleTargetKinesisParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSchedulerScheduleTargetKinesisParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

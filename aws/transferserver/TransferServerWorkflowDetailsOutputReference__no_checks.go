@@ -55,7 +55,7 @@ func (t *jsiiProxy_TransferServerWorkflowDetailsOutputReference) validatePutOnUp
 	return nil
 }
 
-func (t *jsiiProxy_TransferServerWorkflowDetailsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TransferServerWorkflowDetailsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_TransferServerWorkflowDetailsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_TransferServerWorkflowDetailsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TransferServerWorkflowDetailsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTransferServerWorkflowDetailsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTransferServerWorkflowDetailsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

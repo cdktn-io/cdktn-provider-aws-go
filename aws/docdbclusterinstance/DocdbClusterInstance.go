@@ -5,16 +5,16 @@ package docdbclusterinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/docdbclusterinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/docdbclusterinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/docdb_cluster_instance aws_docdb_cluster_instance}.
 type DocdbClusterInstance interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApplyImmediately() interface{}
 	SetApplyImmediately(val interface{})
 	ApplyImmediatelyInput() interface{}
@@ -29,7 +29,7 @@ type DocdbClusterInstance interface {
 	SetCaCertIdentifier(val *string)
 	CaCertIdentifierInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CertificateRotationRestart() *string
 	SetCertificateRotationRestart(val *string)
 	CertificateRotationRestartInput() *string
@@ -64,9 +64,9 @@ type DocdbClusterInstance interface {
 	EngineInput() *string
 	EngineVersion() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -85,9 +85,9 @@ type DocdbClusterInstance interface {
 	InstanceClassInput() *string
 	KmsKeyId() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	PerformanceInsightsKmsKeyId() *string
@@ -102,20 +102,20 @@ type DocdbClusterInstance interface {
 	SetPromotionTier(val *float64)
 	PromotionTierInput() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
-	PubliclyAccessible() cdktf.IResolvable
+	PubliclyAccessible() cdktn.IResolvable
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
-	StorageEncrypted() cdktf.IResolvable
+	StorageEncrypted() cdktn.IResolvable
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsAll() *map[string]*string
@@ -123,14 +123,14 @@ type DocdbClusterInstance interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
 	Timeouts() DocdbClusterInstanceTimeoutsOutputReference
 	TimeoutsInput() interface{}
-	Writer() cdktf.IResolvable
+	Writer() cdktn.IResolvable
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -139,7 +139,7 @@ type DocdbClusterInstance interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -157,9 +157,9 @@ type DocdbClusterInstance interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -211,7 +211,7 @@ type DocdbClusterInstance interface {
 
 // The jsii proxy struct for DocdbClusterInstance
 type jsiiProxy_DocdbClusterInstance struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_DocdbClusterInstance) ApplyImmediately() interface{} {
@@ -304,8 +304,8 @@ func (j *jsiiProxy_DocdbClusterInstance) CaCertIdentifierInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DocdbClusterInstance) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DocdbClusterInstance) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -494,8 +494,8 @@ func (j *jsiiProxy_DocdbClusterInstance) EngineVersion() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DocdbClusterInstance) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DocdbClusterInstance) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -614,8 +614,8 @@ func (j *jsiiProxy_DocdbClusterInstance) KmsKeyId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DocdbClusterInstance) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DocdbClusterInstance) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -714,8 +714,8 @@ func (j *jsiiProxy_DocdbClusterInstance) PromotionTierInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DocdbClusterInstance) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DocdbClusterInstance) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -734,8 +734,8 @@ func (j *jsiiProxy_DocdbClusterInstance) Provisioners() *[]interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DocdbClusterInstance) PubliclyAccessible() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DocdbClusterInstance) PubliclyAccessible() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"publiclyAccessible",
@@ -774,8 +774,8 @@ func (j *jsiiProxy_DocdbClusterInstance) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DocdbClusterInstance) StorageEncrypted() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DocdbClusterInstance) StorageEncrypted() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"storageEncrypted",
@@ -824,8 +824,8 @@ func (j *jsiiProxy_DocdbClusterInstance) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DocdbClusterInstance) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DocdbClusterInstance) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -874,8 +874,8 @@ func (j *jsiiProxy_DocdbClusterInstance) TimeoutsInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DocdbClusterInstance) Writer() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DocdbClusterInstance) Writer() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"writer",
@@ -1043,7 +1043,7 @@ func (j *jsiiProxy_DocdbClusterInstance)SetEngine(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DocdbClusterInstance)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DocdbClusterInstance)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1095,7 +1095,7 @@ func (j *jsiiProxy_DocdbClusterInstance)SetInstanceClass(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DocdbClusterInstance)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DocdbClusterInstance)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1139,7 +1139,7 @@ func (j *jsiiProxy_DocdbClusterInstance)SetPromotionTier(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_DocdbClusterInstance)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DocdbClusterInstance)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1191,14 +1191,14 @@ func (j *jsiiProxy_DocdbClusterInstance)SetTagsAll(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a DocdbClusterInstance resource upon running "cdktf plan <stack-name>".
-func DocdbClusterInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DocdbClusterInstance resource upon running "cdktn plan <stack-name>".
+func DocdbClusterInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDocdbClusterInstance_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.docdbClusterInstance.DocdbClusterInstance",
@@ -1332,11 +1332,11 @@ func (d *jsiiProxy_DocdbClusterInstance) GetAnyMapAttribute(terraformAttribute *
 	return returns
 }
 
-func (d *jsiiProxy_DocdbClusterInstance) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DocdbClusterInstance) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1473,7 +1473,7 @@ func (d *jsiiProxy_DocdbClusterInstance) HasResourceMove() interface{} {
 	return returns
 }
 
-func (d *jsiiProxy_DocdbClusterInstance) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (d *jsiiProxy_DocdbClusterInstance) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := d.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1484,11 +1484,11 @@ func (d *jsiiProxy_DocdbClusterInstance) ImportFrom(id *string, provider cdktf.T
 	)
 }
 
-func (d *jsiiProxy_DocdbClusterInstance) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DocdbClusterInstance) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

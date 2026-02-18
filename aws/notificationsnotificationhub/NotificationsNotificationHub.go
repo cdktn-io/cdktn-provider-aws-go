@@ -5,18 +5,18 @@ package notificationsnotificationhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/notificationsnotificationhub/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/notificationsnotificationhub/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/notifications_notification_hub aws_notifications_notification_hub}.
 type NotificationsNotificationHub interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -32,26 +32,26 @@ type NotificationsNotificationHub interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	NotificationHubRegion() *string
 	SetNotificationHubRegion(val *string)
 	NotificationHubRegionInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -59,7 +59,7 @@ type NotificationsNotificationHub interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -74,7 +74,7 @@ type NotificationsNotificationHub interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -92,9 +92,9 @@ type NotificationsNotificationHub interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -129,11 +129,11 @@ type NotificationsNotificationHub interface {
 
 // The jsii proxy struct for NotificationsNotificationHub
 type jsiiProxy_NotificationsNotificationHub struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_NotificationsNotificationHub) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_NotificationsNotificationHub) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -182,8 +182,8 @@ func (j *jsiiProxy_NotificationsNotificationHub) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_NotificationsNotificationHub) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_NotificationsNotificationHub) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -212,8 +212,8 @@ func (j *jsiiProxy_NotificationsNotificationHub) FriendlyUniqueId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NotificationsNotificationHub) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_NotificationsNotificationHub) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -252,8 +252,8 @@ func (j *jsiiProxy_NotificationsNotificationHub) NotificationHubRegionInput() *s
 	return returns
 }
 
-func (j *jsiiProxy_NotificationsNotificationHub) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_NotificationsNotificationHub) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -282,8 +282,8 @@ func (j *jsiiProxy_NotificationsNotificationHub) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_NotificationsNotificationHub) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_NotificationsNotificationHub) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -392,7 +392,7 @@ func (j *jsiiProxy_NotificationsNotificationHub)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_NotificationsNotificationHub)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_NotificationsNotificationHub)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -400,7 +400,7 @@ func (j *jsiiProxy_NotificationsNotificationHub)SetForEach(val cdktf.ITerraformI
 	)
 }
 
-func (j *jsiiProxy_NotificationsNotificationHub)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_NotificationsNotificationHub)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -422,7 +422,7 @@ func (j *jsiiProxy_NotificationsNotificationHub)SetNotificationHubRegion(val *st
 	)
 }
 
-func (j *jsiiProxy_NotificationsNotificationHub)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_NotificationsNotificationHub)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -441,14 +441,14 @@ func (j *jsiiProxy_NotificationsNotificationHub)SetProvisioners(val *[]interface
 	)
 }
 
-// Generates CDKTF code for importing a NotificationsNotificationHub resource upon running "cdktf plan <stack-name>".
-func NotificationsNotificationHub_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a NotificationsNotificationHub resource upon running "cdktn plan <stack-name>".
+func NotificationsNotificationHub_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateNotificationsNotificationHub_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.notificationsNotificationHub.NotificationsNotificationHub",
@@ -582,11 +582,11 @@ func (n *jsiiProxy_NotificationsNotificationHub) GetAnyMapAttribute(terraformAtt
 	return returns
 }
 
-func (n *jsiiProxy_NotificationsNotificationHub) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NotificationsNotificationHub) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -723,7 +723,7 @@ func (n *jsiiProxy_NotificationsNotificationHub) HasResourceMove() interface{} {
 	return returns
 }
 
-func (n *jsiiProxy_NotificationsNotificationHub) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (n *jsiiProxy_NotificationsNotificationHub) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := n.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -734,11 +734,11 @@ func (n *jsiiProxy_NotificationsNotificationHub) ImportFrom(id *string, provider
 	)
 }
 
-func (n *jsiiProxy_NotificationsNotificationHub) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NotificationsNotificationHub) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,

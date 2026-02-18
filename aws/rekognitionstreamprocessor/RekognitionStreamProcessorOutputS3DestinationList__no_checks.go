@@ -15,7 +15,7 @@ func (r *jsiiProxy_RekognitionStreamProcessorOutputS3DestinationList) validateGe
 	return nil
 }
 
-func (r *jsiiProxy_RekognitionStreamProcessorOutputS3DestinationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RekognitionStreamProcessorOutputS3DestinationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorOutputS3DestinationList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_RekognitionStreamProcessorOutputS3DestinationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RekognitionStreamProcessorOutputS3DestinationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorOutputS3DestinationList) validateSe
 	return nil
 }
 
-func validateNewRekognitionStreamProcessorOutputS3DestinationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRekognitionStreamProcessorOutputS3DestinationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package vpclatticetargetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/vpclatticetargetgroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/vpclatticetargetgroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VpclatticeTargetGroupConfigAOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -54,9 +54,9 @@ type VpclatticeTargetGroupConfigAOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VpcIdentifier() *string
 	SetVpcIdentifier(val *string)
 	VpcIdentifierInput() *string
@@ -65,7 +65,7 @@ type VpclatticeTargetGroupConfigAOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -81,9 +81,9 @@ type VpclatticeTargetGroupConfigAOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutHealthCheck(value *VpclatticeTargetGroupConfigHealthCheck)
 	ResetHealthCheck()
 	ResetIpAddressType()
@@ -94,7 +94,7 @@ type VpclatticeTargetGroupConfigAOutputReference interface {
 	ResetVpcIdentifier()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -104,7 +104,7 @@ type VpclatticeTargetGroupConfigAOutputReference interface {
 
 // The jsii proxy struct for VpclatticeTargetGroupConfigAOutputReference
 type jsiiProxy_VpclatticeTargetGroupConfigAOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VpclatticeTargetGroupConfigAOutputReference) ComplexObjectIndex() interface{} {
@@ -287,8 +287,8 @@ func (j *jsiiProxy_VpclatticeTargetGroupConfigAOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_VpclatticeTargetGroupConfigAOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VpclatticeTargetGroupConfigAOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -318,7 +318,7 @@ func (j *jsiiProxy_VpclatticeTargetGroupConfigAOutputReference) VpcIdentifierInp
 }
 
 
-func NewVpclatticeTargetGroupConfigAOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VpclatticeTargetGroupConfigAOutputReference {
+func NewVpclatticeTargetGroupConfigAOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VpclatticeTargetGroupConfigAOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVpclatticeTargetGroupConfigAOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -335,7 +335,7 @@ func NewVpclatticeTargetGroupConfigAOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewVpclatticeTargetGroupConfigAOutputReference_Override(v VpclatticeTargetGroupConfigAOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVpclatticeTargetGroupConfigAOutputReference_Override(v VpclatticeTargetGroupConfigAOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -444,7 +444,7 @@ func (j *jsiiProxy_VpclatticeTargetGroupConfigAOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_VpclatticeTargetGroupConfigAOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VpclatticeTargetGroupConfigAOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -495,11 +495,11 @@ func (v *jsiiProxy_VpclatticeTargetGroupConfigAOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (v *jsiiProxy_VpclatticeTargetGroupConfigAOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpclatticeTargetGroupConfigAOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -623,8 +623,8 @@ func (v *jsiiProxy_VpclatticeTargetGroupConfigAOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (v *jsiiProxy_VpclatticeTargetGroupConfigAOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VpclatticeTargetGroupConfigAOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -636,11 +636,11 @@ func (v *jsiiProxy_VpclatticeTargetGroupConfigAOutputReference) InterpolationAsL
 	return returns
 }
 
-func (v *jsiiProxy_VpclatticeTargetGroupConfigAOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpclatticeTargetGroupConfigAOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -719,7 +719,7 @@ func (v *jsiiProxy_VpclatticeTargetGroupConfigAOutputReference) ResetVpcIdentifi
 	)
 }
 
-func (v *jsiiProxy_VpclatticeTargetGroupConfigAOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VpclatticeTargetGroupConfigAOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

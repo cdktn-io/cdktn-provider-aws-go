@@ -131,7 +131,7 @@ func (j *jsiiProxy_ElastictranscoderPipeline) validateSetInputBucketParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_ElastictranscoderPipeline) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ElastictranscoderPipeline) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

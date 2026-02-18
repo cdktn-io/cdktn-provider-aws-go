@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupRulesActionChallengeList) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupRulesActionChallengeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupRulesActionChallengeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupRulesActionChallengeList) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupRulesActionChallengeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupRulesActionChallengeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupRulesActionChallengeList) validat
 	return nil
 }
 
-func validateNewDataAwsWafv2ManagedRuleGroupRulesActionChallengeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsWafv2ManagedRuleGroupRulesActionChallengeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppstreamFleetDomainJoinInfoOutputReference) validateInterpol
 	return nil
 }
 
-func (a *jsiiProxy_AppstreamFleetDomainJoinInfoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppstreamFleetDomainJoinInfoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AppstreamFleetDomainJoinInfoOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_AppstreamFleetDomainJoinInfoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppstreamFleetDomainJoinInfoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppstreamFleetDomainJoinInfoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppstreamFleetDomainJoinInfoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

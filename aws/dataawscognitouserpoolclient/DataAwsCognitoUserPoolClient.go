@@ -5,24 +5,24 @@ package dataawscognitouserpoolclient
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawscognitouserpoolclient/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawscognitouserpoolclient/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/cognito_user_pool_client aws_cognito_user_pool_client}.
 type DataAwsCognitoUserPoolClient interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AccessTokenValidity() *float64
 	AllowedOauthFlows() *[]*string
-	AllowedOauthFlowsUserPoolClient() cdktf.IResolvable
+	AllowedOauthFlowsUserPoolClient() cdktn.IResolvable
 	AllowedOauthScopes() *[]*string
 	AnalyticsConfiguration() DataAwsCognitoUserPoolClientAnalyticsConfigurationList
 	CallbackUrls() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClientId() *string
 	SetClientId(val *string)
 	ClientIdInput() *string
@@ -38,35 +38,35 @@ type DataAwsCognitoUserPoolClient interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EnablePropagateAdditionalUserContextData() cdktf.IResolvable
-	EnableTokenRevocation() cdktf.IResolvable
+	EnablePropagateAdditionalUserContextData() cdktn.IResolvable
+	EnableTokenRevocation() cdktn.IResolvable
 	ExplicitAuthFlows() *[]*string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
-	GenerateSecret() cdktf.IResolvable
+	GenerateSecret() cdktn.IResolvable
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
 	IdTokenValidity() *float64
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LogoutUrls() *[]*string
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
 	PreventUserExistenceErrors() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	ReadAttributes() *[]*string
@@ -77,7 +77,7 @@ type DataAwsCognitoUserPoolClient interface {
 	RegionInput() *string
 	SupportedIdentityProviders() *[]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -92,7 +92,7 @@ type DataAwsCognitoUserPoolClient interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -108,7 +108,7 @@ type DataAwsCognitoUserPoolClient interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -133,7 +133,7 @@ type DataAwsCognitoUserPoolClient interface {
 
 // The jsii proxy struct for DataAwsCognitoUserPoolClient
 type jsiiProxy_DataAwsCognitoUserPoolClient struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsCognitoUserPoolClient) AccessTokenValidity() *float64 {
@@ -156,8 +156,8 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolClient) AllowedOauthFlows() *[]*string 
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolClient) AllowedOauthFlowsUserPoolClient() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsCognitoUserPoolClient) AllowedOauthFlowsUserPoolClient() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"allowedOauthFlowsUserPoolClient",
@@ -196,8 +196,8 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolClient) CallbackUrls() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolClient) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsCognitoUserPoolClient) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -276,8 +276,8 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolClient) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolClient) EnablePropagateAdditionalUserContextData() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsCognitoUserPoolClient) EnablePropagateAdditionalUserContextData() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enablePropagateAdditionalUserContextData",
@@ -286,8 +286,8 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolClient) EnablePropagateAdditionalUserCo
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolClient) EnableTokenRevocation() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsCognitoUserPoolClient) EnableTokenRevocation() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableTokenRevocation",
@@ -306,8 +306,8 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolClient) ExplicitAuthFlows() *[]*string 
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolClient) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsCognitoUserPoolClient) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -336,8 +336,8 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolClient) FriendlyUniqueId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolClient) GenerateSecret() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsCognitoUserPoolClient) GenerateSecret() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"generateSecret",
@@ -376,8 +376,8 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolClient) IdTokenValidity() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolClient) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsCognitoUserPoolClient) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -426,8 +426,8 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolClient) PreventUserExistenceErrors() *s
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolClient) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsCognitoUserPoolClient) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -506,8 +506,8 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolClient) SupportedIdentityProviders() *[
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolClient) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsCognitoUserPoolClient) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -636,7 +636,7 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolClient)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolClient)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsCognitoUserPoolClient)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -655,7 +655,7 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolClient)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolClient)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsCognitoUserPoolClient)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -666,7 +666,7 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolClient)SetLifecycle(val *cdktf.Terrafor
 	)
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolClient)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsCognitoUserPoolClient)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -696,14 +696,14 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolClient)SetUserPoolId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsCognitoUserPoolClient resource upon running "cdktf plan <stack-name>".
-func DataAwsCognitoUserPoolClient_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsCognitoUserPoolClient resource upon running "cdktn plan <stack-name>".
+func DataAwsCognitoUserPoolClient_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsCognitoUserPoolClient_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsCognitoUserPoolClient.DataAwsCognitoUserPoolClient",
@@ -826,11 +826,11 @@ func (d *jsiiProxy_DataAwsCognitoUserPoolClient) GetAnyMapAttribute(terraformAtt
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsCognitoUserPoolClient) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsCognitoUserPoolClient) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -954,11 +954,11 @@ func (d *jsiiProxy_DataAwsCognitoUserPoolClient) GetStringMapAttribute(terraform
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsCognitoUserPoolClient) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsCognitoUserPoolClient) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (b *jsiiProxy_BackupRestoreTestingPlanRecoveryPointSelectionList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (b *jsiiProxy_BackupRestoreTestingPlanRecoveryPointSelectionList) validateG
 	return nil
 }
 
-func (b *jsiiProxy_BackupRestoreTestingPlanRecoveryPointSelectionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BackupRestoreTestingPlanRecoveryPointSelectionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (b *jsiiProxy_BackupRestoreTestingPlanRecoveryPointSelectionList) validateR
 
 func (j *jsiiProxy_BackupRestoreTestingPlanRecoveryPointSelectionList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BackupRestoreTestingPlanRecoveryPointSelection:
 		val := val.(*[]*BackupRestoreTestingPlanRecoveryPointSelection)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_BackupRestoreTestingPlanRecoveryPointSelectionList) validateS
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*BackupRestoreTestingPlanRecoveryPointSelection; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*BackupRestoreTestingPlanRecoveryPointSelection; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_BackupRestoreTestingPlanRecoveryPointSelectionList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_BackupRestoreTestingPlanRecoveryPointSelectionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BackupRestoreTestingPlanRecoveryPointSelectionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_BackupRestoreTestingPlanRecoveryPointSelectionList) validateS
 	return nil
 }
 
-func validateNewBackupRestoreTestingPlanRecoveryPointSelectionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBackupRestoreTestingPlanRecoveryPointSelectionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApprunnerServiceSourceConfigurationAuthenticationConfiguratio
 	return nil
 }
 
-func (a *jsiiProxy_ApprunnerServiceSourceConfigurationAuthenticationConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApprunnerServiceSourceConfigurationAuthenticationConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ApprunnerServiceSourceConfigurationAuthenticationConfiguratio
 	return nil
 }
 
-func (j *jsiiProxy_ApprunnerServiceSourceConfigurationAuthenticationConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApprunnerServiceSourceConfigurationAuthenticationConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApprunnerServiceSourceConfigurationAuthenticationConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApprunnerServiceSourceConfigurationAuthenticationConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

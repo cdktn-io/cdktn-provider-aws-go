@@ -5,14 +5,14 @@ package opensearchdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/opensearchdomain/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/opensearchdomain/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OpensearchDomainOffPeakWindowOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,15 +42,15 @@ type OpensearchDomainOffPeakWindowOptionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,15 +66,15 @@ type OpensearchDomainOffPeakWindowOptionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutOffPeakWindow(value *OpensearchDomainOffPeakWindowOptionsOffPeakWindow)
 	ResetEnabled()
 	ResetOffPeakWindow()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type OpensearchDomainOffPeakWindowOptionsOutputReference interface {
 
 // The jsii proxy struct for OpensearchDomainOffPeakWindowOptionsOutputReference
 type jsiiProxy_OpensearchDomainOffPeakWindowOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOutputReference) Terrafor
 }
 
 
-func NewOpensearchDomainOffPeakWindowOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) OpensearchDomainOffPeakWindowOptionsOutputReference {
+func NewOpensearchDomainOffPeakWindowOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) OpensearchDomainOffPeakWindowOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOpensearchDomainOffPeakWindowOptionsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewOpensearchDomainOffPeakWindowOptionsOutputReference(terraformResource cd
 	return &j
 }
 
-func NewOpensearchDomainOffPeakWindowOptionsOutputReference_Override(o OpensearchDomainOffPeakWindowOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewOpensearchDomainOffPeakWindowOptionsOutputReference_Override(o OpensearchDomainOffPeakWindowOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -320,11 +320,11 @@ func (o *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOutputReference) GetAnyMa
 	return returns
 }
 
-func (o *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -448,8 +448,8 @@ func (o *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOutputReference) GetStrin
 	return returns
 }
 
-func (o *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -461,11 +461,11 @@ func (o *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOutputReference) Interpol
 	return returns
 }
 
-func (o *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -504,7 +504,7 @@ func (o *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOutputReference) ResetOff
 	)
 }
 
-func (o *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OpensearchDomainOffPeakWindowOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

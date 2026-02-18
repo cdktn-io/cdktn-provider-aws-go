@@ -15,7 +15,7 @@ func (c *jsiiProxy_ConfigConfigurationRecorderRecordingGroupRecordingStrategyLis
 	return nil
 }
 
-func (c *jsiiProxy_ConfigConfigurationRecorderRecordingGroupRecordingStrategyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConfigConfigurationRecorderRecordingGroupRecordingStrategyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ConfigConfigurationRecorderRecordingGroupRecordingStrategyLis
 	return nil
 }
 
-func (j *jsiiProxy_ConfigConfigurationRecorderRecordingGroupRecordingStrategyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConfigConfigurationRecorderRecordingGroupRecordingStrategyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ConfigConfigurationRecorderRecordingGroupRecordingStrategyLis
 	return nil
 }
 
-func validateNewConfigConfigurationRecorderRecordingGroupRecordingStrategyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewConfigConfigurationRecorderRecordingGroupRecordingStrategyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

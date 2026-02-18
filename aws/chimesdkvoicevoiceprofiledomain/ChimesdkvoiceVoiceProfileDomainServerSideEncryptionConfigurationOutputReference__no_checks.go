@@ -47,7 +47,7 @@ func (c *jsiiProxy_ChimesdkvoiceVoiceProfileDomainServerSideEncryptionConfigurat
 	return nil
 }
 
-func (c *jsiiProxy_ChimesdkvoiceVoiceProfileDomainServerSideEncryptionConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ChimesdkvoiceVoiceProfileDomainServerSideEncryptionConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ChimesdkvoiceVoiceProfileDomainServerSideEncryptionConfigurat
 	return nil
 }
 
-func (j *jsiiProxy_ChimesdkvoiceVoiceProfileDomainServerSideEncryptionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ChimesdkvoiceVoiceProfileDomainServerSideEncryptionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewChimesdkvoiceVoiceProfileDomainServerSideEncryptionConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewChimesdkvoiceVoiceProfileDomainServerSideEncryptionConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

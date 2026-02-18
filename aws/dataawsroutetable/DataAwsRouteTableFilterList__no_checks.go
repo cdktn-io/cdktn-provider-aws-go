@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsRouteTableFilterList) validateGetParameters(index *flo
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsRouteTableFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsRouteTableFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsRouteTableFilterList) validateSetTerraformAttributePar
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRouteTableFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsRouteTableFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsRouteTableFilterList) validateSetWrapsSetParameters(va
 	return nil
 }
 
-func validateNewDataAwsRouteTableFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsRouteTableFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

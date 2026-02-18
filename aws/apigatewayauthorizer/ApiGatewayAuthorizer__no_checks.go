@@ -123,7 +123,7 @@ func (j *jsiiProxy_ApiGatewayAuthorizer) validateSetIdentityValidationExpression
 	return nil
 }
 
-func (j *jsiiProxy_ApiGatewayAuthorizer) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApiGatewayAuthorizer) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

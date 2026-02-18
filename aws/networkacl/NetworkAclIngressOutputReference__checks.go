@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (n *jsiiProxy_NetworkAclIngressOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (n *jsiiProxy_NetworkAclIngressOutputReference) validateInterpolationForAtt
 	return nil
 }
 
-func (n *jsiiProxy_NetworkAclIngressOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkAclIngressOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -208,7 +208,7 @@ func (j *jsiiProxy_NetworkAclIngressOutputReference) validateSetIcmpTypeParamete
 
 func (j *jsiiProxy_NetworkAclIngressOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *NetworkAclIngress:
 		val := val.(*NetworkAclIngress)
@@ -223,7 +223,7 @@ func (j *jsiiProxy_NetworkAclIngressOutputReference) validateSetInternalValuePar
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *NetworkAclIngress; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *NetworkAclIngress; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -262,7 +262,7 @@ func (j *jsiiProxy_NetworkAclIngressOutputReference) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_NetworkAclIngressOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkAclIngressOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -278,7 +278,7 @@ func (j *jsiiProxy_NetworkAclIngressOutputReference) validateSetToPortParameters
 	return nil
 }
 
-func validateNewNetworkAclIngressOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetworkAclIngressOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

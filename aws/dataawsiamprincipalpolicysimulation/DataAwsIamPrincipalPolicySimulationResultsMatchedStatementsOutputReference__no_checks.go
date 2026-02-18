@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsMatchedStatementsOu
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsMatchedStatementsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsMatchedStatementsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsMatchedStatementsOu
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsMatchedStatementsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsMatchedStatementsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsIamPrincipalPolicySimulationResultsMatchedStatementsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsIamPrincipalPolicySimulationResultsMatchedStatementsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

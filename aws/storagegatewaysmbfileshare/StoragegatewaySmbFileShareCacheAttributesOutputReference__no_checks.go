@@ -47,7 +47,7 @@ func (s *jsiiProxy_StoragegatewaySmbFileShareCacheAttributesOutputReference) val
 	return nil
 }
 
-func (s *jsiiProxy_StoragegatewaySmbFileShareCacheAttributesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StoragegatewaySmbFileShareCacheAttributesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_StoragegatewaySmbFileShareCacheAttributesOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_StoragegatewaySmbFileShareCacheAttributesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StoragegatewaySmbFileShareCacheAttributesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStoragegatewaySmbFileShareCacheAttributesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStoragegatewaySmbFileShareCacheAttributesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

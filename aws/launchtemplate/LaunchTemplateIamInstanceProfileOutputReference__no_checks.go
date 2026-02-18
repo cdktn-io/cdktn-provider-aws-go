@@ -47,7 +47,7 @@ func (l *jsiiProxy_LaunchTemplateIamInstanceProfileOutputReference) validateInte
 	return nil
 }
 
-func (l *jsiiProxy_LaunchTemplateIamInstanceProfileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LaunchTemplateIamInstanceProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_LaunchTemplateIamInstanceProfileOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_LaunchTemplateIamInstanceProfileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LaunchTemplateIamInstanceProfileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLaunchTemplateIamInstanceProfileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLaunchTemplateIamInstanceProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

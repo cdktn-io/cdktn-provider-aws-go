@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOpe
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -198,7 +198,7 @@ func (j *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOpe
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -206,7 +206,7 @@ func (j *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOpe
 	return nil
 }
 
-func validateNewQuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewQuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEfsFileSystemProtectionList) validateGetParameters(ind
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEfsFileSystemProtectionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEfsFileSystemProtectionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsEfsFileSystemProtectionList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEfsFileSystemProtectionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEfsFileSystemProtectionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsEfsFileSystemProtectionList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewDataAwsEfsFileSystemProtectionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEfsFileSystemProtectionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

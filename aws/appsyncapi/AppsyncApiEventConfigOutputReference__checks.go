@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) validatePutAuthProvider
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*AppsyncApiEventConfigAuthProvider:
 		value := value.(*[]*AppsyncApiEventConfigAuthProvider)
@@ -117,7 +117,7 @@ func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) validatePutAuthProvider
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*AppsyncApiEventConfigAuthProvider; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*AppsyncApiEventConfigAuthProvider; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) validatePutConnectionAu
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*AppsyncApiEventConfigConnectionAuthMode:
 		value := value.(*[]*AppsyncApiEventConfigConnectionAuthMode)
@@ -148,7 +148,7 @@ func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) validatePutConnectionAu
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*AppsyncApiEventConfigConnectionAuthMode; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*AppsyncApiEventConfigConnectionAuthMode; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) validatePutDefaultPubli
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*AppsyncApiEventConfigDefaultPublishAuthMode:
 		value := value.(*[]*AppsyncApiEventConfigDefaultPublishAuthMode)
@@ -179,7 +179,7 @@ func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) validatePutDefaultPubli
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*AppsyncApiEventConfigDefaultPublishAuthMode; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*AppsyncApiEventConfigDefaultPublishAuthMode; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -191,7 +191,7 @@ func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) validatePutDefaultSubsc
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*AppsyncApiEventConfigDefaultSubscribeAuthMode:
 		value := value.(*[]*AppsyncApiEventConfigDefaultSubscribeAuthMode)
@@ -210,7 +210,7 @@ func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) validatePutDefaultSubsc
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*AppsyncApiEventConfigDefaultSubscribeAuthMode; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*AppsyncApiEventConfigDefaultSubscribeAuthMode; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) validatePutLogConfigPar
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*AppsyncApiEventConfigLogConfig:
 		value := value.(*[]*AppsyncApiEventConfigLogConfig)
@@ -241,14 +241,14 @@ func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) validatePutLogConfigPar
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*AppsyncApiEventConfigLogConfig; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*AppsyncApiEventConfigLogConfig; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -323,7 +323,7 @@ func (j *jsiiProxy_AppsyncApiEventConfigOutputReference) validateSetComplexObjec
 
 func (j *jsiiProxy_AppsyncApiEventConfigOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *AppsyncApiEventConfig:
 		val := val.(*AppsyncApiEventConfig)
@@ -338,7 +338,7 @@ func (j *jsiiProxy_AppsyncApiEventConfigOutputReference) validateSetInternalValu
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *AppsyncApiEventConfig; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *AppsyncApiEventConfig; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -353,7 +353,7 @@ func (j *jsiiProxy_AppsyncApiEventConfigOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncApiEventConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppsyncApiEventConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -361,7 +361,7 @@ func (j *jsiiProxy_AppsyncApiEventConfigOutputReference) validateSetTerraformRes
 	return nil
 }
 
-func validateNewAppsyncApiEventConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppsyncApiEventConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

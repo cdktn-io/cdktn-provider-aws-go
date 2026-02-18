@@ -47,7 +47,7 @@ func (q *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointTooltipOpt
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointTooltipOptionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointTooltipOptionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointTooltipOpt
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointTooltipOptionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointTooltipOptionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewQuicksightDashboardDashboardPublishOptionsDataPointTooltipOptionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewQuicksightDashboardDashboardPublishOptionsDataPointTooltipOptionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (e *jsiiProxy_EmrserverlessApplicationRuntimeConfigurationOutputReference) 
 	return nil
 }
 
-func (e *jsiiProxy_EmrserverlessApplicationRuntimeConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EmrserverlessApplicationRuntimeConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EmrserverlessApplicationRuntimeConfigurationOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_EmrserverlessApplicationRuntimeConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EmrserverlessApplicationRuntimeConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEmrserverlessApplicationRuntimeConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEmrserverlessApplicationRuntimeConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

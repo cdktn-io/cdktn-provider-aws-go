@@ -5,22 +5,22 @@ package prometheusscraper
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/prometheusscraper/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/prometheusscraper/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/prometheus_scraper aws_prometheus_scraper}.
 type PrometheusScraper interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Alias() *string
 	SetAlias(val *string)
 	AliasInput() *string
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,24 +38,24 @@ type PrometheusScraper interface {
 	Destination() PrometheusScraperDestinationList
 	DestinationInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -75,10 +75,10 @@ type PrometheusScraper interface {
 	SourceInput() interface{}
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
-	TagsAll() cdktf.StringMap
+	TagsAll() cdktn.StringMap
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -93,7 +93,7 @@ type PrometheusScraper interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -111,9 +111,9 @@ type PrometheusScraper interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -157,7 +157,7 @@ type PrometheusScraper interface {
 
 // The jsii proxy struct for PrometheusScraper
 type jsiiProxy_PrometheusScraper struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_PrometheusScraper) Alias() *string {
@@ -190,8 +190,8 @@ func (j *jsiiProxy_PrometheusScraper) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_PrometheusScraper) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_PrometheusScraper) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -260,8 +260,8 @@ func (j *jsiiProxy_PrometheusScraper) DestinationInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_PrometheusScraper) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_PrometheusScraper) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -300,8 +300,8 @@ func (j *jsiiProxy_PrometheusScraper) Id() *string {
 	return returns
 }
 
-func (j *jsiiProxy_PrometheusScraper) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_PrometheusScraper) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -320,8 +320,8 @@ func (j *jsiiProxy_PrometheusScraper) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_PrometheusScraper) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_PrometheusScraper) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -450,8 +450,8 @@ func (j *jsiiProxy_PrometheusScraper) Tags() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_PrometheusScraper) TagsAll() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_PrometheusScraper) TagsAll() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tagsAll",
@@ -470,8 +470,8 @@ func (j *jsiiProxy_PrometheusScraper) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_PrometheusScraper) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_PrometheusScraper) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -591,7 +591,7 @@ func (j *jsiiProxy_PrometheusScraper)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_PrometheusScraper)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_PrometheusScraper)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -599,7 +599,7 @@ func (j *jsiiProxy_PrometheusScraper)SetForEach(val cdktf.ITerraformIterator) {
 	)
 }
 
-func (j *jsiiProxy_PrometheusScraper)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_PrometheusScraper)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -610,7 +610,7 @@ func (j *jsiiProxy_PrometheusScraper)SetLifecycle(val *cdktf.TerraformResourceLi
 	)
 }
 
-func (j *jsiiProxy_PrometheusScraper)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_PrometheusScraper)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -662,14 +662,14 @@ func (j *jsiiProxy_PrometheusScraper)SetTags(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a PrometheusScraper resource upon running "cdktf plan <stack-name>".
-func PrometheusScraper_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a PrometheusScraper resource upon running "cdktn plan <stack-name>".
+func PrometheusScraper_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validatePrometheusScraper_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.prometheusScraper.PrometheusScraper",
@@ -803,11 +803,11 @@ func (p *jsiiProxy_PrometheusScraper) GetAnyMapAttribute(terraformAttribute *str
 	return returns
 }
 
-func (p *jsiiProxy_PrometheusScraper) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrometheusScraper) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -944,7 +944,7 @@ func (p *jsiiProxy_PrometheusScraper) HasResourceMove() interface{} {
 	return returns
 }
 
-func (p *jsiiProxy_PrometheusScraper) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (p *jsiiProxy_PrometheusScraper) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := p.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -955,11 +955,11 @@ func (p *jsiiProxy_PrometheusScraper) ImportFrom(id *string, provider cdktf.Terr
 	)
 }
 
-func (p *jsiiProxy_PrometheusScraper) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrometheusScraper) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,

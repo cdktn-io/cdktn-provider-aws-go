@@ -47,7 +47,7 @@ func (p *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersDeadLetterCo
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersDeadLetterConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersDeadLetterConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersDeadLetterCo
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersDeadLetterConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersDeadLetterConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPipesPipeSourceParametersDynamodbStreamParametersDeadLetterConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPipesPipeSourceParametersDynamodbStreamParametersDeadLetterConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

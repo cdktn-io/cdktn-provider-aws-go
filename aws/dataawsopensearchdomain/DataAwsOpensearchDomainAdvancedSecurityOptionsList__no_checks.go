@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsOpensearchDomainAdvancedSecurityOptionsList) validateG
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsOpensearchDomainAdvancedSecurityOptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsOpensearchDomainAdvancedSecurityOptionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsOpensearchDomainAdvancedSecurityOptionsList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOpensearchDomainAdvancedSecurityOptionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsOpensearchDomainAdvancedSecurityOptionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsOpensearchDomainAdvancedSecurityOptionsList) validateS
 	return nil
 }
 
-func validateNewDataAwsOpensearchDomainAdvancedSecurityOptionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsOpensearchDomainAdvancedSecurityOptionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

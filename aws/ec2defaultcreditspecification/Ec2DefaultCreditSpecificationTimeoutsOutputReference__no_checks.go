@@ -47,7 +47,7 @@ func (e *jsiiProxy_Ec2DefaultCreditSpecificationTimeoutsOutputReference) validat
 	return nil
 }
 
-func (e *jsiiProxy_Ec2DefaultCreditSpecificationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_Ec2DefaultCreditSpecificationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_Ec2DefaultCreditSpecificationTimeoutsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_Ec2DefaultCreditSpecificationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Ec2DefaultCreditSpecificationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_Ec2DefaultCreditSpecificationTimeoutsOutputReference) validat
 	return nil
 }
 
-func validateNewEc2DefaultCreditSpecificationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEc2DefaultCreditSpecificationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

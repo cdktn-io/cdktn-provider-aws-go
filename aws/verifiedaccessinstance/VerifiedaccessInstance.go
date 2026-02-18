@@ -5,18 +5,18 @@ package verifiedaccessinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/verifiedaccessinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/verifiedaccessinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/verifiedaccess_instance aws_verifiedaccess_instance}.
 type VerifiedaccessInstance interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CidrEndpointsCustomSubdomain() *string
 	SetCidrEndpointsCustomSubdomain(val *string)
 	CidrEndpointsCustomSubdomainInput() *string
@@ -42,9 +42,9 @@ type VerifiedaccessInstance interface {
 	SetFipsEnabled(val interface{})
 	FipsEnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -54,16 +54,16 @@ type VerifiedaccessInstance interface {
 	IdInput() *string
 	LastUpdatedTime() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	NameServers() *[]*string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -80,7 +80,7 @@ type VerifiedaccessInstance interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -94,7 +94,7 @@ type VerifiedaccessInstance interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -112,9 +112,9 @@ type VerifiedaccessInstance interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -154,11 +154,11 @@ type VerifiedaccessInstance interface {
 
 // The jsii proxy struct for VerifiedaccessInstance
 type jsiiProxy_VerifiedaccessInstance struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_VerifiedaccessInstance) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_VerifiedaccessInstance) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -277,8 +277,8 @@ func (j *jsiiProxy_VerifiedaccessInstance) FipsEnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_VerifiedaccessInstance) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_VerifiedaccessInstance) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -337,8 +337,8 @@ func (j *jsiiProxy_VerifiedaccessInstance) LastUpdatedTime() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VerifiedaccessInstance) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_VerifiedaccessInstance) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -367,8 +367,8 @@ func (j *jsiiProxy_VerifiedaccessInstance) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_VerifiedaccessInstance) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_VerifiedaccessInstance) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -457,8 +457,8 @@ func (j *jsiiProxy_VerifiedaccessInstance) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_VerifiedaccessInstance) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_VerifiedaccessInstance) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -590,7 +590,7 @@ func (j *jsiiProxy_VerifiedaccessInstance)SetFipsEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_VerifiedaccessInstance)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_VerifiedaccessInstance)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -609,7 +609,7 @@ func (j *jsiiProxy_VerifiedaccessInstance)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_VerifiedaccessInstance)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_VerifiedaccessInstance)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -620,7 +620,7 @@ func (j *jsiiProxy_VerifiedaccessInstance)SetLifecycle(val *cdktf.TerraformResou
 	)
 }
 
-func (j *jsiiProxy_VerifiedaccessInstance)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_VerifiedaccessInstance)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -672,14 +672,14 @@ func (j *jsiiProxy_VerifiedaccessInstance)SetTagsAll(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a VerifiedaccessInstance resource upon running "cdktf plan <stack-name>".
-func VerifiedaccessInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a VerifiedaccessInstance resource upon running "cdktn plan <stack-name>".
+func VerifiedaccessInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateVerifiedaccessInstance_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.verifiedaccessInstance.VerifiedaccessInstance",
@@ -813,11 +813,11 @@ func (v *jsiiProxy_VerifiedaccessInstance) GetAnyMapAttribute(terraformAttribute
 	return returns
 }
 
-func (v *jsiiProxy_VerifiedaccessInstance) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VerifiedaccessInstance) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -954,7 +954,7 @@ func (v *jsiiProxy_VerifiedaccessInstance) HasResourceMove() interface{} {
 	return returns
 }
 
-func (v *jsiiProxy_VerifiedaccessInstance) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (v *jsiiProxy_VerifiedaccessInstance) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := v.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -965,11 +965,11 @@ func (v *jsiiProxy_VerifiedaccessInstance) ImportFrom(id *string, provider cdktf
 	)
 }
 
-func (v *jsiiProxy_VerifiedaccessInstance) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VerifiedaccessInstance) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,

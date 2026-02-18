@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsGlueDataCatalogEncryptionSettings) validateSetIdParame
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsGlueDataCatalogEncryptionSettings) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsGlueDataCatalogEncryptionSettings) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

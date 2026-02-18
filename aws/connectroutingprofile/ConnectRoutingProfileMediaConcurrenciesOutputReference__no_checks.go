@@ -51,7 +51,7 @@ func (c *jsiiProxy_ConnectRoutingProfileMediaConcurrenciesOutputReference) valid
 	return nil
 }
 
-func (c *jsiiProxy_ConnectRoutingProfileMediaConcurrenciesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConnectRoutingProfileMediaConcurrenciesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ConnectRoutingProfileMediaConcurrenciesOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_ConnectRoutingProfileMediaConcurrenciesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConnectRoutingProfileMediaConcurrenciesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewConnectRoutingProfileMediaConcurrenciesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewConnectRoutingProfileMediaConcurrenciesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

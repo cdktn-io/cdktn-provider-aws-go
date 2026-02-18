@@ -47,7 +47,7 @@ func (m *jsiiProxy_MedialiveMultiplexProgramTimeoutsOutputReference) validateInt
 	return nil
 }
 
-func (m *jsiiProxy_MedialiveMultiplexProgramTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MedialiveMultiplexProgramTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_MedialiveMultiplexProgramTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_MedialiveMultiplexProgramTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MedialiveMultiplexProgramTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMedialiveMultiplexProgramTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMedialiveMultiplexProgramTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

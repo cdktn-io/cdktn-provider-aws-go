@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsEksNodeGroup) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEksNodeGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsEksNodeGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

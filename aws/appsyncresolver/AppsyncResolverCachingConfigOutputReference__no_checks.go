@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppsyncResolverCachingConfigOutputReference) validateInterpol
 	return nil
 }
 
-func (a *jsiiProxy_AppsyncResolverCachingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppsyncResolverCachingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_AppsyncResolverCachingConfigOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncResolverCachingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppsyncResolverCachingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AppsyncResolverCachingConfigOutputReference) validateSetTtlPa
 	return nil
 }
 
-func validateNewAppsyncResolverCachingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppsyncResolverCachingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

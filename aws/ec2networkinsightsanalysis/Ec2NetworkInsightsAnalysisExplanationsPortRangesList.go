@@ -5,14 +5,14 @@ package ec2networkinsightsanalysis
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ec2networkinsightsanalysis/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ec2networkinsightsanalysis/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Ec2NetworkInsightsAnalysisExplanationsPortRangesList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type Ec2NetworkInsightsAnalysisExplanationsPortRangesList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type Ec2NetworkInsightsAnalysisExplanationsPortRangesList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) Ec2NetworkInsightsAnalysisExplanationsPortRangesOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type Ec2NetworkInsightsAnalysisExplanationsPortRangesList interface {
 
 // The jsii proxy struct for Ec2NetworkInsightsAnalysisExplanationsPortRangesList
 type jsiiProxy_Ec2NetworkInsightsAnalysisExplanationsPortRangesList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_Ec2NetworkInsightsAnalysisExplanationsPortRangesList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_Ec2NetworkInsightsAnalysisExplanationsPortRangesList) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_Ec2NetworkInsightsAnalysisExplanationsPortRangesList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Ec2NetworkInsightsAnalysisExplanationsPortRangesList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_Ec2NetworkInsightsAnalysisExplanationsPortRangesList) WrapsSe
 }
 
 
-func NewEc2NetworkInsightsAnalysisExplanationsPortRangesList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2NetworkInsightsAnalysisExplanationsPortRangesList {
+func NewEc2NetworkInsightsAnalysisExplanationsPortRangesList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2NetworkInsightsAnalysisExplanationsPortRangesList {
 	_init_.Initialize()
 
 	if err := validateNewEc2NetworkInsightsAnalysisExplanationsPortRangesListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewEc2NetworkInsightsAnalysisExplanationsPortRangesList(terraformResource c
 	return &j
 }
 
-func NewEc2NetworkInsightsAnalysisExplanationsPortRangesList_Override(e Ec2NetworkInsightsAnalysisExplanationsPortRangesList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewEc2NetworkInsightsAnalysisExplanationsPortRangesList_Override(e Ec2NetworkInsightsAnalysisExplanationsPortRangesList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_Ec2NetworkInsightsAnalysisExplanationsPortRangesList)SetTerra
 	)
 }
 
-func (j *jsiiProxy_Ec2NetworkInsightsAnalysisExplanationsPortRangesList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Ec2NetworkInsightsAnalysisExplanationsPortRangesList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_Ec2NetworkInsightsAnalysisExplanationsPortRangesList)SetWraps
 	)
 }
 
-func (e *jsiiProxy_Ec2NetworkInsightsAnalysisExplanationsPortRangesList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (e *jsiiProxy_Ec2NetworkInsightsAnalysisExplanationsPortRangesList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := e.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		e,
@@ -208,7 +208,7 @@ func (e *jsiiProxy_Ec2NetworkInsightsAnalysisExplanationsPortRangesList) Get(ind
 	return returns
 }
 
-func (e *jsiiProxy_Ec2NetworkInsightsAnalysisExplanationsPortRangesList) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_Ec2NetworkInsightsAnalysisExplanationsPortRangesList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

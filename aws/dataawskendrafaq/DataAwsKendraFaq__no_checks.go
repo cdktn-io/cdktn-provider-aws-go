@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsKendraFaq) validateSetIndexIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsKendraFaq) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsKendraFaq) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

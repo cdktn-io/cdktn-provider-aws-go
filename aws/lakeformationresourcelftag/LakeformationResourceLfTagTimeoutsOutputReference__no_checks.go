@@ -47,7 +47,7 @@ func (l *jsiiProxy_LakeformationResourceLfTagTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (l *jsiiProxy_LakeformationResourceLfTagTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LakeformationResourceLfTagTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_LakeformationResourceLfTagTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_LakeformationResourceLfTagTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LakeformationResourceLfTagTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLakeformationResourceLfTagTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLakeformationResourceLfTagTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

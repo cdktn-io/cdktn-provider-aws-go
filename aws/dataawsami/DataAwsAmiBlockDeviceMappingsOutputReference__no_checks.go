@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsAmiBlockDeviceMappingsOutputReference) validateInterpo
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAmiBlockDeviceMappingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAmiBlockDeviceMappingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsAmiBlockDeviceMappingsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAmiBlockDeviceMappingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAmiBlockDeviceMappingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsAmiBlockDeviceMappingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsAmiBlockDeviceMappingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package cleanroomsmembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/cleanroomsmembership/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/cleanroomsmembership/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputRefe
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,14 +63,14 @@ type CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputRefe
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutS3(value interface{})
 	ResetS3()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputRefe
 
 // The jsii proxy struct for CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference
 type jsiiProxy_CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_CleanroomsMembershipDefaultResultConfigurationOutputConfigura
 	return returns
 }
 
-func (j *jsiiProxy_CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_CleanroomsMembershipDefaultResultConfigurationOutputConfigura
 }
 
 
-func NewCleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference {
+func NewCleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -191,7 +191,7 @@ func NewCleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputR
 	return &j
 }
 
-func NewCleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference_Override(c CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewCleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference_Override(c CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_CleanroomsMembershipDefaultResultConfigurationOutputConfigura
 	)
 }
 
-func (j *jsiiProxy_CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -285,11 +285,11 @@ func (c *jsiiProxy_CleanroomsMembershipDefaultResultConfigurationOutputConfigura
 	return returns
 }
 
-func (c *jsiiProxy_CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -413,8 +413,8 @@ func (c *jsiiProxy_CleanroomsMembershipDefaultResultConfigurationOutputConfigura
 	return returns
 }
 
-func (c *jsiiProxy_CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -426,11 +426,11 @@ func (c *jsiiProxy_CleanroomsMembershipDefaultResultConfigurationOutputConfigura
 	return returns
 }
 
-func (c *jsiiProxy_CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -461,7 +461,7 @@ func (c *jsiiProxy_CleanroomsMembershipDefaultResultConfigurationOutputConfigura
 	)
 }
 
-func (c *jsiiProxy_CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

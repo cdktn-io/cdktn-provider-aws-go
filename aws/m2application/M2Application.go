@@ -5,20 +5,20 @@ package m2application
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/m2application/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/m2application/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/m2_application aws_m2_application}.
 type M2Application interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApplicationId() *string
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -43,9 +43,9 @@ type M2Application interface {
 	SetEngineType(val *string)
 	EngineTypeInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -55,18 +55,18 @@ type M2Application interface {
 	SetKmsKeyId(val *string)
 	KmsKeyIdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -81,10 +81,10 @@ type M2Application interface {
 	RoleArnInput() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
-	TagsAll() cdktf.StringMap
+	TagsAll() cdktn.StringMap
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -99,7 +99,7 @@ type M2Application interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -117,9 +117,9 @@ type M2Application interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -161,7 +161,7 @@ type M2Application interface {
 
 // The jsii proxy struct for M2Application
 type jsiiProxy_M2Application struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_M2Application) ApplicationId() *string {
@@ -184,8 +184,8 @@ func (j *jsiiProxy_M2Application) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_M2Application) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_M2Application) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -304,8 +304,8 @@ func (j *jsiiProxy_M2Application) EngineTypeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_M2Application) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_M2Application) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -364,8 +364,8 @@ func (j *jsiiProxy_M2Application) KmsKeyIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_M2Application) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_M2Application) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -404,8 +404,8 @@ func (j *jsiiProxy_M2Application) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_M2Application) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_M2Application) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -484,8 +484,8 @@ func (j *jsiiProxy_M2Application) Tags() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_M2Application) TagsAll() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_M2Application) TagsAll() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tagsAll",
@@ -504,8 +504,8 @@ func (j *jsiiProxy_M2Application) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_M2Application) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_M2Application) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -636,7 +636,7 @@ func (j *jsiiProxy_M2Application)SetEngineType(val *string) {
 	)
 }
 
-func (j *jsiiProxy_M2Application)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_M2Application)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -655,7 +655,7 @@ func (j *jsiiProxy_M2Application)SetKmsKeyId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_M2Application)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_M2Application)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -677,7 +677,7 @@ func (j *jsiiProxy_M2Application)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_M2Application)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_M2Application)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -729,14 +729,14 @@ func (j *jsiiProxy_M2Application)SetTags(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a M2Application resource upon running "cdktf plan <stack-name>".
-func M2Application_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a M2Application resource upon running "cdktn plan <stack-name>".
+func M2Application_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateM2Application_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.m2Application.M2Application",
@@ -870,11 +870,11 @@ func (m *jsiiProxy_M2Application) GetAnyMapAttribute(terraformAttribute *string)
 	return returns
 }
 
-func (m *jsiiProxy_M2Application) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_M2Application) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -1011,7 +1011,7 @@ func (m *jsiiProxy_M2Application) HasResourceMove() interface{} {
 	return returns
 }
 
-func (m *jsiiProxy_M2Application) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (m *jsiiProxy_M2Application) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := m.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1022,11 +1022,11 @@ func (m *jsiiProxy_M2Application) ImportFrom(id *string, provider cdktf.Terrafor
 	)
 }
 
-func (m *jsiiProxy_M2Application) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_M2Application) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,

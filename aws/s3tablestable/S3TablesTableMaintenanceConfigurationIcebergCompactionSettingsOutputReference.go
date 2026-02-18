@@ -5,14 +5,14 @@ package s3tablestable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/s3tablestable/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/s3tablestable/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReferen
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReferen
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetTargetFileSizeMb()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReferen
 
 // The jsii proxy struct for S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference
 type jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionSetting
 	return returns
 }
 
-func (j *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionSetting
 }
 
 
-func NewS3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference {
+func NewS3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewS3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewS3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputRefe
 	return &j
 }
 
-func NewS3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference_Override(s S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewS3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference_Override(s S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionSetting
 	)
 }
 
-func (j *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (s *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionSetting
 	return returns
 }
 
-func (s *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -424,8 +424,8 @@ func (s *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionSetting
 	return returns
 }
 
-func (s *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -437,11 +437,11 @@ func (s *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionSetting
 	return returns
 }
 
-func (s *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -461,7 +461,7 @@ func (s *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionSetting
 	)
 }
 
-func (s *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

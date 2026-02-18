@@ -103,7 +103,7 @@ func (j *jsiiProxy_LoadBalancerListenerPolicy) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_LoadBalancerListenerPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LoadBalancerListenerPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

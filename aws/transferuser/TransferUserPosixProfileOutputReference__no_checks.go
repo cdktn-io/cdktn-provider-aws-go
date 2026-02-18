@@ -47,7 +47,7 @@ func (t *jsiiProxy_TransferUserPosixProfileOutputReference) validateInterpolatio
 	return nil
 }
 
-func (t *jsiiProxy_TransferUserPosixProfileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TransferUserPosixProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_TransferUserPosixProfileOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_TransferUserPosixProfileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TransferUserPosixProfileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_TransferUserPosixProfileOutputReference) validateSetUidParame
 	return nil
 }
 
-func validateNewTransferUserPosixProfileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTransferUserPosixProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

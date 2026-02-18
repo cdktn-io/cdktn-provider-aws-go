@@ -5,14 +5,14 @@ package arcregionswitchplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/arcregionswitchplan/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/arcregionswitchplan/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Behavior() *string
 	SetBehavior(val *string)
 	BehaviorInput() *string
@@ -52,9 +52,9 @@ type ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TimeoutMinutes() *float64
 	SetTimeoutMinutes(val *float64)
 	TimeoutMinutesInput() *float64
@@ -65,7 +65,7 @@ type ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference interface 
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -81,9 +81,9 @@ type ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutUngraceful(value interface{})
 	ResetCrossAccountRole()
 	ResetExternalId()
@@ -91,7 +91,7 @@ type ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference interface 
 	ResetUngraceful()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -101,7 +101,7 @@ type ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference interface 
 
 // The jsii proxy struct for ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference
 type jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference) Behavior() *string {
@@ -264,8 +264,8 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -315,7 +315,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputRefere
 }
 
 
-func NewArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference {
+func NewArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -332,7 +332,7 @@ func NewArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference(terrafo
 	return &j
 }
 
-func NewArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference_Override(a ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference_Override(a ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -441,7 +441,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputRefere
 	)
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -492,11 +492,11 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputRefere
 	return returns
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -620,8 +620,8 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputRefere
 	return returns
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -633,11 +633,11 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputRefere
 	return returns
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -692,7 +692,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputRefere
 	)
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (s *jsiiProxy_ServicecatalogServiceActionDefinitionOutputReference) validat
 	return nil
 }
 
-func (s *jsiiProxy_ServicecatalogServiceActionDefinitionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServicecatalogServiceActionDefinitionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ServicecatalogServiceActionDefinitionOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_ServicecatalogServiceActionDefinitionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServicecatalogServiceActionDefinitionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_ServicecatalogServiceActionDefinitionOutputReference) validat
 	return nil
 }
 
-func validateNewServicecatalogServiceActionDefinitionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewServicecatalogServiceActionDefinitionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

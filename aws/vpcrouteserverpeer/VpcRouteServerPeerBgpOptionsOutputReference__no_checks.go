@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpcRouteServerPeerBgpOptionsOutputReference) validateInterpol
 	return nil
 }
 
-func (v *jsiiProxy_VpcRouteServerPeerBgpOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpcRouteServerPeerBgpOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VpcRouteServerPeerBgpOptionsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_VpcRouteServerPeerBgpOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpcRouteServerPeerBgpOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpcRouteServerPeerBgpOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVpcRouteServerPeerBgpOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

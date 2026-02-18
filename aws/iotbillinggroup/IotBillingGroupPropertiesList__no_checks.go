@@ -15,7 +15,7 @@ func (i *jsiiProxy_IotBillingGroupPropertiesList) validateGetParameters(index *f
 	return nil
 }
 
-func (i *jsiiProxy_IotBillingGroupPropertiesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotBillingGroupPropertiesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_IotBillingGroupPropertiesList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_IotBillingGroupPropertiesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotBillingGroupPropertiesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_IotBillingGroupPropertiesList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewIotBillingGroupPropertiesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIotBillingGroupPropertiesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

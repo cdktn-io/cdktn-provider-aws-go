@@ -107,7 +107,7 @@ func (j *jsiiProxy_NetworkInterfacePermission) validateSetCountParameters(val in
 	return nil
 }
 
-func (j *jsiiProxy_NetworkInterfacePermission) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkInterfacePermission) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

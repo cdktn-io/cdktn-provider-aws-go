@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsDevopsguruResourceCollection) validateSetCountParamete
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDevopsguruResourceCollection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsDevopsguruResourceCollection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -55,7 +55,7 @@ func (w *jsiiProxy_WafregionalWebAclRuleOutputReference) validatePutOverrideActi
 	return nil
 }
 
-func (w *jsiiProxy_WafregionalWebAclRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WafregionalWebAclRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_WafregionalWebAclRuleOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_WafregionalWebAclRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WafregionalWebAclRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_WafregionalWebAclRuleOutputReference) validateSetTypeParamete
 	return nil
 }
 
-func validateNewWafregionalWebAclRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWafregionalWebAclRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

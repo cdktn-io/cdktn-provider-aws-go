@@ -5,16 +5,16 @@ package appfabricappauthorization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/appfabricappauthorization/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appfabricappauthorization/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/appfabric_app_authorization aws_appfabric_app_authorization}.
 type AppfabricAppAuthorization interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	App() *string
 	SetApp(val *string)
 	AppBundleArn() *string
@@ -27,7 +27,7 @@ type AppfabricAppAuthorization interface {
 	AuthTypeInput() *string
 	AuthUrl() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -46,25 +46,25 @@ type AppfabricAppAuthorization interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	Persona() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -76,12 +76,12 @@ type AppfabricAppAuthorization interface {
 	RegionInput() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
-	TagsAll() cdktf.StringMap
+	TagsAll() cdktn.StringMap
 	TagsInput() *map[string]*string
 	Tenant() AppfabricAppAuthorizationTenantList
 	TenantInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -97,7 +97,7 @@ type AppfabricAppAuthorization interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -115,9 +115,9 @@ type AppfabricAppAuthorization interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -158,7 +158,7 @@ type AppfabricAppAuthorization interface {
 
 // The jsii proxy struct for AppfabricAppAuthorization
 type jsiiProxy_AppfabricAppAuthorization struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_AppfabricAppAuthorization) App() *string {
@@ -241,8 +241,8 @@ func (j *jsiiProxy_AppfabricAppAuthorization) AuthUrl() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AppfabricAppAuthorization) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_AppfabricAppAuthorization) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -321,8 +321,8 @@ func (j *jsiiProxy_AppfabricAppAuthorization) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_AppfabricAppAuthorization) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_AppfabricAppAuthorization) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -361,8 +361,8 @@ func (j *jsiiProxy_AppfabricAppAuthorization) Id() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AppfabricAppAuthorization) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_AppfabricAppAuthorization) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -391,8 +391,8 @@ func (j *jsiiProxy_AppfabricAppAuthorization) Persona() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AppfabricAppAuthorization) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_AppfabricAppAuthorization) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -451,8 +451,8 @@ func (j *jsiiProxy_AppfabricAppAuthorization) Tags() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_AppfabricAppAuthorization) TagsAll() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_AppfabricAppAuthorization) TagsAll() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tagsAll",
@@ -491,8 +491,8 @@ func (j *jsiiProxy_AppfabricAppAuthorization) TenantInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_AppfabricAppAuthorization) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_AppfabricAppAuthorization) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -644,7 +644,7 @@ func (j *jsiiProxy_AppfabricAppAuthorization)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_AppfabricAppAuthorization)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_AppfabricAppAuthorization)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -652,7 +652,7 @@ func (j *jsiiProxy_AppfabricAppAuthorization)SetForEach(val cdktf.ITerraformIter
 	)
 }
 
-func (j *jsiiProxy_AppfabricAppAuthorization)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_AppfabricAppAuthorization)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -663,7 +663,7 @@ func (j *jsiiProxy_AppfabricAppAuthorization)SetLifecycle(val *cdktf.TerraformRe
 	)
 }
 
-func (j *jsiiProxy_AppfabricAppAuthorization)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_AppfabricAppAuthorization)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -704,14 +704,14 @@ func (j *jsiiProxy_AppfabricAppAuthorization)SetTags(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a AppfabricAppAuthorization resource upon running "cdktf plan <stack-name>".
-func AppfabricAppAuthorization_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a AppfabricAppAuthorization resource upon running "cdktn plan <stack-name>".
+func AppfabricAppAuthorization_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateAppfabricAppAuthorization_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorization",
@@ -845,11 +845,11 @@ func (a *jsiiProxy_AppfabricAppAuthorization) GetAnyMapAttribute(terraformAttrib
 	return returns
 }
 
-func (a *jsiiProxy_AppfabricAppAuthorization) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppfabricAppAuthorization) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -986,7 +986,7 @@ func (a *jsiiProxy_AppfabricAppAuthorization) HasResourceMove() interface{} {
 	return returns
 }
 
-func (a *jsiiProxy_AppfabricAppAuthorization) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_AppfabricAppAuthorization) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -997,11 +997,11 @@ func (a *jsiiProxy_AppfabricAppAuthorization) ImportFrom(id *string, provider cd
 	)
 }
 
-func (a *jsiiProxy_AppfabricAppAuthorization) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppfabricAppAuthorization) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

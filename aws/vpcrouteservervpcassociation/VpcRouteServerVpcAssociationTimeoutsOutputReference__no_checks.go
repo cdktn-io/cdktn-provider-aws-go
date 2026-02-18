@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpcRouteServerVpcAssociationTimeoutsOutputReference) validate
 	return nil
 }
 
-func (v *jsiiProxy_VpcRouteServerVpcAssociationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpcRouteServerVpcAssociationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VpcRouteServerVpcAssociationTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_VpcRouteServerVpcAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpcRouteServerVpcAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpcRouteServerVpcAssociationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpcRouteServerVpcAssociationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

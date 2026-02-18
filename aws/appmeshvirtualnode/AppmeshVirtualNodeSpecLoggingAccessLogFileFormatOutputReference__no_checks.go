@@ -51,7 +51,7 @@ func (a *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogFileFormatOutputReferen
 	return nil
 }
 
-func (a *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogFileFormatOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogFileFormatOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogFileFormatOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogFileFormatOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogFileFormatOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogFileFormatOutputReferen
 	return nil
 }
 
-func validateNewAppmeshVirtualNodeSpecLoggingAccessLogFileFormatOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppmeshVirtualNodeSpecLoggingAccessLogFileFormatOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

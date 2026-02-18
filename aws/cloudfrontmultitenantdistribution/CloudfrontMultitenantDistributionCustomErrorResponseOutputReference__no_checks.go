@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudfrontMultitenantDistributionCustomErrorResponseOutputRef
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontMultitenantDistributionCustomErrorResponseOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontMultitenantDistributionCustomErrorResponseOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_CloudfrontMultitenantDistributionCustomErrorResponseOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontMultitenantDistributionCustomErrorResponseOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontMultitenantDistributionCustomErrorResponseOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudfrontMultitenantDistributionCustomErrorResponseOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudfrontMultitenantDistributionCustomErrorResponseOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

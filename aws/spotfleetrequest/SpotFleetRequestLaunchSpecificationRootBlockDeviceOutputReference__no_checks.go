@@ -47,7 +47,7 @@ func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationRootBlockDeviceOutputRefer
 	return nil
 }
 
-func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationRootBlockDeviceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationRootBlockDeviceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationRootBlockDeviceOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationRootBlockDeviceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationRootBlockDeviceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationRootBlockDeviceOutputRefer
 	return nil
 }
 
-func validateNewSpotFleetRequestLaunchSpecificationRootBlockDeviceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSpotFleetRequestLaunchSpecificationRootBlockDeviceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

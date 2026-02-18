@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsVpcEndpointAssociations) validateSetCountParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVpcEndpointAssociations) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsVpcEndpointAssociations) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

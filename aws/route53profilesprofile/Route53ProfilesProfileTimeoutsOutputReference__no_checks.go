@@ -47,7 +47,7 @@ func (r *jsiiProxy_Route53ProfilesProfileTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (r *jsiiProxy_Route53ProfilesProfileTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_Route53ProfilesProfileTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_Route53ProfilesProfileTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_Route53ProfilesProfileTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Route53ProfilesProfileTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRoute53ProfilesProfileTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRoute53ProfilesProfileTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

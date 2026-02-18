@@ -47,7 +47,7 @@ func (m *jsiiProxy_MqBrokerLogsOutputReference) validateInterpolationForAttribut
 	return nil
 }
 
-func (m *jsiiProxy_MqBrokerLogsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MqBrokerLogsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_MqBrokerLogsOutputReference) validateSetTerraformAttributePar
 	return nil
 }
 
-func (j *jsiiProxy_MqBrokerLogsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MqBrokerLogsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMqBrokerLogsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMqBrokerLogsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

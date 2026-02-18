@@ -47,7 +47,7 @@ func (s *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) val
 	return nil
 }
 
-func (s *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSecretsmanagerSecretRotationRotationRulesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSecretsmanagerSecretRotationRotationRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

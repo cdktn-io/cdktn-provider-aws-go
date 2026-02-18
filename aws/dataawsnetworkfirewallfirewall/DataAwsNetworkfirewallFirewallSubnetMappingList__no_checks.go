@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsNetworkfirewallFirewallSubnetMappingList) validateGetP
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsNetworkfirewallFirewallSubnetMappingList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsNetworkfirewallFirewallSubnetMappingList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsNetworkfirewallFirewallSubnetMappingList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsNetworkfirewallFirewallSubnetMappingList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsNetworkfirewallFirewallSubnetMappingList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsNetworkfirewallFirewallSubnetMappingList) validateSetW
 	return nil
 }
 
-func validateNewDataAwsNetworkfirewallFirewallSubnetMappingListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsNetworkfirewallFirewallSubnetMappingListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

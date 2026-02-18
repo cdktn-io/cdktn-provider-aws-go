@@ -47,7 +47,7 @@ func (l *jsiiProxy_LightsailDistributionOriginOutputReference) validateInterpola
 	return nil
 }
 
-func (l *jsiiProxy_LightsailDistributionOriginOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LightsailDistributionOriginOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_LightsailDistributionOriginOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_LightsailDistributionOriginOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LightsailDistributionOriginOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLightsailDistributionOriginOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLightsailDistributionOriginOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

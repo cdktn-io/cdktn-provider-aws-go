@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsWafregionalIpset) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsWafregionalIpset) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsWafregionalIpset) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

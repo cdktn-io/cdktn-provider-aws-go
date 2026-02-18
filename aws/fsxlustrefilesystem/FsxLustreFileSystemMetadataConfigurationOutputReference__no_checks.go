@@ -47,7 +47,7 @@ func (f *jsiiProxy_FsxLustreFileSystemMetadataConfigurationOutputReference) vali
 	return nil
 }
 
-func (f *jsiiProxy_FsxLustreFileSystemMetadataConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FsxLustreFileSystemMetadataConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_FsxLustreFileSystemMetadataConfigurationOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_FsxLustreFileSystemMetadataConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FsxLustreFileSystemMetadataConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFsxLustreFileSystemMetadataConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFsxLustreFileSystemMetadataConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (v *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) validateInte
 	return nil
 }
 
-func (v *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVerifiedaccessEndpointRdsOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVerifiedaccessEndpointRdsOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (s *jsiiProxy_SsmincidentsResponsePlanIntegrationPagerdutyList) validateGet
 	return nil
 }
 
-func (s *jsiiProxy_SsmincidentsResponsePlanIntegrationPagerdutyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsmincidentsResponsePlanIntegrationPagerdutyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SsmincidentsResponsePlanIntegrationPagerdutyList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_SsmincidentsResponsePlanIntegrationPagerdutyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsmincidentsResponsePlanIntegrationPagerdutyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SsmincidentsResponsePlanIntegrationPagerdutyList) validateSet
 	return nil
 }
 
-func validateNewSsmincidentsResponsePlanIntegrationPagerdutyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSsmincidentsResponsePlanIntegrationPagerdutyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

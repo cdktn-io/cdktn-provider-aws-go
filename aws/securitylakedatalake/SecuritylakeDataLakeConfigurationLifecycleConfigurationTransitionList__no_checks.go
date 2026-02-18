@@ -15,7 +15,7 @@ func (s *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationTransi
 	return nil
 }
 
-func (s *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationTransitionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationTransitionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationTransi
 	return nil
 }
 
-func (j *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationTransitionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationTransitionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationTransi
 	return nil
 }
 
-func validateNewSecuritylakeDataLakeConfigurationLifecycleConfigurationTransitionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSecuritylakeDataLakeConfigurationLifecycleConfigurationTransitionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

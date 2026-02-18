@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_SagemakerModelPrimaryContainerImageConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -104,7 +104,7 @@ func (s *jsiiProxy_SagemakerModelPrimaryContainerImageConfigOutputReference) val
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerModelPrimaryContainerImageConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerModelPrimaryContainerImageConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -201,7 +201,7 @@ func (j *jsiiProxy_SagemakerModelPrimaryContainerImageConfigOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerModelPrimaryContainerImageConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerModelPrimaryContainerImageConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -209,7 +209,7 @@ func (j *jsiiProxy_SagemakerModelPrimaryContainerImageConfigOutputReference) val
 	return nil
 }
 
-func validateNewSagemakerModelPrimaryContainerImageConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerModelPrimaryContainerImageConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

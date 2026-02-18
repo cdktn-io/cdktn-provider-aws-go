@@ -47,7 +47,7 @@ func (s *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) v
 	return nil
 }
 
-func (s *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSsmcontactsPlanStageTargetContactTargetInfoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSsmcontactsPlanStageTargetContactTargetInfoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

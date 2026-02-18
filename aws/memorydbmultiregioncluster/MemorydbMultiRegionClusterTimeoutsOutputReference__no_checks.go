@@ -47,7 +47,7 @@ func (m *jsiiProxy_MemorydbMultiRegionClusterTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (m *jsiiProxy_MemorydbMultiRegionClusterTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MemorydbMultiRegionClusterTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_MemorydbMultiRegionClusterTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_MemorydbMultiRegionClusterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MemorydbMultiRegionClusterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_MemorydbMultiRegionClusterTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func validateNewMemorydbMultiRegionClusterTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMemorydbMultiRegionClusterTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (c *jsiiProxy_CloudfrontMultitenantDistributionActiveTrustedKeyGroupsOutput
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontMultitenantDistributionActiveTrustedKeyGroupsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontMultitenantDistributionActiveTrustedKeyGroupsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CloudfrontMultitenantDistributionActiveTrustedKeyGroupsOutput
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontMultitenantDistributionActiveTrustedKeyGroupsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontMultitenantDistributionActiveTrustedKeyGroupsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudfrontMultitenantDistributionActiveTrustedKeyGroupsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudfrontMultitenantDistributionActiveTrustedKeyGroupsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

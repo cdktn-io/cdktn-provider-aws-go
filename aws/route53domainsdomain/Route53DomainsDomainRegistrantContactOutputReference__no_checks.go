@@ -51,7 +51,7 @@ func (r *jsiiProxy_Route53DomainsDomainRegistrantContactOutputReference) validat
 	return nil
 }
 
-func (r *jsiiProxy_Route53DomainsDomainRegistrantContactOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_Route53DomainsDomainRegistrantContactOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -119,7 +119,7 @@ func (j *jsiiProxy_Route53DomainsDomainRegistrantContactOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_Route53DomainsDomainRegistrantContactOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Route53DomainsDomainRegistrantContactOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -127,7 +127,7 @@ func (j *jsiiProxy_Route53DomainsDomainRegistrantContactOutputReference) validat
 	return nil
 }
 
-func validateNewRoute53DomainsDomainRegistrantContactOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRoute53DomainsDomainRegistrantContactOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

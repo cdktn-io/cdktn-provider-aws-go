@@ -47,7 +47,7 @@ func (t *jsiiProxy_TransferWorkflowStepsDeleteStepDetailsOutputReference) valida
 	return nil
 }
 
-func (t *jsiiProxy_TransferWorkflowStepsDeleteStepDetailsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TransferWorkflowStepsDeleteStepDetailsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_TransferWorkflowStepsDeleteStepDetailsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_TransferWorkflowStepsDeleteStepDetailsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TransferWorkflowStepsDeleteStepDetailsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTransferWorkflowStepsDeleteStepDetailsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTransferWorkflowStepsDeleteStepDetailsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

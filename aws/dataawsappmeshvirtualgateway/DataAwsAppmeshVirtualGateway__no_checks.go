@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsAppmeshVirtualGateway) validateSetIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAppmeshVirtualGateway) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsAppmeshVirtualGateway) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

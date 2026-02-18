@@ -51,7 +51,7 @@ func (l *jsiiProxy_Lexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSettin
 	return nil
 }
 
-func (l *jsiiProxy_Lexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSettingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_Lexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSettingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_Lexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSettin
 	return nil
 }
 
-func (j *jsiiProxy_Lexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSettingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Lexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSettingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSettingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSettingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

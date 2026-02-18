@@ -47,7 +47,7 @@ func (s *jsiiProxy_SfnStateMachineEncryptionConfigurationOutputReference) valida
 	return nil
 }
 
-func (s *jsiiProxy_SfnStateMachineEncryptionConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SfnStateMachineEncryptionConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SfnStateMachineEncryptionConfigurationOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_SfnStateMachineEncryptionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SfnStateMachineEncryptionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_SfnStateMachineEncryptionConfigurationOutputReference) valida
 	return nil
 }
 
-func validateNewSfnStateMachineEncryptionConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSfnStateMachineEncryptionConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

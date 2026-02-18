@@ -107,7 +107,7 @@ func (j *jsiiProxy_BackupRestoreTestingSelection) validateSetIamRoleArnParameter
 	return nil
 }
 
-func (j *jsiiProxy_BackupRestoreTestingSelection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BackupRestoreTestingSelection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

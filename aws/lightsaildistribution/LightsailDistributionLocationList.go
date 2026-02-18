@@ -5,14 +5,14 @@ package lightsaildistribution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lightsaildistribution/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lightsaildistribution/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LightsailDistributionLocationList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type LightsailDistributionLocationList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type LightsailDistributionLocationList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) LightsailDistributionLocationOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type LightsailDistributionLocationList interface {
 
 // The jsii proxy struct for LightsailDistributionLocationList
 type jsiiProxy_LightsailDistributionLocationList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_LightsailDistributionLocationList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_LightsailDistributionLocationList) TerraformAttribute() *stri
 	return returns
 }
 
-func (j *jsiiProxy_LightsailDistributionLocationList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LightsailDistributionLocationList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_LightsailDistributionLocationList) WrapsSet() *bool {
 }
 
 
-func NewLightsailDistributionLocationList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LightsailDistributionLocationList {
+func NewLightsailDistributionLocationList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LightsailDistributionLocationList {
 	_init_.Initialize()
 
 	if err := validateNewLightsailDistributionLocationListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewLightsailDistributionLocationList(terraformResource cdktf.IInterpolating
 	return &j
 }
 
-func NewLightsailDistributionLocationList_Override(l LightsailDistributionLocationList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewLightsailDistributionLocationList_Override(l LightsailDistributionLocationList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_LightsailDistributionLocationList)SetTerraformAttribute(val *
 	)
 }
 
-func (j *jsiiProxy_LightsailDistributionLocationList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LightsailDistributionLocationList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_LightsailDistributionLocationList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (l *jsiiProxy_LightsailDistributionLocationList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (l *jsiiProxy_LightsailDistributionLocationList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := l.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		l,
@@ -208,7 +208,7 @@ func (l *jsiiProxy_LightsailDistributionLocationList) Get(index *float64) Lights
 	return returns
 }
 
-func (l *jsiiProxy_LightsailDistributionLocationList) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LightsailDistributionLocationList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -15,7 +15,7 @@ func (b *jsiiProxy_BedrockCustomModelValidationMetricsList) validateGetParameter
 	return nil
 }
 
-func (b *jsiiProxy_BedrockCustomModelValidationMetricsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockCustomModelValidationMetricsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_BedrockCustomModelValidationMetricsList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_BedrockCustomModelValidationMetricsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockCustomModelValidationMetricsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_BedrockCustomModelValidationMetricsList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewBedrockCustomModelValidationMetricsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockCustomModelValidationMetricsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

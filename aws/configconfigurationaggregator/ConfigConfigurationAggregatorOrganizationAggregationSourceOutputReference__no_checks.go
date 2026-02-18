@@ -47,7 +47,7 @@ func (c *jsiiProxy_ConfigConfigurationAggregatorOrganizationAggregationSourceOut
 	return nil
 }
 
-func (c *jsiiProxy_ConfigConfigurationAggregatorOrganizationAggregationSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConfigConfigurationAggregatorOrganizationAggregationSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ConfigConfigurationAggregatorOrganizationAggregationSourceOut
 	return nil
 }
 
-func (j *jsiiProxy_ConfigConfigurationAggregatorOrganizationAggregationSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConfigConfigurationAggregatorOrganizationAggregationSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewConfigConfigurationAggregatorOrganizationAggregationSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewConfigConfigurationAggregatorOrganizationAggregationSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiGatewayUsagePlanApiStagesThrottleOutputReference) validate
 	return nil
 }
 
-func (a *jsiiProxy_ApiGatewayUsagePlanApiStagesThrottleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiGatewayUsagePlanApiStagesThrottleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ApiGatewayUsagePlanApiStagesThrottleOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_ApiGatewayUsagePlanApiStagesThrottleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiGatewayUsagePlanApiStagesThrottleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApiGatewayUsagePlanApiStagesThrottleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApiGatewayUsagePlanApiStagesThrottleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

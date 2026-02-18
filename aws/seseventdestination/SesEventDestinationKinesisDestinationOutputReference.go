@@ -5,14 +5,14 @@ package seseventdestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/seseventdestination/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/seseventdestination/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SesEventDestinationKinesisDestinationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type SesEventDestinationKinesisDestinationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type SesEventDestinationKinesisDestinationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type SesEventDestinationKinesisDestinationOutputReference interface {
 
 // The jsii proxy struct for SesEventDestinationKinesisDestinationOutputReference
 type jsiiProxy_SesEventDestinationKinesisDestinationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) ComplexObjectIndex() interface{} {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) Terrafo
 }
 
 
-func NewSesEventDestinationKinesisDestinationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SesEventDestinationKinesisDestinationOutputReference {
+func NewSesEventDestinationKinesisDestinationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SesEventDestinationKinesisDestinationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSesEventDestinationKinesisDestinationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewSesEventDestinationKinesisDestinationOutputReference(terraformResource c
 	return &j
 }
 
-func NewSesEventDestinationKinesisDestinationOutputReference_Override(s SesEventDestinationKinesisDestinationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSesEventDestinationKinesisDestinationOutputReference_Override(s SesEventDestinationKinesisDestinationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (s *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) GetAnyM
 	return returns
 }
 
-func (s *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -457,8 +457,8 @@ func (s *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) GetStri
 	return returns
 }
 
-func (s *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -470,11 +470,11 @@ func (s *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) Interpo
 	return returns
 }
 
-func (s *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -486,7 +486,7 @@ func (s *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) Interpo
 	return returns
 }
 
-func (s *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

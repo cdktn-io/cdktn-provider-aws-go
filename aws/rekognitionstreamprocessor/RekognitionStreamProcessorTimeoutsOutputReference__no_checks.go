@@ -47,7 +47,7 @@ func (r *jsiiProxy_RekognitionStreamProcessorTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (r *jsiiProxy_RekognitionStreamProcessorTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RekognitionStreamProcessorTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_RekognitionStreamProcessorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RekognitionStreamProcessorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func validateNewRekognitionStreamProcessorTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRekognitionStreamProcessorTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

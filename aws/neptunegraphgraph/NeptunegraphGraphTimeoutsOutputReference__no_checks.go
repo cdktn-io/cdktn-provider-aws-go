@@ -47,7 +47,7 @@ func (n *jsiiProxy_NeptunegraphGraphTimeoutsOutputReference) validateInterpolati
 	return nil
 }
 
-func (n *jsiiProxy_NeptunegraphGraphTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NeptunegraphGraphTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_NeptunegraphGraphTimeoutsOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_NeptunegraphGraphTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NeptunegraphGraphTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_NeptunegraphGraphTimeoutsOutputReference) validateSetUpdatePa
 	return nil
 }
 
-func validateNewNeptunegraphGraphTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNeptunegraphGraphTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

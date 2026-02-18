@@ -111,7 +111,7 @@ func (j *jsiiProxy_InternetGatewayAttachment) validateSetInternetGatewayIdParame
 	return nil
 }
 
-func (j *jsiiProxy_InternetGatewayAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_InternetGatewayAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

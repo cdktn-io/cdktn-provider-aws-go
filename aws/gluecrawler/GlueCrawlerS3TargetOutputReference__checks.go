@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GlueCrawlerS3TargetOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (g *jsiiProxy_GlueCrawlerS3TargetOutputReference) validateInterpolationForA
 	return nil
 }
 
-func (g *jsiiProxy_GlueCrawlerS3TargetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueCrawlerS3TargetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -200,7 +200,7 @@ func (j *jsiiProxy_GlueCrawlerS3TargetOutputReference) validateSetExclusionsPara
 
 func (j *jsiiProxy_GlueCrawlerS3TargetOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *GlueCrawlerS3Target:
 		val := val.(*GlueCrawlerS3Target)
@@ -215,7 +215,7 @@ func (j *jsiiProxy_GlueCrawlerS3TargetOutputReference) validateSetInternalValueP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *GlueCrawlerS3Target; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *GlueCrawlerS3Target; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -246,7 +246,7 @@ func (j *jsiiProxy_GlueCrawlerS3TargetOutputReference) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_GlueCrawlerS3TargetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueCrawlerS3TargetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -254,7 +254,7 @@ func (j *jsiiProxy_GlueCrawlerS3TargetOutputReference) validateSetTerraformResou
 	return nil
 }
 
-func validateNewGlueCrawlerS3TargetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGlueCrawlerS3TargetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

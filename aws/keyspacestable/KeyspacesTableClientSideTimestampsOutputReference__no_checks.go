@@ -47,7 +47,7 @@ func (k *jsiiProxy_KeyspacesTableClientSideTimestampsOutputReference) validateIn
 	return nil
 }
 
-func (k *jsiiProxy_KeyspacesTableClientSideTimestampsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KeyspacesTableClientSideTimestampsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_KeyspacesTableClientSideTimestampsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_KeyspacesTableClientSideTimestampsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KeyspacesTableClientSideTimestampsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKeyspacesTableClientSideTimestampsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKeyspacesTableClientSideTimestampsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

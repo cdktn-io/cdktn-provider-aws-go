@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsMedialiveInputSourcesList) validateGetParameters(index
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsMedialiveInputSourcesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsMedialiveInputSourcesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsMedialiveInputSourcesList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsMedialiveInputSourcesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsMedialiveInputSourcesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsMedialiveInputSourcesList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewDataAwsMedialiveInputSourcesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsMedialiveInputSourcesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

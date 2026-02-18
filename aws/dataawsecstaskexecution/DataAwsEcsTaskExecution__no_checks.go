@@ -127,7 +127,7 @@ func (j *jsiiProxy_DataAwsEcsTaskExecution) validateSetLaunchTypeParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEcsTaskExecution) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsEcsTaskExecution) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

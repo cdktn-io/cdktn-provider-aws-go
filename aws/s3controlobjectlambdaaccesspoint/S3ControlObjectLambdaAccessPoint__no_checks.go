@@ -111,7 +111,7 @@ func (j *jsiiProxy_S3ControlObjectLambdaAccessPoint) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_S3ControlObjectLambdaAccessPoint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_S3ControlObjectLambdaAccessPoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

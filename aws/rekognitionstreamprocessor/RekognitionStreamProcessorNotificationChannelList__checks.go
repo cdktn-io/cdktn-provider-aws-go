@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (r *jsiiProxy_RekognitionStreamProcessorNotificationChannelList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (r *jsiiProxy_RekognitionStreamProcessorNotificationChannelList) validateGe
 	return nil
 }
 
-func (r *jsiiProxy_RekognitionStreamProcessorNotificationChannelList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RekognitionStreamProcessorNotificationChannelList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (r *jsiiProxy_RekognitionStreamProcessorNotificationChannelList) validateRe
 
 func (j *jsiiProxy_RekognitionStreamProcessorNotificationChannelList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*RekognitionStreamProcessorNotificationChannel:
 		val := val.(*[]*RekognitionStreamProcessorNotificationChannel)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorNotificationChannelList) validateSe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*RekognitionStreamProcessorNotificationChannel; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*RekognitionStreamProcessorNotificationChannel; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorNotificationChannelList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_RekognitionStreamProcessorNotificationChannelList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RekognitionStreamProcessorNotificationChannelList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorNotificationChannelList) validateSe
 	return nil
 }
 
-func validateNewRekognitionStreamProcessorNotificationChannelListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRekognitionStreamProcessorNotificationChannelListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -15,7 +15,7 @@ func (c *jsiiProxy_CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesB
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3LocationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3LocationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesB
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3LocationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3LocationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesB
 	return nil
 }
 
-func validateNewCloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3LocationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3LocationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

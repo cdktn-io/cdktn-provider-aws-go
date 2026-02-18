@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (v *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedResourceList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (v *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedResourceList
 	return nil
 }
 
-func (v *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedResourceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedResourceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (v *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedResourceList
 
 func (j *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedResourceList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*VerifiedpermissionsPolicyDefinitionTemplateLinkedResource:
 		val := val.(*[]*VerifiedpermissionsPolicyDefinitionTemplateLinkedResource)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedResourceList
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*VerifiedpermissionsPolicyDefinitionTemplateLinkedResource; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*VerifiedpermissionsPolicyDefinitionTemplateLinkedResource; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedResourceList
 	return nil
 }
 
-func (j *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedResourceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedResourceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedResourceList
 	return nil
 }
 
-func validateNewVerifiedpermissionsPolicyDefinitionTemplateLinkedResourceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVerifiedpermissionsPolicyDefinitionTemplateLinkedResourceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

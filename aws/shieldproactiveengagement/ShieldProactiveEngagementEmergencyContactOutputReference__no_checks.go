@@ -47,7 +47,7 @@ func (s *jsiiProxy_ShieldProactiveEngagementEmergencyContactOutputReference) val
 	return nil
 }
 
-func (s *jsiiProxy_ShieldProactiveEngagementEmergencyContactOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ShieldProactiveEngagementEmergencyContactOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ShieldProactiveEngagementEmergencyContactOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_ShieldProactiveEngagementEmergencyContactOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ShieldProactiveEngagementEmergencyContactOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewShieldProactiveEngagementEmergencyContactOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewShieldProactiveEngagementEmergencyContactOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaResourceIdOutputReference) vali
 	return nil
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaResourceIdOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaResourceIdOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaResourceIdOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_Inspector2FilterFilterCriteriaResourceIdOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Inspector2FilterFilterCriteriaResourceIdOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaResourceIdOutputReference) vali
 	return nil
 }
 
-func validateNewInspector2FilterFilterCriteriaResourceIdOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewInspector2FilterFilterCriteriaResourceIdOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

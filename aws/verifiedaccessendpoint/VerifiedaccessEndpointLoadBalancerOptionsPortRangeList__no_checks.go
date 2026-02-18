@@ -15,7 +15,7 @@ func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList) valid
 	return nil
 }
 
-func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList) valid
 	return nil
 }
 
-func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList) valid
 	return nil
 }
 
-func validateNewVerifiedaccessEndpointLoadBalancerOptionsPortRangeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVerifiedaccessEndpointLoadBalancerOptionsPortRangeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

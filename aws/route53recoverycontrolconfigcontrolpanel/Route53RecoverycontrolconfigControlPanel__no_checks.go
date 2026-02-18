@@ -107,7 +107,7 @@ func (j *jsiiProxy_Route53RecoverycontrolconfigControlPanel) validateSetIdParame
 	return nil
 }
 
-func (j *jsiiProxy_Route53RecoverycontrolconfigControlPanel) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Route53RecoverycontrolconfigControlPanel) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,21 +5,21 @@ package lambdapermission
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lambdapermission/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lambdapermission/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/lambda_permission aws_lambda_permission}.
 type LambdaPermission interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Action() *string
 	SetAction(val *string)
 	ActionInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type LambdaPermission interface {
 	SetEventSourceToken(val *string)
 	EventSourceTokenInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -58,9 +58,9 @@ type LambdaPermission interface {
 	SetInvokedViaFunctionUrl(val interface{})
 	InvokedViaFunctionUrlInput() interface{}
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	Principal() *string
@@ -70,9 +70,9 @@ type LambdaPermission interface {
 	SetPrincipalOrgId(val *string)
 	PrincipalOrgIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -98,7 +98,7 @@ type LambdaPermission interface {
 	SetStatementIdPrefix(val *string)
 	StatementIdPrefixInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -111,7 +111,7 @@ type LambdaPermission interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -129,9 +129,9 @@ type LambdaPermission interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -175,7 +175,7 @@ type LambdaPermission interface {
 
 // The jsii proxy struct for LambdaPermission
 type jsiiProxy_LambdaPermission struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_LambdaPermission) Action() *string {
@@ -198,8 +198,8 @@ func (j *jsiiProxy_LambdaPermission) ActionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LambdaPermission) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_LambdaPermission) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -268,8 +268,8 @@ func (j *jsiiProxy_LambdaPermission) EventSourceTokenInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LambdaPermission) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_LambdaPermission) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -378,8 +378,8 @@ func (j *jsiiProxy_LambdaPermission) InvokedViaFunctionUrlInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_LambdaPermission) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_LambdaPermission) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -438,8 +438,8 @@ func (j *jsiiProxy_LambdaPermission) PrincipalOrgIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LambdaPermission) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_LambdaPermission) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -588,8 +588,8 @@ func (j *jsiiProxy_LambdaPermission) StatementIdPrefixInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LambdaPermission) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_LambdaPermission) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -700,7 +700,7 @@ func (j *jsiiProxy_LambdaPermission)SetEventSourceToken(val *string) {
 	)
 }
 
-func (j *jsiiProxy_LambdaPermission)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_LambdaPermission)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -752,7 +752,7 @@ func (j *jsiiProxy_LambdaPermission)SetInvokedViaFunctionUrl(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_LambdaPermission)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_LambdaPermission)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -785,7 +785,7 @@ func (j *jsiiProxy_LambdaPermission)SetPrincipalOrgId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_LambdaPermission)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_LambdaPermission)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -870,14 +870,14 @@ func (j *jsiiProxy_LambdaPermission)SetStatementIdPrefix(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a LambdaPermission resource upon running "cdktf plan <stack-name>".
-func LambdaPermission_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a LambdaPermission resource upon running "cdktn plan <stack-name>".
+func LambdaPermission_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateLambdaPermission_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.lambdaPermission.LambdaPermission",
@@ -1011,11 +1011,11 @@ func (l *jsiiProxy_LambdaPermission) GetAnyMapAttribute(terraformAttribute *stri
 	return returns
 }
 
-func (l *jsiiProxy_LambdaPermission) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LambdaPermission) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -1152,7 +1152,7 @@ func (l *jsiiProxy_LambdaPermission) HasResourceMove() interface{} {
 	return returns
 }
 
-func (l *jsiiProxy_LambdaPermission) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (l *jsiiProxy_LambdaPermission) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := l.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1163,11 +1163,11 @@ func (l *jsiiProxy_LambdaPermission) ImportFrom(id *string, provider cdktf.Terra
 	)
 }
 
-func (l *jsiiProxy_LambdaPermission) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LambdaPermission) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,

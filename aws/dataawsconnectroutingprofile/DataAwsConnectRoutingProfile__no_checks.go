@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsConnectRoutingProfile) validateSetInstanceIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsConnectRoutingProfile) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsConnectRoutingProfile) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

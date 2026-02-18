@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputR
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*RedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccess:
 		value := value.(*[]*RedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccess)
@@ -117,14 +117,14 @@ func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputR
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*RedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccess; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*RedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccess; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -199,7 +199,7 @@ func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputR
 
 func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *RedshiftIdcApplicationServiceIntegrationS3AccessGrants:
 		val := val.(*RedshiftIdcApplicationServiceIntegrationS3AccessGrants)
@@ -214,7 +214,7 @@ func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputR
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *RedshiftIdcApplicationServiceIntegrationS3AccessGrants; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *RedshiftIdcApplicationServiceIntegrationS3AccessGrants; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -229,7 +229,7 @@ func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputR
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -237,7 +237,7 @@ func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputR
 	return nil
 }
 
-func validateNewRedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRedshiftIdcApplicationServiceIntegrationS3AccessGrantsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

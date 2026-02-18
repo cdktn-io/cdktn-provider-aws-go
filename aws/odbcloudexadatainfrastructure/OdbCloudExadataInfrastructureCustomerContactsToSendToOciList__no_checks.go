@@ -15,7 +15,7 @@ func (o *jsiiProxy_OdbCloudExadataInfrastructureCustomerContactsToSendToOciList)
 	return nil
 }
 
-func (o *jsiiProxy_OdbCloudExadataInfrastructureCustomerContactsToSendToOciList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OdbCloudExadataInfrastructureCustomerContactsToSendToOciList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_OdbCloudExadataInfrastructureCustomerContactsToSendToOciList)
 	return nil
 }
 
-func (j *jsiiProxy_OdbCloudExadataInfrastructureCustomerContactsToSendToOciList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OdbCloudExadataInfrastructureCustomerContactsToSendToOciList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_OdbCloudExadataInfrastructureCustomerContactsToSendToOciList)
 	return nil
 }
 
-func validateNewOdbCloudExadataInfrastructureCustomerContactsToSendToOciListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOdbCloudExadataInfrastructureCustomerContactsToSendToOciListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

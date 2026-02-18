@@ -103,7 +103,7 @@ func (j *jsiiProxy_WorkspaceswebDataProtectionSettingsAssociation) validateSetDa
 	return nil
 }
 
-func (j *jsiiProxy_WorkspaceswebDataProtectionSettingsAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_WorkspaceswebDataProtectionSettingsAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

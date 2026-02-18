@@ -111,7 +111,7 @@ func (j *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateSetEnabledParam
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

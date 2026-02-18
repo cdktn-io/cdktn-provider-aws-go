@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEfsFileSystemLifecyclePolicyOutputReference) validateI
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEfsFileSystemLifecyclePolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEfsFileSystemLifecyclePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsEfsFileSystemLifecyclePolicyOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEfsFileSystemLifecyclePolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEfsFileSystemLifecyclePolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsEfsFileSystemLifecyclePolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsEfsFileSystemLifecyclePolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

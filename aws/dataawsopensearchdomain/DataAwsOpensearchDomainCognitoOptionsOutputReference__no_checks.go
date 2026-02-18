@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsOpensearchDomainCognitoOptionsOutputReference) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsOpensearchDomainCognitoOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsOpensearchDomainCognitoOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsOpensearchDomainCognitoOptionsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOpensearchDomainCognitoOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsOpensearchDomainCognitoOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsOpensearchDomainCognitoOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsOpensearchDomainCognitoOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

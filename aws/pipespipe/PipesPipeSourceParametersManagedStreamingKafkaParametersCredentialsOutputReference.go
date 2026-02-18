@@ -5,14 +5,14 @@ package pipespipe
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/pipespipe/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/pipespipe/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ClientCertificateTlsAuth() *string
 	SetClientCertificateTlsAuth(val *string)
 	ClientCertificateTlsAuthInput() *string
@@ -43,15 +43,15 @@ type PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputRe
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputRe
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetClientCertificateTlsAuth()
 	ResetSaslScram512Auth()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputRe
 
 // The jsii proxy struct for PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference
 type jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference) ClientCertificateTlsAuth() *string {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCrede
 	return returns
 }
 
-func (j *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCrede
 }
 
 
-func NewPipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference {
+func NewPipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewPipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutpu
 	return &j
 }
 
-func NewPipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference_Override(p PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewPipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference_Override(p PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCrede
 	)
 }
 
-func (j *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (p *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCrede
 	return returns
 }
 
-func (p *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -459,8 +459,8 @@ func (p *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCrede
 	return returns
 }
 
-func (p *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -472,11 +472,11 @@ func (p *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCrede
 	return returns
 }
 
-func (p *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -504,7 +504,7 @@ func (p *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCrede
 	)
 }
 
-func (p *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

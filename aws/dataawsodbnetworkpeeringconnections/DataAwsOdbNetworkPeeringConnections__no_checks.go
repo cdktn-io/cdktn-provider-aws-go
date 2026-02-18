@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnections) validateSetCountParamete
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnections) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnections) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

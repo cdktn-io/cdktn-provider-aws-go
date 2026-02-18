@@ -51,7 +51,7 @@ func (s *jsiiProxy_S3BucketMetadataConfigurationMetadataConfigurationInventoryTa
 	return nil
 }
 
-func (s *jsiiProxy_S3BucketMetadataConfigurationMetadataConfigurationInventoryTableConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3BucketMetadataConfigurationMetadataConfigurationInventoryTableConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_S3BucketMetadataConfigurationMetadataConfigurationInventoryTa
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketMetadataConfigurationMetadataConfigurationInventoryTableConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3BucketMetadataConfigurationMetadataConfigurationInventoryTableConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewS3BucketMetadataConfigurationMetadataConfigurationInventoryTableConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewS3BucketMetadataConfigurationMetadataConfigurationInventoryTableConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

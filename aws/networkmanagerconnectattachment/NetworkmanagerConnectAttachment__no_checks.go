@@ -119,7 +119,7 @@ func (j *jsiiProxy_NetworkmanagerConnectAttachment) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerConnectAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkmanagerConnectAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

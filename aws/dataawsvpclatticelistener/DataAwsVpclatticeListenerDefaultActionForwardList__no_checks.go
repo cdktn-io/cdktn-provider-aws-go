@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsVpclatticeListenerDefaultActionForwardList) validateGe
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsVpclatticeListenerDefaultActionForwardList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsVpclatticeListenerDefaultActionForwardList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsVpclatticeListenerDefaultActionForwardList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVpclatticeListenerDefaultActionForwardList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsVpclatticeListenerDefaultActionForwardList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsVpclatticeListenerDefaultActionForwardList) validateSe
 	return nil
 }
 
-func validateNewDataAwsVpclatticeListenerDefaultActionForwardListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsVpclatticeListenerDefaultActionForwardListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

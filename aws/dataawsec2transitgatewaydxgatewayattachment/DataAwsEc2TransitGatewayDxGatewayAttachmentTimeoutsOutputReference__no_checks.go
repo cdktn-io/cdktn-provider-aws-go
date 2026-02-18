@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEc2TransitGatewayDxGatewayAttachmentTimeoutsOutputRefe
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEc2TransitGatewayDxGatewayAttachmentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEc2TransitGatewayDxGatewayAttachmentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayDxGatewayAttachmentTimeoutsOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2TransitGatewayDxGatewayAttachmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEc2TransitGatewayDxGatewayAttachmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsEc2TransitGatewayDxGatewayAttachmentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAwsEc2TransitGatewayDxGatewayAttachmentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

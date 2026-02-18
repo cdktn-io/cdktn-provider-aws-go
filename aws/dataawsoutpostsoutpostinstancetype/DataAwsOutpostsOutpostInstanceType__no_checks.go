@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsOutpostsOutpostInstanceType) validateSetInstanceTypePa
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOutpostsOutpostInstanceType) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsOutpostsOutpostInstanceType) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

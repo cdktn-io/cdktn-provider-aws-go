@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatew
 	return nil
 }
 
-func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatew
 	return nil
 }
 
-func (j *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

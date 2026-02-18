@@ -111,7 +111,7 @@ func (j *jsiiProxy_SsoadminTrustedTokenIssuer) validateSetInstanceArnParameters(
 	return nil
 }
 
-func (j *jsiiProxy_SsoadminTrustedTokenIssuer) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SsoadminTrustedTokenIssuer) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

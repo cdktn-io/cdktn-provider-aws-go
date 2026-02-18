@@ -5,14 +5,14 @@ package gluetrigger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/gluetrigger/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/gluetrigger/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GlueTriggerEventBatchingConditionList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type GlueTriggerEventBatchingConditionList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type GlueTriggerEventBatchingConditionList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) GlueTriggerEventBatchingConditionOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type GlueTriggerEventBatchingConditionList interface {
 
 // The jsii proxy struct for GlueTriggerEventBatchingConditionList
 type jsiiProxy_GlueTriggerEventBatchingConditionList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_GlueTriggerEventBatchingConditionList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_GlueTriggerEventBatchingConditionList) TerraformAttribute() *
 	return returns
 }
 
-func (j *jsiiProxy_GlueTriggerEventBatchingConditionList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GlueTriggerEventBatchingConditionList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_GlueTriggerEventBatchingConditionList) WrapsSet() *bool {
 }
 
 
-func NewGlueTriggerEventBatchingConditionList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueTriggerEventBatchingConditionList {
+func NewGlueTriggerEventBatchingConditionList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueTriggerEventBatchingConditionList {
 	_init_.Initialize()
 
 	if err := validateNewGlueTriggerEventBatchingConditionListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewGlueTriggerEventBatchingConditionList(terraformResource cdktf.IInterpola
 	return &j
 }
 
-func NewGlueTriggerEventBatchingConditionList_Override(g GlueTriggerEventBatchingConditionList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewGlueTriggerEventBatchingConditionList_Override(g GlueTriggerEventBatchingConditionList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_GlueTriggerEventBatchingConditionList)SetTerraformAttribute(v
 	)
 }
 
-func (j *jsiiProxy_GlueTriggerEventBatchingConditionList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GlueTriggerEventBatchingConditionList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_GlueTriggerEventBatchingConditionList)SetWrapsSet(val *bool) 
 	)
 }
 
-func (g *jsiiProxy_GlueTriggerEventBatchingConditionList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (g *jsiiProxy_GlueTriggerEventBatchingConditionList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := g.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		g,
@@ -231,7 +231,7 @@ func (g *jsiiProxy_GlueTriggerEventBatchingConditionList) Get(index *float64) Gl
 	return returns
 }
 
-func (g *jsiiProxy_GlueTriggerEventBatchingConditionList) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GlueTriggerEventBatchingConditionList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

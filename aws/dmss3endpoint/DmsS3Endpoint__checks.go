@@ -11,7 +11,7 @@ import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DmsS3Endpoint) validateAddMoveTargetParameters(moveTarget *string) error {
@@ -267,11 +267,11 @@ func (j *jsiiProxy_DmsS3Endpoint) validateSetAddColumnNameParameters(val interfa
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -287,11 +287,11 @@ func (j *jsiiProxy_DmsS3Endpoint) validateSetAddTrailingPaddingCharacterParamete
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -331,11 +331,11 @@ func (j *jsiiProxy_DmsS3Endpoint) validateSetCdcInsertsAndUpdatesParameters(val 
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -351,11 +351,11 @@ func (j *jsiiProxy_DmsS3Endpoint) validateSetCdcInsertsOnlyParameters(val interf
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -404,31 +404,31 @@ func (j *jsiiProxy_DmsS3Endpoint) validateSetCompressionTypeParameters(val *stri
 
 func (j *jsiiProxy_DmsS3Endpoint) validateSetConnectionParameters(val interface{}) error {
 	switch val.(type) {
-	case *cdktf.SSHProvisionerConnection:
-		val := val.(*cdktf.SSHProvisionerConnection)
+	case *cdktn.SSHProvisionerConnection:
+		val := val.(*cdktn.SSHProvisionerConnection)
 		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 			return err
 		}
-	case cdktf.SSHProvisionerConnection:
-		val_ := val.(cdktf.SSHProvisionerConnection)
+	case cdktn.SSHProvisionerConnection:
+		val_ := val.(cdktn.SSHProvisionerConnection)
 		val := &val_
 		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 			return err
 		}
-	case *cdktf.WinrmProvisionerConnection:
-		val := val.(*cdktf.WinrmProvisionerConnection)
+	case *cdktn.WinrmProvisionerConnection:
+		val := val.(*cdktn.WinrmProvisionerConnection)
 		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 			return err
 		}
-	case cdktf.WinrmProvisionerConnection:
-		val_ := val.(cdktf.WinrmProvisionerConnection)
+	case cdktn.WinrmProvisionerConnection:
+		val_ := val.(cdktn.WinrmProvisionerConnection)
 		val := &val_
 		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 			return err
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *cdktf.SSHProvisionerConnection, *cdktf.WinrmProvisionerConnection; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *cdktn.SSHProvisionerConnection, *cdktn.WinrmProvisionerConnection; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -481,11 +481,11 @@ func (j *jsiiProxy_DmsS3Endpoint) validateSetCountParameters(val interface{}) er
 		// ok
 	case uint64:
 		// ok
-	case cdktf.TerraformCount:
+	case cdktn.TerraformCount:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *float64, cdktf.TerraformCount; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *float64, cdktn.TerraformCount; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -557,11 +557,11 @@ func (j *jsiiProxy_DmsS3Endpoint) validateSetDatePartitionEnabledParameters(val 
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -593,11 +593,11 @@ func (j *jsiiProxy_DmsS3Endpoint) validateSetDetachTargetOnLobLookupFailureParqu
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -621,11 +621,11 @@ func (j *jsiiProxy_DmsS3Endpoint) validateSetEnableStatisticsParameters(val inte
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -689,11 +689,11 @@ func (j *jsiiProxy_DmsS3Endpoint) validateSetGlueCatalogGenerationParameters(val
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -725,11 +725,11 @@ func (j *jsiiProxy_DmsS3Endpoint) validateSetIncludeOpForFullLoadParameters(val 
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -744,7 +744,7 @@ func (j *jsiiProxy_DmsS3Endpoint) validateSetKmsKeyArnParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_DmsS3Endpoint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DmsS3Endpoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
 	}
@@ -769,11 +769,11 @@ func (j *jsiiProxy_DmsS3Endpoint) validateSetParquetTimestampInMillisecondParame
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -797,11 +797,11 @@ func (j *jsiiProxy_DmsS3Endpoint) validateSetPreserveTransactionsParameters(val 
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -811,42 +811,42 @@ func (j *jsiiProxy_DmsS3Endpoint) validateSetPreserveTransactionsParameters(val 
 func (j *jsiiProxy_DmsS3Endpoint) validateSetProvisionersParameters(val *[]interface{}) error {
 	for idx_97dfc6, v := range *val {
 		switch v.(type) {
-		case *cdktf.FileProvisioner:
-			v := v.(*cdktf.FileProvisioner)
+		case *cdktn.FileProvisioner:
+			v := v.(*cdktn.FileProvisioner)
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
 				return err
 			}
-		case cdktf.FileProvisioner:
-			v_ := v.(cdktf.FileProvisioner)
+		case cdktn.FileProvisioner:
+			v_ := v.(cdktn.FileProvisioner)
 			v := &v_
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
 				return err
 			}
-		case *cdktf.LocalExecProvisioner:
-			v := v.(*cdktf.LocalExecProvisioner)
+		case *cdktn.LocalExecProvisioner:
+			v := v.(*cdktn.LocalExecProvisioner)
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
 				return err
 			}
-		case cdktf.LocalExecProvisioner:
-			v_ := v.(cdktf.LocalExecProvisioner)
+		case cdktn.LocalExecProvisioner:
+			v_ := v.(cdktn.LocalExecProvisioner)
 			v := &v_
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
 				return err
 			}
-		case *cdktf.RemoteExecProvisioner:
-			v := v.(*cdktf.RemoteExecProvisioner)
+		case *cdktn.RemoteExecProvisioner:
+			v := v.(*cdktn.RemoteExecProvisioner)
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
 				return err
 			}
-		case cdktf.RemoteExecProvisioner:
-			v_ := v.(cdktf.RemoteExecProvisioner)
+		case cdktn.RemoteExecProvisioner:
+			v_ := v.(cdktn.RemoteExecProvisioner)
 			v := &v_
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
 				return err
 			}
 		default:
 			if !_jsii_.IsAnonymousProxy(v) {
-				return fmt.Errorf("parameter val[%#v] must be one of the allowed types: *cdktf.FileProvisioner, *cdktf.LocalExecProvisioner, *cdktf.RemoteExecProvisioner; received %#v (a %T)", idx_97dfc6, v, v)
+				return fmt.Errorf("parameter val[%#v] must be one of the allowed types: *cdktn.FileProvisioner, *cdktn.LocalExecProvisioner, *cdktn.RemoteExecProvisioner; received %#v (a %T)", idx_97dfc6, v, v)
 			}
 		}
 	}
@@ -871,11 +871,11 @@ func (j *jsiiProxy_DmsS3Endpoint) validateSetRfc4180Parameters(val interface{}) 
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -947,11 +947,11 @@ func (j *jsiiProxy_DmsS3Endpoint) validateSetUseCsvNoSupValueParameters(val inte
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -967,11 +967,11 @@ func (j *jsiiProxy_DmsS3Endpoint) validateSetUseTaskStartTimeForFullLoadTimestam
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 

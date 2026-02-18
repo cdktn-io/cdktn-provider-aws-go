@@ -47,7 +47,7 @@ func (d *jsiiProxy_DynamodbTableExportIncrementalExportSpecificationOutputRefere
 	return nil
 }
 
-func (d *jsiiProxy_DynamodbTableExportIncrementalExportSpecificationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DynamodbTableExportIncrementalExportSpecificationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_DynamodbTableExportIncrementalExportSpecificationOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_DynamodbTableExportIncrementalExportSpecificationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DynamodbTableExportIncrementalExportSpecificationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDynamodbTableExportIncrementalExportSpecificationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDynamodbTableExportIncrementalExportSpecificationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

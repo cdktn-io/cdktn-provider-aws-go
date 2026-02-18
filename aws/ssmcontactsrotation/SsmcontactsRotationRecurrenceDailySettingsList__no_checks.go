@@ -15,7 +15,7 @@ func (s *jsiiProxy_SsmcontactsRotationRecurrenceDailySettingsList) validateGetPa
 	return nil
 }
 
-func (s *jsiiProxy_SsmcontactsRotationRecurrenceDailySettingsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsmcontactsRotationRecurrenceDailySettingsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SsmcontactsRotationRecurrenceDailySettingsList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_SsmcontactsRotationRecurrenceDailySettingsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsmcontactsRotationRecurrenceDailySettingsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SsmcontactsRotationRecurrenceDailySettingsList) validateSetWr
 	return nil
 }
 
-func validateNewSsmcontactsRotationRecurrenceDailySettingsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSsmcontactsRotationRecurrenceDailySettingsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

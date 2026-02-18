@@ -107,7 +107,7 @@ func (j *jsiiProxy_SecurityhubStandardsSubscription) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_SecurityhubStandardsSubscription) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SecurityhubStandardsSubscription) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

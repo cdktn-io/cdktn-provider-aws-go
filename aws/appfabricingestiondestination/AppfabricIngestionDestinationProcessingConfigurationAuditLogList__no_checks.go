@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogL
 	return nil
 }
 
-func (a *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogL
 	return nil
 }
 
-func (j *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogL
 	return nil
 }
 
-func validateNewAppfabricIngestionDestinationProcessingConfigurationAuditLogListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppfabricIngestionDestinationProcessingConfigurationAuditLogListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

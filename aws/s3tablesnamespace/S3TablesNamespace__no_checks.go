@@ -99,7 +99,7 @@ func (j *jsiiProxy_S3TablesNamespace) validateSetCountParameters(val interface{}
 	return nil
 }
 
-func (j *jsiiProxy_S3TablesNamespace) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_S3TablesNamespace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

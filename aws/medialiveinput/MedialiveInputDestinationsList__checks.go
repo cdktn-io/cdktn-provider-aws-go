@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_MedialiveInputDestinationsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (m *jsiiProxy_MedialiveInputDestinationsList) validateGetParameters(index *
 	return nil
 }
 
-func (m *jsiiProxy_MedialiveInputDestinationsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MedialiveInputDestinationsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (m *jsiiProxy_MedialiveInputDestinationsList) validateResolveParameters(con
 
 func (j *jsiiProxy_MedialiveInputDestinationsList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MedialiveInputDestinations:
 		val := val.(*[]*MedialiveInputDestinations)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_MedialiveInputDestinationsList) validateSetInternalValueParam
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*MedialiveInputDestinations; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*MedialiveInputDestinations; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_MedialiveInputDestinationsList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_MedialiveInputDestinationsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MedialiveInputDestinationsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_MedialiveInputDestinationsList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewMedialiveInputDestinationsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMedialiveInputDestinationsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

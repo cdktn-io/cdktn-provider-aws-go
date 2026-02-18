@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudwatchMetricStreamTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (c *jsiiProxy_CloudwatchMetricStreamTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudwatchMetricStreamTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_CloudwatchMetricStreamTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchMetricStreamTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudwatchMetricStreamTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_CloudwatchMetricStreamTimeoutsOutputReference) validateSetUpd
 	return nil
 }
 
-func validateNewCloudwatchMetricStreamTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudwatchMetricStreamTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

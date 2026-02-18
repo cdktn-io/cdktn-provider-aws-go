@@ -47,7 +47,7 @@ func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicySoftwareOutputReference) v
 	return nil
 }
 
-func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicySoftwareOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicySoftwareOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicyPolicySoftwareOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_ResiliencehubResiliencyPolicyPolicySoftwareOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ResiliencehubResiliencyPolicyPolicySoftwareOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewResiliencehubResiliencyPolicyPolicySoftwareOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewResiliencehubResiliencyPolicyPolicySoftwareOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -115,7 +115,7 @@ func (j *jsiiProxy_EcsCluster) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_EcsCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EcsCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -127,7 +127,7 @@ func (j *jsiiProxy_QbusinessApplication) validateSetIdentityCenterInstanceArnPar
 	return nil
 }
 
-func (j *jsiiProxy_QbusinessApplication) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_QbusinessApplication) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DevicefarmDevicePoolRuleList) validateGetParameters(index *fl
 	return nil
 }
 
-func (d *jsiiProxy_DevicefarmDevicePoolRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DevicefarmDevicePoolRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DevicefarmDevicePoolRuleList) validateSetTerraformAttributePa
 	return nil
 }
 
-func (j *jsiiProxy_DevicefarmDevicePoolRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DevicefarmDevicePoolRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DevicefarmDevicePoolRuleList) validateSetWrapsSetParameters(v
 	return nil
 }
 
-func validateNewDevicefarmDevicePoolRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDevicefarmDevicePoolRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

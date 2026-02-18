@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpcIpv4CidrBlockAssociationTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (v *jsiiProxy_VpcIpv4CidrBlockAssociationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpcIpv4CidrBlockAssociationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VpcIpv4CidrBlockAssociationTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_VpcIpv4CidrBlockAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpcIpv4CidrBlockAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpcIpv4CidrBlockAssociationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpcIpv4CidrBlockAssociationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

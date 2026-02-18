@@ -47,7 +47,7 @@ func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOp
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumnsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumnsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOp
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumnsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumnsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewQuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumnsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewQuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumnsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -107,7 +107,7 @@ func (j *jsiiProxy_DocdbSubnetGroup) validateSetIdParameters(val *string) error 
 	return nil
 }
 
-func (j *jsiiProxy_DocdbSubnetGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DocdbSubnetGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

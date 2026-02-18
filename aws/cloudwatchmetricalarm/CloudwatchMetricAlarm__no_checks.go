@@ -151,7 +151,7 @@ func (j *jsiiProxy_CloudwatchMetricAlarm) validateSetInsufficientDataActionsPara
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchMetricAlarm) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudwatchMetricAlarm) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

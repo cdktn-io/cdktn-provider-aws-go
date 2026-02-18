@@ -47,7 +47,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeOutputOutputReference) validate
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentFlowDefinitionNodeOutputOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentFlowDefinitionNodeOutputOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_BedrockagentFlowDefinitionNodeOutputOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentFlowDefinitionNodeOutputOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentFlowDefinitionNodeOutputOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_BedrockagentFlowDefinitionNodeOutputOutputReference) validate
 	return nil
 }
 
-func validateNewBedrockagentFlowDefinitionNodeOutputOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBedrockagentFlowDefinitionNodeOutputOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

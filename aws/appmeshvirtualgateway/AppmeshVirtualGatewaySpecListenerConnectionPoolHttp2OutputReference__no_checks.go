@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppmeshVirtualGatewaySpecListenerConnectionPoolHttp2OutputRef
 	return nil
 }
 
-func (a *jsiiProxy_AppmeshVirtualGatewaySpecListenerConnectionPoolHttp2OutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppmeshVirtualGatewaySpecListenerConnectionPoolHttp2OutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AppmeshVirtualGatewaySpecListenerConnectionPoolHttp2OutputRef
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshVirtualGatewaySpecListenerConnectionPoolHttp2OutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppmeshVirtualGatewaySpecListenerConnectionPoolHttp2OutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppmeshVirtualGatewaySpecListenerConnectionPoolHttp2OutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppmeshVirtualGatewaySpecListenerConnectionPoolHttp2OutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

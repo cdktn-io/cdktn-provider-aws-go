@@ -47,7 +47,7 @@ func (w *jsiiProxy_WafIpsetIpSetDescriptorsOutputReference) validateInterpolatio
 	return nil
 }
 
-func (w *jsiiProxy_WafIpsetIpSetDescriptorsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WafIpsetIpSetDescriptorsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_WafIpsetIpSetDescriptorsOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_WafIpsetIpSetDescriptorsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WafIpsetIpSetDescriptorsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WafIpsetIpSetDescriptorsOutputReference) validateSetValuePara
 	return nil
 }
 
-func validateNewWafIpsetIpSetDescriptorsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWafIpsetIpSetDescriptorsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

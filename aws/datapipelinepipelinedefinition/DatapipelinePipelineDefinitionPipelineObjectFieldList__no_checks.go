@@ -15,7 +15,7 @@ func (d *jsiiProxy_DatapipelinePipelineDefinitionPipelineObjectFieldList) valida
 	return nil
 }
 
-func (d *jsiiProxy_DatapipelinePipelineDefinitionPipelineObjectFieldList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatapipelinePipelineDefinitionPipelineObjectFieldList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DatapipelinePipelineDefinitionPipelineObjectFieldList) valida
 	return nil
 }
 
-func (j *jsiiProxy_DatapipelinePipelineDefinitionPipelineObjectFieldList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatapipelinePipelineDefinitionPipelineObjectFieldList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DatapipelinePipelineDefinitionPipelineObjectFieldList) valida
 	return nil
 }
 
-func validateNewDatapipelinePipelineDefinitionPipelineObjectFieldListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDatapipelinePipelineDefinitionPipelineObjectFieldListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

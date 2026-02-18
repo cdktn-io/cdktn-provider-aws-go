@@ -107,7 +107,7 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) validateSetCredenti
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

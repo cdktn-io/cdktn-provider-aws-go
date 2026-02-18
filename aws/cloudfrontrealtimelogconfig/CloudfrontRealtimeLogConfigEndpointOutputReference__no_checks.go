@@ -51,7 +51,7 @@ func (c *jsiiProxy_CloudfrontRealtimeLogConfigEndpointOutputReference) validateP
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontRealtimeLogConfigEndpointOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontRealtimeLogConfigEndpointOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CloudfrontRealtimeLogConfigEndpointOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontRealtimeLogConfigEndpointOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontRealtimeLogConfigEndpointOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudfrontRealtimeLogConfigEndpointOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudfrontRealtimeLogConfigEndpointOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

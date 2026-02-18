@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupRulesActionCaptchaList) validateG
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupRulesActionCaptchaList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupRulesActionCaptchaList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupRulesActionCaptchaList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupRulesActionCaptchaList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupRulesActionCaptchaList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupRulesActionCaptchaList) validateS
 	return nil
 }
 
-func validateNewDataAwsWafv2ManagedRuleGroupRulesActionCaptchaListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsWafv2ManagedRuleGroupRulesActionCaptchaListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

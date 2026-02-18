@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsIdentitystoreUsersUsersNameOutputReference) validateIn
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsIdentitystoreUsersUsersNameOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsIdentitystoreUsersUsersNameOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsIdentitystoreUsersUsersNameOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsIdentitystoreUsersUsersNameOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsIdentitystoreUsersUsersNameOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsIdentitystoreUsersUsersNameOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsIdentitystoreUsersUsersNameOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

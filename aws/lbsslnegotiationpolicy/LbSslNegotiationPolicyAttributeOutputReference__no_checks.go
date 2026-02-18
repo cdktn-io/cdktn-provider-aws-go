@@ -47,7 +47,7 @@ func (l *jsiiProxy_LbSslNegotiationPolicyAttributeOutputReference) validateInter
 	return nil
 }
 
-func (l *jsiiProxy_LbSslNegotiationPolicyAttributeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LbSslNegotiationPolicyAttributeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_LbSslNegotiationPolicyAttributeOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_LbSslNegotiationPolicyAttributeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LbSslNegotiationPolicyAttributeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LbSslNegotiationPolicyAttributeOutputReference) validateSetVa
 	return nil
 }
 
-func validateNewLbSslNegotiationPolicyAttributeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLbSslNegotiationPolicyAttributeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

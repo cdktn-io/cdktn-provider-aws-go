@@ -47,7 +47,7 @@ func (w *jsiiProxy_Wafv2RuleGroupRuleVisibilityConfigOutputReference) validateIn
 	return nil
 }
 
-func (w *jsiiProxy_Wafv2RuleGroupRuleVisibilityConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_Wafv2RuleGroupRuleVisibilityConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_Wafv2RuleGroupRuleVisibilityConfigOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_Wafv2RuleGroupRuleVisibilityConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Wafv2RuleGroupRuleVisibilityConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWafv2RuleGroupRuleVisibilityConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWafv2RuleGroupRuleVisibilityConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

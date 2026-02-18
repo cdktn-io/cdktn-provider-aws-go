@@ -51,7 +51,7 @@ func (g *jsiiProxy_GlueMlTransformParametersOutputReference) validatePutFindMatc
 	return nil
 }
 
-func (g *jsiiProxy_GlueMlTransformParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueMlTransformParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GlueMlTransformParametersOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_GlueMlTransformParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueMlTransformParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GlueMlTransformParametersOutputReference) validateSetTransfor
 	return nil
 }
 
-func validateNewGlueMlTransformParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGlueMlTransformParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

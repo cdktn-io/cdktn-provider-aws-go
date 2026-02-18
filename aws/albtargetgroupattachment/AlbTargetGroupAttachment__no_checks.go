@@ -107,7 +107,7 @@ func (j *jsiiProxy_AlbTargetGroupAttachment) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_AlbTargetGroupAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AlbTargetGroupAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

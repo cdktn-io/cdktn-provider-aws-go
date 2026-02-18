@@ -115,7 +115,7 @@ func (j *jsiiProxy_VpcDhcpOptions) validateSetIpv6AddressPreferredLeaseTimeParam
 	return nil
 }
 
-func (j *jsiiProxy_VpcDhcpOptions) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VpcDhcpOptions) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

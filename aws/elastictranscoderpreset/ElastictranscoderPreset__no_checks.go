@@ -131,7 +131,7 @@ func (j *jsiiProxy_ElastictranscoderPreset) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_ElastictranscoderPreset) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ElastictranscoderPreset) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -80,7 +80,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2Filter{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -114,7 +114,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaAwsAccountIdList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -150,7 +150,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaAwsAccountIdOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -176,7 +176,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaCodeRepositoryProjectNameList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -212,7 +212,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaCodeRepositoryProjectNameOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -238,7 +238,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaCodeRepositoryProviderTypeList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -274,7 +274,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaCodeRepositoryProviderTypeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -300,7 +300,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorNameList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -336,7 +336,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorNameOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -362,7 +362,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorTagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -398,7 +398,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorTagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -424,7 +424,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaCodeVulnerabilityFilePathList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -460,7 +460,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaCodeVulnerabilityFilePathOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -486,7 +486,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaComponentIdList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -522,7 +522,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaComponentIdOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -548,7 +548,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaComponentTypeList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -584,7 +584,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaComponentTypeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -610,7 +610,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEc2InstanceImageIdList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -646,7 +646,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEc2InstanceImageIdOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -672,7 +672,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEc2InstanceSubnetIdList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -708,7 +708,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEc2InstanceSubnetIdOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -734,7 +734,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEc2InstanceVpcIdList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -770,7 +770,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEc2InstanceVpcIdOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -796,7 +796,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEcrImageArchitectureList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -832,7 +832,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEcrImageArchitectureOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -858,7 +858,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -894,7 +894,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEcrImageHashOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -920,7 +920,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -956,7 +956,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -982,7 +982,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEcrImageLastInUseAtList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1020,7 +1020,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEcrImageLastInUseAtOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1046,7 +1046,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEcrImagePushedAtList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1084,7 +1084,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEcrImagePushedAtOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1110,7 +1110,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1146,7 +1146,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1172,7 +1172,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRepositoryNameList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1208,7 +1208,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRepositoryNameOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1234,7 +1234,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEcrImageTagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1270,7 +1270,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEcrImageTagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1296,7 +1296,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEpssScoreList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1332,7 +1332,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaEpssScoreOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1358,7 +1358,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaExploitAvailableList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1394,7 +1394,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaExploitAvailableOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1420,7 +1420,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaFindingArnList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1456,7 +1456,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaFindingArnOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1482,7 +1482,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaFindingStatusList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1518,7 +1518,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaFindingStatusOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1544,7 +1544,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaFindingTypeList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1580,7 +1580,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaFindingTypeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1606,7 +1606,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaFirstObservedAtList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1644,7 +1644,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaFirstObservedAtOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1670,7 +1670,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaFixAvailableList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1706,7 +1706,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaFixAvailableOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1732,7 +1732,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaInspectorScoreList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1768,7 +1768,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaInspectorScoreOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1794,7 +1794,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaLambdaFunctionExecutionRoleArnList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1830,7 +1830,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaLambdaFunctionExecutionRoleArnOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1856,7 +1856,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaLambdaFunctionLastModifiedAtList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1894,7 +1894,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaLambdaFunctionLastModifiedAtOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1920,7 +1920,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaLambdaFunctionLayersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1956,7 +1956,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaLambdaFunctionLayersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1982,7 +1982,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaLambdaFunctionNameList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2018,7 +2018,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaLambdaFunctionNameOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2044,7 +2044,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaLambdaFunctionRuntimeList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2080,7 +2080,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaLambdaFunctionRuntimeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2106,7 +2106,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaLastObservedAtList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2144,7 +2144,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaLastObservedAtOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2166,7 +2166,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2192,7 +2192,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaNetworkProtocolList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2228,7 +2228,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaNetworkProtocolOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2444,7 +2444,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2470,7 +2470,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaPortRangeList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2506,7 +2506,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaPortRangeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2532,7 +2532,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaRelatedVulnerabilitiesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2568,7 +2568,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaRelatedVulnerabilitiesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2594,7 +2594,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaResourceIdList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2630,7 +2630,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaResourceIdOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2656,7 +2656,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaResourceTagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2694,7 +2694,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaResourceTagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2720,7 +2720,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaResourceTypeList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2756,7 +2756,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaResourceTypeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2782,7 +2782,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaSeverityList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2818,7 +2818,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaSeverityOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2844,7 +2844,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaTitleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2880,7 +2880,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaTitleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2906,7 +2906,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaUpdatedAtList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2944,7 +2944,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaUpdatedAtOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2970,7 +2970,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVendorSeverityList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3006,7 +3006,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVendorSeverityOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3032,7 +3032,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerabilityIdList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3068,7 +3068,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerabilityIdOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3094,7 +3094,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerabilitySourceList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3130,7 +3130,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerabilitySourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3160,7 +3160,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesArchitectureList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3196,7 +3196,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesArchitectureOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3222,7 +3222,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesEpochList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3258,7 +3258,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesEpochOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3284,7 +3284,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesFilePathList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3320,7 +3320,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesFilePathOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3342,7 +3342,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3368,7 +3368,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesNameList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3404,7 +3404,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesNameOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3468,7 +3468,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3494,7 +3494,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesReleaseList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3530,7 +3530,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesReleaseOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3556,7 +3556,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArnList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3592,7 +3592,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArnOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3618,7 +3618,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHashList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3654,7 +3654,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHashOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3680,7 +3680,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesVersionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3716,7 +3716,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesVersionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

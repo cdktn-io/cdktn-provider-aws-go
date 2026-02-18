@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_M2ApplicationDefinitionList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (m *jsiiProxy_M2ApplicationDefinitionList) validateGetParameters(index *flo
 	return nil
 }
 
-func (m *jsiiProxy_M2ApplicationDefinitionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_M2ApplicationDefinitionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (m *jsiiProxy_M2ApplicationDefinitionList) validateResolveParameters(contex
 
 func (j *jsiiProxy_M2ApplicationDefinitionList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*M2ApplicationDefinition:
 		val := val.(*[]*M2ApplicationDefinition)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_M2ApplicationDefinitionList) validateSetInternalValueParamete
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*M2ApplicationDefinition; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*M2ApplicationDefinition; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_M2ApplicationDefinitionList) validateSetTerraformAttributePar
 	return nil
 }
 
-func (j *jsiiProxy_M2ApplicationDefinitionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_M2ApplicationDefinitionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_M2ApplicationDefinitionList) validateSetWrapsSetParameters(va
 	return nil
 }
 
-func validateNewM2ApplicationDefinitionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewM2ApplicationDefinitionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

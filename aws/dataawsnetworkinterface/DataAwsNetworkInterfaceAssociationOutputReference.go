@@ -5,14 +5,14 @@ package dataawsnetworkinterface
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsnetworkinterface/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsnetworkinterface/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsNetworkInterfaceAssociationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllocationId() *string
 	AssociationId() *string
 	CarrierIp() *string
@@ -44,15 +44,15 @@ type DataAwsNetworkInterfaceAssociationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -68,12 +68,12 @@ type DataAwsNetworkInterfaceAssociationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type DataAwsNetworkInterfaceAssociationOutputReference interface {
 
 // The jsii proxy struct for DataAwsNetworkInterfaceAssociationOutputReference
 type jsiiProxy_DataAwsNetworkInterfaceAssociationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsNetworkInterfaceAssociationOutputReference) AllocationId() *string {
@@ -216,8 +216,8 @@ func (j *jsiiProxy_DataAwsNetworkInterfaceAssociationOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsNetworkInterfaceAssociationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsNetworkInterfaceAssociationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -227,7 +227,7 @@ func (j *jsiiProxy_DataAwsNetworkInterfaceAssociationOutputReference) TerraformR
 }
 
 
-func NewDataAwsNetworkInterfaceAssociationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsNetworkInterfaceAssociationOutputReference {
+func NewDataAwsNetworkInterfaceAssociationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsNetworkInterfaceAssociationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsNetworkInterfaceAssociationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -244,7 +244,7 @@ func NewDataAwsNetworkInterfaceAssociationOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewDataAwsNetworkInterfaceAssociationOutputReference_Override(d DataAwsNetworkInterfaceAssociationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsNetworkInterfaceAssociationOutputReference_Override(d DataAwsNetworkInterfaceAssociationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -298,7 +298,7 @@ func (j *jsiiProxy_DataAwsNetworkInterfaceAssociationOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_DataAwsNetworkInterfaceAssociationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsNetworkInterfaceAssociationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -338,11 +338,11 @@ func (d *jsiiProxy_DataAwsNetworkInterfaceAssociationOutputReference) GetAnyMapA
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsNetworkInterfaceAssociationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsNetworkInterfaceAssociationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -466,8 +466,8 @@ func (d *jsiiProxy_DataAwsNetworkInterfaceAssociationOutputReference) GetStringM
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsNetworkInterfaceAssociationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsNetworkInterfaceAssociationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -479,11 +479,11 @@ func (d *jsiiProxy_DataAwsNetworkInterfaceAssociationOutputReference) Interpolat
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsNetworkInterfaceAssociationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsNetworkInterfaceAssociationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -495,7 +495,7 @@ func (d *jsiiProxy_DataAwsNetworkInterfaceAssociationOutputReference) Interpolat
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsNetworkInterfaceAssociationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsNetworkInterfaceAssociationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

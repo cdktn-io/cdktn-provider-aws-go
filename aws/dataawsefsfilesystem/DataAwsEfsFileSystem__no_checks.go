@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsEfsFileSystem) validateSetIdParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEfsFileSystem) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsEfsFileSystem) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsVpcPeeringOutputReferen
 	return nil
 }
 
-func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsVpcPeeringOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsVpcPeeringOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_VpcEncryptionControlResourceExclusionsVpcPeeringOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_VpcEncryptionControlResourceExclusionsVpcPeeringOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpcEncryptionControlResourceExclusionsVpcPeeringOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpcEncryptionControlResourceExclusionsVpcPeeringOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpcEncryptionControlResourceExclusionsVpcPeeringOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

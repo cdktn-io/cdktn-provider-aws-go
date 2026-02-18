@@ -55,7 +55,7 @@ func (e *jsiiProxy_ElasticsearchDomainClusterConfigOutputReference) validatePutZ
 	return nil
 }
 
-func (e *jsiiProxy_ElasticsearchDomainClusterConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticsearchDomainClusterConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_ElasticsearchDomainClusterConfigOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ElasticsearchDomainClusterConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticsearchDomainClusterConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -115,7 +115,7 @@ func (j *jsiiProxy_ElasticsearchDomainClusterConfigOutputReference) validateSetZ
 	return nil
 }
 
-func validateNewElasticsearchDomainClusterConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewElasticsearchDomainClusterConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

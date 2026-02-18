@@ -103,7 +103,7 @@ func (j *jsiiProxy_RamPermission) validateSetCountParameters(val interface{}) er
 	return nil
 }
 
-func (j *jsiiProxy_RamPermission) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RamPermission) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

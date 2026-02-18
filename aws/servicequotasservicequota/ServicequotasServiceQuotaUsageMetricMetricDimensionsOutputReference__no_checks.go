@@ -47,7 +47,7 @@ func (s *jsiiProxy_ServicequotasServiceQuotaUsageMetricMetricDimensionsOutputRef
 	return nil
 }
 
-func (s *jsiiProxy_ServicequotasServiceQuotaUsageMetricMetricDimensionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServicequotasServiceQuotaUsageMetricMetricDimensionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_ServicequotasServiceQuotaUsageMetricMetricDimensionsOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_ServicequotasServiceQuotaUsageMetricMetricDimensionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServicequotasServiceQuotaUsageMetricMetricDimensionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewServicequotasServiceQuotaUsageMetricMetricDimensionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewServicequotasServiceQuotaUsageMetricMetricDimensionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

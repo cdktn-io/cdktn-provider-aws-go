@@ -15,7 +15,7 @@ func (i *jsiiProxy_IotThingGroupMetadataRootToParentGroupsList) validateGetParam
 	return nil
 }
 
-func (i *jsiiProxy_IotThingGroupMetadataRootToParentGroupsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotThingGroupMetadataRootToParentGroupsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_IotThingGroupMetadataRootToParentGroupsList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_IotThingGroupMetadataRootToParentGroupsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotThingGroupMetadataRootToParentGroupsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_IotThingGroupMetadataRootToParentGroupsList) validateSetWraps
 	return nil
 }
 
-func validateNewIotThingGroupMetadataRootToParentGroupsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIotThingGroupMetadataRootToParentGroupsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

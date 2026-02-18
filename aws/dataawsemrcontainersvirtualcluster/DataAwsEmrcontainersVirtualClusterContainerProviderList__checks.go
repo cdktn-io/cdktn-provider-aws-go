@@ -8,7 +8,7 @@ package dataawsemrcontainersvirtualcluster
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataAwsEmrcontainersVirtualClusterContainerProviderList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (d *jsiiProxy_DataAwsEmrcontainersVirtualClusterContainerProviderList) vali
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEmrcontainersVirtualClusterContainerProviderList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEmrcontainersVirtualClusterContainerProviderList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_DataAwsEmrcontainersVirtualClusterContainerProviderList) vali
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEmrcontainersVirtualClusterContainerProviderList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEmrcontainersVirtualClusterContainerProviderList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_DataAwsEmrcontainersVirtualClusterContainerProviderList) vali
 	return nil
 }
 
-func validateNewDataAwsEmrcontainersVirtualClusterContainerProviderListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEmrcontainersVirtualClusterContainerProviderListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

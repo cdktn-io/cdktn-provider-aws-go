@@ -127,7 +127,7 @@ func (j *jsiiProxy_CloudwatchMetricStream) validateSetIncludeLinkedAccountsMetri
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchMetricStream) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudwatchMetricStream) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

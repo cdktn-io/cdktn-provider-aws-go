@@ -107,7 +107,7 @@ func (j *jsiiProxy_MskScramSecretAssociation) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_MskScramSecretAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MskScramSecretAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

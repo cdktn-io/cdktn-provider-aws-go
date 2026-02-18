@@ -131,7 +131,7 @@ func (j *jsiiProxy_KmsExternalKey) validateSetKeyUsageParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_KmsExternalKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KmsExternalKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

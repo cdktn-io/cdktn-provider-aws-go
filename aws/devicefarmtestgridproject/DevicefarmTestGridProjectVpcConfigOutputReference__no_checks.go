@@ -47,7 +47,7 @@ func (d *jsiiProxy_DevicefarmTestGridProjectVpcConfigOutputReference) validateIn
 	return nil
 }
 
-func (d *jsiiProxy_DevicefarmTestGridProjectVpcConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DevicefarmTestGridProjectVpcConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DevicefarmTestGridProjectVpcConfigOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DevicefarmTestGridProjectVpcConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DevicefarmTestGridProjectVpcConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DevicefarmTestGridProjectVpcConfigOutputReference) validateSe
 	return nil
 }
 
-func validateNewDevicefarmTestGridProjectVpcConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDevicefarmTestGridProjectVpcConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

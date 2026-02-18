@@ -51,7 +51,7 @@ func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputRefere
 	return nil
 }
 
-func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAccessanalyzerAnalyzerConfigurationInternalAccessOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAccessanalyzerAnalyzerConfigurationInternalAccessOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

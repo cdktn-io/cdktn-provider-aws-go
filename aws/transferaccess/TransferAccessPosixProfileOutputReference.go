@@ -5,14 +5,14 @@ package transferaccess
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/transferaccess/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/transferaccess/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type TransferAccessPosixProfileOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type TransferAccessPosixProfileOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Uid() *float64
 	SetUid(val *float64)
 	UidInput() *float64
@@ -54,7 +54,7 @@ type TransferAccessPosixProfileOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type TransferAccessPosixProfileOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetSecondaryGids()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type TransferAccessPosixProfileOutputReference interface {
 
 // The jsii proxy struct for TransferAccessPosixProfileOutputReference
 type jsiiProxy_TransferAccessPosixProfileOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_TransferAccessPosixProfileOutputReference) ComplexObjectIndex() interface{} {
@@ -189,8 +189,8 @@ func (j *jsiiProxy_TransferAccessPosixProfileOutputReference) TerraformAttribute
 	return returns
 }
 
-func (j *jsiiProxy_TransferAccessPosixProfileOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_TransferAccessPosixProfileOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_TransferAccessPosixProfileOutputReference) UidInput() *float6
 }
 
 
-func NewTransferAccessPosixProfileOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) TransferAccessPosixProfileOutputReference {
+func NewTransferAccessPosixProfileOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) TransferAccessPosixProfileOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewTransferAccessPosixProfileOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -237,7 +237,7 @@ func NewTransferAccessPosixProfileOutputReference(terraformResource cdktf.IInter
 	return &j
 }
 
-func NewTransferAccessPosixProfileOutputReference_Override(t TransferAccessPosixProfileOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewTransferAccessPosixProfileOutputReference_Override(t TransferAccessPosixProfileOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -313,7 +313,7 @@ func (j *jsiiProxy_TransferAccessPosixProfileOutputReference)SetTerraformAttribu
 	)
 }
 
-func (j *jsiiProxy_TransferAccessPosixProfileOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_TransferAccessPosixProfileOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (t *jsiiProxy_TransferAccessPosixProfileOutputReference) GetAnyMapAttribute
 	return returns
 }
 
-func (t *jsiiProxy_TransferAccessPosixProfileOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TransferAccessPosixProfileOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -492,8 +492,8 @@ func (t *jsiiProxy_TransferAccessPosixProfileOutputReference) GetStringMapAttrib
 	return returns
 }
 
-func (t *jsiiProxy_TransferAccessPosixProfileOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (t *jsiiProxy_TransferAccessPosixProfileOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -505,11 +505,11 @@ func (t *jsiiProxy_TransferAccessPosixProfileOutputReference) InterpolationAsLis
 	return returns
 }
 
-func (t *jsiiProxy_TransferAccessPosixProfileOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TransferAccessPosixProfileOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -529,7 +529,7 @@ func (t *jsiiProxy_TransferAccessPosixProfileOutputReference) ResetSecondaryGids
 	)
 }
 
-func (t *jsiiProxy_TransferAccessPosixProfileOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (t *jsiiProxy_TransferAccessPosixProfileOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := t.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

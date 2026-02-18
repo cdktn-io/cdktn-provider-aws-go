@@ -47,7 +47,7 @@ func (f *jsiiProxy_FmsPolicySecurityServicePolicyDataPolicyOptionThirdPartyFirew
 	return nil
 }
 
-func (f *jsiiProxy_FmsPolicySecurityServicePolicyDataPolicyOptionThirdPartyFirewallPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FmsPolicySecurityServicePolicyDataPolicyOptionThirdPartyFirewallPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_FmsPolicySecurityServicePolicyDataPolicyOptionThirdPartyFirew
 	return nil
 }
 
-func (j *jsiiProxy_FmsPolicySecurityServicePolicyDataPolicyOptionThirdPartyFirewallPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FmsPolicySecurityServicePolicyDataPolicyOptionThirdPartyFirewallPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFmsPolicySecurityServicePolicyDataPolicyOptionThirdPartyFirewallPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFmsPolicySecurityServicePolicyDataPolicyOptionThirdPartyFirewallPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -119,7 +119,7 @@ func (j *jsiiProxy_GlueUserDefinedFunction) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_GlueUserDefinedFunction) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GlueUserDefinedFunction) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

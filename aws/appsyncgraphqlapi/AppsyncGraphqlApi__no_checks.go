@@ -139,7 +139,7 @@ func (j *jsiiProxy_AppsyncGraphqlApi) validateSetIntrospectionConfigParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncGraphqlApi) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppsyncGraphqlApi) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

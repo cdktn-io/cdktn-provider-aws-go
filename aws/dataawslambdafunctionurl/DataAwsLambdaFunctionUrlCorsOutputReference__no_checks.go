@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsLambdaFunctionUrlCorsOutputReference) validateInterpol
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLambdaFunctionUrlCorsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLambdaFunctionUrlCorsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsLambdaFunctionUrlCorsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLambdaFunctionUrlCorsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLambdaFunctionUrlCorsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsLambdaFunctionUrlCorsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsLambdaFunctionUrlCorsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

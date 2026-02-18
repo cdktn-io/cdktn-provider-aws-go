@@ -99,7 +99,7 @@ func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation) validateSetCountParamet
 	return nil
 }
 
-func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

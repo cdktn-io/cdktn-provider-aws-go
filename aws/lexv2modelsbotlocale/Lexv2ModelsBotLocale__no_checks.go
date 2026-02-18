@@ -119,7 +119,7 @@ func (j *jsiiProxy_Lexv2ModelsBotLocale) validateSetDescriptionParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_Lexv2ModelsBotLocale) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Lexv2ModelsBotLocale) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

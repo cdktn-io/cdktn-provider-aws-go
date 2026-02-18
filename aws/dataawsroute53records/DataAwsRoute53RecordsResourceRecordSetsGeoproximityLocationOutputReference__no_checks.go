@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsGeoproximityLocationOu
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsGeoproximityLocationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsGeoproximityLocationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsGeoproximityLocationOu
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsGeoproximityLocationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsGeoproximityLocationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsRoute53RecordsResourceRecordSetsGeoproximityLocationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAwsRoute53RecordsResourceRecordSetsGeoproximityLocationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,18 +5,18 @@ package dataawsamiids
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsamiids/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsamiids/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/ami_ids aws_ami_ids}.
 type DataAwsAmiIds interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -33,9 +33,9 @@ type DataAwsAmiIds interface {
 	Filter() DataAwsAmiIdsFilterList
 	FilterInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -48,9 +48,9 @@ type DataAwsAmiIds interface {
 	SetIncludeDeprecated(val interface{})
 	IncludeDeprecatedInput() interface{}
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	NameRegex() *string
 	SetNameRegex(val *string)
 	NameRegexInput() *string
@@ -60,9 +60,9 @@ type DataAwsAmiIds interface {
 	SetOwners(val *[]*string)
 	OwnersInput() *[]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -72,7 +72,7 @@ type DataAwsAmiIds interface {
 	SetSortAscending(val interface{})
 	SortAscendingInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -84,7 +84,7 @@ type DataAwsAmiIds interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -100,7 +100,7 @@ type DataAwsAmiIds interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -133,11 +133,11 @@ type DataAwsAmiIds interface {
 
 // The jsii proxy struct for DataAwsAmiIds
 type jsiiProxy_DataAwsAmiIds struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAwsAmiIds) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsAmiIds) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -216,8 +216,8 @@ func (j *jsiiProxy_DataAwsAmiIds) FilterInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAmiIds) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsAmiIds) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -296,8 +296,8 @@ func (j *jsiiProxy_DataAwsAmiIds) IncludeDeprecatedInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAmiIds) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsAmiIds) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -356,8 +356,8 @@ func (j *jsiiProxy_DataAwsAmiIds) OwnersInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAmiIds) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsAmiIds) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -416,8 +416,8 @@ func (j *jsiiProxy_DataAwsAmiIds) SortAscendingInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAmiIds) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsAmiIds) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -526,7 +526,7 @@ func (j *jsiiProxy_DataAwsAmiIds)SetExecutableUsers(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsAmiIds)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsAmiIds)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -556,7 +556,7 @@ func (j *jsiiProxy_DataAwsAmiIds)SetIncludeDeprecated(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsAmiIds)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsAmiIds)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -589,7 +589,7 @@ func (j *jsiiProxy_DataAwsAmiIds)SetOwners(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsAmiIds)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsAmiIds)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -619,14 +619,14 @@ func (j *jsiiProxy_DataAwsAmiIds)SetSortAscending(val interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsAmiIds resource upon running "cdktf plan <stack-name>".
-func DataAwsAmiIds_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsAmiIds resource upon running "cdktn plan <stack-name>".
+func DataAwsAmiIds_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsAmiIds_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsAmiIds.DataAwsAmiIds",
@@ -749,11 +749,11 @@ func (d *jsiiProxy_DataAwsAmiIds) GetAnyMapAttribute(terraformAttribute *string)
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsAmiIds) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsAmiIds) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -877,11 +877,11 @@ func (d *jsiiProxy_DataAwsAmiIds) GetStringMapAttribute(terraformAttribute *stri
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsAmiIds) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsAmiIds) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

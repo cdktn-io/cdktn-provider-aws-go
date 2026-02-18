@@ -5,18 +5,18 @@ package route53vpcassociationauthorization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/route53vpcassociationauthorization/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/route53vpcassociationauthorization/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/route53_vpc_association_authorization aws_route53_vpc_association_authorization}.
 type Route53VpcAssociationAuthorization interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type Route53VpcAssociationAuthorization interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -43,15 +43,15 @@ type Route53VpcAssociationAuthorization interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -59,7 +59,7 @@ type Route53VpcAssociationAuthorization interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -83,7 +83,7 @@ type Route53VpcAssociationAuthorization interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -101,9 +101,9 @@ type Route53VpcAssociationAuthorization interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -140,11 +140,11 @@ type Route53VpcAssociationAuthorization interface {
 
 // The jsii proxy struct for Route53VpcAssociationAuthorization
 type jsiiProxy_Route53VpcAssociationAuthorization struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_Route53VpcAssociationAuthorization) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_Route53VpcAssociationAuthorization) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -193,8 +193,8 @@ func (j *jsiiProxy_Route53VpcAssociationAuthorization) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_Route53VpcAssociationAuthorization) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_Route53VpcAssociationAuthorization) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -243,8 +243,8 @@ func (j *jsiiProxy_Route53VpcAssociationAuthorization) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Route53VpcAssociationAuthorization) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_Route53VpcAssociationAuthorization) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -263,8 +263,8 @@ func (j *jsiiProxy_Route53VpcAssociationAuthorization) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_Route53VpcAssociationAuthorization) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_Route53VpcAssociationAuthorization) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -293,8 +293,8 @@ func (j *jsiiProxy_Route53VpcAssociationAuthorization) RawOverrides() interface{
 	return returns
 }
 
-func (j *jsiiProxy_Route53VpcAssociationAuthorization) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_Route53VpcAssociationAuthorization) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -463,7 +463,7 @@ func (j *jsiiProxy_Route53VpcAssociationAuthorization)SetDependsOn(val *[]*strin
 	)
 }
 
-func (j *jsiiProxy_Route53VpcAssociationAuthorization)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_Route53VpcAssociationAuthorization)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -482,7 +482,7 @@ func (j *jsiiProxy_Route53VpcAssociationAuthorization)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Route53VpcAssociationAuthorization)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_Route53VpcAssociationAuthorization)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -493,7 +493,7 @@ func (j *jsiiProxy_Route53VpcAssociationAuthorization)SetLifecycle(val *cdktf.Te
 	)
 }
 
-func (j *jsiiProxy_Route53VpcAssociationAuthorization)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_Route53VpcAssociationAuthorization)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -545,14 +545,14 @@ func (j *jsiiProxy_Route53VpcAssociationAuthorization)SetZoneId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a Route53VpcAssociationAuthorization resource upon running "cdktf plan <stack-name>".
-func Route53VpcAssociationAuthorization_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a Route53VpcAssociationAuthorization resource upon running "cdktn plan <stack-name>".
+func Route53VpcAssociationAuthorization_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateRoute53VpcAssociationAuthorization_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorization",
@@ -686,11 +686,11 @@ func (r *jsiiProxy_Route53VpcAssociationAuthorization) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (r *jsiiProxy_Route53VpcAssociationAuthorization) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_Route53VpcAssociationAuthorization) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -827,7 +827,7 @@ func (r *jsiiProxy_Route53VpcAssociationAuthorization) HasResourceMove() interfa
 	return returns
 }
 
-func (r *jsiiProxy_Route53VpcAssociationAuthorization) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (r *jsiiProxy_Route53VpcAssociationAuthorization) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := r.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -838,11 +838,11 @@ func (r *jsiiProxy_Route53VpcAssociationAuthorization) ImportFrom(id *string, pr
 	)
 }
 
-func (r *jsiiProxy_Route53VpcAssociationAuthorization) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_Route53VpcAssociationAuthorization) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,

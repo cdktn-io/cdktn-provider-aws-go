@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) validateIn
 	return nil
 }
 
-func (a *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppautoscalingTargetSuspendedStateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppautoscalingTargetSuspendedStateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

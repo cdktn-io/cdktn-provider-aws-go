@@ -135,7 +135,7 @@ func (j *jsiiProxy_TimestreaminfluxdbDbCluster) validateSetFailoverModeParameter
 	return nil
 }
 
-func (j *jsiiProxy_TimestreaminfluxdbDbCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_TimestreaminfluxdbDbCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

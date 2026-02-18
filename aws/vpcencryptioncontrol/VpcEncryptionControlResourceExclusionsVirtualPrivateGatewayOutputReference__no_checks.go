@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsVirtualPrivateGatewayOu
 	return nil
 }
 
-func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsVirtualPrivateGatewayOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsVirtualPrivateGatewayOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_VpcEncryptionControlResourceExclusionsVirtualPrivateGatewayOu
 	return nil
 }
 
-func (j *jsiiProxy_VpcEncryptionControlResourceExclusionsVirtualPrivateGatewayOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpcEncryptionControlResourceExclusionsVirtualPrivateGatewayOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpcEncryptionControlResourceExclusionsVirtualPrivateGatewayOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpcEncryptionControlResourceExclusionsVirtualPrivateGatewayOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

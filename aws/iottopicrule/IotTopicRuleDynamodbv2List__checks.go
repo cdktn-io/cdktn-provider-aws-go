@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (i *jsiiProxy_IotTopicRuleDynamodbv2List) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (i *jsiiProxy_IotTopicRuleDynamodbv2List) validateGetParameters(index *floa
 	return nil
 }
 
-func (i *jsiiProxy_IotTopicRuleDynamodbv2List) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotTopicRuleDynamodbv2List) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (i *jsiiProxy_IotTopicRuleDynamodbv2List) validateResolveParameters(context
 
 func (j *jsiiProxy_IotTopicRuleDynamodbv2List) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IotTopicRuleDynamodbv2:
 		val := val.(*[]*IotTopicRuleDynamodbv2)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_IotTopicRuleDynamodbv2List) validateSetInternalValueParameter
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*IotTopicRuleDynamodbv2; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*IotTopicRuleDynamodbv2; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_IotTopicRuleDynamodbv2List) validateSetTerraformAttributePara
 	return nil
 }
 
-func (j *jsiiProxy_IotTopicRuleDynamodbv2List) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotTopicRuleDynamodbv2List) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_IotTopicRuleDynamodbv2List) validateSetWrapsSetParameters(val
 	return nil
 }
 
-func validateNewIotTopicRuleDynamodbv2ListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIotTopicRuleDynamodbv2ListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

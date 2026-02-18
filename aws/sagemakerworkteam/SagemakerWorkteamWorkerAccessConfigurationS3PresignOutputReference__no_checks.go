@@ -51,7 +51,7 @@ func (s *jsiiProxy_SagemakerWorkteamWorkerAccessConfigurationS3PresignOutputRefe
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerWorkteamWorkerAccessConfigurationS3PresignOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerWorkteamWorkerAccessConfigurationS3PresignOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SagemakerWorkteamWorkerAccessConfigurationS3PresignOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerWorkteamWorkerAccessConfigurationS3PresignOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerWorkteamWorkerAccessConfigurationS3PresignOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerWorkteamWorkerAccessConfigurationS3PresignOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerWorkteamWorkerAccessConfigurationS3PresignOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

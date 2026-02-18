@@ -5,14 +5,14 @@ package s3bucketmetadataconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/s3bucketmetadataconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/s3bucketmetadataconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type S3BucketMetadataConfigurationMetadataConfigurationList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type S3BucketMetadataConfigurationMetadataConfigurationList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type S3BucketMetadataConfigurationMetadataConfigurationList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) S3BucketMetadataConfigurationMetadataConfigurationOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type S3BucketMetadataConfigurationMetadataConfigurationList interface {
 
 // The jsii proxy struct for S3BucketMetadataConfigurationMetadataConfigurationList
 type jsiiProxy_S3BucketMetadataConfigurationMetadataConfigurationList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_S3BucketMetadataConfigurationMetadataConfigurationList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_S3BucketMetadataConfigurationMetadataConfigurationList) Terra
 	return returns
 }
 
-func (j *jsiiProxy_S3BucketMetadataConfigurationMetadataConfigurationList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_S3BucketMetadataConfigurationMetadataConfigurationList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_S3BucketMetadataConfigurationMetadataConfigurationList) Wraps
 }
 
 
-func NewS3BucketMetadataConfigurationMetadataConfigurationList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) S3BucketMetadataConfigurationMetadataConfigurationList {
+func NewS3BucketMetadataConfigurationMetadataConfigurationList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) S3BucketMetadataConfigurationMetadataConfigurationList {
 	_init_.Initialize()
 
 	if err := validateNewS3BucketMetadataConfigurationMetadataConfigurationListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewS3BucketMetadataConfigurationMetadataConfigurationList(terraformResource
 	return &j
 }
 
-func NewS3BucketMetadataConfigurationMetadataConfigurationList_Override(s S3BucketMetadataConfigurationMetadataConfigurationList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewS3BucketMetadataConfigurationMetadataConfigurationList_Override(s S3BucketMetadataConfigurationMetadataConfigurationList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_S3BucketMetadataConfigurationMetadataConfigurationList)SetTer
 	)
 }
 
-func (j *jsiiProxy_S3BucketMetadataConfigurationMetadataConfigurationList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_S3BucketMetadataConfigurationMetadataConfigurationList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_S3BucketMetadataConfigurationMetadataConfigurationList)SetWra
 	)
 }
 
-func (s *jsiiProxy_S3BucketMetadataConfigurationMetadataConfigurationList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (s *jsiiProxy_S3BucketMetadataConfigurationMetadataConfigurationList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := s.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		s,
@@ -231,7 +231,7 @@ func (s *jsiiProxy_S3BucketMetadataConfigurationMetadataConfigurationList) Get(i
 	return returns
 }
 
-func (s *jsiiProxy_S3BucketMetadataConfigurationMetadataConfigurationList) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_S3BucketMetadataConfigurationMetadataConfigurationList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

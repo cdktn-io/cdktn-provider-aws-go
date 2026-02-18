@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppsyncApiEventConfigAuthProviderCognitoConfigList) validateG
 	return nil
 }
 
-func (a *jsiiProxy_AppsyncApiEventConfigAuthProviderCognitoConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppsyncApiEventConfigAuthProviderCognitoConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderCognitoConfigList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderCognitoConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderCognitoConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderCognitoConfigList) validateS
 	return nil
 }
 
-func validateNewAppsyncApiEventConfigAuthProviderCognitoConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppsyncApiEventConfigAuthProviderCognitoConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

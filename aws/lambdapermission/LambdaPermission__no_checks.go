@@ -123,7 +123,7 @@ func (j *jsiiProxy_LambdaPermission) validateSetInvokedViaFunctionUrlParameters(
 	return nil
 }
 
-func (j *jsiiProxy_LambdaPermission) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LambdaPermission) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

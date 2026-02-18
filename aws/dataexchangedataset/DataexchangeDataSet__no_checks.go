@@ -111,7 +111,7 @@ func (j *jsiiProxy_DataexchangeDataSet) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_DataexchangeDataSet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataexchangeDataSet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

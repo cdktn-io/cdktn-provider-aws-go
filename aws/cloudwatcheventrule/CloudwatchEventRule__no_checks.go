@@ -123,7 +123,7 @@ func (j *jsiiProxy_CloudwatchEventRule) validateSetIsEnabledParameters(val inter
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchEventRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudwatchEventRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

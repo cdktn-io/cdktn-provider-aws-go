@@ -15,7 +15,7 @@ func (a *jsiiProxy_ArcregionswitchPlanAssociatedAlarmsList) validateGetParameter
 	return nil
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanAssociatedAlarmsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcregionswitchPlanAssociatedAlarmsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ArcregionswitchPlanAssociatedAlarmsList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanAssociatedAlarmsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcregionswitchPlanAssociatedAlarmsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ArcregionswitchPlanAssociatedAlarmsList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewArcregionswitchPlanAssociatedAlarmsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewArcregionswitchPlanAssociatedAlarmsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

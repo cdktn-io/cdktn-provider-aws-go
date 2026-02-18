@@ -51,7 +51,7 @@ func (s *jsiiProxy_SsmcontactsRotationRecurrenceMonthlySettingsOutputReference) 
 	return nil
 }
 
-func (s *jsiiProxy_SsmcontactsRotationRecurrenceMonthlySettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsmcontactsRotationRecurrenceMonthlySettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SsmcontactsRotationRecurrenceMonthlySettingsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_SsmcontactsRotationRecurrenceMonthlySettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsmcontactsRotationRecurrenceMonthlySettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSsmcontactsRotationRecurrenceMonthlySettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSsmcontactsRotationRecurrenceMonthlySettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

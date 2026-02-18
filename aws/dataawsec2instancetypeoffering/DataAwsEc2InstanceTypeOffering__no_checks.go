@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsEc2InstanceTypeOffering) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceTypeOffering) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsEc2InstanceTypeOffering) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

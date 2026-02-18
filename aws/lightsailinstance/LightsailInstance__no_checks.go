@@ -127,7 +127,7 @@ func (j *jsiiProxy_LightsailInstance) validateSetKeyPairNameParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_LightsailInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LightsailInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

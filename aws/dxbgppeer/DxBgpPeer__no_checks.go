@@ -127,7 +127,7 @@ func (j *jsiiProxy_DxBgpPeer) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_DxBgpPeer) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DxBgpPeer) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

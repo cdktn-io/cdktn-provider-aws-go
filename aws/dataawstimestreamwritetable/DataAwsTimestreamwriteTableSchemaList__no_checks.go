@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsTimestreamwriteTableSchemaList) validateGetParameters(
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsTimestreamwriteTableSchemaList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsTimestreamwriteTableSchemaList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsTimestreamwriteTableSchemaList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsTimestreamwriteTableSchemaList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsTimestreamwriteTableSchemaList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsTimestreamwriteTableSchemaList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewDataAwsTimestreamwriteTableSchemaListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsTimestreamwriteTableSchemaListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsServerlessapplicationrepositoryApplication) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsServerlessapplicationrepositoryApplication) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsServerlessapplicationrepositoryApplication) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

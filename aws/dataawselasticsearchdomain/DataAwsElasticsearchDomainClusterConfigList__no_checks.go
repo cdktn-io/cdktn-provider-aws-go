@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsElasticsearchDomainClusterConfigList) validateGetParam
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsElasticsearchDomainClusterConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsElasticsearchDomainClusterConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsElasticsearchDomainClusterConfigList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsElasticsearchDomainClusterConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsElasticsearchDomainClusterConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsElasticsearchDomainClusterConfigList) validateSetWraps
 	return nil
 }
 
-func validateNewDataAwsElasticsearchDomainClusterConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsElasticsearchDomainClusterConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

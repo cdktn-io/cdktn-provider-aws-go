@@ -127,7 +127,7 @@ func (j *jsiiProxy_DatasyncLocationAzureBlob) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_DatasyncLocationAzureBlob) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DatasyncLocationAzureBlob) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

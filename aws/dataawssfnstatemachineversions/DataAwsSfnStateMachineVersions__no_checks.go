@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsSfnStateMachineVersions) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSfnStateMachineVersions) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsSfnStateMachineVersions) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

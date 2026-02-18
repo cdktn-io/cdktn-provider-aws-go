@@ -47,7 +47,7 @@ func (t *jsiiProxy_TransferConnectorEgressConfigVpcLatticeOutputReference) valid
 	return nil
 }
 
-func (t *jsiiProxy_TransferConnectorEgressConfigVpcLatticeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TransferConnectorEgressConfigVpcLatticeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_TransferConnectorEgressConfigVpcLatticeOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_TransferConnectorEgressConfigVpcLatticeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TransferConnectorEgressConfigVpcLatticeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTransferConnectorEgressConfigVpcLatticeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTransferConnectorEgressConfigVpcLatticeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

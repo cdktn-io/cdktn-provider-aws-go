@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApiGatewayUsagePlanApiStagesThrottleList) validateGetParamete
 	return nil
 }
 
-func (a *jsiiProxy_ApiGatewayUsagePlanApiStagesThrottleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiGatewayUsagePlanApiStagesThrottleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApiGatewayUsagePlanApiStagesThrottleList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_ApiGatewayUsagePlanApiStagesThrottleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiGatewayUsagePlanApiStagesThrottleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApiGatewayUsagePlanApiStagesThrottleList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewApiGatewayUsagePlanApiStagesThrottleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApiGatewayUsagePlanApiStagesThrottleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

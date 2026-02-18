@@ -47,7 +47,7 @@ func (e *jsiiProxy_Ec2CapacityReservationTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (e *jsiiProxy_Ec2CapacityReservationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_Ec2CapacityReservationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_Ec2CapacityReservationTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_Ec2CapacityReservationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Ec2CapacityReservationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_Ec2CapacityReservationTimeoutsOutputReference) validateSetUpd
 	return nil
 }
 
-func validateNewEc2CapacityReservationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEc2CapacityReservationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

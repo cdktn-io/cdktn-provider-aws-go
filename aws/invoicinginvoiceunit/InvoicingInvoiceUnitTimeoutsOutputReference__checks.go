@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (i *jsiiProxy_InvoicingInvoiceUnitTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (i *jsiiProxy_InvoicingInvoiceUnitTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (i *jsiiProxy_InvoicingInvoiceUnitTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_InvoicingInvoiceUnitTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_InvoicingInvoiceUnitTimeoutsOutputReference) validateSetDelet
 
 func (j *jsiiProxy_InvoicingInvoiceUnitTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *InvoicingInvoiceUnitTimeouts:
 		val := val.(*InvoicingInvoiceUnitTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_InvoicingInvoiceUnitTimeoutsOutputReference) validateSetInter
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *InvoicingInvoiceUnitTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *InvoicingInvoiceUnitTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_InvoicingInvoiceUnitTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_InvoicingInvoiceUnitTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_InvoicingInvoiceUnitTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_InvoicingInvoiceUnitTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewInvoicingInvoiceUnitTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewInvoicingInvoiceUnitTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

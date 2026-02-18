@@ -5,14 +5,14 @@ package bedrockagentflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/bedrockagentflow/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/bedrockagentflow/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BucketName() *string
 	SetBucketName(val *string)
 	BucketNameInput() *string
@@ -40,15 +40,15 @@ type BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3O
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3O
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3O
 
 // The jsii proxy struct for BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference
 type jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference) BucketName() *string {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceCo
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceCo
 }
 
 
-func NewBedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference {
+func NewBedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -190,7 +190,7 @@ func NewBedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfiguration
 	return &j
 }
 
-func NewBedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference_Override(b BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewBedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference_Override(b BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceCo
 	)
 }
 
-func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceCo
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -423,8 +423,8 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceCo
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -436,11 +436,11 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceCo
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -452,7 +452,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceCo
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

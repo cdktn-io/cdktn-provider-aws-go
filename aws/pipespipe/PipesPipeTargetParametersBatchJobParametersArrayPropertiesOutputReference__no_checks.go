@@ -47,7 +47,7 @@ func (p *jsiiProxy_PipesPipeTargetParametersBatchJobParametersArrayPropertiesOut
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersBatchJobParametersArrayPropertiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeTargetParametersBatchJobParametersArrayPropertiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_PipesPipeTargetParametersBatchJobParametersArrayPropertiesOut
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeTargetParametersBatchJobParametersArrayPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeTargetParametersBatchJobParametersArrayPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPipesPipeTargetParametersBatchJobParametersArrayPropertiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPipesPipeTargetParametersBatchJobParametersArrayPropertiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (e *jsiiProxy_EksCapabilityConfigurationArgoCdRbacRoleMappingIdentityOutput
 	return nil
 }
 
-func (e *jsiiProxy_EksCapabilityConfigurationArgoCdRbacRoleMappingIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksCapabilityConfigurationArgoCdRbacRoleMappingIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_EksCapabilityConfigurationArgoCdRbacRoleMappingIdentityOutput
 	return nil
 }
 
-func (j *jsiiProxy_EksCapabilityConfigurationArgoCdRbacRoleMappingIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksCapabilityConfigurationArgoCdRbacRoleMappingIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_EksCapabilityConfigurationArgoCdRbacRoleMappingIdentityOutput
 	return nil
 }
 
-func validateNewEksCapabilityConfigurationArgoCdRbacRoleMappingIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEksCapabilityConfigurationArgoCdRbacRoleMappingIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsInstanceMaintenanceOptionsOutputReference) validateInt
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsInstanceMaintenanceOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsInstanceMaintenanceOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsInstanceMaintenanceOptionsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsInstanceMaintenanceOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsInstanceMaintenanceOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsInstanceMaintenanceOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsInstanceMaintenanceOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

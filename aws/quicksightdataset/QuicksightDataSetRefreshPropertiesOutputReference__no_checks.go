@@ -51,7 +51,7 @@ func (q *jsiiProxy_QuicksightDataSetRefreshPropertiesOutputReference) validatePu
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDataSetRefreshPropertiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDataSetRefreshPropertiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_QuicksightDataSetRefreshPropertiesOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDataSetRefreshPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDataSetRefreshPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewQuicksightDataSetRefreshPropertiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewQuicksightDataSetRefreshPropertiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

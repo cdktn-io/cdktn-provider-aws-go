@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudformationStackInstancesOperationPreferencesOutputReferen
 	return nil
 }
 
-func (c *jsiiProxy_CloudformationStackInstancesOperationPreferencesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudformationStackInstancesOperationPreferencesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_CloudformationStackInstancesOperationPreferencesOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_CloudformationStackInstancesOperationPreferencesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudformationStackInstancesOperationPreferencesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudformationStackInstancesOperationPreferencesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudformationStackInstancesOperationPreferencesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

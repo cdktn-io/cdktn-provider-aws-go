@@ -15,7 +15,7 @@ func (b *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpList) validate
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpList) validate
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpList) validate
 	return nil
 }
 
-func validateNewBedrockagentcoreGatewayProtocolConfigurationMcpListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockagentcoreGatewayProtocolConfigurationMcpListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GlueCrawlerSchemaChangePolicyOutputReference) validateInterpo
 	return nil
 }
 
-func (g *jsiiProxy_GlueCrawlerSchemaChangePolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueCrawlerSchemaChangePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GlueCrawlerSchemaChangePolicyOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_GlueCrawlerSchemaChangePolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueCrawlerSchemaChangePolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GlueCrawlerSchemaChangePolicyOutputReference) validateSetUpda
 	return nil
 }
 
-func validateNewGlueCrawlerSchemaChangePolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGlueCrawlerSchemaChangePolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsCloudfrontOriginAccessIdentity) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCloudfrontOriginAccessIdentity) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsCloudfrontOriginAccessIdentity) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

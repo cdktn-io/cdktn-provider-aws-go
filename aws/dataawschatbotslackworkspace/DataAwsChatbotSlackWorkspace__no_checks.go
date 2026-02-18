@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsChatbotSlackWorkspace) validateSetCountParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsChatbotSlackWorkspace) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsChatbotSlackWorkspace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

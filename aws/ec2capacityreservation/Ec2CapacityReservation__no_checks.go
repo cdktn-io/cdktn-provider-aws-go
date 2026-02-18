@@ -143,7 +143,7 @@ func (j *jsiiProxy_Ec2CapacityReservation) validateSetInstanceTypeParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_Ec2CapacityReservation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Ec2CapacityReservation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_SpotFleetRequestLaunchTemplateConfigOverridesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -104,7 +104,7 @@ func (s *jsiiProxy_SpotFleetRequestLaunchTemplateConfigOverridesOutputReference)
 	return nil
 }
 
-func (s *jsiiProxy_SpotFleetRequestLaunchTemplateConfigOverridesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpotFleetRequestLaunchTemplateConfigOverridesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -195,7 +195,7 @@ func (j *jsiiProxy_SpotFleetRequestLaunchTemplateConfigOverridesOutputReference)
 
 func (j *jsiiProxy_SpotFleetRequestLaunchTemplateConfigOverridesOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *SpotFleetRequestLaunchTemplateConfigOverrides:
 		val := val.(*SpotFleetRequestLaunchTemplateConfigOverrides)
@@ -210,7 +210,7 @@ func (j *jsiiProxy_SpotFleetRequestLaunchTemplateConfigOverridesOutputReference)
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *SpotFleetRequestLaunchTemplateConfigOverrides; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *SpotFleetRequestLaunchTemplateConfigOverrides; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -249,7 +249,7 @@ func (j *jsiiProxy_SpotFleetRequestLaunchTemplateConfigOverridesOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_SpotFleetRequestLaunchTemplateConfigOverridesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpotFleetRequestLaunchTemplateConfigOverridesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -265,7 +265,7 @@ func (j *jsiiProxy_SpotFleetRequestLaunchTemplateConfigOverridesOutputReference)
 	return nil
 }
 
-func validateNewSpotFleetRequestLaunchTemplateConfigOverridesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSpotFleetRequestLaunchTemplateConfigOverridesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -107,7 +107,7 @@ func (j *jsiiProxy_ProxyProtocolPolicy) validateSetInstancePortsParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_ProxyProtocolPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ProxyProtocolPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

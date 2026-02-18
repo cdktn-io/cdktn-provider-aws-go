@@ -47,7 +47,7 @@ func (s *jsiiProxy_SagemakerWorkteamMemberDefinitionOidcMemberDefinitionOutputRe
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerWorkteamMemberDefinitionOidcMemberDefinitionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerWorkteamMemberDefinitionOidcMemberDefinitionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SagemakerWorkteamMemberDefinitionOidcMemberDefinitionOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerWorkteamMemberDefinitionOidcMemberDefinitionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerWorkteamMemberDefinitionOidcMemberDefinitionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerWorkteamMemberDefinitionOidcMemberDefinitionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerWorkteamMemberDefinitionOidcMemberDefinitionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

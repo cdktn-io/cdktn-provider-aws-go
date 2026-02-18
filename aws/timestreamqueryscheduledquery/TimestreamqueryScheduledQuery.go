@@ -5,19 +5,19 @@ package timestreamqueryscheduledquery
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/timestreamqueryscheduledquery/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/timestreamqueryscheduledquery/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/timestreamquery_scheduled_query aws_timestreamquery_scheduled_query}.
 type TimestreamqueryScheduledQuery interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -39,9 +39,9 @@ type TimestreamqueryScheduledQuery interface {
 	SetExecutionRoleArn(val *string)
 	ExecutionRoleArnInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,9 +52,9 @@ type TimestreamqueryScheduledQuery interface {
 	LastRunSummary() TimestreamqueryScheduledQueryLastRunSummaryList
 	LastRunSummaryInput() interface{}
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -65,9 +65,9 @@ type TimestreamqueryScheduledQuery interface {
 	NotificationConfigurationInput() interface{}
 	PreviousInvocationTime() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -87,12 +87,12 @@ type TimestreamqueryScheduledQuery interface {
 	State() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
-	TagsAll() cdktf.StringMap
+	TagsAll() cdktn.StringMap
 	TagsInput() *map[string]*string
 	TargetConfiguration() TimestreamqueryScheduledQueryTargetConfigurationList
 	TargetConfigurationInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -107,7 +107,7 @@ type TimestreamqueryScheduledQuery interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -125,9 +125,9 @@ type TimestreamqueryScheduledQuery interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -177,7 +177,7 @@ type TimestreamqueryScheduledQuery interface {
 
 // The jsii proxy struct for TimestreamqueryScheduledQuery
 type jsiiProxy_TimestreamqueryScheduledQuery struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_TimestreamqueryScheduledQuery) Arn() *string {
@@ -190,8 +190,8 @@ func (j *jsiiProxy_TimestreamqueryScheduledQuery) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_TimestreamqueryScheduledQuery) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_TimestreamqueryScheduledQuery) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -290,8 +290,8 @@ func (j *jsiiProxy_TimestreamqueryScheduledQuery) ExecutionRoleArnInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_TimestreamqueryScheduledQuery) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_TimestreamqueryScheduledQuery) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -360,8 +360,8 @@ func (j *jsiiProxy_TimestreamqueryScheduledQuery) LastRunSummaryInput() interfac
 	return returns
 }
 
-func (j *jsiiProxy_TimestreamqueryScheduledQuery) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_TimestreamqueryScheduledQuery) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -440,8 +440,8 @@ func (j *jsiiProxy_TimestreamqueryScheduledQuery) PreviousInvocationTime() *stri
 	return returns
 }
 
-func (j *jsiiProxy_TimestreamqueryScheduledQuery) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_TimestreamqueryScheduledQuery) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -570,8 +570,8 @@ func (j *jsiiProxy_TimestreamqueryScheduledQuery) Tags() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_TimestreamqueryScheduledQuery) TagsAll() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_TimestreamqueryScheduledQuery) TagsAll() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tagsAll",
@@ -610,8 +610,8 @@ func (j *jsiiProxy_TimestreamqueryScheduledQuery) TargetConfigurationInput() int
 	return returns
 }
 
-func (j *jsiiProxy_TimestreamqueryScheduledQuery) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_TimestreamqueryScheduledQuery) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -731,7 +731,7 @@ func (j *jsiiProxy_TimestreamqueryScheduledQuery)SetExecutionRoleArn(val *string
 	)
 }
 
-func (j *jsiiProxy_TimestreamqueryScheduledQuery)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_TimestreamqueryScheduledQuery)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -750,7 +750,7 @@ func (j *jsiiProxy_TimestreamqueryScheduledQuery)SetKmsKeyId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_TimestreamqueryScheduledQuery)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_TimestreamqueryScheduledQuery)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -772,7 +772,7 @@ func (j *jsiiProxy_TimestreamqueryScheduledQuery)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_TimestreamqueryScheduledQuery)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_TimestreamqueryScheduledQuery)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -824,14 +824,14 @@ func (j *jsiiProxy_TimestreamqueryScheduledQuery)SetTags(val *map[string]*string
 	)
 }
 
-// Generates CDKTF code for importing a TimestreamqueryScheduledQuery resource upon running "cdktf plan <stack-name>".
-func TimestreamqueryScheduledQuery_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a TimestreamqueryScheduledQuery resource upon running "cdktn plan <stack-name>".
+func TimestreamqueryScheduledQuery_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateTimestreamqueryScheduledQuery_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.timestreamqueryScheduledQuery.TimestreamqueryScheduledQuery",
@@ -965,11 +965,11 @@ func (t *jsiiProxy_TimestreamqueryScheduledQuery) GetAnyMapAttribute(terraformAt
 	return returns
 }
 
-func (t *jsiiProxy_TimestreamqueryScheduledQuery) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TimestreamqueryScheduledQuery) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -1106,7 +1106,7 @@ func (t *jsiiProxy_TimestreamqueryScheduledQuery) HasResourceMove() interface{} 
 	return returns
 }
 
-func (t *jsiiProxy_TimestreamqueryScheduledQuery) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (t *jsiiProxy_TimestreamqueryScheduledQuery) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := t.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1117,11 +1117,11 @@ func (t *jsiiProxy_TimestreamqueryScheduledQuery) ImportFrom(id *string, provide
 	)
 }
 
-func (t *jsiiProxy_TimestreamqueryScheduledQuery) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TimestreamqueryScheduledQuery) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,

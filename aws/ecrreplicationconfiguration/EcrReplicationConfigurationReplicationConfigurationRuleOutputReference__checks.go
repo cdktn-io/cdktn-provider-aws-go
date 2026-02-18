@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (e *jsiiProxy_EcrReplicationConfigurationReplicationConfigurationRuleOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (e *jsiiProxy_EcrReplicationConfigurationReplicationConfigurationRuleOutput
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EcrReplicationConfigurationReplicationConfigurationRuleDestination:
 		value := value.(*[]*EcrReplicationConfigurationReplicationConfigurationRuleDestination)
@@ -117,7 +117,7 @@ func (e *jsiiProxy_EcrReplicationConfigurationReplicationConfigurationRuleOutput
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EcrReplicationConfigurationReplicationConfigurationRuleDestination; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EcrReplicationConfigurationReplicationConfigurationRuleDestination; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (e *jsiiProxy_EcrReplicationConfigurationReplicationConfigurationRuleOutput
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EcrReplicationConfigurationReplicationConfigurationRuleRepositoryFilter:
 		value := value.(*[]*EcrReplicationConfigurationReplicationConfigurationRuleRepositoryFilter)
@@ -148,14 +148,14 @@ func (e *jsiiProxy_EcrReplicationConfigurationReplicationConfigurationRuleOutput
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EcrReplicationConfigurationReplicationConfigurationRuleRepositoryFilter; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EcrReplicationConfigurationReplicationConfigurationRuleRepositoryFilter; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (e *jsiiProxy_EcrReplicationConfigurationReplicationConfigurationRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcrReplicationConfigurationReplicationConfigurationRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_EcrReplicationConfigurationReplicationConfigurationRuleOutput
 
 func (j *jsiiProxy_EcrReplicationConfigurationReplicationConfigurationRuleOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *EcrReplicationConfigurationReplicationConfigurationRule:
 		val := val.(*EcrReplicationConfigurationReplicationConfigurationRule)
@@ -245,7 +245,7 @@ func (j *jsiiProxy_EcrReplicationConfigurationReplicationConfigurationRuleOutput
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *EcrReplicationConfigurationReplicationConfigurationRule; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *EcrReplicationConfigurationReplicationConfigurationRule; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -260,7 +260,7 @@ func (j *jsiiProxy_EcrReplicationConfigurationReplicationConfigurationRuleOutput
 	return nil
 }
 
-func (j *jsiiProxy_EcrReplicationConfigurationReplicationConfigurationRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcrReplicationConfigurationReplicationConfigurationRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -268,7 +268,7 @@ func (j *jsiiProxy_EcrReplicationConfigurationReplicationConfigurationRuleOutput
 	return nil
 }
 
-func validateNewEcrReplicationConfigurationReplicationConfigurationRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEcrReplicationConfigurationReplicationConfigurationRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (q *jsiiProxy_QbusinessApplicationTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (q *jsiiProxy_QbusinessApplicationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QbusinessApplicationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_QbusinessApplicationTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_QbusinessApplicationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QbusinessApplicationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_QbusinessApplicationTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewQbusinessApplicationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewQbusinessApplicationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

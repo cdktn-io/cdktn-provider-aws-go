@@ -5,14 +5,14 @@ package imagebuilderlifecyclepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/imagebuilderlifecyclepolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/imagebuilderlifecyclepolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ImagebuilderLifecyclePolicyResourceSelectionList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type ImagebuilderLifecyclePolicyResourceSelectionList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type ImagebuilderLifecyclePolicyResourceSelectionList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) ImagebuilderLifecyclePolicyResourceSelectionOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type ImagebuilderLifecyclePolicyResourceSelectionList interface {
 
 // The jsii proxy struct for ImagebuilderLifecyclePolicyResourceSelectionList
 type jsiiProxy_ImagebuilderLifecyclePolicyResourceSelectionList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_ImagebuilderLifecyclePolicyResourceSelectionList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_ImagebuilderLifecyclePolicyResourceSelectionList) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_ImagebuilderLifecyclePolicyResourceSelectionList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ImagebuilderLifecyclePolicyResourceSelectionList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_ImagebuilderLifecyclePolicyResourceSelectionList) WrapsSet() 
 }
 
 
-func NewImagebuilderLifecyclePolicyResourceSelectionList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ImagebuilderLifecyclePolicyResourceSelectionList {
+func NewImagebuilderLifecyclePolicyResourceSelectionList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ImagebuilderLifecyclePolicyResourceSelectionList {
 	_init_.Initialize()
 
 	if err := validateNewImagebuilderLifecyclePolicyResourceSelectionListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewImagebuilderLifecyclePolicyResourceSelectionList(terraformResource cdktf
 	return &j
 }
 
-func NewImagebuilderLifecyclePolicyResourceSelectionList_Override(i ImagebuilderLifecyclePolicyResourceSelectionList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewImagebuilderLifecyclePolicyResourceSelectionList_Override(i ImagebuilderLifecyclePolicyResourceSelectionList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_ImagebuilderLifecyclePolicyResourceSelectionList)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_ImagebuilderLifecyclePolicyResourceSelectionList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ImagebuilderLifecyclePolicyResourceSelectionList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_ImagebuilderLifecyclePolicyResourceSelectionList)SetWrapsSet(
 	)
 }
 
-func (i *jsiiProxy_ImagebuilderLifecyclePolicyResourceSelectionList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (i *jsiiProxy_ImagebuilderLifecyclePolicyResourceSelectionList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := i.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		i,
@@ -231,7 +231,7 @@ func (i *jsiiProxy_ImagebuilderLifecyclePolicyResourceSelectionList) Get(index *
 	return returns
 }
 
-func (i *jsiiProxy_ImagebuilderLifecyclePolicyResourceSelectionList) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_ImagebuilderLifecyclePolicyResourceSelectionList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

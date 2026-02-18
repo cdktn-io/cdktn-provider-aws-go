@@ -47,7 +47,7 @@ func (m *jsiiProxy_M2EnvironmentStorageConfigurationFsxOutputReference) validate
 	return nil
 }
 
-func (m *jsiiProxy_M2EnvironmentStorageConfigurationFsxOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_M2EnvironmentStorageConfigurationFsxOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_M2EnvironmentStorageConfigurationFsxOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_M2EnvironmentStorageConfigurationFsxOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_M2EnvironmentStorageConfigurationFsxOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewM2EnvironmentStorageConfigurationFsxOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewM2EnvironmentStorageConfigurationFsxOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

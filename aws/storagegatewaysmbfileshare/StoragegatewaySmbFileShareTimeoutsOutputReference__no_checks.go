@@ -47,7 +47,7 @@ func (s *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (s *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func validateNewStoragegatewaySmbFileShareTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStoragegatewaySmbFileShareTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

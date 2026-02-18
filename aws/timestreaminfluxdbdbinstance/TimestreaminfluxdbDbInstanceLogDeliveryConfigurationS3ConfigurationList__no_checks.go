@@ -15,7 +15,7 @@ func (t *jsiiProxy_TimestreaminfluxdbDbInstanceLogDeliveryConfigurationS3Configu
 	return nil
 }
 
-func (t *jsiiProxy_TimestreaminfluxdbDbInstanceLogDeliveryConfigurationS3ConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TimestreaminfluxdbDbInstanceLogDeliveryConfigurationS3ConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_TimestreaminfluxdbDbInstanceLogDeliveryConfigurationS3Configu
 	return nil
 }
 
-func (j *jsiiProxy_TimestreaminfluxdbDbInstanceLogDeliveryConfigurationS3ConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TimestreaminfluxdbDbInstanceLogDeliveryConfigurationS3ConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_TimestreaminfluxdbDbInstanceLogDeliveryConfigurationS3Configu
 	return nil
 }
 
-func validateNewTimestreaminfluxdbDbInstanceLogDeliveryConfigurationS3ConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewTimestreaminfluxdbDbInstanceLogDeliveryConfigurationS3ConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

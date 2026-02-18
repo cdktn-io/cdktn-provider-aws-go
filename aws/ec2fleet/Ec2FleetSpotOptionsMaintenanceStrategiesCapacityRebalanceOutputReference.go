@@ -5,14 +5,14 @@ package ec2fleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ec2fleet/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ec2fleet/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference in
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference in
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetReplacementStrategy()
 	ResetTerminationDelay()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference in
 
 // The jsii proxy struct for Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference
 type jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutp
 	return returns
 }
 
-func (j *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutp
 }
 
 
-func NewEc2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference {
+func NewEc2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEc2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewEc2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference
 	return &j
 }
 
-func NewEc2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference_Override(e Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEc2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference_Override(e Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutp
 	)
 }
 
-func (j *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (e *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutp
 	return returns
 }
 
-func (e *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -459,8 +459,8 @@ func (e *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutp
 	return returns
 }
 
-func (e *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -472,11 +472,11 @@ func (e *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutp
 	return returns
 }
 
-func (e *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -504,7 +504,7 @@ func (e *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutp
 	)
 }
 
-func (e *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

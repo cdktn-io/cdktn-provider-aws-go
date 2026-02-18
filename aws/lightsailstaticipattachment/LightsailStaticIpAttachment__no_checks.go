@@ -107,7 +107,7 @@ func (j *jsiiProxy_LightsailStaticIpAttachment) validateSetInstanceNameParameter
 	return nil
 }
 
-func (j *jsiiProxy_LightsailStaticIpAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LightsailStaticIpAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

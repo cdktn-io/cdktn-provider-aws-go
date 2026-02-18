@@ -51,7 +51,7 @@ func (p *jsiiProxy_PipesPipeEnrichmentParametersOutputReference) validatePutHttp
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeEnrichmentParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeEnrichmentParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_PipesPipeEnrichmentParametersOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeEnrichmentParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeEnrichmentParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPipesPipeEnrichmentParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPipesPipeEnrichmentParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

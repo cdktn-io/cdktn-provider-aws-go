@@ -47,7 +47,7 @@ func (l *jsiiProxy_LambdaEventSourceMappingMetricsConfigOutputReference) validat
 	return nil
 }
 
-func (l *jsiiProxy_LambdaEventSourceMappingMetricsConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LambdaEventSourceMappingMetricsConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_LambdaEventSourceMappingMetricsConfigOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_LambdaEventSourceMappingMetricsConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LambdaEventSourceMappingMetricsConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLambdaEventSourceMappingMetricsConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLambdaEventSourceMappingMetricsConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

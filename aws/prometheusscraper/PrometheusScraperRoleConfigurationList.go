@@ -5,14 +5,14 @@ package prometheusscraper
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/prometheusscraper/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/prometheusscraper/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PrometheusScraperRoleConfigurationList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type PrometheusScraperRoleConfigurationList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type PrometheusScraperRoleConfigurationList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) PrometheusScraperRoleConfigurationOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type PrometheusScraperRoleConfigurationList interface {
 
 // The jsii proxy struct for PrometheusScraperRoleConfigurationList
 type jsiiProxy_PrometheusScraperRoleConfigurationList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_PrometheusScraperRoleConfigurationList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_PrometheusScraperRoleConfigurationList) TerraformAttribute() 
 	return returns
 }
 
-func (j *jsiiProxy_PrometheusScraperRoleConfigurationList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PrometheusScraperRoleConfigurationList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_PrometheusScraperRoleConfigurationList) WrapsSet() *bool {
 }
 
 
-func NewPrometheusScraperRoleConfigurationList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PrometheusScraperRoleConfigurationList {
+func NewPrometheusScraperRoleConfigurationList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PrometheusScraperRoleConfigurationList {
 	_init_.Initialize()
 
 	if err := validateNewPrometheusScraperRoleConfigurationListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewPrometheusScraperRoleConfigurationList(terraformResource cdktf.IInterpol
 	return &j
 }
 
-func NewPrometheusScraperRoleConfigurationList_Override(p PrometheusScraperRoleConfigurationList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewPrometheusScraperRoleConfigurationList_Override(p PrometheusScraperRoleConfigurationList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_PrometheusScraperRoleConfigurationList)SetTerraformAttribute(
 	)
 }
 
-func (j *jsiiProxy_PrometheusScraperRoleConfigurationList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PrometheusScraperRoleConfigurationList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_PrometheusScraperRoleConfigurationList)SetWrapsSet(val *bool)
 	)
 }
 
-func (p *jsiiProxy_PrometheusScraperRoleConfigurationList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (p *jsiiProxy_PrometheusScraperRoleConfigurationList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := p.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		p,
@@ -231,7 +231,7 @@ func (p *jsiiProxy_PrometheusScraperRoleConfigurationList) Get(index *float64) P
 	return returns
 }
 
-func (p *jsiiProxy_PrometheusScraperRoleConfigurationList) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PrometheusScraperRoleConfigurationList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

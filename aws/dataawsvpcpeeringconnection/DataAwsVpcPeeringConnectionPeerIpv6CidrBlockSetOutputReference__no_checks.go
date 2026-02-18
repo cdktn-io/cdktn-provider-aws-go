@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsVpcPeeringConnectionPeerIpv6CidrBlockSetOutputReferenc
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsVpcPeeringConnectionPeerIpv6CidrBlockSetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsVpcPeeringConnectionPeerIpv6CidrBlockSetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsVpcPeeringConnectionPeerIpv6CidrBlockSetOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVpcPeeringConnectionPeerIpv6CidrBlockSetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsVpcPeeringConnectionPeerIpv6CidrBlockSetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsVpcPeeringConnectionPeerIpv6CidrBlockSetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsVpcPeeringConnectionPeerIpv6CidrBlockSetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

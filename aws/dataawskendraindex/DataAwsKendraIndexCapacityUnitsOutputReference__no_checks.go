@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsKendraIndexCapacityUnitsOutputReference) validateInter
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsKendraIndexCapacityUnitsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsKendraIndexCapacityUnitsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsKendraIndexCapacityUnitsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsKendraIndexCapacityUnitsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsKendraIndexCapacityUnitsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsKendraIndexCapacityUnitsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsKendraIndexCapacityUnitsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

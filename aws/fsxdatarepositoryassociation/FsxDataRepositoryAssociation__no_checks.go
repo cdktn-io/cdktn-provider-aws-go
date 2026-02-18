@@ -135,7 +135,7 @@ func (j *jsiiProxy_FsxDataRepositoryAssociation) validateSetImportedFileChunkSiz
 	return nil
 }
 
-func (j *jsiiProxy_FsxDataRepositoryAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_FsxDataRepositoryAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

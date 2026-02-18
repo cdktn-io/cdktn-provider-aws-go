@@ -47,7 +47,7 @@ func (s *jsiiProxy_S3BucketMetricFilterOutputReference) validateInterpolationFor
 	return nil
 }
 
-func (s *jsiiProxy_S3BucketMetricFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3BucketMetricFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_S3BucketMetricFilterOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketMetricFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3BucketMetricFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewS3BucketMetricFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewS3BucketMetricFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

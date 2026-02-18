@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsAppstreamImageStateChangeReasonOutputReference) valida
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAppstreamImageStateChangeReasonOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAppstreamImageStateChangeReasonOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsAppstreamImageStateChangeReasonOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAppstreamImageStateChangeReasonOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAppstreamImageStateChangeReasonOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsAppstreamImageStateChangeReasonOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsAppstreamImageStateChangeReasonOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

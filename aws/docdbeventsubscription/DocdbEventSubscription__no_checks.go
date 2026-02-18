@@ -115,7 +115,7 @@ func (j *jsiiProxy_DocdbEventSubscription) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_DocdbEventSubscription) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DocdbEventSubscription) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

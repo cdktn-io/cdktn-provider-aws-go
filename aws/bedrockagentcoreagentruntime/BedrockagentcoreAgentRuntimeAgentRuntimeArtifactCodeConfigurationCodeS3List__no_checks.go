@@ -15,7 +15,7 @@ func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigura
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigurationCodeS3List) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigurationCodeS3List) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigura
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigurationCodeS3List) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigurationCodeS3List) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigura
 	return nil
 }
 
-func validateNewBedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigurationCodeS3ListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockagentcoreAgentRuntimeAgentRuntimeArtifactCodeConfigurationCodeS3ListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

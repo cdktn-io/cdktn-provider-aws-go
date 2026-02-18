@@ -103,7 +103,7 @@ func (j *jsiiProxy_VpcEndpointServiceAllowedPrincipal) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_VpcEndpointServiceAllowedPrincipal) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VpcEndpointServiceAllowedPrincipal) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

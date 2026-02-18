@@ -51,7 +51,7 @@ func (p *jsiiProxy_PipesPipeSourceParametersKinesisStreamParametersOutputReferen
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeSourceParametersKinesisStreamParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeSourceParametersKinesisStreamParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -103,11 +103,11 @@ func (j *jsiiProxy_PipesPipeSourceParametersKinesisStreamParametersOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeSourceParametersKinesisStreamParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeSourceParametersKinesisStreamParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPipesPipeSourceParametersKinesisStreamParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPipesPipeSourceParametersKinesisStreamParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

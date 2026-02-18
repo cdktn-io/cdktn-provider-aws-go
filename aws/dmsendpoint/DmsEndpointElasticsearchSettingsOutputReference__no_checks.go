@@ -47,7 +47,7 @@ func (d *jsiiProxy_DmsEndpointElasticsearchSettingsOutputReference) validateInte
 	return nil
 }
 
-func (d *jsiiProxy_DmsEndpointElasticsearchSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DmsEndpointElasticsearchSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DmsEndpointElasticsearchSettingsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DmsEndpointElasticsearchSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DmsEndpointElasticsearchSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_DmsEndpointElasticsearchSettingsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewDmsEndpointElasticsearchSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDmsEndpointElasticsearchSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

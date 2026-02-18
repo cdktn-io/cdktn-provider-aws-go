@@ -15,7 +15,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentKendraConfigurationList) validateGetParamete
 	return nil
 }
 
-func (l *jsiiProxy_Lexv2ModelsIntentKendraConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_Lexv2ModelsIntentKendraConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Lexv2ModelsIntentKendraConfigurationList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_Lexv2ModelsIntentKendraConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Lexv2ModelsIntentKendraConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Lexv2ModelsIntentKendraConfigurationList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewLexv2ModelsIntentKendraConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLexv2ModelsIntentKendraConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

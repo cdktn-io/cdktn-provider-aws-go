@@ -51,7 +51,7 @@ func (s *jsiiProxy_S3BucketAnalyticsConfigurationStorageClassAnalysisOutputRefer
 	return nil
 }
 
-func (s *jsiiProxy_S3BucketAnalyticsConfigurationStorageClassAnalysisOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3BucketAnalyticsConfigurationStorageClassAnalysisOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_S3BucketAnalyticsConfigurationStorageClassAnalysisOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketAnalyticsConfigurationStorageClassAnalysisOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3BucketAnalyticsConfigurationStorageClassAnalysisOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewS3BucketAnalyticsConfigurationStorageClassAnalysisOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewS3BucketAnalyticsConfigurationStorageClassAnalysisOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

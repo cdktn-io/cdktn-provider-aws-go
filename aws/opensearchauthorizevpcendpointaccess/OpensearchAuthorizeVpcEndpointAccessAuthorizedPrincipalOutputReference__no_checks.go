@@ -47,7 +47,7 @@ func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutput
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutput
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

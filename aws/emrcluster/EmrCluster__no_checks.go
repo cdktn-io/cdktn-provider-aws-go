@@ -175,7 +175,7 @@ func (j *jsiiProxy_EmrCluster) validateSetKeepJobFlowAliveWhenNoStepsParameters(
 	return nil
 }
 
-func (j *jsiiProxy_EmrCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EmrCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

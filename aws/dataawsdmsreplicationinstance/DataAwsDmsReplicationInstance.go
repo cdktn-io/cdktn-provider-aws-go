@@ -5,21 +5,21 @@ package dataawsdmsreplicationinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsdmsreplicationinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsdmsreplicationinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/dms_replication_instance aws_dms_replication_instance}.
 type DataAwsDmsReplicationInstance interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AllocatedStorage() *float64
-	AutoMinorVersionUpgrade() cdktf.IResolvable
+	AutoMinorVersionUpgrade() cdktn.IResolvable
 	AvailabilityZone() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type DataAwsDmsReplicationInstance interface {
 	SetDependsOn(val *[]*string)
 	EngineVersion() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -44,19 +44,19 @@ type DataAwsDmsReplicationInstance interface {
 	IdInput() *string
 	KmsKeyArn() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
-	MultiAz() cdktf.IResolvable
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	MultiAz() cdktn.IResolvable
 	NetworkType() *string
 	// The tree node.
 	Node() constructs.Node
 	PreferredMaintenanceWindow() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
-	PubliclyAccessible() cdktf.IResolvable
+	SetProvider(val cdktn.TerraformProvider)
+	PubliclyAccessible() cdktn.IResolvable
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -74,7 +74,7 @@ type DataAwsDmsReplicationInstance interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -85,7 +85,7 @@ type DataAwsDmsReplicationInstance interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -101,7 +101,7 @@ type DataAwsDmsReplicationInstance interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -127,7 +127,7 @@ type DataAwsDmsReplicationInstance interface {
 
 // The jsii proxy struct for DataAwsDmsReplicationInstance
 type jsiiProxy_DataAwsDmsReplicationInstance struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsDmsReplicationInstance) AllocatedStorage() *float64 {
@@ -140,8 +140,8 @@ func (j *jsiiProxy_DataAwsDmsReplicationInstance) AllocatedStorage() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsReplicationInstance) AutoMinorVersionUpgrade() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsReplicationInstance) AutoMinorVersionUpgrade() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"autoMinorVersionUpgrade",
@@ -160,8 +160,8 @@ func (j *jsiiProxy_DataAwsDmsReplicationInstance) AvailabilityZone() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsReplicationInstance) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsDmsReplicationInstance) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -210,8 +210,8 @@ func (j *jsiiProxy_DataAwsDmsReplicationInstance) EngineVersion() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsReplicationInstance) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsDmsReplicationInstance) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -270,8 +270,8 @@ func (j *jsiiProxy_DataAwsDmsReplicationInstance) KmsKeyArn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsReplicationInstance) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsDmsReplicationInstance) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -280,8 +280,8 @@ func (j *jsiiProxy_DataAwsDmsReplicationInstance) Lifecycle() *cdktf.TerraformRe
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsReplicationInstance) MultiAz() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsReplicationInstance) MultiAz() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"multiAz",
@@ -320,8 +320,8 @@ func (j *jsiiProxy_DataAwsDmsReplicationInstance) PreferredMaintenanceWindow() *
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsReplicationInstance) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsDmsReplicationInstance) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -330,8 +330,8 @@ func (j *jsiiProxy_DataAwsDmsReplicationInstance) Provider() cdktf.TerraformProv
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsReplicationInstance) PubliclyAccessible() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsReplicationInstance) PubliclyAccessible() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"publiclyAccessible",
@@ -460,8 +460,8 @@ func (j *jsiiProxy_DataAwsDmsReplicationInstance) TagsInput() *map[string]*strin
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsReplicationInstance) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsDmsReplicationInstance) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -549,7 +549,7 @@ func (j *jsiiProxy_DataAwsDmsReplicationInstance)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsDmsReplicationInstance)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsDmsReplicationInstance)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -568,7 +568,7 @@ func (j *jsiiProxy_DataAwsDmsReplicationInstance)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsDmsReplicationInstance)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsDmsReplicationInstance)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -579,7 +579,7 @@ func (j *jsiiProxy_DataAwsDmsReplicationInstance)SetLifecycle(val *cdktf.Terrafo
 	)
 }
 
-func (j *jsiiProxy_DataAwsDmsReplicationInstance)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsDmsReplicationInstance)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -620,14 +620,14 @@ func (j *jsiiProxy_DataAwsDmsReplicationInstance)SetTags(val *map[string]*string
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsDmsReplicationInstance resource upon running "cdktf plan <stack-name>".
-func DataAwsDmsReplicationInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsDmsReplicationInstance resource upon running "cdktn plan <stack-name>".
+func DataAwsDmsReplicationInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsDmsReplicationInstance_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsDmsReplicationInstance.DataAwsDmsReplicationInstance",
@@ -750,11 +750,11 @@ func (d *jsiiProxy_DataAwsDmsReplicationInstance) GetAnyMapAttribute(terraformAt
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsDmsReplicationInstance) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsDmsReplicationInstance) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -878,11 +878,11 @@ func (d *jsiiProxy_DataAwsDmsReplicationInstance) GetStringMapAttribute(terrafor
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsDmsReplicationInstance) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsDmsReplicationInstance) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

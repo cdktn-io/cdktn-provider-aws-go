@@ -47,7 +47,7 @@ func (a *jsiiProxy_AutoscalingGroupInstanceRefreshPreferencesAlarmSpecificationO
 	return nil
 }
 
-func (a *jsiiProxy_AutoscalingGroupInstanceRefreshPreferencesAlarmSpecificationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutoscalingGroupInstanceRefreshPreferencesAlarmSpecificationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AutoscalingGroupInstanceRefreshPreferencesAlarmSpecificationO
 	return nil
 }
 
-func (j *jsiiProxy_AutoscalingGroupInstanceRefreshPreferencesAlarmSpecificationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutoscalingGroupInstanceRefreshPreferencesAlarmSpecificationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAutoscalingGroupInstanceRefreshPreferencesAlarmSpecificationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAutoscalingGroupInstanceRefreshPreferencesAlarmSpecificationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

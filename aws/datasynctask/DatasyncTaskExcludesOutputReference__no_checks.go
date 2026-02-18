@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatasyncTaskExcludesOutputReference) validateInterpolationFor
 	return nil
 }
 
-func (d *jsiiProxy_DatasyncTaskExcludesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatasyncTaskExcludesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DatasyncTaskExcludesOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_DatasyncTaskExcludesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatasyncTaskExcludesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DatasyncTaskExcludesOutputReference) validateSetValueParamete
 	return nil
 }
 
-func validateNewDatasyncTaskExcludesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatasyncTaskExcludesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

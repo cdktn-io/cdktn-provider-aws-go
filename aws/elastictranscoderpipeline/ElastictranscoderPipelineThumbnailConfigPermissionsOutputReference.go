@@ -5,14 +5,14 @@ package elastictranscoderpipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/elastictranscoderpipeline/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/elastictranscoderpipeline/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Access() *[]*string
 	SetAccess(val *[]*string)
 	AccessInput() *[]*string
@@ -46,15 +46,15 @@ type ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference interfac
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference interfac
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAccess()
 	ResetGrantee()
 	ResetGranteeType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference interfac
 
 // The jsii proxy struct for ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference
 type jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference) Access() *[]*string {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputRefe
 	return returns
 }
 
-func (j *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputRefe
 }
 
 
-func NewElastictranscoderPipelineThumbnailConfigPermissionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference {
+func NewElastictranscoderPipelineThumbnailConfigPermissionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewElastictranscoderPipelineThumbnailConfigPermissionsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -239,7 +239,7 @@ func NewElastictranscoderPipelineThumbnailConfigPermissionsOutputReference(terra
 	return &j
 }
 
-func NewElastictranscoderPipelineThumbnailConfigPermissionsOutputReference_Override(e ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewElastictranscoderPipelineThumbnailConfigPermissionsOutputReference_Override(e ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputRefe
 	)
 }
 
-func (j *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (e *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputRefe
 	return returns
 }
 
-func (e *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -494,8 +494,8 @@ func (e *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputRefe
 	return returns
 }
 
-func (e *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -507,11 +507,11 @@ func (e *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputRefe
 	return returns
 }
 
-func (e *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -547,7 +547,7 @@ func (e *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputRefe
 	)
 }
 
-func (e *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsBatchJobDefinitionTimeoutList) validateGetParameters(i
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsBatchJobDefinitionTimeoutList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsBatchJobDefinitionTimeoutList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsBatchJobDefinitionTimeoutList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsBatchJobDefinitionTimeoutList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsBatchJobDefinitionTimeoutList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsBatchJobDefinitionTimeoutList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewDataAwsBatchJobDefinitionTimeoutListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsBatchJobDefinitionTimeoutListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

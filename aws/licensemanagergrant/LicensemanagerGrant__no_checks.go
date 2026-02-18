@@ -111,7 +111,7 @@ func (j *jsiiProxy_LicensemanagerGrant) validateSetLicenseArnParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_LicensemanagerGrant) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LicensemanagerGrant) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolSigningCertificate) validateSetIdParame
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolSigningCertificate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsCognitoUserPoolSigningCertificate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

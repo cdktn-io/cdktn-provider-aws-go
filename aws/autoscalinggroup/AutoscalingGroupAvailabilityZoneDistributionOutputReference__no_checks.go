@@ -47,7 +47,7 @@ func (a *jsiiProxy_AutoscalingGroupAvailabilityZoneDistributionOutputReference) 
 	return nil
 }
 
-func (a *jsiiProxy_AutoscalingGroupAvailabilityZoneDistributionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutoscalingGroupAvailabilityZoneDistributionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AutoscalingGroupAvailabilityZoneDistributionOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_AutoscalingGroupAvailabilityZoneDistributionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutoscalingGroupAvailabilityZoneDistributionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAutoscalingGroupAvailabilityZoneDistributionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAutoscalingGroupAvailabilityZoneDistributionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (v *jsiiProxy_VerifiedaccessTrustProviderDeviceOptionsOutputReference) vali
 	return nil
 }
 
-func (v *jsiiProxy_VerifiedaccessTrustProviderDeviceOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VerifiedaccessTrustProviderDeviceOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_VerifiedaccessTrustProviderDeviceOptionsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_VerifiedaccessTrustProviderDeviceOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VerifiedaccessTrustProviderDeviceOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVerifiedaccessTrustProviderDeviceOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVerifiedaccessTrustProviderDeviceOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

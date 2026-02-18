@@ -15,7 +15,7 @@ func (e *jsiiProxy_EcsExpressGatewayServiceIngressPathsList) validateGetParamete
 	return nil
 }
 
-func (e *jsiiProxy_EcsExpressGatewayServiceIngressPathsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsExpressGatewayServiceIngressPathsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_EcsExpressGatewayServiceIngressPathsList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_EcsExpressGatewayServiceIngressPathsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsExpressGatewayServiceIngressPathsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_EcsExpressGatewayServiceIngressPathsList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewEcsExpressGatewayServiceIngressPathsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEcsExpressGatewayServiceIngressPathsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

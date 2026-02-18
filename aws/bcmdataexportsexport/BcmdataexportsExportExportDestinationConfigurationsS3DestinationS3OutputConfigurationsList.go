@@ -5,14 +5,14 @@ package bcmdataexportsexport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/bcmdataexportsexport/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/bcmdataexportsexport/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputCon
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputCon
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputCon
 
 // The jsii proxy struct for BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList
 type jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3Destinat
 	return returns
 }
 
-func (j *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3Destinat
 }
 
 
-func NewBcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList {
+func NewBcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList {
 	_init_.Initialize()
 
 	if err := validateNewBcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewBcmdataexportsExportExportDestinationConfigurationsS3DestinationS3Output
 	return &j
 }
 
-func NewBcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList_Override(b BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewBcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList_Override(b BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3Destinat
 	)
 }
 
-func (j *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3Destinat
 	)
 }
 
-func (b *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (b *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := b.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		b,
@@ -231,7 +231,7 @@ func (b *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3Destinat
 	return returns
 }
 
-func (b *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

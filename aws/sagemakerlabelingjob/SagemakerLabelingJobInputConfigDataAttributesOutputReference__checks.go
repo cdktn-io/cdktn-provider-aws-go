@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_SagemakerLabelingJobInputConfigDataAttributesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (s *jsiiProxy_SagemakerLabelingJobInputConfigDataAttributesOutputReference)
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerLabelingJobInputConfigDataAttributesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerLabelingJobInputConfigDataAttributesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -176,7 +176,7 @@ func (j *jsiiProxy_SagemakerLabelingJobInputConfigDataAttributesOutputReference)
 
 func (j *jsiiProxy_SagemakerLabelingJobInputConfigDataAttributesOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *SagemakerLabelingJobInputConfigDataAttributes:
 		val := val.(*SagemakerLabelingJobInputConfigDataAttributes)
@@ -191,7 +191,7 @@ func (j *jsiiProxy_SagemakerLabelingJobInputConfigDataAttributesOutputReference)
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *SagemakerLabelingJobInputConfigDataAttributes; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *SagemakerLabelingJobInputConfigDataAttributes; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -206,7 +206,7 @@ func (j *jsiiProxy_SagemakerLabelingJobInputConfigDataAttributesOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerLabelingJobInputConfigDataAttributesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerLabelingJobInputConfigDataAttributesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -214,7 +214,7 @@ func (j *jsiiProxy_SagemakerLabelingJobInputConfigDataAttributesOutputReference)
 	return nil
 }
 
-func validateNewSagemakerLabelingJobInputConfigDataAttributesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSagemakerLabelingJobInputConfigDataAttributesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -5,18 +5,18 @@ package networkaclrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/networkaclrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/networkaclrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/network_acl_rule aws_network_acl_rule}.
 type NetworkAclRule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CidrBlock() *string
 	SetCidrBlock(val *string)
 	CidrBlockInput() *string
@@ -38,9 +38,9 @@ type NetworkAclRule interface {
 	SetEgress(val interface{})
 	EgressInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -61,9 +61,9 @@ type NetworkAclRule interface {
 	SetIpv6CidrBlock(val *string)
 	Ipv6CidrBlockInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	NetworkAclId() *string
 	SetNetworkAclId(val *string)
 	NetworkAclIdInput() *string
@@ -73,9 +73,9 @@ type NetworkAclRule interface {
 	SetProtocol(val *string)
 	ProtocolInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -92,7 +92,7 @@ type NetworkAclRule interface {
 	SetRuleNumber(val *float64)
 	RuleNumberInput() *float64
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -108,7 +108,7 @@ type NetworkAclRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -126,9 +126,9 @@ type NetworkAclRule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -170,11 +170,11 @@ type NetworkAclRule interface {
 
 // The jsii proxy struct for NetworkAclRule
 type jsiiProxy_NetworkAclRule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_NetworkAclRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_NetworkAclRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -263,8 +263,8 @@ func (j *jsiiProxy_NetworkAclRule) EgressInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_NetworkAclRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_NetworkAclRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -393,8 +393,8 @@ func (j *jsiiProxy_NetworkAclRule) Ipv6CidrBlockInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NetworkAclRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_NetworkAclRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -453,8 +453,8 @@ func (j *jsiiProxy_NetworkAclRule) ProtocolInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NetworkAclRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_NetworkAclRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -543,8 +543,8 @@ func (j *jsiiProxy_NetworkAclRule) RuleNumberInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_NetworkAclRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_NetworkAclRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -675,7 +675,7 @@ func (j *jsiiProxy_NetworkAclRule)SetEgress(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_NetworkAclRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_NetworkAclRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -738,7 +738,7 @@ func (j *jsiiProxy_NetworkAclRule)SetIpv6CidrBlock(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NetworkAclRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_NetworkAclRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -771,7 +771,7 @@ func (j *jsiiProxy_NetworkAclRule)SetProtocol(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NetworkAclRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_NetworkAclRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -834,14 +834,14 @@ func (j *jsiiProxy_NetworkAclRule)SetToPort(val *float64) {
 	)
 }
 
-// Generates CDKTF code for importing a NetworkAclRule resource upon running "cdktf plan <stack-name>".
-func NetworkAclRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a NetworkAclRule resource upon running "cdktn plan <stack-name>".
+func NetworkAclRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateNetworkAclRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.networkAclRule.NetworkAclRule",
@@ -975,11 +975,11 @@ func (n *jsiiProxy_NetworkAclRule) GetAnyMapAttribute(terraformAttribute *string
 	return returns
 }
 
-func (n *jsiiProxy_NetworkAclRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkAclRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -1116,7 +1116,7 @@ func (n *jsiiProxy_NetworkAclRule) HasResourceMove() interface{} {
 	return returns
 }
 
-func (n *jsiiProxy_NetworkAclRule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (n *jsiiProxy_NetworkAclRule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := n.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1127,11 +1127,11 @@ func (n *jsiiProxy_NetworkAclRule) ImportFrom(id *string, provider cdktf.Terrafo
 	)
 }
 
-func (n *jsiiProxy_NetworkAclRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkAclRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,

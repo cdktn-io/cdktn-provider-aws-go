@@ -15,7 +15,7 @@ func (c *jsiiProxy_ConfigConfigRuleEvaluationModeList) validateGetParameters(ind
 	return nil
 }
 
-func (c *jsiiProxy_ConfigConfigRuleEvaluationModeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConfigConfigRuleEvaluationModeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ConfigConfigRuleEvaluationModeList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_ConfigConfigRuleEvaluationModeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConfigConfigRuleEvaluationModeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ConfigConfigRuleEvaluationModeList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewConfigConfigRuleEvaluationModeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewConfigConfigRuleEvaluationModeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

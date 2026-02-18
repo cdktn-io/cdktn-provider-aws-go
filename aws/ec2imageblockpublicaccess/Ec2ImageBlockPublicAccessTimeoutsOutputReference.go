@@ -5,14 +5,14 @@ package ec2imageblockpublicaccess
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ec2imageblockpublicaccess/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ec2imageblockpublicaccess/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Ec2ImageBlockPublicAccessTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type Ec2ImageBlockPublicAccessTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -48,7 +48,7 @@ type Ec2ImageBlockPublicAccessTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type Ec2ImageBlockPublicAccessTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type Ec2ImageBlockPublicAccessTimeoutsOutputReference interface {
 
 // The jsii proxy struct for Ec2ImageBlockPublicAccessTimeoutsOutputReference
 type jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -143,8 +143,8 @@ func (j *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) UpdateInput
 }
 
 
-func NewEc2ImageBlockPublicAccessTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) Ec2ImageBlockPublicAccessTimeoutsOutputReference {
+func NewEc2ImageBlockPublicAccessTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) Ec2ImageBlockPublicAccessTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEc2ImageBlockPublicAccessTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewEc2ImageBlockPublicAccessTimeoutsOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewEc2ImageBlockPublicAccessTimeoutsOutputReference_Override(e Ec2ImageBlockPublicAccessTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEc2ImageBlockPublicAccessTimeoutsOutputReference_Override(e Ec2ImageBlockPublicAccessTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (e *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (e *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -424,8 +424,8 @@ func (e *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) GetStringMa
 	return returns
 }
 
-func (e *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -437,11 +437,11 @@ func (e *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) Interpolati
 	return returns
 }
 
-func (e *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -461,7 +461,7 @@ func (e *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) ResetUpdate
 	)
 }
 
-func (e *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

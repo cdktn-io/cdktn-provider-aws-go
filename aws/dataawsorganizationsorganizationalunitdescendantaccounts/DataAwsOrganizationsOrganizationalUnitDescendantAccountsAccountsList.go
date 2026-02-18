@@ -5,14 +5,14 @@ package dataawsorganizationsorganizationalunitdescendantaccounts
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsorganizationsorganizationalunitdescendantaccounts/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsorganizationsorganizationalunitdescendantaccounts/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList interf
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList interf
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList interf
 
 // The jsii proxy struct for DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList
 type jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccou
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccou
 }
 
 
-func NewDataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList {
+func NewDataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewDataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList(ter
 	return &j
 }
 
-func NewDataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList_Override(d DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList_Override(d DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccou
 	)
 }
 
-func (j *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccou
 	)
 }
 
-func (d *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -208,7 +208,7 @@ func (d *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccou
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

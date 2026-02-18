@@ -5,14 +5,14 @@ package ssmresourcedatasync
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ssmresourcedatasync/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ssmresourcedatasync/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SsmResourceDataSyncS3DestinationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BucketName() *string
 	SetBucketName(val *string)
 	BucketNameInput() *string
@@ -52,15 +52,15 @@ type SsmResourceDataSyncS3DestinationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,15 +76,15 @@ type SsmResourceDataSyncS3DestinationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetKmsKeyArn()
 	ResetPrefix()
 	ResetSyncFormat()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -94,7 +94,7 @@ type SsmResourceDataSyncS3DestinationOutputReference interface {
 
 // The jsii proxy struct for SsmResourceDataSyncS3DestinationOutputReference
 type jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) BucketName() *string {
@@ -257,8 +257,8 @@ func (j *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -268,7 +268,7 @@ func (j *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) TerraformRes
 }
 
 
-func NewSsmResourceDataSyncS3DestinationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SsmResourceDataSyncS3DestinationOutputReference {
+func NewSsmResourceDataSyncS3DestinationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SsmResourceDataSyncS3DestinationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSsmResourceDataSyncS3DestinationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -285,7 +285,7 @@ func NewSsmResourceDataSyncS3DestinationOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewSsmResourceDataSyncS3DestinationOutputReference_Override(s SsmResourceDataSyncS3DestinationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSsmResourceDataSyncS3DestinationOutputReference_Override(s SsmResourceDataSyncS3DestinationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -394,7 +394,7 @@ func (j *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -434,11 +434,11 @@ func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -562,8 +562,8 @@ func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) GetStringMap
 	return returns
 }
 
-func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -575,11 +575,11 @@ func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) Interpolatio
 	return returns
 }
 
-func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -615,7 +615,7 @@ func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) ResetSyncFor
 	)
 }
 
-func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

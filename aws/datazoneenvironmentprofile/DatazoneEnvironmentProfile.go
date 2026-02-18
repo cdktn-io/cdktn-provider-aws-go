@@ -5,16 +5,16 @@ package datazoneenvironmentprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/datazoneenvironmentprofile/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/datazoneenvironmentprofile/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/datazone_environment_profile aws_datazone_environment_profile}.
 type DatazoneEnvironmentProfile interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AwsAccountId() *string
 	SetAwsAccountId(val *string)
 	AwsAccountIdInput() *string
@@ -22,7 +22,7 @@ type DatazoneEnvironmentProfile interface {
 	SetAwsAccountRegion(val *string)
 	AwsAccountRegionInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -49,18 +49,18 @@ type DatazoneEnvironmentProfile interface {
 	SetEnvironmentBlueprintIdentifier(val *string)
 	EnvironmentBlueprintIdentifierInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -70,9 +70,9 @@ type DatazoneEnvironmentProfile interface {
 	SetProjectIdentifier(val *string)
 	ProjectIdentifierInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -83,7 +83,7 @@ type DatazoneEnvironmentProfile interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -99,7 +99,7 @@ type DatazoneEnvironmentProfile interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -117,9 +117,9 @@ type DatazoneEnvironmentProfile interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -157,7 +157,7 @@ type DatazoneEnvironmentProfile interface {
 
 // The jsii proxy struct for DatazoneEnvironmentProfile
 type jsiiProxy_DatazoneEnvironmentProfile struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_DatazoneEnvironmentProfile) AwsAccountId() *string {
@@ -200,8 +200,8 @@ func (j *jsiiProxy_DatazoneEnvironmentProfile) AwsAccountRegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DatazoneEnvironmentProfile) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DatazoneEnvironmentProfile) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -330,8 +330,8 @@ func (j *jsiiProxy_DatazoneEnvironmentProfile) EnvironmentBlueprintIdentifierInp
 	return returns
 }
 
-func (j *jsiiProxy_DatazoneEnvironmentProfile) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DatazoneEnvironmentProfile) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -370,8 +370,8 @@ func (j *jsiiProxy_DatazoneEnvironmentProfile) Id() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DatazoneEnvironmentProfile) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DatazoneEnvironmentProfile) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -430,8 +430,8 @@ func (j *jsiiProxy_DatazoneEnvironmentProfile) ProjectIdentifierInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_DatazoneEnvironmentProfile) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DatazoneEnvironmentProfile) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -480,8 +480,8 @@ func (j *jsiiProxy_DatazoneEnvironmentProfile) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DatazoneEnvironmentProfile) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DatazoneEnvironmentProfile) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -655,7 +655,7 @@ func (j *jsiiProxy_DatazoneEnvironmentProfile)SetEnvironmentBlueprintIdentifier(
 	)
 }
 
-func (j *jsiiProxy_DatazoneEnvironmentProfile)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DatazoneEnvironmentProfile)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -663,7 +663,7 @@ func (j *jsiiProxy_DatazoneEnvironmentProfile)SetForEach(val cdktf.ITerraformIte
 	)
 }
 
-func (j *jsiiProxy_DatazoneEnvironmentProfile)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DatazoneEnvironmentProfile)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -696,7 +696,7 @@ func (j *jsiiProxy_DatazoneEnvironmentProfile)SetProjectIdentifier(val *string) 
 	)
 }
 
-func (j *jsiiProxy_DatazoneEnvironmentProfile)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DatazoneEnvironmentProfile)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -726,14 +726,14 @@ func (j *jsiiProxy_DatazoneEnvironmentProfile)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DatazoneEnvironmentProfile resource upon running "cdktf plan <stack-name>".
-func DatazoneEnvironmentProfile_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DatazoneEnvironmentProfile resource upon running "cdktn plan <stack-name>".
+func DatazoneEnvironmentProfile_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDatazoneEnvironmentProfile_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.datazoneEnvironmentProfile.DatazoneEnvironmentProfile",
@@ -867,11 +867,11 @@ func (d *jsiiProxy_DatazoneEnvironmentProfile) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (d *jsiiProxy_DatazoneEnvironmentProfile) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatazoneEnvironmentProfile) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1008,7 +1008,7 @@ func (d *jsiiProxy_DatazoneEnvironmentProfile) HasResourceMove() interface{} {
 	return returns
 }
 
-func (d *jsiiProxy_DatazoneEnvironmentProfile) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (d *jsiiProxy_DatazoneEnvironmentProfile) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := d.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1019,11 +1019,11 @@ func (d *jsiiProxy_DatazoneEnvironmentProfile) ImportFrom(id *string, provider c
 	)
 }
 
-func (d *jsiiProxy_DatazoneEnvironmentProfile) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatazoneEnvironmentProfile) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

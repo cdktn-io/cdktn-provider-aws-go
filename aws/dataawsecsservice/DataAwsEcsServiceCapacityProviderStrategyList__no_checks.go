@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEcsServiceCapacityProviderStrategyList) validateGetPar
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEcsServiceCapacityProviderStrategyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEcsServiceCapacityProviderStrategyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsEcsServiceCapacityProviderStrategyList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEcsServiceCapacityProviderStrategyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEcsServiceCapacityProviderStrategyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsEcsServiceCapacityProviderStrategyList) validateSetWra
 	return nil
 }
 
-func validateNewDataAwsEcsServiceCapacityProviderStrategyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEcsServiceCapacityProviderStrategyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

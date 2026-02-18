@@ -107,7 +107,7 @@ func (j *jsiiProxy_EmrSecurityConfiguration) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_EmrSecurityConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EmrSecurityConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

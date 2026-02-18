@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudfrontMultitenantDistributionCacheBehaviorFunctionAssocia
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontMultitenantDistributionCacheBehaviorFunctionAssociationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontMultitenantDistributionCacheBehaviorFunctionAssociationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CloudfrontMultitenantDistributionCacheBehaviorFunctionAssocia
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontMultitenantDistributionCacheBehaviorFunctionAssociationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontMultitenantDistributionCacheBehaviorFunctionAssociationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudfrontMultitenantDistributionCacheBehaviorFunctionAssociationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudfrontMultitenantDistributionCacheBehaviorFunctionAssociationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

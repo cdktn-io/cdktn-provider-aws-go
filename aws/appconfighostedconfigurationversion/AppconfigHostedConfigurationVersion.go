@@ -5,22 +5,22 @@ package appconfighostedconfigurationversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/appconfighostedconfigurationversion/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appconfighostedconfigurationversion/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/appconfig_hosted_configuration_version aws_appconfig_hosted_configuration_version}.
 type AppconfigHostedConfigurationVersion interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApplicationId() *string
 	SetApplicationId(val *string)
 	ApplicationIdInput() *string
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ConfigurationProfileId() *string
 	SetConfigurationProfileId(val *string)
 	ConfigurationProfileIdInput() *string
@@ -48,9 +48,9 @@ type AppconfigHostedConfigurationVersion interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -59,15 +59,15 @@ type AppconfigHostedConfigurationVersion interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -78,7 +78,7 @@ type AppconfigHostedConfigurationVersion interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -92,7 +92,7 @@ type AppconfigHostedConfigurationVersion interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -110,9 +110,9 @@ type AppconfigHostedConfigurationVersion interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -148,7 +148,7 @@ type AppconfigHostedConfigurationVersion interface {
 
 // The jsii proxy struct for AppconfigHostedConfigurationVersion
 type jsiiProxy_AppconfigHostedConfigurationVersion struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_AppconfigHostedConfigurationVersion) ApplicationId() *string {
@@ -181,8 +181,8 @@ func (j *jsiiProxy_AppconfigHostedConfigurationVersion) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AppconfigHostedConfigurationVersion) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_AppconfigHostedConfigurationVersion) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -311,8 +311,8 @@ func (j *jsiiProxy_AppconfigHostedConfigurationVersion) DescriptionInput() *stri
 	return returns
 }
 
-func (j *jsiiProxy_AppconfigHostedConfigurationVersion) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_AppconfigHostedConfigurationVersion) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -361,8 +361,8 @@ func (j *jsiiProxy_AppconfigHostedConfigurationVersion) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AppconfigHostedConfigurationVersion) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_AppconfigHostedConfigurationVersion) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -381,8 +381,8 @@ func (j *jsiiProxy_AppconfigHostedConfigurationVersion) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_AppconfigHostedConfigurationVersion) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_AppconfigHostedConfigurationVersion) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -431,8 +431,8 @@ func (j *jsiiProxy_AppconfigHostedConfigurationVersion) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AppconfigHostedConfigurationVersion) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_AppconfigHostedConfigurationVersion) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -586,7 +586,7 @@ func (j *jsiiProxy_AppconfigHostedConfigurationVersion)SetDescription(val *strin
 	)
 }
 
-func (j *jsiiProxy_AppconfigHostedConfigurationVersion)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_AppconfigHostedConfigurationVersion)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -605,7 +605,7 @@ func (j *jsiiProxy_AppconfigHostedConfigurationVersion)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_AppconfigHostedConfigurationVersion)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_AppconfigHostedConfigurationVersion)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -616,7 +616,7 @@ func (j *jsiiProxy_AppconfigHostedConfigurationVersion)SetLifecycle(val *cdktf.T
 	)
 }
 
-func (j *jsiiProxy_AppconfigHostedConfigurationVersion)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_AppconfigHostedConfigurationVersion)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -646,14 +646,14 @@ func (j *jsiiProxy_AppconfigHostedConfigurationVersion)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a AppconfigHostedConfigurationVersion resource upon running "cdktf plan <stack-name>".
-func AppconfigHostedConfigurationVersion_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a AppconfigHostedConfigurationVersion resource upon running "cdktn plan <stack-name>".
+func AppconfigHostedConfigurationVersion_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateAppconfigHostedConfigurationVersion_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.appconfigHostedConfigurationVersion.AppconfigHostedConfigurationVersion",
@@ -787,11 +787,11 @@ func (a *jsiiProxy_AppconfigHostedConfigurationVersion) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (a *jsiiProxy_AppconfigHostedConfigurationVersion) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppconfigHostedConfigurationVersion) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -928,7 +928,7 @@ func (a *jsiiProxy_AppconfigHostedConfigurationVersion) HasResourceMove() interf
 	return returns
 }
 
-func (a *jsiiProxy_AppconfigHostedConfigurationVersion) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_AppconfigHostedConfigurationVersion) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -939,11 +939,11 @@ func (a *jsiiProxy_AppconfigHostedConfigurationVersion) ImportFrom(id *string, p
 	)
 }
 
-func (a *jsiiProxy_AppconfigHostedConfigurationVersion) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppconfigHostedConfigurationVersion) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

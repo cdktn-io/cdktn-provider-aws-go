@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3LocationList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (c *jsiiProxy_CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesB
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3LocationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3LocationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (c *jsiiProxy_CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesB
 
 func (j *jsiiProxy_CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3LocationList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3Location:
 		val := val.(*[]*CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3Location)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesB
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3Location; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3Location; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesB
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3LocationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3LocationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesB
 	return nil
 }
 
-func validateNewCloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3LocationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3LocationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

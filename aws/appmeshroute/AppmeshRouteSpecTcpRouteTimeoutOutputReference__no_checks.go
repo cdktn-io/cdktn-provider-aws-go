@@ -51,7 +51,7 @@ func (a *jsiiProxy_AppmeshRouteSpecTcpRouteTimeoutOutputReference) validatePutId
 	return nil
 }
 
-func (a *jsiiProxy_AppmeshRouteSpecTcpRouteTimeoutOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppmeshRouteSpecTcpRouteTimeoutOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AppmeshRouteSpecTcpRouteTimeoutOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshRouteSpecTcpRouteTimeoutOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppmeshRouteSpecTcpRouteTimeoutOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppmeshRouteSpecTcpRouteTimeoutOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppmeshRouteSpecTcpRouteTimeoutOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

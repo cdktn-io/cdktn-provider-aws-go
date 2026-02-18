@@ -47,7 +47,7 @@ func (l *jsiiProxy_LbIpamPoolsOutputReference) validateInterpolationForAttribute
 	return nil
 }
 
-func (l *jsiiProxy_LbIpamPoolsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LbIpamPoolsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_LbIpamPoolsOutputReference) validateSetTerraformAttributePara
 	return nil
 }
 
-func (j *jsiiProxy_LbIpamPoolsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LbIpamPoolsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLbIpamPoolsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLbIpamPoolsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

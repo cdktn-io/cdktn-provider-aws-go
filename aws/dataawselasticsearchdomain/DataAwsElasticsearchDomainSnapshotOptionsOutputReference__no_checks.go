@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsElasticsearchDomainSnapshotOptionsOutputReference) val
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsElasticsearchDomainSnapshotOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsElasticsearchDomainSnapshotOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsElasticsearchDomainSnapshotOptionsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsElasticsearchDomainSnapshotOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsElasticsearchDomainSnapshotOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsElasticsearchDomainSnapshotOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsElasticsearchDomainSnapshotOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

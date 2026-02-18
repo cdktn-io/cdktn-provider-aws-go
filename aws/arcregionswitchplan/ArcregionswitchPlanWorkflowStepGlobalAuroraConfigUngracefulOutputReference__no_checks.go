@@ -47,7 +47,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigUngracefulOu
 	return nil
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigUngracefulOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigUngracefulOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigUngracefulOu
 	return nil
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigUngracefulOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigUngracefulOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepGlobalAuroraConfigUngracefulOu
 	return nil
 }
 
-func validateNewArcregionswitchPlanWorkflowStepGlobalAuroraConfigUngracefulOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewArcregionswitchPlanWorkflowStepGlobalAuroraConfigUngracefulOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

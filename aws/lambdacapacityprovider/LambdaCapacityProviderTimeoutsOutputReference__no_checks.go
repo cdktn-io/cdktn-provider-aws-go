@@ -47,7 +47,7 @@ func (l *jsiiProxy_LambdaCapacityProviderTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (l *jsiiProxy_LambdaCapacityProviderTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LambdaCapacityProviderTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_LambdaCapacityProviderTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_LambdaCapacityProviderTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LambdaCapacityProviderTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_LambdaCapacityProviderTimeoutsOutputReference) validateSetUpd
 	return nil
 }
 
-func validateNewLambdaCapacityProviderTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLambdaCapacityProviderTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

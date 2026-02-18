@@ -111,7 +111,7 @@ func (j *jsiiProxy_DatasyncLocationNfs) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_DatasyncLocationNfs) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DatasyncLocationNfs) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

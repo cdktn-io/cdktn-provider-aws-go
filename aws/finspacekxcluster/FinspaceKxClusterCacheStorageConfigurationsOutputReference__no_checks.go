@@ -47,7 +47,7 @@ func (f *jsiiProxy_FinspaceKxClusterCacheStorageConfigurationsOutputReference) v
 	return nil
 }
 
-func (f *jsiiProxy_FinspaceKxClusterCacheStorageConfigurationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FinspaceKxClusterCacheStorageConfigurationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_FinspaceKxClusterCacheStorageConfigurationsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_FinspaceKxClusterCacheStorageConfigurationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FinspaceKxClusterCacheStorageConfigurationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_FinspaceKxClusterCacheStorageConfigurationsOutputReference) v
 	return nil
 }
 
-func validateNewFinspaceKxClusterCacheStorageConfigurationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFinspaceKxClusterCacheStorageConfigurationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

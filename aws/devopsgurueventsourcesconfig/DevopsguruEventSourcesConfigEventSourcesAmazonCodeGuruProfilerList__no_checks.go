@@ -15,7 +15,7 @@ func (d *jsiiProxy_DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfile
 	return nil
 }
 
-func (d *jsiiProxy_DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfilerList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfilerList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfile
 	return nil
 }
 
-func (j *jsiiProxy_DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfilerList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfilerList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfile
 	return nil
 }
 
-func validateNewDevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfilerListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfilerListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

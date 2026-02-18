@@ -47,7 +47,7 @@ func (i *jsiiProxy_IotTopicRuleSqsOutputReference) validateInterpolationForAttri
 	return nil
 }
 
-func (i *jsiiProxy_IotTopicRuleSqsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotTopicRuleSqsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_IotTopicRuleSqsOutputReference) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_IotTopicRuleSqsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotTopicRuleSqsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_IotTopicRuleSqsOutputReference) validateSetUseBase64Parameter
 	return nil
 }
 
-func validateNewIotTopicRuleSqsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIotTopicRuleSqsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

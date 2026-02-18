@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsElasticacheReservedCacheNodeOffering) validateSetDurat
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsElasticacheReservedCacheNodeOffering) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsElasticacheReservedCacheNodeOffering) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

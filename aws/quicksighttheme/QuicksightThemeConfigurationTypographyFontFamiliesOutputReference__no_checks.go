@@ -47,7 +47,7 @@ func (q *jsiiProxy_QuicksightThemeConfigurationTypographyFontFamiliesOutputRefer
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightThemeConfigurationTypographyFontFamiliesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyFontFamiliesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_QuicksightThemeConfigurationTypographyFontFamiliesOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightThemeConfigurationTypographyFontFamiliesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightThemeConfigurationTypographyFontFamiliesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewQuicksightThemeConfigurationTypographyFontFamiliesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewQuicksightThemeConfigurationTypographyFontFamiliesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

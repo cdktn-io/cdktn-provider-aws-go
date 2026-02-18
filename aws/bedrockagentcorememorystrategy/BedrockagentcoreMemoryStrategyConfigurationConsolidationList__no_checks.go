@@ -15,7 +15,7 @@ func (b *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationConsolidationList)
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationConsolidationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationConsolidationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationConsolidationList)
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationConsolidationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationConsolidationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationConsolidationList)
 	return nil
 }
 
-func validateNewBedrockagentcoreMemoryStrategyConfigurationConsolidationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockagentcoreMemoryStrategyConfigurationConsolidationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

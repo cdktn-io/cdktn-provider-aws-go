@@ -47,7 +47,7 @@ func (a *jsiiProxy_Apigatewayv2IntegrationResponseParametersOutputReference) val
 	return nil
 }
 
-func (a *jsiiProxy_Apigatewayv2IntegrationResponseParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_Apigatewayv2IntegrationResponseParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_Apigatewayv2IntegrationResponseParametersOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_Apigatewayv2IntegrationResponseParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Apigatewayv2IntegrationResponseParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApigatewayv2IntegrationResponseParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApigatewayv2IntegrationResponseParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

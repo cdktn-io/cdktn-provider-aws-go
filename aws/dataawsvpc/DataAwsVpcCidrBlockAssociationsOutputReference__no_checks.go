@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsVpcCidrBlockAssociationsOutputReference) validateInter
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsVpcCidrBlockAssociationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsVpcCidrBlockAssociationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsVpcCidrBlockAssociationsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVpcCidrBlockAssociationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsVpcCidrBlockAssociationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsVpcCidrBlockAssociationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsVpcCidrBlockAssociationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

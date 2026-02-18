@@ -15,7 +15,7 @@ func (a *jsiiProxy_AmplifyAppCustomRuleList) validateGetParameters(index *float6
 	return nil
 }
 
-func (a *jsiiProxy_AmplifyAppCustomRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AmplifyAppCustomRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AmplifyAppCustomRuleList) validateSetTerraformAttributeParame
 	return nil
 }
 
-func (j *jsiiProxy_AmplifyAppCustomRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AmplifyAppCustomRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AmplifyAppCustomRuleList) validateSetWrapsSetParameters(val *
 	return nil
 }
 
-func validateNewAmplifyAppCustomRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAmplifyAppCustomRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

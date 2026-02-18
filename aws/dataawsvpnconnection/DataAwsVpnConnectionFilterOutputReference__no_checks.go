@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsVpnConnectionFilterOutputReference) validateInterpolat
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsVpnConnectionFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsVpnConnectionFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataAwsVpnConnectionFilterOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVpnConnectionFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsVpnConnectionFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsVpnConnectionFilterOutputReference) validateSetValuesP
 	return nil
 }
 
-func validateNewDataAwsVpnConnectionFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsVpnConnectionFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

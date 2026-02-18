@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEc2PublicIpv4PoolsFilterList) validateGetParameters(in
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEc2PublicIpv4PoolsFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEc2PublicIpv4PoolsFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsEc2PublicIpv4PoolsFilterList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2PublicIpv4PoolsFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEc2PublicIpv4PoolsFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsEc2PublicIpv4PoolsFilterList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewDataAwsEc2PublicIpv4PoolsFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEc2PublicIpv4PoolsFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

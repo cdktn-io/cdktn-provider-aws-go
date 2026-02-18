@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsTransferConnectorSftpConfigList) validateGetParameters
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsTransferConnectorSftpConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsTransferConnectorSftpConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsTransferConnectorSftpConfigList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsTransferConnectorSftpConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsTransferConnectorSftpConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsTransferConnectorSftpConfigList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewDataAwsTransferConnectorSftpConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsTransferConnectorSftpConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

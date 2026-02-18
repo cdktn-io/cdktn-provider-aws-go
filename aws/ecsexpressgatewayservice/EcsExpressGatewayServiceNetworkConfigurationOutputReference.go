@@ -5,14 +5,14 @@ package ecsexpressgatewayservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ecsexpressgatewayservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ecsexpressgatewayservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EcsExpressGatewayServiceNetworkConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type EcsExpressGatewayServiceNetworkConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type EcsExpressGatewayServiceNetworkConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetSecurityGroups()
 	ResetSubnets()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type EcsExpressGatewayServiceNetworkConfigurationOutputReference interface {
 
 // The jsii proxy struct for EcsExpressGatewayServiceNetworkConfigurationOutputReference
 type jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) 
 }
 
 
-func NewEcsExpressGatewayServiceNetworkConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EcsExpressGatewayServiceNetworkConfigurationOutputReference {
+func NewEcsExpressGatewayServiceNetworkConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EcsExpressGatewayServiceNetworkConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEcsExpressGatewayServiceNetworkConfigurationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -215,7 +215,7 @@ func NewEcsExpressGatewayServiceNetworkConfigurationOutputReference(terraformRes
 	return &j
 }
 
-func NewEcsExpressGatewayServiceNetworkConfigurationOutputReference_Override(e EcsExpressGatewayServiceNetworkConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewEcsExpressGatewayServiceNetworkConfigurationOutputReference_Override(e EcsExpressGatewayServiceNetworkConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference)S
 	)
 }
 
-func (j *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (e *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) 
 	return returns
 }
 
-func (e *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -459,8 +459,8 @@ func (e *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) 
 	return returns
 }
 
-func (e *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -472,11 +472,11 @@ func (e *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) 
 	return returns
 }
 
-func (e *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -504,7 +504,7 @@ func (e *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) 
 	)
 }
 
-func (e *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

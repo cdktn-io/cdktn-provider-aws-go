@@ -119,7 +119,7 @@ func (j *jsiiProxy_KendraQuerySuggestionsBlockList) validateSetIndexIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_KendraQuerySuggestionsBlockList) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KendraQuerySuggestionsBlockList) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

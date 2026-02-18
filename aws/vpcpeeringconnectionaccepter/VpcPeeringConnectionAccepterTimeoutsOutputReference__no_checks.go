@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpcPeeringConnectionAccepterTimeoutsOutputReference) validate
 	return nil
 }
 
-func (v *jsiiProxy_VpcPeeringConnectionAccepterTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpcPeeringConnectionAccepterTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_VpcPeeringConnectionAccepterTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_VpcPeeringConnectionAccepterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpcPeeringConnectionAccepterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_VpcPeeringConnectionAccepterTimeoutsOutputReference) validate
 	return nil
 }
 
-func validateNewVpcPeeringConnectionAccepterTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpcPeeringConnectionAccepterTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

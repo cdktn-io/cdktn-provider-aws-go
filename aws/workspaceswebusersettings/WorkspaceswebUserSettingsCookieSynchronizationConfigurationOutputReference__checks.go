@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (w *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (w *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationOu
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*WorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlistStruct:
 		value := value.(*[]*WorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlistStruct)
@@ -117,7 +117,7 @@ func (w *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationOu
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*WorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlistStruct; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*WorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlistStruct; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (w *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationOu
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStruct:
 		value := value.(*[]*WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStruct)
@@ -148,14 +148,14 @@ func (w *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationOu
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStruct; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStruct; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (w *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationOu
 
 func (j *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *WorkspaceswebUserSettingsCookieSynchronizationConfiguration:
 		val := val.(*WorkspaceswebUserSettingsCookieSynchronizationConfiguration)
@@ -245,7 +245,7 @@ func (j *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationOu
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *WorkspaceswebUserSettingsCookieSynchronizationConfiguration; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *WorkspaceswebUserSettingsCookieSynchronizationConfiguration; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -260,7 +260,7 @@ func (j *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationOu
 	return nil
 }
 
-func (j *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -268,7 +268,7 @@ func (j *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationOu
 	return nil
 }
 
-func validateNewWorkspaceswebUserSettingsCookieSynchronizationConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWorkspaceswebUserSettingsCookieSynchronizationConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

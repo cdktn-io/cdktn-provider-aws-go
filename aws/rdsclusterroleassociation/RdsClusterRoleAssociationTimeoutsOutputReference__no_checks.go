@@ -47,7 +47,7 @@ func (r *jsiiProxy_RdsClusterRoleAssociationTimeoutsOutputReference) validateInt
 	return nil
 }
 
-func (r *jsiiProxy_RdsClusterRoleAssociationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RdsClusterRoleAssociationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_RdsClusterRoleAssociationTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_RdsClusterRoleAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RdsClusterRoleAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRdsClusterRoleAssociationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRdsClusterRoleAssociationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

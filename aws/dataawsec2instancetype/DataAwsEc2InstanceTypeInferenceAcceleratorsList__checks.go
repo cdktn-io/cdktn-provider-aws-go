@@ -8,7 +8,7 @@ package dataawsec2instancetype
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataAwsEc2InstanceTypeInferenceAcceleratorsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (d *jsiiProxy_DataAwsEc2InstanceTypeInferenceAcceleratorsList) validateGetP
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEc2InstanceTypeInferenceAcceleratorsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEc2InstanceTypeInferenceAcceleratorsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_DataAwsEc2InstanceTypeInferenceAcceleratorsList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceTypeInferenceAcceleratorsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEc2InstanceTypeInferenceAcceleratorsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_DataAwsEc2InstanceTypeInferenceAcceleratorsList) validateSetW
 	return nil
 }
 
-func validateNewDataAwsEc2InstanceTypeInferenceAcceleratorsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEc2InstanceTypeInferenceAcceleratorsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -15,7 +15,7 @@ func (s *jsiiProxy_S3TablesTableBucketReplicationRuleList) validateGetParameters
 	return nil
 }
 
-func (s *jsiiProxy_S3TablesTableBucketReplicationRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3TablesTableBucketReplicationRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_S3TablesTableBucketReplicationRuleList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_S3TablesTableBucketReplicationRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3TablesTableBucketReplicationRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_S3TablesTableBucketReplicationRuleList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewS3TablesTableBucketReplicationRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewS3TablesTableBucketReplicationRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

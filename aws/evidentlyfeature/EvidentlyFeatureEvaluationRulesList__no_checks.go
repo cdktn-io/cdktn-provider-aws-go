@@ -15,7 +15,7 @@ func (e *jsiiProxy_EvidentlyFeatureEvaluationRulesList) validateGetParameters(in
 	return nil
 }
 
-func (e *jsiiProxy_EvidentlyFeatureEvaluationRulesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EvidentlyFeatureEvaluationRulesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_EvidentlyFeatureEvaluationRulesList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_EvidentlyFeatureEvaluationRulesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EvidentlyFeatureEvaluationRulesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_EvidentlyFeatureEvaluationRulesList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewEvidentlyFeatureEvaluationRulesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEvidentlyFeatureEvaluationRulesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

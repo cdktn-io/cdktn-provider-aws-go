@@ -51,7 +51,7 @@ func (a *jsiiProxy_ApprunnerServiceSourceConfigurationImageRepositoryOutputRefer
 	return nil
 }
 
-func (a *jsiiProxy_ApprunnerServiceSourceConfigurationImageRepositoryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApprunnerServiceSourceConfigurationImageRepositoryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ApprunnerServiceSourceConfigurationImageRepositoryOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_ApprunnerServiceSourceConfigurationImageRepositoryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApprunnerServiceSourceConfigurationImageRepositoryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApprunnerServiceSourceConfigurationImageRepositoryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApprunnerServiceSourceConfigurationImageRepositoryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

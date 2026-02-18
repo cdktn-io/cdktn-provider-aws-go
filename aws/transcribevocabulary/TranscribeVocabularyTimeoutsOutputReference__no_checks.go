@@ -47,7 +47,7 @@ func (t *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (t *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewTranscribeVocabularyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTranscribeVocabularyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

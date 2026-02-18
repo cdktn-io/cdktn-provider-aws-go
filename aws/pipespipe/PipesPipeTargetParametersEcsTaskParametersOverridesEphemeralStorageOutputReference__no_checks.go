@@ -47,7 +47,7 @@ func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralS
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralS
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

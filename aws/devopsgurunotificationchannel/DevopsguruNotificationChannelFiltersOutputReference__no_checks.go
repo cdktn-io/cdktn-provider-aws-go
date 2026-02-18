@@ -47,7 +47,7 @@ func (d *jsiiProxy_DevopsguruNotificationChannelFiltersOutputReference) validate
 	return nil
 }
 
-func (d *jsiiProxy_DevopsguruNotificationChannelFiltersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DevopsguruNotificationChannelFiltersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DevopsguruNotificationChannelFiltersOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_DevopsguruNotificationChannelFiltersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DevopsguruNotificationChannelFiltersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDevopsguruNotificationChannelFiltersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDevopsguruNotificationChannelFiltersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -107,7 +107,7 @@ func (j *jsiiProxy_SignerSigningProfilePermission) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_SignerSigningProfilePermission) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SignerSigningProfilePermission) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

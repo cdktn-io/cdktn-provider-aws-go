@@ -47,7 +47,7 @@ func (c *jsiiProxy_ConnectQueueOutboundCallerConfigOutputReference) validateInte
 	return nil
 }
 
-func (c *jsiiProxy_ConnectQueueOutboundCallerConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConnectQueueOutboundCallerConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ConnectQueueOutboundCallerConfigOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ConnectQueueOutboundCallerConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConnectQueueOutboundCallerConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewConnectQueueOutboundCallerConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewConnectQueueOutboundCallerConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (n *jsiiProxy_NatGatewayAvailabilityZoneAddressOutputReference) validateInt
 	return nil
 }
 
-func (n *jsiiProxy_NatGatewayAvailabilityZoneAddressOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NatGatewayAvailabilityZoneAddressOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_NatGatewayAvailabilityZoneAddressOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_NatGatewayAvailabilityZoneAddressOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NatGatewayAvailabilityZoneAddressOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNatGatewayAvailabilityZoneAddressOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNatGatewayAvailabilityZoneAddressOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

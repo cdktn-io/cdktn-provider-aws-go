@@ -47,7 +47,7 @@ func (q *jsiiProxy_QuicksightDashboardDashboardPublishOptionsVisualAxisSortOptio
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDashboardDashboardPublishOptionsVisualAxisSortOptionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDashboardDashboardPublishOptionsVisualAxisSortOptionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_QuicksightDashboardDashboardPublishOptionsVisualAxisSortOptio
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDashboardDashboardPublishOptionsVisualAxisSortOptionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDashboardDashboardPublishOptionsVisualAxisSortOptionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewQuicksightDashboardDashboardPublishOptionsVisualAxisSortOptionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewQuicksightDashboardDashboardPublishOptionsVisualAxisSortOptionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (a *jsiiProxy_AutoscalingGroupTrafficSourceList) validateGetParameters(inde
 	return nil
 }
 
-func (a *jsiiProxy_AutoscalingGroupTrafficSourceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutoscalingGroupTrafficSourceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AutoscalingGroupTrafficSourceList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_AutoscalingGroupTrafficSourceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutoscalingGroupTrafficSourceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AutoscalingGroupTrafficSourceList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewAutoscalingGroupTrafficSourceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAutoscalingGroupTrafficSourceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

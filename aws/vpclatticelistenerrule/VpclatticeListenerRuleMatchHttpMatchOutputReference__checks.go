@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (v *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (v *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*VpclatticeListenerRuleMatchHttpMatchHeaderMatches:
 		value := value.(*[]*VpclatticeListenerRuleMatchHttpMatchHeaderMatches)
@@ -117,7 +117,7 @@ func (v *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*VpclatticeListenerRuleMatchHttpMatchHeaderMatches; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*VpclatticeListenerRuleMatchHttpMatchHeaderMatches; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -135,7 +135,7 @@ func (v *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchOutputReference) validate
 	return nil
 }
 
-func (v *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -232,7 +232,7 @@ func (j *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -240,7 +240,7 @@ func (j *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchOutputReference) validate
 	return nil
 }
 
-func validateNewVpclatticeListenerRuleMatchHttpMatchOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpclatticeListenerRuleMatchHttpMatchOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

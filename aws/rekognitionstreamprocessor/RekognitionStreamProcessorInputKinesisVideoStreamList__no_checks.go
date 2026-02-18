@@ -15,7 +15,7 @@ func (r *jsiiProxy_RekognitionStreamProcessorInputKinesisVideoStreamList) valida
 	return nil
 }
 
-func (r *jsiiProxy_RekognitionStreamProcessorInputKinesisVideoStreamList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RekognitionStreamProcessorInputKinesisVideoStreamList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorInputKinesisVideoStreamList) valida
 	return nil
 }
 
-func (j *jsiiProxy_RekognitionStreamProcessorInputKinesisVideoStreamList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RekognitionStreamProcessorInputKinesisVideoStreamList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorInputKinesisVideoStreamList) valida
 	return nil
 }
 
-func validateNewRekognitionStreamProcessorInputKinesisVideoStreamListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRekognitionStreamProcessorInputKinesisVideoStreamListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

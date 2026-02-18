@@ -107,7 +107,7 @@ func (j *jsiiProxy_S3ControlDirectoryBucketAccessPointScope) validateSetCountPar
 	return nil
 }
 
-func (j *jsiiProxy_S3ControlDirectoryBucketAccessPointScope) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_S3ControlDirectoryBucketAccessPointScope) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

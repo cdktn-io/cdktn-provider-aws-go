@@ -107,7 +107,7 @@ func (j *jsiiProxy_LbTrustStoreRevocation) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_LbTrustStoreRevocation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LbTrustStoreRevocation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -155,7 +155,7 @@ func (j *jsiiProxy_TransferServer) validateSetInvocationRoleParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_TransferServer) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_TransferServer) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

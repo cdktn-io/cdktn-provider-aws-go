@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (v *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (v *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedOutputRefere
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*VerifiedpermissionsPolicyDefinitionTemplateLinkedPrincipal:
 		value := value.(*[]*VerifiedpermissionsPolicyDefinitionTemplateLinkedPrincipal)
@@ -117,7 +117,7 @@ func (v *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*VerifiedpermissionsPolicyDefinitionTemplateLinkedPrincipal; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*VerifiedpermissionsPolicyDefinitionTemplateLinkedPrincipal; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (v *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedOutputRefere
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*VerifiedpermissionsPolicyDefinitionTemplateLinkedResource:
 		value := value.(*[]*VerifiedpermissionsPolicyDefinitionTemplateLinkedResource)
@@ -148,14 +148,14 @@ func (v *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*VerifiedpermissionsPolicyDefinitionTemplateLinkedResource; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*VerifiedpermissionsPolicyDefinitionTemplateLinkedResource; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (v *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedOutputRefere
 
 func (j *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *VerifiedpermissionsPolicyDefinitionTemplateLinked:
 		val := val.(*VerifiedpermissionsPolicyDefinitionTemplateLinked)
@@ -245,7 +245,7 @@ func (j *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *VerifiedpermissionsPolicyDefinitionTemplateLinked; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *VerifiedpermissionsPolicyDefinitionTemplateLinked; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -268,7 +268,7 @@ func (j *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -276,7 +276,7 @@ func (j *jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedOutputRefere
 	return nil
 }
 
-func validateNewVerifiedpermissionsPolicyDefinitionTemplateLinkedOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVerifiedpermissionsPolicyDefinitionTemplateLinkedOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

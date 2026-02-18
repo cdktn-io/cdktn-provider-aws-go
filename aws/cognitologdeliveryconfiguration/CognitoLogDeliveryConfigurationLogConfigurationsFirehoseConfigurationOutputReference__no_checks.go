@@ -47,7 +47,7 @@ func (c *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsFirehoseConfi
 	return nil
 }
 
-func (c *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsFirehoseConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsFirehoseConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsFirehoseConfi
 	return nil
 }
 
-func (j *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsFirehoseConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsFirehoseConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCognitoLogDeliveryConfigurationLogConfigurationsFirehoseConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCognitoLogDeliveryConfigurationLogConfigurationsFirehoseConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

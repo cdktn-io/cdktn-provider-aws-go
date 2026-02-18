@@ -47,7 +47,7 @@ func (e *jsiiProxy_EmrBlockPublicAccessConfigurationPermittedPublicSecurityGroup
 	return nil
 }
 
-func (e *jsiiProxy_EmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRangeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRangeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EmrBlockPublicAccessConfigurationPermittedPublicSecurityGroup
 	return nil
 }
 
-func (j *jsiiProxy_EmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRangeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRangeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRangeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRangeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

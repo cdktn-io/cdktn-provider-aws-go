@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (e *jsiiProxy_EksCapabilityConfigurationList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (e *jsiiProxy_EksCapabilityConfigurationList) validateGetParameters(index *
 	return nil
 }
 
-func (e *jsiiProxy_EksCapabilityConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksCapabilityConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (e *jsiiProxy_EksCapabilityConfigurationList) validateResolveParameters(con
 
 func (j *jsiiProxy_EksCapabilityConfigurationList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EksCapabilityConfiguration:
 		val := val.(*[]*EksCapabilityConfiguration)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_EksCapabilityConfigurationList) validateSetInternalValueParam
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*EksCapabilityConfiguration; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*EksCapabilityConfiguration; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_EksCapabilityConfigurationList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_EksCapabilityConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksCapabilityConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_EksCapabilityConfigurationList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewEksCapabilityConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEksCapabilityConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

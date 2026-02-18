@@ -47,7 +47,7 @@ func (o *jsiiProxy_OpensearchDomainEbsOptionsOutputReference) validateInterpolat
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchDomainEbsOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchDomainEbsOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_OpensearchDomainEbsOptionsOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchDomainEbsOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchDomainEbsOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_OpensearchDomainEbsOptionsOutputReference) validateSetVolumeT
 	return nil
 }
 
-func validateNewOpensearchDomainEbsOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOpensearchDomainEbsOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

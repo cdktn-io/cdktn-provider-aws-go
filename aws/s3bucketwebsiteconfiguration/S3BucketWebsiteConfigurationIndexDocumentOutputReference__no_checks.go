@@ -47,7 +47,7 @@ func (s *jsiiProxy_S3BucketWebsiteConfigurationIndexDocumentOutputReference) val
 	return nil
 }
 
-func (s *jsiiProxy_S3BucketWebsiteConfigurationIndexDocumentOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3BucketWebsiteConfigurationIndexDocumentOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_S3BucketWebsiteConfigurationIndexDocumentOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketWebsiteConfigurationIndexDocumentOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3BucketWebsiteConfigurationIndexDocumentOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewS3BucketWebsiteConfigurationIndexDocumentOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewS3BucketWebsiteConfigurationIndexDocumentOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

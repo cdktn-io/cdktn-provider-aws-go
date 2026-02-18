@@ -115,7 +115,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipe{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -168,7 +168,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeEnrichmentParametersHttpParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -207,7 +207,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeEnrichmentParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -249,7 +249,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeLogConfigurationCloudwatchLogsLogDestinationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -287,7 +287,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeLogConfigurationFirehoseLogDestinationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -336,7 +336,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeLogConfigurationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -382,7 +382,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeLogConfigurationS3LogDestinationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -428,7 +428,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersCredentialsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -471,7 +471,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -514,7 +514,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersDeadLetterConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -570,7 +570,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -600,7 +600,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeSourceParametersFilterCriteriaFilterList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -634,7 +634,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeSourceParametersFilterCriteriaFilterOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -670,7 +670,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeSourceParametersFilterCriteriaOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -713,7 +713,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -772,7 +772,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeSourceParametersKinesisStreamParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -818,7 +818,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -868,7 +868,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -932,7 +932,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeSourceParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -974,7 +974,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeSourceParametersRabbitmqBrokerParametersCredentialsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1020,7 +1020,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeSourceParametersRabbitmqBrokerParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1072,7 +1072,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeSourceParametersSelfManagedKafkaParametersCredentialsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1132,7 +1132,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeSourceParametersSelfManagedKafkaParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1174,7 +1174,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeSourceParametersSelfManagedKafkaParametersVpcOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1216,7 +1216,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeSourceParametersSqsQueueParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1263,7 +1263,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersBatchJobParametersArrayPropertiesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1293,7 +1293,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironmentList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1331,7 +1331,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironmentOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1377,7 +1377,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersBatchJobParametersContainerOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1403,7 +1403,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirementList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1439,7 +1439,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirementOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1465,7 +1465,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersBatchJobParametersDependsOnList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1503,7 +1503,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersBatchJobParametersDependsOnOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1558,7 +1558,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1597,7 +1597,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersBatchJobParametersRetryStrategyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1639,7 +1639,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersCloudwatchLogsParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1669,7 +1669,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1709,7 +1709,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1758,7 +1758,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsVpcConfigurationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1794,7 +1794,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1875,7 +1875,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1913,7 +1913,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentFileList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1949,7 +1949,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentFileOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1971,7 +1971,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2009,7 +2009,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2031,7 +2031,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2090,7 +2090,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2116,7 +2116,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2152,7 +2152,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2190,7 +2190,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2216,7 +2216,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2254,7 +2254,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2310,7 +2310,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2336,7 +2336,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2374,7 +2374,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraintOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2400,7 +2400,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementStrategyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2438,7 +2438,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementStrategyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2489,7 +2489,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersEventbridgeEventBusParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2534,7 +2534,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersHttpParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2572,7 +2572,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersKinesisStreamParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2610,7 +2610,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersLambdaFunctionParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2689,7 +2689,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2741,7 +2741,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersRedshiftDataParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2781,7 +2781,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersSagemakerPipelineParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2807,7 +2807,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersSagemakerPipelineParametersPipelineParameterList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2843,7 +2843,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersSagemakerPipelineParametersPipelineParameterOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2885,7 +2885,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersSqsQueueParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2923,7 +2923,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTargetParametersStepFunctionStateMachineParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2968,7 +2968,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PipesPipeTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -5,14 +5,14 @@ package sagemakerappimageconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/sagemakerappimageconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/sagemakerappimageconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDefaultGid()
 	ResetDefaultUid()
 	ResetMountPath()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference
 
 // The jsii proxy struct for SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference
 type jsiiProxy_SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigO
 	return returns
 }
 
-func (j *jsiiProxy_SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigO
 }
 
 
-func NewSagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference {
+func NewSagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewSagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputRefere
 	return &j
 }
 
-func NewSagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference_Override(s SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference_Override(s SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigO
 	)
 }
 
-func (j *jsiiProxy_SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (s *jsiiProxy_SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigO
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -494,8 +494,8 @@ func (s *jsiiProxy_SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigO
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -507,11 +507,11 @@ func (s *jsiiProxy_SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigO
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -547,7 +547,7 @@ func (s *jsiiProxy_SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigO
 	)
 }
 
-func (s *jsiiProxy_SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -5,14 +5,14 @@ package sagemakerendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/sagemakerendpoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/sagemakerendpoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SagemakerEndpointDeploymentConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AutoRollbackConfiguration() SagemakerEndpointDeploymentConfigAutoRollbackConfigurationOutputReference
 	AutoRollbackConfigurationInput() *SagemakerEndpointDeploymentConfigAutoRollbackConfiguration
 	BlueGreenUpdatePolicy() SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyOutputReference
@@ -43,15 +43,15 @@ type SagemakerEndpointDeploymentConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,9 +67,9 @@ type SagemakerEndpointDeploymentConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAutoRollbackConfiguration(value *SagemakerEndpointDeploymentConfigAutoRollbackConfiguration)
 	PutBlueGreenUpdatePolicy(value *SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicy)
 	PutRollingUpdatePolicy(value *SagemakerEndpointDeploymentConfigRollingUpdatePolicy)
@@ -78,7 +78,7 @@ type SagemakerEndpointDeploymentConfigOutputReference interface {
 	ResetRollingUpdatePolicy()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type SagemakerEndpointDeploymentConfigOutputReference interface {
 
 // The jsii proxy struct for SagemakerEndpointDeploymentConfigOutputReference
 type jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference) AutoRollbackConfiguration() SagemakerEndpointDeploymentConfigAutoRollbackConfigurationOutputReference {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference) TerraformRe
 }
 
 
-func NewSagemakerEndpointDeploymentConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SagemakerEndpointDeploymentConfigOutputReference {
+func NewSagemakerEndpointDeploymentConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SagemakerEndpointDeploymentConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSagemakerEndpointDeploymentConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewSagemakerEndpointDeploymentConfigOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewSagemakerEndpointDeploymentConfigOutputReference_Override(s SagemakerEndpointDeploymentConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSagemakerEndpointDeploymentConfigOutputReference_Override(s SagemakerEndpointDeploymentConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -293,7 +293,7 @@ func (j *jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -333,11 +333,11 @@ func (s *jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -461,8 +461,8 @@ func (s *jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference) GetStringMa
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -474,11 +474,11 @@ func (s *jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference) Interpolati
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -547,7 +547,7 @@ func (s *jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference) ResetRollin
 	)
 }
 
-func (s *jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

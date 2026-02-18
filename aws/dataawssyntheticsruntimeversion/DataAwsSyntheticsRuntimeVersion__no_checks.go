@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsSyntheticsRuntimeVersion) validateSetLatestParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSyntheticsRuntimeVersion) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsSyntheticsRuntimeVersion) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

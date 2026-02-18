@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsServicecatalogappregistryAttributeGroupAssociations) v
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsServicecatalogappregistryAttributeGroupAssociations) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsServicecatalogappregistryAttributeGroupAssociations) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

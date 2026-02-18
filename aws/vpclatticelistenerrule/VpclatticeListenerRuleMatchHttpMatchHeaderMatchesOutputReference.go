@@ -5,14 +5,14 @@ package vpclatticelistenerrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/vpclatticelistenerrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/vpclatticelistenerrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CaseSensitive() interface{}
 	SetCaseSensitive(val interface{})
 	CaseSensitiveInput() interface{}
@@ -45,15 +45,15 @@ type VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,14 +69,14 @@ type VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutMatch(value *VpclatticeListenerRuleMatchHttpMatchHeaderMatchesMatch)
 	ResetCaseSensitive()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference interface 
 
 // The jsii proxy struct for VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference
 type jsiiProxy_VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference) CaseSensitive() interface{} {
@@ -209,8 +209,8 @@ func (j *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputRefere
 }
 
 
-func NewVpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference {
+func NewVpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -237,7 +237,7 @@ func NewVpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference(terrafo
 	return &j
 }
 
-func NewVpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference_Override(v VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewVpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference_Override(v VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -313,7 +313,7 @@ func (j *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputRefere
 	)
 }
 
-func (j *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -353,11 +353,11 @@ func (v *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputRefere
 	return returns
 }
 
-func (v *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -481,8 +481,8 @@ func (v *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputRefere
 	return returns
 }
 
-func (v *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -494,11 +494,11 @@ func (v *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputRefere
 	return returns
 }
 
-func (v *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -529,7 +529,7 @@ func (v *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputRefere
 	)
 }
 
-func (v *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

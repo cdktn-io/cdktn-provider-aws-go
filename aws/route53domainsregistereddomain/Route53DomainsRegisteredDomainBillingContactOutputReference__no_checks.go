@@ -47,7 +47,7 @@ func (r *jsiiProxy_Route53DomainsRegisteredDomainBillingContactOutputReference) 
 	return nil
 }
 
-func (r *jsiiProxy_Route53DomainsRegisteredDomainBillingContactOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_Route53DomainsRegisteredDomainBillingContactOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -119,7 +119,7 @@ func (j *jsiiProxy_Route53DomainsRegisteredDomainBillingContactOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_Route53DomainsRegisteredDomainBillingContactOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Route53DomainsRegisteredDomainBillingContactOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -127,7 +127,7 @@ func (j *jsiiProxy_Route53DomainsRegisteredDomainBillingContactOutputReference) 
 	return nil
 }
 
-func validateNewRoute53DomainsRegisteredDomainBillingContactOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRoute53DomainsRegisteredDomainBillingContactOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

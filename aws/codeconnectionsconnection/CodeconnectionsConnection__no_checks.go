@@ -107,7 +107,7 @@ func (j *jsiiProxy_CodeconnectionsConnection) validateSetHostArnParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_CodeconnectionsConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CodeconnectionsConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

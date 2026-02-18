@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsAppconfigEnvironmentMonitorList) validateGetParameters
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAppconfigEnvironmentMonitorList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAppconfigEnvironmentMonitorList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsAppconfigEnvironmentMonitorList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAppconfigEnvironmentMonitorList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAppconfigEnvironmentMonitorList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsAppconfigEnvironmentMonitorList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewDataAwsAppconfigEnvironmentMonitorListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsAppconfigEnvironmentMonitorListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

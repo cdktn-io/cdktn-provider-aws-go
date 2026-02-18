@@ -47,7 +47,7 @@ func (g *jsiiProxy_GlobalacceleratorAcceleratorTimeoutsOutputReference) validate
 	return nil
 }
 
-func (g *jsiiProxy_GlobalacceleratorAcceleratorTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlobalacceleratorAcceleratorTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GlobalacceleratorAcceleratorTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_GlobalacceleratorAcceleratorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlobalacceleratorAcceleratorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GlobalacceleratorAcceleratorTimeoutsOutputReference) validate
 	return nil
 }
 
-func validateNewGlobalacceleratorAcceleratorTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGlobalacceleratorAcceleratorTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

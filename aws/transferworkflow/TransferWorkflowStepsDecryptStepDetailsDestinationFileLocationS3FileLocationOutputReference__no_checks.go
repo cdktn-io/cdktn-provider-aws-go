@@ -47,7 +47,7 @@ func (t *jsiiProxy_TransferWorkflowStepsDecryptStepDetailsDestinationFileLocatio
 	return nil
 }
 
-func (t *jsiiProxy_TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_TransferWorkflowStepsDecryptStepDetailsDestinationFileLocatio
 	return nil
 }
 
-func (j *jsiiProxy_TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

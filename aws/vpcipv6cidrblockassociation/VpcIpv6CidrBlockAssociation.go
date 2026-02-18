@@ -5,21 +5,21 @@ package vpcipv6cidrblockassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/vpcipv6cidrblockassociation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/vpcipv6cidrblockassociation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/vpc_ipv6_cidr_block_association aws_vpc_ipv6_cidr_block_association}.
 type VpcIpv6CidrBlockAssociation interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AssignGeneratedIpv6CidrBlock() interface{}
 	SetAssignGeneratedIpv6CidrBlock(val interface{})
 	AssignGeneratedIpv6CidrBlockInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type VpcIpv6CidrBlockAssociation interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -60,15 +60,15 @@ type VpcIpv6CidrBlockAssociation interface {
 	SetIpv6Pool(val *string)
 	Ipv6PoolInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -79,7 +79,7 @@ type VpcIpv6CidrBlockAssociation interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -97,7 +97,7 @@ type VpcIpv6CidrBlockAssociation interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -115,9 +115,9 @@ type VpcIpv6CidrBlockAssociation interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -159,7 +159,7 @@ type VpcIpv6CidrBlockAssociation interface {
 
 // The jsii proxy struct for VpcIpv6CidrBlockAssociation
 type jsiiProxy_VpcIpv6CidrBlockAssociation struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_VpcIpv6CidrBlockAssociation) AssignGeneratedIpv6CidrBlock() interface{} {
@@ -182,8 +182,8 @@ func (j *jsiiProxy_VpcIpv6CidrBlockAssociation) AssignGeneratedIpv6CidrBlockInpu
 	return returns
 }
 
-func (j *jsiiProxy_VpcIpv6CidrBlockAssociation) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_VpcIpv6CidrBlockAssociation) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -232,8 +232,8 @@ func (j *jsiiProxy_VpcIpv6CidrBlockAssociation) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_VpcIpv6CidrBlockAssociation) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_VpcIpv6CidrBlockAssociation) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -382,8 +382,8 @@ func (j *jsiiProxy_VpcIpv6CidrBlockAssociation) Ipv6PoolInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VpcIpv6CidrBlockAssociation) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_VpcIpv6CidrBlockAssociation) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -402,8 +402,8 @@ func (j *jsiiProxy_VpcIpv6CidrBlockAssociation) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_VpcIpv6CidrBlockAssociation) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_VpcIpv6CidrBlockAssociation) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -452,8 +452,8 @@ func (j *jsiiProxy_VpcIpv6CidrBlockAssociation) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VpcIpv6CidrBlockAssociation) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_VpcIpv6CidrBlockAssociation) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -593,7 +593,7 @@ func (j *jsiiProxy_VpcIpv6CidrBlockAssociation)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_VpcIpv6CidrBlockAssociation)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_VpcIpv6CidrBlockAssociation)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -656,7 +656,7 @@ func (j *jsiiProxy_VpcIpv6CidrBlockAssociation)SetIpv6Pool(val *string) {
 	)
 }
 
-func (j *jsiiProxy_VpcIpv6CidrBlockAssociation)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_VpcIpv6CidrBlockAssociation)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -667,7 +667,7 @@ func (j *jsiiProxy_VpcIpv6CidrBlockAssociation)SetLifecycle(val *cdktf.Terraform
 	)
 }
 
-func (j *jsiiProxy_VpcIpv6CidrBlockAssociation)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_VpcIpv6CidrBlockAssociation)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -708,14 +708,14 @@ func (j *jsiiProxy_VpcIpv6CidrBlockAssociation)SetVpcId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a VpcIpv6CidrBlockAssociation resource upon running "cdktf plan <stack-name>".
-func VpcIpv6CidrBlockAssociation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a VpcIpv6CidrBlockAssociation resource upon running "cdktn plan <stack-name>".
+func VpcIpv6CidrBlockAssociation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateVpcIpv6CidrBlockAssociation_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.vpcIpv6CidrBlockAssociation.VpcIpv6CidrBlockAssociation",
@@ -849,11 +849,11 @@ func (v *jsiiProxy_VpcIpv6CidrBlockAssociation) GetAnyMapAttribute(terraformAttr
 	return returns
 }
 
-func (v *jsiiProxy_VpcIpv6CidrBlockAssociation) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpcIpv6CidrBlockAssociation) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -990,7 +990,7 @@ func (v *jsiiProxy_VpcIpv6CidrBlockAssociation) HasResourceMove() interface{} {
 	return returns
 }
 
-func (v *jsiiProxy_VpcIpv6CidrBlockAssociation) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (v *jsiiProxy_VpcIpv6CidrBlockAssociation) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := v.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1001,11 +1001,11 @@ func (v *jsiiProxy_VpcIpv6CidrBlockAssociation) ImportFrom(id *string, provider 
 	)
 }
 
-func (v *jsiiProxy_VpcIpv6CidrBlockAssociation) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpcIpv6CidrBlockAssociation) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,

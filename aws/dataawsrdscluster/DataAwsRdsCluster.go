@@ -5,22 +5,22 @@ package dataawsrdscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsrdscluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsrdscluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/rds_cluster aws_rds_cluster}.
 type DataAwsRdsCluster interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	Arn() *string
 	AvailabilityZones() *[]*string
 	BacktrackWindow() *float64
 	BackupRetentionPeriod() *float64
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClusterIdentifier() *string
 	SetClusterIdentifier(val *string)
 	ClusterIdentifierInput() *string
@@ -49,24 +49,24 @@ type DataAwsRdsCluster interface {
 	EngineVersion() *string
 	FinalSnapshotIdentifier() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	HostedZoneId() *string
-	IamDatabaseAuthenticationEnabled() cdktf.IResolvable
+	IamDatabaseAuthenticationEnabled() cdktn.IResolvable
 	IamRoles() *[]*string
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
 	KmsKeyId() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MasterUsername() *string
 	MasterUserSecret() DataAwsRdsClusterMasterUserSecretList
 	MonitoringInterval() *float64
@@ -78,9 +78,9 @@ type DataAwsRdsCluster interface {
 	PreferredBackupWindow() *string
 	PreferredMaintenanceWindow() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	ReaderEndpoint() *string
@@ -88,12 +88,12 @@ type DataAwsRdsCluster interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	ReplicationSourceIdentifier() *string
-	StorageEncrypted() cdktf.IResolvable
+	StorageEncrypted() cdktn.IResolvable
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -105,7 +105,7 @@ type DataAwsRdsCluster interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -121,7 +121,7 @@ type DataAwsRdsCluster interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -147,7 +147,7 @@ type DataAwsRdsCluster interface {
 
 // The jsii proxy struct for DataAwsRdsCluster
 type jsiiProxy_DataAwsRdsCluster struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsRdsCluster) Arn() *string {
@@ -190,8 +190,8 @@ func (j *jsiiProxy_DataAwsRdsCluster) BackupRetentionPeriod() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsRdsCluster) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsRdsCluster) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -390,8 +390,8 @@ func (j *jsiiProxy_DataAwsRdsCluster) FinalSnapshotIdentifier() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsRdsCluster) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsRdsCluster) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -430,8 +430,8 @@ func (j *jsiiProxy_DataAwsRdsCluster) HostedZoneId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsRdsCluster) IamDatabaseAuthenticationEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsRdsCluster) IamDatabaseAuthenticationEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"iamDatabaseAuthenticationEnabled",
@@ -480,8 +480,8 @@ func (j *jsiiProxy_DataAwsRdsCluster) KmsKeyId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsRdsCluster) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsRdsCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -580,8 +580,8 @@ func (j *jsiiProxy_DataAwsRdsCluster) PreferredMaintenanceWindow() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsRdsCluster) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsRdsCluster) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -640,8 +640,8 @@ func (j *jsiiProxy_DataAwsRdsCluster) ReplicationSourceIdentifier() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsRdsCluster) StorageEncrypted() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsRdsCluster) StorageEncrypted() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"storageEncrypted",
@@ -670,8 +670,8 @@ func (j *jsiiProxy_DataAwsRdsCluster) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsRdsCluster) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsRdsCluster) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -780,7 +780,7 @@ func (j *jsiiProxy_DataAwsRdsCluster)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsRdsCluster)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsRdsCluster)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -799,7 +799,7 @@ func (j *jsiiProxy_DataAwsRdsCluster)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsRdsCluster)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsRdsCluster)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -810,7 +810,7 @@ func (j *jsiiProxy_DataAwsRdsCluster)SetLifecycle(val *cdktf.TerraformResourceLi
 	)
 }
 
-func (j *jsiiProxy_DataAwsRdsCluster)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsRdsCluster)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -840,14 +840,14 @@ func (j *jsiiProxy_DataAwsRdsCluster)SetTags(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsRdsCluster resource upon running "cdktf plan <stack-name>".
-func DataAwsRdsCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsRdsCluster resource upon running "cdktn plan <stack-name>".
+func DataAwsRdsCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsRdsCluster_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsRdsCluster.DataAwsRdsCluster",
@@ -970,11 +970,11 @@ func (d *jsiiProxy_DataAwsRdsCluster) GetAnyMapAttribute(terraformAttribute *str
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsRdsCluster) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsRdsCluster) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1098,11 +1098,11 @@ func (d *jsiiProxy_DataAwsRdsCluster) GetStringMapAttribute(terraformAttribute *
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsRdsCluster) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsRdsCluster) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

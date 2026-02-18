@@ -247,7 +247,7 @@ func (j *jsiiProxy_DmsS3Endpoint) validateSetKmsKeyArnParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_DmsS3Endpoint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DmsS3Endpoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

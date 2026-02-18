@@ -5,20 +5,20 @@ package dataawsdmsendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsdmsendpoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsdmsendpoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsDmsEndpointS3SettingsOutputReference interface {
-	cdktf.ComplexObject
-	AddColumnName() cdktf.IResolvable
+	cdktn.ComplexObject
+	AddColumnName() cdktn.IResolvable
 	BucketFolder() *string
 	BucketName() *string
 	CannedAclForObjects() *string
-	CdcInsertsAndUpdates() cdktf.IResolvable
-	CdcInsertsOnly() cdktf.IResolvable
+	CdcInsertsAndUpdates() cdktn.IResolvable
+	CdcInsertsOnly() cdktn.IResolvable
 	CdcMaxBatchInterval() *float64
 	CdcMinFileSize() *float64
 	CdcPath() *string
@@ -45,26 +45,26 @@ type DataAwsDmsEndpointS3SettingsOutputReference interface {
 	DataFormat() *string
 	DataPageSize() *float64
 	DatePartitionDelimiter() *string
-	DatePartitionEnabled() cdktf.IResolvable
+	DatePartitionEnabled() cdktn.IResolvable
 	DatePartitionSequence() *string
 	DictPageSizeLimit() *float64
-	EnableStatistics() cdktf.IResolvable
+	EnableStatistics() cdktn.IResolvable
 	EncodingType() *string
 	EncryptionMode() *string
 	ExternalTableDefinition() *string
 	// Experimental.
 	Fqn() *string
-	GlueCatalogGeneration() cdktf.IResolvable
+	GlueCatalogGeneration() cdktn.IResolvable
 	IgnoreHeaderRows() *float64
 	IgnoreHeadersRow() *float64
-	IncludeOpForFullLoad() cdktf.IResolvable
+	IncludeOpForFullLoad() cdktn.IResolvable
 	InternalValue() *DataAwsDmsEndpointS3Settings
 	SetInternalValue(val *DataAwsDmsEndpointS3Settings)
 	MaxFileSize() *float64
-	ParquetTimestampInMillisecond() cdktf.IResolvable
+	ParquetTimestampInMillisecond() cdktn.IResolvable
 	ParquetVersion() *string
-	PreserveTransactions() cdktf.IResolvable
-	Rfc4180() cdktf.IResolvable
+	PreserveTransactions() cdktn.IResolvable
+	Rfc4180() cdktn.IResolvable
 	RowGroupLength() *float64
 	ServerSideEncryptionKmsKeyId() *string
 	ServiceAccessRoleArn() *string
@@ -73,18 +73,18 @@ type DataAwsDmsEndpointS3SettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TimestampColumnName() *string
-	UseCsvNoSupValue() cdktf.IResolvable
-	UseTaskStartTimeForFullLoadTimestamp() cdktf.IResolvable
+	UseCsvNoSupValue() cdktn.IResolvable
+	UseTaskStartTimeForFullLoadTimestamp() cdktn.IResolvable
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -100,12 +100,12 @@ type DataAwsDmsEndpointS3SettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -115,11 +115,11 @@ type DataAwsDmsEndpointS3SettingsOutputReference interface {
 
 // The jsii proxy struct for DataAwsDmsEndpointS3SettingsOutputReference
 type jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) AddColumnName() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) AddColumnName() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"addColumnName",
@@ -158,8 +158,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) CannedAclForObje
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) CdcInsertsAndUpdates() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) CdcInsertsAndUpdates() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"cdcInsertsAndUpdates",
@@ -168,8 +168,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) CdcInsertsAndUpd
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) CdcInsertsOnly() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) CdcInsertsOnly() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"cdcInsertsOnly",
@@ -318,8 +318,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) DatePartitionDel
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) DatePartitionEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) DatePartitionEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"datePartitionEnabled",
@@ -348,8 +348,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) DictPageSizeLimi
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) EnableStatistics() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) EnableStatistics() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableStatistics",
@@ -398,8 +398,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) Fqn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) GlueCatalogGeneration() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) GlueCatalogGeneration() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"glueCatalogGeneration",
@@ -428,8 +428,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) IgnoreHeadersRow
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) IncludeOpForFullLoad() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) IncludeOpForFullLoad() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"includeOpForFullLoad",
@@ -458,8 +458,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) MaxFileSize() *f
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) ParquetTimestampInMillisecond() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) ParquetTimestampInMillisecond() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"parquetTimestampInMillisecond",
@@ -478,8 +478,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) ParquetVersion()
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) PreserveTransactions() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) PreserveTransactions() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"preserveTransactions",
@@ -488,8 +488,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) PreserveTransact
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) Rfc4180() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) Rfc4180() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"rfc4180",
@@ -538,8 +538,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -558,8 +558,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) TimestampColumnN
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) UseCsvNoSupValue() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) UseCsvNoSupValue() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"useCsvNoSupValue",
@@ -568,8 +568,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) UseCsvNoSupValue
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) UseTaskStartTimeForFullLoadTimestamp() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) UseTaskStartTimeForFullLoadTimestamp() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"useTaskStartTimeForFullLoadTimestamp",
@@ -579,7 +579,7 @@ func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) UseTaskStartTime
 }
 
 
-func NewDataAwsDmsEndpointS3SettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsDmsEndpointS3SettingsOutputReference {
+func NewDataAwsDmsEndpointS3SettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsDmsEndpointS3SettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsDmsEndpointS3SettingsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -596,7 +596,7 @@ func NewDataAwsDmsEndpointS3SettingsOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewDataAwsDmsEndpointS3SettingsOutputReference_Override(d DataAwsDmsEndpointS3SettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsDmsEndpointS3SettingsOutputReference_Override(d DataAwsDmsEndpointS3SettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -650,7 +650,7 @@ func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -690,11 +690,11 @@ func (d *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -818,8 +818,8 @@ func (d *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -831,11 +831,11 @@ func (d *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) InterpolationAsL
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -847,7 +847,7 @@ func (d *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) InterpolationFor
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

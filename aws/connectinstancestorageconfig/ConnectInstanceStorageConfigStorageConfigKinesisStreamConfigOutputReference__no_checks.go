@@ -47,7 +47,7 @@ func (c *jsiiProxy_ConnectInstanceStorageConfigStorageConfigKinesisStreamConfigO
 	return nil
 }
 
-func (c *jsiiProxy_ConnectInstanceStorageConfigStorageConfigKinesisStreamConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConnectInstanceStorageConfigStorageConfigKinesisStreamConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ConnectInstanceStorageConfigStorageConfigKinesisStreamConfigO
 	return nil
 }
 
-func (j *jsiiProxy_ConnectInstanceStorageConfigStorageConfigKinesisStreamConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConnectInstanceStorageConfigStorageConfigKinesisStreamConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewConnectInstanceStorageConfigStorageConfigKinesisStreamConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewConnectInstanceStorageConfigStorageConfigKinesisStreamConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (b *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationList) validateG
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationList) validateS
 	return nil
 }
 
-func validateNewBedrockagentcoreGatewayAuthorizerConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockagentcoreGatewayAuthorizerConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

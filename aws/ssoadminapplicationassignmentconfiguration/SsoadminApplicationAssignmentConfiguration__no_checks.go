@@ -107,7 +107,7 @@ func (j *jsiiProxy_SsoadminApplicationAssignmentConfiguration) validateSetCountP
 	return nil
 }
 
-func (j *jsiiProxy_SsoadminApplicationAssignmentConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SsoadminApplicationAssignmentConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -55,7 +55,7 @@ func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicyTrafficConfigOutputRefere
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicyTrafficConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicyTrafficConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_CloudfrontContinuousDeploymentPolicyTrafficConfigOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontContinuousDeploymentPolicyTrafficConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontContinuousDeploymentPolicyTrafficConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_CloudfrontContinuousDeploymentPolicyTrafficConfigOutputRefere
 	return nil
 }
 
-func validateNewCloudfrontContinuousDeploymentPolicyTrafficConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudfrontContinuousDeploymentPolicyTrafficConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

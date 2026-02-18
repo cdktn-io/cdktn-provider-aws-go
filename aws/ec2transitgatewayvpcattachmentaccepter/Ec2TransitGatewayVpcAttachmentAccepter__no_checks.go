@@ -103,7 +103,7 @@ func (j *jsiiProxy_Ec2TransitGatewayVpcAttachmentAccepter) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_Ec2TransitGatewayVpcAttachmentAccepter) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Ec2TransitGatewayVpcAttachmentAccepter) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

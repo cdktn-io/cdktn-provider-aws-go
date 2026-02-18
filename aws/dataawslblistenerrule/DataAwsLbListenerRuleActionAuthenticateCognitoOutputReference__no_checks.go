@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsLbListenerRuleActionAuthenticateCognitoOutputReference
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLbListenerRuleActionAuthenticateCognitoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLbListenerRuleActionAuthenticateCognitoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsLbListenerRuleActionAuthenticateCognitoOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLbListenerRuleActionAuthenticateCognitoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLbListenerRuleActionAuthenticateCognitoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsLbListenerRuleActionAuthenticateCognitoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsLbListenerRuleActionAuthenticateCognitoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

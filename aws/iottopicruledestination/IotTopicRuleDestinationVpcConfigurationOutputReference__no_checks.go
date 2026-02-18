@@ -47,7 +47,7 @@ func (i *jsiiProxy_IotTopicRuleDestinationVpcConfigurationOutputReference) valid
 	return nil
 }
 
-func (i *jsiiProxy_IotTopicRuleDestinationVpcConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotTopicRuleDestinationVpcConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_IotTopicRuleDestinationVpcConfigurationOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_IotTopicRuleDestinationVpcConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotTopicRuleDestinationVpcConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_IotTopicRuleDestinationVpcConfigurationOutputReference) valid
 	return nil
 }
 
-func validateNewIotTopicRuleDestinationVpcConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIotTopicRuleDestinationVpcConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

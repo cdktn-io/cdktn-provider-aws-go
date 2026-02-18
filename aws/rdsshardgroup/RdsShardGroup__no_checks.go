@@ -115,7 +115,7 @@ func (j *jsiiProxy_RdsShardGroup) validateSetDbShardGroupIdentifierParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_RdsShardGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RdsShardGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

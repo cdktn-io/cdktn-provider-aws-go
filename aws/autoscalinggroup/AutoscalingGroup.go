@@ -5,16 +5,16 @@ package autoscalinggroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/autoscalinggroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/autoscalinggroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/autoscaling_group aws_autoscaling_group}.
 type AutoscalingGroup interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	AvailabilityZoneDistribution() AutoscalingGroupAvailabilityZoneDistributionOutputReference
 	AvailabilityZoneDistributionInput() *AutoscalingGroupAvailabilityZoneDistribution
@@ -27,7 +27,7 @@ type AutoscalingGroup interface {
 	CapacityReservationSpecification() AutoscalingGroupCapacityReservationSpecificationOutputReference
 	CapacityReservationSpecificationInput() *AutoscalingGroupCapacityReservationSpecification
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -67,9 +67,9 @@ type AutoscalingGroup interface {
 	SetForceDeleteWarmPool(val interface{})
 	ForceDeleteWarmPoolInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -98,9 +98,9 @@ type AutoscalingGroup interface {
 	LaunchTemplate() AutoscalingGroupLaunchTemplateOutputReference
 	LaunchTemplateInput() *AutoscalingGroupLaunchTemplate
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LoadBalancers() *[]*string
 	SetLoadBalancers(val *[]*string)
 	LoadBalancersInput() *[]*string
@@ -137,9 +137,9 @@ type AutoscalingGroup interface {
 	SetProtectFromScaleIn(val interface{})
 	ProtectFromScaleInInput() interface{}
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -164,7 +164,7 @@ type AutoscalingGroup interface {
 	SetTerminationPolicies(val *[]*string)
 	TerminationPoliciesInput() *[]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -193,7 +193,7 @@ type AutoscalingGroup interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -211,9 +211,9 @@ type AutoscalingGroup interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -299,7 +299,7 @@ type AutoscalingGroup interface {
 
 // The jsii proxy struct for AutoscalingGroup
 type jsiiProxy_AutoscalingGroup struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_AutoscalingGroup) Arn() *string {
@@ -392,8 +392,8 @@ func (j *jsiiProxy_AutoscalingGroup) CapacityReservationSpecificationInput() *Au
 	return returns
 }
 
-func (j *jsiiProxy_AutoscalingGroup) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_AutoscalingGroup) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -602,8 +602,8 @@ func (j *jsiiProxy_AutoscalingGroup) ForceDeleteWarmPoolInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_AutoscalingGroup) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_AutoscalingGroup) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -812,8 +812,8 @@ func (j *jsiiProxy_AutoscalingGroup) LaunchTemplateInput() *AutoscalingGroupLaun
 	return returns
 }
 
-func (j *jsiiProxy_AutoscalingGroup) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_AutoscalingGroup) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -1062,8 +1062,8 @@ func (j *jsiiProxy_AutoscalingGroup) ProtectFromScaleInInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_AutoscalingGroup) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_AutoscalingGroup) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -1212,8 +1212,8 @@ func (j *jsiiProxy_AutoscalingGroup) TerminationPoliciesInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_AutoscalingGroup) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_AutoscalingGroup) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1542,7 +1542,7 @@ func (j *jsiiProxy_AutoscalingGroup)SetForceDeleteWarmPool(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_AutoscalingGroup)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_AutoscalingGroup)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1605,7 +1605,7 @@ func (j *jsiiProxy_AutoscalingGroup)SetLaunchConfiguration(val *string) {
 	)
 }
 
-func (j *jsiiProxy_AutoscalingGroup)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_AutoscalingGroup)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1726,7 +1726,7 @@ func (j *jsiiProxy_AutoscalingGroup)SetProtectFromScaleIn(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_AutoscalingGroup)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_AutoscalingGroup)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1833,14 +1833,14 @@ func (j *jsiiProxy_AutoscalingGroup)SetWaitForElbCapacity(val *float64) {
 	)
 }
 
-// Generates CDKTF code for importing a AutoscalingGroup resource upon running "cdktf plan <stack-name>".
-func AutoscalingGroup_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a AutoscalingGroup resource upon running "cdktn plan <stack-name>".
+func AutoscalingGroup_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateAutoscalingGroup_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.autoscalingGroup.AutoscalingGroup",
@@ -1974,11 +1974,11 @@ func (a *jsiiProxy_AutoscalingGroup) GetAnyMapAttribute(terraformAttribute *stri
 	return returns
 }
 
-func (a *jsiiProxy_AutoscalingGroup) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutoscalingGroup) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -2115,7 +2115,7 @@ func (a *jsiiProxy_AutoscalingGroup) HasResourceMove() interface{} {
 	return returns
 }
 
-func (a *jsiiProxy_AutoscalingGroup) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_AutoscalingGroup) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -2126,11 +2126,11 @@ func (a *jsiiProxy_AutoscalingGroup) ImportFrom(id *string, provider cdktf.Terra
 	)
 }
 
-func (a *jsiiProxy_AutoscalingGroup) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutoscalingGroup) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

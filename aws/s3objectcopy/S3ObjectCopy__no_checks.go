@@ -203,7 +203,7 @@ func (j *jsiiProxy_S3ObjectCopy) validateSetKmsKeyIdParameters(val *string) erro
 	return nil
 }
 
-func (j *jsiiProxy_S3ObjectCopy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_S3ObjectCopy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

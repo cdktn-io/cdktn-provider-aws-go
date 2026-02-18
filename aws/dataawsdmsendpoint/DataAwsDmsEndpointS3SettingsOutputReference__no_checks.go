@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) validateInterpol
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsDmsEndpointS3SettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsDmsEndpointS3SettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

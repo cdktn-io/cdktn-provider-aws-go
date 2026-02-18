@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsBedrockCustomModel) validateSetCountParameters(val int
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsBedrockCustomModel) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsBedrockCustomModel) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

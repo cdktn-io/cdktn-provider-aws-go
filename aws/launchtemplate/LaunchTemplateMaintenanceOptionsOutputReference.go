@@ -5,14 +5,14 @@ package launchtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/launchtemplate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/launchtemplate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LaunchTemplateMaintenanceOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AutoRecovery() *string
 	SetAutoRecovery(val *string)
 	AutoRecoveryInput() *string
@@ -40,15 +40,15 @@ type LaunchTemplateMaintenanceOptionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type LaunchTemplateMaintenanceOptionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAutoRecovery()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type LaunchTemplateMaintenanceOptionsOutputReference interface {
 
 // The jsii proxy struct for LaunchTemplateMaintenanceOptionsOutputReference
 type jsiiProxy_LaunchTemplateMaintenanceOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LaunchTemplateMaintenanceOptionsOutputReference) AutoRecovery() *string {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_LaunchTemplateMaintenanceOptionsOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_LaunchTemplateMaintenanceOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LaunchTemplateMaintenanceOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_LaunchTemplateMaintenanceOptionsOutputReference) TerraformRes
 }
 
 
-func NewLaunchTemplateMaintenanceOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LaunchTemplateMaintenanceOptionsOutputReference {
+func NewLaunchTemplateMaintenanceOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LaunchTemplateMaintenanceOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLaunchTemplateMaintenanceOptionsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewLaunchTemplateMaintenanceOptionsOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewLaunchTemplateMaintenanceOptionsOutputReference_Override(l LaunchTemplateMaintenanceOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLaunchTemplateMaintenanceOptionsOutputReference_Override(l LaunchTemplateMaintenanceOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_LaunchTemplateMaintenanceOptionsOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_LaunchTemplateMaintenanceOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LaunchTemplateMaintenanceOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (l *jsiiProxy_LaunchTemplateMaintenanceOptionsOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (l *jsiiProxy_LaunchTemplateMaintenanceOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LaunchTemplateMaintenanceOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -424,8 +424,8 @@ func (l *jsiiProxy_LaunchTemplateMaintenanceOptionsOutputReference) GetStringMap
 	return returns
 }
 
-func (l *jsiiProxy_LaunchTemplateMaintenanceOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LaunchTemplateMaintenanceOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -437,11 +437,11 @@ func (l *jsiiProxy_LaunchTemplateMaintenanceOptionsOutputReference) Interpolatio
 	return returns
 }
 
-func (l *jsiiProxy_LaunchTemplateMaintenanceOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LaunchTemplateMaintenanceOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -461,7 +461,7 @@ func (l *jsiiProxy_LaunchTemplateMaintenanceOptionsOutputReference) ResetAutoRec
 	)
 }
 
-func (l *jsiiProxy_LaunchTemplateMaintenanceOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LaunchTemplateMaintenanceOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

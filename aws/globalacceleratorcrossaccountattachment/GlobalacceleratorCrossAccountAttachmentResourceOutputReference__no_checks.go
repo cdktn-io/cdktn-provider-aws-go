@@ -47,7 +47,7 @@ func (g *jsiiProxy_GlobalacceleratorCrossAccountAttachmentResourceOutputReferenc
 	return nil
 }
 
-func (g *jsiiProxy_GlobalacceleratorCrossAccountAttachmentResourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlobalacceleratorCrossAccountAttachmentResourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GlobalacceleratorCrossAccountAttachmentResourceOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_GlobalacceleratorCrossAccountAttachmentResourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlobalacceleratorCrossAccountAttachmentResourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGlobalacceleratorCrossAccountAttachmentResourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGlobalacceleratorCrossAccountAttachmentResourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

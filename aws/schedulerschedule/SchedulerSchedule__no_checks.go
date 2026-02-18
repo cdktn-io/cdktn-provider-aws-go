@@ -131,7 +131,7 @@ func (j *jsiiProxy_SchedulerSchedule) validateSetKmsKeyArnParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_SchedulerSchedule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SchedulerSchedule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

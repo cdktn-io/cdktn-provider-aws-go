@@ -5,14 +5,14 @@ package inspector2filter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/inspector2filter/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/inspector2filter/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Inspector2FilterFilterCriteriaResourceIdList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type Inspector2FilterFilterCriteriaResourceIdList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type Inspector2FilterFilterCriteriaResourceIdList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) Inspector2FilterFilterCriteriaResourceIdOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type Inspector2FilterFilterCriteriaResourceIdList interface {
 
 // The jsii proxy struct for Inspector2FilterFilterCriteriaResourceIdList
 type jsiiProxy_Inspector2FilterFilterCriteriaResourceIdList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_Inspector2FilterFilterCriteriaResourceIdList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaResourceIdList) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_Inspector2FilterFilterCriteriaResourceIdList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Inspector2FilterFilterCriteriaResourceIdList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaResourceIdList) WrapsSet() *boo
 }
 
 
-func NewInspector2FilterFilterCriteriaResourceIdList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Inspector2FilterFilterCriteriaResourceIdList {
+func NewInspector2FilterFilterCriteriaResourceIdList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Inspector2FilterFilterCriteriaResourceIdList {
 	_init_.Initialize()
 
 	if err := validateNewInspector2FilterFilterCriteriaResourceIdListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewInspector2FilterFilterCriteriaResourceIdList(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewInspector2FilterFilterCriteriaResourceIdList_Override(i Inspector2FilterFilterCriteriaResourceIdList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewInspector2FilterFilterCriteriaResourceIdList_Override(i Inspector2FilterFilterCriteriaResourceIdList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaResourceIdList)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_Inspector2FilterFilterCriteriaResourceIdList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Inspector2FilterFilterCriteriaResourceIdList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaResourceIdList)SetWrapsSet(val 
 	)
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaResourceIdList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaResourceIdList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := i.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		i,
@@ -231,7 +231,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaResourceIdList) Get(index *floa
 	return returns
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaResourceIdList) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaResourceIdList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

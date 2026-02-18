@@ -5,16 +5,16 @@ package emrcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/emrcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/emrcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/emr_cluster aws_emr_cluster}.
 type EmrCluster interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AdditionalInfo() *string
 	SetAdditionalInfo(val *string)
 	AdditionalInfoInput() *string
@@ -30,7 +30,7 @@ type EmrCluster interface {
 	BootstrapAction() EmrClusterBootstrapActionList
 	BootstrapActionInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClusterState() *string
 	Configurations() *string
 	SetConfigurations(val *string)
@@ -65,9 +65,9 @@ type EmrCluster interface {
 	Ec2Attributes() EmrClusterEc2AttributesOutputReference
 	Ec2AttributesInput() *EmrClusterEc2Attributes
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -81,9 +81,9 @@ type EmrCluster interface {
 	KerberosAttributes() EmrClusterKerberosAttributesOutputReference
 	KerberosAttributesInput() *EmrClusterKerberosAttributes
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	ListStepsStates() *[]*string
 	SetListStepsStates(val *[]*string)
 	ListStepsStatesInput() *[]*string
@@ -109,9 +109,9 @@ type EmrCluster interface {
 	PlacementGroupConfig() EmrClusterPlacementGroupConfigList
 	PlacementGroupConfigInput() interface{}
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -148,7 +148,7 @@ type EmrCluster interface {
 	SetTerminationProtection(val interface{})
 	TerminationProtectionInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -167,7 +167,7 @@ type EmrCluster interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -185,9 +185,9 @@ type EmrCluster interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -262,7 +262,7 @@ type EmrCluster interface {
 
 // The jsii proxy struct for EmrCluster
 type jsiiProxy_EmrCluster struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_EmrCluster) AdditionalInfo() *string {
@@ -375,8 +375,8 @@ func (j *jsiiProxy_EmrCluster) BootstrapActionInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_EmrCluster) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_EmrCluster) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -575,8 +575,8 @@ func (j *jsiiProxy_EmrCluster) Ec2AttributesInput() *EmrClusterEc2Attributes {
 	return returns
 }
 
-func (j *jsiiProxy_EmrCluster) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_EmrCluster) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -665,8 +665,8 @@ func (j *jsiiProxy_EmrCluster) KerberosAttributesInput() *EmrClusterKerberosAttr
 	return returns
 }
 
-func (j *jsiiProxy_EmrCluster) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_EmrCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -855,8 +855,8 @@ func (j *jsiiProxy_EmrCluster) PlacementGroupConfigInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_EmrCluster) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_EmrCluster) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -1085,8 +1085,8 @@ func (j *jsiiProxy_EmrCluster) TerminationProtectionInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_EmrCluster) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_EmrCluster) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1292,7 +1292,7 @@ func (j *jsiiProxy_EmrCluster)SetEbsRootVolumeSize(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_EmrCluster)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_EmrCluster)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1322,7 +1322,7 @@ func (j *jsiiProxy_EmrCluster)SetKeepJobFlowAliveWhenNoSteps(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_EmrCluster)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_EmrCluster)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1388,7 +1388,7 @@ func (j *jsiiProxy_EmrCluster)SetOsReleaseLabel(val *string) {
 	)
 }
 
-func (j *jsiiProxy_EmrCluster)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_EmrCluster)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1528,14 +1528,14 @@ func (j *jsiiProxy_EmrCluster)SetVisibleToAllUsers(val interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a EmrCluster resource upon running "cdktf plan <stack-name>".
-func EmrCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a EmrCluster resource upon running "cdktn plan <stack-name>".
+func EmrCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateEmrCluster_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.emrCluster.EmrCluster",
@@ -1669,11 +1669,11 @@ func (e *jsiiProxy_EmrCluster) GetAnyMapAttribute(terraformAttribute *string) *m
 	return returns
 }
 
-func (e *jsiiProxy_EmrCluster) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EmrCluster) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -1810,7 +1810,7 @@ func (e *jsiiProxy_EmrCluster) HasResourceMove() interface{} {
 	return returns
 }
 
-func (e *jsiiProxy_EmrCluster) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (e *jsiiProxy_EmrCluster) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := e.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1821,11 +1821,11 @@ func (e *jsiiProxy_EmrCluster) ImportFrom(id *string, provider cdktf.TerraformPr
 	)
 }
 
-func (e *jsiiProxy_EmrCluster) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EmrCluster) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,

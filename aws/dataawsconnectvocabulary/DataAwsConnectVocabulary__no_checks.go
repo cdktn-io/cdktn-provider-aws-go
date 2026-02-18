@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsConnectVocabulary) validateSetInstanceIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsConnectVocabulary) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsConnectVocabulary) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

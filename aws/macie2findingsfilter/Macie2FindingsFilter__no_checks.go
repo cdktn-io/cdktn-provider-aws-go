@@ -119,7 +119,7 @@ func (j *jsiiProxy_Macie2FindingsFilter) validateSetIdParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_Macie2FindingsFilter) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Macie2FindingsFilter) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

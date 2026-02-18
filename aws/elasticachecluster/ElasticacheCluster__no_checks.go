@@ -147,7 +147,7 @@ func (j *jsiiProxy_ElasticacheCluster) validateSetIpDiscoveryParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_ElasticacheCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ElasticacheCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

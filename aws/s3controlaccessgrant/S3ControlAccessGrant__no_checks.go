@@ -115,7 +115,7 @@ func (j *jsiiProxy_S3ControlAccessGrant) validateSetCountParameters(val interfac
 	return nil
 }
 
-func (j *jsiiProxy_S3ControlAccessGrant) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_S3ControlAccessGrant) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

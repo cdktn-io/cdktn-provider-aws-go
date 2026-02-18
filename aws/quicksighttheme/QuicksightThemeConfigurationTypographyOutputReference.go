@@ -5,14 +5,14 @@ package quicksighttheme
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/quicksighttheme/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/quicksighttheme/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type QuicksightThemeConfigurationTypographyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type QuicksightThemeConfigurationTypographyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,14 +63,14 @@ type QuicksightThemeConfigurationTypographyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutFontFamilies(value interface{})
 	ResetFontFamilies()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type QuicksightThemeConfigurationTypographyOutputReference interface {
 
 // The jsii proxy struct for QuicksightThemeConfigurationTypographyOutputReference
 type jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) Terraf
 }
 
 
-func NewQuicksightThemeConfigurationTypographyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) QuicksightThemeConfigurationTypographyOutputReference {
+func NewQuicksightThemeConfigurationTypographyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) QuicksightThemeConfigurationTypographyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewQuicksightThemeConfigurationTypographyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewQuicksightThemeConfigurationTypographyOutputReference(terraformResource 
 	return &j
 }
 
-func NewQuicksightThemeConfigurationTypographyOutputReference_Override(q QuicksightThemeConfigurationTypographyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewQuicksightThemeConfigurationTypographyOutputReference_Override(q QuicksightThemeConfigurationTypographyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -285,11 +285,11 @@ func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) GetAny
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := q.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -413,8 +413,8 @@ func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) GetStr
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -426,11 +426,11 @@ func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) Interp
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := q.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -461,7 +461,7 @@ func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) ResetF
 	)
 }
 
-func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := q.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

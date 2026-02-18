@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsLbHealthCheckLogsList) validateGetParameters(index *fl
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLbHealthCheckLogsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLbHealthCheckLogsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsLbHealthCheckLogsList) validateSetTerraformAttributePa
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLbHealthCheckLogsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLbHealthCheckLogsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsLbHealthCheckLogsList) validateSetWrapsSetParameters(v
 	return nil
 }
 
-func validateNewDataAwsLbHealthCheckLogsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsLbHealthCheckLogsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

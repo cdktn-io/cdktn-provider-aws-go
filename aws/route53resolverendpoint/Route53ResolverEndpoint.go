@@ -5,19 +5,19 @@ package route53resolverendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/route53resolverendpoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/route53resolverendpoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/route53_resolver_endpoint aws_route53_resolver_endpoint}.
 type Route53ResolverEndpoint interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -36,9 +36,9 @@ type Route53ResolverEndpoint interface {
 	SetDirection(val *string)
 	DirectionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -50,9 +50,9 @@ type Route53ResolverEndpoint interface {
 	IpAddress() Route53ResolverEndpointIpAddressList
 	IpAddressInput() interface{}
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -62,9 +62,9 @@ type Route53ResolverEndpoint interface {
 	SetProtocols(val *[]*string)
 	ProtocolsInput() *[]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -93,7 +93,7 @@ type Route53ResolverEndpoint interface {
 	SetTargetNameServerMetricsEnabled(val interface{})
 	TargetNameServerMetricsEnabledInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -108,7 +108,7 @@ type Route53ResolverEndpoint interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -126,9 +126,9 @@ type Route53ResolverEndpoint interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -173,7 +173,7 @@ type Route53ResolverEndpoint interface {
 
 // The jsii proxy struct for Route53ResolverEndpoint
 type jsiiProxy_Route53ResolverEndpoint struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_Route53ResolverEndpoint) Arn() *string {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_Route53ResolverEndpoint) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Route53ResolverEndpoint) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_Route53ResolverEndpoint) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -256,8 +256,8 @@ func (j *jsiiProxy_Route53ResolverEndpoint) DirectionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Route53ResolverEndpoint) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_Route53ResolverEndpoint) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -336,8 +336,8 @@ func (j *jsiiProxy_Route53ResolverEndpoint) IpAddressInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_Route53ResolverEndpoint) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_Route53ResolverEndpoint) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -396,8 +396,8 @@ func (j *jsiiProxy_Route53ResolverEndpoint) ProtocolsInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_Route53ResolverEndpoint) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_Route53ResolverEndpoint) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -566,8 +566,8 @@ func (j *jsiiProxy_Route53ResolverEndpoint) TargetNameServerMetricsEnabledInput(
 	return returns
 }
 
-func (j *jsiiProxy_Route53ResolverEndpoint) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_Route53ResolverEndpoint) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -687,7 +687,7 @@ func (j *jsiiProxy_Route53ResolverEndpoint)SetDirection(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Route53ResolverEndpoint)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_Route53ResolverEndpoint)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -706,7 +706,7 @@ func (j *jsiiProxy_Route53ResolverEndpoint)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Route53ResolverEndpoint)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_Route53ResolverEndpoint)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -739,7 +739,7 @@ func (j *jsiiProxy_Route53ResolverEndpoint)SetProtocols(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_Route53ResolverEndpoint)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_Route53ResolverEndpoint)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -835,14 +835,14 @@ func (j *jsiiProxy_Route53ResolverEndpoint)SetTargetNameServerMetricsEnabled(val
 	)
 }
 
-// Generates CDKTF code for importing a Route53ResolverEndpoint resource upon running "cdktf plan <stack-name>".
-func Route53ResolverEndpoint_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a Route53ResolverEndpoint resource upon running "cdktn plan <stack-name>".
+func Route53ResolverEndpoint_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateRoute53ResolverEndpoint_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.route53ResolverEndpoint.Route53ResolverEndpoint",
@@ -976,11 +976,11 @@ func (r *jsiiProxy_Route53ResolverEndpoint) GetAnyMapAttribute(terraformAttribut
 	return returns
 }
 
-func (r *jsiiProxy_Route53ResolverEndpoint) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_Route53ResolverEndpoint) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -1117,7 +1117,7 @@ func (r *jsiiProxy_Route53ResolverEndpoint) HasResourceMove() interface{} {
 	return returns
 }
 
-func (r *jsiiProxy_Route53ResolverEndpoint) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (r *jsiiProxy_Route53ResolverEndpoint) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := r.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1128,11 +1128,11 @@ func (r *jsiiProxy_Route53ResolverEndpoint) ImportFrom(id *string, provider cdkt
 	)
 }
 
-func (r *jsiiProxy_Route53ResolverEndpoint) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_Route53ResolverEndpoint) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,

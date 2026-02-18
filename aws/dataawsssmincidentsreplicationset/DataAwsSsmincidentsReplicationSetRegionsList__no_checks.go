@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsSsmincidentsReplicationSetRegionsList) validateGetPara
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsSsmincidentsReplicationSetRegionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsSsmincidentsReplicationSetRegionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsSsmincidentsReplicationSetRegionsList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSsmincidentsReplicationSetRegionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsSsmincidentsReplicationSetRegionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsSsmincidentsReplicationSetRegionsList) validateSetWrap
 	return nil
 }
 
-func validateNewDataAwsSsmincidentsReplicationSetRegionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsSsmincidentsReplicationSetRegionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

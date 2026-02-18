@@ -47,7 +47,7 @@ func (s *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) validat
 	return nil
 }
 
-func (s *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SesEventDestinationKinesisDestinationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSesEventDestinationKinesisDestinationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSesEventDestinationKinesisDestinationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

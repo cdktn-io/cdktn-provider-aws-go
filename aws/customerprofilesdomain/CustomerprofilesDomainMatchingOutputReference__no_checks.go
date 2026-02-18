@@ -59,7 +59,7 @@ func (c *jsiiProxy_CustomerprofilesDomainMatchingOutputReference) validatePutJob
 	return nil
 }
 
-func (c *jsiiProxy_CustomerprofilesDomainMatchingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CustomerprofilesDomainMatchingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_CustomerprofilesDomainMatchingOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_CustomerprofilesDomainMatchingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CustomerprofilesDomainMatchingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCustomerprofilesDomainMatchingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCustomerprofilesDomainMatchingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,15 +5,15 @@ package dataawsalblistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsalblistener/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsalblistener/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference interface {
-	cdktf.ComplexObject
-	AuthenticationRequestExtraParams() cdktf.StringMap
+	cdktn.ComplexObject
+	AuthenticationRequestExtraParams() cdktn.StringMap
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,9 +42,9 @@ type DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference interface
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UserPoolArn() *string
 	UserPoolClientId() *string
 	UserPoolDomain() *string
@@ -53,7 +53,7 @@ type DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference interface
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,12 +69,12 @@ type DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference interface
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,11 +84,11 @@ type DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference interface
 
 // The jsii proxy struct for DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference
 type jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
-func (j *jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference) AuthenticationRequestExtraParams() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference) AuthenticationRequestExtraParams() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"authenticationRequestExtraParams",
@@ -197,8 +197,8 @@ func (j *jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputRefer
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -238,7 +238,7 @@ func (j *jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputRefer
 }
 
 
-func NewDataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference {
+func NewDataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -255,7 +255,7 @@ func NewDataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference(terraf
 	return &j
 }
 
-func NewDataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference_Override(d DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference_Override(d DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -309,7 +309,7 @@ func (j *jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputRefer
 	)
 }
 
-func (j *jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -349,11 +349,11 @@ func (d *jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputRefer
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -477,8 +477,8 @@ func (d *jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputRefer
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -490,11 +490,11 @@ func (d *jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputRefer
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -506,7 +506,7 @@ func (d *jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputRefer
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateCognitoOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

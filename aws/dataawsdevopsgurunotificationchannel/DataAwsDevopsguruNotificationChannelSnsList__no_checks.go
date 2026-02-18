@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsDevopsguruNotificationChannelSnsList) validateGetParam
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsDevopsguruNotificationChannelSnsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsDevopsguruNotificationChannelSnsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsDevopsguruNotificationChannelSnsList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDevopsguruNotificationChannelSnsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsDevopsguruNotificationChannelSnsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsDevopsguruNotificationChannelSnsList) validateSetWraps
 	return nil
 }
 
-func validateNewDataAwsDevopsguruNotificationChannelSnsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsDevopsguruNotificationChannelSnsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

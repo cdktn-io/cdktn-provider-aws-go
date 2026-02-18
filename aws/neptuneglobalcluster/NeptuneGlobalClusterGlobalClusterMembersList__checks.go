@@ -8,7 +8,7 @@ package neptuneglobalcluster
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (n *jsiiProxy_NeptuneGlobalClusterGlobalClusterMembersList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (n *jsiiProxy_NeptuneGlobalClusterGlobalClusterMembersList) validateGetPara
 	return nil
 }
 
-func (n *jsiiProxy_NeptuneGlobalClusterGlobalClusterMembersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NeptuneGlobalClusterGlobalClusterMembersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_NeptuneGlobalClusterGlobalClusterMembersList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_NeptuneGlobalClusterGlobalClusterMembersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NeptuneGlobalClusterGlobalClusterMembersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_NeptuneGlobalClusterGlobalClusterMembersList) validateSetWrap
 	return nil
 }
 
-func validateNewNeptuneGlobalClusterGlobalClusterMembersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNeptuneGlobalClusterGlobalClusterMembersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

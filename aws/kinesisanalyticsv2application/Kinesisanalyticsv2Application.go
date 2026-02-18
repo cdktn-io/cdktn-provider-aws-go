@@ -5,16 +5,16 @@ package kinesisanalyticsv2application
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/kinesisanalyticsv2application/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/kinesisanalyticsv2application/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/kinesisanalyticsv2_application aws_kinesisanalyticsv2_application}.
 type Kinesisanalyticsv2Application interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApplicationConfiguration() Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference
 	ApplicationConfigurationInput() *Kinesisanalyticsv2ApplicationApplicationConfiguration
 	ApplicationMode() *string
@@ -22,7 +22,7 @@ type Kinesisanalyticsv2Application interface {
 	ApplicationModeInput() *string
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CloudwatchLoggingOptions() Kinesisanalyticsv2ApplicationCloudwatchLoggingOptionsOutputReference
 	CloudwatchLoggingOptionsInput() *Kinesisanalyticsv2ApplicationCloudwatchLoggingOptions
 	// Experimental.
@@ -47,9 +47,9 @@ type Kinesisanalyticsv2Application interface {
 	SetForceStop(val interface{})
 	ForceStopInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -59,18 +59,18 @@ type Kinesisanalyticsv2Application interface {
 	IdInput() *string
 	LastUpdateTimestamp() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -97,7 +97,7 @@ type Kinesisanalyticsv2Application interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -113,7 +113,7 @@ type Kinesisanalyticsv2Application interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -131,9 +131,9 @@ type Kinesisanalyticsv2Application interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -180,7 +180,7 @@ type Kinesisanalyticsv2Application interface {
 
 // The jsii proxy struct for Kinesisanalyticsv2Application
 type jsiiProxy_Kinesisanalyticsv2Application struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_Kinesisanalyticsv2Application) ApplicationConfiguration() Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference {
@@ -233,8 +233,8 @@ func (j *jsiiProxy_Kinesisanalyticsv2Application) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Kinesisanalyticsv2Application) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_Kinesisanalyticsv2Application) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -353,8 +353,8 @@ func (j *jsiiProxy_Kinesisanalyticsv2Application) ForceStopInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_Kinesisanalyticsv2Application) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_Kinesisanalyticsv2Application) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -413,8 +413,8 @@ func (j *jsiiProxy_Kinesisanalyticsv2Application) LastUpdateTimestamp() *string 
 	return returns
 }
 
-func (j *jsiiProxy_Kinesisanalyticsv2Application) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_Kinesisanalyticsv2Application) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -453,8 +453,8 @@ func (j *jsiiProxy_Kinesisanalyticsv2Application) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_Kinesisanalyticsv2Application) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_Kinesisanalyticsv2Application) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -613,8 +613,8 @@ func (j *jsiiProxy_Kinesisanalyticsv2Application) TagsInput() *map[string]*strin
 	return returns
 }
 
-func (j *jsiiProxy_Kinesisanalyticsv2Application) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_Kinesisanalyticsv2Application) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -766,7 +766,7 @@ func (j *jsiiProxy_Kinesisanalyticsv2Application)SetForceStop(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_Kinesisanalyticsv2Application)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_Kinesisanalyticsv2Application)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -785,7 +785,7 @@ func (j *jsiiProxy_Kinesisanalyticsv2Application)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Kinesisanalyticsv2Application)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_Kinesisanalyticsv2Application)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -807,7 +807,7 @@ func (j *jsiiProxy_Kinesisanalyticsv2Application)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Kinesisanalyticsv2Application)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_Kinesisanalyticsv2Application)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -892,14 +892,14 @@ func (j *jsiiProxy_Kinesisanalyticsv2Application)SetTagsAll(val *map[string]*str
 	)
 }
 
-// Generates CDKTF code for importing a Kinesisanalyticsv2Application resource upon running "cdktf plan <stack-name>".
-func Kinesisanalyticsv2Application_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a Kinesisanalyticsv2Application resource upon running "cdktn plan <stack-name>".
+func Kinesisanalyticsv2Application_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateKinesisanalyticsv2Application_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.kinesisanalyticsv2Application.Kinesisanalyticsv2Application",
@@ -1033,11 +1033,11 @@ func (k *jsiiProxy_Kinesisanalyticsv2Application) GetAnyMapAttribute(terraformAt
 	return returns
 }
 
-func (k *jsiiProxy_Kinesisanalyticsv2Application) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_Kinesisanalyticsv2Application) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -1174,7 +1174,7 @@ func (k *jsiiProxy_Kinesisanalyticsv2Application) HasResourceMove() interface{} 
 	return returns
 }
 
-func (k *jsiiProxy_Kinesisanalyticsv2Application) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (k *jsiiProxy_Kinesisanalyticsv2Application) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := k.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1185,11 +1185,11 @@ func (k *jsiiProxy_Kinesisanalyticsv2Application) ImportFrom(id *string, provide
 	)
 }
 
-func (k *jsiiProxy_Kinesisanalyticsv2Application) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_Kinesisanalyticsv2Application) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,

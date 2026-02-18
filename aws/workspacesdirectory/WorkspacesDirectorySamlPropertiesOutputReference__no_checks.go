@@ -47,7 +47,7 @@ func (w *jsiiProxy_WorkspacesDirectorySamlPropertiesOutputReference) validateInt
 	return nil
 }
 
-func (w *jsiiProxy_WorkspacesDirectorySamlPropertiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkspacesDirectorySamlPropertiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_WorkspacesDirectorySamlPropertiesOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_WorkspacesDirectorySamlPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkspacesDirectorySamlPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_WorkspacesDirectorySamlPropertiesOutputReference) validateSet
 	return nil
 }
 
-func validateNewWorkspacesDirectorySamlPropertiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWorkspacesDirectorySamlPropertiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

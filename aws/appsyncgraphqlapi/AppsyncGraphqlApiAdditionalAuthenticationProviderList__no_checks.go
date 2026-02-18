@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppsyncGraphqlApiAdditionalAuthenticationProviderList) valida
 	return nil
 }
 
-func (a *jsiiProxy_AppsyncGraphqlApiAdditionalAuthenticationProviderList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppsyncGraphqlApiAdditionalAuthenticationProviderList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppsyncGraphqlApiAdditionalAuthenticationProviderList) valida
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncGraphqlApiAdditionalAuthenticationProviderList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppsyncGraphqlApiAdditionalAuthenticationProviderList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppsyncGraphqlApiAdditionalAuthenticationProviderList) valida
 	return nil
 }
 
-func validateNewAppsyncGraphqlApiAdditionalAuthenticationProviderListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppsyncGraphqlApiAdditionalAuthenticationProviderListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

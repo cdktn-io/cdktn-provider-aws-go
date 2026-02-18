@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputRefere
 	return nil
 }
 
-func (a *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppstreamDirectoryConfigServiceAccountCredentialsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppstreamDirectoryConfigServiceAccountCredentialsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

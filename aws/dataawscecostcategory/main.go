@@ -65,7 +65,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategory{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
@@ -98,7 +98,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleInheritedValueList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -132,7 +132,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleInheritedValueOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -153,7 +153,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -189,7 +189,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -226,7 +226,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndAndCostCategoryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -261,7 +261,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndAndCostCategoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -286,7 +286,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndAndDimensionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -321,7 +321,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndAndDimensionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -342,7 +342,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndAndList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -377,7 +377,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndAndOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -402,7 +402,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndAndTagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -437,7 +437,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndAndTagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -462,7 +462,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndCostCategoryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -497,7 +497,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndCostCategoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -522,7 +522,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndDimensionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -557,7 +557,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndDimensionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -578,7 +578,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -607,7 +607,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndNotCostCategoryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -642,7 +642,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndNotCostCategoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -667,7 +667,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndNotDimensionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -702,7 +702,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndNotDimensionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -723,7 +723,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndNotList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -758,7 +758,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndNotOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -783,7 +783,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndNotTagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -818,7 +818,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndNotTagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -847,7 +847,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndOrCostCategoryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -882,7 +882,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndOrCostCategoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -907,7 +907,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndOrDimensionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -942,7 +942,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndOrDimensionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -963,7 +963,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndOrList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -998,7 +998,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndOrOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1023,7 +1023,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndOrTagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1058,7 +1058,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndOrTagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1096,7 +1096,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1121,7 +1121,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndTagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1156,7 +1156,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleAndTagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1181,7 +1181,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleCostCategoryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1216,7 +1216,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleCostCategoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1241,7 +1241,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleDimensionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1276,7 +1276,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleDimensionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1297,7 +1297,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1330,7 +1330,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotAndCostCategoryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1365,7 +1365,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotAndCostCategoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1390,7 +1390,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotAndDimensionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1425,7 +1425,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotAndDimensionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1446,7 +1446,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotAndList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1481,7 +1481,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotAndOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1506,7 +1506,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotAndTagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1541,7 +1541,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotAndTagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1566,7 +1566,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotCostCategoryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1601,7 +1601,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotCostCategoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1626,7 +1626,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotDimensionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1661,7 +1661,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotDimensionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1682,7 +1682,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1711,7 +1711,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotNotCostCategoryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1746,7 +1746,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotNotCostCategoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1771,7 +1771,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotNotDimensionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1806,7 +1806,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotNotDimensionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1827,7 +1827,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotNotList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1862,7 +1862,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotNotOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1887,7 +1887,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotNotTagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1922,7 +1922,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotNotTagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1951,7 +1951,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotOrCostCategoryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1986,7 +1986,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotOrCostCategoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2011,7 +2011,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotOrDimensionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2046,7 +2046,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotOrDimensionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2067,7 +2067,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotOrList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2102,7 +2102,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotOrOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2127,7 +2127,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotOrTagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2162,7 +2162,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotOrTagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2200,7 +2200,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2225,7 +2225,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotTagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2260,7 +2260,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotTagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2293,7 +2293,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrAndCostCategoryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2328,7 +2328,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrAndCostCategoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2353,7 +2353,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrAndDimensionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2388,7 +2388,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrAndDimensionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2409,7 +2409,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrAndList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2444,7 +2444,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrAndOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2469,7 +2469,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrAndTagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2504,7 +2504,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrAndTagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2529,7 +2529,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrCostCategoryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2564,7 +2564,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrCostCategoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2589,7 +2589,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrDimensionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2624,7 +2624,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrDimensionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2645,7 +2645,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2674,7 +2674,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrNotCostCategoryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2709,7 +2709,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrNotCostCategoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2734,7 +2734,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrNotDimensionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2769,7 +2769,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrNotDimensionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2790,7 +2790,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrNotList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2825,7 +2825,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrNotOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2850,7 +2850,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrNotTagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2885,7 +2885,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrNotTagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2914,7 +2914,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrOrCostCategoryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2949,7 +2949,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrOrCostCategoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2974,7 +2974,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrOrDimensionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3009,7 +3009,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrOrDimensionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3030,7 +3030,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrOrList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3065,7 +3065,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrOrOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3090,7 +3090,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrOrTagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3125,7 +3125,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrOrTagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3163,7 +3163,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3188,7 +3188,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrTagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3223,7 +3223,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrTagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3261,7 +3261,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3286,7 +3286,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleTagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3321,7 +3321,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategoryRuleRuleTagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3346,7 +3346,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategorySplitChargeRuleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3382,7 +3382,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategorySplitChargeRuleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3407,7 +3407,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategorySplitChargeRuleParameterList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3441,7 +3441,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCeCostCategorySplitChargeRuleParameterOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

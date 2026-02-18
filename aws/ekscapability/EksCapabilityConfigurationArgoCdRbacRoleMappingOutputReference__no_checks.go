@@ -51,7 +51,7 @@ func (e *jsiiProxy_EksCapabilityConfigurationArgoCdRbacRoleMappingOutputReferenc
 	return nil
 }
 
-func (e *jsiiProxy_EksCapabilityConfigurationArgoCdRbacRoleMappingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksCapabilityConfigurationArgoCdRbacRoleMappingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EksCapabilityConfigurationArgoCdRbacRoleMappingOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_EksCapabilityConfigurationArgoCdRbacRoleMappingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksCapabilityConfigurationArgoCdRbacRoleMappingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEksCapabilityConfigurationArgoCdRbacRoleMappingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEksCapabilityConfigurationArgoCdRbacRoleMappingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

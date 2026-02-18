@@ -115,7 +115,7 @@ func (j *jsiiProxy_VpcIpamScope) validateSetIpamIdParameters(val *string) error 
 	return nil
 }
 
-func (j *jsiiProxy_VpcIpamScope) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VpcIpamScope) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (e *jsiiProxy_ElasticacheReplicationGroupLogDeliveryConfigurationList) vali
 	return nil
 }
 
-func (e *jsiiProxy_ElasticacheReplicationGroupLogDeliveryConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticacheReplicationGroupLogDeliveryConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ElasticacheReplicationGroupLogDeliveryConfigurationList) vali
 	return nil
 }
 
-func (j *jsiiProxy_ElasticacheReplicationGroupLogDeliveryConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticacheReplicationGroupLogDeliveryConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ElasticacheReplicationGroupLogDeliveryConfigurationList) vali
 	return nil
 }
 
-func validateNewElasticacheReplicationGroupLogDeliveryConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewElasticacheReplicationGroupLogDeliveryConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

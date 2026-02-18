@@ -47,7 +47,7 @@ func (l *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedCookiesOut
 	return nil
 }
 
-func (l *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedCookiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedCookiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedCookiesOut
 	return nil
 }
 
-func (j *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedCookiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedCookiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLightsailDistributionCacheBehaviorSettingsForwardedCookiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLightsailDistributionCacheBehaviorSettingsForwardedCookiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

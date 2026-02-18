@@ -15,7 +15,7 @@ func (s *jsiiProxy_SecuritylakeSubscriberSourceCustomLogSourceResourceAttributes
 	return nil
 }
 
-func (s *jsiiProxy_SecuritylakeSubscriberSourceCustomLogSourceResourceAttributesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecuritylakeSubscriberSourceCustomLogSourceResourceAttributesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_SecuritylakeSubscriberSourceCustomLogSourceResourceAttributes
 	return nil
 }
 
-func (j *jsiiProxy_SecuritylakeSubscriberSourceCustomLogSourceResourceAttributesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecuritylakeSubscriberSourceCustomLogSourceResourceAttributesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_SecuritylakeSubscriberSourceCustomLogSourceResourceAttributes
 	return nil
 }
 
-func validateNewSecuritylakeSubscriberSourceCustomLogSourceResourceAttributesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSecuritylakeSubscriberSourceCustomLogSourceResourceAttributesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

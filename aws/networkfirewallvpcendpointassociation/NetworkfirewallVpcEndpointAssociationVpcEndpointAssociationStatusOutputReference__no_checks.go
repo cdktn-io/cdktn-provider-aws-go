@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkfirewallVpcEndpointAssociationVpcEndpointAssociationSt
 	return nil
 }
 
-func (n *jsiiProxy_NetworkfirewallVpcEndpointAssociationVpcEndpointAssociationStatusOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkfirewallVpcEndpointAssociationVpcEndpointAssociationStatusOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_NetworkfirewallVpcEndpointAssociationVpcEndpointAssociationSt
 	return nil
 }
 
-func (j *jsiiProxy_NetworkfirewallVpcEndpointAssociationVpcEndpointAssociationStatusOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkfirewallVpcEndpointAssociationVpcEndpointAssociationStatusOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkfirewallVpcEndpointAssociationVpcEndpointAssociationStatusOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetworkfirewallVpcEndpointAssociationVpcEndpointAssociationStatusOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

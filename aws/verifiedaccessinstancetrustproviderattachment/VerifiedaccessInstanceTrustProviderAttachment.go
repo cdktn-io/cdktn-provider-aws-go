@@ -5,18 +5,18 @@ package verifiedaccessinstancetrustproviderattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/verifiedaccessinstancetrustproviderattachment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/verifiedaccessinstancetrustproviderattachment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/verifiedaccess_instance_trust_provider_attachment aws_verifiedaccess_instance_trust_provider_attachment}.
 type VerifiedaccessInstanceTrustProviderAttachment interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type VerifiedaccessInstanceTrustProviderAttachment interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -43,15 +43,15 @@ type VerifiedaccessInstanceTrustProviderAttachment interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -62,7 +62,7 @@ type VerifiedaccessInstanceTrustProviderAttachment interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -81,7 +81,7 @@ type VerifiedaccessInstanceTrustProviderAttachment interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -99,9 +99,9 @@ type VerifiedaccessInstanceTrustProviderAttachment interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -136,11 +136,11 @@ type VerifiedaccessInstanceTrustProviderAttachment interface {
 
 // The jsii proxy struct for VerifiedaccessInstanceTrustProviderAttachment
 type jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -189,8 +189,8 @@ func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) DependsOn() *[
 	return returns
 }
 
-func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -239,8 +239,8 @@ func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) IdInput() *str
 	return returns
 }
 
-func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -259,8 +259,8 @@ func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) Node() constru
 	return returns
 }
 
-func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -309,8 +309,8 @@ func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) RegionInput() 
 	return returns
 }
 
-func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -439,7 +439,7 @@ func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment)SetDependsOn(va
 	)
 }
 
-func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -458,7 +458,7 @@ func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment)SetId(val *stri
 	)
 }
 
-func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -469,7 +469,7 @@ func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment)SetLifecycle(va
 	)
 }
 
-func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -521,14 +521,14 @@ func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment)SetVerifiedacce
 	)
 }
 
-// Generates CDKTF code for importing a VerifiedaccessInstanceTrustProviderAttachment resource upon running "cdktf plan <stack-name>".
-func VerifiedaccessInstanceTrustProviderAttachment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a VerifiedaccessInstanceTrustProviderAttachment resource upon running "cdktn plan <stack-name>".
+func VerifiedaccessInstanceTrustProviderAttachment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateVerifiedaccessInstanceTrustProviderAttachment_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.verifiedaccessInstanceTrustProviderAttachment.VerifiedaccessInstanceTrustProviderAttachment",
@@ -662,11 +662,11 @@ func (v *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) GetAnyMapAttri
 	return returns
 }
 
-func (v *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -803,7 +803,7 @@ func (v *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) HasResourceMov
 	return returns
 }
 
-func (v *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (v *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := v.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -814,11 +814,11 @@ func (v *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) ImportFrom(id 
 	)
 }
 
-func (v *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,

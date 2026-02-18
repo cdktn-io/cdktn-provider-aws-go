@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocumentStatementList
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocumentStatementList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocumentStatementList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocumentStatementList
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocumentStatementList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocumentStatementList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocumentStatementList
 	return nil
 }
 
-func validateNewDataAwsCloudwatchLogDataProtectionPolicyDocumentStatementListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsCloudwatchLogDataProtectionPolicyDocumentStatementListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

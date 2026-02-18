@@ -15,7 +15,7 @@ func (d *jsiiProxy_DevopsguruResourceCollectionCloudformationList) validateGetPa
 	return nil
 }
 
-func (d *jsiiProxy_DevopsguruResourceCollectionCloudformationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DevopsguruResourceCollectionCloudformationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DevopsguruResourceCollectionCloudformationList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DevopsguruResourceCollectionCloudformationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DevopsguruResourceCollectionCloudformationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DevopsguruResourceCollectionCloudformationList) validateSetWr
 	return nil
 }
 
-func validateNewDevopsguruResourceCollectionCloudformationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDevopsguruResourceCollectionCloudformationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

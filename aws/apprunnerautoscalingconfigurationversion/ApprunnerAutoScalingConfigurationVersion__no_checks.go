@@ -107,7 +107,7 @@ func (j *jsiiProxy_ApprunnerAutoScalingConfigurationVersion) validateSetIdParame
 	return nil
 }
 
-func (j *jsiiProxy_ApprunnerAutoScalingConfigurationVersion) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApprunnerAutoScalingConfigurationVersion) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

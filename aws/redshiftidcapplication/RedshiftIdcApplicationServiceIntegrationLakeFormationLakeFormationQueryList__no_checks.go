@@ -15,7 +15,7 @@ func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationLakeFormationLakeForm
 	return nil
 }
 
-func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQueryList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQueryList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationLakeFormationLakeForm
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQueryList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQueryList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationLakeFormationLakeForm
 	return nil
 }
 
-func validateNewRedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQueryListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQueryListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

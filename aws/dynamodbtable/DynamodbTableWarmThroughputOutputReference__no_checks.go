@@ -47,7 +47,7 @@ func (d *jsiiProxy_DynamodbTableWarmThroughputOutputReference) validateInterpola
 	return nil
 }
 
-func (d *jsiiProxy_DynamodbTableWarmThroughputOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DynamodbTableWarmThroughputOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DynamodbTableWarmThroughputOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DynamodbTableWarmThroughputOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DynamodbTableWarmThroughputOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DynamodbTableWarmThroughputOutputReference) validateSetWriteU
 	return nil
 }
 
-func validateNewDynamodbTableWarmThroughputOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDynamodbTableWarmThroughputOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverQueryLogConfig) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRoute53ResolverQueryLogConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsRoute53ResolverQueryLogConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

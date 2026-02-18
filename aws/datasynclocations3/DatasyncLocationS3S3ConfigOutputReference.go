@@ -5,14 +5,14 @@ package datasynclocations3
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/datasynclocations3/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/datasynclocations3/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DatasyncLocationS3S3ConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BucketAccessRoleArn() *string
 	SetBucketAccessRoleArn(val *string)
 	BucketAccessRoleArnInput() *string
@@ -40,15 +40,15 @@ type DatasyncLocationS3S3ConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type DatasyncLocationS3S3ConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type DatasyncLocationS3S3ConfigOutputReference interface {
 
 // The jsii proxy struct for DatasyncLocationS3S3ConfigOutputReference
 type jsiiProxy_DatasyncLocationS3S3ConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DatasyncLocationS3S3ConfigOutputReference) BucketAccessRoleArn() *string {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_DatasyncLocationS3S3ConfigOutputReference) TerraformAttribute
 	return returns
 }
 
-func (j *jsiiProxy_DatasyncLocationS3S3ConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DatasyncLocationS3S3ConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_DatasyncLocationS3S3ConfigOutputReference) TerraformResource(
 }
 
 
-func NewDatasyncLocationS3S3ConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DatasyncLocationS3S3ConfigOutputReference {
+func NewDatasyncLocationS3S3ConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DatasyncLocationS3S3ConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDatasyncLocationS3S3ConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewDatasyncLocationS3S3ConfigOutputReference(terraformResource cdktf.IInter
 	return &j
 }
 
-func NewDatasyncLocationS3S3ConfigOutputReference_Override(d DatasyncLocationS3S3ConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDatasyncLocationS3S3ConfigOutputReference_Override(d DatasyncLocationS3S3ConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_DatasyncLocationS3S3ConfigOutputReference)SetTerraformAttribu
 	)
 }
 
-func (j *jsiiProxy_DatasyncLocationS3S3ConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DatasyncLocationS3S3ConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (d *jsiiProxy_DatasyncLocationS3S3ConfigOutputReference) GetAnyMapAttribute
 	return returns
 }
 
-func (d *jsiiProxy_DatasyncLocationS3S3ConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatasyncLocationS3S3ConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -423,8 +423,8 @@ func (d *jsiiProxy_DatasyncLocationS3S3ConfigOutputReference) GetStringMapAttrib
 	return returns
 }
 
-func (d *jsiiProxy_DatasyncLocationS3S3ConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DatasyncLocationS3S3ConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -436,11 +436,11 @@ func (d *jsiiProxy_DatasyncLocationS3S3ConfigOutputReference) InterpolationAsLis
 	return returns
 }
 
-func (d *jsiiProxy_DatasyncLocationS3S3ConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatasyncLocationS3S3ConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -452,7 +452,7 @@ func (d *jsiiProxy_DatasyncLocationS3S3ConfigOutputReference) InterpolationForAt
 	return returns
 }
 
-func (d *jsiiProxy_DatasyncLocationS3S3ConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DatasyncLocationS3S3ConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

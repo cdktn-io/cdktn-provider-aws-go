@@ -51,7 +51,7 @@ func (w *jsiiProxy_Wafv2RuleGroupRuleActionCaptchaCustomRequestHandlingOutputRef
 	return nil
 }
 
-func (w *jsiiProxy_Wafv2RuleGroupRuleActionCaptchaCustomRequestHandlingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_Wafv2RuleGroupRuleActionCaptchaCustomRequestHandlingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_Wafv2RuleGroupRuleActionCaptchaCustomRequestHandlingOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_Wafv2RuleGroupRuleActionCaptchaCustomRequestHandlingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Wafv2RuleGroupRuleActionCaptchaCustomRequestHandlingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWafv2RuleGroupRuleActionCaptchaCustomRequestHandlingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWafv2RuleGroupRuleActionCaptchaCustomRequestHandlingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package wafv2webacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/wafv2webacl/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/wafv2webacl/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Wafv2WebAclCaptchaConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type Wafv2WebAclCaptchaConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,14 +63,14 @@ type Wafv2WebAclCaptchaConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutImmunityTimeProperty(value *Wafv2WebAclCaptchaConfigImmunityTimeProperty)
 	ResetImmunityTimeProperty()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type Wafv2WebAclCaptchaConfigOutputReference interface {
 
 // The jsii proxy struct for Wafv2WebAclCaptchaConfigOutputReference
 type jsiiProxy_Wafv2WebAclCaptchaConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Wafv2WebAclCaptchaConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_Wafv2WebAclCaptchaConfigOutputReference) TerraformAttribute()
 	return returns
 }
 
-func (j *jsiiProxy_Wafv2WebAclCaptchaConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Wafv2WebAclCaptchaConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_Wafv2WebAclCaptchaConfigOutputReference) TerraformResource() 
 }
 
 
-func NewWafv2WebAclCaptchaConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) Wafv2WebAclCaptchaConfigOutputReference {
+func NewWafv2WebAclCaptchaConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) Wafv2WebAclCaptchaConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWafv2WebAclCaptchaConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewWafv2WebAclCaptchaConfigOutputReference(terraformResource cdktf.IInterpo
 	return &j
 }
 
-func NewWafv2WebAclCaptchaConfigOutputReference_Override(w Wafv2WebAclCaptchaConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewWafv2WebAclCaptchaConfigOutputReference_Override(w Wafv2WebAclCaptchaConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_Wafv2WebAclCaptchaConfigOutputReference)SetTerraformAttribute
 	)
 }
 
-func (j *jsiiProxy_Wafv2WebAclCaptchaConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Wafv2WebAclCaptchaConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -285,11 +285,11 @@ func (w *jsiiProxy_Wafv2WebAclCaptchaConfigOutputReference) GetAnyMapAttribute(t
 	return returns
 }
 
-func (w *jsiiProxy_Wafv2WebAclCaptchaConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_Wafv2WebAclCaptchaConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -413,8 +413,8 @@ func (w *jsiiProxy_Wafv2WebAclCaptchaConfigOutputReference) GetStringMapAttribut
 	return returns
 }
 
-func (w *jsiiProxy_Wafv2WebAclCaptchaConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_Wafv2WebAclCaptchaConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -426,11 +426,11 @@ func (w *jsiiProxy_Wafv2WebAclCaptchaConfigOutputReference) InterpolationAsList(
 	return returns
 }
 
-func (w *jsiiProxy_Wafv2WebAclCaptchaConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_Wafv2WebAclCaptchaConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -461,7 +461,7 @@ func (w *jsiiProxy_Wafv2WebAclCaptchaConfigOutputReference) ResetImmunityTimePro
 	)
 }
 
-func (w *jsiiProxy_Wafv2WebAclCaptchaConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_Wafv2WebAclCaptchaConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

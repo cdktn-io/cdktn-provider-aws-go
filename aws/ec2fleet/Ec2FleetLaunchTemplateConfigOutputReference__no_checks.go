@@ -55,7 +55,7 @@ func (e *jsiiProxy_Ec2FleetLaunchTemplateConfigOutputReference) validatePutOverr
 	return nil
 }
 
-func (e *jsiiProxy_Ec2FleetLaunchTemplateConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_Ec2FleetLaunchTemplateConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_Ec2FleetLaunchTemplateConfigOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_Ec2FleetLaunchTemplateConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Ec2FleetLaunchTemplateConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEc2FleetLaunchTemplateConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEc2FleetLaunchTemplateConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DefaultSecurityGroupIngressList) validateGetParameters(index 
 	return nil
 }
 
-func (d *jsiiProxy_DefaultSecurityGroupIngressList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DefaultSecurityGroupIngressList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DefaultSecurityGroupIngressList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_DefaultSecurityGroupIngressList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DefaultSecurityGroupIngressList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DefaultSecurityGroupIngressList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewDefaultSecurityGroupIngressListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDefaultSecurityGroupIngressListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

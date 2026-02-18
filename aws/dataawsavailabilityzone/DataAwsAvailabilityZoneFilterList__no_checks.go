@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsAvailabilityZoneFilterList) validateGetParameters(inde
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAvailabilityZoneFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAvailabilityZoneFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsAvailabilityZoneFilterList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAvailabilityZoneFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAvailabilityZoneFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsAvailabilityZoneFilterList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewDataAwsAvailabilityZoneFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsAvailabilityZoneFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

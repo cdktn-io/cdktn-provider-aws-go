@@ -51,7 +51,7 @@ func (t *jsiiProxy_TransferWebAppIdentityProviderDetailsOutputReference) validat
 	return nil
 }
 
-func (t *jsiiProxy_TransferWebAppIdentityProviderDetailsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TransferWebAppIdentityProviderDetailsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_TransferWebAppIdentityProviderDetailsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_TransferWebAppIdentityProviderDetailsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TransferWebAppIdentityProviderDetailsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTransferWebAppIdentityProviderDetailsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewTransferWebAppIdentityProviderDetailsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

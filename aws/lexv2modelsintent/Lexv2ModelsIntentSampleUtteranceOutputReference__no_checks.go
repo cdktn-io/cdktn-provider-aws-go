@@ -47,7 +47,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentSampleUtteranceOutputReference) validateInte
 	return nil
 }
 
-func (l *jsiiProxy_Lexv2ModelsIntentSampleUtteranceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_Lexv2ModelsIntentSampleUtteranceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_Lexv2ModelsIntentSampleUtteranceOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_Lexv2ModelsIntentSampleUtteranceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Lexv2ModelsIntentSampleUtteranceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_Lexv2ModelsIntentSampleUtteranceOutputReference) validateSetU
 	return nil
 }
 
-func validateNewLexv2ModelsIntentSampleUtteranceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLexv2ModelsIntentSampleUtteranceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

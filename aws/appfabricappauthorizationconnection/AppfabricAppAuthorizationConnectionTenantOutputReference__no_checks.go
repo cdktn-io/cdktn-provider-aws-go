@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppfabricAppAuthorizationConnectionTenantOutputReference) val
 	return nil
 }
 
-func (a *jsiiProxy_AppfabricAppAuthorizationConnectionTenantOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppfabricAppAuthorizationConnectionTenantOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_AppfabricAppAuthorizationConnectionTenantOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_AppfabricAppAuthorizationConnectionTenantOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppfabricAppAuthorizationConnectionTenantOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppfabricAppAuthorizationConnectionTenantOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppfabricAppAuthorizationConnectionTenantOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

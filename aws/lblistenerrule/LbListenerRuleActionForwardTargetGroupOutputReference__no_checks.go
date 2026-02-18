@@ -47,7 +47,7 @@ func (l *jsiiProxy_LbListenerRuleActionForwardTargetGroupOutputReference) valida
 	return nil
 }
 
-func (l *jsiiProxy_LbListenerRuleActionForwardTargetGroupOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LbListenerRuleActionForwardTargetGroupOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_LbListenerRuleActionForwardTargetGroupOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_LbListenerRuleActionForwardTargetGroupOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LbListenerRuleActionForwardTargetGroupOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LbListenerRuleActionForwardTargetGroupOutputReference) valida
 	return nil
 }
 
-func validateNewLbListenerRuleActionForwardTargetGroupOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLbListenerRuleActionForwardTargetGroupOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

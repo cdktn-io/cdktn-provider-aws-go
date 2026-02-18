@@ -15,7 +15,7 @@ func (b *jsiiProxy_BedrockGuardrailCrossRegionConfigList) validateGetParameters(
 	return nil
 }
 
-func (b *jsiiProxy_BedrockGuardrailCrossRegionConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockGuardrailCrossRegionConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BedrockGuardrailCrossRegionConfigList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_BedrockGuardrailCrossRegionConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockGuardrailCrossRegionConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BedrockGuardrailCrossRegionConfigList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewBedrockGuardrailCrossRegionConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockGuardrailCrossRegionConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

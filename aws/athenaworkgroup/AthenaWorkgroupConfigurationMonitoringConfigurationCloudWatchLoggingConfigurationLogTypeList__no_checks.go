@@ -15,7 +15,7 @@ func (a *jsiiProxy_AthenaWorkgroupConfigurationMonitoringConfigurationCloudWatch
 	return nil
 }
 
-func (a *jsiiProxy_AthenaWorkgroupConfigurationMonitoringConfigurationCloudWatchLoggingConfigurationLogTypeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AthenaWorkgroupConfigurationMonitoringConfigurationCloudWatchLoggingConfigurationLogTypeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AthenaWorkgroupConfigurationMonitoringConfigurationCloudWatch
 	return nil
 }
 
-func (j *jsiiProxy_AthenaWorkgroupConfigurationMonitoringConfigurationCloudWatchLoggingConfigurationLogTypeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AthenaWorkgroupConfigurationMonitoringConfigurationCloudWatchLoggingConfigurationLogTypeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AthenaWorkgroupConfigurationMonitoringConfigurationCloudWatch
 	return nil
 }
 
-func validateNewAthenaWorkgroupConfigurationMonitoringConfigurationCloudWatchLoggingConfigurationLogTypeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAthenaWorkgroupConfigurationMonitoringConfigurationCloudWatchLoggingConfigurationLogTypeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

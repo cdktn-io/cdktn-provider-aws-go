@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEc2TransitGatewayRouteTableRoutesFilterOutputReference
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEc2TransitGatewayRouteTableRoutesFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEc2TransitGatewayRouteTableRoutesFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTableRoutesFilterOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTableRoutesFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTableRoutesFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTableRoutesFilterOutputReference
 	return nil
 }
 
-func validateNewDataAwsEc2TransitGatewayRouteTableRoutesFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsEc2TransitGatewayRouteTableRoutesFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsOrganizationsPoliciesForTarget) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOrganizationsPoliciesForTarget) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsOrganizationsPoliciesForTarget) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

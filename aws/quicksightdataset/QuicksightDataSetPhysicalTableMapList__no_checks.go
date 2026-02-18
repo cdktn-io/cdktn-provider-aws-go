@@ -15,7 +15,7 @@ func (q *jsiiProxy_QuicksightDataSetPhysicalTableMapList) validateGetParameters(
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDataSetPhysicalTableMapList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDataSetPhysicalTableMapList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewQuicksightDataSetPhysicalTableMapListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewQuicksightDataSetPhysicalTableMapListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

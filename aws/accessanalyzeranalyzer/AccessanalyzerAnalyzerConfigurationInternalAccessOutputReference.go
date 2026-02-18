@@ -5,14 +5,14 @@ package accessanalyzeranalyzer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/accessanalyzeranalyzer/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/accessanalyzeranalyzer/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AnalysisRule() AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRuleOutputReference
 	AnalysisRuleInput() *AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRule
 	// the index of the complex object in a list.
@@ -39,15 +39,15 @@ type AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,14 +63,14 @@ type AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAnalysisRule(value *AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRule)
 	ResetAnalysisRule()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference interface 
 
 // The jsii proxy struct for AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference
 type jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference) AnalysisRule() AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRuleOutputReference {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputRefere
 }
 
 
-func NewAccessanalyzerAnalyzerConfigurationInternalAccessOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference {
+func NewAccessanalyzerAnalyzerConfigurationInternalAccessOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAccessanalyzerAnalyzerConfigurationInternalAccessOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewAccessanalyzerAnalyzerConfigurationInternalAccessOutputReference(terrafo
 	return &j
 }
 
-func NewAccessanalyzerAnalyzerConfigurationInternalAccessOutputReference_Override(a AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAccessanalyzerAnalyzerConfigurationInternalAccessOutputReference_Override(a AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputRefere
 	)
 }
 
-func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -285,11 +285,11 @@ func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputRefere
 	return returns
 }
 
-func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -413,8 +413,8 @@ func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputRefere
 	return returns
 }
 
-func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -426,11 +426,11 @@ func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputRefere
 	return returns
 }
 
-func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -461,7 +461,7 @@ func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputRefere
 	)
 }
 
-func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

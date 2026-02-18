@@ -47,7 +47,7 @@ func (a *jsiiProxy_AthenaCapacityReservationTimeoutsOutputReference) validateInt
 	return nil
 }
 
-func (a *jsiiProxy_AthenaCapacityReservationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AthenaCapacityReservationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_AthenaCapacityReservationTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_AthenaCapacityReservationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AthenaCapacityReservationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_AthenaCapacityReservationTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func validateNewAthenaCapacityReservationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAthenaCapacityReservationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

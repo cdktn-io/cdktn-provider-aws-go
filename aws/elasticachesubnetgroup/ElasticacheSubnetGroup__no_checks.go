@@ -107,7 +107,7 @@ func (j *jsiiProxy_ElasticacheSubnetGroup) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_ElasticacheSubnetGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ElasticacheSubnetGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

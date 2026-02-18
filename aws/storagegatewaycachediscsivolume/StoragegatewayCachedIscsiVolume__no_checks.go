@@ -115,7 +115,7 @@ func (j *jsiiProxy_StoragegatewayCachedIscsiVolume) validateSetKmsKeyParameters(
 	return nil
 }
 
-func (j *jsiiProxy_StoragegatewayCachedIscsiVolume) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StoragegatewayCachedIscsiVolume) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

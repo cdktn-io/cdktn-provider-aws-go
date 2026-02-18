@@ -15,7 +15,7 @@ func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationList) validateGetParameter
 	return nil
 }
 
-func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewSpotFleetRequestLaunchSpecificationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSpotFleetRequestLaunchSpecificationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

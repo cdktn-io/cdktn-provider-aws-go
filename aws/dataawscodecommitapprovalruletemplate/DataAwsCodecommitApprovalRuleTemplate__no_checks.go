@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsCodecommitApprovalRuleTemplate) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCodecommitApprovalRuleTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsCodecommitApprovalRuleTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

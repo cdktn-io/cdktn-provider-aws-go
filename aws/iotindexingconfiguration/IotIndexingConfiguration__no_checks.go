@@ -111,7 +111,7 @@ func (j *jsiiProxy_IotIndexingConfiguration) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_IotIndexingConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IotIndexingConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

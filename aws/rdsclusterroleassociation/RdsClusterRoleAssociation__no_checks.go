@@ -115,7 +115,7 @@ func (j *jsiiProxy_RdsClusterRoleAssociation) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_RdsClusterRoleAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RdsClusterRoleAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

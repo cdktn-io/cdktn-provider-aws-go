@@ -15,7 +15,7 @@ func (f *jsiiProxy_FinspaceKxClusterCacheStorageConfigurationsList) validateGetP
 	return nil
 }
 
-func (f *jsiiProxy_FinspaceKxClusterCacheStorageConfigurationsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FinspaceKxClusterCacheStorageConfigurationsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_FinspaceKxClusterCacheStorageConfigurationsList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_FinspaceKxClusterCacheStorageConfigurationsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FinspaceKxClusterCacheStorageConfigurationsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_FinspaceKxClusterCacheStorageConfigurationsList) validateSetW
 	return nil
 }
 
-func validateNewFinspaceKxClusterCacheStorageConfigurationsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFinspaceKxClusterCacheStorageConfigurationsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

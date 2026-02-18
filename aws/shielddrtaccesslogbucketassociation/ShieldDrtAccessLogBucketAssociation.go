@@ -5,18 +5,18 @@ package shielddrtaccesslogbucketassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/shielddrtaccesslogbucketassociation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/shielddrtaccesslogbucketassociation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/shield_drt_access_log_bucket_association aws_shield_drt_access_log_bucket_association}.
 type ShieldDrtAccessLogBucketAssociation interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -32,27 +32,27 @@ type ShieldDrtAccessLogBucketAssociation interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LogBucket() *string
 	SetLogBucket(val *string)
 	LogBucketInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -63,7 +63,7 @@ type ShieldDrtAccessLogBucketAssociation interface {
 	SetRoleArnAssociationId(val *string)
 	RoleArnAssociationIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -78,7 +78,7 @@ type ShieldDrtAccessLogBucketAssociation interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -96,9 +96,9 @@ type ShieldDrtAccessLogBucketAssociation interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -133,11 +133,11 @@ type ShieldDrtAccessLogBucketAssociation interface {
 
 // The jsii proxy struct for ShieldDrtAccessLogBucketAssociation
 type jsiiProxy_ShieldDrtAccessLogBucketAssociation struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -186,8 +186,8 @@ func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -226,8 +226,8 @@ func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation) Id() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -266,8 +266,8 @@ func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -316,8 +316,8 @@ func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation) RoleArnAssociationIdInpu
 	return returns
 }
 
-func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -426,7 +426,7 @@ func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation)SetDependsOn(val *[]*stri
 	)
 }
 
-func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -434,7 +434,7 @@ func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation)SetForEach(val cdktf.ITer
 	)
 }
 
-func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -456,7 +456,7 @@ func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation)SetLogBucket(val *string)
 	)
 }
 
-func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -486,14 +486,14 @@ func (j *jsiiProxy_ShieldDrtAccessLogBucketAssociation)SetRoleArnAssociationId(v
 	)
 }
 
-// Generates CDKTF code for importing a ShieldDrtAccessLogBucketAssociation resource upon running "cdktf plan <stack-name>".
-func ShieldDrtAccessLogBucketAssociation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ShieldDrtAccessLogBucketAssociation resource upon running "cdktn plan <stack-name>".
+func ShieldDrtAccessLogBucketAssociation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateShieldDrtAccessLogBucketAssociation_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.shieldDrtAccessLogBucketAssociation.ShieldDrtAccessLogBucketAssociation",
@@ -627,11 +627,11 @@ func (s *jsiiProxy_ShieldDrtAccessLogBucketAssociation) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (s *jsiiProxy_ShieldDrtAccessLogBucketAssociation) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ShieldDrtAccessLogBucketAssociation) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -768,7 +768,7 @@ func (s *jsiiProxy_ShieldDrtAccessLogBucketAssociation) HasResourceMove() interf
 	return returns
 }
 
-func (s *jsiiProxy_ShieldDrtAccessLogBucketAssociation) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_ShieldDrtAccessLogBucketAssociation) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -779,11 +779,11 @@ func (s *jsiiProxy_ShieldDrtAccessLogBucketAssociation) ImportFrom(id *string, p
 	)
 }
 
-func (s *jsiiProxy_ShieldDrtAccessLogBucketAssociation) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ShieldDrtAccessLogBucketAssociation) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

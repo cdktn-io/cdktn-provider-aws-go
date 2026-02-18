@@ -47,7 +47,7 @@ func (i *jsiiProxy_ImagebuilderImagePipelineLoggingConfigurationOutputReference)
 	return nil
 }
 
-func (i *jsiiProxy_ImagebuilderImagePipelineLoggingConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_ImagebuilderImagePipelineLoggingConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ImagebuilderImagePipelineLoggingConfigurationOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_ImagebuilderImagePipelineLoggingConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ImagebuilderImagePipelineLoggingConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewImagebuilderImagePipelineLoggingConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewImagebuilderImagePipelineLoggingConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

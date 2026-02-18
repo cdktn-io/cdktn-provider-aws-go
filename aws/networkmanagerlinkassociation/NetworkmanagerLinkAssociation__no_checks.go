@@ -115,7 +115,7 @@ func (j *jsiiProxy_NetworkmanagerLinkAssociation) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerLinkAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkmanagerLinkAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

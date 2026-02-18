@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (r *jsiiProxy_Route53DomainsDomainRegistrantContactExtraParamList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (r *jsiiProxy_Route53DomainsDomainRegistrantContactExtraParamList) validate
 	return nil
 }
 
-func (r *jsiiProxy_Route53DomainsDomainRegistrantContactExtraParamList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_Route53DomainsDomainRegistrantContactExtraParamList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (r *jsiiProxy_Route53DomainsDomainRegistrantContactExtraParamList) validate
 
 func (j *jsiiProxy_Route53DomainsDomainRegistrantContactExtraParamList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Route53DomainsDomainRegistrantContactExtraParam:
 		val := val.(*[]*Route53DomainsDomainRegistrantContactExtraParam)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_Route53DomainsDomainRegistrantContactExtraParamList) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*Route53DomainsDomainRegistrantContactExtraParam; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*Route53DomainsDomainRegistrantContactExtraParam; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_Route53DomainsDomainRegistrantContactExtraParamList) validate
 	return nil
 }
 
-func (j *jsiiProxy_Route53DomainsDomainRegistrantContactExtraParamList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Route53DomainsDomainRegistrantContactExtraParamList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_Route53DomainsDomainRegistrantContactExtraParamList) validate
 	return nil
 }
 
-func validateNewRoute53DomainsDomainRegistrantContactExtraParamListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRoute53DomainsDomainRegistrantContactExtraParamListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

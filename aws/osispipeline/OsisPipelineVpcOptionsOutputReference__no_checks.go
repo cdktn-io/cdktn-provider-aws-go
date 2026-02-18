@@ -47,7 +47,7 @@ func (o *jsiiProxy_OsisPipelineVpcOptionsOutputReference) validateInterpolationF
 	return nil
 }
 
-func (o *jsiiProxy_OsisPipelineVpcOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OsisPipelineVpcOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_OsisPipelineVpcOptionsOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_OsisPipelineVpcOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OsisPipelineVpcOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_OsisPipelineVpcOptionsOutputReference) validateSetVpcEndpoint
 	return nil
 }
 
-func validateNewOsisPipelineVpcOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOsisPipelineVpcOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

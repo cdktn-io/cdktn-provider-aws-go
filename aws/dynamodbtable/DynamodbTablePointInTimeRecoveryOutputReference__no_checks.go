@@ -47,7 +47,7 @@ func (d *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) validateInte
 	return nil
 }
 
-func (d *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDynamodbTablePointInTimeRecoveryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDynamodbTablePointInTimeRecoveryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsConnectQuickConnect) validateSetInstanceIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsConnectQuickConnect) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsConnectQuickConnect) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

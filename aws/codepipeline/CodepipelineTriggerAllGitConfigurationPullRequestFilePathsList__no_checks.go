@@ -15,7 +15,7 @@ func (c *jsiiProxy_CodepipelineTriggerAllGitConfigurationPullRequestFilePathsLis
 	return nil
 }
 
-func (c *jsiiProxy_CodepipelineTriggerAllGitConfigurationPullRequestFilePathsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodepipelineTriggerAllGitConfigurationPullRequestFilePathsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_CodepipelineTriggerAllGitConfigurationPullRequestFilePathsLis
 	return nil
 }
 
-func (j *jsiiProxy_CodepipelineTriggerAllGitConfigurationPullRequestFilePathsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodepipelineTriggerAllGitConfigurationPullRequestFilePathsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_CodepipelineTriggerAllGitConfigurationPullRequestFilePathsLis
 	return nil
 }
 
-func validateNewCodepipelineTriggerAllGitConfigurationPullRequestFilePathsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCodepipelineTriggerAllGitConfigurationPullRequestFilePathsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SagemakerModelPrimaryContainerImageConfigRepositoryAuthConfig
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerModelPrimaryContainerImageConfigRepositoryAuthConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerModelPrimaryContainerImageConfigRepositoryAuthConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SagemakerModelPrimaryContainerImageConfigRepositoryAuthConfig
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerModelPrimaryContainerImageConfigRepositoryAuthConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerModelPrimaryContainerImageConfigRepositoryAuthConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerModelPrimaryContainerImageConfigRepositoryAuthConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerModelPrimaryContainerImageConfigRepositoryAuthConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

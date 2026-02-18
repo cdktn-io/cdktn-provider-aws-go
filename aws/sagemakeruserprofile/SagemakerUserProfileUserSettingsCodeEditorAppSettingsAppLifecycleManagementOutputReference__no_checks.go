@@ -51,7 +51,7 @@ func (s *jsiiProxy_SagemakerUserProfileUserSettingsCodeEditorAppSettingsAppLifec
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerUserProfileUserSettingsCodeEditorAppSettingsAppLifecycleManagementOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerUserProfileUserSettingsCodeEditorAppSettingsAppLifecycleManagementOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SagemakerUserProfileUserSettingsCodeEditorAppSettingsAppLifec
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerUserProfileUserSettingsCodeEditorAppSettingsAppLifecycleManagementOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerUserProfileUserSettingsCodeEditorAppSettingsAppLifecycleManagementOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerUserProfileUserSettingsCodeEditorAppSettingsAppLifecycleManagementOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerUserProfileUserSettingsCodeEditorAppSettingsAppLifecycleManagementOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

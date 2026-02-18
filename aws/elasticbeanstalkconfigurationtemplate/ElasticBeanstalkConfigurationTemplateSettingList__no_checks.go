@@ -15,7 +15,7 @@ func (e *jsiiProxy_ElasticBeanstalkConfigurationTemplateSettingList) validateGet
 	return nil
 }
 
-func (e *jsiiProxy_ElasticBeanstalkConfigurationTemplateSettingList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticBeanstalkConfigurationTemplateSettingList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ElasticBeanstalkConfigurationTemplateSettingList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ElasticBeanstalkConfigurationTemplateSettingList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticBeanstalkConfigurationTemplateSettingList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ElasticBeanstalkConfigurationTemplateSettingList) validateSet
 	return nil
 }
 
-func validateNewElasticBeanstalkConfigurationTemplateSettingListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewElasticBeanstalkConfigurationTemplateSettingListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

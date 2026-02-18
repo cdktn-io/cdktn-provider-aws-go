@@ -167,7 +167,7 @@ func (j *jsiiProxy_Subnet) validateSetIpv6NetmaskLengthParameters(val *float64) 
 	return nil
 }
 
-func (j *jsiiProxy_Subnet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Subnet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

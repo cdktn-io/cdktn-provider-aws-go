@@ -5,21 +5,21 @@ package s3bucketnotification
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/s3bucketnotification/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/s3bucketnotification/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/s3_bucket_notification aws_s3_bucket_notification}.
 type S3BucketNotification interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Bucket() *string
 	SetBucket(val *string)
 	BucketInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type S3BucketNotification interface {
 	SetEventbridge(val interface{})
 	EventbridgeInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -51,15 +51,15 @@ type S3BucketNotification interface {
 	LambdaFunction() S3BucketNotificationLambdaFunctionList
 	LambdaFunctionInput() interface{}
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -72,7 +72,7 @@ type S3BucketNotification interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -87,7 +87,7 @@ type S3BucketNotification interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -105,9 +105,9 @@ type S3BucketNotification interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -149,7 +149,7 @@ type S3BucketNotification interface {
 
 // The jsii proxy struct for S3BucketNotification
 type jsiiProxy_S3BucketNotification struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_S3BucketNotification) Bucket() *string {
@@ -172,8 +172,8 @@ func (j *jsiiProxy_S3BucketNotification) BucketInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_S3BucketNotification) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_S3BucketNotification) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -242,8 +242,8 @@ func (j *jsiiProxy_S3BucketNotification) EventbridgeInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_S3BucketNotification) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_S3BucketNotification) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -312,8 +312,8 @@ func (j *jsiiProxy_S3BucketNotification) LambdaFunctionInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_S3BucketNotification) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_S3BucketNotification) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -332,8 +332,8 @@ func (j *jsiiProxy_S3BucketNotification) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_S3BucketNotification) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_S3BucketNotification) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -402,8 +402,8 @@ func (j *jsiiProxy_S3BucketNotification) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_S3BucketNotification) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_S3BucketNotification) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -534,7 +534,7 @@ func (j *jsiiProxy_S3BucketNotification)SetEventbridge(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_S3BucketNotification)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_S3BucketNotification)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -553,7 +553,7 @@ func (j *jsiiProxy_S3BucketNotification)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_S3BucketNotification)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_S3BucketNotification)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -564,7 +564,7 @@ func (j *jsiiProxy_S3BucketNotification)SetLifecycle(val *cdktf.TerraformResourc
 	)
 }
 
-func (j *jsiiProxy_S3BucketNotification)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_S3BucketNotification)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -594,14 +594,14 @@ func (j *jsiiProxy_S3BucketNotification)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a S3BucketNotification resource upon running "cdktf plan <stack-name>".
-func S3BucketNotification_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a S3BucketNotification resource upon running "cdktn plan <stack-name>".
+func S3BucketNotification_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateS3BucketNotification_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.s3BucketNotification.S3BucketNotification",
@@ -735,11 +735,11 @@ func (s *jsiiProxy_S3BucketNotification) GetAnyMapAttribute(terraformAttribute *
 	return returns
 }
 
-func (s *jsiiProxy_S3BucketNotification) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_S3BucketNotification) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -876,7 +876,7 @@ func (s *jsiiProxy_S3BucketNotification) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_S3BucketNotification) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_S3BucketNotification) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -887,11 +887,11 @@ func (s *jsiiProxy_S3BucketNotification) ImportFrom(id *string, provider cdktf.T
 	)
 }
 
-func (s *jsiiProxy_S3BucketNotification) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_S3BucketNotification) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsKendraIndexIndexStatisticsTextDocumentStatisticsList) 
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsKendraIndexIndexStatisticsTextDocumentStatisticsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsKendraIndexIndexStatisticsTextDocumentStatisticsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsKendraIndexIndexStatisticsTextDocumentStatisticsList) 
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsKendraIndexIndexStatisticsTextDocumentStatisticsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsKendraIndexIndexStatisticsTextDocumentStatisticsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsKendraIndexIndexStatisticsTextDocumentStatisticsList) 
 	return nil
 }
 
-func validateNewDataAwsKendraIndexIndexStatisticsTextDocumentStatisticsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsKendraIndexIndexStatisticsTextDocumentStatisticsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

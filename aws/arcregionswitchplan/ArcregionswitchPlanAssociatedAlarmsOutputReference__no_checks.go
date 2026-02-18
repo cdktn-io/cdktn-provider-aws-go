@@ -47,7 +47,7 @@ func (a *jsiiProxy_ArcregionswitchPlanAssociatedAlarmsOutputReference) validateI
 	return nil
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanAssociatedAlarmsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcregionswitchPlanAssociatedAlarmsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_ArcregionswitchPlanAssociatedAlarmsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanAssociatedAlarmsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcregionswitchPlanAssociatedAlarmsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewArcregionswitchPlanAssociatedAlarmsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewArcregionswitchPlanAssociatedAlarmsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

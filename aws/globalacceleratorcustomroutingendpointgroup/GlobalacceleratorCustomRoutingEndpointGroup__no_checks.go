@@ -119,7 +119,7 @@ func (j *jsiiProxy_GlobalacceleratorCustomRoutingEndpointGroup) validateSetIdPar
 	return nil
 }
 
-func (j *jsiiProxy_GlobalacceleratorCustomRoutingEndpointGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GlobalacceleratorCustomRoutingEndpointGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

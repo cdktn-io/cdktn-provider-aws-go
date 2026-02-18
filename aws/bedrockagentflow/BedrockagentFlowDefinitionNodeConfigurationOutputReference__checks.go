@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BedrockagentFlowDefinitionNodeConfigurationAgent:
 		value := value.(*[]*BedrockagentFlowDefinitionNodeConfigurationAgent)
@@ -117,7 +117,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationAgent; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationAgent; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BedrockagentFlowDefinitionNodeConfigurationCollector:
 		value := value.(*[]*BedrockagentFlowDefinitionNodeConfigurationCollector)
@@ -148,7 +148,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationCollector; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationCollector; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BedrockagentFlowDefinitionNodeConfigurationCondition:
 		value := value.(*[]*BedrockagentFlowDefinitionNodeConfigurationCondition)
@@ -179,7 +179,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationCondition; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -191,7 +191,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BedrockagentFlowDefinitionNodeConfigurationInlineCode:
 		value := value.(*[]*BedrockagentFlowDefinitionNodeConfigurationInlineCode)
@@ -210,7 +210,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationInlineCode; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationInlineCode; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BedrockagentFlowDefinitionNodeConfigurationInput:
 		value := value.(*[]*BedrockagentFlowDefinitionNodeConfigurationInput)
@@ -241,7 +241,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationInput; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationInput; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -253,7 +253,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BedrockagentFlowDefinitionNodeConfigurationIterator:
 		value := value.(*[]*BedrockagentFlowDefinitionNodeConfigurationIterator)
@@ -272,7 +272,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationIterator; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationIterator; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -284,7 +284,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BedrockagentFlowDefinitionNodeConfigurationKnowledgeBase:
 		value := value.(*[]*BedrockagentFlowDefinitionNodeConfigurationKnowledgeBase)
@@ -303,7 +303,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationKnowledgeBase; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationKnowledgeBase; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -315,7 +315,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BedrockagentFlowDefinitionNodeConfigurationLambdaFunction:
 		value := value.(*[]*BedrockagentFlowDefinitionNodeConfigurationLambdaFunction)
@@ -334,7 +334,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationLambdaFunction; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationLambdaFunction; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -346,7 +346,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BedrockagentFlowDefinitionNodeConfigurationLex:
 		value := value.(*[]*BedrockagentFlowDefinitionNodeConfigurationLex)
@@ -365,7 +365,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationLex; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationLex; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -377,7 +377,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BedrockagentFlowDefinitionNodeConfigurationOutput:
 		value := value.(*[]*BedrockagentFlowDefinitionNodeConfigurationOutput)
@@ -396,7 +396,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationOutput; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationOutput; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -408,7 +408,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BedrockagentFlowDefinitionNodeConfigurationPrompt:
 		value := value.(*[]*BedrockagentFlowDefinitionNodeConfigurationPrompt)
@@ -427,7 +427,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationPrompt; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationPrompt; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -439,7 +439,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BedrockagentFlowDefinitionNodeConfigurationRetrieval:
 		value := value.(*[]*BedrockagentFlowDefinitionNodeConfigurationRetrieval)
@@ -458,7 +458,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationRetrieval; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationRetrieval; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -470,7 +470,7 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BedrockagentFlowDefinitionNodeConfigurationStorage:
 		value := value.(*[]*BedrockagentFlowDefinitionNodeConfigurationStorage)
@@ -489,14 +489,14 @@ func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationStorage; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentFlowDefinitionNodeConfigurationStorage; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -571,7 +571,7 @@ func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 
 func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *BedrockagentFlowDefinitionNodeConfiguration:
 		val := val.(*BedrockagentFlowDefinitionNodeConfiguration)
@@ -586,7 +586,7 @@ func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *BedrockagentFlowDefinitionNodeConfiguration; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *BedrockagentFlowDefinitionNodeConfiguration; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -601,7 +601,7 @@ func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -609,7 +609,7 @@ func (j *jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationOutputReference) v
 	return nil
 }
 
-func validateNewBedrockagentFlowDefinitionNodeConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBedrockagentFlowDefinitionNodeConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

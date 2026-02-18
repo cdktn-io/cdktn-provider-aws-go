@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (t *jsiiProxy_TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -115,7 +115,7 @@ func (t *jsiiProxy_TransferWorkflowStepsDecryptStepDetailsDestinationFileLocatio
 	return nil
 }
 
-func (t *jsiiProxy_TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -204,7 +204,7 @@ func (j *jsiiProxy_TransferWorkflowStepsDecryptStepDetailsDestinationFileLocatio
 	return nil
 }
 
-func (j *jsiiProxy_TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -212,7 +212,7 @@ func (j *jsiiProxy_TransferWorkflowStepsDecryptStepDetailsDestinationFileLocatio
 	return nil
 }
 
-func validateNewTransferWorkflowStepsDecryptStepDetailsDestinationFileLocationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTransferWorkflowStepsDecryptStepDetailsDestinationFileLocationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

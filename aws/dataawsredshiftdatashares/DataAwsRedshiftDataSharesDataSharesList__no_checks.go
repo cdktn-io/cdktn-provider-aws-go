@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsRedshiftDataSharesDataSharesList) validateGetParameter
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsRedshiftDataSharesDataSharesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsRedshiftDataSharesDataSharesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsRedshiftDataSharesDataSharesList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRedshiftDataSharesDataSharesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsRedshiftDataSharesDataSharesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsRedshiftDataSharesDataSharesList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewDataAwsRedshiftDataSharesDataSharesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsRedshiftDataSharesDataSharesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

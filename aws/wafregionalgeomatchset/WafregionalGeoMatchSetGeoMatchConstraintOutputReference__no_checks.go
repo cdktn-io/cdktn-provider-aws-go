@@ -47,7 +47,7 @@ func (w *jsiiProxy_WafregionalGeoMatchSetGeoMatchConstraintOutputReference) vali
 	return nil
 }
 
-func (w *jsiiProxy_WafregionalGeoMatchSetGeoMatchConstraintOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WafregionalGeoMatchSetGeoMatchConstraintOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_WafregionalGeoMatchSetGeoMatchConstraintOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_WafregionalGeoMatchSetGeoMatchConstraintOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WafregionalGeoMatchSetGeoMatchConstraintOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WafregionalGeoMatchSetGeoMatchConstraintOutputReference) vali
 	return nil
 }
 
-func validateNewWafregionalGeoMatchSetGeoMatchConstraintOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWafregionalGeoMatchSetGeoMatchConstraintOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

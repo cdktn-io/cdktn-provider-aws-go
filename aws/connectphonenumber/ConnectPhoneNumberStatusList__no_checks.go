@@ -15,7 +15,7 @@ func (c *jsiiProxy_ConnectPhoneNumberStatusList) validateGetParameters(index *fl
 	return nil
 }
 
-func (c *jsiiProxy_ConnectPhoneNumberStatusList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConnectPhoneNumberStatusList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_ConnectPhoneNumberStatusList) validateSetTerraformAttributePa
 	return nil
 }
 
-func (j *jsiiProxy_ConnectPhoneNumberStatusList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConnectPhoneNumberStatusList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_ConnectPhoneNumberStatusList) validateSetWrapsSetParameters(v
 	return nil
 }
 
-func validateNewConnectPhoneNumberStatusListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewConnectPhoneNumberStatusListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

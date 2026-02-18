@@ -135,7 +135,7 @@ func (j *jsiiProxy_WorkspaceswebUserSettings) validateSetIdleDisconnectTimeoutIn
 	return nil
 }
 
-func (j *jsiiProxy_WorkspaceswebUserSettings) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_WorkspaceswebUserSettings) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

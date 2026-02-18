@@ -15,7 +15,7 @@ func (s *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsRouting
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsRoutingConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsRoutingConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsRouting
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsRoutingConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsRoutingConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsRouting
 	return nil
 }
 
-func validateNewSagemakerEndpointConfigurationShadowProductionVariantsRoutingConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSagemakerEndpointConfigurationShadowProductionVariantsRoutingConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

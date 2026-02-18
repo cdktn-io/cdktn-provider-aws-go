@@ -47,7 +47,7 @@ func (b *jsiiProxy_BillingViewDataFilterExpressionTagsOutputReference) validateI
 	return nil
 }
 
-func (b *jsiiProxy_BillingViewDataFilterExpressionTagsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BillingViewDataFilterExpressionTagsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_BillingViewDataFilterExpressionTagsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_BillingViewDataFilterExpressionTagsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BillingViewDataFilterExpressionTagsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_BillingViewDataFilterExpressionTagsOutputReference) validateS
 	return nil
 }
 
-func validateNewBillingViewDataFilterExpressionTagsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBillingViewDataFilterExpressionTagsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

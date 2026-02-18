@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleDestinationEncrypt
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleDestinationEncryptionConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleDestinationEncryptionConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleDestinationEncrypt
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleDestinationEncryptionConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleDestinationEncryptionConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleDestinationEncrypt
 	return nil
 }
 
-func validateNewDataAwsS3BucketReplicationConfigurationRuleDestinationEncryptionConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsS3BucketReplicationConfigurationRuleDestinationEncryptionConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

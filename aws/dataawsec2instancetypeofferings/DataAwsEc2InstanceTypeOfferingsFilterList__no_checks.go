@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEc2InstanceTypeOfferingsFilterList) validateGetParamet
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEc2InstanceTypeOfferingsFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEc2InstanceTypeOfferingsFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsEc2InstanceTypeOfferingsFilterList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceTypeOfferingsFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEc2InstanceTypeOfferingsFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsEc2InstanceTypeOfferingsFilterList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewDataAwsEc2InstanceTypeOfferingsFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEc2InstanceTypeOfferingsFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

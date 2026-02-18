@@ -131,7 +131,7 @@ func (j *jsiiProxy_Ec2Host) validateSetInstanceTypeParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_Ec2Host) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Ec2Host) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

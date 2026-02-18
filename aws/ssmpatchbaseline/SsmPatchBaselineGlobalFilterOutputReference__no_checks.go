@@ -47,7 +47,7 @@ func (s *jsiiProxy_SsmPatchBaselineGlobalFilterOutputReference) validateInterpol
 	return nil
 }
 
-func (s *jsiiProxy_SsmPatchBaselineGlobalFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsmPatchBaselineGlobalFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_SsmPatchBaselineGlobalFilterOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_SsmPatchBaselineGlobalFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsmPatchBaselineGlobalFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SsmPatchBaselineGlobalFilterOutputReference) validateSetValue
 	return nil
 }
 
-func validateNewSsmPatchBaselineGlobalFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSsmPatchBaselineGlobalFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

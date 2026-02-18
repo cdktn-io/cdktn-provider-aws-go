@@ -47,7 +47,7 @@ func (c *jsiiProxy_CleanroomsCollaborationTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (c *jsiiProxy_CleanroomsCollaborationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CleanroomsCollaborationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_CleanroomsCollaborationTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_CleanroomsCollaborationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CleanroomsCollaborationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_CleanroomsCollaborationTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewCleanroomsCollaborationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCleanroomsCollaborationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (w *jsiiProxy_WafWebAclLoggingConfigurationRedactedFieldsFieldToMatchOutput
 	return nil
 }
 
-func (w *jsiiProxy_WafWebAclLoggingConfigurationRedactedFieldsFieldToMatchOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WafWebAclLoggingConfigurationRedactedFieldsFieldToMatchOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_WafWebAclLoggingConfigurationRedactedFieldsFieldToMatchOutput
 	return nil
 }
 
-func (j *jsiiProxy_WafWebAclLoggingConfigurationRedactedFieldsFieldToMatchOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WafWebAclLoggingConfigurationRedactedFieldsFieldToMatchOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WafWebAclLoggingConfigurationRedactedFieldsFieldToMatchOutput
 	return nil
 }
 
-func validateNewWafWebAclLoggingConfigurationRedactedFieldsFieldToMatchOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWafWebAclLoggingConfigurationRedactedFieldsFieldToMatchOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

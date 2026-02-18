@@ -99,7 +99,7 @@ func (j *jsiiProxy_DataAwsAmi) validateSetIncludeDeprecatedParameters(val interf
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAmi) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsAmi) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

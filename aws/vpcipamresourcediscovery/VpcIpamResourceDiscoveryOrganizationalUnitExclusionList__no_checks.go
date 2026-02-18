@@ -15,7 +15,7 @@ func (v *jsiiProxy_VpcIpamResourceDiscoveryOrganizationalUnitExclusionList) vali
 	return nil
 }
 
-func (v *jsiiProxy_VpcIpamResourceDiscoveryOrganizationalUnitExclusionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpcIpamResourceDiscoveryOrganizationalUnitExclusionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VpcIpamResourceDiscoveryOrganizationalUnitExclusionList) vali
 	return nil
 }
 
-func (j *jsiiProxy_VpcIpamResourceDiscoveryOrganizationalUnitExclusionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpcIpamResourceDiscoveryOrganizationalUnitExclusionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VpcIpamResourceDiscoveryOrganizationalUnitExclusionList) vali
 	return nil
 }
 
-func validateNewVpcIpamResourceDiscoveryOrganizationalUnitExclusionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVpcIpamResourceDiscoveryOrganizationalUnitExclusionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

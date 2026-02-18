@@ -95,7 +95,7 @@ func (j *jsiiProxy_DataAwsAmiIds) validateSetIncludeDeprecatedParameters(val int
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAmiIds) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsAmiIds) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

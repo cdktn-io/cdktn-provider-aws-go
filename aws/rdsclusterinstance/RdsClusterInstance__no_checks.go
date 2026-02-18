@@ -167,7 +167,7 @@ func (j *jsiiProxy_RdsClusterInstance) validateSetInstanceClassParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_RdsClusterInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RdsClusterInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRules) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRules) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRules) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

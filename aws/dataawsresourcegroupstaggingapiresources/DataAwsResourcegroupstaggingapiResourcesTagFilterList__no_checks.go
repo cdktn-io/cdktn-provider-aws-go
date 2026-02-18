@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsResourcegroupstaggingapiResourcesTagFilterList) valida
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsResourcegroupstaggingapiResourcesTagFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsResourcegroupstaggingapiResourcesTagFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsResourcegroupstaggingapiResourcesTagFilterList) valida
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsResourcegroupstaggingapiResourcesTagFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsResourcegroupstaggingapiResourcesTagFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsResourcegroupstaggingapiResourcesTagFilterList) valida
 	return nil
 }
 
-func validateNewDataAwsResourcegroupstaggingapiResourcesTagFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsResourcegroupstaggingapiResourcesTagFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

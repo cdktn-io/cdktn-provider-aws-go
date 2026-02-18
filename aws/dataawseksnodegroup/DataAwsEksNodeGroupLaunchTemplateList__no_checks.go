@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEksNodeGroupLaunchTemplateList) validateGetParameters(
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEksNodeGroupLaunchTemplateList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEksNodeGroupLaunchTemplateList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsEksNodeGroupLaunchTemplateList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEksNodeGroupLaunchTemplateList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEksNodeGroupLaunchTemplateList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsEksNodeGroupLaunchTemplateList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewDataAwsEksNodeGroupLaunchTemplateListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEksNodeGroupLaunchTemplateListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

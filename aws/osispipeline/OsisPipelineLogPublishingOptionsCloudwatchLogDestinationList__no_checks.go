@@ -15,7 +15,7 @@ func (o *jsiiProxy_OsisPipelineLogPublishingOptionsCloudwatchLogDestinationList)
 	return nil
 }
 
-func (o *jsiiProxy_OsisPipelineLogPublishingOptionsCloudwatchLogDestinationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OsisPipelineLogPublishingOptionsCloudwatchLogDestinationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_OsisPipelineLogPublishingOptionsCloudwatchLogDestinationList)
 	return nil
 }
 
-func (j *jsiiProxy_OsisPipelineLogPublishingOptionsCloudwatchLogDestinationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OsisPipelineLogPublishingOptionsCloudwatchLogDestinationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_OsisPipelineLogPublishingOptionsCloudwatchLogDestinationList)
 	return nil
 }
 
-func validateNewOsisPipelineLogPublishingOptionsCloudwatchLogDestinationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOsisPipelineLogPublishingOptionsCloudwatchLogDestinationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

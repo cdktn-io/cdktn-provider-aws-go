@@ -5,14 +5,14 @@ package codepipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/codepipeline/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/codepipeline/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CodepipelineTriggerAllGitConfigurationPushList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type CodepipelineTriggerAllGitConfigurationPushList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type CodepipelineTriggerAllGitConfigurationPushList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) CodepipelineTriggerAllGitConfigurationPushOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type CodepipelineTriggerAllGitConfigurationPushList interface {
 
 // The jsii proxy struct for CodepipelineTriggerAllGitConfigurationPushList
 type jsiiProxy_CodepipelineTriggerAllGitConfigurationPushList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_CodepipelineTriggerAllGitConfigurationPushList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_CodepipelineTriggerAllGitConfigurationPushList) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_CodepipelineTriggerAllGitConfigurationPushList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CodepipelineTriggerAllGitConfigurationPushList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_CodepipelineTriggerAllGitConfigurationPushList) WrapsSet() *b
 }
 
 
-func NewCodepipelineTriggerAllGitConfigurationPushList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelineTriggerAllGitConfigurationPushList {
+func NewCodepipelineTriggerAllGitConfigurationPushList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodepipelineTriggerAllGitConfigurationPushList {
 	_init_.Initialize()
 
 	if err := validateNewCodepipelineTriggerAllGitConfigurationPushListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewCodepipelineTriggerAllGitConfigurationPushList(terraformResource cdktf.I
 	return &j
 }
 
-func NewCodepipelineTriggerAllGitConfigurationPushList_Override(c CodepipelineTriggerAllGitConfigurationPushList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewCodepipelineTriggerAllGitConfigurationPushList_Override(c CodepipelineTriggerAllGitConfigurationPushList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_CodepipelineTriggerAllGitConfigurationPushList)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_CodepipelineTriggerAllGitConfigurationPushList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CodepipelineTriggerAllGitConfigurationPushList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_CodepipelineTriggerAllGitConfigurationPushList)SetWrapsSet(va
 	)
 }
 
-func (c *jsiiProxy_CodepipelineTriggerAllGitConfigurationPushList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (c *jsiiProxy_CodepipelineTriggerAllGitConfigurationPushList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := c.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		c,
@@ -208,7 +208,7 @@ func (c *jsiiProxy_CodepipelineTriggerAllGitConfigurationPushList) Get(index *fl
 	return returns
 }
 
-func (c *jsiiProxy_CodepipelineTriggerAllGitConfigurationPushList) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CodepipelineTriggerAllGitConfigurationPushList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

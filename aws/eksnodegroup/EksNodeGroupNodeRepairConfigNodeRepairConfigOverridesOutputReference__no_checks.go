@@ -47,7 +47,7 @@ func (e *jsiiProxy_EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesOutputRe
 	return nil
 }
 
-func (e *jsiiProxy_EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEksNodeGroupNodeRepairConfigNodeRepairConfigOverridesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEksNodeGroupNodeRepairConfigNodeRepairConfigOverridesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (f *jsiiProxy_FinspaceKxEnvironmentCustomDnsConfigurationList) validateGetP
 	return nil
 }
 
-func (f *jsiiProxy_FinspaceKxEnvironmentCustomDnsConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FinspaceKxEnvironmentCustomDnsConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_FinspaceKxEnvironmentCustomDnsConfigurationList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_FinspaceKxEnvironmentCustomDnsConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FinspaceKxEnvironmentCustomDnsConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_FinspaceKxEnvironmentCustomDnsConfigurationList) validateSetW
 	return nil
 }
 
-func validateNewFinspaceKxEnvironmentCustomDnsConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFinspaceKxEnvironmentCustomDnsConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

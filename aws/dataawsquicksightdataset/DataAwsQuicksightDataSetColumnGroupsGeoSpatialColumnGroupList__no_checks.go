@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsQuicksightDataSetColumnGroupsGeoSpatialColumnGroupList
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsQuicksightDataSetColumnGroupsGeoSpatialColumnGroupList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsQuicksightDataSetColumnGroupsGeoSpatialColumnGroupList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsQuicksightDataSetColumnGroupsGeoSpatialColumnGroupList
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsQuicksightDataSetColumnGroupsGeoSpatialColumnGroupList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsQuicksightDataSetColumnGroupsGeoSpatialColumnGroupList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsQuicksightDataSetColumnGroupsGeoSpatialColumnGroupList
 	return nil
 }
 
-func validateNewDataAwsQuicksightDataSetColumnGroupsGeoSpatialColumnGroupListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsQuicksightDataSetColumnGroupsGeoSpatialColumnGroupListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

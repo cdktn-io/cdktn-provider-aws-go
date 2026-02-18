@@ -47,7 +47,7 @@ func (a *jsiiProxy_AlbListenerRuleActionRedirectOutputReference) validateInterpo
 	return nil
 }
 
-func (a *jsiiProxy_AlbListenerRuleActionRedirectOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AlbListenerRuleActionRedirectOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_AlbListenerRuleActionRedirectOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_AlbListenerRuleActionRedirectOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AlbListenerRuleActionRedirectOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAlbListenerRuleActionRedirectOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAlbListenerRuleActionRedirectOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

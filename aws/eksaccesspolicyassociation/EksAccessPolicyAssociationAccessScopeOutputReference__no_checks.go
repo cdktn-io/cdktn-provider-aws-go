@@ -47,7 +47,7 @@ func (e *jsiiProxy_EksAccessPolicyAssociationAccessScopeOutputReference) validat
 	return nil
 }
 
-func (e *jsiiProxy_EksAccessPolicyAssociationAccessScopeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksAccessPolicyAssociationAccessScopeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_EksAccessPolicyAssociationAccessScopeOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_EksAccessPolicyAssociationAccessScopeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksAccessPolicyAssociationAccessScopeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_EksAccessPolicyAssociationAccessScopeOutputReference) validat
 	return nil
 }
 
-func validateNewEksAccessPolicyAssociationAccessScopeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEksAccessPolicyAssociationAccessScopeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

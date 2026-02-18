@@ -111,7 +111,7 @@ func (j *jsiiProxy_TranscribeVocabulary) validateSetLanguageCodeParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_TranscribeVocabulary) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_TranscribeVocabulary) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

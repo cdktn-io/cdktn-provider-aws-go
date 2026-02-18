@@ -111,7 +111,7 @@ func (j *jsiiProxy_S3BucketMetric) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketMetric) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_S3BucketMetric) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

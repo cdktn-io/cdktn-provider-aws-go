@@ -15,7 +15,7 @@ func (s *jsiiProxy_S3TablesTableMetadataIcebergList) validateGetParameters(index
 	return nil
 }
 
-func (s *jsiiProxy_S3TablesTableMetadataIcebergList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3TablesTableMetadataIcebergList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_S3TablesTableMetadataIcebergList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_S3TablesTableMetadataIcebergList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3TablesTableMetadataIcebergList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_S3TablesTableMetadataIcebergList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewS3TablesTableMetadataIcebergListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewS3TablesTableMetadataIcebergListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

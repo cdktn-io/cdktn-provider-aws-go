@@ -15,7 +15,7 @@ func (i *jsiiProxy_IotCaCertificateValidityList) validateGetParameters(index *fl
 	return nil
 }
 
-func (i *jsiiProxy_IotCaCertificateValidityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotCaCertificateValidityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_IotCaCertificateValidityList) validateSetTerraformAttributePa
 	return nil
 }
 
-func (j *jsiiProxy_IotCaCertificateValidityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotCaCertificateValidityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_IotCaCertificateValidityList) validateSetWrapsSetParameters(v
 	return nil
 }
 
-func validateNewIotCaCertificateValidityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIotCaCertificateValidityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

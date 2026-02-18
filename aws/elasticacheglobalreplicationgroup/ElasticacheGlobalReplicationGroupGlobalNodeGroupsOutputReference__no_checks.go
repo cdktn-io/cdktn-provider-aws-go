@@ -47,7 +47,7 @@ func (e *jsiiProxy_ElasticacheGlobalReplicationGroupGlobalNodeGroupsOutputRefere
 	return nil
 }
 
-func (e *jsiiProxy_ElasticacheGlobalReplicationGroupGlobalNodeGroupsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticacheGlobalReplicationGroupGlobalNodeGroupsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_ElasticacheGlobalReplicationGroupGlobalNodeGroupsOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_ElasticacheGlobalReplicationGroupGlobalNodeGroupsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticacheGlobalReplicationGroupGlobalNodeGroupsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewElasticacheGlobalReplicationGroupGlobalNodeGroupsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewElasticacheGlobalReplicationGroupGlobalNodeGroupsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

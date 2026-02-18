@@ -123,7 +123,7 @@ func (j *jsiiProxy_LakeformationResourceLfTag) validateSetCountParameters(val in
 	return nil
 }
 
-func (j *jsiiProxy_LakeformationResourceLfTag) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LakeformationResourceLfTag) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

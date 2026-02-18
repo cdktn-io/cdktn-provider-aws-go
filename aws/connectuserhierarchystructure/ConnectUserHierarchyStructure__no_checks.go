@@ -111,7 +111,7 @@ func (j *jsiiProxy_ConnectUserHierarchyStructure) validateSetInstanceIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_ConnectUserHierarchyStructure) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ConnectUserHierarchyStructure) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

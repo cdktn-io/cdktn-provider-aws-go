@@ -47,7 +47,7 @@ func (q *jsiiProxy_QbusinessApplicationAttachmentsConfigurationOutputReference) 
 	return nil
 }
 
-func (q *jsiiProxy_QbusinessApplicationAttachmentsConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QbusinessApplicationAttachmentsConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_QbusinessApplicationAttachmentsConfigurationOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_QbusinessApplicationAttachmentsConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QbusinessApplicationAttachmentsConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewQbusinessApplicationAttachmentsConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewQbusinessApplicationAttachmentsConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

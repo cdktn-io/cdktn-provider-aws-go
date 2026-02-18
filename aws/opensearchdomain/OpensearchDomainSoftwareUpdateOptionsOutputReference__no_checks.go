@@ -47,7 +47,7 @@ func (o *jsiiProxy_OpensearchDomainSoftwareUpdateOptionsOutputReference) validat
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchDomainSoftwareUpdateOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchDomainSoftwareUpdateOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_OpensearchDomainSoftwareUpdateOptionsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchDomainSoftwareUpdateOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchDomainSoftwareUpdateOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOpensearchDomainSoftwareUpdateOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOpensearchDomainSoftwareUpdateOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

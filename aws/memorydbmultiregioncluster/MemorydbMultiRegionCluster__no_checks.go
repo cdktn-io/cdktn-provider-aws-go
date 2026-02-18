@@ -115,7 +115,7 @@ func (j *jsiiProxy_MemorydbMultiRegionCluster) validateSetEngineVersionParameter
 	return nil
 }
 
-func (j *jsiiProxy_MemorydbMultiRegionCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MemorydbMultiRegionCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

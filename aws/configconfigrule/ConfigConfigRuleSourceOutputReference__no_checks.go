@@ -55,7 +55,7 @@ func (c *jsiiProxy_ConfigConfigRuleSourceOutputReference) validatePutSourceDetai
 	return nil
 }
 
-func (c *jsiiProxy_ConfigConfigRuleSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConfigConfigRuleSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_ConfigConfigRuleSourceOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_ConfigConfigRuleSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConfigConfigRuleSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewConfigConfigRuleSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewConfigConfigRuleSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

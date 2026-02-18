@@ -111,7 +111,7 @@ func (j *jsiiProxy_FisTargetAccountConfiguration) validateSetExperimentTemplateI
 	return nil
 }
 
-func (j *jsiiProxy_FisTargetAccountConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_FisTargetAccountConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

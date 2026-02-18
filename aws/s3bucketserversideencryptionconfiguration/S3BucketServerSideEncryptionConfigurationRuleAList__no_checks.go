@@ -15,7 +15,7 @@ func (s *jsiiProxy_S3BucketServerSideEncryptionConfigurationRuleAList) validateG
 	return nil
 }
 
-func (s *jsiiProxy_S3BucketServerSideEncryptionConfigurationRuleAList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3BucketServerSideEncryptionConfigurationRuleAList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_S3BucketServerSideEncryptionConfigurationRuleAList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketServerSideEncryptionConfigurationRuleAList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3BucketServerSideEncryptionConfigurationRuleAList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_S3BucketServerSideEncryptionConfigurationRuleAList) validateS
 	return nil
 }
 
-func validateNewS3BucketServerSideEncryptionConfigurationRuleAListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewS3BucketServerSideEncryptionConfigurationRuleAListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

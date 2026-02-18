@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppfabricIngestionDestinationTimeoutsOutputReference) validat
 	return nil
 }
 
-func (a *jsiiProxy_AppfabricIngestionDestinationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppfabricIngestionDestinationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_AppfabricIngestionDestinationTimeoutsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_AppfabricIngestionDestinationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppfabricIngestionDestinationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_AppfabricIngestionDestinationTimeoutsOutputReference) validat
 	return nil
 }
 
-func validateNewAppfabricIngestionDestinationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppfabricIngestionDestinationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraintOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraint
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraintOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraintOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -176,7 +176,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraint
 
 func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraintOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *PipesPipeTargetParametersEcsTaskParametersPlacementConstraint:
 		val := val.(*PipesPipeTargetParametersEcsTaskParametersPlacementConstraint)
@@ -191,7 +191,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraint
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *PipesPipeTargetParametersEcsTaskParametersPlacementConstraint; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *PipesPipeTargetParametersEcsTaskParametersPlacementConstraint; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -206,7 +206,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraint
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraintOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraintOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -222,7 +222,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraint
 	return nil
 }
 
-func validateNewPipesPipeTargetParametersEcsTaskParametersPlacementConstraintOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPipesPipeTargetParametersEcsTaskParametersPlacementConstraintOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

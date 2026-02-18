@@ -47,7 +47,7 @@ func (a *jsiiProxy_AlbConnectionLogsOutputReference) validateInterpolationForAtt
 	return nil
 }
 
-func (a *jsiiProxy_AlbConnectionLogsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AlbConnectionLogsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_AlbConnectionLogsOutputReference) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_AlbConnectionLogsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AlbConnectionLogsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAlbConnectionLogsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAlbConnectionLogsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

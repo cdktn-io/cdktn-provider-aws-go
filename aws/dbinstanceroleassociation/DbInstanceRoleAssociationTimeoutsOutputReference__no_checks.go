@@ -47,7 +47,7 @@ func (d *jsiiProxy_DbInstanceRoleAssociationTimeoutsOutputReference) validateInt
 	return nil
 }
 
-func (d *jsiiProxy_DbInstanceRoleAssociationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DbInstanceRoleAssociationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DbInstanceRoleAssociationTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DbInstanceRoleAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DbInstanceRoleAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDbInstanceRoleAssociationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDbInstanceRoleAssociationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

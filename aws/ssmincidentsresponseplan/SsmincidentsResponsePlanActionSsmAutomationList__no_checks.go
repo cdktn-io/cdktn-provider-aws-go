@@ -15,7 +15,7 @@ func (s *jsiiProxy_SsmincidentsResponsePlanActionSsmAutomationList) validateGetP
 	return nil
 }
 
-func (s *jsiiProxy_SsmincidentsResponsePlanActionSsmAutomationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsmincidentsResponsePlanActionSsmAutomationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SsmincidentsResponsePlanActionSsmAutomationList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_SsmincidentsResponsePlanActionSsmAutomationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsmincidentsResponsePlanActionSsmAutomationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SsmincidentsResponsePlanActionSsmAutomationList) validateSetW
 	return nil
 }
 
-func validateNewSsmincidentsResponsePlanActionSsmAutomationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSsmincidentsResponsePlanActionSsmAutomationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

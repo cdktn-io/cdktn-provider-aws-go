@@ -15,7 +15,7 @@ func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationRootBlockDeviceList) valid
 	return nil
 }
 
-func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationRootBlockDeviceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationRootBlockDeviceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationRootBlockDeviceList) valid
 	return nil
 }
 
-func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationRootBlockDeviceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationRootBlockDeviceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationRootBlockDeviceList) valid
 	return nil
 }
 
-func validateNewSpotFleetRequestLaunchSpecificationRootBlockDeviceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSpotFleetRequestLaunchSpecificationRootBlockDeviceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,21 +5,21 @@ package dataawsvpcipampools
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsvpcipampools/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsvpcipampools/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsVpcIpamPoolsIpamPoolsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AddressFamily() *string
 	AllocationDefaultNetmaskLength() *float64
 	AllocationMaxNetmaskLength() *float64
 	AllocationMinNetmaskLength() *float64
-	AllocationResourceTags() cdktf.StringMap
+	AllocationResourceTags() cdktn.StringMap
 	Arn() *string
-	AutoImport() cdktf.IResolvable
+	AutoImport() cdktn.IResolvable
 	AwsService() *string
 	// the index of the complex object in a list.
 	// Experimental.
@@ -46,24 +46,24 @@ type DataAwsVpcIpamPoolsIpamPoolsOutputReference interface {
 	IpamScopeType() *string
 	Locale() *string
 	PoolDepth() *float64
-	PubliclyAdvertisable() cdktf.IResolvable
+	PubliclyAdvertisable() cdktn.IResolvable
 	SourceIpamPoolId() *string
 	State() *string
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,12 +79,12 @@ type DataAwsVpcIpamPoolsIpamPoolsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -94,7 +94,7 @@ type DataAwsVpcIpamPoolsIpamPoolsOutputReference interface {
 
 // The jsii proxy struct for DataAwsVpcIpamPoolsIpamPoolsOutputReference
 type jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) AddressFamily() *string {
@@ -137,8 +137,8 @@ func (j *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) AllocationMinNet
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) AllocationResourceTags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) AllocationResourceTags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"allocationResourceTags",
@@ -157,8 +157,8 @@ func (j *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) AutoImport() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) AutoImport() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"autoImport",
@@ -287,8 +287,8 @@ func (j *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) PoolDepth() *flo
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) PubliclyAdvertisable() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) PubliclyAdvertisable() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"publiclyAdvertisable",
@@ -317,8 +317,8 @@ func (j *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) State() *string 
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -337,8 +337,8 @@ func (j *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -348,7 +348,7 @@ func (j *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) TerraformResourc
 }
 
 
-func NewDataAwsVpcIpamPoolsIpamPoolsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsVpcIpamPoolsIpamPoolsOutputReference {
+func NewDataAwsVpcIpamPoolsIpamPoolsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsVpcIpamPoolsIpamPoolsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsVpcIpamPoolsIpamPoolsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -365,7 +365,7 @@ func NewDataAwsVpcIpamPoolsIpamPoolsOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewDataAwsVpcIpamPoolsIpamPoolsOutputReference_Override(d DataAwsVpcIpamPoolsIpamPoolsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsVpcIpamPoolsIpamPoolsOutputReference_Override(d DataAwsVpcIpamPoolsIpamPoolsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -419,7 +419,7 @@ func (j *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -459,11 +459,11 @@ func (d *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -587,8 +587,8 @@ func (d *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -600,11 +600,11 @@ func (d *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) InterpolationAsL
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -616,7 +616,7 @@ func (d *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) InterpolationFor
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsVpcIpamPoolsIpamPoolsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

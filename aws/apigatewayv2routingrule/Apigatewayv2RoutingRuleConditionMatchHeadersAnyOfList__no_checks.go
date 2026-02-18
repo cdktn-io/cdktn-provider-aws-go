@@ -15,7 +15,7 @@ func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersAnyOfList) valida
 	return nil
 }
 
-func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersAnyOfList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersAnyOfList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersAnyOfList) valida
 	return nil
 }
 
-func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersAnyOfList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersAnyOfList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersAnyOfList) valida
 	return nil
 }
 
-func validateNewApigatewayv2RoutingRuleConditionMatchHeadersAnyOfListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApigatewayv2RoutingRuleConditionMatchHeadersAnyOfListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

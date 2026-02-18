@@ -135,7 +135,7 @@ func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration) validateSetIdpMetadataXmlP
 	return nil
 }
 
-func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

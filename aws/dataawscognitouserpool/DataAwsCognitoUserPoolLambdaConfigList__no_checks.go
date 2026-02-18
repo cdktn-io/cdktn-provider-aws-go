@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsCognitoUserPoolLambdaConfigList) validateGetParameters
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCognitoUserPoolLambdaConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCognitoUserPoolLambdaConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolLambdaConfigList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolLambdaConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCognitoUserPoolLambdaConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolLambdaConfigList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewDataAwsCognitoUserPoolLambdaConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsCognitoUserPoolLambdaConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package instance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/instance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/instance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type InstanceNetworkInterfaceList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type InstanceNetworkInterfaceList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type InstanceNetworkInterfaceList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) InstanceNetworkInterfaceOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type InstanceNetworkInterfaceList interface {
 
 // The jsii proxy struct for InstanceNetworkInterfaceList
 type jsiiProxy_InstanceNetworkInterfaceList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_InstanceNetworkInterfaceList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_InstanceNetworkInterfaceList) TerraformAttribute() *string {
 	return returns
 }
 
-func (j *jsiiProxy_InstanceNetworkInterfaceList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_InstanceNetworkInterfaceList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_InstanceNetworkInterfaceList) WrapsSet() *bool {
 }
 
 
-func NewInstanceNetworkInterfaceList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) InstanceNetworkInterfaceList {
+func NewInstanceNetworkInterfaceList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) InstanceNetworkInterfaceList {
 	_init_.Initialize()
 
 	if err := validateNewInstanceNetworkInterfaceListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewInstanceNetworkInterfaceList(terraformResource cdktf.IInterpolatingParen
 	return &j
 }
 
-func NewInstanceNetworkInterfaceList_Override(i InstanceNetworkInterfaceList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewInstanceNetworkInterfaceList_Override(i InstanceNetworkInterfaceList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_InstanceNetworkInterfaceList)SetTerraformAttribute(val *strin
 	)
 }
 
-func (j *jsiiProxy_InstanceNetworkInterfaceList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_InstanceNetworkInterfaceList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_InstanceNetworkInterfaceList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (i *jsiiProxy_InstanceNetworkInterfaceList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (i *jsiiProxy_InstanceNetworkInterfaceList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := i.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		i,
@@ -231,7 +231,7 @@ func (i *jsiiProxy_InstanceNetworkInterfaceList) Get(index *float64) InstanceNet
 	return returns
 }
 
-func (i *jsiiProxy_InstanceNetworkInterfaceList) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_InstanceNetworkInterfaceList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

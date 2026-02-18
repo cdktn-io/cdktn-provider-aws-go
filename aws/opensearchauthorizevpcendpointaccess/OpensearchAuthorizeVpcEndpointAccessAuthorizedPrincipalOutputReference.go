@@ -5,14 +5,14 @@ package opensearchauthorizevpcendpointaccess
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/opensearchauthorizevpcendpointaccess/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/opensearchauthorizevpcendpointaccess/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference inte
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference inte
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference inte
 
 // The jsii proxy struct for OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference
 type jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference) ComplexObjectIndex() interface{} {
@@ -161,8 +161,8 @@ func (j *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutput
 	return returns
 }
 
-func (j *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutput
 }
 
 
-func NewOpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference {
+func NewOpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -189,7 +189,7 @@ func NewOpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference(t
 	return &j
 }
 
-func NewOpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference_Override(o OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewOpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference_Override(o OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -243,7 +243,7 @@ func (j *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutput
 	)
 }
 
-func (j *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutput
 	return returns
 }
 
-func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -411,8 +411,8 @@ func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutput
 	return returns
 }
 
-func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -424,11 +424,11 @@ func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutput
 	return returns
 }
 
-func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -440,7 +440,7 @@ func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutput
 	return returns
 }
 
-func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

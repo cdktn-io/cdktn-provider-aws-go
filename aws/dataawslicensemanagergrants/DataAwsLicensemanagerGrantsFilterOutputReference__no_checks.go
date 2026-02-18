@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsLicensemanagerGrantsFilterOutputReference) validateInt
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLicensemanagerGrantsFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLicensemanagerGrantsFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataAwsLicensemanagerGrantsFilterOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLicensemanagerGrantsFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLicensemanagerGrantsFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsLicensemanagerGrantsFilterOutputReference) validateSet
 	return nil
 }
 
-func validateNewDataAwsLicensemanagerGrantsFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsLicensemanagerGrantsFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

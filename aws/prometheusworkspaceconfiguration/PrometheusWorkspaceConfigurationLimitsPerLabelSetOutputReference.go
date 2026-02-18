@@ -5,14 +5,14 @@ package prometheusworkspaceconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/prometheusworkspaceconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/prometheusworkspaceconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,15 +42,15 @@ type PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,14 +66,14 @@ type PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutLimits(value interface{})
 	ResetLimits()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference interface 
 
 // The jsii proxy struct for PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference
 type jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference) ComplexObjectIndex() interface{} {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputRefere
 }
 
 
-func NewPrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference {
+func NewPrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -214,7 +214,7 @@ func NewPrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference(terrafo
 	return &j
 }
 
-func NewPrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference_Override(p PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewPrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference_Override(p PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -279,7 +279,7 @@ func (j *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputRefere
 	)
 }
 
-func (j *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -319,11 +319,11 @@ func (p *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputRefere
 	return returns
 }
 
-func (p *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -447,8 +447,8 @@ func (p *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputRefere
 	return returns
 }
 
-func (p *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -460,11 +460,11 @@ func (p *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputRefere
 	return returns
 }
 
-func (p *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -495,7 +495,7 @@ func (p *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputRefere
 	)
 }
 
-func (p *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (e *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) valida
 	return nil
 }
 
-func (e *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) valida
 	return nil
 }
 
-func validateNewElasticsearchDomainSamlOptionsTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewElasticsearchDomainSamlOptionsTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

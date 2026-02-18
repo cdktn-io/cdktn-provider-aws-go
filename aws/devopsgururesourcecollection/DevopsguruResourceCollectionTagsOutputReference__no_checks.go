@@ -47,7 +47,7 @@ func (d *jsiiProxy_DevopsguruResourceCollectionTagsOutputReference) validateInte
 	return nil
 }
 
-func (d *jsiiProxy_DevopsguruResourceCollectionTagsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DevopsguruResourceCollectionTagsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DevopsguruResourceCollectionTagsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DevopsguruResourceCollectionTagsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DevopsguruResourceCollectionTagsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDevopsguruResourceCollectionTagsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDevopsguruResourceCollectionTagsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

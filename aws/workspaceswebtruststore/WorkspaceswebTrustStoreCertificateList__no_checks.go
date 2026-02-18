@@ -15,7 +15,7 @@ func (w *jsiiProxy_WorkspaceswebTrustStoreCertificateList) validateGetParameters
 	return nil
 }
 
-func (w *jsiiProxy_WorkspaceswebTrustStoreCertificateList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkspaceswebTrustStoreCertificateList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WorkspaceswebTrustStoreCertificateList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_WorkspaceswebTrustStoreCertificateList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkspaceswebTrustStoreCertificateList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WorkspaceswebTrustStoreCertificateList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewWorkspaceswebTrustStoreCertificateListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWorkspaceswebTrustStoreCertificateListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

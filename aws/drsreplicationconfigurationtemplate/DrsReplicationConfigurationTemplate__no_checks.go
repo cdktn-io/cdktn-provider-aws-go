@@ -139,7 +139,7 @@ func (j *jsiiProxy_DrsReplicationConfigurationTemplate) validateSetEbsEncryption
 	return nil
 }
 
-func (j *jsiiProxy_DrsReplicationConfigurationTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DrsReplicationConfigurationTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

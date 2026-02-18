@@ -47,7 +47,7 @@ func (v *jsiiProxy_VerifiedaccessGroupSseConfigurationOutputReference) validateI
 	return nil
 }
 
-func (v *jsiiProxy_VerifiedaccessGroupSseConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VerifiedaccessGroupSseConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VerifiedaccessGroupSseConfigurationOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_VerifiedaccessGroupSseConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VerifiedaccessGroupSseConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVerifiedaccessGroupSseConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVerifiedaccessGroupSseConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

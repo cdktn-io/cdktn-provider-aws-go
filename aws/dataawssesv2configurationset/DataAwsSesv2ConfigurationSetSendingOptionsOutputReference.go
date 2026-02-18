@@ -5,14 +5,14 @@ package dataawssesv2configurationset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawssesv2configurationset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawssesv2configurationset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsSesv2ConfigurationSetSendingOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -32,21 +32,21 @@ type DataAwsSesv2ConfigurationSetSendingOptionsOutputReference interface {
 	Fqn() *string
 	InternalValue() *DataAwsSesv2ConfigurationSetSendingOptions
 	SetInternalValue(val *DataAwsSesv2ConfigurationSetSendingOptions)
-	SendingEnabled() cdktf.IResolvable
+	SendingEnabled() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -62,12 +62,12 @@ type DataAwsSesv2ConfigurationSetSendingOptionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -77,7 +77,7 @@ type DataAwsSesv2ConfigurationSetSendingOptionsOutputReference interface {
 
 // The jsii proxy struct for DataAwsSesv2ConfigurationSetSendingOptionsOutputReference
 type jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference) ComplexObjectIndex() interface{} {
@@ -130,8 +130,8 @@ func (j *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference) In
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference) SendingEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference) SendingEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"sendingEnabled",
@@ -150,8 +150,8 @@ func (j *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -161,7 +161,7 @@ func (j *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference) Te
 }
 
 
-func NewDataAwsSesv2ConfigurationSetSendingOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsSesv2ConfigurationSetSendingOptionsOutputReference {
+func NewDataAwsSesv2ConfigurationSetSendingOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsSesv2ConfigurationSetSendingOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsSesv2ConfigurationSetSendingOptionsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -178,7 +178,7 @@ func NewDataAwsSesv2ConfigurationSetSendingOptionsOutputReference(terraformResou
 	return &j
 }
 
-func NewDataAwsSesv2ConfigurationSetSendingOptionsOutputReference_Override(d DataAwsSesv2ConfigurationSetSendingOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsSesv2ConfigurationSetSendingOptionsOutputReference_Override(d DataAwsSesv2ConfigurationSetSendingOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -232,7 +232,7 @@ func (j *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -272,11 +272,11 @@ func (d *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference) Ge
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -400,8 +400,8 @@ func (d *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference) Ge
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -413,11 +413,11 @@ func (d *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference) In
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -429,7 +429,7 @@ func (d *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference) In
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsSesv2ConfigurationSetSendingOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

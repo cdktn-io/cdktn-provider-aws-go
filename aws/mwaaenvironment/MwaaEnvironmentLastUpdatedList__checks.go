@@ -8,7 +8,7 @@ package mwaaenvironment
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_MwaaEnvironmentLastUpdatedList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (m *jsiiProxy_MwaaEnvironmentLastUpdatedList) validateGetParameters(index *
 	return nil
 }
 
-func (m *jsiiProxy_MwaaEnvironmentLastUpdatedList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MwaaEnvironmentLastUpdatedList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_MwaaEnvironmentLastUpdatedList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_MwaaEnvironmentLastUpdatedList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MwaaEnvironmentLastUpdatedList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_MwaaEnvironmentLastUpdatedList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewMwaaEnvironmentLastUpdatedListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMwaaEnvironmentLastUpdatedListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

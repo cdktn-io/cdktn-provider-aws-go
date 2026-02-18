@@ -15,7 +15,7 @@ func (b *jsiiProxy_BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfig
 	return nil
 }
 
-func (b *jsiiProxy_BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfig
 	return nil
 }
 
-func (j *jsiiProxy_BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfig
 	return nil
 }
 
-func validateNewBedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWri
 	return nil
 }
 
-func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccessList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccessList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWri
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccessList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccessList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWri
 	return nil
 }
 
-func validateNewRedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccessListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccessListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

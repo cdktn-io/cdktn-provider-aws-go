@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (k *jsiiProxy_KinesisAnalyticsApplicationOutputsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -137,7 +137,7 @@ func (k *jsiiProxy_KinesisAnalyticsApplicationOutputsOutputReference) validatePu
 	return nil
 }
 
-func (k *jsiiProxy_KinesisAnalyticsApplicationOutputsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KinesisAnalyticsApplicationOutputsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -212,7 +212,7 @@ func (j *jsiiProxy_KinesisAnalyticsApplicationOutputsOutputReference) validateSe
 
 func (j *jsiiProxy_KinesisAnalyticsApplicationOutputsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *KinesisAnalyticsApplicationOutputs:
 		val := val.(*KinesisAnalyticsApplicationOutputs)
@@ -227,7 +227,7 @@ func (j *jsiiProxy_KinesisAnalyticsApplicationOutputsOutputReference) validateSe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *KinesisAnalyticsApplicationOutputs; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *KinesisAnalyticsApplicationOutputs; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -250,7 +250,7 @@ func (j *jsiiProxy_KinesisAnalyticsApplicationOutputsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_KinesisAnalyticsApplicationOutputsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KinesisAnalyticsApplicationOutputsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -258,7 +258,7 @@ func (j *jsiiProxy_KinesisAnalyticsApplicationOutputsOutputReference) validateSe
 	return nil
 }
 
-func validateNewKinesisAnalyticsApplicationOutputsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewKinesisAnalyticsApplicationOutputsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

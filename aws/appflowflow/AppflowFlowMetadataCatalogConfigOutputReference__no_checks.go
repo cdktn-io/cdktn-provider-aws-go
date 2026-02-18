@@ -51,7 +51,7 @@ func (a *jsiiProxy_AppflowFlowMetadataCatalogConfigOutputReference) validatePutG
 	return nil
 }
 
-func (a *jsiiProxy_AppflowFlowMetadataCatalogConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppflowFlowMetadataCatalogConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AppflowFlowMetadataCatalogConfigOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_AppflowFlowMetadataCatalogConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppflowFlowMetadataCatalogConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppflowFlowMetadataCatalogConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppflowFlowMetadataCatalogConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

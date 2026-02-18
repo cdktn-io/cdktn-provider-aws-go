@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsInstanceEphemeralBlockDeviceList) validateGetParameter
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsInstanceEphemeralBlockDeviceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsInstanceEphemeralBlockDeviceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsInstanceEphemeralBlockDeviceList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsInstanceEphemeralBlockDeviceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsInstanceEphemeralBlockDeviceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsInstanceEphemeralBlockDeviceList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewDataAwsInstanceEphemeralBlockDeviceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsInstanceEphemeralBlockDeviceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

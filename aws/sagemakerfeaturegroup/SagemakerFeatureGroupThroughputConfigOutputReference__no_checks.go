@@ -47,7 +47,7 @@ func (s *jsiiProxy_SagemakerFeatureGroupThroughputConfigOutputReference) validat
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerFeatureGroupThroughputConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerFeatureGroupThroughputConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SagemakerFeatureGroupThroughputConfigOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerFeatureGroupThroughputConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerFeatureGroupThroughputConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_SagemakerFeatureGroupThroughputConfigOutputReference) validat
 	return nil
 }
 
-func validateNewSagemakerFeatureGroupThroughputConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerFeatureGroupThroughputConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

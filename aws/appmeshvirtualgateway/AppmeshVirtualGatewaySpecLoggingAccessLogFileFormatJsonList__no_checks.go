@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppmeshVirtualGatewaySpecLoggingAccessLogFileFormatJsonList) 
 	return nil
 }
 
-func (a *jsiiProxy_AppmeshVirtualGatewaySpecLoggingAccessLogFileFormatJsonList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppmeshVirtualGatewaySpecLoggingAccessLogFileFormatJsonList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppmeshVirtualGatewaySpecLoggingAccessLogFileFormatJsonList) 
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshVirtualGatewaySpecLoggingAccessLogFileFormatJsonList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppmeshVirtualGatewaySpecLoggingAccessLogFileFormatJsonList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppmeshVirtualGatewaySpecLoggingAccessLogFileFormatJsonList) 
 	return nil
 }
 
-func validateNewAppmeshVirtualGatewaySpecLoggingAccessLogFileFormatJsonListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppmeshVirtualGatewaySpecLoggingAccessLogFileFormatJsonListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package spotinstancerequest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/spotinstancerequest/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/spotinstancerequest/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SpotInstanceRequestCpuOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AmdSevSnp() *string
 	SetAmdSevSnp(val *string)
 	AmdSevSnpInput() *string
@@ -43,9 +43,9 @@ type SpotInstanceRequestCpuOptionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	ThreadsPerCore() *float64
 	SetThreadsPerCore(val *float64)
 	ThreadsPerCoreInput() *float64
@@ -54,7 +54,7 @@ type SpotInstanceRequestCpuOptionsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type SpotInstanceRequestCpuOptionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAmdSevSnp()
 	ResetCoreCount()
 	ResetThreadsPerCore()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type SpotInstanceRequestCpuOptionsOutputReference interface {
 
 // The jsii proxy struct for SpotInstanceRequestCpuOptionsOutputReference
 type jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) AmdSevSnp() *string {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) ThreadsPerCoreI
 }
 
 
-func NewSpotInstanceRequestCpuOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SpotInstanceRequestCpuOptionsOutputReference {
+func NewSpotInstanceRequestCpuOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SpotInstanceRequestCpuOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSpotInstanceRequestCpuOptionsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewSpotInstanceRequestCpuOptionsOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewSpotInstanceRequestCpuOptionsOutputReference_Override(s SpotInstanceRequestCpuOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSpotInstanceRequestCpuOptionsOutputReference_Override(s SpotInstanceRequestCpuOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (s *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (s *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -494,8 +494,8 @@ func (s *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (s *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -507,11 +507,11 @@ func (s *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) InterpolationAs
 	return returns
 }
 
-func (s *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -547,7 +547,7 @@ func (s *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) ResetThreadsPer
 	)
 }
 
-func (s *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

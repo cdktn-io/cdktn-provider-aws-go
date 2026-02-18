@@ -5,14 +5,14 @@ package appsyncapi
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/appsyncapi/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appsyncapi/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppsyncApiEventConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AuthProvider() AppsyncApiEventConfigAuthProviderList
 	AuthProviderInput() interface{}
 	// the index of the complex object in a list.
@@ -47,15 +47,15 @@ type AppsyncApiEventConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -71,9 +71,9 @@ type AppsyncApiEventConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAuthProvider(value interface{})
 	PutConnectionAuthMode(value interface{})
 	PutDefaultPublishAuthMode(value interface{})
@@ -86,7 +86,7 @@ type AppsyncApiEventConfigOutputReference interface {
 	ResetLogConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type AppsyncApiEventConfigOutputReference interface {
 
 // The jsii proxy struct for AppsyncApiEventConfigOutputReference
 type jsiiProxy_AppsyncApiEventConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AppsyncApiEventConfigOutputReference) AuthProvider() AppsyncApiEventConfigAuthProviderList {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_AppsyncApiEventConfigOutputReference) TerraformAttribute() *s
 	return returns
 }
 
-func (j *jsiiProxy_AppsyncApiEventConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppsyncApiEventConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_AppsyncApiEventConfigOutputReference) TerraformResource() cdk
 }
 
 
-func NewAppsyncApiEventConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AppsyncApiEventConfigOutputReference {
+func NewAppsyncApiEventConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AppsyncApiEventConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAppsyncApiEventConfigOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -287,7 +287,7 @@ func NewAppsyncApiEventConfigOutputReference(terraformResource cdktf.IInterpolat
 	return &j
 }
 
-func NewAppsyncApiEventConfigOutputReference_Override(a AppsyncApiEventConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewAppsyncApiEventConfigOutputReference_Override(a AppsyncApiEventConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -341,7 +341,7 @@ func (j *jsiiProxy_AppsyncApiEventConfigOutputReference)SetTerraformAttribute(va
 	)
 }
 
-func (j *jsiiProxy_AppsyncApiEventConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppsyncApiEventConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -381,11 +381,11 @@ func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -509,8 +509,8 @@ func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) GetStringMapAttribute(t
 	return returns
 }
 
-func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -522,11 +522,11 @@ func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) InterpolationAsList() c
 	return returns
 }
 
-func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -633,7 +633,7 @@ func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) ResetLogConfig() {
 	)
 }
 
-func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppsyncApiEventConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) v
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*RekognitionStreamProcessorRegionsOfInterestBoundingBox:
 		value := value.(*[]*RekognitionStreamProcessorRegionsOfInterestBoundingBox)
@@ -117,7 +117,7 @@ func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*RekognitionStreamProcessorRegionsOfInterestBoundingBox; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*RekognitionStreamProcessorRegionsOfInterestBoundingBox; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) v
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*RekognitionStreamProcessorRegionsOfInterestPolygon:
 		value := value.(*[]*RekognitionStreamProcessorRegionsOfInterestPolygon)
@@ -148,14 +148,14 @@ func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*RekognitionStreamProcessorRegionsOfInterestPolygon; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*RekognitionStreamProcessorRegionsOfInterestPolygon; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) v
 
 func (j *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *RekognitionStreamProcessorRegionsOfInterest:
 		val := val.(*RekognitionStreamProcessorRegionsOfInterest)
@@ -245,7 +245,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *RekognitionStreamProcessorRegionsOfInterest; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *RekognitionStreamProcessorRegionsOfInterest; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -260,7 +260,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -268,7 +268,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) v
 	return nil
 }
 
-func validateNewRekognitionStreamProcessorRegionsOfInterestOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRekognitionStreamProcessorRegionsOfInterestOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

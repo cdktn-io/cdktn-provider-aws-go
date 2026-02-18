@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesEnvironment
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesEnvironmentList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesEnvironmentList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesEnvironment
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesEnvironmentList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesEnvironmentList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesEnvironment
 	return nil
 }
 
-func validateNewDataAwsEcsTaskExecutionOverridesContainerOverridesEnvironmentListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEcsTaskExecutionOverridesContainerOverridesEnvironmentListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

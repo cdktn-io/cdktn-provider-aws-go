@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (i *jsiiProxy_InstanceEphemeralBlockDeviceOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (i *jsiiProxy_InstanceEphemeralBlockDeviceOutputReference) validateInterpol
 	return nil
 }
 
-func (i *jsiiProxy_InstanceEphemeralBlockDeviceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_InstanceEphemeralBlockDeviceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -176,7 +176,7 @@ func (j *jsiiProxy_InstanceEphemeralBlockDeviceOutputReference) validateSetDevic
 
 func (j *jsiiProxy_InstanceEphemeralBlockDeviceOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *InstanceEphemeralBlockDevice:
 		val := val.(*InstanceEphemeralBlockDevice)
@@ -191,7 +191,7 @@ func (j *jsiiProxy_InstanceEphemeralBlockDeviceOutputReference) validateSetInter
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *InstanceEphemeralBlockDevice; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *InstanceEphemeralBlockDevice; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -207,11 +207,11 @@ func (j *jsiiProxy_InstanceEphemeralBlockDeviceOutputReference) validateSetNoDev
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -226,7 +226,7 @@ func (j *jsiiProxy_InstanceEphemeralBlockDeviceOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_InstanceEphemeralBlockDeviceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_InstanceEphemeralBlockDeviceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -242,7 +242,7 @@ func (j *jsiiProxy_InstanceEphemeralBlockDeviceOutputReference) validateSetVirtu
 	return nil
 }
 
-func validateNewInstanceEphemeralBlockDeviceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewInstanceEphemeralBlockDeviceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

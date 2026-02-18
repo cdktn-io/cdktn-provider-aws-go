@@ -127,7 +127,7 @@ func (j *jsiiProxy_ComprehendDocumentClassifier) validateSetLanguageCodeParamete
 	return nil
 }
 
-func (j *jsiiProxy_ComprehendDocumentClassifier) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComprehendDocumentClassifier) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

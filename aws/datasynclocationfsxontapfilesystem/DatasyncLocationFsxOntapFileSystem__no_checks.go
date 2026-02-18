@@ -107,7 +107,7 @@ func (j *jsiiProxy_DatasyncLocationFsxOntapFileSystem) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_DatasyncLocationFsxOntapFileSystem) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DatasyncLocationFsxOntapFileSystem) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

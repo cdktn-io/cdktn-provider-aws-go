@@ -15,7 +15,7 @@ func (p *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetLimitsList) 
 	return nil
 }
 
-func (p *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetLimitsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetLimitsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetLimitsList) 
 	return nil
 }
 
-func (j *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetLimitsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetLimitsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetLimitsList) 
 	return nil
 }
 
-func validateNewPrometheusWorkspaceConfigurationLimitsPerLabelSetLimitsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewPrometheusWorkspaceConfigurationLimitsPerLabelSetLimitsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

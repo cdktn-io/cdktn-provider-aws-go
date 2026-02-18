@@ -115,7 +115,7 @@ func (j *jsiiProxy_BedrockagentcoreCodeInterpreter) validateSetExecutionRoleArnP
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreCodeInterpreter) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BedrockagentcoreCodeInterpreter) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

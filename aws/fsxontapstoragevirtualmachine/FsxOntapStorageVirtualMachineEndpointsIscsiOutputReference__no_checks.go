@@ -47,7 +47,7 @@ func (f *jsiiProxy_FsxOntapStorageVirtualMachineEndpointsIscsiOutputReference) v
 	return nil
 }
 
-func (f *jsiiProxy_FsxOntapStorageVirtualMachineEndpointsIscsiOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FsxOntapStorageVirtualMachineEndpointsIscsiOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_FsxOntapStorageVirtualMachineEndpointsIscsiOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_FsxOntapStorageVirtualMachineEndpointsIscsiOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FsxOntapStorageVirtualMachineEndpointsIscsiOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFsxOntapStorageVirtualMachineEndpointsIscsiOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFsxOntapStorageVirtualMachineEndpointsIscsiOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

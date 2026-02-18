@@ -179,7 +179,7 @@ func (j *jsiiProxy_SnsTopic) validateSetLambdaSuccessFeedbackSampleRateParameter
 	return nil
 }
 
-func (j *jsiiProxy_SnsTopic) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SnsTopic) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

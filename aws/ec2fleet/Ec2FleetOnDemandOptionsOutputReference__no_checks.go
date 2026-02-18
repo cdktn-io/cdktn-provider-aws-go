@@ -51,7 +51,7 @@ func (e *jsiiProxy_Ec2FleetOnDemandOptionsOutputReference) validatePutCapacityRe
 	return nil
 }
 
-func (e *jsiiProxy_Ec2FleetOnDemandOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_Ec2FleetOnDemandOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_Ec2FleetOnDemandOptionsOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_Ec2FleetOnDemandOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Ec2FleetOnDemandOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEc2FleetOnDemandOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEc2FleetOnDemandOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

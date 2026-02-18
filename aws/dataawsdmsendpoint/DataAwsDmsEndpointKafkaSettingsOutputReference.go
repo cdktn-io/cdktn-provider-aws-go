@@ -5,14 +5,14 @@ package dataawsdmsendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsdmsendpoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsdmsendpoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsDmsEndpointKafkaSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Broker() *string
 	// the index of the complex object in a list.
 	// Experimental.
@@ -31,17 +31,17 @@ type DataAwsDmsEndpointKafkaSettingsOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	IncludeControlDetails() cdktf.IResolvable
-	IncludeNullAndEmpty() cdktf.IResolvable
-	IncludePartitionValue() cdktf.IResolvable
-	IncludeTableAlterOperations() cdktf.IResolvable
-	IncludeTransactionDetails() cdktf.IResolvable
+	IncludeControlDetails() cdktn.IResolvable
+	IncludeNullAndEmpty() cdktn.IResolvable
+	IncludePartitionValue() cdktn.IResolvable
+	IncludeTableAlterOperations() cdktn.IResolvable
+	IncludeTransactionDetails() cdktn.IResolvable
 	InternalValue() *DataAwsDmsEndpointKafkaSettings
 	SetInternalValue(val *DataAwsDmsEndpointKafkaSettings)
 	MessageFormat() *string
 	MessageMaxBytes() *float64
-	NoHexPrefix() cdktf.IResolvable
-	PartitionIncludeSchemaTable() cdktf.IResolvable
+	NoHexPrefix() cdktn.IResolvable
+	PartitionIncludeSchemaTable() cdktn.IResolvable
 	SaslMechanism() *string
 	SaslPassword() *string
 	SaslUsername() *string
@@ -55,16 +55,16 @@ type DataAwsDmsEndpointKafkaSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Topic() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -80,12 +80,12 @@ type DataAwsDmsEndpointKafkaSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -95,7 +95,7 @@ type DataAwsDmsEndpointKafkaSettingsOutputReference interface {
 
 // The jsii proxy struct for DataAwsDmsEndpointKafkaSettingsOutputReference
 type jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) Broker() *string {
@@ -148,8 +148,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) Fqn() *string
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) IncludeControlDetails() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) IncludeControlDetails() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"includeControlDetails",
@@ -158,8 +158,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) IncludeContro
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) IncludeNullAndEmpty() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) IncludeNullAndEmpty() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"includeNullAndEmpty",
@@ -168,8 +168,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) IncludeNullAn
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) IncludePartitionValue() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) IncludePartitionValue() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"includePartitionValue",
@@ -178,8 +178,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) IncludePartit
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) IncludeTableAlterOperations() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) IncludeTableAlterOperations() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"includeTableAlterOperations",
@@ -188,8 +188,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) IncludeTableA
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) IncludeTransactionDetails() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) IncludeTransactionDetails() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"includeTransactionDetails",
@@ -228,8 +228,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) MessageMaxByt
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) NoHexPrefix() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) NoHexPrefix() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"noHexPrefix",
@@ -238,8 +238,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) NoHexPrefix()
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) PartitionIncludeSchemaTable() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) PartitionIncludeSchemaTable() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"partitionIncludeSchemaTable",
@@ -338,8 +338,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -359,7 +359,7 @@ func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) Topic() *stri
 }
 
 
-func NewDataAwsDmsEndpointKafkaSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsDmsEndpointKafkaSettingsOutputReference {
+func NewDataAwsDmsEndpointKafkaSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsDmsEndpointKafkaSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsDmsEndpointKafkaSettingsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -376,7 +376,7 @@ func NewDataAwsDmsEndpointKafkaSettingsOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewDataAwsDmsEndpointKafkaSettingsOutputReference_Override(d DataAwsDmsEndpointKafkaSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsDmsEndpointKafkaSettingsOutputReference_Override(d DataAwsDmsEndpointKafkaSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -430,7 +430,7 @@ func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -470,11 +470,11 @@ func (d *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -598,8 +598,8 @@ func (d *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) GetStringMapA
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -611,11 +611,11 @@ func (d *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) Interpolation
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -627,7 +627,7 @@ func (d *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) Interpolation
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsDmsEndpointKafkaSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

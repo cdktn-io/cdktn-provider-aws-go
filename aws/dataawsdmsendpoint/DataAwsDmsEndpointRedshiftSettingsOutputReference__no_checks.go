@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsDmsEndpointRedshiftSettingsOutputReference) validateIn
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointRedshiftSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsDmsEndpointRedshiftSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsDmsEndpointRedshiftSettingsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointRedshiftSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsDmsEndpointRedshiftSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsDmsEndpointRedshiftSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsDmsEndpointRedshiftSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

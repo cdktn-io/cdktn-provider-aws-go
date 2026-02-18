@@ -47,7 +47,7 @@ func (b *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReferen
 	return nil
 }
 
-func (b *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -107,7 +107,7 @@ func (j *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReferen
 	return nil
 }
 
-func validateNewBedrockGuardrailContentPolicyConfigFiltersConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBedrockGuardrailContentPolicyConfigFiltersConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

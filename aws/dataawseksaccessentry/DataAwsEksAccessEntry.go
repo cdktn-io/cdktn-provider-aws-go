@@ -5,19 +5,19 @@ package dataawseksaccessentry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawseksaccessentry/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawseksaccessentry/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/eks_access_entry aws_eks_access_entry}.
 type DataAwsEksAccessEntry interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AccessEntryArn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClusterName() *string
 	SetClusterName(val *string)
 	ClusterNameInput() *string
@@ -33,9 +33,9 @@ type DataAwsEksAccessEntry interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -45,9 +45,9 @@ type DataAwsEksAccessEntry interface {
 	IdInput() *string
 	KubernetesGroups() *[]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	ModifiedAt() *string
 	// The tree node.
 	Node() constructs.Node
@@ -55,9 +55,9 @@ type DataAwsEksAccessEntry interface {
 	SetPrincipalArn(val *string)
 	PrincipalArnInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -70,7 +70,7 @@ type DataAwsEksAccessEntry interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -82,7 +82,7 @@ type DataAwsEksAccessEntry interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -98,7 +98,7 @@ type DataAwsEksAccessEntry interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -125,7 +125,7 @@ type DataAwsEksAccessEntry interface {
 
 // The jsii proxy struct for DataAwsEksAccessEntry
 type jsiiProxy_DataAwsEksAccessEntry struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsEksAccessEntry) AccessEntryArn() *string {
@@ -138,8 +138,8 @@ func (j *jsiiProxy_DataAwsEksAccessEntry) AccessEntryArn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEksAccessEntry) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsEksAccessEntry) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -208,8 +208,8 @@ func (j *jsiiProxy_DataAwsEksAccessEntry) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEksAccessEntry) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsEksAccessEntry) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -268,8 +268,8 @@ func (j *jsiiProxy_DataAwsEksAccessEntry) KubernetesGroups() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEksAccessEntry) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsEksAccessEntry) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -318,8 +318,8 @@ func (j *jsiiProxy_DataAwsEksAccessEntry) PrincipalArnInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEksAccessEntry) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsEksAccessEntry) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -398,8 +398,8 @@ func (j *jsiiProxy_DataAwsEksAccessEntry) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEksAccessEntry) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsEksAccessEntry) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -508,7 +508,7 @@ func (j *jsiiProxy_DataAwsEksAccessEntry)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsEksAccessEntry)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsEksAccessEntry)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -527,7 +527,7 @@ func (j *jsiiProxy_DataAwsEksAccessEntry)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsEksAccessEntry)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsEksAccessEntry)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -549,7 +549,7 @@ func (j *jsiiProxy_DataAwsEksAccessEntry)SetPrincipalArn(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsEksAccessEntry)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsEksAccessEntry)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -590,14 +590,14 @@ func (j *jsiiProxy_DataAwsEksAccessEntry)SetTagsAll(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsEksAccessEntry resource upon running "cdktf plan <stack-name>".
-func DataAwsEksAccessEntry_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsEksAccessEntry resource upon running "cdktn plan <stack-name>".
+func DataAwsEksAccessEntry_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsEksAccessEntry_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsEksAccessEntry.DataAwsEksAccessEntry",
@@ -720,11 +720,11 @@ func (d *jsiiProxy_DataAwsEksAccessEntry) GetAnyMapAttribute(terraformAttribute 
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEksAccessEntry) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEksAccessEntry) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -848,11 +848,11 @@ func (d *jsiiProxy_DataAwsEksAccessEntry) GetStringMapAttribute(terraformAttribu
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEksAccessEntry) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEksAccessEntry) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

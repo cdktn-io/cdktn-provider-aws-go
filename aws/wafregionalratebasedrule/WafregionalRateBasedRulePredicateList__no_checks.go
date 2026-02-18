@@ -15,7 +15,7 @@ func (w *jsiiProxy_WafregionalRateBasedRulePredicateList) validateGetParameters(
 	return nil
 }
 
-func (w *jsiiProxy_WafregionalRateBasedRulePredicateList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WafregionalRateBasedRulePredicateList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WafregionalRateBasedRulePredicateList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_WafregionalRateBasedRulePredicateList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WafregionalRateBasedRulePredicateList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WafregionalRateBasedRulePredicateList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewWafregionalRateBasedRulePredicateListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWafregionalRateBasedRulePredicateListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

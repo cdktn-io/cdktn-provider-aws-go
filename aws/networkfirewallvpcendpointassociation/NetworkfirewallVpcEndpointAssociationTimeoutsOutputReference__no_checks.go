@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkfirewallVpcEndpointAssociationTimeoutsOutputReference)
 	return nil
 }
 
-func (n *jsiiProxy_NetworkfirewallVpcEndpointAssociationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkfirewallVpcEndpointAssociationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_NetworkfirewallVpcEndpointAssociationTimeoutsOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_NetworkfirewallVpcEndpointAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkfirewallVpcEndpointAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkfirewallVpcEndpointAssociationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkfirewallVpcEndpointAssociationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

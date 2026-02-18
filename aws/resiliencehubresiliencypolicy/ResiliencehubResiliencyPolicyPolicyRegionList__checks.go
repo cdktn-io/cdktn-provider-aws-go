@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicyRegionList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicyRegionList) validateGetPar
 	return nil
 }
 
-func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicyRegionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicyRegionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (r *jsiiProxy_ResiliencehubResiliencyPolicyPolicyRegionList) validateResolv
 
 func (j *jsiiProxy_ResiliencehubResiliencyPolicyPolicyRegionList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ResiliencehubResiliencyPolicyPolicyRegion:
 		val := val.(*[]*ResiliencehubResiliencyPolicyPolicyRegion)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicyPolicyRegionList) validateSetInt
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*ResiliencehubResiliencyPolicyPolicyRegion; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*ResiliencehubResiliencyPolicyPolicyRegion; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicyPolicyRegionList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ResiliencehubResiliencyPolicyPolicyRegionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ResiliencehubResiliencyPolicyPolicyRegionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicyPolicyRegionList) validateSetWra
 	return nil
 }
 
-func validateNewResiliencehubResiliencyPolicyPolicyRegionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewResiliencehubResiliencyPolicyPolicyRegionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

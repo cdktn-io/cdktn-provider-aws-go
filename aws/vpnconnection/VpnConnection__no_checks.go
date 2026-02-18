@@ -119,7 +119,7 @@ func (j *jsiiProxy_VpnConnection) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_VpnConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VpnConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

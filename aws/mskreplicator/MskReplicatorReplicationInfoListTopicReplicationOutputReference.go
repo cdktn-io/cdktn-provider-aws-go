@@ -5,14 +5,14 @@ package mskreplicator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/mskreplicator/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/mskreplicator/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MskReplicatorReplicationInfoListTopicReplicationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -48,9 +48,9 @@ type MskReplicatorReplicationInfoListTopicReplicationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TopicNameConfiguration() MskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurationOutputReference
 	TopicNameConfigurationInput() *MskReplicatorReplicationInfoListTopicReplicationTopicNameConfiguration
 	TopicsToExclude() *[]*string
@@ -64,7 +64,7 @@ type MskReplicatorReplicationInfoListTopicReplicationOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -80,9 +80,9 @@ type MskReplicatorReplicationInfoListTopicReplicationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutStartingPosition(value *MskReplicatorReplicationInfoListTopicReplicationStartingPosition)
 	PutTopicNameConfiguration(value *MskReplicatorReplicationInfoListTopicReplicationTopicNameConfiguration)
 	ResetCopyAccessControlListsForTopics()
@@ -93,7 +93,7 @@ type MskReplicatorReplicationInfoListTopicReplicationOutputReference interface {
 	ResetTopicsToExclude()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -103,7 +103,7 @@ type MskReplicatorReplicationInfoListTopicReplicationOutputReference interface {
 
 // The jsii proxy struct for MskReplicatorReplicationInfoListTopicReplicationOutputReference
 type jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationOutputReference) ComplexObjectIndex() interface{} {
@@ -246,8 +246,8 @@ func (j *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationOutputReferen
 	return returns
 }
 
-func (j *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -317,7 +317,7 @@ func (j *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationOutputReferen
 }
 
 
-func NewMskReplicatorReplicationInfoListTopicReplicationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) MskReplicatorReplicationInfoListTopicReplicationOutputReference {
+func NewMskReplicatorReplicationInfoListTopicReplicationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) MskReplicatorReplicationInfoListTopicReplicationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMskReplicatorReplicationInfoListTopicReplicationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -334,7 +334,7 @@ func NewMskReplicatorReplicationInfoListTopicReplicationOutputReference(terrafor
 	return &j
 }
 
-func NewMskReplicatorReplicationInfoListTopicReplicationOutputReference_Override(m MskReplicatorReplicationInfoListTopicReplicationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewMskReplicatorReplicationInfoListTopicReplicationOutputReference_Override(m MskReplicatorReplicationInfoListTopicReplicationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -421,7 +421,7 @@ func (j *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationOutputReferen
 	)
 }
 
-func (j *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -483,11 +483,11 @@ func (m *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationOutputReferen
 	return returns
 }
 
-func (m *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -611,8 +611,8 @@ func (m *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationOutputReferen
 	return returns
 }
 
-func (m *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -624,11 +624,11 @@ func (m *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationOutputReferen
 	return returns
 }
 
-func (m *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -710,7 +710,7 @@ func (m *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationOutputReferen
 	)
 }
 
-func (m *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

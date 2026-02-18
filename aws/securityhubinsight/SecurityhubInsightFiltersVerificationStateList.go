@@ -5,14 +5,14 @@ package securityhubinsight
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/securityhubinsight/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/securityhubinsight/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SecurityhubInsightFiltersVerificationStateList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type SecurityhubInsightFiltersVerificationStateList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type SecurityhubInsightFiltersVerificationStateList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) SecurityhubInsightFiltersVerificationStateOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type SecurityhubInsightFiltersVerificationStateList interface {
 
 // The jsii proxy struct for SecurityhubInsightFiltersVerificationStateList
 type jsiiProxy_SecurityhubInsightFiltersVerificationStateList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_SecurityhubInsightFiltersVerificationStateList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_SecurityhubInsightFiltersVerificationStateList) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_SecurityhubInsightFiltersVerificationStateList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SecurityhubInsightFiltersVerificationStateList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_SecurityhubInsightFiltersVerificationStateList) WrapsSet() *b
 }
 
 
-func NewSecurityhubInsightFiltersVerificationStateList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersVerificationStateList {
+func NewSecurityhubInsightFiltersVerificationStateList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubInsightFiltersVerificationStateList {
 	_init_.Initialize()
 
 	if err := validateNewSecurityhubInsightFiltersVerificationStateListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewSecurityhubInsightFiltersVerificationStateList(terraformResource cdktf.I
 	return &j
 }
 
-func NewSecurityhubInsightFiltersVerificationStateList_Override(s SecurityhubInsightFiltersVerificationStateList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewSecurityhubInsightFiltersVerificationStateList_Override(s SecurityhubInsightFiltersVerificationStateList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_SecurityhubInsightFiltersVerificationStateList)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_SecurityhubInsightFiltersVerificationStateList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SecurityhubInsightFiltersVerificationStateList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_SecurityhubInsightFiltersVerificationStateList)SetWrapsSet(va
 	)
 }
 
-func (s *jsiiProxy_SecurityhubInsightFiltersVerificationStateList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (s *jsiiProxy_SecurityhubInsightFiltersVerificationStateList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := s.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		s,
@@ -231,7 +231,7 @@ func (s *jsiiProxy_SecurityhubInsightFiltersVerificationStateList) Get(index *fl
 	return returns
 }
 
-func (s *jsiiProxy_SecurityhubInsightFiltersVerificationStateList) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SecurityhubInsightFiltersVerificationStateList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

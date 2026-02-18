@@ -47,7 +47,7 @@ func (f *jsiiProxy_FsxDataRepositoryAssociationS3AutoExportPolicyOutputReference
 	return nil
 }
 
-func (f *jsiiProxy_FsxDataRepositoryAssociationS3AutoExportPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FsxDataRepositoryAssociationS3AutoExportPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_FsxDataRepositoryAssociationS3AutoExportPolicyOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_FsxDataRepositoryAssociationS3AutoExportPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FsxDataRepositoryAssociationS3AutoExportPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFsxDataRepositoryAssociationS3AutoExportPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFsxDataRepositoryAssociationS3AutoExportPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsLbListenerRuleTransformUrlRewriteConfigRewriteOutputRe
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLbListenerRuleTransformUrlRewriteConfigRewriteOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLbListenerRuleTransformUrlRewriteConfigRewriteOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsLbListenerRuleTransformUrlRewriteConfigRewriteOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLbListenerRuleTransformUrlRewriteConfigRewriteOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLbListenerRuleTransformUrlRewriteConfigRewriteOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsLbListenerRuleTransformUrlRewriteConfigRewriteOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsLbListenerRuleTransformUrlRewriteConfigRewriteOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

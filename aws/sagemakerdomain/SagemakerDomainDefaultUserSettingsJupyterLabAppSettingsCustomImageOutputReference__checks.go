@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCustomImageOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCustom
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCustomImageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCustomImageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -192,7 +192,7 @@ func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCustom
 
 func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCustomImageOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCustomImage:
 		val := val.(*SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCustomImage)
@@ -207,7 +207,7 @@ func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCustom
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCustomImage; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCustomImage; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCustom
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCustomImageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCustomImageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCustom
 	return nil
 }
 
-func validateNewSagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCustomImageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCustomImageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

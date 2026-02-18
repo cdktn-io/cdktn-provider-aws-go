@@ -147,7 +147,7 @@ func (j *jsiiProxy_MskCluster) validateSetKafkaVersionParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_MskCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MskCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

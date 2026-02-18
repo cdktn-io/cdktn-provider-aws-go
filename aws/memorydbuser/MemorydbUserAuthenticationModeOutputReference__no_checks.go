@@ -47,7 +47,7 @@ func (m *jsiiProxy_MemorydbUserAuthenticationModeOutputReference) validateInterp
 	return nil
 }
 
-func (m *jsiiProxy_MemorydbUserAuthenticationModeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MemorydbUserAuthenticationModeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_MemorydbUserAuthenticationModeOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_MemorydbUserAuthenticationModeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MemorydbUserAuthenticationModeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MemorydbUserAuthenticationModeOutputReference) validateSetTyp
 	return nil
 }
 
-func validateNewMemorydbUserAuthenticationModeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMemorydbUserAuthenticationModeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

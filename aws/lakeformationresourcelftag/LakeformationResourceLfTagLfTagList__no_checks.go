@@ -15,7 +15,7 @@ func (l *jsiiProxy_LakeformationResourceLfTagLfTagList) validateGetParameters(in
 	return nil
 }
 
-func (l *jsiiProxy_LakeformationResourceLfTagLfTagList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LakeformationResourceLfTagLfTagList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LakeformationResourceLfTagLfTagList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_LakeformationResourceLfTagLfTagList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LakeformationResourceLfTagLfTagList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LakeformationResourceLfTagLfTagList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewLakeformationResourceLfTagLfTagListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLakeformationResourceLfTagLfTagListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

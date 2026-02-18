@@ -15,7 +15,7 @@ func (c *jsiiProxy_CognitoResourceServerScopeList) validateGetParameters(index *
 	return nil
 }
 
-func (c *jsiiProxy_CognitoResourceServerScopeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CognitoResourceServerScopeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CognitoResourceServerScopeList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_CognitoResourceServerScopeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CognitoResourceServerScopeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CognitoResourceServerScopeList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewCognitoResourceServerScopeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCognitoResourceServerScopeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

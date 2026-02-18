@@ -5,14 +5,14 @@ package gameliftgameservergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/gameliftgameservergroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/gameliftgameservergroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GameliftGameServerGroupInstanceDefinitionList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type GameliftGameServerGroupInstanceDefinitionList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type GameliftGameServerGroupInstanceDefinitionList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) GameliftGameServerGroupInstanceDefinitionOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type GameliftGameServerGroupInstanceDefinitionList interface {
 
 // The jsii proxy struct for GameliftGameServerGroupInstanceDefinitionList
 type jsiiProxy_GameliftGameServerGroupInstanceDefinitionList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_GameliftGameServerGroupInstanceDefinitionList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_GameliftGameServerGroupInstanceDefinitionList) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_GameliftGameServerGroupInstanceDefinitionList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GameliftGameServerGroupInstanceDefinitionList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_GameliftGameServerGroupInstanceDefinitionList) WrapsSet() *bo
 }
 
 
-func NewGameliftGameServerGroupInstanceDefinitionList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GameliftGameServerGroupInstanceDefinitionList {
+func NewGameliftGameServerGroupInstanceDefinitionList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GameliftGameServerGroupInstanceDefinitionList {
 	_init_.Initialize()
 
 	if err := validateNewGameliftGameServerGroupInstanceDefinitionListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewGameliftGameServerGroupInstanceDefinitionList(terraformResource cdktf.II
 	return &j
 }
 
-func NewGameliftGameServerGroupInstanceDefinitionList_Override(g GameliftGameServerGroupInstanceDefinitionList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewGameliftGameServerGroupInstanceDefinitionList_Override(g GameliftGameServerGroupInstanceDefinitionList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_GameliftGameServerGroupInstanceDefinitionList)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_GameliftGameServerGroupInstanceDefinitionList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GameliftGameServerGroupInstanceDefinitionList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_GameliftGameServerGroupInstanceDefinitionList)SetWrapsSet(val
 	)
 }
 
-func (g *jsiiProxy_GameliftGameServerGroupInstanceDefinitionList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (g *jsiiProxy_GameliftGameServerGroupInstanceDefinitionList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := g.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		g,
@@ -231,7 +231,7 @@ func (g *jsiiProxy_GameliftGameServerGroupInstanceDefinitionList) Get(index *flo
 	return returns
 }
 
-func (g *jsiiProxy_GameliftGameServerGroupInstanceDefinitionList) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GameliftGameServerGroupInstanceDefinitionList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

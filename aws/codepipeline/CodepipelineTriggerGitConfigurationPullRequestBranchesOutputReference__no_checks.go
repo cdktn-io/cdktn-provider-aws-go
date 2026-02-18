@@ -47,7 +47,7 @@ func (c *jsiiProxy_CodepipelineTriggerGitConfigurationPullRequestBranchesOutputR
 	return nil
 }
 
-func (c *jsiiProxy_CodepipelineTriggerGitConfigurationPullRequestBranchesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodepipelineTriggerGitConfigurationPullRequestBranchesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CodepipelineTriggerGitConfigurationPullRequestBranchesOutputR
 	return nil
 }
 
-func (j *jsiiProxy_CodepipelineTriggerGitConfigurationPullRequestBranchesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodepipelineTriggerGitConfigurationPullRequestBranchesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCodepipelineTriggerGitConfigurationPullRequestBranchesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCodepipelineTriggerGitConfigurationPullRequestBranchesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

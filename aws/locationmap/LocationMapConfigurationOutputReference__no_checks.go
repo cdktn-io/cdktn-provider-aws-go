@@ -47,7 +47,7 @@ func (l *jsiiProxy_LocationMapConfigurationOutputReference) validateInterpolatio
 	return nil
 }
 
-func (l *jsiiProxy_LocationMapConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LocationMapConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_LocationMapConfigurationOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_LocationMapConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LocationMapConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLocationMapConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLocationMapConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

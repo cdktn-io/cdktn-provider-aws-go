@@ -143,7 +143,7 @@ func (j *jsiiProxy_ApiGatewayIntegration) validateSetIntegrationTargetParameters
 	return nil
 }
 
-func (j *jsiiProxy_ApiGatewayIntegration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApiGatewayIntegration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (o *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) valida
 	return nil
 }
 
-func (o *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOdbCloudVmClusterDataCollectionOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOdbCloudVmClusterDataCollectionOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

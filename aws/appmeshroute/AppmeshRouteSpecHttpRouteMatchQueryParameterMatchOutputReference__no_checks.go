@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppmeshRouteSpecHttpRouteMatchQueryParameterMatchOutputRefere
 	return nil
 }
 
-func (a *jsiiProxy_AppmeshRouteSpecHttpRouteMatchQueryParameterMatchOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppmeshRouteSpecHttpRouteMatchQueryParameterMatchOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AppmeshRouteSpecHttpRouteMatchQueryParameterMatchOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshRouteSpecHttpRouteMatchQueryParameterMatchOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppmeshRouteSpecHttpRouteMatchQueryParameterMatchOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppmeshRouteSpecHttpRouteMatchQueryParameterMatchOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppmeshRouteSpecHttpRouteMatchQueryParameterMatchOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

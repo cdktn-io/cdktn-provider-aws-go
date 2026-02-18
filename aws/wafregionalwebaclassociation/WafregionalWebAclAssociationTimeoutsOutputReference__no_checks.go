@@ -47,7 +47,7 @@ func (w *jsiiProxy_WafregionalWebAclAssociationTimeoutsOutputReference) validate
 	return nil
 }
 
-func (w *jsiiProxy_WafregionalWebAclAssociationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WafregionalWebAclAssociationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_WafregionalWebAclAssociationTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_WafregionalWebAclAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WafregionalWebAclAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWafregionalWebAclAssociationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWafregionalWebAclAssociationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

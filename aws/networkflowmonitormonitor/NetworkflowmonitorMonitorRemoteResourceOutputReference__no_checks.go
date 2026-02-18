@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkflowmonitorMonitorRemoteResourceOutputReference) valid
 	return nil
 }
 
-func (n *jsiiProxy_NetworkflowmonitorMonitorRemoteResourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkflowmonitorMonitorRemoteResourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_NetworkflowmonitorMonitorRemoteResourceOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_NetworkflowmonitorMonitorRemoteResourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkflowmonitorMonitorRemoteResourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_NetworkflowmonitorMonitorRemoteResourceOutputReference) valid
 	return nil
 }
 
-func validateNewNetworkflowmonitorMonitorRemoteResourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetworkflowmonitorMonitorRemoteResourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -111,7 +111,7 @@ func (j *jsiiProxy_DbInstanceAutomatedBackupsReplication) validateSetKmsKeyIdPar
 	return nil
 }
 
-func (j *jsiiProxy_DbInstanceAutomatedBackupsReplication) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DbInstanceAutomatedBackupsReplication) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

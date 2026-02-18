@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsCognitoUserPoolSchemaAttributesStringAttributeConstrai
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCognitoUserPoolSchemaAttributesStringAttributeConstraintsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCognitoUserPoolSchemaAttributesStringAttributeConstraintsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolSchemaAttributesStringAttributeConstrai
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolSchemaAttributesStringAttributeConstraintsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCognitoUserPoolSchemaAttributesStringAttributeConstraintsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsCognitoUserPoolSchemaAttributesStringAttributeConstraintsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsCognitoUserPoolSchemaAttributesStringAttributeConstraintsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -5,20 +5,20 @@ package ec2networkinsightsanalysis
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ec2networkinsightsanalysis/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ec2networkinsightsanalysis/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/ec2_network_insights_analysis aws_ec2_network_insights_analysis}.
 type Ec2NetworkInsightsAnalysis interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AlternatePathHints() Ec2NetworkInsightsAnalysisAlternatePathHintsList
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type Ec2NetworkInsightsAnalysis interface {
 	SetFilterInArns(val *[]*string)
 	FilterInArnsInput() *[]*string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	ForwardPathComponents() Ec2NetworkInsightsAnalysisForwardPathComponentsList
 	// Experimental.
 	Fqn() *string
@@ -50,19 +50,19 @@ type Ec2NetworkInsightsAnalysis interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	NetworkInsightsPathId() *string
 	SetNetworkInsightsPathId(val *string)
 	NetworkInsightsPathIdInput() *string
 	// The tree node.
 	Node() constructs.Node
-	PathFound() cdktf.IResolvable
+	PathFound() cdktn.IResolvable
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -83,7 +83,7 @@ type Ec2NetworkInsightsAnalysis interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -100,7 +100,7 @@ type Ec2NetworkInsightsAnalysis interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -118,9 +118,9 @@ type Ec2NetworkInsightsAnalysis interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -159,7 +159,7 @@ type Ec2NetworkInsightsAnalysis interface {
 
 // The jsii proxy struct for Ec2NetworkInsightsAnalysis
 type jsiiProxy_Ec2NetworkInsightsAnalysis struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_Ec2NetworkInsightsAnalysis) AlternatePathHints() Ec2NetworkInsightsAnalysisAlternatePathHintsList {
@@ -182,8 +182,8 @@ func (j *jsiiProxy_Ec2NetworkInsightsAnalysis) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Ec2NetworkInsightsAnalysis) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_Ec2NetworkInsightsAnalysis) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -262,8 +262,8 @@ func (j *jsiiProxy_Ec2NetworkInsightsAnalysis) FilterInArnsInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_Ec2NetworkInsightsAnalysis) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_Ec2NetworkInsightsAnalysis) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -322,8 +322,8 @@ func (j *jsiiProxy_Ec2NetworkInsightsAnalysis) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Ec2NetworkInsightsAnalysis) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_Ec2NetworkInsightsAnalysis) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -362,8 +362,8 @@ func (j *jsiiProxy_Ec2NetworkInsightsAnalysis) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_Ec2NetworkInsightsAnalysis) PathFound() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_Ec2NetworkInsightsAnalysis) PathFound() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"pathFound",
@@ -372,8 +372,8 @@ func (j *jsiiProxy_Ec2NetworkInsightsAnalysis) PathFound() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_Ec2NetworkInsightsAnalysis) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_Ec2NetworkInsightsAnalysis) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -502,8 +502,8 @@ func (j *jsiiProxy_Ec2NetworkInsightsAnalysis) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_Ec2NetworkInsightsAnalysis) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_Ec2NetworkInsightsAnalysis) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -633,7 +633,7 @@ func (j *jsiiProxy_Ec2NetworkInsightsAnalysis)SetFilterInArns(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_Ec2NetworkInsightsAnalysis)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_Ec2NetworkInsightsAnalysis)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -652,7 +652,7 @@ func (j *jsiiProxy_Ec2NetworkInsightsAnalysis)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Ec2NetworkInsightsAnalysis)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_Ec2NetworkInsightsAnalysis)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -674,7 +674,7 @@ func (j *jsiiProxy_Ec2NetworkInsightsAnalysis)SetNetworkInsightsPathId(val *stri
 	)
 }
 
-func (j *jsiiProxy_Ec2NetworkInsightsAnalysis)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_Ec2NetworkInsightsAnalysis)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -737,14 +737,14 @@ func (j *jsiiProxy_Ec2NetworkInsightsAnalysis)SetWaitForCompletion(val interface
 	)
 }
 
-// Generates CDKTF code for importing a Ec2NetworkInsightsAnalysis resource upon running "cdktf plan <stack-name>".
-func Ec2NetworkInsightsAnalysis_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a Ec2NetworkInsightsAnalysis resource upon running "cdktn plan <stack-name>".
+func Ec2NetworkInsightsAnalysis_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateEc2NetworkInsightsAnalysis_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis",
@@ -878,11 +878,11 @@ func (e *jsiiProxy_Ec2NetworkInsightsAnalysis) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (e *jsiiProxy_Ec2NetworkInsightsAnalysis) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_Ec2NetworkInsightsAnalysis) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -1019,7 +1019,7 @@ func (e *jsiiProxy_Ec2NetworkInsightsAnalysis) HasResourceMove() interface{} {
 	return returns
 }
 
-func (e *jsiiProxy_Ec2NetworkInsightsAnalysis) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (e *jsiiProxy_Ec2NetworkInsightsAnalysis) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := e.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1030,11 +1030,11 @@ func (e *jsiiProxy_Ec2NetworkInsightsAnalysis) ImportFrom(id *string, provider c
 	)
 }
 
-func (e *jsiiProxy_Ec2NetworkInsightsAnalysis) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_Ec2NetworkInsightsAnalysis) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,

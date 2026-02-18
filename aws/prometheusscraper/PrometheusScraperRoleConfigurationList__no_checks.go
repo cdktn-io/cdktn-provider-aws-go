@@ -15,7 +15,7 @@ func (p *jsiiProxy_PrometheusScraperRoleConfigurationList) validateGetParameters
 	return nil
 }
 
-func (p *jsiiProxy_PrometheusScraperRoleConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrometheusScraperRoleConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_PrometheusScraperRoleConfigurationList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_PrometheusScraperRoleConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrometheusScraperRoleConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_PrometheusScraperRoleConfigurationList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewPrometheusScraperRoleConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewPrometheusScraperRoleConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

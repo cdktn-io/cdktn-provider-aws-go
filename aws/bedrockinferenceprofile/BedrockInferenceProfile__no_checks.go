@@ -111,7 +111,7 @@ func (j *jsiiProxy_BedrockInferenceProfile) validateSetDescriptionParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_BedrockInferenceProfile) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BedrockInferenceProfile) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

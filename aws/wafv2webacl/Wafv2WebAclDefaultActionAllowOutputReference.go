@@ -5,14 +5,14 @@ package wafv2webacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/wafv2webacl/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/wafv2webacl/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Wafv2WebAclDefaultActionAllowOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type Wafv2WebAclDefaultActionAllowOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,14 +63,14 @@ type Wafv2WebAclDefaultActionAllowOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCustomRequestHandling(value *Wafv2WebAclDefaultActionAllowCustomRequestHandling)
 	ResetCustomRequestHandling()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type Wafv2WebAclDefaultActionAllowOutputReference interface {
 
 // The jsii proxy struct for Wafv2WebAclDefaultActionAllowOutputReference
 type jsiiProxy_Wafv2WebAclDefaultActionAllowOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Wafv2WebAclDefaultActionAllowOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_Wafv2WebAclDefaultActionAllowOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_Wafv2WebAclDefaultActionAllowOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Wafv2WebAclDefaultActionAllowOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_Wafv2WebAclDefaultActionAllowOutputReference) TerraformResour
 }
 
 
-func NewWafv2WebAclDefaultActionAllowOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) Wafv2WebAclDefaultActionAllowOutputReference {
+func NewWafv2WebAclDefaultActionAllowOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) Wafv2WebAclDefaultActionAllowOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWafv2WebAclDefaultActionAllowOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewWafv2WebAclDefaultActionAllowOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewWafv2WebAclDefaultActionAllowOutputReference_Override(w Wafv2WebAclDefaultActionAllowOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewWafv2WebAclDefaultActionAllowOutputReference_Override(w Wafv2WebAclDefaultActionAllowOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_Wafv2WebAclDefaultActionAllowOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_Wafv2WebAclDefaultActionAllowOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Wafv2WebAclDefaultActionAllowOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -285,11 +285,11 @@ func (w *jsiiProxy_Wafv2WebAclDefaultActionAllowOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (w *jsiiProxy_Wafv2WebAclDefaultActionAllowOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_Wafv2WebAclDefaultActionAllowOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -413,8 +413,8 @@ func (w *jsiiProxy_Wafv2WebAclDefaultActionAllowOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (w *jsiiProxy_Wafv2WebAclDefaultActionAllowOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_Wafv2WebAclDefaultActionAllowOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -426,11 +426,11 @@ func (w *jsiiProxy_Wafv2WebAclDefaultActionAllowOutputReference) InterpolationAs
 	return returns
 }
 
-func (w *jsiiProxy_Wafv2WebAclDefaultActionAllowOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_Wafv2WebAclDefaultActionAllowOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -461,7 +461,7 @@ func (w *jsiiProxy_Wafv2WebAclDefaultActionAllowOutputReference) ResetCustomRequ
 	)
 }
 
-func (w *jsiiProxy_Wafv2WebAclDefaultActionAllowOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_Wafv2WebAclDefaultActionAllowOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

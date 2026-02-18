@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsBudgetsBudgetAutoAdjustDataOutputReference) validateIn
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsBudgetsBudgetAutoAdjustDataOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsBudgetsBudgetAutoAdjustDataOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsBudgetsBudgetAutoAdjustDataOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsBudgetsBudgetAutoAdjustDataOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsBudgetsBudgetAutoAdjustDataOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsBudgetsBudgetAutoAdjustDataOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsBudgetsBudgetAutoAdjustDataOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

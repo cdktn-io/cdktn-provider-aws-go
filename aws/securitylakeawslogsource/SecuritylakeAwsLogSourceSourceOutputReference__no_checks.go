@@ -47,7 +47,7 @@ func (s *jsiiProxy_SecuritylakeAwsLogSourceSourceOutputReference) validateInterp
 	return nil
 }
 
-func (s *jsiiProxy_SecuritylakeAwsLogSourceSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecuritylakeAwsLogSourceSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_SecuritylakeAwsLogSourceSourceOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_SecuritylakeAwsLogSourceSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecuritylakeAwsLogSourceSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSecuritylakeAwsLogSourceSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSecuritylakeAwsLogSourceSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

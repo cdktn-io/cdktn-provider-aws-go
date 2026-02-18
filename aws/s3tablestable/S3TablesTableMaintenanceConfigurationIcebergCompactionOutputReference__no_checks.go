@@ -51,7 +51,7 @@ func (s *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionOutputR
 	return nil
 }
 
-func (s *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionOutputR
 	return nil
 }
 
-func (j *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3TablesTableMaintenanceConfigurationIcebergCompactionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewS3TablesTableMaintenanceConfigurationIcebergCompactionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewS3TablesTableMaintenanceConfigurationIcebergCompactionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

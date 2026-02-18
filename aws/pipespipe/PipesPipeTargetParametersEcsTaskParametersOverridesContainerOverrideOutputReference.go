@@ -5,14 +5,14 @@ package pipespipe
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/pipespipe/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/pipespipe/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Command() *[]*string
 	SetCommand(val *[]*string)
 	CommandInput() *[]*string
@@ -58,15 +58,15 @@ type PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputR
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -82,9 +82,9 @@ type PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputR
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutEnvironment(value interface{})
 	PutEnvironmentFile(value interface{})
 	PutResourceRequirement(value interface{})
@@ -98,7 +98,7 @@ type PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputR
 	ResetResourceRequirement()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -108,7 +108,7 @@ type PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputR
 
 // The jsii proxy struct for PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference
 type jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference) Command() *[]*string {
@@ -331,8 +331,8 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerO
 	return returns
 }
 
-func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -342,7 +342,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerO
 }
 
 
-func NewPipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference {
+func NewPipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -359,7 +359,7 @@ func NewPipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutp
 	return &j
 }
 
-func NewPipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference_Override(p PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewPipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference_Override(p PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -468,7 +468,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerO
 	)
 }
 
-func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -508,11 +508,11 @@ func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerO
 	return returns
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -636,8 +636,8 @@ func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerO
 	return returns
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -649,11 +649,11 @@ func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerO
 	return returns
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -762,7 +762,7 @@ func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerO
 	)
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

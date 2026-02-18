@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsSesv2DedicatedIpPoolDedicatedIpsOutputReference) valid
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsSesv2DedicatedIpPoolDedicatedIpsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsSesv2DedicatedIpPoolDedicatedIpsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsSesv2DedicatedIpPoolDedicatedIpsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSesv2DedicatedIpPoolDedicatedIpsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsSesv2DedicatedIpPoolDedicatedIpsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsSesv2DedicatedIpPoolDedicatedIpsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsSesv2DedicatedIpPoolDedicatedIpsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (f *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (f *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) validateGetParam
 	return nil
 }
 
-func (f *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (f *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) validateResolveP
 
 func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*FsxS3AccessPointAttachmentS3AccessPoint:
 		val := val.(*[]*FsxS3AccessPointAttachmentS3AccessPoint)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) validateSetInter
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*FsxS3AccessPointAttachmentS3AccessPoint; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*FsxS3AccessPointAttachmentS3AccessPoint; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) validateSetWraps
 	return nil
 }
 
-func validateNewFsxS3AccessPointAttachmentS3AccessPointListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFsxS3AccessPointAttachmentS3AccessPointListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

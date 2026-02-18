@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppconfigExtensionActionPointActionList) validateGetParameter
 	return nil
 }
 
-func (a *jsiiProxy_AppconfigExtensionActionPointActionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppconfigExtensionActionPointActionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppconfigExtensionActionPointActionList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_AppconfigExtensionActionPointActionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppconfigExtensionActionPointActionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppconfigExtensionActionPointActionList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewAppconfigExtensionActionPointActionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppconfigExtensionActionPointActionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

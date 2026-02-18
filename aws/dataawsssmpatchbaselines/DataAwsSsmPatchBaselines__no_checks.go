@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsSsmPatchBaselines) validateSetDefaultBaselinesParamete
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSsmPatchBaselines) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsSsmPatchBaselines) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

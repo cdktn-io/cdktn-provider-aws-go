@@ -51,7 +51,7 @@ func (v *jsiiProxy_VpnConnectionTunnel2LogOptionsOutputReference) validatePutClo
 	return nil
 }
 
-func (v *jsiiProxy_VpnConnectionTunnel2LogOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpnConnectionTunnel2LogOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_VpnConnectionTunnel2LogOptionsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_VpnConnectionTunnel2LogOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpnConnectionTunnel2LogOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpnConnectionTunnel2LogOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpnConnectionTunnel2LogOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

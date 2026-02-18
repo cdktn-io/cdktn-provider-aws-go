@@ -51,7 +51,7 @@ func (q *jsiiProxy_QuicksightDashboardSourceEntitySourceTemplateOutputReference)
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDashboardSourceEntitySourceTemplateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDashboardSourceEntitySourceTemplateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_QuicksightDashboardSourceEntitySourceTemplateOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDashboardSourceEntitySourceTemplateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDashboardSourceEntitySourceTemplateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewQuicksightDashboardSourceEntitySourceTemplateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewQuicksightDashboardSourceEntitySourceTemplateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

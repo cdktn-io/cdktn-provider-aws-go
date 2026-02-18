@@ -5,22 +5,22 @@ package sagemakernotebookinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/sagemakernotebookinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/sagemakernotebookinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/sagemaker_notebook_instance aws_sagemaker_notebook_instance}.
 type SagemakerNotebookInstance interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AdditionalCodeRepositories() *[]*string
 	SetAdditionalCodeRepositories(val *[]*string)
 	AdditionalCodeRepositoriesInput() *[]*string
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -42,9 +42,9 @@ type SagemakerNotebookInstance interface {
 	SetDirectInternetAccess(val *string)
 	DirectInternetAccessInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -61,9 +61,9 @@ type SagemakerNotebookInstance interface {
 	SetKmsKeyId(val *string)
 	KmsKeyIdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LifecycleConfigName() *string
 	SetLifecycleConfigName(val *string)
 	LifecycleConfigNameInput() *string
@@ -77,9 +77,9 @@ type SagemakerNotebookInstance interface {
 	SetPlatformIdentifier(val *string)
 	PlatformIdentifierInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -108,7 +108,7 @@ type SagemakerNotebookInstance interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -125,7 +125,7 @@ type SagemakerNotebookInstance interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -143,9 +143,9 @@ type SagemakerNotebookInstance interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -194,7 +194,7 @@ type SagemakerNotebookInstance interface {
 
 // The jsii proxy struct for SagemakerNotebookInstance
 type jsiiProxy_SagemakerNotebookInstance struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_SagemakerNotebookInstance) AdditionalCodeRepositories() *[]*string {
@@ -227,8 +227,8 @@ func (j *jsiiProxy_SagemakerNotebookInstance) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SagemakerNotebookInstance) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_SagemakerNotebookInstance) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -317,8 +317,8 @@ func (j *jsiiProxy_SagemakerNotebookInstance) DirectInternetAccessInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_SagemakerNotebookInstance) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_SagemakerNotebookInstance) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -427,8 +427,8 @@ func (j *jsiiProxy_SagemakerNotebookInstance) KmsKeyIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SagemakerNotebookInstance) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_SagemakerNotebookInstance) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -517,8 +517,8 @@ func (j *jsiiProxy_SagemakerNotebookInstance) PlatformIdentifierInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_SagemakerNotebookInstance) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_SagemakerNotebookInstance) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -687,8 +687,8 @@ func (j *jsiiProxy_SagemakerNotebookInstance) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_SagemakerNotebookInstance) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_SagemakerNotebookInstance) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -840,7 +840,7 @@ func (j *jsiiProxy_SagemakerNotebookInstance)SetDirectInternetAccess(val *string
 	)
 }
 
-func (j *jsiiProxy_SagemakerNotebookInstance)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_SagemakerNotebookInstance)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -881,7 +881,7 @@ func (j *jsiiProxy_SagemakerNotebookInstance)SetKmsKeyId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SagemakerNotebookInstance)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_SagemakerNotebookInstance)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -925,7 +925,7 @@ func (j *jsiiProxy_SagemakerNotebookInstance)SetPlatformIdentifier(val *string) 
 	)
 }
 
-func (j *jsiiProxy_SagemakerNotebookInstance)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_SagemakerNotebookInstance)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1032,14 +1032,14 @@ func (j *jsiiProxy_SagemakerNotebookInstance)SetVolumeSize(val *float64) {
 	)
 }
 
-// Generates CDKTF code for importing a SagemakerNotebookInstance resource upon running "cdktf plan <stack-name>".
-func SagemakerNotebookInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a SagemakerNotebookInstance resource upon running "cdktn plan <stack-name>".
+func SagemakerNotebookInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateSagemakerNotebookInstance_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.sagemakerNotebookInstance.SagemakerNotebookInstance",
@@ -1173,11 +1173,11 @@ func (s *jsiiProxy_SagemakerNotebookInstance) GetAnyMapAttribute(terraformAttrib
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerNotebookInstance) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerNotebookInstance) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -1314,7 +1314,7 @@ func (s *jsiiProxy_SagemakerNotebookInstance) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerNotebookInstance) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_SagemakerNotebookInstance) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1325,11 +1325,11 @@ func (s *jsiiProxy_SagemakerNotebookInstance) ImportFrom(id *string, provider cd
 	)
 }
 
-func (s *jsiiProxy_SagemakerNotebookInstance) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerNotebookInstance) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

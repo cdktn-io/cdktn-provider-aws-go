@@ -115,7 +115,7 @@ func (j *jsiiProxy_ConnectHoursOfOperation) validateSetInstanceIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_ConnectHoursOfOperation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ConnectHoursOfOperation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

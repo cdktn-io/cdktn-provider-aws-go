@@ -5,14 +5,14 @@ package appstreamdirectoryconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/appstreamdirectoryconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appstreamdirectoryconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppstreamDirectoryConfigServiceAccountCredentialsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AccountName() *string
 	SetAccountName(val *string)
 	AccountNameInput() *string
@@ -43,15 +43,15 @@ type AppstreamDirectoryConfigServiceAccountCredentialsOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type AppstreamDirectoryConfigServiceAccountCredentialsOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type AppstreamDirectoryConfigServiceAccountCredentialsOutputReference interface 
 
 // The jsii proxy struct for AppstreamDirectoryConfigServiceAccountCredentialsOutputReference
 type jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputReference) AccountName() *string {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputRefere
 }
 
 
-func NewAppstreamDirectoryConfigServiceAccountCredentialsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AppstreamDirectoryConfigServiceAccountCredentialsOutputReference {
+func NewAppstreamDirectoryConfigServiceAccountCredentialsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AppstreamDirectoryConfigServiceAccountCredentialsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAppstreamDirectoryConfigServiceAccountCredentialsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewAppstreamDirectoryConfigServiceAccountCredentialsOutputReference(terrafo
 	return &j
 }
 
-func NewAppstreamDirectoryConfigServiceAccountCredentialsOutputReference_Override(a AppstreamDirectoryConfigServiceAccountCredentialsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAppstreamDirectoryConfigServiceAccountCredentialsOutputReference_Override(a AppstreamDirectoryConfigServiceAccountCredentialsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputRefere
 	)
 }
 
-func (j *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (a *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputRefere
 	return returns
 }
 
-func (a *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -457,8 +457,8 @@ func (a *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputRefere
 	return returns
 }
 
-func (a *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -470,11 +470,11 @@ func (a *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputRefere
 	return returns
 }
 
-func (a *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -486,7 +486,7 @@ func (a *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputRefere
 	return returns
 }
 
-func (a *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppstreamDirectoryConfigServiceAccountCredentialsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

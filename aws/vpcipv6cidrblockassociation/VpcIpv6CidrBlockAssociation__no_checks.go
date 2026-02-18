@@ -127,7 +127,7 @@ func (j *jsiiProxy_VpcIpv6CidrBlockAssociation) validateSetIpv6PoolParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_VpcIpv6CidrBlockAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VpcIpv6CidrBlockAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

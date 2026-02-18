@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsCloudfrontFunction) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCloudfrontFunction) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsCloudfrontFunction) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

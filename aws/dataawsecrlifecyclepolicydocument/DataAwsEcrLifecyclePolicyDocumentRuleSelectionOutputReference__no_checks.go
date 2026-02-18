@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (r *jsiiProxy_Route53RecordWeightedRoutingPolicyOutputReference) validateIn
 	return nil
 }
 
-func (r *jsiiProxy_Route53RecordWeightedRoutingPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_Route53RecordWeightedRoutingPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_Route53RecordWeightedRoutingPolicyOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_Route53RecordWeightedRoutingPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Route53RecordWeightedRoutingPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_Route53RecordWeightedRoutingPolicyOutputReference) validateSe
 	return nil
 }
 
-func validateNewRoute53RecordWeightedRoutingPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRoute53RecordWeightedRoutingPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

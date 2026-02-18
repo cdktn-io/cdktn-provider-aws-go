@@ -51,7 +51,7 @@ func (r *jsiiProxy_RolesanywhereTrustAnchorSourceOutputReference) validatePutSou
 	return nil
 }
 
-func (r *jsiiProxy_RolesanywhereTrustAnchorSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RolesanywhereTrustAnchorSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_RolesanywhereTrustAnchorSourceOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_RolesanywhereTrustAnchorSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RolesanywhereTrustAnchorSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRolesanywhereTrustAnchorSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRolesanywhereTrustAnchorSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

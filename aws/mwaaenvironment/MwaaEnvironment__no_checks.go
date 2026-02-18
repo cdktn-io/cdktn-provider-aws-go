@@ -143,7 +143,7 @@ func (j *jsiiProxy_MwaaEnvironment) validateSetKmsKeyParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_MwaaEnvironment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MwaaEnvironment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

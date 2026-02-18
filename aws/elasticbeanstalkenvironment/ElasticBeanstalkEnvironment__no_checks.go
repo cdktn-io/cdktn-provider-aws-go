@@ -119,7 +119,7 @@ func (j *jsiiProxy_ElasticBeanstalkEnvironment) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_ElasticBeanstalkEnvironment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ElasticBeanstalkEnvironment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

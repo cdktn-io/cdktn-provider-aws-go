@@ -47,7 +47,7 @@ func (g *jsiiProxy_GlueCatalogDatabaseCreateTableDefaultPermissionPrincipalOutpu
 	return nil
 }
 
-func (g *jsiiProxy_GlueCatalogDatabaseCreateTableDefaultPermissionPrincipalOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueCatalogDatabaseCreateTableDefaultPermissionPrincipalOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GlueCatalogDatabaseCreateTableDefaultPermissionPrincipalOutpu
 	return nil
 }
 
-func (j *jsiiProxy_GlueCatalogDatabaseCreateTableDefaultPermissionPrincipalOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueCatalogDatabaseCreateTableDefaultPermissionPrincipalOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGlueCatalogDatabaseCreateTableDefaultPermissionPrincipalOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGlueCatalogDatabaseCreateTableDefaultPermissionPrincipalOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

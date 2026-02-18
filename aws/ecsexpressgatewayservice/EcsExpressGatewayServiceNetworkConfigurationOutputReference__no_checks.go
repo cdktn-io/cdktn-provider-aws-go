@@ -47,7 +47,7 @@ func (e *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) 
 	return nil
 }
 
-func (e *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsExpressGatewayServiceNetworkConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEcsExpressGatewayServiceNetworkConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEcsExpressGatewayServiceNetworkConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

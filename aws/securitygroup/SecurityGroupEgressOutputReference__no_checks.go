@@ -47,7 +47,7 @@ func (s *jsiiProxy_SecurityGroupEgressOutputReference) validateInterpolationForA
 	return nil
 }
 
-func (s *jsiiProxy_SecurityGroupEgressOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecurityGroupEgressOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_SecurityGroupEgressOutputReference) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_SecurityGroupEgressOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecurityGroupEgressOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -107,7 +107,7 @@ func (j *jsiiProxy_SecurityGroupEgressOutputReference) validateSetToPortParamete
 	return nil
 }
 
-func validateNewSecurityGroupEgressOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSecurityGroupEgressOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

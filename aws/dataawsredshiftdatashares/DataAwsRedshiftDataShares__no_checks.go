@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsRedshiftDataShares) validateSetCountParameters(val int
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRedshiftDataShares) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsRedshiftDataShares) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

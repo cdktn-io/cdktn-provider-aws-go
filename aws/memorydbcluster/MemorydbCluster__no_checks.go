@@ -139,7 +139,7 @@ func (j *jsiiProxy_MemorydbCluster) validateSetKmsKeyArnParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_MemorydbCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MemorydbCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package appflowflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/appflowflow/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appflowflow/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppflowFlowTaskList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type AppflowFlowTaskList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type AppflowFlowTaskList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) AppflowFlowTaskOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type AppflowFlowTaskList interface {
 
 // The jsii proxy struct for AppflowFlowTaskList
 type jsiiProxy_AppflowFlowTaskList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_AppflowFlowTaskList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_AppflowFlowTaskList) TerraformAttribute() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AppflowFlowTaskList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppflowFlowTaskList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_AppflowFlowTaskList) WrapsSet() *bool {
 }
 
 
-func NewAppflowFlowTaskList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AppflowFlowTaskList {
+func NewAppflowFlowTaskList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AppflowFlowTaskList {
 	_init_.Initialize()
 
 	if err := validateNewAppflowFlowTaskListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewAppflowFlowTaskList(terraformResource cdktf.IInterpolatingParent, terraf
 	return &j
 }
 
-func NewAppflowFlowTaskList_Override(a AppflowFlowTaskList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewAppflowFlowTaskList_Override(a AppflowFlowTaskList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_AppflowFlowTaskList)SetTerraformAttribute(val *string) {
 	)
 }
 
-func (j *jsiiProxy_AppflowFlowTaskList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppflowFlowTaskList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_AppflowFlowTaskList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (a *jsiiProxy_AppflowFlowTaskList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (a *jsiiProxy_AppflowFlowTaskList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := a.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		a,
@@ -231,7 +231,7 @@ func (a *jsiiProxy_AppflowFlowTaskList) Get(index *float64) AppflowFlowTaskOutpu
 	return returns
 }
 
-func (a *jsiiProxy_AppflowFlowTaskList) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppflowFlowTaskList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

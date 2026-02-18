@@ -15,7 +15,7 @@ func (v *jsiiProxy_VpclatticeListenerDefaultActionForwardList) validateGetParame
 	return nil
 }
 
-func (v *jsiiProxy_VpclatticeListenerDefaultActionForwardList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpclatticeListenerDefaultActionForwardList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VpclatticeListenerDefaultActionForwardList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_VpclatticeListenerDefaultActionForwardList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpclatticeListenerDefaultActionForwardList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VpclatticeListenerDefaultActionForwardList) validateSetWrapsS
 	return nil
 }
 
-func validateNewVpclatticeListenerDefaultActionForwardListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVpclatticeListenerDefaultActionForwardListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

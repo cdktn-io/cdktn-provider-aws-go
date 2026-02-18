@@ -5,14 +5,14 @@ package vpcendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/vpcendpoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/vpcendpoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VpcEndpointDnsEntryList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type VpcEndpointDnsEntryList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type VpcEndpointDnsEntryList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) VpcEndpointDnsEntryOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type VpcEndpointDnsEntryList interface {
 
 // The jsii proxy struct for VpcEndpointDnsEntryList
 type jsiiProxy_VpcEndpointDnsEntryList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_VpcEndpointDnsEntryList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_VpcEndpointDnsEntryList) TerraformAttribute() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VpcEndpointDnsEntryList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VpcEndpointDnsEntryList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_VpcEndpointDnsEntryList) WrapsSet() *bool {
 }
 
 
-func NewVpcEndpointDnsEntryList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) VpcEndpointDnsEntryList {
+func NewVpcEndpointDnsEntryList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) VpcEndpointDnsEntryList {
 	_init_.Initialize()
 
 	if err := validateNewVpcEndpointDnsEntryListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewVpcEndpointDnsEntryList(terraformResource cdktf.IInterpolatingParent, te
 	return &j
 }
 
-func NewVpcEndpointDnsEntryList_Override(v VpcEndpointDnsEntryList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewVpcEndpointDnsEntryList_Override(v VpcEndpointDnsEntryList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_VpcEndpointDnsEntryList)SetTerraformAttribute(val *string) {
 	)
 }
 
-func (j *jsiiProxy_VpcEndpointDnsEntryList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VpcEndpointDnsEntryList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_VpcEndpointDnsEntryList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (v *jsiiProxy_VpcEndpointDnsEntryList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (v *jsiiProxy_VpcEndpointDnsEntryList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := v.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		v,
@@ -208,7 +208,7 @@ func (v *jsiiProxy_VpcEndpointDnsEntryList) Get(index *float64) VpcEndpointDnsEn
 	return returns
 }
 
-func (v *jsiiProxy_VpcEndpointDnsEntryList) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VpcEndpointDnsEntryList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

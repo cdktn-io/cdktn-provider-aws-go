@@ -15,7 +15,7 @@ func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersCapacityProviderStr
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersCapacityProviderStr
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersCapacityProviderStr
 	return nil
 }
 
-func validateNewPipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewPipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

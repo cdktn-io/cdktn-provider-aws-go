@@ -115,7 +115,7 @@ func (j *jsiiProxy_ChimeVoiceConnectorStreaming) validateSetIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_ChimeVoiceConnectorStreaming) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ChimeVoiceConnectorStreaming) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

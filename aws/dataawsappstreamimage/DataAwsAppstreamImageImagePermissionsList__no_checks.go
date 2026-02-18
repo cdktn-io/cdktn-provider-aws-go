@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsAppstreamImageImagePermissionsList) validateGetParamet
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAppstreamImageImagePermissionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAppstreamImageImagePermissionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsAppstreamImageImagePermissionsList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAppstreamImageImagePermissionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAppstreamImageImagePermissionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsAppstreamImageImagePermissionsList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewDataAwsAppstreamImageImagePermissionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsAppstreamImageImagePermissionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (f *jsiiProxy_FinspaceKxClusterDatabaseList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (f *jsiiProxy_FinspaceKxClusterDatabaseList) validateGetParameters(index *f
 	return nil
 }
 
-func (f *jsiiProxy_FinspaceKxClusterDatabaseList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FinspaceKxClusterDatabaseList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (f *jsiiProxy_FinspaceKxClusterDatabaseList) validateResolveParameters(cont
 
 func (j *jsiiProxy_FinspaceKxClusterDatabaseList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*FinspaceKxClusterDatabase:
 		val := val.(*[]*FinspaceKxClusterDatabase)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_FinspaceKxClusterDatabaseList) validateSetInternalValueParame
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*FinspaceKxClusterDatabase; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*FinspaceKxClusterDatabase; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_FinspaceKxClusterDatabaseList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_FinspaceKxClusterDatabaseList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FinspaceKxClusterDatabaseList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_FinspaceKxClusterDatabaseList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewFinspaceKxClusterDatabaseListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFinspaceKxClusterDatabaseListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

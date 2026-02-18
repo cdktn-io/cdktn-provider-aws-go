@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppmeshRouteSpecTcpRouteActionWeightedTargetOutputReference) 
 	return nil
 }
 
-func (a *jsiiProxy_AppmeshRouteSpecTcpRouteActionWeightedTargetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppmeshRouteSpecTcpRouteActionWeightedTargetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_AppmeshRouteSpecTcpRouteActionWeightedTargetOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshRouteSpecTcpRouteActionWeightedTargetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppmeshRouteSpecTcpRouteActionWeightedTargetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_AppmeshRouteSpecTcpRouteActionWeightedTargetOutputReference) 
 	return nil
 }
 
-func validateNewAppmeshRouteSpecTcpRouteActionWeightedTargetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppmeshRouteSpecTcpRouteActionWeightedTargetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

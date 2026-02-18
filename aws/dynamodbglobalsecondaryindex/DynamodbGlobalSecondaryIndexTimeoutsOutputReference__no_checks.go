@@ -47,7 +47,7 @@ func (d *jsiiProxy_DynamodbGlobalSecondaryIndexTimeoutsOutputReference) validate
 	return nil
 }
 
-func (d *jsiiProxy_DynamodbGlobalSecondaryIndexTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DynamodbGlobalSecondaryIndexTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DynamodbGlobalSecondaryIndexTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_DynamodbGlobalSecondaryIndexTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DynamodbGlobalSecondaryIndexTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DynamodbGlobalSecondaryIndexTimeoutsOutputReference) validate
 	return nil
 }
 
-func validateNewDynamodbGlobalSecondaryIndexTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDynamodbGlobalSecondaryIndexTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

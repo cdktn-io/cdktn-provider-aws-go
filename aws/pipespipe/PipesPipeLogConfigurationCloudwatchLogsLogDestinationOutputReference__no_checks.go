@@ -47,7 +47,7 @@ func (p *jsiiProxy_PipesPipeLogConfigurationCloudwatchLogsLogDestinationOutputRe
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeLogConfigurationCloudwatchLogsLogDestinationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeLogConfigurationCloudwatchLogsLogDestinationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_PipesPipeLogConfigurationCloudwatchLogsLogDestinationOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeLogConfigurationCloudwatchLogsLogDestinationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeLogConfigurationCloudwatchLogsLogDestinationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPipesPipeLogConfigurationCloudwatchLogsLogDestinationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPipesPipeLogConfigurationCloudwatchLogsLogDestinationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

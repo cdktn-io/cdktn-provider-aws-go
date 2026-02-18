@@ -5,14 +5,14 @@ package ekscapability
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ekscapability/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ekscapability/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EksCapabilityConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ArgoCd() EksCapabilityConfigurationArgoCdList
 	ArgoCdInput() interface{}
 	// the index of the complex object in a list.
@@ -39,15 +39,15 @@ type EksCapabilityConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,14 +63,14 @@ type EksCapabilityConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutArgoCd(value interface{})
 	ResetArgoCd()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type EksCapabilityConfigurationOutputReference interface {
 
 // The jsii proxy struct for EksCapabilityConfigurationOutputReference
 type jsiiProxy_EksCapabilityConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EksCapabilityConfigurationOutputReference) ArgoCd() EksCapabilityConfigurationArgoCdList {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_EksCapabilityConfigurationOutputReference) TerraformAttribute
 	return returns
 }
 
-func (j *jsiiProxy_EksCapabilityConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EksCapabilityConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_EksCapabilityConfigurationOutputReference) TerraformResource(
 }
 
 
-func NewEksCapabilityConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EksCapabilityConfigurationOutputReference {
+func NewEksCapabilityConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EksCapabilityConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEksCapabilityConfigurationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -191,7 +191,7 @@ func NewEksCapabilityConfigurationOutputReference(terraformResource cdktf.IInter
 	return &j
 }
 
-func NewEksCapabilityConfigurationOutputReference_Override(e EksCapabilityConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewEksCapabilityConfigurationOutputReference_Override(e EksCapabilityConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_EksCapabilityConfigurationOutputReference)SetTerraformAttribu
 	)
 }
 
-func (j *jsiiProxy_EksCapabilityConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EksCapabilityConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -285,11 +285,11 @@ func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) GetAnyMapAttribute
 	return returns
 }
 
-func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -413,8 +413,8 @@ func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) GetStringMapAttrib
 	return returns
 }
 
-func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -426,11 +426,11 @@ func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) InterpolationAsLis
 	return returns
 }
 
-func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -461,7 +461,7 @@ func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) ResetArgoCd() {
 	)
 }
 
-func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

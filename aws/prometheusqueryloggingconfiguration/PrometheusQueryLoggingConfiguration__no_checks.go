@@ -107,7 +107,7 @@ func (j *jsiiProxy_PrometheusQueryLoggingConfiguration) validateSetCountParamete
 	return nil
 }
 
-func (j *jsiiProxy_PrometheusQueryLoggingConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PrometheusQueryLoggingConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

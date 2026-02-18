@@ -47,7 +47,7 @@ func (f *jsiiProxy_FmsPolicyExcludeMapOutputReference) validateInterpolationForA
 	return nil
 }
 
-func (f *jsiiProxy_FmsPolicyExcludeMapOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FmsPolicyExcludeMapOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_FmsPolicyExcludeMapOutputReference) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_FmsPolicyExcludeMapOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FmsPolicyExcludeMapOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFmsPolicyExcludeMapOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFmsPolicyExcludeMapOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) validateInte
 	return nil
 }
 
-func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSsmResourceDataSyncS3DestinationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSsmResourceDataSyncS3DestinationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

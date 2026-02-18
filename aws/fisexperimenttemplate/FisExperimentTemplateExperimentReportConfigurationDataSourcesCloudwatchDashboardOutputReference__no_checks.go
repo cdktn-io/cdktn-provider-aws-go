@@ -47,7 +47,7 @@ func (f *jsiiProxy_FisExperimentTemplateExperimentReportConfigurationDataSources
 	return nil
 }
 
-func (f *jsiiProxy_FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboardOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboardOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_FisExperimentTemplateExperimentReportConfigurationDataSources
 	return nil
 }
 
-func (j *jsiiProxy_FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboardOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboardOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboardOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboardOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

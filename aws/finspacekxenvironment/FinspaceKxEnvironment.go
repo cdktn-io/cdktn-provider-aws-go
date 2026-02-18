@@ -5,20 +5,20 @@ package finspacekxenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/finspacekxenvironment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/finspacekxenvironment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/finspace_kx_environment aws_finspace_kx_environment}.
 type FinspaceKxEnvironment interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	AvailabilityZones() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -40,9 +40,9 @@ type FinspaceKxEnvironment interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -54,18 +54,18 @@ type FinspaceKxEnvironment interface {
 	KmsKeyIdInput() *string
 	LastModifiedTimestamp() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -83,7 +83,7 @@ type FinspaceKxEnvironment interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -100,7 +100,7 @@ type FinspaceKxEnvironment interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -118,9 +118,9 @@ type FinspaceKxEnvironment interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -163,7 +163,7 @@ type FinspaceKxEnvironment interface {
 
 // The jsii proxy struct for FinspaceKxEnvironment
 type jsiiProxy_FinspaceKxEnvironment struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_FinspaceKxEnvironment) Arn() *string {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_FinspaceKxEnvironment) AvailabilityZones() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_FinspaceKxEnvironment) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_FinspaceKxEnvironment) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -286,8 +286,8 @@ func (j *jsiiProxy_FinspaceKxEnvironment) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FinspaceKxEnvironment) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_FinspaceKxEnvironment) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -366,8 +366,8 @@ func (j *jsiiProxy_FinspaceKxEnvironment) LastModifiedTimestamp() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FinspaceKxEnvironment) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_FinspaceKxEnvironment) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -406,8 +406,8 @@ func (j *jsiiProxy_FinspaceKxEnvironment) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_FinspaceKxEnvironment) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_FinspaceKxEnvironment) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -506,8 +506,8 @@ func (j *jsiiProxy_FinspaceKxEnvironment) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_FinspaceKxEnvironment) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_FinspaceKxEnvironment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -647,7 +647,7 @@ func (j *jsiiProxy_FinspaceKxEnvironment)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_FinspaceKxEnvironment)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_FinspaceKxEnvironment)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -666,7 +666,7 @@ func (j *jsiiProxy_FinspaceKxEnvironment)SetKmsKeyId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_FinspaceKxEnvironment)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_FinspaceKxEnvironment)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -688,7 +688,7 @@ func (j *jsiiProxy_FinspaceKxEnvironment)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_FinspaceKxEnvironment)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_FinspaceKxEnvironment)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -740,14 +740,14 @@ func (j *jsiiProxy_FinspaceKxEnvironment)SetTagsAll(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a FinspaceKxEnvironment resource upon running "cdktf plan <stack-name>".
-func FinspaceKxEnvironment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a FinspaceKxEnvironment resource upon running "cdktn plan <stack-name>".
+func FinspaceKxEnvironment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateFinspaceKxEnvironment_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.finspaceKxEnvironment.FinspaceKxEnvironment",
@@ -881,11 +881,11 @@ func (f *jsiiProxy_FinspaceKxEnvironment) GetAnyMapAttribute(terraformAttribute 
 	return returns
 }
 
-func (f *jsiiProxy_FinspaceKxEnvironment) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FinspaceKxEnvironment) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -1022,7 +1022,7 @@ func (f *jsiiProxy_FinspaceKxEnvironment) HasResourceMove() interface{} {
 	return returns
 }
 
-func (f *jsiiProxy_FinspaceKxEnvironment) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (f *jsiiProxy_FinspaceKxEnvironment) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := f.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1033,11 +1033,11 @@ func (f *jsiiProxy_FinspaceKxEnvironment) ImportFrom(id *string, provider cdktf.
 	)
 }
 
-func (f *jsiiProxy_FinspaceKxEnvironment) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FinspaceKxEnvironment) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,

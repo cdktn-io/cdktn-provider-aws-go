@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsKendraQuerySuggestionsBlockList) validateSetIndexIdPar
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsKendraQuerySuggestionsBlockList) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsKendraQuerySuggestionsBlockList) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

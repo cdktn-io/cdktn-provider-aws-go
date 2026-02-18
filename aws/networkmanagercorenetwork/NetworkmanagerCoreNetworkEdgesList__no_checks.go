@@ -15,7 +15,7 @@ func (n *jsiiProxy_NetworkmanagerCoreNetworkEdgesList) validateGetParameters(ind
 	return nil
 }
 
-func (n *jsiiProxy_NetworkmanagerCoreNetworkEdgesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkmanagerCoreNetworkEdgesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_NetworkmanagerCoreNetworkEdgesList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerCoreNetworkEdgesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkmanagerCoreNetworkEdgesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_NetworkmanagerCoreNetworkEdgesList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewNetworkmanagerCoreNetworkEdgesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkmanagerCoreNetworkEdgesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

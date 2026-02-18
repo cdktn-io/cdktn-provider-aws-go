@@ -47,7 +47,7 @@ func (p *jsiiProxy_PipesPipeTargetParametersRedshiftDataParametersOutputReferenc
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersRedshiftDataParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeTargetParametersRedshiftDataParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersRedshiftDataParametersOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeTargetParametersRedshiftDataParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeTargetParametersRedshiftDataParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersRedshiftDataParametersOutputReferenc
 	return nil
 }
 
-func validateNewPipesPipeTargetParametersRedshiftDataParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPipesPipeTargetParametersRedshiftDataParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

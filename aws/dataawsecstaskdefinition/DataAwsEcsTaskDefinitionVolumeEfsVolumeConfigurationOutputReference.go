@@ -5,14 +5,14 @@ package dataawsecstaskdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsecstaskdefinition/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsecstaskdefinition/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AuthorizationConfig() DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfigList
 	// the index of the complex object in a list.
 	// Experimental.
@@ -40,9 +40,9 @@ type DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference interfa
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TransitEncryption() *string
 	TransitEncryptionPort() *float64
 	// Experimental.
@@ -50,7 +50,7 @@ type DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference interfa
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,12 +66,12 @@ type DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference interfa
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -81,7 +81,7 @@ type DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference interfa
 
 // The jsii proxy struct for DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference
 type jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference) AuthorizationConfig() DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfigList {
@@ -174,8 +174,8 @@ func (j *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputRef
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -205,7 +205,7 @@ func (j *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputRef
 }
 
 
-func NewDataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference {
+func NewDataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -222,7 +222,7 @@ func NewDataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference(terr
 	return &j
 }
 
-func NewDataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference_Override(d DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference_Override(d DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputRef
 	)
 }
 
-func (j *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -316,11 +316,11 @@ func (d *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputRef
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -444,8 +444,8 @@ func (d *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputRef
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -457,11 +457,11 @@ func (d *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputRef
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -473,7 +473,7 @@ func (d *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputRef
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsEcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

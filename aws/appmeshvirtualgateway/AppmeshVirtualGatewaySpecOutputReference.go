@@ -5,14 +5,14 @@ package appmeshvirtualgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/appmeshvirtualgateway/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appmeshvirtualgateway/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppmeshVirtualGatewaySpecOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BackendDefaults() AppmeshVirtualGatewaySpecBackendDefaultsOutputReference
 	BackendDefaultsInput() *AppmeshVirtualGatewaySpecBackendDefaults
 	// the index of the complex object in a list.
@@ -43,15 +43,15 @@ type AppmeshVirtualGatewaySpecOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,9 +67,9 @@ type AppmeshVirtualGatewaySpecOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutBackendDefaults(value *AppmeshVirtualGatewaySpecBackendDefaults)
 	PutListener(value interface{})
 	PutLogging(value *AppmeshVirtualGatewaySpecLogging)
@@ -77,7 +77,7 @@ type AppmeshVirtualGatewaySpecOutputReference interface {
 	ResetLogging()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type AppmeshVirtualGatewaySpecOutputReference interface {
 
 // The jsii proxy struct for AppmeshVirtualGatewaySpecOutputReference
 type jsiiProxy_AppmeshVirtualGatewaySpecOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AppmeshVirtualGatewaySpecOutputReference) BackendDefaults() AppmeshVirtualGatewaySpecBackendDefaultsOutputReference {
@@ -210,8 +210,8 @@ func (j *jsiiProxy_AppmeshVirtualGatewaySpecOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_AppmeshVirtualGatewaySpecOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppmeshVirtualGatewaySpecOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_AppmeshVirtualGatewaySpecOutputReference) TerraformResource()
 }
 
 
-func NewAppmeshVirtualGatewaySpecOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AppmeshVirtualGatewaySpecOutputReference {
+func NewAppmeshVirtualGatewaySpecOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AppmeshVirtualGatewaySpecOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAppmeshVirtualGatewaySpecOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -238,7 +238,7 @@ func NewAppmeshVirtualGatewaySpecOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewAppmeshVirtualGatewaySpecOutputReference_Override(a AppmeshVirtualGatewaySpecOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAppmeshVirtualGatewaySpecOutputReference_Override(a AppmeshVirtualGatewaySpecOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -292,7 +292,7 @@ func (j *jsiiProxy_AppmeshVirtualGatewaySpecOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_AppmeshVirtualGatewaySpecOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppmeshVirtualGatewaySpecOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -332,11 +332,11 @@ func (a *jsiiProxy_AppmeshVirtualGatewaySpecOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (a *jsiiProxy_AppmeshVirtualGatewaySpecOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppmeshVirtualGatewaySpecOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -460,8 +460,8 @@ func (a *jsiiProxy_AppmeshVirtualGatewaySpecOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (a *jsiiProxy_AppmeshVirtualGatewaySpecOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AppmeshVirtualGatewaySpecOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -473,11 +473,11 @@ func (a *jsiiProxy_AppmeshVirtualGatewaySpecOutputReference) InterpolationAsList
 	return returns
 }
 
-func (a *jsiiProxy_AppmeshVirtualGatewaySpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppmeshVirtualGatewaySpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -538,7 +538,7 @@ func (a *jsiiProxy_AppmeshVirtualGatewaySpecOutputReference) ResetLogging() {
 	)
 }
 
-func (a *jsiiProxy_AppmeshVirtualGatewaySpecOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppmeshVirtualGatewaySpecOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

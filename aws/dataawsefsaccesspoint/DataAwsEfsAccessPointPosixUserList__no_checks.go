@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEfsAccessPointPosixUserList) validateGetParameters(ind
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEfsAccessPointPosixUserList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEfsAccessPointPosixUserList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsEfsAccessPointPosixUserList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEfsAccessPointPosixUserList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEfsAccessPointPosixUserList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsEfsAccessPointPosixUserList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewDataAwsEfsAccessPointPosixUserListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEfsAccessPointPosixUserListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

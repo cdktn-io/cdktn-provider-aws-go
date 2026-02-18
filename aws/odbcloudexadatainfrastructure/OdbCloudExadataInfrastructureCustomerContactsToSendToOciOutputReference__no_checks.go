@@ -47,7 +47,7 @@ func (o *jsiiProxy_OdbCloudExadataInfrastructureCustomerContactsToSendToOciOutpu
 	return nil
 }
 
-func (o *jsiiProxy_OdbCloudExadataInfrastructureCustomerContactsToSendToOciOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OdbCloudExadataInfrastructureCustomerContactsToSendToOciOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_OdbCloudExadataInfrastructureCustomerContactsToSendToOciOutpu
 	return nil
 }
 
-func (j *jsiiProxy_OdbCloudExadataInfrastructureCustomerContactsToSendToOciOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OdbCloudExadataInfrastructureCustomerContactsToSendToOciOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOdbCloudExadataInfrastructureCustomerContactsToSendToOciOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOdbCloudExadataInfrastructureCustomerContactsToSendToOciOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

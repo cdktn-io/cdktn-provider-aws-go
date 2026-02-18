@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudtrailEventSelectorDataResourceOutputReference) validateI
 	return nil
 }
 
-func (c *jsiiProxy_CloudtrailEventSelectorDataResourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudtrailEventSelectorDataResourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_CloudtrailEventSelectorDataResourceOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_CloudtrailEventSelectorDataResourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudtrailEventSelectorDataResourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_CloudtrailEventSelectorDataResourceOutputReference) validateS
 	return nil
 }
 
-func validateNewCloudtrailEventSelectorDataResourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudtrailEventSelectorDataResourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

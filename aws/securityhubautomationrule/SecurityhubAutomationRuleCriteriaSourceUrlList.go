@@ -5,14 +5,14 @@ package securityhubautomationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/securityhubautomationrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/securityhubautomationrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SecurityhubAutomationRuleCriteriaSourceUrlList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type SecurityhubAutomationRuleCriteriaSourceUrlList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type SecurityhubAutomationRuleCriteriaSourceUrlList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) SecurityhubAutomationRuleCriteriaSourceUrlOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type SecurityhubAutomationRuleCriteriaSourceUrlList interface {
 
 // The jsii proxy struct for SecurityhubAutomationRuleCriteriaSourceUrlList
 type jsiiProxy_SecurityhubAutomationRuleCriteriaSourceUrlList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaSourceUrlList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaSourceUrlList) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaSourceUrlList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaSourceUrlList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaSourceUrlList) WrapsSet() *b
 }
 
 
-func NewSecurityhubAutomationRuleCriteriaSourceUrlList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubAutomationRuleCriteriaSourceUrlList {
+func NewSecurityhubAutomationRuleCriteriaSourceUrlList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityhubAutomationRuleCriteriaSourceUrlList {
 	_init_.Initialize()
 
 	if err := validateNewSecurityhubAutomationRuleCriteriaSourceUrlListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewSecurityhubAutomationRuleCriteriaSourceUrlList(terraformResource cdktf.I
 	return &j
 }
 
-func NewSecurityhubAutomationRuleCriteriaSourceUrlList_Override(s SecurityhubAutomationRuleCriteriaSourceUrlList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewSecurityhubAutomationRuleCriteriaSourceUrlList_Override(s SecurityhubAutomationRuleCriteriaSourceUrlList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaSourceUrlList)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaSourceUrlList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaSourceUrlList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaSourceUrlList)SetWrapsSet(va
 	)
 }
 
-func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaSourceUrlList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaSourceUrlList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := s.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		s,
@@ -231,7 +231,7 @@ func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaSourceUrlList) Get(index *fl
 	return returns
 }
 
-func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaSourceUrlList) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaSourceUrlList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GlueCrawlerRecrawlPolicyOutputReference) validateInterpolatio
 	return nil
 }
 
-func (g *jsiiProxy_GlueCrawlerRecrawlPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueCrawlerRecrawlPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GlueCrawlerRecrawlPolicyOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_GlueCrawlerRecrawlPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueCrawlerRecrawlPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGlueCrawlerRecrawlPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGlueCrawlerRecrawlPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

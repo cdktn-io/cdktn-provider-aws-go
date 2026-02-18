@@ -5,14 +5,14 @@ package sagemakerproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/sagemakerproject/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/sagemakerproject/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SagemakerProjectServiceCatalogProvisioningDetailsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -48,15 +48,15 @@ type SagemakerProjectServiceCatalogProvisioningDetailsOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,16 +72,16 @@ type SagemakerProjectServiceCatalogProvisioningDetailsOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutProvisioningParameter(value interface{})
 	ResetPathId()
 	ResetProvisioningArtifactId()
 	ResetProvisioningParameter()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type SagemakerProjectServiceCatalogProvisioningDetailsOutputReference interface 
 
 // The jsii proxy struct for SagemakerProjectServiceCatalogProvisioningDetailsOutputReference
 type jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputReference) ComplexObjectIndex() interface{} {
@@ -234,8 +234,8 @@ func (j *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -245,7 +245,7 @@ func (j *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputRefere
 }
 
 
-func NewSagemakerProjectServiceCatalogProvisioningDetailsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SagemakerProjectServiceCatalogProvisioningDetailsOutputReference {
+func NewSagemakerProjectServiceCatalogProvisioningDetailsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SagemakerProjectServiceCatalogProvisioningDetailsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSagemakerProjectServiceCatalogProvisioningDetailsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -262,7 +262,7 @@ func NewSagemakerProjectServiceCatalogProvisioningDetailsOutputReference(terrafo
 	return &j
 }
 
-func NewSagemakerProjectServiceCatalogProvisioningDetailsOutputReference_Override(s SagemakerProjectServiceCatalogProvisioningDetailsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSagemakerProjectServiceCatalogProvisioningDetailsOutputReference_Override(s SagemakerProjectServiceCatalogProvisioningDetailsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -349,7 +349,7 @@ func (j *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputRefere
 	)
 }
 
-func (j *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -389,11 +389,11 @@ func (s *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputRefere
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -517,8 +517,8 @@ func (s *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputRefere
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -530,11 +530,11 @@ func (s *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputRefere
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -581,7 +581,7 @@ func (s *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputRefere
 	)
 }
 
-func (s *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

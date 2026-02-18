@@ -47,7 +47,7 @@ func (s *jsiiProxy_SsmincidentsReplicationSetRegionOutputReference) validateInte
 	return nil
 }
 
-func (s *jsiiProxy_SsmincidentsReplicationSetRegionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsmincidentsReplicationSetRegionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SsmincidentsReplicationSetRegionOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_SsmincidentsReplicationSetRegionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsmincidentsReplicationSetRegionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSsmincidentsReplicationSetRegionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSsmincidentsReplicationSetRegionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

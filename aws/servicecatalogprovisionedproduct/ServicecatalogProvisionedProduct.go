@@ -5,22 +5,22 @@ package servicecatalogprovisionedproduct
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/servicecatalogprovisionedproduct/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/servicecatalogprovisionedproduct/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/servicecatalog_provisioned_product aws_servicecatalog_provisioned_product}.
 type ServicecatalogProvisionedProduct interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AcceptLanguage() *string
 	SetAcceptLanguage(val *string)
 	AcceptLanguageInput() *string
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CloudwatchDashboardNames() *[]*string
 	// Experimental.
 	Connection() interface{}
@@ -38,9 +38,9 @@ type ServicecatalogProvisionedProduct interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -56,9 +56,9 @@ type ServicecatalogProvisionedProduct interface {
 	LastSuccessfulProvisioningRecordId() *string
 	LaunchRoleArn() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -81,9 +81,9 @@ type ServicecatalogProvisionedProduct interface {
 	SetProductName(val *string)
 	ProductNameInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -115,7 +115,7 @@ type ServicecatalogProvisionedProduct interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -131,7 +131,7 @@ type ServicecatalogProvisionedProduct interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -149,9 +149,9 @@ type ServicecatalogProvisionedProduct interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -204,7 +204,7 @@ type ServicecatalogProvisionedProduct interface {
 
 // The jsii proxy struct for ServicecatalogProvisionedProduct
 type jsiiProxy_ServicecatalogProvisionedProduct struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ServicecatalogProvisionedProduct) AcceptLanguage() *string {
@@ -237,8 +237,8 @@ func (j *jsiiProxy_ServicecatalogProvisionedProduct) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ServicecatalogProvisionedProduct) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ServicecatalogProvisionedProduct) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -307,8 +307,8 @@ func (j *jsiiProxy_ServicecatalogProvisionedProduct) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ServicecatalogProvisionedProduct) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ServicecatalogProvisionedProduct) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -417,8 +417,8 @@ func (j *jsiiProxy_ServicecatalogProvisionedProduct) LaunchRoleArn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ServicecatalogProvisionedProduct) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ServicecatalogProvisionedProduct) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -567,8 +567,8 @@ func (j *jsiiProxy_ServicecatalogProvisionedProduct) ProductNameInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_ServicecatalogProvisionedProduct) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ServicecatalogProvisionedProduct) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -777,8 +777,8 @@ func (j *jsiiProxy_ServicecatalogProvisionedProduct) TagsInput() *map[string]*st
 	return returns
 }
 
-func (j *jsiiProxy_ServicecatalogProvisionedProduct) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ServicecatalogProvisionedProduct) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -908,7 +908,7 @@ func (j *jsiiProxy_ServicecatalogProvisionedProduct)SetDependsOn(val *[]*string)
 	)
 }
 
-func (j *jsiiProxy_ServicecatalogProvisionedProduct)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ServicecatalogProvisionedProduct)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -938,7 +938,7 @@ func (j *jsiiProxy_ServicecatalogProvisionedProduct)SetIgnoreErrors(val interfac
 	)
 }
 
-func (j *jsiiProxy_ServicecatalogProvisionedProduct)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ServicecatalogProvisionedProduct)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1015,7 +1015,7 @@ func (j *jsiiProxy_ServicecatalogProvisionedProduct)SetProductName(val *string) 
 	)
 }
 
-func (j *jsiiProxy_ServicecatalogProvisionedProduct)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ServicecatalogProvisionedProduct)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1100,14 +1100,14 @@ func (j *jsiiProxy_ServicecatalogProvisionedProduct)SetTagsAll(val *map[string]*
 	)
 }
 
-// Generates CDKTF code for importing a ServicecatalogProvisionedProduct resource upon running "cdktf plan <stack-name>".
-func ServicecatalogProvisionedProduct_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ServicecatalogProvisionedProduct resource upon running "cdktn plan <stack-name>".
+func ServicecatalogProvisionedProduct_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateServicecatalogProvisionedProduct_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.servicecatalogProvisionedProduct.ServicecatalogProvisionedProduct",
@@ -1241,11 +1241,11 @@ func (s *jsiiProxy_ServicecatalogProvisionedProduct) GetAnyMapAttribute(terrafor
 	return returns
 }
 
-func (s *jsiiProxy_ServicecatalogProvisionedProduct) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServicecatalogProvisionedProduct) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -1382,7 +1382,7 @@ func (s *jsiiProxy_ServicecatalogProvisionedProduct) HasResourceMove() interface
 	return returns
 }
 
-func (s *jsiiProxy_ServicecatalogProvisionedProduct) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_ServicecatalogProvisionedProduct) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1393,11 +1393,11 @@ func (s *jsiiProxy_ServicecatalogProvisionedProduct) ImportFrom(id *string, prov
 	)
 }
 
-func (s *jsiiProxy_ServicecatalogProvisionedProduct) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServicecatalogProvisionedProduct) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

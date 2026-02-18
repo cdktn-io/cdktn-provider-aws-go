@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsRoute53ProfilesProfilesProfilesList) validateGetParame
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsRoute53ProfilesProfilesProfilesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsRoute53ProfilesProfilesProfilesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsRoute53ProfilesProfilesProfilesList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRoute53ProfilesProfilesProfilesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsRoute53ProfilesProfilesProfilesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsRoute53ProfilesProfilesProfilesList) validateSetWrapsS
 	return nil
 }
 
-func validateNewDataAwsRoute53ProfilesProfilesProfilesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsRoute53ProfilesProfilesProfilesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

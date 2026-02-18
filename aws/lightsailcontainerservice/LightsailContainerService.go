@@ -5,20 +5,20 @@ package lightsailcontainerservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lightsailcontainerservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lightsailcontainerservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/lightsail_container_service aws_lightsail_container_service}.
 type LightsailContainerService interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	AvailabilityZone() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type LightsailContainerService interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,9 +49,9 @@ type LightsailContainerService interface {
 	SetIsDisabled(val interface{})
 	IsDisabledInput() interface{}
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -66,9 +66,9 @@ type LightsailContainerService interface {
 	PrivateRegistryAccess() LightsailContainerServicePrivateRegistryAccessOutputReference
 	PrivateRegistryAccessInput() *LightsailContainerServicePrivateRegistryAccess
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -92,7 +92,7 @@ type LightsailContainerService interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -108,7 +108,7 @@ type LightsailContainerService interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -126,9 +126,9 @@ type LightsailContainerService interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -172,7 +172,7 @@ type LightsailContainerService interface {
 
 // The jsii proxy struct for LightsailContainerService
 type jsiiProxy_LightsailContainerService struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_LightsailContainerService) Arn() *string {
@@ -195,8 +195,8 @@ func (j *jsiiProxy_LightsailContainerService) AvailabilityZone() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LightsailContainerService) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_LightsailContainerService) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -255,8 +255,8 @@ func (j *jsiiProxy_LightsailContainerService) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_LightsailContainerService) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_LightsailContainerService) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -325,8 +325,8 @@ func (j *jsiiProxy_LightsailContainerService) IsDisabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_LightsailContainerService) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_LightsailContainerService) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -435,8 +435,8 @@ func (j *jsiiProxy_LightsailContainerService) PrivateRegistryAccessInput() *Ligh
 	return returns
 }
 
-func (j *jsiiProxy_LightsailContainerService) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_LightsailContainerService) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -585,8 +585,8 @@ func (j *jsiiProxy_LightsailContainerService) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_LightsailContainerService) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_LightsailContainerService) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -705,7 +705,7 @@ func (j *jsiiProxy_LightsailContainerService)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_LightsailContainerService)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_LightsailContainerService)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -735,7 +735,7 @@ func (j *jsiiProxy_LightsailContainerService)SetIsDisabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_LightsailContainerService)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_LightsailContainerService)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -768,7 +768,7 @@ func (j *jsiiProxy_LightsailContainerService)SetPower(val *string) {
 	)
 }
 
-func (j *jsiiProxy_LightsailContainerService)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_LightsailContainerService)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -831,14 +831,14 @@ func (j *jsiiProxy_LightsailContainerService)SetTagsAll(val *map[string]*string)
 	)
 }
 
-// Generates CDKTF code for importing a LightsailContainerService resource upon running "cdktf plan <stack-name>".
-func LightsailContainerService_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a LightsailContainerService resource upon running "cdktn plan <stack-name>".
+func LightsailContainerService_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateLightsailContainerService_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.lightsailContainerService.LightsailContainerService",
@@ -972,11 +972,11 @@ func (l *jsiiProxy_LightsailContainerService) GetAnyMapAttribute(terraformAttrib
 	return returns
 }
 
-func (l *jsiiProxy_LightsailContainerService) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LightsailContainerService) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -1113,7 +1113,7 @@ func (l *jsiiProxy_LightsailContainerService) HasResourceMove() interface{} {
 	return returns
 }
 
-func (l *jsiiProxy_LightsailContainerService) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (l *jsiiProxy_LightsailContainerService) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := l.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1124,11 +1124,11 @@ func (l *jsiiProxy_LightsailContainerService) ImportFrom(id *string, provider cd
 	)
 }
 
-func (l *jsiiProxy_LightsailContainerService) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LightsailContainerService) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,

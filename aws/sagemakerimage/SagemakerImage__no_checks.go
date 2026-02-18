@@ -115,7 +115,7 @@ func (j *jsiiProxy_SagemakerImage) validateSetImageNameParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerImage) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SagemakerImage) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

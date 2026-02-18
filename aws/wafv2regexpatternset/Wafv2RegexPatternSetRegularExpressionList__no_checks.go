@@ -15,7 +15,7 @@ func (w *jsiiProxy_Wafv2RegexPatternSetRegularExpressionList) validateGetParamet
 	return nil
 }
 
-func (w *jsiiProxy_Wafv2RegexPatternSetRegularExpressionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_Wafv2RegexPatternSetRegularExpressionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Wafv2RegexPatternSetRegularExpressionList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_Wafv2RegexPatternSetRegularExpressionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Wafv2RegexPatternSetRegularExpressionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Wafv2RegexPatternSetRegularExpressionList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewWafv2RegexPatternSetRegularExpressionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWafv2RegexPatternSetRegularExpressionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

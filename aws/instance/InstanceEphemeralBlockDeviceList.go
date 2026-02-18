@@ -5,14 +5,14 @@ package instance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/instance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/instance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type InstanceEphemeralBlockDeviceList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type InstanceEphemeralBlockDeviceList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type InstanceEphemeralBlockDeviceList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) InstanceEphemeralBlockDeviceOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type InstanceEphemeralBlockDeviceList interface {
 
 // The jsii proxy struct for InstanceEphemeralBlockDeviceList
 type jsiiProxy_InstanceEphemeralBlockDeviceList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_InstanceEphemeralBlockDeviceList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_InstanceEphemeralBlockDeviceList) TerraformAttribute() *strin
 	return returns
 }
 
-func (j *jsiiProxy_InstanceEphemeralBlockDeviceList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_InstanceEphemeralBlockDeviceList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_InstanceEphemeralBlockDeviceList) WrapsSet() *bool {
 }
 
 
-func NewInstanceEphemeralBlockDeviceList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) InstanceEphemeralBlockDeviceList {
+func NewInstanceEphemeralBlockDeviceList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) InstanceEphemeralBlockDeviceList {
 	_init_.Initialize()
 
 	if err := validateNewInstanceEphemeralBlockDeviceListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewInstanceEphemeralBlockDeviceList(terraformResource cdktf.IInterpolatingP
 	return &j
 }
 
-func NewInstanceEphemeralBlockDeviceList_Override(i InstanceEphemeralBlockDeviceList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewInstanceEphemeralBlockDeviceList_Override(i InstanceEphemeralBlockDeviceList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_InstanceEphemeralBlockDeviceList)SetTerraformAttribute(val *s
 	)
 }
 
-func (j *jsiiProxy_InstanceEphemeralBlockDeviceList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_InstanceEphemeralBlockDeviceList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_InstanceEphemeralBlockDeviceList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (i *jsiiProxy_InstanceEphemeralBlockDeviceList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (i *jsiiProxy_InstanceEphemeralBlockDeviceList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := i.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		i,
@@ -231,7 +231,7 @@ func (i *jsiiProxy_InstanceEphemeralBlockDeviceList) Get(index *float64) Instanc
 	return returns
 }
 
-func (i *jsiiProxy_InstanceEphemeralBlockDeviceList) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_InstanceEphemeralBlockDeviceList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_CeCostCategoryRuleRuleNotOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (c *jsiiProxy_CeCostCategoryRuleRuleNotOutputReference) validatePutAndParam
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CeCostCategoryRuleRuleNotAnd:
 		value := value.(*[]*CeCostCategoryRuleRuleNotAnd)
@@ -117,7 +117,7 @@ func (c *jsiiProxy_CeCostCategoryRuleRuleNotOutputReference) validatePutAndParam
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CeCostCategoryRuleRuleNotAnd; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CeCostCategoryRuleRuleNotAnd; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -162,7 +162,7 @@ func (c *jsiiProxy_CeCostCategoryRuleRuleNotOutputReference) validatePutOrParame
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CeCostCategoryRuleRuleNotOr:
 		value := value.(*[]*CeCostCategoryRuleRuleNotOr)
@@ -181,7 +181,7 @@ func (c *jsiiProxy_CeCostCategoryRuleRuleNotOutputReference) validatePutOrParame
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CeCostCategoryRuleRuleNotOr; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CeCostCategoryRuleRuleNotOr; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -199,7 +199,7 @@ func (c *jsiiProxy_CeCostCategoryRuleRuleNotOutputReference) validatePutTagsPara
 	return nil
 }
 
-func (c *jsiiProxy_CeCostCategoryRuleRuleNotOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CeCostCategoryRuleRuleNotOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -288,7 +288,7 @@ func (j *jsiiProxy_CeCostCategoryRuleRuleNotOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_CeCostCategoryRuleRuleNotOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CeCostCategoryRuleRuleNotOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -296,7 +296,7 @@ func (j *jsiiProxy_CeCostCategoryRuleRuleNotOutputReference) validateSetTerrafor
 	return nil
 }
 
-func validateNewCeCostCategoryRuleRuleNotOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCeCostCategoryRuleRuleNotOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

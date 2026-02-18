@@ -119,7 +119,7 @@ func (j *jsiiProxy_VpcSecurityGroupEgressRule) validateSetIpProtocolParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_VpcSecurityGroupEgressRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VpcSecurityGroupEgressRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -115,7 +115,7 @@ func (j *jsiiProxy_BedrockagentcoreMemory) validateSetEventExpiryDurationParamet
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreMemory) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BedrockagentcoreMemory) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

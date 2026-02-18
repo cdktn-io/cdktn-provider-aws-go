@@ -15,7 +15,7 @@ func (e *jsiiProxy_EvidentlyLaunchMetricMonitorsList) validateGetParameters(inde
 	return nil
 }
 
-func (e *jsiiProxy_EvidentlyLaunchMetricMonitorsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EvidentlyLaunchMetricMonitorsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EvidentlyLaunchMetricMonitorsList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_EvidentlyLaunchMetricMonitorsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EvidentlyLaunchMetricMonitorsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EvidentlyLaunchMetricMonitorsList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewEvidentlyLaunchMetricMonitorsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEvidentlyLaunchMetricMonitorsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

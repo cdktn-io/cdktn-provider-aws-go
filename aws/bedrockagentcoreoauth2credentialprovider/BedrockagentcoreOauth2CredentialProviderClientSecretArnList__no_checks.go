@@ -15,7 +15,7 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderClientSecretArnList) 
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderClientSecretArnList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderClientSecretArnList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderClientSecretArnList) 
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderClientSecretArnList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderClientSecretArnList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderClientSecretArnList) 
 	return nil
 }
 
-func validateNewBedrockagentcoreOauth2CredentialProviderClientSecretArnListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockagentcoreOauth2CredentialProviderClientSecretArnListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

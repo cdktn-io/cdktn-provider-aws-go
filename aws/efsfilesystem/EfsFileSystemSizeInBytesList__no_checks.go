@@ -15,7 +15,7 @@ func (e *jsiiProxy_EfsFileSystemSizeInBytesList) validateGetParameters(index *fl
 	return nil
 }
 
-func (e *jsiiProxy_EfsFileSystemSizeInBytesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EfsFileSystemSizeInBytesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_EfsFileSystemSizeInBytesList) validateSetTerraformAttributePa
 	return nil
 }
 
-func (j *jsiiProxy_EfsFileSystemSizeInBytesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EfsFileSystemSizeInBytesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_EfsFileSystemSizeInBytesList) validateSetWrapsSetParameters(v
 	return nil
 }
 
-func validateNewEfsFileSystemSizeInBytesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEfsFileSystemSizeInBytesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (r *jsiiProxy_RdsCustomDbEngineVersionTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (r *jsiiProxy_RdsCustomDbEngineVersionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RdsCustomDbEngineVersionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_RdsCustomDbEngineVersionTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_RdsCustomDbEngineVersionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RdsCustomDbEngineVersionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_RdsCustomDbEngineVersionTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewRdsCustomDbEngineVersionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRdsCustomDbEngineVersionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SecurityhubInsightFiltersKeywordOutputReference) validateInte
 	return nil
 }
 
-func (s *jsiiProxy_SecurityhubInsightFiltersKeywordOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecurityhubInsightFiltersKeywordOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_SecurityhubInsightFiltersKeywordOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_SecurityhubInsightFiltersKeywordOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecurityhubInsightFiltersKeywordOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SecurityhubInsightFiltersKeywordOutputReference) validateSetV
 	return nil
 }
 
-func validateNewSecurityhubInsightFiltersKeywordOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSecurityhubInsightFiltersKeywordOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

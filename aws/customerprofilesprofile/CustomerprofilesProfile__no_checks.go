@@ -171,7 +171,7 @@ func (j *jsiiProxy_CustomerprofilesProfile) validateSetLastNameParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_CustomerprofilesProfile) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CustomerprofilesProfile) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

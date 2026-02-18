@@ -5,14 +5,14 @@ package securityhubautomationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/securityhubautomationrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/securityhubautomationrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SecurityhubAutomationRuleCriteriaProductArnOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Comparison() *string
 	SetComparison(val *string)
 	ComparisonInput() *string
@@ -40,9 +40,9 @@ type SecurityhubAutomationRuleCriteriaProductArnOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Value() *string
 	SetValue(val *string)
 	ValueInput() *string
@@ -51,7 +51,7 @@ type SecurityhubAutomationRuleCriteriaProductArnOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type SecurityhubAutomationRuleCriteriaProductArnOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type SecurityhubAutomationRuleCriteriaProductArnOutputReference interface {
 
 // The jsii proxy struct for SecurityhubAutomationRuleCriteriaProductArnOutputReference
 type jsiiProxy_SecurityhubAutomationRuleCriteriaProductArnOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaProductArnOutputReference) Comparison() *string {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaProductArnOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaProductArnOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaProductArnOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaProductArnOutputReference) V
 }
 
 
-func NewSecurityhubAutomationRuleCriteriaProductArnOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SecurityhubAutomationRuleCriteriaProductArnOutputReference {
+func NewSecurityhubAutomationRuleCriteriaProductArnOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SecurityhubAutomationRuleCriteriaProductArnOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSecurityhubAutomationRuleCriteriaProductArnOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -213,7 +213,7 @@ func NewSecurityhubAutomationRuleCriteriaProductArnOutputReference(terraformReso
 	return &j
 }
 
-func NewSecurityhubAutomationRuleCriteriaProductArnOutputReference_Override(s SecurityhubAutomationRuleCriteriaProductArnOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSecurityhubAutomationRuleCriteriaProductArnOutputReference_Override(s SecurityhubAutomationRuleCriteriaProductArnOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaProductArnOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaProductArnOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SecurityhubAutomationRuleCriteriaProductArnOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaProductArnOutputReference) G
 	return returns
 }
 
-func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaProductArnOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaProductArnOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -457,8 +457,8 @@ func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaProductArnOutputReference) G
 	return returns
 }
 
-func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaProductArnOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaProductArnOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -470,11 +470,11 @@ func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaProductArnOutputReference) I
 	return returns
 }
 
-func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaProductArnOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaProductArnOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -486,7 +486,7 @@ func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaProductArnOutputReference) I
 	return returns
 }
 
-func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaProductArnOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SecurityhubAutomationRuleCriteriaProductArnOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

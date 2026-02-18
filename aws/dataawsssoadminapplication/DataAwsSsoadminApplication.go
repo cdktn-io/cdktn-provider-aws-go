@@ -5,23 +5,23 @@ package dataawsssoadminapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsssoadminapplication/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsssoadminapplication/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/ssoadmin_application aws_ssoadmin_application}.
 type DataAwsSsoadminApplication interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	ApplicationAccount() *string
 	ApplicationArn() *string
 	SetApplicationArn(val *string)
 	ApplicationArnInput() *string
 	ApplicationProviderArn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -34,9 +34,9 @@ type DataAwsSsoadminApplication interface {
 	SetDependsOn(val *[]*string)
 	Description() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -44,17 +44,17 @@ type DataAwsSsoadminApplication interface {
 	Id() *string
 	InstanceArn() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
 	PortalOptions() DataAwsSsoadminApplicationPortalOptionsList
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -62,7 +62,7 @@ type DataAwsSsoadminApplication interface {
 	RegionInput() *string
 	Status() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -72,7 +72,7 @@ type DataAwsSsoadminApplication interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -88,7 +88,7 @@ type DataAwsSsoadminApplication interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -112,7 +112,7 @@ type DataAwsSsoadminApplication interface {
 
 // The jsii proxy struct for DataAwsSsoadminApplication
 type jsiiProxy_DataAwsSsoadminApplication struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsSsoadminApplication) ApplicationAccount() *string {
@@ -155,8 +155,8 @@ func (j *jsiiProxy_DataAwsSsoadminApplication) ApplicationProviderArn() *string 
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSsoadminApplication) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsSsoadminApplication) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -205,8 +205,8 @@ func (j *jsiiProxy_DataAwsSsoadminApplication) Description() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSsoadminApplication) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsSsoadminApplication) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -255,8 +255,8 @@ func (j *jsiiProxy_DataAwsSsoadminApplication) InstanceArn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSsoadminApplication) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsSsoadminApplication) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -295,8 +295,8 @@ func (j *jsiiProxy_DataAwsSsoadminApplication) PortalOptions() DataAwsSsoadminAp
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSsoadminApplication) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsSsoadminApplication) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -345,8 +345,8 @@ func (j *jsiiProxy_DataAwsSsoadminApplication) Status() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSsoadminApplication) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsSsoadminApplication) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -435,7 +435,7 @@ func (j *jsiiProxy_DataAwsSsoadminApplication)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsSsoadminApplication)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsSsoadminApplication)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -443,7 +443,7 @@ func (j *jsiiProxy_DataAwsSsoadminApplication)SetForEach(val cdktf.ITerraformIte
 	)
 }
 
-func (j *jsiiProxy_DataAwsSsoadminApplication)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsSsoadminApplication)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -454,7 +454,7 @@ func (j *jsiiProxy_DataAwsSsoadminApplication)SetLifecycle(val *cdktf.TerraformR
 	)
 }
 
-func (j *jsiiProxy_DataAwsSsoadminApplication)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsSsoadminApplication)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -473,14 +473,14 @@ func (j *jsiiProxy_DataAwsSsoadminApplication)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsSsoadminApplication resource upon running "cdktf plan <stack-name>".
-func DataAwsSsoadminApplication_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsSsoadminApplication resource upon running "cdktn plan <stack-name>".
+func DataAwsSsoadminApplication_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsSsoadminApplication_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplication",
@@ -603,11 +603,11 @@ func (d *jsiiProxy_DataAwsSsoadminApplication) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsSsoadminApplication) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsSsoadminApplication) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -731,11 +731,11 @@ func (d *jsiiProxy_DataAwsSsoadminApplication) GetStringMapAttribute(terraformAt
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsSsoadminApplication) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsSsoadminApplication) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

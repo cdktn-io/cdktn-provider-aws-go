@@ -131,7 +131,7 @@ func (j *jsiiProxy_Lexv2ModelsSlotType) validateSetDescriptionParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_Lexv2ModelsSlotType) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Lexv2ModelsSlotType) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

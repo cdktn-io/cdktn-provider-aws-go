@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpclatticeListenerDefaultActionFixedResponseOutputReference) 
 	return nil
 }
 
-func (v *jsiiProxy_VpclatticeListenerDefaultActionFixedResponseOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpclatticeListenerDefaultActionFixedResponseOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_VpclatticeListenerDefaultActionFixedResponseOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_VpclatticeListenerDefaultActionFixedResponseOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpclatticeListenerDefaultActionFixedResponseOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpclatticeListenerDefaultActionFixedResponseOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpclatticeListenerDefaultActionFixedResponseOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

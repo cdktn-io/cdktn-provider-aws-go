@@ -5,14 +5,14 @@ package ecstaskset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ecstaskset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ecstaskset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EcsTaskSetCapacityProviderStrategyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Base() *float64
 	SetBase(val *float64)
 	BaseInput() *float64
@@ -43,9 +43,9 @@ type EcsTaskSetCapacityProviderStrategyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Weight() *float64
 	SetWeight(val *float64)
 	WeightInput() *float64
@@ -54,7 +54,7 @@ type EcsTaskSetCapacityProviderStrategyOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type EcsTaskSetCapacityProviderStrategyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBase()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type EcsTaskSetCapacityProviderStrategyOutputReference interface {
 
 // The jsii proxy struct for EcsTaskSetCapacityProviderStrategyOutputReference
 type jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference) Base() *float64 {
@@ -189,8 +189,8 @@ func (j *jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference) WeightInpu
 }
 
 
-func NewEcsTaskSetCapacityProviderStrategyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EcsTaskSetCapacityProviderStrategyOutputReference {
+func NewEcsTaskSetCapacityProviderStrategyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EcsTaskSetCapacityProviderStrategyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEcsTaskSetCapacityProviderStrategyOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -237,7 +237,7 @@ func NewEcsTaskSetCapacityProviderStrategyOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewEcsTaskSetCapacityProviderStrategyOutputReference_Override(e EcsTaskSetCapacityProviderStrategyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewEcsTaskSetCapacityProviderStrategyOutputReference_Override(e EcsTaskSetCapacityProviderStrategyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -313,7 +313,7 @@ func (j *jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (e *jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference) GetAnyMapA
 	return returns
 }
 
-func (e *jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -492,8 +492,8 @@ func (e *jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference) GetStringM
 	return returns
 }
 
-func (e *jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -505,11 +505,11 @@ func (e *jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference) Interpolat
 	return returns
 }
 
-func (e *jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -529,7 +529,7 @@ func (e *jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference) ResetBase(
 	)
 }
 
-func (e *jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

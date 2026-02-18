@@ -47,7 +47,7 @@ func (p *jsiiProxy_PipesPipeSourceParametersFilterCriteriaFilterOutputReference)
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeSourceParametersFilterCriteriaFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeSourceParametersFilterCriteriaFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_PipesPipeSourceParametersFilterCriteriaFilterOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeSourceParametersFilterCriteriaFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeSourceParametersFilterCriteriaFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPipesPipeSourceParametersFilterCriteriaFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPipesPipeSourceParametersFilterCriteriaFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

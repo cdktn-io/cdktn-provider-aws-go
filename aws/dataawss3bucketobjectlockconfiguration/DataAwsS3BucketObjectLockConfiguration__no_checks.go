@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsS3BucketObjectLockConfiguration) validateSetExpectedBu
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsS3BucketObjectLockConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsS3BucketObjectLockConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

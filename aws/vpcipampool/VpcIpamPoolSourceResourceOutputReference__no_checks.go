@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpcIpamPoolSourceResourceOutputReference) validateInterpolati
 	return nil
 }
 
-func (v *jsiiProxy_VpcIpamPoolSourceResourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpcIpamPoolSourceResourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_VpcIpamPoolSourceResourceOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_VpcIpamPoolSourceResourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpcIpamPoolSourceResourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpcIpamPoolSourceResourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpcIpamPoolSourceResourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

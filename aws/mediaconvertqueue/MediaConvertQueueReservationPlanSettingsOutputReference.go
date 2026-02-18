@@ -5,14 +5,14 @@ package mediaconvertqueue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/mediaconvertqueue/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/mediaconvertqueue/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MediaConvertQueueReservationPlanSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Commitment() *string
 	SetCommitment(val *string)
 	CommitmentInput() *string
@@ -46,15 +46,15 @@ type MediaConvertQueueReservationPlanSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type MediaConvertQueueReservationPlanSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type MediaConvertQueueReservationPlanSettingsOutputReference interface {
 
 // The jsii proxy struct for MediaConvertQueueReservationPlanSettingsOutputReference
 type jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference) Commitment() *string {
@@ -208,8 +208,8 @@ func (j *jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference) Terr
 }
 
 
-func NewMediaConvertQueueReservationPlanSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MediaConvertQueueReservationPlanSettingsOutputReference {
+func NewMediaConvertQueueReservationPlanSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MediaConvertQueueReservationPlanSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMediaConvertQueueReservationPlanSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -236,7 +236,7 @@ func NewMediaConvertQueueReservationPlanSettingsOutputReference(terraformResourc
 	return &j
 }
 
-func NewMediaConvertQueueReservationPlanSettingsOutputReference_Override(m MediaConvertQueueReservationPlanSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMediaConvertQueueReservationPlanSettingsOutputReference_Override(m MediaConvertQueueReservationPlanSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -323,7 +323,7 @@ func (j *jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -363,11 +363,11 @@ func (m *jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference) GetA
 	return returns
 }
 
-func (m *jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -491,8 +491,8 @@ func (m *jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference) GetS
 	return returns
 }
 
-func (m *jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -504,11 +504,11 @@ func (m *jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference) Inte
 	return returns
 }
 
-func (m *jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -520,7 +520,7 @@ func (m *jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference) Inte
 	return returns
 }
 
-func (m *jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

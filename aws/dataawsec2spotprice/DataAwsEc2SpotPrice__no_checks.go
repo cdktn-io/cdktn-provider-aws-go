@@ -95,7 +95,7 @@ func (j *jsiiProxy_DataAwsEc2SpotPrice) validateSetInstanceTypeParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2SpotPrice) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsEc2SpotPrice) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

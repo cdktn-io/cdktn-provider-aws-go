@@ -111,7 +111,7 @@ func (j *jsiiProxy_RedshiftEndpointAccess) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftEndpointAccess) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RedshiftEndpointAccess) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

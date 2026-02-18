@@ -107,7 +107,7 @@ func (j *jsiiProxy_SagemakerModelCardExportJob) validateSetCountParameters(val i
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerModelCardExportJob) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SagemakerModelCardExportJob) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

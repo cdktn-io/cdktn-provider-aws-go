@@ -47,7 +47,7 @@ func (s *jsiiProxy_S3ObjectCopyOverrideProviderDefaultTagsOutputReference) valid
 	return nil
 }
 
-func (s *jsiiProxy_S3ObjectCopyOverrideProviderDefaultTagsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3ObjectCopyOverrideProviderDefaultTagsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_S3ObjectCopyOverrideProviderDefaultTagsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_S3ObjectCopyOverrideProviderDefaultTagsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3ObjectCopyOverrideProviderDefaultTagsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewS3ObjectCopyOverrideProviderDefaultTagsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewS3ObjectCopyOverrideProviderDefaultTagsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsSsmcontactsRotationRecurrenceMonthlySettingsList) vali
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsSsmcontactsRotationRecurrenceMonthlySettingsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsSsmcontactsRotationRecurrenceMonthlySettingsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsSsmcontactsRotationRecurrenceMonthlySettingsList) vali
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSsmcontactsRotationRecurrenceMonthlySettingsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsSsmcontactsRotationRecurrenceMonthlySettingsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsSsmcontactsRotationRecurrenceMonthlySettingsList) vali
 	return nil
 }
 
-func validateNewDataAwsSsmcontactsRotationRecurrenceMonthlySettingsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsSsmcontactsRotationRecurrenceMonthlySettingsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

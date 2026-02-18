@@ -15,7 +15,7 @@ func (e *jsiiProxy_EcsExpressGatewayServiceScalingTargetList) validateGetParamet
 	return nil
 }
 
-func (e *jsiiProxy_EcsExpressGatewayServiceScalingTargetList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsExpressGatewayServiceScalingTargetList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EcsExpressGatewayServiceScalingTargetList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_EcsExpressGatewayServiceScalingTargetList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsExpressGatewayServiceScalingTargetList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EcsExpressGatewayServiceScalingTargetList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewEcsExpressGatewayServiceScalingTargetListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEcsExpressGatewayServiceScalingTargetListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

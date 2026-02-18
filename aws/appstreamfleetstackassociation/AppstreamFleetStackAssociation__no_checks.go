@@ -107,7 +107,7 @@ func (j *jsiiProxy_AppstreamFleetStackAssociation) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_AppstreamFleetStackAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppstreamFleetStackAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

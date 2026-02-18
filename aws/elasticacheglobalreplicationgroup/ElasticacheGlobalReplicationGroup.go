@@ -5,19 +5,19 @@ package elasticacheglobalreplicationgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/elasticacheglobalreplicationgroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/elasticacheglobalreplicationgroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/elasticache_global_replication_group aws_elasticache_global_replication_group}.
 type ElasticacheGlobalReplicationGroup interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
-	AtRestEncryptionEnabled() cdktf.IResolvable
-	AuthTokenEnabled() cdktf.IResolvable
+	AtRestEncryptionEnabled() cdktn.IResolvable
+	AuthTokenEnabled() cdktn.IResolvable
 	AutomaticFailoverEnabled() interface{}
 	SetAutomaticFailoverEnabled(val interface{})
 	AutomaticFailoverEnabledInput() interface{}
@@ -25,8 +25,8 @@ type ElasticacheGlobalReplicationGroup interface {
 	SetCacheNodeType(val *string)
 	CacheNodeTypeInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
-	ClusterEnabled() cdktf.IResolvable
+	CdktfStack() cdktn.TerraformStack
+	ClusterEnabled() cdktn.IResolvable
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -49,9 +49,9 @@ type ElasticacheGlobalReplicationGroup interface {
 	EngineVersionActual() *string
 	EngineVersionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -68,9 +68,9 @@ type ElasticacheGlobalReplicationGroup interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	NumNodeGroups() *float64
@@ -83,9 +83,9 @@ type ElasticacheGlobalReplicationGroup interface {
 	SetPrimaryReplicationGroupId(val *string)
 	PrimaryReplicationGroupIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -96,14 +96,14 @@ type ElasticacheGlobalReplicationGroup interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
 	Timeouts() ElasticacheGlobalReplicationGroupTimeoutsOutputReference
 	TimeoutsInput() interface{}
-	TransitEncryptionEnabled() cdktf.IResolvable
+	TransitEncryptionEnabled() cdktn.IResolvable
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -112,7 +112,7 @@ type ElasticacheGlobalReplicationGroup interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -130,9 +130,9 @@ type ElasticacheGlobalReplicationGroup interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -176,7 +176,7 @@ type ElasticacheGlobalReplicationGroup interface {
 
 // The jsii proxy struct for ElasticacheGlobalReplicationGroup
 type jsiiProxy_ElasticacheGlobalReplicationGroup struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) Arn() *string {
@@ -189,8 +189,8 @@ func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) AtRestEncryptionEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) AtRestEncryptionEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"atRestEncryptionEnabled",
@@ -199,8 +199,8 @@ func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) AtRestEncryptionEnabled() 
 	return returns
 }
 
-func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) AuthTokenEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) AuthTokenEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"authTokenEnabled",
@@ -249,8 +249,8 @@ func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) CacheNodeTypeInput() *stri
 	return returns
 }
 
-func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -259,8 +259,8 @@ func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) CdktfStack() cdktf.Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) ClusterEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) ClusterEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"clusterEnabled",
@@ -359,8 +359,8 @@ func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) EngineVersionInput() *stri
 	return returns
 }
 
-func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -469,8 +469,8 @@ func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -549,8 +549,8 @@ func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) PrimaryReplicationGroupIdI
 	return returns
 }
 
-func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -599,8 +599,8 @@ func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -649,8 +649,8 @@ func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) TimeoutsInput() interface{
 	return returns
 }
 
-func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) TransitEncryptionEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) TransitEncryptionEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"transitEncryptionEnabled",
@@ -763,7 +763,7 @@ func (j *jsiiProxy_ElasticacheGlobalReplicationGroup)SetEngineVersion(val *strin
 	)
 }
 
-func (j *jsiiProxy_ElasticacheGlobalReplicationGroup)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ElasticacheGlobalReplicationGroup)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -804,7 +804,7 @@ func (j *jsiiProxy_ElasticacheGlobalReplicationGroup)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ElasticacheGlobalReplicationGroup)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ElasticacheGlobalReplicationGroup)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -848,7 +848,7 @@ func (j *jsiiProxy_ElasticacheGlobalReplicationGroup)SetPrimaryReplicationGroupI
 	)
 }
 
-func (j *jsiiProxy_ElasticacheGlobalReplicationGroup)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ElasticacheGlobalReplicationGroup)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -878,14 +878,14 @@ func (j *jsiiProxy_ElasticacheGlobalReplicationGroup)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a ElasticacheGlobalReplicationGroup resource upon running "cdktf plan <stack-name>".
-func ElasticacheGlobalReplicationGroup_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ElasticacheGlobalReplicationGroup resource upon running "cdktn plan <stack-name>".
+func ElasticacheGlobalReplicationGroup_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateElasticacheGlobalReplicationGroup_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.elasticacheGlobalReplicationGroup.ElasticacheGlobalReplicationGroup",
@@ -1019,11 +1019,11 @@ func (e *jsiiProxy_ElasticacheGlobalReplicationGroup) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (e *jsiiProxy_ElasticacheGlobalReplicationGroup) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_ElasticacheGlobalReplicationGroup) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -1160,7 +1160,7 @@ func (e *jsiiProxy_ElasticacheGlobalReplicationGroup) HasResourceMove() interfac
 	return returns
 }
 
-func (e *jsiiProxy_ElasticacheGlobalReplicationGroup) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (e *jsiiProxy_ElasticacheGlobalReplicationGroup) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := e.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1171,11 +1171,11 @@ func (e *jsiiProxy_ElasticacheGlobalReplicationGroup) ImportFrom(id *string, pro
 	)
 }
 
-func (e *jsiiProxy_ElasticacheGlobalReplicationGroup) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_ElasticacheGlobalReplicationGroup) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,

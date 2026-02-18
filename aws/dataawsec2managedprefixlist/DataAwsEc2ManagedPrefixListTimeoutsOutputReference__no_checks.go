@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEc2ManagedPrefixListTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEc2ManagedPrefixListTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEc2ManagedPrefixListTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAwsEc2ManagedPrefixListTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2ManagedPrefixListTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEc2ManagedPrefixListTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsEc2ManagedPrefixListTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAwsEc2ManagedPrefixListTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

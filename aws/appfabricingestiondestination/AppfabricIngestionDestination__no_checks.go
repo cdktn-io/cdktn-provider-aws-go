@@ -119,7 +119,7 @@ func (j *jsiiProxy_AppfabricIngestionDestination) validateSetIngestionArnParamet
 	return nil
 }
 
-func (j *jsiiProxy_AppfabricIngestionDestination) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppfabricIngestionDestination) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

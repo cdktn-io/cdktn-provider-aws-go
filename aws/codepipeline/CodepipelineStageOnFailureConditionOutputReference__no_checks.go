@@ -51,7 +51,7 @@ func (c *jsiiProxy_CodepipelineStageOnFailureConditionOutputReference) validateP
 	return nil
 }
 
-func (c *jsiiProxy_CodepipelineStageOnFailureConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodepipelineStageOnFailureConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CodepipelineStageOnFailureConditionOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_CodepipelineStageOnFailureConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodepipelineStageOnFailureConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCodepipelineStageOnFailureConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCodepipelineStageOnFailureConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package finspacekxcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/finspacekxcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/finspacekxcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FinspaceKxClusterAutoScalingConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AutoScalingMetric() *string
 	SetAutoScalingMetric(val *string)
 	AutoScalingMetricInput() *string
@@ -55,15 +55,15 @@ type FinspaceKxClusterAutoScalingConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,12 +79,12 @@ type FinspaceKxClusterAutoScalingConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -94,7 +94,7 @@ type FinspaceKxClusterAutoScalingConfigurationOutputReference interface {
 
 // The jsii proxy struct for FinspaceKxClusterAutoScalingConfigurationOutputReference
 type jsiiProxy_FinspaceKxClusterAutoScalingConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FinspaceKxClusterAutoScalingConfigurationOutputReference) AutoScalingMetric() *string {
@@ -277,8 +277,8 @@ func (j *jsiiProxy_FinspaceKxClusterAutoScalingConfigurationOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_FinspaceKxClusterAutoScalingConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FinspaceKxClusterAutoScalingConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -288,7 +288,7 @@ func (j *jsiiProxy_FinspaceKxClusterAutoScalingConfigurationOutputReference) Ter
 }
 
 
-func NewFinspaceKxClusterAutoScalingConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) FinspaceKxClusterAutoScalingConfigurationOutputReference {
+func NewFinspaceKxClusterAutoScalingConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) FinspaceKxClusterAutoScalingConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFinspaceKxClusterAutoScalingConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -305,7 +305,7 @@ func NewFinspaceKxClusterAutoScalingConfigurationOutputReference(terraformResour
 	return &j
 }
 
-func NewFinspaceKxClusterAutoScalingConfigurationOutputReference_Override(f FinspaceKxClusterAutoScalingConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewFinspaceKxClusterAutoScalingConfigurationOutputReference_Override(f FinspaceKxClusterAutoScalingConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -425,7 +425,7 @@ func (j *jsiiProxy_FinspaceKxClusterAutoScalingConfigurationOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_FinspaceKxClusterAutoScalingConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FinspaceKxClusterAutoScalingConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -465,11 +465,11 @@ func (f *jsiiProxy_FinspaceKxClusterAutoScalingConfigurationOutputReference) Get
 	return returns
 }
 
-func (f *jsiiProxy_FinspaceKxClusterAutoScalingConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FinspaceKxClusterAutoScalingConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -593,8 +593,8 @@ func (f *jsiiProxy_FinspaceKxClusterAutoScalingConfigurationOutputReference) Get
 	return returns
 }
 
-func (f *jsiiProxy_FinspaceKxClusterAutoScalingConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FinspaceKxClusterAutoScalingConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -606,11 +606,11 @@ func (f *jsiiProxy_FinspaceKxClusterAutoScalingConfigurationOutputReference) Int
 	return returns
 }
 
-func (f *jsiiProxy_FinspaceKxClusterAutoScalingConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FinspaceKxClusterAutoScalingConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -622,7 +622,7 @@ func (f *jsiiProxy_FinspaceKxClusterAutoScalingConfigurationOutputReference) Int
 	return returns
 }
 
-func (f *jsiiProxy_FinspaceKxClusterAutoScalingConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FinspaceKxClusterAutoScalingConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

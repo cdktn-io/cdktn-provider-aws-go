@@ -5,14 +5,14 @@ package securitylakedatalake
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/securitylakedatalake/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/securitylakedatalake/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputRefe
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputRefe
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDays()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputRefe
 
 // The jsii proxy struct for SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference
 type jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpira
 	return returns
 }
 
-func (j *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpira
 }
 
 
-func NewSecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference {
+func NewSecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -191,7 +191,7 @@ func NewSecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputR
 	return &j
 }
 
-func NewSecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference_Override(s SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference_Override(s SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpira
 	)
 }
 
-func (j *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (s *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpira
 	return returns
 }
 
-func (s *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -424,8 +424,8 @@ func (s *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpira
 	return returns
 }
 
-func (s *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -437,11 +437,11 @@ func (s *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpira
 	return returns
 }
 
-func (s *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -461,7 +461,7 @@ func (s *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpira
 	)
 }
 
-func (s *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

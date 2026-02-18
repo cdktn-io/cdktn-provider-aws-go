@@ -47,7 +47,7 @@ func (e *jsiiProxy_EfsReplicationConfigurationDestinationOutputReference) valida
 	return nil
 }
 
-func (e *jsiiProxy_EfsReplicationConfigurationDestinationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EfsReplicationConfigurationDestinationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_EfsReplicationConfigurationDestinationOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_EfsReplicationConfigurationDestinationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EfsReplicationConfigurationDestinationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEfsReplicationConfigurationDestinationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEfsReplicationConfigurationDestinationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

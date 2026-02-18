@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEc2ManagedPrefixListEntriesOutputReference) validateIn
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEc2ManagedPrefixListEntriesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEc2ManagedPrefixListEntriesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsEc2ManagedPrefixListEntriesOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2ManagedPrefixListEntriesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEc2ManagedPrefixListEntriesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsEc2ManagedPrefixListEntriesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsEc2ManagedPrefixListEntriesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

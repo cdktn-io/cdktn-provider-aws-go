@@ -107,7 +107,7 @@ func (j *jsiiProxy_ServiceDiscoveryPublicDnsNamespace) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_ServiceDiscoveryPublicDnsNamespace) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ServiceDiscoveryPublicDnsNamespace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

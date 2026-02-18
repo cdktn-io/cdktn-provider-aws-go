@@ -99,7 +99,7 @@ func (j *jsiiProxy_Pinpointsmsvoicev2OptOutList) validateSetCountParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_Pinpointsmsvoicev2OptOutList) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Pinpointsmsvoicev2OptOutList) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

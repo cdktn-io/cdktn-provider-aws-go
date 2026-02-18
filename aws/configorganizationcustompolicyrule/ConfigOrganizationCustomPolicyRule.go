@@ -5,19 +5,19 @@ package configorganizationcustompolicyrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/configorganizationcustompolicyrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/configorganizationcustompolicyrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/config_organization_custom_policy_rule aws_config_organization_custom_policy_rule}.
 type ConfigOrganizationCustomPolicyRule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -42,9 +42,9 @@ type ConfigOrganizationCustomPolicyRule interface {
 	SetExcludedAccounts(val *[]*string)
 	ExcludedAccountsInput() *[]*string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -56,9 +56,9 @@ type ConfigOrganizationCustomPolicyRule interface {
 	SetInputParameters(val *string)
 	InputParametersInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MaximumExecutionFrequency() *string
 	SetMaximumExecutionFrequency(val *string)
 	MaximumExecutionFrequencyInput() *string
@@ -74,9 +74,9 @@ type ConfigOrganizationCustomPolicyRule interface {
 	SetPolicyText(val *string)
 	PolicyTextInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -99,7 +99,7 @@ type ConfigOrganizationCustomPolicyRule interface {
 	SetTagValueScope(val *string)
 	TagValueScopeInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -117,7 +117,7 @@ type ConfigOrganizationCustomPolicyRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -135,9 +135,9 @@ type ConfigOrganizationCustomPolicyRule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -183,7 +183,7 @@ type ConfigOrganizationCustomPolicyRule interface {
 
 // The jsii proxy struct for ConfigOrganizationCustomPolicyRule
 type jsiiProxy_ConfigOrganizationCustomPolicyRule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule) Arn() *string {
@@ -196,8 +196,8 @@ func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -306,8 +306,8 @@ func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule) ExcludedAccountsInput() *
 	return returns
 }
 
-func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -376,8 +376,8 @@ func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule) InputParametersInput() *s
 	return returns
 }
 
-func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -476,8 +476,8 @@ func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule) PolicyTextInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -606,8 +606,8 @@ func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule) TagValueScopeInput() *str
 	return returns
 }
 
-func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -769,7 +769,7 @@ func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule)SetExcludedAccounts(val *[
 	)
 }
 
-func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -799,7 +799,7 @@ func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule)SetInputParameters(val *st
 	)
 }
 
-func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -854,7 +854,7 @@ func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule)SetPolicyText(val *string)
 	)
 }
 
-func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -939,14 +939,14 @@ func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule)SetTriggerTypes(val *[]*st
 	)
 }
 
-// Generates CDKTF code for importing a ConfigOrganizationCustomPolicyRule resource upon running "cdktf plan <stack-name>".
-func ConfigOrganizationCustomPolicyRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ConfigOrganizationCustomPolicyRule resource upon running "cdktn plan <stack-name>".
+func ConfigOrganizationCustomPolicyRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateConfigOrganizationCustomPolicyRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.configOrganizationCustomPolicyRule.ConfigOrganizationCustomPolicyRule",
@@ -1080,11 +1080,11 @@ func (c *jsiiProxy_ConfigOrganizationCustomPolicyRule) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (c *jsiiProxy_ConfigOrganizationCustomPolicyRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ConfigOrganizationCustomPolicyRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -1221,7 +1221,7 @@ func (c *jsiiProxy_ConfigOrganizationCustomPolicyRule) HasResourceMove() interfa
 	return returns
 }
 
-func (c *jsiiProxy_ConfigOrganizationCustomPolicyRule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_ConfigOrganizationCustomPolicyRule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1232,11 +1232,11 @@ func (c *jsiiProxy_ConfigOrganizationCustomPolicyRule) ImportFrom(id *string, pr
 	)
 }
 
-func (c *jsiiProxy_ConfigOrganizationCustomPolicyRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ConfigOrganizationCustomPolicyRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

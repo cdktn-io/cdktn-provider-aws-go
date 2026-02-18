@@ -103,7 +103,7 @@ func (j *jsiiProxy_DmsReplicationSubnetGroup) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_DmsReplicationSubnetGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DmsReplicationSubnetGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

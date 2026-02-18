@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsS3BucketObject) validateSetKeyParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsS3BucketObject) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsS3BucketObject) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

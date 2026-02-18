@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsOamLinkLinkConfigurationLogGroupConfigurationList) val
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsOamLinkLinkConfigurationLogGroupConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsOamLinkLinkConfigurationLogGroupConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsOamLinkLinkConfigurationLogGroupConfigurationList) val
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOamLinkLinkConfigurationLogGroupConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsOamLinkLinkConfigurationLogGroupConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsOamLinkLinkConfigurationLogGroupConfigurationList) val
 	return nil
 }
 
-func validateNewDataAwsOamLinkLinkConfigurationLogGroupConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsOamLinkLinkConfigurationLogGroupConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

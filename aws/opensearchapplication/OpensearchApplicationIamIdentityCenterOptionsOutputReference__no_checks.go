@@ -47,7 +47,7 @@ func (o *jsiiProxy_OpensearchApplicationIamIdentityCenterOptionsOutputReference)
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchApplicationIamIdentityCenterOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchApplicationIamIdentityCenterOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_OpensearchApplicationIamIdentityCenterOptionsOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchApplicationIamIdentityCenterOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchApplicationIamIdentityCenterOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOpensearchApplicationIamIdentityCenterOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOpensearchApplicationIamIdentityCenterOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

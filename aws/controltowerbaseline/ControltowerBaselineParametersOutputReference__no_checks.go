@@ -47,7 +47,7 @@ func (c *jsiiProxy_ControltowerBaselineParametersOutputReference) validateInterp
 	return nil
 }
 
-func (c *jsiiProxy_ControltowerBaselineParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ControltowerBaselineParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ControltowerBaselineParametersOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ControltowerBaselineParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ControltowerBaselineParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ControltowerBaselineParametersOutputReference) validateSetVal
 	return nil
 }
 
-func validateNewControltowerBaselineParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewControltowerBaselineParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

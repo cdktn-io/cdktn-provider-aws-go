@@ -47,7 +47,7 @@ func (c *jsiiProxy_CognitoUserPoolSchemaStringAttributeConstraintsOutputReferenc
 	return nil
 }
 
-func (c *jsiiProxy_CognitoUserPoolSchemaStringAttributeConstraintsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CognitoUserPoolSchemaStringAttributeConstraintsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CognitoUserPoolSchemaStringAttributeConstraintsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_CognitoUserPoolSchemaStringAttributeConstraintsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CognitoUserPoolSchemaStringAttributeConstraintsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCognitoUserPoolSchemaStringAttributeConstraintsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCognitoUserPoolSchemaStringAttributeConstraintsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

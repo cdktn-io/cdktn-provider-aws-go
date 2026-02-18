@@ -123,7 +123,7 @@ func (j *jsiiProxy_KmsReplicaExternalKey) validateSetKeyMaterialBase64Parameters
 	return nil
 }
 
-func (j *jsiiProxy_KmsReplicaExternalKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KmsReplicaExternalKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -111,7 +111,7 @@ func (j *jsiiProxy_LbCookieStickinessPolicy) validateSetLbPortParameters(val *fl
 	return nil
 }
 
-func (j *jsiiProxy_LbCookieStickinessPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LbCookieStickinessPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

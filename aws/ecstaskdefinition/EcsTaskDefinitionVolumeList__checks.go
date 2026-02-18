@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (e *jsiiProxy_EcsTaskDefinitionVolumeList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (e *jsiiProxy_EcsTaskDefinitionVolumeList) validateGetParameters(index *flo
 	return nil
 }
 
-func (e *jsiiProxy_EcsTaskDefinitionVolumeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsTaskDefinitionVolumeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (e *jsiiProxy_EcsTaskDefinitionVolumeList) validateResolveParameters(contex
 
 func (j *jsiiProxy_EcsTaskDefinitionVolumeList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EcsTaskDefinitionVolume:
 		val := val.(*[]*EcsTaskDefinitionVolume)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_EcsTaskDefinitionVolumeList) validateSetInternalValueParamete
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*EcsTaskDefinitionVolume; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*EcsTaskDefinitionVolume; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_EcsTaskDefinitionVolumeList) validateSetTerraformAttributePar
 	return nil
 }
 
-func (j *jsiiProxy_EcsTaskDefinitionVolumeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsTaskDefinitionVolumeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_EcsTaskDefinitionVolumeList) validateSetWrapsSetParameters(va
 	return nil
 }
 
-func validateNewEcsTaskDefinitionVolumeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEcsTaskDefinitionVolumeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

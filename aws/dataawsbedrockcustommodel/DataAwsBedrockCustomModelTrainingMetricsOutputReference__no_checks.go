@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsBedrockCustomModelTrainingMetricsOutputReference) vali
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsBedrockCustomModelTrainingMetricsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsBedrockCustomModelTrainingMetricsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsBedrockCustomModelTrainingMetricsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsBedrockCustomModelTrainingMetricsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsBedrockCustomModelTrainingMetricsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsBedrockCustomModelTrainingMetricsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsBedrockCustomModelTrainingMetricsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

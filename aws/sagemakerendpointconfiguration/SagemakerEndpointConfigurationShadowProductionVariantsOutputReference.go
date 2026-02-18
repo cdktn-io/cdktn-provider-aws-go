@@ -5,14 +5,14 @@ package sagemakerendpointconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/sagemakerendpointconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/sagemakerendpointconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SagemakerEndpointConfigurationShadowProductionVariantsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AcceleratorType() *string
 	SetAcceleratorType(val *string)
 	AcceleratorTypeInput() *string
@@ -72,9 +72,9 @@ type SagemakerEndpointConfigurationShadowProductionVariantsOutputReference inter
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VariantName() *string
 	SetVariantName(val *string)
 	VariantNameInput() *string
@@ -86,7 +86,7 @@ type SagemakerEndpointConfigurationShadowProductionVariantsOutputReference inter
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -102,9 +102,9 @@ type SagemakerEndpointConfigurationShadowProductionVariantsOutputReference inter
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCoreDumpConfig(value *SagemakerEndpointConfigurationShadowProductionVariantsCoreDumpConfig)
 	PutManagedInstanceScaling(value *SagemakerEndpointConfigurationShadowProductionVariantsManagedInstanceScaling)
 	PutRoutingConfig(value interface{})
@@ -126,7 +126,7 @@ type SagemakerEndpointConfigurationShadowProductionVariantsOutputReference inter
 	ResetVolumeSizeInGb()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -136,7 +136,7 @@ type SagemakerEndpointConfigurationShadowProductionVariantsOutputReference inter
 
 // The jsii proxy struct for SagemakerEndpointConfigurationShadowProductionVariantsOutputReference
 type jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputReference) AcceleratorType() *string {
@@ -459,8 +459,8 @@ func (j *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputR
 	return returns
 }
 
-func (j *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -510,7 +510,7 @@ func (j *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputR
 }
 
 
-func NewSagemakerEndpointConfigurationShadowProductionVariantsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SagemakerEndpointConfigurationShadowProductionVariantsOutputReference {
+func NewSagemakerEndpointConfigurationShadowProductionVariantsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SagemakerEndpointConfigurationShadowProductionVariantsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSagemakerEndpointConfigurationShadowProductionVariantsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -527,7 +527,7 @@ func NewSagemakerEndpointConfigurationShadowProductionVariantsOutputReference(te
 	return &j
 }
 
-func NewSagemakerEndpointConfigurationShadowProductionVariantsOutputReference_Override(s SagemakerEndpointConfigurationShadowProductionVariantsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSagemakerEndpointConfigurationShadowProductionVariantsOutputReference_Override(s SagemakerEndpointConfigurationShadowProductionVariantsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -680,7 +680,7 @@ func (j *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputR
 	)
 }
 
-func (j *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -742,11 +742,11 @@ func (s *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputR
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -870,8 +870,8 @@ func (s *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputR
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -883,11 +883,11 @@ func (s *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputR
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -1063,7 +1063,7 @@ func (s *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputR
 	)
 }
 
-func (s *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

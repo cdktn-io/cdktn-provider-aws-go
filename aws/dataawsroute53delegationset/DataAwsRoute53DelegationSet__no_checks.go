@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsRoute53DelegationSet) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRoute53DelegationSet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsRoute53DelegationSet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

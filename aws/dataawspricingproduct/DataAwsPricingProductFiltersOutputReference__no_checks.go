@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsPricingProductFiltersOutputReference) validateInterpol
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsPricingProductFiltersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsPricingProductFiltersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataAwsPricingProductFiltersOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsPricingProductFiltersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsPricingProductFiltersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsPricingProductFiltersOutputReference) validateSetValue
 	return nil
 }
 
-func validateNewDataAwsPricingProductFiltersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsPricingProductFiltersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

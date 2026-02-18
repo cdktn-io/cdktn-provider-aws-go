@@ -5,22 +5,22 @@ package connectinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/connectinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/connectinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/connect_instance aws_connect_instance}.
 type ConnectInstance interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	AutoResolveBestVoicesEnabled() interface{}
 	SetAutoResolveBestVoicesEnabled(val interface{})
 	AutoResolveBestVoicesEnabledInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -49,9 +49,9 @@ type ConnectInstance interface {
 	SetEarlyMediaEnabled(val interface{})
 	EarlyMediaEnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -69,9 +69,9 @@ type ConnectInstance interface {
 	SetInstanceAlias(val *string)
 	InstanceAliasInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MultiPartyConferenceEnabled() interface{}
 	SetMultiPartyConferenceEnabled(val interface{})
 	MultiPartyConferenceEnabledInput() interface{}
@@ -81,9 +81,9 @@ type ConnectInstance interface {
 	SetOutboundCallsEnabled(val interface{})
 	OutboundCallsEnabledInput() interface{}
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -102,7 +102,7 @@ type ConnectInstance interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -117,7 +117,7 @@ type ConnectInstance interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -135,9 +135,9 @@ type ConnectInstance interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -183,7 +183,7 @@ type ConnectInstance interface {
 
 // The jsii proxy struct for ConnectInstance
 type jsiiProxy_ConnectInstance struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ConnectInstance) Arn() *string {
@@ -216,8 +216,8 @@ func (j *jsiiProxy_ConnectInstance) AutoResolveBestVoicesEnabledInput() interfac
 	return returns
 }
 
-func (j *jsiiProxy_ConnectInstance) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ConnectInstance) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -356,8 +356,8 @@ func (j *jsiiProxy_ConnectInstance) EarlyMediaEnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_ConnectInstance) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ConnectInstance) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -466,8 +466,8 @@ func (j *jsiiProxy_ConnectInstance) InstanceAliasInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ConnectInstance) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ConnectInstance) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -526,8 +526,8 @@ func (j *jsiiProxy_ConnectInstance) OutboundCallsEnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_ConnectInstance) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ConnectInstance) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -636,8 +636,8 @@ func (j *jsiiProxy_ConnectInstance) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ConnectInstance) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ConnectInstance) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -801,7 +801,7 @@ func (j *jsiiProxy_ConnectInstance)SetEarlyMediaEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_ConnectInstance)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ConnectInstance)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -853,7 +853,7 @@ func (j *jsiiProxy_ConnectInstance)SetInstanceAlias(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ConnectInstance)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ConnectInstance)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -886,7 +886,7 @@ func (j *jsiiProxy_ConnectInstance)SetOutboundCallsEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_ConnectInstance)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ConnectInstance)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -938,14 +938,14 @@ func (j *jsiiProxy_ConnectInstance)SetTagsAll(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a ConnectInstance resource upon running "cdktf plan <stack-name>".
-func ConnectInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ConnectInstance resource upon running "cdktn plan <stack-name>".
+func ConnectInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateConnectInstance_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.connectInstance.ConnectInstance",
@@ -1079,11 +1079,11 @@ func (c *jsiiProxy_ConnectInstance) GetAnyMapAttribute(terraformAttribute *strin
 	return returns
 }
 
-func (c *jsiiProxy_ConnectInstance) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ConnectInstance) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -1220,7 +1220,7 @@ func (c *jsiiProxy_ConnectInstance) HasResourceMove() interface{} {
 	return returns
 }
 
-func (c *jsiiProxy_ConnectInstance) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_ConnectInstance) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1231,11 +1231,11 @@ func (c *jsiiProxy_ConnectInstance) ImportFrom(id *string, provider cdktf.Terraf
 	)
 }
 
-func (c *jsiiProxy_ConnectInstance) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ConnectInstance) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

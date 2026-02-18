@@ -47,7 +47,7 @@ func (r *jsiiProxy_RolesanywhereTrustAnchorNotificationSettingsOutputReference) 
 	return nil
 }
 
-func (r *jsiiProxy_RolesanywhereTrustAnchorNotificationSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RolesanywhereTrustAnchorNotificationSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_RolesanywhereTrustAnchorNotificationSettingsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_RolesanywhereTrustAnchorNotificationSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RolesanywhereTrustAnchorNotificationSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_RolesanywhereTrustAnchorNotificationSettingsOutputReference) 
 	return nil
 }
 
-func validateNewRolesanywhereTrustAnchorNotificationSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRolesanywhereTrustAnchorNotificationSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

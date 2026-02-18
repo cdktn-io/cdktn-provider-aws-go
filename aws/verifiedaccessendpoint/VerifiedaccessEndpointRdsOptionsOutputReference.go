@@ -5,14 +5,14 @@ package verifiedaccessendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/verifiedaccessendpoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/verifiedaccessendpoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VerifiedaccessEndpointRdsOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -58,15 +58,15 @@ type VerifiedaccessEndpointRdsOptionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -82,9 +82,9 @@ type VerifiedaccessEndpointRdsOptionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetPort()
 	ResetProtocol()
 	ResetRdsDbClusterArn()
@@ -94,7 +94,7 @@ type VerifiedaccessEndpointRdsOptionsOutputReference interface {
 	ResetSubnetIds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -104,7 +104,7 @@ type VerifiedaccessEndpointRdsOptionsOutputReference interface {
 
 // The jsii proxy struct for VerifiedaccessEndpointRdsOptionsOutputReference
 type jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) ComplexObjectIndex() interface{} {
@@ -307,8 +307,8 @@ func (j *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -318,7 +318,7 @@ func (j *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) TerraformRes
 }
 
 
-func NewVerifiedaccessEndpointRdsOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VerifiedaccessEndpointRdsOptionsOutputReference {
+func NewVerifiedaccessEndpointRdsOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VerifiedaccessEndpointRdsOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVerifiedaccessEndpointRdsOptionsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -335,7 +335,7 @@ func NewVerifiedaccessEndpointRdsOptionsOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewVerifiedaccessEndpointRdsOptionsOutputReference_Override(v VerifiedaccessEndpointRdsOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVerifiedaccessEndpointRdsOptionsOutputReference_Override(v VerifiedaccessEndpointRdsOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -466,7 +466,7 @@ func (j *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -506,11 +506,11 @@ func (v *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (v *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -634,8 +634,8 @@ func (v *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) GetStringMap
 	return returns
 }
 
-func (v *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -647,11 +647,11 @@ func (v *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) Interpolatio
 	return returns
 }
 
-func (v *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -719,7 +719,7 @@ func (v *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) ResetSubnetI
 	)
 }
 
-func (v *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

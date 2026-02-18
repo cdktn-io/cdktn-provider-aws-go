@@ -5,19 +5,19 @@ package ec2trafficmirrorfilterrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ec2trafficmirrorfilterrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ec2trafficmirrorfilterrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/ec2_traffic_mirror_filter_rule aws_ec2_traffic_mirror_filter_rule}.
 type Ec2TrafficMirrorFilterRule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -41,9 +41,9 @@ type Ec2TrafficMirrorFilterRule interface {
 	DestinationPortRange() Ec2TrafficMirrorFilterRuleDestinationPortRangeOutputReference
 	DestinationPortRangeInput() *Ec2TrafficMirrorFilterRuleDestinationPortRange
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,18 +52,18 @@ type Ec2TrafficMirrorFilterRule interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	Protocol() *float64
 	SetProtocol(val *float64)
 	ProtocolInput() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -85,7 +85,7 @@ type Ec2TrafficMirrorFilterRule interface {
 	SourcePortRange() Ec2TrafficMirrorFilterRuleSourcePortRangeOutputReference
 	SourcePortRangeInput() *Ec2TrafficMirrorFilterRuleSourcePortRange
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -104,7 +104,7 @@ type Ec2TrafficMirrorFilterRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -122,9 +122,9 @@ type Ec2TrafficMirrorFilterRule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -165,7 +165,7 @@ type Ec2TrafficMirrorFilterRule interface {
 
 // The jsii proxy struct for Ec2TrafficMirrorFilterRule
 type jsiiProxy_Ec2TrafficMirrorFilterRule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_Ec2TrafficMirrorFilterRule) Arn() *string {
@@ -178,8 +178,8 @@ func (j *jsiiProxy_Ec2TrafficMirrorFilterRule) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Ec2TrafficMirrorFilterRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_Ec2TrafficMirrorFilterRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -288,8 +288,8 @@ func (j *jsiiProxy_Ec2TrafficMirrorFilterRule) DestinationPortRangeInput() *Ec2T
 	return returns
 }
 
-func (j *jsiiProxy_Ec2TrafficMirrorFilterRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_Ec2TrafficMirrorFilterRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -338,8 +338,8 @@ func (j *jsiiProxy_Ec2TrafficMirrorFilterRule) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Ec2TrafficMirrorFilterRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_Ec2TrafficMirrorFilterRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -378,8 +378,8 @@ func (j *jsiiProxy_Ec2TrafficMirrorFilterRule) ProtocolInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_Ec2TrafficMirrorFilterRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_Ec2TrafficMirrorFilterRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -508,8 +508,8 @@ func (j *jsiiProxy_Ec2TrafficMirrorFilterRule) SourcePortRangeInput() *Ec2Traffi
 	return returns
 }
 
-func (j *jsiiProxy_Ec2TrafficMirrorFilterRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_Ec2TrafficMirrorFilterRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -660,7 +660,7 @@ func (j *jsiiProxy_Ec2TrafficMirrorFilterRule)SetDestinationCidrBlock(val *strin
 	)
 }
 
-func (j *jsiiProxy_Ec2TrafficMirrorFilterRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_Ec2TrafficMirrorFilterRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -679,7 +679,7 @@ func (j *jsiiProxy_Ec2TrafficMirrorFilterRule)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Ec2TrafficMirrorFilterRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_Ec2TrafficMirrorFilterRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -701,7 +701,7 @@ func (j *jsiiProxy_Ec2TrafficMirrorFilterRule)SetProtocol(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_Ec2TrafficMirrorFilterRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_Ec2TrafficMirrorFilterRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -786,14 +786,14 @@ func (j *jsiiProxy_Ec2TrafficMirrorFilterRule)SetTrafficMirrorFilterId(val *stri
 	)
 }
 
-// Generates CDKTF code for importing a Ec2TrafficMirrorFilterRule resource upon running "cdktf plan <stack-name>".
-func Ec2TrafficMirrorFilterRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a Ec2TrafficMirrorFilterRule resource upon running "cdktn plan <stack-name>".
+func Ec2TrafficMirrorFilterRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateEc2TrafficMirrorFilterRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRule",
@@ -927,11 +927,11 @@ func (e *jsiiProxy_Ec2TrafficMirrorFilterRule) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (e *jsiiProxy_Ec2TrafficMirrorFilterRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_Ec2TrafficMirrorFilterRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -1068,7 +1068,7 @@ func (e *jsiiProxy_Ec2TrafficMirrorFilterRule) HasResourceMove() interface{} {
 	return returns
 }
 
-func (e *jsiiProxy_Ec2TrafficMirrorFilterRule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (e *jsiiProxy_Ec2TrafficMirrorFilterRule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := e.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1079,11 +1079,11 @@ func (e *jsiiProxy_Ec2TrafficMirrorFilterRule) ImportFrom(id *string, provider c
 	)
 }
 
-func (e *jsiiProxy_Ec2TrafficMirrorFilterRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_Ec2TrafficMirrorFilterRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,

@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsServicePrincipal) validateSetCountParameters(val inter
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsServicePrincipal) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsServicePrincipal) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

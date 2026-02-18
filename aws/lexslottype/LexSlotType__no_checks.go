@@ -119,7 +119,7 @@ func (j *jsiiProxy_LexSlotType) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_LexSlotType) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LexSlotType) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

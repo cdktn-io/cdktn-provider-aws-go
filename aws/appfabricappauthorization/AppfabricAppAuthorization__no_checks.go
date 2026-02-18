@@ -123,7 +123,7 @@ func (j *jsiiProxy_AppfabricAppAuthorization) validateSetCountParameters(val int
 	return nil
 }
 
-func (j *jsiiProxy_AppfabricAppAuthorization) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppfabricAppAuthorization) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

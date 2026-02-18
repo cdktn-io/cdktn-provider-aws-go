@@ -51,7 +51,7 @@ func (p *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersOutpu
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersOutpu
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_PipesPipeSourceParametersManagedStreamingKafkaParametersOutpu
 	return nil
 }
 
-func validateNewPipesPipeSourceParametersManagedStreamingKafkaParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPipesPipeSourceParametersManagedStreamingKafkaParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

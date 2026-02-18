@@ -51,7 +51,7 @@ func (i *jsiiProxy_IotThingGroupPropertiesOutputReference) validatePutAttributeP
 	return nil
 }
 
-func (i *jsiiProxy_IotThingGroupPropertiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotThingGroupPropertiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_IotThingGroupPropertiesOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_IotThingGroupPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotThingGroupPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIotThingGroupPropertiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIotThingGroupPropertiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

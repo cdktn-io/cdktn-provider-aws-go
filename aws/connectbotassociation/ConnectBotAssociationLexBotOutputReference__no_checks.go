@@ -47,7 +47,7 @@ func (c *jsiiProxy_ConnectBotAssociationLexBotOutputReference) validateInterpola
 	return nil
 }
 
-func (c *jsiiProxy_ConnectBotAssociationLexBotOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConnectBotAssociationLexBotOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ConnectBotAssociationLexBotOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_ConnectBotAssociationLexBotOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConnectBotAssociationLexBotOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewConnectBotAssociationLexBotOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewConnectBotAssociationLexBotOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

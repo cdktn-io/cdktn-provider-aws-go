@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudwatchEventEndpointRoutingConfigFailoverConfigSecondaryOu
 	return nil
 }
 
-func (c *jsiiProxy_CloudwatchEventEndpointRoutingConfigFailoverConfigSecondaryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudwatchEventEndpointRoutingConfigFailoverConfigSecondaryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CloudwatchEventEndpointRoutingConfigFailoverConfigSecondaryOu
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchEventEndpointRoutingConfigFailoverConfigSecondaryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudwatchEventEndpointRoutingConfigFailoverConfigSecondaryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudwatchEventEndpointRoutingConfigFailoverConfigSecondaryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudwatchEventEndpointRoutingConfigFailoverConfigSecondaryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (b *jsiiProxy_BedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputR
 	return nil
 }
 
-func (b *jsiiProxy_BedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_BedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputR
 	return nil
 }
 
-func (j *jsiiProxy_BedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_BedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputR
 	return nil
 }
 
-func validateNewBedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (e *jsiiProxy_EksCapabilityConfigurationArgoCdAwsIdcList) validateGetParame
 	return nil
 }
 
-func (e *jsiiProxy_EksCapabilityConfigurationArgoCdAwsIdcList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksCapabilityConfigurationArgoCdAwsIdcList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EksCapabilityConfigurationArgoCdAwsIdcList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_EksCapabilityConfigurationArgoCdAwsIdcList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksCapabilityConfigurationArgoCdAwsIdcList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EksCapabilityConfigurationArgoCdAwsIdcList) validateSetWrapsS
 	return nil
 }
 
-func validateNewEksCapabilityConfigurationArgoCdAwsIdcListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEksCapabilityConfigurationArgoCdAwsIdcListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsSsoadminPermissionSets) validateSetInstanceArnParamete
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSsoadminPermissionSets) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsSsoadminPermissionSets) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

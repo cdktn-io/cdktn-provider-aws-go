@@ -147,7 +147,7 @@ func (j *jsiiProxy_AppstreamImageBuilder) validateSetInstanceTypeParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_AppstreamImageBuilder) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppstreamImageBuilder) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

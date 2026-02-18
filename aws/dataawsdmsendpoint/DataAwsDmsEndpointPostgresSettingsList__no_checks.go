@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsDmsEndpointPostgresSettingsList) validateGetParameters
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointPostgresSettingsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsDmsEndpointPostgresSettingsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewDataAwsDmsEndpointPostgresSettingsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsDmsEndpointPostgresSettingsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

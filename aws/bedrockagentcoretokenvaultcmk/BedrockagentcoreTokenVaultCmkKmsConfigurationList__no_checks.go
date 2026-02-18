@@ -15,7 +15,7 @@ func (b *jsiiProxy_BedrockagentcoreTokenVaultCmkKmsConfigurationList) validateGe
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentcoreTokenVaultCmkKmsConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentcoreTokenVaultCmkKmsConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BedrockagentcoreTokenVaultCmkKmsConfigurationList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreTokenVaultCmkKmsConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentcoreTokenVaultCmkKmsConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BedrockagentcoreTokenVaultCmkKmsConfigurationList) validateSe
 	return nil
 }
 
-func validateNewBedrockagentcoreTokenVaultCmkKmsConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockagentcoreTokenVaultCmkKmsConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

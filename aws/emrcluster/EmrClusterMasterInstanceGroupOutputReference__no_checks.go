@@ -51,7 +51,7 @@ func (e *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) validatePutEbsC
 	return nil
 }
 
-func (e *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEmrClusterMasterInstanceGroupOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEmrClusterMasterInstanceGroupOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

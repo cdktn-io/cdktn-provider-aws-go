@@ -107,7 +107,7 @@ func (j *jsiiProxy_RedshiftSnapshotScheduleAssociation) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftSnapshotScheduleAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RedshiftSnapshotScheduleAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

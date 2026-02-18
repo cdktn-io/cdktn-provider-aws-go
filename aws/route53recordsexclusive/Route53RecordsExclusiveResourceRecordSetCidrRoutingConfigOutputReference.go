@@ -5,14 +5,14 @@ package route53recordsexclusive
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/route53recordsexclusive/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/route53recordsexclusive/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CollectionId() *string
 	SetCollectionId(val *string)
 	CollectionIdInput() *string
@@ -43,15 +43,15 @@ type Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference in
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference in
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference in
 
 // The jsii proxy struct for Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference
 type jsiiProxy_Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference) CollectionId() *string {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutp
 	return returns
 }
 
-func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutp
 }
 
 
-func NewRoute53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference {
+func NewRoute53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewRoute53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -213,7 +213,7 @@ func NewRoute53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference
 	return &j
 }
 
-func NewRoute53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference_Override(r Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewRoute53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference_Override(r Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutp
 	)
 }
 
-func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutp
 	return returns
 }
 
-func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -457,8 +457,8 @@ func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutp
 	return returns
 }
 
-func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -470,11 +470,11 @@ func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutp
 	return returns
 }
 
-func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -486,7 +486,7 @@ func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutp
 	return returns
 }
 
-func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

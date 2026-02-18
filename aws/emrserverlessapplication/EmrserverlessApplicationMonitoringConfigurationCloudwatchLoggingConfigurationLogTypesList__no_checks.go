@@ -15,7 +15,7 @@ func (e *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLogg
 	return nil
 }
 
-func (e *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationLogTypesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationLogTypesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLogg
 	return nil
 }
 
-func (j *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationLogTypesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationLogTypesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationCloudwatchLogg
 	return nil
 }
 
-func validateNewEmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationLogTypesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingConfigurationLogTypesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

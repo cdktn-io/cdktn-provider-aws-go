@@ -55,7 +55,7 @@ func (s *jsiiProxy_SagemakerEndpointConfigurationAsyncInferenceConfigOutputRefer
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerEndpointConfigurationAsyncInferenceConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerEndpointConfigurationAsyncInferenceConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SagemakerEndpointConfigurationAsyncInferenceConfigOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerEndpointConfigurationAsyncInferenceConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerEndpointConfigurationAsyncInferenceConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerEndpointConfigurationAsyncInferenceConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerEndpointConfigurationAsyncInferenceConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

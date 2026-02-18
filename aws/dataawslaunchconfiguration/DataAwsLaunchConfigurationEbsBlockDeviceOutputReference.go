@@ -5,14 +5,14 @@ package dataawslaunchconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawslaunchconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawslaunchconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsLaunchConfigurationEbsBlockDeviceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -28,24 +28,24 @@ type DataAwsLaunchConfigurationEbsBlockDeviceOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	DeleteOnTermination() cdktf.IResolvable
+	DeleteOnTermination() cdktn.IResolvable
 	DeviceName() *string
-	Encrypted() cdktf.IResolvable
+	Encrypted() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsLaunchConfigurationEbsBlockDevice
 	SetInternalValue(val *DataAwsLaunchConfigurationEbsBlockDevice)
 	Iops() *float64
-	NoDevice() cdktf.IResolvable
+	NoDevice() cdktn.IResolvable
 	SnapshotId() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Throughput() *float64
 	VolumeSize() *float64
 	VolumeType() *string
@@ -54,7 +54,7 @@ type DataAwsLaunchConfigurationEbsBlockDeviceOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type DataAwsLaunchConfigurationEbsBlockDeviceOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type DataAwsLaunchConfigurationEbsBlockDeviceOutputReference interface {
 
 // The jsii proxy struct for DataAwsLaunchConfigurationEbsBlockDeviceOutputReference
 type jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) ComplexObjectIndex() interface{} {
@@ -118,8 +118,8 @@ func (j *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) Crea
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) DeleteOnTermination() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) DeleteOnTermination() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"deleteOnTermination",
@@ -138,8 +138,8 @@ func (j *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) Devi
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) Encrypted() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) Encrypted() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"encrypted",
@@ -178,8 +178,8 @@ func (j *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) Iops
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) NoDevice() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) NoDevice() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"noDevice",
@@ -208,8 +208,8 @@ func (j *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -249,7 +249,7 @@ func (j *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) Volu
 }
 
 
-func NewDataAwsLaunchConfigurationEbsBlockDeviceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsLaunchConfigurationEbsBlockDeviceOutputReference {
+func NewDataAwsLaunchConfigurationEbsBlockDeviceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsLaunchConfigurationEbsBlockDeviceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsLaunchConfigurationEbsBlockDeviceOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -266,7 +266,7 @@ func NewDataAwsLaunchConfigurationEbsBlockDeviceOutputReference(terraformResourc
 	return &j
 }
 
-func NewDataAwsLaunchConfigurationEbsBlockDeviceOutputReference_Override(d DataAwsLaunchConfigurationEbsBlockDeviceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsLaunchConfigurationEbsBlockDeviceOutputReference_Override(d DataAwsLaunchConfigurationEbsBlockDeviceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -320,7 +320,7 @@ func (j *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -360,11 +360,11 @@ func (d *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) GetA
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -488,8 +488,8 @@ func (d *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) GetS
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -501,11 +501,11 @@ func (d *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) Inte
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -517,7 +517,7 @@ func (d *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) Inte
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsLaunchConfigurationEbsBlockDeviceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

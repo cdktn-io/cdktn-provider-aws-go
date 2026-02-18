@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesOutputRefe
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverride:
 		value := value.(*[]*PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverride)
@@ -117,7 +117,7 @@ func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesOutputRefe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverride; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverride; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -140,7 +140,7 @@ func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesOutputRefe
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverride:
 		value := value.(*[]*PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverride)
@@ -159,14 +159,14 @@ func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesOutputRefe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverride; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverride; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -287,7 +287,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -295,7 +295,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesOutputRefe
 	return nil
 }
 
-func validateNewPipesPipeTargetParametersEcsTaskParametersOverridesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPipesPipeTargetParametersEcsTaskParametersOverridesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

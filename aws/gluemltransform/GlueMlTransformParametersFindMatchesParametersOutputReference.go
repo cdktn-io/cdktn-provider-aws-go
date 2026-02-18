@@ -5,14 +5,14 @@ package gluemltransform
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/gluemltransform/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/gluemltransform/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GlueMlTransformParametersFindMatchesParametersOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AccuracyCostTradeOff() *float64
 	SetAccuracyCostTradeOff(val *float64)
 	AccuracyCostTradeOffInput() *float64
@@ -49,15 +49,15 @@ type GlueMlTransformParametersFindMatchesParametersOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type GlueMlTransformParametersFindMatchesParametersOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAccuracyCostTradeOff()
 	ResetEnforceProvidedLabels()
 	ResetPrecisionRecallTradeOff()
 	ResetPrimaryKeyColumnName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type GlueMlTransformParametersFindMatchesParametersOutputReference interface {
 
 // The jsii proxy struct for GlueMlTransformParametersFindMatchesParametersOutputReference
 type jsiiProxy_GlueMlTransformParametersFindMatchesParametersOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GlueMlTransformParametersFindMatchesParametersOutputReference) AccuracyCostTradeOff() *float64 {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_GlueMlTransformParametersFindMatchesParametersOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_GlueMlTransformParametersFindMatchesParametersOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GlueMlTransformParametersFindMatchesParametersOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_GlueMlTransformParametersFindMatchesParametersOutputReference
 }
 
 
-func NewGlueMlTransformParametersFindMatchesParametersOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GlueMlTransformParametersFindMatchesParametersOutputReference {
+func NewGlueMlTransformParametersFindMatchesParametersOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GlueMlTransformParametersFindMatchesParametersOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGlueMlTransformParametersFindMatchesParametersOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewGlueMlTransformParametersFindMatchesParametersOutputReference(terraformR
 	return &j
 }
 
-func NewGlueMlTransformParametersFindMatchesParametersOutputReference_Override(g GlueMlTransformParametersFindMatchesParametersOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGlueMlTransformParametersFindMatchesParametersOutputReference_Override(g GlueMlTransformParametersFindMatchesParametersOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -361,7 +361,7 @@ func (j *jsiiProxy_GlueMlTransformParametersFindMatchesParametersOutputReference
 	)
 }
 
-func (j *jsiiProxy_GlueMlTransformParametersFindMatchesParametersOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GlueMlTransformParametersFindMatchesParametersOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (g *jsiiProxy_GlueMlTransformParametersFindMatchesParametersOutputReference
 	return returns
 }
 
-func (g *jsiiProxy_GlueMlTransformParametersFindMatchesParametersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GlueMlTransformParametersFindMatchesParametersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -529,8 +529,8 @@ func (g *jsiiProxy_GlueMlTransformParametersFindMatchesParametersOutputReference
 	return returns
 }
 
-func (g *jsiiProxy_GlueMlTransformParametersFindMatchesParametersOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GlueMlTransformParametersFindMatchesParametersOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -542,11 +542,11 @@ func (g *jsiiProxy_GlueMlTransformParametersFindMatchesParametersOutputReference
 	return returns
 }
 
-func (g *jsiiProxy_GlueMlTransformParametersFindMatchesParametersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GlueMlTransformParametersFindMatchesParametersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -590,7 +590,7 @@ func (g *jsiiProxy_GlueMlTransformParametersFindMatchesParametersOutputReference
 	)
 }
 
-func (g *jsiiProxy_GlueMlTransformParametersFindMatchesParametersOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GlueMlTransformParametersFindMatchesParametersOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

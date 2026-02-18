@@ -195,7 +195,7 @@ func (j *jsiiProxy_LambdaFunction) validateSetLayersParameters(val *[]*string) e
 	return nil
 }
 
-func (j *jsiiProxy_LambdaFunction) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LambdaFunction) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

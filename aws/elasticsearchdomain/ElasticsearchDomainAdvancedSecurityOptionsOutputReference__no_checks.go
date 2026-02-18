@@ -51,7 +51,7 @@ func (e *jsiiProxy_ElasticsearchDomainAdvancedSecurityOptionsOutputReference) va
 	return nil
 }
 
-func (e *jsiiProxy_ElasticsearchDomainAdvancedSecurityOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticsearchDomainAdvancedSecurityOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ElasticsearchDomainAdvancedSecurityOptionsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_ElasticsearchDomainAdvancedSecurityOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticsearchDomainAdvancedSecurityOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewElasticsearchDomainAdvancedSecurityOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewElasticsearchDomainAdvancedSecurityOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

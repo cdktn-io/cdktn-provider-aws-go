@@ -5,14 +5,14 @@ package launchtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/launchtemplate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/launchtemplate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LaunchTemplateInstanceRequirementsMemoryMibOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type LaunchTemplateInstanceRequirementsMemoryMibOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type LaunchTemplateInstanceRequirementsMemoryMibOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetMax()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type LaunchTemplateInstanceRequirementsMemoryMibOutputReference interface {
 
 // The jsii proxy struct for LaunchTemplateInstanceRequirementsMemoryMibOutputReference
 type jsiiProxy_LaunchTemplateInstanceRequirementsMemoryMibOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LaunchTemplateInstanceRequirementsMemoryMibOutputReference) ComplexObjectIndex() interface{} {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_LaunchTemplateInstanceRequirementsMemoryMibOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_LaunchTemplateInstanceRequirementsMemoryMibOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LaunchTemplateInstanceRequirementsMemoryMibOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_LaunchTemplateInstanceRequirementsMemoryMibOutputReference) T
 }
 
 
-func NewLaunchTemplateInstanceRequirementsMemoryMibOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LaunchTemplateInstanceRequirementsMemoryMibOutputReference {
+func NewLaunchTemplateInstanceRequirementsMemoryMibOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LaunchTemplateInstanceRequirementsMemoryMibOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLaunchTemplateInstanceRequirementsMemoryMibOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewLaunchTemplateInstanceRequirementsMemoryMibOutputReference(terraformReso
 	return &j
 }
 
-func NewLaunchTemplateInstanceRequirementsMemoryMibOutputReference_Override(l LaunchTemplateInstanceRequirementsMemoryMibOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLaunchTemplateInstanceRequirementsMemoryMibOutputReference_Override(l LaunchTemplateInstanceRequirementsMemoryMibOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_LaunchTemplateInstanceRequirementsMemoryMibOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_LaunchTemplateInstanceRequirementsMemoryMibOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LaunchTemplateInstanceRequirementsMemoryMibOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (l *jsiiProxy_LaunchTemplateInstanceRequirementsMemoryMibOutputReference) G
 	return returns
 }
 
-func (l *jsiiProxy_LaunchTemplateInstanceRequirementsMemoryMibOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LaunchTemplateInstanceRequirementsMemoryMibOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -458,8 +458,8 @@ func (l *jsiiProxy_LaunchTemplateInstanceRequirementsMemoryMibOutputReference) G
 	return returns
 }
 
-func (l *jsiiProxy_LaunchTemplateInstanceRequirementsMemoryMibOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LaunchTemplateInstanceRequirementsMemoryMibOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -471,11 +471,11 @@ func (l *jsiiProxy_LaunchTemplateInstanceRequirementsMemoryMibOutputReference) I
 	return returns
 }
 
-func (l *jsiiProxy_LaunchTemplateInstanceRequirementsMemoryMibOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LaunchTemplateInstanceRequirementsMemoryMibOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -495,7 +495,7 @@ func (l *jsiiProxy_LaunchTemplateInstanceRequirementsMemoryMibOutputReference) R
 	)
 }
 
-func (l *jsiiProxy_LaunchTemplateInstanceRequirementsMemoryMibOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LaunchTemplateInstanceRequirementsMemoryMibOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

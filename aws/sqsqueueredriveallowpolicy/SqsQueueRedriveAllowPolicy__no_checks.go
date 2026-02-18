@@ -103,7 +103,7 @@ func (j *jsiiProxy_SqsQueueRedriveAllowPolicy) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_SqsQueueRedriveAllowPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SqsQueueRedriveAllowPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (l *jsiiProxy_LambdaFunctionTracingConfigOutputReference) validateInterpola
 	return nil
 }
 
-func (l *jsiiProxy_LambdaFunctionTracingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LambdaFunctionTracingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_LambdaFunctionTracingConfigOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_LambdaFunctionTracingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LambdaFunctionTracingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLambdaFunctionTracingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLambdaFunctionTracingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

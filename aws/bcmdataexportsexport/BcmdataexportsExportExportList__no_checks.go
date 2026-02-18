@@ -15,7 +15,7 @@ func (b *jsiiProxy_BcmdataexportsExportExportList) validateGetParameters(index *
 	return nil
 }
 
-func (b *jsiiProxy_BcmdataexportsExportExportList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BcmdataexportsExportExportList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BcmdataexportsExportExportList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_BcmdataexportsExportExportList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BcmdataexportsExportExportList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BcmdataexportsExportExportList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewBcmdataexportsExportExportListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBcmdataexportsExportExportListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

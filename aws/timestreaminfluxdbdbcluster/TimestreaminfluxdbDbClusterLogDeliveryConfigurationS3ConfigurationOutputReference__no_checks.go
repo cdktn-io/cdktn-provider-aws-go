@@ -47,7 +47,7 @@ func (t *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3Configur
 	return nil
 }
 
-func (t *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3Configur
 	return nil
 }
 
-func (j *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewTimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsCognitoUserPoolEmailConfigurationList) validateGetPara
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCognitoUserPoolEmailConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCognitoUserPoolEmailConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolEmailConfigurationList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolEmailConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCognitoUserPoolEmailConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolEmailConfigurationList) validateSetWrap
 	return nil
 }
 
-func validateNewDataAwsCognitoUserPoolEmailConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsCognitoUserPoolEmailConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalList) 
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalList) 
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_OpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalList) 
 	return nil
 }
 
-func validateNewOpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOpensearchAuthorizeVpcEndpointAccessAuthorizedPrincipalListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

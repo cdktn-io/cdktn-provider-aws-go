@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_AppstreamStackStorageConnectorsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (a *jsiiProxy_AppstreamStackStorageConnectorsList) validateGetParameters(in
 	return nil
 }
 
-func (a *jsiiProxy_AppstreamStackStorageConnectorsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppstreamStackStorageConnectorsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (a *jsiiProxy_AppstreamStackStorageConnectorsList) validateResolveParameter
 
 func (j *jsiiProxy_AppstreamStackStorageConnectorsList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*AppstreamStackStorageConnectors:
 		val := val.(*[]*AppstreamStackStorageConnectors)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_AppstreamStackStorageConnectorsList) validateSetInternalValue
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*AppstreamStackStorageConnectors; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*AppstreamStackStorageConnectors; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_AppstreamStackStorageConnectorsList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_AppstreamStackStorageConnectorsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppstreamStackStorageConnectorsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_AppstreamStackStorageConnectorsList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewAppstreamStackStorageConnectorsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppstreamStackStorageConnectorsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

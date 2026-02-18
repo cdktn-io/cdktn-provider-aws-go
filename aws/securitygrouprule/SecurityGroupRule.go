@@ -5,18 +5,18 @@ package securitygrouprule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/securitygrouprule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/securitygrouprule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/security_group_rule aws_security_group_rule}.
 type SecurityGroupRule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CidrBlocks() *[]*string
 	SetCidrBlocks(val *[]*string)
 	CidrBlocksInput() *[]*string
@@ -38,9 +38,9 @@ type SecurityGroupRule interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -55,9 +55,9 @@ type SecurityGroupRule interface {
 	SetIpv6CidrBlocks(val *[]*string)
 	Ipv6CidrBlocksInput() *[]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	PrefixListIds() *[]*string
@@ -67,9 +67,9 @@ type SecurityGroupRule interface {
 	SetProtocol(val *string)
 	ProtocolInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -90,7 +90,7 @@ type SecurityGroupRule interface {
 	SetSourceSecurityGroupId(val *string)
 	SourceSecurityGroupIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -111,7 +111,7 @@ type SecurityGroupRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -129,9 +129,9 @@ type SecurityGroupRule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -174,11 +174,11 @@ type SecurityGroupRule interface {
 
 // The jsii proxy struct for SecurityGroupRule
 type jsiiProxy_SecurityGroupRule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_SecurityGroupRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_SecurityGroupRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -267,8 +267,8 @@ func (j *jsiiProxy_SecurityGroupRule) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SecurityGroupRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_SecurityGroupRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -357,8 +357,8 @@ func (j *jsiiProxy_SecurityGroupRule) Ipv6CidrBlocksInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_SecurityGroupRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_SecurityGroupRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -417,8 +417,8 @@ func (j *jsiiProxy_SecurityGroupRule) ProtocolInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SecurityGroupRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_SecurityGroupRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -537,8 +537,8 @@ func (j *jsiiProxy_SecurityGroupRule) SourceSecurityGroupIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SecurityGroupRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_SecurityGroupRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -709,7 +709,7 @@ func (j *jsiiProxy_SecurityGroupRule)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SecurityGroupRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_SecurityGroupRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -750,7 +750,7 @@ func (j *jsiiProxy_SecurityGroupRule)SetIpv6CidrBlocks(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_SecurityGroupRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_SecurityGroupRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -783,7 +783,7 @@ func (j *jsiiProxy_SecurityGroupRule)SetProtocol(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SecurityGroupRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_SecurityGroupRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -868,14 +868,14 @@ func (j *jsiiProxy_SecurityGroupRule)SetType(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a SecurityGroupRule resource upon running "cdktf plan <stack-name>".
-func SecurityGroupRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a SecurityGroupRule resource upon running "cdktn plan <stack-name>".
+func SecurityGroupRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateSecurityGroupRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.securityGroupRule.SecurityGroupRule",
@@ -1009,11 +1009,11 @@ func (s *jsiiProxy_SecurityGroupRule) GetAnyMapAttribute(terraformAttribute *str
 	return returns
 }
 
-func (s *jsiiProxy_SecurityGroupRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SecurityGroupRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -1150,7 +1150,7 @@ func (s *jsiiProxy_SecurityGroupRule) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_SecurityGroupRule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_SecurityGroupRule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1161,11 +1161,11 @@ func (s *jsiiProxy_SecurityGroupRule) ImportFrom(id *string, provider cdktf.Terr
 	)
 }
 
-func (s *jsiiProxy_SecurityGroupRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SecurityGroupRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

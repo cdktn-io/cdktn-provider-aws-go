@@ -15,7 +15,7 @@ func (c *jsiiProxy_ConfigRemediationConfigurationParameterList) validateGetParam
 	return nil
 }
 
-func (c *jsiiProxy_ConfigRemediationConfigurationParameterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConfigRemediationConfigurationParameterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ConfigRemediationConfigurationParameterList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_ConfigRemediationConfigurationParameterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConfigRemediationConfigurationParameterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ConfigRemediationConfigurationParameterList) validateSetWraps
 	return nil
 }
 
-func validateNewConfigRemediationConfigurationParameterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewConfigRemediationConfigurationParameterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

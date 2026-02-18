@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsConnectRoutingProfileMediaConcurrenciesList) validateG
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsConnectRoutingProfileMediaConcurrenciesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsConnectRoutingProfileMediaConcurrenciesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsConnectRoutingProfileMediaConcurrenciesList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsConnectRoutingProfileMediaConcurrenciesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsConnectRoutingProfileMediaConcurrenciesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsConnectRoutingProfileMediaConcurrenciesList) validateS
 	return nil
 }
 
-func validateNewDataAwsConnectRoutingProfileMediaConcurrenciesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsConnectRoutingProfileMediaConcurrenciesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

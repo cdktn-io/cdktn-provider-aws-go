@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsCognitoUserPoolAdminCreateUserConfigInviteMessageTempl
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCognitoUserPoolAdminCreateUserConfigInviteMessageTemplateList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCognitoUserPoolAdminCreateUserConfigInviteMessageTemplateList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolAdminCreateUserConfigInviteMessageTempl
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolAdminCreateUserConfigInviteMessageTemplateList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCognitoUserPoolAdminCreateUserConfigInviteMessageTemplateList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolAdminCreateUserConfigInviteMessageTempl
 	return nil
 }
 
-func validateNewDataAwsCognitoUserPoolAdminCreateUserConfigInviteMessageTemplateListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsCognitoUserPoolAdminCreateUserConfigInviteMessageTemplateListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

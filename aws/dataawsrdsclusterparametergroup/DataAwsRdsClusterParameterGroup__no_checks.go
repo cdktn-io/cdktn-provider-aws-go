@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsRdsClusterParameterGroup) validateSetCountParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRdsClusterParameterGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsRdsClusterParameterGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

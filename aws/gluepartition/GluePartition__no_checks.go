@@ -115,7 +115,7 @@ func (j *jsiiProxy_GluePartition) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_GluePartition) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GluePartition) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsNetworkmanagerLinkBandwidthList) validateGetParameters
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsNetworkmanagerLinkBandwidthList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsNetworkmanagerLinkBandwidthList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsNetworkmanagerLinkBandwidthList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsNetworkmanagerLinkBandwidthList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsNetworkmanagerLinkBandwidthList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsNetworkmanagerLinkBandwidthList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewDataAwsNetworkmanagerLinkBandwidthListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsNetworkmanagerLinkBandwidthListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

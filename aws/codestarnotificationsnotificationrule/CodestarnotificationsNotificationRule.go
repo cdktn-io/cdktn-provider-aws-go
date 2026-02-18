@@ -5,19 +5,19 @@ package codestarnotificationsnotificationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/codestarnotificationsnotificationrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/codestarnotificationsnotificationrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/codestarnotifications_notification_rule aws_codestarnotifications_notification_rule}.
 type CodestarnotificationsNotificationRule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -39,9 +39,9 @@ type CodestarnotificationsNotificationRule interface {
 	SetEventTypeIds(val *[]*string)
 	EventTypeIdsInput() *[]*string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -50,18 +50,18 @@ type CodestarnotificationsNotificationRule interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -86,7 +86,7 @@ type CodestarnotificationsNotificationRule interface {
 	Target() CodestarnotificationsNotificationRuleTargetList
 	TargetInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -99,7 +99,7 @@ type CodestarnotificationsNotificationRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -117,9 +117,9 @@ type CodestarnotificationsNotificationRule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -159,7 +159,7 @@ type CodestarnotificationsNotificationRule interface {
 
 // The jsii proxy struct for CodestarnotificationsNotificationRule
 type jsiiProxy_CodestarnotificationsNotificationRule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_CodestarnotificationsNotificationRule) Arn() *string {
@@ -172,8 +172,8 @@ func (j *jsiiProxy_CodestarnotificationsNotificationRule) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CodestarnotificationsNotificationRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_CodestarnotificationsNotificationRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -262,8 +262,8 @@ func (j *jsiiProxy_CodestarnotificationsNotificationRule) EventTypeIdsInput() *[
 	return returns
 }
 
-func (j *jsiiProxy_CodestarnotificationsNotificationRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_CodestarnotificationsNotificationRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -312,8 +312,8 @@ func (j *jsiiProxy_CodestarnotificationsNotificationRule) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CodestarnotificationsNotificationRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_CodestarnotificationsNotificationRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -352,8 +352,8 @@ func (j *jsiiProxy_CodestarnotificationsNotificationRule) Node() constructs.Node
 	return returns
 }
 
-func (j *jsiiProxy_CodestarnotificationsNotificationRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_CodestarnotificationsNotificationRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -502,8 +502,8 @@ func (j *jsiiProxy_CodestarnotificationsNotificationRule) TargetInput() interfac
 	return returns
 }
 
-func (j *jsiiProxy_CodestarnotificationsNotificationRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_CodestarnotificationsNotificationRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -614,7 +614,7 @@ func (j *jsiiProxy_CodestarnotificationsNotificationRule)SetEventTypeIds(val *[]
 	)
 }
 
-func (j *jsiiProxy_CodestarnotificationsNotificationRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_CodestarnotificationsNotificationRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -633,7 +633,7 @@ func (j *jsiiProxy_CodestarnotificationsNotificationRule)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CodestarnotificationsNotificationRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_CodestarnotificationsNotificationRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -655,7 +655,7 @@ func (j *jsiiProxy_CodestarnotificationsNotificationRule)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CodestarnotificationsNotificationRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_CodestarnotificationsNotificationRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -729,14 +729,14 @@ func (j *jsiiProxy_CodestarnotificationsNotificationRule)SetTagsAll(val *map[str
 	)
 }
 
-// Generates CDKTF code for importing a CodestarnotificationsNotificationRule resource upon running "cdktf plan <stack-name>".
-func CodestarnotificationsNotificationRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a CodestarnotificationsNotificationRule resource upon running "cdktn plan <stack-name>".
+func CodestarnotificationsNotificationRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateCodestarnotificationsNotificationRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRule",
@@ -870,11 +870,11 @@ func (c *jsiiProxy_CodestarnotificationsNotificationRule) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (c *jsiiProxy_CodestarnotificationsNotificationRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CodestarnotificationsNotificationRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -1011,7 +1011,7 @@ func (c *jsiiProxy_CodestarnotificationsNotificationRule) HasResourceMove() inte
 	return returns
 }
 
-func (c *jsiiProxy_CodestarnotificationsNotificationRule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_CodestarnotificationsNotificationRule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1022,11 +1022,11 @@ func (c *jsiiProxy_CodestarnotificationsNotificationRule) ImportFrom(id *string,
 	)
 }
 
-func (c *jsiiProxy_CodestarnotificationsNotificationRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CodestarnotificationsNotificationRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

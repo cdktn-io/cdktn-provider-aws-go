@@ -47,7 +47,7 @@ func (e *jsiiProxy_Ec2SecondaryNetworkIpv4CidrBlockAssociationsOutputReference) 
 	return nil
 }
 
-func (e *jsiiProxy_Ec2SecondaryNetworkIpv4CidrBlockAssociationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_Ec2SecondaryNetworkIpv4CidrBlockAssociationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_Ec2SecondaryNetworkIpv4CidrBlockAssociationsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_Ec2SecondaryNetworkIpv4CidrBlockAssociationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Ec2SecondaryNetworkIpv4CidrBlockAssociationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEc2SecondaryNetworkIpv4CidrBlockAssociationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEc2SecondaryNetworkIpv4CidrBlockAssociationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

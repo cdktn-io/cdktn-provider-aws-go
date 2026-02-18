@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsKinesisFirehoseDeliveryStream) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsKinesisFirehoseDeliveryStream) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsKinesisFirehoseDeliveryStream) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

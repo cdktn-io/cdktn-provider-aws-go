@@ -135,7 +135,7 @@ func (j *jsiiProxy_WorkspacesDirectory) validateSetIpGroupIdsParameters(val *[]*
 	return nil
 }
 
-func (j *jsiiProxy_WorkspacesDirectory) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_WorkspacesDirectory) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

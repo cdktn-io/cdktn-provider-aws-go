@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsOpensearchDomainCognitoOptionsList) validateGetParamet
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsOpensearchDomainCognitoOptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsOpensearchDomainCognitoOptionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsOpensearchDomainCognitoOptionsList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOpensearchDomainCognitoOptionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsOpensearchDomainCognitoOptionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsOpensearchDomainCognitoOptionsList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewDataAwsOpensearchDomainCognitoOptionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsOpensearchDomainCognitoOptionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package alb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/alb/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/alb/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AlbSubnetMappingList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type AlbSubnetMappingList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type AlbSubnetMappingList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) AlbSubnetMappingOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type AlbSubnetMappingList interface {
 
 // The jsii proxy struct for AlbSubnetMappingList
 type jsiiProxy_AlbSubnetMappingList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_AlbSubnetMappingList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_AlbSubnetMappingList) TerraformAttribute() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AlbSubnetMappingList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AlbSubnetMappingList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_AlbSubnetMappingList) WrapsSet() *bool {
 }
 
 
-func NewAlbSubnetMappingList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AlbSubnetMappingList {
+func NewAlbSubnetMappingList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AlbSubnetMappingList {
 	_init_.Initialize()
 
 	if err := validateNewAlbSubnetMappingListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewAlbSubnetMappingList(terraformResource cdktf.IInterpolatingParent, terra
 	return &j
 }
 
-func NewAlbSubnetMappingList_Override(a AlbSubnetMappingList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewAlbSubnetMappingList_Override(a AlbSubnetMappingList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_AlbSubnetMappingList)SetTerraformAttribute(val *string) {
 	)
 }
 
-func (j *jsiiProxy_AlbSubnetMappingList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AlbSubnetMappingList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_AlbSubnetMappingList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (a *jsiiProxy_AlbSubnetMappingList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (a *jsiiProxy_AlbSubnetMappingList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := a.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		a,
@@ -231,7 +231,7 @@ func (a *jsiiProxy_AlbSubnetMappingList) Get(index *float64) AlbSubnetMappingOut
 	return returns
 }
 
-func (a *jsiiProxy_AlbSubnetMappingList) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AlbSubnetMappingList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

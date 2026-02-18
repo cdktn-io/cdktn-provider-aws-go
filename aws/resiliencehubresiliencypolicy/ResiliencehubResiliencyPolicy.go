@@ -5,19 +5,19 @@ package resiliencehubresiliencypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/resiliencehubresiliencypolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/resiliencehubresiliencypolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/resiliencehub_resiliency_policy aws_resiliencehub_resiliency_policy}.
 type ResiliencehubResiliencyPolicy interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -40,17 +40,17 @@ type ResiliencehubResiliencyPolicy interface {
 	DescriptionInput() *string
 	EstimatedCostTier() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -59,9 +59,9 @@ type ResiliencehubResiliencyPolicy interface {
 	Policy() ResiliencehubResiliencyPolicyPolicyList
 	PolicyInput() interface{}
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -73,10 +73,10 @@ type ResiliencehubResiliencyPolicy interface {
 	RegionInput() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
-	TagsAll() cdktf.StringMap
+	TagsAll() cdktn.StringMap
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -94,7 +94,7 @@ type ResiliencehubResiliencyPolicy interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -112,9 +112,9 @@ type ResiliencehubResiliencyPolicy interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -155,7 +155,7 @@ type ResiliencehubResiliencyPolicy interface {
 
 // The jsii proxy struct for ResiliencehubResiliencyPolicy
 type jsiiProxy_ResiliencehubResiliencyPolicy struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ResiliencehubResiliencyPolicy) Arn() *string {
@@ -168,8 +168,8 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicy) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ResiliencehubResiliencyPolicy) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ResiliencehubResiliencyPolicy) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -268,8 +268,8 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicy) EstimatedCostTier() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ResiliencehubResiliencyPolicy) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ResiliencehubResiliencyPolicy) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -298,8 +298,8 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicy) FriendlyUniqueId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ResiliencehubResiliencyPolicy) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ResiliencehubResiliencyPolicy) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -358,8 +358,8 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicy) PolicyInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_ResiliencehubResiliencyPolicy) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ResiliencehubResiliencyPolicy) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -418,8 +418,8 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicy) Tags() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ResiliencehubResiliencyPolicy) TagsAll() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_ResiliencehubResiliencyPolicy) TagsAll() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tagsAll",
@@ -438,8 +438,8 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicy) TagsInput() *map[string]*strin
 	return returns
 }
 
-func (j *jsiiProxy_ResiliencehubResiliencyPolicy) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ResiliencehubResiliencyPolicy) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -590,7 +590,7 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicy)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ResiliencehubResiliencyPolicy)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ResiliencehubResiliencyPolicy)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -598,7 +598,7 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicy)SetForEach(val cdktf.ITerraform
 	)
 }
 
-func (j *jsiiProxy_ResiliencehubResiliencyPolicy)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ResiliencehubResiliencyPolicy)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -620,7 +620,7 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicy)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ResiliencehubResiliencyPolicy)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ResiliencehubResiliencyPolicy)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -672,14 +672,14 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicy)SetTier(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a ResiliencehubResiliencyPolicy resource upon running "cdktf plan <stack-name>".
-func ResiliencehubResiliencyPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ResiliencehubResiliencyPolicy resource upon running "cdktn plan <stack-name>".
+func ResiliencehubResiliencyPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateResiliencehubResiliencyPolicy_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicy",
@@ -813,11 +813,11 @@ func (r *jsiiProxy_ResiliencehubResiliencyPolicy) GetAnyMapAttribute(terraformAt
 	return returns
 }
 
-func (r *jsiiProxy_ResiliencehubResiliencyPolicy) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_ResiliencehubResiliencyPolicy) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -954,7 +954,7 @@ func (r *jsiiProxy_ResiliencehubResiliencyPolicy) HasResourceMove() interface{} 
 	return returns
 }
 
-func (r *jsiiProxy_ResiliencehubResiliencyPolicy) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (r *jsiiProxy_ResiliencehubResiliencyPolicy) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := r.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -965,11 +965,11 @@ func (r *jsiiProxy_ResiliencehubResiliencyPolicy) ImportFrom(id *string, provide
 	)
 }
 
-func (r *jsiiProxy_ResiliencehubResiliencyPolicy) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_ResiliencehubResiliencyPolicy) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,

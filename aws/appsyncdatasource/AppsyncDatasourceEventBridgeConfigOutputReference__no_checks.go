@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppsyncDatasourceEventBridgeConfigOutputReference) validateIn
 	return nil
 }
 
-func (a *jsiiProxy_AppsyncDatasourceEventBridgeConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppsyncDatasourceEventBridgeConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AppsyncDatasourceEventBridgeConfigOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncDatasourceEventBridgeConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppsyncDatasourceEventBridgeConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppsyncDatasourceEventBridgeConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppsyncDatasourceEventBridgeConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package vpclatticelistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/vpclatticelistener/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/vpclatticelistener/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VpclatticeListenerDefaultActionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,15 +41,15 @@ type VpclatticeListenerDefaultActionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,16 +65,16 @@ type VpclatticeListenerDefaultActionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutFixedResponse(value *VpclatticeListenerDefaultActionFixedResponse)
 	PutForward(value interface{})
 	ResetFixedResponse()
 	ResetForward()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type VpclatticeListenerDefaultActionOutputReference interface {
 
 // The jsii proxy struct for VpclatticeListenerDefaultActionOutputReference
 type jsiiProxy_VpclatticeListenerDefaultActionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VpclatticeListenerDefaultActionOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_VpclatticeListenerDefaultActionOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_VpclatticeListenerDefaultActionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VpclatticeListenerDefaultActionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_VpclatticeListenerDefaultActionOutputReference) TerraformReso
 }
 
 
-func NewVpclatticeListenerDefaultActionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VpclatticeListenerDefaultActionOutputReference {
+func NewVpclatticeListenerDefaultActionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VpclatticeListenerDefaultActionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVpclatticeListenerDefaultActionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewVpclatticeListenerDefaultActionOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewVpclatticeListenerDefaultActionOutputReference_Override(v VpclatticeListenerDefaultActionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVpclatticeListenerDefaultActionOutputReference_Override(v VpclatticeListenerDefaultActionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -269,7 +269,7 @@ func (j *jsiiProxy_VpclatticeListenerDefaultActionOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_VpclatticeListenerDefaultActionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VpclatticeListenerDefaultActionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -309,11 +309,11 @@ func (v *jsiiProxy_VpclatticeListenerDefaultActionOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (v *jsiiProxy_VpclatticeListenerDefaultActionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpclatticeListenerDefaultActionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -437,8 +437,8 @@ func (v *jsiiProxy_VpclatticeListenerDefaultActionOutputReference) GetStringMapA
 	return returns
 }
 
-func (v *jsiiProxy_VpclatticeListenerDefaultActionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VpclatticeListenerDefaultActionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -450,11 +450,11 @@ func (v *jsiiProxy_VpclatticeListenerDefaultActionOutputReference) Interpolation
 	return returns
 }
 
-func (v *jsiiProxy_VpclatticeListenerDefaultActionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpclatticeListenerDefaultActionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -504,7 +504,7 @@ func (v *jsiiProxy_VpclatticeListenerDefaultActionOutputReference) ResetForward(
 	)
 }
 
-func (v *jsiiProxy_VpclatticeListenerDefaultActionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VpclatticeListenerDefaultActionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

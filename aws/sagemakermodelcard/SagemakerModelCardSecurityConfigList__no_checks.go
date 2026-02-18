@@ -15,7 +15,7 @@ func (s *jsiiProxy_SagemakerModelCardSecurityConfigList) validateGetParameters(i
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerModelCardSecurityConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerModelCardSecurityConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SagemakerModelCardSecurityConfigList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerModelCardSecurityConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerModelCardSecurityConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SagemakerModelCardSecurityConfigList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewSagemakerModelCardSecurityConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSagemakerModelCardSecurityConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

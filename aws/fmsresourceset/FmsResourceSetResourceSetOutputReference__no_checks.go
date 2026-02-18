@@ -47,7 +47,7 @@ func (f *jsiiProxy_FmsResourceSetResourceSetOutputReference) validateInterpolati
 	return nil
 }
 
-func (f *jsiiProxy_FmsResourceSetResourceSetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FmsResourceSetResourceSetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_FmsResourceSetResourceSetOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_FmsResourceSetResourceSetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FmsResourceSetResourceSetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_FmsResourceSetResourceSetOutputReference) validateSetUpdateTo
 	return nil
 }
 
-func validateNewFmsResourceSetResourceSetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFmsResourceSetResourceSetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

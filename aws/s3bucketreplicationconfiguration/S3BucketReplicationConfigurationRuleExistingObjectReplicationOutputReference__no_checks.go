@@ -47,7 +47,7 @@ func (s *jsiiProxy_S3BucketReplicationConfigurationRuleExistingObjectReplication
 	return nil
 }
 
-func (s *jsiiProxy_S3BucketReplicationConfigurationRuleExistingObjectReplicationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3BucketReplicationConfigurationRuleExistingObjectReplicationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_S3BucketReplicationConfigurationRuleExistingObjectReplication
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketReplicationConfigurationRuleExistingObjectReplicationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3BucketReplicationConfigurationRuleExistingObjectReplicationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewS3BucketReplicationConfigurationRuleExistingObjectReplicationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewS3BucketReplicationConfigurationRuleExistingObjectReplicationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

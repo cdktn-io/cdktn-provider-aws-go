@@ -5,14 +5,14 @@ package datasynclocationfsxontapfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/datasynclocationfsxontapfilesystem/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/datasynclocationfsxontapfilesystem/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference in
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Version() *string
 	SetVersion(val *string)
 	VersionInput() *string
@@ -48,7 +48,7 @@ type DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference in
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference in
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference in
 
 // The jsii proxy struct for DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference
 type jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference) ComplexObjectIndex() interface{} {
@@ -143,8 +143,8 @@ func (j *jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutp
 	return returns
 }
 
-func (j *jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutp
 }
 
 
-func NewDatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference {
+func NewDatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewDatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference
 	return &j
 }
 
-func NewDatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference_Override(d DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference_Override(d DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutp
 	)
 }
 
-func (j *jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (d *jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutp
 	return returns
 }
 
-func (d *jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -424,8 +424,8 @@ func (d *jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutp
 	return returns
 }
 
-func (d *jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -437,11 +437,11 @@ func (d *jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutp
 	return returns
 }
 
-func (d *jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -461,7 +461,7 @@ func (d *jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutp
 	)
 }
 
-func (d *jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (s *jsiiProxy_S3BucketAbacAbacStatusOutputReference) validateInterpolationF
 	return nil
 }
 
-func (s *jsiiProxy_S3BucketAbacAbacStatusOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3BucketAbacAbacStatusOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_S3BucketAbacAbacStatusOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketAbacAbacStatusOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3BucketAbacAbacStatusOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewS3BucketAbacAbacStatusOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewS3BucketAbacAbacStatusOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

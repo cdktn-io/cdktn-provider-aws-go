@@ -5,21 +5,21 @@ package pinpointsmschannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/pinpointsmschannel/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/pinpointsmschannel/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/pinpoint_sms_channel aws_pinpoint_sms_channel}.
 type PinpointSmsChannel interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApplicationId() *string
 	SetApplicationId(val *string)
 	ApplicationIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type PinpointSmsChannel interface {
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,16 +49,16 @@ type PinpointSmsChannel interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	PromotionalMessagesPerSecond() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -75,7 +75,7 @@ type PinpointSmsChannel interface {
 	SetShortCode(val *string)
 	ShortCodeInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type PinpointSmsChannel interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -107,9 +107,9 @@ type PinpointSmsChannel interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -147,7 +147,7 @@ type PinpointSmsChannel interface {
 
 // The jsii proxy struct for PinpointSmsChannel
 type jsiiProxy_PinpointSmsChannel struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_PinpointSmsChannel) ApplicationId() *string {
@@ -170,8 +170,8 @@ func (j *jsiiProxy_PinpointSmsChannel) ApplicationIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_PinpointSmsChannel) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_PinpointSmsChannel) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -240,8 +240,8 @@ func (j *jsiiProxy_PinpointSmsChannel) EnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_PinpointSmsChannel) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_PinpointSmsChannel) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -290,8 +290,8 @@ func (j *jsiiProxy_PinpointSmsChannel) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_PinpointSmsChannel) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_PinpointSmsChannel) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -320,8 +320,8 @@ func (j *jsiiProxy_PinpointSmsChannel) PromotionalMessagesPerSecond() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_PinpointSmsChannel) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_PinpointSmsChannel) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -410,8 +410,8 @@ func (j *jsiiProxy_PinpointSmsChannel) ShortCodeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_PinpointSmsChannel) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_PinpointSmsChannel) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -532,7 +532,7 @@ func (j *jsiiProxy_PinpointSmsChannel)SetEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_PinpointSmsChannel)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_PinpointSmsChannel)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -551,7 +551,7 @@ func (j *jsiiProxy_PinpointSmsChannel)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_PinpointSmsChannel)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_PinpointSmsChannel)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -562,7 +562,7 @@ func (j *jsiiProxy_PinpointSmsChannel)SetLifecycle(val *cdktf.TerraformResourceL
 	)
 }
 
-func (j *jsiiProxy_PinpointSmsChannel)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_PinpointSmsChannel)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -614,14 +614,14 @@ func (j *jsiiProxy_PinpointSmsChannel)SetShortCode(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a PinpointSmsChannel resource upon running "cdktf plan <stack-name>".
-func PinpointSmsChannel_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a PinpointSmsChannel resource upon running "cdktn plan <stack-name>".
+func PinpointSmsChannel_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validatePinpointSmsChannel_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.pinpointSmsChannel.PinpointSmsChannel",
@@ -755,11 +755,11 @@ func (p *jsiiProxy_PinpointSmsChannel) GetAnyMapAttribute(terraformAttribute *st
 	return returns
 }
 
-func (p *jsiiProxy_PinpointSmsChannel) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PinpointSmsChannel) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -896,7 +896,7 @@ func (p *jsiiProxy_PinpointSmsChannel) HasResourceMove() interface{} {
 	return returns
 }
 
-func (p *jsiiProxy_PinpointSmsChannel) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (p *jsiiProxy_PinpointSmsChannel) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := p.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -907,11 +907,11 @@ func (p *jsiiProxy_PinpointSmsChannel) ImportFrom(id *string, provider cdktf.Ter
 	)
 }
 
-func (p *jsiiProxy_PinpointSmsChannel) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PinpointSmsChannel) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,

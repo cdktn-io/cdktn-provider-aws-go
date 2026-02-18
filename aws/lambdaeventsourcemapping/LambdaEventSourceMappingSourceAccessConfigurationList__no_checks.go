@@ -15,7 +15,7 @@ func (l *jsiiProxy_LambdaEventSourceMappingSourceAccessConfigurationList) valida
 	return nil
 }
 
-func (l *jsiiProxy_LambdaEventSourceMappingSourceAccessConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LambdaEventSourceMappingSourceAccessConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LambdaEventSourceMappingSourceAccessConfigurationList) valida
 	return nil
 }
 
-func (j *jsiiProxy_LambdaEventSourceMappingSourceAccessConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LambdaEventSourceMappingSourceAccessConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LambdaEventSourceMappingSourceAccessConfigurationList) valida
 	return nil
 }
 
-func validateNewLambdaEventSourceMappingSourceAccessConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLambdaEventSourceMappingSourceAccessConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

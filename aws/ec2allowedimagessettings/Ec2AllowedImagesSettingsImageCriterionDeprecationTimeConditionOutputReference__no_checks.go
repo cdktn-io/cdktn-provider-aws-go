@@ -47,7 +47,7 @@ func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionDeprecationTimeConditio
 	return nil
 }
 
-func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionDeprecationTimeConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionDeprecationTimeConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionDeprecationTimeConditio
 	return nil
 }
 
-func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionDeprecationTimeConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionDeprecationTimeConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEc2AllowedImagesSettingsImageCriterionDeprecationTimeConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEc2AllowedImagesSettingsImageCriterionDeprecationTimeConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

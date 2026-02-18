@@ -5,14 +5,14 @@ package albtargetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/albtargetgroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/albtargetgroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AlbTargetGroupTargetHealthStateOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type AlbTargetGroupTargetHealthStateOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UnhealthyDrainingInterval() *float64
 	SetUnhealthyDrainingInterval(val *float64)
 	UnhealthyDrainingIntervalInput() *float64
@@ -51,7 +51,7 @@ type AlbTargetGroupTargetHealthStateOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type AlbTargetGroupTargetHealthStateOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetUnhealthyDrainingInterval()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type AlbTargetGroupTargetHealthStateOutputReference interface {
 
 // The jsii proxy struct for AlbTargetGroupTargetHealthStateOutputReference
 type jsiiProxy_AlbTargetGroupTargetHealthStateOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AlbTargetGroupTargetHealthStateOutputReference) ComplexObjectIndex() interface{} {
@@ -166,8 +166,8 @@ func (j *jsiiProxy_AlbTargetGroupTargetHealthStateOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_AlbTargetGroupTargetHealthStateOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AlbTargetGroupTargetHealthStateOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_AlbTargetGroupTargetHealthStateOutputReference) UnhealthyDrai
 }
 
 
-func NewAlbTargetGroupTargetHealthStateOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AlbTargetGroupTargetHealthStateOutputReference {
+func NewAlbTargetGroupTargetHealthStateOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AlbTargetGroupTargetHealthStateOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAlbTargetGroupTargetHealthStateOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -214,7 +214,7 @@ func NewAlbTargetGroupTargetHealthStateOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewAlbTargetGroupTargetHealthStateOutputReference_Override(a AlbTargetGroupTargetHealthStateOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewAlbTargetGroupTargetHealthStateOutputReference_Override(a AlbTargetGroupTargetHealthStateOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -279,7 +279,7 @@ func (j *jsiiProxy_AlbTargetGroupTargetHealthStateOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_AlbTargetGroupTargetHealthStateOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AlbTargetGroupTargetHealthStateOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (a *jsiiProxy_AlbTargetGroupTargetHealthStateOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (a *jsiiProxy_AlbTargetGroupTargetHealthStateOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AlbTargetGroupTargetHealthStateOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -458,8 +458,8 @@ func (a *jsiiProxy_AlbTargetGroupTargetHealthStateOutputReference) GetStringMapA
 	return returns
 }
 
-func (a *jsiiProxy_AlbTargetGroupTargetHealthStateOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AlbTargetGroupTargetHealthStateOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -471,11 +471,11 @@ func (a *jsiiProxy_AlbTargetGroupTargetHealthStateOutputReference) Interpolation
 	return returns
 }
 
-func (a *jsiiProxy_AlbTargetGroupTargetHealthStateOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AlbTargetGroupTargetHealthStateOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -495,7 +495,7 @@ func (a *jsiiProxy_AlbTargetGroupTargetHealthStateOutputReference) ResetUnhealth
 	)
 }
 
-func (a *jsiiProxy_AlbTargetGroupTargetHealthStateOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AlbTargetGroupTargetHealthStateOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

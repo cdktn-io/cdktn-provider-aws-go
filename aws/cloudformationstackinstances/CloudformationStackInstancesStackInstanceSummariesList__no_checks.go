@@ -15,7 +15,7 @@ func (c *jsiiProxy_CloudformationStackInstancesStackInstanceSummariesList) valid
 	return nil
 }
 
-func (c *jsiiProxy_CloudformationStackInstancesStackInstanceSummariesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudformationStackInstancesStackInstanceSummariesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_CloudformationStackInstancesStackInstanceSummariesList) valid
 	return nil
 }
 
-func (j *jsiiProxy_CloudformationStackInstancesStackInstanceSummariesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudformationStackInstancesStackInstanceSummariesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_CloudformationStackInstancesStackInstanceSummariesList) valid
 	return nil
 }
 
-func validateNewCloudformationStackInstancesStackInstanceSummariesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudformationStackInstancesStackInstanceSummariesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

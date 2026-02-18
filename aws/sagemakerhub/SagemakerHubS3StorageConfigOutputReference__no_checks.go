@@ -47,7 +47,7 @@ func (s *jsiiProxy_SagemakerHubS3StorageConfigOutputReference) validateInterpola
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerHubS3StorageConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerHubS3StorageConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SagemakerHubS3StorageConfigOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerHubS3StorageConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerHubS3StorageConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerHubS3StorageConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerHubS3StorageConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

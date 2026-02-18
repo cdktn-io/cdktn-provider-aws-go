@@ -47,7 +47,7 @@ func (g *jsiiProxy_GluePartitionStorageDescriptorColumnsOutputReference) validat
 	return nil
 }
 
-func (g *jsiiProxy_GluePartitionStorageDescriptorColumnsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GluePartitionStorageDescriptorColumnsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GluePartitionStorageDescriptorColumnsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_GluePartitionStorageDescriptorColumnsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GluePartitionStorageDescriptorColumnsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GluePartitionStorageDescriptorColumnsOutputReference) validat
 	return nil
 }
 
-func validateNewGluePartitionStorageDescriptorColumnsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGluePartitionStorageDescriptorColumnsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

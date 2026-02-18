@@ -47,7 +47,7 @@ func (a *jsiiProxy_AlbTargetGroupTargetGroupHealthDnsFailoverOutputReference) va
 	return nil
 }
 
-func (a *jsiiProxy_AlbTargetGroupTargetGroupHealthDnsFailoverOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AlbTargetGroupTargetGroupHealthDnsFailoverOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AlbTargetGroupTargetGroupHealthDnsFailoverOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_AlbTargetGroupTargetGroupHealthDnsFailoverOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AlbTargetGroupTargetGroupHealthDnsFailoverOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAlbTargetGroupTargetGroupHealthDnsFailoverOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAlbTargetGroupTargetGroupHealthDnsFailoverOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -107,7 +107,7 @@ func (j *jsiiProxy_Ec2TransitGatewayConnect) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_Ec2TransitGatewayConnect) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Ec2TransitGatewayConnect) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GlueCrawlerDeltaTargetOutputReference) validateInterpolationF
 	return nil
 }
 
-func (g *jsiiProxy_GlueCrawlerDeltaTargetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueCrawlerDeltaTargetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GlueCrawlerDeltaTargetOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_GlueCrawlerDeltaTargetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueCrawlerDeltaTargetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_GlueCrawlerDeltaTargetOutputReference) validateSetWriteManife
 	return nil
 }
 
-func validateNewGlueCrawlerDeltaTargetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGlueCrawlerDeltaTargetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

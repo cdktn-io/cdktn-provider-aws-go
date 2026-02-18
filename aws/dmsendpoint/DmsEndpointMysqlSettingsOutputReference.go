@@ -5,14 +5,14 @@ package dmsendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dmsendpoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dmsendpoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DmsEndpointMysqlSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AfterConnectScript() *string
 	SetAfterConnectScript(val *string)
 	AfterConnectScriptInput() *string
@@ -67,15 +67,15 @@ type DmsEndpointMysqlSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -91,9 +91,9 @@ type DmsEndpointMysqlSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAfterConnectScript()
 	ResetAuthenticationMethod()
 	ResetCleanSourceMetadataOnMismatch()
@@ -106,7 +106,7 @@ type DmsEndpointMysqlSettingsOutputReference interface {
 	ResetTargetDbType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -116,7 +116,7 @@ type DmsEndpointMysqlSettingsOutputReference interface {
 
 // The jsii proxy struct for DmsEndpointMysqlSettingsOutputReference
 type jsiiProxy_DmsEndpointMysqlSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) AfterConnectScript() *string {
@@ -379,8 +379,8 @@ func (j *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) TerraformAttribute()
 	return returns
 }
 
-func (j *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -390,7 +390,7 @@ func (j *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) TerraformResource() 
 }
 
 
-func NewDmsEndpointMysqlSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DmsEndpointMysqlSettingsOutputReference {
+func NewDmsEndpointMysqlSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DmsEndpointMysqlSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDmsEndpointMysqlSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -407,7 +407,7 @@ func NewDmsEndpointMysqlSettingsOutputReference(terraformResource cdktf.IInterpo
 	return &j
 }
 
-func NewDmsEndpointMysqlSettingsOutputReference_Override(d DmsEndpointMysqlSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDmsEndpointMysqlSettingsOutputReference_Override(d DmsEndpointMysqlSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -571,7 +571,7 @@ func (j *jsiiProxy_DmsEndpointMysqlSettingsOutputReference)SetTerraformAttribute
 	)
 }
 
-func (j *jsiiProxy_DmsEndpointMysqlSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DmsEndpointMysqlSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -611,11 +611,11 @@ func (d *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) GetAnyMapAttribute(t
 	return returns
 }
 
-func (d *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -739,8 +739,8 @@ func (d *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) GetStringMapAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -752,11 +752,11 @@ func (d *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) InterpolationAsList(
 	return returns
 }
 
-func (d *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -848,7 +848,7 @@ func (d *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) ResetTargetDbType() 
 	)
 }
 
-func (d *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

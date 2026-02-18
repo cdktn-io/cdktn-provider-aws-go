@@ -47,7 +47,7 @@ func (r *jsiiProxy_RumAppMonitorCustomEventsOutputReference) validateInterpolati
 	return nil
 }
 
-func (r *jsiiProxy_RumAppMonitorCustomEventsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RumAppMonitorCustomEventsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_RumAppMonitorCustomEventsOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_RumAppMonitorCustomEventsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RumAppMonitorCustomEventsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRumAppMonitorCustomEventsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRumAppMonitorCustomEventsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -107,7 +107,7 @@ func (j *jsiiProxy_DatazoneGlossary) validateSetDomainIdentifierParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_DatazoneGlossary) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DatazoneGlossary) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

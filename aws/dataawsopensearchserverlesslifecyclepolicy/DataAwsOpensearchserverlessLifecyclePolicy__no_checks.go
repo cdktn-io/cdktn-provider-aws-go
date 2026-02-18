@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsOpensearchserverlessLifecyclePolicy) validateSetCountP
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOpensearchserverlessLifecyclePolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsOpensearchserverlessLifecyclePolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

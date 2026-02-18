@@ -47,7 +47,7 @@ func (g *jsiiProxy_GrafanaWorkspaceVpcConfigurationOutputReference) validateInte
 	return nil
 }
 
-func (g *jsiiProxy_GrafanaWorkspaceVpcConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GrafanaWorkspaceVpcConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GrafanaWorkspaceVpcConfigurationOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_GrafanaWorkspaceVpcConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GrafanaWorkspaceVpcConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGrafanaWorkspaceVpcConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGrafanaWorkspaceVpcConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

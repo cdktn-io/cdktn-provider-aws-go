@@ -5,14 +5,14 @@ package lexv2modelsintent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lexv2modelsintent/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lexv2modelsintent/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Button() Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardButtonList
 	ButtonInput() interface{}
 	// the index of the complex object in a list.
@@ -45,9 +45,9 @@ type Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariati
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Title() *string
 	SetTitle(val *string)
 	TitleInput() *string
@@ -56,7 +56,7 @@ type Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariati
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,16 +72,16 @@ type Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariati
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutButton(value interface{})
 	ResetButton()
 	ResetImageUrl()
 	ResetSubtitle()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariati
 
 // The jsii proxy struct for Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference
 type jsiiProxy_Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference) Button() Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardButtonList {
@@ -214,8 +214,8 @@ func (j *jsiiProxy_Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessa
 	return returns
 }
 
-func (j *jsiiProxy_Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -245,7 +245,7 @@ func (j *jsiiProxy_Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessa
 }
 
 
-func NewLexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference {
+func NewLexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -262,7 +262,7 @@ func NewLexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVari
 	return &j
 }
 
-func NewLexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference_Override(l Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewLexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference_Override(l Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -338,7 +338,7 @@ func (j *jsiiProxy_Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessa
 	)
 }
 
-func (j *jsiiProxy_Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -389,11 +389,11 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessa
 	return returns
 }
 
-func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -517,8 +517,8 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessa
 	return returns
 }
 
-func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -530,11 +530,11 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessa
 	return returns
 }
 
-func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -581,7 +581,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessa
 	)
 }
 
-func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGroupVariationImageResponseCardOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

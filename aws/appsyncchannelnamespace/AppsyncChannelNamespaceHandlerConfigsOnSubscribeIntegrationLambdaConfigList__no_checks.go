@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationLa
 	return nil
 }
 
-func (a *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationLambdaConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationLambdaConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationLa
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationLambdaConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationLambdaConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationLa
 	return nil
 }
 
-func validateNewAppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationLambdaConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationLambdaConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

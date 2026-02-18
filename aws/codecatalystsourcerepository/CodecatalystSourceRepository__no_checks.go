@@ -111,7 +111,7 @@ func (j *jsiiProxy_CodecatalystSourceRepository) validateSetIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_CodecatalystSourceRepository) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CodecatalystSourceRepository) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_StoragegatewayGatewayMaintenanceStartTimeOutputReference) val
 	return nil
 }
 
-func (s *jsiiProxy_StoragegatewayGatewayMaintenanceStartTimeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StoragegatewayGatewayMaintenanceStartTimeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_StoragegatewayGatewayMaintenanceStartTimeOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_StoragegatewayGatewayMaintenanceStartTimeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StoragegatewayGatewayMaintenanceStartTimeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStoragegatewayGatewayMaintenanceStartTimeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStoragegatewayGatewayMaintenanceStartTimeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

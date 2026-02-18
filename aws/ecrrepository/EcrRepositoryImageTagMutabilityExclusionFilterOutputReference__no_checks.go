@@ -47,7 +47,7 @@ func (e *jsiiProxy_EcrRepositoryImageTagMutabilityExclusionFilterOutputReference
 	return nil
 }
 
-func (e *jsiiProxy_EcrRepositoryImageTagMutabilityExclusionFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcrRepositoryImageTagMutabilityExclusionFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EcrRepositoryImageTagMutabilityExclusionFilterOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_EcrRepositoryImageTagMutabilityExclusionFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcrRepositoryImageTagMutabilityExclusionFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEcrRepositoryImageTagMutabilityExclusionFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEcrRepositoryImageTagMutabilityExclusionFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

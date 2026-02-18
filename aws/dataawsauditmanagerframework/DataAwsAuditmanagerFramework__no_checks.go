@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsAuditmanagerFramework) validateSetFrameworkTypeParamet
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAuditmanagerFramework) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsAuditmanagerFramework) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

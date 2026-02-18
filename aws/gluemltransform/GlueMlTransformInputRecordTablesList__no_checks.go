@@ -15,7 +15,7 @@ func (g *jsiiProxy_GlueMlTransformInputRecordTablesList) validateGetParameters(i
 	return nil
 }
 
-func (g *jsiiProxy_GlueMlTransformInputRecordTablesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueMlTransformInputRecordTablesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GlueMlTransformInputRecordTablesList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_GlueMlTransformInputRecordTablesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueMlTransformInputRecordTablesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GlueMlTransformInputRecordTablesList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewGlueMlTransformInputRecordTablesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGlueMlTransformInputRecordTablesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

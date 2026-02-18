@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsSignerSigningJob) validateSetJobIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSignerSigningJob) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsSignerSigningJob) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SsmcontactsContactChannelDeliveryAddressOutputReference) vali
 	return nil
 }
 
-func (s *jsiiProxy_SsmcontactsContactChannelDeliveryAddressOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsmcontactsContactChannelDeliveryAddressOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SsmcontactsContactChannelDeliveryAddressOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_SsmcontactsContactChannelDeliveryAddressOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsmcontactsContactChannelDeliveryAddressOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSsmcontactsContactChannelDeliveryAddressOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSsmcontactsContactChannelDeliveryAddressOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

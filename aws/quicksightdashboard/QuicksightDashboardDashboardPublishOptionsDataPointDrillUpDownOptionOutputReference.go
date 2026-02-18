@@ -5,14 +5,14 @@ package quicksightdashboard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/quicksightdashboard/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/quicksightdashboard/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AvailabilityStatus() *string
 	SetAvailabilityStatus(val *string)
 	AvailabilityStatusInput() *string
@@ -40,15 +40,15 @@ type QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputR
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputR
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAvailabilityStatus()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputR
 
 // The jsii proxy struct for QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference
 type jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference) AvailabilityStatus() *string {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDow
 	return returns
 }
 
-func (j *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDow
 }
 
 
-func NewQuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference {
+func NewQuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewQuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewQuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutp
 	return &j
 }
 
-func NewQuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference_Override(q QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewQuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference_Override(q QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDow
 	)
 }
 
-func (j *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (q *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDow
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (q *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := q.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -424,8 +424,8 @@ func (q *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDow
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (q *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -437,11 +437,11 @@ func (q *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDow
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (q *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := q.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -461,7 +461,7 @@ func (q *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDow
 	)
 }
 
-func (q *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (q *jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := q.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (b *jsiiProxy_BatchJobQueueJobStateTimeLimitActionList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (b *jsiiProxy_BatchJobQueueJobStateTimeLimitActionList) validateGetParamete
 	return nil
 }
 
-func (b *jsiiProxy_BatchJobQueueJobStateTimeLimitActionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchJobQueueJobStateTimeLimitActionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (b *jsiiProxy_BatchJobQueueJobStateTimeLimitActionList) validateResolvePara
 
 func (j *jsiiProxy_BatchJobQueueJobStateTimeLimitActionList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BatchJobQueueJobStateTimeLimitAction:
 		val := val.(*[]*BatchJobQueueJobStateTimeLimitAction)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_BatchJobQueueJobStateTimeLimitActionList) validateSetInternal
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*BatchJobQueueJobStateTimeLimitAction; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*BatchJobQueueJobStateTimeLimitAction; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_BatchJobQueueJobStateTimeLimitActionList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_BatchJobQueueJobStateTimeLimitActionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchJobQueueJobStateTimeLimitActionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_BatchJobQueueJobStateTimeLimitActionList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewBatchJobQueueJobStateTimeLimitActionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBatchJobQueueJobStateTimeLimitActionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

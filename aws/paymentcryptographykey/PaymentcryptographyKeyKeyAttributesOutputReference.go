@@ -5,14 +5,14 @@ package paymentcryptographykey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/paymentcryptographykey/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/paymentcryptographykey/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PaymentcryptographyKeyKeyAttributesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -48,15 +48,15 @@ type PaymentcryptographyKeyKeyAttributesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,14 +72,14 @@ type PaymentcryptographyKeyKeyAttributesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutKeyModesOfUse(value interface{})
 	ResetKeyModesOfUse()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -89,7 +89,7 @@ type PaymentcryptographyKeyKeyAttributesOutputReference interface {
 
 // The jsii proxy struct for PaymentcryptographyKeyKeyAttributesOutputReference
 type jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) ComplexObjectIndex() interface{} {
@@ -232,8 +232,8 @@ func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -243,7 +243,7 @@ func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) Terraform
 }
 
 
-func NewPaymentcryptographyKeyKeyAttributesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) PaymentcryptographyKeyKeyAttributesOutputReference {
+func NewPaymentcryptographyKeyKeyAttributesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) PaymentcryptographyKeyKeyAttributesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPaymentcryptographyKeyKeyAttributesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -260,7 +260,7 @@ func NewPaymentcryptographyKeyKeyAttributesOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewPaymentcryptographyKeyKeyAttributesOutputReference_Override(p PaymentcryptographyKeyKeyAttributesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewPaymentcryptographyKeyKeyAttributesOutputReference_Override(p PaymentcryptographyKeyKeyAttributesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -347,7 +347,7 @@ func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -387,11 +387,11 @@ func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) GetAnyMap
 	return returns
 }
 
-func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -515,8 +515,8 @@ func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) GetString
 	return returns
 }
 
-func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -528,11 +528,11 @@ func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) Interpola
 	return returns
 }
 
-func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -563,7 +563,7 @@ func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) ResetKeyM
 	)
 }
 
-func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

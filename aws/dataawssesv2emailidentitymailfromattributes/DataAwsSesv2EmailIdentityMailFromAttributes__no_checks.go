@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) validateSetIdPar
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

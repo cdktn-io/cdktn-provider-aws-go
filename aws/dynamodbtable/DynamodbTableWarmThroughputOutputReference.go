@@ -5,14 +5,14 @@ package dynamodbtable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dynamodbtable/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dynamodbtable/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DynamodbTableWarmThroughputOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type DynamodbTableWarmThroughputOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WriteUnitsPerSecond() *float64
 	SetWriteUnitsPerSecond(val *float64)
 	WriteUnitsPerSecondInput() *float64
@@ -51,7 +51,7 @@ type DynamodbTableWarmThroughputOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type DynamodbTableWarmThroughputOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetReadUnitsPerSecond()
 	ResetWriteUnitsPerSecond()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type DynamodbTableWarmThroughputOutputReference interface {
 
 // The jsii proxy struct for DynamodbTableWarmThroughputOutputReference
 type jsiiProxy_DynamodbTableWarmThroughputOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DynamodbTableWarmThroughputOutputReference) ComplexObjectIndex() interface{} {
@@ -167,8 +167,8 @@ func (j *jsiiProxy_DynamodbTableWarmThroughputOutputReference) TerraformAttribut
 	return returns
 }
 
-func (j *jsiiProxy_DynamodbTableWarmThroughputOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DynamodbTableWarmThroughputOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_DynamodbTableWarmThroughputOutputReference) WriteUnitsPerSeco
 }
 
 
-func NewDynamodbTableWarmThroughputOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DynamodbTableWarmThroughputOutputReference {
+func NewDynamodbTableWarmThroughputOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DynamodbTableWarmThroughputOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDynamodbTableWarmThroughputOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewDynamodbTableWarmThroughputOutputReference(terraformResource cdktf.IInte
 	return &j
 }
 
-func NewDynamodbTableWarmThroughputOutputReference_Override(d DynamodbTableWarmThroughputOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDynamodbTableWarmThroughputOutputReference_Override(d DynamodbTableWarmThroughputOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_DynamodbTableWarmThroughputOutputReference)SetTerraformAttrib
 	)
 }
 
-func (j *jsiiProxy_DynamodbTableWarmThroughputOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DynamodbTableWarmThroughputOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (d *jsiiProxy_DynamodbTableWarmThroughputOutputReference) GetAnyMapAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DynamodbTableWarmThroughputOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DynamodbTableWarmThroughputOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -459,8 +459,8 @@ func (d *jsiiProxy_DynamodbTableWarmThroughputOutputReference) GetStringMapAttri
 	return returns
 }
 
-func (d *jsiiProxy_DynamodbTableWarmThroughputOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DynamodbTableWarmThroughputOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -472,11 +472,11 @@ func (d *jsiiProxy_DynamodbTableWarmThroughputOutputReference) InterpolationAsLi
 	return returns
 }
 
-func (d *jsiiProxy_DynamodbTableWarmThroughputOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DynamodbTableWarmThroughputOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -504,7 +504,7 @@ func (d *jsiiProxy_DynamodbTableWarmThroughputOutputReference) ResetWriteUnitsPe
 	)
 }
 
-func (d *jsiiProxy_DynamodbTableWarmThroughputOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DynamodbTableWarmThroughputOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

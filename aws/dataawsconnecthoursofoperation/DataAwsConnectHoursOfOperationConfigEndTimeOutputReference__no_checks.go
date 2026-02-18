@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsConnectHoursOfOperationConfigEndTimeOutputReference) v
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsConnectHoursOfOperationConfigEndTimeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsConnectHoursOfOperationConfigEndTimeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsConnectHoursOfOperationConfigEndTimeOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsConnectHoursOfOperationConfigEndTimeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsConnectHoursOfOperationConfigEndTimeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsConnectHoursOfOperationConfigEndTimeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsConnectHoursOfOperationConfigEndTimeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

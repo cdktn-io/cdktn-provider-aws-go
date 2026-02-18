@@ -5,22 +5,22 @@ package transcribelanguagemodel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/transcribelanguagemodel/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/transcribelanguagemodel/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/transcribe_language_model aws_transcribe_language_model}.
 type TranscribeLanguageModel interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	BaseModelName() *string
 	SetBaseModelName(val *string)
 	BaseModelNameInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -36,9 +36,9 @@ type TranscribeLanguageModel interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,18 +52,18 @@ type TranscribeLanguageModel interface {
 	SetLanguageCode(val *string)
 	LanguageCodeInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	ModelName() *string
 	SetModelName(val *string)
 	ModelNameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -80,7 +80,7 @@ type TranscribeLanguageModel interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -95,7 +95,7 @@ type TranscribeLanguageModel interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -113,9 +113,9 @@ type TranscribeLanguageModel interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -155,7 +155,7 @@ type TranscribeLanguageModel interface {
 
 // The jsii proxy struct for TranscribeLanguageModel
 type jsiiProxy_TranscribeLanguageModel struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_TranscribeLanguageModel) Arn() *string {
@@ -188,8 +188,8 @@ func (j *jsiiProxy_TranscribeLanguageModel) BaseModelNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_TranscribeLanguageModel) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_TranscribeLanguageModel) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -238,8 +238,8 @@ func (j *jsiiProxy_TranscribeLanguageModel) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_TranscribeLanguageModel) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_TranscribeLanguageModel) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -328,8 +328,8 @@ func (j *jsiiProxy_TranscribeLanguageModel) LanguageCodeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_TranscribeLanguageModel) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_TranscribeLanguageModel) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -368,8 +368,8 @@ func (j *jsiiProxy_TranscribeLanguageModel) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_TranscribeLanguageModel) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_TranscribeLanguageModel) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -458,8 +458,8 @@ func (j *jsiiProxy_TranscribeLanguageModel) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_TranscribeLanguageModel) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_TranscribeLanguageModel) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -579,7 +579,7 @@ func (j *jsiiProxy_TranscribeLanguageModel)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_TranscribeLanguageModel)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_TranscribeLanguageModel)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -609,7 +609,7 @@ func (j *jsiiProxy_TranscribeLanguageModel)SetLanguageCode(val *string) {
 	)
 }
 
-func (j *jsiiProxy_TranscribeLanguageModel)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_TranscribeLanguageModel)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -631,7 +631,7 @@ func (j *jsiiProxy_TranscribeLanguageModel)SetModelName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_TranscribeLanguageModel)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_TranscribeLanguageModel)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -683,14 +683,14 @@ func (j *jsiiProxy_TranscribeLanguageModel)SetTagsAll(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a TranscribeLanguageModel resource upon running "cdktf plan <stack-name>".
-func TranscribeLanguageModel_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a TranscribeLanguageModel resource upon running "cdktn plan <stack-name>".
+func TranscribeLanguageModel_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateTranscribeLanguageModel_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.transcribeLanguageModel.TranscribeLanguageModel",
@@ -824,11 +824,11 @@ func (t *jsiiProxy_TranscribeLanguageModel) GetAnyMapAttribute(terraformAttribut
 	return returns
 }
 
-func (t *jsiiProxy_TranscribeLanguageModel) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TranscribeLanguageModel) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -965,7 +965,7 @@ func (t *jsiiProxy_TranscribeLanguageModel) HasResourceMove() interface{} {
 	return returns
 }
 
-func (t *jsiiProxy_TranscribeLanguageModel) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (t *jsiiProxy_TranscribeLanguageModel) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := t.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -976,11 +976,11 @@ func (t *jsiiProxy_TranscribeLanguageModel) ImportFrom(id *string, provider cdkt
 	)
 }
 
-func (t *jsiiProxy_TranscribeLanguageModel) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TranscribeLanguageModel) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,

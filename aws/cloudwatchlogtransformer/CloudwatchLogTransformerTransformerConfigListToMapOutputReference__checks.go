@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigListToMapOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigListToMapOutputRefer
 	return nil
 }
 
-func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigListToMapOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigListToMapOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -175,11 +175,11 @@ func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigListToMapOutputRefer
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -196,7 +196,7 @@ func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigListToMapOutputRefer
 
 func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigListToMapOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *CloudwatchLogTransformerTransformerConfigListToMap:
 		val := val.(*CloudwatchLogTransformerTransformerConfigListToMap)
@@ -211,7 +211,7 @@ func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigListToMapOutputRefer
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *CloudwatchLogTransformerTransformerConfigListToMap; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *CloudwatchLogTransformerTransformerConfigListToMap; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -250,7 +250,7 @@ func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigListToMapOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigListToMapOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigListToMapOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -266,7 +266,7 @@ func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigListToMapOutputRefer
 	return nil
 }
 
-func validateNewCloudwatchLogTransformerTransformerConfigListToMapOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudwatchLogTransformerTransformerConfigListToMapOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

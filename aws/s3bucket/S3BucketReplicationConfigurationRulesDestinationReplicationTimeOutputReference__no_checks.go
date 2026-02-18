@@ -47,7 +47,7 @@ func (s *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationReplicationTi
 	return nil
 }
 
-func (s *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationReplicationTimeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationReplicationTimeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationReplicationTi
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationReplicationTimeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationReplicationTimeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewS3BucketReplicationConfigurationRulesDestinationReplicationTimeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewS3BucketReplicationConfigurationRulesDestinationReplicationTimeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

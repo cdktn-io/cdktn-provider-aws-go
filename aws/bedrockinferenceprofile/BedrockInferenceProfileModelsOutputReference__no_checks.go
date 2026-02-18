@@ -47,7 +47,7 @@ func (b *jsiiProxy_BedrockInferenceProfileModelsOutputReference) validateInterpo
 	return nil
 }
 
-func (b *jsiiProxy_BedrockInferenceProfileModelsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockInferenceProfileModelsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_BedrockInferenceProfileModelsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_BedrockInferenceProfileModelsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockInferenceProfileModelsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBedrockInferenceProfileModelsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBedrockInferenceProfileModelsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

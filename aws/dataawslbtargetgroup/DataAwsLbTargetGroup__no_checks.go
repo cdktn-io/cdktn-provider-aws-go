@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsLbTargetGroup) validateSetIdParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLbTargetGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsLbTargetGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

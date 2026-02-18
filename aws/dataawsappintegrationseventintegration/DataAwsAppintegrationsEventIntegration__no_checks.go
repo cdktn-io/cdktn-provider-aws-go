@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsAppintegrationsEventIntegration) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAppintegrationsEventIntegration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsAppintegrationsEventIntegration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package securitylakeawslogsource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/securitylakeawslogsource/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/securitylakeawslogsource/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SecuritylakeAwsLogSourceSourceList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type SecuritylakeAwsLogSourceSourceList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type SecuritylakeAwsLogSourceSourceList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) SecuritylakeAwsLogSourceSourceOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type SecuritylakeAwsLogSourceSourceList interface {
 
 // The jsii proxy struct for SecuritylakeAwsLogSourceSourceList
 type jsiiProxy_SecuritylakeAwsLogSourceSourceList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_SecuritylakeAwsLogSourceSourceList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_SecuritylakeAwsLogSourceSourceList) TerraformAttribute() *str
 	return returns
 }
 
-func (j *jsiiProxy_SecuritylakeAwsLogSourceSourceList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SecuritylakeAwsLogSourceSourceList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_SecuritylakeAwsLogSourceSourceList) WrapsSet() *bool {
 }
 
 
-func NewSecuritylakeAwsLogSourceSourceList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecuritylakeAwsLogSourceSourceList {
+func NewSecuritylakeAwsLogSourceSourceList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecuritylakeAwsLogSourceSourceList {
 	_init_.Initialize()
 
 	if err := validateNewSecuritylakeAwsLogSourceSourceListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewSecuritylakeAwsLogSourceSourceList(terraformResource cdktf.IInterpolatin
 	return &j
 }
 
-func NewSecuritylakeAwsLogSourceSourceList_Override(s SecuritylakeAwsLogSourceSourceList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewSecuritylakeAwsLogSourceSourceList_Override(s SecuritylakeAwsLogSourceSourceList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_SecuritylakeAwsLogSourceSourceList)SetTerraformAttribute(val 
 	)
 }
 
-func (j *jsiiProxy_SecuritylakeAwsLogSourceSourceList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SecuritylakeAwsLogSourceSourceList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_SecuritylakeAwsLogSourceSourceList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (s *jsiiProxy_SecuritylakeAwsLogSourceSourceList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (s *jsiiProxy_SecuritylakeAwsLogSourceSourceList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := s.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		s,
@@ -231,7 +231,7 @@ func (s *jsiiProxy_SecuritylakeAwsLogSourceSourceList) Get(index *float64) Secur
 	return returns
 }
 
-func (s *jsiiProxy_SecuritylakeAwsLogSourceSourceList) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SecuritylakeAwsLogSourceSourceList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

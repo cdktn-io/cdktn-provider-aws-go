@@ -51,7 +51,7 @@ func (c *jsiiProxy_CloudwatchEventTargetSagemakerPipelineTargetOutputReference) 
 	return nil
 }
 
-func (c *jsiiProxy_CloudwatchEventTargetSagemakerPipelineTargetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudwatchEventTargetSagemakerPipelineTargetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CloudwatchEventTargetSagemakerPipelineTargetOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchEventTargetSagemakerPipelineTargetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudwatchEventTargetSagemakerPipelineTargetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudwatchEventTargetSagemakerPipelineTargetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudwatchEventTargetSagemakerPipelineTargetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

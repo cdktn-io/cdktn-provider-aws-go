@@ -47,7 +47,7 @@ func (m *jsiiProxy_Macie2CustomDataIdentifierTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (m *jsiiProxy_Macie2CustomDataIdentifierTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_Macie2CustomDataIdentifierTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_Macie2CustomDataIdentifierTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_Macie2CustomDataIdentifierTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Macie2CustomDataIdentifierTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMacie2CustomDataIdentifierTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMacie2CustomDataIdentifierTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

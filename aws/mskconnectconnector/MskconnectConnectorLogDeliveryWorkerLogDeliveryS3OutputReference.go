@@ -5,14 +5,14 @@ package mskconnectconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/mskconnectconnector/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/mskconnectconnector/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Bucket() *string
 	SetBucket(val *string)
 	BucketInput() *string
@@ -46,15 +46,15 @@ type MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,14 +70,14 @@ type MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBucket()
 	ResetPrefix()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference interface 
 
 // The jsii proxy struct for MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference
 type jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference) Bucket() *string {
@@ -210,8 +210,8 @@ func (j *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputRefere
 }
 
 
-func NewMskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference {
+func NewMskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -238,7 +238,7 @@ func NewMskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference(terrafo
 	return &j
 }
 
-func NewMskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference_Override(m MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference_Override(m MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -325,7 +325,7 @@ func (j *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputRefere
 	)
 }
 
-func (j *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -365,11 +365,11 @@ func (m *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputRefere
 	return returns
 }
 
-func (m *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -493,8 +493,8 @@ func (m *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputRefere
 	return returns
 }
 
-func (m *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -506,11 +506,11 @@ func (m *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputRefere
 	return returns
 }
 
-func (m *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -538,7 +538,7 @@ func (m *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputRefere
 	)
 }
 
-func (m *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccou
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccou
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

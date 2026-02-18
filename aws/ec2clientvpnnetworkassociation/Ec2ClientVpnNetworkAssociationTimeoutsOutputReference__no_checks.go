@@ -47,7 +47,7 @@ func (e *jsiiProxy_Ec2ClientVpnNetworkAssociationTimeoutsOutputReference) valida
 	return nil
 }
 
-func (e *jsiiProxy_Ec2ClientVpnNetworkAssociationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_Ec2ClientVpnNetworkAssociationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_Ec2ClientVpnNetworkAssociationTimeoutsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_Ec2ClientVpnNetworkAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Ec2ClientVpnNetworkAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEc2ClientVpnNetworkAssociationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEc2ClientVpnNetworkAssociationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

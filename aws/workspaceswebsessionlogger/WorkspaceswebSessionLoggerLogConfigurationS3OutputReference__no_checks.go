@@ -47,7 +47,7 @@ func (w *jsiiProxy_WorkspaceswebSessionLoggerLogConfigurationS3OutputReference) 
 	return nil
 }
 
-func (w *jsiiProxy_WorkspaceswebSessionLoggerLogConfigurationS3OutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkspaceswebSessionLoggerLogConfigurationS3OutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_WorkspaceswebSessionLoggerLogConfigurationS3OutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_WorkspaceswebSessionLoggerLogConfigurationS3OutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkspaceswebSessionLoggerLogConfigurationS3OutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWorkspaceswebSessionLoggerLogConfigurationS3OutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWorkspaceswebSessionLoggerLogConfigurationS3OutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

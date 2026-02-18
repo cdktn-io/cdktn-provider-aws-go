@@ -47,7 +47,7 @@ func (b *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigS3Conf
 	return nil
 }
 
-func (b *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigS3ConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigS3ConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigS3Conf
 	return nil
 }
 
-func (j *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigS3ConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigS3ConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBedrockModelInvocationLoggingConfigurationLoggingConfigS3ConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBedrockModelInvocationLoggingConfigurationLoggingConfigS3ConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

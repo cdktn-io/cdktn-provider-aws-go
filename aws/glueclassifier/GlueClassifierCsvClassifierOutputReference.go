@@ -5,14 +5,14 @@ package glueclassifier
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/glueclassifier/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/glueclassifier/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GlueClassifierCsvClassifierOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowSingleColumn() interface{}
 	SetAllowSingleColumn(val interface{})
 	AllowSingleColumnInput() interface{}
@@ -64,15 +64,15 @@ type GlueClassifierCsvClassifierOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -88,9 +88,9 @@ type GlueClassifierCsvClassifierOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAllowSingleColumn()
 	ResetContainsHeader()
 	ResetCustomDatatypeConfigured()
@@ -102,7 +102,7 @@ type GlueClassifierCsvClassifierOutputReference interface {
 	ResetSerde()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -112,7 +112,7 @@ type GlueClassifierCsvClassifierOutputReference interface {
 
 // The jsii proxy struct for GlueClassifierCsvClassifierOutputReference
 type jsiiProxy_GlueClassifierCsvClassifierOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GlueClassifierCsvClassifierOutputReference) AllowSingleColumn() interface{} {
@@ -355,8 +355,8 @@ func (j *jsiiProxy_GlueClassifierCsvClassifierOutputReference) TerraformAttribut
 	return returns
 }
 
-func (j *jsiiProxy_GlueClassifierCsvClassifierOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GlueClassifierCsvClassifierOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -366,7 +366,7 @@ func (j *jsiiProxy_GlueClassifierCsvClassifierOutputReference) TerraformResource
 }
 
 
-func NewGlueClassifierCsvClassifierOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GlueClassifierCsvClassifierOutputReference {
+func NewGlueClassifierCsvClassifierOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GlueClassifierCsvClassifierOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGlueClassifierCsvClassifierOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -383,7 +383,7 @@ func NewGlueClassifierCsvClassifierOutputReference(terraformResource cdktf.IInte
 	return &j
 }
 
-func NewGlueClassifierCsvClassifierOutputReference_Override(g GlueClassifierCsvClassifierOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGlueClassifierCsvClassifierOutputReference_Override(g GlueClassifierCsvClassifierOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -536,7 +536,7 @@ func (j *jsiiProxy_GlueClassifierCsvClassifierOutputReference)SetTerraformAttrib
 	)
 }
 
-func (j *jsiiProxy_GlueClassifierCsvClassifierOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GlueClassifierCsvClassifierOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -576,11 +576,11 @@ func (g *jsiiProxy_GlueClassifierCsvClassifierOutputReference) GetAnyMapAttribut
 	return returns
 }
 
-func (g *jsiiProxy_GlueClassifierCsvClassifierOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GlueClassifierCsvClassifierOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -704,8 +704,8 @@ func (g *jsiiProxy_GlueClassifierCsvClassifierOutputReference) GetStringMapAttri
 	return returns
 }
 
-func (g *jsiiProxy_GlueClassifierCsvClassifierOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GlueClassifierCsvClassifierOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -717,11 +717,11 @@ func (g *jsiiProxy_GlueClassifierCsvClassifierOutputReference) InterpolationAsLi
 	return returns
 }
 
-func (g *jsiiProxy_GlueClassifierCsvClassifierOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GlueClassifierCsvClassifierOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -805,7 +805,7 @@ func (g *jsiiProxy_GlueClassifierCsvClassifierOutputReference) ResetSerde() {
 	)
 }
 
-func (g *jsiiProxy_GlueClassifierCsvClassifierOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GlueClassifierCsvClassifierOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

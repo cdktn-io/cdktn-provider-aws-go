@@ -127,7 +127,7 @@ func (j *jsiiProxy_BedrockagentDataSource) validateSetKnowledgeBaseIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentDataSource) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BedrockagentDataSource) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

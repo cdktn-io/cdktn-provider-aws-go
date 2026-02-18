@@ -111,7 +111,7 @@ func (j *jsiiProxy_BackupVaultNotifications) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_BackupVaultNotifications) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BackupVaultNotifications) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

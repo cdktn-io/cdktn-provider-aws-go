@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsAppconfigConfigurationProfile) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAppconfigConfigurationProfile) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsAppconfigConfigurationProfile) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

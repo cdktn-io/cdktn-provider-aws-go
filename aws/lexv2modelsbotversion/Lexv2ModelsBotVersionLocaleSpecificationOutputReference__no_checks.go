@@ -47,7 +47,7 @@ func (l *jsiiProxy_Lexv2ModelsBotVersionLocaleSpecificationOutputReference) vali
 	return nil
 }
 
-func (l *jsiiProxy_Lexv2ModelsBotVersionLocaleSpecificationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_Lexv2ModelsBotVersionLocaleSpecificationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_Lexv2ModelsBotVersionLocaleSpecificationOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_Lexv2ModelsBotVersionLocaleSpecificationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Lexv2ModelsBotVersionLocaleSpecificationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLexv2ModelsBotVersionLocaleSpecificationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) error {
+func validateNewLexv2ModelsBotVersionLocaleSpecificationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) error {
 	return nil
 }
 

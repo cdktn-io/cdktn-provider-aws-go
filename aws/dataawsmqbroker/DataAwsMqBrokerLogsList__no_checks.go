@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsMqBrokerLogsList) validateGetParameters(index *float64
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsMqBrokerLogsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsMqBrokerLogsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsMqBrokerLogsList) validateSetTerraformAttributeParamet
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsMqBrokerLogsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsMqBrokerLogsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsMqBrokerLogsList) validateSetWrapsSetParameters(val *b
 	return nil
 }
 
-func validateNewDataAwsMqBrokerLogsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsMqBrokerLogsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

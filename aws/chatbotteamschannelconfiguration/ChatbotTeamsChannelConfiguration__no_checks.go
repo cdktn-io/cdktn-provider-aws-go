@@ -123,7 +123,7 @@ func (j *jsiiProxy_ChatbotTeamsChannelConfiguration) validateSetIamRoleArnParame
 	return nil
 }
 
-func (j *jsiiProxy_ChatbotTeamsChannelConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ChatbotTeamsChannelConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

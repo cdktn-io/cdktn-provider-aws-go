@@ -115,7 +115,7 @@ func (j *jsiiProxy_EksAccessEntry) validateSetKubernetesGroupsParameters(val *[]
 	return nil
 }
 
-func (j *jsiiProxy_EksAccessEntry) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EksAccessEntry) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

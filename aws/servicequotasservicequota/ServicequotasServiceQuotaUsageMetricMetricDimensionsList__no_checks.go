@@ -15,7 +15,7 @@ func (s *jsiiProxy_ServicequotasServiceQuotaUsageMetricMetricDimensionsList) val
 	return nil
 }
 
-func (s *jsiiProxy_ServicequotasServiceQuotaUsageMetricMetricDimensionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServicequotasServiceQuotaUsageMetricMetricDimensionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_ServicequotasServiceQuotaUsageMetricMetricDimensionsList) val
 	return nil
 }
 
-func (j *jsiiProxy_ServicequotasServiceQuotaUsageMetricMetricDimensionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServicequotasServiceQuotaUsageMetricMetricDimensionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_ServicequotasServiceQuotaUsageMetricMetricDimensionsList) val
 	return nil
 }
 
-func validateNewServicequotasServiceQuotaUsageMetricMetricDimensionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewServicequotasServiceQuotaUsageMetricMetricDimensionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

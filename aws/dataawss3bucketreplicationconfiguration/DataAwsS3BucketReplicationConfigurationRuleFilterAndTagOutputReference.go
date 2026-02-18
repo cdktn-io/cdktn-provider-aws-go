@@ -5,14 +5,14 @@ package dataawss3bucketreplicationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawss3bucketreplicationconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawss3bucketreplicationconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -38,16 +38,16 @@ type DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference inte
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Value() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference inte
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference inte
 
 // The jsii proxy struct for DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference
 type jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference) ComplexObjectIndex() interface{} {
@@ -151,8 +151,8 @@ func (j *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutput
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutput
 }
 
 
-func NewDataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference {
+func NewDataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -189,7 +189,7 @@ func NewDataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference(t
 	return &j
 }
 
-func NewDataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference_Override(d DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference_Override(d DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -243,7 +243,7 @@ func (j *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutput
 	)
 }
 
-func (j *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (d *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutput
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -411,8 +411,8 @@ func (d *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutput
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -424,11 +424,11 @@ func (d *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutput
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -440,7 +440,7 @@ func (d *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutput
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsS3BucketReplicationConfigurationRuleFilterAndTagOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

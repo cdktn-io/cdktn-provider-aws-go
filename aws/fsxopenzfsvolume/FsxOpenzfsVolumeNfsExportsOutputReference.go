@@ -5,14 +5,14 @@ package fsxopenzfsvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/fsxopenzfsvolume/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/fsxopenzfsvolume/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FsxOpenzfsVolumeNfsExportsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ClientConfigurations() FsxOpenzfsVolumeNfsExportsClientConfigurationsList
 	ClientConfigurationsInput() interface{}
 	// the index of the complex object in a list.
@@ -39,15 +39,15 @@ type FsxOpenzfsVolumeNfsExportsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,13 +63,13 @@ type FsxOpenzfsVolumeNfsExportsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutClientConfigurations(value interface{})
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type FsxOpenzfsVolumeNfsExportsOutputReference interface {
 
 // The jsii proxy struct for FsxOpenzfsVolumeNfsExportsOutputReference
 type jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) ClientConfigurations() FsxOpenzfsVolumeNfsExportsClientConfigurationsList {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) TerraformAttribute
 	return returns
 }
 
-func (j *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) TerraformResource(
 }
 
 
-func NewFsxOpenzfsVolumeNfsExportsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) FsxOpenzfsVolumeNfsExportsOutputReference {
+func NewFsxOpenzfsVolumeNfsExportsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) FsxOpenzfsVolumeNfsExportsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFsxOpenzfsVolumeNfsExportsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewFsxOpenzfsVolumeNfsExportsOutputReference(terraformResource cdktf.IInter
 	return &j
 }
 
-func NewFsxOpenzfsVolumeNfsExportsOutputReference_Override(f FsxOpenzfsVolumeNfsExportsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewFsxOpenzfsVolumeNfsExportsOutputReference_Override(f FsxOpenzfsVolumeNfsExportsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -244,7 +244,7 @@ func (j *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference)SetTerraformAttribu
 	)
 }
 
-func (j *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -284,11 +284,11 @@ func (f *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) GetAnyMapAttribute
 	return returns
 }
 
-func (f *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -412,8 +412,8 @@ func (f *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) GetStringMapAttrib
 	return returns
 }
 
-func (f *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -425,11 +425,11 @@ func (f *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) InterpolationAsLis
 	return returns
 }
 
-func (f *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -452,7 +452,7 @@ func (f *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) PutClientConfigura
 	)
 }
 
-func (f *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -8,7 +8,7 @@ package dataawsbedrockfoundationmodels
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataAwsBedrockFoundationModelsModelSummariesList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (d *jsiiProxy_DataAwsBedrockFoundationModelsModelSummariesList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsBedrockFoundationModelsModelSummariesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsBedrockFoundationModelsModelSummariesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_DataAwsBedrockFoundationModelsModelSummariesList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsBedrockFoundationModelsModelSummariesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsBedrockFoundationModelsModelSummariesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_DataAwsBedrockFoundationModelsModelSummariesList) validateSet
 	return nil
 }
 
-func validateNewDataAwsBedrockFoundationModelsModelSummariesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsBedrockFoundationModelsModelSummariesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

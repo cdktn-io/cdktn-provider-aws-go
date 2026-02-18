@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantOrganizationa
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsKmsCustomKeyStore) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsKmsCustomKeyStore) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsKmsCustomKeyStore) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

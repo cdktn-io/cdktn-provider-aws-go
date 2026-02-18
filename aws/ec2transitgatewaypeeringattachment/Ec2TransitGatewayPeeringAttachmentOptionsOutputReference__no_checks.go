@@ -47,7 +47,7 @@ func (e *jsiiProxy_Ec2TransitGatewayPeeringAttachmentOptionsOutputReference) val
 	return nil
 }
 
-func (e *jsiiProxy_Ec2TransitGatewayPeeringAttachmentOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_Ec2TransitGatewayPeeringAttachmentOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_Ec2TransitGatewayPeeringAttachmentOptionsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_Ec2TransitGatewayPeeringAttachmentOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Ec2TransitGatewayPeeringAttachmentOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEc2TransitGatewayPeeringAttachmentOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEc2TransitGatewayPeeringAttachmentOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

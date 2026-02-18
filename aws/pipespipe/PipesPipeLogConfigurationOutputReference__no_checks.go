@@ -59,7 +59,7 @@ func (p *jsiiProxy_PipesPipeLogConfigurationOutputReference) validatePutS3LogDes
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeLogConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeLogConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_PipesPipeLogConfigurationOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeLogConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeLogConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPipesPipeLogConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPipesPipeLogConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

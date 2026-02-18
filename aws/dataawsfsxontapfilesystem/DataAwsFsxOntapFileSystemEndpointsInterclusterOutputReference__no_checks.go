@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsFsxOntapFileSystemEndpointsInterclusterOutputReference
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsFsxOntapFileSystemEndpointsInterclusterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsFsxOntapFileSystemEndpointsInterclusterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsFsxOntapFileSystemEndpointsInterclusterOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsFsxOntapFileSystemEndpointsInterclusterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsFsxOntapFileSystemEndpointsInterclusterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsFsxOntapFileSystemEndpointsInterclusterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsFsxOntapFileSystemEndpointsInterclusterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

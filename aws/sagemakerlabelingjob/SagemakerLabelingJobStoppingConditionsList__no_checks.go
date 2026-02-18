@@ -15,7 +15,7 @@ func (s *jsiiProxy_SagemakerLabelingJobStoppingConditionsList) validateGetParame
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerLabelingJobStoppingConditionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerLabelingJobStoppingConditionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SagemakerLabelingJobStoppingConditionsList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerLabelingJobStoppingConditionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerLabelingJobStoppingConditionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SagemakerLabelingJobStoppingConditionsList) validateSetWrapsS
 	return nil
 }
 
-func validateNewSagemakerLabelingJobStoppingConditionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSagemakerLabelingJobStoppingConditionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -111,7 +111,7 @@ func (j *jsiiProxy_CloudwatchLogMetricFilter) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchLogMetricFilter) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudwatchLogMetricFilter) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

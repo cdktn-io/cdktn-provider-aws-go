@@ -8,7 +8,7 @@ package route53recoverycontrolconfigcluster
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (r *jsiiProxy_Route53RecoverycontrolconfigClusterClusterEndpointsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (r *jsiiProxy_Route53RecoverycontrolconfigClusterClusterEndpointsList) vali
 	return nil
 }
 
-func (r *jsiiProxy_Route53RecoverycontrolconfigClusterClusterEndpointsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_Route53RecoverycontrolconfigClusterClusterEndpointsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_Route53RecoverycontrolconfigClusterClusterEndpointsList) vali
 	return nil
 }
 
-func (j *jsiiProxy_Route53RecoverycontrolconfigClusterClusterEndpointsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Route53RecoverycontrolconfigClusterClusterEndpointsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_Route53RecoverycontrolconfigClusterClusterEndpointsList) vali
 	return nil
 }
 
-func validateNewRoute53RecoverycontrolconfigClusterClusterEndpointsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRoute53RecoverycontrolconfigClusterClusterEndpointsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

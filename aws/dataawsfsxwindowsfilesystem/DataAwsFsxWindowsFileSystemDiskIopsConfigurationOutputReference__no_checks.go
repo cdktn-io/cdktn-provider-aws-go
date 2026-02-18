@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsFsxWindowsFileSystemDiskIopsConfigurationOutputReferen
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsFsxWindowsFileSystemDiskIopsConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsFsxWindowsFileSystemDiskIopsConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsFsxWindowsFileSystemDiskIopsConfigurationOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsFsxWindowsFileSystemDiskIopsConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsFsxWindowsFileSystemDiskIopsConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsFsxWindowsFileSystemDiskIopsConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsFsxWindowsFileSystemDiskIopsConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -91,7 +91,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) validatePutRo
 	return nil
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -123,11 +123,11 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewArcregionswitchPlanWorkflowStepOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewArcregionswitchPlanWorkflowStepOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

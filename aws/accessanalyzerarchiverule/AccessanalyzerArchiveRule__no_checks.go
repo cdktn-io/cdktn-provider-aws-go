@@ -111,7 +111,7 @@ func (j *jsiiProxy_AccessanalyzerArchiveRule) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_AccessanalyzerArchiveRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AccessanalyzerArchiveRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

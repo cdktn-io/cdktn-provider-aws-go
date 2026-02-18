@@ -47,7 +47,7 @@ func (a *jsiiProxy_AmplifyDomainAssociationCertificateSettingsOutputReference) v
 	return nil
 }
 
-func (a *jsiiProxy_AmplifyDomainAssociationCertificateSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AmplifyDomainAssociationCertificateSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_AmplifyDomainAssociationCertificateSettingsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_AmplifyDomainAssociationCertificateSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AmplifyDomainAssociationCertificateSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AmplifyDomainAssociationCertificateSettingsOutputReference) v
 	return nil
 }
 
-func validateNewAmplifyDomainAssociationCertificateSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAmplifyDomainAssociationCertificateSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

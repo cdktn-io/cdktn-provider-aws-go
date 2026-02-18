@@ -119,7 +119,7 @@ func (j *jsiiProxy_NetworkfirewallRuleGroup) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_NetworkfirewallRuleGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkfirewallRuleGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

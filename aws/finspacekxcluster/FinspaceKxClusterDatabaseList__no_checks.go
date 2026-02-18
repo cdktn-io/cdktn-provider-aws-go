@@ -15,7 +15,7 @@ func (f *jsiiProxy_FinspaceKxClusterDatabaseList) validateGetParameters(index *f
 	return nil
 }
 
-func (f *jsiiProxy_FinspaceKxClusterDatabaseList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FinspaceKxClusterDatabaseList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_FinspaceKxClusterDatabaseList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_FinspaceKxClusterDatabaseList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FinspaceKxClusterDatabaseList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_FinspaceKxClusterDatabaseList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewFinspaceKxClusterDatabaseListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFinspaceKxClusterDatabaseListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

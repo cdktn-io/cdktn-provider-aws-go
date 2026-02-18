@@ -47,7 +47,7 @@ func (b *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) validateInt
 	return nil
 }
 
-func (b *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBackupPlanRuleCopyActionLifecycleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBackupPlanRuleCopyActionLifecycleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,21 +5,21 @@ package s3controlaccesspointpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/s3controlaccesspointpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/s3controlaccesspointpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/s3control_access_point_policy aws_s3control_access_point_policy}.
 type S3ControlAccessPointPolicy interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccessPointArn() *string
 	SetAccessPointArn(val *string)
 	AccessPointArnInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,30 +35,30 @@ type S3ControlAccessPointPolicy interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
-	HasPublicAccessPolicy() cdktf.IResolvable
+	HasPublicAccessPolicy() cdktn.IResolvable
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	Policy() *string
 	SetPolicy(val *string)
 	PolicyInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -69,7 +69,7 @@ type S3ControlAccessPointPolicy interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -82,7 +82,7 @@ type S3ControlAccessPointPolicy interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -100,9 +100,9 @@ type S3ControlAccessPointPolicy interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -137,7 +137,7 @@ type S3ControlAccessPointPolicy interface {
 
 // The jsii proxy struct for S3ControlAccessPointPolicy
 type jsiiProxy_S3ControlAccessPointPolicy struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_S3ControlAccessPointPolicy) AccessPointArn() *string {
@@ -160,8 +160,8 @@ func (j *jsiiProxy_S3ControlAccessPointPolicy) AccessPointArnInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_S3ControlAccessPointPolicy) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_S3ControlAccessPointPolicy) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -210,8 +210,8 @@ func (j *jsiiProxy_S3ControlAccessPointPolicy) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_S3ControlAccessPointPolicy) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_S3ControlAccessPointPolicy) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -240,8 +240,8 @@ func (j *jsiiProxy_S3ControlAccessPointPolicy) FriendlyUniqueId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_S3ControlAccessPointPolicy) HasPublicAccessPolicy() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_S3ControlAccessPointPolicy) HasPublicAccessPolicy() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"hasPublicAccessPolicy",
@@ -270,8 +270,8 @@ func (j *jsiiProxy_S3ControlAccessPointPolicy) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_S3ControlAccessPointPolicy) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_S3ControlAccessPointPolicy) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -310,8 +310,8 @@ func (j *jsiiProxy_S3ControlAccessPointPolicy) PolicyInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_S3ControlAccessPointPolicy) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_S3ControlAccessPointPolicy) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -360,8 +360,8 @@ func (j *jsiiProxy_S3ControlAccessPointPolicy) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_S3ControlAccessPointPolicy) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_S3ControlAccessPointPolicy) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -461,7 +461,7 @@ func (j *jsiiProxy_S3ControlAccessPointPolicy)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_S3ControlAccessPointPolicy)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_S3ControlAccessPointPolicy)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -480,7 +480,7 @@ func (j *jsiiProxy_S3ControlAccessPointPolicy)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_S3ControlAccessPointPolicy)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_S3ControlAccessPointPolicy)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -502,7 +502,7 @@ func (j *jsiiProxy_S3ControlAccessPointPolicy)SetPolicy(val *string) {
 	)
 }
 
-func (j *jsiiProxy_S3ControlAccessPointPolicy)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_S3ControlAccessPointPolicy)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -532,14 +532,14 @@ func (j *jsiiProxy_S3ControlAccessPointPolicy)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a S3ControlAccessPointPolicy resource upon running "cdktf plan <stack-name>".
-func S3ControlAccessPointPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a S3ControlAccessPointPolicy resource upon running "cdktn plan <stack-name>".
+func S3ControlAccessPointPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateS3ControlAccessPointPolicy_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.s3ControlAccessPointPolicy.S3ControlAccessPointPolicy",
@@ -673,11 +673,11 @@ func (s *jsiiProxy_S3ControlAccessPointPolicy) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (s *jsiiProxy_S3ControlAccessPointPolicy) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_S3ControlAccessPointPolicy) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -814,7 +814,7 @@ func (s *jsiiProxy_S3ControlAccessPointPolicy) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_S3ControlAccessPointPolicy) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_S3ControlAccessPointPolicy) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -825,11 +825,11 @@ func (s *jsiiProxy_S3ControlAccessPointPolicy) ImportFrom(id *string, provider c
 	)
 }
 
-func (s *jsiiProxy_S3ControlAccessPointPolicy) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_S3ControlAccessPointPolicy) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

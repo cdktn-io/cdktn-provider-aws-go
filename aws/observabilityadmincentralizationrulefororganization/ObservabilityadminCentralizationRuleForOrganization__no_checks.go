@@ -107,7 +107,7 @@ func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganization) validate
 	return nil
 }
 
-func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganization) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganization) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

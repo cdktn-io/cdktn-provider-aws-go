@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectCo
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationGroupConfiguration:
 		value := value.(*[]*VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationGroupConfiguration)
@@ -117,7 +117,7 @@ func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectCo
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationGroupConfiguration; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationGroupConfiguration; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectCo
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelection:
 		value := value.(*[]*VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelection)
@@ -148,14 +148,14 @@ func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectCo
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelection; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelection; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -238,7 +238,7 @@ func (j *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectCo
 
 func (j *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfiguration:
 		val := val.(*VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfiguration)
@@ -253,7 +253,7 @@ func (j *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectCo
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfiguration; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfiguration; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -276,7 +276,7 @@ func (j *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectCo
 	return nil
 }
 
-func (j *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -284,7 +284,7 @@ func (j *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectCo
 	return nil
 }
 
-func validateNewVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEc2InstanceTypeInstanceDisksList) validateGetParameter
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEc2InstanceTypeInstanceDisksList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEc2InstanceTypeInstanceDisksList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsEc2InstanceTypeInstanceDisksList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceTypeInstanceDisksList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEc2InstanceTypeInstanceDisksList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsEc2InstanceTypeInstanceDisksList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewDataAwsEc2InstanceTypeInstanceDisksListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEc2InstanceTypeInstanceDisksListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

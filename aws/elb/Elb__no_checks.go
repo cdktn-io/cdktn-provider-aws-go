@@ -151,7 +151,7 @@ func (j *jsiiProxy_Elb) validateSetInternalParameters(val interface{}) error {
 	return nil
 }
 
-func (j *jsiiProxy_Elb) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Elb) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

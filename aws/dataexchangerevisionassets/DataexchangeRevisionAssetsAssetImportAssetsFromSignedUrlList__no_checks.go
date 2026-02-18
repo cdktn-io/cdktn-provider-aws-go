@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataexchangeRevisionAssetsAssetImportAssetsFromSignedUrlList)
 	return nil
 }
 
-func (d *jsiiProxy_DataexchangeRevisionAssetsAssetImportAssetsFromSignedUrlList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataexchangeRevisionAssetsAssetImportAssetsFromSignedUrlList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataexchangeRevisionAssetsAssetImportAssetsFromSignedUrlList)
 	return nil
 }
 
-func (j *jsiiProxy_DataexchangeRevisionAssetsAssetImportAssetsFromSignedUrlList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataexchangeRevisionAssetsAssetImportAssetsFromSignedUrlList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataexchangeRevisionAssetsAssetImportAssetsFromSignedUrlList)
 	return nil
 }
 
-func validateNewDataexchangeRevisionAssetsAssetImportAssetsFromSignedUrlListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataexchangeRevisionAssetsAssetImportAssetsFromSignedUrlListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

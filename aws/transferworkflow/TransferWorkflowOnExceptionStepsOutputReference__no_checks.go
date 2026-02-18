@@ -67,7 +67,7 @@ func (t *jsiiProxy_TransferWorkflowOnExceptionStepsOutputReference) validatePutT
 	return nil
 }
 
-func (t *jsiiProxy_TransferWorkflowOnExceptionStepsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TransferWorkflowOnExceptionStepsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_TransferWorkflowOnExceptionStepsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_TransferWorkflowOnExceptionStepsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TransferWorkflowOnExceptionStepsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_TransferWorkflowOnExceptionStepsOutputReference) validateSetT
 	return nil
 }
 
-func validateNewTransferWorkflowOnExceptionStepsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewTransferWorkflowOnExceptionStepsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

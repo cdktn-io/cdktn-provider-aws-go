@@ -47,7 +47,7 @@ func (r *jsiiProxy_RekognitionStreamProcessorInputKinesisVideoStreamOutputRefere
 	return nil
 }
 
-func (r *jsiiProxy_RekognitionStreamProcessorInputKinesisVideoStreamOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RekognitionStreamProcessorInputKinesisVideoStreamOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_RekognitionStreamProcessorInputKinesisVideoStreamOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_RekognitionStreamProcessorInputKinesisVideoStreamOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RekognitionStreamProcessorInputKinesisVideoStreamOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRekognitionStreamProcessorInputKinesisVideoStreamOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRekognitionStreamProcessorInputKinesisVideoStreamOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

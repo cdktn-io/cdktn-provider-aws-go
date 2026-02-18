@@ -5,14 +5,14 @@ package dataexchangerevisionassets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataexchangerevisionassets/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataexchangerevisionassets/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataexchangeRevisionAssetsAssetOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Arn() *string
 	// the index of the complex object in a list.
 	// Experimental.
@@ -47,16 +47,16 @@ type DataexchangeRevisionAssetsAssetOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UpdatedAt() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,9 +72,9 @@ type DataexchangeRevisionAssetsAssetOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCreateS3DataAccessFromS3Bucket(value interface{})
 	PutImportAssetsFromS3(value interface{})
 	PutImportAssetsFromSignedUrl(value interface{})
@@ -83,7 +83,7 @@ type DataexchangeRevisionAssetsAssetOutputReference interface {
 	ResetImportAssetsFromSignedUrl()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -93,7 +93,7 @@ type DataexchangeRevisionAssetsAssetOutputReference interface {
 
 // The jsii proxy struct for DataexchangeRevisionAssetsAssetOutputReference
 type jsiiProxy_DataexchangeRevisionAssetsAssetOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataexchangeRevisionAssetsAssetOutputReference) Arn() *string {
@@ -256,8 +256,8 @@ func (j *jsiiProxy_DataexchangeRevisionAssetsAssetOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_DataexchangeRevisionAssetsAssetOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataexchangeRevisionAssetsAssetOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -277,7 +277,7 @@ func (j *jsiiProxy_DataexchangeRevisionAssetsAssetOutputReference) UpdatedAt() *
 }
 
 
-func NewDataexchangeRevisionAssetsAssetOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataexchangeRevisionAssetsAssetOutputReference {
+func NewDataexchangeRevisionAssetsAssetOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataexchangeRevisionAssetsAssetOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataexchangeRevisionAssetsAssetOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -294,7 +294,7 @@ func NewDataexchangeRevisionAssetsAssetOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewDataexchangeRevisionAssetsAssetOutputReference_Override(d DataexchangeRevisionAssetsAssetOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataexchangeRevisionAssetsAssetOutputReference_Override(d DataexchangeRevisionAssetsAssetOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -348,7 +348,7 @@ func (j *jsiiProxy_DataexchangeRevisionAssetsAssetOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_DataexchangeRevisionAssetsAssetOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataexchangeRevisionAssetsAssetOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -388,11 +388,11 @@ func (d *jsiiProxy_DataexchangeRevisionAssetsAssetOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (d *jsiiProxy_DataexchangeRevisionAssetsAssetOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataexchangeRevisionAssetsAssetOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -516,8 +516,8 @@ func (d *jsiiProxy_DataexchangeRevisionAssetsAssetOutputReference) GetStringMapA
 	return returns
 }
 
-func (d *jsiiProxy_DataexchangeRevisionAssetsAssetOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataexchangeRevisionAssetsAssetOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -529,11 +529,11 @@ func (d *jsiiProxy_DataexchangeRevisionAssetsAssetOutputReference) Interpolation
 	return returns
 }
 
-func (d *jsiiProxy_DataexchangeRevisionAssetsAssetOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataexchangeRevisionAssetsAssetOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -602,7 +602,7 @@ func (d *jsiiProxy_DataexchangeRevisionAssetsAssetOutputReference) ResetImportAs
 	)
 }
 
-func (d *jsiiProxy_DataexchangeRevisionAssetsAssetOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataexchangeRevisionAssetsAssetOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

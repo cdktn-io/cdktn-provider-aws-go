@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpnConnectionRoutesOutputReference) validateInterpolationForA
 	return nil
 }
 
-func (v *jsiiProxy_VpnConnectionRoutesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpnConnectionRoutesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_VpnConnectionRoutesOutputReference) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_VpnConnectionRoutesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpnConnectionRoutesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpnConnectionRoutesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVpnConnectionRoutesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

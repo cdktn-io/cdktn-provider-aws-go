@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsOdbGiVersionsGiVersionsOutputReference) validateInterp
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsOdbGiVersionsGiVersionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsOdbGiVersionsGiVersionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsOdbGiVersionsGiVersionsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOdbGiVersionsGiVersionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsOdbGiVersionsGiVersionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsOdbGiVersionsGiVersionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsOdbGiVersionsGiVersionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

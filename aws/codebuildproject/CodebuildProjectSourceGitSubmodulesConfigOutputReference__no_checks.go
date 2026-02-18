@@ -47,7 +47,7 @@ func (c *jsiiProxy_CodebuildProjectSourceGitSubmodulesConfigOutputReference) val
 	return nil
 }
 
-func (c *jsiiProxy_CodebuildProjectSourceGitSubmodulesConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodebuildProjectSourceGitSubmodulesConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CodebuildProjectSourceGitSubmodulesConfigOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_CodebuildProjectSourceGitSubmodulesConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodebuildProjectSourceGitSubmodulesConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCodebuildProjectSourceGitSubmodulesConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCodebuildProjectSourceGitSubmodulesConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

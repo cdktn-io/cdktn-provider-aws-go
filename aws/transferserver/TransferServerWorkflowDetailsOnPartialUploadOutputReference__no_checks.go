@@ -47,7 +47,7 @@ func (t *jsiiProxy_TransferServerWorkflowDetailsOnPartialUploadOutputReference) 
 	return nil
 }
 
-func (t *jsiiProxy_TransferServerWorkflowDetailsOnPartialUploadOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TransferServerWorkflowDetailsOnPartialUploadOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_TransferServerWorkflowDetailsOnPartialUploadOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_TransferServerWorkflowDetailsOnPartialUploadOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TransferServerWorkflowDetailsOnPartialUploadOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_TransferServerWorkflowDetailsOnPartialUploadOutputReference) 
 	return nil
 }
 
-func validateNewTransferServerWorkflowDetailsOnPartialUploadOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTransferServerWorkflowDetailsOnPartialUploadOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

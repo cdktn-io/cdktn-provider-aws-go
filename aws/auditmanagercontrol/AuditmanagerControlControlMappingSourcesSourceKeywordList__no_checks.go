@@ -15,7 +15,7 @@ func (a *jsiiProxy_AuditmanagerControlControlMappingSourcesSourceKeywordList) va
 	return nil
 }
 
-func (a *jsiiProxy_AuditmanagerControlControlMappingSourcesSourceKeywordList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AuditmanagerControlControlMappingSourcesSourceKeywordList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AuditmanagerControlControlMappingSourcesSourceKeywordList) va
 	return nil
 }
 
-func (j *jsiiProxy_AuditmanagerControlControlMappingSourcesSourceKeywordList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AuditmanagerControlControlMappingSourcesSourceKeywordList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AuditmanagerControlControlMappingSourcesSourceKeywordList) va
 	return nil
 }
 
-func validateNewAuditmanagerControlControlMappingSourcesSourceKeywordListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAuditmanagerControlControlMappingSourcesSourceKeywordListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

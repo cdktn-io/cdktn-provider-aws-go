@@ -8,7 +8,7 @@ package odbnetwork
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (o *jsiiProxy_OdbNetworkOciDnsForwardingConfigsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (o *jsiiProxy_OdbNetworkOciDnsForwardingConfigsList) validateGetParameters(
 	return nil
 }
 
-func (o *jsiiProxy_OdbNetworkOciDnsForwardingConfigsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OdbNetworkOciDnsForwardingConfigsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_OdbNetworkOciDnsForwardingConfigsList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_OdbNetworkOciDnsForwardingConfigsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OdbNetworkOciDnsForwardingConfigsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_OdbNetworkOciDnsForwardingConfigsList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewOdbNetworkOciDnsForwardingConfigsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOdbNetworkOciDnsForwardingConfigsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

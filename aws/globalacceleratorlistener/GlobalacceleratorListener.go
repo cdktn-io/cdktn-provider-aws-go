@@ -5,22 +5,22 @@ package globalacceleratorlistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/globalacceleratorlistener/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/globalacceleratorlistener/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/globalaccelerator_listener aws_globalaccelerator_listener}.
 type GlobalacceleratorListener interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AcceleratorArn() *string
 	SetAcceleratorArn(val *string)
 	AcceleratorArnInput() *string
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClientAffinity() *string
 	SetClientAffinity(val *string)
 	ClientAffinityInput() *string
@@ -39,9 +39,9 @@ type GlobalacceleratorListener interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -50,9 +50,9 @@ type GlobalacceleratorListener interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	PortRange() GlobalacceleratorListenerPortRangeList
@@ -61,9 +61,9 @@ type GlobalacceleratorListener interface {
 	SetProtocol(val *string)
 	ProtocolInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -71,7 +71,7 @@ type GlobalacceleratorListener interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -86,7 +86,7 @@ type GlobalacceleratorListener interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -104,9 +104,9 @@ type GlobalacceleratorListener interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -144,7 +144,7 @@ type GlobalacceleratorListener interface {
 
 // The jsii proxy struct for GlobalacceleratorListener
 type jsiiProxy_GlobalacceleratorListener struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GlobalacceleratorListener) AcceleratorArn() *string {
@@ -177,8 +177,8 @@ func (j *jsiiProxy_GlobalacceleratorListener) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GlobalacceleratorListener) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GlobalacceleratorListener) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -247,8 +247,8 @@ func (j *jsiiProxy_GlobalacceleratorListener) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_GlobalacceleratorListener) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GlobalacceleratorListener) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -297,8 +297,8 @@ func (j *jsiiProxy_GlobalacceleratorListener) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GlobalacceleratorListener) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GlobalacceleratorListener) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -357,8 +357,8 @@ func (j *jsiiProxy_GlobalacceleratorListener) ProtocolInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GlobalacceleratorListener) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GlobalacceleratorListener) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -387,8 +387,8 @@ func (j *jsiiProxy_GlobalacceleratorListener) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_GlobalacceleratorListener) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GlobalacceleratorListener) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -519,7 +519,7 @@ func (j *jsiiProxy_GlobalacceleratorListener)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_GlobalacceleratorListener)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GlobalacceleratorListener)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -538,7 +538,7 @@ func (j *jsiiProxy_GlobalacceleratorListener)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GlobalacceleratorListener)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GlobalacceleratorListener)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -560,7 +560,7 @@ func (j *jsiiProxy_GlobalacceleratorListener)SetProtocol(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GlobalacceleratorListener)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GlobalacceleratorListener)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -579,14 +579,14 @@ func (j *jsiiProxy_GlobalacceleratorListener)SetProvisioners(val *[]interface{})
 	)
 }
 
-// Generates CDKTF code for importing a GlobalacceleratorListener resource upon running "cdktf plan <stack-name>".
-func GlobalacceleratorListener_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GlobalacceleratorListener resource upon running "cdktn plan <stack-name>".
+func GlobalacceleratorListener_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGlobalacceleratorListener_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.globalacceleratorListener.GlobalacceleratorListener",
@@ -720,11 +720,11 @@ func (g *jsiiProxy_GlobalacceleratorListener) GetAnyMapAttribute(terraformAttrib
 	return returns
 }
 
-func (g *jsiiProxy_GlobalacceleratorListener) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GlobalacceleratorListener) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -861,7 +861,7 @@ func (g *jsiiProxy_GlobalacceleratorListener) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GlobalacceleratorListener) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GlobalacceleratorListener) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -872,11 +872,11 @@ func (g *jsiiProxy_GlobalacceleratorListener) ImportFrom(id *string, provider cd
 	)
 }
 
-func (g *jsiiProxy_GlobalacceleratorListener) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GlobalacceleratorListener) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

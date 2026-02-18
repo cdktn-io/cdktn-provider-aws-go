@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsCognitoUserPoolClientRefreshTokenRotationOutputReferen
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCognitoUserPoolClientRefreshTokenRotationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCognitoUserPoolClientRefreshTokenRotationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolClientRefreshTokenRotationOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolClientRefreshTokenRotationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCognitoUserPoolClientRefreshTokenRotationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsCognitoUserPoolClientRefreshTokenRotationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsCognitoUserPoolClientRefreshTokenRotationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

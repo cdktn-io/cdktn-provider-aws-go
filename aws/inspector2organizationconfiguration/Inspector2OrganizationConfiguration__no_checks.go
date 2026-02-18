@@ -111,7 +111,7 @@ func (j *jsiiProxy_Inspector2OrganizationConfiguration) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_Inspector2OrganizationConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Inspector2OrganizationConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

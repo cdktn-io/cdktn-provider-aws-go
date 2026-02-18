@@ -171,7 +171,7 @@ func (j *jsiiProxy_LambdaEventSourceMapping) validateSetKmsKeyArnParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_LambdaEventSourceMapping) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LambdaEventSourceMapping) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -119,7 +119,7 @@ func (j *jsiiProxy_AcmpcaCertificate) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_AcmpcaCertificate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AcmpcaCertificate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

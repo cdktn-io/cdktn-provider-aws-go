@@ -5,14 +5,14 @@ package mqbroker
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/mqbroker/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/mqbroker/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MqBrokerMaintenanceWindowStartTimeOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type MqBrokerMaintenanceWindowStartTimeOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TimeOfDay() *string
 	SetTimeOfDay(val *string)
 	TimeOfDayInput() *string
@@ -54,7 +54,7 @@ type MqBrokerMaintenanceWindowStartTimeOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type MqBrokerMaintenanceWindowStartTimeOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type MqBrokerMaintenanceWindowStartTimeOutputReference interface {
 
 // The jsii proxy struct for MqBrokerMaintenanceWindowStartTimeOutputReference
 type jsiiProxy_MqBrokerMaintenanceWindowStartTimeOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MqBrokerMaintenanceWindowStartTimeOutputReference) ComplexObjectIndex() interface{} {
@@ -168,8 +168,8 @@ func (j *jsiiProxy_MqBrokerMaintenanceWindowStartTimeOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_MqBrokerMaintenanceWindowStartTimeOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MqBrokerMaintenanceWindowStartTimeOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_MqBrokerMaintenanceWindowStartTimeOutputReference) TimeZoneIn
 }
 
 
-func NewMqBrokerMaintenanceWindowStartTimeOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MqBrokerMaintenanceWindowStartTimeOutputReference {
+func NewMqBrokerMaintenanceWindowStartTimeOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MqBrokerMaintenanceWindowStartTimeOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMqBrokerMaintenanceWindowStartTimeOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -236,7 +236,7 @@ func NewMqBrokerMaintenanceWindowStartTimeOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewMqBrokerMaintenanceWindowStartTimeOutputReference_Override(m MqBrokerMaintenanceWindowStartTimeOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMqBrokerMaintenanceWindowStartTimeOutputReference_Override(m MqBrokerMaintenanceWindowStartTimeOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -301,7 +301,7 @@ func (j *jsiiProxy_MqBrokerMaintenanceWindowStartTimeOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_MqBrokerMaintenanceWindowStartTimeOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MqBrokerMaintenanceWindowStartTimeOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -363,11 +363,11 @@ func (m *jsiiProxy_MqBrokerMaintenanceWindowStartTimeOutputReference) GetAnyMapA
 	return returns
 }
 
-func (m *jsiiProxy_MqBrokerMaintenanceWindowStartTimeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MqBrokerMaintenanceWindowStartTimeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -491,8 +491,8 @@ func (m *jsiiProxy_MqBrokerMaintenanceWindowStartTimeOutputReference) GetStringM
 	return returns
 }
 
-func (m *jsiiProxy_MqBrokerMaintenanceWindowStartTimeOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MqBrokerMaintenanceWindowStartTimeOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -504,11 +504,11 @@ func (m *jsiiProxy_MqBrokerMaintenanceWindowStartTimeOutputReference) Interpolat
 	return returns
 }
 
-func (m *jsiiProxy_MqBrokerMaintenanceWindowStartTimeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MqBrokerMaintenanceWindowStartTimeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -520,7 +520,7 @@ func (m *jsiiProxy_MqBrokerMaintenanceWindowStartTimeOutputReference) Interpolat
 	return returns
 }
 
-func (m *jsiiProxy_MqBrokerMaintenanceWindowStartTimeOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MqBrokerMaintenanceWindowStartTimeOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

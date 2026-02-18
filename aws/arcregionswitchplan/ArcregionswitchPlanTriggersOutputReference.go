@@ -5,14 +5,14 @@ package arcregionswitchplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/arcregionswitchplan/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/arcregionswitchplan/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ArcregionswitchPlanTriggersOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Action() *string
 	SetAction(val *string)
 	ActionInput() *string
@@ -51,15 +51,15 @@ type ArcregionswitchPlanTriggersOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -75,15 +75,15 @@ type ArcregionswitchPlanTriggersOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutConditions(value interface{})
 	ResetConditions()
 	ResetDescription()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -93,7 +93,7 @@ type ArcregionswitchPlanTriggersOutputReference interface {
 
 // The jsii proxy struct for ArcregionswitchPlanTriggersOutputReference
 type jsiiProxy_ArcregionswitchPlanTriggersOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ArcregionswitchPlanTriggersOutputReference) Action() *string {
@@ -256,8 +256,8 @@ func (j *jsiiProxy_ArcregionswitchPlanTriggersOutputReference) TerraformAttribut
 	return returns
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanTriggersOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ArcregionswitchPlanTriggersOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -267,7 +267,7 @@ func (j *jsiiProxy_ArcregionswitchPlanTriggersOutputReference) TerraformResource
 }
 
 
-func NewArcregionswitchPlanTriggersOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ArcregionswitchPlanTriggersOutputReference {
+func NewArcregionswitchPlanTriggersOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ArcregionswitchPlanTriggersOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewArcregionswitchPlanTriggersOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -284,7 +284,7 @@ func NewArcregionswitchPlanTriggersOutputReference(terraformResource cdktf.IInte
 	return &j
 }
 
-func NewArcregionswitchPlanTriggersOutputReference_Override(a ArcregionswitchPlanTriggersOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewArcregionswitchPlanTriggersOutputReference_Override(a ArcregionswitchPlanTriggersOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -382,7 +382,7 @@ func (j *jsiiProxy_ArcregionswitchPlanTriggersOutputReference)SetTerraformAttrib
 	)
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanTriggersOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ArcregionswitchPlanTriggersOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -422,11 +422,11 @@ func (a *jsiiProxy_ArcregionswitchPlanTriggersOutputReference) GetAnyMapAttribut
 	return returns
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanTriggersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ArcregionswitchPlanTriggersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -550,8 +550,8 @@ func (a *jsiiProxy_ArcregionswitchPlanTriggersOutputReference) GetStringMapAttri
 	return returns
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanTriggersOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ArcregionswitchPlanTriggersOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -563,11 +563,11 @@ func (a *jsiiProxy_ArcregionswitchPlanTriggersOutputReference) InterpolationAsLi
 	return returns
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanTriggersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ArcregionswitchPlanTriggersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -606,7 +606,7 @@ func (a *jsiiProxy_ArcregionswitchPlanTriggersOutputReference) ResetDescription(
 	)
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanTriggersOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ArcregionswitchPlanTriggersOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

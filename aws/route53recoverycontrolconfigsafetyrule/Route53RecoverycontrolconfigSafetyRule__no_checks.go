@@ -119,7 +119,7 @@ func (j *jsiiProxy_Route53RecoverycontrolconfigSafetyRule) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_Route53RecoverycontrolconfigSafetyRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Route53RecoverycontrolconfigSafetyRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

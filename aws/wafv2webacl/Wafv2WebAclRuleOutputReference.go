@@ -5,14 +5,14 @@ package wafv2webacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/wafv2webacl/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/wafv2webacl/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Wafv2WebAclRuleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Action() Wafv2WebAclRuleActionOutputReference
 	ActionInput() *Wafv2WebAclRuleAction
 	CaptchaConfig() Wafv2WebAclRuleCaptchaConfigOutputReference
@@ -56,9 +56,9 @@ type Wafv2WebAclRuleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VisibilityConfig() Wafv2WebAclRuleVisibilityConfigOutputReference
 	VisibilityConfigInput() *Wafv2WebAclRuleVisibilityConfig
 	// Experimental.
@@ -66,7 +66,7 @@ type Wafv2WebAclRuleOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -82,9 +82,9 @@ type Wafv2WebAclRuleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAction(value *Wafv2WebAclRuleAction)
 	PutCaptchaConfig(value *Wafv2WebAclRuleCaptchaConfig)
 	PutChallengeConfig(value *Wafv2WebAclRuleChallengeConfig)
@@ -99,7 +99,7 @@ type Wafv2WebAclRuleOutputReference interface {
 	ResetStatement()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -109,7 +109,7 @@ type Wafv2WebAclRuleOutputReference interface {
 
 // The jsii proxy struct for Wafv2WebAclRuleOutputReference
 type jsiiProxy_Wafv2WebAclRuleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Wafv2WebAclRuleOutputReference) Action() Wafv2WebAclRuleActionOutputReference {
@@ -332,8 +332,8 @@ func (j *jsiiProxy_Wafv2WebAclRuleOutputReference) TerraformAttribute() *string 
 	return returns
 }
 
-func (j *jsiiProxy_Wafv2WebAclRuleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Wafv2WebAclRuleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -363,7 +363,7 @@ func (j *jsiiProxy_Wafv2WebAclRuleOutputReference) VisibilityConfigInput() *Wafv
 }
 
 
-func NewWafv2WebAclRuleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Wafv2WebAclRuleOutputReference {
+func NewWafv2WebAclRuleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Wafv2WebAclRuleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWafv2WebAclRuleOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -380,7 +380,7 @@ func NewWafv2WebAclRuleOutputReference(terraformResource cdktf.IInterpolatingPar
 	return &j
 }
 
-func NewWafv2WebAclRuleOutputReference_Override(w Wafv2WebAclRuleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewWafv2WebAclRuleOutputReference_Override(w Wafv2WebAclRuleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -467,7 +467,7 @@ func (j *jsiiProxy_Wafv2WebAclRuleOutputReference)SetTerraformAttribute(val *str
 	)
 }
 
-func (j *jsiiProxy_Wafv2WebAclRuleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Wafv2WebAclRuleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -507,11 +507,11 @@ func (w *jsiiProxy_Wafv2WebAclRuleOutputReference) GetAnyMapAttribute(terraformA
 	return returns
 }
 
-func (w *jsiiProxy_Wafv2WebAclRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_Wafv2WebAclRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -635,8 +635,8 @@ func (w *jsiiProxy_Wafv2WebAclRuleOutputReference) GetStringMapAttribute(terrafo
 	return returns
 }
 
-func (w *jsiiProxy_Wafv2WebAclRuleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_Wafv2WebAclRuleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -648,11 +648,11 @@ func (w *jsiiProxy_Wafv2WebAclRuleOutputReference) InterpolationAsList() cdktf.I
 	return returns
 }
 
-func (w *jsiiProxy_Wafv2WebAclRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_Wafv2WebAclRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -778,7 +778,7 @@ func (w *jsiiProxy_Wafv2WebAclRuleOutputReference) ResetStatement() {
 	)
 }
 
-func (w *jsiiProxy_Wafv2WebAclRuleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_Wafv2WebAclRuleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

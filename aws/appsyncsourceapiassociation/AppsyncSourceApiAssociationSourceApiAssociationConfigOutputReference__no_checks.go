@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppsyncSourceApiAssociationSourceApiAssociationConfigOutputRe
 	return nil
 }
 
-func (a *jsiiProxy_AppsyncSourceApiAssociationSourceApiAssociationConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppsyncSourceApiAssociationSourceApiAssociationConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AppsyncSourceApiAssociationSourceApiAssociationConfigOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncSourceApiAssociationSourceApiAssociationConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppsyncSourceApiAssociationSourceApiAssociationConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppsyncSourceApiAssociationSourceApiAssociationConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppsyncSourceApiAssociationSourceApiAssociationConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

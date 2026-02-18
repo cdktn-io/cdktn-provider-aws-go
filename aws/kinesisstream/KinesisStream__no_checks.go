@@ -127,7 +127,7 @@ func (j *jsiiProxy_KinesisStream) validateSetKmsKeyIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_KinesisStream) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KinesisStream) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

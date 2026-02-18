@@ -127,7 +127,7 @@ func (j *jsiiProxy_NetworkmanagerCoreNetwork) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerCoreNetwork) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkmanagerCoreNetwork) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

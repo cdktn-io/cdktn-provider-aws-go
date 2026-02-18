@@ -107,7 +107,7 @@ func (j *jsiiProxy_PaymentcryptographyKeyAlias) validateSetKeyArnParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_PaymentcryptographyKeyAlias) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PaymentcryptographyKeyAlias) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

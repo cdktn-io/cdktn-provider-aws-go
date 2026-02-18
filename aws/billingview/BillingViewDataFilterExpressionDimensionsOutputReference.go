@@ -5,14 +5,14 @@ package billingview
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/billingview/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/billingview/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BillingViewDataFilterExpressionDimensionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type BillingViewDataFilterExpressionDimensionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Values() *[]*string
 	SetValues(val *[]*string)
 	ValuesInput() *[]*string
@@ -51,7 +51,7 @@ type BillingViewDataFilterExpressionDimensionsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type BillingViewDataFilterExpressionDimensionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type BillingViewDataFilterExpressionDimensionsOutputReference interface {
 
 // The jsii proxy struct for BillingViewDataFilterExpressionDimensionsOutputReference
 type jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference) ComplexObjectIndex() interface{} {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference) Val
 }
 
 
-func NewBillingViewDataFilterExpressionDimensionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BillingViewDataFilterExpressionDimensionsOutputReference {
+func NewBillingViewDataFilterExpressionDimensionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BillingViewDataFilterExpressionDimensionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBillingViewDataFilterExpressionDimensionsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -213,7 +213,7 @@ func NewBillingViewDataFilterExpressionDimensionsOutputReference(terraformResour
 	return &j
 }
 
-func NewBillingViewDataFilterExpressionDimensionsOutputReference_Override(b BillingViewDataFilterExpressionDimensionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewBillingViewDataFilterExpressionDimensionsOutputReference_Override(b BillingViewDataFilterExpressionDimensionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (b *jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference) Get
 	return returns
 }
 
-func (b *jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -457,8 +457,8 @@ func (b *jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference) Get
 	return returns
 }
 
-func (b *jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -470,11 +470,11 @@ func (b *jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference) Int
 	return returns
 }
 
-func (b *jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -486,7 +486,7 @@ func (b *jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference) Int
 	return returns
 }
 
-func (b *jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

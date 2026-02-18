@@ -5,18 +5,18 @@ package dataawsec2transitgatewayroutetablepropagations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsec2transitgatewayroutetablepropagations/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsec2transitgatewayroutetablepropagations/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/ec2_transit_gateway_route_table_propagations aws_ec2_transit_gateway_route_table_propagations}.
 type DataAwsEc2TransitGatewayRouteTablePropagations interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -30,9 +30,9 @@ type DataAwsEc2TransitGatewayRouteTablePropagations interface {
 	Filter() DataAwsEc2TransitGatewayRouteTablePropagationsFilterList
 	FilterInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -42,22 +42,22 @@ type DataAwsEc2TransitGatewayRouteTablePropagations interface {
 	IdInput() *string
 	Ids() *[]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -72,7 +72,7 @@ type DataAwsEc2TransitGatewayRouteTablePropagations interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -88,7 +88,7 @@ type DataAwsEc2TransitGatewayRouteTablePropagations interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -117,11 +117,11 @@ type DataAwsEc2TransitGatewayRouteTablePropagations interface {
 
 // The jsii proxy struct for DataAwsEc2TransitGatewayRouteTablePropagations
 type jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -180,8 +180,8 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) FilterInput()
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -240,8 +240,8 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) Ids() *[]*str
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -260,8 +260,8 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) Node() constr
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -300,8 +300,8 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) RegionInput()
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -419,7 +419,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations)SetDependsOn(v
 	)
 }
 
-func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -438,7 +438,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations)SetId(val *str
 	)
 }
 
-func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -449,7 +449,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations)SetLifecycle(v
 	)
 }
 
-func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -479,14 +479,14 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations)SetTransitGate
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsEc2TransitGatewayRouteTablePropagations resource upon running "cdktf plan <stack-name>".
-func DataAwsEc2TransitGatewayRouteTablePropagations_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsEc2TransitGatewayRouteTablePropagations resource upon running "cdktn plan <stack-name>".
+func DataAwsEc2TransitGatewayRouteTablePropagations_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsEc2TransitGatewayRouteTablePropagations_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsEc2TransitGatewayRouteTablePropagations.DataAwsEc2TransitGatewayRouteTablePropagations",
@@ -609,11 +609,11 @@ func (d *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) GetAnyMapAttr
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -737,11 +737,11 @@ func (d *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) GetStringMapA
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

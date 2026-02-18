@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppstreamStackAccessEndpointsList) validateGetParameters(inde
 	return nil
 }
 
-func (a *jsiiProxy_AppstreamStackAccessEndpointsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppstreamStackAccessEndpointsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppstreamStackAccessEndpointsList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_AppstreamStackAccessEndpointsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppstreamStackAccessEndpointsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppstreamStackAccessEndpointsList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewAppstreamStackAccessEndpointsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppstreamStackAccessEndpointsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

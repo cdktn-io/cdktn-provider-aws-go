@@ -103,7 +103,7 @@ func (j *jsiiProxy_NetworkfirewallFirewallTransitGatewayAttachmentAccepter) vali
 	return nil
 }
 
-func (j *jsiiProxy_NetworkfirewallFirewallTransitGatewayAttachmentAccepter) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkfirewallFirewallTransitGatewayAttachmentAccepter) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

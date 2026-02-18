@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsEcrImage) validateSetImageTagParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEcrImage) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsEcrImage) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -115,7 +115,7 @@ func (j *jsiiProxy_InvoicingInvoiceUnit) validateSetInvoiceReceiverParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_InvoicingInvoiceUnit) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_InvoicingInvoiceUnit) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

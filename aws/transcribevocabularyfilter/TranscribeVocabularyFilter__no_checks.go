@@ -107,7 +107,7 @@ func (j *jsiiProxy_TranscribeVocabularyFilter) validateSetLanguageCodeParameters
 	return nil
 }
 
-func (j *jsiiProxy_TranscribeVocabularyFilter) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_TranscribeVocabularyFilter) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

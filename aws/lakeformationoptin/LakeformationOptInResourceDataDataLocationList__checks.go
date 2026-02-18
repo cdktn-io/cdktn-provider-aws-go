@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (l *jsiiProxy_LakeformationOptInResourceDataDataLocationList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (l *jsiiProxy_LakeformationOptInResourceDataDataLocationList) validateGetPa
 	return nil
 }
 
-func (l *jsiiProxy_LakeformationOptInResourceDataDataLocationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LakeformationOptInResourceDataDataLocationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (l *jsiiProxy_LakeformationOptInResourceDataDataLocationList) validateResol
 
 func (j *jsiiProxy_LakeformationOptInResourceDataDataLocationList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*LakeformationOptInResourceDataDataLocation:
 		val := val.(*[]*LakeformationOptInResourceDataDataLocation)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_LakeformationOptInResourceDataDataLocationList) validateSetIn
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*LakeformationOptInResourceDataDataLocation; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*LakeformationOptInResourceDataDataLocation; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_LakeformationOptInResourceDataDataLocationList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_LakeformationOptInResourceDataDataLocationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LakeformationOptInResourceDataDataLocationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_LakeformationOptInResourceDataDataLocationList) validateSetWr
 	return nil
 }
 
-func validateNewLakeformationOptInResourceDataDataLocationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLakeformationOptInResourceDataDataLocationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (c *jsiiProxy_ConnectRoutingProfileQueueConfigsOutputReference) validateInt
 	return nil
 }
 
-func (c *jsiiProxy_ConnectRoutingProfileQueueConfigsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConnectRoutingProfileQueueConfigsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_ConnectRoutingProfileQueueConfigsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ConnectRoutingProfileQueueConfigsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConnectRoutingProfileQueueConfigsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewConnectRoutingProfileQueueConfigsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewConnectRoutingProfileQueueConfigsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

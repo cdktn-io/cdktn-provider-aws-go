@@ -15,7 +15,7 @@ func (l *jsiiProxy_LexSlotTypeEnumerationValueList) validateGetParameters(index 
 	return nil
 }
 
-func (l *jsiiProxy_LexSlotTypeEnumerationValueList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LexSlotTypeEnumerationValueList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LexSlotTypeEnumerationValueList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_LexSlotTypeEnumerationValueList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LexSlotTypeEnumerationValueList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LexSlotTypeEnumerationValueList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewLexSlotTypeEnumerationValueListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLexSlotTypeEnumerationValueListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

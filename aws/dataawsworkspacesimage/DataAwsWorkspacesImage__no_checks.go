@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsWorkspacesImage) validateSetImageIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsWorkspacesImage) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsWorkspacesImage) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

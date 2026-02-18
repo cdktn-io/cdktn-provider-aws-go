@@ -47,7 +47,7 @@ func (l *jsiiProxy_Lexv2ModelsSlotTypeSlotTypeValuesSampleValueOutputReference) 
 	return nil
 }
 
-func (l *jsiiProxy_Lexv2ModelsSlotTypeSlotTypeValuesSampleValueOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_Lexv2ModelsSlotTypeSlotTypeValuesSampleValueOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_Lexv2ModelsSlotTypeSlotTypeValuesSampleValueOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_Lexv2ModelsSlotTypeSlotTypeValuesSampleValueOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Lexv2ModelsSlotTypeSlotTypeValuesSampleValueOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_Lexv2ModelsSlotTypeSlotTypeValuesSampleValueOutputReference) 
 	return nil
 }
 
-func validateNewLexv2ModelsSlotTypeSlotTypeValuesSampleValueOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLexv2ModelsSlotTypeSlotTypeValuesSampleValueOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

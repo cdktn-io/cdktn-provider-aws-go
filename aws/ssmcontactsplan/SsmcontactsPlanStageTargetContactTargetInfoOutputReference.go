@@ -5,14 +5,14 @@ package ssmcontactsplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ssmcontactsplan/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ssmcontactsplan/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SsmcontactsPlanStageTargetContactTargetInfoOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type SsmcontactsPlanStageTargetContactTargetInfoOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type SsmcontactsPlanStageTargetContactTargetInfoOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetContactId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type SsmcontactsPlanStageTargetContactTargetInfoOutputReference interface {
 
 // The jsii proxy struct for SsmcontactsPlanStageTargetContactTargetInfoOutputReference
 type jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) ComplexObjectIndex() interface{} {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) T
 }
 
 
-func NewSsmcontactsPlanStageTargetContactTargetInfoOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SsmcontactsPlanStageTargetContactTargetInfoOutputReference {
+func NewSsmcontactsPlanStageTargetContactTargetInfoOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SsmcontactsPlanStageTargetContactTargetInfoOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSsmcontactsPlanStageTargetContactTargetInfoOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewSsmcontactsPlanStageTargetContactTargetInfoOutputReference(terraformReso
 	return &j
 }
 
-func NewSsmcontactsPlanStageTargetContactTargetInfoOutputReference_Override(s SsmcontactsPlanStageTargetContactTargetInfoOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSsmcontactsPlanStageTargetContactTargetInfoOutputReference_Override(s SsmcontactsPlanStageTargetContactTargetInfoOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (s *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) G
 	return returns
 }
 
-func (s *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -458,8 +458,8 @@ func (s *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) G
 	return returns
 }
 
-func (s *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -471,11 +471,11 @@ func (s *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) I
 	return returns
 }
 
-func (s *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -495,7 +495,7 @@ func (s *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) R
 	)
 }
 
-func (s *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SsmcontactsPlanStageTargetContactTargetInfoOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

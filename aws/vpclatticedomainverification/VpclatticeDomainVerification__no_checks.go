@@ -103,7 +103,7 @@ func (j *jsiiProxy_VpclatticeDomainVerification) validateSetDomainNameParameters
 	return nil
 }
 
-func (j *jsiiProxy_VpclatticeDomainVerification) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VpclatticeDomainVerification) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

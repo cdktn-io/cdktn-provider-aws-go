@@ -119,7 +119,7 @@ func (j *jsiiProxy_LocationPlaceIndex) validateSetIndexNameParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_LocationPlaceIndex) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LocationPlaceIndex) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

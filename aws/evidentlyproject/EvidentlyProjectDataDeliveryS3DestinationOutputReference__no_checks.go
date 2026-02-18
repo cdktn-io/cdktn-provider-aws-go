@@ -47,7 +47,7 @@ func (e *jsiiProxy_EvidentlyProjectDataDeliveryS3DestinationOutputReference) val
 	return nil
 }
 
-func (e *jsiiProxy_EvidentlyProjectDataDeliveryS3DestinationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EvidentlyProjectDataDeliveryS3DestinationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EvidentlyProjectDataDeliveryS3DestinationOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_EvidentlyProjectDataDeliveryS3DestinationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EvidentlyProjectDataDeliveryS3DestinationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEvidentlyProjectDataDeliveryS3DestinationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEvidentlyProjectDataDeliveryS3DestinationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

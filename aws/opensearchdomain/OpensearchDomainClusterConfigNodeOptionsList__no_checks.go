@@ -15,7 +15,7 @@ func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsList) validateGetPara
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsList) validateSetWrap
 	return nil
 }
 
-func validateNewOpensearchDomainClusterConfigNodeOptionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOpensearchDomainClusterConfigNodeOptionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

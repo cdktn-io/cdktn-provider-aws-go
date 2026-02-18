@@ -131,7 +131,7 @@ func (j *jsiiProxy_BedrockagentcoreGateway) validateSetKmsKeyArnParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreGateway) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BedrockagentcoreGateway) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

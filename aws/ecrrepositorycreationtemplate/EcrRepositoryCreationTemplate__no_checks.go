@@ -127,7 +127,7 @@ func (j *jsiiProxy_EcrRepositoryCreationTemplate) validateSetImageTagMutabilityP
 	return nil
 }
 
-func (j *jsiiProxy_EcrRepositoryCreationTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EcrRepositoryCreationTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

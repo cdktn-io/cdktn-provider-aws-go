@@ -47,7 +47,7 @@ func (e *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationManagedPersist
 	return nil
 }
 
-func (e *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationManagedPersistenceMonitoringConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationManagedPersistenceMonitoringConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationManagedPersist
 	return nil
 }
 
-func (j *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationManagedPersistenceMonitoringConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EmrserverlessApplicationMonitoringConfigurationManagedPersistenceMonitoringConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEmrserverlessApplicationMonitoringConfigurationManagedPersistenceMonitoringConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEmrserverlessApplicationMonitoringConfigurationManagedPersistenceMonitoringConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

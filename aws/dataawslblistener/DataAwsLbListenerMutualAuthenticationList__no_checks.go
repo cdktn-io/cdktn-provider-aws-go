@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsLbListenerMutualAuthenticationList) validateGetParamet
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLbListenerMutualAuthenticationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLbListenerMutualAuthenticationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsLbListenerMutualAuthenticationList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLbListenerMutualAuthenticationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLbListenerMutualAuthenticationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsLbListenerMutualAuthenticationList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewDataAwsLbListenerMutualAuthenticationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsLbListenerMutualAuthenticationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

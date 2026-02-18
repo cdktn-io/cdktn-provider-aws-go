@@ -15,7 +15,7 @@ func (s *jsiiProxy_SagemakerModelCardExportJobOutputConfigList) validateGetParam
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerModelCardExportJobOutputConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerModelCardExportJobOutputConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SagemakerModelCardExportJobOutputConfigList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerModelCardExportJobOutputConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerModelCardExportJobOutputConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SagemakerModelCardExportJobOutputConfigList) validateSetWraps
 	return nil
 }
 
-func validateNewSagemakerModelCardExportJobOutputConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSagemakerModelCardExportJobOutputConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

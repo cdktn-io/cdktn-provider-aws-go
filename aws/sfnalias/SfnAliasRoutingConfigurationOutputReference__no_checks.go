@@ -47,7 +47,7 @@ func (s *jsiiProxy_SfnAliasRoutingConfigurationOutputReference) validateInterpol
 	return nil
 }
 
-func (s *jsiiProxy_SfnAliasRoutingConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SfnAliasRoutingConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_SfnAliasRoutingConfigurationOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_SfnAliasRoutingConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SfnAliasRoutingConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SfnAliasRoutingConfigurationOutputReference) validateSetWeigh
 	return nil
 }
 
-func validateNewSfnAliasRoutingConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSfnAliasRoutingConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

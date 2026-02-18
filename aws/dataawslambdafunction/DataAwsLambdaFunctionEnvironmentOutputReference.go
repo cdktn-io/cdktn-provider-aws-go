@@ -5,14 +5,14 @@ package dataawslambdafunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawslambdafunction/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawslambdafunction/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsLambdaFunctionEnvironmentOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,16 +37,16 @@ type DataAwsLambdaFunctionEnvironmentOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
-	Variables() cdktf.StringMap
+	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Variables() cdktn.StringMap
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -62,12 +62,12 @@ type DataAwsLambdaFunctionEnvironmentOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -77,7 +77,7 @@ type DataAwsLambdaFunctionEnvironmentOutputReference interface {
 
 // The jsii proxy struct for DataAwsLambdaFunctionEnvironmentOutputReference
 type jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference) ComplexObjectIndex() interface{} {
@@ -140,8 +140,8 @@ func (j *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -150,8 +150,8 @@ func (j *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference) TerraformRes
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference) Variables() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference) Variables() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"variables",
@@ -161,7 +161,7 @@ func (j *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference) Variables() 
 }
 
 
-func NewDataAwsLambdaFunctionEnvironmentOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsLambdaFunctionEnvironmentOutputReference {
+func NewDataAwsLambdaFunctionEnvironmentOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsLambdaFunctionEnvironmentOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsLambdaFunctionEnvironmentOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -178,7 +178,7 @@ func NewDataAwsLambdaFunctionEnvironmentOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewDataAwsLambdaFunctionEnvironmentOutputReference_Override(d DataAwsLambdaFunctionEnvironmentOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsLambdaFunctionEnvironmentOutputReference_Override(d DataAwsLambdaFunctionEnvironmentOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -232,7 +232,7 @@ func (j *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -272,11 +272,11 @@ func (d *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -400,8 +400,8 @@ func (d *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference) GetStringMap
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -413,11 +413,11 @@ func (d *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference) Interpolatio
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -429,7 +429,7 @@ func (d *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference) Interpolatio
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsLambdaFunctionEnvironmentOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

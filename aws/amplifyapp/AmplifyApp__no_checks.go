@@ -171,7 +171,7 @@ func (j *jsiiProxy_AmplifyApp) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_AmplifyApp) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AmplifyApp) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

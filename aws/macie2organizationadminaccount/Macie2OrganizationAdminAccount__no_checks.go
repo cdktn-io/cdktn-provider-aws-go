@@ -107,7 +107,7 @@ func (j *jsiiProxy_Macie2OrganizationAdminAccount) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_Macie2OrganizationAdminAccount) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Macie2OrganizationAdminAccount) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

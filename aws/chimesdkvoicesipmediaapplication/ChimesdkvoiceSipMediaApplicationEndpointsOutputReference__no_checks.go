@@ -47,7 +47,7 @@ func (c *jsiiProxy_ChimesdkvoiceSipMediaApplicationEndpointsOutputReference) val
 	return nil
 }
 
-func (c *jsiiProxy_ChimesdkvoiceSipMediaApplicationEndpointsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ChimesdkvoiceSipMediaApplicationEndpointsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ChimesdkvoiceSipMediaApplicationEndpointsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_ChimesdkvoiceSipMediaApplicationEndpointsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ChimesdkvoiceSipMediaApplicationEndpointsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewChimesdkvoiceSipMediaApplicationEndpointsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewChimesdkvoiceSipMediaApplicationEndpointsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

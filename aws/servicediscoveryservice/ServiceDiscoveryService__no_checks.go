@@ -123,7 +123,7 @@ func (j *jsiiProxy_ServiceDiscoveryService) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_ServiceDiscoveryService) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ServiceDiscoveryService) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

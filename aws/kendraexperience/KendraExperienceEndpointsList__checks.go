@@ -8,7 +8,7 @@ package kendraexperience
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (k *jsiiProxy_KendraExperienceEndpointsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (k *jsiiProxy_KendraExperienceEndpointsList) validateGetParameters(index *f
 	return nil
 }
 
-func (k *jsiiProxy_KendraExperienceEndpointsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KendraExperienceEndpointsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_KendraExperienceEndpointsList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_KendraExperienceEndpointsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KendraExperienceEndpointsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_KendraExperienceEndpointsList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewKendraExperienceEndpointsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewKendraExperienceEndpointsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

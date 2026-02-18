@@ -135,7 +135,7 @@ func (j *jsiiProxy_AutoscalingPolicy) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_AutoscalingPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AutoscalingPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

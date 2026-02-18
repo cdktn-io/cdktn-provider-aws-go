@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (i *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReferen
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Inspector2FilterFilterCriteriaVulnerablePackagesArchitecture:
 		value := value.(*[]*Inspector2FilterFilterCriteriaVulnerablePackagesArchitecture)
@@ -117,7 +117,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReferen
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Inspector2FilterFilterCriteriaVulnerablePackagesArchitecture; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Inspector2FilterFilterCriteriaVulnerablePackagesArchitecture; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReferen
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Inspector2FilterFilterCriteriaVulnerablePackagesEpoch:
 		value := value.(*[]*Inspector2FilterFilterCriteriaVulnerablePackagesEpoch)
@@ -148,7 +148,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReferen
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Inspector2FilterFilterCriteriaVulnerablePackagesEpoch; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Inspector2FilterFilterCriteriaVulnerablePackagesEpoch; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReferen
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Inspector2FilterFilterCriteriaVulnerablePackagesFilePath:
 		value := value.(*[]*Inspector2FilterFilterCriteriaVulnerablePackagesFilePath)
@@ -179,7 +179,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReferen
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Inspector2FilterFilterCriteriaVulnerablePackagesFilePath; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Inspector2FilterFilterCriteriaVulnerablePackagesFilePath; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -191,7 +191,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReferen
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Inspector2FilterFilterCriteriaVulnerablePackagesName:
 		value := value.(*[]*Inspector2FilterFilterCriteriaVulnerablePackagesName)
@@ -210,7 +210,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReferen
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Inspector2FilterFilterCriteriaVulnerablePackagesName; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Inspector2FilterFilterCriteriaVulnerablePackagesName; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReferen
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Inspector2FilterFilterCriteriaVulnerablePackagesRelease:
 		value := value.(*[]*Inspector2FilterFilterCriteriaVulnerablePackagesRelease)
@@ -241,7 +241,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReferen
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Inspector2FilterFilterCriteriaVulnerablePackagesRelease; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Inspector2FilterFilterCriteriaVulnerablePackagesRelease; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -253,7 +253,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReferen
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Inspector2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn:
 		value := value.(*[]*Inspector2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn)
@@ -272,7 +272,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReferen
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Inspector2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Inspector2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -284,7 +284,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReferen
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Inspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHash:
 		value := value.(*[]*Inspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHash)
@@ -303,7 +303,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReferen
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Inspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHash; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Inspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHash; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -315,7 +315,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReferen
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Inspector2FilterFilterCriteriaVulnerablePackagesVersion:
 		value := value.(*[]*Inspector2FilterFilterCriteriaVulnerablePackagesVersion)
@@ -334,14 +334,14 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReferen
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Inspector2FilterFilterCriteriaVulnerablePackagesVersion; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Inspector2FilterFilterCriteriaVulnerablePackagesVersion; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -416,7 +416,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReferen
 
 func (j *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *Inspector2FilterFilterCriteriaVulnerablePackages:
 		val := val.(*Inspector2FilterFilterCriteriaVulnerablePackages)
@@ -431,7 +431,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReferen
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *Inspector2FilterFilterCriteriaVulnerablePackages; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *Inspector2FilterFilterCriteriaVulnerablePackages; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -446,7 +446,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -454,7 +454,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesOutputReferen
 	return nil
 }
 
-func validateNewInspector2FilterFilterCriteriaVulnerablePackagesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewInspector2FilterFilterCriteriaVulnerablePackagesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

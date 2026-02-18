@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationList) validateGetP
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsMemorydbSnapshotClusterConfigurationList) validateSetW
 	return nil
 }
 
-func validateNewDataAwsMemorydbSnapshotClusterConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsMemorydbSnapshotClusterConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

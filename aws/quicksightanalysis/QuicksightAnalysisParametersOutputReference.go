@@ -5,14 +5,14 @@ package quicksightanalysis
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/quicksightanalysis/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/quicksightanalysis/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type QuicksightAnalysisParametersOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -45,15 +45,15 @@ type QuicksightAnalysisParametersOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,9 +69,9 @@ type QuicksightAnalysisParametersOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDateTimeParameters(value interface{})
 	PutDecimalParameters(value interface{})
 	PutIntegerParameters(value interface{})
@@ -82,7 +82,7 @@ type QuicksightAnalysisParametersOutputReference interface {
 	ResetStringParameters()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type QuicksightAnalysisParametersOutputReference interface {
 
 // The jsii proxy struct for QuicksightAnalysisParametersOutputReference
 type jsiiProxy_QuicksightAnalysisParametersOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_QuicksightAnalysisParametersOutputReference) ComplexObjectIndex() interface{} {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_QuicksightAnalysisParametersOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_QuicksightAnalysisParametersOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_QuicksightAnalysisParametersOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_QuicksightAnalysisParametersOutputReference) TerraformResourc
 }
 
 
-func NewQuicksightAnalysisParametersOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) QuicksightAnalysisParametersOutputReference {
+func NewQuicksightAnalysisParametersOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) QuicksightAnalysisParametersOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewQuicksightAnalysisParametersOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewQuicksightAnalysisParametersOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewQuicksightAnalysisParametersOutputReference_Override(q QuicksightAnalysisParametersOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewQuicksightAnalysisParametersOutputReference_Override(q QuicksightAnalysisParametersOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -317,7 +317,7 @@ func (j *jsiiProxy_QuicksightAnalysisParametersOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_QuicksightAnalysisParametersOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_QuicksightAnalysisParametersOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -357,11 +357,11 @@ func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := q.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -485,8 +485,8 @@ func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -498,11 +498,11 @@ func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) InterpolationAsL
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := q.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -590,7 +590,7 @@ func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) ResetStringParam
 	)
 }
 
-func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := q.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

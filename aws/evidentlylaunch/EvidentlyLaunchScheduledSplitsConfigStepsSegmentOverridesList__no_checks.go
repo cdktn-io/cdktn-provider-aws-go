@@ -15,7 +15,7 @@ func (e *jsiiProxy_EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesList
 	return nil
 }
 
-func (e *jsiiProxy_EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesList
 	return nil
 }
 
-func (j *jsiiProxy_EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesList
 	return nil
 }
 
-func validateNewEvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

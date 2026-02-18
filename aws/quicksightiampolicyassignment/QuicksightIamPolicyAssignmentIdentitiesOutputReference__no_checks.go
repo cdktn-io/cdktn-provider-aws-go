@@ -47,7 +47,7 @@ func (q *jsiiProxy_QuicksightIamPolicyAssignmentIdentitiesOutputReference) valid
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightIamPolicyAssignmentIdentitiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightIamPolicyAssignmentIdentitiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_QuicksightIamPolicyAssignmentIdentitiesOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightIamPolicyAssignmentIdentitiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightIamPolicyAssignmentIdentitiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_QuicksightIamPolicyAssignmentIdentitiesOutputReference) valid
 	return nil
 }
 
-func validateNewQuicksightIamPolicyAssignmentIdentitiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewQuicksightIamPolicyAssignmentIdentitiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (b *jsiiProxy_BillingViewDataFilterExpressionList) validateGetParameters(in
 	return nil
 }
 
-func (b *jsiiProxy_BillingViewDataFilterExpressionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BillingViewDataFilterExpressionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BillingViewDataFilterExpressionList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_BillingViewDataFilterExpressionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BillingViewDataFilterExpressionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BillingViewDataFilterExpressionList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewBillingViewDataFilterExpressionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBillingViewDataFilterExpressionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

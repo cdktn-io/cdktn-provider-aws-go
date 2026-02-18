@@ -15,7 +15,7 @@ func (b *jsiiProxy_BatchJobDefinitionRetryStrategyEvaluateOnExitList) validateGe
 	return nil
 }
 
-func (b *jsiiProxy_BatchJobDefinitionRetryStrategyEvaluateOnExitList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchJobDefinitionRetryStrategyEvaluateOnExitList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BatchJobDefinitionRetryStrategyEvaluateOnExitList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_BatchJobDefinitionRetryStrategyEvaluateOnExitList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchJobDefinitionRetryStrategyEvaluateOnExitList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BatchJobDefinitionRetryStrategyEvaluateOnExitList) validateSe
 	return nil
 }
 
-func validateNewBatchJobDefinitionRetryStrategyEvaluateOnExitListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBatchJobDefinitionRetryStrategyEvaluateOnExitListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

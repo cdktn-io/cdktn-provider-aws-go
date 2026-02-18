@@ -47,7 +47,7 @@ func (c *jsiiProxy_ConfigConfigurationRecorderRecordingModeRecordingModeOverride
 	return nil
 }
 
-func (c *jsiiProxy_ConfigConfigurationRecorderRecordingModeRecordingModeOverrideOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConfigConfigurationRecorderRecordingModeRecordingModeOverrideOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ConfigConfigurationRecorderRecordingModeRecordingModeOverride
 	return nil
 }
 
-func (j *jsiiProxy_ConfigConfigurationRecorderRecordingModeRecordingModeOverrideOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConfigConfigurationRecorderRecordingModeRecordingModeOverrideOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewConfigConfigurationRecorderRecordingModeRecordingModeOverrideOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewConfigConfigurationRecorderRecordingModeRecordingModeOverrideOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

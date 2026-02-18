@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppsyncChannelNamespaceSubscribeAuthModeOutputReference) vali
 	return nil
 }
 
-func (a *jsiiProxy_AppsyncChannelNamespaceSubscribeAuthModeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppsyncChannelNamespaceSubscribeAuthModeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AppsyncChannelNamespaceSubscribeAuthModeOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncChannelNamespaceSubscribeAuthModeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppsyncChannelNamespaceSubscribeAuthModeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppsyncChannelNamespaceSubscribeAuthModeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppsyncChannelNamespaceSubscribeAuthModeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

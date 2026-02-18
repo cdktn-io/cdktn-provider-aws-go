@@ -47,7 +47,7 @@ func (e *jsiiProxy_Ec2TransitGatewayDefaultRouteTableAssociationTimeoutsOutputRe
 	return nil
 }
 
-func (e *jsiiProxy_Ec2TransitGatewayDefaultRouteTableAssociationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_Ec2TransitGatewayDefaultRouteTableAssociationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_Ec2TransitGatewayDefaultRouteTableAssociationTimeoutsOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_Ec2TransitGatewayDefaultRouteTableAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Ec2TransitGatewayDefaultRouteTableAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_Ec2TransitGatewayDefaultRouteTableAssociationTimeoutsOutputRe
 	return nil
 }
 
-func validateNewEc2TransitGatewayDefaultRouteTableAssociationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEc2TransitGatewayDefaultRouteTableAssociationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

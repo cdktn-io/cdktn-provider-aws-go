@@ -47,7 +47,7 @@ func (a *jsiiProxy_AccountAlternateContactTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (a *jsiiProxy_AccountAlternateContactTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AccountAlternateContactTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_AccountAlternateContactTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_AccountAlternateContactTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AccountAlternateContactTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_AccountAlternateContactTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewAccountAlternateContactTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAccountAlternateContactTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

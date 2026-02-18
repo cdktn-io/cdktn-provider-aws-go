@@ -119,7 +119,7 @@ func (j *jsiiProxy_Ec2TrafficMirrorFilterRule) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_Ec2TrafficMirrorFilterRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Ec2TrafficMirrorFilterRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

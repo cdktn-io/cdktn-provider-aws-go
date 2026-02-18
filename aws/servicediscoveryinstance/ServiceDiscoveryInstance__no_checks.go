@@ -111,7 +111,7 @@ func (j *jsiiProxy_ServiceDiscoveryInstance) validateSetInstanceIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_ServiceDiscoveryInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ServiceDiscoveryInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

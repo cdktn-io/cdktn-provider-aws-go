@@ -47,7 +47,7 @@ func (a *jsiiProxy_AlbListenerDefaultActionAuthenticateOidcOutputReference) vali
 	return nil
 }
 
-func (a *jsiiProxy_AlbListenerDefaultActionAuthenticateOidcOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AlbListenerDefaultActionAuthenticateOidcOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_AlbListenerDefaultActionAuthenticateOidcOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_AlbListenerDefaultActionAuthenticateOidcOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AlbListenerDefaultActionAuthenticateOidcOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -115,7 +115,7 @@ func (j *jsiiProxy_AlbListenerDefaultActionAuthenticateOidcOutputReference) vali
 	return nil
 }
 
-func validateNewAlbListenerDefaultActionAuthenticateOidcOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAlbListenerDefaultActionAuthenticateOidcOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

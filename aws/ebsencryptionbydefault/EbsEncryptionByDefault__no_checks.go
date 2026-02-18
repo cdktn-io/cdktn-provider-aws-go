@@ -107,7 +107,7 @@ func (j *jsiiProxy_EbsEncryptionByDefault) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_EbsEncryptionByDefault) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EbsEncryptionByDefault) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

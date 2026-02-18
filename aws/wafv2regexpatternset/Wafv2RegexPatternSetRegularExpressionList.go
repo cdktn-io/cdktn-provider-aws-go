@@ -5,14 +5,14 @@ package wafv2regexpatternset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/wafv2regexpatternset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/wafv2regexpatternset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Wafv2RegexPatternSetRegularExpressionList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type Wafv2RegexPatternSetRegularExpressionList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type Wafv2RegexPatternSetRegularExpressionList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) Wafv2RegexPatternSetRegularExpressionOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type Wafv2RegexPatternSetRegularExpressionList interface {
 
 // The jsii proxy struct for Wafv2RegexPatternSetRegularExpressionList
 type jsiiProxy_Wafv2RegexPatternSetRegularExpressionList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_Wafv2RegexPatternSetRegularExpressionList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_Wafv2RegexPatternSetRegularExpressionList) TerraformAttribute
 	return returns
 }
 
-func (j *jsiiProxy_Wafv2RegexPatternSetRegularExpressionList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Wafv2RegexPatternSetRegularExpressionList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_Wafv2RegexPatternSetRegularExpressionList) WrapsSet() *bool {
 }
 
 
-func NewWafv2RegexPatternSetRegularExpressionList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Wafv2RegexPatternSetRegularExpressionList {
+func NewWafv2RegexPatternSetRegularExpressionList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Wafv2RegexPatternSetRegularExpressionList {
 	_init_.Initialize()
 
 	if err := validateNewWafv2RegexPatternSetRegularExpressionListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewWafv2RegexPatternSetRegularExpressionList(terraformResource cdktf.IInter
 	return &j
 }
 
-func NewWafv2RegexPatternSetRegularExpressionList_Override(w Wafv2RegexPatternSetRegularExpressionList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewWafv2RegexPatternSetRegularExpressionList_Override(w Wafv2RegexPatternSetRegularExpressionList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_Wafv2RegexPatternSetRegularExpressionList)SetTerraformAttribu
 	)
 }
 
-func (j *jsiiProxy_Wafv2RegexPatternSetRegularExpressionList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Wafv2RegexPatternSetRegularExpressionList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_Wafv2RegexPatternSetRegularExpressionList)SetWrapsSet(val *bo
 	)
 }
 
-func (w *jsiiProxy_Wafv2RegexPatternSetRegularExpressionList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (w *jsiiProxy_Wafv2RegexPatternSetRegularExpressionList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := w.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		w,
@@ -231,7 +231,7 @@ func (w *jsiiProxy_Wafv2RegexPatternSetRegularExpressionList) Get(index *float64
 	return returns
 }
 
-func (w *jsiiProxy_Wafv2RegexPatternSetRegularExpressionList) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_Wafv2RegexPatternSetRegularExpressionList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -15,7 +15,7 @@ func (w *jsiiProxy_WorkspaceswebUserSettingsToolbarConfigurationList) validateGe
 	return nil
 }
 
-func (w *jsiiProxy_WorkspaceswebUserSettingsToolbarConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkspaceswebUserSettingsToolbarConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WorkspaceswebUserSettingsToolbarConfigurationList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_WorkspaceswebUserSettingsToolbarConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkspaceswebUserSettingsToolbarConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WorkspaceswebUserSettingsToolbarConfigurationList) validateSe
 	return nil
 }
 
-func validateNewWorkspaceswebUserSettingsToolbarConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWorkspaceswebUserSettingsToolbarConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

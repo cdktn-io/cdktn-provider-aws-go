@@ -5,14 +5,14 @@ package customerprofilesprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/customerprofilesprofile/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/customerprofilesprofile/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CustomerprofilesProfileMailingAddressOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Address1() *string
 	SetAddress1(val *string)
 	Address1Input() *string
@@ -67,15 +67,15 @@ type CustomerprofilesProfileMailingAddressOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -91,9 +91,9 @@ type CustomerprofilesProfileMailingAddressOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAddress1()
 	ResetAddress2()
 	ResetAddress3()
@@ -106,7 +106,7 @@ type CustomerprofilesProfileMailingAddressOutputReference interface {
 	ResetState()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -116,7 +116,7 @@ type CustomerprofilesProfileMailingAddressOutputReference interface {
 
 // The jsii proxy struct for CustomerprofilesProfileMailingAddressOutputReference
 type jsiiProxy_CustomerprofilesProfileMailingAddressOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CustomerprofilesProfileMailingAddressOutputReference) Address1() *string {
@@ -379,8 +379,8 @@ func (j *jsiiProxy_CustomerprofilesProfileMailingAddressOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_CustomerprofilesProfileMailingAddressOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CustomerprofilesProfileMailingAddressOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -390,7 +390,7 @@ func (j *jsiiProxy_CustomerprofilesProfileMailingAddressOutputReference) Terrafo
 }
 
 
-func NewCustomerprofilesProfileMailingAddressOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CustomerprofilesProfileMailingAddressOutputReference {
+func NewCustomerprofilesProfileMailingAddressOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CustomerprofilesProfileMailingAddressOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCustomerprofilesProfileMailingAddressOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -407,7 +407,7 @@ func NewCustomerprofilesProfileMailingAddressOutputReference(terraformResource c
 	return &j
 }
 
-func NewCustomerprofilesProfileMailingAddressOutputReference_Override(c CustomerprofilesProfileMailingAddressOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCustomerprofilesProfileMailingAddressOutputReference_Override(c CustomerprofilesProfileMailingAddressOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -571,7 +571,7 @@ func (j *jsiiProxy_CustomerprofilesProfileMailingAddressOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_CustomerprofilesProfileMailingAddressOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CustomerprofilesProfileMailingAddressOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -611,11 +611,11 @@ func (c *jsiiProxy_CustomerprofilesProfileMailingAddressOutputReference) GetAnyM
 	return returns
 }
 
-func (c *jsiiProxy_CustomerprofilesProfileMailingAddressOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CustomerprofilesProfileMailingAddressOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -739,8 +739,8 @@ func (c *jsiiProxy_CustomerprofilesProfileMailingAddressOutputReference) GetStri
 	return returns
 }
 
-func (c *jsiiProxy_CustomerprofilesProfileMailingAddressOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CustomerprofilesProfileMailingAddressOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -752,11 +752,11 @@ func (c *jsiiProxy_CustomerprofilesProfileMailingAddressOutputReference) Interpo
 	return returns
 }
 
-func (c *jsiiProxy_CustomerprofilesProfileMailingAddressOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CustomerprofilesProfileMailingAddressOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -848,7 +848,7 @@ func (c *jsiiProxy_CustomerprofilesProfileMailingAddressOutputReference) ResetSt
 	)
 }
 
-func (c *jsiiProxy_CustomerprofilesProfileMailingAddressOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CustomerprofilesProfileMailingAddressOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

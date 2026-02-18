@@ -111,7 +111,7 @@ func (j *jsiiProxy_Ec2ManagedPrefixListEntryA) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_Ec2ManagedPrefixListEntryA) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Ec2ManagedPrefixListEntryA) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

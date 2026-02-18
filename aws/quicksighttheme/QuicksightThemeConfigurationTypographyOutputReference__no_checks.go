@@ -51,7 +51,7 @@ func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) valida
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewQuicksightThemeConfigurationTypographyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewQuicksightThemeConfigurationTypographyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

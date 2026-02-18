@@ -47,7 +47,7 @@ func (s *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentCustomerManagedPolicyR
 	return nil
 }
 
-func (s *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentCustomerManagedPolicyReferenceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentCustomerManagedPolicyReferenceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentCustomerManagedPolicyR
 	return nil
 }
 
-func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentCustomerManagedPolicyReferenceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentCustomerManagedPolicyReferenceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSsoadminCustomerManagedPolicyAttachmentCustomerManagedPolicyReferenceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSsoadminCustomerManagedPolicyAttachmentCustomerManagedPolicyReferenceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

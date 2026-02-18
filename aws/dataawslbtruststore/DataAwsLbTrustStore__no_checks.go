@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsLbTrustStore) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLbTrustStore) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsLbTrustStore) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

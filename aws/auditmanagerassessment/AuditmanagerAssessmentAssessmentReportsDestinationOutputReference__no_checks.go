@@ -47,7 +47,7 @@ func (a *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputRefer
 	return nil
 }
 
-func (a *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAuditmanagerAssessmentAssessmentReportsDestinationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAuditmanagerAssessmentAssessmentReportsDestinationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

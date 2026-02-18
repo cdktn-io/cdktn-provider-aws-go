@@ -15,7 +15,7 @@ func (w *jsiiProxy_WafregionalIpsetIpSetDescriptorList) validateGetParameters(in
 	return nil
 }
 
-func (w *jsiiProxy_WafregionalIpsetIpSetDescriptorList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WafregionalIpsetIpSetDescriptorList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WafregionalIpsetIpSetDescriptorList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_WafregionalIpsetIpSetDescriptorList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WafregionalIpsetIpSetDescriptorList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WafregionalIpsetIpSetDescriptorList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewWafregionalIpsetIpSetDescriptorListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWafregionalIpsetIpSetDescriptorListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

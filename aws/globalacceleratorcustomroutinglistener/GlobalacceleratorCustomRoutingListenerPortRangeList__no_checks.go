@@ -15,7 +15,7 @@ func (g *jsiiProxy_GlobalacceleratorCustomRoutingListenerPortRangeList) validate
 	return nil
 }
 
-func (g *jsiiProxy_GlobalacceleratorCustomRoutingListenerPortRangeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlobalacceleratorCustomRoutingListenerPortRangeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GlobalacceleratorCustomRoutingListenerPortRangeList) validate
 	return nil
 }
 
-func (j *jsiiProxy_GlobalacceleratorCustomRoutingListenerPortRangeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlobalacceleratorCustomRoutingListenerPortRangeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GlobalacceleratorCustomRoutingListenerPortRangeList) validate
 	return nil
 }
 
-func validateNewGlobalacceleratorCustomRoutingListenerPortRangeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGlobalacceleratorCustomRoutingListenerPortRangeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

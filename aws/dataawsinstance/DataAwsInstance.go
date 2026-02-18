@@ -5,22 +5,22 @@ package dataawsinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/instance aws_instance}.
 type DataAwsInstance interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	Ami() *string
 	Arn() *string
-	AssociatePublicIpAddress() cdktf.IResolvable
+	AssociatePublicIpAddress() cdktn.IResolvable
 	AvailabilityZone() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -32,10 +32,10 @@ type DataAwsInstance interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	DisableApiStop() cdktf.IResolvable
-	DisableApiTermination() cdktf.IResolvable
+	DisableApiStop() cdktn.IResolvable
+	DisableApiTermination() cdktn.IResolvable
 	EbsBlockDevice() DataAwsInstanceEbsBlockDeviceList
-	EbsOptimized() cdktf.IResolvable
+	EbsOptimized() cdktn.IResolvable
 	EnclaveOptions() DataAwsInstanceEnclaveOptionsList
 	EphemeralBlockDevice() DataAwsInstanceEphemeralBlockDeviceList
 	FetchPasswordData() interface{}
@@ -47,9 +47,9 @@ type DataAwsInstance interface {
 	Filter() DataAwsInstanceFilterList
 	FilterInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -72,12 +72,12 @@ type DataAwsInstance interface {
 	KeyName() *string
 	LaunchTime() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MaintenanceOptions() DataAwsInstanceMaintenanceOptionsList
 	MetadataOptions() DataAwsInstanceMetadataOptionsList
-	Monitoring() cdktf.IResolvable
+	Monitoring() cdktn.IResolvable
 	NetworkInterfaceId() *string
 	// The tree node.
 	Node() constructs.Node
@@ -90,9 +90,9 @@ type DataAwsInstance interface {
 	PrivateDnsNameOptions() DataAwsInstancePrivateDnsNameOptionsList
 	PrivateIp() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	PublicDns() *string
 	PublicIp() *string
 	// Experimental.
@@ -103,14 +103,14 @@ type DataAwsInstance interface {
 	RootBlockDevice() DataAwsInstanceRootBlockDeviceList
 	SecondaryPrivateIps() *[]*string
 	SecurityGroups() *[]*string
-	SourceDestCheck() cdktf.IResolvable
+	SourceDestCheck() cdktn.IResolvable
 	SubnetId() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	Tenancy() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -125,7 +125,7 @@ type DataAwsInstance interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -141,7 +141,7 @@ type DataAwsInstance interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -175,7 +175,7 @@ type DataAwsInstance interface {
 
 // The jsii proxy struct for DataAwsInstance
 type jsiiProxy_DataAwsInstance struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsInstance) Ami() *string {
@@ -198,8 +198,8 @@ func (j *jsiiProxy_DataAwsInstance) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsInstance) AssociatePublicIpAddress() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsInstance) AssociatePublicIpAddress() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"associatePublicIpAddress",
@@ -218,8 +218,8 @@ func (j *jsiiProxy_DataAwsInstance) AvailabilityZone() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsInstance) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsInstance) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -268,8 +268,8 @@ func (j *jsiiProxy_DataAwsInstance) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsInstance) DisableApiStop() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsInstance) DisableApiStop() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"disableApiStop",
@@ -278,8 +278,8 @@ func (j *jsiiProxy_DataAwsInstance) DisableApiStop() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsInstance) DisableApiTermination() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsInstance) DisableApiTermination() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"disableApiTermination",
@@ -298,8 +298,8 @@ func (j *jsiiProxy_DataAwsInstance) EbsBlockDevice() DataAwsInstanceEbsBlockDevi
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsInstance) EbsOptimized() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsInstance) EbsOptimized() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"ebsOptimized",
@@ -388,8 +388,8 @@ func (j *jsiiProxy_DataAwsInstance) FilterInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsInstance) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsInstance) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -558,8 +558,8 @@ func (j *jsiiProxy_DataAwsInstance) LaunchTime() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsInstance) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsInstance) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -588,8 +588,8 @@ func (j *jsiiProxy_DataAwsInstance) MetadataOptions() DataAwsInstanceMetadataOpt
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsInstance) Monitoring() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsInstance) Monitoring() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"monitoring",
@@ -698,8 +698,8 @@ func (j *jsiiProxy_DataAwsInstance) PrivateIp() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsInstance) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsInstance) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -788,8 +788,8 @@ func (j *jsiiProxy_DataAwsInstance) SecurityGroups() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsInstance) SourceDestCheck() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsInstance) SourceDestCheck() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"sourceDestCheck",
@@ -838,8 +838,8 @@ func (j *jsiiProxy_DataAwsInstance) Tenancy() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsInstance) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsInstance) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -989,7 +989,7 @@ func (j *jsiiProxy_DataAwsInstance)SetFetchUserData(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsInstance)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsInstance)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1030,7 +1030,7 @@ func (j *jsiiProxy_DataAwsInstance)SetInstanceTags(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsInstance)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsInstance)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1041,7 +1041,7 @@ func (j *jsiiProxy_DataAwsInstance)SetLifecycle(val *cdktf.TerraformResourceLife
 	)
 }
 
-func (j *jsiiProxy_DataAwsInstance)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsInstance)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1071,14 +1071,14 @@ func (j *jsiiProxy_DataAwsInstance)SetTags(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsInstance resource upon running "cdktf plan <stack-name>".
-func DataAwsInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsInstance resource upon running "cdktn plan <stack-name>".
+func DataAwsInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsInstance_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsInstance.DataAwsInstance",
@@ -1201,11 +1201,11 @@ func (d *jsiiProxy_DataAwsInstance) GetAnyMapAttribute(terraformAttribute *strin
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsInstance) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsInstance) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1329,11 +1329,11 @@ func (d *jsiiProxy_DataAwsInstance) GetStringMapAttribute(terraformAttribute *st
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsInstance) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsInstance) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEksClusterUpgradePolicyList) validateGetParameters(ind
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEksClusterUpgradePolicyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEksClusterUpgradePolicyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsEksClusterUpgradePolicyList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEksClusterUpgradePolicyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEksClusterUpgradePolicyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsEksClusterUpgradePolicyList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewDataAwsEksClusterUpgradePolicyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEksClusterUpgradePolicyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

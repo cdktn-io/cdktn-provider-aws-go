@@ -5,14 +5,14 @@ package emrcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/emrcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/emrcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EmrClusterMasterInstanceGroupOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BidPrice() *string
 	SetBidPrice(val *string)
 	BidPriceInput() *string
@@ -52,15 +52,15 @@ type EmrClusterMasterInstanceGroupOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type EmrClusterMasterInstanceGroupOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutEbsConfig(value interface{})
 	ResetBidPrice()
 	ResetEbsConfig()
@@ -86,7 +86,7 @@ type EmrClusterMasterInstanceGroupOutputReference interface {
 	ResetName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type EmrClusterMasterInstanceGroupOutputReference interface {
 
 // The jsii proxy struct for EmrClusterMasterInstanceGroupOutputReference
 type jsiiProxy_EmrClusterMasterInstanceGroupOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) BidPrice() *string {
@@ -269,8 +269,8 @@ func (j *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -280,7 +280,7 @@ func (j *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) TerraformResour
 }
 
 
-func NewEmrClusterMasterInstanceGroupOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) EmrClusterMasterInstanceGroupOutputReference {
+func NewEmrClusterMasterInstanceGroupOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) EmrClusterMasterInstanceGroupOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEmrClusterMasterInstanceGroupOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -297,7 +297,7 @@ func NewEmrClusterMasterInstanceGroupOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewEmrClusterMasterInstanceGroupOutputReference_Override(e EmrClusterMasterInstanceGroupOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEmrClusterMasterInstanceGroupOutputReference_Override(e EmrClusterMasterInstanceGroupOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -395,7 +395,7 @@ func (j *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -435,11 +435,11 @@ func (e *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (e *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -563,8 +563,8 @@ func (e *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (e *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -576,11 +576,11 @@ func (e *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) InterpolationAs
 	return returns
 }
 
-func (e *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -635,7 +635,7 @@ func (e *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) ResetName() {
 	)
 }
 
-func (e *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EmrClusterMasterInstanceGroupOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -51,7 +51,7 @@ func (c *jsiiProxy_CodebuildProjectBuildBatchConfigOutputReference) validatePutR
 	return nil
 }
 
-func (c *jsiiProxy_CodebuildProjectBuildBatchConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodebuildProjectBuildBatchConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_CodebuildProjectBuildBatchConfigOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_CodebuildProjectBuildBatchConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodebuildProjectBuildBatchConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_CodebuildProjectBuildBatchConfigOutputReference) validateSetT
 	return nil
 }
 
-func validateNewCodebuildProjectBuildBatchConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCodebuildProjectBuildBatchConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

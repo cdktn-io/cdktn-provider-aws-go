@@ -123,7 +123,7 @@ func (j *jsiiProxy_SfnStateMachine) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_SfnStateMachine) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SfnStateMachine) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

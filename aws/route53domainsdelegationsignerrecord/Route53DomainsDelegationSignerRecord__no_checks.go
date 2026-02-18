@@ -111,7 +111,7 @@ func (j *jsiiProxy_Route53DomainsDelegationSignerRecord) validateSetDomainNamePa
 	return nil
 }
 
-func (j *jsiiProxy_Route53DomainsDelegationSignerRecord) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Route53DomainsDelegationSignerRecord) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

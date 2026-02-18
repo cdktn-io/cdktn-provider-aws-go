@@ -15,7 +15,7 @@ func (n *jsiiProxy_NetworkfirewallVpcEndpointAssociationSubnetMappingList) valid
 	return nil
 }
 
-func (n *jsiiProxy_NetworkfirewallVpcEndpointAssociationSubnetMappingList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkfirewallVpcEndpointAssociationSubnetMappingList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_NetworkfirewallVpcEndpointAssociationSubnetMappingList) valid
 	return nil
 }
 
-func (j *jsiiProxy_NetworkfirewallVpcEndpointAssociationSubnetMappingList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkfirewallVpcEndpointAssociationSubnetMappingList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_NetworkfirewallVpcEndpointAssociationSubnetMappingList) valid
 	return nil
 }
 
-func validateNewNetworkfirewallVpcEndpointAssociationSubnetMappingListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkfirewallVpcEndpointAssociationSubnetMappingListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

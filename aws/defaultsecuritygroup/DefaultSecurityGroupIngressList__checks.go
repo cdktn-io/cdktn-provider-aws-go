@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DefaultSecurityGroupIngressList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (d *jsiiProxy_DefaultSecurityGroupIngressList) validateGetParameters(index 
 	return nil
 }
 
-func (d *jsiiProxy_DefaultSecurityGroupIngressList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DefaultSecurityGroupIngressList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (d *jsiiProxy_DefaultSecurityGroupIngressList) validateResolveParameters(co
 
 func (j *jsiiProxy_DefaultSecurityGroupIngressList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DefaultSecurityGroupIngress:
 		val := val.(*[]*DefaultSecurityGroupIngress)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_DefaultSecurityGroupIngressList) validateSetInternalValuePara
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*DefaultSecurityGroupIngress; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*DefaultSecurityGroupIngress; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_DefaultSecurityGroupIngressList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_DefaultSecurityGroupIngressList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DefaultSecurityGroupIngressList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_DefaultSecurityGroupIngressList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewDefaultSecurityGroupIngressListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDefaultSecurityGroupIngressListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

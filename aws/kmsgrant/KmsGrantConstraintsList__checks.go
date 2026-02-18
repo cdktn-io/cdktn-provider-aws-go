@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (k *jsiiProxy_KmsGrantConstraintsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (k *jsiiProxy_KmsGrantConstraintsList) validateGetParameters(index *float64
 	return nil
 }
 
-func (k *jsiiProxy_KmsGrantConstraintsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KmsGrantConstraintsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (k *jsiiProxy_KmsGrantConstraintsList) validateResolveParameters(context cd
 
 func (j *jsiiProxy_KmsGrantConstraintsList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*KmsGrantConstraints:
 		val := val.(*[]*KmsGrantConstraints)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_KmsGrantConstraintsList) validateSetInternalValueParameters(v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*KmsGrantConstraints; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*KmsGrantConstraints; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_KmsGrantConstraintsList) validateSetTerraformAttributeParamet
 	return nil
 }
 
-func (j *jsiiProxy_KmsGrantConstraintsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KmsGrantConstraintsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_KmsGrantConstraintsList) validateSetWrapsSetParameters(val *b
 	return nil
 }
 
-func validateNewKmsGrantConstraintsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewKmsGrantConstraintsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

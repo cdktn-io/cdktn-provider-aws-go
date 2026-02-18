@@ -15,7 +15,7 @@ func (g *jsiiProxy_GlueCatalogTablePartitionKeysList) validateGetParameters(inde
 	return nil
 }
 
-func (g *jsiiProxy_GlueCatalogTablePartitionKeysList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueCatalogTablePartitionKeysList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GlueCatalogTablePartitionKeysList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_GlueCatalogTablePartitionKeysList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueCatalogTablePartitionKeysList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GlueCatalogTablePartitionKeysList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewGlueCatalogTablePartitionKeysListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGlueCatalogTablePartitionKeysListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSource
 	return nil
 }
 
-func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSourceSourceLogsConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSourceSourceLogsConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSource
 	return nil
 }
 
-func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSourceSourceLogsConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSourceSourceLogsConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSource
 	return nil
 }
 
-func validateNewObservabilityadminCentralizationRuleForOrganizationRuleSourceSourceLogsConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewObservabilityadminCentralizationRuleForOrganizationRuleSourceSourceLogsConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

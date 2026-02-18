@@ -5,14 +5,14 @@ package kendradatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/kendradatasource/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/kendradatasource/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,15 +41,15 @@ type KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference int
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,16 +65,16 @@ type KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference int
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSeedUrlConfiguration(value *KendraDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration)
 	PutSiteMapsConfiguration(value *KendraDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsConfiguration)
 	ResetSeedUrlConfiguration()
 	ResetSiteMapsConfiguration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference int
 
 // The jsii proxy struct for KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference
 type jsiiProxy_KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutpu
 	return returns
 }
 
-func (j *jsiiProxy_KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutpu
 }
 
 
-func NewKendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference {
+func NewKendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewKendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewKendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference(
 	return &j
 }
 
-func NewKendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference_Override(k KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewKendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference_Override(k KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -269,7 +269,7 @@ func (j *jsiiProxy_KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutpu
 	)
 }
 
-func (j *jsiiProxy_KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -309,11 +309,11 @@ func (k *jsiiProxy_KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutpu
 	return returns
 }
 
-func (k *jsiiProxy_KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -437,8 +437,8 @@ func (k *jsiiProxy_KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutpu
 	return returns
 }
 
-func (k *jsiiProxy_KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (k *jsiiProxy_KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -450,11 +450,11 @@ func (k *jsiiProxy_KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutpu
 	return returns
 }
 
-func (k *jsiiProxy_KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -504,7 +504,7 @@ func (k *jsiiProxy_KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutpu
 	)
 }
 
-func (k *jsiiProxy_KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KendraDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

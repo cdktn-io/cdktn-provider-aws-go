@@ -47,7 +47,7 @@ func (n *jsiiProxy_NatGatewayEipAssociationTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (n *jsiiProxy_NatGatewayEipAssociationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NatGatewayEipAssociationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_NatGatewayEipAssociationTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_NatGatewayEipAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NatGatewayEipAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNatGatewayEipAssociationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNatGatewayEipAssociationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

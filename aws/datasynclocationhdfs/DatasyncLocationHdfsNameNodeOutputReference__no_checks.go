@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatasyncLocationHdfsNameNodeOutputReference) validateInterpol
 	return nil
 }
 
-func (d *jsiiProxy_DatasyncLocationHdfsNameNodeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatasyncLocationHdfsNameNodeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DatasyncLocationHdfsNameNodeOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DatasyncLocationHdfsNameNodeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatasyncLocationHdfsNameNodeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatasyncLocationHdfsNameNodeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDatasyncLocationHdfsNameNodeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

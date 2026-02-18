@@ -115,7 +115,7 @@ func (j *jsiiProxy_ElasticacheParameterGroup) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_ElasticacheParameterGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ElasticacheParameterGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

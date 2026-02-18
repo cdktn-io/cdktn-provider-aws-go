@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsOrganizationsDelegatedAdministratorsDelegatedAdministr
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsOrganizationsDelegatedAdministratorsDelegatedAdministratorsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsOrganizationsDelegatedAdministratorsDelegatedAdministratorsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsOrganizationsDelegatedAdministratorsDelegatedAdministr
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOrganizationsDelegatedAdministratorsDelegatedAdministratorsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsOrganizationsDelegatedAdministratorsDelegatedAdministratorsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsOrganizationsDelegatedAdministratorsDelegatedAdministr
 	return nil
 }
 
-func validateNewDataAwsOrganizationsDelegatedAdministratorsDelegatedAdministratorsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsOrganizationsDelegatedAdministratorsDelegatedAdministratorsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

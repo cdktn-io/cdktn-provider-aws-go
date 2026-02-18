@@ -111,7 +111,7 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayRegistration) validateSetIdParame
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerTransitGatewayRegistration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkmanagerTransitGatewayRegistration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

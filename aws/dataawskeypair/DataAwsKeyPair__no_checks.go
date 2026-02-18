@@ -99,7 +99,7 @@ func (j *jsiiProxy_DataAwsKeyPair) validateSetKeyPairIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsKeyPair) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsKeyPair) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

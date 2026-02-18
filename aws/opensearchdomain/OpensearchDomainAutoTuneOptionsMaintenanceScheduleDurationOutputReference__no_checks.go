@@ -47,7 +47,7 @@ func (o *jsiiProxy_OpensearchDomainAutoTuneOptionsMaintenanceScheduleDurationOut
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchDomainAutoTuneOptionsMaintenanceScheduleDurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchDomainAutoTuneOptionsMaintenanceScheduleDurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_OpensearchDomainAutoTuneOptionsMaintenanceScheduleDurationOut
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchDomainAutoTuneOptionsMaintenanceScheduleDurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchDomainAutoTuneOptionsMaintenanceScheduleDurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_OpensearchDomainAutoTuneOptionsMaintenanceScheduleDurationOut
 	return nil
 }
 
-func validateNewOpensearchDomainAutoTuneOptionsMaintenanceScheduleDurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOpensearchDomainAutoTuneOptionsMaintenanceScheduleDurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

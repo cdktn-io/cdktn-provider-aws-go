@@ -47,7 +47,7 @@ func (w *jsiiProxy_WorkspacesIpGroupRulesOutputReference) validateInterpolationF
 	return nil
 }
 
-func (w *jsiiProxy_WorkspacesIpGroupRulesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkspacesIpGroupRulesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_WorkspacesIpGroupRulesOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_WorkspacesIpGroupRulesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkspacesIpGroupRulesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWorkspacesIpGroupRulesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWorkspacesIpGroupRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

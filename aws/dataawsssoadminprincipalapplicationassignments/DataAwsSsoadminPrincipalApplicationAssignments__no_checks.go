@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsSsoadminPrincipalApplicationAssignments) validateSetIn
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSsoadminPrincipalApplicationAssignments) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsSsoadminPrincipalApplicationAssignments) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

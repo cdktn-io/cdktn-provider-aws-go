@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsMedialiveInputInputDevicesOutputReference) validateInt
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsMedialiveInputInputDevicesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsMedialiveInputInputDevicesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsMedialiveInputInputDevicesOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsMedialiveInputInputDevicesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsMedialiveInputInputDevicesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsMedialiveInputInputDevicesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsMedialiveInputInputDevicesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

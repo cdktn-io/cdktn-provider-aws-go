@@ -175,7 +175,7 @@ func (j *jsiiProxy_ElasticacheReplicationGroup) validateSetKmsKeyIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_ElasticacheReplicationGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ElasticacheReplicationGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

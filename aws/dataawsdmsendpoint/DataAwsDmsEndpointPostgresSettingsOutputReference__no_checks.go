@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) validateIn
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsDmsEndpointPostgresSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsDmsEndpointPostgresSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsDmsEndpointPostgresSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

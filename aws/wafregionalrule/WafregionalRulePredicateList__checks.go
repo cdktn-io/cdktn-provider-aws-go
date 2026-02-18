@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (w *jsiiProxy_WafregionalRulePredicateList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (w *jsiiProxy_WafregionalRulePredicateList) validateGetParameters(index *fl
 	return nil
 }
 
-func (w *jsiiProxy_WafregionalRulePredicateList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WafregionalRulePredicateList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (w *jsiiProxy_WafregionalRulePredicateList) validateResolveParameters(conte
 
 func (j *jsiiProxy_WafregionalRulePredicateList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*WafregionalRulePredicate:
 		val := val.(*[]*WafregionalRulePredicate)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_WafregionalRulePredicateList) validateSetInternalValueParamet
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*WafregionalRulePredicate; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*WafregionalRulePredicate; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_WafregionalRulePredicateList) validateSetTerraformAttributePa
 	return nil
 }
 
-func (j *jsiiProxy_WafregionalRulePredicateList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WafregionalRulePredicateList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_WafregionalRulePredicateList) validateSetWrapsSetParameters(v
 	return nil
 }
 
-func validateNewWafregionalRulePredicateListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWafregionalRulePredicateListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

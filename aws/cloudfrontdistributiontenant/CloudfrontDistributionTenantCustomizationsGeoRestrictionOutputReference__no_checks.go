@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudfrontDistributionTenantCustomizationsGeoRestrictionOutpu
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontDistributionTenantCustomizationsGeoRestrictionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontDistributionTenantCustomizationsGeoRestrictionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CloudfrontDistributionTenantCustomizationsGeoRestrictionOutpu
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontDistributionTenantCustomizationsGeoRestrictionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontDistributionTenantCustomizationsGeoRestrictionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudfrontDistributionTenantCustomizationsGeoRestrictionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudfrontDistributionTenantCustomizationsGeoRestrictionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

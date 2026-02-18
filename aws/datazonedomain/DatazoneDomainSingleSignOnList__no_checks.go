@@ -15,7 +15,7 @@ func (d *jsiiProxy_DatazoneDomainSingleSignOnList) validateGetParameters(index *
 	return nil
 }
 
-func (d *jsiiProxy_DatazoneDomainSingleSignOnList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatazoneDomainSingleSignOnList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DatazoneDomainSingleSignOnList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_DatazoneDomainSingleSignOnList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatazoneDomainSingleSignOnList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DatazoneDomainSingleSignOnList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewDatazoneDomainSingleSignOnListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDatazoneDomainSingleSignOnListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

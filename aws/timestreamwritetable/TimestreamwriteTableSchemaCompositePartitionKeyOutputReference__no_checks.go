@@ -47,7 +47,7 @@ func (t *jsiiProxy_TimestreamwriteTableSchemaCompositePartitionKeyOutputReferenc
 	return nil
 }
 
-func (t *jsiiProxy_TimestreamwriteTableSchemaCompositePartitionKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TimestreamwriteTableSchemaCompositePartitionKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_TimestreamwriteTableSchemaCompositePartitionKeyOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_TimestreamwriteTableSchemaCompositePartitionKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TimestreamwriteTableSchemaCompositePartitionKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_TimestreamwriteTableSchemaCompositePartitionKeyOutputReferenc
 	return nil
 }
 
-func validateNewTimestreamwriteTableSchemaCompositePartitionKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTimestreamwriteTableSchemaCompositePartitionKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

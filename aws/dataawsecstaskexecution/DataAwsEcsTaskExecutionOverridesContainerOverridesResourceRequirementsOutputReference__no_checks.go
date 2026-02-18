@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesResourceReq
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesResourceRequirementsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesResourceRequirementsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesResourceReq
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesResourceRequirementsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesResourceRequirementsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsEcsTaskExecutionOverridesContainerOverridesResourceReq
 	return nil
 }
 
-func validateNewDataAwsEcsTaskExecutionOverridesContainerOverridesResourceRequirementsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsEcsTaskExecutionOverridesContainerOverridesResourceRequirementsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

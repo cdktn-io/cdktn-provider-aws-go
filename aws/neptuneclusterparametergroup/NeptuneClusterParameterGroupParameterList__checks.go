@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (n *jsiiProxy_NeptuneClusterParameterGroupParameterList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (n *jsiiProxy_NeptuneClusterParameterGroupParameterList) validateGetParamet
 	return nil
 }
 
-func (n *jsiiProxy_NeptuneClusterParameterGroupParameterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NeptuneClusterParameterGroupParameterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (n *jsiiProxy_NeptuneClusterParameterGroupParameterList) validateResolvePar
 
 func (j *jsiiProxy_NeptuneClusterParameterGroupParameterList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*NeptuneClusterParameterGroupParameter:
 		val := val.(*[]*NeptuneClusterParameterGroupParameter)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_NeptuneClusterParameterGroupParameterList) validateSetInterna
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*NeptuneClusterParameterGroupParameter; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*NeptuneClusterParameterGroupParameter; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_NeptuneClusterParameterGroupParameterList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_NeptuneClusterParameterGroupParameterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NeptuneClusterParameterGroupParameterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_NeptuneClusterParameterGroupParameterList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewNeptuneClusterParameterGroupParameterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNeptuneClusterParameterGroupParameterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

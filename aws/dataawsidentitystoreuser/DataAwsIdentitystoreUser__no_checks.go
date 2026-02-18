@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsIdentitystoreUser) validateSetIdentityStoreIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsIdentitystoreUser) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsIdentitystoreUser) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

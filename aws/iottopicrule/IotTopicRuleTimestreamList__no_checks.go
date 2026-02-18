@@ -15,7 +15,7 @@ func (i *jsiiProxy_IotTopicRuleTimestreamList) validateGetParameters(index *floa
 	return nil
 }
 
-func (i *jsiiProxy_IotTopicRuleTimestreamList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotTopicRuleTimestreamList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_IotTopicRuleTimestreamList) validateSetTerraformAttributePara
 	return nil
 }
 
-func (j *jsiiProxy_IotTopicRuleTimestreamList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotTopicRuleTimestreamList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_IotTopicRuleTimestreamList) validateSetWrapsSetParameters(val
 	return nil
 }
 
-func validateNewIotTopicRuleTimestreamListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIotTopicRuleTimestreamListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

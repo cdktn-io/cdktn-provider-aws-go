@@ -5,14 +5,14 @@ package verifiedaccessendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/verifiedaccessendpoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/verifiedaccessendpoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VerifiedaccessEndpointLoadBalancerOptionsPortRangeList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type VerifiedaccessEndpointLoadBalancerOptionsPortRangeList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type VerifiedaccessEndpointLoadBalancerOptionsPortRangeList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) VerifiedaccessEndpointLoadBalancerOptionsPortRangeOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type VerifiedaccessEndpointLoadBalancerOptionsPortRangeList interface {
 
 // The jsii proxy struct for VerifiedaccessEndpointLoadBalancerOptionsPortRangeList
 type jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList) Terra
 	return returns
 }
 
-func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList) Wraps
 }
 
 
-func NewVerifiedaccessEndpointLoadBalancerOptionsPortRangeList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) VerifiedaccessEndpointLoadBalancerOptionsPortRangeList {
+func NewVerifiedaccessEndpointLoadBalancerOptionsPortRangeList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) VerifiedaccessEndpointLoadBalancerOptionsPortRangeList {
 	_init_.Initialize()
 
 	if err := validateNewVerifiedaccessEndpointLoadBalancerOptionsPortRangeListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewVerifiedaccessEndpointLoadBalancerOptionsPortRangeList(terraformResource
 	return &j
 }
 
-func NewVerifiedaccessEndpointLoadBalancerOptionsPortRangeList_Override(v VerifiedaccessEndpointLoadBalancerOptionsPortRangeList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewVerifiedaccessEndpointLoadBalancerOptionsPortRangeList_Override(v VerifiedaccessEndpointLoadBalancerOptionsPortRangeList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList)SetTer
 	)
 }
 
-func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList)SetWra
 	)
 }
 
-func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := v.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		v,
@@ -231,7 +231,7 @@ func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList) Get(i
 	return returns
 }
 
-func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

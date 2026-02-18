@@ -47,7 +47,7 @@ func (t *jsiiProxy_TransferServerS3StorageOptionsOutputReference) validateInterp
 	return nil
 }
 
-func (t *jsiiProxy_TransferServerS3StorageOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TransferServerS3StorageOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_TransferServerS3StorageOptionsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_TransferServerS3StorageOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TransferServerS3StorageOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTransferServerS3StorageOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTransferServerS3StorageOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

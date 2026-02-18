@@ -47,7 +47,7 @@ func (r *jsiiProxy_RbinRuleResourceTagsOutputReference) validateInterpolationFor
 	return nil
 }
 
-func (r *jsiiProxy_RbinRuleResourceTagsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RbinRuleResourceTagsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_RbinRuleResourceTagsOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_RbinRuleResourceTagsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RbinRuleResourceTagsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRbinRuleResourceTagsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRbinRuleResourceTagsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

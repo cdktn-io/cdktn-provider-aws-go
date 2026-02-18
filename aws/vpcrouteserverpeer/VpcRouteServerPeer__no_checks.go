@@ -107,7 +107,7 @@ func (j *jsiiProxy_VpcRouteServerPeer) validateSetCountParameters(val interface{
 	return nil
 }
 
-func (j *jsiiProxy_VpcRouteServerPeer) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VpcRouteServerPeer) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

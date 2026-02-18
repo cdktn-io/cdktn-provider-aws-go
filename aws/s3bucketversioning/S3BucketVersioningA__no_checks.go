@@ -115,7 +115,7 @@ func (j *jsiiProxy_S3BucketVersioningA) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketVersioningA) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_S3BucketVersioningA) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

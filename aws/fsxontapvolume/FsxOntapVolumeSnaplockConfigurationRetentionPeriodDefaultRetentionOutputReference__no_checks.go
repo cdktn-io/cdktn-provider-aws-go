@@ -47,7 +47,7 @@ func (f *jsiiProxy_FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRete
 	return nil
 }
 
-func (f *jsiiProxy_FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetentionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetentionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRete
 	return nil
 }
 
-func (j *jsiiProxy_FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetentionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetentionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRete
 	return nil
 }
 
-func validateNewFsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetentionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetentionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

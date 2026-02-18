@@ -5,22 +5,22 @@ package macie2findingsfilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/macie2findingsfilter/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/macie2findingsfilter/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/macie2_findings_filter aws_macie2_findings_filter}.
 type Macie2FindingsFilter interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Action() *string
 	SetAction(val *string)
 	ActionInput() *string
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -41,9 +41,9 @@ type Macie2FindingsFilter interface {
 	FindingCriteria() Macie2FindingsFilterFindingCriteriaOutputReference
 	FindingCriteriaInput() *Macie2FindingsFilterFindingCriteria
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,9 +52,9 @@ type Macie2FindingsFilter interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -67,9 +67,9 @@ type Macie2FindingsFilter interface {
 	SetPosition(val *float64)
 	PositionInput() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -86,7 +86,7 @@ type Macie2FindingsFilter interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -101,7 +101,7 @@ type Macie2FindingsFilter interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -119,9 +119,9 @@ type Macie2FindingsFilter interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -165,7 +165,7 @@ type Macie2FindingsFilter interface {
 
 // The jsii proxy struct for Macie2FindingsFilter
 type jsiiProxy_Macie2FindingsFilter struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_Macie2FindingsFilter) Action() *string {
@@ -198,8 +198,8 @@ func (j *jsiiProxy_Macie2FindingsFilter) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Macie2FindingsFilter) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_Macie2FindingsFilter) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -288,8 +288,8 @@ func (j *jsiiProxy_Macie2FindingsFilter) FindingCriteriaInput() *Macie2FindingsF
 	return returns
 }
 
-func (j *jsiiProxy_Macie2FindingsFilter) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_Macie2FindingsFilter) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -338,8 +338,8 @@ func (j *jsiiProxy_Macie2FindingsFilter) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Macie2FindingsFilter) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_Macie2FindingsFilter) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -418,8 +418,8 @@ func (j *jsiiProxy_Macie2FindingsFilter) PositionInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_Macie2FindingsFilter) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_Macie2FindingsFilter) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -508,8 +508,8 @@ func (j *jsiiProxy_Macie2FindingsFilter) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_Macie2FindingsFilter) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_Macie2FindingsFilter) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -640,7 +640,7 @@ func (j *jsiiProxy_Macie2FindingsFilter)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Macie2FindingsFilter)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_Macie2FindingsFilter)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -659,7 +659,7 @@ func (j *jsiiProxy_Macie2FindingsFilter)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Macie2FindingsFilter)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_Macie2FindingsFilter)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -703,7 +703,7 @@ func (j *jsiiProxy_Macie2FindingsFilter)SetPosition(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_Macie2FindingsFilter)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_Macie2FindingsFilter)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -755,14 +755,14 @@ func (j *jsiiProxy_Macie2FindingsFilter)SetTagsAll(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a Macie2FindingsFilter resource upon running "cdktf plan <stack-name>".
-func Macie2FindingsFilter_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a Macie2FindingsFilter resource upon running "cdktn plan <stack-name>".
+func Macie2FindingsFilter_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateMacie2FindingsFilter_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.macie2FindingsFilter.Macie2FindingsFilter",
@@ -896,11 +896,11 @@ func (m *jsiiProxy_Macie2FindingsFilter) GetAnyMapAttribute(terraformAttribute *
 	return returns
 }
 
-func (m *jsiiProxy_Macie2FindingsFilter) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_Macie2FindingsFilter) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -1037,7 +1037,7 @@ func (m *jsiiProxy_Macie2FindingsFilter) HasResourceMove() interface{} {
 	return returns
 }
 
-func (m *jsiiProxy_Macie2FindingsFilter) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (m *jsiiProxy_Macie2FindingsFilter) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := m.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1048,11 +1048,11 @@ func (m *jsiiProxy_Macie2FindingsFilter) ImportFrom(id *string, provider cdktf.T
 	)
 }
 
-func (m *jsiiProxy_Macie2FindingsFilter) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_Macie2FindingsFilter) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,

@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsEc2SerialConsoleAccess) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2SerialConsoleAccess) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsEc2SerialConsoleAccess) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppmeshRouteSpecHttpRouteTimeoutPerRequestOutputReference) va
 	return nil
 }
 
-func (a *jsiiProxy_AppmeshRouteSpecHttpRouteTimeoutPerRequestOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppmeshRouteSpecHttpRouteTimeoutPerRequestOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_AppmeshRouteSpecHttpRouteTimeoutPerRequestOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshRouteSpecHttpRouteTimeoutPerRequestOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppmeshRouteSpecHttpRouteTimeoutPerRequestOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AppmeshRouteSpecHttpRouteTimeoutPerRequestOutputReference) va
 	return nil
 }
 
-func validateNewAppmeshRouteSpecHttpRouteTimeoutPerRequestOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppmeshRouteSpecHttpRouteTimeoutPerRequestOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

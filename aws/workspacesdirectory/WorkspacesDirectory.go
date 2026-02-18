@@ -5,21 +5,21 @@ package workspacesdirectory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/workspacesdirectory/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/workspacesdirectory/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/workspaces_directory aws_workspaces_directory}.
 type WorkspacesDirectory interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ActiveDirectoryConfig() WorkspacesDirectoryActiveDirectoryConfigOutputReference
 	ActiveDirectoryConfigInput() *WorkspacesDirectoryActiveDirectoryConfig
 	Alias() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CertificateBasedAuthProperties() WorkspacesDirectoryCertificateBasedAuthPropertiesOutputReference
 	CertificateBasedAuthPropertiesInput() *WorkspacesDirectoryCertificateBasedAuthProperties
 	// Experimental.
@@ -44,9 +44,9 @@ type WorkspacesDirectory interface {
 	DirectoryType() *string
 	DnsIpAddresses() *[]*string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -59,15 +59,15 @@ type WorkspacesDirectory interface {
 	SetIpGroupIds(val *[]*string)
 	IpGroupIdsInput() *[]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -95,7 +95,7 @@ type WorkspacesDirectory interface {
 	SetTenancy(val *string)
 	TenancyInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -125,7 +125,7 @@ type WorkspacesDirectory interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -143,9 +143,9 @@ type WorkspacesDirectory interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -202,7 +202,7 @@ type WorkspacesDirectory interface {
 
 // The jsii proxy struct for WorkspacesDirectory
 type jsiiProxy_WorkspacesDirectory struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_WorkspacesDirectory) ActiveDirectoryConfig() WorkspacesDirectoryActiveDirectoryConfigOutputReference {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_WorkspacesDirectory) Alias() *string {
 	return returns
 }
 
-func (j *jsiiProxy_WorkspacesDirectory) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_WorkspacesDirectory) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -365,8 +365,8 @@ func (j *jsiiProxy_WorkspacesDirectory) DnsIpAddresses() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_WorkspacesDirectory) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_WorkspacesDirectory) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -445,8 +445,8 @@ func (j *jsiiProxy_WorkspacesDirectory) IpGroupIdsInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_WorkspacesDirectory) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_WorkspacesDirectory) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -465,8 +465,8 @@ func (j *jsiiProxy_WorkspacesDirectory) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_WorkspacesDirectory) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_WorkspacesDirectory) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -645,8 +645,8 @@ func (j *jsiiProxy_WorkspacesDirectory) TenancyInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_WorkspacesDirectory) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_WorkspacesDirectory) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -876,7 +876,7 @@ func (j *jsiiProxy_WorkspacesDirectory)SetDirectoryId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_WorkspacesDirectory)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_WorkspacesDirectory)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -906,7 +906,7 @@ func (j *jsiiProxy_WorkspacesDirectory)SetIpGroupIds(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_WorkspacesDirectory)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_WorkspacesDirectory)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -917,7 +917,7 @@ func (j *jsiiProxy_WorkspacesDirectory)SetLifecycle(val *cdktf.TerraformResource
 	)
 }
 
-func (j *jsiiProxy_WorkspacesDirectory)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_WorkspacesDirectory)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1035,14 +1035,14 @@ func (j *jsiiProxy_WorkspacesDirectory)SetWorkspaceType(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a WorkspacesDirectory resource upon running "cdktf plan <stack-name>".
-func WorkspacesDirectory_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a WorkspacesDirectory resource upon running "cdktn plan <stack-name>".
+func WorkspacesDirectory_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateWorkspacesDirectory_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectory",
@@ -1176,11 +1176,11 @@ func (w *jsiiProxy_WorkspacesDirectory) GetAnyMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (w *jsiiProxy_WorkspacesDirectory) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WorkspacesDirectory) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -1317,7 +1317,7 @@ func (w *jsiiProxy_WorkspacesDirectory) HasResourceMove() interface{} {
 	return returns
 }
 
-func (w *jsiiProxy_WorkspacesDirectory) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (w *jsiiProxy_WorkspacesDirectory) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := w.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1328,11 +1328,11 @@ func (w *jsiiProxy_WorkspacesDirectory) ImportFrom(id *string, provider cdktf.Te
 	)
 }
 
-func (w *jsiiProxy_WorkspacesDirectory) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WorkspacesDirectory) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,

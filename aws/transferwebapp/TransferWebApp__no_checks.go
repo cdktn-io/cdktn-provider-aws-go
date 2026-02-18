@@ -115,7 +115,7 @@ func (j *jsiiProxy_TransferWebApp) validateSetCountParameters(val interface{}) e
 	return nil
 }
 
-func (j *jsiiProxy_TransferWebApp) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_TransferWebApp) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

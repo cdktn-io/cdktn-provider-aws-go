@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsFsxWindowsFileSystemAuditLogConfigurationList) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsFsxWindowsFileSystemAuditLogConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsFsxWindowsFileSystemAuditLogConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsFsxWindowsFileSystemAuditLogConfigurationList) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsFsxWindowsFileSystemAuditLogConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsFsxWindowsFileSystemAuditLogConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsFsxWindowsFileSystemAuditLogConfigurationList) validat
 	return nil
 }
 
-func validateNewDataAwsFsxWindowsFileSystemAuditLogConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsFsxWindowsFileSystemAuditLogConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (i *jsiiProxy_IvschatLoggingConfigurationDestinationConfigurationCloudwatch
 	return nil
 }
 
-func (i *jsiiProxy_IvschatLoggingConfigurationDestinationConfigurationCloudwatchLogsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IvschatLoggingConfigurationDestinationConfigurationCloudwatchLogsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_IvschatLoggingConfigurationDestinationConfigurationCloudwatch
 	return nil
 }
 
-func (j *jsiiProxy_IvschatLoggingConfigurationDestinationConfigurationCloudwatchLogsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IvschatLoggingConfigurationDestinationConfigurationCloudwatchLogsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIvschatLoggingConfigurationDestinationConfigurationCloudwatchLogsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIvschatLoggingConfigurationDestinationConfigurationCloudwatchLogsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

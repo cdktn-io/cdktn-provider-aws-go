@@ -123,7 +123,7 @@ func (j *jsiiProxy_DatazoneDomain) validateSetKmsKeyIdentifierParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_DatazoneDomain) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DatazoneDomain) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

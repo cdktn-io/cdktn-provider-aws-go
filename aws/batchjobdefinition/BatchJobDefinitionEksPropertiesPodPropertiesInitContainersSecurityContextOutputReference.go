@@ -5,14 +5,14 @@ package batchjobdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/batchjobdefinition/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/batchjobdefinition/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowPrivilegeEscalation() interface{}
 	SetAllowPrivilegeEscalation(val interface{})
 	AllowPrivilegeEscalationInput() interface{}
@@ -55,15 +55,15 @@ type BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOu
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,9 +79,9 @@ type BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOu
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAllowPrivilegeEscalation()
 	ResetPrivileged()
 	ResetReadOnlyRootFileSystem()
@@ -90,7 +90,7 @@ type BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOu
 	ResetRunAsUser()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -100,7 +100,7 @@ type BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOu
 
 // The jsii proxy struct for BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference
 type jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference) AllowPrivilegeEscalation() interface{} {
@@ -283,8 +283,8 @@ func (j *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSec
 	return returns
 }
 
-func (j *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -294,7 +294,7 @@ func (j *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSec
 }
 
 
-func NewBatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference {
+func NewBatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -311,7 +311,7 @@ func NewBatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContex
 	return &j
 }
 
-func NewBatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference_Override(b BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference_Override(b BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -431,7 +431,7 @@ func (j *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSec
 	)
 }
 
-func (j *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -471,11 +471,11 @@ func (b *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSec
 	return returns
 }
 
-func (b *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -599,8 +599,8 @@ func (b *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSec
 	return returns
 }
 
-func (b *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -612,11 +612,11 @@ func (b *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSec
 	return returns
 }
 
-func (b *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -676,7 +676,7 @@ func (b *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSec
 	)
 }
 
-func (b *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

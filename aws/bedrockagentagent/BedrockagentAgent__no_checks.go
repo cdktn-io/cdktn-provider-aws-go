@@ -147,7 +147,7 @@ func (j *jsiiProxy_BedrockagentAgent) validateSetInstructionParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentAgent) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BedrockagentAgent) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

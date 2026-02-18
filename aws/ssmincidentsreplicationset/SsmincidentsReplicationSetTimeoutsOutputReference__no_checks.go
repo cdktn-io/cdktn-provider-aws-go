@@ -47,7 +47,7 @@ func (s *jsiiProxy_SsmincidentsReplicationSetTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (s *jsiiProxy_SsmincidentsReplicationSetTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsmincidentsReplicationSetTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SsmincidentsReplicationSetTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_SsmincidentsReplicationSetTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsmincidentsReplicationSetTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_SsmincidentsReplicationSetTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func validateNewSsmincidentsReplicationSetTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSsmincidentsReplicationSetTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

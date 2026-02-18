@@ -5,16 +5,16 @@ package route53resolverfirewallrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/route53resolverfirewallrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/route53resolverfirewallrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/route53_resolver_firewall_rule aws_route53_resolver_firewall_rule}.
 type Route53ResolverFirewallRule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Action() *string
 	SetAction(val *string)
 	ActionInput() *string
@@ -31,7 +31,7 @@ type Route53ResolverFirewallRule interface {
 	SetBlockResponse(val *string)
 	BlockResponseInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ConfidenceThreshold() *string
 	SetConfidenceThreshold(val *string)
 	ConfidenceThresholdInput() *string
@@ -63,9 +63,9 @@ type Route53ResolverFirewallRule interface {
 	FirewallRuleGroupIdInput() *string
 	FirewallThreatProtectionId() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -74,9 +74,9 @@ type Route53ResolverFirewallRule interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -86,9 +86,9 @@ type Route53ResolverFirewallRule interface {
 	SetPriority(val *float64)
 	PriorityInput() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -102,7 +102,7 @@ type Route53ResolverFirewallRule interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -115,7 +115,7 @@ type Route53ResolverFirewallRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -133,9 +133,9 @@ type Route53ResolverFirewallRule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -179,7 +179,7 @@ type Route53ResolverFirewallRule interface {
 
 // The jsii proxy struct for Route53ResolverFirewallRule
 type jsiiProxy_Route53ResolverFirewallRule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_Route53ResolverFirewallRule) Action() *string {
@@ -282,8 +282,8 @@ func (j *jsiiProxy_Route53ResolverFirewallRule) BlockResponseInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Route53ResolverFirewallRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_Route53ResolverFirewallRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -442,8 +442,8 @@ func (j *jsiiProxy_Route53ResolverFirewallRule) FirewallThreatProtectionId() *st
 	return returns
 }
 
-func (j *jsiiProxy_Route53ResolverFirewallRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_Route53ResolverFirewallRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -492,8 +492,8 @@ func (j *jsiiProxy_Route53ResolverFirewallRule) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Route53ResolverFirewallRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_Route53ResolverFirewallRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -552,8 +552,8 @@ func (j *jsiiProxy_Route53ResolverFirewallRule) PriorityInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_Route53ResolverFirewallRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_Route53ResolverFirewallRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -622,8 +622,8 @@ func (j *jsiiProxy_Route53ResolverFirewallRule) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Route53ResolverFirewallRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_Route53ResolverFirewallRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -822,7 +822,7 @@ func (j *jsiiProxy_Route53ResolverFirewallRule)SetFirewallRuleGroupId(val *strin
 	)
 }
 
-func (j *jsiiProxy_Route53ResolverFirewallRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_Route53ResolverFirewallRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -841,7 +841,7 @@ func (j *jsiiProxy_Route53ResolverFirewallRule)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Route53ResolverFirewallRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_Route53ResolverFirewallRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -874,7 +874,7 @@ func (j *jsiiProxy_Route53ResolverFirewallRule)SetPriority(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_Route53ResolverFirewallRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_Route53ResolverFirewallRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -915,14 +915,14 @@ func (j *jsiiProxy_Route53ResolverFirewallRule)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a Route53ResolverFirewallRule resource upon running "cdktf plan <stack-name>".
-func Route53ResolverFirewallRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a Route53ResolverFirewallRule resource upon running "cdktn plan <stack-name>".
+func Route53ResolverFirewallRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateRoute53ResolverFirewallRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.route53ResolverFirewallRule.Route53ResolverFirewallRule",
@@ -1056,11 +1056,11 @@ func (r *jsiiProxy_Route53ResolverFirewallRule) GetAnyMapAttribute(terraformAttr
 	return returns
 }
 
-func (r *jsiiProxy_Route53ResolverFirewallRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_Route53ResolverFirewallRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -1197,7 +1197,7 @@ func (r *jsiiProxy_Route53ResolverFirewallRule) HasResourceMove() interface{} {
 	return returns
 }
 
-func (r *jsiiProxy_Route53ResolverFirewallRule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (r *jsiiProxy_Route53ResolverFirewallRule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := r.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1208,11 +1208,11 @@ func (r *jsiiProxy_Route53ResolverFirewallRule) ImportFrom(id *string, provider 
 	)
 }
 
-func (r *jsiiProxy_Route53ResolverFirewallRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_Route53ResolverFirewallRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,

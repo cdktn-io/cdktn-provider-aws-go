@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsDbInstanceMasterUserSecretOutputReference) validateInt
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsDbInstanceMasterUserSecretOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsDbInstanceMasterUserSecretOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsDbInstanceMasterUserSecretOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDbInstanceMasterUserSecretOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsDbInstanceMasterUserSecretOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsDbInstanceMasterUserSecretOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsDbInstanceMasterUserSecretOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

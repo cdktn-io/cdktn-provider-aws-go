@@ -47,7 +47,7 @@ func (e *jsiiProxy_EbsSnapshotImportClientDataOutputReference) validateInterpola
 	return nil
 }
 
-func (e *jsiiProxy_EbsSnapshotImportClientDataOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EbsSnapshotImportClientDataOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_EbsSnapshotImportClientDataOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_EbsSnapshotImportClientDataOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EbsSnapshotImportClientDataOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_EbsSnapshotImportClientDataOutputReference) validateSetUpload
 	return nil
 }
 
-func validateNewEbsSnapshotImportClientDataOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEbsSnapshotImportClientDataOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsCodecatalystDevEnvironmentRepositoriesList) validateGe
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCodecatalystDevEnvironmentRepositoriesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCodecatalystDevEnvironmentRepositoriesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsCodecatalystDevEnvironmentRepositoriesList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCodecatalystDevEnvironmentRepositoriesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCodecatalystDevEnvironmentRepositoriesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsCodecatalystDevEnvironmentRepositoriesList) validateSe
 	return nil
 }
 
-func validateNewDataAwsCodecatalystDevEnvironmentRepositoriesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsCodecatalystDevEnvironmentRepositoriesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

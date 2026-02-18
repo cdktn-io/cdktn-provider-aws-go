@@ -91,7 +91,7 @@ func (j *jsiiProxy_DataAwsLbListenerRule) validateSetCountParameters(val interfa
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLbListenerRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsLbListenerRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

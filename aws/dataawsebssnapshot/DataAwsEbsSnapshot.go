@@ -5,19 +5,19 @@ package dataawsebssnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsebssnapshot/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsebssnapshot/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/ebs_snapshot aws_ebs_snapshot}.
 type DataAwsEbsSnapshot interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -30,13 +30,13 @@ type DataAwsEbsSnapshot interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	Description() *string
-	Encrypted() cdktf.IResolvable
+	Encrypted() cdktn.IResolvable
 	Filter() DataAwsEbsSnapshotFilterList
 	FilterInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,9 +46,9 @@ type DataAwsEbsSnapshot interface {
 	IdInput() *string
 	KmsKeyId() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MostRecent() interface{}
 	SetMostRecent(val interface{})
 	MostRecentInput() interface{}
@@ -61,9 +61,9 @@ type DataAwsEbsSnapshot interface {
 	SetOwners(val *[]*string)
 	OwnersInput() *[]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -83,7 +83,7 @@ type DataAwsEbsSnapshot interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -97,7 +97,7 @@ type DataAwsEbsSnapshot interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -113,7 +113,7 @@ type DataAwsEbsSnapshot interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -147,7 +147,7 @@ type DataAwsEbsSnapshot interface {
 
 // The jsii proxy struct for DataAwsEbsSnapshot
 type jsiiProxy_DataAwsEbsSnapshot struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsEbsSnapshot) Arn() *string {
@@ -160,8 +160,8 @@ func (j *jsiiProxy_DataAwsEbsSnapshot) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEbsSnapshot) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsEbsSnapshot) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -220,8 +220,8 @@ func (j *jsiiProxy_DataAwsEbsSnapshot) Description() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEbsSnapshot) Encrypted() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsEbsSnapshot) Encrypted() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"encrypted",
@@ -250,8 +250,8 @@ func (j *jsiiProxy_DataAwsEbsSnapshot) FilterInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEbsSnapshot) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsEbsSnapshot) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -310,8 +310,8 @@ func (j *jsiiProxy_DataAwsEbsSnapshot) KmsKeyId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEbsSnapshot) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsEbsSnapshot) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -400,8 +400,8 @@ func (j *jsiiProxy_DataAwsEbsSnapshot) OwnersInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEbsSnapshot) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsEbsSnapshot) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -540,8 +540,8 @@ func (j *jsiiProxy_DataAwsEbsSnapshot) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEbsSnapshot) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsEbsSnapshot) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -659,7 +659,7 @@ func (j *jsiiProxy_DataAwsEbsSnapshot)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsEbsSnapshot)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsEbsSnapshot)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -678,7 +678,7 @@ func (j *jsiiProxy_DataAwsEbsSnapshot)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsEbsSnapshot)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsEbsSnapshot)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -711,7 +711,7 @@ func (j *jsiiProxy_DataAwsEbsSnapshot)SetOwners(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsEbsSnapshot)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsEbsSnapshot)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -763,14 +763,14 @@ func (j *jsiiProxy_DataAwsEbsSnapshot)SetTags(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsEbsSnapshot resource upon running "cdktf plan <stack-name>".
-func DataAwsEbsSnapshot_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsEbsSnapshot resource upon running "cdktn plan <stack-name>".
+func DataAwsEbsSnapshot_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsEbsSnapshot_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsEbsSnapshot.DataAwsEbsSnapshot",
@@ -893,11 +893,11 @@ func (d *jsiiProxy_DataAwsEbsSnapshot) GetAnyMapAttribute(terraformAttribute *st
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEbsSnapshot) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEbsSnapshot) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1021,11 +1021,11 @@ func (d *jsiiProxy_DataAwsEbsSnapshot) GetStringMapAttribute(terraformAttribute 
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEbsSnapshot) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEbsSnapshot) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

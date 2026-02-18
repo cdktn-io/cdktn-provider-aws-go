@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (q *jsiiProxy_QuicksightDashboardParametersOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (q *jsiiProxy_QuicksightDashboardParametersOutputReference) validatePutDate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*QuicksightDashboardParametersDateTimeParameters:
 		value := value.(*[]*QuicksightDashboardParametersDateTimeParameters)
@@ -117,7 +117,7 @@ func (q *jsiiProxy_QuicksightDashboardParametersOutputReference) validatePutDate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*QuicksightDashboardParametersDateTimeParameters; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*QuicksightDashboardParametersDateTimeParameters; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (q *jsiiProxy_QuicksightDashboardParametersOutputReference) validatePutDeci
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*QuicksightDashboardParametersDecimalParameters:
 		value := value.(*[]*QuicksightDashboardParametersDecimalParameters)
@@ -148,7 +148,7 @@ func (q *jsiiProxy_QuicksightDashboardParametersOutputReference) validatePutDeci
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*QuicksightDashboardParametersDecimalParameters; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*QuicksightDashboardParametersDecimalParameters; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (q *jsiiProxy_QuicksightDashboardParametersOutputReference) validatePutInte
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*QuicksightDashboardParametersIntegerParameters:
 		value := value.(*[]*QuicksightDashboardParametersIntegerParameters)
@@ -179,7 +179,7 @@ func (q *jsiiProxy_QuicksightDashboardParametersOutputReference) validatePutInte
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*QuicksightDashboardParametersIntegerParameters; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*QuicksightDashboardParametersIntegerParameters; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -191,7 +191,7 @@ func (q *jsiiProxy_QuicksightDashboardParametersOutputReference) validatePutStri
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*QuicksightDashboardParametersStringParameters:
 		value := value.(*[]*QuicksightDashboardParametersStringParameters)
@@ -210,14 +210,14 @@ func (q *jsiiProxy_QuicksightDashboardParametersOutputReference) validatePutStri
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*QuicksightDashboardParametersStringParameters; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*QuicksightDashboardParametersStringParameters; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDashboardParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDashboardParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -306,7 +306,7 @@ func (j *jsiiProxy_QuicksightDashboardParametersOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDashboardParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDashboardParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -314,7 +314,7 @@ func (j *jsiiProxy_QuicksightDashboardParametersOutputReference) validateSetTerr
 	return nil
 }
 
-func validateNewQuicksightDashboardParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewQuicksightDashboardParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

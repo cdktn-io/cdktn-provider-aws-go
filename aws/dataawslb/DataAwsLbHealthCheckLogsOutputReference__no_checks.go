@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsLbHealthCheckLogsOutputReference) validateInterpolatio
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLbHealthCheckLogsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLbHealthCheckLogsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsLbHealthCheckLogsOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLbHealthCheckLogsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLbHealthCheckLogsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsLbHealthCheckLogsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsLbHealthCheckLogsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

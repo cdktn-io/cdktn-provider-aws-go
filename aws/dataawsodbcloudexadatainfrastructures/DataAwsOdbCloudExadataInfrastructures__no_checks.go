@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsOdbCloudExadataInfrastructures) validateSetCountParame
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOdbCloudExadataInfrastructures) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsOdbCloudExadataInfrastructures) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

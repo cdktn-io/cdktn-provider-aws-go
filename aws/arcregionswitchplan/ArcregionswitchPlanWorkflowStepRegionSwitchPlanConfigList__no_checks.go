@@ -15,7 +15,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepRegionSwitchPlanConfigList) va
 	return nil
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepRegionSwitchPlanConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepRegionSwitchPlanConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepRegionSwitchPlanConfigList) va
 	return nil
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepRegionSwitchPlanConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepRegionSwitchPlanConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepRegionSwitchPlanConfigList) va
 	return nil
 }
 
-func validateNewArcregionswitchPlanWorkflowStepRegionSwitchPlanConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewArcregionswitchPlanWorkflowStepRegionSwitchPlanConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

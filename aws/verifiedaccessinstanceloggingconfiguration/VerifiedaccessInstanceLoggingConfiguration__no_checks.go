@@ -107,7 +107,7 @@ func (j *jsiiProxy_VerifiedaccessInstanceLoggingConfiguration) validateSetIdPara
 	return nil
 }
 
-func (j *jsiiProxy_VerifiedaccessInstanceLoggingConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VerifiedaccessInstanceLoggingConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

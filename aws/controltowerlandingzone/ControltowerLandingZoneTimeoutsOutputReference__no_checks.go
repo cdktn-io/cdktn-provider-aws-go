@@ -47,7 +47,7 @@ func (c *jsiiProxy_ControltowerLandingZoneTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (c *jsiiProxy_ControltowerLandingZoneTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ControltowerLandingZoneTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ControltowerLandingZoneTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_ControltowerLandingZoneTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ControltowerLandingZoneTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ControltowerLandingZoneTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewControltowerLandingZoneTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewControltowerLandingZoneTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

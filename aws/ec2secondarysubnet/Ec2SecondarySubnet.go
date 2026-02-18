@@ -5,16 +5,16 @@ package ec2secondarysubnet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ec2secondarysubnet/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ec2secondarysubnet/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/ec2_secondary_subnet aws_ec2_secondary_subnet}.
 type Ec2SecondarySubnet interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	AvailabilityZone() *string
 	SetAvailabilityZone(val *string)
@@ -23,7 +23,7 @@ type Ec2SecondarySubnet interface {
 	AvailabilityZoneIdInput() *string
 	AvailabilityZoneInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -39,9 +39,9 @@ type Ec2SecondarySubnet interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,16 +52,16 @@ type Ec2SecondarySubnet interface {
 	Ipv4CidrBlockAssociations() Ec2SecondarySubnetIpv4CidrBlockAssociationsList
 	Ipv4CidrBlockInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	OwnerId() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -79,10 +79,10 @@ type Ec2SecondarySubnet interface {
 	State() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
-	TagsAll() cdktf.StringMap
+	TagsAll() cdktn.StringMap
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -97,7 +97,7 @@ type Ec2SecondarySubnet interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -115,9 +115,9 @@ type Ec2SecondarySubnet interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -156,7 +156,7 @@ type Ec2SecondarySubnet interface {
 
 // The jsii proxy struct for Ec2SecondarySubnet
 type jsiiProxy_Ec2SecondarySubnet struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_Ec2SecondarySubnet) Arn() *string {
@@ -209,8 +209,8 @@ func (j *jsiiProxy_Ec2SecondarySubnet) AvailabilityZoneInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Ec2SecondarySubnet) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_Ec2SecondarySubnet) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -259,8 +259,8 @@ func (j *jsiiProxy_Ec2SecondarySubnet) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_Ec2SecondarySubnet) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_Ec2SecondarySubnet) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -329,8 +329,8 @@ func (j *jsiiProxy_Ec2SecondarySubnet) Ipv4CidrBlockInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Ec2SecondarySubnet) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_Ec2SecondarySubnet) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -359,8 +359,8 @@ func (j *jsiiProxy_Ec2SecondarySubnet) OwnerId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Ec2SecondarySubnet) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_Ec2SecondarySubnet) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -469,8 +469,8 @@ func (j *jsiiProxy_Ec2SecondarySubnet) Tags() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_Ec2SecondarySubnet) TagsAll() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_Ec2SecondarySubnet) TagsAll() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tagsAll",
@@ -489,8 +489,8 @@ func (j *jsiiProxy_Ec2SecondarySubnet) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_Ec2SecondarySubnet) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_Ec2SecondarySubnet) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -621,7 +621,7 @@ func (j *jsiiProxy_Ec2SecondarySubnet)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_Ec2SecondarySubnet)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_Ec2SecondarySubnet)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -640,7 +640,7 @@ func (j *jsiiProxy_Ec2SecondarySubnet)SetIpv4CidrBlock(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Ec2SecondarySubnet)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_Ec2SecondarySubnet)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -651,7 +651,7 @@ func (j *jsiiProxy_Ec2SecondarySubnet)SetLifecycle(val *cdktf.TerraformResourceL
 	)
 }
 
-func (j *jsiiProxy_Ec2SecondarySubnet)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_Ec2SecondarySubnet)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -703,14 +703,14 @@ func (j *jsiiProxy_Ec2SecondarySubnet)SetTags(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a Ec2SecondarySubnet resource upon running "cdktf plan <stack-name>".
-func Ec2SecondarySubnet_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a Ec2SecondarySubnet resource upon running "cdktn plan <stack-name>".
+func Ec2SecondarySubnet_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateEc2SecondarySubnet_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.ec2SecondarySubnet.Ec2SecondarySubnet",
@@ -844,11 +844,11 @@ func (e *jsiiProxy_Ec2SecondarySubnet) GetAnyMapAttribute(terraformAttribute *st
 	return returns
 }
 
-func (e *jsiiProxy_Ec2SecondarySubnet) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_Ec2SecondarySubnet) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -985,7 +985,7 @@ func (e *jsiiProxy_Ec2SecondarySubnet) HasResourceMove() interface{} {
 	return returns
 }
 
-func (e *jsiiProxy_Ec2SecondarySubnet) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (e *jsiiProxy_Ec2SecondarySubnet) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := e.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -996,11 +996,11 @@ func (e *jsiiProxy_Ec2SecondarySubnet) ImportFrom(id *string, provider cdktf.Ter
 	)
 }
 
-func (e *jsiiProxy_Ec2SecondarySubnet) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_Ec2SecondarySubnet) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,

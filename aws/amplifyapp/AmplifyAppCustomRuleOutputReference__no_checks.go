@@ -47,7 +47,7 @@ func (a *jsiiProxy_AmplifyAppCustomRuleOutputReference) validateInterpolationFor
 	return nil
 }
 
-func (a *jsiiProxy_AmplifyAppCustomRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AmplifyAppCustomRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_AmplifyAppCustomRuleOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_AmplifyAppCustomRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AmplifyAppCustomRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAmplifyAppCustomRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAmplifyAppCustomRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

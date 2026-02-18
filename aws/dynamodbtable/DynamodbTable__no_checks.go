@@ -163,7 +163,7 @@ func (j *jsiiProxy_DynamodbTable) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_DynamodbTable) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DynamodbTable) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

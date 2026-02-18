@@ -5,14 +5,14 @@ package datazoneglossaryterm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/datazoneglossaryterm/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/datazoneglossaryterm/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DatazoneGlossaryTermTermRelationsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Classifies() *[]*string
 	SetClassifies(val *[]*string)
 	ClassifiesInput() *[]*string
@@ -43,15 +43,15 @@ type DatazoneGlossaryTermTermRelationsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type DatazoneGlossaryTermTermRelationsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetClassifies()
 	ResetIsA()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type DatazoneGlossaryTermTermRelationsOutputReference interface {
 
 // The jsii proxy struct for DatazoneGlossaryTermTermRelationsOutputReference
 type jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) Classifies() *[]*string {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) TerraformRe
 }
 
 
-func NewDatazoneGlossaryTermTermRelationsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DatazoneGlossaryTermTermRelationsOutputReference {
+func NewDatazoneGlossaryTermTermRelationsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DatazoneGlossaryTermTermRelationsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDatazoneGlossaryTermTermRelationsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -215,7 +215,7 @@ func NewDatazoneGlossaryTermTermRelationsOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewDatazoneGlossaryTermTermRelationsOutputReference_Override(d DatazoneGlossaryTermTermRelationsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDatazoneGlossaryTermTermRelationsOutputReference_Override(d DatazoneGlossaryTermTermRelationsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (d *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (d *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -459,8 +459,8 @@ func (d *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) GetStringMa
 	return returns
 }
 
-func (d *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -472,11 +472,11 @@ func (d *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) Interpolati
 	return returns
 }
 
-func (d *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -504,7 +504,7 @@ func (d *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) ResetIsA() 
 	)
 }
 
-func (d *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DatazoneGlossaryTermTermRelationsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

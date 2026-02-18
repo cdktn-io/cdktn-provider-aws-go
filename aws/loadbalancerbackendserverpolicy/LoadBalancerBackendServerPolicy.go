@@ -5,18 +5,18 @@ package loadbalancerbackendserverpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/loadbalancerbackendserverpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/loadbalancerbackendserverpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/load_balancer_backend_server_policy aws_load_balancer_backend_server_policy}.
 type LoadBalancerBackendServerPolicy interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type LoadBalancerBackendServerPolicy interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,9 +46,9 @@ type LoadBalancerBackendServerPolicy interface {
 	SetInstancePort(val *float64)
 	InstancePortInput() *float64
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LoadBalancerName() *string
 	SetLoadBalancerName(val *string)
 	LoadBalancerNameInput() *string
@@ -58,9 +58,9 @@ type LoadBalancerBackendServerPolicy interface {
 	SetPolicyNames(val *[]*string)
 	PolicyNamesInput() *[]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -71,7 +71,7 @@ type LoadBalancerBackendServerPolicy interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -84,7 +84,7 @@ type LoadBalancerBackendServerPolicy interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -102,9 +102,9 @@ type LoadBalancerBackendServerPolicy interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -140,11 +140,11 @@ type LoadBalancerBackendServerPolicy interface {
 
 // The jsii proxy struct for LoadBalancerBackendServerPolicy
 type jsiiProxy_LoadBalancerBackendServerPolicy struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_LoadBalancerBackendServerPolicy) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_LoadBalancerBackendServerPolicy) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -193,8 +193,8 @@ func (j *jsiiProxy_LoadBalancerBackendServerPolicy) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_LoadBalancerBackendServerPolicy) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_LoadBalancerBackendServerPolicy) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -263,8 +263,8 @@ func (j *jsiiProxy_LoadBalancerBackendServerPolicy) InstancePortInput() *float64
 	return returns
 }
 
-func (j *jsiiProxy_LoadBalancerBackendServerPolicy) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_LoadBalancerBackendServerPolicy) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -323,8 +323,8 @@ func (j *jsiiProxy_LoadBalancerBackendServerPolicy) PolicyNamesInput() *[]*strin
 	return returns
 }
 
-func (j *jsiiProxy_LoadBalancerBackendServerPolicy) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_LoadBalancerBackendServerPolicy) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -373,8 +373,8 @@ func (j *jsiiProxy_LoadBalancerBackendServerPolicy) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LoadBalancerBackendServerPolicy) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_LoadBalancerBackendServerPolicy) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -463,7 +463,7 @@ func (j *jsiiProxy_LoadBalancerBackendServerPolicy)SetDependsOn(val *[]*string) 
 	)
 }
 
-func (j *jsiiProxy_LoadBalancerBackendServerPolicy)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_LoadBalancerBackendServerPolicy)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -493,7 +493,7 @@ func (j *jsiiProxy_LoadBalancerBackendServerPolicy)SetInstancePort(val *float64)
 	)
 }
 
-func (j *jsiiProxy_LoadBalancerBackendServerPolicy)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_LoadBalancerBackendServerPolicy)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -526,7 +526,7 @@ func (j *jsiiProxy_LoadBalancerBackendServerPolicy)SetPolicyNames(val *[]*string
 	)
 }
 
-func (j *jsiiProxy_LoadBalancerBackendServerPolicy)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_LoadBalancerBackendServerPolicy)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -556,14 +556,14 @@ func (j *jsiiProxy_LoadBalancerBackendServerPolicy)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a LoadBalancerBackendServerPolicy resource upon running "cdktf plan <stack-name>".
-func LoadBalancerBackendServerPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a LoadBalancerBackendServerPolicy resource upon running "cdktn plan <stack-name>".
+func LoadBalancerBackendServerPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateLoadBalancerBackendServerPolicy_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.loadBalancerBackendServerPolicy.LoadBalancerBackendServerPolicy",
@@ -697,11 +697,11 @@ func (l *jsiiProxy_LoadBalancerBackendServerPolicy) GetAnyMapAttribute(terraform
 	return returns
 }
 
-func (l *jsiiProxy_LoadBalancerBackendServerPolicy) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LoadBalancerBackendServerPolicy) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -838,7 +838,7 @@ func (l *jsiiProxy_LoadBalancerBackendServerPolicy) HasResourceMove() interface{
 	return returns
 }
 
-func (l *jsiiProxy_LoadBalancerBackendServerPolicy) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (l *jsiiProxy_LoadBalancerBackendServerPolicy) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := l.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -849,11 +849,11 @@ func (l *jsiiProxy_LoadBalancerBackendServerPolicy) ImportFrom(id *string, provi
 	)
 }
 
-func (l *jsiiProxy_LoadBalancerBackendServerPolicy) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LoadBalancerBackendServerPolicy) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,

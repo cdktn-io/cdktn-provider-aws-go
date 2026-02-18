@@ -15,7 +15,7 @@ func (k *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationDestinationT
 	return nil
 }
 
-func (k *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationDestinationTableConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationDestinationTableConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationDestinationT
 	return nil
 }
 
-func (j *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationDestinationTableConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationDestinationTableConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationDestinationT
 	return nil
 }
 
-func validateNewKinesisFirehoseDeliveryStreamIcebergConfigurationDestinationTableConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewKinesisFirehoseDeliveryStreamIcebergConfigurationDestinationTableConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

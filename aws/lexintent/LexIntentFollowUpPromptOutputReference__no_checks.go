@@ -55,7 +55,7 @@ func (l *jsiiProxy_LexIntentFollowUpPromptOutputReference) validatePutRejectionS
 	return nil
 }
 
-func (l *jsiiProxy_LexIntentFollowUpPromptOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LexIntentFollowUpPromptOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_LexIntentFollowUpPromptOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_LexIntentFollowUpPromptOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LexIntentFollowUpPromptOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLexIntentFollowUpPromptOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLexIntentFollowUpPromptOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

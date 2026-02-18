@@ -5,14 +5,14 @@ package dataawsvpcipampoolcidrs
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsvpcipampoolcidrs/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsvpcipampoolcidrs/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsVpcIpamPoolCidrsIpamPoolCidrsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type DataAwsVpcIpamPoolCidrsIpamPoolCidrsList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type DataAwsVpcIpamPoolCidrsIpamPoolCidrsList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataAwsVpcIpamPoolCidrsIpamPoolCidrsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type DataAwsVpcIpamPoolCidrsIpamPoolCidrsList interface {
 
 // The jsii proxy struct for DataAwsVpcIpamPoolCidrsIpamPoolCidrsList
 type jsiiProxy_DataAwsVpcIpamPoolCidrsIpamPoolCidrsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataAwsVpcIpamPoolCidrsIpamPoolCidrsList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_DataAwsVpcIpamPoolCidrsIpamPoolCidrsList) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsVpcIpamPoolCidrsIpamPoolCidrsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsVpcIpamPoolCidrsIpamPoolCidrsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataAwsVpcIpamPoolCidrsIpamPoolCidrsList) WrapsSet() *bool {
 }
 
 
-func NewDataAwsVpcIpamPoolCidrsIpamPoolCidrsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsVpcIpamPoolCidrsIpamPoolCidrsList {
+func NewDataAwsVpcIpamPoolCidrsIpamPoolCidrsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsVpcIpamPoolCidrsIpamPoolCidrsList {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsVpcIpamPoolCidrsIpamPoolCidrsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewDataAwsVpcIpamPoolCidrsIpamPoolCidrsList(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewDataAwsVpcIpamPoolCidrsIpamPoolCidrsList_Override(d DataAwsVpcIpamPoolCidrsIpamPoolCidrsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataAwsVpcIpamPoolCidrsIpamPoolCidrsList_Override(d DataAwsVpcIpamPoolCidrsIpamPoolCidrsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_DataAwsVpcIpamPoolCidrsIpamPoolCidrsList)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_DataAwsVpcIpamPoolCidrsIpamPoolCidrsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsVpcIpamPoolCidrsIpamPoolCidrsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_DataAwsVpcIpamPoolCidrsIpamPoolCidrsList)SetWrapsSet(val *boo
 	)
 }
 
-func (d *jsiiProxy_DataAwsVpcIpamPoolCidrsIpamPoolCidrsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataAwsVpcIpamPoolCidrsIpamPoolCidrsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -208,7 +208,7 @@ func (d *jsiiProxy_DataAwsVpcIpamPoolCidrsIpamPoolCidrsList) Get(index *float64)
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsVpcIpamPoolCidrsIpamPoolCidrsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsVpcIpamPoolCidrsIpamPoolCidrsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

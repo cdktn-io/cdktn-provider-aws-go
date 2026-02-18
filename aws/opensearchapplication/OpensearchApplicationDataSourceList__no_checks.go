@@ -15,7 +15,7 @@ func (o *jsiiProxy_OpensearchApplicationDataSourceList) validateGetParameters(in
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchApplicationDataSourceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchApplicationDataSourceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_OpensearchApplicationDataSourceList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchApplicationDataSourceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchApplicationDataSourceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_OpensearchApplicationDataSourceList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewOpensearchApplicationDataSourceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOpensearchApplicationDataSourceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

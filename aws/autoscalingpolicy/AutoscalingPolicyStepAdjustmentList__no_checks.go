@@ -15,7 +15,7 @@ func (a *jsiiProxy_AutoscalingPolicyStepAdjustmentList) validateGetParameters(in
 	return nil
 }
 
-func (a *jsiiProxy_AutoscalingPolicyStepAdjustmentList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutoscalingPolicyStepAdjustmentList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AutoscalingPolicyStepAdjustmentList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_AutoscalingPolicyStepAdjustmentList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutoscalingPolicyStepAdjustmentList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AutoscalingPolicyStepAdjustmentList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewAutoscalingPolicyStepAdjustmentListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAutoscalingPolicyStepAdjustmentListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

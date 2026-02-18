@@ -15,7 +15,7 @@ func (m *jsiiProxy_M2ApplicationDefinitionList) validateGetParameters(index *flo
 	return nil
 }
 
-func (m *jsiiProxy_M2ApplicationDefinitionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_M2ApplicationDefinitionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_M2ApplicationDefinitionList) validateSetTerraformAttributePar
 	return nil
 }
 
-func (j *jsiiProxy_M2ApplicationDefinitionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_M2ApplicationDefinitionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_M2ApplicationDefinitionList) validateSetWrapsSetParameters(va
 	return nil
 }
 
-func validateNewM2ApplicationDefinitionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewM2ApplicationDefinitionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

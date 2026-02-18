@@ -47,7 +47,7 @@ func (o *jsiiProxy_OpensearchDomainAimlOptionsServerlessVectorAccelerationOutput
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchDomainAimlOptionsServerlessVectorAccelerationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchDomainAimlOptionsServerlessVectorAccelerationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_OpensearchDomainAimlOptionsServerlessVectorAccelerationOutput
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchDomainAimlOptionsServerlessVectorAccelerationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchDomainAimlOptionsServerlessVectorAccelerationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOpensearchDomainAimlOptionsServerlessVectorAccelerationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOpensearchDomainAimlOptionsServerlessVectorAccelerationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

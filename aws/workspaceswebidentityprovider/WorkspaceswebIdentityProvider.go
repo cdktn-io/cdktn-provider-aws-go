@@ -5,18 +5,18 @@ package workspaceswebidentityprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/workspaceswebidentityprovider/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/workspaceswebidentityprovider/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/workspacesweb_identity_provider aws_workspacesweb_identity_provider}.
 type WorkspaceswebIdentityProvider interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type WorkspaceswebIdentityProvider interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -50,18 +50,18 @@ type WorkspaceswebIdentityProvider interface {
 	SetIdentityProviderType(val *string)
 	IdentityProviderTypeInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	PortalArn() *string
 	SetPortalArn(val *string)
 	PortalArnInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -73,10 +73,10 @@ type WorkspaceswebIdentityProvider interface {
 	RegionInput() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
-	TagsAll() cdktf.StringMap
+	TagsAll() cdktn.StringMap
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type WorkspaceswebIdentityProvider interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -107,9 +107,9 @@ type WorkspaceswebIdentityProvider interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -144,11 +144,11 @@ type WorkspaceswebIdentityProvider interface {
 
 // The jsii proxy struct for WorkspaceswebIdentityProvider
 type jsiiProxy_WorkspaceswebIdentityProvider struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_WorkspaceswebIdentityProvider) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_WorkspaceswebIdentityProvider) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -197,8 +197,8 @@ func (j *jsiiProxy_WorkspaceswebIdentityProvider) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_WorkspaceswebIdentityProvider) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_WorkspaceswebIdentityProvider) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -297,8 +297,8 @@ func (j *jsiiProxy_WorkspaceswebIdentityProvider) IdentityProviderTypeInput() *s
 	return returns
 }
 
-func (j *jsiiProxy_WorkspaceswebIdentityProvider) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_WorkspaceswebIdentityProvider) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -337,8 +337,8 @@ func (j *jsiiProxy_WorkspaceswebIdentityProvider) PortalArnInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_WorkspaceswebIdentityProvider) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_WorkspaceswebIdentityProvider) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -397,8 +397,8 @@ func (j *jsiiProxy_WorkspaceswebIdentityProvider) Tags() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_WorkspaceswebIdentityProvider) TagsAll() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_WorkspaceswebIdentityProvider) TagsAll() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tagsAll",
@@ -417,8 +417,8 @@ func (j *jsiiProxy_WorkspaceswebIdentityProvider) TagsInput() *map[string]*strin
 	return returns
 }
 
-func (j *jsiiProxy_WorkspaceswebIdentityProvider) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_WorkspaceswebIdentityProvider) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -507,7 +507,7 @@ func (j *jsiiProxy_WorkspaceswebIdentityProvider)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_WorkspaceswebIdentityProvider)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_WorkspaceswebIdentityProvider)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -548,7 +548,7 @@ func (j *jsiiProxy_WorkspaceswebIdentityProvider)SetIdentityProviderType(val *st
 	)
 }
 
-func (j *jsiiProxy_WorkspaceswebIdentityProvider)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_WorkspaceswebIdentityProvider)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -570,7 +570,7 @@ func (j *jsiiProxy_WorkspaceswebIdentityProvider)SetPortalArn(val *string) {
 	)
 }
 
-func (j *jsiiProxy_WorkspaceswebIdentityProvider)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_WorkspaceswebIdentityProvider)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -611,14 +611,14 @@ func (j *jsiiProxy_WorkspaceswebIdentityProvider)SetTags(val *map[string]*string
 	)
 }
 
-// Generates CDKTF code for importing a WorkspaceswebIdentityProvider resource upon running "cdktf plan <stack-name>".
-func WorkspaceswebIdentityProvider_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a WorkspaceswebIdentityProvider resource upon running "cdktn plan <stack-name>".
+func WorkspaceswebIdentityProvider_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateWorkspaceswebIdentityProvider_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.workspaceswebIdentityProvider.WorkspaceswebIdentityProvider",
@@ -752,11 +752,11 @@ func (w *jsiiProxy_WorkspaceswebIdentityProvider) GetAnyMapAttribute(terraformAt
 	return returns
 }
 
-func (w *jsiiProxy_WorkspaceswebIdentityProvider) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WorkspaceswebIdentityProvider) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -893,7 +893,7 @@ func (w *jsiiProxy_WorkspaceswebIdentityProvider) HasResourceMove() interface{} 
 	return returns
 }
 
-func (w *jsiiProxy_WorkspaceswebIdentityProvider) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (w *jsiiProxy_WorkspaceswebIdentityProvider) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := w.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -904,11 +904,11 @@ func (w *jsiiProxy_WorkspaceswebIdentityProvider) ImportFrom(id *string, provide
 	)
 }
 
-func (w *jsiiProxy_WorkspaceswebIdentityProvider) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WorkspaceswebIdentityProvider) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,

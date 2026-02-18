@@ -47,7 +47,7 @@ func (l *jsiiProxy_LambdaFunctionSnapStartOutputReference) validateInterpolation
 	return nil
 }
 
-func (l *jsiiProxy_LambdaFunctionSnapStartOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LambdaFunctionSnapStartOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_LambdaFunctionSnapStartOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_LambdaFunctionSnapStartOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LambdaFunctionSnapStartOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLambdaFunctionSnapStartOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLambdaFunctionSnapStartOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

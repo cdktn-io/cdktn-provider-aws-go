@@ -5,14 +5,14 @@ package budgetsbudget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/budgetsbudget/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/budgetsbudget/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BudgetsBudgetPlannedLimitOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Amount() *string
 	SetAmount(val *string)
 	AmountInput() *string
@@ -43,9 +43,9 @@ type BudgetsBudgetPlannedLimitOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Unit() *string
 	SetUnit(val *string)
 	UnitInput() *string
@@ -54,7 +54,7 @@ type BudgetsBudgetPlannedLimitOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type BudgetsBudgetPlannedLimitOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type BudgetsBudgetPlannedLimitOutputReference interface {
 
 // The jsii proxy struct for BudgetsBudgetPlannedLimitOutputReference
 type jsiiProxy_BudgetsBudgetPlannedLimitOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BudgetsBudgetPlannedLimitOutputReference) Amount() *string {
@@ -188,8 +188,8 @@ func (j *jsiiProxy_BudgetsBudgetPlannedLimitOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_BudgetsBudgetPlannedLimitOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BudgetsBudgetPlannedLimitOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_BudgetsBudgetPlannedLimitOutputReference) UnitInput() *string
 }
 
 
-func NewBudgetsBudgetPlannedLimitOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BudgetsBudgetPlannedLimitOutputReference {
+func NewBudgetsBudgetPlannedLimitOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BudgetsBudgetPlannedLimitOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBudgetsBudgetPlannedLimitOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -236,7 +236,7 @@ func NewBudgetsBudgetPlannedLimitOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewBudgetsBudgetPlannedLimitOutputReference_Override(b BudgetsBudgetPlannedLimitOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewBudgetsBudgetPlannedLimitOutputReference_Override(b BudgetsBudgetPlannedLimitOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -312,7 +312,7 @@ func (j *jsiiProxy_BudgetsBudgetPlannedLimitOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_BudgetsBudgetPlannedLimitOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BudgetsBudgetPlannedLimitOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -363,11 +363,11 @@ func (b *jsiiProxy_BudgetsBudgetPlannedLimitOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (b *jsiiProxy_BudgetsBudgetPlannedLimitOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BudgetsBudgetPlannedLimitOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -491,8 +491,8 @@ func (b *jsiiProxy_BudgetsBudgetPlannedLimitOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (b *jsiiProxy_BudgetsBudgetPlannedLimitOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BudgetsBudgetPlannedLimitOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -504,11 +504,11 @@ func (b *jsiiProxy_BudgetsBudgetPlannedLimitOutputReference) InterpolationAsList
 	return returns
 }
 
-func (b *jsiiProxy_BudgetsBudgetPlannedLimitOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BudgetsBudgetPlannedLimitOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -520,7 +520,7 @@ func (b *jsiiProxy_BudgetsBudgetPlannedLimitOutputReference) InterpolationForAtt
 	return returns
 }
 
-func (b *jsiiProxy_BudgetsBudgetPlannedLimitOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BudgetsBudgetPlannedLimitOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

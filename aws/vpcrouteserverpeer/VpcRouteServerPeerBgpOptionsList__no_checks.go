@@ -15,7 +15,7 @@ func (v *jsiiProxy_VpcRouteServerPeerBgpOptionsList) validateGetParameters(index
 	return nil
 }
 
-func (v *jsiiProxy_VpcRouteServerPeerBgpOptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpcRouteServerPeerBgpOptionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VpcRouteServerPeerBgpOptionsList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_VpcRouteServerPeerBgpOptionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpcRouteServerPeerBgpOptionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VpcRouteServerPeerBgpOptionsList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewVpcRouteServerPeerBgpOptionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVpcRouteServerPeerBgpOptionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

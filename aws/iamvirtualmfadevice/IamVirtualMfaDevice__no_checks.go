@@ -103,7 +103,7 @@ func (j *jsiiProxy_IamVirtualMfaDevice) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_IamVirtualMfaDevice) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IamVirtualMfaDevice) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

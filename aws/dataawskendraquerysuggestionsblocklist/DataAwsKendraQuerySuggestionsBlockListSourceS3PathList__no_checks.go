@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsKendraQuerySuggestionsBlockListSourceS3PathList) valid
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsKendraQuerySuggestionsBlockListSourceS3PathList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsKendraQuerySuggestionsBlockListSourceS3PathList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsKendraQuerySuggestionsBlockListSourceS3PathList) valid
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsKendraQuerySuggestionsBlockListSourceS3PathList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsKendraQuerySuggestionsBlockListSourceS3PathList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsKendraQuerySuggestionsBlockListSourceS3PathList) valid
 	return nil
 }
 
-func validateNewDataAwsKendraQuerySuggestionsBlockListSourceS3PathListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsKendraQuerySuggestionsBlockListSourceS3PathListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

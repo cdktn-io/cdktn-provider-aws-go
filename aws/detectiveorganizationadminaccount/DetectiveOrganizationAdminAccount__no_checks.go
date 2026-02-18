@@ -107,7 +107,7 @@ func (j *jsiiProxy_DetectiveOrganizationAdminAccount) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_DetectiveOrganizationAdminAccount) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DetectiveOrganizationAdminAccount) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

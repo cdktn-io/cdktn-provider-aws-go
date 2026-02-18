@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsDmsEndpointMysqlSettingsList) validateGetParameters(in
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointMysqlSettingsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsDmsEndpointMysqlSettingsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsDmsEndpointMysqlSettingsList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointMysqlSettingsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsDmsEndpointMysqlSettingsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsDmsEndpointMysqlSettingsList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewDataAwsDmsEndpointMysqlSettingsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsDmsEndpointMysqlSettingsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

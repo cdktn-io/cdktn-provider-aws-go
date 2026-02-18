@@ -47,7 +47,7 @@ func (s *jsiiProxy_SagemakerSpaceOwnershipSettingsOutputReference) validateInter
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerSpaceOwnershipSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerSpaceOwnershipSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SagemakerSpaceOwnershipSettingsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerSpaceOwnershipSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerSpaceOwnershipSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerSpaceOwnershipSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerSpaceOwnershipSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

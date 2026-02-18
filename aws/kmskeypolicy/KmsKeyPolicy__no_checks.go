@@ -111,7 +111,7 @@ func (j *jsiiProxy_KmsKeyPolicy) validateSetKeyIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_KmsKeyPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KmsKeyPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

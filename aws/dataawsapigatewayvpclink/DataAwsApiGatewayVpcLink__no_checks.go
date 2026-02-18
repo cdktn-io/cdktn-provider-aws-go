@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsApiGatewayVpcLink) validateSetCountParameters(val inte
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsApiGatewayVpcLink) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsApiGatewayVpcLink) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

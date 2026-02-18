@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEcsClusterServiceConnectDefaultsList) validateGetParam
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEcsClusterServiceConnectDefaultsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEcsClusterServiceConnectDefaultsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsEcsClusterServiceConnectDefaultsList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEcsClusterServiceConnectDefaultsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEcsClusterServiceConnectDefaultsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsEcsClusterServiceConnectDefaultsList) validateSetWraps
 	return nil
 }
 
-func validateNewDataAwsEcsClusterServiceConnectDefaultsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEcsClusterServiceConnectDefaultsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

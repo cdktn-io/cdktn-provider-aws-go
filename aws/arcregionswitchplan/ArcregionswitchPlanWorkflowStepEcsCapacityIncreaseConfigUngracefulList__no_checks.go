@@ -15,7 +15,7 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigUngra
 	return nil
 }
 
-func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigUngracefulList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigUngracefulList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigUngra
 	return nil
 }
 
-func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigUngracefulList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigUngracefulList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigUngra
 	return nil
 }
 
-func validateNewArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigUngracefulListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigUngracefulListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

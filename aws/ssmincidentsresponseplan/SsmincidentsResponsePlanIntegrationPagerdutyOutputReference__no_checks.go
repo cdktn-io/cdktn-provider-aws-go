@@ -47,7 +47,7 @@ func (s *jsiiProxy_SsmincidentsResponsePlanIntegrationPagerdutyOutputReference) 
 	return nil
 }
 
-func (s *jsiiProxy_SsmincidentsResponsePlanIntegrationPagerdutyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsmincidentsResponsePlanIntegrationPagerdutyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_SsmincidentsResponsePlanIntegrationPagerdutyOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_SsmincidentsResponsePlanIntegrationPagerdutyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsmincidentsResponsePlanIntegrationPagerdutyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSsmincidentsResponsePlanIntegrationPagerdutyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSsmincidentsResponsePlanIntegrationPagerdutyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

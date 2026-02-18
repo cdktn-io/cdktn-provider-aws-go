@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsLaunchTemplateIamInstanceProfileOutputReference) valid
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLaunchTemplateIamInstanceProfileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLaunchTemplateIamInstanceProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsLaunchTemplateIamInstanceProfileOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLaunchTemplateIamInstanceProfileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLaunchTemplateIamInstanceProfileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsLaunchTemplateIamInstanceProfileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsLaunchTemplateIamInstanceProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

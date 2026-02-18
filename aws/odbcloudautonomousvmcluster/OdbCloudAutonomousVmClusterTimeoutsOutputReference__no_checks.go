@@ -47,7 +47,7 @@ func (o *jsiiProxy_OdbCloudAutonomousVmClusterTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (o *jsiiProxy_OdbCloudAutonomousVmClusterTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OdbCloudAutonomousVmClusterTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_OdbCloudAutonomousVmClusterTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_OdbCloudAutonomousVmClusterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OdbCloudAutonomousVmClusterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_OdbCloudAutonomousVmClusterTimeoutsOutputReference) validateS
 	return nil
 }
 
-func validateNewOdbCloudAutonomousVmClusterTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOdbCloudAutonomousVmClusterTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

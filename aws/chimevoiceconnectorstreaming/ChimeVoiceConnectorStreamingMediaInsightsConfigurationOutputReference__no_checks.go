@@ -47,7 +47,7 @@ func (c *jsiiProxy_ChimeVoiceConnectorStreamingMediaInsightsConfigurationOutputR
 	return nil
 }
 
-func (c *jsiiProxy_ChimeVoiceConnectorStreamingMediaInsightsConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ChimeVoiceConnectorStreamingMediaInsightsConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ChimeVoiceConnectorStreamingMediaInsightsConfigurationOutputR
 	return nil
 }
 
-func (j *jsiiProxy_ChimeVoiceConnectorStreamingMediaInsightsConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ChimeVoiceConnectorStreamingMediaInsightsConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewChimeVoiceConnectorStreamingMediaInsightsConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewChimeVoiceConnectorStreamingMediaInsightsConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

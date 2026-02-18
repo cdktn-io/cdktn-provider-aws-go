@@ -15,7 +15,7 @@ func (d *jsiiProxy_DatazoneEnvironmentUserParametersList) validateGetParameters(
 	return nil
 }
 
-func (d *jsiiProxy_DatazoneEnvironmentUserParametersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatazoneEnvironmentUserParametersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DatazoneEnvironmentUserParametersList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_DatazoneEnvironmentUserParametersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatazoneEnvironmentUserParametersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DatazoneEnvironmentUserParametersList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewDatazoneEnvironmentUserParametersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDatazoneEnvironmentUserParametersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

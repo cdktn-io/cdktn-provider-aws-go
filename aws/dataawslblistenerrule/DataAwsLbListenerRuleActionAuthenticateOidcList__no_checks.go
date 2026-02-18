@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsLbListenerRuleActionAuthenticateOidcList) validateGetP
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLbListenerRuleActionAuthenticateOidcList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLbListenerRuleActionAuthenticateOidcList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsLbListenerRuleActionAuthenticateOidcList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLbListenerRuleActionAuthenticateOidcList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLbListenerRuleActionAuthenticateOidcList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsLbListenerRuleActionAuthenticateOidcList) validateSetW
 	return nil
 }
 
-func validateNewDataAwsLbListenerRuleActionAuthenticateOidcListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsLbListenerRuleActionAuthenticateOidcListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_CodepipelineStageOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (c *jsiiProxy_CodepipelineStageOutputReference) validatePutActionParameters
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CodepipelineStageAction:
 		value := value.(*[]*CodepipelineStageAction)
@@ -117,7 +117,7 @@ func (c *jsiiProxy_CodepipelineStageOutputReference) validatePutActionParameters
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CodepipelineStageAction; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CodepipelineStageAction; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -157,7 +157,7 @@ func (c *jsiiProxy_CodepipelineStageOutputReference) validatePutOnSuccessParamet
 	return nil
 }
 
-func (c *jsiiProxy_CodepipelineStageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodepipelineStageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -232,7 +232,7 @@ func (j *jsiiProxy_CodepipelineStageOutputReference) validateSetComplexObjectIsF
 
 func (j *jsiiProxy_CodepipelineStageOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *CodepipelineStage:
 		val := val.(*CodepipelineStage)
@@ -247,7 +247,7 @@ func (j *jsiiProxy_CodepipelineStageOutputReference) validateSetInternalValuePar
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *CodepipelineStage; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *CodepipelineStage; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -270,7 +270,7 @@ func (j *jsiiProxy_CodepipelineStageOutputReference) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_CodepipelineStageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodepipelineStageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -278,7 +278,7 @@ func (j *jsiiProxy_CodepipelineStageOutputReference) validateSetTerraformResourc
 	return nil
 }
 
-func validateNewCodepipelineStageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCodepipelineStageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

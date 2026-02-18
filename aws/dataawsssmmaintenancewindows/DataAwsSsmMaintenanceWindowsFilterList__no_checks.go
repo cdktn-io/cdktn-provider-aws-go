@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsSsmMaintenanceWindowsFilterList) validateGetParameters
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsSsmMaintenanceWindowsFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsSsmMaintenanceWindowsFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsSsmMaintenanceWindowsFilterList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSsmMaintenanceWindowsFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsSsmMaintenanceWindowsFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsSsmMaintenanceWindowsFilterList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewDataAwsSsmMaintenanceWindowsFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsSsmMaintenanceWindowsFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

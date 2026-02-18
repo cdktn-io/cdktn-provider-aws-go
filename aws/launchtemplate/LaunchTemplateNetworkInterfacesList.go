@@ -5,14 +5,14 @@ package launchtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/launchtemplate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/launchtemplate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LaunchTemplateNetworkInterfacesList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type LaunchTemplateNetworkInterfacesList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type LaunchTemplateNetworkInterfacesList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) LaunchTemplateNetworkInterfacesOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type LaunchTemplateNetworkInterfacesList interface {
 
 // The jsii proxy struct for LaunchTemplateNetworkInterfacesList
 type jsiiProxy_LaunchTemplateNetworkInterfacesList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_LaunchTemplateNetworkInterfacesList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_LaunchTemplateNetworkInterfacesList) TerraformAttribute() *st
 	return returns
 }
 
-func (j *jsiiProxy_LaunchTemplateNetworkInterfacesList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LaunchTemplateNetworkInterfacesList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_LaunchTemplateNetworkInterfacesList) WrapsSet() *bool {
 }
 
 
-func NewLaunchTemplateNetworkInterfacesList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LaunchTemplateNetworkInterfacesList {
+func NewLaunchTemplateNetworkInterfacesList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LaunchTemplateNetworkInterfacesList {
 	_init_.Initialize()
 
 	if err := validateNewLaunchTemplateNetworkInterfacesListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewLaunchTemplateNetworkInterfacesList(terraformResource cdktf.IInterpolati
 	return &j
 }
 
-func NewLaunchTemplateNetworkInterfacesList_Override(l LaunchTemplateNetworkInterfacesList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewLaunchTemplateNetworkInterfacesList_Override(l LaunchTemplateNetworkInterfacesList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_LaunchTemplateNetworkInterfacesList)SetTerraformAttribute(val
 	)
 }
 
-func (j *jsiiProxy_LaunchTemplateNetworkInterfacesList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LaunchTemplateNetworkInterfacesList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_LaunchTemplateNetworkInterfacesList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (l *jsiiProxy_LaunchTemplateNetworkInterfacesList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (l *jsiiProxy_LaunchTemplateNetworkInterfacesList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := l.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		l,
@@ -231,7 +231,7 @@ func (l *jsiiProxy_LaunchTemplateNetworkInterfacesList) Get(index *float64) Laun
 	return returns
 }
 
-func (l *jsiiProxy_LaunchTemplateNetworkInterfacesList) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LaunchTemplateNetworkInterfacesList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -5,19 +5,19 @@ package fsxfilecache
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/fsxfilecache/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/fsxfilecache/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/fsx_file_cache aws_fsx_file_cache}.
 type FsxFileCache interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -47,9 +47,9 @@ type FsxFileCache interface {
 	SetFileCacheTypeVersion(val *string)
 	FileCacheTypeVersionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -61,9 +61,9 @@ type FsxFileCache interface {
 	SetKmsKeyId(val *string)
 	KmsKeyIdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LustreConfiguration() FsxFileCacheLustreConfigurationList
 	LustreConfigurationInput() interface{}
 	NetworkInterfaceIds() *[]*string
@@ -71,9 +71,9 @@ type FsxFileCache interface {
 	Node() constructs.Node
 	OwnerId() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -99,7 +99,7 @@ type FsxFileCache interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -115,7 +115,7 @@ type FsxFileCache interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -133,9 +133,9 @@ type FsxFileCache interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -181,7 +181,7 @@ type FsxFileCache interface {
 
 // The jsii proxy struct for FsxFileCache
 type jsiiProxy_FsxFileCache struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_FsxFileCache) Arn() *string {
@@ -194,8 +194,8 @@ func (j *jsiiProxy_FsxFileCache) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FsxFileCache) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_FsxFileCache) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -354,8 +354,8 @@ func (j *jsiiProxy_FsxFileCache) FileCacheTypeVersionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FsxFileCache) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_FsxFileCache) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -424,8 +424,8 @@ func (j *jsiiProxy_FsxFileCache) KmsKeyIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FsxFileCache) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_FsxFileCache) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -484,8 +484,8 @@ func (j *jsiiProxy_FsxFileCache) OwnerId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FsxFileCache) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_FsxFileCache) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -634,8 +634,8 @@ func (j *jsiiProxy_FsxFileCache) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_FsxFileCache) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_FsxFileCache) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -787,7 +787,7 @@ func (j *jsiiProxy_FsxFileCache)SetFileCacheTypeVersion(val *string) {
 	)
 }
 
-func (j *jsiiProxy_FsxFileCache)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_FsxFileCache)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -817,7 +817,7 @@ func (j *jsiiProxy_FsxFileCache)SetKmsKeyId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_FsxFileCache)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_FsxFileCache)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -828,7 +828,7 @@ func (j *jsiiProxy_FsxFileCache)SetLifecycle(val *cdktf.TerraformResourceLifecyc
 	)
 }
 
-func (j *jsiiProxy_FsxFileCache)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_FsxFileCache)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -913,14 +913,14 @@ func (j *jsiiProxy_FsxFileCache)SetTagsAll(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a FsxFileCache resource upon running "cdktf plan <stack-name>".
-func FsxFileCache_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a FsxFileCache resource upon running "cdktn plan <stack-name>".
+func FsxFileCache_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateFsxFileCache_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.fsxFileCache.FsxFileCache",
@@ -1054,11 +1054,11 @@ func (f *jsiiProxy_FsxFileCache) GetAnyMapAttribute(terraformAttribute *string) 
 	return returns
 }
 
-func (f *jsiiProxy_FsxFileCache) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FsxFileCache) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -1195,7 +1195,7 @@ func (f *jsiiProxy_FsxFileCache) HasResourceMove() interface{} {
 	return returns
 }
 
-func (f *jsiiProxy_FsxFileCache) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (f *jsiiProxy_FsxFileCache) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := f.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1206,11 +1206,11 @@ func (f *jsiiProxy_FsxFileCache) ImportFrom(id *string, provider cdktf.Terraform
 	)
 }
 
-func (f *jsiiProxy_FsxFileCache) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FsxFileCache) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,

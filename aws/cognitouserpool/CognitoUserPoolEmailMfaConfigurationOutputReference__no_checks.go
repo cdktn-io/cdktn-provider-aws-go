@@ -47,7 +47,7 @@ func (c *jsiiProxy_CognitoUserPoolEmailMfaConfigurationOutputReference) validate
 	return nil
 }
 
-func (c *jsiiProxy_CognitoUserPoolEmailMfaConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CognitoUserPoolEmailMfaConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CognitoUserPoolEmailMfaConfigurationOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_CognitoUserPoolEmailMfaConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CognitoUserPoolEmailMfaConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCognitoUserPoolEmailMfaConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCognitoUserPoolEmailMfaConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

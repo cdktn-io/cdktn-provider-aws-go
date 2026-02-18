@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsLbListenerRuleConditionHostHeaderList) validateGetPara
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLbListenerRuleConditionHostHeaderList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLbListenerRuleConditionHostHeaderList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsLbListenerRuleConditionHostHeaderList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLbListenerRuleConditionHostHeaderList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLbListenerRuleConditionHostHeaderList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsLbListenerRuleConditionHostHeaderList) validateSetWrap
 	return nil
 }
 
-func validateNewDataAwsLbListenerRuleConditionHostHeaderListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsLbListenerRuleConditionHostHeaderListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

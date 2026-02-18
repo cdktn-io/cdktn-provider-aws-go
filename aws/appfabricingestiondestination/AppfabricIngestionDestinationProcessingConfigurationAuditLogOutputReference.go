@@ -5,14 +5,14 @@ package appfabricingestiondestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/appfabricingestiondestination/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appfabricingestiondestination/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference
 
 // The jsii proxy struct for AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference
 type jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference) ComplexObjectIndex() interface{} {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogO
 	return returns
 }
 
-func (j *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogO
 }
 
 
-func NewAppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference {
+func NewAppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -213,7 +213,7 @@ func NewAppfabricIngestionDestinationProcessingConfigurationAuditLogOutputRefere
 	return &j
 }
 
-func NewAppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference_Override(a AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewAppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference_Override(a AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogO
 	)
 }
 
-func (j *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (a *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogO
 	return returns
 }
 
-func (a *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -457,8 +457,8 @@ func (a *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogO
 	return returns
 }
 
-func (a *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -470,11 +470,11 @@ func (a *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogO
 	return returns
 }
 
-func (a *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -486,7 +486,7 @@ func (a *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogO
 	return returns
 }
 
-func (a *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

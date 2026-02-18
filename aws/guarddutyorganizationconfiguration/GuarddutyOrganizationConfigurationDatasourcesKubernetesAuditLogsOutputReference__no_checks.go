@@ -47,7 +47,7 @@ func (g *jsiiProxy_GuarddutyOrganizationConfigurationDatasourcesKubernetesAuditL
 	return nil
 }
 
-func (g *jsiiProxy_GuarddutyOrganizationConfigurationDatasourcesKubernetesAuditLogsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GuarddutyOrganizationConfigurationDatasourcesKubernetesAuditLogsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GuarddutyOrganizationConfigurationDatasourcesKubernetesAuditL
 	return nil
 }
 
-func (j *jsiiProxy_GuarddutyOrganizationConfigurationDatasourcesKubernetesAuditLogsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GuarddutyOrganizationConfigurationDatasourcesKubernetesAuditLogsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGuarddutyOrganizationConfigurationDatasourcesKubernetesAuditLogsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGuarddutyOrganizationConfigurationDatasourcesKubernetesAuditLogsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

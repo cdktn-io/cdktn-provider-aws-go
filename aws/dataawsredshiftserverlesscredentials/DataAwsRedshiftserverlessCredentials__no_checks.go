@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsRedshiftserverlessCredentials) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRedshiftserverlessCredentials) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsRedshiftserverlessCredentials) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

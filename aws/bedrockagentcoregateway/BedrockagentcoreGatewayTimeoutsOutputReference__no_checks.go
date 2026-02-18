@@ -47,7 +47,7 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentcoreGatewayTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentcoreGatewayTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreGatewayTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentcoreGatewayTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewBedrockagentcoreGatewayTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBedrockagentcoreGatewayTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

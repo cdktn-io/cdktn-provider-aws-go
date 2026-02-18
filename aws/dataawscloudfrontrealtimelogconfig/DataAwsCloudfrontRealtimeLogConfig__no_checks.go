@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsCloudfrontRealtimeLogConfig) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCloudfrontRealtimeLogConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsCloudfrontRealtimeLogConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

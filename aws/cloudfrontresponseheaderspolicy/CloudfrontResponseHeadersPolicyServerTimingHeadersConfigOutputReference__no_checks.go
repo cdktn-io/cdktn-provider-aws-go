@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudfrontResponseHeadersPolicyServerTimingHeadersConfigOutpu
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontResponseHeadersPolicyServerTimingHeadersConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontResponseHeadersPolicyServerTimingHeadersConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CloudfrontResponseHeadersPolicyServerTimingHeadersConfigOutpu
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontResponseHeadersPolicyServerTimingHeadersConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontResponseHeadersPolicyServerTimingHeadersConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudfrontResponseHeadersPolicyServerTimingHeadersConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudfrontResponseHeadersPolicyServerTimingHeadersConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

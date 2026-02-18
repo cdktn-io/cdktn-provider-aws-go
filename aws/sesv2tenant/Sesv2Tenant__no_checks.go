@@ -99,7 +99,7 @@ func (j *jsiiProxy_Sesv2Tenant) validateSetCountParameters(val interface{}) erro
 	return nil
 }
 
-func (j *jsiiProxy_Sesv2Tenant) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Sesv2Tenant) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

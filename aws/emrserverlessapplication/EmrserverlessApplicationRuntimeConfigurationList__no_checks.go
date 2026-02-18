@@ -15,7 +15,7 @@ func (e *jsiiProxy_EmrserverlessApplicationRuntimeConfigurationList) validateGet
 	return nil
 }
 
-func (e *jsiiProxy_EmrserverlessApplicationRuntimeConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EmrserverlessApplicationRuntimeConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EmrserverlessApplicationRuntimeConfigurationList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_EmrserverlessApplicationRuntimeConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EmrserverlessApplicationRuntimeConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EmrserverlessApplicationRuntimeConfigurationList) validateSet
 	return nil
 }
 
-func validateNewEmrserverlessApplicationRuntimeConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEmrserverlessApplicationRuntimeConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsLbListenerRuleConditionQueryStringList) validateGetPar
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLbListenerRuleConditionQueryStringList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLbListenerRuleConditionQueryStringList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsLbListenerRuleConditionQueryStringList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLbListenerRuleConditionQueryStringList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLbListenerRuleConditionQueryStringList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsLbListenerRuleConditionQueryStringList) validateSetWra
 	return nil
 }
 
-func validateNewDataAwsLbListenerRuleConditionQueryStringListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsLbListenerRuleConditionQueryStringListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

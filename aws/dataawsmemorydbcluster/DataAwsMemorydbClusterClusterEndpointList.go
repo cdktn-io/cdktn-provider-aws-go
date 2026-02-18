@@ -5,14 +5,14 @@ package dataawsmemorydbcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsmemorydbcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsmemorydbcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsMemorydbClusterClusterEndpointList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type DataAwsMemorydbClusterClusterEndpointList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type DataAwsMemorydbClusterClusterEndpointList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataAwsMemorydbClusterClusterEndpointOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type DataAwsMemorydbClusterClusterEndpointList interface {
 
 // The jsii proxy struct for DataAwsMemorydbClusterClusterEndpointList
 type jsiiProxy_DataAwsMemorydbClusterClusterEndpointList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataAwsMemorydbClusterClusterEndpointList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_DataAwsMemorydbClusterClusterEndpointList) TerraformAttribute
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsMemorydbClusterClusterEndpointList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsMemorydbClusterClusterEndpointList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataAwsMemorydbClusterClusterEndpointList) WrapsSet() *bool {
 }
 
 
-func NewDataAwsMemorydbClusterClusterEndpointList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsMemorydbClusterClusterEndpointList {
+func NewDataAwsMemorydbClusterClusterEndpointList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsMemorydbClusterClusterEndpointList {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsMemorydbClusterClusterEndpointListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewDataAwsMemorydbClusterClusterEndpointList(terraformResource cdktf.IInter
 	return &j
 }
 
-func NewDataAwsMemorydbClusterClusterEndpointList_Override(d DataAwsMemorydbClusterClusterEndpointList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataAwsMemorydbClusterClusterEndpointList_Override(d DataAwsMemorydbClusterClusterEndpointList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_DataAwsMemorydbClusterClusterEndpointList)SetTerraformAttribu
 	)
 }
 
-func (j *jsiiProxy_DataAwsMemorydbClusterClusterEndpointList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsMemorydbClusterClusterEndpointList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_DataAwsMemorydbClusterClusterEndpointList)SetWrapsSet(val *bo
 	)
 }
 
-func (d *jsiiProxy_DataAwsMemorydbClusterClusterEndpointList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataAwsMemorydbClusterClusterEndpointList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -208,7 +208,7 @@ func (d *jsiiProxy_DataAwsMemorydbClusterClusterEndpointList) Get(index *float64
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsMemorydbClusterClusterEndpointList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsMemorydbClusterClusterEndpointList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

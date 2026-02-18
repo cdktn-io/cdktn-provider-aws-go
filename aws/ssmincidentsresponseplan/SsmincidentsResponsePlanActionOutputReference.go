@@ -5,14 +5,14 @@ package ssmincidentsresponseplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ssmincidentsresponseplan/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ssmincidentsresponseplan/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SsmincidentsResponsePlanActionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type SsmincidentsResponsePlanActionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,14 +63,14 @@ type SsmincidentsResponsePlanActionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSsmAutomation(value interface{})
 	ResetSsmAutomation()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type SsmincidentsResponsePlanActionOutputReference interface {
 
 // The jsii proxy struct for SsmincidentsResponsePlanActionOutputReference
 type jsiiProxy_SsmincidentsResponsePlanActionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SsmincidentsResponsePlanActionOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_SsmincidentsResponsePlanActionOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_SsmincidentsResponsePlanActionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SsmincidentsResponsePlanActionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_SsmincidentsResponsePlanActionOutputReference) TerraformResou
 }
 
 
-func NewSsmincidentsResponsePlanActionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SsmincidentsResponsePlanActionOutputReference {
+func NewSsmincidentsResponsePlanActionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SsmincidentsResponsePlanActionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSsmincidentsResponsePlanActionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewSsmincidentsResponsePlanActionOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewSsmincidentsResponsePlanActionOutputReference_Override(s SsmincidentsResponsePlanActionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSsmincidentsResponsePlanActionOutputReference_Override(s SsmincidentsResponsePlanActionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_SsmincidentsResponsePlanActionOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_SsmincidentsResponsePlanActionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SsmincidentsResponsePlanActionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -285,11 +285,11 @@ func (s *jsiiProxy_SsmincidentsResponsePlanActionOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (s *jsiiProxy_SsmincidentsResponsePlanActionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SsmincidentsResponsePlanActionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -413,8 +413,8 @@ func (s *jsiiProxy_SsmincidentsResponsePlanActionOutputReference) GetStringMapAt
 	return returns
 }
 
-func (s *jsiiProxy_SsmincidentsResponsePlanActionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SsmincidentsResponsePlanActionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -426,11 +426,11 @@ func (s *jsiiProxy_SsmincidentsResponsePlanActionOutputReference) InterpolationA
 	return returns
 }
 
-func (s *jsiiProxy_SsmincidentsResponsePlanActionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SsmincidentsResponsePlanActionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -461,7 +461,7 @@ func (s *jsiiProxy_SsmincidentsResponsePlanActionOutputReference) ResetSsmAutoma
 	)
 }
 
-func (s *jsiiProxy_SsmincidentsResponsePlanActionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SsmincidentsResponsePlanActionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

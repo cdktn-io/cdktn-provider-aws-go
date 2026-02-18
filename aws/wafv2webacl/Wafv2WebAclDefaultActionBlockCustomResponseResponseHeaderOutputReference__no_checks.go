@@ -47,7 +47,7 @@ func (w *jsiiProxy_Wafv2WebAclDefaultActionBlockCustomResponseResponseHeaderOutp
 	return nil
 }
 
-func (w *jsiiProxy_Wafv2WebAclDefaultActionBlockCustomResponseResponseHeaderOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_Wafv2WebAclDefaultActionBlockCustomResponseResponseHeaderOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_Wafv2WebAclDefaultActionBlockCustomResponseResponseHeaderOutp
 	return nil
 }
 
-func (j *jsiiProxy_Wafv2WebAclDefaultActionBlockCustomResponseResponseHeaderOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Wafv2WebAclDefaultActionBlockCustomResponseResponseHeaderOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_Wafv2WebAclDefaultActionBlockCustomResponseResponseHeaderOutp
 	return nil
 }
 
-func validateNewWafv2WebAclDefaultActionBlockCustomResponseResponseHeaderOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWafv2WebAclDefaultActionBlockCustomResponseResponseHeaderOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

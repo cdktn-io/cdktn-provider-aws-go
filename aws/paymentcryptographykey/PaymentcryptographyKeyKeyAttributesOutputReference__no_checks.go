@@ -51,7 +51,7 @@ func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) validateP
 	return nil
 }
 
-func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPaymentcryptographyKeyKeyAttributesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPaymentcryptographyKeyKeyAttributesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

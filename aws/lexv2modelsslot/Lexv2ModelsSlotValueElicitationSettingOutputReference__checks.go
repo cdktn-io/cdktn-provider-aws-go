@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (l *jsiiProxy_Lexv2ModelsSlotValueElicitationSettingOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (l *jsiiProxy_Lexv2ModelsSlotValueElicitationSettingOutputReference) valida
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Lexv2ModelsSlotValueElicitationSettingDefaultValueSpecification:
 		value := value.(*[]*Lexv2ModelsSlotValueElicitationSettingDefaultValueSpecification)
@@ -117,7 +117,7 @@ func (l *jsiiProxy_Lexv2ModelsSlotValueElicitationSettingOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Lexv2ModelsSlotValueElicitationSettingDefaultValueSpecification; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Lexv2ModelsSlotValueElicitationSettingDefaultValueSpecification; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (l *jsiiProxy_Lexv2ModelsSlotValueElicitationSettingOutputReference) valida
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Lexv2ModelsSlotValueElicitationSettingPromptSpecification:
 		value := value.(*[]*Lexv2ModelsSlotValueElicitationSettingPromptSpecification)
@@ -148,7 +148,7 @@ func (l *jsiiProxy_Lexv2ModelsSlotValueElicitationSettingOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Lexv2ModelsSlotValueElicitationSettingPromptSpecification; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Lexv2ModelsSlotValueElicitationSettingPromptSpecification; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (l *jsiiProxy_Lexv2ModelsSlotValueElicitationSettingOutputReference) valida
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Lexv2ModelsSlotValueElicitationSettingSampleUtterance:
 		value := value.(*[]*Lexv2ModelsSlotValueElicitationSettingSampleUtterance)
@@ -179,7 +179,7 @@ func (l *jsiiProxy_Lexv2ModelsSlotValueElicitationSettingOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Lexv2ModelsSlotValueElicitationSettingSampleUtterance; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Lexv2ModelsSlotValueElicitationSettingSampleUtterance; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -191,7 +191,7 @@ func (l *jsiiProxy_Lexv2ModelsSlotValueElicitationSettingOutputReference) valida
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Lexv2ModelsSlotValueElicitationSettingSlotResolutionSetting:
 		value := value.(*[]*Lexv2ModelsSlotValueElicitationSettingSlotResolutionSetting)
@@ -210,7 +210,7 @@ func (l *jsiiProxy_Lexv2ModelsSlotValueElicitationSettingOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Lexv2ModelsSlotValueElicitationSettingSlotResolutionSetting; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Lexv2ModelsSlotValueElicitationSettingSlotResolutionSetting; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (l *jsiiProxy_Lexv2ModelsSlotValueElicitationSettingOutputReference) valida
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecification:
 		value := value.(*[]*Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecification)
@@ -241,14 +241,14 @@ func (l *jsiiProxy_Lexv2ModelsSlotValueElicitationSettingOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecification; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecification; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (l *jsiiProxy_Lexv2ModelsSlotValueElicitationSettingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_Lexv2ModelsSlotValueElicitationSettingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -323,7 +323,7 @@ func (j *jsiiProxy_Lexv2ModelsSlotValueElicitationSettingOutputReference) valida
 
 func (j *jsiiProxy_Lexv2ModelsSlotValueElicitationSettingOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *Lexv2ModelsSlotValueElicitationSetting:
 		val := val.(*Lexv2ModelsSlotValueElicitationSetting)
@@ -338,7 +338,7 @@ func (j *jsiiProxy_Lexv2ModelsSlotValueElicitationSettingOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *Lexv2ModelsSlotValueElicitationSetting; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *Lexv2ModelsSlotValueElicitationSetting; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -361,7 +361,7 @@ func (j *jsiiProxy_Lexv2ModelsSlotValueElicitationSettingOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_Lexv2ModelsSlotValueElicitationSettingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Lexv2ModelsSlotValueElicitationSettingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -369,7 +369,7 @@ func (j *jsiiProxy_Lexv2ModelsSlotValueElicitationSettingOutputReference) valida
 	return nil
 }
 
-func validateNewLexv2ModelsSlotValueElicitationSettingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLexv2ModelsSlotValueElicitationSettingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

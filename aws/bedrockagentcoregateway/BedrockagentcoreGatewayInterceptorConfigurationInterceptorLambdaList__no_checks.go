@@ -15,7 +15,7 @@ func (b *jsiiProxy_BedrockagentcoreGatewayInterceptorConfigurationInterceptorLam
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentcoreGatewayInterceptorConfigurationInterceptorLambdaList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentcoreGatewayInterceptorConfigurationInterceptorLambdaList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BedrockagentcoreGatewayInterceptorConfigurationInterceptorLam
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreGatewayInterceptorConfigurationInterceptorLambdaList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentcoreGatewayInterceptorConfigurationInterceptorLambdaList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BedrockagentcoreGatewayInterceptorConfigurationInterceptorLam
 	return nil
 }
 
-func validateNewBedrockagentcoreGatewayInterceptorConfigurationInterceptorLambdaListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockagentcoreGatewayInterceptorConfigurationInterceptorLambdaListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

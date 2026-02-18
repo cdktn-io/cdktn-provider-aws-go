@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsConnectContactFlow) validateSetInstanceIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsConnectContactFlow) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsConnectContactFlow) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (w *jsiiProxy_WorkspacesConnectionAliasTimeoutsOutputReference) validateInt
 	return nil
 }
 
-func (w *jsiiProxy_WorkspacesConnectionAliasTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkspacesConnectionAliasTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_WorkspacesConnectionAliasTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_WorkspacesConnectionAliasTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkspacesConnectionAliasTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWorkspacesConnectionAliasTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWorkspacesConnectionAliasTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

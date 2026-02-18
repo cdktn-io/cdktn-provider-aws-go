@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsSavingsplansSavingsPlan) validateSetCountParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSavingsplansSavingsPlan) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsSavingsplansSavingsPlan) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

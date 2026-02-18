@@ -5,14 +5,14 @@ package secretsmanagersecretrotation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/secretsmanagersecretrotation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/secretsmanagersecretrotation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SecretsmanagerSecretRotationRotationRulesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AutomaticallyAfterDays() *float64
 	SetAutomaticallyAfterDays(val *float64)
 	AutomaticallyAfterDaysInput() *float64
@@ -46,15 +46,15 @@ type SecretsmanagerSecretRotationRotationRulesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type SecretsmanagerSecretRotationRotationRulesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAutomaticallyAfterDays()
 	ResetDuration()
 	ResetScheduleExpression()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type SecretsmanagerSecretRotationRotationRulesOutputReference interface {
 
 // The jsii proxy struct for SecretsmanagerSecretRotationRotationRulesOutputReference
 type jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) AutomaticallyAfterDays() *float64 {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) Ter
 }
 
 
-func NewSecretsmanagerSecretRotationRotationRulesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SecretsmanagerSecretRotationRotationRulesOutputReference {
+func NewSecretsmanagerSecretRotationRotationRulesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SecretsmanagerSecretRotationRotationRulesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSecretsmanagerSecretRotationRotationRulesOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewSecretsmanagerSecretRotationRotationRulesOutputReference(terraformResour
 	return &j
 }
 
-func NewSecretsmanagerSecretRotationRotationRulesOutputReference_Override(s SecretsmanagerSecretRotationRotationRulesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSecretsmanagerSecretRotationRotationRulesOutputReference_Override(s SecretsmanagerSecretRotationRotationRulesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (s *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) Get
 	return returns
 }
 
-func (s *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -494,8 +494,8 @@ func (s *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) Get
 	return returns
 }
 
-func (s *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -507,11 +507,11 @@ func (s *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) Int
 	return returns
 }
 
-func (s *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -547,7 +547,7 @@ func (s *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) Res
 	)
 }
 
-func (s *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

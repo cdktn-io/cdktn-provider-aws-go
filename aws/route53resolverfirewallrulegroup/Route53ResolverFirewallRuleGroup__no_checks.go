@@ -103,7 +103,7 @@ func (j *jsiiProxy_Route53ResolverFirewallRuleGroup) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_Route53ResolverFirewallRuleGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Route53ResolverFirewallRuleGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

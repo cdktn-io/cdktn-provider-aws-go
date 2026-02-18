@@ -107,7 +107,7 @@ func (j *jsiiProxy_WafRateBasedRule) validateSetIdParameters(val *string) error 
 	return nil
 }
 
-func (j *jsiiProxy_WafRateBasedRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_WafRateBasedRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -107,7 +107,7 @@ func (j *jsiiProxy_OdbNetworkPeeringConnection) validateSetDisplayNameParameters
 	return nil
 }
 
-func (j *jsiiProxy_OdbNetworkPeeringConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_OdbNetworkPeeringConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

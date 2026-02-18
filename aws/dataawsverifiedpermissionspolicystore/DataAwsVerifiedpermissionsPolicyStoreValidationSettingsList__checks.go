@@ -8,7 +8,7 @@ package dataawsverifiedpermissionspolicystore
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataAwsVerifiedpermissionsPolicyStoreValidationSettingsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (d *jsiiProxy_DataAwsVerifiedpermissionsPolicyStoreValidationSettingsList) 
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsVerifiedpermissionsPolicyStoreValidationSettingsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsVerifiedpermissionsPolicyStoreValidationSettingsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_DataAwsVerifiedpermissionsPolicyStoreValidationSettingsList) 
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVerifiedpermissionsPolicyStoreValidationSettingsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsVerifiedpermissionsPolicyStoreValidationSettingsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_DataAwsVerifiedpermissionsPolicyStoreValidationSettingsList) 
 	return nil
 }
 
-func validateNewDataAwsVerifiedpermissionsPolicyStoreValidationSettingsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsVerifiedpermissionsPolicyStoreValidationSettingsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

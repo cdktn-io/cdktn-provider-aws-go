@@ -115,7 +115,7 @@ func (j *jsiiProxy_Ec2TransitGatewayMulticastDomain) validateSetIgmpv2SupportPar
 	return nil
 }
 
-func (j *jsiiProxy_Ec2TransitGatewayMulticastDomain) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Ec2TransitGatewayMulticastDomain) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

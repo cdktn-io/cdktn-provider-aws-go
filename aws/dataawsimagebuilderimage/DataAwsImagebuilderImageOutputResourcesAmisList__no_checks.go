@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsImagebuilderImageOutputResourcesAmisList) validateGetP
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsImagebuilderImageOutputResourcesAmisList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsImagebuilderImageOutputResourcesAmisList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsImagebuilderImageOutputResourcesAmisList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsImagebuilderImageOutputResourcesAmisList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsImagebuilderImageOutputResourcesAmisList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsImagebuilderImageOutputResourcesAmisList) validateSetW
 	return nil
 }
 
-func validateNewDataAwsImagebuilderImageOutputResourcesAmisListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsImagebuilderImageOutputResourcesAmisListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

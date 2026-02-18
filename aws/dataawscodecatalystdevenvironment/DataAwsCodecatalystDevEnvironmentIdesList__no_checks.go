@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsCodecatalystDevEnvironmentIdesList) validateGetParamet
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCodecatalystDevEnvironmentIdesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCodecatalystDevEnvironmentIdesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsCodecatalystDevEnvironmentIdesList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCodecatalystDevEnvironmentIdesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCodecatalystDevEnvironmentIdesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsCodecatalystDevEnvironmentIdesList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewDataAwsCodecatalystDevEnvironmentIdesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsCodecatalystDevEnvironmentIdesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

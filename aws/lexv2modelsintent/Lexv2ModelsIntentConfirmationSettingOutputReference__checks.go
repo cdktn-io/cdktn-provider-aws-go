@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Lexv2ModelsIntentConfirmationSettingCodeHook:
 		value := value.(*[]*Lexv2ModelsIntentConfirmationSettingCodeHook)
@@ -117,7 +117,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingCodeHook; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingCodeHook; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Lexv2ModelsIntentConfirmationSettingConfirmationConditional:
 		value := value.(*[]*Lexv2ModelsIntentConfirmationSettingConfirmationConditional)
@@ -148,7 +148,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingConfirmationConditional; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingConfirmationConditional; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Lexv2ModelsIntentConfirmationSettingConfirmationNextStep:
 		value := value.(*[]*Lexv2ModelsIntentConfirmationSettingConfirmationNextStep)
@@ -179,7 +179,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingConfirmationNextStep; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingConfirmationNextStep; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -191,7 +191,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Lexv2ModelsIntentConfirmationSettingConfirmationResponse:
 		value := value.(*[]*Lexv2ModelsIntentConfirmationSettingConfirmationResponse)
@@ -210,7 +210,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingConfirmationResponse; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingConfirmationResponse; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Lexv2ModelsIntentConfirmationSettingDeclinationConditional:
 		value := value.(*[]*Lexv2ModelsIntentConfirmationSettingDeclinationConditional)
@@ -241,7 +241,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingDeclinationConditional; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingDeclinationConditional; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -253,7 +253,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Lexv2ModelsIntentConfirmationSettingDeclinationNextStep:
 		value := value.(*[]*Lexv2ModelsIntentConfirmationSettingDeclinationNextStep)
@@ -272,7 +272,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingDeclinationNextStep; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingDeclinationNextStep; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -284,7 +284,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Lexv2ModelsIntentConfirmationSettingDeclinationResponse:
 		value := value.(*[]*Lexv2ModelsIntentConfirmationSettingDeclinationResponse)
@@ -303,7 +303,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingDeclinationResponse; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingDeclinationResponse; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -315,7 +315,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Lexv2ModelsIntentConfirmationSettingElicitationCodeHook:
 		value := value.(*[]*Lexv2ModelsIntentConfirmationSettingElicitationCodeHook)
@@ -334,7 +334,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingElicitationCodeHook; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingElicitationCodeHook; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -346,7 +346,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Lexv2ModelsIntentConfirmationSettingFailureConditional:
 		value := value.(*[]*Lexv2ModelsIntentConfirmationSettingFailureConditional)
@@ -365,7 +365,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingFailureConditional; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingFailureConditional; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -377,7 +377,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Lexv2ModelsIntentConfirmationSettingFailureNextStep:
 		value := value.(*[]*Lexv2ModelsIntentConfirmationSettingFailureNextStep)
@@ -396,7 +396,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingFailureNextStep; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingFailureNextStep; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -408,7 +408,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Lexv2ModelsIntentConfirmationSettingFailureResponse:
 		value := value.(*[]*Lexv2ModelsIntentConfirmationSettingFailureResponse)
@@ -427,7 +427,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingFailureResponse; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingFailureResponse; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -439,7 +439,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Lexv2ModelsIntentConfirmationSettingPromptSpecification:
 		value := value.(*[]*Lexv2ModelsIntentConfirmationSettingPromptSpecification)
@@ -458,14 +458,14 @@ func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingPromptSpecification; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Lexv2ModelsIntentConfirmationSettingPromptSpecification; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -482,11 +482,11 @@ func (j *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -560,7 +560,7 @@ func (j *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 
 func (j *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *Lexv2ModelsIntentConfirmationSetting:
 		val := val.(*Lexv2ModelsIntentConfirmationSetting)
@@ -575,7 +575,7 @@ func (j *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *Lexv2ModelsIntentConfirmationSetting; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *Lexv2ModelsIntentConfirmationSetting; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -590,7 +590,7 @@ func (j *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -598,7 +598,7 @@ func (j *jsiiProxy_Lexv2ModelsIntentConfirmationSettingOutputReference) validate
 	return nil
 }
 
-func validateNewLexv2ModelsIntentConfirmationSettingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLexv2ModelsIntentConfirmationSettingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

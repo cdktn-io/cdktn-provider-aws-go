@@ -47,7 +47,7 @@ func (a *jsiiProxy_AutoscalingGroupLaunchTemplateOutputReference) validateInterp
 	return nil
 }
 
-func (a *jsiiProxy_AutoscalingGroupLaunchTemplateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutoscalingGroupLaunchTemplateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_AutoscalingGroupLaunchTemplateOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_AutoscalingGroupLaunchTemplateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutoscalingGroupLaunchTemplateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_AutoscalingGroupLaunchTemplateOutputReference) validateSetVer
 	return nil
 }
 
-func validateNewAutoscalingGroupLaunchTemplateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAutoscalingGroupLaunchTemplateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

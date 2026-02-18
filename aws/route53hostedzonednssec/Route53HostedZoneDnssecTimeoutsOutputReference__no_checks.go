@@ -47,7 +47,7 @@ func (r *jsiiProxy_Route53HostedZoneDnssecTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (r *jsiiProxy_Route53HostedZoneDnssecTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_Route53HostedZoneDnssecTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_Route53HostedZoneDnssecTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_Route53HostedZoneDnssecTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Route53HostedZoneDnssecTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_Route53HostedZoneDnssecTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewRoute53HostedZoneDnssecTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRoute53HostedZoneDnssecTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsBedrockagentAgentVersionsAgentVersionSummariesGuardrai
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsBedrockagentAgentVersionsAgentVersionSummariesGuardrailConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsBedrockagentAgentVersionsAgentVersionSummariesGuardrailConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsBedrockagentAgentVersionsAgentVersionSummariesGuardrai
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsBedrockagentAgentVersionsAgentVersionSummariesGuardrailConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsBedrockagentAgentVersionsAgentVersionSummariesGuardrailConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsBedrockagentAgentVersionsAgentVersionSummariesGuardrai
 	return nil
 }
 
-func validateNewDataAwsBedrockagentAgentVersionsAgentVersionSummariesGuardrailConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsBedrockagentAgentVersionsAgentVersionSummariesGuardrailConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

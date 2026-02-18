@@ -135,7 +135,7 @@ func (j *jsiiProxy_Lexv2ModelsSlot) validateSetIntentIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_Lexv2ModelsSlot) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Lexv2ModelsSlot) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

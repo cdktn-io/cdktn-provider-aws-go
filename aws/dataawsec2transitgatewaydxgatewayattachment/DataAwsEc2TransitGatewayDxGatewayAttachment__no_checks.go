@@ -91,7 +91,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayDxGatewayAttachment) validateSetIdPar
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2TransitGatewayDxGatewayAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsEc2TransitGatewayDxGatewayAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

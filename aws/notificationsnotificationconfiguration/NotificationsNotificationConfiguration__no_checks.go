@@ -107,7 +107,7 @@ func (j *jsiiProxy_NotificationsNotificationConfiguration) validateSetDescriptio
 	return nil
 }
 
-func (j *jsiiProxy_NotificationsNotificationConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NotificationsNotificationConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

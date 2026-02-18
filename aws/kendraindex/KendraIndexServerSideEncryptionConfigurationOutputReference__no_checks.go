@@ -47,7 +47,7 @@ func (k *jsiiProxy_KendraIndexServerSideEncryptionConfigurationOutputReference) 
 	return nil
 }
 
-func (k *jsiiProxy_KendraIndexServerSideEncryptionConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KendraIndexServerSideEncryptionConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_KendraIndexServerSideEncryptionConfigurationOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_KendraIndexServerSideEncryptionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KendraIndexServerSideEncryptionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKendraIndexServerSideEncryptionConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKendraIndexServerSideEncryptionConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (a *jsiiProxy_AlbListenerRuleActionJwtValidationAdditionalClaimOutputRefere
 	return nil
 }
 
-func (a *jsiiProxy_AlbListenerRuleActionJwtValidationAdditionalClaimOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AlbListenerRuleActionJwtValidationAdditionalClaimOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_AlbListenerRuleActionJwtValidationAdditionalClaimOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_AlbListenerRuleActionJwtValidationAdditionalClaimOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AlbListenerRuleActionJwtValidationAdditionalClaimOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_AlbListenerRuleActionJwtValidationAdditionalClaimOutputRefere
 	return nil
 }
 
-func validateNewAlbListenerRuleActionJwtValidationAdditionalClaimOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAlbListenerRuleActionJwtValidationAdditionalClaimOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

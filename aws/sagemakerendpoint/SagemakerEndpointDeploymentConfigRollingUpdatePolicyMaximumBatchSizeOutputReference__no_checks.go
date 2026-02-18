@@ -47,7 +47,7 @@ func (s *jsiiProxy_SagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBa
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBatchSizeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBatchSizeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_SagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBa
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBatchSizeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBatchSizeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBa
 	return nil
 }
 
-func validateNewSagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBatchSizeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBatchSizeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

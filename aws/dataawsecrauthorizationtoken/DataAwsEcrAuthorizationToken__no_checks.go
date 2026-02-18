@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsEcrAuthorizationToken) validateSetIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEcrAuthorizationToken) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsEcrAuthorizationToken) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (v *jsiiProxy_VpclatticeTargetGroupConfigHealthCheckOutputReference) valida
 	return nil
 }
 
-func (v *jsiiProxy_VpclatticeTargetGroupConfigHealthCheckOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpclatticeTargetGroupConfigHealthCheckOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_VpclatticeTargetGroupConfigHealthCheckOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_VpclatticeTargetGroupConfigHealthCheckOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpclatticeTargetGroupConfigHealthCheckOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -111,7 +111,7 @@ func (j *jsiiProxy_VpclatticeTargetGroupConfigHealthCheckOutputReference) valida
 	return nil
 }
 
-func validateNewVpclatticeTargetGroupConfigHealthCheckOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpclatticeTargetGroupConfigHealthCheckOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsApiGatewayAuthorizers) validateSetIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsApiGatewayAuthorizers) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsApiGatewayAuthorizers) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

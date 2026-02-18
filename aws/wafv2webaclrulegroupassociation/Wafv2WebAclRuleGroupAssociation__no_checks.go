@@ -111,7 +111,7 @@ func (j *jsiiProxy_Wafv2WebAclRuleGroupAssociation) validateSetCountParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_Wafv2WebAclRuleGroupAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Wafv2WebAclRuleGroupAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

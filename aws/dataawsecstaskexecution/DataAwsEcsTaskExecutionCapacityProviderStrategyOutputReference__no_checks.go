@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEcsTaskExecutionCapacityProviderStrategyOutputReferenc
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEcsTaskExecutionCapacityProviderStrategyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEcsTaskExecutionCapacityProviderStrategyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsEcsTaskExecutionCapacityProviderStrategyOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEcsTaskExecutionCapacityProviderStrategyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEcsTaskExecutionCapacityProviderStrategyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsEcsTaskExecutionCapacityProviderStrategyOutputReferenc
 	return nil
 }
 
-func validateNewDataAwsEcsTaskExecutionCapacityProviderStrategyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsEcsTaskExecutionCapacityProviderStrategyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

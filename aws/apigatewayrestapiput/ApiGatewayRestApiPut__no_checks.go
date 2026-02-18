@@ -111,7 +111,7 @@ func (j *jsiiProxy_ApiGatewayRestApiPut) validateSetFailOnWarningsParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_ApiGatewayRestApiPut) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApiGatewayRestApiPut) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

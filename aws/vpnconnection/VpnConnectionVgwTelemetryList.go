@@ -5,14 +5,14 @@ package vpnconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/vpnconnection/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/vpnconnection/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VpnConnectionVgwTelemetryList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type VpnConnectionVgwTelemetryList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type VpnConnectionVgwTelemetryList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) VpnConnectionVgwTelemetryOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type VpnConnectionVgwTelemetryList interface {
 
 // The jsii proxy struct for VpnConnectionVgwTelemetryList
 type jsiiProxy_VpnConnectionVgwTelemetryList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_VpnConnectionVgwTelemetryList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_VpnConnectionVgwTelemetryList) TerraformAttribute() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VpnConnectionVgwTelemetryList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VpnConnectionVgwTelemetryList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_VpnConnectionVgwTelemetryList) WrapsSet() *bool {
 }
 
 
-func NewVpnConnectionVgwTelemetryList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) VpnConnectionVgwTelemetryList {
+func NewVpnConnectionVgwTelemetryList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) VpnConnectionVgwTelemetryList {
 	_init_.Initialize()
 
 	if err := validateNewVpnConnectionVgwTelemetryListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewVpnConnectionVgwTelemetryList(terraformResource cdktf.IInterpolatingPare
 	return &j
 }
 
-func NewVpnConnectionVgwTelemetryList_Override(v VpnConnectionVgwTelemetryList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewVpnConnectionVgwTelemetryList_Override(v VpnConnectionVgwTelemetryList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_VpnConnectionVgwTelemetryList)SetTerraformAttribute(val *stri
 	)
 }
 
-func (j *jsiiProxy_VpnConnectionVgwTelemetryList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VpnConnectionVgwTelemetryList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_VpnConnectionVgwTelemetryList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (v *jsiiProxy_VpnConnectionVgwTelemetryList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (v *jsiiProxy_VpnConnectionVgwTelemetryList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := v.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		v,
@@ -208,7 +208,7 @@ func (v *jsiiProxy_VpnConnectionVgwTelemetryList) Get(index *float64) VpnConnect
 	return returns
 }
 
-func (v *jsiiProxy_VpnConnectionVgwTelemetryList) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VpnConnectionVgwTelemetryList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

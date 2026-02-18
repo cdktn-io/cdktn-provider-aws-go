@@ -47,7 +47,7 @@ func (e *jsiiProxy_ElasticacheClusterCacheNodesOutputReference) validateInterpol
 	return nil
 }
 
-func (e *jsiiProxy_ElasticacheClusterCacheNodesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticacheClusterCacheNodesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_ElasticacheClusterCacheNodesOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_ElasticacheClusterCacheNodesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticacheClusterCacheNodesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewElasticacheClusterCacheNodesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewElasticacheClusterCacheNodesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

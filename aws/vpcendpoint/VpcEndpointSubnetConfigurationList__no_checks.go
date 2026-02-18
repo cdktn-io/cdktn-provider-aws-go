@@ -15,7 +15,7 @@ func (v *jsiiProxy_VpcEndpointSubnetConfigurationList) validateGetParameters(ind
 	return nil
 }
 
-func (v *jsiiProxy_VpcEndpointSubnetConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpcEndpointSubnetConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VpcEndpointSubnetConfigurationList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_VpcEndpointSubnetConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpcEndpointSubnetConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VpcEndpointSubnetConfigurationList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewVpcEndpointSubnetConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVpcEndpointSubnetConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

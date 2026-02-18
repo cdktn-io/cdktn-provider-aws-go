@@ -155,7 +155,7 @@ func (j *jsiiProxy_CloudfrontMultitenantDistribution) validateSetHttpVersionPara
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontMultitenantDistribution) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudfrontMultitenantDistribution) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

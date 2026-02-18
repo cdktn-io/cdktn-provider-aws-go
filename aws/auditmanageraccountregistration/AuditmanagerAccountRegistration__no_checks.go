@@ -111,7 +111,7 @@ func (j *jsiiProxy_AuditmanagerAccountRegistration) validateSetKmsKeyParameters(
 	return nil
 }
 
-func (j *jsiiProxy_AuditmanagerAccountRegistration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AuditmanagerAccountRegistration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

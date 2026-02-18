@@ -5,14 +5,14 @@ package dynamodbtable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dynamodbtable/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dynamodbtable/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DynamodbTableImportTableInputFormatOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type DynamodbTableImportTableInputFormatOptionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,14 +63,14 @@ type DynamodbTableImportTableInputFormatOptionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCsv(value *DynamodbTableImportTableInputFormatOptionsCsv)
 	ResetCsv()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type DynamodbTableImportTableInputFormatOptionsOutputReference interface {
 
 // The jsii proxy struct for DynamodbTableImportTableInputFormatOptionsOutputReference
 type jsiiProxy_DynamodbTableImportTableInputFormatOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DynamodbTableImportTableInputFormatOptionsOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_DynamodbTableImportTableInputFormatOptionsOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_DynamodbTableImportTableInputFormatOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DynamodbTableImportTableInputFormatOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_DynamodbTableImportTableInputFormatOptionsOutputReference) Te
 }
 
 
-func NewDynamodbTableImportTableInputFormatOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DynamodbTableImportTableInputFormatOptionsOutputReference {
+func NewDynamodbTableImportTableInputFormatOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DynamodbTableImportTableInputFormatOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDynamodbTableImportTableInputFormatOptionsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewDynamodbTableImportTableInputFormatOptionsOutputReference(terraformResou
 	return &j
 }
 
-func NewDynamodbTableImportTableInputFormatOptionsOutputReference_Override(d DynamodbTableImportTableInputFormatOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDynamodbTableImportTableInputFormatOptionsOutputReference_Override(d DynamodbTableImportTableInputFormatOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_DynamodbTableImportTableInputFormatOptionsOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_DynamodbTableImportTableInputFormatOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DynamodbTableImportTableInputFormatOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -285,11 +285,11 @@ func (d *jsiiProxy_DynamodbTableImportTableInputFormatOptionsOutputReference) Ge
 	return returns
 }
 
-func (d *jsiiProxy_DynamodbTableImportTableInputFormatOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DynamodbTableImportTableInputFormatOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -413,8 +413,8 @@ func (d *jsiiProxy_DynamodbTableImportTableInputFormatOptionsOutputReference) Ge
 	return returns
 }
 
-func (d *jsiiProxy_DynamodbTableImportTableInputFormatOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DynamodbTableImportTableInputFormatOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -426,11 +426,11 @@ func (d *jsiiProxy_DynamodbTableImportTableInputFormatOptionsOutputReference) In
 	return returns
 }
 
-func (d *jsiiProxy_DynamodbTableImportTableInputFormatOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DynamodbTableImportTableInputFormatOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -461,7 +461,7 @@ func (d *jsiiProxy_DynamodbTableImportTableInputFormatOptionsOutputReference) Re
 	)
 }
 
-func (d *jsiiProxy_DynamodbTableImportTableInputFormatOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DynamodbTableImportTableInputFormatOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

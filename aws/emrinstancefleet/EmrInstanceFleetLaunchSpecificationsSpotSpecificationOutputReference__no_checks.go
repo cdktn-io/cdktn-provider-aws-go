@@ -47,7 +47,7 @@ func (e *jsiiProxy_EmrInstanceFleetLaunchSpecificationsSpotSpecificationOutputRe
 	return nil
 }
 
-func (e *jsiiProxy_EmrInstanceFleetLaunchSpecificationsSpotSpecificationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EmrInstanceFleetLaunchSpecificationsSpotSpecificationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_EmrInstanceFleetLaunchSpecificationsSpotSpecificationOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_EmrInstanceFleetLaunchSpecificationsSpotSpecificationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EmrInstanceFleetLaunchSpecificationsSpotSpecificationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_EmrInstanceFleetLaunchSpecificationsSpotSpecificationOutputRe
 	return nil
 }
 
-func validateNewEmrInstanceFleetLaunchSpecificationsSpotSpecificationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEmrInstanceFleetLaunchSpecificationsSpotSpecificationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

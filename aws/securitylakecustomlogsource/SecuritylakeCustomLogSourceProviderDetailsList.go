@@ -5,14 +5,14 @@ package securitylakecustomlogsource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/securitylakecustomlogsource/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/securitylakecustomlogsource/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SecuritylakeCustomLogSourceProviderDetailsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type SecuritylakeCustomLogSourceProviderDetailsList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type SecuritylakeCustomLogSourceProviderDetailsList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) SecuritylakeCustomLogSourceProviderDetailsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type SecuritylakeCustomLogSourceProviderDetailsList interface {
 
 // The jsii proxy struct for SecuritylakeCustomLogSourceProviderDetailsList
 type jsiiProxy_SecuritylakeCustomLogSourceProviderDetailsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_SecuritylakeCustomLogSourceProviderDetailsList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_SecuritylakeCustomLogSourceProviderDetailsList) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_SecuritylakeCustomLogSourceProviderDetailsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SecuritylakeCustomLogSourceProviderDetailsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_SecuritylakeCustomLogSourceProviderDetailsList) WrapsSet() *b
 }
 
 
-func NewSecuritylakeCustomLogSourceProviderDetailsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecuritylakeCustomLogSourceProviderDetailsList {
+func NewSecuritylakeCustomLogSourceProviderDetailsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecuritylakeCustomLogSourceProviderDetailsList {
 	_init_.Initialize()
 
 	if err := validateNewSecuritylakeCustomLogSourceProviderDetailsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewSecuritylakeCustomLogSourceProviderDetailsList(terraformResource cdktf.I
 	return &j
 }
 
-func NewSecuritylakeCustomLogSourceProviderDetailsList_Override(s SecuritylakeCustomLogSourceProviderDetailsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewSecuritylakeCustomLogSourceProviderDetailsList_Override(s SecuritylakeCustomLogSourceProviderDetailsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_SecuritylakeCustomLogSourceProviderDetailsList)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_SecuritylakeCustomLogSourceProviderDetailsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SecuritylakeCustomLogSourceProviderDetailsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_SecuritylakeCustomLogSourceProviderDetailsList)SetWrapsSet(va
 	)
 }
 
-func (s *jsiiProxy_SecuritylakeCustomLogSourceProviderDetailsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (s *jsiiProxy_SecuritylakeCustomLogSourceProviderDetailsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := s.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		s,
@@ -208,7 +208,7 @@ func (s *jsiiProxy_SecuritylakeCustomLogSourceProviderDetailsList) Get(index *fl
 	return returns
 }
 
-func (s *jsiiProxy_SecuritylakeCustomLogSourceProviderDetailsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SecuritylakeCustomLogSourceProviderDetailsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -15,7 +15,7 @@ func (b *jsiiProxy_BedrockagentAgentActionGroupActionGroupExecutorList) validate
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentAgentActionGroupActionGroupExecutorList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentAgentActionGroupActionGroupExecutorList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BedrockagentAgentActionGroupActionGroupExecutorList) validate
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentAgentActionGroupActionGroupExecutorList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentAgentActionGroupActionGroupExecutorList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BedrockagentAgentActionGroupActionGroupExecutorList) validate
 	return nil
 }
 
-func validateNewBedrockagentAgentActionGroupActionGroupExecutorListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockagentAgentActionGroupActionGroupExecutorListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

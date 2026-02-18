@@ -47,7 +47,7 @@ func (g *jsiiProxy_GlueCatalogTableOptimizerConfigurationRetentionConfigurationI
 	return nil
 }
 
-func (g *jsiiProxy_GlueCatalogTableOptimizerConfigurationRetentionConfigurationIcebergConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueCatalogTableOptimizerConfigurationRetentionConfigurationIcebergConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GlueCatalogTableOptimizerConfigurationRetentionConfigurationI
 	return nil
 }
 
-func (j *jsiiProxy_GlueCatalogTableOptimizerConfigurationRetentionConfigurationIcebergConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueCatalogTableOptimizerConfigurationRetentionConfigurationIcebergConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGlueCatalogTableOptimizerConfigurationRetentionConfigurationIcebergConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGlueCatalogTableOptimizerConfigurationRetentionConfigurationIcebergConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

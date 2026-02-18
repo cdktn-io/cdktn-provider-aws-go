@@ -15,7 +15,7 @@ func (l *jsiiProxy_LakeformationDataLakeSettingsCreateDatabaseDefaultPermissions
 	return nil
 }
 
-func (l *jsiiProxy_LakeformationDataLakeSettingsCreateDatabaseDefaultPermissionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LakeformationDataLakeSettingsCreateDatabaseDefaultPermissionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LakeformationDataLakeSettingsCreateDatabaseDefaultPermissions
 	return nil
 }
 
-func (j *jsiiProxy_LakeformationDataLakeSettingsCreateDatabaseDefaultPermissionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LakeformationDataLakeSettingsCreateDatabaseDefaultPermissionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LakeformationDataLakeSettingsCreateDatabaseDefaultPermissions
 	return nil
 }
 
-func validateNewLakeformationDataLakeSettingsCreateDatabaseDefaultPermissionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLakeformationDataLakeSettingsCreateDatabaseDefaultPermissionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

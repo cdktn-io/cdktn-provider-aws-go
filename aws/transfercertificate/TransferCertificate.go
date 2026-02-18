@@ -5,20 +5,20 @@ package transfercertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/transfercertificate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/transfercertificate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/transfer_certificate aws_transfer_certificate}.
 type TransferCertificate interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ActiveDate() *string
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Certificate() *string
 	SetCertificate(val *string)
 	CertificateChain() *string
@@ -44,9 +44,9 @@ type TransferCertificate interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -56,18 +56,18 @@ type TransferCertificate interface {
 	IdInput() *string
 	InactiveDate() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	PrivateKey() *string
 	SetPrivateKey(val *string)
 	PrivateKeyInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -84,7 +84,7 @@ type TransferCertificate interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -100,7 +100,7 @@ type TransferCertificate interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -118,9 +118,9 @@ type TransferCertificate interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -160,7 +160,7 @@ type TransferCertificate interface {
 
 // The jsii proxy struct for TransferCertificate
 type jsiiProxy_TransferCertificate struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_TransferCertificate) ActiveDate() *string {
@@ -183,8 +183,8 @@ func (j *jsiiProxy_TransferCertificate) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_TransferCertificate) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_TransferCertificate) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -303,8 +303,8 @@ func (j *jsiiProxy_TransferCertificate) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_TransferCertificate) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_TransferCertificate) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -363,8 +363,8 @@ func (j *jsiiProxy_TransferCertificate) InactiveDate() *string {
 	return returns
 }
 
-func (j *jsiiProxy_TransferCertificate) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_TransferCertificate) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -403,8 +403,8 @@ func (j *jsiiProxy_TransferCertificate) PrivateKeyInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_TransferCertificate) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_TransferCertificate) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -493,8 +493,8 @@ func (j *jsiiProxy_TransferCertificate) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_TransferCertificate) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_TransferCertificate) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -636,7 +636,7 @@ func (j *jsiiProxy_TransferCertificate)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_TransferCertificate)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_TransferCertificate)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -655,7 +655,7 @@ func (j *jsiiProxy_TransferCertificate)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_TransferCertificate)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_TransferCertificate)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -677,7 +677,7 @@ func (j *jsiiProxy_TransferCertificate)SetPrivateKey(val *string) {
 	)
 }
 
-func (j *jsiiProxy_TransferCertificate)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_TransferCertificate)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -740,14 +740,14 @@ func (j *jsiiProxy_TransferCertificate)SetUsage(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a TransferCertificate resource upon running "cdktf plan <stack-name>".
-func TransferCertificate_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a TransferCertificate resource upon running "cdktn plan <stack-name>".
+func TransferCertificate_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateTransferCertificate_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.transferCertificate.TransferCertificate",
@@ -881,11 +881,11 @@ func (t *jsiiProxy_TransferCertificate) GetAnyMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (t *jsiiProxy_TransferCertificate) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TransferCertificate) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -1022,7 +1022,7 @@ func (t *jsiiProxy_TransferCertificate) HasResourceMove() interface{} {
 	return returns
 }
 
-func (t *jsiiProxy_TransferCertificate) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (t *jsiiProxy_TransferCertificate) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := t.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1033,11 +1033,11 @@ func (t *jsiiProxy_TransferCertificate) ImportFrom(id *string, provider cdktf.Te
 	)
 }
 
-func (t *jsiiProxy_TransferCertificate) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TransferCertificate) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,

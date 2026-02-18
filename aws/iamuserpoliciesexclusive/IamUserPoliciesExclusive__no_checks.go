@@ -99,7 +99,7 @@ func (j *jsiiProxy_IamUserPoliciesExclusive) validateSetCountParameters(val inte
 	return nil
 }
 
-func (j *jsiiProxy_IamUserPoliciesExclusive) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IamUserPoliciesExclusive) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

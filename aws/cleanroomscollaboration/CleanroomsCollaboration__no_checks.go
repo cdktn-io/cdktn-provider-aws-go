@@ -127,7 +127,7 @@ func (j *jsiiProxy_CleanroomsCollaboration) validateSetDescriptionParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_CleanroomsCollaboration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CleanroomsCollaboration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

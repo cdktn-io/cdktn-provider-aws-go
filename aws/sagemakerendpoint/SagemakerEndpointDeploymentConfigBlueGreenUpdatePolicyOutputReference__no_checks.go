@@ -51,7 +51,7 @@ func (s *jsiiProxy_SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyOutputR
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyOutputR
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

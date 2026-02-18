@@ -119,7 +119,7 @@ func (j *jsiiProxy_KendraExperience) validateSetIndexIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_KendraExperience) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KendraExperience) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

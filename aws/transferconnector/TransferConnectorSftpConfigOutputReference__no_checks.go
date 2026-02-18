@@ -47,7 +47,7 @@ func (t *jsiiProxy_TransferConnectorSftpConfigOutputReference) validateInterpola
 	return nil
 }
 
-func (t *jsiiProxy_TransferConnectorSftpConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TransferConnectorSftpConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_TransferConnectorSftpConfigOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_TransferConnectorSftpConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TransferConnectorSftpConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_TransferConnectorSftpConfigOutputReference) validateSetUserSe
 	return nil
 }
 
-func validateNewTransferConnectorSftpConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTransferConnectorSftpConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

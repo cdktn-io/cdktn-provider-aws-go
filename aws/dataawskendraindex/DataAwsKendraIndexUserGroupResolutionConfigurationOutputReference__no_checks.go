@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsKendraIndexUserGroupResolutionConfigurationOutputRefer
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsKendraIndexUserGroupResolutionConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsKendraIndexUserGroupResolutionConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsKendraIndexUserGroupResolutionConfigurationOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsKendraIndexUserGroupResolutionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsKendraIndexUserGroupResolutionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsKendraIndexUserGroupResolutionConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsKendraIndexUserGroupResolutionConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

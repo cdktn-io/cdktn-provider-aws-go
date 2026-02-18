@@ -47,7 +47,7 @@ func (e *jsiiProxy_EksClusterRemoteNetworkConfigRemotePodNetworksOutputReference
 	return nil
 }
 
-func (e *jsiiProxy_EksClusterRemoteNetworkConfigRemotePodNetworksOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksClusterRemoteNetworkConfigRemotePodNetworksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_EksClusterRemoteNetworkConfigRemotePodNetworksOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_EksClusterRemoteNetworkConfigRemotePodNetworksOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksClusterRemoteNetworkConfigRemotePodNetworksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEksClusterRemoteNetworkConfigRemotePodNetworksOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEksClusterRemoteNetworkConfigRemotePodNetworksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

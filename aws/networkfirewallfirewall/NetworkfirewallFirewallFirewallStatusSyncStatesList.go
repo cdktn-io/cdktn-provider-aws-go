@@ -5,14 +5,14 @@ package networkfirewallfirewall
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/networkfirewallfirewall/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/networkfirewallfirewall/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetworkfirewallFirewallFirewallStatusSyncStatesList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type NetworkfirewallFirewallFirewallStatusSyncStatesList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type NetworkfirewallFirewallFirewallStatusSyncStatesList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) NetworkfirewallFirewallFirewallStatusSyncStatesOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type NetworkfirewallFirewallFirewallStatusSyncStatesList interface {
 
 // The jsii proxy struct for NetworkfirewallFirewallFirewallStatusSyncStatesList
 type jsiiProxy_NetworkfirewallFirewallFirewallStatusSyncStatesList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_NetworkfirewallFirewallFirewallStatusSyncStatesList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_NetworkfirewallFirewallFirewallStatusSyncStatesList) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_NetworkfirewallFirewallFirewallStatusSyncStatesList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetworkfirewallFirewallFirewallStatusSyncStatesList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_NetworkfirewallFirewallFirewallStatusSyncStatesList) WrapsSet
 }
 
 
-func NewNetworkfirewallFirewallFirewallStatusSyncStatesList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkfirewallFirewallFirewallStatusSyncStatesList {
+func NewNetworkfirewallFirewallFirewallStatusSyncStatesList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkfirewallFirewallFirewallStatusSyncStatesList {
 	_init_.Initialize()
 
 	if err := validateNewNetworkfirewallFirewallFirewallStatusSyncStatesListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewNetworkfirewallFirewallFirewallStatusSyncStatesList(terraformResource cd
 	return &j
 }
 
-func NewNetworkfirewallFirewallFirewallStatusSyncStatesList_Override(n NetworkfirewallFirewallFirewallStatusSyncStatesList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewNetworkfirewallFirewallFirewallStatusSyncStatesList_Override(n NetworkfirewallFirewallFirewallStatusSyncStatesList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_NetworkfirewallFirewallFirewallStatusSyncStatesList)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_NetworkfirewallFirewallFirewallStatusSyncStatesList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetworkfirewallFirewallFirewallStatusSyncStatesList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_NetworkfirewallFirewallFirewallStatusSyncStatesList)SetWrapsS
 	)
 }
 
-func (n *jsiiProxy_NetworkfirewallFirewallFirewallStatusSyncStatesList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (n *jsiiProxy_NetworkfirewallFirewallFirewallStatusSyncStatesList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := n.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		n,
@@ -208,7 +208,7 @@ func (n *jsiiProxy_NetworkfirewallFirewallFirewallStatusSyncStatesList) Get(inde
 	return returns
 }
 
-func (n *jsiiProxy_NetworkfirewallFirewallFirewallStatusSyncStatesList) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetworkfirewallFirewallFirewallStatusSyncStatesList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

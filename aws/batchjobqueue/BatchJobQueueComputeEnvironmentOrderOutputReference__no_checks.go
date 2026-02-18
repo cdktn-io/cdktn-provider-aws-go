@@ -47,7 +47,7 @@ func (b *jsiiProxy_BatchJobQueueComputeEnvironmentOrderOutputReference) validate
 	return nil
 }
 
-func (b *jsiiProxy_BatchJobQueueComputeEnvironmentOrderOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchJobQueueComputeEnvironmentOrderOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BatchJobQueueComputeEnvironmentOrderOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_BatchJobQueueComputeEnvironmentOrderOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchJobQueueComputeEnvironmentOrderOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBatchJobQueueComputeEnvironmentOrderOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBatchJobQueueComputeEnvironmentOrderOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

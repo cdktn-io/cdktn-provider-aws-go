@@ -47,7 +47,7 @@ func (c *jsiiProxy_CleanroomsConfiguredTableTableReferenceOutputReference) valid
 	return nil
 }
 
-func (c *jsiiProxy_CleanroomsConfiguredTableTableReferenceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CleanroomsConfiguredTableTableReferenceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CleanroomsConfiguredTableTableReferenceOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_CleanroomsConfiguredTableTableReferenceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CleanroomsConfiguredTableTableReferenceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCleanroomsConfiguredTableTableReferenceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCleanroomsConfiguredTableTableReferenceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (n *jsiiProxy_NeptuneClusterServerlessV2ScalingConfigurationOutputReference
 	return nil
 }
 
-func (n *jsiiProxy_NeptuneClusterServerlessV2ScalingConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NeptuneClusterServerlessV2ScalingConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_NeptuneClusterServerlessV2ScalingConfigurationOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_NeptuneClusterServerlessV2ScalingConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NeptuneClusterServerlessV2ScalingConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNeptuneClusterServerlessV2ScalingConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNeptuneClusterServerlessV2ScalingConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

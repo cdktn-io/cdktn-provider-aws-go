@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiGatewayDomainNameEndpointConfigurationOutputReference) val
 	return nil
 }
 
-func (a *jsiiProxy_ApiGatewayDomainNameEndpointConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiGatewayDomainNameEndpointConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ApiGatewayDomainNameEndpointConfigurationOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_ApiGatewayDomainNameEndpointConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiGatewayDomainNameEndpointConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ApiGatewayDomainNameEndpointConfigurationOutputReference) val
 	return nil
 }
 
-func validateNewApiGatewayDomainNameEndpointConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiGatewayDomainNameEndpointConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

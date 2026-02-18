@@ -15,7 +15,7 @@ func (c *jsiiProxy_CloudfrontVpcOriginVpcOriginEndpointConfigList) validateGetPa
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontVpcOriginVpcOriginEndpointConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontVpcOriginVpcOriginEndpointConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CloudfrontVpcOriginVpcOriginEndpointConfigList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontVpcOriginVpcOriginEndpointConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontVpcOriginVpcOriginEndpointConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CloudfrontVpcOriginVpcOriginEndpointConfigList) validateSetWr
 	return nil
 }
 
-func validateNewCloudfrontVpcOriginVpcOriginEndpointConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudfrontVpcOriginVpcOriginEndpointConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

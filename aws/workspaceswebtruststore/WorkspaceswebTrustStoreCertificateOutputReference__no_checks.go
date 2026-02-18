@@ -47,7 +47,7 @@ func (w *jsiiProxy_WorkspaceswebTrustStoreCertificateOutputReference) validateIn
 	return nil
 }
 
-func (w *jsiiProxy_WorkspaceswebTrustStoreCertificateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkspaceswebTrustStoreCertificateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_WorkspaceswebTrustStoreCertificateOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_WorkspaceswebTrustStoreCertificateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkspaceswebTrustStoreCertificateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWorkspaceswebTrustStoreCertificateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWorkspaceswebTrustStoreCertificateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

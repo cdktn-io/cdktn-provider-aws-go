@@ -5,16 +5,16 @@ package ami
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ami/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ami/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/ami aws_ami}.
 type Ami interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Architecture() *string
 	SetArchitecture(val *string)
 	ArchitectureInput() *string
@@ -23,7 +23,7 @@ type Ami interface {
 	SetBootMode(val *string)
 	BootModeInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -52,9 +52,9 @@ type Ami interface {
 	EphemeralBlockDevice() AmiEphemeralBlockDeviceList
 	EphemeralBlockDeviceInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -76,10 +76,10 @@ type Ami interface {
 	KernelIdInput() *string
 	LastLaunchedTime() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
-	ManageEbsSnapshots() cdktf.IResolvable
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	ManageEbsSnapshots() cdktn.IResolvable
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -89,14 +89,14 @@ type Ami interface {
 	Platform() *string
 	PlatformDetails() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
-	Public() cdktf.IResolvable
+	Public() cdktn.IResolvable
 	RamdiskId() *string
 	SetRamdiskId(val *string)
 	RamdiskIdInput() *string
@@ -119,7 +119,7 @@ type Ami interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -144,7 +144,7 @@ type Ami interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -162,9 +162,9 @@ type Ami interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -221,7 +221,7 @@ type Ami interface {
 
 // The jsii proxy struct for Ami
 type jsiiProxy_Ami struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_Ami) Architecture() *string {
@@ -274,8 +274,8 @@ func (j *jsiiProxy_Ami) BootModeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Ami) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_Ami) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -424,8 +424,8 @@ func (j *jsiiProxy_Ami) EphemeralBlockDeviceInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_Ami) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_Ami) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -574,8 +574,8 @@ func (j *jsiiProxy_Ami) LastLaunchedTime() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Ami) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_Ami) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -584,8 +584,8 @@ func (j *jsiiProxy_Ami) Lifecycle() *cdktf.TerraformResourceLifecycle {
 	return returns
 }
 
-func (j *jsiiProxy_Ami) ManageEbsSnapshots() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_Ami) ManageEbsSnapshots() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"manageEbsSnapshots",
@@ -654,8 +654,8 @@ func (j *jsiiProxy_Ami) PlatformDetails() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Ami) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_Ami) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -674,8 +674,8 @@ func (j *jsiiProxy_Ami) Provisioners() *[]interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_Ami) Public() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_Ami) Public() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"public",
@@ -824,8 +824,8 @@ func (j *jsiiProxy_Ami) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_Ami) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_Ami) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1059,7 +1059,7 @@ func (j *jsiiProxy_Ami)SetEnaSupport(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_Ami)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_Ami)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1111,7 +1111,7 @@ func (j *jsiiProxy_Ami)SetKernelId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Ami)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_Ami)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1133,7 +1133,7 @@ func (j *jsiiProxy_Ami)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Ami)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_Ami)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1251,14 +1251,14 @@ func (j *jsiiProxy_Ami)SetVirtualizationType(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a Ami resource upon running "cdktf plan <stack-name>".
-func Ami_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a Ami resource upon running "cdktn plan <stack-name>".
+func Ami_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateAmi_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.ami.Ami",
@@ -1392,11 +1392,11 @@ func (a *jsiiProxy_Ami) GetAnyMapAttribute(terraformAttribute *string) *map[stri
 	return returns
 }
 
-func (a *jsiiProxy_Ami) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_Ami) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1533,7 +1533,7 @@ func (a *jsiiProxy_Ami) HasResourceMove() interface{} {
 	return returns
 }
 
-func (a *jsiiProxy_Ami) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_Ami) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1544,11 +1544,11 @@ func (a *jsiiProxy_Ami) ImportFrom(id *string, provider cdktf.TerraformProvider)
 	)
 }
 
-func (a *jsiiProxy_Ami) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_Ami) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) validatePutDateT
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*QuicksightAnalysisParametersDateTimeParameters:
 		value := value.(*[]*QuicksightAnalysisParametersDateTimeParameters)
@@ -117,7 +117,7 @@ func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) validatePutDateT
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*QuicksightAnalysisParametersDateTimeParameters; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*QuicksightAnalysisParametersDateTimeParameters; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) validatePutDecim
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*QuicksightAnalysisParametersDecimalParameters:
 		value := value.(*[]*QuicksightAnalysisParametersDecimalParameters)
@@ -148,7 +148,7 @@ func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) validatePutDecim
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*QuicksightAnalysisParametersDecimalParameters; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*QuicksightAnalysisParametersDecimalParameters; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) validatePutInteg
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*QuicksightAnalysisParametersIntegerParameters:
 		value := value.(*[]*QuicksightAnalysisParametersIntegerParameters)
@@ -179,7 +179,7 @@ func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) validatePutInteg
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*QuicksightAnalysisParametersIntegerParameters; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*QuicksightAnalysisParametersIntegerParameters; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -191,7 +191,7 @@ func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) validatePutStrin
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*QuicksightAnalysisParametersStringParameters:
 		value := value.(*[]*QuicksightAnalysisParametersStringParameters)
@@ -210,14 +210,14 @@ func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) validatePutStrin
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*QuicksightAnalysisParametersStringParameters; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*QuicksightAnalysisParametersStringParameters; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightAnalysisParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -306,7 +306,7 @@ func (j *jsiiProxy_QuicksightAnalysisParametersOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightAnalysisParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightAnalysisParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -314,7 +314,7 @@ func (j *jsiiProxy_QuicksightAnalysisParametersOutputReference) validateSetTerra
 	return nil
 }
 
-func validateNewQuicksightAnalysisParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewQuicksightAnalysisParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (m *jsiiProxy_Macie2InvitationAccepterTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (m *jsiiProxy_Macie2InvitationAccepterTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_Macie2InvitationAccepterTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_Macie2InvitationAccepterTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_Macie2InvitationAccepterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Macie2InvitationAccepterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMacie2InvitationAccepterTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMacie2InvitationAccepterTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

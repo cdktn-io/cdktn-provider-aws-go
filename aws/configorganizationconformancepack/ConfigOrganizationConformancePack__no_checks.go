@@ -123,7 +123,7 @@ func (j *jsiiProxy_ConfigOrganizationConformancePack) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_ConfigOrganizationConformancePack) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ConfigOrganizationConformancePack) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

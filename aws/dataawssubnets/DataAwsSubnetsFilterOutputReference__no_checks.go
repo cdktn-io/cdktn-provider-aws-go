@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsSubnetsFilterOutputReference) validateInterpolationFor
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsSubnetsFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsSubnetsFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataAwsSubnetsFilterOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSubnetsFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsSubnetsFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsSubnetsFilterOutputReference) validateSetValuesParamet
 	return nil
 }
 
-func validateNewDataAwsSubnetsFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsSubnetsFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

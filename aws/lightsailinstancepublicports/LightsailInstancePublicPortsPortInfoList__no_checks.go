@@ -15,7 +15,7 @@ func (l *jsiiProxy_LightsailInstancePublicPortsPortInfoList) validateGetParamete
 	return nil
 }
 
-func (l *jsiiProxy_LightsailInstancePublicPortsPortInfoList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LightsailInstancePublicPortsPortInfoList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LightsailInstancePublicPortsPortInfoList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_LightsailInstancePublicPortsPortInfoList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LightsailInstancePublicPortsPortInfoList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LightsailInstancePublicPortsPortInfoList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewLightsailInstancePublicPortsPortInfoListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLightsailInstancePublicPortsPortInfoListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

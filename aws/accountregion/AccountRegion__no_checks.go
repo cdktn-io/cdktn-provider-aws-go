@@ -115,7 +115,7 @@ func (j *jsiiProxy_AccountRegion) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_AccountRegion) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AccountRegion) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

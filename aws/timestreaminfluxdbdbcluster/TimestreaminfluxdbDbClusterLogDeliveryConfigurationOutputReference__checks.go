@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (t *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (t *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationOutputRefe
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3Configuration:
 		value := value.(*[]*TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3Configuration)
@@ -117,14 +117,14 @@ func (t *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationOutputRefe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3Configuration; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3Configuration; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (t *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -199,7 +199,7 @@ func (j *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationOutputRefe
 
 func (j *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *TimestreaminfluxdbDbClusterLogDeliveryConfiguration:
 		val := val.(*TimestreaminfluxdbDbClusterLogDeliveryConfiguration)
@@ -214,7 +214,7 @@ func (j *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationOutputRefe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *TimestreaminfluxdbDbClusterLogDeliveryConfiguration; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *TimestreaminfluxdbDbClusterLogDeliveryConfiguration; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -229,7 +229,7 @@ func (j *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -237,7 +237,7 @@ func (j *jsiiProxy_TimestreaminfluxdbDbClusterLogDeliveryConfigurationOutputRefe
 	return nil
 }
 
-func validateNewTimestreaminfluxdbDbClusterLogDeliveryConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewTimestreaminfluxdbDbClusterLogDeliveryConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

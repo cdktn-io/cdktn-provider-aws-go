@@ -15,7 +15,7 @@ func (f *jsiiProxy_FisExperimentTemplateActionList) validateGetParameters(index 
 	return nil
 }
 
-func (f *jsiiProxy_FisExperimentTemplateActionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FisExperimentTemplateActionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_FisExperimentTemplateActionList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_FisExperimentTemplateActionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FisExperimentTemplateActionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_FisExperimentTemplateActionList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewFisExperimentTemplateActionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFisExperimentTemplateActionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

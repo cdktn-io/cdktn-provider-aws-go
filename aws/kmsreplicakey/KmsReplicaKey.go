@@ -5,22 +5,22 @@ package kmsreplicakey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/kmsreplicakey/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/kmsreplicakey/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/kms_replica_key aws_kms_replica_key}.
 type KmsReplicaKey interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	BypassPolicyLockoutSafetyCheck() interface{}
 	SetBypassPolicyLockoutSafetyCheck(val interface{})
 	BypassPolicyLockoutSafetyCheckInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -45,9 +45,9 @@ type KmsReplicaKey interface {
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -56,13 +56,13 @@ type KmsReplicaKey interface {
 	SetId(val *string)
 	IdInput() *string
 	KeyId() *string
-	KeyRotationEnabled() cdktf.IResolvable
+	KeyRotationEnabled() cdktn.IResolvable
 	KeySpec() *string
 	KeyUsage() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	Policy() *string
@@ -72,9 +72,9 @@ type KmsReplicaKey interface {
 	SetPrimaryKeyArn(val *string)
 	PrimaryKeyArnInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -91,7 +91,7 @@ type KmsReplicaKey interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -104,7 +104,7 @@ type KmsReplicaKey interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -122,9 +122,9 @@ type KmsReplicaKey interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -166,7 +166,7 @@ type KmsReplicaKey interface {
 
 // The jsii proxy struct for KmsReplicaKey
 type jsiiProxy_KmsReplicaKey struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_KmsReplicaKey) Arn() *string {
@@ -199,8 +199,8 @@ func (j *jsiiProxy_KmsReplicaKey) BypassPolicyLockoutSafetyCheckInput() interfac
 	return returns
 }
 
-func (j *jsiiProxy_KmsReplicaKey) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_KmsReplicaKey) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -309,8 +309,8 @@ func (j *jsiiProxy_KmsReplicaKey) EnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_KmsReplicaKey) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_KmsReplicaKey) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -369,8 +369,8 @@ func (j *jsiiProxy_KmsReplicaKey) KeyId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_KmsReplicaKey) KeyRotationEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_KmsReplicaKey) KeyRotationEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"keyRotationEnabled",
@@ -399,8 +399,8 @@ func (j *jsiiProxy_KmsReplicaKey) KeyUsage() *string {
 	return returns
 }
 
-func (j *jsiiProxy_KmsReplicaKey) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_KmsReplicaKey) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -459,8 +459,8 @@ func (j *jsiiProxy_KmsReplicaKey) PrimaryKeyArnInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_KmsReplicaKey) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_KmsReplicaKey) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -549,8 +549,8 @@ func (j *jsiiProxy_KmsReplicaKey) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_KmsReplicaKey) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_KmsReplicaKey) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -683,7 +683,7 @@ func (j *jsiiProxy_KmsReplicaKey)SetEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_KmsReplicaKey)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_KmsReplicaKey)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -702,7 +702,7 @@ func (j *jsiiProxy_KmsReplicaKey)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_KmsReplicaKey)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_KmsReplicaKey)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -735,7 +735,7 @@ func (j *jsiiProxy_KmsReplicaKey)SetPrimaryKeyArn(val *string) {
 	)
 }
 
-func (j *jsiiProxy_KmsReplicaKey)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_KmsReplicaKey)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -787,14 +787,14 @@ func (j *jsiiProxy_KmsReplicaKey)SetTagsAll(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a KmsReplicaKey resource upon running "cdktf plan <stack-name>".
-func KmsReplicaKey_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a KmsReplicaKey resource upon running "cdktn plan <stack-name>".
+func KmsReplicaKey_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateKmsReplicaKey_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.kmsReplicaKey.KmsReplicaKey",
@@ -928,11 +928,11 @@ func (k *jsiiProxy_KmsReplicaKey) GetAnyMapAttribute(terraformAttribute *string)
 	return returns
 }
 
-func (k *jsiiProxy_KmsReplicaKey) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KmsReplicaKey) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -1069,7 +1069,7 @@ func (k *jsiiProxy_KmsReplicaKey) HasResourceMove() interface{} {
 	return returns
 }
 
-func (k *jsiiProxy_KmsReplicaKey) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (k *jsiiProxy_KmsReplicaKey) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := k.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1080,11 +1080,11 @@ func (k *jsiiProxy_KmsReplicaKey) ImportFrom(id *string, provider cdktf.Terrafor
 	)
 }
 
-func (k *jsiiProxy_KmsReplicaKey) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KmsReplicaKey) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,

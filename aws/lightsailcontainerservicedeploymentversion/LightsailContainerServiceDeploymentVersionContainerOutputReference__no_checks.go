@@ -47,7 +47,7 @@ func (l *jsiiProxy_LightsailContainerServiceDeploymentVersionContainerOutputRefe
 	return nil
 }
 
-func (l *jsiiProxy_LightsailContainerServiceDeploymentVersionContainerOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LightsailContainerServiceDeploymentVersionContainerOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_LightsailContainerServiceDeploymentVersionContainerOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_LightsailContainerServiceDeploymentVersionContainerOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LightsailContainerServiceDeploymentVersionContainerOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLightsailContainerServiceDeploymentVersionContainerOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLightsailContainerServiceDeploymentVersionContainerOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

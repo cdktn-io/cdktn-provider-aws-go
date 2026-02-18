@@ -47,7 +47,7 @@ func (s *jsiiProxy_SignerSigningProfileRevocationRecordOutputReference) validate
 	return nil
 }
 
-func (s *jsiiProxy_SignerSigningProfileRevocationRecordOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SignerSigningProfileRevocationRecordOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_SignerSigningProfileRevocationRecordOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_SignerSigningProfileRevocationRecordOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SignerSigningProfileRevocationRecordOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSignerSigningProfileRevocationRecordOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSignerSigningProfileRevocationRecordOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

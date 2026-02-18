@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsNetworkmanagerDevice) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsNetworkmanagerDevice) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsNetworkmanagerDevice) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

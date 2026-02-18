@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsLambdaInvocation) validateSetInputParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLambdaInvocation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsLambdaInvocation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

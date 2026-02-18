@@ -47,7 +47,7 @@ func (c *jsiiProxy_CognitoUserPoolLambdaConfigCustomSmsSenderOutputReference) va
 	return nil
 }
 
-func (c *jsiiProxy_CognitoUserPoolLambdaConfigCustomSmsSenderOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CognitoUserPoolLambdaConfigCustomSmsSenderOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CognitoUserPoolLambdaConfigCustomSmsSenderOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_CognitoUserPoolLambdaConfigCustomSmsSenderOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CognitoUserPoolLambdaConfigCustomSmsSenderOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCognitoUserPoolLambdaConfigCustomSmsSenderOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCognitoUserPoolLambdaConfigCustomSmsSenderOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

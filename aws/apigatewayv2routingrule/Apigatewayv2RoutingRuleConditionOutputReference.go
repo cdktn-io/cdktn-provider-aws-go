@@ -5,14 +5,14 @@ package apigatewayv2routingrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/apigatewayv2routingrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/apigatewayv2routingrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Apigatewayv2RoutingRuleConditionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,15 +41,15 @@ type Apigatewayv2RoutingRuleConditionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,16 +65,16 @@ type Apigatewayv2RoutingRuleConditionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutMatchBasePaths(value interface{})
 	PutMatchHeaders(value interface{})
 	ResetMatchBasePaths()
 	ResetMatchHeaders()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type Apigatewayv2RoutingRuleConditionOutputReference interface {
 
 // The jsii proxy struct for Apigatewayv2RoutingRuleConditionOutputReference
 type jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) TerraformRes
 }
 
 
-func NewApigatewayv2RoutingRuleConditionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Apigatewayv2RoutingRuleConditionOutputReference {
+func NewApigatewayv2RoutingRuleConditionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Apigatewayv2RoutingRuleConditionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApigatewayv2RoutingRuleConditionOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -215,7 +215,7 @@ func NewApigatewayv2RoutingRuleConditionOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewApigatewayv2RoutingRuleConditionOutputReference_Override(a Apigatewayv2RoutingRuleConditionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewApigatewayv2RoutingRuleConditionOutputReference_Override(a Apigatewayv2RoutingRuleConditionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -269,7 +269,7 @@ func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -309,11 +309,11 @@ func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -437,8 +437,8 @@ func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) GetStringMap
 	return returns
 }
 
-func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -450,11 +450,11 @@ func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) Interpolatio
 	return returns
 }
 
-func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -504,7 +504,7 @@ func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) ResetMatchHe
 	)
 }
 
-func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

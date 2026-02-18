@@ -5,19 +5,19 @@ package route53healthcheck
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/route53healthcheck/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/route53healthcheck/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/route53_health_check aws_route53_health_check}.
 type Route53HealthCheck interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ChildHealthchecks() *[]*string
 	SetChildHealthchecks(val *[]*string)
 	ChildHealthchecksInput() *[]*string
@@ -54,9 +54,9 @@ type Route53HealthCheck interface {
 	SetFailureThreshold(val *float64)
 	FailureThresholdInput() *float64
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	Fqdn() *string
 	SetFqdn(val *string)
 	FqdnInput() *string
@@ -77,9 +77,9 @@ type Route53HealthCheck interface {
 	SetIpAddress(val *string)
 	IpAddressInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MeasureLatency() interface{}
 	SetMeasureLatency(val interface{})
 	MeasureLatencyInput() interface{}
@@ -89,9 +89,9 @@ type Route53HealthCheck interface {
 	SetPort(val *float64)
 	PortInput() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -123,7 +123,7 @@ type Route53HealthCheck interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -142,7 +142,7 @@ type Route53HealthCheck interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -160,9 +160,9 @@ type Route53HealthCheck interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -218,7 +218,7 @@ type Route53HealthCheck interface {
 
 // The jsii proxy struct for Route53HealthCheck
 type jsiiProxy_Route53HealthCheck struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_Route53HealthCheck) Arn() *string {
@@ -231,8 +231,8 @@ func (j *jsiiProxy_Route53HealthCheck) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Route53HealthCheck) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_Route53HealthCheck) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -421,8 +421,8 @@ func (j *jsiiProxy_Route53HealthCheck) FailureThresholdInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_Route53HealthCheck) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_Route53HealthCheck) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -551,8 +551,8 @@ func (j *jsiiProxy_Route53HealthCheck) IpAddressInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Route53HealthCheck) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_Route53HealthCheck) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -611,8 +611,8 @@ func (j *jsiiProxy_Route53HealthCheck) PortInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_Route53HealthCheck) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_Route53HealthCheck) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -801,8 +801,8 @@ func (j *jsiiProxy_Route53HealthCheck) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_Route53HealthCheck) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_Route53HealthCheck) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1008,7 +1008,7 @@ func (j *jsiiProxy_Route53HealthCheck)SetFailureThreshold(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_Route53HealthCheck)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_Route53HealthCheck)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1071,7 +1071,7 @@ func (j *jsiiProxy_Route53HealthCheck)SetIpAddress(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Route53HealthCheck)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_Route53HealthCheck)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1104,7 +1104,7 @@ func (j *jsiiProxy_Route53HealthCheck)SetPort(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_Route53HealthCheck)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_Route53HealthCheck)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1233,14 +1233,14 @@ func (j *jsiiProxy_Route53HealthCheck)SetType(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a Route53HealthCheck resource upon running "cdktf plan <stack-name>".
-func Route53HealthCheck_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a Route53HealthCheck resource upon running "cdktn plan <stack-name>".
+func Route53HealthCheck_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateRoute53HealthCheck_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.route53HealthCheck.Route53HealthCheck",
@@ -1374,11 +1374,11 @@ func (r *jsiiProxy_Route53HealthCheck) GetAnyMapAttribute(terraformAttribute *st
 	return returns
 }
 
-func (r *jsiiProxy_Route53HealthCheck) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_Route53HealthCheck) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -1515,7 +1515,7 @@ func (r *jsiiProxy_Route53HealthCheck) HasResourceMove() interface{} {
 	return returns
 }
 
-func (r *jsiiProxy_Route53HealthCheck) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (r *jsiiProxy_Route53HealthCheck) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := r.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1526,11 +1526,11 @@ func (r *jsiiProxy_Route53HealthCheck) ImportFrom(id *string, provider cdktf.Ter
 	)
 }
 
-func (r *jsiiProxy_Route53HealthCheck) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_Route53HealthCheck) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,

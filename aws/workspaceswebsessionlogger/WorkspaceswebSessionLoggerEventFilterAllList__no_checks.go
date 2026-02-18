@@ -15,7 +15,7 @@ func (w *jsiiProxy_WorkspaceswebSessionLoggerEventFilterAllList) validateGetPara
 	return nil
 }
 
-func (w *jsiiProxy_WorkspaceswebSessionLoggerEventFilterAllList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkspaceswebSessionLoggerEventFilterAllList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WorkspaceswebSessionLoggerEventFilterAllList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_WorkspaceswebSessionLoggerEventFilterAllList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkspaceswebSessionLoggerEventFilterAllList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WorkspaceswebSessionLoggerEventFilterAllList) validateSetWrap
 	return nil
 }
 
-func validateNewWorkspaceswebSessionLoggerEventFilterAllListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWorkspaceswebSessionLoggerEventFilterAllListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

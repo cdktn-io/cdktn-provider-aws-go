@@ -5,14 +5,14 @@ package dataawsecrlifecyclepolicydocument
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsecrlifecyclepolicydocument/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsecrlifecyclepolicydocument/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsEcrLifecyclePolicyDocumentRuleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Action() DataAwsEcrLifecyclePolicyDocumentRuleActionList
 	ActionInput() interface{}
 	// the index of the complex object in a list.
@@ -47,15 +47,15 @@ type DataAwsEcrLifecyclePolicyDocumentRuleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -71,9 +71,9 @@ type DataAwsEcrLifecyclePolicyDocumentRuleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAction(value interface{})
 	PutSelection(value interface{})
 	ResetAction()
@@ -81,7 +81,7 @@ type DataAwsEcrLifecyclePolicyDocumentRuleOutputReference interface {
 	ResetSelection()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type DataAwsEcrLifecyclePolicyDocumentRuleOutputReference interface {
 
 // The jsii proxy struct for DataAwsEcrLifecyclePolicyDocumentRuleOutputReference
 type jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleOutputReference) Action() DataAwsEcrLifecyclePolicyDocumentRuleActionList {
@@ -234,8 +234,8 @@ func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -245,7 +245,7 @@ func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleOutputReference) Terrafo
 }
 
 
-func NewDataAwsEcrLifecyclePolicyDocumentRuleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsEcrLifecyclePolicyDocumentRuleOutputReference {
+func NewDataAwsEcrLifecyclePolicyDocumentRuleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsEcrLifecyclePolicyDocumentRuleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsEcrLifecyclePolicyDocumentRuleOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -262,7 +262,7 @@ func NewDataAwsEcrLifecyclePolicyDocumentRuleOutputReference(terraformResource c
 	return &j
 }
 
-func NewDataAwsEcrLifecyclePolicyDocumentRuleOutputReference_Override(d DataAwsEcrLifecyclePolicyDocumentRuleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsEcrLifecyclePolicyDocumentRuleOutputReference_Override(d DataAwsEcrLifecyclePolicyDocumentRuleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -338,7 +338,7 @@ func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -378,11 +378,11 @@ func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleOutputReference) GetAnyM
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -506,8 +506,8 @@ func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleOutputReference) GetStri
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -519,11 +519,11 @@ func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleOutputReference) Interpo
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -581,7 +581,7 @@ func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleOutputReference) ResetSe
 	)
 }
 
-func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

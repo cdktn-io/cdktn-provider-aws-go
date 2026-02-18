@@ -51,7 +51,7 @@ func (d *jsiiProxy_DataAwsEcsTaskExecutionOverridesOutputReference) validatePutC
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEcsTaskExecutionOverridesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEcsTaskExecutionOverridesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_DataAwsEcsTaskExecutionOverridesOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEcsTaskExecutionOverridesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEcsTaskExecutionOverridesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsEcsTaskExecutionOverridesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAwsEcsTaskExecutionOverridesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

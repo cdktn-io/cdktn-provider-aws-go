@@ -107,7 +107,7 @@ func (j *jsiiProxy_SecuritylakeCustomLogSource) validateSetEventClassesParameter
 	return nil
 }
 
-func (j *jsiiProxy_SecuritylakeCustomLogSource) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SecuritylakeCustomLogSource) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

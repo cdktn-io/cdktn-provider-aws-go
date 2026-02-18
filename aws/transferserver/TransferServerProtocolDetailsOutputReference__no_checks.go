@@ -47,7 +47,7 @@ func (t *jsiiProxy_TransferServerProtocolDetailsOutputReference) validateInterpo
 	return nil
 }
 
-func (t *jsiiProxy_TransferServerProtocolDetailsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TransferServerProtocolDetailsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_TransferServerProtocolDetailsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_TransferServerProtocolDetailsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TransferServerProtocolDetailsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_TransferServerProtocolDetailsOutputReference) validateSetTlsS
 	return nil
 }
 
-func validateNewTransferServerProtocolDetailsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTransferServerProtocolDetailsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

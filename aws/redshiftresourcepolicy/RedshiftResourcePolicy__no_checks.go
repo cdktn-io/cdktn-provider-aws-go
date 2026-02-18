@@ -103,7 +103,7 @@ func (j *jsiiProxy_RedshiftResourcePolicy) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftResourcePolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RedshiftResourcePolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (i *jsiiProxy_IotTopicRuleErrorActionHttpHttpHeaderList) validateGetParamet
 	return nil
 }
 
-func (i *jsiiProxy_IotTopicRuleErrorActionHttpHttpHeaderList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotTopicRuleErrorActionHttpHttpHeaderList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_IotTopicRuleErrorActionHttpHttpHeaderList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_IotTopicRuleErrorActionHttpHttpHeaderList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotTopicRuleErrorActionHttpHttpHeaderList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_IotTopicRuleErrorActionHttpHttpHeaderList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewIotTopicRuleErrorActionHttpHttpHeaderListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIotTopicRuleErrorActionHttpHttpHeaderListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

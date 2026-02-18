@@ -5,14 +5,14 @@ package amplifyapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/amplifyapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/amplifyapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AmplifyAppAutoBranchCreationConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BasicAuthCredentials() *string
 	SetBasicAuthCredentials(val *string)
 	BasicAuthCredentialsInput() *string
@@ -67,15 +67,15 @@ type AmplifyAppAutoBranchCreationConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -91,9 +91,9 @@ type AmplifyAppAutoBranchCreationConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBasicAuthCredentials()
 	ResetBuildSpec()
 	ResetEnableAutoBuild()
@@ -106,7 +106,7 @@ type AmplifyAppAutoBranchCreationConfigOutputReference interface {
 	ResetStage()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -116,7 +116,7 @@ type AmplifyAppAutoBranchCreationConfigOutputReference interface {
 
 // The jsii proxy struct for AmplifyAppAutoBranchCreationConfigOutputReference
 type jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) BasicAuthCredentials() *string {
@@ -379,8 +379,8 @@ func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -390,7 +390,7 @@ func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) TerraformR
 }
 
 
-func NewAmplifyAppAutoBranchCreationConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AmplifyAppAutoBranchCreationConfigOutputReference {
+func NewAmplifyAppAutoBranchCreationConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AmplifyAppAutoBranchCreationConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAmplifyAppAutoBranchCreationConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -407,7 +407,7 @@ func NewAmplifyAppAutoBranchCreationConfigOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewAmplifyAppAutoBranchCreationConfigOutputReference_Override(a AmplifyAppAutoBranchCreationConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAmplifyAppAutoBranchCreationConfigOutputReference_Override(a AmplifyAppAutoBranchCreationConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -571,7 +571,7 @@ func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -611,11 +611,11 @@ func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) GetAnyMapA
 	return returns
 }
 
-func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -739,8 +739,8 @@ func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) GetStringM
 	return returns
 }
 
-func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -752,11 +752,11 @@ func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) Interpolat
 	return returns
 }
 
-func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -848,7 +848,7 @@ func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) ResetStage
 	)
 }
 
-func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

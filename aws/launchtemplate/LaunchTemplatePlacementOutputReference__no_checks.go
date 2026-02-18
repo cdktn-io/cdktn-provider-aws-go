@@ -47,7 +47,7 @@ func (l *jsiiProxy_LaunchTemplatePlacementOutputReference) validateInterpolation
 	return nil
 }
 
-func (l *jsiiProxy_LaunchTemplatePlacementOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LaunchTemplatePlacementOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -103,11 +103,11 @@ func (j *jsiiProxy_LaunchTemplatePlacementOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_LaunchTemplatePlacementOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LaunchTemplatePlacementOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLaunchTemplatePlacementOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLaunchTemplatePlacementOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

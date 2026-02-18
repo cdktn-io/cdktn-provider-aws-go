@@ -47,7 +47,7 @@ func (d *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) validateInterpolatio
 	return nil
 }
 
-func (d *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -107,11 +107,11 @@ func (j *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DmsEndpointMysqlSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDmsEndpointMysqlSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDmsEndpointMysqlSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

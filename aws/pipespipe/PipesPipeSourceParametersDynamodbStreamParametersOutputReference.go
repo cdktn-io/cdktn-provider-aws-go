@@ -5,14 +5,14 @@ package pipespipe
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/pipespipe/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/pipespipe/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PipesPipeSourceParametersDynamodbStreamParametersOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BatchSize() *float64
 	SetBatchSize(val *float64)
 	BatchSizeInput() *float64
@@ -60,15 +60,15 @@ type PipesPipeSourceParametersDynamodbStreamParametersOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -84,9 +84,9 @@ type PipesPipeSourceParametersDynamodbStreamParametersOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDeadLetterConfig(value *PipesPipeSourceParametersDynamodbStreamParametersDeadLetterConfig)
 	ResetBatchSize()
 	ResetDeadLetterConfig()
@@ -97,7 +97,7 @@ type PipesPipeSourceParametersDynamodbStreamParametersOutputReference interface 
 	ResetParallelizationFactor()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -107,7 +107,7 @@ type PipesPipeSourceParametersDynamodbStreamParametersOutputReference interface 
 
 // The jsii proxy struct for PipesPipeSourceParametersDynamodbStreamParametersOutputReference
 type jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputReference) BatchSize() *float64 {
@@ -330,8 +330,8 @@ func (j *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -341,7 +341,7 @@ func (j *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputRefere
 }
 
 
-func NewPipesPipeSourceParametersDynamodbStreamParametersOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) PipesPipeSourceParametersDynamodbStreamParametersOutputReference {
+func NewPipesPipeSourceParametersDynamodbStreamParametersOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) PipesPipeSourceParametersDynamodbStreamParametersOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPipesPipeSourceParametersDynamodbStreamParametersOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -358,7 +358,7 @@ func NewPipesPipeSourceParametersDynamodbStreamParametersOutputReference(terrafo
 	return &j
 }
 
-func NewPipesPipeSourceParametersDynamodbStreamParametersOutputReference_Override(p PipesPipeSourceParametersDynamodbStreamParametersOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewPipesPipeSourceParametersDynamodbStreamParametersOutputReference_Override(p PipesPipeSourceParametersDynamodbStreamParametersOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -489,7 +489,7 @@ func (j *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputRefere
 	)
 }
 
-func (j *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -529,11 +529,11 @@ func (p *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputRefere
 	return returns
 }
 
-func (p *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -657,8 +657,8 @@ func (p *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputRefere
 	return returns
 }
 
-func (p *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -670,11 +670,11 @@ func (p *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputRefere
 	return returns
 }
 
-func (p *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -753,7 +753,7 @@ func (p *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputRefere
 	)
 }
 
-func (p *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PipesPipeSourceParametersDynamodbStreamParametersOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

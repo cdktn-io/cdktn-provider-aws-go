@@ -147,7 +147,7 @@ func (j *jsiiProxy_Route53HealthCheck) validateSetIpAddressParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_Route53HealthCheck) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Route53HealthCheck) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,20 +5,20 @@ package dataawsec2networkinsightsanalysis
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsec2networkinsightsanalysis/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsec2networkinsightsanalysis/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/ec2_network_insights_analysis aws_ec2_network_insights_analysis}.
 type DataAwsEc2NetworkInsightsAnalysis interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AlternatePathHints() DataAwsEc2NetworkInsightsAnalysisAlternatePathHintsList
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -34,9 +34,9 @@ type DataAwsEc2NetworkInsightsAnalysis interface {
 	FilterInArns() *[]*string
 	FilterInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	ForwardPathComponents() DataAwsEc2NetworkInsightsAnalysisForwardPathComponentsList
 	// Experimental.
 	Fqn() *string
@@ -46,20 +46,20 @@ type DataAwsEc2NetworkInsightsAnalysis interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	NetworkInsightsAnalysisId() *string
 	SetNetworkInsightsAnalysisId(val *string)
 	NetworkInsightsAnalysisIdInput() *string
 	NetworkInsightsPathId() *string
 	// The tree node.
 	Node() constructs.Node
-	PathFound() cdktf.IResolvable
+	PathFound() cdktn.IResolvable
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -73,7 +73,7 @@ type DataAwsEc2NetworkInsightsAnalysis interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -84,7 +84,7 @@ type DataAwsEc2NetworkInsightsAnalysis interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -100,7 +100,7 @@ type DataAwsEc2NetworkInsightsAnalysis interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -129,7 +129,7 @@ type DataAwsEc2NetworkInsightsAnalysis interface {
 
 // The jsii proxy struct for DataAwsEc2NetworkInsightsAnalysis
 type jsiiProxy_DataAwsEc2NetworkInsightsAnalysis struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) AlternatePathHints() DataAwsEc2NetworkInsightsAnalysisAlternatePathHintsList {
@@ -152,8 +152,8 @@ func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -232,8 +232,8 @@ func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) FilterInput() interface{} 
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -292,8 +292,8 @@ func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -342,8 +342,8 @@ func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) PathFound() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) PathFound() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"pathFound",
@@ -352,8 +352,8 @@ func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) PathFound() cdktf.IResolva
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -452,8 +452,8 @@ func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) TagsInput() *map[string]*s
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -541,7 +541,7 @@ func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis)SetDependsOn(val *[]*string
 	)
 }
 
-func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -560,7 +560,7 @@ func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -582,7 +582,7 @@ func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis)SetNetworkInsightsAnalysisI
 	)
 }
 
-func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -612,14 +612,14 @@ func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis)SetTags(val *map[string]*st
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsEc2NetworkInsightsAnalysis resource upon running "cdktf plan <stack-name>".
-func DataAwsEc2NetworkInsightsAnalysis_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsEc2NetworkInsightsAnalysis resource upon running "cdktn plan <stack-name>".
+func DataAwsEc2NetworkInsightsAnalysis_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsEc2NetworkInsightsAnalysis_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsEc2NetworkInsightsAnalysis.DataAwsEc2NetworkInsightsAnalysis",
@@ -742,11 +742,11 @@ func (d *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -870,11 +870,11 @@ func (d *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) GetStringMapAttribute(terr
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

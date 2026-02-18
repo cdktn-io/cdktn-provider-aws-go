@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsServiceDiscoveryServiceHealthCheckCustomConfigOutputRe
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsServiceDiscoveryServiceHealthCheckCustomConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsServiceDiscoveryServiceHealthCheckCustomConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsServiceDiscoveryServiceHealthCheckCustomConfigOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsServiceDiscoveryServiceHealthCheckCustomConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsServiceDiscoveryServiceHealthCheckCustomConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsServiceDiscoveryServiceHealthCheckCustomConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsServiceDiscoveryServiceHealthCheckCustomConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

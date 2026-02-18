@@ -47,7 +47,7 @@ func (o *jsiiProxy_OdbCloudExadataInfrastructureMaintenanceWindowMonthsOutputRef
 	return nil
 }
 
-func (o *jsiiProxy_OdbCloudExadataInfrastructureMaintenanceWindowMonthsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OdbCloudExadataInfrastructureMaintenanceWindowMonthsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_OdbCloudExadataInfrastructureMaintenanceWindowMonthsOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_OdbCloudExadataInfrastructureMaintenanceWindowMonthsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OdbCloudExadataInfrastructureMaintenanceWindowMonthsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOdbCloudExadataInfrastructureMaintenanceWindowMonthsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOdbCloudExadataInfrastructureMaintenanceWindowMonthsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

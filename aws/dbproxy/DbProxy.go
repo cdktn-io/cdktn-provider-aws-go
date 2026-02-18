@@ -5,21 +5,21 @@ package dbproxy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dbproxy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dbproxy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/db_proxy aws_db_proxy}.
 type DbProxy interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	Auth() DbProxyAuthList
 	AuthInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -48,9 +48,9 @@ type DbProxy interface {
 	SetEngineFamily(val *string)
 	EngineFamilyInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -62,18 +62,18 @@ type DbProxy interface {
 	SetIdleClientTimeout(val *float64)
 	IdleClientTimeoutInput() *float64
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -99,7 +99,7 @@ type DbProxy interface {
 	SetTargetConnectionNetworkType(val *string)
 	TargetConnectionNetworkTypeInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -120,7 +120,7 @@ type DbProxy interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -138,9 +138,9 @@ type DbProxy interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -188,7 +188,7 @@ type DbProxy interface {
 
 // The jsii proxy struct for DbProxy
 type jsiiProxy_DbProxy struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_DbProxy) Arn() *string {
@@ -221,8 +221,8 @@ func (j *jsiiProxy_DbProxy) AuthInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DbProxy) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DbProxy) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -361,8 +361,8 @@ func (j *jsiiProxy_DbProxy) EngineFamilyInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DbProxy) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DbProxy) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -431,8 +431,8 @@ func (j *jsiiProxy_DbProxy) IdleClientTimeoutInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DbProxy) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DbProxy) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -471,8 +471,8 @@ func (j *jsiiProxy_DbProxy) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DbProxy) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DbProxy) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -621,8 +621,8 @@ func (j *jsiiProxy_DbProxy) TargetConnectionNetworkTypeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DbProxy) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DbProxy) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -815,7 +815,7 @@ func (j *jsiiProxy_DbProxy)SetEngineFamily(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DbProxy)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DbProxy)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -845,7 +845,7 @@ func (j *jsiiProxy_DbProxy)SetIdleClientTimeout(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_DbProxy)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DbProxy)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -867,7 +867,7 @@ func (j *jsiiProxy_DbProxy)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DbProxy)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DbProxy)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -974,14 +974,14 @@ func (j *jsiiProxy_DbProxy)SetVpcSubnetIds(val *[]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a DbProxy resource upon running "cdktf plan <stack-name>".
-func DbProxy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DbProxy resource upon running "cdktn plan <stack-name>".
+func DbProxy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDbProxy_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dbProxy.DbProxy",
@@ -1115,11 +1115,11 @@ func (d *jsiiProxy_DbProxy) GetAnyMapAttribute(terraformAttribute *string) *map[
 	return returns
 }
 
-func (d *jsiiProxy_DbProxy) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DbProxy) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1256,7 +1256,7 @@ func (d *jsiiProxy_DbProxy) HasResourceMove() interface{} {
 	return returns
 }
 
-func (d *jsiiProxy_DbProxy) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (d *jsiiProxy_DbProxy) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := d.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1267,11 +1267,11 @@ func (d *jsiiProxy_DbProxy) ImportFrom(id *string, provider cdktf.TerraformProvi
 	)
 }
 
-func (d *jsiiProxy_DbProxy) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DbProxy) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

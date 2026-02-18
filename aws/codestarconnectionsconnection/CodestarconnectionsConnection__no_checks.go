@@ -107,7 +107,7 @@ func (j *jsiiProxy_CodestarconnectionsConnection) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_CodestarconnectionsConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CodestarconnectionsConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

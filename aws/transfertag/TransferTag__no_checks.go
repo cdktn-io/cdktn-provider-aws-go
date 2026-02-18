@@ -107,7 +107,7 @@ func (j *jsiiProxy_TransferTag) validateSetKeyParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_TransferTag) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_TransferTag) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

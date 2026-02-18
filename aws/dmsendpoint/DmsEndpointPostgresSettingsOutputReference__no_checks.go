@@ -47,7 +47,7 @@ func (d *jsiiProxy_DmsEndpointPostgresSettingsOutputReference) validateInterpola
 	return nil
 }
 
-func (d *jsiiProxy_DmsEndpointPostgresSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DmsEndpointPostgresSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -139,11 +139,11 @@ func (j *jsiiProxy_DmsEndpointPostgresSettingsOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DmsEndpointPostgresSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DmsEndpointPostgresSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDmsEndpointPostgresSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDmsEndpointPostgresSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

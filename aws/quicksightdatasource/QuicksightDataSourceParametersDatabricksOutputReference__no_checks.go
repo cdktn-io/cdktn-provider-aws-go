@@ -47,7 +47,7 @@ func (q *jsiiProxy_QuicksightDataSourceParametersDatabricksOutputReference) vali
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDataSourceParametersDatabricksOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDataSourceParametersDatabricksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_QuicksightDataSourceParametersDatabricksOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDataSourceParametersDatabricksOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDataSourceParametersDatabricksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewQuicksightDataSourceParametersDatabricksOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewQuicksightDataSourceParametersDatabricksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

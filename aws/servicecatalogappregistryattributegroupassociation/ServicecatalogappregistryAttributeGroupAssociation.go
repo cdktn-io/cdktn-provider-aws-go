@@ -5,16 +5,16 @@ package servicecatalogappregistryattributegroupassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/servicecatalogappregistryattributegroupassociation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/servicecatalogappregistryattributegroupassociation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/servicecatalogappregistry_attribute_group_association aws_servicecatalogappregistry_attribute_group_association}.
 type ServicecatalogappregistryAttributeGroupAssociation interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApplicationId() *string
 	SetApplicationId(val *string)
 	ApplicationIdInput() *string
@@ -22,7 +22,7 @@ type ServicecatalogappregistryAttributeGroupAssociation interface {
 	SetAttributeGroupId(val *string)
 	AttributeGroupIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,23 +38,23 @@ type ServicecatalogappregistryAttributeGroupAssociation interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -65,7 +65,7 @@ type ServicecatalogappregistryAttributeGroupAssociation interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -78,7 +78,7 @@ type ServicecatalogappregistryAttributeGroupAssociation interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -96,9 +96,9 @@ type ServicecatalogappregistryAttributeGroupAssociation interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -132,7 +132,7 @@ type ServicecatalogappregistryAttributeGroupAssociation interface {
 
 // The jsii proxy struct for ServicecatalogappregistryAttributeGroupAssociation
 type jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) ApplicationId() *string {
@@ -175,8 +175,8 @@ func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) Attribute
 	return returns
 }
 
-func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -225,8 +225,8 @@ func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) DependsOn
 	return returns
 }
 
-func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -255,8 +255,8 @@ func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) FriendlyU
 	return returns
 }
 
-func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -275,8 +275,8 @@ func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) Node() co
 	return returns
 }
 
-func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -325,8 +325,8 @@ func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) RegionInp
 	return returns
 }
 
-func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -437,7 +437,7 @@ func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation)SetDepends
 	)
 }
 
-func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -445,7 +445,7 @@ func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation)SetForEach
 	)
 }
 
-func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -456,7 +456,7 @@ func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation)SetLifecyc
 	)
 }
 
-func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -486,14 +486,14 @@ func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation)SetRegion(
 	)
 }
 
-// Generates CDKTF code for importing a ServicecatalogappregistryAttributeGroupAssociation resource upon running "cdktf plan <stack-name>".
-func ServicecatalogappregistryAttributeGroupAssociation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ServicecatalogappregistryAttributeGroupAssociation resource upon running "cdktn plan <stack-name>".
+func ServicecatalogappregistryAttributeGroupAssociation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateServicecatalogappregistryAttributeGroupAssociation_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.servicecatalogappregistryAttributeGroupAssociation.ServicecatalogappregistryAttributeGroupAssociation",
@@ -627,11 +627,11 @@ func (s *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) GetAnyMap
 	return returns
 }
 
-func (s *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -768,7 +768,7 @@ func (s *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) HasResour
 	return returns
 }
 
-func (s *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -779,11 +779,11 @@ func (s *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) ImportFro
 	)
 }
 
-func (s *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

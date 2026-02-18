@@ -5,14 +5,14 @@ package dataawsquicksighttheme
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsquicksighttheme/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsquicksighttheme/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsQuicksightThemeConfigurationSheetTileOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Border() DataAwsQuicksightThemeConfigurationSheetTileBorderList
 	// the index of the complex object in a list.
 	// Experimental.
@@ -38,15 +38,15 @@ type DataAwsQuicksightThemeConfigurationSheetTileOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -62,12 +62,12 @@ type DataAwsQuicksightThemeConfigurationSheetTileOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -77,7 +77,7 @@ type DataAwsQuicksightThemeConfigurationSheetTileOutputReference interface {
 
 // The jsii proxy struct for DataAwsQuicksightThemeConfigurationSheetTileOutputReference
 type jsiiProxy_DataAwsQuicksightThemeConfigurationSheetTileOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsQuicksightThemeConfigurationSheetTileOutputReference) Border() DataAwsQuicksightThemeConfigurationSheetTileBorderList {
@@ -150,8 +150,8 @@ func (j *jsiiProxy_DataAwsQuicksightThemeConfigurationSheetTileOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsQuicksightThemeConfigurationSheetTileOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsQuicksightThemeConfigurationSheetTileOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -161,7 +161,7 @@ func (j *jsiiProxy_DataAwsQuicksightThemeConfigurationSheetTileOutputReference) 
 }
 
 
-func NewDataAwsQuicksightThemeConfigurationSheetTileOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsQuicksightThemeConfigurationSheetTileOutputReference {
+func NewDataAwsQuicksightThemeConfigurationSheetTileOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsQuicksightThemeConfigurationSheetTileOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsQuicksightThemeConfigurationSheetTileOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -178,7 +178,7 @@ func NewDataAwsQuicksightThemeConfigurationSheetTileOutputReference(terraformRes
 	return &j
 }
 
-func NewDataAwsQuicksightThemeConfigurationSheetTileOutputReference_Override(d DataAwsQuicksightThemeConfigurationSheetTileOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsQuicksightThemeConfigurationSheetTileOutputReference_Override(d DataAwsQuicksightThemeConfigurationSheetTileOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -232,7 +232,7 @@ func (j *jsiiProxy_DataAwsQuicksightThemeConfigurationSheetTileOutputReference)S
 	)
 }
 
-func (j *jsiiProxy_DataAwsQuicksightThemeConfigurationSheetTileOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsQuicksightThemeConfigurationSheetTileOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -272,11 +272,11 @@ func (d *jsiiProxy_DataAwsQuicksightThemeConfigurationSheetTileOutputReference) 
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsQuicksightThemeConfigurationSheetTileOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsQuicksightThemeConfigurationSheetTileOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -400,8 +400,8 @@ func (d *jsiiProxy_DataAwsQuicksightThemeConfigurationSheetTileOutputReference) 
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsQuicksightThemeConfigurationSheetTileOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsQuicksightThemeConfigurationSheetTileOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -413,11 +413,11 @@ func (d *jsiiProxy_DataAwsQuicksightThemeConfigurationSheetTileOutputReference) 
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsQuicksightThemeConfigurationSheetTileOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsQuicksightThemeConfigurationSheetTileOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -429,7 +429,7 @@ func (d *jsiiProxy_DataAwsQuicksightThemeConfigurationSheetTileOutputReference) 
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsQuicksightThemeConfigurationSheetTileOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsQuicksightThemeConfigurationSheetTileOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

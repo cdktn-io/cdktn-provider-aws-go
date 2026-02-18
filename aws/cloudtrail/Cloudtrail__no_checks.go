@@ -147,7 +147,7 @@ func (j *jsiiProxy_Cloudtrail) validateSetKmsKeyIdParameters(val *string) error 
 	return nil
 }
 
-func (j *jsiiProxy_Cloudtrail) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Cloudtrail) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

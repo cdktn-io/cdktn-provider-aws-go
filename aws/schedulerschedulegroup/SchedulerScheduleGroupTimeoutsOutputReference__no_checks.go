@@ -47,7 +47,7 @@ func (s *jsiiProxy_SchedulerScheduleGroupTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (s *jsiiProxy_SchedulerScheduleGroupTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SchedulerScheduleGroupTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SchedulerScheduleGroupTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_SchedulerScheduleGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SchedulerScheduleGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSchedulerScheduleGroupTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSchedulerScheduleGroupTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

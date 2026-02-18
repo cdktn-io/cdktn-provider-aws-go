@@ -5,14 +5,14 @@ package transcribemedicalvocabulary
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/transcribemedicalvocabulary/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/transcribemedicalvocabulary/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type TranscribeMedicalVocabularyTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type TranscribeMedicalVocabularyTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type TranscribeMedicalVocabularyTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type TranscribeMedicalVocabularyTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type TranscribeMedicalVocabularyTimeoutsOutputReference interface {
 
 // The jsii proxy struct for TranscribeMedicalVocabularyTimeoutsOutputReference
 type jsiiProxy_TranscribeMedicalVocabularyTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_TranscribeMedicalVocabularyTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_TranscribeMedicalVocabularyTimeoutsOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_TranscribeMedicalVocabularyTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_TranscribeMedicalVocabularyTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_TranscribeMedicalVocabularyTimeoutsOutputReference) UpdateInp
 }
 
 
-func NewTranscribeMedicalVocabularyTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) TranscribeMedicalVocabularyTimeoutsOutputReference {
+func NewTranscribeMedicalVocabularyTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) TranscribeMedicalVocabularyTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewTranscribeMedicalVocabularyTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewTranscribeMedicalVocabularyTimeoutsOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewTranscribeMedicalVocabularyTimeoutsOutputReference_Override(t TranscribeMedicalVocabularyTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewTranscribeMedicalVocabularyTimeoutsOutputReference_Override(t TranscribeMedicalVocabularyTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_TranscribeMedicalVocabularyTimeoutsOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_TranscribeMedicalVocabularyTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_TranscribeMedicalVocabularyTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (t *jsiiProxy_TranscribeMedicalVocabularyTimeoutsOutputReference) GetAnyMap
 	return returns
 }
 
-func (t *jsiiProxy_TranscribeMedicalVocabularyTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TranscribeMedicalVocabularyTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -494,8 +494,8 @@ func (t *jsiiProxy_TranscribeMedicalVocabularyTimeoutsOutputReference) GetString
 	return returns
 }
 
-func (t *jsiiProxy_TranscribeMedicalVocabularyTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (t *jsiiProxy_TranscribeMedicalVocabularyTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -507,11 +507,11 @@ func (t *jsiiProxy_TranscribeMedicalVocabularyTimeoutsOutputReference) Interpola
 	return returns
 }
 
-func (t *jsiiProxy_TranscribeMedicalVocabularyTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TranscribeMedicalVocabularyTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -547,7 +547,7 @@ func (t *jsiiProxy_TranscribeMedicalVocabularyTimeoutsOutputReference) ResetUpda
 	)
 }
 
-func (t *jsiiProxy_TranscribeMedicalVocabularyTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (t *jsiiProxy_TranscribeMedicalVocabularyTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := t.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

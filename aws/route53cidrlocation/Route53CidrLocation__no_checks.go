@@ -107,7 +107,7 @@ func (j *jsiiProxy_Route53CidrLocation) validateSetCountParameters(val interface
 	return nil
 }
 
-func (j *jsiiProxy_Route53CidrLocation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Route53CidrLocation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

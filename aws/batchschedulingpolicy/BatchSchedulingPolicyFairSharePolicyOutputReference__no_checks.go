@@ -51,7 +51,7 @@ func (b *jsiiProxy_BatchSchedulingPolicyFairSharePolicyOutputReference) validate
 	return nil
 }
 
-func (b *jsiiProxy_BatchSchedulingPolicyFairSharePolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchSchedulingPolicyFairSharePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_BatchSchedulingPolicyFairSharePolicyOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_BatchSchedulingPolicyFairSharePolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchSchedulingPolicyFairSharePolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBatchSchedulingPolicyFairSharePolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBatchSchedulingPolicyFairSharePolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

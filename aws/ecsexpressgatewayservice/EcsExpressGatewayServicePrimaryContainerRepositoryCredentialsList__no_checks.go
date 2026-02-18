@@ -15,7 +15,7 @@ func (e *jsiiProxy_EcsExpressGatewayServicePrimaryContainerRepositoryCredentials
 	return nil
 }
 
-func (e *jsiiProxy_EcsExpressGatewayServicePrimaryContainerRepositoryCredentialsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsExpressGatewayServicePrimaryContainerRepositoryCredentialsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EcsExpressGatewayServicePrimaryContainerRepositoryCredentials
 	return nil
 }
 
-func (j *jsiiProxy_EcsExpressGatewayServicePrimaryContainerRepositoryCredentialsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsExpressGatewayServicePrimaryContainerRepositoryCredentialsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EcsExpressGatewayServicePrimaryContainerRepositoryCredentials
 	return nil
 }
 
-func validateNewEcsExpressGatewayServicePrimaryContainerRepositoryCredentialsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEcsExpressGatewayServicePrimaryContainerRepositoryCredentialsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

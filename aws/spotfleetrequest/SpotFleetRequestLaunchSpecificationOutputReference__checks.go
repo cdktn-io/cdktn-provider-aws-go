@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationOutputReference) validateP
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*SpotFleetRequestLaunchSpecificationEbsBlockDevice:
 		value := value.(*[]*SpotFleetRequestLaunchSpecificationEbsBlockDevice)
@@ -117,7 +117,7 @@ func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationOutputReference) validateP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*SpotFleetRequestLaunchSpecificationEbsBlockDevice; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SpotFleetRequestLaunchSpecificationEbsBlockDevice; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationOutputReference) validateP
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*SpotFleetRequestLaunchSpecificationEphemeralBlockDevice:
 		value := value.(*[]*SpotFleetRequestLaunchSpecificationEphemeralBlockDevice)
@@ -148,7 +148,7 @@ func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationOutputReference) validateP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*SpotFleetRequestLaunchSpecificationEphemeralBlockDevice; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SpotFleetRequestLaunchSpecificationEphemeralBlockDevice; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationOutputReference) validateP
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*SpotFleetRequestLaunchSpecificationRootBlockDevice:
 		value := value.(*[]*SpotFleetRequestLaunchSpecificationRootBlockDevice)
@@ -179,14 +179,14 @@ func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationOutputReference) validateP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*SpotFleetRequestLaunchSpecificationRootBlockDevice; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SpotFleetRequestLaunchSpecificationRootBlockDevice; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -211,11 +211,11 @@ func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationOutputReference) validateS
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -304,11 +304,11 @@ func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationOutputReference) validateS
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -341,7 +341,7 @@ func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationOutputReference) validateS
 
 func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *SpotFleetRequestLaunchSpecification:
 		val := val.(*SpotFleetRequestLaunchSpecification)
@@ -356,7 +356,7 @@ func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationOutputReference) validateS
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *SpotFleetRequestLaunchSpecification; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *SpotFleetRequestLaunchSpecification; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -380,11 +380,11 @@ func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationOutputReference) validateS
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -439,7 +439,7 @@ func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -471,7 +471,7 @@ func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationOutputReference) validateS
 	return nil
 }
 
-func validateNewSpotFleetRequestLaunchSpecificationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSpotFleetRequestLaunchSpecificationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

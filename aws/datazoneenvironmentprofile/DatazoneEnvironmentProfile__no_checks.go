@@ -123,7 +123,7 @@ func (j *jsiiProxy_DatazoneEnvironmentProfile) validateSetEnvironmentBlueprintId
 	return nil
 }
 
-func (j *jsiiProxy_DatazoneEnvironmentProfile) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DatazoneEnvironmentProfile) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

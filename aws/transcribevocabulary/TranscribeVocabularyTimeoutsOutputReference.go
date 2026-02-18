@@ -5,14 +5,14 @@ package transcribevocabulary
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/transcribevocabulary/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/transcribevocabulary/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type TranscribeVocabularyTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type TranscribeVocabularyTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type TranscribeVocabularyTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type TranscribeVocabularyTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type TranscribeVocabularyTimeoutsOutputReference interface {
 
 // The jsii proxy struct for TranscribeVocabularyTimeoutsOutputReference
 type jsiiProxy_TranscribeVocabularyTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) UpdateInput() *s
 }
 
 
-func NewTranscribeVocabularyTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) TranscribeVocabularyTimeoutsOutputReference {
+func NewTranscribeVocabularyTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) TranscribeVocabularyTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewTranscribeVocabularyTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewTranscribeVocabularyTimeoutsOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewTranscribeVocabularyTimeoutsOutputReference_Override(t TranscribeVocabularyTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewTranscribeVocabularyTimeoutsOutputReference_Override(t TranscribeVocabularyTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (t *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (t *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -494,8 +494,8 @@ func (t *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (t *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (t *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -507,11 +507,11 @@ func (t *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) InterpolationAsL
 	return returns
 }
 
-func (t *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -547,7 +547,7 @@ func (t *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) ResetUpdate() {
 	)
 }
 
-func (t *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (t *jsiiProxy_TranscribeVocabularyTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := t.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

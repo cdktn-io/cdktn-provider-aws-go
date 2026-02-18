@@ -5,16 +5,16 @@ package servicecatalogprovisioningartifact
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/servicecatalogprovisioningartifact/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/servicecatalogprovisioningartifact/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/servicecatalog_provisioning_artifact aws_servicecatalog_provisioning_artifact}.
 type ServicecatalogProvisioningArtifact interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AcceptLanguage() *string
 	SetAcceptLanguage(val *string)
 	AcceptLanguageInput() *string
@@ -22,7 +22,7 @@ type ServicecatalogProvisioningArtifact interface {
 	SetActive(val interface{})
 	ActiveInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -45,9 +45,9 @@ type ServicecatalogProvisioningArtifact interface {
 	SetDisableTemplateValidation(val interface{})
 	DisableTemplateValidationInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -59,9 +59,9 @@ type ServicecatalogProvisioningArtifact interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -71,9 +71,9 @@ type ServicecatalogProvisioningArtifact interface {
 	SetProductId(val *string)
 	ProductIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -91,7 +91,7 @@ type ServicecatalogProvisioningArtifact interface {
 	SetTemplateUrl(val *string)
 	TemplateUrlInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -109,7 +109,7 @@ type ServicecatalogProvisioningArtifact interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -127,9 +127,9 @@ type ServicecatalogProvisioningArtifact interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -175,7 +175,7 @@ type ServicecatalogProvisioningArtifact interface {
 
 // The jsii proxy struct for ServicecatalogProvisioningArtifact
 type jsiiProxy_ServicecatalogProvisioningArtifact struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ServicecatalogProvisioningArtifact) AcceptLanguage() *string {
@@ -218,8 +218,8 @@ func (j *jsiiProxy_ServicecatalogProvisioningArtifact) ActiveInput() interface{}
 	return returns
 }
 
-func (j *jsiiProxy_ServicecatalogProvisioningArtifact) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ServicecatalogProvisioningArtifact) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -318,8 +318,8 @@ func (j *jsiiProxy_ServicecatalogProvisioningArtifact) DisableTemplateValidation
 	return returns
 }
 
-func (j *jsiiProxy_ServicecatalogProvisioningArtifact) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ServicecatalogProvisioningArtifact) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -388,8 +388,8 @@ func (j *jsiiProxy_ServicecatalogProvisioningArtifact) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ServicecatalogProvisioningArtifact) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ServicecatalogProvisioningArtifact) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -448,8 +448,8 @@ func (j *jsiiProxy_ServicecatalogProvisioningArtifact) ProductIdInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_ServicecatalogProvisioningArtifact) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ServicecatalogProvisioningArtifact) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -548,8 +548,8 @@ func (j *jsiiProxy_ServicecatalogProvisioningArtifact) TemplateUrlInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_ServicecatalogProvisioningArtifact) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ServicecatalogProvisioningArtifact) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -722,7 +722,7 @@ func (j *jsiiProxy_ServicecatalogProvisioningArtifact)SetDisableTemplateValidati
 	)
 }
 
-func (j *jsiiProxy_ServicecatalogProvisioningArtifact)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ServicecatalogProvisioningArtifact)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -752,7 +752,7 @@ func (j *jsiiProxy_ServicecatalogProvisioningArtifact)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ServicecatalogProvisioningArtifact)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ServicecatalogProvisioningArtifact)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -785,7 +785,7 @@ func (j *jsiiProxy_ServicecatalogProvisioningArtifact)SetProductId(val *string) 
 	)
 }
 
-func (j *jsiiProxy_ServicecatalogProvisioningArtifact)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ServicecatalogProvisioningArtifact)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -848,14 +848,14 @@ func (j *jsiiProxy_ServicecatalogProvisioningArtifact)SetType(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a ServicecatalogProvisioningArtifact resource upon running "cdktf plan <stack-name>".
-func ServicecatalogProvisioningArtifact_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ServicecatalogProvisioningArtifact resource upon running "cdktn plan <stack-name>".
+func ServicecatalogProvisioningArtifact_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateServicecatalogProvisioningArtifact_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.servicecatalogProvisioningArtifact.ServicecatalogProvisioningArtifact",
@@ -989,11 +989,11 @@ func (s *jsiiProxy_ServicecatalogProvisioningArtifact) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (s *jsiiProxy_ServicecatalogProvisioningArtifact) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServicecatalogProvisioningArtifact) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -1130,7 +1130,7 @@ func (s *jsiiProxy_ServicecatalogProvisioningArtifact) HasResourceMove() interfa
 	return returns
 }
 
-func (s *jsiiProxy_ServicecatalogProvisioningArtifact) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_ServicecatalogProvisioningArtifact) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1141,11 +1141,11 @@ func (s *jsiiProxy_ServicecatalogProvisioningArtifact) ImportFrom(id *string, pr
 	)
 }
 
-func (s *jsiiProxy_ServicecatalogProvisioningArtifact) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServicecatalogProvisioningArtifact) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

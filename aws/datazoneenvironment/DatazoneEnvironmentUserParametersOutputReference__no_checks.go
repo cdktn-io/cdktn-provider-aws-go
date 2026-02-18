@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatazoneEnvironmentUserParametersOutputReference) validateInt
 	return nil
 }
 
-func (d *jsiiProxy_DatazoneEnvironmentUserParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatazoneEnvironmentUserParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DatazoneEnvironmentUserParametersOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DatazoneEnvironmentUserParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatazoneEnvironmentUserParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DatazoneEnvironmentUserParametersOutputReference) validateSet
 	return nil
 }
 
-func validateNewDatazoneEnvironmentUserParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDatazoneEnvironmentUserParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

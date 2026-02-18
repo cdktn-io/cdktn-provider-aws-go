@@ -115,7 +115,7 @@ func (j *jsiiProxy_EmrcontainersJobTemplate) validateSetKmsKeyArnParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_EmrcontainersJobTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EmrcontainersJobTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

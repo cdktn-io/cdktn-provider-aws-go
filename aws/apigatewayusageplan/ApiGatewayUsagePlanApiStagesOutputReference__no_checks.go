@@ -51,7 +51,7 @@ func (a *jsiiProxy_ApiGatewayUsagePlanApiStagesOutputReference) validatePutThrot
 	return nil
 }
 
-func (a *jsiiProxy_ApiGatewayUsagePlanApiStagesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiGatewayUsagePlanApiStagesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ApiGatewayUsagePlanApiStagesOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_ApiGatewayUsagePlanApiStagesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiGatewayUsagePlanApiStagesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApiGatewayUsagePlanApiStagesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApiGatewayUsagePlanApiStagesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -11,7 +11,7 @@ import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_AwsProvider) validateAddOverrideParameters(path *string, value interface{}) error {
@@ -76,7 +76,7 @@ func validateAwsProvider_IsTerraformProviderParameters(x interface{}) error {
 
 func (j *jsiiProxy_AwsProvider) validateSetAssumeRoleParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*AwsProviderAssumeRole:
 		val := val.(*[]*AwsProviderAssumeRole)
@@ -95,7 +95,7 @@ func (j *jsiiProxy_AwsProvider) validateSetAssumeRoleParameters(val interface{})
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*AwsProviderAssumeRole; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*AwsProviderAssumeRole; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -104,7 +104,7 @@ func (j *jsiiProxy_AwsProvider) validateSetAssumeRoleParameters(val interface{})
 
 func (j *jsiiProxy_AwsProvider) validateSetAssumeRoleWithWebIdentityParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*AwsProviderAssumeRoleWithWebIdentity:
 		val := val.(*[]*AwsProviderAssumeRoleWithWebIdentity)
@@ -123,7 +123,7 @@ func (j *jsiiProxy_AwsProvider) validateSetAssumeRoleWithWebIdentityParameters(v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*AwsProviderAssumeRoleWithWebIdentity; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*AwsProviderAssumeRoleWithWebIdentity; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -132,7 +132,7 @@ func (j *jsiiProxy_AwsProvider) validateSetAssumeRoleWithWebIdentityParameters(v
 
 func (j *jsiiProxy_AwsProvider) validateSetDefaultTagsParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*AwsProviderDefaultTags:
 		val := val.(*[]*AwsProviderDefaultTags)
@@ -151,7 +151,7 @@ func (j *jsiiProxy_AwsProvider) validateSetDefaultTagsParameters(val interface{}
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*AwsProviderDefaultTags; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*AwsProviderDefaultTags; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (j *jsiiProxy_AwsProvider) validateSetDefaultTagsParameters(val interface{}
 
 func (j *jsiiProxy_AwsProvider) validateSetEndpointsParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*AwsProviderEndpoints:
 		val := val.(*[]*AwsProviderEndpoints)
@@ -179,7 +179,7 @@ func (j *jsiiProxy_AwsProvider) validateSetEndpointsParameters(val interface{}) 
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*AwsProviderEndpoints; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*AwsProviderEndpoints; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -188,7 +188,7 @@ func (j *jsiiProxy_AwsProvider) validateSetEndpointsParameters(val interface{}) 
 
 func (j *jsiiProxy_AwsProvider) validateSetIgnoreTagsParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*AwsProviderIgnoreTags:
 		val := val.(*[]*AwsProviderIgnoreTags)
@@ -207,7 +207,7 @@ func (j *jsiiProxy_AwsProvider) validateSetIgnoreTagsParameters(val interface{})
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*AwsProviderIgnoreTags; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*AwsProviderIgnoreTags; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -220,11 +220,11 @@ func (j *jsiiProxy_AwsProvider) validateSetInsecureParameters(val interface{}) e
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -237,11 +237,11 @@ func (j *jsiiProxy_AwsProvider) validateSetS3UsePathStyleParameters(val interfac
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -254,11 +254,11 @@ func (j *jsiiProxy_AwsProvider) validateSetSkipCredentialsValidationParameters(v
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -271,11 +271,11 @@ func (j *jsiiProxy_AwsProvider) validateSetSkipRegionValidationParameters(val in
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -288,11 +288,11 @@ func (j *jsiiProxy_AwsProvider) validateSetSkipRequestingAccountIdParameters(val
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -305,11 +305,11 @@ func (j *jsiiProxy_AwsProvider) validateSetUseDualstackEndpointParameters(val in
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -322,11 +322,11 @@ func (j *jsiiProxy_AwsProvider) validateSetUseFipsEndpointParameters(val interfa
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 

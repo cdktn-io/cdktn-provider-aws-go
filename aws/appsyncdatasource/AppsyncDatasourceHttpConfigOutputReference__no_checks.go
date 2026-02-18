@@ -51,7 +51,7 @@ func (a *jsiiProxy_AppsyncDatasourceHttpConfigOutputReference) validatePutAuthor
 	return nil
 }
 
-func (a *jsiiProxy_AppsyncDatasourceHttpConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppsyncDatasourceHttpConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AppsyncDatasourceHttpConfigOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncDatasourceHttpConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppsyncDatasourceHttpConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppsyncDatasourceHttpConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppsyncDatasourceHttpConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsVpcEndpointAssociationsAssociationsPrivateDnsEntryList
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsVpcEndpointAssociationsAssociationsPrivateDnsEntryList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsVpcEndpointAssociationsAssociationsPrivateDnsEntryList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsVpcEndpointAssociationsAssociationsPrivateDnsEntryList
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVpcEndpointAssociationsAssociationsPrivateDnsEntryList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsVpcEndpointAssociationsAssociationsPrivateDnsEntryList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsVpcEndpointAssociationsAssociationsPrivateDnsEntryList
 	return nil
 }
 
-func validateNewDataAwsVpcEndpointAssociationsAssociationsPrivateDnsEntryListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsVpcEndpointAssociationsAssociationsPrivateDnsEntryListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

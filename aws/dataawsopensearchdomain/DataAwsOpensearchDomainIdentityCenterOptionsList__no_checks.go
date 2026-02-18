@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsOpensearchDomainIdentityCenterOptionsList) validateSet
 	return nil
 }
 
-func validateNewDataAwsOpensearchDomainIdentityCenterOptionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsOpensearchDomainIdentityCenterOptionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

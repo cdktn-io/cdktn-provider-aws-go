@@ -15,7 +15,7 @@ func (o *jsiiProxy_OdbNetworkOciDnsForwardingConfigsList) validateGetParameters(
 	return nil
 }
 
-func (o *jsiiProxy_OdbNetworkOciDnsForwardingConfigsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OdbNetworkOciDnsForwardingConfigsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_OdbNetworkOciDnsForwardingConfigsList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_OdbNetworkOciDnsForwardingConfigsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OdbNetworkOciDnsForwardingConfigsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_OdbNetworkOciDnsForwardingConfigsList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewOdbNetworkOciDnsForwardingConfigsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOdbNetworkOciDnsForwardingConfigsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

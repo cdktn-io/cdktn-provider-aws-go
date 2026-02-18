@@ -47,7 +47,7 @@ func (c *jsiiProxy_CodedeployDeploymentConfigMinimumHealthyHostsOutputReference)
 	return nil
 }
 
-func (c *jsiiProxy_CodedeployDeploymentConfigMinimumHealthyHostsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodedeployDeploymentConfigMinimumHealthyHostsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_CodedeployDeploymentConfigMinimumHealthyHostsOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_CodedeployDeploymentConfigMinimumHealthyHostsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodedeployDeploymentConfigMinimumHealthyHostsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_CodedeployDeploymentConfigMinimumHealthyHostsOutputReference)
 	return nil
 }
 
-func validateNewCodedeployDeploymentConfigMinimumHealthyHostsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCodedeployDeploymentConfigMinimumHealthyHostsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

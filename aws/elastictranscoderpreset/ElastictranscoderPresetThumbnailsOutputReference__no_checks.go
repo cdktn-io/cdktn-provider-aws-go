@@ -47,7 +47,7 @@ func (e *jsiiProxy_ElastictranscoderPresetThumbnailsOutputReference) validateInt
 	return nil
 }
 
-func (e *jsiiProxy_ElastictranscoderPresetThumbnailsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElastictranscoderPresetThumbnailsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,11 +99,11 @@ func (j *jsiiProxy_ElastictranscoderPresetThumbnailsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ElastictranscoderPresetThumbnailsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElastictranscoderPresetThumbnailsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewElastictranscoderPresetThumbnailsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewElastictranscoderPresetThumbnailsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

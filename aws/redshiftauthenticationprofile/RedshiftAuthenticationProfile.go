@@ -5,16 +5,16 @@ package redshiftauthenticationprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/redshiftauthenticationprofile/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/redshiftauthenticationprofile/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/redshift_authentication_profile aws_redshift_authentication_profile}.
 type RedshiftAuthenticationProfile interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AuthenticationProfileContent() *string
 	SetAuthenticationProfileContent(val *string)
 	AuthenticationProfileContentInput() *string
@@ -22,7 +22,7 @@ type RedshiftAuthenticationProfile interface {
 	SetAuthenticationProfileName(val *string)
 	AuthenticationProfileNameInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type RedshiftAuthenticationProfile interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,15 +49,15 @@ type RedshiftAuthenticationProfile interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -68,7 +68,7 @@ type RedshiftAuthenticationProfile interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -81,7 +81,7 @@ type RedshiftAuthenticationProfile interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -99,9 +99,9 @@ type RedshiftAuthenticationProfile interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -136,7 +136,7 @@ type RedshiftAuthenticationProfile interface {
 
 // The jsii proxy struct for RedshiftAuthenticationProfile
 type jsiiProxy_RedshiftAuthenticationProfile struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_RedshiftAuthenticationProfile) AuthenticationProfileContent() *string {
@@ -179,8 +179,8 @@ func (j *jsiiProxy_RedshiftAuthenticationProfile) AuthenticationProfileNameInput
 	return returns
 }
 
-func (j *jsiiProxy_RedshiftAuthenticationProfile) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_RedshiftAuthenticationProfile) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -229,8 +229,8 @@ func (j *jsiiProxy_RedshiftAuthenticationProfile) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_RedshiftAuthenticationProfile) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_RedshiftAuthenticationProfile) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -279,8 +279,8 @@ func (j *jsiiProxy_RedshiftAuthenticationProfile) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_RedshiftAuthenticationProfile) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_RedshiftAuthenticationProfile) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -299,8 +299,8 @@ func (j *jsiiProxy_RedshiftAuthenticationProfile) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_RedshiftAuthenticationProfile) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_RedshiftAuthenticationProfile) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -349,8 +349,8 @@ func (j *jsiiProxy_RedshiftAuthenticationProfile) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_RedshiftAuthenticationProfile) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_RedshiftAuthenticationProfile) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -461,7 +461,7 @@ func (j *jsiiProxy_RedshiftAuthenticationProfile)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_RedshiftAuthenticationProfile)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_RedshiftAuthenticationProfile)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -480,7 +480,7 @@ func (j *jsiiProxy_RedshiftAuthenticationProfile)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_RedshiftAuthenticationProfile)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_RedshiftAuthenticationProfile)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -491,7 +491,7 @@ func (j *jsiiProxy_RedshiftAuthenticationProfile)SetLifecycle(val *cdktf.Terrafo
 	)
 }
 
-func (j *jsiiProxy_RedshiftAuthenticationProfile)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_RedshiftAuthenticationProfile)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -521,14 +521,14 @@ func (j *jsiiProxy_RedshiftAuthenticationProfile)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a RedshiftAuthenticationProfile resource upon running "cdktf plan <stack-name>".
-func RedshiftAuthenticationProfile_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a RedshiftAuthenticationProfile resource upon running "cdktn plan <stack-name>".
+func RedshiftAuthenticationProfile_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateRedshiftAuthenticationProfile_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.redshiftAuthenticationProfile.RedshiftAuthenticationProfile",
@@ -662,11 +662,11 @@ func (r *jsiiProxy_RedshiftAuthenticationProfile) GetAnyMapAttribute(terraformAt
 	return returns
 }
 
-func (r *jsiiProxy_RedshiftAuthenticationProfile) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RedshiftAuthenticationProfile) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -803,7 +803,7 @@ func (r *jsiiProxy_RedshiftAuthenticationProfile) HasResourceMove() interface{} 
 	return returns
 }
 
-func (r *jsiiProxy_RedshiftAuthenticationProfile) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (r *jsiiProxy_RedshiftAuthenticationProfile) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := r.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -814,11 +814,11 @@ func (r *jsiiProxy_RedshiftAuthenticationProfile) ImportFrom(id *string, provide
 	)
 }
 
-func (r *jsiiProxy_RedshiftAuthenticationProfile) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RedshiftAuthenticationProfile) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,

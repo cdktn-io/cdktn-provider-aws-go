@@ -15,7 +15,7 @@ func (b *jsiiProxy_BedrockagentcoreAgentRuntimeWorkloadIdentityDetailsList) vali
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentcoreAgentRuntimeWorkloadIdentityDetailsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentcoreAgentRuntimeWorkloadIdentityDetailsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_BedrockagentcoreAgentRuntimeWorkloadIdentityDetailsList) vali
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreAgentRuntimeWorkloadIdentityDetailsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentcoreAgentRuntimeWorkloadIdentityDetailsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_BedrockagentcoreAgentRuntimeWorkloadIdentityDetailsList) vali
 	return nil
 }
 
-func validateNewBedrockagentcoreAgentRuntimeWorkloadIdentityDetailsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockagentcoreAgentRuntimeWorkloadIdentityDetailsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

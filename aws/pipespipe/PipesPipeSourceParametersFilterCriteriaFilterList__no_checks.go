@@ -15,7 +15,7 @@ func (p *jsiiProxy_PipesPipeSourceParametersFilterCriteriaFilterList) validateGe
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeSourceParametersFilterCriteriaFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeSourceParametersFilterCriteriaFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_PipesPipeSourceParametersFilterCriteriaFilterList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeSourceParametersFilterCriteriaFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeSourceParametersFilterCriteriaFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_PipesPipeSourceParametersFilterCriteriaFilterList) validateSe
 	return nil
 }
 
-func validateNewPipesPipeSourceParametersFilterCriteriaFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewPipesPipeSourceParametersFilterCriteriaFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

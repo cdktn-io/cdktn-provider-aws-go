@@ -47,7 +47,7 @@ func (s *jsiiProxy_SsmquicksetupConfigurationManagerConfigurationDefinitionOutpu
 	return nil
 }
 
-func (s *jsiiProxy_SsmquicksetupConfigurationManagerConfigurationDefinitionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsmquicksetupConfigurationManagerConfigurationDefinitionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SsmquicksetupConfigurationManagerConfigurationDefinitionOutpu
 	return nil
 }
 
-func (j *jsiiProxy_SsmquicksetupConfigurationManagerConfigurationDefinitionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsmquicksetupConfigurationManagerConfigurationDefinitionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_SsmquicksetupConfigurationManagerConfigurationDefinitionOutpu
 	return nil
 }
 
-func validateNewSsmquicksetupConfigurationManagerConfigurationDefinitionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSsmquicksetupConfigurationManagerConfigurationDefinitionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

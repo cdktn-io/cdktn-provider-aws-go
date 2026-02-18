@@ -111,7 +111,7 @@ func (j *jsiiProxy_DirectoryServiceConditionalForwarder) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_DirectoryServiceConditionalForwarder) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DirectoryServiceConditionalForwarder) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

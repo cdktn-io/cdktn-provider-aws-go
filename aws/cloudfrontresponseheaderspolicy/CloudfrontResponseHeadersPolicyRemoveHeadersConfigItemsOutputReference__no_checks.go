@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudfrontResponseHeadersPolicyRemoveHeadersConfigItemsOutput
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontResponseHeadersPolicyRemoveHeadersConfigItemsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontResponseHeadersPolicyRemoveHeadersConfigItemsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CloudfrontResponseHeadersPolicyRemoveHeadersConfigItemsOutput
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontResponseHeadersPolicyRemoveHeadersConfigItemsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontResponseHeadersPolicyRemoveHeadersConfigItemsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudfrontResponseHeadersPolicyRemoveHeadersConfigItemsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudfrontResponseHeadersPolicyRemoveHeadersConfigItemsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

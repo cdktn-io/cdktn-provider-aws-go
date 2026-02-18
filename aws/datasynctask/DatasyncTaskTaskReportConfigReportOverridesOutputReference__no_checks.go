@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatasyncTaskTaskReportConfigReportOverridesOutputReference) v
 	return nil
 }
 
-func (d *jsiiProxy_DatasyncTaskTaskReportConfigReportOverridesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatasyncTaskTaskReportConfigReportOverridesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DatasyncTaskTaskReportConfigReportOverridesOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_DatasyncTaskTaskReportConfigReportOverridesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatasyncTaskTaskReportConfigReportOverridesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DatasyncTaskTaskReportConfigReportOverridesOutputReference) v
 	return nil
 }
 
-func validateNewDatasyncTaskTaskReportConfigReportOverridesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatasyncTaskTaskReportConfigReportOverridesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (c *jsiiProxy_CodepipelineTriggerAllList) validateGetParameters(index *floa
 	return nil
 }
 
-func (c *jsiiProxy_CodepipelineTriggerAllList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodepipelineTriggerAllList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_CodepipelineTriggerAllList) validateSetTerraformAttributePara
 	return nil
 }
 
-func (j *jsiiProxy_CodepipelineTriggerAllList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodepipelineTriggerAllList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_CodepipelineTriggerAllList) validateSetWrapsSetParameters(val
 	return nil
 }
 
-func validateNewCodepipelineTriggerAllListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCodepipelineTriggerAllListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

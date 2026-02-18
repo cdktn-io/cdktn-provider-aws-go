@@ -15,7 +15,7 @@ func (n *jsiiProxy_NeptunegraphGraphVectorSearchConfigurationList) validateGetPa
 	return nil
 }
 
-func (n *jsiiProxy_NeptunegraphGraphVectorSearchConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NeptunegraphGraphVectorSearchConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_NeptunegraphGraphVectorSearchConfigurationList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_NeptunegraphGraphVectorSearchConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NeptunegraphGraphVectorSearchConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_NeptunegraphGraphVectorSearchConfigurationList) validateSetWr
 	return nil
 }
 
-func validateNewNeptunegraphGraphVectorSearchConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNeptunegraphGraphVectorSearchConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

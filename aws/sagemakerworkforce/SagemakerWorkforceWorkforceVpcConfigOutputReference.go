@@ -5,14 +5,14 @@ package sagemakerworkforce
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/sagemakerworkforce/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/sagemakerworkforce/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SagemakerWorkforceWorkforceVpcConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type SagemakerWorkforceWorkforceVpcConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VpcEndpointId() *string
 	VpcId() *string
 	SetVpcId(val *string)
@@ -55,7 +55,7 @@ type SagemakerWorkforceWorkforceVpcConfigOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -71,15 +71,15 @@ type SagemakerWorkforceWorkforceVpcConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetSecurityGroupIds()
 	ResetSubnets()
 	ResetVpcId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -89,7 +89,7 @@ type SagemakerWorkforceWorkforceVpcConfigOutputReference interface {
 
 // The jsii proxy struct for SagemakerWorkforceWorkforceVpcConfigOutputReference
 type jsiiProxy_SagemakerWorkforceWorkforceVpcConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SagemakerWorkforceWorkforceVpcConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -192,8 +192,8 @@ func (j *jsiiProxy_SagemakerWorkforceWorkforceVpcConfigOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_SagemakerWorkforceWorkforceVpcConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SagemakerWorkforceWorkforceVpcConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -233,7 +233,7 @@ func (j *jsiiProxy_SagemakerWorkforceWorkforceVpcConfigOutputReference) VpcIdInp
 }
 
 
-func NewSagemakerWorkforceWorkforceVpcConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SagemakerWorkforceWorkforceVpcConfigOutputReference {
+func NewSagemakerWorkforceWorkforceVpcConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SagemakerWorkforceWorkforceVpcConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSagemakerWorkforceWorkforceVpcConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -250,7 +250,7 @@ func NewSagemakerWorkforceWorkforceVpcConfigOutputReference(terraformResource cd
 	return &j
 }
 
-func NewSagemakerWorkforceWorkforceVpcConfigOutputReference_Override(s SagemakerWorkforceWorkforceVpcConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSagemakerWorkforceWorkforceVpcConfigOutputReference_Override(s SagemakerWorkforceWorkforceVpcConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_SagemakerWorkforceWorkforceVpcConfigOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_SagemakerWorkforceWorkforceVpcConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SagemakerWorkforceWorkforceVpcConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -377,11 +377,11 @@ func (s *jsiiProxy_SagemakerWorkforceWorkforceVpcConfigOutputReference) GetAnyMa
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerWorkforceWorkforceVpcConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerWorkforceWorkforceVpcConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -505,8 +505,8 @@ func (s *jsiiProxy_SagemakerWorkforceWorkforceVpcConfigOutputReference) GetStrin
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerWorkforceWorkforceVpcConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SagemakerWorkforceWorkforceVpcConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -518,11 +518,11 @@ func (s *jsiiProxy_SagemakerWorkforceWorkforceVpcConfigOutputReference) Interpol
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerWorkforceWorkforceVpcConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerWorkforceWorkforceVpcConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -558,7 +558,7 @@ func (s *jsiiProxy_SagemakerWorkforceWorkforceVpcConfigOutputReference) ResetVpc
 	)
 }
 
-func (s *jsiiProxy_SagemakerWorkforceWorkforceVpcConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SagemakerWorkforceWorkforceVpcConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

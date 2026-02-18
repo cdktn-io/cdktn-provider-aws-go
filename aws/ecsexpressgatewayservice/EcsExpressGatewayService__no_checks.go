@@ -135,7 +135,7 @@ func (j *jsiiProxy_EcsExpressGatewayService) validateSetInfrastructureRoleArnPar
 	return nil
 }
 
-func (j *jsiiProxy_EcsExpressGatewayService) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EcsExpressGatewayService) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

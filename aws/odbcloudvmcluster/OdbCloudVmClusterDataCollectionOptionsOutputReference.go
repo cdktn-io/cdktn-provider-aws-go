@@ -5,14 +5,14 @@ package odbcloudvmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/odbcloudvmcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/odbcloudvmcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OdbCloudVmClusterDataCollectionOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type OdbCloudVmClusterDataCollectionOptionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type OdbCloudVmClusterDataCollectionOptionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type OdbCloudVmClusterDataCollectionOptionsOutputReference interface {
 
 // The jsii proxy struct for OdbCloudVmClusterDataCollectionOptionsOutputReference
 type jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) ComplexObjectIndex() interface{} {
@@ -208,8 +208,8 @@ func (j *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) Terraf
 }
 
 
-func NewOdbCloudVmClusterDataCollectionOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) OdbCloudVmClusterDataCollectionOptionsOutputReference {
+func NewOdbCloudVmClusterDataCollectionOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) OdbCloudVmClusterDataCollectionOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOdbCloudVmClusterDataCollectionOptionsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -236,7 +236,7 @@ func NewOdbCloudVmClusterDataCollectionOptionsOutputReference(terraformResource 
 	return &j
 }
 
-func NewOdbCloudVmClusterDataCollectionOptionsOutputReference_Override(o OdbCloudVmClusterDataCollectionOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewOdbCloudVmClusterDataCollectionOptionsOutputReference_Override(o OdbCloudVmClusterDataCollectionOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -323,7 +323,7 @@ func (j *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -363,11 +363,11 @@ func (o *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) GetAny
 	return returns
 }
 
-func (o *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -491,8 +491,8 @@ func (o *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) GetStr
 	return returns
 }
 
-func (o *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -504,11 +504,11 @@ func (o *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) Interp
 	return returns
 }
 
-func (o *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -520,7 +520,7 @@ func (o *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) Interp
 	return returns
 }
 
-func (o *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OdbCloudVmClusterDataCollectionOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

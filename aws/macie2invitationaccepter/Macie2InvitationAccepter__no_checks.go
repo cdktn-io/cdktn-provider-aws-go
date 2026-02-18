@@ -111,7 +111,7 @@ func (j *jsiiProxy_Macie2InvitationAccepter) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_Macie2InvitationAccepter) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Macie2InvitationAccepter) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

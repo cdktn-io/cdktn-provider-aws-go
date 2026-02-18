@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsAccountPrimaryContact) validateSetCountParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAccountPrimaryContact) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsAccountPrimaryContact) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

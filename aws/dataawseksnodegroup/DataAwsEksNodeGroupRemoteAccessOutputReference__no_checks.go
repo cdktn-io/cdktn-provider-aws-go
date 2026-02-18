@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEksNodeGroupRemoteAccessOutputReference) validateInter
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEksNodeGroupRemoteAccessOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEksNodeGroupRemoteAccessOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsEksNodeGroupRemoteAccessOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEksNodeGroupRemoteAccessOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEksNodeGroupRemoteAccessOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsEksNodeGroupRemoteAccessOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsEksNodeGroupRemoteAccessOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

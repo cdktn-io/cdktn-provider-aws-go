@@ -47,7 +47,7 @@ func (q *jsiiProxy_QuicksightDataSetPhysicalTableMapRelationalTableInputColumnsO
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDataSetPhysicalTableMapRelationalTableInputColumnsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDataSetPhysicalTableMapRelationalTableInputColumnsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapRelationalTableInputColumnsO
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapRelationalTableInputColumnsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapRelationalTableInputColumnsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapRelationalTableInputColumnsO
 	return nil
 }
 
-func validateNewQuicksightDataSetPhysicalTableMapRelationalTableInputColumnsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewQuicksightDataSetPhysicalTableMapRelationalTableInputColumnsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

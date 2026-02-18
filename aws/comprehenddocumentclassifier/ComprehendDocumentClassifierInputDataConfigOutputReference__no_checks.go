@@ -51,7 +51,7 @@ func (c *jsiiProxy_ComprehendDocumentClassifierInputDataConfigOutputReference) v
 	return nil
 }
 
-func (c *jsiiProxy_ComprehendDocumentClassifierInputDataConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComprehendDocumentClassifierInputDataConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ComprehendDocumentClassifierInputDataConfigOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_ComprehendDocumentClassifierInputDataConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComprehendDocumentClassifierInputDataConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_ComprehendDocumentClassifierInputDataConfigOutputReference) v
 	return nil
 }
 
-func validateNewComprehendDocumentClassifierInputDataConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComprehendDocumentClassifierInputDataConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

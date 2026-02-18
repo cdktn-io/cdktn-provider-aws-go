@@ -103,7 +103,7 @@ func (j *jsiiProxy_CloudwatchLogTransformer) validateSetCountParameters(val inte
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchLogTransformer) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudwatchLogTransformer) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (p *jsiiProxy_PipesPipeSourceParametersSqsQueueParametersOutputReference) v
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeSourceParametersSqsQueueParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeSourceParametersSqsQueueParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_PipesPipeSourceParametersSqsQueueParametersOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeSourceParametersSqsQueueParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeSourceParametersSqsQueueParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPipesPipeSourceParametersSqsQueueParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPipesPipeSourceParametersSqsQueueParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

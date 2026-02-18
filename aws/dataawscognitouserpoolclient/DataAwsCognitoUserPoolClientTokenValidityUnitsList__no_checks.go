@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsCognitoUserPoolClientTokenValidityUnitsList) validateG
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCognitoUserPoolClientTokenValidityUnitsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCognitoUserPoolClientTokenValidityUnitsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolClientTokenValidityUnitsList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolClientTokenValidityUnitsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCognitoUserPoolClientTokenValidityUnitsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolClientTokenValidityUnitsList) validateS
 	return nil
 }
 
-func validateNewDataAwsCognitoUserPoolClientTokenValidityUnitsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsCognitoUserPoolClientTokenValidityUnitsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

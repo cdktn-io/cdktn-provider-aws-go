@@ -107,7 +107,7 @@ func (j *jsiiProxy_DataexchangeEventAction) validateSetCountParameters(val inter
 	return nil
 }
 
-func (j *jsiiProxy_DataexchangeEventAction) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataexchangeEventAction) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

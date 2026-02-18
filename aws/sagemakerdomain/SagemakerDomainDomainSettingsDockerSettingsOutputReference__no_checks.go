@@ -47,7 +47,7 @@ func (s *jsiiProxy_SagemakerDomainDomainSettingsDockerSettingsOutputReference) v
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerDomainDomainSettingsDockerSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerDomainDomainSettingsDockerSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_SagemakerDomainDomainSettingsDockerSettingsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerDomainDomainSettingsDockerSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerDomainDomainSettingsDockerSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SagemakerDomainDomainSettingsDockerSettingsOutputReference) v
 	return nil
 }
 
-func validateNewSagemakerDomainDomainSettingsDockerSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerDomainDomainSettingsDockerSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

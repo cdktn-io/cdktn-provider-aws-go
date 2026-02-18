@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogFileFormatJsonOutputRef
 	return nil
 }
 
-func (a *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogFileFormatJsonOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogFileFormatJsonOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogFileFormatJsonOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogFileFormatJsonOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogFileFormatJsonOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AppmeshVirtualNodeSpecLoggingAccessLogFileFormatJsonOutputRef
 	return nil
 }
 
-func validateNewAppmeshVirtualNodeSpecLoggingAccessLogFileFormatJsonOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppmeshVirtualNodeSpecLoggingAccessLogFileFormatJsonOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package iotcacertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/iotcacertificate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/iotcacertificate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type IotCaCertificateRegistrationConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type IotCaCertificateRegistrationConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type IotCaCertificateRegistrationConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetRoleArn()
 	ResetTemplateBody()
 	ResetTemplateName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type IotCaCertificateRegistrationConfigOutputReference interface {
 
 // The jsii proxy struct for IotCaCertificateRegistrationConfigOutputReference
 type jsiiProxy_IotCaCertificateRegistrationConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_IotCaCertificateRegistrationConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_IotCaCertificateRegistrationConfigOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_IotCaCertificateRegistrationConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_IotCaCertificateRegistrationConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_IotCaCertificateRegistrationConfigOutputReference) TerraformR
 }
 
 
-func NewIotCaCertificateRegistrationConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) IotCaCertificateRegistrationConfigOutputReference {
+func NewIotCaCertificateRegistrationConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) IotCaCertificateRegistrationConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewIotCaCertificateRegistrationConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewIotCaCertificateRegistrationConfigOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewIotCaCertificateRegistrationConfigOutputReference_Override(i IotCaCertificateRegistrationConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewIotCaCertificateRegistrationConfigOutputReference_Override(i IotCaCertificateRegistrationConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_IotCaCertificateRegistrationConfigOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_IotCaCertificateRegistrationConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_IotCaCertificateRegistrationConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (i *jsiiProxy_IotCaCertificateRegistrationConfigOutputReference) GetAnyMapA
 	return returns
 }
 
-func (i *jsiiProxy_IotCaCertificateRegistrationConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IotCaCertificateRegistrationConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -494,8 +494,8 @@ func (i *jsiiProxy_IotCaCertificateRegistrationConfigOutputReference) GetStringM
 	return returns
 }
 
-func (i *jsiiProxy_IotCaCertificateRegistrationConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_IotCaCertificateRegistrationConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -507,11 +507,11 @@ func (i *jsiiProxy_IotCaCertificateRegistrationConfigOutputReference) Interpolat
 	return returns
 }
 
-func (i *jsiiProxy_IotCaCertificateRegistrationConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IotCaCertificateRegistrationConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -547,7 +547,7 @@ func (i *jsiiProxy_IotCaCertificateRegistrationConfigOutputReference) ResetTempl
 	)
 }
 
-func (i *jsiiProxy_IotCaCertificateRegistrationConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_IotCaCertificateRegistrationConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsLaunchTemplateInstanceMarketOptionsSpotOptionsOutputRe
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLaunchTemplateInstanceMarketOptionsSpotOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLaunchTemplateInstanceMarketOptionsSpotOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsLaunchTemplateInstanceMarketOptionsSpotOptionsOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLaunchTemplateInstanceMarketOptionsSpotOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLaunchTemplateInstanceMarketOptionsSpotOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsLaunchTemplateInstanceMarketOptionsSpotOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsLaunchTemplateInstanceMarketOptionsSpotOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

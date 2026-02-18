@@ -5,14 +5,14 @@ package eksnodegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/eksnodegroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/eksnodegroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EksNodeGroupResourcesAutoscalingGroupsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -38,15 +38,15 @@ type EksNodeGroupResourcesAutoscalingGroupsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -62,12 +62,12 @@ type EksNodeGroupResourcesAutoscalingGroupsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -77,7 +77,7 @@ type EksNodeGroupResourcesAutoscalingGroupsOutputReference interface {
 
 // The jsii proxy struct for EksNodeGroupResourcesAutoscalingGroupsOutputReference
 type jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference) ComplexObjectIndex() interface{} {
@@ -150,8 +150,8 @@ func (j *jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -161,7 +161,7 @@ func (j *jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference) Terraf
 }
 
 
-func NewEksNodeGroupResourcesAutoscalingGroupsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EksNodeGroupResourcesAutoscalingGroupsOutputReference {
+func NewEksNodeGroupResourcesAutoscalingGroupsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EksNodeGroupResourcesAutoscalingGroupsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEksNodeGroupResourcesAutoscalingGroupsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -178,7 +178,7 @@ func NewEksNodeGroupResourcesAutoscalingGroupsOutputReference(terraformResource 
 	return &j
 }
 
-func NewEksNodeGroupResourcesAutoscalingGroupsOutputReference_Override(e EksNodeGroupResourcesAutoscalingGroupsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewEksNodeGroupResourcesAutoscalingGroupsOutputReference_Override(e EksNodeGroupResourcesAutoscalingGroupsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -232,7 +232,7 @@ func (j *jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -272,11 +272,11 @@ func (e *jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference) GetAny
 	return returns
 }
 
-func (e *jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -400,8 +400,8 @@ func (e *jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference) GetStr
 	return returns
 }
 
-func (e *jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -413,11 +413,11 @@ func (e *jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference) Interp
 	return returns
 }
 
-func (e *jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -429,7 +429,7 @@ func (e *jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference) Interp
 	return returns
 }
 
-func (e *jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

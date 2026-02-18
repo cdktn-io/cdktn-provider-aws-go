@@ -47,7 +47,7 @@ func (l *jsiiProxy_LexBotClarificationPromptMessageOutputReference) validateInte
 	return nil
 }
 
-func (l *jsiiProxy_LexBotClarificationPromptMessageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LexBotClarificationPromptMessageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_LexBotClarificationPromptMessageOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_LexBotClarificationPromptMessageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LexBotClarificationPromptMessageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLexBotClarificationPromptMessageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLexBotClarificationPromptMessageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

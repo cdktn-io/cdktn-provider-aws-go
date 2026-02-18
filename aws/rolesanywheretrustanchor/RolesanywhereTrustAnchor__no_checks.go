@@ -115,7 +115,7 @@ func (j *jsiiProxy_RolesanywhereTrustAnchor) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_RolesanywhereTrustAnchor) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RolesanywhereTrustAnchor) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

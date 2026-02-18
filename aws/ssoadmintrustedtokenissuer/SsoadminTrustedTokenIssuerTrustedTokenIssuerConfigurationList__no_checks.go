@@ -15,7 +15,7 @@ func (s *jsiiProxy_SsoadminTrustedTokenIssuerTrustedTokenIssuerConfigurationList
 	return nil
 }
 
-func (s *jsiiProxy_SsoadminTrustedTokenIssuerTrustedTokenIssuerConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsoadminTrustedTokenIssuerTrustedTokenIssuerConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SsoadminTrustedTokenIssuerTrustedTokenIssuerConfigurationList
 	return nil
 }
 
-func (j *jsiiProxy_SsoadminTrustedTokenIssuerTrustedTokenIssuerConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsoadminTrustedTokenIssuerTrustedTokenIssuerConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SsoadminTrustedTokenIssuerTrustedTokenIssuerConfigurationList
 	return nil
 }
 
-func validateNewSsoadminTrustedTokenIssuerTrustedTokenIssuerConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSsoadminTrustedTokenIssuerTrustedTokenIssuerConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsList)
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsList)
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsList)
 	return nil
 }
 
-func validateNewDataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

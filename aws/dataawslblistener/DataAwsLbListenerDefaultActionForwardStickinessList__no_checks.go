@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsLbListenerDefaultActionForwardStickinessList) validate
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLbListenerDefaultActionForwardStickinessList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLbListenerDefaultActionForwardStickinessList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsLbListenerDefaultActionForwardStickinessList) validate
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLbListenerDefaultActionForwardStickinessList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLbListenerDefaultActionForwardStickinessList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsLbListenerDefaultActionForwardStickinessList) validate
 	return nil
 }
 
-func validateNewDataAwsLbListenerDefaultActionForwardStickinessListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsLbListenerDefaultActionForwardStickinessListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

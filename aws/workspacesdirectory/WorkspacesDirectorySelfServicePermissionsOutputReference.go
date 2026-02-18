@@ -5,14 +5,14 @@ package workspacesdirectory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/workspacesdirectory/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/workspacesdirectory/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WorkspacesDirectorySelfServicePermissionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ChangeComputeType() interface{}
 	SetChangeComputeType(val interface{})
 	ChangeComputeTypeInput() interface{}
@@ -52,15 +52,15 @@ type WorkspacesDirectorySelfServicePermissionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type WorkspacesDirectorySelfServicePermissionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetChangeComputeType()
 	ResetIncreaseVolumeSize()
 	ResetRebuildWorkspace()
@@ -86,7 +86,7 @@ type WorkspacesDirectorySelfServicePermissionsOutputReference interface {
 	ResetSwitchRunningMode()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type WorkspacesDirectorySelfServicePermissionsOutputReference interface {
 
 // The jsii proxy struct for WorkspacesDirectorySelfServicePermissionsOutputReference
 type jsiiProxy_WorkspacesDirectorySelfServicePermissionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WorkspacesDirectorySelfServicePermissionsOutputReference) ChangeComputeType() interface{} {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_WorkspacesDirectorySelfServicePermissionsOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_WorkspacesDirectorySelfServicePermissionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WorkspacesDirectorySelfServicePermissionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_WorkspacesDirectorySelfServicePermissionsOutputReference) Ter
 }
 
 
-func NewWorkspacesDirectorySelfServicePermissionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) WorkspacesDirectorySelfServicePermissionsOutputReference {
+func NewWorkspacesDirectorySelfServicePermissionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) WorkspacesDirectorySelfServicePermissionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWorkspacesDirectorySelfServicePermissionsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewWorkspacesDirectorySelfServicePermissionsOutputReference(terraformResour
 	return &j
 }
 
-func NewWorkspacesDirectorySelfServicePermissionsOutputReference_Override(w WorkspacesDirectorySelfServicePermissionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewWorkspacesDirectorySelfServicePermissionsOutputReference_Override(w WorkspacesDirectorySelfServicePermissionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -396,7 +396,7 @@ func (j *jsiiProxy_WorkspacesDirectorySelfServicePermissionsOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_WorkspacesDirectorySelfServicePermissionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WorkspacesDirectorySelfServicePermissionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -436,11 +436,11 @@ func (w *jsiiProxy_WorkspacesDirectorySelfServicePermissionsOutputReference) Get
 	return returns
 }
 
-func (w *jsiiProxy_WorkspacesDirectorySelfServicePermissionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WorkspacesDirectorySelfServicePermissionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -564,8 +564,8 @@ func (w *jsiiProxy_WorkspacesDirectorySelfServicePermissionsOutputReference) Get
 	return returns
 }
 
-func (w *jsiiProxy_WorkspacesDirectorySelfServicePermissionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WorkspacesDirectorySelfServicePermissionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -577,11 +577,11 @@ func (w *jsiiProxy_WorkspacesDirectorySelfServicePermissionsOutputReference) Int
 	return returns
 }
 
-func (w *jsiiProxy_WorkspacesDirectorySelfServicePermissionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WorkspacesDirectorySelfServicePermissionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -633,7 +633,7 @@ func (w *jsiiProxy_WorkspacesDirectorySelfServicePermissionsOutputReference) Res
 	)
 }
 
-func (w *jsiiProxy_WorkspacesDirectorySelfServicePermissionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WorkspacesDirectorySelfServicePermissionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -5,19 +5,19 @@ package appstreamfleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/appstreamfleet/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appstreamfleet/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/appstream_fleet aws_appstream_fleet}.
 type AppstreamFleet interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ComputeCapacity() AppstreamFleetComputeCapacityOutputReference
 	ComputeCapacityInput() *AppstreamFleetComputeCapacity
 	// Experimental.
@@ -53,9 +53,9 @@ type AppstreamFleet interface {
 	SetFleetType(val *string)
 	FleetTypeInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -79,9 +79,9 @@ type AppstreamFleet interface {
 	SetInstanceType(val *string)
 	InstanceTypeInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MaxSessionsPerInstance() *float64
 	SetMaxSessionsPerInstance(val *float64)
 	MaxSessionsPerInstanceInput() *float64
@@ -94,9 +94,9 @@ type AppstreamFleet interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -117,7 +117,7 @@ type AppstreamFleet interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -132,7 +132,7 @@ type AppstreamFleet interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -150,9 +150,9 @@ type AppstreamFleet interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -206,7 +206,7 @@ type AppstreamFleet interface {
 
 // The jsii proxy struct for AppstreamFleet
 type jsiiProxy_AppstreamFleet struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_AppstreamFleet) Arn() *string {
@@ -219,8 +219,8 @@ func (j *jsiiProxy_AppstreamFleet) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AppstreamFleet) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_AppstreamFleet) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -419,8 +419,8 @@ func (j *jsiiProxy_AppstreamFleet) FleetTypeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AppstreamFleet) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_AppstreamFleet) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -569,8 +569,8 @@ func (j *jsiiProxy_AppstreamFleet) InstanceTypeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AppstreamFleet) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_AppstreamFleet) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -649,8 +649,8 @@ func (j *jsiiProxy_AppstreamFleet) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_AppstreamFleet) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_AppstreamFleet) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -769,8 +769,8 @@ func (j *jsiiProxy_AppstreamFleet) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_AppstreamFleet) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_AppstreamFleet) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -934,7 +934,7 @@ func (j *jsiiProxy_AppstreamFleet)SetFleetType(val *string) {
 	)
 }
 
-func (j *jsiiProxy_AppstreamFleet)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_AppstreamFleet)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1008,7 +1008,7 @@ func (j *jsiiProxy_AppstreamFleet)SetInstanceType(val *string) {
 	)
 }
 
-func (j *jsiiProxy_AppstreamFleet)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_AppstreamFleet)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1052,7 +1052,7 @@ func (j *jsiiProxy_AppstreamFleet)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_AppstreamFleet)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_AppstreamFleet)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1115,14 +1115,14 @@ func (j *jsiiProxy_AppstreamFleet)SetTagsAll(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a AppstreamFleet resource upon running "cdktf plan <stack-name>".
-func AppstreamFleet_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a AppstreamFleet resource upon running "cdktn plan <stack-name>".
+func AppstreamFleet_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateAppstreamFleet_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.appstreamFleet.AppstreamFleet",
@@ -1256,11 +1256,11 @@ func (a *jsiiProxy_AppstreamFleet) GetAnyMapAttribute(terraformAttribute *string
 	return returns
 }
 
-func (a *jsiiProxy_AppstreamFleet) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppstreamFleet) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1397,7 +1397,7 @@ func (a *jsiiProxy_AppstreamFleet) HasResourceMove() interface{} {
 	return returns
 }
 
-func (a *jsiiProxy_AppstreamFleet) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_AppstreamFleet) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1408,11 +1408,11 @@ func (a *jsiiProxy_AppstreamFleet) ImportFrom(id *string, provider cdktf.Terrafo
 	)
 }
 
-func (a *jsiiProxy_AppstreamFleet) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppstreamFleet) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

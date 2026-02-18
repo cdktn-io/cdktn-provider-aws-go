@@ -8,7 +8,7 @@ package dataawss3controlaccesspoints
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataAwsS3ControlAccessPointsAccessPointsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (d *jsiiProxy_DataAwsS3ControlAccessPointsAccessPointsList) validateGetPara
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsS3ControlAccessPointsAccessPointsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsS3ControlAccessPointsAccessPointsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_DataAwsS3ControlAccessPointsAccessPointsList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsS3ControlAccessPointsAccessPointsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsS3ControlAccessPointsAccessPointsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_DataAwsS3ControlAccessPointsAccessPointsList) validateSetWrap
 	return nil
 }
 
-func validateNewDataAwsS3ControlAccessPointsAccessPointsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsS3ControlAccessPointsAccessPointsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (p *jsiiProxy_PrometheusQueryLoggingConfigurationDestinationCloudwatchLogsO
 	return nil
 }
 
-func (p *jsiiProxy_PrometheusQueryLoggingConfigurationDestinationCloudwatchLogsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrometheusQueryLoggingConfigurationDestinationCloudwatchLogsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_PrometheusQueryLoggingConfigurationDestinationCloudwatchLogsO
 	return nil
 }
 
-func (j *jsiiProxy_PrometheusQueryLoggingConfigurationDestinationCloudwatchLogsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrometheusQueryLoggingConfigurationDestinationCloudwatchLogsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPrometheusQueryLoggingConfigurationDestinationCloudwatchLogsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPrometheusQueryLoggingConfigurationDestinationCloudwatchLogsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

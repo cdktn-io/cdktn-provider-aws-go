@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsAlbConnectionLogsList) validateGetParameters(index *fl
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAlbConnectionLogsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAlbConnectionLogsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsAlbConnectionLogsList) validateSetTerraformAttributePa
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAlbConnectionLogsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAlbConnectionLogsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsAlbConnectionLogsList) validateSetWrapsSetParameters(v
 	return nil
 }
 
-func validateNewDataAwsAlbConnectionLogsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsAlbConnectionLogsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

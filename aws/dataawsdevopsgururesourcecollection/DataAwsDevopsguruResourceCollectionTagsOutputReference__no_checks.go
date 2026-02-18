@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsDevopsguruResourceCollectionTagsOutputReference) valid
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsDevopsguruResourceCollectionTagsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsDevopsguruResourceCollectionTagsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsDevopsguruResourceCollectionTagsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDevopsguruResourceCollectionTagsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsDevopsguruResourceCollectionTagsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsDevopsguruResourceCollectionTagsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsDevopsguruResourceCollectionTagsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

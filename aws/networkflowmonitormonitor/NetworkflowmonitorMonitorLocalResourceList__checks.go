@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (n *jsiiProxy_NetworkflowmonitorMonitorLocalResourceList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (n *jsiiProxy_NetworkflowmonitorMonitorLocalResourceList) validateGetParame
 	return nil
 }
 
-func (n *jsiiProxy_NetworkflowmonitorMonitorLocalResourceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkflowmonitorMonitorLocalResourceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (n *jsiiProxy_NetworkflowmonitorMonitorLocalResourceList) validateResolvePa
 
 func (j *jsiiProxy_NetworkflowmonitorMonitorLocalResourceList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*NetworkflowmonitorMonitorLocalResource:
 		val := val.(*[]*NetworkflowmonitorMonitorLocalResource)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_NetworkflowmonitorMonitorLocalResourceList) validateSetIntern
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*NetworkflowmonitorMonitorLocalResource; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*NetworkflowmonitorMonitorLocalResource; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_NetworkflowmonitorMonitorLocalResourceList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_NetworkflowmonitorMonitorLocalResourceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkflowmonitorMonitorLocalResourceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_NetworkflowmonitorMonitorLocalResourceList) validateSetWrapsS
 	return nil
 }
 
-func validateNewNetworkflowmonitorMonitorLocalResourceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkflowmonitorMonitorLocalResourceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

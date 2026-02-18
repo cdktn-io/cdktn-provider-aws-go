@@ -111,7 +111,7 @@ func (j *jsiiProxy_BatchJobQueue) validateSetCountParameters(val interface{}) er
 	return nil
 }
 
-func (j *jsiiProxy_BatchJobQueue) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BatchJobQueue) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

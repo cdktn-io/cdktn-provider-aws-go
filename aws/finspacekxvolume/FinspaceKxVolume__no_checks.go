@@ -127,7 +127,7 @@ func (j *jsiiProxy_FinspaceKxVolume) validateSetIdParameters(val *string) error 
 	return nil
 }
 
-func (j *jsiiProxy_FinspaceKxVolume) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_FinspaceKxVolume) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

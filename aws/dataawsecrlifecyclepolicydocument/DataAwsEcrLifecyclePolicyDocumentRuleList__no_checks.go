@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleList) validateGetParamet
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewDataAwsEcrLifecyclePolicyDocumentRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEcrLifecyclePolicyDocumentRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

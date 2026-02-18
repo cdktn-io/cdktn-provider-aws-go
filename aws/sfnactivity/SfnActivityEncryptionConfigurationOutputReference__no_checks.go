@@ -47,7 +47,7 @@ func (s *jsiiProxy_SfnActivityEncryptionConfigurationOutputReference) validateIn
 	return nil
 }
 
-func (s *jsiiProxy_SfnActivityEncryptionConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SfnActivityEncryptionConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SfnActivityEncryptionConfigurationOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_SfnActivityEncryptionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SfnActivityEncryptionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_SfnActivityEncryptionConfigurationOutputReference) validateSe
 	return nil
 }
 
-func validateNewSfnActivityEncryptionConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSfnActivityEncryptionConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

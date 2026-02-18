@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsKendraIndexUserTokenConfigurationsJsonTokenTypeConfigu
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsKendraIndexUserTokenConfigurationsJsonTokenTypeConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsKendraIndexUserTokenConfigurationsJsonTokenTypeConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsKendraIndexUserTokenConfigurationsJsonTokenTypeConfigu
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsKendraIndexUserTokenConfigurationsJsonTokenTypeConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsKendraIndexUserTokenConfigurationsJsonTokenTypeConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsKendraIndexUserTokenConfigurationsJsonTokenTypeConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsKendraIndexUserTokenConfigurationsJsonTokenTypeConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkmanagerVpcAttachmentOptionsOutputReference) validateIn
 	return nil
 }
 
-func (n *jsiiProxy_NetworkmanagerVpcAttachmentOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkmanagerVpcAttachmentOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachmentOptionsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerVpcAttachmentOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkmanagerVpcAttachmentOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkmanagerVpcAttachmentOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkmanagerVpcAttachmentOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

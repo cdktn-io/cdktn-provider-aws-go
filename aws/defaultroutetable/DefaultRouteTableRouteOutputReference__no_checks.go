@@ -47,7 +47,7 @@ func (d *jsiiProxy_DefaultRouteTableRouteOutputReference) validateInterpolationF
 	return nil
 }
 
-func (d *jsiiProxy_DefaultRouteTableRouteOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DefaultRouteTableRouteOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DefaultRouteTableRouteOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_DefaultRouteTableRouteOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DefaultRouteTableRouteOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -119,7 +119,7 @@ func (j *jsiiProxy_DefaultRouteTableRouteOutputReference) validateSetVpcPeeringC
 	return nil
 }
 
-func validateNewDefaultRouteTableRouteOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDefaultRouteTableRouteOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

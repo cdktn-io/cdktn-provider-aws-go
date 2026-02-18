@@ -127,7 +127,7 @@ func (j *jsiiProxy_DynamodbGlobalSecondaryIndex) validateSetIndexNameParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DynamodbGlobalSecondaryIndex) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DynamodbGlobalSecondaryIndex) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

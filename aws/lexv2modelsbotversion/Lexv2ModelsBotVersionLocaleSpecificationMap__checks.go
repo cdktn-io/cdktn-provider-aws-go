@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (l *jsiiProxy_Lexv2ModelsBotVersionLocaleSpecificationMap) validateGetParameters(key *string) error {
@@ -29,7 +29,7 @@ func (l *jsiiProxy_Lexv2ModelsBotVersionLocaleSpecificationMap) validateInterpol
 	return nil
 }
 
-func (l *jsiiProxy_Lexv2ModelsBotVersionLocaleSpecificationMap) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_Lexv2ModelsBotVersionLocaleSpecificationMap) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (l *jsiiProxy_Lexv2ModelsBotVersionLocaleSpecificationMap) validateResolveP
 
 func (j *jsiiProxy_Lexv2ModelsBotVersionLocaleSpecificationMap) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *map[string]*Lexv2ModelsBotVersionLocaleSpecification:
 		val := val.(*map[string]*Lexv2ModelsBotVersionLocaleSpecification)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_Lexv2ModelsBotVersionLocaleSpecificationMap) validateSetInter
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *map[string]*Lexv2ModelsBotVersionLocaleSpecification; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *map[string]*Lexv2ModelsBotVersionLocaleSpecification; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_Lexv2ModelsBotVersionLocaleSpecificationMap) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_Lexv2ModelsBotVersionLocaleSpecificationMap) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Lexv2ModelsBotVersionLocaleSpecificationMap) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -81,7 +81,7 @@ func (j *jsiiProxy_Lexv2ModelsBotVersionLocaleSpecificationMap) validateSetTerra
 	return nil
 }
 
-func validateNewLexv2ModelsBotVersionLocaleSpecificationMapParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLexv2ModelsBotVersionLocaleSpecificationMapParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

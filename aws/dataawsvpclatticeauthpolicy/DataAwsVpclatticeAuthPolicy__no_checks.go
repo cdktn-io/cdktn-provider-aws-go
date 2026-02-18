@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsVpclatticeAuthPolicy) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVpclatticeAuthPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsVpclatticeAuthPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

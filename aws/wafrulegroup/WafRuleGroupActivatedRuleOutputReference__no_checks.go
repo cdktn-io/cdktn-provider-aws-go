@@ -51,7 +51,7 @@ func (w *jsiiProxy_WafRuleGroupActivatedRuleOutputReference) validatePutActionPa
 	return nil
 }
 
-func (w *jsiiProxy_WafRuleGroupActivatedRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WafRuleGroupActivatedRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WafRuleGroupActivatedRuleOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_WafRuleGroupActivatedRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WafRuleGroupActivatedRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_WafRuleGroupActivatedRuleOutputReference) validateSetTypePara
 	return nil
 }
 
-func validateNewWafRuleGroupActivatedRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWafRuleGroupActivatedRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -127,7 +127,7 @@ func (j *jsiiProxy_NetworkAclRule) validateSetIpv6CidrBlockParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_NetworkAclRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkAclRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

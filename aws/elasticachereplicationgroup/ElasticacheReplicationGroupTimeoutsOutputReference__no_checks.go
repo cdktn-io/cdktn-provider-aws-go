@@ -47,7 +47,7 @@ func (e *jsiiProxy_ElasticacheReplicationGroupTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (e *jsiiProxy_ElasticacheReplicationGroupTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticacheReplicationGroupTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ElasticacheReplicationGroupTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_ElasticacheReplicationGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticacheReplicationGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ElasticacheReplicationGroupTimeoutsOutputReference) validateS
 	return nil
 }
 
-func validateNewElasticacheReplicationGroupTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewElasticacheReplicationGroupTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateInterpolati
 	return nil
 }
 
-func (s *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateSetTimeoutI
 	return nil
 }
 
-func validateNewSyntheticsCanaryRunConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSyntheticsCanaryRunConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

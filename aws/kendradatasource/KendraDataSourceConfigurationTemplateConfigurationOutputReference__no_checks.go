@@ -47,7 +47,7 @@ func (k *jsiiProxy_KendraDataSourceConfigurationTemplateConfigurationOutputRefer
 	return nil
 }
 
-func (k *jsiiProxy_KendraDataSourceConfigurationTemplateConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KendraDataSourceConfigurationTemplateConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_KendraDataSourceConfigurationTemplateConfigurationOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_KendraDataSourceConfigurationTemplateConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KendraDataSourceConfigurationTemplateConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKendraDataSourceConfigurationTemplateConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKendraDataSourceConfigurationTemplateConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatazoneFormTypeModelOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (d *jsiiProxy_DatazoneFormTypeModelOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatazoneFormTypeModelOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DatazoneFormTypeModelOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_DatazoneFormTypeModelOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatazoneFormTypeModelOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatazoneFormTypeModelOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDatazoneFormTypeModelOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

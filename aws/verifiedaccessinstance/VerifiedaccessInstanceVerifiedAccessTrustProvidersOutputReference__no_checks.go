@@ -47,7 +47,7 @@ func (v *jsiiProxy_VerifiedaccessInstanceVerifiedAccessTrustProvidersOutputRefer
 	return nil
 }
 
-func (v *jsiiProxy_VerifiedaccessInstanceVerifiedAccessTrustProvidersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VerifiedaccessInstanceVerifiedAccessTrustProvidersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_VerifiedaccessInstanceVerifiedAccessTrustProvidersOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_VerifiedaccessInstanceVerifiedAccessTrustProvidersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VerifiedaccessInstanceVerifiedAccessTrustProvidersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVerifiedaccessInstanceVerifiedAccessTrustProvidersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVerifiedaccessInstanceVerifiedAccessTrustProvidersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

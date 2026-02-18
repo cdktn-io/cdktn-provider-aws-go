@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpclatticeTargetGroupAttachmentTargetOutputReference) validat
 	return nil
 }
 
-func (v *jsiiProxy_VpclatticeTargetGroupAttachmentTargetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpclatticeTargetGroupAttachmentTargetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VpclatticeTargetGroupAttachmentTargetOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_VpclatticeTargetGroupAttachmentTargetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpclatticeTargetGroupAttachmentTargetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpclatticeTargetGroupAttachmentTargetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpclatticeTargetGroupAttachmentTargetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

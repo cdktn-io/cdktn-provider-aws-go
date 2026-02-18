@@ -123,7 +123,7 @@ func (j *jsiiProxy_CloudwatchEventApiDestination) validateSetInvocationRateLimit
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchEventApiDestination) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudwatchEventApiDestination) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

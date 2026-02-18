@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEc2TransitGatewayConnectPeerFilterOutputReference) val
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEc2TransitGatewayConnectPeerFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEc2TransitGatewayConnectPeerFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayConnectPeerFilterOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2TransitGatewayConnectPeerFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEc2TransitGatewayConnectPeerFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayConnectPeerFilterOutputReference) val
 	return nil
 }
 
-func validateNewDataAwsEc2TransitGatewayConnectPeerFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsEc2TransitGatewayConnectPeerFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

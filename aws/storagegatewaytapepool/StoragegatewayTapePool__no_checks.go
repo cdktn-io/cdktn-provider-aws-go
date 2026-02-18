@@ -103,7 +103,7 @@ func (j *jsiiProxy_StoragegatewayTapePool) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_StoragegatewayTapePool) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StoragegatewayTapePool) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package sagemakerdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/sagemakerdomain/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/sagemakerdomain/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SagemakerDomainDefaultUserSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AutoMountHomeEfs() *string
 	SetAutoMountHomeEfs(val *string)
 	AutoMountHomeEfsInput() *string
@@ -78,15 +78,15 @@ type SagemakerDomainDefaultUserSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -102,9 +102,9 @@ type SagemakerDomainDefaultUserSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCanvasAppSettings(value *SagemakerDomainDefaultUserSettingsCanvasAppSettings)
 	PutCodeEditorAppSettings(value *SagemakerDomainDefaultUserSettingsCodeEditorAppSettings)
 	PutCustomFileSystemConfig(value interface{})
@@ -137,7 +137,7 @@ type SagemakerDomainDefaultUserSettingsOutputReference interface {
 	ResetTensorBoardAppSettings()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -147,7 +147,7 @@ type SagemakerDomainDefaultUserSettingsOutputReference interface {
 
 // The jsii proxy struct for SagemakerDomainDefaultUserSettingsOutputReference
 type jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) AutoMountHomeEfs() *string {
@@ -570,8 +570,8 @@ func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -581,7 +581,7 @@ func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) TerraformR
 }
 
 
-func NewSagemakerDomainDefaultUserSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SagemakerDomainDefaultUserSettingsOutputReference {
+func NewSagemakerDomainDefaultUserSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SagemakerDomainDefaultUserSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSagemakerDomainDefaultUserSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -598,7 +598,7 @@ func NewSagemakerDomainDefaultUserSettingsOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewSagemakerDomainDefaultUserSettingsOutputReference_Override(s SagemakerDomainDefaultUserSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSagemakerDomainDefaultUserSettingsOutputReference_Override(s SagemakerDomainDefaultUserSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -707,7 +707,7 @@ func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -747,11 +747,11 @@ func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) GetAnyMapA
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -875,8 +875,8 @@ func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) GetStringM
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -888,11 +888,11 @@ func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) Interpolat
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -1183,7 +1183,7 @@ func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) ResetTenso
 	)
 }
 
-func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

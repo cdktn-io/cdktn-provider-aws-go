@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationCanaryConfigurationLi
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationCanaryConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationCanaryConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationCanaryConfigurationLi
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationCanaryConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationCanaryConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationCanaryConfigurationLi
 	return nil
 }
 
-func validateNewDataAwsEcsServiceDeploymentConfigurationCanaryConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEcsServiceDeploymentConfigurationCanaryConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

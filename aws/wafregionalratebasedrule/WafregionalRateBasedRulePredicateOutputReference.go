@@ -5,14 +5,14 @@ package wafregionalratebasedrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/wafregionalratebasedrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/wafregionalratebasedrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WafregionalRateBasedRulePredicateOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type WafregionalRateBasedRulePredicateOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -54,7 +54,7 @@ type WafregionalRateBasedRulePredicateOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type WafregionalRateBasedRulePredicateOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type WafregionalRateBasedRulePredicateOutputReference interface {
 
 // The jsii proxy struct for WafregionalRateBasedRulePredicateOutputReference
 type jsiiProxy_WafregionalRateBasedRulePredicateOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WafregionalRateBasedRulePredicateOutputReference) ComplexObjectIndex() interface{} {
@@ -188,8 +188,8 @@ func (j *jsiiProxy_WafregionalRateBasedRulePredicateOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_WafregionalRateBasedRulePredicateOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WafregionalRateBasedRulePredicateOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_WafregionalRateBasedRulePredicateOutputReference) TypeInput()
 }
 
 
-func NewWafregionalRateBasedRulePredicateOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) WafregionalRateBasedRulePredicateOutputReference {
+func NewWafregionalRateBasedRulePredicateOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) WafregionalRateBasedRulePredicateOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWafregionalRateBasedRulePredicateOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -236,7 +236,7 @@ func NewWafregionalRateBasedRulePredicateOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewWafregionalRateBasedRulePredicateOutputReference_Override(w WafregionalRateBasedRulePredicateOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewWafregionalRateBasedRulePredicateOutputReference_Override(w WafregionalRateBasedRulePredicateOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -312,7 +312,7 @@ func (j *jsiiProxy_WafregionalRateBasedRulePredicateOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_WafregionalRateBasedRulePredicateOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WafregionalRateBasedRulePredicateOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -363,11 +363,11 @@ func (w *jsiiProxy_WafregionalRateBasedRulePredicateOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (w *jsiiProxy_WafregionalRateBasedRulePredicateOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WafregionalRateBasedRulePredicateOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -491,8 +491,8 @@ func (w *jsiiProxy_WafregionalRateBasedRulePredicateOutputReference) GetStringMa
 	return returns
 }
 
-func (w *jsiiProxy_WafregionalRateBasedRulePredicateOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WafregionalRateBasedRulePredicateOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -504,11 +504,11 @@ func (w *jsiiProxy_WafregionalRateBasedRulePredicateOutputReference) Interpolati
 	return returns
 }
 
-func (w *jsiiProxy_WafregionalRateBasedRulePredicateOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WafregionalRateBasedRulePredicateOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -520,7 +520,7 @@ func (w *jsiiProxy_WafregionalRateBasedRulePredicateOutputReference) Interpolati
 	return returns
 }
 
-func (w *jsiiProxy_WafregionalRateBasedRulePredicateOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WafregionalRateBasedRulePredicateOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

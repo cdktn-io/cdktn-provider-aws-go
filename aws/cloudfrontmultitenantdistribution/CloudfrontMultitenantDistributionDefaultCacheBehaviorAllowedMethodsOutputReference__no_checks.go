@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudfrontMultitenantDistributionDefaultCacheBehaviorAllowedM
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontMultitenantDistributionDefaultCacheBehaviorAllowedMethodsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontMultitenantDistributionDefaultCacheBehaviorAllowedMethodsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CloudfrontMultitenantDistributionDefaultCacheBehaviorAllowedM
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontMultitenantDistributionDefaultCacheBehaviorAllowedMethodsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontMultitenantDistributionDefaultCacheBehaviorAllowedMethodsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudfrontMultitenantDistributionDefaultCacheBehaviorAllowedMethodsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudfrontMultitenantDistributionDefaultCacheBehaviorAllowedMethodsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

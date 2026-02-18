@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsMqBrokerMaintenanceWindowStartTimeList) validateGetPar
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsMqBrokerMaintenanceWindowStartTimeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsMqBrokerMaintenanceWindowStartTimeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsMqBrokerMaintenanceWindowStartTimeList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsMqBrokerMaintenanceWindowStartTimeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsMqBrokerMaintenanceWindowStartTimeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsMqBrokerMaintenanceWindowStartTimeList) validateSetWra
 	return nil
 }
 
-func validateNewDataAwsMqBrokerMaintenanceWindowStartTimeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsMqBrokerMaintenanceWindowStartTimeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

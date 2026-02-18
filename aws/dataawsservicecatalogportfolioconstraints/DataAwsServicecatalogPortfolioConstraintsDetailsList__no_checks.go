@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsServicecatalogPortfolioConstraintsDetailsList) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsServicecatalogPortfolioConstraintsDetailsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsServicecatalogPortfolioConstraintsDetailsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsServicecatalogPortfolioConstraintsDetailsList) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsServicecatalogPortfolioConstraintsDetailsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsServicecatalogPortfolioConstraintsDetailsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsServicecatalogPortfolioConstraintsDetailsList) validat
 	return nil
 }
 
-func validateNewDataAwsServicecatalogPortfolioConstraintsDetailsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsServicecatalogPortfolioConstraintsDetailsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

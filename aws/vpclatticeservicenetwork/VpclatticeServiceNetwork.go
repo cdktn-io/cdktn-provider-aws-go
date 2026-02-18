@@ -5,22 +5,22 @@ package vpclatticeservicenetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/vpclatticeservicenetwork/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/vpclatticeservicenetwork/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/vpclattice_service_network aws_vpclattice_service_network}.
 type VpclatticeServiceNetwork interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	AuthType() *string
 	SetAuthType(val *string)
 	AuthTypeInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -36,9 +36,9 @@ type VpclatticeServiceNetwork interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -47,18 +47,18 @@ type VpclatticeServiceNetwork interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -75,7 +75,7 @@ type VpclatticeServiceNetwork interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -88,7 +88,7 @@ type VpclatticeServiceNetwork interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -106,9 +106,9 @@ type VpclatticeServiceNetwork interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -146,7 +146,7 @@ type VpclatticeServiceNetwork interface {
 
 // The jsii proxy struct for VpclatticeServiceNetwork
 type jsiiProxy_VpclatticeServiceNetwork struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_VpclatticeServiceNetwork) Arn() *string {
@@ -179,8 +179,8 @@ func (j *jsiiProxy_VpclatticeServiceNetwork) AuthTypeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VpclatticeServiceNetwork) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_VpclatticeServiceNetwork) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -229,8 +229,8 @@ func (j *jsiiProxy_VpclatticeServiceNetwork) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_VpclatticeServiceNetwork) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_VpclatticeServiceNetwork) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -279,8 +279,8 @@ func (j *jsiiProxy_VpclatticeServiceNetwork) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VpclatticeServiceNetwork) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_VpclatticeServiceNetwork) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -319,8 +319,8 @@ func (j *jsiiProxy_VpclatticeServiceNetwork) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_VpclatticeServiceNetwork) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_VpclatticeServiceNetwork) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -409,8 +409,8 @@ func (j *jsiiProxy_VpclatticeServiceNetwork) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_VpclatticeServiceNetwork) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_VpclatticeServiceNetwork) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -510,7 +510,7 @@ func (j *jsiiProxy_VpclatticeServiceNetwork)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_VpclatticeServiceNetwork)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_VpclatticeServiceNetwork)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -529,7 +529,7 @@ func (j *jsiiProxy_VpclatticeServiceNetwork)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_VpclatticeServiceNetwork)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_VpclatticeServiceNetwork)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -551,7 +551,7 @@ func (j *jsiiProxy_VpclatticeServiceNetwork)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_VpclatticeServiceNetwork)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_VpclatticeServiceNetwork)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -603,14 +603,14 @@ func (j *jsiiProxy_VpclatticeServiceNetwork)SetTagsAll(val *map[string]*string) 
 	)
 }
 
-// Generates CDKTF code for importing a VpclatticeServiceNetwork resource upon running "cdktf plan <stack-name>".
-func VpclatticeServiceNetwork_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a VpclatticeServiceNetwork resource upon running "cdktn plan <stack-name>".
+func VpclatticeServiceNetwork_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateVpclatticeServiceNetwork_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.vpclatticeServiceNetwork.VpclatticeServiceNetwork",
@@ -744,11 +744,11 @@ func (v *jsiiProxy_VpclatticeServiceNetwork) GetAnyMapAttribute(terraformAttribu
 	return returns
 }
 
-func (v *jsiiProxy_VpclatticeServiceNetwork) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpclatticeServiceNetwork) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -885,7 +885,7 @@ func (v *jsiiProxy_VpclatticeServiceNetwork) HasResourceMove() interface{} {
 	return returns
 }
 
-func (v *jsiiProxy_VpclatticeServiceNetwork) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (v *jsiiProxy_VpclatticeServiceNetwork) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := v.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -896,11 +896,11 @@ func (v *jsiiProxy_VpclatticeServiceNetwork) ImportFrom(id *string, provider cdk
 	)
 }
 
-func (v *jsiiProxy_VpclatticeServiceNetwork) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpclatticeServiceNetwork) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsLbTargetGroupStickinessList) validateGetParameters(ind
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLbTargetGroupStickinessList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLbTargetGroupStickinessList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsLbTargetGroupStickinessList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLbTargetGroupStickinessList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLbTargetGroupStickinessList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsLbTargetGroupStickinessList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewDataAwsLbTargetGroupStickinessListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsLbTargetGroupStickinessListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

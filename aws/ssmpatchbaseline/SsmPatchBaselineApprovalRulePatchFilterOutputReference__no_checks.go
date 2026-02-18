@@ -47,7 +47,7 @@ func (s *jsiiProxy_SsmPatchBaselineApprovalRulePatchFilterOutputReference) valid
 	return nil
 }
 
-func (s *jsiiProxy_SsmPatchBaselineApprovalRulePatchFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsmPatchBaselineApprovalRulePatchFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_SsmPatchBaselineApprovalRulePatchFilterOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_SsmPatchBaselineApprovalRulePatchFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsmPatchBaselineApprovalRulePatchFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SsmPatchBaselineApprovalRulePatchFilterOutputReference) valid
 	return nil
 }
 
-func validateNewSsmPatchBaselineApprovalRulePatchFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSsmPatchBaselineApprovalRulePatchFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

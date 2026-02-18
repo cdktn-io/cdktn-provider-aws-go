@@ -47,7 +47,7 @@ func (p *jsiiProxy_Pinpointsmsvoicev2PhoneNumberTimeoutsOutputReference) validat
 	return nil
 }
 
-func (p *jsiiProxy_Pinpointsmsvoicev2PhoneNumberTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_Pinpointsmsvoicev2PhoneNumberTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumberTimeoutsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumberTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumberTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumberTimeoutsOutputReference) validat
 	return nil
 }
 
-func validateNewPinpointsmsvoicev2PhoneNumberTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPinpointsmsvoicev2PhoneNumberTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

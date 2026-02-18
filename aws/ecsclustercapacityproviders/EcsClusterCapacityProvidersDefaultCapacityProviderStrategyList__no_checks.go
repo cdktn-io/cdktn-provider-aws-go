@@ -15,7 +15,7 @@ func (e *jsiiProxy_EcsClusterCapacityProvidersDefaultCapacityProviderStrategyLis
 	return nil
 }
 
-func (e *jsiiProxy_EcsClusterCapacityProvidersDefaultCapacityProviderStrategyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsClusterCapacityProvidersDefaultCapacityProviderStrategyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EcsClusterCapacityProvidersDefaultCapacityProviderStrategyLis
 	return nil
 }
 
-func (j *jsiiProxy_EcsClusterCapacityProvidersDefaultCapacityProviderStrategyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsClusterCapacityProvidersDefaultCapacityProviderStrategyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EcsClusterCapacityProvidersDefaultCapacityProviderStrategyLis
 	return nil
 }
 
-func validateNewEcsClusterCapacityProvidersDefaultCapacityProviderStrategyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEcsClusterCapacityProvidersDefaultCapacityProviderStrategyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

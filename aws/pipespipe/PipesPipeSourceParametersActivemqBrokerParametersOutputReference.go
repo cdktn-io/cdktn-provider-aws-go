@@ -5,14 +5,14 @@ package pipespipe
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/pipespipe/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/pipespipe/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PipesPipeSourceParametersActivemqBrokerParametersOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BatchSize() *float64
 	SetBatchSize(val *float64)
 	BatchSizeInput() *float64
@@ -48,15 +48,15 @@ type PipesPipeSourceParametersActivemqBrokerParametersOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,15 +72,15 @@ type PipesPipeSourceParametersActivemqBrokerParametersOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCredentials(value *PipesPipeSourceParametersActivemqBrokerParametersCredentials)
 	ResetBatchSize()
 	ResetMaximumBatchingWindowInSeconds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -90,7 +90,7 @@ type PipesPipeSourceParametersActivemqBrokerParametersOutputReference interface 
 
 // The jsii proxy struct for PipesPipeSourceParametersActivemqBrokerParametersOutputReference
 type jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputReference) BatchSize() *float64 {
@@ -233,8 +233,8 @@ func (j *jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -244,7 +244,7 @@ func (j *jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputRefere
 }
 
 
-func NewPipesPipeSourceParametersActivemqBrokerParametersOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) PipesPipeSourceParametersActivemqBrokerParametersOutputReference {
+func NewPipesPipeSourceParametersActivemqBrokerParametersOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) PipesPipeSourceParametersActivemqBrokerParametersOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPipesPipeSourceParametersActivemqBrokerParametersOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -261,7 +261,7 @@ func NewPipesPipeSourceParametersActivemqBrokerParametersOutputReference(terrafo
 	return &j
 }
 
-func NewPipesPipeSourceParametersActivemqBrokerParametersOutputReference_Override(p PipesPipeSourceParametersActivemqBrokerParametersOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewPipesPipeSourceParametersActivemqBrokerParametersOutputReference_Override(p PipesPipeSourceParametersActivemqBrokerParametersOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -348,7 +348,7 @@ func (j *jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputRefere
 	)
 }
 
-func (j *jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -388,11 +388,11 @@ func (p *jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputRefere
 	return returns
 }
 
-func (p *jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -516,8 +516,8 @@ func (p *jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputRefere
 	return returns
 }
 
-func (p *jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -529,11 +529,11 @@ func (p *jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputRefere
 	return returns
 }
 
-func (p *jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -572,7 +572,7 @@ func (p *jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputRefere
 	)
 }
 
-func (p *jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

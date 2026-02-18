@@ -47,7 +47,7 @@ func (b *jsiiProxy_BatchComputeEnvironmentEksConfigurationOutputReference) valid
 	return nil
 }
 
-func (b *jsiiProxy_BatchComputeEnvironmentEksConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchComputeEnvironmentEksConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BatchComputeEnvironmentEksConfigurationOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_BatchComputeEnvironmentEksConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchComputeEnvironmentEksConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBatchComputeEnvironmentEksConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBatchComputeEnvironmentEksConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

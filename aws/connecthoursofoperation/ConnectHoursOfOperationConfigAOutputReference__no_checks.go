@@ -55,7 +55,7 @@ func (c *jsiiProxy_ConnectHoursOfOperationConfigAOutputReference) validatePutSta
 	return nil
 }
 
-func (c *jsiiProxy_ConnectHoursOfOperationConfigAOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConnectHoursOfOperationConfigAOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ConnectHoursOfOperationConfigAOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ConnectHoursOfOperationConfigAOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConnectHoursOfOperationConfigAOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewConnectHoursOfOperationConfigAOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewConnectHoursOfOperationConfigAOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

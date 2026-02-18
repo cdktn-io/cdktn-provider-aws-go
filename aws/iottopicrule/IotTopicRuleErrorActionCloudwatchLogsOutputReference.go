@@ -5,14 +5,14 @@ package iottopicrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/iottopicrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/iottopicrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type IotTopicRuleErrorActionCloudwatchLogsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BatchMode() interface{}
 	SetBatchMode(val interface{})
 	BatchModeInput() interface{}
@@ -46,15 +46,15 @@ type IotTopicRuleErrorActionCloudwatchLogsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type IotTopicRuleErrorActionCloudwatchLogsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBatchMode()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type IotTopicRuleErrorActionCloudwatchLogsOutputReference interface {
 
 // The jsii proxy struct for IotTopicRuleErrorActionCloudwatchLogsOutputReference
 type jsiiProxy_IotTopicRuleErrorActionCloudwatchLogsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_IotTopicRuleErrorActionCloudwatchLogsOutputReference) BatchMode() interface{} {
@@ -209,8 +209,8 @@ func (j *jsiiProxy_IotTopicRuleErrorActionCloudwatchLogsOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_IotTopicRuleErrorActionCloudwatchLogsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_IotTopicRuleErrorActionCloudwatchLogsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_IotTopicRuleErrorActionCloudwatchLogsOutputReference) Terrafo
 }
 
 
-func NewIotTopicRuleErrorActionCloudwatchLogsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) IotTopicRuleErrorActionCloudwatchLogsOutputReference {
+func NewIotTopicRuleErrorActionCloudwatchLogsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) IotTopicRuleErrorActionCloudwatchLogsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewIotTopicRuleErrorActionCloudwatchLogsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -237,7 +237,7 @@ func NewIotTopicRuleErrorActionCloudwatchLogsOutputReference(terraformResource c
 	return &j
 }
 
-func NewIotTopicRuleErrorActionCloudwatchLogsOutputReference_Override(i IotTopicRuleErrorActionCloudwatchLogsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewIotTopicRuleErrorActionCloudwatchLogsOutputReference_Override(i IotTopicRuleErrorActionCloudwatchLogsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -324,7 +324,7 @@ func (j *jsiiProxy_IotTopicRuleErrorActionCloudwatchLogsOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_IotTopicRuleErrorActionCloudwatchLogsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_IotTopicRuleErrorActionCloudwatchLogsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (i *jsiiProxy_IotTopicRuleErrorActionCloudwatchLogsOutputReference) GetAnyM
 	return returns
 }
 
-func (i *jsiiProxy_IotTopicRuleErrorActionCloudwatchLogsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IotTopicRuleErrorActionCloudwatchLogsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -492,8 +492,8 @@ func (i *jsiiProxy_IotTopicRuleErrorActionCloudwatchLogsOutputReference) GetStri
 	return returns
 }
 
-func (i *jsiiProxy_IotTopicRuleErrorActionCloudwatchLogsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_IotTopicRuleErrorActionCloudwatchLogsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -505,11 +505,11 @@ func (i *jsiiProxy_IotTopicRuleErrorActionCloudwatchLogsOutputReference) Interpo
 	return returns
 }
 
-func (i *jsiiProxy_IotTopicRuleErrorActionCloudwatchLogsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IotTopicRuleErrorActionCloudwatchLogsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -529,7 +529,7 @@ func (i *jsiiProxy_IotTopicRuleErrorActionCloudwatchLogsOutputReference) ResetBa
 	)
 }
 
-func (i *jsiiProxy_IotTopicRuleErrorActionCloudwatchLogsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_IotTopicRuleErrorActionCloudwatchLogsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

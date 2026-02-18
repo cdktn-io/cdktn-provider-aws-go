@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsSsoadminApplicationAssignmentsApplicationAssignmentsOu
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsSsoadminApplicationAssignmentsApplicationAssignmentsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsSsoadminApplicationAssignmentsApplicationAssignmentsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsSsoadminApplicationAssignmentsApplicationAssignmentsOu
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSsoadminApplicationAssignmentsApplicationAssignmentsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsSsoadminApplicationAssignmentsApplicationAssignmentsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsSsoadminApplicationAssignmentsApplicationAssignmentsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsSsoadminApplicationAssignmentsApplicationAssignmentsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

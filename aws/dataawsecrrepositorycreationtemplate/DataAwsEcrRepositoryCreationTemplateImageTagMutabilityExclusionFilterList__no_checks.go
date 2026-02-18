@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEcrRepositoryCreationTemplateImageTagMutabilityExclusi
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEcrRepositoryCreationTemplateImageTagMutabilityExclusionFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEcrRepositoryCreationTemplateImageTagMutabilityExclusionFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsEcrRepositoryCreationTemplateImageTagMutabilityExclusi
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEcrRepositoryCreationTemplateImageTagMutabilityExclusionFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEcrRepositoryCreationTemplateImageTagMutabilityExclusionFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsEcrRepositoryCreationTemplateImageTagMutabilityExclusi
 	return nil
 }
 
-func validateNewDataAwsEcrRepositoryCreationTemplateImageTagMutabilityExclusionFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEcrRepositoryCreationTemplateImageTagMutabilityExclusionFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

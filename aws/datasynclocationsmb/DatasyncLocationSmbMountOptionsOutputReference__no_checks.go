@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatasyncLocationSmbMountOptionsOutputReference) validateInter
 	return nil
 }
 
-func (d *jsiiProxy_DatasyncLocationSmbMountOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatasyncLocationSmbMountOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_DatasyncLocationSmbMountOptionsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DatasyncLocationSmbMountOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatasyncLocationSmbMountOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DatasyncLocationSmbMountOptionsOutputReference) validateSetVe
 	return nil
 }
 
-func validateNewDatasyncLocationSmbMountOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatasyncLocationSmbMountOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

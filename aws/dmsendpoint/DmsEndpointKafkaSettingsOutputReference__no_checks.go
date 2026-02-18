@@ -47,7 +47,7 @@ func (d *jsiiProxy_DmsEndpointKafkaSettingsOutputReference) validateInterpolatio
 	return nil
 }
 
-func (d *jsiiProxy_DmsEndpointKafkaSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DmsEndpointKafkaSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -139,7 +139,7 @@ func (j *jsiiProxy_DmsEndpointKafkaSettingsOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_DmsEndpointKafkaSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DmsEndpointKafkaSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -147,7 +147,7 @@ func (j *jsiiProxy_DmsEndpointKafkaSettingsOutputReference) validateSetTopicPara
 	return nil
 }
 
-func validateNewDmsEndpointKafkaSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDmsEndpointKafkaSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -111,7 +111,7 @@ func (j *jsiiProxy_TimestreamwriteDatabase) validateSetKmsKeyIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_TimestreamwriteDatabase) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_TimestreamwriteDatabase) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -171,7 +171,7 @@ func (j *jsiiProxy_CodebuildProject) validateSetIdParameters(val *string) error 
 	return nil
 }
 
-func (j *jsiiProxy_CodebuildProject) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CodebuildProject) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

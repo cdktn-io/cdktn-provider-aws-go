@@ -123,7 +123,7 @@ func (j *jsiiProxy_PinpointEmailChannel) validateSetIdentityParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_PinpointEmailChannel) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PinpointEmailChannel) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

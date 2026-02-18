@@ -47,7 +47,7 @@ func (c *jsiiProxy_CodebuildProjectVpcConfigOutputReference) validateInterpolati
 	return nil
 }
 
-func (c *jsiiProxy_CodebuildProjectVpcConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodebuildProjectVpcConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_CodebuildProjectVpcConfigOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_CodebuildProjectVpcConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodebuildProjectVpcConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_CodebuildProjectVpcConfigOutputReference) validateSetVpcIdPar
 	return nil
 }
 
-func validateNewCodebuildProjectVpcConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCodebuildProjectVpcConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

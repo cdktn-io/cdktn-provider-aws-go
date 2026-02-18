@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsPollyVoicesVoicesList) validateGetParameters(index *fl
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsPollyVoicesVoicesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsPollyVoicesVoicesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsPollyVoicesVoicesList) validateSetTerraformAttributePa
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsPollyVoicesVoicesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsPollyVoicesVoicesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsPollyVoicesVoicesList) validateSetWrapsSetParameters(v
 	return nil
 }
 
-func validateNewDataAwsPollyVoicesVoicesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsPollyVoicesVoicesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

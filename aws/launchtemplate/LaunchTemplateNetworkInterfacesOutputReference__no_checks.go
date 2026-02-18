@@ -55,7 +55,7 @@ func (l *jsiiProxy_LaunchTemplateNetworkInterfacesOutputReference) validatePutEn
 	return nil
 }
 
-func (l *jsiiProxy_LaunchTemplateNetworkInterfacesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LaunchTemplateNetworkInterfacesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -155,11 +155,11 @@ func (j *jsiiProxy_LaunchTemplateNetworkInterfacesOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_LaunchTemplateNetworkInterfacesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LaunchTemplateNetworkInterfacesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLaunchTemplateNetworkInterfacesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLaunchTemplateNetworkInterfacesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

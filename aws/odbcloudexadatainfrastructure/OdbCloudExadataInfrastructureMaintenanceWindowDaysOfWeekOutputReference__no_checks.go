@@ -47,7 +47,7 @@ func (o *jsiiProxy_OdbCloudExadataInfrastructureMaintenanceWindowDaysOfWeekOutpu
 	return nil
 }
 
-func (o *jsiiProxy_OdbCloudExadataInfrastructureMaintenanceWindowDaysOfWeekOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OdbCloudExadataInfrastructureMaintenanceWindowDaysOfWeekOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_OdbCloudExadataInfrastructureMaintenanceWindowDaysOfWeekOutpu
 	return nil
 }
 
-func (j *jsiiProxy_OdbCloudExadataInfrastructureMaintenanceWindowDaysOfWeekOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OdbCloudExadataInfrastructureMaintenanceWindowDaysOfWeekOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOdbCloudExadataInfrastructureMaintenanceWindowDaysOfWeekOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOdbCloudExadataInfrastructureMaintenanceWindowDaysOfWeekOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

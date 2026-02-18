@@ -115,7 +115,7 @@ func (j *jsiiProxy_AutoscalingTrafficSourceAttachment) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_AutoscalingTrafficSourceAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AutoscalingTrafficSourceAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

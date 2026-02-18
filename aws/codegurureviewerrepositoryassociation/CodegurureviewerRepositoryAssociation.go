@@ -5,20 +5,20 @@ package codegurureviewerrepositoryassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/codegurureviewerrepositoryassociation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/codegurureviewerrepositoryassociation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/codegurureviewer_repository_association aws_codegurureviewer_repository_association}.
 type CodegurureviewerRepositoryAssociation interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	AssociationId() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type CodegurureviewerRepositoryAssociation interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -48,17 +48,17 @@ type CodegurureviewerRepositoryAssociation interface {
 	KmsKeyDetails() CodegurureviewerRepositoryAssociationKmsKeyDetailsOutputReference
 	KmsKeyDetailsInput() *CodegurureviewerRepositoryAssociationKmsKeyDetails
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
 	Owner() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	ProviderType() *string
 	// Experimental.
 	Provisioners() *[]interface{}
@@ -81,7 +81,7 @@ type CodegurureviewerRepositoryAssociation interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -96,7 +96,7 @@ type CodegurureviewerRepositoryAssociation interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -114,9 +114,9 @@ type CodegurureviewerRepositoryAssociation interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -158,7 +158,7 @@ type CodegurureviewerRepositoryAssociation interface {
 
 // The jsii proxy struct for CodegurureviewerRepositoryAssociation
 type jsiiProxy_CodegurureviewerRepositoryAssociation struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_CodegurureviewerRepositoryAssociation) Arn() *string {
@@ -181,8 +181,8 @@ func (j *jsiiProxy_CodegurureviewerRepositoryAssociation) AssociationId() *strin
 	return returns
 }
 
-func (j *jsiiProxy_CodegurureviewerRepositoryAssociation) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_CodegurureviewerRepositoryAssociation) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -241,8 +241,8 @@ func (j *jsiiProxy_CodegurureviewerRepositoryAssociation) DependsOn() *[]*string
 	return returns
 }
 
-func (j *jsiiProxy_CodegurureviewerRepositoryAssociation) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_CodegurureviewerRepositoryAssociation) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -311,8 +311,8 @@ func (j *jsiiProxy_CodegurureviewerRepositoryAssociation) KmsKeyDetailsInput() *
 	return returns
 }
 
-func (j *jsiiProxy_CodegurureviewerRepositoryAssociation) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_CodegurureviewerRepositoryAssociation) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -351,8 +351,8 @@ func (j *jsiiProxy_CodegurureviewerRepositoryAssociation) Owner() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CodegurureviewerRepositoryAssociation) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_CodegurureviewerRepositoryAssociation) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -501,8 +501,8 @@ func (j *jsiiProxy_CodegurureviewerRepositoryAssociation) TagsInput() *map[strin
 	return returns
 }
 
-func (j *jsiiProxy_CodegurureviewerRepositoryAssociation) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_CodegurureviewerRepositoryAssociation) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -611,7 +611,7 @@ func (j *jsiiProxy_CodegurureviewerRepositoryAssociation)SetDependsOn(val *[]*st
 	)
 }
 
-func (j *jsiiProxy_CodegurureviewerRepositoryAssociation)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_CodegurureviewerRepositoryAssociation)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -630,7 +630,7 @@ func (j *jsiiProxy_CodegurureviewerRepositoryAssociation)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CodegurureviewerRepositoryAssociation)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_CodegurureviewerRepositoryAssociation)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -641,7 +641,7 @@ func (j *jsiiProxy_CodegurureviewerRepositoryAssociation)SetLifecycle(val *cdktf
 	)
 }
 
-func (j *jsiiProxy_CodegurureviewerRepositoryAssociation)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_CodegurureviewerRepositoryAssociation)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -693,14 +693,14 @@ func (j *jsiiProxy_CodegurureviewerRepositoryAssociation)SetTagsAll(val *map[str
 	)
 }
 
-// Generates CDKTF code for importing a CodegurureviewerRepositoryAssociation resource upon running "cdktf plan <stack-name>".
-func CodegurureviewerRepositoryAssociation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a CodegurureviewerRepositoryAssociation resource upon running "cdktn plan <stack-name>".
+func CodegurureviewerRepositoryAssociation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateCodegurureviewerRepositoryAssociation_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociation",
@@ -834,11 +834,11 @@ func (c *jsiiProxy_CodegurureviewerRepositoryAssociation) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (c *jsiiProxy_CodegurureviewerRepositoryAssociation) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CodegurureviewerRepositoryAssociation) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -975,7 +975,7 @@ func (c *jsiiProxy_CodegurureviewerRepositoryAssociation) HasResourceMove() inte
 	return returns
 }
 
-func (c *jsiiProxy_CodegurureviewerRepositoryAssociation) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_CodegurureviewerRepositoryAssociation) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -986,11 +986,11 @@ func (c *jsiiProxy_CodegurureviewerRepositoryAssociation) ImportFrom(id *string,
 	)
 }
 
-func (c *jsiiProxy_CodegurureviewerRepositoryAssociation) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CodegurureviewerRepositoryAssociation) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

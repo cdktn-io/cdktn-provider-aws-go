@@ -51,7 +51,7 @@ func (c *jsiiProxy_CodepipelineStageBeforeEntryConditionRuleOutputReference) val
 	return nil
 }
 
-func (c *jsiiProxy_CodepipelineStageBeforeEntryConditionRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodepipelineStageBeforeEntryConditionRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_CodepipelineStageBeforeEntryConditionRuleOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_CodepipelineStageBeforeEntryConditionRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodepipelineStageBeforeEntryConditionRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_CodepipelineStageBeforeEntryConditionRuleOutputReference) val
 	return nil
 }
 
-func validateNewCodepipelineStageBeforeEntryConditionRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCodepipelineStageBeforeEntryConditionRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

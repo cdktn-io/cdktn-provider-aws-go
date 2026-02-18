@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsCognitoUserPoolUserPoolAddOnsAdvancedSecurityAdditiona
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCognitoUserPoolUserPoolAddOnsAdvancedSecurityAdditionalFlowsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCognitoUserPoolUserPoolAddOnsAdvancedSecurityAdditionalFlowsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolUserPoolAddOnsAdvancedSecurityAdditiona
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolUserPoolAddOnsAdvancedSecurityAdditionalFlowsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCognitoUserPoolUserPoolAddOnsAdvancedSecurityAdditionalFlowsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolUserPoolAddOnsAdvancedSecurityAdditiona
 	return nil
 }
 
-func validateNewDataAwsCognitoUserPoolUserPoolAddOnsAdvancedSecurityAdditionalFlowsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsCognitoUserPoolUserPoolAddOnsAdvancedSecurityAdditionalFlowsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

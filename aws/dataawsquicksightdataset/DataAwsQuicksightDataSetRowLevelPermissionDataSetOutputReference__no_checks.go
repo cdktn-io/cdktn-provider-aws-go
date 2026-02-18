@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsQuicksightDataSetRowLevelPermissionDataSetOutputRefere
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsQuicksightDataSetRowLevelPermissionDataSetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsQuicksightDataSetRowLevelPermissionDataSetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsQuicksightDataSetRowLevelPermissionDataSetOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsQuicksightDataSetRowLevelPermissionDataSetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsQuicksightDataSetRowLevelPermissionDataSetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsQuicksightDataSetRowLevelPermissionDataSetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsQuicksightDataSetRowLevelPermissionDataSetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

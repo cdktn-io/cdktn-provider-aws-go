@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsS3DirectoryBuckets) validateSetCountParameters(val int
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsS3DirectoryBuckets) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsS3DirectoryBuckets) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

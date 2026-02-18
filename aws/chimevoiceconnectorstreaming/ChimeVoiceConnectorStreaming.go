@@ -5,18 +5,18 @@ package chimevoiceconnectorstreaming
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/chimevoiceconnectorstreaming/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/chimevoiceconnectorstreaming/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/chime_voice_connector_streaming aws_chime_voice_connector_streaming}.
 type ChimeVoiceConnectorStreaming interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type ChimeVoiceConnectorStreaming interface {
 	SetDisabled(val interface{})
 	DisabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,17 +49,17 @@ type ChimeVoiceConnectorStreaming interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MediaInsightsConfiguration() ChimeVoiceConnectorStreamingMediaInsightsConfigurationOutputReference
 	MediaInsightsConfigurationInput() *ChimeVoiceConnectorStreamingMediaInsightsConfiguration
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -73,7 +73,7 @@ type ChimeVoiceConnectorStreaming interface {
 	SetStreamingNotificationTargets(val *[]*string)
 	StreamingNotificationTargetsInput() *[]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type ChimeVoiceConnectorStreaming interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -107,9 +107,9 @@ type ChimeVoiceConnectorStreaming interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -148,11 +148,11 @@ type ChimeVoiceConnectorStreaming interface {
 
 // The jsii proxy struct for ChimeVoiceConnectorStreaming
 type jsiiProxy_ChimeVoiceConnectorStreaming struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_ChimeVoiceConnectorStreaming) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ChimeVoiceConnectorStreaming) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -241,8 +241,8 @@ func (j *jsiiProxy_ChimeVoiceConnectorStreaming) DisabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_ChimeVoiceConnectorStreaming) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ChimeVoiceConnectorStreaming) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -291,8 +291,8 @@ func (j *jsiiProxy_ChimeVoiceConnectorStreaming) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ChimeVoiceConnectorStreaming) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ChimeVoiceConnectorStreaming) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -331,8 +331,8 @@ func (j *jsiiProxy_ChimeVoiceConnectorStreaming) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_ChimeVoiceConnectorStreaming) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ChimeVoiceConnectorStreaming) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -401,8 +401,8 @@ func (j *jsiiProxy_ChimeVoiceConnectorStreaming) StreamingNotificationTargetsInp
 	return returns
 }
 
-func (j *jsiiProxy_ChimeVoiceConnectorStreaming) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ChimeVoiceConnectorStreaming) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -533,7 +533,7 @@ func (j *jsiiProxy_ChimeVoiceConnectorStreaming)SetDisabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_ChimeVoiceConnectorStreaming)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ChimeVoiceConnectorStreaming)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -552,7 +552,7 @@ func (j *jsiiProxy_ChimeVoiceConnectorStreaming)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ChimeVoiceConnectorStreaming)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ChimeVoiceConnectorStreaming)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -563,7 +563,7 @@ func (j *jsiiProxy_ChimeVoiceConnectorStreaming)SetLifecycle(val *cdktf.Terrafor
 	)
 }
 
-func (j *jsiiProxy_ChimeVoiceConnectorStreaming)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ChimeVoiceConnectorStreaming)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -615,14 +615,14 @@ func (j *jsiiProxy_ChimeVoiceConnectorStreaming)SetVoiceConnectorId(val *string)
 	)
 }
 
-// Generates CDKTF code for importing a ChimeVoiceConnectorStreaming resource upon running "cdktf plan <stack-name>".
-func ChimeVoiceConnectorStreaming_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ChimeVoiceConnectorStreaming resource upon running "cdktn plan <stack-name>".
+func ChimeVoiceConnectorStreaming_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateChimeVoiceConnectorStreaming_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.chimeVoiceConnectorStreaming.ChimeVoiceConnectorStreaming",
@@ -756,11 +756,11 @@ func (c *jsiiProxy_ChimeVoiceConnectorStreaming) GetAnyMapAttribute(terraformAtt
 	return returns
 }
 
-func (c *jsiiProxy_ChimeVoiceConnectorStreaming) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ChimeVoiceConnectorStreaming) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -897,7 +897,7 @@ func (c *jsiiProxy_ChimeVoiceConnectorStreaming) HasResourceMove() interface{} {
 	return returns
 }
 
-func (c *jsiiProxy_ChimeVoiceConnectorStreaming) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_ChimeVoiceConnectorStreaming) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -908,11 +908,11 @@ func (c *jsiiProxy_ChimeVoiceConnectorStreaming) ImportFrom(id *string, provider
 	)
 }
 
-func (c *jsiiProxy_ChimeVoiceConnectorStreaming) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ChimeVoiceConnectorStreaming) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

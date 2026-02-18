@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsRedshiftserverlessNamespace) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRedshiftserverlessNamespace) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsRedshiftserverlessNamespace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

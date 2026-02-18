@@ -15,7 +15,7 @@ func (f *jsiiProxy_FsxOntapStorageVirtualMachineEndpointsSmbList) validateGetPar
 	return nil
 }
 
-func (f *jsiiProxy_FsxOntapStorageVirtualMachineEndpointsSmbList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FsxOntapStorageVirtualMachineEndpointsSmbList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_FsxOntapStorageVirtualMachineEndpointsSmbList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_FsxOntapStorageVirtualMachineEndpointsSmbList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FsxOntapStorageVirtualMachineEndpointsSmbList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_FsxOntapStorageVirtualMachineEndpointsSmbList) validateSetWra
 	return nil
 }
 
-func validateNewFsxOntapStorageVirtualMachineEndpointsSmbListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFsxOntapStorageVirtualMachineEndpointsSmbListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

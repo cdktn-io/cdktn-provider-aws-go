@@ -47,7 +47,7 @@ func (c *jsiiProxy_CodecatalystSourceRepositoryTimeoutsOutputReference) validate
 	return nil
 }
 
-func (c *jsiiProxy_CodecatalystSourceRepositoryTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodecatalystSourceRepositoryTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_CodecatalystSourceRepositoryTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_CodecatalystSourceRepositoryTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodecatalystSourceRepositoryTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_CodecatalystSourceRepositoryTimeoutsOutputReference) validate
 	return nil
 }
 
-func validateNewCodecatalystSourceRepositoryTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCodecatalystSourceRepositoryTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

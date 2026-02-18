@@ -123,7 +123,7 @@ func (j *jsiiProxy_ConnectContactFlowModule) validateSetInstanceIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_ConnectContactFlowModule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ConnectContactFlowModule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

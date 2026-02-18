@@ -115,7 +115,7 @@ func (j *jsiiProxy_CognitoUserPoolUiCustomization) validateSetImageFileParameter
 	return nil
 }
 
-func (j *jsiiProxy_CognitoUserPoolUiCustomization) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CognitoUserPoolUiCustomization) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

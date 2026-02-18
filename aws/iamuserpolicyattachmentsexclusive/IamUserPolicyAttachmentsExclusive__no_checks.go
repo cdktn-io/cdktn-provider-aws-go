@@ -99,7 +99,7 @@ func (j *jsiiProxy_IamUserPolicyAttachmentsExclusive) validateSetCountParameters
 	return nil
 }
 
-func (j *jsiiProxy_IamUserPolicyAttachmentsExclusive) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IamUserPolicyAttachmentsExclusive) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

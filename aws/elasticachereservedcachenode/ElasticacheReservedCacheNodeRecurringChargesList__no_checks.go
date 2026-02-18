@@ -15,7 +15,7 @@ func (e *jsiiProxy_ElasticacheReservedCacheNodeRecurringChargesList) validateGet
 	return nil
 }
 
-func (e *jsiiProxy_ElasticacheReservedCacheNodeRecurringChargesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticacheReservedCacheNodeRecurringChargesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_ElasticacheReservedCacheNodeRecurringChargesList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ElasticacheReservedCacheNodeRecurringChargesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticacheReservedCacheNodeRecurringChargesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_ElasticacheReservedCacheNodeRecurringChargesList) validateSet
 	return nil
 }
 
-func validateNewElasticacheReservedCacheNodeRecurringChargesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewElasticacheReservedCacheNodeRecurringChargesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

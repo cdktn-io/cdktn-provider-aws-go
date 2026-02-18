@@ -15,7 +15,7 @@ func (d *jsiiProxy_DbProxyAuthList) validateGetParameters(index *float64) error 
 	return nil
 }
 
-func (d *jsiiProxy_DbProxyAuthList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DbProxyAuthList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DbProxyAuthList) validateSetTerraformAttributeParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DbProxyAuthList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DbProxyAuthList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DbProxyAuthList) validateSetWrapsSetParameters(val *bool) err
 	return nil
 }
 
-func validateNewDbProxyAuthListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDbProxyAuthListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

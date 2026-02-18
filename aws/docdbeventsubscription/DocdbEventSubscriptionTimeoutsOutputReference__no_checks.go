@@ -47,7 +47,7 @@ func (d *jsiiProxy_DocdbEventSubscriptionTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (d *jsiiProxy_DocdbEventSubscriptionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DocdbEventSubscriptionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DocdbEventSubscriptionTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DocdbEventSubscriptionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DocdbEventSubscriptionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DocdbEventSubscriptionTimeoutsOutputReference) validateSetUpd
 	return nil
 }
 
-func validateNewDocdbEventSubscriptionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDocdbEventSubscriptionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

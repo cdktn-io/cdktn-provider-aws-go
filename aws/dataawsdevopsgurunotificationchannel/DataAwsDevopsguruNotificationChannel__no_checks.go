@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsDevopsguruNotificationChannel) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDevopsguruNotificationChannel) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsDevopsguruNotificationChannel) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

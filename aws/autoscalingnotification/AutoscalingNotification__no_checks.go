@@ -107,7 +107,7 @@ func (j *jsiiProxy_AutoscalingNotification) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_AutoscalingNotification) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AutoscalingNotification) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

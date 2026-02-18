@@ -5,14 +5,14 @@ package sagemakerfeaturegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/sagemakerfeaturegroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/sagemakerfeaturegroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SagemakerFeatureGroupOfflineStoreConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -47,15 +47,15 @@ type SagemakerFeatureGroupOfflineStoreConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -71,9 +71,9 @@ type SagemakerFeatureGroupOfflineStoreConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDataCatalogConfig(value *SagemakerFeatureGroupOfflineStoreConfigDataCatalogConfig)
 	PutS3StorageConfig(value *SagemakerFeatureGroupOfflineStoreConfigS3StorageConfig)
 	ResetDataCatalogConfig()
@@ -81,7 +81,7 @@ type SagemakerFeatureGroupOfflineStoreConfigOutputReference interface {
 	ResetTableFormat()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type SagemakerFeatureGroupOfflineStoreConfigOutputReference interface {
 
 // The jsii proxy struct for SagemakerFeatureGroupOfflineStoreConfigOutputReference
 type jsiiProxy_SagemakerFeatureGroupOfflineStoreConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SagemakerFeatureGroupOfflineStoreConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -234,8 +234,8 @@ func (j *jsiiProxy_SagemakerFeatureGroupOfflineStoreConfigOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_SagemakerFeatureGroupOfflineStoreConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SagemakerFeatureGroupOfflineStoreConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -245,7 +245,7 @@ func (j *jsiiProxy_SagemakerFeatureGroupOfflineStoreConfigOutputReference) Terra
 }
 
 
-func NewSagemakerFeatureGroupOfflineStoreConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SagemakerFeatureGroupOfflineStoreConfigOutputReference {
+func NewSagemakerFeatureGroupOfflineStoreConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SagemakerFeatureGroupOfflineStoreConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSagemakerFeatureGroupOfflineStoreConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -262,7 +262,7 @@ func NewSagemakerFeatureGroupOfflineStoreConfigOutputReference(terraformResource
 	return &j
 }
 
-func NewSagemakerFeatureGroupOfflineStoreConfigOutputReference_Override(s SagemakerFeatureGroupOfflineStoreConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSagemakerFeatureGroupOfflineStoreConfigOutputReference_Override(s SagemakerFeatureGroupOfflineStoreConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -338,7 +338,7 @@ func (j *jsiiProxy_SagemakerFeatureGroupOfflineStoreConfigOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_SagemakerFeatureGroupOfflineStoreConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SagemakerFeatureGroupOfflineStoreConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -378,11 +378,11 @@ func (s *jsiiProxy_SagemakerFeatureGroupOfflineStoreConfigOutputReference) GetAn
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerFeatureGroupOfflineStoreConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerFeatureGroupOfflineStoreConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -506,8 +506,8 @@ func (s *jsiiProxy_SagemakerFeatureGroupOfflineStoreConfigOutputReference) GetSt
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerFeatureGroupOfflineStoreConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SagemakerFeatureGroupOfflineStoreConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -519,11 +519,11 @@ func (s *jsiiProxy_SagemakerFeatureGroupOfflineStoreConfigOutputReference) Inter
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerFeatureGroupOfflineStoreConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerFeatureGroupOfflineStoreConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -581,7 +581,7 @@ func (s *jsiiProxy_SagemakerFeatureGroupOfflineStoreConfigOutputReference) Reset
 	)
 }
 
-func (s *jsiiProxy_SagemakerFeatureGroupOfflineStoreConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SagemakerFeatureGroupOfflineStoreConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

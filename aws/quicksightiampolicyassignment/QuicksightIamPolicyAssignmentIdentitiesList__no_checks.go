@@ -15,7 +15,7 @@ func (q *jsiiProxy_QuicksightIamPolicyAssignmentIdentitiesList) validateGetParam
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightIamPolicyAssignmentIdentitiesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightIamPolicyAssignmentIdentitiesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_QuicksightIamPolicyAssignmentIdentitiesList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightIamPolicyAssignmentIdentitiesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightIamPolicyAssignmentIdentitiesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_QuicksightIamPolicyAssignmentIdentitiesList) validateSetWraps
 	return nil
 }
 
-func validateNewQuicksightIamPolicyAssignmentIdentitiesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewQuicksightIamPolicyAssignmentIdentitiesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

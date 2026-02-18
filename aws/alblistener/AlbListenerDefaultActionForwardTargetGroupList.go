@@ -5,14 +5,14 @@ package alblistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/alblistener/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/alblistener/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AlbListenerDefaultActionForwardTargetGroupList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type AlbListenerDefaultActionForwardTargetGroupList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type AlbListenerDefaultActionForwardTargetGroupList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) AlbListenerDefaultActionForwardTargetGroupOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type AlbListenerDefaultActionForwardTargetGroupList interface {
 
 // The jsii proxy struct for AlbListenerDefaultActionForwardTargetGroupList
 type jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList) WrapsSet() *b
 }
 
 
-func NewAlbListenerDefaultActionForwardTargetGroupList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AlbListenerDefaultActionForwardTargetGroupList {
+func NewAlbListenerDefaultActionForwardTargetGroupList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AlbListenerDefaultActionForwardTargetGroupList {
 	_init_.Initialize()
 
 	if err := validateNewAlbListenerDefaultActionForwardTargetGroupListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewAlbListenerDefaultActionForwardTargetGroupList(terraformResource cdktf.I
 	return &j
 }
 
-func NewAlbListenerDefaultActionForwardTargetGroupList_Override(a AlbListenerDefaultActionForwardTargetGroupList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewAlbListenerDefaultActionForwardTargetGroupList_Override(a AlbListenerDefaultActionForwardTargetGroupList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList)SetWrapsSet(va
 	)
 }
 
-func (a *jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (a *jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := a.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		a,
@@ -231,7 +231,7 @@ func (a *jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList) Get(index *fl
 	return returns
 }
 
-func (a *jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

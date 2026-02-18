@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (e *jsiiProxy_Ec2ClientVpnEndpointAuthenticationOptionsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (e *jsiiProxy_Ec2ClientVpnEndpointAuthenticationOptionsList) validateGetPar
 	return nil
 }
 
-func (e *jsiiProxy_Ec2ClientVpnEndpointAuthenticationOptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_Ec2ClientVpnEndpointAuthenticationOptionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (e *jsiiProxy_Ec2ClientVpnEndpointAuthenticationOptionsList) validateResolv
 
 func (j *jsiiProxy_Ec2ClientVpnEndpointAuthenticationOptionsList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Ec2ClientVpnEndpointAuthenticationOptions:
 		val := val.(*[]*Ec2ClientVpnEndpointAuthenticationOptions)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_Ec2ClientVpnEndpointAuthenticationOptionsList) validateSetInt
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*Ec2ClientVpnEndpointAuthenticationOptions; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*Ec2ClientVpnEndpointAuthenticationOptions; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_Ec2ClientVpnEndpointAuthenticationOptionsList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_Ec2ClientVpnEndpointAuthenticationOptionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Ec2ClientVpnEndpointAuthenticationOptionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_Ec2ClientVpnEndpointAuthenticationOptionsList) validateSetWra
 	return nil
 }
 
-func validateNewEc2ClientVpnEndpointAuthenticationOptionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEc2ClientVpnEndpointAuthenticationOptionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -8,7 +8,7 @@ package dataawsiamaccesskeys
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataAwsIamAccessKeysAccessKeysList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (d *jsiiProxy_DataAwsIamAccessKeysAccessKeysList) validateGetParameters(ind
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsIamAccessKeysAccessKeysList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsIamAccessKeysAccessKeysList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_DataAwsIamAccessKeysAccessKeysList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsIamAccessKeysAccessKeysList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsIamAccessKeysAccessKeysList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_DataAwsIamAccessKeysAccessKeysList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewDataAwsIamAccessKeysAccessKeysListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsIamAccessKeysAccessKeysListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

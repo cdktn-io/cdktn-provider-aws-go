@@ -15,7 +15,7 @@ func (c *jsiiProxy_CeAnomalySubscriptionSubscriberList) validateGetParameters(in
 	return nil
 }
 
-func (c *jsiiProxy_CeAnomalySubscriptionSubscriberList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CeAnomalySubscriptionSubscriberList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CeAnomalySubscriptionSubscriberList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_CeAnomalySubscriptionSubscriberList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CeAnomalySubscriptionSubscriberList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CeAnomalySubscriptionSubscriberList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewCeAnomalySubscriptionSubscriberListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCeAnomalySubscriptionSubscriberListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

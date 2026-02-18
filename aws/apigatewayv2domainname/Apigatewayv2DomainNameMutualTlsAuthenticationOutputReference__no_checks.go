@@ -47,7 +47,7 @@ func (a *jsiiProxy_Apigatewayv2DomainNameMutualTlsAuthenticationOutputReference)
 	return nil
 }
 
-func (a *jsiiProxy_Apigatewayv2DomainNameMutualTlsAuthenticationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_Apigatewayv2DomainNameMutualTlsAuthenticationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_Apigatewayv2DomainNameMutualTlsAuthenticationOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_Apigatewayv2DomainNameMutualTlsAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Apigatewayv2DomainNameMutualTlsAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_Apigatewayv2DomainNameMutualTlsAuthenticationOutputReference)
 	return nil
 }
 
-func validateNewApigatewayv2DomainNameMutualTlsAuthenticationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApigatewayv2DomainNameMutualTlsAuthenticationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

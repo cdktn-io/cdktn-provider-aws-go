@@ -15,7 +15,7 @@ func (l *jsiiProxy_Lexv2ModelsIntentSampleUtteranceList) validateGetParameters(i
 	return nil
 }
 
-func (l *jsiiProxy_Lexv2ModelsIntentSampleUtteranceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_Lexv2ModelsIntentSampleUtteranceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Lexv2ModelsIntentSampleUtteranceList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_Lexv2ModelsIntentSampleUtteranceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Lexv2ModelsIntentSampleUtteranceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Lexv2ModelsIntentSampleUtteranceList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewLexv2ModelsIntentSampleUtteranceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLexv2ModelsIntentSampleUtteranceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

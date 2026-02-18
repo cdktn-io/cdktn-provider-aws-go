@@ -5,16 +5,16 @@ package bedrockagentagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/bedrockagentagent/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/bedrockagentagent/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/bedrockagent_agent aws_bedrockagent_agent}.
 type BedrockagentAgent interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AgentArn() *string
 	AgentCollaboration() *string
 	SetAgentCollaboration(val *string)
@@ -28,7 +28,7 @@ type BedrockagentAgent interface {
 	AgentResourceRoleArnInput() *string
 	AgentVersion() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -50,9 +50,9 @@ type BedrockagentAgent interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	FoundationModel() *string
 	SetFoundationModel(val *string)
 	FoundationModelInput() *string
@@ -70,9 +70,9 @@ type BedrockagentAgent interface {
 	SetInstruction(val *string)
 	InstructionInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MemoryConfiguration() BedrockagentAgentMemoryConfigurationList
 	MemoryConfigurationInput() interface{}
 	// The tree node.
@@ -84,9 +84,9 @@ type BedrockagentAgent interface {
 	PromptOverrideConfiguration() BedrockagentAgentPromptOverrideConfigurationList
 	PromptOverrideConfigurationInput() interface{}
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -101,10 +101,10 @@ type BedrockagentAgent interface {
 	SkipResourceInUseCheckInput() interface{}
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
-	TagsAll() cdktf.StringMap
+	TagsAll() cdktn.StringMap
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -119,7 +119,7 @@ type BedrockagentAgent interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -137,9 +137,9 @@ type BedrockagentAgent interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -189,7 +189,7 @@ type BedrockagentAgent interface {
 
 // The jsii proxy struct for BedrockagentAgent
 type jsiiProxy_BedrockagentAgent struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_BedrockagentAgent) AgentArn() *string {
@@ -282,8 +282,8 @@ func (j *jsiiProxy_BedrockagentAgent) AgentVersion() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentAgent) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_BedrockagentAgent) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -372,8 +372,8 @@ func (j *jsiiProxy_BedrockagentAgent) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentAgent) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_BedrockagentAgent) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -492,8 +492,8 @@ func (j *jsiiProxy_BedrockagentAgent) InstructionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentAgent) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_BedrockagentAgent) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -582,8 +582,8 @@ func (j *jsiiProxy_BedrockagentAgent) PromptOverrideConfigurationInput() interfa
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentAgent) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_BedrockagentAgent) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -662,8 +662,8 @@ func (j *jsiiProxy_BedrockagentAgent) Tags() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentAgent) TagsAll() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_BedrockagentAgent) TagsAll() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tagsAll",
@@ -682,8 +682,8 @@ func (j *jsiiProxy_BedrockagentAgent) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentAgent) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_BedrockagentAgent) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -847,7 +847,7 @@ func (j *jsiiProxy_BedrockagentAgent)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_BedrockagentAgent)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_BedrockagentAgent)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -888,7 +888,7 @@ func (j *jsiiProxy_BedrockagentAgent)SetInstruction(val *string) {
 	)
 }
 
-func (j *jsiiProxy_BedrockagentAgent)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_BedrockagentAgent)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -910,7 +910,7 @@ func (j *jsiiProxy_BedrockagentAgent)SetPrepareAgent(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_BedrockagentAgent)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_BedrockagentAgent)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -962,14 +962,14 @@ func (j *jsiiProxy_BedrockagentAgent)SetTags(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a BedrockagentAgent resource upon running "cdktf plan <stack-name>".
-func BedrockagentAgent_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a BedrockagentAgent resource upon running "cdktn plan <stack-name>".
+func BedrockagentAgent_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateBedrockagentAgent_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgent",
@@ -1103,11 +1103,11 @@ func (b *jsiiProxy_BedrockagentAgent) GetAnyMapAttribute(terraformAttribute *str
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentAgent) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BedrockagentAgent) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -1244,7 +1244,7 @@ func (b *jsiiProxy_BedrockagentAgent) HasResourceMove() interface{} {
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentAgent) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (b *jsiiProxy_BedrockagentAgent) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := b.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1255,11 +1255,11 @@ func (b *jsiiProxy_BedrockagentAgent) ImportFrom(id *string, provider cdktf.Terr
 	)
 }
 
-func (b *jsiiProxy_BedrockagentAgent) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BedrockagentAgent) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,

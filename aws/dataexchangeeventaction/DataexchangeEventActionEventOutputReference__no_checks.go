@@ -51,7 +51,7 @@ func (d *jsiiProxy_DataexchangeEventActionEventOutputReference) validatePutRevis
 	return nil
 }
 
-func (d *jsiiProxy_DataexchangeEventActionEventOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataexchangeEventActionEventOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataexchangeEventActionEventOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataexchangeEventActionEventOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataexchangeEventActionEventOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataexchangeEventActionEventOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataexchangeEventActionEventOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

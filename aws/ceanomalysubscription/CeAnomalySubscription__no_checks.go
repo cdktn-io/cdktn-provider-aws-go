@@ -119,7 +119,7 @@ func (j *jsiiProxy_CeAnomalySubscription) validateSetIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_CeAnomalySubscription) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CeAnomalySubscription) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

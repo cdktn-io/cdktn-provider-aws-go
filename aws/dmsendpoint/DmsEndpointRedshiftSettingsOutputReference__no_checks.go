@@ -47,7 +47,7 @@ func (d *jsiiProxy_DmsEndpointRedshiftSettingsOutputReference) validateInterpola
 	return nil
 }
 
-func (d *jsiiProxy_DmsEndpointRedshiftSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DmsEndpointRedshiftSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_DmsEndpointRedshiftSettingsOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DmsEndpointRedshiftSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DmsEndpointRedshiftSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDmsEndpointRedshiftSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDmsEndpointRedshiftSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

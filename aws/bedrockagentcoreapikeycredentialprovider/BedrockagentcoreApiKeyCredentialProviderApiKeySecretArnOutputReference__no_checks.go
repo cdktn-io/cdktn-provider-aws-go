@@ -47,7 +47,7 @@ func (b *jsiiProxy_BedrockagentcoreApiKeyCredentialProviderApiKeySecretArnOutput
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentcoreApiKeyCredentialProviderApiKeySecretArnOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentcoreApiKeyCredentialProviderApiKeySecretArnOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProviderApiKeySecretArnOutput
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProviderApiKeySecretArnOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProviderApiKeySecretArnOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBedrockagentcoreApiKeyCredentialProviderApiKeySecretArnOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBedrockagentcoreApiKeyCredentialProviderApiKeySecretArnOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

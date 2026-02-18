@@ -123,7 +123,7 @@ func (j *jsiiProxy_SagemakerImageVersion) validateSetJobTypeParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerImageVersion) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SagemakerImageVersion) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

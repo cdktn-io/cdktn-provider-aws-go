@@ -47,7 +47,7 @@ func (s *jsiiProxy_SecurityhubInsightFiltersFirstObservedAtDateRangeOutputRefere
 	return nil
 }
 
-func (s *jsiiProxy_SecurityhubInsightFiltersFirstObservedAtDateRangeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecurityhubInsightFiltersFirstObservedAtDateRangeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_SecurityhubInsightFiltersFirstObservedAtDateRangeOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_SecurityhubInsightFiltersFirstObservedAtDateRangeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecurityhubInsightFiltersFirstObservedAtDateRangeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SecurityhubInsightFiltersFirstObservedAtDateRangeOutputRefere
 	return nil
 }
 
-func validateNewSecurityhubInsightFiltersFirstObservedAtDateRangeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSecurityhubInsightFiltersFirstObservedAtDateRangeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

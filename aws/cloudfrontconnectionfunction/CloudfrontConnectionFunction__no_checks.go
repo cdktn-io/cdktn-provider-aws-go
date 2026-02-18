@@ -107,7 +107,7 @@ func (j *jsiiProxy_CloudfrontConnectionFunction) validateSetCountParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontConnectionFunction) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudfrontConnectionFunction) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package lb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lb/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lb/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LbMinimumLoadBalancerCapacityOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CapacityUnits() *float64
 	SetCapacityUnits(val *float64)
 	CapacityUnitsInput() *float64
@@ -40,15 +40,15 @@ type LbMinimumLoadBalancerCapacityOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type LbMinimumLoadBalancerCapacityOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type LbMinimumLoadBalancerCapacityOutputReference interface {
 
 // The jsii proxy struct for LbMinimumLoadBalancerCapacityOutputReference
 type jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference) CapacityUnits() *float64 {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference) TerraformResour
 }
 
 
-func NewLbMinimumLoadBalancerCapacityOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LbMinimumLoadBalancerCapacityOutputReference {
+func NewLbMinimumLoadBalancerCapacityOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LbMinimumLoadBalancerCapacityOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLbMinimumLoadBalancerCapacityOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewLbMinimumLoadBalancerCapacityOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewLbMinimumLoadBalancerCapacityOutputReference_Override(l LbMinimumLoadBalancerCapacityOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLbMinimumLoadBalancerCapacityOutputReference_Override(l LbMinimumLoadBalancerCapacityOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (l *jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (l *jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -423,8 +423,8 @@ func (l *jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (l *jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -436,11 +436,11 @@ func (l *jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference) InterpolationAs
 	return returns
 }
 
-func (l *jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -452,7 +452,7 @@ func (l *jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference) InterpolationFo
 	return returns
 }
 
-func (l *jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

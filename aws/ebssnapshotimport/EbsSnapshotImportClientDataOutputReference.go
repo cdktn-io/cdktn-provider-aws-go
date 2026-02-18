@@ -5,14 +5,14 @@ package ebssnapshotimport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ebssnapshotimport/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ebssnapshotimport/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EbsSnapshotImportClientDataOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Comment() *string
 	SetComment(val *string)
 	CommentInput() *string
@@ -40,9 +40,9 @@ type EbsSnapshotImportClientDataOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UploadEnd() *string
 	SetUploadEnd(val *string)
 	UploadEndInput() *string
@@ -57,7 +57,7 @@ type EbsSnapshotImportClientDataOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type EbsSnapshotImportClientDataOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetComment()
 	ResetUploadEnd()
 	ResetUploadSize()
 	ResetUploadStart()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type EbsSnapshotImportClientDataOutputReference interface {
 
 // The jsii proxy struct for EbsSnapshotImportClientDataOutputReference
 type jsiiProxy_EbsSnapshotImportClientDataOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EbsSnapshotImportClientDataOutputReference) Comment() *string {
@@ -175,8 +175,8 @@ func (j *jsiiProxy_EbsSnapshotImportClientDataOutputReference) TerraformAttribut
 	return returns
 }
 
-func (j *jsiiProxy_EbsSnapshotImportClientDataOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EbsSnapshotImportClientDataOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_EbsSnapshotImportClientDataOutputReference) UploadStartInput(
 }
 
 
-func NewEbsSnapshotImportClientDataOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) EbsSnapshotImportClientDataOutputReference {
+func NewEbsSnapshotImportClientDataOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) EbsSnapshotImportClientDataOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEbsSnapshotImportClientDataOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewEbsSnapshotImportClientDataOutputReference(terraformResource cdktf.IInte
 	return &j
 }
 
-func NewEbsSnapshotImportClientDataOutputReference_Override(e EbsSnapshotImportClientDataOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEbsSnapshotImportClientDataOutputReference_Override(e EbsSnapshotImportClientDataOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -328,7 +328,7 @@ func (j *jsiiProxy_EbsSnapshotImportClientDataOutputReference)SetTerraformAttrib
 	)
 }
 
-func (j *jsiiProxy_EbsSnapshotImportClientDataOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EbsSnapshotImportClientDataOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (e *jsiiProxy_EbsSnapshotImportClientDataOutputReference) GetAnyMapAttribut
 	return returns
 }
 
-func (e *jsiiProxy_EbsSnapshotImportClientDataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EbsSnapshotImportClientDataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -529,8 +529,8 @@ func (e *jsiiProxy_EbsSnapshotImportClientDataOutputReference) GetStringMapAttri
 	return returns
 }
 
-func (e *jsiiProxy_EbsSnapshotImportClientDataOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EbsSnapshotImportClientDataOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -542,11 +542,11 @@ func (e *jsiiProxy_EbsSnapshotImportClientDataOutputReference) InterpolationAsLi
 	return returns
 }
 
-func (e *jsiiProxy_EbsSnapshotImportClientDataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EbsSnapshotImportClientDataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -590,7 +590,7 @@ func (e *jsiiProxy_EbsSnapshotImportClientDataOutputReference) ResetUploadStart(
 	)
 }
 
-func (e *jsiiProxy_EbsSnapshotImportClientDataOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EbsSnapshotImportClientDataOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

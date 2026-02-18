@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReferenc
 	return nil
 }
 
-func (a *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

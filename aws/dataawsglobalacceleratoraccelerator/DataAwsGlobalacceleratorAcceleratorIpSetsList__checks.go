@@ -8,7 +8,7 @@ package dataawsglobalacceleratoraccelerator
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataAwsGlobalacceleratorAcceleratorIpSetsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (d *jsiiProxy_DataAwsGlobalacceleratorAcceleratorIpSetsList) validateGetPar
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsGlobalacceleratorAcceleratorIpSetsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsGlobalacceleratorAcceleratorIpSetsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_DataAwsGlobalacceleratorAcceleratorIpSetsList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsGlobalacceleratorAcceleratorIpSetsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsGlobalacceleratorAcceleratorIpSetsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_DataAwsGlobalacceleratorAcceleratorIpSetsList) validateSetWra
 	return nil
 }
 
-func validateNewDataAwsGlobalacceleratorAcceleratorIpSetsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsGlobalacceleratorAcceleratorIpSetsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

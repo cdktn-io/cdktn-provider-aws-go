@@ -5,16 +5,16 @@ package grafanaworkspacesamlconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/grafanaworkspacesamlconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/grafanaworkspacesamlconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/grafana_workspace_saml_configuration aws_grafana_workspace_saml_configuration}.
 type GrafanaWorkspaceSamlConfiguration interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AdminRoleValues() *[]*string
 	SetAdminRoleValues(val *[]*string)
 	AdminRoleValuesInput() *[]*string
@@ -22,7 +22,7 @@ type GrafanaWorkspaceSamlConfiguration interface {
 	SetAllowedOrganizations(val *[]*string)
 	AllowedOrganizationsInput() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -44,9 +44,9 @@ type GrafanaWorkspaceSamlConfiguration interface {
 	SetEmailAssertion(val *string)
 	EmailAssertionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -64,9 +64,9 @@ type GrafanaWorkspaceSamlConfiguration interface {
 	SetIdpMetadataXml(val *string)
 	IdpMetadataXmlInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LoginAssertion() *string
 	SetLoginAssertion(val *string)
 	LoginAssertionInput() *string
@@ -82,9 +82,9 @@ type GrafanaWorkspaceSamlConfiguration interface {
 	SetOrgAssertion(val *string)
 	OrgAssertionInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -99,7 +99,7 @@ type GrafanaWorkspaceSamlConfiguration interface {
 	RoleAssertionInput() *string
 	Status() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -117,7 +117,7 @@ type GrafanaWorkspaceSamlConfiguration interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -135,9 +135,9 @@ type GrafanaWorkspaceSamlConfiguration interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -185,7 +185,7 @@ type GrafanaWorkspaceSamlConfiguration interface {
 
 // The jsii proxy struct for GrafanaWorkspaceSamlConfiguration
 type jsiiProxy_GrafanaWorkspaceSamlConfiguration struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration) AdminRoleValues() *[]*string {
@@ -228,8 +228,8 @@ func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration) AllowedOrganizationsInput(
 	return returns
 }
 
-func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -318,8 +318,8 @@ func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration) EmailAssertionInput() *str
 	return returns
 }
 
-func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -428,8 +428,8 @@ func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration) IdpMetadataXmlInput() *str
 	return returns
 }
 
-func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -528,8 +528,8 @@ func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration) OrgAssertionInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -608,8 +608,8 @@ func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration) Status() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -782,7 +782,7 @@ func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration)SetEmailAssertion(val *stri
 	)
 }
 
-func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -834,7 +834,7 @@ func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration)SetIdpMetadataXml(val *stri
 	)
 }
 
-func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -889,7 +889,7 @@ func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration)SetOrgAssertion(val *string
 	)
 }
 
-func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -941,14 +941,14 @@ func (j *jsiiProxy_GrafanaWorkspaceSamlConfiguration)SetWorkspaceId(val *string)
 	)
 }
 
-// Generates CDKTF code for importing a GrafanaWorkspaceSamlConfiguration resource upon running "cdktf plan <stack-name>".
-func GrafanaWorkspaceSamlConfiguration_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GrafanaWorkspaceSamlConfiguration resource upon running "cdktn plan <stack-name>".
+func GrafanaWorkspaceSamlConfiguration_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGrafanaWorkspaceSamlConfiguration_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.grafanaWorkspaceSamlConfiguration.GrafanaWorkspaceSamlConfiguration",
@@ -1082,11 +1082,11 @@ func (g *jsiiProxy_GrafanaWorkspaceSamlConfiguration) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (g *jsiiProxy_GrafanaWorkspaceSamlConfiguration) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GrafanaWorkspaceSamlConfiguration) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1223,7 +1223,7 @@ func (g *jsiiProxy_GrafanaWorkspaceSamlConfiguration) HasResourceMove() interfac
 	return returns
 }
 
-func (g *jsiiProxy_GrafanaWorkspaceSamlConfiguration) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GrafanaWorkspaceSamlConfiguration) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1234,11 +1234,11 @@ func (g *jsiiProxy_GrafanaWorkspaceSamlConfiguration) ImportFrom(id *string, pro
 	)
 }
 
-func (g *jsiiProxy_GrafanaWorkspaceSamlConfiguration) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GrafanaWorkspaceSamlConfiguration) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

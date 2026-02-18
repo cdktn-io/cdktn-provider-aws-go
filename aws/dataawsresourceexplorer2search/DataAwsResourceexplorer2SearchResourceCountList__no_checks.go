@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsResourceexplorer2SearchResourceCountList) validateGetP
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsResourceexplorer2SearchResourceCountList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsResourceexplorer2SearchResourceCountList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsResourceexplorer2SearchResourceCountList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsResourceexplorer2SearchResourceCountList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsResourceexplorer2SearchResourceCountList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsResourceexplorer2SearchResourceCountList) validateSetW
 	return nil
 }
 
-func validateNewDataAwsResourceexplorer2SearchResourceCountListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsResourceexplorer2SearchResourceCountListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

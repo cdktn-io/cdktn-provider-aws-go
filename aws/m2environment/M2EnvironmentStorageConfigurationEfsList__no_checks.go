@@ -15,7 +15,7 @@ func (m *jsiiProxy_M2EnvironmentStorageConfigurationEfsList) validateGetParamete
 	return nil
 }
 
-func (m *jsiiProxy_M2EnvironmentStorageConfigurationEfsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_M2EnvironmentStorageConfigurationEfsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_M2EnvironmentStorageConfigurationEfsList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_M2EnvironmentStorageConfigurationEfsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_M2EnvironmentStorageConfigurationEfsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_M2EnvironmentStorageConfigurationEfsList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewM2EnvironmentStorageConfigurationEfsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewM2EnvironmentStorageConfigurationEfsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

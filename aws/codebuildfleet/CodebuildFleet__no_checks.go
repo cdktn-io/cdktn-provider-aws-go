@@ -131,7 +131,7 @@ func (j *jsiiProxy_CodebuildFleet) validateSetImageIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_CodebuildFleet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CodebuildFleet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

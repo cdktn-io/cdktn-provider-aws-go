@@ -5,14 +5,14 @@ package verifiedpermissionsidentitysource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/verifiedpermissionsidentitysource/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/verifiedpermissionsidentitysource/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ClientIds() *[]*string
 	SetClientIds(val *[]*string)
 	ClientIdsInput() *[]*string
@@ -42,9 +42,9 @@ type VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationO
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UserPoolArn() *string
 	SetUserPoolArn(val *string)
 	UserPoolArnInput() *string
@@ -53,7 +53,7 @@ type VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationO
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,15 +69,15 @@ type VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationO
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutGroupConfiguration(value interface{})
 	ResetClientIds()
 	ResetGroupConfiguration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationO
 
 // The jsii proxy struct for VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference
 type jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference) ClientIds() *[]*string {
@@ -190,8 +190,8 @@ func (j *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPool
 	return returns
 }
 
-func (j *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPool
 }
 
 
-func NewVerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference {
+func NewVerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -238,7 +238,7 @@ func NewVerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurati
 	return &j
 }
 
-func NewVerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference_Override(v VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewVerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference_Override(v VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -303,7 +303,7 @@ func (j *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPool
 	)
 }
 
-func (j *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -354,11 +354,11 @@ func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPool
 	return returns
 }
 
-func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -482,8 +482,8 @@ func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPool
 	return returns
 }
 
-func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -495,11 +495,11 @@ func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPool
 	return returns
 }
 
-func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -538,7 +538,7 @@ func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPool
 	)
 }
 
-func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

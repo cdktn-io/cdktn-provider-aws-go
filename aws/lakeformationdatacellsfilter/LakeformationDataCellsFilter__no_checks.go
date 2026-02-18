@@ -107,7 +107,7 @@ func (j *jsiiProxy_LakeformationDataCellsFilter) validateSetCountParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_LakeformationDataCellsFilter) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LakeformationDataCellsFilter) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

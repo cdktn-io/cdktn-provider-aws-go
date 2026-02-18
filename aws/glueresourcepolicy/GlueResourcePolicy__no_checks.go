@@ -107,7 +107,7 @@ func (j *jsiiProxy_GlueResourcePolicy) validateSetIdParameters(val *string) erro
 	return nil
 }
 
-func (j *jsiiProxy_GlueResourcePolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GlueResourcePolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

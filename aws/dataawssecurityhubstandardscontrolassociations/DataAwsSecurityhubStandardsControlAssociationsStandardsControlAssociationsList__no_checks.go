@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsSecurityhubStandardsControlAssociationsStandardsContro
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsSecurityhubStandardsControlAssociationsStandardsControlAssociationsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsSecurityhubStandardsControlAssociationsStandardsControlAssociationsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsSecurityhubStandardsControlAssociationsStandardsContro
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSecurityhubStandardsControlAssociationsStandardsControlAssociationsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsSecurityhubStandardsControlAssociationsStandardsControlAssociationsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsSecurityhubStandardsControlAssociationsStandardsContro
 	return nil
 }
 
-func validateNewDataAwsSecurityhubStandardsControlAssociationsStandardsControlAssociationsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsSecurityhubStandardsControlAssociationsStandardsControlAssociationsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

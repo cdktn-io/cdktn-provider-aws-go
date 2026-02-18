@@ -111,7 +111,7 @@ func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) validateSetCountPar
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

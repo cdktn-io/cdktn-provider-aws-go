@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsApprunnerHostedZoneId) validateSetCountParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsApprunnerHostedZoneId) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsApprunnerHostedZoneId) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

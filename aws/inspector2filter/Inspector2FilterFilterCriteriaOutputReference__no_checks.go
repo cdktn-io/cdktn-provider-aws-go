@@ -231,7 +231,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaOutputReference) validatePutVul
 	return nil
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -251,11 +251,11 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_Inspector2FilterFilterCriteriaOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Inspector2FilterFilterCriteriaOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewInspector2FilterFilterCriteriaOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewInspector2FilterFilterCriteriaOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

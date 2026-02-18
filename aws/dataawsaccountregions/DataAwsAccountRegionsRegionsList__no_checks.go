@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsAccountRegionsRegionsList) validateGetParameters(index
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAccountRegionsRegionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAccountRegionsRegionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsAccountRegionsRegionsList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAccountRegionsRegionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAccountRegionsRegionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsAccountRegionsRegionsList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewDataAwsAccountRegionsRegionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsAccountRegionsRegionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (e *jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference) 
 	return nil
 }
 
-func (e *jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEksClusterOutpostConfigControlPlanePlacementOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEksClusterOutpostConfigControlPlanePlacementOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

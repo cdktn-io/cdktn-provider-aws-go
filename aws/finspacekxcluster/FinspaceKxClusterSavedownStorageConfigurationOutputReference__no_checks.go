@@ -47,7 +47,7 @@ func (f *jsiiProxy_FinspaceKxClusterSavedownStorageConfigurationOutputReference)
 	return nil
 }
 
-func (f *jsiiProxy_FinspaceKxClusterSavedownStorageConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FinspaceKxClusterSavedownStorageConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_FinspaceKxClusterSavedownStorageConfigurationOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_FinspaceKxClusterSavedownStorageConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FinspaceKxClusterSavedownStorageConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_FinspaceKxClusterSavedownStorageConfigurationOutputReference)
 	return nil
 }
 
-func validateNewFinspaceKxClusterSavedownStorageConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFinspaceKxClusterSavedownStorageConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

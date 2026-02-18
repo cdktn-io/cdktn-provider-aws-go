@@ -5,14 +5,14 @@ package fsxopenzfsvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/fsxopenzfsvolume/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/fsxopenzfsvolume/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FsxOpenzfsVolumeOriginSnapshotOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type FsxOpenzfsVolumeOriginSnapshotOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type FsxOpenzfsVolumeOriginSnapshotOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type FsxOpenzfsVolumeOriginSnapshotOutputReference interface {
 
 // The jsii proxy struct for FsxOpenzfsVolumeOriginSnapshotOutputReference
 type jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference) ComplexObjectIndex() interface{} {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference) TerraformResou
 }
 
 
-func NewFsxOpenzfsVolumeOriginSnapshotOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) FsxOpenzfsVolumeOriginSnapshotOutputReference {
+func NewFsxOpenzfsVolumeOriginSnapshotOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) FsxOpenzfsVolumeOriginSnapshotOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFsxOpenzfsVolumeOriginSnapshotOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewFsxOpenzfsVolumeOriginSnapshotOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewFsxOpenzfsVolumeOriginSnapshotOutputReference_Override(f FsxOpenzfsVolumeOriginSnapshotOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewFsxOpenzfsVolumeOriginSnapshotOutputReference_Override(f FsxOpenzfsVolumeOriginSnapshotOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (f *jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (f *jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -457,8 +457,8 @@ func (f *jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference) GetStringMapAt
 	return returns
 }
 
-func (f *jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -470,11 +470,11 @@ func (f *jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference) InterpolationA
 	return returns
 }
 
-func (f *jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -486,7 +486,7 @@ func (f *jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference) InterpolationF
 	return returns
 }
 
-func (f *jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

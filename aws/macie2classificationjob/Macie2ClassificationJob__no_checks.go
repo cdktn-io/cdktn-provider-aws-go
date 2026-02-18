@@ -135,7 +135,7 @@ func (j *jsiiProxy_Macie2ClassificationJob) validateSetJobTypeParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_Macie2ClassificationJob) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Macie2ClassificationJob) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

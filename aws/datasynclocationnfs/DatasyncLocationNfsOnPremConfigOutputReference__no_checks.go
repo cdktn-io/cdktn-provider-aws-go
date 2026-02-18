@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatasyncLocationNfsOnPremConfigOutputReference) validateInter
 	return nil
 }
 
-func (d *jsiiProxy_DatasyncLocationNfsOnPremConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatasyncLocationNfsOnPremConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DatasyncLocationNfsOnPremConfigOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DatasyncLocationNfsOnPremConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatasyncLocationNfsOnPremConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatasyncLocationNfsOnPremConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatasyncLocationNfsOnPremConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

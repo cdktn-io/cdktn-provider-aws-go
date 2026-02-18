@@ -111,7 +111,7 @@ func (j *jsiiProxy_ConnectInstanceStorageConfig) validateSetInstanceIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_ConnectInstanceStorageConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ConnectInstanceStorageConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

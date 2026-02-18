@@ -111,7 +111,7 @@ func (j *jsiiProxy_RedshiftserverlessUsageLimit) validateSetIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftserverlessUsageLimit) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RedshiftserverlessUsageLimit) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

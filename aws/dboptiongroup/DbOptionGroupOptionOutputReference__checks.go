@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DbOptionGroupOptionOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (d *jsiiProxy_DbOptionGroupOptionOutputReference) validatePutOptionSettings
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DbOptionGroupOptionOptionSettings:
 		value := value.(*[]*DbOptionGroupOptionOptionSettings)
@@ -117,14 +117,14 @@ func (d *jsiiProxy_DbOptionGroupOptionOutputReference) validatePutOptionSettings
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DbOptionGroupOptionOptionSettings; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DbOptionGroupOptionOptionSettings; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (d *jsiiProxy_DbOptionGroupOptionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DbOptionGroupOptionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -207,7 +207,7 @@ func (j *jsiiProxy_DbOptionGroupOptionOutputReference) validateSetDbSecurityGrou
 
 func (j *jsiiProxy_DbOptionGroupOptionOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *DbOptionGroupOption:
 		val := val.(*DbOptionGroupOption)
@@ -222,7 +222,7 @@ func (j *jsiiProxy_DbOptionGroupOptionOutputReference) validateSetInternalValueP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *DbOptionGroupOption; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *DbOptionGroupOption; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -253,7 +253,7 @@ func (j *jsiiProxy_DbOptionGroupOptionOutputReference) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_DbOptionGroupOptionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DbOptionGroupOptionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -277,7 +277,7 @@ func (j *jsiiProxy_DbOptionGroupOptionOutputReference) validateSetVpcSecurityGro
 	return nil
 }
 
-func validateNewDbOptionGroupOptionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDbOptionGroupOptionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -5,14 +5,14 @@ package rekognitionstreamprocessor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/rekognitionstreamprocessor/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/rekognitionstreamprocessor/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type RekognitionStreamProcessorSettingsFaceSearchOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CollectionId() *string
 	SetCollectionId(val *string)
 	CollectionIdInput() *string
@@ -43,15 +43,15 @@ type RekognitionStreamProcessorSettingsFaceSearchOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type RekognitionStreamProcessorSettingsFaceSearchOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetFaceMatchThreshold()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type RekognitionStreamProcessorSettingsFaceSearchOutputReference interface {
 
 // The jsii proxy struct for RekognitionStreamProcessorSettingsFaceSearchOutputReference
 type jsiiProxy_RekognitionStreamProcessorSettingsFaceSearchOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_RekognitionStreamProcessorSettingsFaceSearchOutputReference) CollectionId() *string {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_RekognitionStreamProcessorSettingsFaceSearchOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_RekognitionStreamProcessorSettingsFaceSearchOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_RekognitionStreamProcessorSettingsFaceSearchOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorSettingsFaceSearchOutputReference) 
 }
 
 
-func NewRekognitionStreamProcessorSettingsFaceSearchOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) RekognitionStreamProcessorSettingsFaceSearchOutputReference {
+func NewRekognitionStreamProcessorSettingsFaceSearchOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) RekognitionStreamProcessorSettingsFaceSearchOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewRekognitionStreamProcessorSettingsFaceSearchOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -214,7 +214,7 @@ func NewRekognitionStreamProcessorSettingsFaceSearchOutputReference(terraformRes
 	return &j
 }
 
-func NewRekognitionStreamProcessorSettingsFaceSearchOutputReference_Override(r RekognitionStreamProcessorSettingsFaceSearchOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewRekognitionStreamProcessorSettingsFaceSearchOutputReference_Override(r RekognitionStreamProcessorSettingsFaceSearchOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorSettingsFaceSearchOutputReference)S
 	)
 }
 
-func (j *jsiiProxy_RekognitionStreamProcessorSettingsFaceSearchOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_RekognitionStreamProcessorSettingsFaceSearchOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (r *jsiiProxy_RekognitionStreamProcessorSettingsFaceSearchOutputReference) 
 	return returns
 }
 
-func (r *jsiiProxy_RekognitionStreamProcessorSettingsFaceSearchOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RekognitionStreamProcessorSettingsFaceSearchOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -458,8 +458,8 @@ func (r *jsiiProxy_RekognitionStreamProcessorSettingsFaceSearchOutputReference) 
 	return returns
 }
 
-func (r *jsiiProxy_RekognitionStreamProcessorSettingsFaceSearchOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_RekognitionStreamProcessorSettingsFaceSearchOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -471,11 +471,11 @@ func (r *jsiiProxy_RekognitionStreamProcessorSettingsFaceSearchOutputReference) 
 	return returns
 }
 
-func (r *jsiiProxy_RekognitionStreamProcessorSettingsFaceSearchOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RekognitionStreamProcessorSettingsFaceSearchOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -495,7 +495,7 @@ func (r *jsiiProxy_RekognitionStreamProcessorSettingsFaceSearchOutputReference) 
 	)
 }
 
-func (r *jsiiProxy_RekognitionStreamProcessorSettingsFaceSearchOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_RekognitionStreamProcessorSettingsFaceSearchOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

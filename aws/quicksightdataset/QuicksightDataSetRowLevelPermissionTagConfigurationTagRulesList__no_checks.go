@@ -15,7 +15,7 @@ func (q *jsiiProxy_QuicksightDataSetRowLevelPermissionTagConfigurationTagRulesLi
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_QuicksightDataSetRowLevelPermissionTagConfigurationTagRulesLi
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_QuicksightDataSetRowLevelPermissionTagConfigurationTagRulesLi
 	return nil
 }
 
-func validateNewQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewQuicksightDataSetRowLevelPermissionTagConfigurationTagRulesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

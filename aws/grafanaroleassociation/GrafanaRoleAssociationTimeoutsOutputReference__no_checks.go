@@ -47,7 +47,7 @@ func (g *jsiiProxy_GrafanaRoleAssociationTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (g *jsiiProxy_GrafanaRoleAssociationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GrafanaRoleAssociationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GrafanaRoleAssociationTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_GrafanaRoleAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GrafanaRoleAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGrafanaRoleAssociationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGrafanaRoleAssociationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

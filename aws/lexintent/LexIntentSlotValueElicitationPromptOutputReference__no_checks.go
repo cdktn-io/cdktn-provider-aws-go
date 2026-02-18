@@ -51,7 +51,7 @@ func (l *jsiiProxy_LexIntentSlotValueElicitationPromptOutputReference) validateP
 	return nil
 }
 
-func (l *jsiiProxy_LexIntentSlotValueElicitationPromptOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LexIntentSlotValueElicitationPromptOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_LexIntentSlotValueElicitationPromptOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_LexIntentSlotValueElicitationPromptOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LexIntentSlotValueElicitationPromptOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLexIntentSlotValueElicitationPromptOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLexIntentSlotValueElicitationPromptOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

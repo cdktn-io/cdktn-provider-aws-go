@@ -15,7 +15,7 @@ func (c *jsiiProxy_CloudfrontMultitenantDistributionRestrictionsGeoRestrictionLi
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontMultitenantDistributionRestrictionsGeoRestrictionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontMultitenantDistributionRestrictionsGeoRestrictionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CloudfrontMultitenantDistributionRestrictionsGeoRestrictionLi
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontMultitenantDistributionRestrictionsGeoRestrictionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontMultitenantDistributionRestrictionsGeoRestrictionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CloudfrontMultitenantDistributionRestrictionsGeoRestrictionLi
 	return nil
 }
 
-func validateNewCloudfrontMultitenantDistributionRestrictionsGeoRestrictionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudfrontMultitenantDistributionRestrictionsGeoRestrictionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

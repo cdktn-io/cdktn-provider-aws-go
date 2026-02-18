@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsRdsGlobalCluster) validateSetIdentifierParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRdsGlobalCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsRdsGlobalCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

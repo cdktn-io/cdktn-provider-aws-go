@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEc2InstanceTypeNetworkCardsList) validateGetParameters
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEc2InstanceTypeNetworkCardsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEc2InstanceTypeNetworkCardsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsEc2InstanceTypeNetworkCardsList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceTypeNetworkCardsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEc2InstanceTypeNetworkCardsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsEc2InstanceTypeNetworkCardsList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewDataAwsEc2InstanceTypeNetworkCardsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEc2InstanceTypeNetworkCardsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

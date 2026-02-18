@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsMqBrokerEngineTypesBrokerEngineTypesOutputReference) v
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsMqBrokerEngineTypesBrokerEngineTypesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsMqBrokerEngineTypesBrokerEngineTypesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsMqBrokerEngineTypesBrokerEngineTypesOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsMqBrokerEngineTypesBrokerEngineTypesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsMqBrokerEngineTypesBrokerEngineTypesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsMqBrokerEngineTypesBrokerEngineTypesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsMqBrokerEngineTypesBrokerEngineTypesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

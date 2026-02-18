@@ -5,14 +5,14 @@ package dataawsinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsInstanceRootBlockDeviceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -28,24 +28,24 @@ type DataAwsInstanceRootBlockDeviceOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	DeleteOnTermination() cdktf.IResolvable
+	DeleteOnTermination() cdktn.IResolvable
 	DeviceName() *string
-	Encrypted() cdktf.IResolvable
+	Encrypted() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsInstanceRootBlockDevice
 	SetInternalValue(val *DataAwsInstanceRootBlockDevice)
 	Iops() *float64
 	KmsKeyId() *string
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Throughput() *float64
 	VolumeId() *string
 	VolumeSize() *float64
@@ -55,7 +55,7 @@ type DataAwsInstanceRootBlockDeviceOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -71,12 +71,12 @@ type DataAwsInstanceRootBlockDeviceOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type DataAwsInstanceRootBlockDeviceOutputReference interface {
 
 // The jsii proxy struct for DataAwsInstanceRootBlockDeviceOutputReference
 type jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) ComplexObjectIndex() interface{} {
@@ -119,8 +119,8 @@ func (j *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) CreationStack(
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) DeleteOnTermination() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) DeleteOnTermination() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"deleteOnTermination",
@@ -139,8 +139,8 @@ func (j *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) DeviceName() *
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) Encrypted() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) Encrypted() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"encrypted",
@@ -189,8 +189,8 @@ func (j *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) KmsKeyId() *st
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -209,8 +209,8 @@ func (j *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -260,7 +260,7 @@ func (j *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) VolumeType() *
 }
 
 
-func NewDataAwsInstanceRootBlockDeviceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsInstanceRootBlockDeviceOutputReference {
+func NewDataAwsInstanceRootBlockDeviceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsInstanceRootBlockDeviceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsInstanceRootBlockDeviceOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -277,7 +277,7 @@ func NewDataAwsInstanceRootBlockDeviceOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewDataAwsInstanceRootBlockDeviceOutputReference_Override(d DataAwsInstanceRootBlockDeviceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsInstanceRootBlockDeviceOutputReference_Override(d DataAwsInstanceRootBlockDeviceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -331,7 +331,7 @@ func (j *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -371,11 +371,11 @@ func (d *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -499,8 +499,8 @@ func (d *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) GetStringMapAt
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -512,11 +512,11 @@ func (d *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) InterpolationA
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -528,7 +528,7 @@ func (d *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) InterpolationF
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

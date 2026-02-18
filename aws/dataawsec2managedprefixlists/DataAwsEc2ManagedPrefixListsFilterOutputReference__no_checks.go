@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEc2ManagedPrefixListsFilterOutputReference) validateIn
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEc2ManagedPrefixListsFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEc2ManagedPrefixListsFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataAwsEc2ManagedPrefixListsFilterOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2ManagedPrefixListsFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEc2ManagedPrefixListsFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsEc2ManagedPrefixListsFilterOutputReference) validateSe
 	return nil
 }
 
-func validateNewDataAwsEc2ManagedPrefixListsFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsEc2ManagedPrefixListsFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

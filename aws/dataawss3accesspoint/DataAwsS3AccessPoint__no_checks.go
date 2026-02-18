@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsS3AccessPoint) validateSetCountParameters(val interfac
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsS3AccessPoint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsS3AccessPoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

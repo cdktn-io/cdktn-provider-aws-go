@@ -15,7 +15,7 @@ func (i *jsiiProxy_InstanceSecondaryNetworkInterfaceList) validateGetParameters(
 	return nil
 }
 
-func (i *jsiiProxy_InstanceSecondaryNetworkInterfaceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_InstanceSecondaryNetworkInterfaceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_InstanceSecondaryNetworkInterfaceList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_InstanceSecondaryNetworkInterfaceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_InstanceSecondaryNetworkInterfaceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_InstanceSecondaryNetworkInterfaceList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewInstanceSecondaryNetworkInterfaceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewInstanceSecondaryNetworkInterfaceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

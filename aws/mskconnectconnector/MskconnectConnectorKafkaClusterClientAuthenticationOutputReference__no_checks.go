@@ -47,7 +47,7 @@ func (m *jsiiProxy_MskconnectConnectorKafkaClusterClientAuthenticationOutputRefe
 	return nil
 }
 
-func (m *jsiiProxy_MskconnectConnectorKafkaClusterClientAuthenticationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MskconnectConnectorKafkaClusterClientAuthenticationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_MskconnectConnectorKafkaClusterClientAuthenticationOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_MskconnectConnectorKafkaClusterClientAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MskconnectConnectorKafkaClusterClientAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMskconnectConnectorKafkaClusterClientAuthenticationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMskconnectConnectorKafkaClusterClientAuthenticationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

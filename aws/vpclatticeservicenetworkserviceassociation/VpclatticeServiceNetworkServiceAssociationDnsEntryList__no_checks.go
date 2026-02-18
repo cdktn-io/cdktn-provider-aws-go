@@ -15,7 +15,7 @@ func (v *jsiiProxy_VpclatticeServiceNetworkServiceAssociationDnsEntryList) valid
 	return nil
 }
 
-func (v *jsiiProxy_VpclatticeServiceNetworkServiceAssociationDnsEntryList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpclatticeServiceNetworkServiceAssociationDnsEntryList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_VpclatticeServiceNetworkServiceAssociationDnsEntryList) valid
 	return nil
 }
 
-func (j *jsiiProxy_VpclatticeServiceNetworkServiceAssociationDnsEntryList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpclatticeServiceNetworkServiceAssociationDnsEntryList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_VpclatticeServiceNetworkServiceAssociationDnsEntryList) valid
 	return nil
 }
 
-func validateNewVpclatticeServiceNetworkServiceAssociationDnsEntryListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVpclatticeServiceNetworkServiceAssociationDnsEntryListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -8,7 +8,7 @@ package dataawsappstreamimage
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataAwsAppstreamImageApplicationsIconS3LocationList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (d *jsiiProxy_DataAwsAppstreamImageApplicationsIconS3LocationList) validate
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAppstreamImageApplicationsIconS3LocationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAppstreamImageApplicationsIconS3LocationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_DataAwsAppstreamImageApplicationsIconS3LocationList) validate
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAppstreamImageApplicationsIconS3LocationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAppstreamImageApplicationsIconS3LocationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_DataAwsAppstreamImageApplicationsIconS3LocationList) validate
 	return nil
 }
 
-func validateNewDataAwsAppstreamImageApplicationsIconS3LocationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsAppstreamImageApplicationsIconS3LocationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

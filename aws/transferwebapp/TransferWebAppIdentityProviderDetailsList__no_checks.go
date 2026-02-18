@@ -15,7 +15,7 @@ func (t *jsiiProxy_TransferWebAppIdentityProviderDetailsList) validateGetParamet
 	return nil
 }
 
-func (t *jsiiProxy_TransferWebAppIdentityProviderDetailsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TransferWebAppIdentityProviderDetailsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_TransferWebAppIdentityProviderDetailsList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_TransferWebAppIdentityProviderDetailsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TransferWebAppIdentityProviderDetailsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_TransferWebAppIdentityProviderDetailsList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewTransferWebAppIdentityProviderDetailsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewTransferWebAppIdentityProviderDetailsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

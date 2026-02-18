@@ -111,7 +111,7 @@ func (j *jsiiProxy_NetworkInterfaceAttachmentA) validateSetInstanceIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_NetworkInterfaceAttachmentA) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkInterfaceAttachmentA) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

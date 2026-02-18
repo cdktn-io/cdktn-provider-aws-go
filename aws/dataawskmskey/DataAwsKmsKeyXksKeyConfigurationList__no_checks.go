@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsKmsKeyXksKeyConfigurationList) validateGetParameters(i
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsKmsKeyXksKeyConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsKmsKeyXksKeyConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsKmsKeyXksKeyConfigurationList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsKmsKeyXksKeyConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsKmsKeyXksKeyConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsKmsKeyXksKeyConfigurationList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewDataAwsKmsKeyXksKeyConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsKmsKeyXksKeyConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

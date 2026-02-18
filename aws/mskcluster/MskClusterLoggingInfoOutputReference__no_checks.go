@@ -51,7 +51,7 @@ func (m *jsiiProxy_MskClusterLoggingInfoOutputReference) validatePutBrokerLogsPa
 	return nil
 }
 
-func (m *jsiiProxy_MskClusterLoggingInfoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MskClusterLoggingInfoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_MskClusterLoggingInfoOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_MskClusterLoggingInfoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MskClusterLoggingInfoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMskClusterLoggingInfoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMskClusterLoggingInfoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

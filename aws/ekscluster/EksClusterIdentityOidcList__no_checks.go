@@ -15,7 +15,7 @@ func (e *jsiiProxy_EksClusterIdentityOidcList) validateGetParameters(index *floa
 	return nil
 }
 
-func (e *jsiiProxy_EksClusterIdentityOidcList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksClusterIdentityOidcList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_EksClusterIdentityOidcList) validateSetTerraformAttributePara
 	return nil
 }
 
-func (j *jsiiProxy_EksClusterIdentityOidcList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksClusterIdentityOidcList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_EksClusterIdentityOidcList) validateSetWrapsSetParameters(val
 	return nil
 }
 
-func validateNewEksClusterIdentityOidcListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEksClusterIdentityOidcListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

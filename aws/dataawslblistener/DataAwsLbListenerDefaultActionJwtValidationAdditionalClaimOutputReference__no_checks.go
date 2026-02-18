@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsLbListenerDefaultActionJwtValidationAdditionalClaimOut
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLbListenerDefaultActionJwtValidationAdditionalClaimOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLbListenerDefaultActionJwtValidationAdditionalClaimOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsLbListenerDefaultActionJwtValidationAdditionalClaimOut
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLbListenerDefaultActionJwtValidationAdditionalClaimOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLbListenerDefaultActionJwtValidationAdditionalClaimOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsLbListenerDefaultActionJwtValidationAdditionalClaimOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsLbListenerDefaultActionJwtValidationAdditionalClaimOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

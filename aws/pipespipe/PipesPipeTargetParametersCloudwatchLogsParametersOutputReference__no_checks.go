@@ -47,7 +47,7 @@ func (p *jsiiProxy_PipesPipeTargetParametersCloudwatchLogsParametersOutputRefere
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersCloudwatchLogsParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeTargetParametersCloudwatchLogsParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersCloudwatchLogsParametersOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeTargetParametersCloudwatchLogsParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeTargetParametersCloudwatchLogsParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersCloudwatchLogsParametersOutputRefere
 	return nil
 }
 
-func validateNewPipesPipeTargetParametersCloudwatchLogsParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPipesPipeTargetParametersCloudwatchLogsParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

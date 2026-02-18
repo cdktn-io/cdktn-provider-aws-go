@@ -107,7 +107,7 @@ func (j *jsiiProxy_NotificationsOrganizationsAccess) validateSetEnabledParameter
 	return nil
 }
 
-func (j *jsiiProxy_NotificationsOrganizationsAccess) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NotificationsOrganizationsAccess) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

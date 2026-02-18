@@ -5,23 +5,23 @@ package dataawss3accountpublicaccessblock
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawss3accountpublicaccessblock/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawss3accountpublicaccessblock/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/s3_account_public_access_block aws_s3_account_public_access_block}.
 type DataAwsS3AccountPublicAccessBlock interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AccountId() *string
 	SetAccountId(val *string)
 	AccountIdInput() *string
-	BlockPublicAcls() cdktf.IResolvable
-	BlockPublicPolicy() cdktf.IResolvable
+	BlockPublicAcls() cdktn.IResolvable
+	BlockPublicPolicy() cdktn.IResolvable
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -33,9 +33,9 @@ type DataAwsS3AccountPublicAccessBlock interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -43,22 +43,22 @@ type DataAwsS3AccountPublicAccessBlock interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
-	IgnorePublicAcls() cdktf.IResolvable
+	IgnorePublicAcls() cdktn.IResolvable
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
-	RestrictPublicBuckets() cdktf.IResolvable
+	RestrictPublicBuckets() cdktn.IResolvable
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -68,7 +68,7 @@ type DataAwsS3AccountPublicAccessBlock interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -84,7 +84,7 @@ type DataAwsS3AccountPublicAccessBlock interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -109,7 +109,7 @@ type DataAwsS3AccountPublicAccessBlock interface {
 
 // The jsii proxy struct for DataAwsS3AccountPublicAccessBlock
 type jsiiProxy_DataAwsS3AccountPublicAccessBlock struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) AccountId() *string {
@@ -132,8 +132,8 @@ func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) AccountIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) BlockPublicAcls() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) BlockPublicAcls() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"blockPublicAcls",
@@ -142,8 +142,8 @@ func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) BlockPublicAcls() cdktf.IR
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) BlockPublicPolicy() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) BlockPublicPolicy() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"blockPublicPolicy",
@@ -152,8 +152,8 @@ func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) BlockPublicPolicy() cdktf.
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -192,8 +192,8 @@ func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -242,8 +242,8 @@ func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) IgnorePublicAcls() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) IgnorePublicAcls() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"ignorePublicAcls",
@@ -252,8 +252,8 @@ func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) IgnorePublicAcls() cdktf.I
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -272,8 +272,8 @@ func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -292,8 +292,8 @@ func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) RawOverrides() interface{}
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) RestrictPublicBuckets() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) RestrictPublicBuckets() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"restrictPublicBuckets",
@@ -302,8 +302,8 @@ func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) RestrictPublicBuckets() cd
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -392,7 +392,7 @@ func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock)SetDependsOn(val *[]*string
 	)
 }
 
-func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -411,7 +411,7 @@ func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -422,7 +422,7 @@ func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock)SetLifecycle(val *cdktf.Ter
 	)
 }
 
-func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -430,14 +430,14 @@ func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock)SetProvider(val cdktf.Terra
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsS3AccountPublicAccessBlock resource upon running "cdktf plan <stack-name>".
-func DataAwsS3AccountPublicAccessBlock_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsS3AccountPublicAccessBlock resource upon running "cdktn plan <stack-name>".
+func DataAwsS3AccountPublicAccessBlock_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsS3AccountPublicAccessBlock_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsS3AccountPublicAccessBlock.DataAwsS3AccountPublicAccessBlock",
@@ -560,11 +560,11 @@ func (d *jsiiProxy_DataAwsS3AccountPublicAccessBlock) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsS3AccountPublicAccessBlock) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsS3AccountPublicAccessBlock) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -688,11 +688,11 @@ func (d *jsiiProxy_DataAwsS3AccountPublicAccessBlock) GetStringMapAttribute(terr
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsS3AccountPublicAccessBlock) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsS3AccountPublicAccessBlock) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DynamodbGlobalSecondaryIndexKeySchemaList) validateGetParamet
 	return nil
 }
 
-func (d *jsiiProxy_DynamodbGlobalSecondaryIndexKeySchemaList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DynamodbGlobalSecondaryIndexKeySchemaList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DynamodbGlobalSecondaryIndexKeySchemaList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DynamodbGlobalSecondaryIndexKeySchemaList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DynamodbGlobalSecondaryIndexKeySchemaList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DynamodbGlobalSecondaryIndexKeySchemaList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewDynamodbGlobalSecondaryIndexKeySchemaListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDynamodbGlobalSecondaryIndexKeySchemaListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package networkfirewallfirewall
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/networkfirewallfirewall/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/networkfirewallfirewall/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetworkfirewallFirewallAvailabilityZoneMappingOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AvailabilityZoneId() *string
 	SetAvailabilityZoneId(val *string)
 	AvailabilityZoneIdInput() *string
@@ -40,15 +40,15 @@ type NetworkfirewallFirewallAvailabilityZoneMappingOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type NetworkfirewallFirewallAvailabilityZoneMappingOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type NetworkfirewallFirewallAvailabilityZoneMappingOutputReference interface {
 
 // The jsii proxy struct for NetworkfirewallFirewallAvailabilityZoneMappingOutputReference
 type jsiiProxy_NetworkfirewallFirewallAvailabilityZoneMappingOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NetworkfirewallFirewallAvailabilityZoneMappingOutputReference) AvailabilityZoneId() *string {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_NetworkfirewallFirewallAvailabilityZoneMappingOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_NetworkfirewallFirewallAvailabilityZoneMappingOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetworkfirewallFirewallAvailabilityZoneMappingOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_NetworkfirewallFirewallAvailabilityZoneMappingOutputReference
 }
 
 
-func NewNetworkfirewallFirewallAvailabilityZoneMappingOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NetworkfirewallFirewallAvailabilityZoneMappingOutputReference {
+func NewNetworkfirewallFirewallAvailabilityZoneMappingOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NetworkfirewallFirewallAvailabilityZoneMappingOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNetworkfirewallFirewallAvailabilityZoneMappingOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -190,7 +190,7 @@ func NewNetworkfirewallFirewallAvailabilityZoneMappingOutputReference(terraformR
 	return &j
 }
 
-func NewNetworkfirewallFirewallAvailabilityZoneMappingOutputReference_Override(n NetworkfirewallFirewallAvailabilityZoneMappingOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewNetworkfirewallFirewallAvailabilityZoneMappingOutputReference_Override(n NetworkfirewallFirewallAvailabilityZoneMappingOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_NetworkfirewallFirewallAvailabilityZoneMappingOutputReference
 	)
 }
 
-func (j *jsiiProxy_NetworkfirewallFirewallAvailabilityZoneMappingOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetworkfirewallFirewallAvailabilityZoneMappingOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (n *jsiiProxy_NetworkfirewallFirewallAvailabilityZoneMappingOutputReference
 	return returns
 }
 
-func (n *jsiiProxy_NetworkfirewallFirewallAvailabilityZoneMappingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkfirewallFirewallAvailabilityZoneMappingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -423,8 +423,8 @@ func (n *jsiiProxy_NetworkfirewallFirewallAvailabilityZoneMappingOutputReference
 	return returns
 }
 
-func (n *jsiiProxy_NetworkfirewallFirewallAvailabilityZoneMappingOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NetworkfirewallFirewallAvailabilityZoneMappingOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -436,11 +436,11 @@ func (n *jsiiProxy_NetworkfirewallFirewallAvailabilityZoneMappingOutputReference
 	return returns
 }
 
-func (n *jsiiProxy_NetworkfirewallFirewallAvailabilityZoneMappingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkfirewallFirewallAvailabilityZoneMappingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -452,7 +452,7 @@ func (n *jsiiProxy_NetworkfirewallFirewallAvailabilityZoneMappingOutputReference
 	return returns
 }
 
-func (n *jsiiProxy_NetworkfirewallFirewallAvailabilityZoneMappingOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetworkfirewallFirewallAvailabilityZoneMappingOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

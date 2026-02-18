@@ -5,14 +5,14 @@ package backuplogicallyairgappedvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/backuplogicallyairgappedvault/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/backuplogicallyairgappedvault/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BackupLogicallyAirGappedVaultTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type BackupLogicallyAirGappedVaultTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type BackupLogicallyAirGappedVaultTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type BackupLogicallyAirGappedVaultTimeoutsOutputReference interface {
 
 // The jsii proxy struct for BackupLogicallyAirGappedVaultTimeoutsOutputReference
 type jsiiProxy_BackupLogicallyAirGappedVaultTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BackupLogicallyAirGappedVaultTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_BackupLogicallyAirGappedVaultTimeoutsOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_BackupLogicallyAirGappedVaultTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BackupLogicallyAirGappedVaultTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_BackupLogicallyAirGappedVaultTimeoutsOutputReference) Terrafo
 }
 
 
-func NewBackupLogicallyAirGappedVaultTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BackupLogicallyAirGappedVaultTimeoutsOutputReference {
+func NewBackupLogicallyAirGappedVaultTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BackupLogicallyAirGappedVaultTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBackupLogicallyAirGappedVaultTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewBackupLogicallyAirGappedVaultTimeoutsOutputReference(terraformResource c
 	return &j
 }
 
-func NewBackupLogicallyAirGappedVaultTimeoutsOutputReference_Override(b BackupLogicallyAirGappedVaultTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBackupLogicallyAirGappedVaultTimeoutsOutputReference_Override(b BackupLogicallyAirGappedVaultTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_BackupLogicallyAirGappedVaultTimeoutsOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_BackupLogicallyAirGappedVaultTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BackupLogicallyAirGappedVaultTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (b *jsiiProxy_BackupLogicallyAirGappedVaultTimeoutsOutputReference) GetAnyM
 	return returns
 }
 
-func (b *jsiiProxy_BackupLogicallyAirGappedVaultTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BackupLogicallyAirGappedVaultTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -424,8 +424,8 @@ func (b *jsiiProxy_BackupLogicallyAirGappedVaultTimeoutsOutputReference) GetStri
 	return returns
 }
 
-func (b *jsiiProxy_BackupLogicallyAirGappedVaultTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BackupLogicallyAirGappedVaultTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -437,11 +437,11 @@ func (b *jsiiProxy_BackupLogicallyAirGappedVaultTimeoutsOutputReference) Interpo
 	return returns
 }
 
-func (b *jsiiProxy_BackupLogicallyAirGappedVaultTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BackupLogicallyAirGappedVaultTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -461,7 +461,7 @@ func (b *jsiiProxy_BackupLogicallyAirGappedVaultTimeoutsOutputReference) ResetCr
 	)
 }
 
-func (b *jsiiProxy_BackupLogicallyAirGappedVaultTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BackupLogicallyAirGappedVaultTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

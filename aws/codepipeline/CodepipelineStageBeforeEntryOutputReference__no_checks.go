@@ -51,7 +51,7 @@ func (c *jsiiProxy_CodepipelineStageBeforeEntryOutputReference) validatePutCondi
 	return nil
 }
 
-func (c *jsiiProxy_CodepipelineStageBeforeEntryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodepipelineStageBeforeEntryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CodepipelineStageBeforeEntryOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_CodepipelineStageBeforeEntryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodepipelineStageBeforeEntryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCodepipelineStageBeforeEntryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCodepipelineStageBeforeEntryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

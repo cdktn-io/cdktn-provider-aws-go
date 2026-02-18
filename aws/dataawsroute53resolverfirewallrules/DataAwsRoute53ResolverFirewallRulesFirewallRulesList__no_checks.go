@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsRoute53ResolverFirewallRulesFirewallRulesList) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsRoute53ResolverFirewallRulesFirewallRulesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsRoute53ResolverFirewallRulesFirewallRulesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRulesFirewallRulesList) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRulesFirewallRulesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRulesFirewallRulesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRulesFirewallRulesList) validat
 	return nil
 }
 
-func validateNewDataAwsRoute53ResolverFirewallRulesFirewallRulesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsRoute53ResolverFirewallRulesFirewallRulesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

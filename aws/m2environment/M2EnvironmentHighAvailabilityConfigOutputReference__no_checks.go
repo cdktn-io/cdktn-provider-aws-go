@@ -47,7 +47,7 @@ func (m *jsiiProxy_M2EnvironmentHighAvailabilityConfigOutputReference) validateI
 	return nil
 }
 
-func (m *jsiiProxy_M2EnvironmentHighAvailabilityConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_M2EnvironmentHighAvailabilityConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_M2EnvironmentHighAvailabilityConfigOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_M2EnvironmentHighAvailabilityConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_M2EnvironmentHighAvailabilityConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewM2EnvironmentHighAvailabilityConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewM2EnvironmentHighAvailabilityConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

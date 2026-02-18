@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeoptimizerRecommendationPreferencesExternalMetricsPrefe
 	return nil
 }
 
-func (c *jsiiProxy_ComputeoptimizerRecommendationPreferencesExternalMetricsPreferenceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeoptimizerRecommendationPreferencesExternalMetricsPreferenceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComputeoptimizerRecommendationPreferencesExternalMetricsPrefe
 	return nil
 }
 
-func (j *jsiiProxy_ComputeoptimizerRecommendationPreferencesExternalMetricsPreferenceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeoptimizerRecommendationPreferencesExternalMetricsPreferenceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeoptimizerRecommendationPreferencesExternalMetricsPreferenceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeoptimizerRecommendationPreferencesExternalMetricsPreferenceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

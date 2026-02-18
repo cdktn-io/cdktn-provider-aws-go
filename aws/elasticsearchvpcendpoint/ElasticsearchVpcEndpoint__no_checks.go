@@ -115,7 +115,7 @@ func (j *jsiiProxy_ElasticsearchVpcEndpoint) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_ElasticsearchVpcEndpoint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ElasticsearchVpcEndpoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

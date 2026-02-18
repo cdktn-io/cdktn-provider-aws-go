@@ -107,7 +107,7 @@ func (j *jsiiProxy_LakeformationIdentityCenterConfiguration) validateSetInstance
 	return nil
 }
 
-func (j *jsiiProxy_LakeformationIdentityCenterConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LakeformationIdentityCenterConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

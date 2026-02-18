@@ -15,7 +15,7 @@ func (g *jsiiProxy_GlueTriggerEventBatchingConditionList) validateGetParameters(
 	return nil
 }
 
-func (g *jsiiProxy_GlueTriggerEventBatchingConditionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueTriggerEventBatchingConditionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GlueTriggerEventBatchingConditionList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_GlueTriggerEventBatchingConditionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueTriggerEventBatchingConditionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GlueTriggerEventBatchingConditionList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewGlueTriggerEventBatchingConditionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGlueTriggerEventBatchingConditionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudcontrolapiResourceTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (c *jsiiProxy_CloudcontrolapiResourceTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudcontrolapiResourceTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_CloudcontrolapiResourceTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_CloudcontrolapiResourceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudcontrolapiResourceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_CloudcontrolapiResourceTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewCloudcontrolapiResourceTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudcontrolapiResourceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

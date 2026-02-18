@@ -131,7 +131,7 @@ func (j *jsiiProxy_GameliftGameServerGroup) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_GameliftGameServerGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GameliftGameServerGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

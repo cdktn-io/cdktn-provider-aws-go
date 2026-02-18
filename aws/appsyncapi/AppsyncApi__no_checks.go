@@ -103,7 +103,7 @@ func (j *jsiiProxy_AppsyncApi) validateSetCountParameters(val interface{}) error
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncApi) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppsyncApi) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

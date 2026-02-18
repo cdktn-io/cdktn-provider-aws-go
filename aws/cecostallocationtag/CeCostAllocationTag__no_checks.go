@@ -103,7 +103,7 @@ func (j *jsiiProxy_CeCostAllocationTag) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_CeCostAllocationTag) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CeCostAllocationTag) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

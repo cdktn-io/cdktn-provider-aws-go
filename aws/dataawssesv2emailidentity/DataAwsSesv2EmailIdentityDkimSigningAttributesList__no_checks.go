@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsSesv2EmailIdentityDkimSigningAttributesList) validateG
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsSesv2EmailIdentityDkimSigningAttributesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsSesv2EmailIdentityDkimSigningAttributesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsSesv2EmailIdentityDkimSigningAttributesList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSesv2EmailIdentityDkimSigningAttributesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsSesv2EmailIdentityDkimSigningAttributesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsSesv2EmailIdentityDkimSigningAttributesList) validateS
 	return nil
 }
 
-func validateNewDataAwsSesv2EmailIdentityDkimSigningAttributesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsSesv2EmailIdentityDkimSigningAttributesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

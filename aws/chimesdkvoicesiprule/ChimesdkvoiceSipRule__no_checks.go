@@ -111,7 +111,7 @@ func (j *jsiiProxy_ChimesdkvoiceSipRule) validateSetIdParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_ChimesdkvoiceSipRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ChimesdkvoiceSipRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

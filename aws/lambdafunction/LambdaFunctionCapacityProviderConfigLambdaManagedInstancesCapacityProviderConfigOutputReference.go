@@ -5,14 +5,14 @@ package lambdafunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lambdafunction/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lambdafunction/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CapacityProviderArn() *string
 	SetCapacityProviderArn(val *string)
 	CapacityProviderArnInput() *string
@@ -46,15 +46,15 @@ type LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderC
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,14 +70,14 @@ type LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderC
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetExecutionEnvironmentMemoryGibPerVcpu()
 	ResetPerExecutionEnvironmentMaxConcurrency()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderC
 
 // The jsii proxy struct for LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference
 type jsiiProxy_LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference) CapacityProviderArn() *string {
@@ -210,8 +210,8 @@ func (j *jsiiProxy_LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCap
 	return returns
 }
 
-func (j *jsiiProxy_LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCap
 }
 
 
-func NewLambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference {
+func NewLambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -238,7 +238,7 @@ func NewLambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProvid
 	return &j
 }
 
-func NewLambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference_Override(l LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference_Override(l LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -325,7 +325,7 @@ func (j *jsiiProxy_LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCap
 	)
 }
 
-func (j *jsiiProxy_LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -365,11 +365,11 @@ func (l *jsiiProxy_LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCap
 	return returns
 }
 
-func (l *jsiiProxy_LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -493,8 +493,8 @@ func (l *jsiiProxy_LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCap
 	return returns
 }
 
-func (l *jsiiProxy_LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -506,11 +506,11 @@ func (l *jsiiProxy_LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCap
 	return returns
 }
 
-func (l *jsiiProxy_LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -538,7 +538,7 @@ func (l *jsiiProxy_LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCap
 	)
 }
 
-func (l *jsiiProxy_LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -111,7 +111,7 @@ func (j *jsiiProxy_GrafanaWorkspaceApiKey) validateSetKeyRoleParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_GrafanaWorkspaceApiKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GrafanaWorkspaceApiKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (a *jsiiProxy_AthenaWorkgroupConfigurationMonitoringConfigurationManagedLog
 	return nil
 }
 
-func (a *jsiiProxy_AthenaWorkgroupConfigurationMonitoringConfigurationManagedLoggingConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AthenaWorkgroupConfigurationMonitoringConfigurationManagedLoggingConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AthenaWorkgroupConfigurationMonitoringConfigurationManagedLog
 	return nil
 }
 
-func (j *jsiiProxy_AthenaWorkgroupConfigurationMonitoringConfigurationManagedLoggingConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AthenaWorkgroupConfigurationMonitoringConfigurationManagedLoggingConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAthenaWorkgroupConfigurationMonitoringConfigurationManagedLoggingConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAthenaWorkgroupConfigurationMonitoringConfigurationManagedLoggingConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsConnectUserHierarchyStructure) validateSetInstanceIdPa
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsConnectUserHierarchyStructure) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsConnectUserHierarchyStructure) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

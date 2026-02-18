@@ -5,14 +5,14 @@ package apigatewayaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/apigatewayaccount/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/apigatewayaccount/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApiGatewayAccountThrottleSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BurstLimit() *float64
 	// the index of the complex object in a list.
 	// Experimental.
@@ -39,15 +39,15 @@ type ApiGatewayAccountThrottleSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type ApiGatewayAccountThrottleSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type ApiGatewayAccountThrottleSettingsOutputReference interface {
 
 // The jsii proxy struct for ApiGatewayAccountThrottleSettingsOutputReference
 type jsiiProxy_ApiGatewayAccountThrottleSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApiGatewayAccountThrottleSettingsOutputReference) BurstLimit() *float64 {
@@ -161,8 +161,8 @@ func (j *jsiiProxy_ApiGatewayAccountThrottleSettingsOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_ApiGatewayAccountThrottleSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApiGatewayAccountThrottleSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_ApiGatewayAccountThrottleSettingsOutputReference) TerraformRe
 }
 
 
-func NewApiGatewayAccountThrottleSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ApiGatewayAccountThrottleSettingsOutputReference {
+func NewApiGatewayAccountThrottleSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ApiGatewayAccountThrottleSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApiGatewayAccountThrottleSettingsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -189,7 +189,7 @@ func NewApiGatewayAccountThrottleSettingsOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewApiGatewayAccountThrottleSettingsOutputReference_Override(a ApiGatewayAccountThrottleSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewApiGatewayAccountThrottleSettingsOutputReference_Override(a ApiGatewayAccountThrottleSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -243,7 +243,7 @@ func (j *jsiiProxy_ApiGatewayAccountThrottleSettingsOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_ApiGatewayAccountThrottleSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApiGatewayAccountThrottleSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (a *jsiiProxy_ApiGatewayAccountThrottleSettingsOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (a *jsiiProxy_ApiGatewayAccountThrottleSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiGatewayAccountThrottleSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -411,8 +411,8 @@ func (a *jsiiProxy_ApiGatewayAccountThrottleSettingsOutputReference) GetStringMa
 	return returns
 }
 
-func (a *jsiiProxy_ApiGatewayAccountThrottleSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApiGatewayAccountThrottleSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -424,11 +424,11 @@ func (a *jsiiProxy_ApiGatewayAccountThrottleSettingsOutputReference) Interpolati
 	return returns
 }
 
-func (a *jsiiProxy_ApiGatewayAccountThrottleSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiGatewayAccountThrottleSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -440,7 +440,7 @@ func (a *jsiiProxy_ApiGatewayAccountThrottleSettingsOutputReference) Interpolati
 	return returns
 }
 
-func (a *jsiiProxy_ApiGatewayAccountThrottleSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApiGatewayAccountThrottleSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

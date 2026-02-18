@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsRouteTablesFilterOutputReference) validateInterpolatio
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsRouteTablesFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsRouteTablesFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataAwsRouteTablesFilterOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRouteTablesFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsRouteTablesFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsRouteTablesFilterOutputReference) validateSetValuesPar
 	return nil
 }
 
-func validateNewDataAwsRouteTablesFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsRouteTablesFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

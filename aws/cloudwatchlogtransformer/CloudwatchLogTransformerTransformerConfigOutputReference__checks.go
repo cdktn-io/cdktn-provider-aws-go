@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigAddKeys:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigAddKeys)
@@ -117,7 +117,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigAddKeys; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigAddKeys; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigCopyValue:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigCopyValue)
@@ -148,7 +148,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigCopyValue; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigCopyValue; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigCsv:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigCsv)
@@ -179,7 +179,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigCsv; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigCsv; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -191,7 +191,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigDateTimeConverter:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigDateTimeConverter)
@@ -210,7 +210,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigDateTimeConverter; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigDateTimeConverter; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigDeleteKeys:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigDeleteKeys)
@@ -241,7 +241,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigDeleteKeys; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigDeleteKeys; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -253,7 +253,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigGrok:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigGrok)
@@ -272,7 +272,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigGrok; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigGrok; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -284,7 +284,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigListToMap:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigListToMap)
@@ -303,7 +303,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigListToMap; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigListToMap; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -315,7 +315,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigLowerCaseString:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigLowerCaseString)
@@ -334,7 +334,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigLowerCaseString; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigLowerCaseString; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -346,7 +346,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigMoveKeys:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigMoveKeys)
@@ -365,7 +365,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigMoveKeys; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigMoveKeys; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -377,7 +377,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigParseCloudfront:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigParseCloudfront)
@@ -396,7 +396,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigParseCloudfront; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigParseCloudfront; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -408,7 +408,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigParseJson:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigParseJson)
@@ -427,7 +427,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigParseJson; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigParseJson; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -439,7 +439,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigParseKeyValue:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigParseKeyValue)
@@ -458,7 +458,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigParseKeyValue; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigParseKeyValue; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -470,7 +470,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigParsePostgres:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigParsePostgres)
@@ -489,7 +489,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigParsePostgres; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigParsePostgres; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -501,7 +501,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigParseRoute53:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigParseRoute53)
@@ -520,7 +520,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigParseRoute53; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigParseRoute53; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -532,7 +532,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigParseToOcsf:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigParseToOcsf)
@@ -551,7 +551,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigParseToOcsf; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigParseToOcsf; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -563,7 +563,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigParseVpc:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigParseVpc)
@@ -582,7 +582,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigParseVpc; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigParseVpc; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -594,7 +594,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigParseWaf:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigParseWaf)
@@ -613,7 +613,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigParseWaf; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigParseWaf; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -625,7 +625,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigRenameKeys:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigRenameKeys)
@@ -644,7 +644,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigRenameKeys; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigRenameKeys; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -656,7 +656,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigSplitString:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigSplitString)
@@ -675,7 +675,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigSplitString; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigSplitString; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -687,7 +687,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigSubstituteString:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigSubstituteString)
@@ -706,7 +706,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigSubstituteString; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigSubstituteString; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -718,7 +718,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigTrimString:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigTrimString)
@@ -737,7 +737,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigTrimString; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigTrimString; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -749,7 +749,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigTypeConverter:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigTypeConverter)
@@ -768,7 +768,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigTypeConverter; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigTypeConverter; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -780,7 +780,7 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudwatchLogTransformerTransformerConfigUpperCaseString:
 		value := value.(*[]*CloudwatchLogTransformerTransformerConfigUpperCaseString)
@@ -799,14 +799,14 @@ func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigUpperCaseString; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudwatchLogTransformerTransformerConfigUpperCaseString; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -881,7 +881,7 @@ func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 
 func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *CloudwatchLogTransformerTransformerConfig:
 		val := val.(*CloudwatchLogTransformerTransformerConfig)
@@ -896,7 +896,7 @@ func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *CloudwatchLogTransformerTransformerConfig; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *CloudwatchLogTransformerTransformerConfig; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -911,7 +911,7 @@ func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -919,7 +919,7 @@ func (j *jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference) val
 	return nil
 }
 
-func validateNewCloudwatchLogTransformerTransformerConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudwatchLogTransformerTransformerConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

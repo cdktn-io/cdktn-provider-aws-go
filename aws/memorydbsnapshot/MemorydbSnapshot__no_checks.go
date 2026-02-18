@@ -115,7 +115,7 @@ func (j *jsiiProxy_MemorydbSnapshot) validateSetKmsKeyArnParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_MemorydbSnapshot) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MemorydbSnapshot) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

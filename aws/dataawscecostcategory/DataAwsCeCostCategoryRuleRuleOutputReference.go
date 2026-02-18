@@ -5,14 +5,14 @@ package dataawscecostcategory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawscecostcategory/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawscecostcategory/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsCeCostCategoryRuleRuleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	And() DataAwsCeCostCategoryRuleRuleAndList
 	// the index of the complex object in a list.
 	// Experimental.
@@ -43,15 +43,15 @@ type DataAwsCeCostCategoryRuleRuleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type DataAwsCeCostCategoryRuleRuleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type DataAwsCeCostCategoryRuleRuleOutputReference interface {
 
 // The jsii proxy struct for DataAwsCeCostCategoryRuleRuleOutputReference
 type jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference) And() DataAwsCeCostCategoryRuleRuleAndList {
@@ -205,8 +205,8 @@ func (j *jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -216,7 +216,7 @@ func (j *jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference) TerraformResour
 }
 
 
-func NewDataAwsCeCostCategoryRuleRuleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsCeCostCategoryRuleRuleOutputReference {
+func NewDataAwsCeCostCategoryRuleRuleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsCeCostCategoryRuleRuleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsCeCostCategoryRuleRuleOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -233,7 +233,7 @@ func NewDataAwsCeCostCategoryRuleRuleOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewDataAwsCeCostCategoryRuleRuleOutputReference_Override(d DataAwsCeCostCategoryRuleRuleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsCeCostCategoryRuleRuleOutputReference_Override(d DataAwsCeCostCategoryRuleRuleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -287,7 +287,7 @@ func (j *jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -327,11 +327,11 @@ func (d *jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -455,8 +455,8 @@ func (d *jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -468,11 +468,11 @@ func (d *jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference) InterpolationAs
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -484,7 +484,7 @@ func (d *jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference) InterpolationFo
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsCeCostCategoryRuleRuleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

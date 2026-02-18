@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (e *jsiiProxy_EcsTaskSetLoadBalancerOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (e *jsiiProxy_EcsTaskSetLoadBalancerOutputReference) validateInterpolationF
 	return nil
 }
 
-func (e *jsiiProxy_EcsTaskSetLoadBalancerOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsTaskSetLoadBalancerOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_EcsTaskSetLoadBalancerOutputReference) validateSetContainerPo
 
 func (j *jsiiProxy_EcsTaskSetLoadBalancerOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *EcsTaskSetLoadBalancer:
 		val := val.(*EcsTaskSetLoadBalancer)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_EcsTaskSetLoadBalancerOutputReference) validateSetInternalVal
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *EcsTaskSetLoadBalancer; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *EcsTaskSetLoadBalancer; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -230,7 +230,7 @@ func (j *jsiiProxy_EcsTaskSetLoadBalancerOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_EcsTaskSetLoadBalancerOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsTaskSetLoadBalancerOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -238,7 +238,7 @@ func (j *jsiiProxy_EcsTaskSetLoadBalancerOutputReference) validateSetTerraformRe
 	return nil
 }
 
-func validateNewEcsTaskSetLoadBalancerOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEcsTaskSetLoadBalancerOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

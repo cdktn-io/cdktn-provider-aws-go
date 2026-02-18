@@ -15,7 +15,7 @@ func (e *jsiiProxy_Ec2NetworkInsightsAnalysisAlternatePathHintsList) validateGet
 	return nil
 }
 
-func (e *jsiiProxy_Ec2NetworkInsightsAnalysisAlternatePathHintsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_Ec2NetworkInsightsAnalysisAlternatePathHintsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_Ec2NetworkInsightsAnalysisAlternatePathHintsList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_Ec2NetworkInsightsAnalysisAlternatePathHintsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Ec2NetworkInsightsAnalysisAlternatePathHintsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_Ec2NetworkInsightsAnalysisAlternatePathHintsList) validateSet
 	return nil
 }
 
-func validateNewEc2NetworkInsightsAnalysisAlternatePathHintsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEc2NetworkInsightsAnalysisAlternatePathHintsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

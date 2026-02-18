@@ -111,7 +111,7 @@ func (j *jsiiProxy_GuarddutyMemberDetectorFeature) validateSetDetectorIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_GuarddutyMemberDetectorFeature) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GuarddutyMemberDetectorFeature) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

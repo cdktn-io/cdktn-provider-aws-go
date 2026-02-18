@@ -5,14 +5,14 @@ package identitystoreuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/identitystoreuser/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/identitystoreuser/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type IdentitystoreUserExternalIdsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type IdentitystoreUserExternalIdsList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type IdentitystoreUserExternalIdsList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) IdentitystoreUserExternalIdsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type IdentitystoreUserExternalIdsList interface {
 
 // The jsii proxy struct for IdentitystoreUserExternalIdsList
 type jsiiProxy_IdentitystoreUserExternalIdsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_IdentitystoreUserExternalIdsList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_IdentitystoreUserExternalIdsList) TerraformAttribute() *strin
 	return returns
 }
 
-func (j *jsiiProxy_IdentitystoreUserExternalIdsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_IdentitystoreUserExternalIdsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_IdentitystoreUserExternalIdsList) WrapsSet() *bool {
 }
 
 
-func NewIdentitystoreUserExternalIdsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IdentitystoreUserExternalIdsList {
+func NewIdentitystoreUserExternalIdsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IdentitystoreUserExternalIdsList {
 	_init_.Initialize()
 
 	if err := validateNewIdentitystoreUserExternalIdsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewIdentitystoreUserExternalIdsList(terraformResource cdktf.IInterpolatingP
 	return &j
 }
 
-func NewIdentitystoreUserExternalIdsList_Override(i IdentitystoreUserExternalIdsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewIdentitystoreUserExternalIdsList_Override(i IdentitystoreUserExternalIdsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_IdentitystoreUserExternalIdsList)SetTerraformAttribute(val *s
 	)
 }
 
-func (j *jsiiProxy_IdentitystoreUserExternalIdsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_IdentitystoreUserExternalIdsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_IdentitystoreUserExternalIdsList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (i *jsiiProxy_IdentitystoreUserExternalIdsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (i *jsiiProxy_IdentitystoreUserExternalIdsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := i.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		i,
@@ -208,7 +208,7 @@ func (i *jsiiProxy_IdentitystoreUserExternalIdsList) Get(index *float64) Identit
 	return returns
 }
 
-func (i *jsiiProxy_IdentitystoreUserExternalIdsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_IdentitystoreUserExternalIdsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

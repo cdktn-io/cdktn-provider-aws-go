@@ -47,7 +47,7 @@ func (c *jsiiProxy_CodebuildReportGroupExportConfigS3DestinationOutputReference)
 	return nil
 }
 
-func (c *jsiiProxy_CodebuildReportGroupExportConfigS3DestinationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodebuildReportGroupExportConfigS3DestinationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_CodebuildReportGroupExportConfigS3DestinationOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_CodebuildReportGroupExportConfigS3DestinationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodebuildReportGroupExportConfigS3DestinationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCodebuildReportGroupExportConfigS3DestinationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCodebuildReportGroupExportConfigS3DestinationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

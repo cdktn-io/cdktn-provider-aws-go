@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsDynamodbTable) validateSetIdParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDynamodbTable) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsDynamodbTable) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

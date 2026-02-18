@@ -115,7 +115,7 @@ func (j *jsiiProxy_NetworkmanagerDxGatewayAttachment) validateSetEdgeLocationsPa
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerDxGatewayAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkmanagerDxGatewayAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

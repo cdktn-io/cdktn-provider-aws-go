@@ -123,7 +123,7 @@ func (j *jsiiProxy_CustomerGateway) validateSetIpAddressParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_CustomerGateway) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CustomerGateway) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

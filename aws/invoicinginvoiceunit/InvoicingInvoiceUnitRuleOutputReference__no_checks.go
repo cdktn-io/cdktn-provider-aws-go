@@ -47,7 +47,7 @@ func (i *jsiiProxy_InvoicingInvoiceUnitRuleOutputReference) validateInterpolatio
 	return nil
 }
 
-func (i *jsiiProxy_InvoicingInvoiceUnitRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_InvoicingInvoiceUnitRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_InvoicingInvoiceUnitRuleOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_InvoicingInvoiceUnitRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_InvoicingInvoiceUnitRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewInvoicingInvoiceUnitRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewInvoicingInvoiceUnitRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

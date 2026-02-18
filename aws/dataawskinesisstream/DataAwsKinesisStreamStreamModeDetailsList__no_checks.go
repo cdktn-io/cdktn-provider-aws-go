@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsKinesisStreamStreamModeDetailsList) validateGetParamet
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsKinesisStreamStreamModeDetailsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsKinesisStreamStreamModeDetailsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsKinesisStreamStreamModeDetailsList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsKinesisStreamStreamModeDetailsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsKinesisStreamStreamModeDetailsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsKinesisStreamStreamModeDetailsList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewDataAwsKinesisStreamStreamModeDetailsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsKinesisStreamStreamModeDetailsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

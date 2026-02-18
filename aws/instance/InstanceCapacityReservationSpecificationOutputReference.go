@@ -5,14 +5,14 @@ package instance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/instance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/instance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type InstanceCapacityReservationSpecificationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CapacityReservationPreference() *string
 	SetCapacityReservationPreference(val *string)
 	CapacityReservationPreferenceInput() *string
@@ -42,15 +42,15 @@ type InstanceCapacityReservationSpecificationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,15 +66,15 @@ type InstanceCapacityReservationSpecificationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCapacityReservationTarget(value *InstanceCapacityReservationSpecificationCapacityReservationTarget)
 	ResetCapacityReservationPreference()
 	ResetCapacityReservationTarget()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type InstanceCapacityReservationSpecificationOutputReference interface {
 
 // The jsii proxy struct for InstanceCapacityReservationSpecificationOutputReference
 type jsiiProxy_InstanceCapacityReservationSpecificationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_InstanceCapacityReservationSpecificationOutputReference) CapacityReservationPreference() *string {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_InstanceCapacityReservationSpecificationOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_InstanceCapacityReservationSpecificationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_InstanceCapacityReservationSpecificationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_InstanceCapacityReservationSpecificationOutputReference) Terr
 }
 
 
-func NewInstanceCapacityReservationSpecificationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) InstanceCapacityReservationSpecificationOutputReference {
+func NewInstanceCapacityReservationSpecificationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) InstanceCapacityReservationSpecificationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewInstanceCapacityReservationSpecificationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewInstanceCapacityReservationSpecificationOutputReference(terraformResourc
 	return &j
 }
 
-func NewInstanceCapacityReservationSpecificationOutputReference_Override(i InstanceCapacityReservationSpecificationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewInstanceCapacityReservationSpecificationOutputReference_Override(i InstanceCapacityReservationSpecificationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_InstanceCapacityReservationSpecificationOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_InstanceCapacityReservationSpecificationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_InstanceCapacityReservationSpecificationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -320,11 +320,11 @@ func (i *jsiiProxy_InstanceCapacityReservationSpecificationOutputReference) GetA
 	return returns
 }
 
-func (i *jsiiProxy_InstanceCapacityReservationSpecificationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_InstanceCapacityReservationSpecificationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -448,8 +448,8 @@ func (i *jsiiProxy_InstanceCapacityReservationSpecificationOutputReference) GetS
 	return returns
 }
 
-func (i *jsiiProxy_InstanceCapacityReservationSpecificationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_InstanceCapacityReservationSpecificationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -461,11 +461,11 @@ func (i *jsiiProxy_InstanceCapacityReservationSpecificationOutputReference) Inte
 	return returns
 }
 
-func (i *jsiiProxy_InstanceCapacityReservationSpecificationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_InstanceCapacityReservationSpecificationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -504,7 +504,7 @@ func (i *jsiiProxy_InstanceCapacityReservationSpecificationOutputReference) Rese
 	)
 }
 
-func (i *jsiiProxy_InstanceCapacityReservationSpecificationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_InstanceCapacityReservationSpecificationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

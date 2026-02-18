@@ -5,14 +5,14 @@ package dataawsecstaskexecution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsecstaskexecution/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsecstaskexecution/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsEcsTaskExecutionNetworkConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AssignPublicIp() interface{}
 	SetAssignPublicIp(val interface{})
 	AssignPublicIpInput() interface{}
@@ -46,15 +46,15 @@ type DataAwsEcsTaskExecutionNetworkConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,14 +70,14 @@ type DataAwsEcsTaskExecutionNetworkConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAssignPublicIp()
 	ResetSecurityGroups()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type DataAwsEcsTaskExecutionNetworkConfigurationOutputReference interface {
 
 // The jsii proxy struct for DataAwsEcsTaskExecutionNetworkConfigurationOutputReference
 type jsiiProxy_DataAwsEcsTaskExecutionNetworkConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsEcsTaskExecutionNetworkConfigurationOutputReference) AssignPublicIp() interface{} {
@@ -210,8 +210,8 @@ func (j *jsiiProxy_DataAwsEcsTaskExecutionNetworkConfigurationOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEcsTaskExecutionNetworkConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsEcsTaskExecutionNetworkConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_DataAwsEcsTaskExecutionNetworkConfigurationOutputReference) T
 }
 
 
-func NewDataAwsEcsTaskExecutionNetworkConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataAwsEcsTaskExecutionNetworkConfigurationOutputReference {
+func NewDataAwsEcsTaskExecutionNetworkConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataAwsEcsTaskExecutionNetworkConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsEcsTaskExecutionNetworkConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -238,7 +238,7 @@ func NewDataAwsEcsTaskExecutionNetworkConfigurationOutputReference(terraformReso
 	return &j
 }
 
-func NewDataAwsEcsTaskExecutionNetworkConfigurationOutputReference_Override(d DataAwsEcsTaskExecutionNetworkConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataAwsEcsTaskExecutionNetworkConfigurationOutputReference_Override(d DataAwsEcsTaskExecutionNetworkConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -325,7 +325,7 @@ func (j *jsiiProxy_DataAwsEcsTaskExecutionNetworkConfigurationOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_DataAwsEcsTaskExecutionNetworkConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsEcsTaskExecutionNetworkConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -365,11 +365,11 @@ func (d *jsiiProxy_DataAwsEcsTaskExecutionNetworkConfigurationOutputReference) G
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEcsTaskExecutionNetworkConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEcsTaskExecutionNetworkConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -493,8 +493,8 @@ func (d *jsiiProxy_DataAwsEcsTaskExecutionNetworkConfigurationOutputReference) G
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEcsTaskExecutionNetworkConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsEcsTaskExecutionNetworkConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -506,11 +506,11 @@ func (d *jsiiProxy_DataAwsEcsTaskExecutionNetworkConfigurationOutputReference) I
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEcsTaskExecutionNetworkConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEcsTaskExecutionNetworkConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -538,7 +538,7 @@ func (d *jsiiProxy_DataAwsEcsTaskExecutionNetworkConfigurationOutputReference) R
 	)
 }
 
-func (d *jsiiProxy_DataAwsEcsTaskExecutionNetworkConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsEcsTaskExecutionNetworkConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

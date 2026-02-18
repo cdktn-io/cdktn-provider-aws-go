@@ -103,7 +103,7 @@ func (j *jsiiProxy_VpclatticeServiceNetworkResourceAssociation) validateSetCount
 	return nil
 }
 
-func (j *jsiiProxy_VpclatticeServiceNetworkResourceAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VpclatticeServiceNetworkResourceAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

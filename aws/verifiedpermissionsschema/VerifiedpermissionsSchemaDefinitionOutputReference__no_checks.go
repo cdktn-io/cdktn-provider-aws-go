@@ -47,7 +47,7 @@ func (v *jsiiProxy_VerifiedpermissionsSchemaDefinitionOutputReference) validateI
 	return nil
 }
 
-func (v *jsiiProxy_VerifiedpermissionsSchemaDefinitionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VerifiedpermissionsSchemaDefinitionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_VerifiedpermissionsSchemaDefinitionOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_VerifiedpermissionsSchemaDefinitionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VerifiedpermissionsSchemaDefinitionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_VerifiedpermissionsSchemaDefinitionOutputReference) validateS
 	return nil
 }
 
-func validateNewVerifiedpermissionsSchemaDefinitionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVerifiedpermissionsSchemaDefinitionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

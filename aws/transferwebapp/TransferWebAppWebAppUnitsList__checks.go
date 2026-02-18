@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (t *jsiiProxy_TransferWebAppWebAppUnitsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (t *jsiiProxy_TransferWebAppWebAppUnitsList) validateGetParameters(index *f
 	return nil
 }
 
-func (t *jsiiProxy_TransferWebAppWebAppUnitsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TransferWebAppWebAppUnitsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (t *jsiiProxy_TransferWebAppWebAppUnitsList) validateResolveParameters(cont
 
 func (j *jsiiProxy_TransferWebAppWebAppUnitsList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*TransferWebAppWebAppUnits:
 		val := val.(*[]*TransferWebAppWebAppUnits)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_TransferWebAppWebAppUnitsList) validateSetInternalValueParame
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*TransferWebAppWebAppUnits; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*TransferWebAppWebAppUnits; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_TransferWebAppWebAppUnitsList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_TransferWebAppWebAppUnitsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TransferWebAppWebAppUnitsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_TransferWebAppWebAppUnitsList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewTransferWebAppWebAppUnitsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewTransferWebAppWebAppUnitsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -5,14 +5,14 @@ package connectuserhierarchystructure
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/connectuserhierarchystructure/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/connectuserhierarchystructure/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Arn() *string
 	// the index of the complex object in a list.
 	// Experimental.
@@ -42,15 +42,15 @@ type ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference in
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,12 +66,12 @@ type ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference in
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -81,7 +81,7 @@ type ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference in
 
 // The jsii proxy struct for ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference
 type jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference) Arn() *string {
@@ -184,8 +184,8 @@ func (j *jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutp
 	return returns
 }
 
-func (j *jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -195,7 +195,7 @@ func (j *jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutp
 }
 
 
-func NewConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference {
+func NewConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -212,7 +212,7 @@ func NewConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference
 	return &j
 }
 
-func NewConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference_Override(c ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference_Override(c ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -277,7 +277,7 @@ func (j *jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutp
 	)
 }
 
-func (j *jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -317,11 +317,11 @@ func (c *jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutp
 	return returns
 }
 
-func (c *jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -445,8 +445,8 @@ func (c *jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutp
 	return returns
 }
 
-func (c *jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -458,11 +458,11 @@ func (c *jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutp
 	return returns
 }
 
-func (c *jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -474,7 +474,7 @@ func (c *jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutp
 	return returns
 }
 
-func (c *jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

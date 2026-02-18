@@ -47,7 +47,7 @@ func (c *jsiiProxy_ConfigRemediationConfigurationExecutionControlsSsmControlsOut
 	return nil
 }
 
-func (c *jsiiProxy_ConfigRemediationConfigurationExecutionControlsSsmControlsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConfigRemediationConfigurationExecutionControlsSsmControlsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ConfigRemediationConfigurationExecutionControlsSsmControlsOut
 	return nil
 }
 
-func (j *jsiiProxy_ConfigRemediationConfigurationExecutionControlsSsmControlsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConfigRemediationConfigurationExecutionControlsSsmControlsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewConfigRemediationConfigurationExecutionControlsSsmControlsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewConfigRemediationConfigurationExecutionControlsSsmControlsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

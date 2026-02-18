@@ -111,7 +111,7 @@ func (j *jsiiProxy_Wafv2RegexPatternSet) validateSetIdParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_Wafv2RegexPatternSet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Wafv2RegexPatternSet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,16 +5,16 @@ package ssmassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ssmassociation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ssmassociation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/ssm_association aws_ssm_association}.
 type SsmAssociation interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApplyOnlyAtCronInterval() interface{}
 	SetApplyOnlyAtCronInterval(val interface{})
 	ApplyOnlyAtCronIntervalInput() interface{}
@@ -30,7 +30,7 @@ type SsmAssociation interface {
 	SetCalendarNames(val *[]*string)
 	CalendarNamesInput() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ComplianceSeverity() *string
 	SetComplianceSeverity(val *string)
 	ComplianceSeverityInput() *string
@@ -52,9 +52,9 @@ type SsmAssociation interface {
 	SetDocumentVersion(val *string)
 	DocumentVersionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -63,9 +63,9 @@ type SsmAssociation interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MaxConcurrency() *string
 	SetMaxConcurrency(val *string)
 	MaxConcurrencyInput() *string
@@ -83,9 +83,9 @@ type SsmAssociation interface {
 	SetParameters(val *map[string]*string)
 	ParametersInput() *map[string]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -110,7 +110,7 @@ type SsmAssociation interface {
 	Targets() SsmAssociationTargetsList
 	TargetsInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -126,7 +126,7 @@ type SsmAssociation interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -144,9 +144,9 @@ type SsmAssociation interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -199,7 +199,7 @@ type SsmAssociation interface {
 
 // The jsii proxy struct for SsmAssociation
 type jsiiProxy_SsmAssociation struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_SsmAssociation) ApplyOnlyAtCronInterval() interface{} {
@@ -302,8 +302,8 @@ func (j *jsiiProxy_SsmAssociation) CalendarNamesInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_SsmAssociation) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_SsmAssociation) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -392,8 +392,8 @@ func (j *jsiiProxy_SsmAssociation) DocumentVersionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SsmAssociation) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_SsmAssociation) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -442,8 +442,8 @@ func (j *jsiiProxy_SsmAssociation) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SsmAssociation) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_SsmAssociation) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -562,8 +562,8 @@ func (j *jsiiProxy_SsmAssociation) ParametersInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_SsmAssociation) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_SsmAssociation) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -712,8 +712,8 @@ func (j *jsiiProxy_SsmAssociation) TargetsInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_SsmAssociation) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_SsmAssociation) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -888,7 +888,7 @@ func (j *jsiiProxy_SsmAssociation)SetDocumentVersion(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SsmAssociation)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_SsmAssociation)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -907,7 +907,7 @@ func (j *jsiiProxy_SsmAssociation)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SsmAssociation)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_SsmAssociation)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -962,7 +962,7 @@ func (j *jsiiProxy_SsmAssociation)SetParameters(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_SsmAssociation)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_SsmAssociation)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1047,14 +1047,14 @@ func (j *jsiiProxy_SsmAssociation)SetWaitForSuccessTimeoutSeconds(val *float64) 
 	)
 }
 
-// Generates CDKTF code for importing a SsmAssociation resource upon running "cdktf plan <stack-name>".
-func SsmAssociation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a SsmAssociation resource upon running "cdktn plan <stack-name>".
+func SsmAssociation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateSsmAssociation_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.ssmAssociation.SsmAssociation",
@@ -1188,11 +1188,11 @@ func (s *jsiiProxy_SsmAssociation) GetAnyMapAttribute(terraformAttribute *string
 	return returns
 }
 
-func (s *jsiiProxy_SsmAssociation) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SsmAssociation) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -1329,7 +1329,7 @@ func (s *jsiiProxy_SsmAssociation) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_SsmAssociation) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_SsmAssociation) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1340,11 +1340,11 @@ func (s *jsiiProxy_SsmAssociation) ImportFrom(id *string, provider cdktf.Terrafo
 	)
 }
 
-func (s *jsiiProxy_SsmAssociation) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SsmAssociation) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

@@ -15,7 +15,7 @@ func (r *jsiiProxy_Route53DomainsDomainAdminContactExtraParamList) validateGetPa
 	return nil
 }
 
-func (r *jsiiProxy_Route53DomainsDomainAdminContactExtraParamList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_Route53DomainsDomainAdminContactExtraParamList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Route53DomainsDomainAdminContactExtraParamList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_Route53DomainsDomainAdminContactExtraParamList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Route53DomainsDomainAdminContactExtraParamList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Route53DomainsDomainAdminContactExtraParamList) validateSetWr
 	return nil
 }
 
-func validateNewRoute53DomainsDomainAdminContactExtraParamListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRoute53DomainsDomainAdminContactExtraParamListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

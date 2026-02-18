@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsBatchJobDefinitionRetryStrategyEvaluateOnExitOutputRef
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsBatchJobDefinitionRetryStrategyEvaluateOnExitOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsBatchJobDefinitionRetryStrategyEvaluateOnExitOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsBatchJobDefinitionRetryStrategyEvaluateOnExitOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsBatchJobDefinitionRetryStrategyEvaluateOnExitOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsBatchJobDefinitionRetryStrategyEvaluateOnExitOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsBatchJobDefinitionRetryStrategyEvaluateOnExitOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsBatchJobDefinitionRetryStrategyEvaluateOnExitOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

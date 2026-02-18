@@ -5,14 +5,14 @@ package defaultsecuritygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/defaultsecuritygroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/defaultsecuritygroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DefaultSecurityGroupEgressOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CidrBlocks() *[]*string
 	SetCidrBlocks(val *[]*string)
 	CidrBlocksInput() *[]*string
@@ -61,9 +61,9 @@ type DefaultSecurityGroupEgressOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	ToPort() *float64
 	SetToPort(val *float64)
 	ToPortInput() *float64
@@ -72,7 +72,7 @@ type DefaultSecurityGroupEgressOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -88,9 +88,9 @@ type DefaultSecurityGroupEgressOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCidrBlocks()
 	ResetDescription()
 	ResetFromPort()
@@ -102,7 +102,7 @@ type DefaultSecurityGroupEgressOutputReference interface {
 	ResetToPort()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -112,7 +112,7 @@ type DefaultSecurityGroupEgressOutputReference interface {
 
 // The jsii proxy struct for DefaultSecurityGroupEgressOutputReference
 type jsiiProxy_DefaultSecurityGroupEgressOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DefaultSecurityGroupEgressOutputReference) CidrBlocks() *[]*string {
@@ -335,8 +335,8 @@ func (j *jsiiProxy_DefaultSecurityGroupEgressOutputReference) TerraformAttribute
 	return returns
 }
 
-func (j *jsiiProxy_DefaultSecurityGroupEgressOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DefaultSecurityGroupEgressOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -366,7 +366,7 @@ func (j *jsiiProxy_DefaultSecurityGroupEgressOutputReference) ToPortInput() *flo
 }
 
 
-func NewDefaultSecurityGroupEgressOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DefaultSecurityGroupEgressOutputReference {
+func NewDefaultSecurityGroupEgressOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DefaultSecurityGroupEgressOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDefaultSecurityGroupEgressOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -383,7 +383,7 @@ func NewDefaultSecurityGroupEgressOutputReference(terraformResource cdktf.IInter
 	return &j
 }
 
-func NewDefaultSecurityGroupEgressOutputReference_Override(d DefaultSecurityGroupEgressOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDefaultSecurityGroupEgressOutputReference_Override(d DefaultSecurityGroupEgressOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -525,7 +525,7 @@ func (j *jsiiProxy_DefaultSecurityGroupEgressOutputReference)SetTerraformAttribu
 	)
 }
 
-func (j *jsiiProxy_DefaultSecurityGroupEgressOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DefaultSecurityGroupEgressOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -576,11 +576,11 @@ func (d *jsiiProxy_DefaultSecurityGroupEgressOutputReference) GetAnyMapAttribute
 	return returns
 }
 
-func (d *jsiiProxy_DefaultSecurityGroupEgressOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DefaultSecurityGroupEgressOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -704,8 +704,8 @@ func (d *jsiiProxy_DefaultSecurityGroupEgressOutputReference) GetStringMapAttrib
 	return returns
 }
 
-func (d *jsiiProxy_DefaultSecurityGroupEgressOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DefaultSecurityGroupEgressOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -717,11 +717,11 @@ func (d *jsiiProxy_DefaultSecurityGroupEgressOutputReference) InterpolationAsLis
 	return returns
 }
 
-func (d *jsiiProxy_DefaultSecurityGroupEgressOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DefaultSecurityGroupEgressOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -805,7 +805,7 @@ func (d *jsiiProxy_DefaultSecurityGroupEgressOutputReference) ResetToPort() {
 	)
 }
 
-func (d *jsiiProxy_DefaultSecurityGroupEgressOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DefaultSecurityGroupEgressOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

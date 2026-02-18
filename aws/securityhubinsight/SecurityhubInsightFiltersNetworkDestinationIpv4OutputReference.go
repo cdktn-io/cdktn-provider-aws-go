@@ -5,14 +5,14 @@ package securityhubinsight
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/securityhubinsight/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/securityhubinsight/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Cidr() *string
 	SetCidr(val *string)
 	CidrInput() *string
@@ -40,15 +40,15 @@ type SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference interface {
 
 // The jsii proxy struct for SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference
 type jsiiProxy_SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference) Cidr() *string {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_SecurityhubInsightFiltersNetworkDestinationIpv4OutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_SecurityhubInsightFiltersNetworkDestinationIpv4OutputReferenc
 }
 
 
-func NewSecurityhubInsightFiltersNetworkDestinationIpv4OutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference {
+func NewSecurityhubInsightFiltersNetworkDestinationIpv4OutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSecurityhubInsightFiltersNetworkDestinationIpv4OutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -190,7 +190,7 @@ func NewSecurityhubInsightFiltersNetworkDestinationIpv4OutputReference(terraform
 	return &j
 }
 
-func NewSecurityhubInsightFiltersNetworkDestinationIpv4OutputReference_Override(s SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSecurityhubInsightFiltersNetworkDestinationIpv4OutputReference_Override(s SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_SecurityhubInsightFiltersNetworkDestinationIpv4OutputReferenc
 	)
 }
 
-func (j *jsiiProxy_SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (s *jsiiProxy_SecurityhubInsightFiltersNetworkDestinationIpv4OutputReferenc
 	return returns
 }
 
-func (s *jsiiProxy_SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -423,8 +423,8 @@ func (s *jsiiProxy_SecurityhubInsightFiltersNetworkDestinationIpv4OutputReferenc
 	return returns
 }
 
-func (s *jsiiProxy_SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -436,11 +436,11 @@ func (s *jsiiProxy_SecurityhubInsightFiltersNetworkDestinationIpv4OutputReferenc
 	return returns
 }
 
-func (s *jsiiProxy_SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -452,7 +452,7 @@ func (s *jsiiProxy_SecurityhubInsightFiltersNetworkDestinationIpv4OutputReferenc
 	return returns
 }
 
-func (s *jsiiProxy_SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

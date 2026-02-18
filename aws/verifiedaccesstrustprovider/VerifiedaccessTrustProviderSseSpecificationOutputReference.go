@@ -5,14 +5,14 @@ package verifiedaccesstrustprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/verifiedaccesstrustprovider/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/verifiedaccesstrustprovider/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VerifiedaccessTrustProviderSseSpecificationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type VerifiedaccessTrustProviderSseSpecificationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type VerifiedaccessTrustProviderSseSpecificationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCustomerManagedKeyEnabled()
 	ResetKmsKeyArn()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type VerifiedaccessTrustProviderSseSpecificationOutputReference interface {
 
 // The jsii proxy struct for VerifiedaccessTrustProviderSseSpecificationOutputReference
 type jsiiProxy_VerifiedaccessTrustProviderSseSpecificationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VerifiedaccessTrustProviderSseSpecificationOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_VerifiedaccessTrustProviderSseSpecificationOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_VerifiedaccessTrustProviderSseSpecificationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VerifiedaccessTrustProviderSseSpecificationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_VerifiedaccessTrustProviderSseSpecificationOutputReference) T
 }
 
 
-func NewVerifiedaccessTrustProviderSseSpecificationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VerifiedaccessTrustProviderSseSpecificationOutputReference {
+func NewVerifiedaccessTrustProviderSseSpecificationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VerifiedaccessTrustProviderSseSpecificationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVerifiedaccessTrustProviderSseSpecificationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewVerifiedaccessTrustProviderSseSpecificationOutputReference(terraformReso
 	return &j
 }
 
-func NewVerifiedaccessTrustProviderSseSpecificationOutputReference_Override(v VerifiedaccessTrustProviderSseSpecificationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVerifiedaccessTrustProviderSseSpecificationOutputReference_Override(v VerifiedaccessTrustProviderSseSpecificationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_VerifiedaccessTrustProviderSseSpecificationOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_VerifiedaccessTrustProviderSseSpecificationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VerifiedaccessTrustProviderSseSpecificationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (v *jsiiProxy_VerifiedaccessTrustProviderSseSpecificationOutputReference) G
 	return returns
 }
 
-func (v *jsiiProxy_VerifiedaccessTrustProviderSseSpecificationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VerifiedaccessTrustProviderSseSpecificationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -459,8 +459,8 @@ func (v *jsiiProxy_VerifiedaccessTrustProviderSseSpecificationOutputReference) G
 	return returns
 }
 
-func (v *jsiiProxy_VerifiedaccessTrustProviderSseSpecificationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VerifiedaccessTrustProviderSseSpecificationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -472,11 +472,11 @@ func (v *jsiiProxy_VerifiedaccessTrustProviderSseSpecificationOutputReference) I
 	return returns
 }
 
-func (v *jsiiProxy_VerifiedaccessTrustProviderSseSpecificationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VerifiedaccessTrustProviderSseSpecificationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -504,7 +504,7 @@ func (v *jsiiProxy_VerifiedaccessTrustProviderSseSpecificationOutputReference) R
 	)
 }
 
-func (v *jsiiProxy_VerifiedaccessTrustProviderSseSpecificationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VerifiedaccessTrustProviderSseSpecificationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

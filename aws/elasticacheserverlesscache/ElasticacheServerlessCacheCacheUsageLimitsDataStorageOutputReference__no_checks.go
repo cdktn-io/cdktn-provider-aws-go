@@ -47,7 +47,7 @@ func (e *jsiiProxy_ElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputRe
 	return nil
 }
 
-func (e *jsiiProxy_ElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_ElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputRe
 	return nil
 }
 
-func validateNewElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

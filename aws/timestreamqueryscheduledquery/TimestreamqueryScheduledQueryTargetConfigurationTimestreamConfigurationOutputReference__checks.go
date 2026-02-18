@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (t *jsiiProxy_TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (t *jsiiProxy_TimestreamqueryScheduledQueryTargetConfigurationTimestreamCon
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigurationDimensionMapping:
 		value := value.(*[]*TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigurationDimensionMapping)
@@ -117,7 +117,7 @@ func (t *jsiiProxy_TimestreamqueryScheduledQueryTargetConfigurationTimestreamCon
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigurationDimensionMapping; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigurationDimensionMapping; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (t *jsiiProxy_TimestreamqueryScheduledQueryTargetConfigurationTimestreamCon
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMapping:
 		value := value.(*[]*TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMapping)
@@ -148,7 +148,7 @@ func (t *jsiiProxy_TimestreamqueryScheduledQueryTargetConfigurationTimestreamCon
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMapping; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMapping; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (t *jsiiProxy_TimestreamqueryScheduledQueryTargetConfigurationTimestreamCon
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappings:
 		value := value.(*[]*TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappings)
@@ -179,14 +179,14 @@ func (t *jsiiProxy_TimestreamqueryScheduledQueryTargetConfigurationTimestreamCon
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappings; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappings; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (t *jsiiProxy_TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -269,7 +269,7 @@ func (j *jsiiProxy_TimestreamqueryScheduledQueryTargetConfigurationTimestreamCon
 
 func (j *jsiiProxy_TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigurationOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfiguration:
 		val := val.(*TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfiguration)
@@ -284,7 +284,7 @@ func (j *jsiiProxy_TimestreamqueryScheduledQueryTargetConfigurationTimestreamCon
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfiguration; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfiguration; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -315,7 +315,7 @@ func (j *jsiiProxy_TimestreamqueryScheduledQueryTargetConfigurationTimestreamCon
 	return nil
 }
 
-func (j *jsiiProxy_TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -331,7 +331,7 @@ func (j *jsiiProxy_TimestreamqueryScheduledQueryTargetConfigurationTimestreamCon
 	return nil
 }
 
-func validateNewTimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewTimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (o *jsiiProxy_OpensearchDomainPolicyTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchDomainPolicyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchDomainPolicyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_OpensearchDomainPolicyTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchDomainPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchDomainPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_OpensearchDomainPolicyTimeoutsOutputReference) validateSetUpd
 	return nil
 }
 
-func validateNewOpensearchDomainPolicyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOpensearchDomainPolicyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

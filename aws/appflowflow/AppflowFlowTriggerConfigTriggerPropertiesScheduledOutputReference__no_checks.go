@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppflowFlowTriggerConfigTriggerPropertiesScheduledOutputRefer
 	return nil
 }
 
-func (a *jsiiProxy_AppflowFlowTriggerConfigTriggerPropertiesScheduledOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppflowFlowTriggerConfigTriggerPropertiesScheduledOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_AppflowFlowTriggerConfigTriggerPropertiesScheduledOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_AppflowFlowTriggerConfigTriggerPropertiesScheduledOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppflowFlowTriggerConfigTriggerPropertiesScheduledOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_AppflowFlowTriggerConfigTriggerPropertiesScheduledOutputRefer
 	return nil
 }
 
-func validateNewAppflowFlowTriggerConfigTriggerPropertiesScheduledOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppflowFlowTriggerConfigTriggerPropertiesScheduledOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

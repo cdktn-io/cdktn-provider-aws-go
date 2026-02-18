@@ -107,7 +107,7 @@ func (j *jsiiProxy_SchedulerScheduleGroup) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_SchedulerScheduleGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SchedulerScheduleGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

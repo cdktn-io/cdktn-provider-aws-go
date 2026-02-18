@@ -5,14 +5,14 @@ package apigatewayv2authorizer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/apigatewayv2authorizer/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/apigatewayv2authorizer/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Apigatewayv2AuthorizerTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type Apigatewayv2AuthorizerTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type Apigatewayv2AuthorizerTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDelete()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type Apigatewayv2AuthorizerTimeoutsOutputReference interface {
 
 // The jsii proxy struct for Apigatewayv2AuthorizerTimeoutsOutputReference
 type jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) TerraformResou
 }
 
 
-func NewApigatewayv2AuthorizerTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) Apigatewayv2AuthorizerTimeoutsOutputReference {
+func NewApigatewayv2AuthorizerTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) Apigatewayv2AuthorizerTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApigatewayv2AuthorizerTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewApigatewayv2AuthorizerTimeoutsOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewApigatewayv2AuthorizerTimeoutsOutputReference_Override(a Apigatewayv2AuthorizerTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewApigatewayv2AuthorizerTimeoutsOutputReference_Override(a Apigatewayv2AuthorizerTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (a *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (a *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -424,8 +424,8 @@ func (a *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) GetStringMapAt
 	return returns
 }
 
-func (a *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -437,11 +437,11 @@ func (a *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) InterpolationA
 	return returns
 }
 
-func (a *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -461,7 +461,7 @@ func (a *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) ResetDelete() 
 	)
 }
 
-func (a *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

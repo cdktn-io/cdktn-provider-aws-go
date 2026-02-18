@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (e *jsiiProxy_ElasticBeanstalkConfigurationTemplateSettingList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (e *jsiiProxy_ElasticBeanstalkConfigurationTemplateSettingList) validateGet
 	return nil
 }
 
-func (e *jsiiProxy_ElasticBeanstalkConfigurationTemplateSettingList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticBeanstalkConfigurationTemplateSettingList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (e *jsiiProxy_ElasticBeanstalkConfigurationTemplateSettingList) validateRes
 
 func (j *jsiiProxy_ElasticBeanstalkConfigurationTemplateSettingList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ElasticBeanstalkConfigurationTemplateSetting:
 		val := val.(*[]*ElasticBeanstalkConfigurationTemplateSetting)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_ElasticBeanstalkConfigurationTemplateSettingList) validateSet
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*ElasticBeanstalkConfigurationTemplateSetting; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*ElasticBeanstalkConfigurationTemplateSetting; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_ElasticBeanstalkConfigurationTemplateSettingList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ElasticBeanstalkConfigurationTemplateSettingList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticBeanstalkConfigurationTemplateSettingList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_ElasticBeanstalkConfigurationTemplateSettingList) validateSet
 	return nil
 }
 
-func validateNewElasticBeanstalkConfigurationTemplateSettingListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewElasticBeanstalkConfigurationTemplateSettingListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

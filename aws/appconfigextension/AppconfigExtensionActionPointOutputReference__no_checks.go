@@ -51,7 +51,7 @@ func (a *jsiiProxy_AppconfigExtensionActionPointOutputReference) validatePutActi
 	return nil
 }
 
-func (a *jsiiProxy_AppconfigExtensionActionPointOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppconfigExtensionActionPointOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AppconfigExtensionActionPointOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_AppconfigExtensionActionPointOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppconfigExtensionActionPointOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppconfigExtensionActionPointOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppconfigExtensionActionPointOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package elasticsearchdomainsamloptions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/elasticsearchdomainsamloptions/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/elasticsearchdomainsamloptions/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ElasticsearchDomainSamlOptionsTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type ElasticsearchDomainSamlOptionsTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -51,7 +51,7 @@ type ElasticsearchDomainSamlOptionsTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type ElasticsearchDomainSamlOptionsTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type ElasticsearchDomainSamlOptionsTimeoutsOutputReference interface {
 
 // The jsii proxy struct for ElasticsearchDomainSamlOptionsTimeoutsOutputReference
 type jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -167,8 +167,8 @@ func (j *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) Update
 }
 
 
-func NewElasticsearchDomainSamlOptionsTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ElasticsearchDomainSamlOptionsTimeoutsOutputReference {
+func NewElasticsearchDomainSamlOptionsTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ElasticsearchDomainSamlOptionsTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewElasticsearchDomainSamlOptionsTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewElasticsearchDomainSamlOptionsTimeoutsOutputReference(terraformResource 
 	return &j
 }
 
-func NewElasticsearchDomainSamlOptionsTimeoutsOutputReference_Override(e ElasticsearchDomainSamlOptionsTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewElasticsearchDomainSamlOptionsTimeoutsOutputReference_Override(e ElasticsearchDomainSamlOptionsTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (e *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) GetAny
 	return returns
 }
 
-func (e *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -459,8 +459,8 @@ func (e *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) GetStr
 	return returns
 }
 
-func (e *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -472,11 +472,11 @@ func (e *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) Interp
 	return returns
 }
 
-func (e *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -504,7 +504,7 @@ func (e *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) ResetU
 	)
 }
 
-func (e *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_ElasticsearchDomainSamlOptionsTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

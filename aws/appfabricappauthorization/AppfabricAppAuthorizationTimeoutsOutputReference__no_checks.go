@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppfabricAppAuthorizationTimeoutsOutputReference) validateInt
 	return nil
 }
 
-func (a *jsiiProxy_AppfabricAppAuthorizationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppfabricAppAuthorizationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_AppfabricAppAuthorizationTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_AppfabricAppAuthorizationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppfabricAppAuthorizationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_AppfabricAppAuthorizationTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func validateNewAppfabricAppAuthorizationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppfabricAppAuthorizationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

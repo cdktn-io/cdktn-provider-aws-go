@@ -119,7 +119,7 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTarget) validateSetGatewayIdentifierPa
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreGatewayTarget) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BedrockagentcoreGatewayTarget) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,19 +5,19 @@ package glueschema
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/glueschema/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/glueschema/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/glue_schema aws_glue_schema}.
 type GlueSchema interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Compatibility() *string
 	SetCompatibility(val *string)
 	CompatibilityInput() *string
@@ -42,9 +42,9 @@ type GlueSchema interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -54,16 +54,16 @@ type GlueSchema interface {
 	IdInput() *string
 	LatestSchemaVersion() *float64
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	NextSchemaVersion() *float64
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -91,7 +91,7 @@ type GlueSchema interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -104,7 +104,7 @@ type GlueSchema interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -122,9 +122,9 @@ type GlueSchema interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -163,7 +163,7 @@ type GlueSchema interface {
 
 // The jsii proxy struct for GlueSchema
 type jsiiProxy_GlueSchema struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GlueSchema) Arn() *string {
@@ -176,8 +176,8 @@ func (j *jsiiProxy_GlueSchema) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GlueSchema) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GlueSchema) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -286,8 +286,8 @@ func (j *jsiiProxy_GlueSchema) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GlueSchema) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GlueSchema) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -346,8 +346,8 @@ func (j *jsiiProxy_GlueSchema) LatestSchemaVersion() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_GlueSchema) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GlueSchema) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -376,8 +376,8 @@ func (j *jsiiProxy_GlueSchema) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_GlueSchema) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GlueSchema) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -546,8 +546,8 @@ func (j *jsiiProxy_GlueSchema) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_GlueSchema) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GlueSchema) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -669,7 +669,7 @@ func (j *jsiiProxy_GlueSchema)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GlueSchema)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GlueSchema)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -688,7 +688,7 @@ func (j *jsiiProxy_GlueSchema)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GlueSchema)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GlueSchema)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -699,7 +699,7 @@ func (j *jsiiProxy_GlueSchema)SetLifecycle(val *cdktf.TerraformResourceLifecycle
 	)
 }
 
-func (j *jsiiProxy_GlueSchema)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GlueSchema)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -784,14 +784,14 @@ func (j *jsiiProxy_GlueSchema)SetTagsAll(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a GlueSchema resource upon running "cdktf plan <stack-name>".
-func GlueSchema_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GlueSchema resource upon running "cdktn plan <stack-name>".
+func GlueSchema_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGlueSchema_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.glueSchema.GlueSchema",
@@ -925,11 +925,11 @@ func (g *jsiiProxy_GlueSchema) GetAnyMapAttribute(terraformAttribute *string) *m
 	return returns
 }
 
-func (g *jsiiProxy_GlueSchema) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GlueSchema) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1066,7 +1066,7 @@ func (g *jsiiProxy_GlueSchema) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GlueSchema) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GlueSchema) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1077,11 +1077,11 @@ func (g *jsiiProxy_GlueSchema) ImportFrom(id *string, provider cdktf.TerraformPr
 	)
 }
 
-func (g *jsiiProxy_GlueSchema) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GlueSchema) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

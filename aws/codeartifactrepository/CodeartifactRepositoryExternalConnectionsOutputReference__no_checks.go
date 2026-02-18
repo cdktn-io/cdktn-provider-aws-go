@@ -47,7 +47,7 @@ func (c *jsiiProxy_CodeartifactRepositoryExternalConnectionsOutputReference) val
 	return nil
 }
 
-func (c *jsiiProxy_CodeartifactRepositoryExternalConnectionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodeartifactRepositoryExternalConnectionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CodeartifactRepositoryExternalConnectionsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_CodeartifactRepositoryExternalConnectionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodeartifactRepositoryExternalConnectionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCodeartifactRepositoryExternalConnectionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCodeartifactRepositoryExternalConnectionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (t *jsiiProxy_TimestreamqueryScheduledQueryNotificationConfigurationSnsConf
 	return nil
 }
 
-func (t *jsiiProxy_TimestreamqueryScheduledQueryNotificationConfigurationSnsConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TimestreamqueryScheduledQueryNotificationConfigurationSnsConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_TimestreamqueryScheduledQueryNotificationConfigurationSnsConf
 	return nil
 }
 
-func (j *jsiiProxy_TimestreamqueryScheduledQueryNotificationConfigurationSnsConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TimestreamqueryScheduledQueryNotificationConfigurationSnsConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_TimestreamqueryScheduledQueryNotificationConfigurationSnsConf
 	return nil
 }
 
-func validateNewTimestreamqueryScheduledQueryNotificationConfigurationSnsConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewTimestreamqueryScheduledQueryNotificationConfigurationSnsConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

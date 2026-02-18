@@ -107,7 +107,7 @@ func (j *jsiiProxy_QuicksightUserCustomPermission) validateSetCustomPermissionsN
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightUserCustomPermission) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_QuicksightUserCustomPermission) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

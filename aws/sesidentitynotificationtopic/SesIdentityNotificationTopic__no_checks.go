@@ -111,7 +111,7 @@ func (j *jsiiProxy_SesIdentityNotificationTopic) validateSetIncludeOriginalHeade
 	return nil
 }
 
-func (j *jsiiProxy_SesIdentityNotificationTopic) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SesIdentityNotificationTopic) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

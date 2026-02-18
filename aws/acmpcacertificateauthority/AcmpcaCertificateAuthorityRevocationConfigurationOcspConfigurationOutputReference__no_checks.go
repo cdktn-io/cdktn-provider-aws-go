@@ -47,7 +47,7 @@ func (a *jsiiProxy_AcmpcaCertificateAuthorityRevocationConfigurationOcspConfigur
 	return nil
 }
 
-func (a *jsiiProxy_AcmpcaCertificateAuthorityRevocationConfigurationOcspConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AcmpcaCertificateAuthorityRevocationConfigurationOcspConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AcmpcaCertificateAuthorityRevocationConfigurationOcspConfigur
 	return nil
 }
 
-func (j *jsiiProxy_AcmpcaCertificateAuthorityRevocationConfigurationOcspConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AcmpcaCertificateAuthorityRevocationConfigurationOcspConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAcmpcaCertificateAuthorityRevocationConfigurationOcspConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAcmpcaCertificateAuthorityRevocationConfigurationOcspConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (i *jsiiProxy_ImagebuilderInfrastructureConfigurationPlacementOutputReferen
 	return nil
 }
 
-func (i *jsiiProxy_ImagebuilderInfrastructureConfigurationPlacementOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_ImagebuilderInfrastructureConfigurationPlacementOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_ImagebuilderInfrastructureConfigurationPlacementOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_ImagebuilderInfrastructureConfigurationPlacementOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ImagebuilderInfrastructureConfigurationPlacementOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewImagebuilderInfrastructureConfigurationPlacementOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewImagebuilderInfrastructureConfigurationPlacementOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

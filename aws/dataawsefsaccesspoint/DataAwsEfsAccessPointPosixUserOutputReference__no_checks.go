@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEfsAccessPointPosixUserOutputReference) validateInterp
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEfsAccessPointPosixUserOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEfsAccessPointPosixUserOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsEfsAccessPointPosixUserOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEfsAccessPointPosixUserOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEfsAccessPointPosixUserOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsEfsAccessPointPosixUserOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsEfsAccessPointPosixUserOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

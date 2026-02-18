@@ -47,7 +47,7 @@ func (a *jsiiProxy_AutoscalingTrafficSourceAttachmentTrafficSourceOutputReferenc
 	return nil
 }
 
-func (a *jsiiProxy_AutoscalingTrafficSourceAttachmentTrafficSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutoscalingTrafficSourceAttachmentTrafficSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_AutoscalingTrafficSourceAttachmentTrafficSourceOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_AutoscalingTrafficSourceAttachmentTrafficSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutoscalingTrafficSourceAttachmentTrafficSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AutoscalingTrafficSourceAttachmentTrafficSourceOutputReferenc
 	return nil
 }
 
-func validateNewAutoscalingTrafficSourceAttachmentTrafficSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAutoscalingTrafficSourceAttachmentTrafficSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

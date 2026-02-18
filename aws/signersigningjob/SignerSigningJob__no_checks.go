@@ -115,7 +115,7 @@ func (j *jsiiProxy_SignerSigningJob) validateSetIgnoreSigningJobFailureParameter
 	return nil
 }
 
-func (j *jsiiProxy_SignerSigningJob) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SignerSigningJob) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

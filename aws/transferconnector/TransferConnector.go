@@ -5,16 +5,16 @@ package transferconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/transferconnector/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/transferconnector/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/transfer_connector aws_transfer_connector}.
 type TransferConnector interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccessRole() *string
 	SetAccessRole(val *string)
 	AccessRoleInput() *string
@@ -22,7 +22,7 @@ type TransferConnector interface {
 	As2Config() TransferConnectorAs2ConfigOutputReference
 	As2ConfigInput() *TransferConnectorAs2Config
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -41,9 +41,9 @@ type TransferConnector interface {
 	EgressConfig() TransferConnectorEgressConfigOutputReference
 	EgressConfigInput() *TransferConnectorEgressConfig
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,18 +52,18 @@ type TransferConnector interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LoggingRole() *string
 	SetLoggingRole(val *string)
 	LoggingRoleInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -85,7 +85,7 @@ type TransferConnector interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -103,7 +103,7 @@ type TransferConnector interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -121,9 +121,9 @@ type TransferConnector interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -171,7 +171,7 @@ type TransferConnector interface {
 
 // The jsii proxy struct for TransferConnector
 type jsiiProxy_TransferConnector struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_TransferConnector) AccessRole() *string {
@@ -224,8 +224,8 @@ func (j *jsiiProxy_TransferConnector) As2ConfigInput() *TransferConnectorAs2Conf
 	return returns
 }
 
-func (j *jsiiProxy_TransferConnector) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_TransferConnector) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -304,8 +304,8 @@ func (j *jsiiProxy_TransferConnector) EgressConfigInput() *TransferConnectorEgre
 	return returns
 }
 
-func (j *jsiiProxy_TransferConnector) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_TransferConnector) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -354,8 +354,8 @@ func (j *jsiiProxy_TransferConnector) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_TransferConnector) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_TransferConnector) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -394,8 +394,8 @@ func (j *jsiiProxy_TransferConnector) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_TransferConnector) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_TransferConnector) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -524,8 +524,8 @@ func (j *jsiiProxy_TransferConnector) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_TransferConnector) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_TransferConnector) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -665,7 +665,7 @@ func (j *jsiiProxy_TransferConnector)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_TransferConnector)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_TransferConnector)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -684,7 +684,7 @@ func (j *jsiiProxy_TransferConnector)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_TransferConnector)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_TransferConnector)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -706,7 +706,7 @@ func (j *jsiiProxy_TransferConnector)SetLoggingRole(val *string) {
 	)
 }
 
-func (j *jsiiProxy_TransferConnector)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_TransferConnector)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -780,14 +780,14 @@ func (j *jsiiProxy_TransferConnector)SetUrl(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a TransferConnector resource upon running "cdktf plan <stack-name>".
-func TransferConnector_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a TransferConnector resource upon running "cdktn plan <stack-name>".
+func TransferConnector_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateTransferConnector_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.transferConnector.TransferConnector",
@@ -921,11 +921,11 @@ func (t *jsiiProxy_TransferConnector) GetAnyMapAttribute(terraformAttribute *str
 	return returns
 }
 
-func (t *jsiiProxy_TransferConnector) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TransferConnector) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -1062,7 +1062,7 @@ func (t *jsiiProxy_TransferConnector) HasResourceMove() interface{} {
 	return returns
 }
 
-func (t *jsiiProxy_TransferConnector) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (t *jsiiProxy_TransferConnector) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := t.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1073,11 +1073,11 @@ func (t *jsiiProxy_TransferConnector) ImportFrom(id *string, provider cdktf.Terr
 	)
 }
 
-func (t *jsiiProxy_TransferConnector) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TransferConnector) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,

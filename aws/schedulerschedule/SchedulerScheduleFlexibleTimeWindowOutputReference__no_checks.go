@@ -47,7 +47,7 @@ func (s *jsiiProxy_SchedulerScheduleFlexibleTimeWindowOutputReference) validateI
 	return nil
 }
 
-func (s *jsiiProxy_SchedulerScheduleFlexibleTimeWindowOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SchedulerScheduleFlexibleTimeWindowOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SchedulerScheduleFlexibleTimeWindowOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_SchedulerScheduleFlexibleTimeWindowOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SchedulerScheduleFlexibleTimeWindowOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSchedulerScheduleFlexibleTimeWindowOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSchedulerScheduleFlexibleTimeWindowOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

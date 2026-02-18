@@ -5,14 +5,14 @@ package lblistenerrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lblistenerrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lblistenerrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LbListenerRuleActionJwtValidationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AdditionalClaim() LbListenerRuleActionJwtValidationAdditionalClaimList
 	AdditionalClaimInput() interface{}
 	// the index of the complex object in a list.
@@ -45,15 +45,15 @@ type LbListenerRuleActionJwtValidationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,14 +69,14 @@ type LbListenerRuleActionJwtValidationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAdditionalClaim(value interface{})
 	ResetAdditionalClaim()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type LbListenerRuleActionJwtValidationOutputReference interface {
 
 // The jsii proxy struct for LbListenerRuleActionJwtValidationOutputReference
 type jsiiProxy_LbListenerRuleActionJwtValidationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LbListenerRuleActionJwtValidationOutputReference) AdditionalClaim() LbListenerRuleActionJwtValidationAdditionalClaimList {
@@ -209,8 +209,8 @@ func (j *jsiiProxy_LbListenerRuleActionJwtValidationOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_LbListenerRuleActionJwtValidationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LbListenerRuleActionJwtValidationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_LbListenerRuleActionJwtValidationOutputReference) TerraformRe
 }
 
 
-func NewLbListenerRuleActionJwtValidationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LbListenerRuleActionJwtValidationOutputReference {
+func NewLbListenerRuleActionJwtValidationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LbListenerRuleActionJwtValidationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLbListenerRuleActionJwtValidationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -237,7 +237,7 @@ func NewLbListenerRuleActionJwtValidationOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewLbListenerRuleActionJwtValidationOutputReference_Override(l LbListenerRuleActionJwtValidationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLbListenerRuleActionJwtValidationOutputReference_Override(l LbListenerRuleActionJwtValidationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -313,7 +313,7 @@ func (j *jsiiProxy_LbListenerRuleActionJwtValidationOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_LbListenerRuleActionJwtValidationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LbListenerRuleActionJwtValidationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -353,11 +353,11 @@ func (l *jsiiProxy_LbListenerRuleActionJwtValidationOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (l *jsiiProxy_LbListenerRuleActionJwtValidationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LbListenerRuleActionJwtValidationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -481,8 +481,8 @@ func (l *jsiiProxy_LbListenerRuleActionJwtValidationOutputReference) GetStringMa
 	return returns
 }
 
-func (l *jsiiProxy_LbListenerRuleActionJwtValidationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LbListenerRuleActionJwtValidationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -494,11 +494,11 @@ func (l *jsiiProxy_LbListenerRuleActionJwtValidationOutputReference) Interpolati
 	return returns
 }
 
-func (l *jsiiProxy_LbListenerRuleActionJwtValidationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LbListenerRuleActionJwtValidationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -529,7 +529,7 @@ func (l *jsiiProxy_LbListenerRuleActionJwtValidationOutputReference) ResetAdditi
 	)
 }
 
-func (l *jsiiProxy_LbListenerRuleActionJwtValidationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LbListenerRuleActionJwtValidationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

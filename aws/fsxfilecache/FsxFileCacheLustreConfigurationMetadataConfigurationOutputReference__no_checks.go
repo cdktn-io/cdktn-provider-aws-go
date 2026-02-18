@@ -47,7 +47,7 @@ func (f *jsiiProxy_FsxFileCacheLustreConfigurationMetadataConfigurationOutputRef
 	return nil
 }
 
-func (f *jsiiProxy_FsxFileCacheLustreConfigurationMetadataConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FsxFileCacheLustreConfigurationMetadataConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_FsxFileCacheLustreConfigurationMetadataConfigurationOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_FsxFileCacheLustreConfigurationMetadataConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FsxFileCacheLustreConfigurationMetadataConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFsxFileCacheLustreConfigurationMetadataConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFsxFileCacheLustreConfigurationMetadataConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -107,7 +107,7 @@ func (j *jsiiProxy_Ec2TransitGatewayMulticastDomainAssociation) validateSetIdPar
 	return nil
 }
 
-func (j *jsiiProxy_Ec2TransitGatewayMulticastDomainAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Ec2TransitGatewayMulticastDomainAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

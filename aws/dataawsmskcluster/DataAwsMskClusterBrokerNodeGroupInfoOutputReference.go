@@ -5,14 +5,14 @@ package dataawsmskcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsmskcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsmskcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsMskClusterBrokerNodeGroupInfoOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AzDistribution() *string
 	ClientSubnets() *[]*string
 	// the index of the complex object in a list.
@@ -43,15 +43,15 @@ type DataAwsMskClusterBrokerNodeGroupInfoOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type DataAwsMskClusterBrokerNodeGroupInfoOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type DataAwsMskClusterBrokerNodeGroupInfoOutputReference interface {
 
 // The jsii proxy struct for DataAwsMskClusterBrokerNodeGroupInfoOutputReference
 type jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoOutputReference) AzDistribution() *string {
@@ -205,8 +205,8 @@ func (j *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -216,7 +216,7 @@ func (j *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoOutputReference) Terrafor
 }
 
 
-func NewDataAwsMskClusterBrokerNodeGroupInfoOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsMskClusterBrokerNodeGroupInfoOutputReference {
+func NewDataAwsMskClusterBrokerNodeGroupInfoOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsMskClusterBrokerNodeGroupInfoOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsMskClusterBrokerNodeGroupInfoOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -233,7 +233,7 @@ func NewDataAwsMskClusterBrokerNodeGroupInfoOutputReference(terraformResource cd
 	return &j
 }
 
-func NewDataAwsMskClusterBrokerNodeGroupInfoOutputReference_Override(d DataAwsMskClusterBrokerNodeGroupInfoOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsMskClusterBrokerNodeGroupInfoOutputReference_Override(d DataAwsMskClusterBrokerNodeGroupInfoOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -287,7 +287,7 @@ func (j *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -327,11 +327,11 @@ func (d *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoOutputReference) GetAnyMa
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -455,8 +455,8 @@ func (d *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoOutputReference) GetStrin
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -468,11 +468,11 @@ func (d *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoOutputReference) Interpol
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -484,7 +484,7 @@ func (d *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoOutputReference) Interpol
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

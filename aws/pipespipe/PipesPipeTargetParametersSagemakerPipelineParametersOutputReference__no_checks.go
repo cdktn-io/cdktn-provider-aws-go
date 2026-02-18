@@ -51,7 +51,7 @@ func (p *jsiiProxy_PipesPipeTargetParametersSagemakerPipelineParametersOutputRef
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersSagemakerPipelineParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeTargetParametersSagemakerPipelineParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_PipesPipeTargetParametersSagemakerPipelineParametersOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeTargetParametersSagemakerPipelineParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeTargetParametersSagemakerPipelineParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPipesPipeTargetParametersSagemakerPipelineParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPipesPipeTargetParametersSagemakerPipelineParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

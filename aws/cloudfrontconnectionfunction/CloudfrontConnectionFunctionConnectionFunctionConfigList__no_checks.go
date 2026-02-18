@@ -15,7 +15,7 @@ func (c *jsiiProxy_CloudfrontConnectionFunctionConnectionFunctionConfigList) val
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontConnectionFunctionConnectionFunctionConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontConnectionFunctionConnectionFunctionConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CloudfrontConnectionFunctionConnectionFunctionConfigList) val
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontConnectionFunctionConnectionFunctionConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontConnectionFunctionConnectionFunctionConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CloudfrontConnectionFunctionConnectionFunctionConfigList) val
 	return nil
 }
 
-func validateNewCloudfrontConnectionFunctionConnectionFunctionConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudfrontConnectionFunctionConnectionFunctionConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

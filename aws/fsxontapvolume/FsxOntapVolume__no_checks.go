@@ -135,7 +135,7 @@ func (j *jsiiProxy_FsxOntapVolume) validateSetJunctionPathParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_FsxOntapVolume) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_FsxOntapVolume) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

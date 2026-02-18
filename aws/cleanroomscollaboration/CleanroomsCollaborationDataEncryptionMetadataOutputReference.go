@@ -5,14 +5,14 @@ package cleanroomscollaboration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/cleanroomscollaboration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/cleanroomscollaboration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CleanroomsCollaborationDataEncryptionMetadataOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowClearText() interface{}
 	SetAllowClearText(val interface{})
 	AllowClearTextInput() interface{}
@@ -49,15 +49,15 @@ type CleanroomsCollaborationDataEncryptionMetadataOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,12 +73,12 @@ type CleanroomsCollaborationDataEncryptionMetadataOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type CleanroomsCollaborationDataEncryptionMetadataOutputReference interface {
 
 // The jsii proxy struct for CleanroomsCollaborationDataEncryptionMetadataOutputReference
 type jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference) AllowClearText() interface{} {
@@ -231,8 +231,8 @@ func (j *jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference)
 	return returns
 }
 
-func (j *jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -242,7 +242,7 @@ func (j *jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference)
 }
 
 
-func NewCleanroomsCollaborationDataEncryptionMetadataOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CleanroomsCollaborationDataEncryptionMetadataOutputReference {
+func NewCleanroomsCollaborationDataEncryptionMetadataOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CleanroomsCollaborationDataEncryptionMetadataOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCleanroomsCollaborationDataEncryptionMetadataOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -259,7 +259,7 @@ func NewCleanroomsCollaborationDataEncryptionMetadataOutputReference(terraformRe
 	return &j
 }
 
-func NewCleanroomsCollaborationDataEncryptionMetadataOutputReference_Override(c CleanroomsCollaborationDataEncryptionMetadataOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCleanroomsCollaborationDataEncryptionMetadataOutputReference_Override(c CleanroomsCollaborationDataEncryptionMetadataOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -357,7 +357,7 @@ func (j *jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference)
 	)
 }
 
-func (j *jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -397,11 +397,11 @@ func (c *jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference)
 	return returns
 }
 
-func (c *jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -525,8 +525,8 @@ func (c *jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference)
 	return returns
 }
 
-func (c *jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -538,11 +538,11 @@ func (c *jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference)
 	return returns
 }
 
-func (c *jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -554,7 +554,7 @@ func (c *jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference)
 	return returns
 }
 
-func (c *jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

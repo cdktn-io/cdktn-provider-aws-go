@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsEksAddonVersion) validateSetKubernetesVersionParameter
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEksAddonVersion) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsEksAddonVersion) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsSesActiveReceiptRuleSet) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSesActiveReceiptRuleSet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsSesActiveReceiptRuleSet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

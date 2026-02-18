@@ -111,7 +111,7 @@ func (j *jsiiProxy_LakeformationLfTagExpression) validateSetDescriptionParameter
 	return nil
 }
 
-func (j *jsiiProxy_LakeformationLfTagExpression) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LakeformationLfTagExpression) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

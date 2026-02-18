@@ -5,16 +5,16 @@ package cloudwatchmetricalarm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/cloudwatchmetricalarm/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/cloudwatchmetricalarm/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm}.
 type CloudwatchMetricAlarm interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ActionsEnabled() interface{}
 	SetActionsEnabled(val interface{})
 	ActionsEnabledInput() interface{}
@@ -29,7 +29,7 @@ type CloudwatchMetricAlarm interface {
 	AlarmNameInput() *string
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ComparisonOperator() *string
 	SetComparisonOperator(val *string)
 	ComparisonOperatorInput() *string
@@ -63,9 +63,9 @@ type CloudwatchMetricAlarm interface {
 	SetExtendedStatistic(val *string)
 	ExtendedStatisticInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -77,9 +77,9 @@ type CloudwatchMetricAlarm interface {
 	SetInsufficientDataActions(val *[]*string)
 	InsufficientDataActionsInput() *[]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MetricName() *string
 	SetMetricName(val *string)
 	MetricNameInput() *string
@@ -97,9 +97,9 @@ type CloudwatchMetricAlarm interface {
 	SetPeriod(val *float64)
 	PeriodInput() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -119,7 +119,7 @@ type CloudwatchMetricAlarm interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -144,7 +144,7 @@ type CloudwatchMetricAlarm interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -162,9 +162,9 @@ type CloudwatchMetricAlarm interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -220,7 +220,7 @@ type CloudwatchMetricAlarm interface {
 
 // The jsii proxy struct for CloudwatchMetricAlarm
 type jsiiProxy_CloudwatchMetricAlarm struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_CloudwatchMetricAlarm) ActionsEnabled() interface{} {
@@ -313,8 +313,8 @@ func (j *jsiiProxy_CloudwatchMetricAlarm) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CloudwatchMetricAlarm) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_CloudwatchMetricAlarm) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -483,8 +483,8 @@ func (j *jsiiProxy_CloudwatchMetricAlarm) ExtendedStatisticInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CloudwatchMetricAlarm) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_CloudwatchMetricAlarm) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -553,8 +553,8 @@ func (j *jsiiProxy_CloudwatchMetricAlarm) InsufficientDataActionsInput() *[]*str
 	return returns
 }
 
-func (j *jsiiProxy_CloudwatchMetricAlarm) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_CloudwatchMetricAlarm) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -673,8 +673,8 @@ func (j *jsiiProxy_CloudwatchMetricAlarm) PeriodInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_CloudwatchMetricAlarm) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_CloudwatchMetricAlarm) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -783,8 +783,8 @@ func (j *jsiiProxy_CloudwatchMetricAlarm) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_CloudwatchMetricAlarm) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_CloudwatchMetricAlarm) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1063,7 +1063,7 @@ func (j *jsiiProxy_CloudwatchMetricAlarm)SetExtendedStatistic(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CloudwatchMetricAlarm)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_CloudwatchMetricAlarm)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1093,7 +1093,7 @@ func (j *jsiiProxy_CloudwatchMetricAlarm)SetInsufficientDataActions(val *[]*stri
 	)
 }
 
-func (j *jsiiProxy_CloudwatchMetricAlarm)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_CloudwatchMetricAlarm)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1148,7 +1148,7 @@ func (j *jsiiProxy_CloudwatchMetricAlarm)SetPeriod(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_CloudwatchMetricAlarm)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_CloudwatchMetricAlarm)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1255,14 +1255,14 @@ func (j *jsiiProxy_CloudwatchMetricAlarm)SetUnit(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a CloudwatchMetricAlarm resource upon running "cdktf plan <stack-name>".
-func CloudwatchMetricAlarm_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a CloudwatchMetricAlarm resource upon running "cdktn plan <stack-name>".
+func CloudwatchMetricAlarm_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateCloudwatchMetricAlarm_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarm",
@@ -1396,11 +1396,11 @@ func (c *jsiiProxy_CloudwatchMetricAlarm) GetAnyMapAttribute(terraformAttribute 
 	return returns
 }
 
-func (c *jsiiProxy_CloudwatchMetricAlarm) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudwatchMetricAlarm) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -1537,7 +1537,7 @@ func (c *jsiiProxy_CloudwatchMetricAlarm) HasResourceMove() interface{} {
 	return returns
 }
 
-func (c *jsiiProxy_CloudwatchMetricAlarm) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_CloudwatchMetricAlarm) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1548,11 +1548,11 @@ func (c *jsiiProxy_CloudwatchMetricAlarm) ImportFrom(id *string, provider cdktf.
 	)
 }
 
-func (c *jsiiProxy_CloudwatchMetricAlarm) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudwatchMetricAlarm) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

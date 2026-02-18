@@ -151,7 +151,7 @@ func (j *jsiiProxy_Vpc) validateSetIpv6NetmaskLengthParameters(val *float64) err
 	return nil
 }
 
-func (j *jsiiProxy_Vpc) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Vpc) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

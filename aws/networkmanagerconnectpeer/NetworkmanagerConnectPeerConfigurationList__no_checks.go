@@ -15,7 +15,7 @@ func (n *jsiiProxy_NetworkmanagerConnectPeerConfigurationList) validateGetParame
 	return nil
 }
 
-func (n *jsiiProxy_NetworkmanagerConnectPeerConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkmanagerConnectPeerConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_NetworkmanagerConnectPeerConfigurationList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerConnectPeerConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkmanagerConnectPeerConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_NetworkmanagerConnectPeerConfigurationList) validateSetWrapsS
 	return nil
 }
 
-func validateNewNetworkmanagerConnectPeerConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkmanagerConnectPeerConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

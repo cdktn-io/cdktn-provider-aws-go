@@ -47,7 +47,7 @@ func (m *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputRefere
 	return nil
 }
 
-func (m *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

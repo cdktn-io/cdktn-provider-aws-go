@@ -47,7 +47,7 @@ func (i *jsiiProxy_InstancePrivateDnsNameOptionsOutputReference) validateInterpo
 	return nil
 }
 
-func (i *jsiiProxy_InstancePrivateDnsNameOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_InstancePrivateDnsNameOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_InstancePrivateDnsNameOptionsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_InstancePrivateDnsNameOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_InstancePrivateDnsNameOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewInstancePrivateDnsNameOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewInstancePrivateDnsNameOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

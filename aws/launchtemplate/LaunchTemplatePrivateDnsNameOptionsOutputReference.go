@@ -5,14 +5,14 @@ package launchtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/launchtemplate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/launchtemplate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LaunchTemplatePrivateDnsNameOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type LaunchTemplatePrivateDnsNameOptionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type LaunchTemplatePrivateDnsNameOptionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEnableResourceNameDnsAaaaRecord()
 	ResetEnableResourceNameDnsARecord()
 	ResetHostnameType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type LaunchTemplatePrivateDnsNameOptionsOutputReference interface {
 
 // The jsii proxy struct for LaunchTemplatePrivateDnsNameOptionsOutputReference
 type jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference) Terraform
 }
 
 
-func NewLaunchTemplatePrivateDnsNameOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LaunchTemplatePrivateDnsNameOptionsOutputReference {
+func NewLaunchTemplatePrivateDnsNameOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LaunchTemplatePrivateDnsNameOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLaunchTemplatePrivateDnsNameOptionsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewLaunchTemplatePrivateDnsNameOptionsOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewLaunchTemplatePrivateDnsNameOptionsOutputReference_Override(l LaunchTemplatePrivateDnsNameOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLaunchTemplatePrivateDnsNameOptionsOutputReference_Override(l LaunchTemplatePrivateDnsNameOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (l *jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference) GetAnyMap
 	return returns
 }
 
-func (l *jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -494,8 +494,8 @@ func (l *jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference) GetString
 	return returns
 }
 
-func (l *jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -507,11 +507,11 @@ func (l *jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference) Interpola
 	return returns
 }
 
-func (l *jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -547,7 +547,7 @@ func (l *jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference) ResetHost
 	)
 }
 
-func (l *jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -111,7 +111,7 @@ func (j *jsiiProxy_WorkspaceswebIdentityProvider) validateSetIdentityProviderTyp
 	return nil
 }
 
-func (j *jsiiProxy_WorkspaceswebIdentityProvider) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_WorkspaceswebIdentityProvider) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

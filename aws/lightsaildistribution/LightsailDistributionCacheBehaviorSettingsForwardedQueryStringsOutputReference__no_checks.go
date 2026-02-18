@@ -47,7 +47,7 @@ func (l *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStrin
 	return nil
 }
 
-func (l *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStrin
 	return nil
 }
 
-func (j *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

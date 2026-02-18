@@ -5,14 +5,14 @@ package s3accesspoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/s3accesspoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/s3accesspoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type S3AccessPointPublicAccessBlockConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BlockPublicAcls() interface{}
 	SetBlockPublicAcls(val interface{})
 	BlockPublicAclsInput() interface{}
@@ -49,15 +49,15 @@ type S3AccessPointPublicAccessBlockConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type S3AccessPointPublicAccessBlockConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBlockPublicAcls()
 	ResetBlockPublicPolicy()
 	ResetIgnorePublicAcls()
 	ResetRestrictPublicBuckets()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type S3AccessPointPublicAccessBlockConfigurationOutputReference interface {
 
 // The jsii proxy struct for S3AccessPointPublicAccessBlockConfigurationOutputReference
 type jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference) BlockPublicAcls() interface{} {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference) T
 }
 
 
-func NewS3AccessPointPublicAccessBlockConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) S3AccessPointPublicAccessBlockConfigurationOutputReference {
+func NewS3AccessPointPublicAccessBlockConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) S3AccessPointPublicAccessBlockConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewS3AccessPointPublicAccessBlockConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewS3AccessPointPublicAccessBlockConfigurationOutputReference(terraformReso
 	return &j
 }
 
-func NewS3AccessPointPublicAccessBlockConfigurationOutputReference_Override(s S3AccessPointPublicAccessBlockConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewS3AccessPointPublicAccessBlockConfigurationOutputReference_Override(s S3AccessPointPublicAccessBlockConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -361,7 +361,7 @@ func (j *jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (s *jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference) G
 	return returns
 }
 
-func (s *jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -529,8 +529,8 @@ func (s *jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference) G
 	return returns
 }
 
-func (s *jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -542,11 +542,11 @@ func (s *jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference) I
 	return returns
 }
 
-func (s *jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -590,7 +590,7 @@ func (s *jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference) R
 	)
 }
 
-func (s *jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

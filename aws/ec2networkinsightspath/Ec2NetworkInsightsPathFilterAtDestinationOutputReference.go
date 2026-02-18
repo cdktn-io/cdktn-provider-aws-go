@@ -5,14 +5,14 @@ package ec2networkinsightspath
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ec2networkinsightspath/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ec2networkinsightspath/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Ec2NetworkInsightsPathFilterAtDestinationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -47,15 +47,15 @@ type Ec2NetworkInsightsPathFilterAtDestinationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -71,9 +71,9 @@ type Ec2NetworkInsightsPathFilterAtDestinationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDestinationPortRange(value *Ec2NetworkInsightsPathFilterAtDestinationDestinationPortRange)
 	PutSourcePortRange(value *Ec2NetworkInsightsPathFilterAtDestinationSourcePortRange)
 	ResetDestinationAddress()
@@ -82,7 +82,7 @@ type Ec2NetworkInsightsPathFilterAtDestinationOutputReference interface {
 	ResetSourcePortRange()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type Ec2NetworkInsightsPathFilterAtDestinationOutputReference interface {
 
 // The jsii proxy struct for Ec2NetworkInsightsPathFilterAtDestinationOutputReference
 type jsiiProxy_Ec2NetworkInsightsPathFilterAtDestinationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Ec2NetworkInsightsPathFilterAtDestinationOutputReference) ComplexObjectIndex() interface{} {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_Ec2NetworkInsightsPathFilterAtDestinationOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_Ec2NetworkInsightsPathFilterAtDestinationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Ec2NetworkInsightsPathFilterAtDestinationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_Ec2NetworkInsightsPathFilterAtDestinationOutputReference) Ter
 }
 
 
-func NewEc2NetworkInsightsPathFilterAtDestinationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) Ec2NetworkInsightsPathFilterAtDestinationOutputReference {
+func NewEc2NetworkInsightsPathFilterAtDestinationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) Ec2NetworkInsightsPathFilterAtDestinationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEc2NetworkInsightsPathFilterAtDestinationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewEc2NetworkInsightsPathFilterAtDestinationOutputReference(terraformResour
 	return &j
 }
 
-func NewEc2NetworkInsightsPathFilterAtDestinationOutputReference_Override(e Ec2NetworkInsightsPathFilterAtDestinationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEc2NetworkInsightsPathFilterAtDestinationOutputReference_Override(e Ec2NetworkInsightsPathFilterAtDestinationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -339,7 +339,7 @@ func (j *jsiiProxy_Ec2NetworkInsightsPathFilterAtDestinationOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_Ec2NetworkInsightsPathFilterAtDestinationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Ec2NetworkInsightsPathFilterAtDestinationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -379,11 +379,11 @@ func (e *jsiiProxy_Ec2NetworkInsightsPathFilterAtDestinationOutputReference) Get
 	return returns
 }
 
-func (e *jsiiProxy_Ec2NetworkInsightsPathFilterAtDestinationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_Ec2NetworkInsightsPathFilterAtDestinationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -507,8 +507,8 @@ func (e *jsiiProxy_Ec2NetworkInsightsPathFilterAtDestinationOutputReference) Get
 	return returns
 }
 
-func (e *jsiiProxy_Ec2NetworkInsightsPathFilterAtDestinationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_Ec2NetworkInsightsPathFilterAtDestinationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -520,11 +520,11 @@ func (e *jsiiProxy_Ec2NetworkInsightsPathFilterAtDestinationOutputReference) Int
 	return returns
 }
 
-func (e *jsiiProxy_Ec2NetworkInsightsPathFilterAtDestinationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_Ec2NetworkInsightsPathFilterAtDestinationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -590,7 +590,7 @@ func (e *jsiiProxy_Ec2NetworkInsightsPathFilterAtDestinationOutputReference) Res
 	)
 }
 
-func (e *jsiiProxy_Ec2NetworkInsightsPathFilterAtDestinationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_Ec2NetworkInsightsPathFilterAtDestinationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

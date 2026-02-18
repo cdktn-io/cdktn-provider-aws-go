@@ -5,19 +5,19 @@ package cloudwatcheventendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/cloudwatcheventendpoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/cloudwatcheventendpoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/cloudwatch_event_endpoint aws_cloudwatch_event_endpoint}.
 type CloudwatchEventEndpoint interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -39,9 +39,9 @@ type CloudwatchEventEndpoint interface {
 	EventBus() CloudwatchEventEndpointEventBusList
 	EventBusInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -50,18 +50,18 @@ type CloudwatchEventEndpoint interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -79,7 +79,7 @@ type CloudwatchEventEndpoint interface {
 	RoutingConfig() CloudwatchEventEndpointRoutingConfigOutputReference
 	RoutingConfigInput() *CloudwatchEventEndpointRoutingConfig
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -92,7 +92,7 @@ type CloudwatchEventEndpoint interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -110,9 +110,9 @@ type CloudwatchEventEndpoint interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -153,7 +153,7 @@ type CloudwatchEventEndpoint interface {
 
 // The jsii proxy struct for CloudwatchEventEndpoint
 type jsiiProxy_CloudwatchEventEndpoint struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_CloudwatchEventEndpoint) Arn() *string {
@@ -166,8 +166,8 @@ func (j *jsiiProxy_CloudwatchEventEndpoint) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CloudwatchEventEndpoint) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_CloudwatchEventEndpoint) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -266,8 +266,8 @@ func (j *jsiiProxy_CloudwatchEventEndpoint) EventBusInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_CloudwatchEventEndpoint) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_CloudwatchEventEndpoint) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -316,8 +316,8 @@ func (j *jsiiProxy_CloudwatchEventEndpoint) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CloudwatchEventEndpoint) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_CloudwatchEventEndpoint) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -356,8 +356,8 @@ func (j *jsiiProxy_CloudwatchEventEndpoint) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_CloudwatchEventEndpoint) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_CloudwatchEventEndpoint) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -466,8 +466,8 @@ func (j *jsiiProxy_CloudwatchEventEndpoint) RoutingConfigInput() *CloudwatchEven
 	return returns
 }
 
-func (j *jsiiProxy_CloudwatchEventEndpoint) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_CloudwatchEventEndpoint) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -567,7 +567,7 @@ func (j *jsiiProxy_CloudwatchEventEndpoint)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CloudwatchEventEndpoint)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_CloudwatchEventEndpoint)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -586,7 +586,7 @@ func (j *jsiiProxy_CloudwatchEventEndpoint)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CloudwatchEventEndpoint)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_CloudwatchEventEndpoint)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -608,7 +608,7 @@ func (j *jsiiProxy_CloudwatchEventEndpoint)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CloudwatchEventEndpoint)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_CloudwatchEventEndpoint)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -649,14 +649,14 @@ func (j *jsiiProxy_CloudwatchEventEndpoint)SetRoleArn(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a CloudwatchEventEndpoint resource upon running "cdktf plan <stack-name>".
-func CloudwatchEventEndpoint_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a CloudwatchEventEndpoint resource upon running "cdktn plan <stack-name>".
+func CloudwatchEventEndpoint_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateCloudwatchEventEndpoint_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.cloudwatchEventEndpoint.CloudwatchEventEndpoint",
@@ -790,11 +790,11 @@ func (c *jsiiProxy_CloudwatchEventEndpoint) GetAnyMapAttribute(terraformAttribut
 	return returns
 }
 
-func (c *jsiiProxy_CloudwatchEventEndpoint) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudwatchEventEndpoint) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -931,7 +931,7 @@ func (c *jsiiProxy_CloudwatchEventEndpoint) HasResourceMove() interface{} {
 	return returns
 }
 
-func (c *jsiiProxy_CloudwatchEventEndpoint) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_CloudwatchEventEndpoint) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -942,11 +942,11 @@ func (c *jsiiProxy_CloudwatchEventEndpoint) ImportFrom(id *string, provider cdkt
 	)
 }
 
-func (c *jsiiProxy_CloudwatchEventEndpoint) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudwatchEventEndpoint) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

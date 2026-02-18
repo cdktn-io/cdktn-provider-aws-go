@@ -139,7 +139,7 @@ func (j *jsiiProxy_FinspaceKxDataview) validateSetIdParameters(val *string) erro
 	return nil
 }
 
-func (j *jsiiProxy_FinspaceKxDataview) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_FinspaceKxDataview) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

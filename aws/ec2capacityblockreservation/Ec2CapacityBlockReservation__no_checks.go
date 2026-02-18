@@ -111,7 +111,7 @@ func (j *jsiiProxy_Ec2CapacityBlockReservation) validateSetInstancePlatformParam
 	return nil
 }
 
-func (j *jsiiProxy_Ec2CapacityBlockReservation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Ec2CapacityBlockReservation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

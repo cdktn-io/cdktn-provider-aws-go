@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEmrSupportedInstanceTypesSupportedInstanceTypesOutputR
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEmrSupportedInstanceTypesSupportedInstanceTypesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEmrSupportedInstanceTypesSupportedInstanceTypesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsEmrSupportedInstanceTypesSupportedInstanceTypesOutputR
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEmrSupportedInstanceTypesSupportedInstanceTypesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEmrSupportedInstanceTypesSupportedInstanceTypesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsEmrSupportedInstanceTypesSupportedInstanceTypesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsEmrSupportedInstanceTypesSupportedInstanceTypesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

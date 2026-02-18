@@ -15,7 +15,7 @@ func (a *jsiiProxy_AlbListenerRuleActionJwtValidationAdditionalClaimList) valida
 	return nil
 }
 
-func (a *jsiiProxy_AlbListenerRuleActionJwtValidationAdditionalClaimList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AlbListenerRuleActionJwtValidationAdditionalClaimList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AlbListenerRuleActionJwtValidationAdditionalClaimList) valida
 	return nil
 }
 
-func (j *jsiiProxy_AlbListenerRuleActionJwtValidationAdditionalClaimList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AlbListenerRuleActionJwtValidationAdditionalClaimList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AlbListenerRuleActionJwtValidationAdditionalClaimList) valida
 	return nil
 }
 
-func validateNewAlbListenerRuleActionJwtValidationAdditionalClaimListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAlbListenerRuleActionJwtValidationAdditionalClaimListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

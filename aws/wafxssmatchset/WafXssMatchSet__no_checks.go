@@ -107,7 +107,7 @@ func (j *jsiiProxy_WafXssMatchSet) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_WafXssMatchSet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_WafXssMatchSet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

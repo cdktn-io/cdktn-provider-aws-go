@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigOutputReference) validat
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ConnectQuickConnectQuickConnectConfigPhoneConfig:
 		value := value.(*[]*ConnectQuickConnectQuickConnectConfigPhoneConfig)
@@ -117,7 +117,7 @@ func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigOutputReference) validat
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ConnectQuickConnectQuickConnectConfigPhoneConfig; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ConnectQuickConnectQuickConnectConfigPhoneConfig; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigOutputReference) validat
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ConnectQuickConnectQuickConnectConfigQueueConfig:
 		value := value.(*[]*ConnectQuickConnectQuickConnectConfigQueueConfig)
@@ -148,7 +148,7 @@ func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigOutputReference) validat
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ConnectQuickConnectQuickConnectConfigQueueConfig; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ConnectQuickConnectQuickConnectConfigQueueConfig; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigOutputReference) validat
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ConnectQuickConnectQuickConnectConfigUserConfig:
 		value := value.(*[]*ConnectQuickConnectQuickConnectConfigUserConfig)
@@ -179,14 +179,14 @@ func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigOutputReference) validat
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ConnectQuickConnectQuickConnectConfigUserConfig; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ConnectQuickConnectQuickConnectConfigUserConfig; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -283,7 +283,7 @@ func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -291,7 +291,7 @@ func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigOutputReference) validat
 	return nil
 }
 
-func validateNewConnectQuickConnectQuickConnectConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewConnectQuickConnectQuickConnectConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

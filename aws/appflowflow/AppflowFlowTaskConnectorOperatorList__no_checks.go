@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppflowFlowTaskConnectorOperatorList) validateGetParameters(i
 	return nil
 }
 
-func (a *jsiiProxy_AppflowFlowTaskConnectorOperatorList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppflowFlowTaskConnectorOperatorList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppflowFlowTaskConnectorOperatorList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_AppflowFlowTaskConnectorOperatorList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppflowFlowTaskConnectorOperatorList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppflowFlowTaskConnectorOperatorList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewAppflowFlowTaskConnectorOperatorListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppflowFlowTaskConnectorOperatorListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

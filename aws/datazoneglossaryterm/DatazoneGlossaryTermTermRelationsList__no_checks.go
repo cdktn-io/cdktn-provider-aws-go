@@ -15,7 +15,7 @@ func (d *jsiiProxy_DatazoneGlossaryTermTermRelationsList) validateGetParameters(
 	return nil
 }
 
-func (d *jsiiProxy_DatazoneGlossaryTermTermRelationsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatazoneGlossaryTermTermRelationsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DatazoneGlossaryTermTermRelationsList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_DatazoneGlossaryTermTermRelationsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatazoneGlossaryTermTermRelationsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DatazoneGlossaryTermTermRelationsList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewDatazoneGlossaryTermTermRelationsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDatazoneGlossaryTermTermRelationsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

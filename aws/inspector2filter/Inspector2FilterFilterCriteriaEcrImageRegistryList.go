@@ -5,14 +5,14 @@ package inspector2filter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/inspector2filter/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/inspector2filter/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Inspector2FilterFilterCriteriaEcrImageRegistryList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type Inspector2FilterFilterCriteriaEcrImageRegistryList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type Inspector2FilterFilterCriteriaEcrImageRegistryList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) Inspector2FilterFilterCriteriaEcrImageRegistryOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type Inspector2FilterFilterCriteriaEcrImageRegistryList interface {
 
 // The jsii proxy struct for Inspector2FilterFilterCriteriaEcrImageRegistryList
 type jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList) WrapsSet(
 }
 
 
-func NewInspector2FilterFilterCriteriaEcrImageRegistryList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Inspector2FilterFilterCriteriaEcrImageRegistryList {
+func NewInspector2FilterFilterCriteriaEcrImageRegistryList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Inspector2FilterFilterCriteriaEcrImageRegistryList {
 	_init_.Initialize()
 
 	if err := validateNewInspector2FilterFilterCriteriaEcrImageRegistryListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewInspector2FilterFilterCriteriaEcrImageRegistryList(terraformResource cdk
 	return &j
 }
 
-func NewInspector2FilterFilterCriteriaEcrImageRegistryList_Override(i Inspector2FilterFilterCriteriaEcrImageRegistryList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewInspector2FilterFilterCriteriaEcrImageRegistryList_Override(i Inspector2FilterFilterCriteriaEcrImageRegistryList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList)SetWrapsSe
 	)
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := i.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		i,
@@ -231,7 +231,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList) Get(index
 	return returns
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaEcrImageRegistryList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

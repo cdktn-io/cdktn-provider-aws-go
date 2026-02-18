@@ -5,14 +5,14 @@ package cognitoriskconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/cognitoriskconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/cognitoriskconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Actions() CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationActionsOutputReference
 	ActionsInput() *CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationActions
 	// the index of the complex object in a list.
@@ -42,15 +42,15 @@ type CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputRefere
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,14 +66,14 @@ type CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputRefere
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutActions(value *CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationActions)
 	ResetEventFilter()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputRefere
 
 // The jsii proxy struct for CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference
 type jsiiProxy_CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference) Actions() CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationActionsOutputReference {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_CognitoRiskConfigurationCompromisedCredentialsRiskConfigurati
 	return returns
 }
 
-func (j *jsiiProxy_CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_CognitoRiskConfigurationCompromisedCredentialsRiskConfigurati
 }
 
 
-func NewCognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference {
+func NewCognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewCognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputRef
 	return &j
 }
 
-func NewCognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference_Override(c CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference_Override(c CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -279,7 +279,7 @@ func (j *jsiiProxy_CognitoRiskConfigurationCompromisedCredentialsRiskConfigurati
 	)
 }
 
-func (j *jsiiProxy_CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -319,11 +319,11 @@ func (c *jsiiProxy_CognitoRiskConfigurationCompromisedCredentialsRiskConfigurati
 	return returns
 }
 
-func (c *jsiiProxy_CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -447,8 +447,8 @@ func (c *jsiiProxy_CognitoRiskConfigurationCompromisedCredentialsRiskConfigurati
 	return returns
 }
 
-func (c *jsiiProxy_CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -460,11 +460,11 @@ func (c *jsiiProxy_CognitoRiskConfigurationCompromisedCredentialsRiskConfigurati
 	return returns
 }
 
-func (c *jsiiProxy_CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -495,7 +495,7 @@ func (c *jsiiProxy_CognitoRiskConfigurationCompromisedCredentialsRiskConfigurati
 	)
 }
 
-func (c *jsiiProxy_CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CognitoRiskConfigurationCompromisedCredentialsRiskConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

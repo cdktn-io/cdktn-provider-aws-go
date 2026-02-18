@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_AppmeshRouteSpecHttpRouteMatchOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (a *jsiiProxy_AppmeshRouteSpecHttpRouteMatchOutputReference) validatePutHea
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*AppmeshRouteSpecHttpRouteMatchHeader:
 		value := value.(*[]*AppmeshRouteSpecHttpRouteMatchHeader)
@@ -117,7 +117,7 @@ func (a *jsiiProxy_AppmeshRouteSpecHttpRouteMatchOutputReference) validatePutHea
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*AppmeshRouteSpecHttpRouteMatchHeader; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*AppmeshRouteSpecHttpRouteMatchHeader; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -140,7 +140,7 @@ func (a *jsiiProxy_AppmeshRouteSpecHttpRouteMatchOutputReference) validatePutQue
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*AppmeshRouteSpecHttpRouteMatchQueryParameter:
 		value := value.(*[]*AppmeshRouteSpecHttpRouteMatchQueryParameter)
@@ -159,14 +159,14 @@ func (a *jsiiProxy_AppmeshRouteSpecHttpRouteMatchOutputReference) validatePutQue
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*AppmeshRouteSpecHttpRouteMatchQueryParameter; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*AppmeshRouteSpecHttpRouteMatchQueryParameter; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (a *jsiiProxy_AppmeshRouteSpecHttpRouteMatchOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppmeshRouteSpecHttpRouteMatchOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -287,7 +287,7 @@ func (j *jsiiProxy_AppmeshRouteSpecHttpRouteMatchOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshRouteSpecHttpRouteMatchOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppmeshRouteSpecHttpRouteMatchOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -295,7 +295,7 @@ func (j *jsiiProxy_AppmeshRouteSpecHttpRouteMatchOutputReference) validateSetTer
 	return nil
 }
 
-func validateNewAppmeshRouteSpecHttpRouteMatchOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppmeshRouteSpecHttpRouteMatchOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*RedshiftIdcApplicationServiceIntegrationLakeFormation:
 		value := value.(*[]*RedshiftIdcApplicationServiceIntegrationLakeFormation)
@@ -117,7 +117,7 @@ func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*RedshiftIdcApplicationServiceIntegrationLakeFormation; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*RedshiftIdcApplicationServiceIntegrationLakeFormation; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*RedshiftIdcApplicationServiceIntegrationRedshift:
 		value := value.(*[]*RedshiftIdcApplicationServiceIntegrationRedshift)
@@ -148,7 +148,7 @@ func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*RedshiftIdcApplicationServiceIntegrationRedshift; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*RedshiftIdcApplicationServiceIntegrationRedshift; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*RedshiftIdcApplicationServiceIntegrationS3AccessGrants:
 		value := value.(*[]*RedshiftIdcApplicationServiceIntegrationS3AccessGrants)
@@ -179,14 +179,14 @@ func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*RedshiftIdcApplicationServiceIntegrationS3AccessGrants; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*RedshiftIdcApplicationServiceIntegrationS3AccessGrants; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedshiftIdcApplicationServiceIntegrationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -261,7 +261,7 @@ func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationOutputReference) vali
 
 func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *RedshiftIdcApplicationServiceIntegration:
 		val := val.(*RedshiftIdcApplicationServiceIntegration)
@@ -276,7 +276,7 @@ func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *RedshiftIdcApplicationServiceIntegration; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *RedshiftIdcApplicationServiceIntegration; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -291,7 +291,7 @@ func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -299,7 +299,7 @@ func (j *jsiiProxy_RedshiftIdcApplicationServiceIntegrationOutputReference) vali
 	return nil
 }
 
-func validateNewRedshiftIdcApplicationServiceIntegrationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRedshiftIdcApplicationServiceIntegrationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsTimestreamwriteTableSchemaCompositePartitionKeyOutputR
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsTimestreamwriteTableSchemaCompositePartitionKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsTimestreamwriteTableSchemaCompositePartitionKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsTimestreamwriteTableSchemaCompositePartitionKeyOutputR
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsTimestreamwriteTableSchemaCompositePartitionKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsTimestreamwriteTableSchemaCompositePartitionKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsTimestreamwriteTableSchemaCompositePartitionKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsTimestreamwriteTableSchemaCompositePartitionKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

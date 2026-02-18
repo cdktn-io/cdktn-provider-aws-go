@@ -15,7 +15,7 @@ func (s *jsiiProxy_S3VectorsIndexMetadataConfigurationList) validateGetParameter
 	return nil
 }
 
-func (s *jsiiProxy_S3VectorsIndexMetadataConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3VectorsIndexMetadataConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_S3VectorsIndexMetadataConfigurationList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_S3VectorsIndexMetadataConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3VectorsIndexMetadataConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_S3VectorsIndexMetadataConfigurationList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewS3VectorsIndexMetadataConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewS3VectorsIndexMetadataConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

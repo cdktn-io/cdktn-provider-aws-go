@@ -107,7 +107,7 @@ func (j *jsiiProxy_DirectoryServiceLogSubscription) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DirectoryServiceLogSubscription) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DirectoryServiceLogSubscription) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

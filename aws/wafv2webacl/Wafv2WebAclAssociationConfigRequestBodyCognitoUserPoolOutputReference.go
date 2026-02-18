@@ -5,14 +5,14 @@ package wafv2webacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/wafv2webacl/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/wafv2webacl/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference inter
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference inter
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference inter
 
 // The jsii proxy struct for Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference
 type jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputR
 	return returns
 }
 
-func (j *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputR
 }
 
 
-func NewWafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference {
+func NewWafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewWafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference(te
 	return &j
 }
 
-func NewWafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference_Override(w Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewWafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference_Override(w Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputR
 	)
 }
 
-func (j *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (w *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputR
 	return returns
 }
 
-func (w *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -423,8 +423,8 @@ func (w *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputR
 	return returns
 }
 
-func (w *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -436,11 +436,11 @@ func (w *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputR
 	return returns
 }
 
-func (w *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -452,7 +452,7 @@ func (w *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputR
 	return returns
 }
 
-func (w *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

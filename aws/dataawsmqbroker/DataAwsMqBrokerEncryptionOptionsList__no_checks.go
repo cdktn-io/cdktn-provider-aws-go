@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsMqBrokerEncryptionOptionsList) validateGetParameters(i
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsMqBrokerEncryptionOptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsMqBrokerEncryptionOptionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsMqBrokerEncryptionOptionsList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsMqBrokerEncryptionOptionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsMqBrokerEncryptionOptionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsMqBrokerEncryptionOptionsList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewDataAwsMqBrokerEncryptionOptionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsMqBrokerEncryptionOptionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

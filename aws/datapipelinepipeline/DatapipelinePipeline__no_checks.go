@@ -107,7 +107,7 @@ func (j *jsiiProxy_DatapipelinePipeline) validateSetIdParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_DatapipelinePipeline) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DatapipelinePipeline) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

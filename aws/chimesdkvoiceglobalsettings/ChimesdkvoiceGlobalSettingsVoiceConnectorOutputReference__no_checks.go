@@ -47,7 +47,7 @@ func (c *jsiiProxy_ChimesdkvoiceGlobalSettingsVoiceConnectorOutputReference) val
 	return nil
 }
 
-func (c *jsiiProxy_ChimesdkvoiceGlobalSettingsVoiceConnectorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ChimesdkvoiceGlobalSettingsVoiceConnectorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ChimesdkvoiceGlobalSettingsVoiceConnectorOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_ChimesdkvoiceGlobalSettingsVoiceConnectorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ChimesdkvoiceGlobalSettingsVoiceConnectorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewChimesdkvoiceGlobalSettingsVoiceConnectorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewChimesdkvoiceGlobalSettingsVoiceConnectorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

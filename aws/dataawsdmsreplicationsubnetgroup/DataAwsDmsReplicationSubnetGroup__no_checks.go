@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsDmsReplicationSubnetGroup) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDmsReplicationSubnetGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsDmsReplicationSubnetGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

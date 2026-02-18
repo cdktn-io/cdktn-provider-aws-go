@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsSpotDatafeedSubscription) validateSetCountParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSpotDatafeedSubscription) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsSpotDatafeedSubscription) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

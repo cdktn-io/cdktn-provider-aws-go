@@ -15,7 +15,7 @@ func (a *jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList) validateGetPa
 	return nil
 }
 
-func (a *jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AlbListenerDefaultActionForwardTargetGroupList) validateSetWr
 	return nil
 }
 
-func validateNewAlbListenerDefaultActionForwardTargetGroupListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAlbListenerDefaultActionForwardTargetGroupListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

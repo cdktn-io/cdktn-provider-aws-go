@@ -47,7 +47,7 @@ func (s *jsiiProxy_SesConfigurationSetTrackingOptionsOutputReference) validateIn
 	return nil
 }
 
-func (s *jsiiProxy_SesConfigurationSetTrackingOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SesConfigurationSetTrackingOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SesConfigurationSetTrackingOptionsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_SesConfigurationSetTrackingOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SesConfigurationSetTrackingOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSesConfigurationSetTrackingOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSesConfigurationSetTrackingOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

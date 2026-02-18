@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComprehendDocumentClassifierVpcConfigOutputReference) validat
 	return nil
 }
 
-func (c *jsiiProxy_ComprehendDocumentClassifierVpcConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComprehendDocumentClassifierVpcConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ComprehendDocumentClassifierVpcConfigOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_ComprehendDocumentClassifierVpcConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComprehendDocumentClassifierVpcConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComprehendDocumentClassifierVpcConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComprehendDocumentClassifierVpcConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

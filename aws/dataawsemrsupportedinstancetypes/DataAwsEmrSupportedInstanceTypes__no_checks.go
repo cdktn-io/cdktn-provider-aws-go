@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsEmrSupportedInstanceTypes) validateSetCountParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEmrSupportedInstanceTypes) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsEmrSupportedInstanceTypes) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

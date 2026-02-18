@@ -15,7 +15,7 @@ func (g *jsiiProxy_GlueUserDefinedFunctionResourceUrisList) validateGetParameter
 	return nil
 }
 
-func (g *jsiiProxy_GlueUserDefinedFunctionResourceUrisList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueUserDefinedFunctionResourceUrisList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GlueUserDefinedFunctionResourceUrisList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_GlueUserDefinedFunctionResourceUrisList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueUserDefinedFunctionResourceUrisList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GlueUserDefinedFunctionResourceUrisList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewGlueUserDefinedFunctionResourceUrisListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGlueUserDefinedFunctionResourceUrisListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

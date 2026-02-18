@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudfrontMultitenantDistributionTimeoutsOutputReference) val
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontMultitenantDistributionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontMultitenantDistributionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_CloudfrontMultitenantDistributionTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontMultitenantDistributionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontMultitenantDistributionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_CloudfrontMultitenantDistributionTimeoutsOutputReference) val
 	return nil
 }
 
-func validateNewCloudfrontMultitenantDistributionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudfrontMultitenantDistributionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

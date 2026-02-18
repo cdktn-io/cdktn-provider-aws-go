@@ -115,7 +115,7 @@ func (j *jsiiProxy_CloudfrontConnectionGroup) validateSetIpv6EnabledParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontConnectionGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudfrontConnectionGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

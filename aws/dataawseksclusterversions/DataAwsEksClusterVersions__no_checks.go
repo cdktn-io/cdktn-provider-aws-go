@@ -91,7 +91,7 @@ func (j *jsiiProxy_DataAwsEksClusterVersions) validateSetIncludeAllParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEksClusterVersions) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsEksClusterVersions) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

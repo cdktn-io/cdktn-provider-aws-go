@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsMqBrokerEngineTypes) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsMqBrokerEngineTypes) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsMqBrokerEngineTypes) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (p *jsiiProxy_PipesPipeLogConfigurationFirehoseLogDestinationOutputReferenc
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeLogConfigurationFirehoseLogDestinationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeLogConfigurationFirehoseLogDestinationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_PipesPipeLogConfigurationFirehoseLogDestinationOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeLogConfigurationFirehoseLogDestinationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeLogConfigurationFirehoseLogDestinationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPipesPipeLogConfigurationFirehoseLogDestinationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPipesPipeLogConfigurationFirehoseLogDestinationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (l *jsiiProxy_LaunchTemplateNetworkInterfacesConnectionTrackingSpecificatio
 	return nil
 }
 
-func (l *jsiiProxy_LaunchTemplateNetworkInterfacesConnectionTrackingSpecificationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LaunchTemplateNetworkInterfacesConnectionTrackingSpecificationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_LaunchTemplateNetworkInterfacesConnectionTrackingSpecificatio
 	return nil
 }
 
-func (j *jsiiProxy_LaunchTemplateNetworkInterfacesConnectionTrackingSpecificationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LaunchTemplateNetworkInterfacesConnectionTrackingSpecificationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_LaunchTemplateNetworkInterfacesConnectionTrackingSpecificatio
 	return nil
 }
 
-func validateNewLaunchTemplateNetworkInterfacesConnectionTrackingSpecificationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLaunchTemplateNetworkInterfacesConnectionTrackingSpecificationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

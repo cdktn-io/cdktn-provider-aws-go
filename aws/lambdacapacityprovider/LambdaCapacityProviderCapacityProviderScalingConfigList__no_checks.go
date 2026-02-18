@@ -15,7 +15,7 @@ func (l *jsiiProxy_LambdaCapacityProviderCapacityProviderScalingConfigList) vali
 	return nil
 }
 
-func (l *jsiiProxy_LambdaCapacityProviderCapacityProviderScalingConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LambdaCapacityProviderCapacityProviderScalingConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LambdaCapacityProviderCapacityProviderScalingConfigList) vali
 	return nil
 }
 
-func (j *jsiiProxy_LambdaCapacityProviderCapacityProviderScalingConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LambdaCapacityProviderCapacityProviderScalingConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LambdaCapacityProviderCapacityProviderScalingConfigList) vali
 	return nil
 }
 
-func validateNewLambdaCapacityProviderCapacityProviderScalingConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLambdaCapacityProviderCapacityProviderScalingConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GuarddutyInviteAccepterTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (g *jsiiProxy_GuarddutyInviteAccepterTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GuarddutyInviteAccepterTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GuarddutyInviteAccepterTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_GuarddutyInviteAccepterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GuarddutyInviteAccepterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGuarddutyInviteAccepterTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGuarddutyInviteAccepterTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

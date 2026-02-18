@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) validateSetId
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

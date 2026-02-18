@@ -47,7 +47,7 @@ func (f *jsiiProxy_FisExperimentTemplateTargetFilterOutputReference) validateInt
 	return nil
 }
 
-func (f *jsiiProxy_FisExperimentTemplateTargetFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FisExperimentTemplateTargetFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_FisExperimentTemplateTargetFilterOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_FisExperimentTemplateTargetFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FisExperimentTemplateTargetFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_FisExperimentTemplateTargetFilterOutputReference) validateSet
 	return nil
 }
 
-func validateNewFisExperimentTemplateTargetFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFisExperimentTemplateTargetFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package dataawssesv2dedicatedippool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawssesv2dedicatedippool/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawssesv2dedicatedippool/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsSesv2DedicatedIpPoolDedicatedIpsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type DataAwsSesv2DedicatedIpPoolDedicatedIpsList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type DataAwsSesv2DedicatedIpPoolDedicatedIpsList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataAwsSesv2DedicatedIpPoolDedicatedIpsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type DataAwsSesv2DedicatedIpPoolDedicatedIpsList interface {
 
 // The jsii proxy struct for DataAwsSesv2DedicatedIpPoolDedicatedIpsList
 type jsiiProxy_DataAwsSesv2DedicatedIpPoolDedicatedIpsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataAwsSesv2DedicatedIpPoolDedicatedIpsList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_DataAwsSesv2DedicatedIpPoolDedicatedIpsList) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSesv2DedicatedIpPoolDedicatedIpsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsSesv2DedicatedIpPoolDedicatedIpsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataAwsSesv2DedicatedIpPoolDedicatedIpsList) WrapsSet() *bool
 }
 
 
-func NewDataAwsSesv2DedicatedIpPoolDedicatedIpsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsSesv2DedicatedIpPoolDedicatedIpsList {
+func NewDataAwsSesv2DedicatedIpPoolDedicatedIpsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsSesv2DedicatedIpPoolDedicatedIpsList {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsSesv2DedicatedIpPoolDedicatedIpsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewDataAwsSesv2DedicatedIpPoolDedicatedIpsList(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewDataAwsSesv2DedicatedIpPoolDedicatedIpsList_Override(d DataAwsSesv2DedicatedIpPoolDedicatedIpsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataAwsSesv2DedicatedIpPoolDedicatedIpsList_Override(d DataAwsSesv2DedicatedIpPoolDedicatedIpsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_DataAwsSesv2DedicatedIpPoolDedicatedIpsList)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_DataAwsSesv2DedicatedIpPoolDedicatedIpsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsSesv2DedicatedIpPoolDedicatedIpsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_DataAwsSesv2DedicatedIpPoolDedicatedIpsList)SetWrapsSet(val *
 	)
 }
 
-func (d *jsiiProxy_DataAwsSesv2DedicatedIpPoolDedicatedIpsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataAwsSesv2DedicatedIpPoolDedicatedIpsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -208,7 +208,7 @@ func (d *jsiiProxy_DataAwsSesv2DedicatedIpPoolDedicatedIpsList) Get(index *float
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsSesv2DedicatedIpPoolDedicatedIpsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsSesv2DedicatedIpPoolDedicatedIpsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

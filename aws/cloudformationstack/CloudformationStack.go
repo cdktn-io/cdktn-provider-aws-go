@@ -5,21 +5,21 @@ package cloudformationstack
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/cloudformationstack/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/cloudformationstack/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/cloudformation_stack aws_cloudformation_stack}.
 type CloudformationStack interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Capabilities() *[]*string
 	SetCapabilities(val *[]*string)
 	CapabilitiesInput() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type CloudformationStack interface {
 	SetDisableRollback(val interface{})
 	DisableRollbackInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,9 +52,9 @@ type CloudformationStack interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -66,7 +66,7 @@ type CloudformationStack interface {
 	OnFailure() *string
 	SetOnFailure(val *string)
 	OnFailureInput() *string
-	Outputs() cdktf.StringMap
+	Outputs() cdktn.StringMap
 	Parameters() *map[string]*string
 	SetParameters(val *map[string]*string)
 	ParametersInput() *map[string]*string
@@ -77,9 +77,9 @@ type CloudformationStack interface {
 	SetPolicyUrl(val *string)
 	PolicyUrlInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -102,7 +102,7 @@ type CloudformationStack interface {
 	SetTemplateUrl(val *string)
 	TemplateUrlInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -120,7 +120,7 @@ type CloudformationStack interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -138,9 +138,9 @@ type CloudformationStack interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -190,7 +190,7 @@ type CloudformationStack interface {
 
 // The jsii proxy struct for CloudformationStack
 type jsiiProxy_CloudformationStack struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_CloudformationStack) Capabilities() *[]*string {
@@ -213,8 +213,8 @@ func (j *jsiiProxy_CloudformationStack) CapabilitiesInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_CloudformationStack) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_CloudformationStack) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -283,8 +283,8 @@ func (j *jsiiProxy_CloudformationStack) DisableRollbackInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_CloudformationStack) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_CloudformationStack) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -353,8 +353,8 @@ func (j *jsiiProxy_CloudformationStack) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CloudformationStack) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_CloudformationStack) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -433,8 +433,8 @@ func (j *jsiiProxy_CloudformationStack) OnFailureInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CloudformationStack) Outputs() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_CloudformationStack) Outputs() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"outputs",
@@ -503,8 +503,8 @@ func (j *jsiiProxy_CloudformationStack) PolicyUrlInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CloudformationStack) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_CloudformationStack) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -633,8 +633,8 @@ func (j *jsiiProxy_CloudformationStack) TemplateUrlInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CloudformationStack) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_CloudformationStack) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -785,7 +785,7 @@ func (j *jsiiProxy_CloudformationStack)SetDisableRollback(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_CloudformationStack)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_CloudformationStack)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -815,7 +815,7 @@ func (j *jsiiProxy_CloudformationStack)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CloudformationStack)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_CloudformationStack)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -892,7 +892,7 @@ func (j *jsiiProxy_CloudformationStack)SetPolicyUrl(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CloudformationStack)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_CloudformationStack)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -977,14 +977,14 @@ func (j *jsiiProxy_CloudformationStack)SetTimeoutInMinutes(val *float64) {
 	)
 }
 
-// Generates CDKTF code for importing a CloudformationStack resource upon running "cdktf plan <stack-name>".
-func CloudformationStack_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a CloudformationStack resource upon running "cdktn plan <stack-name>".
+func CloudformationStack_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateCloudformationStack_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.cloudformationStack.CloudformationStack",
@@ -1118,11 +1118,11 @@ func (c *jsiiProxy_CloudformationStack) GetAnyMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (c *jsiiProxy_CloudformationStack) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudformationStack) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -1259,7 +1259,7 @@ func (c *jsiiProxy_CloudformationStack) HasResourceMove() interface{} {
 	return returns
 }
 
-func (c *jsiiProxy_CloudformationStack) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_CloudformationStack) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1270,11 +1270,11 @@ func (c *jsiiProxy_CloudformationStack) ImportFrom(id *string, provider cdktf.Te
 	)
 }
 
-func (c *jsiiProxy_CloudformationStack) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudformationStack) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

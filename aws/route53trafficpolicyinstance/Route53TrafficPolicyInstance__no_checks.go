@@ -107,7 +107,7 @@ func (j *jsiiProxy_Route53TrafficPolicyInstance) validateSetIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_Route53TrafficPolicyInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Route53TrafficPolicyInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

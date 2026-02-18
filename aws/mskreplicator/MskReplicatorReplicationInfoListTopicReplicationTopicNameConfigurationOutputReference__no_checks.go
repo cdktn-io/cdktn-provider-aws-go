@@ -47,7 +47,7 @@ func (m *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationTopicNameConf
 	return nil
 }
 
-func (m *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationTopicNameConf
 	return nil
 }
 
-func (j *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationTopicNameConf
 	return nil
 }
 
-func validateNewMskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (q *jsiiProxy_QbusinessApplicationEncryptionConfigurationList) validateGetP
 	return nil
 }
 
-func (q *jsiiProxy_QbusinessApplicationEncryptionConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QbusinessApplicationEncryptionConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_QbusinessApplicationEncryptionConfigurationList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_QbusinessApplicationEncryptionConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QbusinessApplicationEncryptionConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_QbusinessApplicationEncryptionConfigurationList) validateSetW
 	return nil
 }
 
-func validateNewQbusinessApplicationEncryptionConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewQbusinessApplicationEncryptionConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

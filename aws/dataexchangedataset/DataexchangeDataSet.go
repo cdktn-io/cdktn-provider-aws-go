@@ -5,22 +5,22 @@ package dataexchangedataset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataexchangedataset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataexchangedataset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/dataexchange_data_set aws_dataexchange_data_set}.
 type DataexchangeDataSet interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	AssetType() *string
 	SetAssetType(val *string)
 	AssetTypeInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -39,9 +39,9 @@ type DataexchangeDataSet interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -50,18 +50,18 @@ type DataexchangeDataSet interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -78,7 +78,7 @@ type DataexchangeDataSet interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -91,7 +91,7 @@ type DataexchangeDataSet interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -109,9 +109,9 @@ type DataexchangeDataSet interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -148,7 +148,7 @@ type DataexchangeDataSet interface {
 
 // The jsii proxy struct for DataexchangeDataSet
 type jsiiProxy_DataexchangeDataSet struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_DataexchangeDataSet) Arn() *string {
@@ -181,8 +181,8 @@ func (j *jsiiProxy_DataexchangeDataSet) AssetTypeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataexchangeDataSet) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataexchangeDataSet) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -251,8 +251,8 @@ func (j *jsiiProxy_DataexchangeDataSet) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataexchangeDataSet) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataexchangeDataSet) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -301,8 +301,8 @@ func (j *jsiiProxy_DataexchangeDataSet) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataexchangeDataSet) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataexchangeDataSet) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -341,8 +341,8 @@ func (j *jsiiProxy_DataexchangeDataSet) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataexchangeDataSet) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataexchangeDataSet) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -431,8 +431,8 @@ func (j *jsiiProxy_DataexchangeDataSet) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataexchangeDataSet) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataexchangeDataSet) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -543,7 +543,7 @@ func (j *jsiiProxy_DataexchangeDataSet)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataexchangeDataSet)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataexchangeDataSet)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -562,7 +562,7 @@ func (j *jsiiProxy_DataexchangeDataSet)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataexchangeDataSet)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataexchangeDataSet)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -584,7 +584,7 @@ func (j *jsiiProxy_DataexchangeDataSet)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataexchangeDataSet)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataexchangeDataSet)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -636,14 +636,14 @@ func (j *jsiiProxy_DataexchangeDataSet)SetTagsAll(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataexchangeDataSet resource upon running "cdktf plan <stack-name>".
-func DataexchangeDataSet_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataexchangeDataSet resource upon running "cdktn plan <stack-name>".
+func DataexchangeDataSet_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataexchangeDataSet_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataexchangeDataSet.DataexchangeDataSet",
@@ -777,11 +777,11 @@ func (d *jsiiProxy_DataexchangeDataSet) GetAnyMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (d *jsiiProxy_DataexchangeDataSet) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataexchangeDataSet) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -918,7 +918,7 @@ func (d *jsiiProxy_DataexchangeDataSet) HasResourceMove() interface{} {
 	return returns
 }
 
-func (d *jsiiProxy_DataexchangeDataSet) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (d *jsiiProxy_DataexchangeDataSet) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := d.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -929,11 +929,11 @@ func (d *jsiiProxy_DataexchangeDataSet) ImportFrom(id *string, provider cdktf.Te
 	)
 }
 
-func (d *jsiiProxy_DataexchangeDataSet) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataexchangeDataSet) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

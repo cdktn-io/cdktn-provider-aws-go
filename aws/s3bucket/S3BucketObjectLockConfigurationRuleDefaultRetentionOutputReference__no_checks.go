@@ -47,7 +47,7 @@ func (s *jsiiProxy_S3BucketObjectLockConfigurationRuleDefaultRetentionOutputRefe
 	return nil
 }
 
-func (s *jsiiProxy_S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_S3BucketObjectLockConfigurationRuleDefaultRetentionOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_S3BucketObjectLockConfigurationRuleDefaultRetentionOutputRefe
 	return nil
 }
 
-func validateNewS3BucketObjectLockConfigurationRuleDefaultRetentionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewS3BucketObjectLockConfigurationRuleDefaultRetentionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

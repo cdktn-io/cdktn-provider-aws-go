@@ -99,7 +99,7 @@ func (j *jsiiProxy_ServicequotasTemplateAssociation) validateSetCountParameters(
 	return nil
 }
 
-func (j *jsiiProxy_ServicequotasTemplateAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ServicequotasTemplateAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -123,7 +123,7 @@ func (j *jsiiProxy_ServicecatalogProvisionedProduct) validateSetIgnoreErrorsPara
 	return nil
 }
 
-func (j *jsiiProxy_ServicecatalogProvisionedProduct) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ServicecatalogProvisionedProduct) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

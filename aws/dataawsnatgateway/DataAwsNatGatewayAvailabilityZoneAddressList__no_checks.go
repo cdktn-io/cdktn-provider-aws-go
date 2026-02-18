@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsNatGatewayAvailabilityZoneAddressList) validateGetPara
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsNatGatewayAvailabilityZoneAddressList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsNatGatewayAvailabilityZoneAddressList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsNatGatewayAvailabilityZoneAddressList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsNatGatewayAvailabilityZoneAddressList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsNatGatewayAvailabilityZoneAddressList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsNatGatewayAvailabilityZoneAddressList) validateSetWrap
 	return nil
 }
 
-func validateNewDataAwsNatGatewayAvailabilityZoneAddressListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsNatGatewayAvailabilityZoneAddressListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

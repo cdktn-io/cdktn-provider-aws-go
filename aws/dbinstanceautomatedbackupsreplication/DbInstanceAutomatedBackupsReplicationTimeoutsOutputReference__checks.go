@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DbInstanceAutomatedBackupsReplicationTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (d *jsiiProxy_DbInstanceAutomatedBackupsReplicationTimeoutsOutputReference)
 	return nil
 }
 
-func (d *jsiiProxy_DbInstanceAutomatedBackupsReplicationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DbInstanceAutomatedBackupsReplicationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_DbInstanceAutomatedBackupsReplicationTimeoutsOutputReference)
 
 func (j *jsiiProxy_DbInstanceAutomatedBackupsReplicationTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *DbInstanceAutomatedBackupsReplicationTimeouts:
 		val := val.(*DbInstanceAutomatedBackupsReplicationTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_DbInstanceAutomatedBackupsReplicationTimeoutsOutputReference)
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *DbInstanceAutomatedBackupsReplicationTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *DbInstanceAutomatedBackupsReplicationTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_DbInstanceAutomatedBackupsReplicationTimeoutsOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_DbInstanceAutomatedBackupsReplicationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DbInstanceAutomatedBackupsReplicationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -222,7 +222,7 @@ func (j *jsiiProxy_DbInstanceAutomatedBackupsReplicationTimeoutsOutputReference)
 	return nil
 }
 
-func validateNewDbInstanceAutomatedBackupsReplicationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDbInstanceAutomatedBackupsReplicationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

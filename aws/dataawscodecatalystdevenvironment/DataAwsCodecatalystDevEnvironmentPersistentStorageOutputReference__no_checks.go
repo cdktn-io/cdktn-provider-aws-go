@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsCodecatalystDevEnvironmentPersistentStorageOutputRefer
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCodecatalystDevEnvironmentPersistentStorageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCodecatalystDevEnvironmentPersistentStorageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsCodecatalystDevEnvironmentPersistentStorageOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCodecatalystDevEnvironmentPersistentStorageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCodecatalystDevEnvironmentPersistentStorageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsCodecatalystDevEnvironmentPersistentStorageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsCodecatalystDevEnvironmentPersistentStorageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

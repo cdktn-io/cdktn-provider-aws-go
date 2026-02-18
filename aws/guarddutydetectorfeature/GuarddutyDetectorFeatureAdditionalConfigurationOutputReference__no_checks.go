@@ -47,7 +47,7 @@ func (g *jsiiProxy_GuarddutyDetectorFeatureAdditionalConfigurationOutputReferenc
 	return nil
 }
 
-func (g *jsiiProxy_GuarddutyDetectorFeatureAdditionalConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GuarddutyDetectorFeatureAdditionalConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GuarddutyDetectorFeatureAdditionalConfigurationOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_GuarddutyDetectorFeatureAdditionalConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GuarddutyDetectorFeatureAdditionalConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGuarddutyDetectorFeatureAdditionalConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGuarddutyDetectorFeatureAdditionalConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

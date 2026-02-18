@@ -103,7 +103,7 @@ func (j *jsiiProxy_OpensearchserverlessVpcEndpoint) validateSetCountParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchserverlessVpcEndpoint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_OpensearchserverlessVpcEndpoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

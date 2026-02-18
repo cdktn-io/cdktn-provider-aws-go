@@ -47,7 +47,7 @@ func (g *jsiiProxy_GuarddutyOrganizationConfigurationDatasourcesS3LogsOutputRefe
 	return nil
 }
 
-func (g *jsiiProxy_GuarddutyOrganizationConfigurationDatasourcesS3LogsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GuarddutyOrganizationConfigurationDatasourcesS3LogsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GuarddutyOrganizationConfigurationDatasourcesS3LogsOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_GuarddutyOrganizationConfigurationDatasourcesS3LogsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GuarddutyOrganizationConfigurationDatasourcesS3LogsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGuarddutyOrganizationConfigurationDatasourcesS3LogsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGuarddutyOrganizationConfigurationDatasourcesS3LogsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

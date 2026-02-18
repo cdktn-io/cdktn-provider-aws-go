@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsOdbCloudVmClustersCloudVmClustersList) validateGetPara
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsOdbCloudVmClustersCloudVmClustersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsOdbCloudVmClustersCloudVmClustersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsOdbCloudVmClustersCloudVmClustersList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOdbCloudVmClustersCloudVmClustersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsOdbCloudVmClustersCloudVmClustersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsOdbCloudVmClustersCloudVmClustersList) validateSetWrap
 	return nil
 }
 
-func validateNewDataAwsOdbCloudVmClustersCloudVmClustersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsOdbCloudVmClustersCloudVmClustersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

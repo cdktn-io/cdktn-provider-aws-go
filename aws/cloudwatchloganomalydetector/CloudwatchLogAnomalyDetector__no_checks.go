@@ -123,7 +123,7 @@ func (j *jsiiProxy_CloudwatchLogAnomalyDetector) validateSetKmsKeyIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchLogAnomalyDetector) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudwatchLogAnomalyDetector) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

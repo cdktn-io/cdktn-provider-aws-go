@@ -107,7 +107,7 @@ func (j *jsiiProxy_Macie2ClassificationExportConfiguration) validateSetIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_Macie2ClassificationExportConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Macie2ClassificationExportConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

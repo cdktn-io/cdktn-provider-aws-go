@@ -115,7 +115,7 @@ func (j *jsiiProxy_CloudfrontCachePolicy) validateSetIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontCachePolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudfrontCachePolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

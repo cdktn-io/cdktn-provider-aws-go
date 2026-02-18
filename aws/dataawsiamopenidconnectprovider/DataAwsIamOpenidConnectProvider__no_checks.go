@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsIamOpenidConnectProvider) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsIamOpenidConnectProvider) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsIamOpenidConnectProvider) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

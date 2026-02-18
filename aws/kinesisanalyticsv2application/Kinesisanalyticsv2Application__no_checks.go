@@ -127,7 +127,7 @@ func (j *jsiiProxy_Kinesisanalyticsv2Application) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_Kinesisanalyticsv2Application) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Kinesisanalyticsv2Application) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

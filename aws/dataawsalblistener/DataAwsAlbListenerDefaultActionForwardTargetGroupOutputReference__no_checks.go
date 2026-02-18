@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsAlbListenerDefaultActionForwardTargetGroupOutputRefere
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAlbListenerDefaultActionForwardTargetGroupOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAlbListenerDefaultActionForwardTargetGroupOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsAlbListenerDefaultActionForwardTargetGroupOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAlbListenerDefaultActionForwardTargetGroupOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAlbListenerDefaultActionForwardTargetGroupOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsAlbListenerDefaultActionForwardTargetGroupOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsAlbListenerDefaultActionForwardTargetGroupOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

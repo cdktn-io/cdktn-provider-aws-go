@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) validateInte
 	return nil
 }
 
-func (a *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -119,7 +119,7 @@ func (j *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -135,7 +135,7 @@ func (j *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) validateSetZ
 	return nil
 }
 
-func validateNewAppflowFlowTaskConnectorOperatorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppflowFlowTaskConnectorOperatorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

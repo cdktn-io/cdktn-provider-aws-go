@@ -15,7 +15,7 @@ func (c *jsiiProxy_CloudfrontVpcOriginVpcOriginEndpointConfigOriginSslProtocolsL
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontVpcOriginVpcOriginEndpointConfigOriginSslProtocolsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontVpcOriginVpcOriginEndpointConfigOriginSslProtocolsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CloudfrontVpcOriginVpcOriginEndpointConfigOriginSslProtocolsL
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontVpcOriginVpcOriginEndpointConfigOriginSslProtocolsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontVpcOriginVpcOriginEndpointConfigOriginSslProtocolsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CloudfrontVpcOriginVpcOriginEndpointConfigOriginSslProtocolsL
 	return nil
 }
 
-func validateNewCloudfrontVpcOriginVpcOriginEndpointConfigOriginSslProtocolsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudfrontVpcOriginVpcOriginEndpointConfigOriginSslProtocolsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

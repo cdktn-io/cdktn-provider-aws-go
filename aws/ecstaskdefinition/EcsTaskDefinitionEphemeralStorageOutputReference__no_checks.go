@@ -47,7 +47,7 @@ func (e *jsiiProxy_EcsTaskDefinitionEphemeralStorageOutputReference) validateInt
 	return nil
 }
 
-func (e *jsiiProxy_EcsTaskDefinitionEphemeralStorageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsTaskDefinitionEphemeralStorageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_EcsTaskDefinitionEphemeralStorageOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_EcsTaskDefinitionEphemeralStorageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsTaskDefinitionEphemeralStorageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEcsTaskDefinitionEphemeralStorageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEcsTaskDefinitionEphemeralStorageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

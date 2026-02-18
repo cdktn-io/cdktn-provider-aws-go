@@ -47,7 +47,7 @@ func (s *jsiiProxy_SpotInstanceRequestMaintenanceOptionsOutputReference) validat
 	return nil
 }
 
-func (s *jsiiProxy_SpotInstanceRequestMaintenanceOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpotInstanceRequestMaintenanceOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SpotInstanceRequestMaintenanceOptionsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_SpotInstanceRequestMaintenanceOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpotInstanceRequestMaintenanceOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSpotInstanceRequestMaintenanceOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSpotInstanceRequestMaintenanceOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

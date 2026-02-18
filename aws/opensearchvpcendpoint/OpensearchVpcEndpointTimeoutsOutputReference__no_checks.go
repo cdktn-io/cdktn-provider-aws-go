@@ -47,7 +47,7 @@ func (o *jsiiProxy_OpensearchVpcEndpointTimeoutsOutputReference) validateInterpo
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchVpcEndpointTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchVpcEndpointTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_OpensearchVpcEndpointTimeoutsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchVpcEndpointTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchVpcEndpointTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_OpensearchVpcEndpointTimeoutsOutputReference) validateSetUpda
 	return nil
 }
 
-func validateNewOpensearchVpcEndpointTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOpensearchVpcEndpointTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SecurityhubInsightFiltersAwsAccountIdOutputReference) validat
 	return nil
 }
 
-func (s *jsiiProxy_SecurityhubInsightFiltersAwsAccountIdOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecurityhubInsightFiltersAwsAccountIdOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_SecurityhubInsightFiltersAwsAccountIdOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_SecurityhubInsightFiltersAwsAccountIdOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecurityhubInsightFiltersAwsAccountIdOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SecurityhubInsightFiltersAwsAccountIdOutputReference) validat
 	return nil
 }
 
-func validateNewSecurityhubInsightFiltersAwsAccountIdOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSecurityhubInsightFiltersAwsAccountIdOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

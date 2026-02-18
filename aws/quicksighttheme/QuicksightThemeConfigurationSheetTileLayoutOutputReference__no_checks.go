@@ -55,7 +55,7 @@ func (q *jsiiProxy_QuicksightThemeConfigurationSheetTileLayoutOutputReference) v
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightThemeConfigurationSheetTileLayoutOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightThemeConfigurationSheetTileLayoutOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileLayoutOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileLayoutOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileLayoutOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewQuicksightThemeConfigurationSheetTileLayoutOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewQuicksightThemeConfigurationSheetTileLayoutOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -103,7 +103,7 @@ func (j *jsiiProxy_Resourceexplorer2Index) validateSetCountParameters(val interf
 	return nil
 }
 
-func (j *jsiiProxy_Resourceexplorer2Index) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Resourceexplorer2Index) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

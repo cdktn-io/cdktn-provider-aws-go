@@ -15,7 +15,7 @@ func (s *jsiiProxy_S3BucketLoggingTargetGrantList) validateGetParameters(index *
 	return nil
 }
 
-func (s *jsiiProxy_S3BucketLoggingTargetGrantList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3BucketLoggingTargetGrantList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_S3BucketLoggingTargetGrantList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketLoggingTargetGrantList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3BucketLoggingTargetGrantList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_S3BucketLoggingTargetGrantList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewS3BucketLoggingTargetGrantListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewS3BucketLoggingTargetGrantListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

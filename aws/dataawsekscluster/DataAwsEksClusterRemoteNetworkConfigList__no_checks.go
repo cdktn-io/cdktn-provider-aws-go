@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEksClusterRemoteNetworkConfigList) validateGetParamete
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEksClusterRemoteNetworkConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEksClusterRemoteNetworkConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsEksClusterRemoteNetworkConfigList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEksClusterRemoteNetworkConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEksClusterRemoteNetworkConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsEksClusterRemoteNetworkConfigList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewDataAwsEksClusterRemoteNetworkConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEksClusterRemoteNetworkConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

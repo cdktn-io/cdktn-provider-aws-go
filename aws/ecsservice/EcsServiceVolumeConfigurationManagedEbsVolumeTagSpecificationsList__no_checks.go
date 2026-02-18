@@ -15,7 +15,7 @@ func (e *jsiiProxy_EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecification
 	return nil
 }
 
-func (e *jsiiProxy_EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecificationsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecificationsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecification
 	return nil
 }
 
-func (j *jsiiProxy_EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecificationsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecificationsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecification
 	return nil
 }
 
-func validateNewEcsServiceVolumeConfigurationManagedEbsVolumeTagSpecificationsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEcsServiceVolumeConfigurationManagedEbsVolumeTagSpecificationsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

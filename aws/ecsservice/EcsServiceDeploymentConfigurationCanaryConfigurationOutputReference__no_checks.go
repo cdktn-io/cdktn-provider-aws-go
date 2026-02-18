@@ -47,7 +47,7 @@ func (e *jsiiProxy_EcsServiceDeploymentConfigurationCanaryConfigurationOutputRef
 	return nil
 }
 
-func (e *jsiiProxy_EcsServiceDeploymentConfigurationCanaryConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsServiceDeploymentConfigurationCanaryConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EcsServiceDeploymentConfigurationCanaryConfigurationOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_EcsServiceDeploymentConfigurationCanaryConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsServiceDeploymentConfigurationCanaryConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEcsServiceDeploymentConfigurationCanaryConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEcsServiceDeploymentConfigurationCanaryConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

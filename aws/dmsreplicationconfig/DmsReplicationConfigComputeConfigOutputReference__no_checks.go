@@ -47,7 +47,7 @@ func (d *jsiiProxy_DmsReplicationConfigComputeConfigOutputReference) validateInt
 	return nil
 }
 
-func (d *jsiiProxy_DmsReplicationConfigComputeConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DmsReplicationConfigComputeConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_DmsReplicationConfigComputeConfigOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DmsReplicationConfigComputeConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DmsReplicationConfigComputeConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -107,7 +107,7 @@ func (j *jsiiProxy_DmsReplicationConfigComputeConfigOutputReference) validateSet
 	return nil
 }
 
-func validateNewDmsReplicationConfigComputeConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDmsReplicationConfigComputeConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

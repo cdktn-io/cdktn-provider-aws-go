@@ -119,7 +119,7 @@ func (j *jsiiProxy_RdsExportTask) validateSetKmsKeyIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_RdsExportTask) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RdsExportTask) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

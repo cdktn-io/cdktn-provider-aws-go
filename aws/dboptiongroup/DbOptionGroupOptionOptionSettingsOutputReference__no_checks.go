@@ -47,7 +47,7 @@ func (d *jsiiProxy_DbOptionGroupOptionOptionSettingsOutputReference) validateInt
 	return nil
 }
 
-func (d *jsiiProxy_DbOptionGroupOptionOptionSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DbOptionGroupOptionOptionSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DbOptionGroupOptionOptionSettingsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DbOptionGroupOptionOptionSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DbOptionGroupOptionOptionSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DbOptionGroupOptionOptionSettingsOutputReference) validateSet
 	return nil
 }
 
-func validateNewDbOptionGroupOptionOptionSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDbOptionGroupOptionOptionSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

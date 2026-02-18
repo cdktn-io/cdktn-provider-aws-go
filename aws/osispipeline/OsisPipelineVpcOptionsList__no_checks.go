@@ -15,7 +15,7 @@ func (o *jsiiProxy_OsisPipelineVpcOptionsList) validateGetParameters(index *floa
 	return nil
 }
 
-func (o *jsiiProxy_OsisPipelineVpcOptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OsisPipelineVpcOptionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_OsisPipelineVpcOptionsList) validateSetTerraformAttributePara
 	return nil
 }
 
-func (j *jsiiProxy_OsisPipelineVpcOptionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OsisPipelineVpcOptionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_OsisPipelineVpcOptionsList) validateSetWrapsSetParameters(val
 	return nil
 }
 
-func validateNewOsisPipelineVpcOptionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOsisPipelineVpcOptionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

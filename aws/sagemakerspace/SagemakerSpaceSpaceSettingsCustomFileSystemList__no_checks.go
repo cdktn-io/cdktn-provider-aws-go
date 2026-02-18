@@ -15,7 +15,7 @@ func (s *jsiiProxy_SagemakerSpaceSpaceSettingsCustomFileSystemList) validateGetP
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerSpaceSpaceSettingsCustomFileSystemList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerSpaceSpaceSettingsCustomFileSystemList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SagemakerSpaceSpaceSettingsCustomFileSystemList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerSpaceSpaceSettingsCustomFileSystemList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerSpaceSpaceSettingsCustomFileSystemList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SagemakerSpaceSpaceSettingsCustomFileSystemList) validateSetW
 	return nil
 }
 
-func validateNewSagemakerSpaceSpaceSettingsCustomFileSystemListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSagemakerSpaceSpaceSettingsCustomFileSystemListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

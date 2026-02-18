@@ -47,7 +47,7 @@ func (f *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) val
 	return nil
 }
 
-func (f *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FsxWindowsFileSystemAuditLogConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFsxWindowsFileSystemAuditLogConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFsxWindowsFileSystemAuditLogConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

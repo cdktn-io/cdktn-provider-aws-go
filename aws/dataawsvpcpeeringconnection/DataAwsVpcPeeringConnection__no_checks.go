@@ -91,7 +91,7 @@ func (j *jsiiProxy_DataAwsVpcPeeringConnection) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVpcPeeringConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsVpcPeeringConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

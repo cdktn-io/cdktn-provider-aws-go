@@ -5,14 +5,14 @@ package launchtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/launchtemplate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/launchtemplate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference interf
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference interf
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetMax()
 	ResetMin()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference interf
 
 // The jsii proxy struct for LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference
 type jsiiProxy_LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputRe
 	return returns
 }
 
-func (j *jsiiProxy_LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputRe
 }
 
 
-func NewLaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference {
+func NewLaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewLaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference(ter
 	return &j
 }
 
-func NewLaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference_Override(l LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference_Override(l LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputRe
 	)
 }
 
-func (j *jsiiProxy_LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (l *jsiiProxy_LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputRe
 	return returns
 }
 
-func (l *jsiiProxy_LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -459,8 +459,8 @@ func (l *jsiiProxy_LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputRe
 	return returns
 }
 
-func (l *jsiiProxy_LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -472,11 +472,11 @@ func (l *jsiiProxy_LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputRe
 	return returns
 }
 
-func (l *jsiiProxy_LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -504,7 +504,7 @@ func (l *jsiiProxy_LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputRe
 	)
 }
 
-func (l *jsiiProxy_LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LaunchTemplateInstanceRequirementsTotalLocalStorageGbOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

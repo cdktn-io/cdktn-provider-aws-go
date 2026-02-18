@@ -8,7 +8,7 @@ package odbnetwork
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (o *jsiiProxy_OdbNetworkManagedServicesManagedS3BackupAccessList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (o *jsiiProxy_OdbNetworkManagedServicesManagedS3BackupAccessList) validateG
 	return nil
 }
 
-func (o *jsiiProxy_OdbNetworkManagedServicesManagedS3BackupAccessList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OdbNetworkManagedServicesManagedS3BackupAccessList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_OdbNetworkManagedServicesManagedS3BackupAccessList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_OdbNetworkManagedServicesManagedS3BackupAccessList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OdbNetworkManagedServicesManagedS3BackupAccessList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_OdbNetworkManagedServicesManagedS3BackupAccessList) validateS
 	return nil
 }
 
-func validateNewOdbNetworkManagedServicesManagedS3BackupAccessListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOdbNetworkManagedServicesManagedS3BackupAccessListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

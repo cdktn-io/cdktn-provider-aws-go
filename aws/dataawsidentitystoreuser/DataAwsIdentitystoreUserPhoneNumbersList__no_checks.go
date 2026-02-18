@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsIdentitystoreUserPhoneNumbersList) validateGetParamete
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsIdentitystoreUserPhoneNumbersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsIdentitystoreUserPhoneNumbersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsIdentitystoreUserPhoneNumbersList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsIdentitystoreUserPhoneNumbersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsIdentitystoreUserPhoneNumbersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsIdentitystoreUserPhoneNumbersList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewDataAwsIdentitystoreUserPhoneNumbersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsIdentitystoreUserPhoneNumbersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

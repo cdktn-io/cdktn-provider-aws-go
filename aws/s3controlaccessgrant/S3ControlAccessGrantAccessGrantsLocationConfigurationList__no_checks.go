@@ -15,7 +15,7 @@ func (s *jsiiProxy_S3ControlAccessGrantAccessGrantsLocationConfigurationList) va
 	return nil
 }
 
-func (s *jsiiProxy_S3ControlAccessGrantAccessGrantsLocationConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3ControlAccessGrantAccessGrantsLocationConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_S3ControlAccessGrantAccessGrantsLocationConfigurationList) va
 	return nil
 }
 
-func (j *jsiiProxy_S3ControlAccessGrantAccessGrantsLocationConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3ControlAccessGrantAccessGrantsLocationConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_S3ControlAccessGrantAccessGrantsLocationConfigurationList) va
 	return nil
 }
 
-func validateNewS3ControlAccessGrantAccessGrantsLocationConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewS3ControlAccessGrantAccessGrantsLocationConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

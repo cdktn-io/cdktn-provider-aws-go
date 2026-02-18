@@ -5,14 +5,14 @@ package ssmmaintenancewindowtask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ssmmaintenancewindowtask/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ssmmaintenancewindowtask/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SsmMaintenanceWindowTaskTargetsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type SsmMaintenanceWindowTaskTargetsList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type SsmMaintenanceWindowTaskTargetsList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) SsmMaintenanceWindowTaskTargetsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type SsmMaintenanceWindowTaskTargetsList interface {
 
 // The jsii proxy struct for SsmMaintenanceWindowTaskTargetsList
 type jsiiProxy_SsmMaintenanceWindowTaskTargetsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_SsmMaintenanceWindowTaskTargetsList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_SsmMaintenanceWindowTaskTargetsList) TerraformAttribute() *st
 	return returns
 }
 
-func (j *jsiiProxy_SsmMaintenanceWindowTaskTargetsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SsmMaintenanceWindowTaskTargetsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_SsmMaintenanceWindowTaskTargetsList) WrapsSet() *bool {
 }
 
 
-func NewSsmMaintenanceWindowTaskTargetsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SsmMaintenanceWindowTaskTargetsList {
+func NewSsmMaintenanceWindowTaskTargetsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SsmMaintenanceWindowTaskTargetsList {
 	_init_.Initialize()
 
 	if err := validateNewSsmMaintenanceWindowTaskTargetsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewSsmMaintenanceWindowTaskTargetsList(terraformResource cdktf.IInterpolati
 	return &j
 }
 
-func NewSsmMaintenanceWindowTaskTargetsList_Override(s SsmMaintenanceWindowTaskTargetsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewSsmMaintenanceWindowTaskTargetsList_Override(s SsmMaintenanceWindowTaskTargetsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_SsmMaintenanceWindowTaskTargetsList)SetTerraformAttribute(val
 	)
 }
 
-func (j *jsiiProxy_SsmMaintenanceWindowTaskTargetsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SsmMaintenanceWindowTaskTargetsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_SsmMaintenanceWindowTaskTargetsList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (s *jsiiProxy_SsmMaintenanceWindowTaskTargetsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (s *jsiiProxy_SsmMaintenanceWindowTaskTargetsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := s.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		s,
@@ -231,7 +231,7 @@ func (s *jsiiProxy_SsmMaintenanceWindowTaskTargetsList) Get(index *float64) SsmM
 	return returns
 }
 
-func (s *jsiiProxy_SsmMaintenanceWindowTaskTargetsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SsmMaintenanceWindowTaskTargetsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -107,7 +107,7 @@ func (j *jsiiProxy_ShieldProactiveEngagement) validateSetEnabledParameters(val i
 	return nil
 }
 
-func (j *jsiiProxy_ShieldProactiveEngagement) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ShieldProactiveEngagement) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

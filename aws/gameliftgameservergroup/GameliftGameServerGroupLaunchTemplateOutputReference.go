@@ -5,14 +5,14 @@ package gameliftgameservergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/gameliftgameservergroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/gameliftgameservergroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GameliftGameServerGroupLaunchTemplateOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type GameliftGameServerGroupLaunchTemplateOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Version() *string
 	SetVersion(val *string)
 	VersionInput() *string
@@ -54,7 +54,7 @@ type GameliftGameServerGroupLaunchTemplateOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type GameliftGameServerGroupLaunchTemplateOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetId()
 	ResetName()
 	ResetVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type GameliftGameServerGroupLaunchTemplateOutputReference interface {
 
 // The jsii proxy struct for GameliftGameServerGroupLaunchTemplateOutputReference
 type jsiiProxy_GameliftGameServerGroupLaunchTemplateOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GameliftGameServerGroupLaunchTemplateOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_GameliftGameServerGroupLaunchTemplateOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_GameliftGameServerGroupLaunchTemplateOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GameliftGameServerGroupLaunchTemplateOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_GameliftGameServerGroupLaunchTemplateOutputReference) Version
 }
 
 
-func NewGameliftGameServerGroupLaunchTemplateOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GameliftGameServerGroupLaunchTemplateOutputReference {
+func NewGameliftGameServerGroupLaunchTemplateOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GameliftGameServerGroupLaunchTemplateOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGameliftGameServerGroupLaunchTemplateOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewGameliftGameServerGroupLaunchTemplateOutputReference(terraformResource c
 	return &j
 }
 
-func NewGameliftGameServerGroupLaunchTemplateOutputReference_Override(g GameliftGameServerGroupLaunchTemplateOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGameliftGameServerGroupLaunchTemplateOutputReference_Override(g GameliftGameServerGroupLaunchTemplateOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_GameliftGameServerGroupLaunchTemplateOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_GameliftGameServerGroupLaunchTemplateOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GameliftGameServerGroupLaunchTemplateOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (g *jsiiProxy_GameliftGameServerGroupLaunchTemplateOutputReference) GetAnyM
 	return returns
 }
 
-func (g *jsiiProxy_GameliftGameServerGroupLaunchTemplateOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GameliftGameServerGroupLaunchTemplateOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -494,8 +494,8 @@ func (g *jsiiProxy_GameliftGameServerGroupLaunchTemplateOutputReference) GetStri
 	return returns
 }
 
-func (g *jsiiProxy_GameliftGameServerGroupLaunchTemplateOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GameliftGameServerGroupLaunchTemplateOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -507,11 +507,11 @@ func (g *jsiiProxy_GameliftGameServerGroupLaunchTemplateOutputReference) Interpo
 	return returns
 }
 
-func (g *jsiiProxy_GameliftGameServerGroupLaunchTemplateOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GameliftGameServerGroupLaunchTemplateOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -547,7 +547,7 @@ func (g *jsiiProxy_GameliftGameServerGroupLaunchTemplateOutputReference) ResetVe
 	)
 }
 
-func (g *jsiiProxy_GameliftGameServerGroupLaunchTemplateOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GameliftGameServerGroupLaunchTemplateOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

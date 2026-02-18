@@ -5,21 +5,21 @@ package detectiveorganizationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/detectiveorganizationconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/detectiveorganizationconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/detective_organization_configuration aws_detective_organization_configuration}.
 type DetectiveOrganizationConfiguration interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AutoEnable() interface{}
 	SetAutoEnable(val interface{})
 	AutoEnableInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type DetectiveOrganizationConfiguration interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,15 +49,15 @@ type DetectiveOrganizationConfiguration interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -68,7 +68,7 @@ type DetectiveOrganizationConfiguration interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -81,7 +81,7 @@ type DetectiveOrganizationConfiguration interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -99,9 +99,9 @@ type DetectiveOrganizationConfiguration interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -136,7 +136,7 @@ type DetectiveOrganizationConfiguration interface {
 
 // The jsii proxy struct for DetectiveOrganizationConfiguration
 type jsiiProxy_DetectiveOrganizationConfiguration struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_DetectiveOrganizationConfiguration) AutoEnable() interface{} {
@@ -159,8 +159,8 @@ func (j *jsiiProxy_DetectiveOrganizationConfiguration) AutoEnableInput() interfa
 	return returns
 }
 
-func (j *jsiiProxy_DetectiveOrganizationConfiguration) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DetectiveOrganizationConfiguration) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -209,8 +209,8 @@ func (j *jsiiProxy_DetectiveOrganizationConfiguration) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DetectiveOrganizationConfiguration) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DetectiveOrganizationConfiguration) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -279,8 +279,8 @@ func (j *jsiiProxy_DetectiveOrganizationConfiguration) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DetectiveOrganizationConfiguration) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DetectiveOrganizationConfiguration) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -299,8 +299,8 @@ func (j *jsiiProxy_DetectiveOrganizationConfiguration) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DetectiveOrganizationConfiguration) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DetectiveOrganizationConfiguration) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -349,8 +349,8 @@ func (j *jsiiProxy_DetectiveOrganizationConfiguration) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DetectiveOrganizationConfiguration) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DetectiveOrganizationConfiguration) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -450,7 +450,7 @@ func (j *jsiiProxy_DetectiveOrganizationConfiguration)SetDependsOn(val *[]*strin
 	)
 }
 
-func (j *jsiiProxy_DetectiveOrganizationConfiguration)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DetectiveOrganizationConfiguration)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -480,7 +480,7 @@ func (j *jsiiProxy_DetectiveOrganizationConfiguration)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DetectiveOrganizationConfiguration)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DetectiveOrganizationConfiguration)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -491,7 +491,7 @@ func (j *jsiiProxy_DetectiveOrganizationConfiguration)SetLifecycle(val *cdktf.Te
 	)
 }
 
-func (j *jsiiProxy_DetectiveOrganizationConfiguration)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DetectiveOrganizationConfiguration)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -521,14 +521,14 @@ func (j *jsiiProxy_DetectiveOrganizationConfiguration)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DetectiveOrganizationConfiguration resource upon running "cdktf plan <stack-name>".
-func DetectiveOrganizationConfiguration_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DetectiveOrganizationConfiguration resource upon running "cdktn plan <stack-name>".
+func DetectiveOrganizationConfiguration_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDetectiveOrganizationConfiguration_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.detectiveOrganizationConfiguration.DetectiveOrganizationConfiguration",
@@ -662,11 +662,11 @@ func (d *jsiiProxy_DetectiveOrganizationConfiguration) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (d *jsiiProxy_DetectiveOrganizationConfiguration) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DetectiveOrganizationConfiguration) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -803,7 +803,7 @@ func (d *jsiiProxy_DetectiveOrganizationConfiguration) HasResourceMove() interfa
 	return returns
 }
 
-func (d *jsiiProxy_DetectiveOrganizationConfiguration) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (d *jsiiProxy_DetectiveOrganizationConfiguration) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := d.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -814,11 +814,11 @@ func (d *jsiiProxy_DetectiveOrganizationConfiguration) ImportFrom(id *string, pr
 	)
 }
 
-func (d *jsiiProxy_DetectiveOrganizationConfiguration) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DetectiveOrganizationConfiguration) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

@@ -5,16 +5,16 @@ package serverlessapplicationrepositorycloudformationstack
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/serverlessapplicationrepositorycloudformationstack/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/serverlessapplicationrepositorycloudformationstack/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/serverlessapplicationrepository_cloudformation_stack aws_serverlessapplicationrepository_cloudformation_stack}.
 type ServerlessapplicationrepositoryCloudformationStack interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApplicationId() *string
 	SetApplicationId(val *string)
 	ApplicationIdInput() *string
@@ -22,7 +22,7 @@ type ServerlessapplicationrepositoryCloudformationStack interface {
 	SetCapabilities(val *[]*string)
 	CapabilitiesInput() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type ServerlessapplicationrepositoryCloudformationStack interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,22 +49,22 @@ type ServerlessapplicationrepositoryCloudformationStack interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
-	Outputs() cdktf.StringMap
+	Outputs() cdktn.StringMap
 	Parameters() *map[string]*string
 	SetParameters(val *map[string]*string)
 	ParametersInput() *map[string]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -84,7 +84,7 @@ type ServerlessapplicationrepositoryCloudformationStack interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -99,7 +99,7 @@ type ServerlessapplicationrepositoryCloudformationStack interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -117,9 +117,9 @@ type ServerlessapplicationrepositoryCloudformationStack interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -160,7 +160,7 @@ type ServerlessapplicationrepositoryCloudformationStack interface {
 
 // The jsii proxy struct for ServerlessapplicationrepositoryCloudformationStack
 type jsiiProxy_ServerlessapplicationrepositoryCloudformationStack struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) ApplicationId() *string {
@@ -203,8 +203,8 @@ func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) Capabilit
 	return returns
 }
 
-func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -253,8 +253,8 @@ func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) DependsOn
 	return returns
 }
 
-func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -303,8 +303,8 @@ func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) IdInput()
 	return returns
 }
 
-func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -343,8 +343,8 @@ func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) Node() co
 	return returns
 }
 
-func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) Outputs() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) Outputs() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"outputs",
@@ -373,8 +373,8 @@ func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) Parameter
 	return returns
 }
 
-func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -483,8 +483,8 @@ func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) TagsInput
 	return returns
 }
 
-func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -615,7 +615,7 @@ func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack)SetDepends
 	)
 }
 
-func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -634,7 +634,7 @@ func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack)SetId(val 
 	)
 }
 
-func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -667,7 +667,7 @@ func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack)SetParamet
 	)
 }
 
-func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -730,14 +730,14 @@ func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack)SetTagsAll
 	)
 }
 
-// Generates CDKTF code for importing a ServerlessapplicationrepositoryCloudformationStack resource upon running "cdktf plan <stack-name>".
-func ServerlessapplicationrepositoryCloudformationStack_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ServerlessapplicationrepositoryCloudformationStack resource upon running "cdktn plan <stack-name>".
+func ServerlessapplicationrepositoryCloudformationStack_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateServerlessapplicationrepositoryCloudformationStack_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.serverlessapplicationrepositoryCloudformationStack.ServerlessapplicationrepositoryCloudformationStack",
@@ -871,11 +871,11 @@ func (s *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) GetAnyMap
 	return returns
 }
 
-func (s *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -1012,7 +1012,7 @@ func (s *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) HasResour
 	return returns
 }
 
-func (s *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1023,11 +1023,11 @@ func (s *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) ImportFro
 	)
 }
 
-func (s *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

@@ -47,7 +47,7 @@ func (i *jsiiProxy_InstanceInstanceMarketOptionsSpotOptionsOutputReference) vali
 	return nil
 }
 
-func (i *jsiiProxy_InstanceInstanceMarketOptionsSpotOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_InstanceInstanceMarketOptionsSpotOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_InstanceInstanceMarketOptionsSpotOptionsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_InstanceInstanceMarketOptionsSpotOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_InstanceInstanceMarketOptionsSpotOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_InstanceInstanceMarketOptionsSpotOptionsOutputReference) vali
 	return nil
 }
 
-func validateNewInstanceInstanceMarketOptionsSpotOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewInstanceInstanceMarketOptionsSpotOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

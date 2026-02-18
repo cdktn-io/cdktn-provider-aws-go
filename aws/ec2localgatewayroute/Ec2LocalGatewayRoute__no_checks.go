@@ -107,7 +107,7 @@ func (j *jsiiProxy_Ec2LocalGatewayRoute) validateSetIdParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_Ec2LocalGatewayRoute) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Ec2LocalGatewayRoute) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

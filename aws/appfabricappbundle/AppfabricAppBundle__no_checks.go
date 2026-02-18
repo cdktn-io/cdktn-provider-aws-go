@@ -103,7 +103,7 @@ func (j *jsiiProxy_AppfabricAppBundle) validateSetCustomerManagedKeyArnParameter
 	return nil
 }
 
-func (j *jsiiProxy_AppfabricAppBundle) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppfabricAppBundle) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (i *jsiiProxy_IotTopicRuleElasticsearchOutputReference) validateInterpolati
 	return nil
 }
 
-func (i *jsiiProxy_IotTopicRuleElasticsearchOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotTopicRuleElasticsearchOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_IotTopicRuleElasticsearchOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_IotTopicRuleElasticsearchOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotTopicRuleElasticsearchOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_IotTopicRuleElasticsearchOutputReference) validateSetTypePara
 	return nil
 }
 
-func validateNewIotTopicRuleElasticsearchOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIotTopicRuleElasticsearchOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

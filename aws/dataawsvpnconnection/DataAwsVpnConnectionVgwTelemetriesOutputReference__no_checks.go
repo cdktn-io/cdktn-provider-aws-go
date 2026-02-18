@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsVpnConnectionVgwTelemetriesOutputReference) validateIn
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsVpnConnectionVgwTelemetriesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsVpnConnectionVgwTelemetriesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsVpnConnectionVgwTelemetriesOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVpnConnectionVgwTelemetriesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsVpnConnectionVgwTelemetriesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsVpnConnectionVgwTelemetriesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsVpnConnectionVgwTelemetriesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

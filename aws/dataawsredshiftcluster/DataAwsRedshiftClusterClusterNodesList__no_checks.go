@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsRedshiftClusterClusterNodesList) validateGetParameters
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsRedshiftClusterClusterNodesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsRedshiftClusterClusterNodesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsRedshiftClusterClusterNodesList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRedshiftClusterClusterNodesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsRedshiftClusterClusterNodesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsRedshiftClusterClusterNodesList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewDataAwsRedshiftClusterClusterNodesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsRedshiftClusterClusterNodesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (c *jsiiProxy_CloudfrontMultitenantDistributionOriginCustomHeaderList) vali
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontMultitenantDistributionOriginCustomHeaderList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontMultitenantDistributionOriginCustomHeaderList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CloudfrontMultitenantDistributionOriginCustomHeaderList) vali
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontMultitenantDistributionOriginCustomHeaderList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontMultitenantDistributionOriginCustomHeaderList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CloudfrontMultitenantDistributionOriginCustomHeaderList) vali
 	return nil
 }
 
-func validateNewCloudfrontMultitenantDistributionOriginCustomHeaderListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudfrontMultitenantDistributionOriginCustomHeaderListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

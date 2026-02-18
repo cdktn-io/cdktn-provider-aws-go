@@ -5,14 +5,14 @@ package timestreamqueryscheduledquery
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/timestreamqueryscheduledquery/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/timestreamqueryscheduledquery/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BytesMetered() *float64
 	// the index of the complex object in a list.
 	// Experimental.
@@ -43,15 +43,15 @@ type TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReferenc
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReferenc
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReferenc
 
 // The jsii proxy struct for TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference
 type jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference) BytesMetered() *float64 {
@@ -205,8 +205,8 @@ func (j *jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStats
 	return returns
 }
 
-func (j *jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -216,7 +216,7 @@ func (j *jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStats
 }
 
 
-func NewTimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference {
+func NewTimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewTimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -233,7 +233,7 @@ func NewTimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputRefer
 	return &j
 }
 
-func NewTimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference_Override(t TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewTimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference_Override(t TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -287,7 +287,7 @@ func (j *jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStats
 	)
 }
 
-func (j *jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -327,11 +327,11 @@ func (t *jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStats
 	return returns
 }
 
-func (t *jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -455,8 +455,8 @@ func (t *jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStats
 	return returns
 }
 
-func (t *jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (t *jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -468,11 +468,11 @@ func (t *jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStats
 	return returns
 }
 
-func (t *jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -484,7 +484,7 @@ func (t *jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStats
 	return returns
 }
 
-func (t *jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (t *jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsExecutionStatsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := t.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

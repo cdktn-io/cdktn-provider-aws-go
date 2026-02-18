@@ -123,7 +123,7 @@ func (j *jsiiProxy_EfsMountTarget) validateSetIpv6AddressParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_EfsMountTarget) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EfsMountTarget) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

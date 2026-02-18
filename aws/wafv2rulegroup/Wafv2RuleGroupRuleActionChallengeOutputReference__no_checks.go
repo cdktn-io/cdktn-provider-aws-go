@@ -51,7 +51,7 @@ func (w *jsiiProxy_Wafv2RuleGroupRuleActionChallengeOutputReference) validatePut
 	return nil
 }
 
-func (w *jsiiProxy_Wafv2RuleGroupRuleActionChallengeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_Wafv2RuleGroupRuleActionChallengeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_Wafv2RuleGroupRuleActionChallengeOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_Wafv2RuleGroupRuleActionChallengeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Wafv2RuleGroupRuleActionChallengeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWafv2RuleGroupRuleActionChallengeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWafv2RuleGroupRuleActionChallengeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

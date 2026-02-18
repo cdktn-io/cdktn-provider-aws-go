@@ -99,7 +99,7 @@ func (j *jsiiProxy_EcrPullTimeUpdateExclusion) validateSetCountParameters(val in
 	return nil
 }
 
-func (j *jsiiProxy_EcrPullTimeUpdateExclusion) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EcrPullTimeUpdateExclusion) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

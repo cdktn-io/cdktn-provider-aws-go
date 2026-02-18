@@ -119,7 +119,7 @@ func (j *jsiiProxy_Macie2CustomDataIdentifier) validateSetKeywordsParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_Macie2CustomDataIdentifier) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Macie2CustomDataIdentifier) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package appflowflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/appflowflow/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appflowflow/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppflowFlowTaskConnectorOperatorOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Amplitude() *string
 	SetAmplitude(val *string)
 	AmplitudeInput() *string
@@ -76,9 +76,9 @@ type AppflowFlowTaskConnectorOperatorOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Trendmicro() *string
 	SetTrendmicro(val *string)
 	TrendmicroInput() *string
@@ -93,7 +93,7 @@ type AppflowFlowTaskConnectorOperatorOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -109,9 +109,9 @@ type AppflowFlowTaskConnectorOperatorOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAmplitude()
 	ResetCustomConnector()
 	ResetDatadog()
@@ -130,7 +130,7 @@ type AppflowFlowTaskConnectorOperatorOutputReference interface {
 	ResetZendesk()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -140,7 +140,7 @@ type AppflowFlowTaskConnectorOperatorOutputReference interface {
 
 // The jsii proxy struct for AppflowFlowTaskConnectorOperatorOutputReference
 type jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) Amplitude() *string {
@@ -463,8 +463,8 @@ func (j *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -534,7 +534,7 @@ func (j *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) ZendeskInput
 }
 
 
-func NewAppflowFlowTaskConnectorOperatorOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AppflowFlowTaskConnectorOperatorOutputReference {
+func NewAppflowFlowTaskConnectorOperatorOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AppflowFlowTaskConnectorOperatorOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAppflowFlowTaskConnectorOperatorOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -551,7 +551,7 @@ func NewAppflowFlowTaskConnectorOperatorOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewAppflowFlowTaskConnectorOperatorOutputReference_Override(a AppflowFlowTaskConnectorOperatorOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewAppflowFlowTaskConnectorOperatorOutputReference_Override(a AppflowFlowTaskConnectorOperatorOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -748,7 +748,7 @@ func (j *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -821,11 +821,11 @@ func (a *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (a *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -949,8 +949,8 @@ func (a *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) GetStringMap
 	return returns
 }
 
-func (a *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -962,11 +962,11 @@ func (a *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) Interpolatio
 	return returns
 }
 
-func (a *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1106,7 +1106,7 @@ func (a *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) ResetZendesk
 	)
 }
 
-func (a *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppflowFlowTaskConnectorOperatorOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

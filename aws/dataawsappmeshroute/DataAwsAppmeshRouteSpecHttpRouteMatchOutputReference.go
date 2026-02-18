@@ -5,14 +5,14 @@ package dataawsappmeshroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsappmeshroute/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsappmeshroute/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -44,15 +44,15 @@ type DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -68,12 +68,12 @@ type DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference interface {
 
 // The jsii proxy struct for DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference
 type jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference) ComplexObjectIndex() interface{} {
@@ -216,8 +216,8 @@ func (j *jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -227,7 +227,7 @@ func (j *jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference) Terrafo
 }
 
 
-func NewDataAwsAppmeshRouteSpecHttpRouteMatchOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference {
+func NewDataAwsAppmeshRouteSpecHttpRouteMatchOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsAppmeshRouteSpecHttpRouteMatchOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -244,7 +244,7 @@ func NewDataAwsAppmeshRouteSpecHttpRouteMatchOutputReference(terraformResource c
 	return &j
 }
 
-func NewDataAwsAppmeshRouteSpecHttpRouteMatchOutputReference_Override(d DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsAppmeshRouteSpecHttpRouteMatchOutputReference_Override(d DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -298,7 +298,7 @@ func (j *jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -338,11 +338,11 @@ func (d *jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference) GetAnyM
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -466,8 +466,8 @@ func (d *jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference) GetStri
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -479,11 +479,11 @@ func (d *jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference) Interpo
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -495,7 +495,7 @@ func (d *jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference) Interpo
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteMatchOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -127,7 +127,7 @@ func (j *jsiiProxy_ServicecatalogProvisioningArtifact) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_ServicecatalogProvisioningArtifact) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ServicecatalogProvisioningArtifact) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

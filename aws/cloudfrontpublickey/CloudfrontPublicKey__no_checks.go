@@ -111,7 +111,7 @@ func (j *jsiiProxy_CloudfrontPublicKey) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontPublicKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudfrontPublicKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

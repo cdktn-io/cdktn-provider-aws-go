@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGateway) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2TransitGateway) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsEc2TransitGateway) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

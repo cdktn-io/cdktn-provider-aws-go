@@ -47,7 +47,7 @@ func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsRStudioServerProAppSettings
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsRStudioServerProAppSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerDomainDefaultUserSettingsRStudioServerProAppSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsRStudioServerProAppSettings
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsRStudioServerProAppSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsRStudioServerProAppSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SagemakerDomainDefaultUserSettingsRStudioServerProAppSettings
 	return nil
 }
 
-func validateNewSagemakerDomainDefaultUserSettingsRStudioServerProAppSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerDomainDefaultUserSettingsRStudioServerProAppSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsAppmeshMeshSpecEgressFilterList) validateGetParameters
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAppmeshMeshSpecEgressFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAppmeshMeshSpecEgressFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsAppmeshMeshSpecEgressFilterList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAppmeshMeshSpecEgressFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAppmeshMeshSpecEgressFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsAppmeshMeshSpecEgressFilterList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewDataAwsAppmeshMeshSpecEgressFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsAppmeshMeshSpecEgressFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsMemorydbUserAuthenticationModeList) validateGetParamet
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsMemorydbUserAuthenticationModeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsMemorydbUserAuthenticationModeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsMemorydbUserAuthenticationModeList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsMemorydbUserAuthenticationModeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsMemorydbUserAuthenticationModeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsMemorydbUserAuthenticationModeList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewDataAwsMemorydbUserAuthenticationModeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsMemorydbUserAuthenticationModeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -107,7 +107,7 @@ func (j *jsiiProxy_EcsTag) validateSetKeyParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_EcsTag) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EcsTag) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

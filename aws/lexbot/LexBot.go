@@ -5,21 +5,21 @@ package lexbot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lexbot/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lexbot/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/lex_bot aws_lex_bot}.
 type LexBot interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AbortStatement() LexBotAbortStatementOutputReference
 	AbortStatementInput() *LexBotAbortStatement
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Checksum() *string
 	ChildDirected() interface{}
 	SetChildDirected(val interface{})
@@ -55,9 +55,9 @@ type LexBot interface {
 	EnableModelImprovementsInput() interface{}
 	FailureReason() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -72,9 +72,9 @@ type LexBot interface {
 	IntentInput() interface{}
 	LastUpdatedDate() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Locale() *string
 	SetLocale(val *string)
 	LocaleInput() *string
@@ -90,9 +90,9 @@ type LexBot interface {
 	SetProcessBehavior(val *string)
 	ProcessBehaviorInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -104,7 +104,7 @@ type LexBot interface {
 	RegionInput() *string
 	Status() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -123,7 +123,7 @@ type LexBot interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -141,9 +141,9 @@ type LexBot interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -193,7 +193,7 @@ type LexBot interface {
 
 // The jsii proxy struct for LexBot
 type jsiiProxy_LexBot struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_LexBot) AbortStatement() LexBotAbortStatementOutputReference {
@@ -226,8 +226,8 @@ func (j *jsiiProxy_LexBot) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LexBot) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_LexBot) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -426,8 +426,8 @@ func (j *jsiiProxy_LexBot) FailureReason() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LexBot) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_LexBot) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -526,8 +526,8 @@ func (j *jsiiProxy_LexBot) LastUpdatedDate() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LexBot) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_LexBot) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -626,8 +626,8 @@ func (j *jsiiProxy_LexBot) ProcessBehaviorInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LexBot) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_LexBot) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -686,8 +686,8 @@ func (j *jsiiProxy_LexBot) Status() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LexBot) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_LexBot) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -881,7 +881,7 @@ func (j *jsiiProxy_LexBot)SetEnableModelImprovements(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_LexBot)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_LexBot)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -911,7 +911,7 @@ func (j *jsiiProxy_LexBot)SetIdleSessionTtlInSeconds(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_LexBot)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_LexBot)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -966,7 +966,7 @@ func (j *jsiiProxy_LexBot)SetProcessBehavior(val *string) {
 	)
 }
 
-func (j *jsiiProxy_LexBot)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_LexBot)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1007,14 +1007,14 @@ func (j *jsiiProxy_LexBot)SetVoiceId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a LexBot resource upon running "cdktf plan <stack-name>".
-func LexBot_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a LexBot resource upon running "cdktn plan <stack-name>".
+func LexBot_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateLexBot_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.lexBot.LexBot",
@@ -1148,11 +1148,11 @@ func (l *jsiiProxy_LexBot) GetAnyMapAttribute(terraformAttribute *string) *map[s
 	return returns
 }
 
-func (l *jsiiProxy_LexBot) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LexBot) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -1289,7 +1289,7 @@ func (l *jsiiProxy_LexBot) HasResourceMove() interface{} {
 	return returns
 }
 
-func (l *jsiiProxy_LexBot) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (l *jsiiProxy_LexBot) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := l.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1300,11 +1300,11 @@ func (l *jsiiProxy_LexBot) ImportFrom(id *string, provider cdktf.TerraformProvid
 	)
 }
 
-func (l *jsiiProxy_LexBot) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LexBot) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,

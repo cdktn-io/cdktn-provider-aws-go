@@ -107,7 +107,7 @@ func (j *jsiiProxy_Ec2AvailabilityZoneGroup) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_Ec2AvailabilityZoneGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Ec2AvailabilityZoneGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

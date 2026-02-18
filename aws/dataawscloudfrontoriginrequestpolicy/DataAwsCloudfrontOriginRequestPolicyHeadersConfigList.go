@@ -5,14 +5,14 @@ package dataawscloudfrontoriginrequestpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawscloudfrontoriginrequestpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawscloudfrontoriginrequestpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsCloudfrontOriginRequestPolicyHeadersConfigList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type DataAwsCloudfrontOriginRequestPolicyHeadersConfigList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type DataAwsCloudfrontOriginRequestPolicyHeadersConfigList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataAwsCloudfrontOriginRequestPolicyHeadersConfigOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type DataAwsCloudfrontOriginRequestPolicyHeadersConfigList interface {
 
 // The jsii proxy struct for DataAwsCloudfrontOriginRequestPolicyHeadersConfigList
 type jsiiProxy_DataAwsCloudfrontOriginRequestPolicyHeadersConfigList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataAwsCloudfrontOriginRequestPolicyHeadersConfigList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_DataAwsCloudfrontOriginRequestPolicyHeadersConfigList) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsCloudfrontOriginRequestPolicyHeadersConfigList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsCloudfrontOriginRequestPolicyHeadersConfigList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataAwsCloudfrontOriginRequestPolicyHeadersConfigList) WrapsS
 }
 
 
-func NewDataAwsCloudfrontOriginRequestPolicyHeadersConfigList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsCloudfrontOriginRequestPolicyHeadersConfigList {
+func NewDataAwsCloudfrontOriginRequestPolicyHeadersConfigList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsCloudfrontOriginRequestPolicyHeadersConfigList {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsCloudfrontOriginRequestPolicyHeadersConfigListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewDataAwsCloudfrontOriginRequestPolicyHeadersConfigList(terraformResource 
 	return &j
 }
 
-func NewDataAwsCloudfrontOriginRequestPolicyHeadersConfigList_Override(d DataAwsCloudfrontOriginRequestPolicyHeadersConfigList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataAwsCloudfrontOriginRequestPolicyHeadersConfigList_Override(d DataAwsCloudfrontOriginRequestPolicyHeadersConfigList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_DataAwsCloudfrontOriginRequestPolicyHeadersConfigList)SetTerr
 	)
 }
 
-func (j *jsiiProxy_DataAwsCloudfrontOriginRequestPolicyHeadersConfigList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsCloudfrontOriginRequestPolicyHeadersConfigList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_DataAwsCloudfrontOriginRequestPolicyHeadersConfigList)SetWrap
 	)
 }
 
-func (d *jsiiProxy_DataAwsCloudfrontOriginRequestPolicyHeadersConfigList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataAwsCloudfrontOriginRequestPolicyHeadersConfigList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -208,7 +208,7 @@ func (d *jsiiProxy_DataAwsCloudfrontOriginRequestPolicyHeadersConfigList) Get(in
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsCloudfrontOriginRequestPolicyHeadersConfigList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsCloudfrontOriginRequestPolicyHeadersConfigList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

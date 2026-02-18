@@ -15,7 +15,7 @@ func (e *jsiiProxy_ElbListenerList) validateGetParameters(index *float64) error 
 	return nil
 }
 
-func (e *jsiiProxy_ElbListenerList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElbListenerList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ElbListenerList) validateSetTerraformAttributeParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_ElbListenerList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElbListenerList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ElbListenerList) validateSetWrapsSetParameters(val *bool) err
 	return nil
 }
 
-func validateNewElbListenerListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewElbListenerListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

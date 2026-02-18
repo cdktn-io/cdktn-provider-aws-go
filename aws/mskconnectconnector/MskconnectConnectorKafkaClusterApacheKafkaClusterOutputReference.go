@@ -5,14 +5,14 @@ package mskconnectconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/mskconnectconnector/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/mskconnectconnector/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BootstrapServers() *string
 	SetBootstrapServers(val *string)
 	BootstrapServersInput() *string
@@ -40,9 +40,9 @@ type MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Vpc() MskconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference
 	VpcInput() *MskconnectConnectorKafkaClusterApacheKafkaClusterVpc
 	// Experimental.
@@ -50,7 +50,7 @@ type MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference interface 
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,13 +66,13 @@ type MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutVpc(value *MskconnectConnectorKafkaClusterApacheKafkaClusterVpc)
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference interface 
 
 // The jsii proxy struct for MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference
 type jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference) BootstrapServers() *string {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterOutputRefere
 }
 
 
-func NewMskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference {
+func NewMskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMskconnectConnectorKafkaClusterApacheKafkaClusterOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewMskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference(terrafo
 	return &j
 }
 
-func NewMskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference_Override(m MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference_Override(m MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterOutputRefere
 	)
 }
 
-func (j *jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -318,11 +318,11 @@ func (m *jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterOutputRefere
 	return returns
 }
 
-func (m *jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -446,8 +446,8 @@ func (m *jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterOutputRefere
 	return returns
 }
 
-func (m *jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -459,11 +459,11 @@ func (m *jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterOutputRefere
 	return returns
 }
 
-func (m *jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -486,7 +486,7 @@ func (m *jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterOutputRefere
 	)
 }
 
-func (m *jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

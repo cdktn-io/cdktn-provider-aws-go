@@ -5,16 +5,16 @@ package lexv2modelsslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lexv2modelsslot/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lexv2modelsslot/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/lexv2models_slot aws_lexv2models_slot}.
 type Lexv2ModelsSlot interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	BotId() *string
 	SetBotId(val *string)
 	BotIdInput() *string
@@ -22,7 +22,7 @@ type Lexv2ModelsSlot interface {
 	SetBotVersion(val *string)
 	BotVersionInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -41,9 +41,9 @@ type Lexv2ModelsSlot interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -53,9 +53,9 @@ type Lexv2ModelsSlot interface {
 	SetIntentId(val *string)
 	IntentIdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LocaleId() *string
 	SetLocaleId(val *string)
 	LocaleIdInput() *string
@@ -69,9 +69,9 @@ type Lexv2ModelsSlot interface {
 	ObfuscationSetting() Lexv2ModelsSlotObfuscationSettingList
 	ObfuscationSettingInput() interface{}
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -88,7 +88,7 @@ type Lexv2ModelsSlot interface {
 	SubSlotSetting() Lexv2ModelsSlotSubSlotSettingList
 	SubSlotSettingInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -105,7 +105,7 @@ type Lexv2ModelsSlot interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -123,9 +123,9 @@ type Lexv2ModelsSlot interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -171,7 +171,7 @@ type Lexv2ModelsSlot interface {
 
 // The jsii proxy struct for Lexv2ModelsSlot
 type jsiiProxy_Lexv2ModelsSlot struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_Lexv2ModelsSlot) BotId() *string {
@@ -214,8 +214,8 @@ func (j *jsiiProxy_Lexv2ModelsSlot) BotVersionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Lexv2ModelsSlot) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_Lexv2ModelsSlot) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -284,8 +284,8 @@ func (j *jsiiProxy_Lexv2ModelsSlot) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Lexv2ModelsSlot) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_Lexv2ModelsSlot) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -344,8 +344,8 @@ func (j *jsiiProxy_Lexv2ModelsSlot) IntentIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Lexv2ModelsSlot) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_Lexv2ModelsSlot) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -444,8 +444,8 @@ func (j *jsiiProxy_Lexv2ModelsSlot) ObfuscationSettingInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_Lexv2ModelsSlot) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_Lexv2ModelsSlot) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -544,8 +544,8 @@ func (j *jsiiProxy_Lexv2ModelsSlot) SubSlotSettingInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_Lexv2ModelsSlot) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_Lexv2ModelsSlot) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -707,7 +707,7 @@ func (j *jsiiProxy_Lexv2ModelsSlot)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Lexv2ModelsSlot)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_Lexv2ModelsSlot)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -726,7 +726,7 @@ func (j *jsiiProxy_Lexv2ModelsSlot)SetIntentId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Lexv2ModelsSlot)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_Lexv2ModelsSlot)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -759,7 +759,7 @@ func (j *jsiiProxy_Lexv2ModelsSlot)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Lexv2ModelsSlot)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_Lexv2ModelsSlot)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -800,14 +800,14 @@ func (j *jsiiProxy_Lexv2ModelsSlot)SetSlotTypeId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a Lexv2ModelsSlot resource upon running "cdktf plan <stack-name>".
-func Lexv2ModelsSlot_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a Lexv2ModelsSlot resource upon running "cdktn plan <stack-name>".
+func Lexv2ModelsSlot_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateLexv2ModelsSlot_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.lexv2ModelsSlot.Lexv2ModelsSlot",
@@ -941,11 +941,11 @@ func (l *jsiiProxy_Lexv2ModelsSlot) GetAnyMapAttribute(terraformAttribute *strin
 	return returns
 }
 
-func (l *jsiiProxy_Lexv2ModelsSlot) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_Lexv2ModelsSlot) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -1082,7 +1082,7 @@ func (l *jsiiProxy_Lexv2ModelsSlot) HasResourceMove() interface{} {
 	return returns
 }
 
-func (l *jsiiProxy_Lexv2ModelsSlot) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (l *jsiiProxy_Lexv2ModelsSlot) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := l.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1093,11 +1093,11 @@ func (l *jsiiProxy_Lexv2ModelsSlot) ImportFrom(id *string, provider cdktf.Terraf
 	)
 }
 
-func (l *jsiiProxy_Lexv2ModelsSlot) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_Lexv2ModelsSlot) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,

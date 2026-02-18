@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsOutpostsOutpostInstanceTypes) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOutpostsOutpostInstanceTypes) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsOutpostsOutpostInstanceTypes) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

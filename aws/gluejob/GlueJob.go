@@ -5,19 +5,19 @@ package gluejob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/gluejob/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/gluejob/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/glue_job aws_glue_job}.
 type GlueJob interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Command() GlueJobCommandOutputReference
 	CommandInput() *GlueJobCommand
 	// Experimental.
@@ -49,9 +49,9 @@ type GlueJob interface {
 	ExecutionProperty() GlueJobExecutionPropertyOutputReference
 	ExecutionPropertyInput() *GlueJobExecutionProperty
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -69,9 +69,9 @@ type GlueJob interface {
 	SetJobRunQueuingEnabled(val interface{})
 	JobRunQueuingEnabledInput() interface{}
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MaintenanceWindow() *string
 	SetMaintenanceWindow(val *string)
 	MaintenanceWindowInput() *string
@@ -95,9 +95,9 @@ type GlueJob interface {
 	SetNumberOfWorkers(val *float64)
 	NumberOfWorkersInput() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -122,7 +122,7 @@ type GlueJob interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -141,7 +141,7 @@ type GlueJob interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -159,9 +159,9 @@ type GlueJob interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -220,7 +220,7 @@ type GlueJob interface {
 
 // The jsii proxy struct for GlueJob
 type jsiiProxy_GlueJob struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GlueJob) Arn() *string {
@@ -233,8 +233,8 @@ func (j *jsiiProxy_GlueJob) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GlueJob) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GlueJob) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -403,8 +403,8 @@ func (j *jsiiProxy_GlueJob) ExecutionPropertyInput() *GlueJobExecutionProperty {
 	return returns
 }
 
-func (j *jsiiProxy_GlueJob) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GlueJob) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -513,8 +513,8 @@ func (j *jsiiProxy_GlueJob) JobRunQueuingEnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_GlueJob) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GlueJob) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -673,8 +673,8 @@ func (j *jsiiProxy_GlueJob) NumberOfWorkersInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_GlueJob) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GlueJob) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -823,8 +823,8 @@ func (j *jsiiProxy_GlueJob) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_GlueJob) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GlueJob) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -997,7 +997,7 @@ func (j *jsiiProxy_GlueJob)SetExecutionClass(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GlueJob)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GlueJob)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1049,7 +1049,7 @@ func (j *jsiiProxy_GlueJob)SetJobRunQueuingEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_GlueJob)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GlueJob)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1126,7 +1126,7 @@ func (j *jsiiProxy_GlueJob)SetNumberOfWorkers(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_GlueJob)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GlueJob)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1222,14 +1222,14 @@ func (j *jsiiProxy_GlueJob)SetWorkerType(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GlueJob resource upon running "cdktf plan <stack-name>".
-func GlueJob_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GlueJob resource upon running "cdktn plan <stack-name>".
+func GlueJob_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGlueJob_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.glueJob.GlueJob",
@@ -1363,11 +1363,11 @@ func (g *jsiiProxy_GlueJob) GetAnyMapAttribute(terraformAttribute *string) *map[
 	return returns
 }
 
-func (g *jsiiProxy_GlueJob) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GlueJob) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1504,7 +1504,7 @@ func (g *jsiiProxy_GlueJob) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GlueJob) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GlueJob) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1515,11 +1515,11 @@ func (g *jsiiProxy_GlueJob) ImportFrom(id *string, provider cdktf.TerraformProvi
 	)
 }
 
-func (g *jsiiProxy_GlueJob) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GlueJob) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

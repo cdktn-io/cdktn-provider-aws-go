@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsResourceexplorer2Search) validateSetCountParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsResourceexplorer2Search) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsResourceexplorer2Search) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

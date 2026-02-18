@@ -51,7 +51,7 @@ func (t *jsiiProxy_TimestreamwriteTableSchemaOutputReference) validatePutComposi
 	return nil
 }
 
-func (t *jsiiProxy_TimestreamwriteTableSchemaOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TimestreamwriteTableSchemaOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_TimestreamwriteTableSchemaOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_TimestreamwriteTableSchemaOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TimestreamwriteTableSchemaOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTimestreamwriteTableSchemaOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTimestreamwriteTableSchemaOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

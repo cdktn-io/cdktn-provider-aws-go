@@ -47,7 +47,7 @@ func (s *jsiiProxy_SesReceiptRuleStopActionOutputReference) validateInterpolatio
 	return nil
 }
 
-func (s *jsiiProxy_SesReceiptRuleStopActionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SesReceiptRuleStopActionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SesReceiptRuleStopActionOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_SesReceiptRuleStopActionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SesReceiptRuleStopActionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_SesReceiptRuleStopActionOutputReference) validateSetTopicArnP
 	return nil
 }
 
-func validateNewSesReceiptRuleStopActionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSesReceiptRuleStopActionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

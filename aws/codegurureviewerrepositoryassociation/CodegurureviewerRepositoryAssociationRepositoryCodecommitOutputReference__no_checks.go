@@ -47,7 +47,7 @@ func (c *jsiiProxy_CodegurureviewerRepositoryAssociationRepositoryCodecommitOutp
 	return nil
 }
 
-func (c *jsiiProxy_CodegurureviewerRepositoryAssociationRepositoryCodecommitOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodegurureviewerRepositoryAssociationRepositoryCodecommitOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CodegurureviewerRepositoryAssociationRepositoryCodecommitOutp
 	return nil
 }
 
-func (j *jsiiProxy_CodegurureviewerRepositoryAssociationRepositoryCodecommitOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodegurureviewerRepositoryAssociationRepositoryCodecommitOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCodegurureviewerRepositoryAssociationRepositoryCodecommitOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCodegurureviewerRepositoryAssociationRepositoryCodecommitOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

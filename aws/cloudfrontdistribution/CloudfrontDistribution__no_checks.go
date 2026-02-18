@@ -175,7 +175,7 @@ func (j *jsiiProxy_CloudfrontDistribution) validateSetIsIpv6EnabledParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontDistribution) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudfrontDistribution) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

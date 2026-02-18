@@ -103,7 +103,7 @@ func (j *jsiiProxy_IotThingPrincipalAttachment) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_IotThingPrincipalAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IotThingPrincipalAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

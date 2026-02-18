@@ -103,7 +103,7 @@ func (j *jsiiProxy_ServicecatalogappregistryApplication) validateSetDescriptionP
 	return nil
 }
 
-func (j *jsiiProxy_ServicecatalogappregistryApplication) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ServicecatalogappregistryApplication) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

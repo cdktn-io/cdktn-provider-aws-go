@@ -111,7 +111,7 @@ func (j *jsiiProxy_CloudfrontKeyGroup) validateSetItemsParameters(val *[]*string
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontKeyGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudfrontKeyGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

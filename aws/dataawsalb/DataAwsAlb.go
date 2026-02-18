@@ -5,23 +5,23 @@ package dataawsalb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsalb/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsalb/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/alb aws_alb}.
 type DataAwsAlb interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AccessLogs() DataAwsAlbAccessLogsList
 	Arn() *string
 	SetArn(val *string)
 	ArnInput() *string
 	ArnSuffix() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClientKeepAlive() *float64
 	ConnectionLogs() DataAwsAlbConnectionLogsList
 	// Experimental.
@@ -38,19 +38,19 @@ type DataAwsAlb interface {
 	DesyncMitigationMode() *string
 	DnsName() *string
 	DnsRecordClientRoutingPolicy() *string
-	DropInvalidHeaderFields() cdktf.IResolvable
-	EnableCrossZoneLoadBalancing() cdktf.IResolvable
-	EnableDeletionProtection() cdktf.IResolvable
-	EnableHttp2() cdktf.IResolvable
-	EnableTlsVersionAndCipherSuiteHeaders() cdktf.IResolvable
-	EnableWafFailOpen() cdktf.IResolvable
-	EnableXffClientPort() cdktf.IResolvable
-	EnableZonalShift() cdktf.IResolvable
+	DropInvalidHeaderFields() cdktn.IResolvable
+	EnableCrossZoneLoadBalancing() cdktn.IResolvable
+	EnableDeletionProtection() cdktn.IResolvable
+	EnableHttp2() cdktn.IResolvable
+	EnableTlsVersionAndCipherSuiteHeaders() cdktn.IResolvable
+	EnableWafFailOpen() cdktn.IResolvable
+	EnableXffClientPort() cdktn.IResolvable
+	EnableZonalShift() cdktn.IResolvable
 	EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -60,24 +60,24 @@ type DataAwsAlb interface {
 	SetId(val *string)
 	IdInput() *string
 	IdleTimeout() *float64
-	Internal() cdktf.IResolvable
+	Internal() cdktn.IResolvable
 	IpAddressType() *string
 	IpamPools() DataAwsAlbIpamPoolsList
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LoadBalancerType() *string
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
-	PreserveHostHeader() cdktf.IResolvable
+	PreserveHostHeader() cdktn.IResolvable
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -91,7 +91,7 @@ type DataAwsAlb interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -106,7 +106,7 @@ type DataAwsAlb interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -122,7 +122,7 @@ type DataAwsAlb interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -152,7 +152,7 @@ type DataAwsAlb interface {
 
 // The jsii proxy struct for DataAwsAlb
 type jsiiProxy_DataAwsAlb struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsAlb) AccessLogs() DataAwsAlbAccessLogsList {
@@ -195,8 +195,8 @@ func (j *jsiiProxy_DataAwsAlb) ArnSuffix() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlb) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsAlb) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -295,8 +295,8 @@ func (j *jsiiProxy_DataAwsAlb) DnsRecordClientRoutingPolicy() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlb) DropInvalidHeaderFields() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsAlb) DropInvalidHeaderFields() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"dropInvalidHeaderFields",
@@ -305,8 +305,8 @@ func (j *jsiiProxy_DataAwsAlb) DropInvalidHeaderFields() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlb) EnableCrossZoneLoadBalancing() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsAlb) EnableCrossZoneLoadBalancing() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableCrossZoneLoadBalancing",
@@ -315,8 +315,8 @@ func (j *jsiiProxy_DataAwsAlb) EnableCrossZoneLoadBalancing() cdktf.IResolvable 
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlb) EnableDeletionProtection() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsAlb) EnableDeletionProtection() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableDeletionProtection",
@@ -325,8 +325,8 @@ func (j *jsiiProxy_DataAwsAlb) EnableDeletionProtection() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlb) EnableHttp2() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsAlb) EnableHttp2() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableHttp2",
@@ -335,8 +335,8 @@ func (j *jsiiProxy_DataAwsAlb) EnableHttp2() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlb) EnableTlsVersionAndCipherSuiteHeaders() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsAlb) EnableTlsVersionAndCipherSuiteHeaders() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableTlsVersionAndCipherSuiteHeaders",
@@ -345,8 +345,8 @@ func (j *jsiiProxy_DataAwsAlb) EnableTlsVersionAndCipherSuiteHeaders() cdktf.IRe
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlb) EnableWafFailOpen() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsAlb) EnableWafFailOpen() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableWafFailOpen",
@@ -355,8 +355,8 @@ func (j *jsiiProxy_DataAwsAlb) EnableWafFailOpen() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlb) EnableXffClientPort() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsAlb) EnableXffClientPort() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableXffClientPort",
@@ -365,8 +365,8 @@ func (j *jsiiProxy_DataAwsAlb) EnableXffClientPort() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlb) EnableZonalShift() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsAlb) EnableZonalShift() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableZonalShift",
@@ -385,8 +385,8 @@ func (j *jsiiProxy_DataAwsAlb) EnforceSecurityGroupInboundRulesOnPrivateLinkTraf
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlb) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsAlb) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -455,8 +455,8 @@ func (j *jsiiProxy_DataAwsAlb) IdleTimeout() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlb) Internal() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsAlb) Internal() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"internal",
@@ -485,8 +485,8 @@ func (j *jsiiProxy_DataAwsAlb) IpamPools() DataAwsAlbIpamPoolsList {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlb) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsAlb) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -535,8 +535,8 @@ func (j *jsiiProxy_DataAwsAlb) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlb) PreserveHostHeader() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsAlb) PreserveHostHeader() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"preserveHostHeader",
@@ -545,8 +545,8 @@ func (j *jsiiProxy_DataAwsAlb) PreserveHostHeader() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlb) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsAlb) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -645,8 +645,8 @@ func (j *jsiiProxy_DataAwsAlb) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlb) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsAlb) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -785,7 +785,7 @@ func (j *jsiiProxy_DataAwsAlb)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsAlb)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsAlb)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -804,7 +804,7 @@ func (j *jsiiProxy_DataAwsAlb)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsAlb)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsAlb)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -826,7 +826,7 @@ func (j *jsiiProxy_DataAwsAlb)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsAlb)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsAlb)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -856,14 +856,14 @@ func (j *jsiiProxy_DataAwsAlb)SetTags(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsAlb resource upon running "cdktf plan <stack-name>".
-func DataAwsAlb_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsAlb resource upon running "cdktn plan <stack-name>".
+func DataAwsAlb_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsAlb_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsAlb.DataAwsAlb",
@@ -986,11 +986,11 @@ func (d *jsiiProxy_DataAwsAlb) GetAnyMapAttribute(terraformAttribute *string) *m
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsAlb) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsAlb) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1114,11 +1114,11 @@ func (d *jsiiProxy_DataAwsAlb) GetStringMapAttribute(terraformAttribute *string)
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsAlb) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsAlb) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

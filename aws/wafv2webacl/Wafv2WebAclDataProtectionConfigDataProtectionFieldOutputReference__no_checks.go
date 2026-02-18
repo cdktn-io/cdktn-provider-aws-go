@@ -47,7 +47,7 @@ func (w *jsiiProxy_Wafv2WebAclDataProtectionConfigDataProtectionFieldOutputRefer
 	return nil
 }
 
-func (w *jsiiProxy_Wafv2WebAclDataProtectionConfigDataProtectionFieldOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_Wafv2WebAclDataProtectionConfigDataProtectionFieldOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_Wafv2WebAclDataProtectionConfigDataProtectionFieldOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_Wafv2WebAclDataProtectionConfigDataProtectionFieldOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Wafv2WebAclDataProtectionConfigDataProtectionFieldOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWafv2WebAclDataProtectionConfigDataProtectionFieldOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWafv2WebAclDataProtectionConfigDataProtectionFieldOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

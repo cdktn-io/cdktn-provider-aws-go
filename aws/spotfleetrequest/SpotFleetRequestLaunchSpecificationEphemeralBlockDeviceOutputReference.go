@@ -5,14 +5,14 @@ package spotfleetrequest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/spotfleetrequest/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/spotfleetrequest/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference inte
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VirtualName() *string
 	SetVirtualName(val *string)
 	VirtualNameInput() *string
@@ -51,7 +51,7 @@ type SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference inte
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference inte
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference inte
 
 // The jsii proxy struct for SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference
 type jsiiProxy_SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference) ComplexObjectIndex() interface{} {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutput
 	return returns
 }
 
-func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutput
 }
 
 
-func NewSpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference {
+func NewSpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -213,7 +213,7 @@ func NewSpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference(t
 	return &j
 }
 
-func NewSpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference_Override(s SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference_Override(s SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutput
 	)
 }
 
-func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutput
 	return returns
 }
 
-func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -457,8 +457,8 @@ func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutput
 	return returns
 }
 
-func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -470,11 +470,11 @@ func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutput
 	return returns
 }
 
-func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -486,7 +486,7 @@ func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutput
 	return returns
 }
 
-func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

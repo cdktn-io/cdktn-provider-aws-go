@@ -15,7 +15,7 @@ func (i *jsiiProxy_Inspector2FilterFilterCriteriaCodeRepositoryProjectNameList) 
 	return nil
 }
 
-func (i *jsiiProxy_Inspector2FilterFilterCriteriaCodeRepositoryProjectNameList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_Inspector2FilterFilterCriteriaCodeRepositoryProjectNameList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaCodeRepositoryProjectNameList) 
 	return nil
 }
 
-func (j *jsiiProxy_Inspector2FilterFilterCriteriaCodeRepositoryProjectNameList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Inspector2FilterFilterCriteriaCodeRepositoryProjectNameList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Inspector2FilterFilterCriteriaCodeRepositoryProjectNameList) 
 	return nil
 }
 
-func validateNewInspector2FilterFilterCriteriaCodeRepositoryProjectNameListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewInspector2FilterFilterCriteriaCodeRepositoryProjectNameListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

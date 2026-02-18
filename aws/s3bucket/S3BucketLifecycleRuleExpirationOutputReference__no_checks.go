@@ -47,7 +47,7 @@ func (s *jsiiProxy_S3BucketLifecycleRuleExpirationOutputReference) validateInter
 	return nil
 }
 
-func (s *jsiiProxy_S3BucketLifecycleRuleExpirationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3BucketLifecycleRuleExpirationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_S3BucketLifecycleRuleExpirationOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketLifecycleRuleExpirationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3BucketLifecycleRuleExpirationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewS3BucketLifecycleRuleExpirationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewS3BucketLifecycleRuleExpirationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

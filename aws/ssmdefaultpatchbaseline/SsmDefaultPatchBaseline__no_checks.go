@@ -107,7 +107,7 @@ func (j *jsiiProxy_SsmDefaultPatchBaseline) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_SsmDefaultPatchBaseline) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SsmDefaultPatchBaseline) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

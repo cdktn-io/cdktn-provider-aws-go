@@ -55,7 +55,7 @@ func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationOutputReference) validateP
 	return nil
 }
 
-func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAccessanalyzerAnalyzerConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAccessanalyzerAnalyzerConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

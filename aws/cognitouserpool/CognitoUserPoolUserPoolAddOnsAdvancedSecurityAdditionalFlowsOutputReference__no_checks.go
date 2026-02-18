@@ -47,7 +47,7 @@ func (c *jsiiProxy_CognitoUserPoolUserPoolAddOnsAdvancedSecurityAdditionalFlowsO
 	return nil
 }
 
-func (c *jsiiProxy_CognitoUserPoolUserPoolAddOnsAdvancedSecurityAdditionalFlowsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CognitoUserPoolUserPoolAddOnsAdvancedSecurityAdditionalFlowsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CognitoUserPoolUserPoolAddOnsAdvancedSecurityAdditionalFlowsO
 	return nil
 }
 
-func (j *jsiiProxy_CognitoUserPoolUserPoolAddOnsAdvancedSecurityAdditionalFlowsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CognitoUserPoolUserPoolAddOnsAdvancedSecurityAdditionalFlowsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCognitoUserPoolUserPoolAddOnsAdvancedSecurityAdditionalFlowsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCognitoUserPoolUserPoolAddOnsAdvancedSecurityAdditionalFlowsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

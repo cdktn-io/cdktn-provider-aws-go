@@ -111,7 +111,7 @@ func (j *jsiiProxy_Wafv2WebAclLoggingConfiguration) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_Wafv2WebAclLoggingConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Wafv2WebAclLoggingConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

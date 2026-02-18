@@ -5,21 +5,21 @@ package securityhubautomationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/securityhubautomationrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/securityhubautomationrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/securityhub_automation_rule aws_securityhub_automation_rule}.
 type SecurityhubAutomationRule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Actions() SecurityhubAutomationRuleActionsList
 	ActionsInput() interface{}
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -40,9 +40,9 @@ type SecurityhubAutomationRule interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,15 +52,15 @@ type SecurityhubAutomationRule interface {
 	SetIsTerminal(val interface{})
 	IsTerminalInput() interface{}
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -81,10 +81,10 @@ type SecurityhubAutomationRule interface {
 	RuleStatusInput() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
-	TagsAll() cdktf.StringMap
+	TagsAll() cdktn.StringMap
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -97,7 +97,7 @@ type SecurityhubAutomationRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -115,9 +115,9 @@ type SecurityhubAutomationRule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -158,7 +158,7 @@ type SecurityhubAutomationRule interface {
 
 // The jsii proxy struct for SecurityhubAutomationRule
 type jsiiProxy_SecurityhubAutomationRule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_SecurityhubAutomationRule) Actions() SecurityhubAutomationRuleActionsList {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_SecurityhubAutomationRule) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SecurityhubAutomationRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_SecurityhubAutomationRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -281,8 +281,8 @@ func (j *jsiiProxy_SecurityhubAutomationRule) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SecurityhubAutomationRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_SecurityhubAutomationRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -341,8 +341,8 @@ func (j *jsiiProxy_SecurityhubAutomationRule) IsTerminalInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_SecurityhubAutomationRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_SecurityhubAutomationRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -361,8 +361,8 @@ func (j *jsiiProxy_SecurityhubAutomationRule) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_SecurityhubAutomationRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_SecurityhubAutomationRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -481,8 +481,8 @@ func (j *jsiiProxy_SecurityhubAutomationRule) Tags() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_SecurityhubAutomationRule) TagsAll() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_SecurityhubAutomationRule) TagsAll() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tagsAll",
@@ -501,8 +501,8 @@ func (j *jsiiProxy_SecurityhubAutomationRule) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_SecurityhubAutomationRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_SecurityhubAutomationRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -602,7 +602,7 @@ func (j *jsiiProxy_SecurityhubAutomationRule)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SecurityhubAutomationRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_SecurityhubAutomationRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -621,7 +621,7 @@ func (j *jsiiProxy_SecurityhubAutomationRule)SetIsTerminal(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_SecurityhubAutomationRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_SecurityhubAutomationRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -632,7 +632,7 @@ func (j *jsiiProxy_SecurityhubAutomationRule)SetLifecycle(val *cdktf.TerraformRe
 	)
 }
 
-func (j *jsiiProxy_SecurityhubAutomationRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_SecurityhubAutomationRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -706,14 +706,14 @@ func (j *jsiiProxy_SecurityhubAutomationRule)SetTags(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a SecurityhubAutomationRule resource upon running "cdktf plan <stack-name>".
-func SecurityhubAutomationRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a SecurityhubAutomationRule resource upon running "cdktn plan <stack-name>".
+func SecurityhubAutomationRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateSecurityhubAutomationRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRule",
@@ -847,11 +847,11 @@ func (s *jsiiProxy_SecurityhubAutomationRule) GetAnyMapAttribute(terraformAttrib
 	return returns
 }
 
-func (s *jsiiProxy_SecurityhubAutomationRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SecurityhubAutomationRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -988,7 +988,7 @@ func (s *jsiiProxy_SecurityhubAutomationRule) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_SecurityhubAutomationRule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_SecurityhubAutomationRule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -999,11 +999,11 @@ func (s *jsiiProxy_SecurityhubAutomationRule) ImportFrom(id *string, provider cd
 	)
 }
 
-func (s *jsiiProxy_SecurityhubAutomationRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SecurityhubAutomationRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

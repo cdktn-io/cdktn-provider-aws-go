@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsConnectLambdaFunctionAssociation) validateSetInstanceI
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsConnectLambdaFunctionAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsConnectLambdaFunctionAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

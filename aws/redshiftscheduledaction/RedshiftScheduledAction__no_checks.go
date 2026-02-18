@@ -123,7 +123,7 @@ func (j *jsiiProxy_RedshiftScheduledAction) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftScheduledAction) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RedshiftScheduledAction) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

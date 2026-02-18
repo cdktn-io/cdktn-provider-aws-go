@@ -111,7 +111,7 @@ func (j *jsiiProxy_GrafanaRoleAssociation) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_GrafanaRoleAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GrafanaRoleAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

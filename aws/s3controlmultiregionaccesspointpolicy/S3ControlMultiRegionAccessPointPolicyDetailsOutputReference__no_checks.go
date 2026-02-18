@@ -47,7 +47,7 @@ func (s *jsiiProxy_S3ControlMultiRegionAccessPointPolicyDetailsOutputReference) 
 	return nil
 }
 
-func (s *jsiiProxy_S3ControlMultiRegionAccessPointPolicyDetailsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3ControlMultiRegionAccessPointPolicyDetailsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_S3ControlMultiRegionAccessPointPolicyDetailsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_S3ControlMultiRegionAccessPointPolicyDetailsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3ControlMultiRegionAccessPointPolicyDetailsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewS3ControlMultiRegionAccessPointPolicyDetailsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewS3ControlMultiRegionAccessPointPolicyDetailsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

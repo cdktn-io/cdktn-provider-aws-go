@@ -51,7 +51,7 @@ func (c *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) validat
 	return nil
 }
 
-func (c *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodedeployDeploymentConfigZonalConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCodedeployDeploymentConfigZonalConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCodedeployDeploymentConfigZonalConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

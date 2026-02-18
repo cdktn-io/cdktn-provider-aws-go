@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (d *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validatePutAuthen
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataAwsLbListenerRuleActionAuthenticateCognito:
 		value := value.(*[]*DataAwsLbListenerRuleActionAuthenticateCognito)
@@ -117,7 +117,7 @@ func (d *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validatePutAuthen
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataAwsLbListenerRuleActionAuthenticateCognito; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataAwsLbListenerRuleActionAuthenticateCognito; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (d *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validatePutAuthen
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataAwsLbListenerRuleActionAuthenticateOidc:
 		value := value.(*[]*DataAwsLbListenerRuleActionAuthenticateOidc)
@@ -148,7 +148,7 @@ func (d *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validatePutAuthen
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataAwsLbListenerRuleActionAuthenticateOidc; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataAwsLbListenerRuleActionAuthenticateOidc; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (d *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validatePutFixedR
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataAwsLbListenerRuleActionFixedResponse:
 		value := value.(*[]*DataAwsLbListenerRuleActionFixedResponse)
@@ -179,7 +179,7 @@ func (d *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validatePutFixedR
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataAwsLbListenerRuleActionFixedResponse; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataAwsLbListenerRuleActionFixedResponse; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -191,7 +191,7 @@ func (d *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validatePutForwar
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataAwsLbListenerRuleActionForward:
 		value := value.(*[]*DataAwsLbListenerRuleActionForward)
@@ -210,7 +210,7 @@ func (d *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validatePutForwar
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataAwsLbListenerRuleActionForward; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataAwsLbListenerRuleActionForward; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (d *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validatePutJwtVal
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataAwsLbListenerRuleActionJwtValidation:
 		value := value.(*[]*DataAwsLbListenerRuleActionJwtValidation)
@@ -241,7 +241,7 @@ func (d *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validatePutJwtVal
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataAwsLbListenerRuleActionJwtValidation; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataAwsLbListenerRuleActionJwtValidation; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -253,7 +253,7 @@ func (d *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validatePutRedire
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataAwsLbListenerRuleActionRedirect:
 		value := value.(*[]*DataAwsLbListenerRuleActionRedirect)
@@ -272,14 +272,14 @@ func (d *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validatePutRedire
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataAwsLbListenerRuleActionRedirect; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataAwsLbListenerRuleActionRedirect; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -354,7 +354,7 @@ func (j *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validateSetComple
 
 func (j *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *DataAwsLbListenerRuleAction:
 		val := val.(*DataAwsLbListenerRuleAction)
@@ -369,7 +369,7 @@ func (j *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validateSetIntern
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *DataAwsLbListenerRuleAction; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *DataAwsLbListenerRuleAction; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -384,7 +384,7 @@ func (j *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -392,7 +392,7 @@ func (j *jsiiProxy_DataAwsLbListenerRuleActionOutputReference) validateSetTerraf
 	return nil
 }
 
-func validateNewDataAwsLbListenerRuleActionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsLbListenerRuleActionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -15,7 +15,7 @@ func (s *jsiiProxy_SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdList) vali
 	return nil
 }
 
-func (s *jsiiProxy_SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdList) vali
 	return nil
 }
 
-func (j *jsiiProxy_SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdList) vali
 	return nil
 }
 
-func validateNewSecurityhubInsightFiltersResourceAwsS3BucketOwnerIdListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSecurityhubInsightFiltersResourceAwsS3BucketOwnerIdListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

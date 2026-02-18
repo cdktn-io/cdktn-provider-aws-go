@@ -103,7 +103,7 @@ func (j *jsiiProxy_NotificationsManagedNotificationAccountContactAssociation) va
 	return nil
 }
 
-func (j *jsiiProxy_NotificationsManagedNotificationAccountContactAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NotificationsManagedNotificationAccountContactAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

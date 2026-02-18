@@ -111,7 +111,7 @@ func (j *jsiiProxy_Resourceexplorer2View) validateSetDefaultViewParameters(val i
 	return nil
 }
 
-func (j *jsiiProxy_Resourceexplorer2View) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Resourceexplorer2View) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

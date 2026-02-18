@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEc2InstanceTypeMediaAcceleratorsList) validateGetParam
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEc2InstanceTypeMediaAcceleratorsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEc2InstanceTypeMediaAcceleratorsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsEc2InstanceTypeMediaAcceleratorsList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceTypeMediaAcceleratorsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEc2InstanceTypeMediaAcceleratorsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsEc2InstanceTypeMediaAcceleratorsList) validateSetWraps
 	return nil
 }
 
-func validateNewDataAwsEc2InstanceTypeMediaAcceleratorsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEc2InstanceTypeMediaAcceleratorsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

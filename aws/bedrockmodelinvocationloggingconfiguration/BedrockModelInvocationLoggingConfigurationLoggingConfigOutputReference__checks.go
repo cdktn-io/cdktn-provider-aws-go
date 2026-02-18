@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (b *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (b *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigOutput
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BedrockModelInvocationLoggingConfigurationLoggingConfigCloudwatchConfig:
 		value := value.(*[]*BedrockModelInvocationLoggingConfigurationLoggingConfigCloudwatchConfig)
@@ -117,7 +117,7 @@ func (b *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigOutput
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockModelInvocationLoggingConfigurationLoggingConfigCloudwatchConfig; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockModelInvocationLoggingConfigurationLoggingConfigCloudwatchConfig; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (b *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigOutput
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BedrockModelInvocationLoggingConfigurationLoggingConfigS3Config:
 		value := value.(*[]*BedrockModelInvocationLoggingConfigurationLoggingConfigS3Config)
@@ -148,14 +148,14 @@ func (b *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigOutput
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockModelInvocationLoggingConfigurationLoggingConfigS3Config; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockModelInvocationLoggingConfigurationLoggingConfigS3Config; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (b *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -237,11 +237,11 @@ func (j *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigOutput
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -257,11 +257,11 @@ func (j *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigOutput
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -270,7 +270,7 @@ func (j *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigOutput
 
 func (j *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *BedrockModelInvocationLoggingConfigurationLoggingConfig:
 		val := val.(*BedrockModelInvocationLoggingConfigurationLoggingConfig)
@@ -285,7 +285,7 @@ func (j *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigOutput
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *BedrockModelInvocationLoggingConfigurationLoggingConfig; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *BedrockModelInvocationLoggingConfigurationLoggingConfig; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -300,7 +300,7 @@ func (j *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigOutput
 	return nil
 }
 
-func (j *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -317,11 +317,11 @@ func (j *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigOutput
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -337,18 +337,18 @@ func (j *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigOutput
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
 	return nil
 }
 
-func validateNewBedrockModelInvocationLoggingConfigurationLoggingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBedrockModelInvocationLoggingConfigurationLoggingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

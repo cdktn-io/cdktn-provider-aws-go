@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsArcregionswitchRoute53HealthChecksHealthChecksOutputRe
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsArcregionswitchRoute53HealthChecksHealthChecksOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsArcregionswitchRoute53HealthChecksHealthChecksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsArcregionswitchRoute53HealthChecksHealthChecksOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsArcregionswitchRoute53HealthChecksHealthChecksOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsArcregionswitchRoute53HealthChecksHealthChecksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsArcregionswitchRoute53HealthChecksHealthChecksOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsArcregionswitchRoute53HealthChecksHealthChecksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

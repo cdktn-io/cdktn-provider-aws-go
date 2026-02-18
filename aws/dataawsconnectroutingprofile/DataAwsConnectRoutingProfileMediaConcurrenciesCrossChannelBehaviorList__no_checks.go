@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsConnectRoutingProfileMediaConcurrenciesCrossChannelBeh
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsConnectRoutingProfileMediaConcurrenciesCrossChannelBeh
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsConnectRoutingProfileMediaConcurrenciesCrossChannelBeh
 	return nil
 }
 
-func validateNewDataAwsConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

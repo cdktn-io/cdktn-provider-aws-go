@@ -15,7 +15,7 @@ func (l *jsiiProxy_Lexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSettin
 	return nil
 }
 
-func (l *jsiiProxy_Lexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSettingSourceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_Lexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSettingSourceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Lexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSettin
 	return nil
 }
 
-func (j *jsiiProxy_Lexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSettingSourceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Lexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSettingSourceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Lexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSettin
 	return nil
 }
 
-func validateNewLexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSettingSourceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSettingSourceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEc2ClientVpnEndpointFilterList) validateGetParameters(
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEc2ClientVpnEndpointFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEc2ClientVpnEndpointFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsEc2ClientVpnEndpointFilterList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2ClientVpnEndpointFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEc2ClientVpnEndpointFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsEc2ClientVpnEndpointFilterList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewDataAwsEc2ClientVpnEndpointFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEc2ClientVpnEndpointFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

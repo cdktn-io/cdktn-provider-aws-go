@@ -99,7 +99,7 @@ func (j *jsiiProxy_EcrAccountSetting) validateSetCountParameters(val interface{}
 	return nil
 }
 
-func (j *jsiiProxy_EcrAccountSetting) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EcrAccountSetting) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

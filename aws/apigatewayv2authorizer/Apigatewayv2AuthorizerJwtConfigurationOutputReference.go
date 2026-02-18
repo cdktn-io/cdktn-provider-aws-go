@@ -5,14 +5,14 @@ package apigatewayv2authorizer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/apigatewayv2authorizer/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/apigatewayv2authorizer/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Apigatewayv2AuthorizerJwtConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Audience() *[]*string
 	SetAudience(val *[]*string)
 	AudienceInput() *[]*string
@@ -43,15 +43,15 @@ type Apigatewayv2AuthorizerJwtConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type Apigatewayv2AuthorizerJwtConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAudience()
 	ResetIssuer()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type Apigatewayv2AuthorizerJwtConfigurationOutputReference interface {
 
 // The jsii proxy struct for Apigatewayv2AuthorizerJwtConfigurationOutputReference
 type jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) Audience() *[]*string {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) Terraf
 }
 
 
-func NewApigatewayv2AuthorizerJwtConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) Apigatewayv2AuthorizerJwtConfigurationOutputReference {
+func NewApigatewayv2AuthorizerJwtConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) Apigatewayv2AuthorizerJwtConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApigatewayv2AuthorizerJwtConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewApigatewayv2AuthorizerJwtConfigurationOutputReference(terraformResource 
 	return &j
 }
 
-func NewApigatewayv2AuthorizerJwtConfigurationOutputReference_Override(a Apigatewayv2AuthorizerJwtConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewApigatewayv2AuthorizerJwtConfigurationOutputReference_Override(a Apigatewayv2AuthorizerJwtConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (a *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) GetAny
 	return returns
 }
 
-func (a *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -459,8 +459,8 @@ func (a *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) GetStr
 	return returns
 }
 
-func (a *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -472,11 +472,11 @@ func (a *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) Interp
 	return returns
 }
 
-func (a *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -504,7 +504,7 @@ func (a *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) ResetI
 	)
 }
 
-func (a *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_Apigatewayv2AuthorizerJwtConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

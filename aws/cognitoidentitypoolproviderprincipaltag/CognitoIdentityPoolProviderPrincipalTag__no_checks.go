@@ -111,7 +111,7 @@ func (j *jsiiProxy_CognitoIdentityPoolProviderPrincipalTag) validateSetIdentityP
 	return nil
 }
 
-func (j *jsiiProxy_CognitoIdentityPoolProviderPrincipalTag) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CognitoIdentityPoolProviderPrincipalTag) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

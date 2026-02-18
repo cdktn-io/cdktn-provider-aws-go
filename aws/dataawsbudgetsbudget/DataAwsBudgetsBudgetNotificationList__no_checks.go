@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsBudgetsBudgetNotificationList) validateGetParameters(i
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsBudgetsBudgetNotificationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsBudgetsBudgetNotificationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsBudgetsBudgetNotificationList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsBudgetsBudgetNotificationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsBudgetsBudgetNotificationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsBudgetsBudgetNotificationList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewDataAwsBudgetsBudgetNotificationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsBudgetsBudgetNotificationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

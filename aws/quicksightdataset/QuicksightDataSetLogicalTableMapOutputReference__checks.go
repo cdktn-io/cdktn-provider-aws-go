@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (q *jsiiProxy_QuicksightDataSetLogicalTableMapOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (q *jsiiProxy_QuicksightDataSetLogicalTableMapOutputReference) validatePutD
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*QuicksightDataSetLogicalTableMapDataTransforms:
 		value := value.(*[]*QuicksightDataSetLogicalTableMapDataTransforms)
@@ -117,7 +117,7 @@ func (q *jsiiProxy_QuicksightDataSetLogicalTableMapOutputReference) validatePutD
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*QuicksightDataSetLogicalTableMapDataTransforms; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*QuicksightDataSetLogicalTableMapDataTransforms; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -135,7 +135,7 @@ func (q *jsiiProxy_QuicksightDataSetLogicalTableMapOutputReference) validatePutS
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDataSetLogicalTableMapOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDataSetLogicalTableMapOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -218,7 +218,7 @@ func (j *jsiiProxy_QuicksightDataSetLogicalTableMapOutputReference) validateSetC
 
 func (j *jsiiProxy_QuicksightDataSetLogicalTableMapOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *QuicksightDataSetLogicalTableMap:
 		val := val.(*QuicksightDataSetLogicalTableMap)
@@ -233,7 +233,7 @@ func (j *jsiiProxy_QuicksightDataSetLogicalTableMapOutputReference) validateSetI
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *QuicksightDataSetLogicalTableMap; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *QuicksightDataSetLogicalTableMap; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -256,7 +256,7 @@ func (j *jsiiProxy_QuicksightDataSetLogicalTableMapOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDataSetLogicalTableMapOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDataSetLogicalTableMapOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -264,7 +264,7 @@ func (j *jsiiProxy_QuicksightDataSetLogicalTableMapOutputReference) validateSetT
 	return nil
 }
 
-func validateNewQuicksightDataSetLogicalTableMapOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewQuicksightDataSetLogicalTableMapOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

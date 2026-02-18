@@ -5,14 +5,14 @@ package ssmpatchbaseline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ssmpatchbaseline/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ssmpatchbaseline/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SsmPatchBaselineApprovalRuleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ApproveAfterDays() *float64
 	SetApproveAfterDays(val *float64)
 	ApproveAfterDaysInput() *float64
@@ -51,15 +51,15 @@ type SsmPatchBaselineApprovalRuleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -75,9 +75,9 @@ type SsmPatchBaselineApprovalRuleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutPatchFilter(value interface{})
 	ResetApproveAfterDays()
 	ResetApproveUntilDate()
@@ -85,7 +85,7 @@ type SsmPatchBaselineApprovalRuleOutputReference interface {
 	ResetEnableNonSecurity()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -95,7 +95,7 @@ type SsmPatchBaselineApprovalRuleOutputReference interface {
 
 // The jsii proxy struct for SsmPatchBaselineApprovalRuleOutputReference
 type jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference) ApproveAfterDays() *float64 {
@@ -258,8 +258,8 @@ func (j *jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -269,7 +269,7 @@ func (j *jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference) TerraformResourc
 }
 
 
-func NewSsmPatchBaselineApprovalRuleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SsmPatchBaselineApprovalRuleOutputReference {
+func NewSsmPatchBaselineApprovalRuleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SsmPatchBaselineApprovalRuleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSsmPatchBaselineApprovalRuleOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -286,7 +286,7 @@ func NewSsmPatchBaselineApprovalRuleOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewSsmPatchBaselineApprovalRuleOutputReference_Override(s SsmPatchBaselineApprovalRuleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSsmPatchBaselineApprovalRuleOutputReference_Override(s SsmPatchBaselineApprovalRuleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -384,7 +384,7 @@ func (j *jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -424,11 +424,11 @@ func (s *jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (s *jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -552,8 +552,8 @@ func (s *jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (s *jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -565,11 +565,11 @@ func (s *jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference) InterpolationAsL
 	return returns
 }
 
-func (s *jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -624,7 +624,7 @@ func (s *jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference) ResetEnableNonSe
 	)
 }
 
-func (s *jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

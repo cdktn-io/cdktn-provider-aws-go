@@ -119,7 +119,7 @@ func (j *jsiiProxy_BedrockagentcoreBrowser) validateSetExecutionRoleArnParameter
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreBrowser) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BedrockagentcoreBrowser) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

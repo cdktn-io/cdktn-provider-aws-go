@@ -47,7 +47,7 @@ func (e *jsiiProxy_EmrClusterEc2AttributesOutputReference) validateInterpolation
 	return nil
 }
 
-func (e *jsiiProxy_EmrClusterEc2AttributesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EmrClusterEc2AttributesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -103,11 +103,11 @@ func (j *jsiiProxy_EmrClusterEc2AttributesOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_EmrClusterEc2AttributesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EmrClusterEc2AttributesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEmrClusterEc2AttributesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEmrClusterEc2AttributesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

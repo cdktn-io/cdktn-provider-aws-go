@@ -15,7 +15,7 @@ func (p *jsiiProxy_PinpointEmailTemplateEmailTemplateHeaderList) validateGetPara
 	return nil
 }
 
-func (p *jsiiProxy_PinpointEmailTemplateEmailTemplateHeaderList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PinpointEmailTemplateEmailTemplateHeaderList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_PinpointEmailTemplateEmailTemplateHeaderList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_PinpointEmailTemplateEmailTemplateHeaderList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PinpointEmailTemplateEmailTemplateHeaderList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_PinpointEmailTemplateEmailTemplateHeaderList) validateSetWrap
 	return nil
 }
 
-func validateNewPinpointEmailTemplateEmailTemplateHeaderListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewPinpointEmailTemplateEmailTemplateHeaderListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsEksClusterStorageConfigList) validateGetParameters(ind
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEksClusterStorageConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEksClusterStorageConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsEksClusterStorageConfigList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEksClusterStorageConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEksClusterStorageConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsEksClusterStorageConfigList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewDataAwsEksClusterStorageConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsEksClusterStorageConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,18 +5,18 @@ package dataawssubnet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawssubnet/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawssubnet/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/subnet aws_subnet}.
 type DataAwsSubnet interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	Arn() *string
-	AssignIpv6AddressOnCreation() cdktf.IResolvable
+	AssignIpv6AddressOnCreation() cdktn.IResolvable
 	AvailabilityZone() *string
 	SetAvailabilityZone(val *string)
 	AvailabilityZoneId() *string
@@ -25,7 +25,7 @@ type DataAwsSubnet interface {
 	AvailabilityZoneInput() *string
 	AvailableIpAddressCount() *float64
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CidrBlock() *string
 	SetCidrBlock(val *string)
 	CidrBlockInput() *string
@@ -43,16 +43,16 @@ type DataAwsSubnet interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EnableDns64() cdktf.IResolvable
+	EnableDns64() cdktn.IResolvable
 	EnableLniAtDeviceIndex() *float64
-	EnableResourceNameDnsAaaaRecordOnLaunch() cdktf.IResolvable
-	EnableResourceNameDnsARecordOnLaunch() cdktf.IResolvable
+	EnableResourceNameDnsAaaaRecordOnLaunch() cdktn.IResolvable
+	EnableResourceNameDnsARecordOnLaunch() cdktn.IResolvable
 	Filter() DataAwsSubnetFilterList
 	FilterInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -64,22 +64,22 @@ type DataAwsSubnet interface {
 	SetIpv6CidrBlock(val *string)
 	Ipv6CidrBlockAssociationId() *string
 	Ipv6CidrBlockInput() *string
-	Ipv6Native() cdktf.IResolvable
+	Ipv6Native() cdktn.IResolvable
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
-	MapCustomerOwnedIpOnLaunch() cdktf.IResolvable
-	MapPublicIpOnLaunch() cdktf.IResolvable
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	MapCustomerOwnedIpOnLaunch() cdktn.IResolvable
+	MapPublicIpOnLaunch() cdktn.IResolvable
 	// The tree node.
 	Node() constructs.Node
 	OutpostArn() *string
 	OwnerId() *string
 	PrivateDnsHostnameTypeOnLaunch() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -92,7 +92,7 @@ type DataAwsSubnet interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -107,7 +107,7 @@ type DataAwsSubnet interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -123,7 +123,7 @@ type DataAwsSubnet interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -160,7 +160,7 @@ type DataAwsSubnet interface {
 
 // The jsii proxy struct for DataAwsSubnet
 type jsiiProxy_DataAwsSubnet struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsSubnet) Arn() *string {
@@ -173,8 +173,8 @@ func (j *jsiiProxy_DataAwsSubnet) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSubnet) AssignIpv6AddressOnCreation() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsSubnet) AssignIpv6AddressOnCreation() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"assignIpv6AddressOnCreation",
@@ -233,8 +233,8 @@ func (j *jsiiProxy_DataAwsSubnet) AvailableIpAddressCount() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSubnet) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsSubnet) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -323,8 +323,8 @@ func (j *jsiiProxy_DataAwsSubnet) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSubnet) EnableDns64() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsSubnet) EnableDns64() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableDns64",
@@ -343,8 +343,8 @@ func (j *jsiiProxy_DataAwsSubnet) EnableLniAtDeviceIndex() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSubnet) EnableResourceNameDnsAaaaRecordOnLaunch() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsSubnet) EnableResourceNameDnsAaaaRecordOnLaunch() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableResourceNameDnsAaaaRecordOnLaunch",
@@ -353,8 +353,8 @@ func (j *jsiiProxy_DataAwsSubnet) EnableResourceNameDnsAaaaRecordOnLaunch() cdkt
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSubnet) EnableResourceNameDnsARecordOnLaunch() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsSubnet) EnableResourceNameDnsARecordOnLaunch() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableResourceNameDnsARecordOnLaunch",
@@ -383,8 +383,8 @@ func (j *jsiiProxy_DataAwsSubnet) FilterInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSubnet) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsSubnet) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -463,8 +463,8 @@ func (j *jsiiProxy_DataAwsSubnet) Ipv6CidrBlockInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSubnet) Ipv6Native() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsSubnet) Ipv6Native() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"ipv6Native",
@@ -473,8 +473,8 @@ func (j *jsiiProxy_DataAwsSubnet) Ipv6Native() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSubnet) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsSubnet) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -483,8 +483,8 @@ func (j *jsiiProxy_DataAwsSubnet) Lifecycle() *cdktf.TerraformResourceLifecycle 
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSubnet) MapCustomerOwnedIpOnLaunch() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsSubnet) MapCustomerOwnedIpOnLaunch() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"mapCustomerOwnedIpOnLaunch",
@@ -493,8 +493,8 @@ func (j *jsiiProxy_DataAwsSubnet) MapCustomerOwnedIpOnLaunch() cdktf.IResolvable
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSubnet) MapPublicIpOnLaunch() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsSubnet) MapPublicIpOnLaunch() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"mapPublicIpOnLaunch",
@@ -543,8 +543,8 @@ func (j *jsiiProxy_DataAwsSubnet) PrivateDnsHostnameTypeOnLaunch() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSubnet) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsSubnet) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -623,8 +623,8 @@ func (j *jsiiProxy_DataAwsSubnet) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSubnet) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsSubnet) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -786,7 +786,7 @@ func (j *jsiiProxy_DataAwsSubnet)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsSubnet)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsSubnet)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -816,7 +816,7 @@ func (j *jsiiProxy_DataAwsSubnet)SetIpv6CidrBlock(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsSubnet)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsSubnet)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -827,7 +827,7 @@ func (j *jsiiProxy_DataAwsSubnet)SetLifecycle(val *cdktf.TerraformResourceLifecy
 	)
 }
 
-func (j *jsiiProxy_DataAwsSubnet)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsSubnet)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -879,14 +879,14 @@ func (j *jsiiProxy_DataAwsSubnet)SetVpcId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsSubnet resource upon running "cdktf plan <stack-name>".
-func DataAwsSubnet_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsSubnet resource upon running "cdktn plan <stack-name>".
+func DataAwsSubnet_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsSubnet_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsSubnet.DataAwsSubnet",
@@ -1009,11 +1009,11 @@ func (d *jsiiProxy_DataAwsSubnet) GetAnyMapAttribute(terraformAttribute *string)
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsSubnet) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsSubnet) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1137,11 +1137,11 @@ func (d *jsiiProxy_DataAwsSubnet) GetStringMapAttribute(terraformAttribute *stri
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsSubnet) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsSubnet) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

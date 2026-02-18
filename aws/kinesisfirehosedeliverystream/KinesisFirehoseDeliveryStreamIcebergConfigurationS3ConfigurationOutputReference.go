@@ -5,14 +5,14 @@ package kinesisfirehosedeliverystream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/kinesisfirehosedeliverystream/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/kinesisfirehosedeliverystream/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BucketArn() *string
 	SetBucketArn(val *string)
 	BucketArnInput() *string
@@ -63,15 +63,15 @@ type KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputRefer
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -87,9 +87,9 @@ type KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputRefer
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCloudwatchLoggingOptions(value *KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationCloudwatchLoggingOptions)
 	ResetBufferingInterval()
 	ResetBufferingSize()
@@ -100,7 +100,7 @@ type KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputRefer
 	ResetPrefix()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -110,7 +110,7 @@ type KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputRefer
 
 // The jsii proxy struct for KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference
 type jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference) BucketArn() *string {
@@ -353,8 +353,8 @@ func (j *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3Configurat
 	return returns
 }
 
-func (j *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -364,7 +364,7 @@ func (j *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3Configurat
 }
 
 
-func NewKinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference {
+func NewKinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewKinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -381,7 +381,7 @@ func NewKinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputRe
 	return &j
 }
 
-func NewKinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference_Override(k KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewKinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference_Override(k KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -523,7 +523,7 @@ func (j *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3Configurat
 	)
 }
 
-func (j *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -563,11 +563,11 @@ func (k *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3Configurat
 	return returns
 }
 
-func (k *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -691,8 +691,8 @@ func (k *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3Configurat
 	return returns
 }
 
-func (k *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (k *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -704,11 +704,11 @@ func (k *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3Configurat
 	return returns
 }
 
-func (k *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -787,7 +787,7 @@ func (k *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3Configurat
 	)
 }
 
-func (k *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

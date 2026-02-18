@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsQuicksightDataSetFieldFoldersList) validateGetParamete
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsQuicksightDataSetFieldFoldersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsQuicksightDataSetFieldFoldersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsQuicksightDataSetFieldFoldersList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsQuicksightDataSetFieldFoldersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsQuicksightDataSetFieldFoldersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsQuicksightDataSetFieldFoldersList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewDataAwsQuicksightDataSetFieldFoldersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsQuicksightDataSetFieldFoldersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

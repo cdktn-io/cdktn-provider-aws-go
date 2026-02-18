@@ -47,7 +47,7 @@ func (e *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference
 	return nil
 }
 
-func (e *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEcsServiceDeploymentConfigurationLifecycleHookOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEcsServiceDeploymentConfigurationLifecycleHookOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

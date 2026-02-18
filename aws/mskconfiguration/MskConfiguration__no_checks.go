@@ -111,7 +111,7 @@ func (j *jsiiProxy_MskConfiguration) validateSetKafkaVersionsParameters(val *[]*
 	return nil
 }
 
-func (j *jsiiProxy_MskConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MskConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

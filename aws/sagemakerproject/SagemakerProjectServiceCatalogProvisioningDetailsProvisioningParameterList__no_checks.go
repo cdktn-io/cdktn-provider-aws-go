@@ -15,7 +15,7 @@ func (s *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsProvisioning
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsProvisioningParameterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsProvisioningParameterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsProvisioning
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsProvisioningParameterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsProvisioningParameterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsProvisioning
 	return nil
 }
 
-func validateNewSagemakerProjectServiceCatalogProvisioningDetailsProvisioningParameterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSagemakerProjectServiceCatalogProvisioningDetailsProvisioningParameterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

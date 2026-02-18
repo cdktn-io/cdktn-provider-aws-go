@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppmeshRouteSpecGrpcRouteActionWeightedTargetList) validateGe
 	return nil
 }
 
-func (a *jsiiProxy_AppmeshRouteSpecGrpcRouteActionWeightedTargetList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppmeshRouteSpecGrpcRouteActionWeightedTargetList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppmeshRouteSpecGrpcRouteActionWeightedTargetList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshRouteSpecGrpcRouteActionWeightedTargetList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppmeshRouteSpecGrpcRouteActionWeightedTargetList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppmeshRouteSpecGrpcRouteActionWeightedTargetList) validateSe
 	return nil
 }
 
-func validateNewAppmeshRouteSpecGrpcRouteActionWeightedTargetListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppmeshRouteSpecGrpcRouteActionWeightedTargetListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

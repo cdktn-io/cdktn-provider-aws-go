@@ -47,7 +47,7 @@ func (g *jsiiProxy_GluePartitionIndexPartitionIndexOutputReference) validateInte
 	return nil
 }
 
-func (g *jsiiProxy_GluePartitionIndexPartitionIndexOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GluePartitionIndexPartitionIndexOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GluePartitionIndexPartitionIndexOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_GluePartitionIndexPartitionIndexOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GluePartitionIndexPartitionIndexOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGluePartitionIndexPartitionIndexOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGluePartitionIndexPartitionIndexOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

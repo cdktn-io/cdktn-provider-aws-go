@@ -15,7 +15,7 @@ func (o *jsiiProxy_OdbCloudVmClusterIormConfigCacheDbPlansList) validateGetParam
 	return nil
 }
 
-func (o *jsiiProxy_OdbCloudVmClusterIormConfigCacheDbPlansList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OdbCloudVmClusterIormConfigCacheDbPlansList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_OdbCloudVmClusterIormConfigCacheDbPlansList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_OdbCloudVmClusterIormConfigCacheDbPlansList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OdbCloudVmClusterIormConfigCacheDbPlansList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_OdbCloudVmClusterIormConfigCacheDbPlansList) validateSetWraps
 	return nil
 }
 
-func validateNewOdbCloudVmClusterIormConfigCacheDbPlansListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOdbCloudVmClusterIormConfigCacheDbPlansListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

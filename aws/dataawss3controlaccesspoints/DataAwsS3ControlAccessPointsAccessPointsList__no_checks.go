@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsS3ControlAccessPointsAccessPointsList) validateGetPara
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsS3ControlAccessPointsAccessPointsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsS3ControlAccessPointsAccessPointsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsS3ControlAccessPointsAccessPointsList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsS3ControlAccessPointsAccessPointsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsS3ControlAccessPointsAccessPointsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsS3ControlAccessPointsAccessPointsList) validateSetWrap
 	return nil
 }
 
-func validateNewDataAwsS3ControlAccessPointsAccessPointsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsS3ControlAccessPointsAccessPointsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

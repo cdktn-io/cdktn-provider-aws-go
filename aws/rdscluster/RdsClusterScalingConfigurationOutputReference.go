@@ -5,14 +5,14 @@ package rdscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/rdscluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/rdscluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type RdsClusterScalingConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AutoPause() interface{}
 	SetAutoPause(val interface{})
 	AutoPauseInput() interface{}
@@ -52,9 +52,9 @@ type RdsClusterScalingConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TimeoutAction() *string
 	SetTimeoutAction(val *string)
 	TimeoutActionInput() *string
@@ -63,7 +63,7 @@ type RdsClusterScalingConfigurationOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,9 +79,9 @@ type RdsClusterScalingConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAutoPause()
 	ResetMaxCapacity()
 	ResetMinCapacity()
@@ -90,7 +90,7 @@ type RdsClusterScalingConfigurationOutputReference interface {
 	ResetTimeoutAction()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -100,7 +100,7 @@ type RdsClusterScalingConfigurationOutputReference interface {
 
 // The jsii proxy struct for RdsClusterScalingConfigurationOutputReference
 type jsiiProxy_RdsClusterScalingConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_RdsClusterScalingConfigurationOutputReference) AutoPause() interface{} {
@@ -263,8 +263,8 @@ func (j *jsiiProxy_RdsClusterScalingConfigurationOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_RdsClusterScalingConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_RdsClusterScalingConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -294,7 +294,7 @@ func (j *jsiiProxy_RdsClusterScalingConfigurationOutputReference) TimeoutActionI
 }
 
 
-func NewRdsClusterScalingConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) RdsClusterScalingConfigurationOutputReference {
+func NewRdsClusterScalingConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) RdsClusterScalingConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewRdsClusterScalingConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -311,7 +311,7 @@ func NewRdsClusterScalingConfigurationOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewRdsClusterScalingConfigurationOutputReference_Override(r RdsClusterScalingConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewRdsClusterScalingConfigurationOutputReference_Override(r RdsClusterScalingConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -420,7 +420,7 @@ func (j *jsiiProxy_RdsClusterScalingConfigurationOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_RdsClusterScalingConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_RdsClusterScalingConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -471,11 +471,11 @@ func (r *jsiiProxy_RdsClusterScalingConfigurationOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (r *jsiiProxy_RdsClusterScalingConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RdsClusterScalingConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -599,8 +599,8 @@ func (r *jsiiProxy_RdsClusterScalingConfigurationOutputReference) GetStringMapAt
 	return returns
 }
 
-func (r *jsiiProxy_RdsClusterScalingConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_RdsClusterScalingConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -612,11 +612,11 @@ func (r *jsiiProxy_RdsClusterScalingConfigurationOutputReference) InterpolationA
 	return returns
 }
 
-func (r *jsiiProxy_RdsClusterScalingConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RdsClusterScalingConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -676,7 +676,7 @@ func (r *jsiiProxy_RdsClusterScalingConfigurationOutputReference) ResetTimeoutAc
 	)
 }
 
-func (r *jsiiProxy_RdsClusterScalingConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_RdsClusterScalingConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiGatewayUsagePlanThrottleSettingsOutputReference) validateI
 	return nil
 }
 
-func (a *jsiiProxy_ApiGatewayUsagePlanThrottleSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiGatewayUsagePlanThrottleSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ApiGatewayUsagePlanThrottleSettingsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_ApiGatewayUsagePlanThrottleSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiGatewayUsagePlanThrottleSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApiGatewayUsagePlanThrottleSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiGatewayUsagePlanThrottleSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

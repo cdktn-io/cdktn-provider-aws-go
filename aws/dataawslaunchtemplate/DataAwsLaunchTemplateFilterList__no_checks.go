@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsLaunchTemplateFilterList) validateGetParameters(index 
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLaunchTemplateFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLaunchTemplateFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsLaunchTemplateFilterList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLaunchTemplateFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLaunchTemplateFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsLaunchTemplateFilterList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewDataAwsLaunchTemplateFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsLaunchTemplateFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

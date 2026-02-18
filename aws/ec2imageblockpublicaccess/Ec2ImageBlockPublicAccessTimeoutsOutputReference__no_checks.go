@@ -47,7 +47,7 @@ func (e *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) validateInt
 	return nil
 }
 
-func (e *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_Ec2ImageBlockPublicAccessTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func validateNewEc2ImageBlockPublicAccessTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEc2ImageBlockPublicAccessTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

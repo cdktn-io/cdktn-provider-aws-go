@@ -5,14 +5,14 @@ package mwaaenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/mwaaenvironment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/mwaaenvironment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CloudWatchLogGroupArn() *string
 	// the index of the complex object in a list.
 	// Experimental.
@@ -44,15 +44,15 @@ type MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -68,14 +68,14 @@ type MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEnabled()
 	ResetLogLevel()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference interface {
 
 // The jsii proxy struct for MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference
 type jsiiProxy_MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference) CloudWatchLogGroupArn() *string {
@@ -198,8 +198,8 @@ func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -209,7 +209,7 @@ func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference) T
 }
 
 
-func NewMwaaEnvironmentLoggingConfigurationTaskLogsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference {
+func NewMwaaEnvironmentLoggingConfigurationTaskLogsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMwaaEnvironmentLoggingConfigurationTaskLogsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -226,7 +226,7 @@ func NewMwaaEnvironmentLoggingConfigurationTaskLogsOutputReference(terraformReso
 	return &j
 }
 
-func NewMwaaEnvironmentLoggingConfigurationTaskLogsOutputReference_Override(m MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMwaaEnvironmentLoggingConfigurationTaskLogsOutputReference_Override(m MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -302,7 +302,7 @@ func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -342,11 +342,11 @@ func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference) G
 	return returns
 }
 
-func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -470,8 +470,8 @@ func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference) G
 	return returns
 }
 
-func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -483,11 +483,11 @@ func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference) I
 	return returns
 }
 
-func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -515,7 +515,7 @@ func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference) R
 	)
 }
 
-func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationTaskLogsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

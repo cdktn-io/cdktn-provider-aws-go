@@ -47,7 +47,7 @@ func (s *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutp
 	return nil
 }
 
-func (s *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutp
 	return nil
 }
 
-func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutp
 	return nil
 }
 
-func validateNewSsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsQuicksightAnalysis) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsQuicksightAnalysis) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsQuicksightAnalysis) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

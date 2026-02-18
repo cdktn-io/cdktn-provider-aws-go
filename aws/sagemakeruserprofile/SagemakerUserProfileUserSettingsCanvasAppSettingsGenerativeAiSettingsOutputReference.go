@@ -5,14 +5,14 @@ package sagemakeruserprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/sagemakeruserprofile/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/sagemakeruserprofile/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AmazonBedrockRoleArn() *string
 	SetAmazonBedrockRoleArn(val *string)
 	AmazonBedrockRoleArnInput() *string
@@ -40,15 +40,15 @@ type SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutput
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutput
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAmazonBedrockRoleArn()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutput
 
 // The jsii proxy struct for SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference
 type jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference) AmazonBedrockRoleArn() *string {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAi
 	return returns
 }
 
-func (j *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAi
 }
 
 
-func NewSagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference {
+func NewSagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewSagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOut
 	return &j
 }
 
-func NewSagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference_Override(s SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference_Override(s SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAi
 	)
 }
 
-func (j *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (s *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAi
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -424,8 +424,8 @@ func (s *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAi
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -437,11 +437,11 @@ func (s *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAi
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -461,7 +461,7 @@ func (s *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAi
 	)
 }
 
-func (s *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -135,7 +135,7 @@ func (j *jsiiProxy_AmiCopy) validateSetKmsKeyIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_AmiCopy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AmiCopy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

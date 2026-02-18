@@ -47,7 +47,7 @@ func (a *jsiiProxy_AthenaPreparedStatementTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (a *jsiiProxy_AthenaPreparedStatementTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AthenaPreparedStatementTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_AthenaPreparedStatementTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_AthenaPreparedStatementTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AthenaPreparedStatementTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_AthenaPreparedStatementTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewAthenaPreparedStatementTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAthenaPreparedStatementTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package dataawscetags
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawscetags/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawscetags/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsCeTagsFilterOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	And() DataAwsCeTagsFilterAndList
 	AndInput() interface{}
 	// the index of the complex object in a list.
@@ -49,15 +49,15 @@ type DataAwsCeTagsFilterOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,9 +73,9 @@ type DataAwsCeTagsFilterOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAnd(value interface{})
 	PutCostCategory(value *DataAwsCeTagsFilterCostCategory)
 	PutDimension(value *DataAwsCeTagsFilterDimension)
@@ -90,7 +90,7 @@ type DataAwsCeTagsFilterOutputReference interface {
 	ResetTags()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -100,7 +100,7 @@ type DataAwsCeTagsFilterOutputReference interface {
 
 // The jsii proxy struct for DataAwsCeTagsFilterOutputReference
 type jsiiProxy_DataAwsCeTagsFilterOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsCeTagsFilterOutputReference) And() DataAwsCeTagsFilterAndList {
@@ -283,8 +283,8 @@ func (j *jsiiProxy_DataAwsCeTagsFilterOutputReference) TerraformAttribute() *str
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsCeTagsFilterOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsCeTagsFilterOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -294,7 +294,7 @@ func (j *jsiiProxy_DataAwsCeTagsFilterOutputReference) TerraformResource() cdktf
 }
 
 
-func NewDataAwsCeTagsFilterOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataAwsCeTagsFilterOutputReference {
+func NewDataAwsCeTagsFilterOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataAwsCeTagsFilterOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsCeTagsFilterOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -311,7 +311,7 @@ func NewDataAwsCeTagsFilterOutputReference(terraformResource cdktf.IInterpolatin
 	return &j
 }
 
-func NewDataAwsCeTagsFilterOutputReference_Override(d DataAwsCeTagsFilterOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataAwsCeTagsFilterOutputReference_Override(d DataAwsCeTagsFilterOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -365,7 +365,7 @@ func (j *jsiiProxy_DataAwsCeTagsFilterOutputReference)SetTerraformAttribute(val 
 	)
 }
 
-func (j *jsiiProxy_DataAwsCeTagsFilterOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsCeTagsFilterOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -405,11 +405,11 @@ func (d *jsiiProxy_DataAwsCeTagsFilterOutputReference) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsCeTagsFilterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsCeTagsFilterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -533,8 +533,8 @@ func (d *jsiiProxy_DataAwsCeTagsFilterOutputReference) GetStringMapAttribute(ter
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsCeTagsFilterOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsCeTagsFilterOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -546,11 +546,11 @@ func (d *jsiiProxy_DataAwsCeTagsFilterOutputReference) InterpolationAsList() cdk
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsCeTagsFilterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsCeTagsFilterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -676,7 +676,7 @@ func (d *jsiiProxy_DataAwsCeTagsFilterOutputReference) ResetTags() {
 	)
 }
 
-func (d *jsiiProxy_DataAwsCeTagsFilterOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsCeTagsFilterOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

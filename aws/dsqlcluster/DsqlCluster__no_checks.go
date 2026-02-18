@@ -119,7 +119,7 @@ func (j *jsiiProxy_DsqlCluster) validateSetKmsEncryptionKeyParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_DsqlCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DsqlCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

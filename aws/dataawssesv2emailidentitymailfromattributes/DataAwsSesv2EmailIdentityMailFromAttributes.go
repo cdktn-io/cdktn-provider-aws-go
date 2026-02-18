@@ -5,19 +5,19 @@ package dataawssesv2emailidentitymailfromattributes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawssesv2emailidentitymailfromattributes/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawssesv2emailidentitymailfromattributes/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/sesv2_email_identity_mail_from_attributes aws_sesv2_email_identity_mail_from_attributes}.
 type DataAwsSesv2EmailIdentityMailFromAttributes interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	BehaviorOnMxFailure() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type DataAwsSesv2EmailIdentityMailFromAttributes interface {
 	SetEmailIdentity(val *string)
 	EmailIdentityInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -43,23 +43,23 @@ type DataAwsSesv2EmailIdentityMailFromAttributes interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MailFromDomain() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -69,7 +69,7 @@ type DataAwsSesv2EmailIdentityMailFromAttributes interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -85,7 +85,7 @@ type DataAwsSesv2EmailIdentityMailFromAttributes interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -110,7 +110,7 @@ type DataAwsSesv2EmailIdentityMailFromAttributes interface {
 
 // The jsii proxy struct for DataAwsSesv2EmailIdentityMailFromAttributes
 type jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) BehaviorOnMxFailure() *string {
@@ -123,8 +123,8 @@ func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) BehaviorOnMxFail
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -183,8 +183,8 @@ func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) EmailIdentityInp
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -233,8 +233,8 @@ func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) IdInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -263,8 +263,8 @@ func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) Node() construct
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -303,8 +303,8 @@ func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) RegionInput() *s
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -393,7 +393,7 @@ func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes)SetEmailIdentity(
 	)
 }
 
-func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -412,7 +412,7 @@ func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes)SetId(val *string
 	)
 }
 
-func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -423,7 +423,7 @@ func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes)SetLifecycle(val 
 	)
 }
 
-func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -442,14 +442,14 @@ func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes)SetRegion(val *st
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsSesv2EmailIdentityMailFromAttributes resource upon running "cdktf plan <stack-name>".
-func DataAwsSesv2EmailIdentityMailFromAttributes_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsSesv2EmailIdentityMailFromAttributes resource upon running "cdktn plan <stack-name>".
+func DataAwsSesv2EmailIdentityMailFromAttributes_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsSesv2EmailIdentityMailFromAttributes_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsSesv2EmailIdentityMailFromAttributes.DataAwsSesv2EmailIdentityMailFromAttributes",
@@ -572,11 +572,11 @@ func (d *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) GetAnyMapAttribu
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -700,11 +700,11 @@ func (d *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) GetStringMapAttr
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsOrganizationsDelegatedAdministrators) validateSetIdPar
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOrganizationsDelegatedAdministrators) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsOrganizationsDelegatedAdministrators) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

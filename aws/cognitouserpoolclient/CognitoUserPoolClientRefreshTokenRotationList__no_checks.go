@@ -15,7 +15,7 @@ func (c *jsiiProxy_CognitoUserPoolClientRefreshTokenRotationList) validateGetPar
 	return nil
 }
 
-func (c *jsiiProxy_CognitoUserPoolClientRefreshTokenRotationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CognitoUserPoolClientRefreshTokenRotationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CognitoUserPoolClientRefreshTokenRotationList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_CognitoUserPoolClientRefreshTokenRotationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CognitoUserPoolClientRefreshTokenRotationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CognitoUserPoolClientRefreshTokenRotationList) validateSetWra
 	return nil
 }
 
-func validateNewCognitoUserPoolClientRefreshTokenRotationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCognitoUserPoolClientRefreshTokenRotationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

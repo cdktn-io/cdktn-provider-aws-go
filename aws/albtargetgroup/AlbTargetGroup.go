@@ -5,20 +5,20 @@ package albtargetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/albtargetgroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/albtargetgroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/alb_target_group aws_alb_target_group}.
 type AlbTargetGroup interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	ArnSuffix() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -40,9 +40,9 @@ type AlbTargetGroup interface {
 	SetDeregistrationDelay(val *string)
 	DeregistrationDelayInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -59,9 +59,9 @@ type AlbTargetGroup interface {
 	SetLambdaMultiValueHeadersEnabled(val interface{})
 	LambdaMultiValueHeadersEnabledInput() interface{}
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LoadBalancerArns() *[]*string
 	LoadBalancingAlgorithmType() *string
 	SetLoadBalancingAlgorithmType(val *string)
@@ -93,9 +93,9 @@ type AlbTargetGroup interface {
 	SetProtocolVersion(val *string)
 	ProtocolVersionInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -132,7 +132,7 @@ type AlbTargetGroup interface {
 	SetTargetType(val *string)
 	TargetTypeInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -148,7 +148,7 @@ type AlbTargetGroup interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -166,9 +166,9 @@ type AlbTargetGroup interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -233,7 +233,7 @@ type AlbTargetGroup interface {
 
 // The jsii proxy struct for AlbTargetGroup
 type jsiiProxy_AlbTargetGroup struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_AlbTargetGroup) Arn() *string {
@@ -256,8 +256,8 @@ func (j *jsiiProxy_AlbTargetGroup) ArnSuffix() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AlbTargetGroup) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_AlbTargetGroup) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -346,8 +346,8 @@ func (j *jsiiProxy_AlbTargetGroup) DeregistrationDelayInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AlbTargetGroup) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_AlbTargetGroup) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -456,8 +456,8 @@ func (j *jsiiProxy_AlbTargetGroup) LambdaMultiValueHeadersEnabledInput() interfa
 	return returns
 }
 
-func (j *jsiiProxy_AlbTargetGroup) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_AlbTargetGroup) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -666,8 +666,8 @@ func (j *jsiiProxy_AlbTargetGroup) ProtocolVersionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AlbTargetGroup) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_AlbTargetGroup) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -916,8 +916,8 @@ func (j *jsiiProxy_AlbTargetGroup) TargetTypeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AlbTargetGroup) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_AlbTargetGroup) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1048,7 +1048,7 @@ func (j *jsiiProxy_AlbTargetGroup)SetDeregistrationDelay(val *string) {
 	)
 }
 
-func (j *jsiiProxy_AlbTargetGroup)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_AlbTargetGroup)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1089,7 +1089,7 @@ func (j *jsiiProxy_AlbTargetGroup)SetLambdaMultiValueHeadersEnabled(val interfac
 	)
 }
 
-func (j *jsiiProxy_AlbTargetGroup)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_AlbTargetGroup)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1199,7 +1199,7 @@ func (j *jsiiProxy_AlbTargetGroup)SetProtocolVersion(val *string) {
 	)
 }
 
-func (j *jsiiProxy_AlbTargetGroup)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_AlbTargetGroup)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1306,14 +1306,14 @@ func (j *jsiiProxy_AlbTargetGroup)SetVpcId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a AlbTargetGroup resource upon running "cdktf plan <stack-name>".
-func AlbTargetGroup_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a AlbTargetGroup resource upon running "cdktn plan <stack-name>".
+func AlbTargetGroup_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateAlbTargetGroup_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.albTargetGroup.AlbTargetGroup",
@@ -1447,11 +1447,11 @@ func (a *jsiiProxy_AlbTargetGroup) GetAnyMapAttribute(terraformAttribute *string
 	return returns
 }
 
-func (a *jsiiProxy_AlbTargetGroup) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AlbTargetGroup) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1588,7 +1588,7 @@ func (a *jsiiProxy_AlbTargetGroup) HasResourceMove() interface{} {
 	return returns
 }
 
-func (a *jsiiProxy_AlbTargetGroup) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_AlbTargetGroup) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1599,11 +1599,11 @@ func (a *jsiiProxy_AlbTargetGroup) ImportFrom(id *string, provider cdktf.Terrafo
 	)
 }
 
-func (a *jsiiProxy_AlbTargetGroup) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AlbTargetGroup) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

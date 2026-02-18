@@ -5,21 +5,21 @@ package networkmanagertransitgatewayroutetableattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/networkmanagertransitgatewayroutetableattachment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/networkmanagertransitgatewayroutetableattachment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/networkmanager_transit_gateway_route_table_attachment aws_networkmanager_transit_gateway_route_table_attachment}.
 type NetworkmanagerTransitGatewayRouteTableAttachment interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	AttachmentPolicyRuleNumber() *float64
 	AttachmentType() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type NetworkmanagerTransitGatewayRouteTableAttachment interface {
 	SetDependsOn(val *[]*string)
 	EdgeLocation() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,9 +49,9 @@ type NetworkmanagerTransitGatewayRouteTableAttachment interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	OwnerAccountId() *string
@@ -59,9 +59,9 @@ type NetworkmanagerTransitGatewayRouteTableAttachment interface {
 	SetPeeringId(val *string)
 	PeeringIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -81,7 +81,7 @@ type NetworkmanagerTransitGatewayRouteTableAttachment interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -99,7 +99,7 @@ type NetworkmanagerTransitGatewayRouteTableAttachment interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -117,9 +117,9 @@ type NetworkmanagerTransitGatewayRouteTableAttachment interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -158,7 +158,7 @@ type NetworkmanagerTransitGatewayRouteTableAttachment interface {
 
 // The jsii proxy struct for NetworkmanagerTransitGatewayRouteTableAttachment
 type jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) Arn() *string {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) AttachmentT
 	return returns
 }
 
-func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -271,8 +271,8 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) EdgeLocatio
 	return returns
 }
 
-func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -321,8 +321,8 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) IdInput() *
 	return returns
 }
 
-func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -371,8 +371,8 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) PeeringIdIn
 	return returns
 }
 
-func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -491,8 +491,8 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) TagsInput()
 	return returns
 }
 
-func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -621,7 +621,7 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment)SetDependsOn
 	)
 }
 
-func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -640,7 +640,7 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment)SetId(val *s
 	)
 }
 
-func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -662,7 +662,7 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment)SetPeeringId
 	)
 }
 
-func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -725,14 +725,14 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment)SetTransitGa
 	)
 }
 
-// Generates CDKTF code for importing a NetworkmanagerTransitGatewayRouteTableAttachment resource upon running "cdktf plan <stack-name>".
-func NetworkmanagerTransitGatewayRouteTableAttachment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a NetworkmanagerTransitGatewayRouteTableAttachment resource upon running "cdktn plan <stack-name>".
+func NetworkmanagerTransitGatewayRouteTableAttachment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateNetworkmanagerTransitGatewayRouteTableAttachment_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.networkmanagerTransitGatewayRouteTableAttachment.NetworkmanagerTransitGatewayRouteTableAttachment",
@@ -866,11 +866,11 @@ func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) GetAnyMapAt
 	return returns
 }
 
-func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -1007,7 +1007,7 @@ func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) HasResource
 	return returns
 }
 
-func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := n.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1018,11 +1018,11 @@ func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) ImportFrom(
 	)
 }
 
-func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,

@@ -5,14 +5,14 @@ package observabilityadmincentralizationrulefororganization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/observabilityadmincentralizationrulefororganization/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/observabilityadmincentralizationrulefororganization/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Account() *string
 	SetAccount(val *string)
 	AccountInput() *string
@@ -45,15 +45,15 @@ type ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputRef
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,14 +69,14 @@ type ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputRef
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDestinationLogsConfiguration(value interface{})
 	ResetDestinationLogsConfiguration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputRef
 
 // The jsii proxy struct for ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference
 type jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference) Account() *string {
@@ -209,8 +209,8 @@ func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestin
 	return returns
 }
 
-func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestin
 }
 
 
-func NewObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference {
+func NewObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -237,7 +237,7 @@ func NewObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutput
 	return &j
 }
 
-func NewObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference_Override(o ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference_Override(o ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -313,7 +313,7 @@ func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestin
 	)
 }
 
-func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -353,11 +353,11 @@ func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestin
 	return returns
 }
 
-func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -481,8 +481,8 @@ func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestin
 	return returns
 }
 
-func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -494,11 +494,11 @@ func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestin
 	return returns
 }
 
-func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -529,7 +529,7 @@ func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestin
 	)
 }
 
-func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

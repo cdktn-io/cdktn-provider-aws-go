@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsVerifiedpermissionsPolicyStoreValidationSettingsList) 
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsVerifiedpermissionsPolicyStoreValidationSettingsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsVerifiedpermissionsPolicyStoreValidationSettingsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsVerifiedpermissionsPolicyStoreValidationSettingsList) 
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVerifiedpermissionsPolicyStoreValidationSettingsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsVerifiedpermissionsPolicyStoreValidationSettingsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsVerifiedpermissionsPolicyStoreValidationSettingsList) 
 	return nil
 }
 
-func validateNewDataAwsVerifiedpermissionsPolicyStoreValidationSettingsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsVerifiedpermissionsPolicyStoreValidationSettingsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

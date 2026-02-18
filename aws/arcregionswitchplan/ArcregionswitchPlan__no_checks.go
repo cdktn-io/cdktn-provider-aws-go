@@ -123,7 +123,7 @@ func (j *jsiiProxy_ArcregionswitchPlan) validateSetExecutionRoleParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_ArcregionswitchPlan) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ArcregionswitchPlan) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

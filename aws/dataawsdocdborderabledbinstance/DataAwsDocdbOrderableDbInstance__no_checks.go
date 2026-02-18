@@ -95,7 +95,7 @@ func (j *jsiiProxy_DataAwsDocdbOrderableDbInstance) validateSetLicenseModelParam
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDocdbOrderableDbInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsDocdbOrderableDbInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

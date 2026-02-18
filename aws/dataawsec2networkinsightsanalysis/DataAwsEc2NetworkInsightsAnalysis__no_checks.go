@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

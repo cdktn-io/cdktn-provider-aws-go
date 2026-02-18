@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (f *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (f *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) validatePutClientC
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*FsxOpenzfsVolumeNfsExportsClientConfigurations:
 		value := value.(*[]*FsxOpenzfsVolumeNfsExportsClientConfigurations)
@@ -117,14 +117,14 @@ func (f *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) validatePutClientC
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*FsxOpenzfsVolumeNfsExportsClientConfigurations; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*FsxOpenzfsVolumeNfsExportsClientConfigurations; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (f *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -213,7 +213,7 @@ func (j *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -221,7 +221,7 @@ func (j *jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference) validateSetTerrafo
 	return nil
 }
 
-func validateNewFsxOpenzfsVolumeNfsExportsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFsxOpenzfsVolumeNfsExportsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

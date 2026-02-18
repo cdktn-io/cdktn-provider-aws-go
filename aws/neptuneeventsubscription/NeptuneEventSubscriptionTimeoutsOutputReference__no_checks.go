@@ -47,7 +47,7 @@ func (n *jsiiProxy_NeptuneEventSubscriptionTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (n *jsiiProxy_NeptuneEventSubscriptionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NeptuneEventSubscriptionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_NeptuneEventSubscriptionTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_NeptuneEventSubscriptionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NeptuneEventSubscriptionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_NeptuneEventSubscriptionTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewNeptuneEventSubscriptionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNeptuneEventSubscriptionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

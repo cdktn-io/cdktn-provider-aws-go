@@ -111,7 +111,7 @@ func (j *jsiiProxy_CodeartifactDomainPermissionsPolicy) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_CodeartifactDomainPermissionsPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CodeartifactDomainPermissionsPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

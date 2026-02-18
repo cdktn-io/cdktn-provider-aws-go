@@ -5,31 +5,31 @@ package dataawsec2instancetype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsec2instancetype/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsec2instancetype/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/ec2_instance_type aws_ec2_instance_type}.
 type DataAwsEc2InstanceType interface {
-	cdktf.TerraformDataSource
-	AutoRecoverySupported() cdktf.IResolvable
+	cdktn.TerraformDataSource
+	AutoRecoverySupported() cdktn.IResolvable
 	BandwidthWeightings() *[]*string
-	BareMetal() cdktf.IResolvable
+	BareMetal() cdktn.IResolvable
 	BootModes() *[]*string
-	BurstablePerformanceSupported() cdktf.IResolvable
+	BurstablePerformanceSupported() cdktn.IResolvable
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
-	CurrentGeneration() cdktf.IResolvable
-	DedicatedHostsSupported() cdktf.IResolvable
+	CurrentGeneration() cdktn.IResolvable
+	DedicatedHostsSupported() cdktn.IResolvable
 	DefaultCores() *float64
 	DefaultNetworkCardIndex() *float64
 	DefaultThreadsPerCore() *float64
@@ -48,37 +48,37 @@ type DataAwsEc2InstanceType interface {
 	EbsPerformanceMaximumIops() *float64
 	EbsPerformanceMaximumThroughput() *float64
 	EfaMaximumInterfaces() *float64
-	EfaSupported() cdktf.IResolvable
-	EnaSrdSupported() cdktf.IResolvable
+	EfaSupported() cdktn.IResolvable
+	EnaSrdSupported() cdktn.IResolvable
 	EnaSupport() *string
-	EncryptionInTransitSupported() cdktf.IResolvable
+	EncryptionInTransitSupported() cdktn.IResolvable
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	Fpgas() DataAwsEc2InstanceTypeFpgasList
 	// Experimental.
 	Fqn() *string
-	FreeTierEligible() cdktf.IResolvable
+	FreeTierEligible() cdktn.IResolvable
 	// Experimental.
 	FriendlyUniqueId() *string
 	Gpus() DataAwsEc2InstanceTypeGpusList
-	HibernationSupported() cdktf.IResolvable
+	HibernationSupported() cdktn.IResolvable
 	Hypervisor() *string
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
 	InferenceAccelerators() DataAwsEc2InstanceTypeInferenceAcceleratorsList
 	InstanceDisks() DataAwsEc2InstanceTypeInstanceDisksList
-	InstanceStorageSupported() cdktf.IResolvable
+	InstanceStorageSupported() cdktn.IResolvable
 	InstanceType() *string
 	SetInstanceType(val *string)
 	InstanceTypeInput() *string
-	Ipv6Supported() cdktf.IResolvable
+	Ipv6Supported() cdktn.IResolvable
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MaximumIpv4AddressesPerInterface() *float64
 	MaximumIpv6AddressesPerInterface() *float64
 	MaximumNetworkCards() *float64
@@ -95,9 +95,9 @@ type DataAwsEc2InstanceType interface {
 	Node() constructs.Node
 	PhcSupport() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -111,7 +111,7 @@ type DataAwsEc2InstanceType interface {
 	SupportedVirtualizationTypes() *[]*string
 	SustainedClockSpeed() *float64
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -131,7 +131,7 @@ type DataAwsEc2InstanceType interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -147,7 +147,7 @@ type DataAwsEc2InstanceType interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -174,11 +174,11 @@ type DataAwsEc2InstanceType interface {
 
 // The jsii proxy struct for DataAwsEc2InstanceType
 type jsiiProxy_DataAwsEc2InstanceType struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceType) AutoRecoverySupported() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsEc2InstanceType) AutoRecoverySupported() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"autoRecoverySupported",
@@ -197,8 +197,8 @@ func (j *jsiiProxy_DataAwsEc2InstanceType) BandwidthWeightings() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceType) BareMetal() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsEc2InstanceType) BareMetal() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"bareMetal",
@@ -217,8 +217,8 @@ func (j *jsiiProxy_DataAwsEc2InstanceType) BootModes() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceType) BurstablePerformanceSupported() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsEc2InstanceType) BurstablePerformanceSupported() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"burstablePerformanceSupported",
@@ -227,8 +227,8 @@ func (j *jsiiProxy_DataAwsEc2InstanceType) BurstablePerformanceSupported() cdktf
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceType) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsEc2InstanceType) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -257,8 +257,8 @@ func (j *jsiiProxy_DataAwsEc2InstanceType) Count() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceType) CurrentGeneration() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsEc2InstanceType) CurrentGeneration() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"currentGeneration",
@@ -267,8 +267,8 @@ func (j *jsiiProxy_DataAwsEc2InstanceType) CurrentGeneration() cdktf.IResolvable
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceType) DedicatedHostsSupported() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsEc2InstanceType) DedicatedHostsSupported() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"dedicatedHostsSupported",
@@ -427,8 +427,8 @@ func (j *jsiiProxy_DataAwsEc2InstanceType) EfaMaximumInterfaces() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceType) EfaSupported() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsEc2InstanceType) EfaSupported() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"efaSupported",
@@ -437,8 +437,8 @@ func (j *jsiiProxy_DataAwsEc2InstanceType) EfaSupported() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceType) EnaSrdSupported() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsEc2InstanceType) EnaSrdSupported() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enaSrdSupported",
@@ -457,8 +457,8 @@ func (j *jsiiProxy_DataAwsEc2InstanceType) EnaSupport() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceType) EncryptionInTransitSupported() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsEc2InstanceType) EncryptionInTransitSupported() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"encryptionInTransitSupported",
@@ -467,8 +467,8 @@ func (j *jsiiProxy_DataAwsEc2InstanceType) EncryptionInTransitSupported() cdktf.
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceType) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsEc2InstanceType) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -497,8 +497,8 @@ func (j *jsiiProxy_DataAwsEc2InstanceType) Fqn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceType) FreeTierEligible() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsEc2InstanceType) FreeTierEligible() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"freeTierEligible",
@@ -527,8 +527,8 @@ func (j *jsiiProxy_DataAwsEc2InstanceType) Gpus() DataAwsEc2InstanceTypeGpusList
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceType) HibernationSupported() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsEc2InstanceType) HibernationSupported() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"hibernationSupported",
@@ -587,8 +587,8 @@ func (j *jsiiProxy_DataAwsEc2InstanceType) InstanceDisks() DataAwsEc2InstanceTyp
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceType) InstanceStorageSupported() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsEc2InstanceType) InstanceStorageSupported() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"instanceStorageSupported",
@@ -617,8 +617,8 @@ func (j *jsiiProxy_DataAwsEc2InstanceType) InstanceTypeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceType) Ipv6Supported() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsEc2InstanceType) Ipv6Supported() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"ipv6Supported",
@@ -627,8 +627,8 @@ func (j *jsiiProxy_DataAwsEc2InstanceType) Ipv6Supported() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceType) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsEc2InstanceType) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -777,8 +777,8 @@ func (j *jsiiProxy_DataAwsEc2InstanceType) PhcSupport() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceType) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsEc2InstanceType) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -887,8 +887,8 @@ func (j *jsiiProxy_DataAwsEc2InstanceType) SustainedClockSpeed() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceType) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsEc2InstanceType) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1066,7 +1066,7 @@ func (j *jsiiProxy_DataAwsEc2InstanceType)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceType)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsEc2InstanceType)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1096,7 +1096,7 @@ func (j *jsiiProxy_DataAwsEc2InstanceType)SetInstanceType(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceType)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsEc2InstanceType)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1107,7 +1107,7 @@ func (j *jsiiProxy_DataAwsEc2InstanceType)SetLifecycle(val *cdktf.TerraformResou
 	)
 }
 
-func (j *jsiiProxy_DataAwsEc2InstanceType)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsEc2InstanceType)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1126,14 +1126,14 @@ func (j *jsiiProxy_DataAwsEc2InstanceType)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsEc2InstanceType resource upon running "cdktf plan <stack-name>".
-func DataAwsEc2InstanceType_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsEc2InstanceType resource upon running "cdktn plan <stack-name>".
+func DataAwsEc2InstanceType_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsEc2InstanceType_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsEc2InstanceType.DataAwsEc2InstanceType",
@@ -1256,11 +1256,11 @@ func (d *jsiiProxy_DataAwsEc2InstanceType) GetAnyMapAttribute(terraformAttribute
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEc2InstanceType) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEc2InstanceType) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1384,11 +1384,11 @@ func (d *jsiiProxy_DataAwsEc2InstanceType) GetStringMapAttribute(terraformAttrib
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEc2InstanceType) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEc2InstanceType) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

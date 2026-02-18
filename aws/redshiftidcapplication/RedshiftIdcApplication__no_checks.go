@@ -127,7 +127,7 @@ func (j *jsiiProxy_RedshiftIdcApplication) validateSetIdentityNamespaceParameter
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftIdcApplication) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RedshiftIdcApplication) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

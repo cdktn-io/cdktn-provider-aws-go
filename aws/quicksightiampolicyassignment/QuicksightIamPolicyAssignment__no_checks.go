@@ -115,7 +115,7 @@ func (j *jsiiProxy_QuicksightIamPolicyAssignment) validateSetCountParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightIamPolicyAssignment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_QuicksightIamPolicyAssignment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsLaunchTemplateCapacityReservationSpecificationList) va
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLaunchTemplateCapacityReservationSpecificationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLaunchTemplateCapacityReservationSpecificationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsLaunchTemplateCapacityReservationSpecificationList) va
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLaunchTemplateCapacityReservationSpecificationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLaunchTemplateCapacityReservationSpecificationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsLaunchTemplateCapacityReservationSpecificationList) va
 	return nil
 }
 
-func validateNewDataAwsLaunchTemplateCapacityReservationSpecificationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsLaunchTemplateCapacityReservationSpecificationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

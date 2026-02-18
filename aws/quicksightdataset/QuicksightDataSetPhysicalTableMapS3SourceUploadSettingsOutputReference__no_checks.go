@@ -47,7 +47,7 @@ func (q *jsiiProxy_QuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutput
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutput
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_QuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutput
 	return nil
 }
 
-func validateNewQuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewQuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

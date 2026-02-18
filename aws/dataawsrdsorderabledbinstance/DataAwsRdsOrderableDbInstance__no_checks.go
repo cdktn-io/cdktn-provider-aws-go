@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataAwsRdsOrderableDbInstance) validateSetLicenseModelParamet
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRdsOrderableDbInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsRdsOrderableDbInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

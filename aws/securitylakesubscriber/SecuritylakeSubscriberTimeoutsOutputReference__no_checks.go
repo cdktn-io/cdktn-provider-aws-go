@@ -47,7 +47,7 @@ func (s *jsiiProxy_SecuritylakeSubscriberTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (s *jsiiProxy_SecuritylakeSubscriberTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecuritylakeSubscriberTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SecuritylakeSubscriberTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_SecuritylakeSubscriberTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecuritylakeSubscriberTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_SecuritylakeSubscriberTimeoutsOutputReference) validateSetUpd
 	return nil
 }
 
-func validateNewSecuritylakeSubscriberTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSecuritylakeSubscriberTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

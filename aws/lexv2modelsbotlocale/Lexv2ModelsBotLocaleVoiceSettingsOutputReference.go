@@ -5,14 +5,14 @@ package lexv2modelsbotlocale
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lexv2modelsbotlocale/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lexv2modelsbotlocale/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Lexv2ModelsBotLocaleVoiceSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type Lexv2ModelsBotLocaleVoiceSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VoiceId() *string
 	SetVoiceId(val *string)
 	VoiceIdInput() *string
@@ -51,7 +51,7 @@ type Lexv2ModelsBotLocaleVoiceSettingsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type Lexv2ModelsBotLocaleVoiceSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEngine()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type Lexv2ModelsBotLocaleVoiceSettingsOutputReference interface {
 
 // The jsii proxy struct for Lexv2ModelsBotLocaleVoiceSettingsOutputReference
 type jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) ComplexObjectIndex() interface{} {
@@ -166,8 +166,8 @@ func (j *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) VoiceIdInpu
 }
 
 
-func NewLexv2ModelsBotLocaleVoiceSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Lexv2ModelsBotLocaleVoiceSettingsOutputReference {
+func NewLexv2ModelsBotLocaleVoiceSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Lexv2ModelsBotLocaleVoiceSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLexv2ModelsBotLocaleVoiceSettingsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -214,7 +214,7 @@ func NewLexv2ModelsBotLocaleVoiceSettingsOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewLexv2ModelsBotLocaleVoiceSettingsOutputReference_Override(l Lexv2ModelsBotLocaleVoiceSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewLexv2ModelsBotLocaleVoiceSettingsOutputReference_Override(l Lexv2ModelsBotLocaleVoiceSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -279,7 +279,7 @@ func (j *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (l *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (l *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -458,8 +458,8 @@ func (l *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) GetStringMa
 	return returns
 }
 
-func (l *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -471,11 +471,11 @@ func (l *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) Interpolati
 	return returns
 }
 
-func (l *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -495,7 +495,7 @@ func (l *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) ResetEngine
 	)
 }
 
-func (l *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_Lexv2ModelsBotLocaleVoiceSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -51,7 +51,7 @@ func (f *jsiiProxy_FsxFileCacheDataRepositoryAssociationOutputReference) validat
 	return nil
 }
 
-func (f *jsiiProxy_FsxFileCacheDataRepositoryAssociationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FsxFileCacheDataRepositoryAssociationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_FsxFileCacheDataRepositoryAssociationOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_FsxFileCacheDataRepositoryAssociationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FsxFileCacheDataRepositoryAssociationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFsxFileCacheDataRepositoryAssociationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFsxFileCacheDataRepositoryAssociationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

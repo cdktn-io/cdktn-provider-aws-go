@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (w *jsiiProxy_Wafv2RuleGroupRuleOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -120,7 +120,7 @@ func (w *jsiiProxy_Wafv2RuleGroupRuleOutputReference) validatePutRuleLabelParame
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Wafv2RuleGroupRuleRuleLabel:
 		value := value.(*[]*Wafv2RuleGroupRuleRuleLabel)
@@ -139,7 +139,7 @@ func (w *jsiiProxy_Wafv2RuleGroupRuleOutputReference) validatePutRuleLabelParame
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Wafv2RuleGroupRuleRuleLabel; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Wafv2RuleGroupRuleRuleLabel; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -157,7 +157,7 @@ func (w *jsiiProxy_Wafv2RuleGroupRuleOutputReference) validatePutVisibilityConfi
 	return nil
 }
 
-func (w *jsiiProxy_Wafv2RuleGroupRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_Wafv2RuleGroupRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -232,7 +232,7 @@ func (j *jsiiProxy_Wafv2RuleGroupRuleOutputReference) validateSetComplexObjectIs
 
 func (j *jsiiProxy_Wafv2RuleGroupRuleOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *Wafv2RuleGroupRule:
 		val := val.(*Wafv2RuleGroupRule)
@@ -247,7 +247,7 @@ func (j *jsiiProxy_Wafv2RuleGroupRuleOutputReference) validateSetInternalValuePa
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *Wafv2RuleGroupRule; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *Wafv2RuleGroupRule; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -286,7 +286,7 @@ func (j *jsiiProxy_Wafv2RuleGroupRuleOutputReference) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_Wafv2RuleGroupRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Wafv2RuleGroupRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -294,7 +294,7 @@ func (j *jsiiProxy_Wafv2RuleGroupRuleOutputReference) validateSetTerraformResour
 	return nil
 }
 
-func validateNewWafv2RuleGroupRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWafv2RuleGroupRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

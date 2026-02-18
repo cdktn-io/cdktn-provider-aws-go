@@ -51,7 +51,7 @@ func (l *jsiiProxy_LbListenerRuleTransformUrlRewriteConfigOutputReference) valid
 	return nil
 }
 
-func (l *jsiiProxy_LbListenerRuleTransformUrlRewriteConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LbListenerRuleTransformUrlRewriteConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_LbListenerRuleTransformUrlRewriteConfigOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_LbListenerRuleTransformUrlRewriteConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LbListenerRuleTransformUrlRewriteConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLbListenerRuleTransformUrlRewriteConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLbListenerRuleTransformUrlRewriteConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

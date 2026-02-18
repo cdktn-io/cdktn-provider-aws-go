@@ -131,7 +131,7 @@ func (j *jsiiProxy_EmrStudio) validateSetIdpRelayStateParameterNameParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_EmrStudio) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EmrStudio) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

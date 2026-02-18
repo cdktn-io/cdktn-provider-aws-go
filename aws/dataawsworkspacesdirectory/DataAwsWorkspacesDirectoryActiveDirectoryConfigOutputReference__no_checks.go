@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsWorkspacesDirectoryActiveDirectoryConfigOutputReferenc
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsWorkspacesDirectoryActiveDirectoryConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsWorkspacesDirectoryActiveDirectoryConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsWorkspacesDirectoryActiveDirectoryConfigOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsWorkspacesDirectoryActiveDirectoryConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsWorkspacesDirectoryActiveDirectoryConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsWorkspacesDirectoryActiveDirectoryConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsWorkspacesDirectoryActiveDirectoryConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

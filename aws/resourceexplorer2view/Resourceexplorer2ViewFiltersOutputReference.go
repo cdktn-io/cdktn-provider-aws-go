@@ -5,14 +5,14 @@ package resourceexplorer2view
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/resourceexplorer2view/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/resourceexplorer2view/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Resourceexplorer2ViewFiltersOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type Resourceexplorer2ViewFiltersOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type Resourceexplorer2ViewFiltersOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type Resourceexplorer2ViewFiltersOutputReference interface {
 
 // The jsii proxy struct for Resourceexplorer2ViewFiltersOutputReference
 type jsiiProxy_Resourceexplorer2ViewFiltersOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Resourceexplorer2ViewFiltersOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_Resourceexplorer2ViewFiltersOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_Resourceexplorer2ViewFiltersOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Resourceexplorer2ViewFiltersOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_Resourceexplorer2ViewFiltersOutputReference) TerraformResourc
 }
 
 
-func NewResourceexplorer2ViewFiltersOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Resourceexplorer2ViewFiltersOutputReference {
+func NewResourceexplorer2ViewFiltersOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Resourceexplorer2ViewFiltersOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewResourceexplorer2ViewFiltersOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -190,7 +190,7 @@ func NewResourceexplorer2ViewFiltersOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewResourceexplorer2ViewFiltersOutputReference_Override(r Resourceexplorer2ViewFiltersOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewResourceexplorer2ViewFiltersOutputReference_Override(r Resourceexplorer2ViewFiltersOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_Resourceexplorer2ViewFiltersOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_Resourceexplorer2ViewFiltersOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Resourceexplorer2ViewFiltersOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (r *jsiiProxy_Resourceexplorer2ViewFiltersOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (r *jsiiProxy_Resourceexplorer2ViewFiltersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_Resourceexplorer2ViewFiltersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -423,8 +423,8 @@ func (r *jsiiProxy_Resourceexplorer2ViewFiltersOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (r *jsiiProxy_Resourceexplorer2ViewFiltersOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_Resourceexplorer2ViewFiltersOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -436,11 +436,11 @@ func (r *jsiiProxy_Resourceexplorer2ViewFiltersOutputReference) InterpolationAsL
 	return returns
 }
 
-func (r *jsiiProxy_Resourceexplorer2ViewFiltersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_Resourceexplorer2ViewFiltersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -452,7 +452,7 @@ func (r *jsiiProxy_Resourceexplorer2ViewFiltersOutputReference) InterpolationFor
 	return returns
 }
 
-func (r *jsiiProxy_Resourceexplorer2ViewFiltersOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_Resourceexplorer2ViewFiltersOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

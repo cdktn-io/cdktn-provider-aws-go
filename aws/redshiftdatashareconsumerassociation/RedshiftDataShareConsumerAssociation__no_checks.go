@@ -119,7 +119,7 @@ func (j *jsiiProxy_RedshiftDataShareConsumerAssociation) validateSetDataShareArn
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftDataShareConsumerAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RedshiftDataShareConsumerAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

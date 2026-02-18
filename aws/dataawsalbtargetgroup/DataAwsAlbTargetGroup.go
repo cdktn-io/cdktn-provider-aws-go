@@ -5,23 +5,23 @@ package dataawsalbtargetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsalbtargetgroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsalbtargetgroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/alb_target_group aws_alb_target_group}.
 type DataAwsAlbTargetGroup interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	Arn() *string
 	SetArn(val *string)
 	ArnInput() *string
 	ArnSuffix() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
-	ConnectionTermination() cdktf.IResolvable
+	CdktfStack() cdktn.TerraformStack
+	ConnectionTermination() cdktn.IResolvable
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -34,9 +34,9 @@ type DataAwsAlbTargetGroup interface {
 	SetDependsOn(val *[]*string)
 	DeregistrationDelay() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -45,11 +45,11 @@ type DataAwsAlbTargetGroup interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
-	LambdaMultiValueHeadersEnabled() cdktf.IResolvable
+	LambdaMultiValueHeadersEnabled() cdktn.IResolvable
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LoadBalancerArns() *[]*string
 	LoadBalancingAlgorithmType() *string
 	LoadBalancingAnomalyMitigation() *string
@@ -66,10 +66,10 @@ type DataAwsAlbTargetGroup interface {
 	Protocol() *string
 	ProtocolVersion() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
-	ProxyProtocolV2() cdktf.IResolvable
+	SetProvider(val cdktn.TerraformProvider)
+	ProxyProtocolV2() cdktn.IResolvable
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -83,7 +83,7 @@ type DataAwsAlbTargetGroup interface {
 	TargetControlPort() *float64
 	TargetType() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -96,7 +96,7 @@ type DataAwsAlbTargetGroup interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -112,7 +112,7 @@ type DataAwsAlbTargetGroup interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -143,7 +143,7 @@ type DataAwsAlbTargetGroup interface {
 
 // The jsii proxy struct for DataAwsAlbTargetGroup
 type jsiiProxy_DataAwsAlbTargetGroup struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsAlbTargetGroup) Arn() *string {
@@ -176,8 +176,8 @@ func (j *jsiiProxy_DataAwsAlbTargetGroup) ArnSuffix() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlbTargetGroup) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsAlbTargetGroup) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -186,8 +186,8 @@ func (j *jsiiProxy_DataAwsAlbTargetGroup) CdktfStack() cdktf.TerraformStack {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlbTargetGroup) ConnectionTermination() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsAlbTargetGroup) ConnectionTermination() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"connectionTermination",
@@ -236,8 +236,8 @@ func (j *jsiiProxy_DataAwsAlbTargetGroup) DeregistrationDelay() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlbTargetGroup) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsAlbTargetGroup) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -296,8 +296,8 @@ func (j *jsiiProxy_DataAwsAlbTargetGroup) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlbTargetGroup) LambdaMultiValueHeadersEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsAlbTargetGroup) LambdaMultiValueHeadersEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"lambdaMultiValueHeadersEnabled",
@@ -306,8 +306,8 @@ func (j *jsiiProxy_DataAwsAlbTargetGroup) LambdaMultiValueHeadersEnabled() cdktf
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlbTargetGroup) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsAlbTargetGroup) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -436,8 +436,8 @@ func (j *jsiiProxy_DataAwsAlbTargetGroup) ProtocolVersion() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlbTargetGroup) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsAlbTargetGroup) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -446,8 +446,8 @@ func (j *jsiiProxy_DataAwsAlbTargetGroup) Provider() cdktf.TerraformProvider {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlbTargetGroup) ProxyProtocolV2() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsAlbTargetGroup) ProxyProtocolV2() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"proxyProtocolV2",
@@ -546,8 +546,8 @@ func (j *jsiiProxy_DataAwsAlbTargetGroup) TargetType() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsAlbTargetGroup) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsAlbTargetGroup) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -666,7 +666,7 @@ func (j *jsiiProxy_DataAwsAlbTargetGroup)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsAlbTargetGroup)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsAlbTargetGroup)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -685,7 +685,7 @@ func (j *jsiiProxy_DataAwsAlbTargetGroup)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsAlbTargetGroup)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsAlbTargetGroup)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -718,7 +718,7 @@ func (j *jsiiProxy_DataAwsAlbTargetGroup)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsAlbTargetGroup)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsAlbTargetGroup)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -748,14 +748,14 @@ func (j *jsiiProxy_DataAwsAlbTargetGroup)SetTags(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsAlbTargetGroup resource upon running "cdktf plan <stack-name>".
-func DataAwsAlbTargetGroup_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsAlbTargetGroup resource upon running "cdktn plan <stack-name>".
+func DataAwsAlbTargetGroup_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsAlbTargetGroup_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroup",
@@ -878,11 +878,11 @@ func (d *jsiiProxy_DataAwsAlbTargetGroup) GetAnyMapAttribute(terraformAttribute 
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsAlbTargetGroup) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsAlbTargetGroup) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1006,11 +1006,11 @@ func (d *jsiiProxy_DataAwsAlbTargetGroup) GetStringMapAttribute(terraformAttribu
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsAlbTargetGroup) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsAlbTargetGroup) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

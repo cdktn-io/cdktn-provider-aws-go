@@ -119,7 +119,7 @@ func (j *jsiiProxy_ConfigOrganizationManagedRule) validateSetInputParametersPara
 	return nil
 }
 
-func (j *jsiiProxy_ConfigOrganizationManagedRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ConfigOrganizationManagedRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

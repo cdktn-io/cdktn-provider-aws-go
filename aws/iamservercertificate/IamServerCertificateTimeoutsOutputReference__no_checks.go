@@ -47,7 +47,7 @@ func (i *jsiiProxy_IamServerCertificateTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (i *jsiiProxy_IamServerCertificateTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IamServerCertificateTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_IamServerCertificateTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_IamServerCertificateTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IamServerCertificateTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIamServerCertificateTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIamServerCertificateTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

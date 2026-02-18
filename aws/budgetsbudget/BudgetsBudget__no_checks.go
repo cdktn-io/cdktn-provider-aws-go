@@ -135,7 +135,7 @@ func (j *jsiiProxy_BudgetsBudget) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_BudgetsBudget) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BudgetsBudget) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -55,7 +55,7 @@ func (m *jsiiProxy_MskconnectConnectorCapacityAutoscalingOutputReference) valida
 	return nil
 }
 
-func (m *jsiiProxy_MskconnectConnectorCapacityAutoscalingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MskconnectConnectorCapacityAutoscalingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_MskconnectConnectorCapacityAutoscalingOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_MskconnectConnectorCapacityAutoscalingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MskconnectConnectorCapacityAutoscalingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMskconnectConnectorCapacityAutoscalingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMskconnectConnectorCapacityAutoscalingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

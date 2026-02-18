@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsVpcIpamPoolSourceResourceOutputReference) validateInte
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsVpcIpamPoolSourceResourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsVpcIpamPoolSourceResourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsVpcIpamPoolSourceResourceOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVpcIpamPoolSourceResourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsVpcIpamPoolSourceResourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsVpcIpamPoolSourceResourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsVpcIpamPoolSourceResourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

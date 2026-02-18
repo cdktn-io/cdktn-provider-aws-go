@@ -123,7 +123,7 @@ func (j *jsiiProxy_CleanroomsConfiguredTable) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_CleanroomsConfiguredTable) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CleanroomsConfiguredTable) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -159,7 +159,7 @@ func (j *jsiiProxy_CodedeployDeploymentGroup) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_CodedeployDeploymentGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CodedeployDeploymentGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

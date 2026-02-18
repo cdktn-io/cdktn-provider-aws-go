@@ -111,7 +111,7 @@ func (j *jsiiProxy_RedshiftAuthenticationProfile) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftAuthenticationProfile) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RedshiftAuthenticationProfile) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

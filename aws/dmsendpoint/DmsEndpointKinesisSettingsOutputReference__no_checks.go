@@ -47,7 +47,7 @@ func (d *jsiiProxy_DmsEndpointKinesisSettingsOutputReference) validateInterpolat
 	return nil
 }
 
-func (d *jsiiProxy_DmsEndpointKinesisSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DmsEndpointKinesisSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DmsEndpointKinesisSettingsOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DmsEndpointKinesisSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DmsEndpointKinesisSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -111,7 +111,7 @@ func (j *jsiiProxy_DmsEndpointKinesisSettingsOutputReference) validateSetUseLarg
 	return nil
 }
 
-func validateNewDmsEndpointKinesisSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDmsEndpointKinesisSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

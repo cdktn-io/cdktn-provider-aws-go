@@ -5,14 +5,14 @@ package codeconnectionshost
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/codeconnectionshost/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/codeconnectionshost/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CodeconnectionsHostVpcConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type CodeconnectionsHostVpcConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TlsCertificate() *string
 	SetTlsCertificate(val *string)
 	TlsCertificateInput() *string
@@ -57,7 +57,7 @@ type CodeconnectionsHostVpcConfigurationOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,13 +73,13 @@ type CodeconnectionsHostVpcConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetTlsCertificate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -89,7 +89,7 @@ type CodeconnectionsHostVpcConfigurationOutputReference interface {
 
 // The jsii proxy struct for CodeconnectionsHostVpcConfigurationOutputReference
 type jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -192,8 +192,8 @@ func (j *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -243,7 +243,7 @@ func (j *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) VpcIdInpu
 }
 
 
-func NewCodeconnectionsHostVpcConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CodeconnectionsHostVpcConfigurationOutputReference {
+func NewCodeconnectionsHostVpcConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CodeconnectionsHostVpcConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCodeconnectionsHostVpcConfigurationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -260,7 +260,7 @@ func NewCodeconnectionsHostVpcConfigurationOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewCodeconnectionsHostVpcConfigurationOutputReference_Override(c CodeconnectionsHostVpcConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewCodeconnectionsHostVpcConfigurationOutputReference_Override(c CodeconnectionsHostVpcConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -336,7 +336,7 @@ func (j *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -398,11 +398,11 @@ func (c *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) GetAnyMap
 	return returns
 }
 
-func (c *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -526,8 +526,8 @@ func (c *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) GetString
 	return returns
 }
 
-func (c *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -539,11 +539,11 @@ func (c *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) Interpola
 	return returns
 }
 
-func (c *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -563,7 +563,7 @@ func (c *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) ResetTlsC
 	)
 }
 
-func (c *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

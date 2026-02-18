@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) v
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsSecretsmanagerSecretVersionsVersionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsSecretsmanagerSecretVersionsVersionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

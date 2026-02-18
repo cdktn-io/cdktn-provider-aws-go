@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsOdbCloudAutonomousVmClusterMaintenanceWindowOutputRefe
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsOdbCloudAutonomousVmClusterMaintenanceWindowOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsOdbCloudAutonomousVmClusterMaintenanceWindowOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsOdbCloudAutonomousVmClusterMaintenanceWindowOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOdbCloudAutonomousVmClusterMaintenanceWindowOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsOdbCloudAutonomousVmClusterMaintenanceWindowOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsOdbCloudAutonomousVmClusterMaintenanceWindowOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsOdbCloudAutonomousVmClusterMaintenanceWindowOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsCognitoUserGroupsGroupsList) validateGetParameters(ind
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCognitoUserGroupsGroupsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCognitoUserGroupsGroupsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsCognitoUserGroupsGroupsList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserGroupsGroupsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCognitoUserGroupsGroupsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsCognitoUserGroupsGroupsList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewDataAwsCognitoUserGroupsGroupsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsCognitoUserGroupsGroupsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudfrontConnectionGroupTimeoutsOutputReference) validateInt
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontConnectionGroupTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontConnectionGroupTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_CloudfrontConnectionGroupTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontConnectionGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontConnectionGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_CloudfrontConnectionGroupTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func validateNewCloudfrontConnectionGroupTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudfrontConnectionGroupTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

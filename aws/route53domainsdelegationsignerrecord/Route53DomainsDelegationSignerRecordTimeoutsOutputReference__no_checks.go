@@ -47,7 +47,7 @@ func (r *jsiiProxy_Route53DomainsDelegationSignerRecordTimeoutsOutputReference) 
 	return nil
 }
 
-func (r *jsiiProxy_Route53DomainsDelegationSignerRecordTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_Route53DomainsDelegationSignerRecordTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_Route53DomainsDelegationSignerRecordTimeoutsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_Route53DomainsDelegationSignerRecordTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Route53DomainsDelegationSignerRecordTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRoute53DomainsDelegationSignerRecordTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRoute53DomainsDelegationSignerRecordTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

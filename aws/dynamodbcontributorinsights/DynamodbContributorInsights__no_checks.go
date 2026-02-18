@@ -111,7 +111,7 @@ func (j *jsiiProxy_DynamodbContributorInsights) validateSetIndexNameParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_DynamodbContributorInsights) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DynamodbContributorInsights) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

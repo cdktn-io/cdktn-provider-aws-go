@@ -15,7 +15,7 @@ func (c *jsiiProxy_CodegurureviewerRepositoryAssociationS3RepositoryDetailsList)
 	return nil
 }
 
-func (c *jsiiProxy_CodegurureviewerRepositoryAssociationS3RepositoryDetailsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodegurureviewerRepositoryAssociationS3RepositoryDetailsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_CodegurureviewerRepositoryAssociationS3RepositoryDetailsList)
 	return nil
 }
 
-func (j *jsiiProxy_CodegurureviewerRepositoryAssociationS3RepositoryDetailsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodegurureviewerRepositoryAssociationS3RepositoryDetailsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_CodegurureviewerRepositoryAssociationS3RepositoryDetailsList)
 	return nil
 }
 
-func validateNewCodegurureviewerRepositoryAssociationS3RepositoryDetailsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCodegurureviewerRepositoryAssociationS3RepositoryDetailsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

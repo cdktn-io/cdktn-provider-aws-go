@@ -8,7 +8,7 @@ package iotcacertificate
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (i *jsiiProxy_IotCaCertificateValidityList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (i *jsiiProxy_IotCaCertificateValidityList) validateGetParameters(index *fl
 	return nil
 }
 
-func (i *jsiiProxy_IotCaCertificateValidityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotCaCertificateValidityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_IotCaCertificateValidityList) validateSetTerraformAttributePa
 	return nil
 }
 
-func (j *jsiiProxy_IotCaCertificateValidityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotCaCertificateValidityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_IotCaCertificateValidityList) validateSetWrapsSetParameters(v
 	return nil
 }
 
-func validateNewIotCaCertificateValidityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIotCaCertificateValidityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

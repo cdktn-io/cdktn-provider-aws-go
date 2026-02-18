@@ -15,7 +15,7 @@ func (s *jsiiProxy_SsmDocumentParameterList) validateGetParameters(index *float6
 	return nil
 }
 
-func (s *jsiiProxy_SsmDocumentParameterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsmDocumentParameterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_SsmDocumentParameterList) validateSetTerraformAttributeParame
 	return nil
 }
 
-func (j *jsiiProxy_SsmDocumentParameterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsmDocumentParameterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_SsmDocumentParameterList) validateSetWrapsSetParameters(val *
 	return nil
 }
 
-func validateNewSsmDocumentParameterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSsmDocumentParameterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

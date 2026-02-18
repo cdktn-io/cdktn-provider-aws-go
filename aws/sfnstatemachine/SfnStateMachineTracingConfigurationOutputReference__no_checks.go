@@ -47,7 +47,7 @@ func (s *jsiiProxy_SfnStateMachineTracingConfigurationOutputReference) validateI
 	return nil
 }
 
-func (s *jsiiProxy_SfnStateMachineTracingConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SfnStateMachineTracingConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SfnStateMachineTracingConfigurationOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_SfnStateMachineTracingConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SfnStateMachineTracingConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSfnStateMachineTracingConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSfnStateMachineTracingConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

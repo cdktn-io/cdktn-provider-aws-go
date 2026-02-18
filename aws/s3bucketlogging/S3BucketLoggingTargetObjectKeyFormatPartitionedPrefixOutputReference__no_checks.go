@@ -47,7 +47,7 @@ func (s *jsiiProxy_S3BucketLoggingTargetObjectKeyFormatPartitionedPrefixOutputRe
 	return nil
 }
 
-func (s *jsiiProxy_S3BucketLoggingTargetObjectKeyFormatPartitionedPrefixOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3BucketLoggingTargetObjectKeyFormatPartitionedPrefixOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_S3BucketLoggingTargetObjectKeyFormatPartitionedPrefixOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketLoggingTargetObjectKeyFormatPartitionedPrefixOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3BucketLoggingTargetObjectKeyFormatPartitionedPrefixOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewS3BucketLoggingTargetObjectKeyFormatPartitionedPrefixOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewS3BucketLoggingTargetObjectKeyFormatPartitionedPrefixOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (o *jsiiProxy_OpensearchDomainAimlOptionsNaturalLanguageQueryGenerationOpti
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchDomainAimlOptionsNaturalLanguageQueryGenerationOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchDomainAimlOptionsNaturalLanguageQueryGenerationOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_OpensearchDomainAimlOptionsNaturalLanguageQueryGenerationOpti
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchDomainAimlOptionsNaturalLanguageQueryGenerationOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchDomainAimlOptionsNaturalLanguageQueryGenerationOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOpensearchDomainAimlOptionsNaturalLanguageQueryGenerationOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOpensearchDomainAimlOptionsNaturalLanguageQueryGenerationOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

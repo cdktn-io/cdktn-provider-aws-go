@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsCloudwatchEventConnection) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCloudwatchEventConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsCloudwatchEventConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

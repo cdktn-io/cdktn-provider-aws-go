@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsDynamodbTableReplicaOutputReference) validateInterpola
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsDynamodbTableReplicaOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsDynamodbTableReplicaOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsDynamodbTableReplicaOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDynamodbTableReplicaOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsDynamodbTableReplicaOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsDynamodbTableReplicaOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsDynamodbTableReplicaOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

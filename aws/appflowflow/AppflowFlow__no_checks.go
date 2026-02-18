@@ -131,7 +131,7 @@ func (j *jsiiProxy_AppflowFlow) validateSetKmsArnParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_AppflowFlow) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppflowFlow) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

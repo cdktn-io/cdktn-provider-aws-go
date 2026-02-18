@@ -47,7 +47,7 @@ func (r *jsiiProxy_RedshiftEndpointAccessVpcEndpointNetworkInterfaceOutputRefere
 	return nil
 }
 
-func (r *jsiiProxy_RedshiftEndpointAccessVpcEndpointNetworkInterfaceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedshiftEndpointAccessVpcEndpointNetworkInterfaceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_RedshiftEndpointAccessVpcEndpointNetworkInterfaceOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftEndpointAccessVpcEndpointNetworkInterfaceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedshiftEndpointAccessVpcEndpointNetworkInterfaceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRedshiftEndpointAccessVpcEndpointNetworkInterfaceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRedshiftEndpointAccessVpcEndpointNetworkInterfaceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

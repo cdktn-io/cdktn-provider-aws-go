@@ -5,14 +5,14 @@ package quicksighttheme
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/quicksighttheme/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/quicksighttheme/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type QuicksightThemeConfigurationUiColorPaletteOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Accent() *string
 	SetAccent(val *string)
 	AccentForeground() *string
@@ -79,9 +79,9 @@ type QuicksightThemeConfigurationUiColorPaletteOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Warning() *string
 	SetWarning(val *string)
 	WarningForeground() *string
@@ -93,7 +93,7 @@ type QuicksightThemeConfigurationUiColorPaletteOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -109,9 +109,9 @@ type QuicksightThemeConfigurationUiColorPaletteOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAccent()
 	ResetAccentForeground()
 	ResetDanger()
@@ -130,7 +130,7 @@ type QuicksightThemeConfigurationUiColorPaletteOutputReference interface {
 	ResetWarningForeground()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -140,7 +140,7 @@ type QuicksightThemeConfigurationUiColorPaletteOutputReference interface {
 
 // The jsii proxy struct for QuicksightThemeConfigurationUiColorPaletteOutputReference
 type jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) Accent() *string {
@@ -483,8 +483,8 @@ func (j *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -534,7 +534,7 @@ func (j *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) Wa
 }
 
 
-func NewQuicksightThemeConfigurationUiColorPaletteOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) QuicksightThemeConfigurationUiColorPaletteOutputReference {
+func NewQuicksightThemeConfigurationUiColorPaletteOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) QuicksightThemeConfigurationUiColorPaletteOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewQuicksightThemeConfigurationUiColorPaletteOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -551,7 +551,7 @@ func NewQuicksightThemeConfigurationUiColorPaletteOutputReference(terraformResou
 	return &j
 }
 
-func NewQuicksightThemeConfigurationUiColorPaletteOutputReference_Override(q QuicksightThemeConfigurationUiColorPaletteOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewQuicksightThemeConfigurationUiColorPaletteOutputReference_Override(q QuicksightThemeConfigurationUiColorPaletteOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -759,7 +759,7 @@ func (j *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -821,11 +821,11 @@ func (q *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) Ge
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (q *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := q.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -949,8 +949,8 @@ func (q *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) Ge
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (q *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -962,11 +962,11 @@ func (q *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) In
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (q *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := q.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -1106,7 +1106,7 @@ func (q *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) Re
 	)
 }
 
-func (q *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (q *jsiiProxy_QuicksightThemeConfigurationUiColorPaletteOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := q.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

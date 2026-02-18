@@ -47,7 +47,7 @@ func (r *jsiiProxy_Route53RecoveryreadinessCellTimeoutsOutputReference) validate
 	return nil
 }
 
-func (r *jsiiProxy_Route53RecoveryreadinessCellTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_Route53RecoveryreadinessCellTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_Route53RecoveryreadinessCellTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_Route53RecoveryreadinessCellTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Route53RecoveryreadinessCellTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRoute53RecoveryreadinessCellTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRoute53RecoveryreadinessCellTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

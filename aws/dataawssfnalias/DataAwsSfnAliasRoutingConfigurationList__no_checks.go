@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsSfnAliasRoutingConfigurationList) validateGetParameter
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsSfnAliasRoutingConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsSfnAliasRoutingConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsSfnAliasRoutingConfigurationList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSfnAliasRoutingConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsSfnAliasRoutingConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsSfnAliasRoutingConfigurationList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewDataAwsSfnAliasRoutingConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsSfnAliasRoutingConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

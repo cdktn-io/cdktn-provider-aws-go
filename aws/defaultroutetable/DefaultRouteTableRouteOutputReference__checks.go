@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DefaultRouteTableRouteOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (d *jsiiProxy_DefaultRouteTableRouteOutputReference) validateInterpolationF
 	return nil
 }
 
-func (d *jsiiProxy_DefaultRouteTableRouteOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DefaultRouteTableRouteOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -216,7 +216,7 @@ func (j *jsiiProxy_DefaultRouteTableRouteOutputReference) validateSetInstanceIdP
 
 func (j *jsiiProxy_DefaultRouteTableRouteOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *DefaultRouteTableRoute:
 		val := val.(*DefaultRouteTableRoute)
@@ -231,7 +231,7 @@ func (j *jsiiProxy_DefaultRouteTableRouteOutputReference) validateSetInternalVal
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *DefaultRouteTableRoute; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *DefaultRouteTableRoute; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -270,7 +270,7 @@ func (j *jsiiProxy_DefaultRouteTableRouteOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_DefaultRouteTableRouteOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DefaultRouteTableRouteOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -302,7 +302,7 @@ func (j *jsiiProxy_DefaultRouteTableRouteOutputReference) validateSetVpcPeeringC
 	return nil
 }
 
-func validateNewDefaultRouteTableRouteOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDefaultRouteTableRouteOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

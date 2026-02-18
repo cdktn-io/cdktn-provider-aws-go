@@ -47,7 +47,7 @@ func (c *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) validateI
 	return nil
 }
 
-func (c *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_CodeconnectionsHostVpcConfigurationOutputReference) validateS
 	return nil
 }
 
-func validateNewCodeconnectionsHostVpcConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCodeconnectionsHostVpcConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

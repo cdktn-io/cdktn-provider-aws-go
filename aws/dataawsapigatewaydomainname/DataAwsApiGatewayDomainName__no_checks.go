@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsApiGatewayDomainName) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsApiGatewayDomainName) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsApiGatewayDomainName) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

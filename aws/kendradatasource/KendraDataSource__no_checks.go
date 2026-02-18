@@ -127,7 +127,7 @@ func (j *jsiiProxy_KendraDataSource) validateSetLanguageCodeParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_KendraDataSource) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KendraDataSource) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

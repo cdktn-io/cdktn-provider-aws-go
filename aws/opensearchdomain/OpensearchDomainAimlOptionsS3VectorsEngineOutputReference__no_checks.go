@@ -47,7 +47,7 @@ func (o *jsiiProxy_OpensearchDomainAimlOptionsS3VectorsEngineOutputReference) va
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchDomainAimlOptionsS3VectorsEngineOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchDomainAimlOptionsS3VectorsEngineOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_OpensearchDomainAimlOptionsS3VectorsEngineOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchDomainAimlOptionsS3VectorsEngineOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchDomainAimlOptionsS3VectorsEngineOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOpensearchDomainAimlOptionsS3VectorsEngineOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOpensearchDomainAimlOptionsS3VectorsEngineOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

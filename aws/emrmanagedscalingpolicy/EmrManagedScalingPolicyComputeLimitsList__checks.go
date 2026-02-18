@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (e *jsiiProxy_EmrManagedScalingPolicyComputeLimitsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (e *jsiiProxy_EmrManagedScalingPolicyComputeLimitsList) validateGetParamete
 	return nil
 }
 
-func (e *jsiiProxy_EmrManagedScalingPolicyComputeLimitsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EmrManagedScalingPolicyComputeLimitsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (e *jsiiProxy_EmrManagedScalingPolicyComputeLimitsList) validateResolvePara
 
 func (j *jsiiProxy_EmrManagedScalingPolicyComputeLimitsList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EmrManagedScalingPolicyComputeLimits:
 		val := val.(*[]*EmrManagedScalingPolicyComputeLimits)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_EmrManagedScalingPolicyComputeLimitsList) validateSetInternal
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*EmrManagedScalingPolicyComputeLimits; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*EmrManagedScalingPolicyComputeLimits; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_EmrManagedScalingPolicyComputeLimitsList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_EmrManagedScalingPolicyComputeLimitsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EmrManagedScalingPolicyComputeLimitsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_EmrManagedScalingPolicyComputeLimitsList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewEmrManagedScalingPolicyComputeLimitsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEmrManagedScalingPolicyComputeLimitsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

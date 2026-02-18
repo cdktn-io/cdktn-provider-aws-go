@@ -103,7 +103,7 @@ func (j *jsiiProxy_WorkspaceswebUserAccessLoggingSettings) validateSetKinesisStr
 	return nil
 }
 
-func (j *jsiiProxy_WorkspaceswebUserAccessLoggingSettings) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_WorkspaceswebUserAccessLoggingSettings) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

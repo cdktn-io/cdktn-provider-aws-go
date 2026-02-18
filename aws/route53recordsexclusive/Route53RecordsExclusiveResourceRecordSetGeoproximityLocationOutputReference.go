@@ -5,14 +5,14 @@ package route53recordsexclusive
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/route53recordsexclusive/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/route53recordsexclusive/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AwsRegion() *string
 	SetAwsRegion(val *string)
 	AwsRegionInput() *string
@@ -48,15 +48,15 @@ type Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,9 +72,9 @@ type Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCoordinates(value interface{})
 	ResetAwsRegion()
 	ResetBias()
@@ -82,7 +82,7 @@ type Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference
 	ResetLocalZoneGroup()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference
 
 // The jsii proxy struct for Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference
 type jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference) AwsRegion() *string {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationO
 	return returns
 }
 
-func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationO
 }
 
 
-func NewRoute53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference {
+func NewRoute53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewRoute53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -263,7 +263,7 @@ func NewRoute53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputRefere
 	return &j
 }
 
-func NewRoute53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference_Override(r Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewRoute53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference_Override(r Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationO
 	)
 }
 
-func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -390,11 +390,11 @@ func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationO
 	return returns
 }
 
-func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -518,8 +518,8 @@ func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationO
 	return returns
 }
 
-func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -531,11 +531,11 @@ func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationO
 	return returns
 }
 
-func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -590,7 +590,7 @@ func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationO
 	)
 }
 
-func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

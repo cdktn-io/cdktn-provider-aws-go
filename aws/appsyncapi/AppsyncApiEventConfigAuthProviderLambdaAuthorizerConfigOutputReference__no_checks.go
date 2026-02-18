@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigOutput
 	return nil
 }
 
-func (a *jsiiProxy_AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigOutput
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

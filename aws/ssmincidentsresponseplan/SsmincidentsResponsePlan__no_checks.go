@@ -127,7 +127,7 @@ func (j *jsiiProxy_SsmincidentsResponsePlan) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_SsmincidentsResponsePlan) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SsmincidentsResponsePlan) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

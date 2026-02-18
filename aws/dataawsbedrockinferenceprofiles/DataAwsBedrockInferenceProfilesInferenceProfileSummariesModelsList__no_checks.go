@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsBedrockInferenceProfilesInferenceProfileSummariesModel
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsBedrockInferenceProfilesInferenceProfileSummariesModelsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsBedrockInferenceProfilesInferenceProfileSummariesModelsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsBedrockInferenceProfilesInferenceProfileSummariesModel
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsBedrockInferenceProfilesInferenceProfileSummariesModelsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsBedrockInferenceProfilesInferenceProfileSummariesModelsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsBedrockInferenceProfilesInferenceProfileSummariesModel
 	return nil
 }
 
-func validateNewDataAwsBedrockInferenceProfilesInferenceProfileSummariesModelsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsBedrockInferenceProfilesInferenceProfileSummariesModelsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

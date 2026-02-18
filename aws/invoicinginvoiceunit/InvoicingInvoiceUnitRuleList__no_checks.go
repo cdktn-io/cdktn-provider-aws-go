@@ -15,7 +15,7 @@ func (i *jsiiProxy_InvoicingInvoiceUnitRuleList) validateGetParameters(index *fl
 	return nil
 }
 
-func (i *jsiiProxy_InvoicingInvoiceUnitRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_InvoicingInvoiceUnitRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_InvoicingInvoiceUnitRuleList) validateSetTerraformAttributePa
 	return nil
 }
 
-func (j *jsiiProxy_InvoicingInvoiceUnitRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_InvoicingInvoiceUnitRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_InvoicingInvoiceUnitRuleList) validateSetWrapsSetParameters(v
 	return nil
 }
 
-func validateNewInvoicingInvoiceUnitRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewInvoicingInvoiceUnitRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (b *jsiiProxy_BedrockagentcoreBrowserRecordingS3LocationList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (b *jsiiProxy_BedrockagentcoreBrowserRecordingS3LocationList) validateGetPa
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentcoreBrowserRecordingS3LocationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentcoreBrowserRecordingS3LocationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (b *jsiiProxy_BedrockagentcoreBrowserRecordingS3LocationList) validateResol
 
 func (j *jsiiProxy_BedrockagentcoreBrowserRecordingS3LocationList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BedrockagentcoreBrowserRecordingS3Location:
 		val := val.(*[]*BedrockagentcoreBrowserRecordingS3Location)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_BedrockagentcoreBrowserRecordingS3LocationList) validateSetIn
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*BedrockagentcoreBrowserRecordingS3Location; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentcoreBrowserRecordingS3Location; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_BedrockagentcoreBrowserRecordingS3LocationList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreBrowserRecordingS3LocationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentcoreBrowserRecordingS3LocationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_BedrockagentcoreBrowserRecordingS3LocationList) validateSetWr
 	return nil
 }
 
-func validateNewBedrockagentcoreBrowserRecordingS3LocationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockagentcoreBrowserRecordingS3LocationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

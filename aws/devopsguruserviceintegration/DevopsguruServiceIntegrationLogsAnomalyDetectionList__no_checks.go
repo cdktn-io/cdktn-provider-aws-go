@@ -15,7 +15,7 @@ func (d *jsiiProxy_DevopsguruServiceIntegrationLogsAnomalyDetectionList) validat
 	return nil
 }
 
-func (d *jsiiProxy_DevopsguruServiceIntegrationLogsAnomalyDetectionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DevopsguruServiceIntegrationLogsAnomalyDetectionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DevopsguruServiceIntegrationLogsAnomalyDetectionList) validat
 	return nil
 }
 
-func (j *jsiiProxy_DevopsguruServiceIntegrationLogsAnomalyDetectionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DevopsguruServiceIntegrationLogsAnomalyDetectionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DevopsguruServiceIntegrationLogsAnomalyDetectionList) validat
 	return nil
 }
 
-func validateNewDevopsguruServiceIntegrationLogsAnomalyDetectionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDevopsguruServiceIntegrationLogsAnomalyDetectionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

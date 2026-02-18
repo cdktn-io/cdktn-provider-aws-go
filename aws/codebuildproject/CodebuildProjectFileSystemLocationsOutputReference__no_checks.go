@@ -47,7 +47,7 @@ func (c *jsiiProxy_CodebuildProjectFileSystemLocationsOutputReference) validateI
 	return nil
 }
 
-func (c *jsiiProxy_CodebuildProjectFileSystemLocationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodebuildProjectFileSystemLocationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_CodebuildProjectFileSystemLocationsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_CodebuildProjectFileSystemLocationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodebuildProjectFileSystemLocationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_CodebuildProjectFileSystemLocationsOutputReference) validateS
 	return nil
 }
 
-func validateNewCodebuildProjectFileSystemLocationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCodebuildProjectFileSystemLocationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

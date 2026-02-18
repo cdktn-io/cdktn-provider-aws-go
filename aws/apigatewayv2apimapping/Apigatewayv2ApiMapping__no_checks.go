@@ -115,7 +115,7 @@ func (j *jsiiProxy_Apigatewayv2ApiMapping) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_Apigatewayv2ApiMapping) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Apigatewayv2ApiMapping) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

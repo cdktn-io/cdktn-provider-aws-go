@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsWorkspacesBundleComputeTypeList) validateGetParameters
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsWorkspacesBundleComputeTypeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsWorkspacesBundleComputeTypeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsWorkspacesBundleComputeTypeList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsWorkspacesBundleComputeTypeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsWorkspacesBundleComputeTypeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsWorkspacesBundleComputeTypeList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewDataAwsWorkspacesBundleComputeTypeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsWorkspacesBundleComputeTypeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GlobalacceleratorListenerPortRangeList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (g *jsiiProxy_GlobalacceleratorListenerPortRangeList) validateGetParameters
 	return nil
 }
 
-func (g *jsiiProxy_GlobalacceleratorListenerPortRangeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlobalacceleratorListenerPortRangeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (g *jsiiProxy_GlobalacceleratorListenerPortRangeList) validateResolveParame
 
 func (j *jsiiProxy_GlobalacceleratorListenerPortRangeList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*GlobalacceleratorListenerPortRange:
 		val := val.(*[]*GlobalacceleratorListenerPortRange)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_GlobalacceleratorListenerPortRangeList) validateSetInternalVa
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*GlobalacceleratorListenerPortRange; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*GlobalacceleratorListenerPortRange; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_GlobalacceleratorListenerPortRangeList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_GlobalacceleratorListenerPortRangeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlobalacceleratorListenerPortRangeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_GlobalacceleratorListenerPortRangeList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewGlobalacceleratorListenerPortRangeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGlobalacceleratorListenerPortRangeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

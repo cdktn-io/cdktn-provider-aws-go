@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsOdbCloudVmClusterIormConfigCacheList) validateGetParam
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsOdbCloudVmClusterIormConfigCacheList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsOdbCloudVmClusterIormConfigCacheList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsOdbCloudVmClusterIormConfigCacheList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOdbCloudVmClusterIormConfigCacheList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsOdbCloudVmClusterIormConfigCacheList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsOdbCloudVmClusterIormConfigCacheList) validateSetWraps
 	return nil
 }
 
-func validateNewDataAwsOdbCloudVmClusterIormConfigCacheListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsOdbCloudVmClusterIormConfigCacheListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

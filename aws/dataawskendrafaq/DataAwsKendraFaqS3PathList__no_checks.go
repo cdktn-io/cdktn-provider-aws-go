@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsKendraFaqS3PathList) validateGetParameters(index *floa
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsKendraFaqS3PathList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsKendraFaqS3PathList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsKendraFaqS3PathList) validateSetTerraformAttributePara
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsKendraFaqS3PathList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsKendraFaqS3PathList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsKendraFaqS3PathList) validateSetWrapsSetParameters(val
 	return nil
 }
 
-func validateNewDataAwsKendraFaqS3PathListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsKendraFaqS3PathListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

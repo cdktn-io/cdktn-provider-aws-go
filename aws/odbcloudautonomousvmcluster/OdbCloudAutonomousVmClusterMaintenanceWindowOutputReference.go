@@ -5,14 +5,14 @@ package odbcloudautonomousvmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/odbcloudautonomousvmcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/odbcloudautonomousvmcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -50,9 +50,9 @@ type OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WeeksOfMonth() *[]*float64
 	SetWeeksOfMonth(val *[]*float64)
 	WeeksOfMonthInput() *[]*float64
@@ -61,7 +61,7 @@ type OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -77,9 +77,9 @@ type OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDaysOfWeek(value interface{})
 	PutMonths(value interface{})
 	ResetDaysOfWeek()
@@ -89,7 +89,7 @@ type OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference interface {
 	ResetWeeksOfMonth()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -99,7 +99,7 @@ type OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference interface {
 
 // The jsii proxy struct for OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference
 type jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference) ComplexObjectIndex() interface{} {
@@ -262,8 +262,8 @@ func (j *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -293,7 +293,7 @@ func (j *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference) 
 }
 
 
-func NewOdbCloudAutonomousVmClusterMaintenanceWindowOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference {
+func NewOdbCloudAutonomousVmClusterMaintenanceWindowOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOdbCloudAutonomousVmClusterMaintenanceWindowOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -310,7 +310,7 @@ func NewOdbCloudAutonomousVmClusterMaintenanceWindowOutputReference(terraformRes
 	return &j
 }
 
-func NewOdbCloudAutonomousVmClusterMaintenanceWindowOutputReference_Override(o OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewOdbCloudAutonomousVmClusterMaintenanceWindowOutputReference_Override(o OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -397,7 +397,7 @@ func (j *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference)S
 	)
 }
 
-func (j *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -448,11 +448,11 @@ func (o *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference) 
 	return returns
 }
 
-func (o *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -576,8 +576,8 @@ func (o *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference) 
 	return returns
 }
 
-func (o *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -589,11 +589,11 @@ func (o *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference) 
 	return returns
 }
 
-func (o *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -667,7 +667,7 @@ func (o *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference) 
 	)
 }
 
-func (o *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

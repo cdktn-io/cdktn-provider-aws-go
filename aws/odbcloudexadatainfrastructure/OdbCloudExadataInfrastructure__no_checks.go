@@ -131,7 +131,7 @@ func (j *jsiiProxy_OdbCloudExadataInfrastructure) validateSetDisplayNameParamete
 	return nil
 }
 
-func (j *jsiiProxy_OdbCloudExadataInfrastructure) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_OdbCloudExadataInfrastructure) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

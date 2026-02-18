@@ -47,7 +47,7 @@ func (a *jsiiProxy_AlbTargetGroupTargetFailoverOutputReference) validateInterpol
 	return nil
 }
 
-func (a *jsiiProxy_AlbTargetGroupTargetFailoverOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AlbTargetGroupTargetFailoverOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AlbTargetGroupTargetFailoverOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_AlbTargetGroupTargetFailoverOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AlbTargetGroupTargetFailoverOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAlbTargetGroupTargetFailoverOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAlbTargetGroupTargetFailoverOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

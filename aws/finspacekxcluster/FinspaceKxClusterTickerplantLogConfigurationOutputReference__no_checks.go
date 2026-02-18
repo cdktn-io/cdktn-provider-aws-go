@@ -47,7 +47,7 @@ func (f *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) 
 	return nil
 }
 
-func (f *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_FinspaceKxClusterTickerplantLogConfigurationOutputReference) 
 	return nil
 }
 
-func validateNewFinspaceKxClusterTickerplantLogConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFinspaceKxClusterTickerplantLogConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

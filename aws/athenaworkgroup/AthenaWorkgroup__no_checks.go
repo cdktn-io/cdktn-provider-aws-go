@@ -115,7 +115,7 @@ func (j *jsiiProxy_AthenaWorkgroup) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_AthenaWorkgroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AthenaWorkgroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

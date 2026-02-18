@@ -47,7 +47,7 @@ func (l *jsiiProxy_LbTrustStoreRevocationTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (l *jsiiProxy_LbTrustStoreRevocationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LbTrustStoreRevocationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_LbTrustStoreRevocationTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_LbTrustStoreRevocationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LbTrustStoreRevocationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLbTrustStoreRevocationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLbTrustStoreRevocationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

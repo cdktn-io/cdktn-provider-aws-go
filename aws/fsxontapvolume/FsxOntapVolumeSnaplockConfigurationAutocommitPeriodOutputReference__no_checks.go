@@ -47,7 +47,7 @@ func (f *jsiiProxy_FsxOntapVolumeSnaplockConfigurationAutocommitPeriodOutputRefe
 	return nil
 }
 
-func (f *jsiiProxy_FsxOntapVolumeSnaplockConfigurationAutocommitPeriodOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FsxOntapVolumeSnaplockConfigurationAutocommitPeriodOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_FsxOntapVolumeSnaplockConfigurationAutocommitPeriodOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_FsxOntapVolumeSnaplockConfigurationAutocommitPeriodOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FsxOntapVolumeSnaplockConfigurationAutocommitPeriodOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_FsxOntapVolumeSnaplockConfigurationAutocommitPeriodOutputRefe
 	return nil
 }
 
-func validateNewFsxOntapVolumeSnaplockConfigurationAutocommitPeriodOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFsxOntapVolumeSnaplockConfigurationAutocommitPeriodOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

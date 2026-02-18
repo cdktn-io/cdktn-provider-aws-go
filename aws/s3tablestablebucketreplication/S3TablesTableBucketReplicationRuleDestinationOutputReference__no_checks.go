@@ -47,7 +47,7 @@ func (s *jsiiProxy_S3TablesTableBucketReplicationRuleDestinationOutputReference)
 	return nil
 }
 
-func (s *jsiiProxy_S3TablesTableBucketReplicationRuleDestinationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3TablesTableBucketReplicationRuleDestinationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_S3TablesTableBucketReplicationRuleDestinationOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_S3TablesTableBucketReplicationRuleDestinationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3TablesTableBucketReplicationRuleDestinationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewS3TablesTableBucketReplicationRuleDestinationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewS3TablesTableBucketReplicationRuleDestinationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

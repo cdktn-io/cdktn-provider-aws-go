@@ -159,7 +159,7 @@ func (j *jsiiProxy_FsxOpenzfsFileSystem) validateSetKmsKeyIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_FsxOpenzfsFileSystem) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_FsxOpenzfsFileSystem) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

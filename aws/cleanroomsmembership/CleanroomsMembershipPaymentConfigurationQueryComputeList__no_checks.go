@@ -15,7 +15,7 @@ func (c *jsiiProxy_CleanroomsMembershipPaymentConfigurationQueryComputeList) val
 	return nil
 }
 
-func (c *jsiiProxy_CleanroomsMembershipPaymentConfigurationQueryComputeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CleanroomsMembershipPaymentConfigurationQueryComputeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CleanroomsMembershipPaymentConfigurationQueryComputeList) val
 	return nil
 }
 
-func (j *jsiiProxy_CleanroomsMembershipPaymentConfigurationQueryComputeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CleanroomsMembershipPaymentConfigurationQueryComputeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CleanroomsMembershipPaymentConfigurationQueryComputeList) val
 	return nil
 }
 
-func validateNewCleanroomsMembershipPaymentConfigurationQueryComputeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCleanroomsMembershipPaymentConfigurationQueryComputeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

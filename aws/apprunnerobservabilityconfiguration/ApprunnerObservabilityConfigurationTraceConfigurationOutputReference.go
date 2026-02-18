@@ -5,14 +5,14 @@ package apprunnerobservabilityconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/apprunnerobservabilityconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/apprunnerobservabilityconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApprunnerObservabilityConfigurationTraceConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type ApprunnerObservabilityConfigurationTraceConfigurationOutputReference interf
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Vendor() *string
 	SetVendor(val *string)
 	VendorInput() *string
@@ -48,7 +48,7 @@ type ApprunnerObservabilityConfigurationTraceConfigurationOutputReference interf
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type ApprunnerObservabilityConfigurationTraceConfigurationOutputReference interf
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetVendor()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type ApprunnerObservabilityConfigurationTraceConfigurationOutputReference interf
 
 // The jsii proxy struct for ApprunnerObservabilityConfigurationTraceConfigurationOutputReference
 type jsiiProxy_ApprunnerObservabilityConfigurationTraceConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApprunnerObservabilityConfigurationTraceConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -143,8 +143,8 @@ func (j *jsiiProxy_ApprunnerObservabilityConfigurationTraceConfigurationOutputRe
 	return returns
 }
 
-func (j *jsiiProxy_ApprunnerObservabilityConfigurationTraceConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApprunnerObservabilityConfigurationTraceConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_ApprunnerObservabilityConfigurationTraceConfigurationOutputRe
 }
 
 
-func NewApprunnerObservabilityConfigurationTraceConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ApprunnerObservabilityConfigurationTraceConfigurationOutputReference {
+func NewApprunnerObservabilityConfigurationTraceConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ApprunnerObservabilityConfigurationTraceConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApprunnerObservabilityConfigurationTraceConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewApprunnerObservabilityConfigurationTraceConfigurationOutputReference(ter
 	return &j
 }
 
-func NewApprunnerObservabilityConfigurationTraceConfigurationOutputReference_Override(a ApprunnerObservabilityConfigurationTraceConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewApprunnerObservabilityConfigurationTraceConfigurationOutputReference_Override(a ApprunnerObservabilityConfigurationTraceConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_ApprunnerObservabilityConfigurationTraceConfigurationOutputRe
 	)
 }
 
-func (j *jsiiProxy_ApprunnerObservabilityConfigurationTraceConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApprunnerObservabilityConfigurationTraceConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (a *jsiiProxy_ApprunnerObservabilityConfigurationTraceConfigurationOutputRe
 	return returns
 }
 
-func (a *jsiiProxy_ApprunnerObservabilityConfigurationTraceConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApprunnerObservabilityConfigurationTraceConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -424,8 +424,8 @@ func (a *jsiiProxy_ApprunnerObservabilityConfigurationTraceConfigurationOutputRe
 	return returns
 }
 
-func (a *jsiiProxy_ApprunnerObservabilityConfigurationTraceConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApprunnerObservabilityConfigurationTraceConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -437,11 +437,11 @@ func (a *jsiiProxy_ApprunnerObservabilityConfigurationTraceConfigurationOutputRe
 	return returns
 }
 
-func (a *jsiiProxy_ApprunnerObservabilityConfigurationTraceConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApprunnerObservabilityConfigurationTraceConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -461,7 +461,7 @@ func (a *jsiiProxy_ApprunnerObservabilityConfigurationTraceConfigurationOutputRe
 	)
 }
 
-func (a *jsiiProxy_ApprunnerObservabilityConfigurationTraceConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApprunnerObservabilityConfigurationTraceConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

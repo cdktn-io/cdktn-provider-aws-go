@@ -47,7 +47,7 @@ func (d *jsiiProxy_DocdbClusterServerlessV2ScalingConfigurationOutputReference) 
 	return nil
 }
 
-func (d *jsiiProxy_DocdbClusterServerlessV2ScalingConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DocdbClusterServerlessV2ScalingConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DocdbClusterServerlessV2ScalingConfigurationOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_DocdbClusterServerlessV2ScalingConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DocdbClusterServerlessV2ScalingConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDocdbClusterServerlessV2ScalingConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDocdbClusterServerlessV2ScalingConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

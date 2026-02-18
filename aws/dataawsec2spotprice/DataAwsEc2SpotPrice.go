@@ -5,21 +5,21 @@ package dataawsec2spotprice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsec2spotprice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsec2spotprice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/ec2_spot_price aws_ec2_spot_price}.
 type DataAwsEc2SpotPrice interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AvailabilityZone() *string
 	SetAvailabilityZone(val *string)
 	AvailabilityZoneInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -33,9 +33,9 @@ type DataAwsEc2SpotPrice interface {
 	Filter() DataAwsEc2SpotPriceFilterList
 	FilterInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -47,15 +47,15 @@ type DataAwsEc2SpotPrice interface {
 	SetInstanceType(val *string)
 	InstanceTypeInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -64,7 +64,7 @@ type DataAwsEc2SpotPrice interface {
 	SpotPrice() *string
 	SpotPriceTimestamp() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -76,7 +76,7 @@ type DataAwsEc2SpotPrice interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -92,7 +92,7 @@ type DataAwsEc2SpotPrice interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -123,7 +123,7 @@ type DataAwsEc2SpotPrice interface {
 
 // The jsii proxy struct for DataAwsEc2SpotPrice
 type jsiiProxy_DataAwsEc2SpotPrice struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsEc2SpotPrice) AvailabilityZone() *string {
@@ -146,8 +146,8 @@ func (j *jsiiProxy_DataAwsEc2SpotPrice) AvailabilityZoneInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2SpotPrice) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsEc2SpotPrice) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -206,8 +206,8 @@ func (j *jsiiProxy_DataAwsEc2SpotPrice) FilterInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2SpotPrice) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsEc2SpotPrice) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -276,8 +276,8 @@ func (j *jsiiProxy_DataAwsEc2SpotPrice) InstanceTypeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2SpotPrice) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsEc2SpotPrice) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -296,8 +296,8 @@ func (j *jsiiProxy_DataAwsEc2SpotPrice) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2SpotPrice) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsEc2SpotPrice) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -356,8 +356,8 @@ func (j *jsiiProxy_DataAwsEc2SpotPrice) SpotPriceTimestamp() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2SpotPrice) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsEc2SpotPrice) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -466,7 +466,7 @@ func (j *jsiiProxy_DataAwsEc2SpotPrice)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsEc2SpotPrice)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsEc2SpotPrice)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -496,7 +496,7 @@ func (j *jsiiProxy_DataAwsEc2SpotPrice)SetInstanceType(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsEc2SpotPrice)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsEc2SpotPrice)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -507,7 +507,7 @@ func (j *jsiiProxy_DataAwsEc2SpotPrice)SetLifecycle(val *cdktf.TerraformResource
 	)
 }
 
-func (j *jsiiProxy_DataAwsEc2SpotPrice)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsEc2SpotPrice)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -526,14 +526,14 @@ func (j *jsiiProxy_DataAwsEc2SpotPrice)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsEc2SpotPrice resource upon running "cdktf plan <stack-name>".
-func DataAwsEc2SpotPrice_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsEc2SpotPrice resource upon running "cdktn plan <stack-name>".
+func DataAwsEc2SpotPrice_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsEc2SpotPrice_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsEc2SpotPrice.DataAwsEc2SpotPrice",
@@ -656,11 +656,11 @@ func (d *jsiiProxy_DataAwsEc2SpotPrice) GetAnyMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEc2SpotPrice) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEc2SpotPrice) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -784,11 +784,11 @@ func (d *jsiiProxy_DataAwsEc2SpotPrice) GetStringMapAttribute(terraformAttribute
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEc2SpotPrice) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEc2SpotPrice) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

@@ -131,7 +131,7 @@ func (j *jsiiProxy_DatazoneEnvironment) validateSetGlossaryTermsParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_DatazoneEnvironment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DatazoneEnvironment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

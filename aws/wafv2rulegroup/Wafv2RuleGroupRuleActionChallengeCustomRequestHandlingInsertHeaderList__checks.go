@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (w *jsiiProxy_Wafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertHeaderList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (w *jsiiProxy_Wafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertH
 	return nil
 }
 
-func (w *jsiiProxy_Wafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertHeaderList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_Wafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertHeaderList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (w *jsiiProxy_Wafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertH
 
 func (j *jsiiProxy_Wafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertHeaderList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Wafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertHeader:
 		val := val.(*[]*Wafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertHeader)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_Wafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertH
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*Wafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertHeader; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*Wafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertHeader; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_Wafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertH
 	return nil
 }
 
-func (j *jsiiProxy_Wafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertHeaderList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Wafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertHeaderList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_Wafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertH
 	return nil
 }
 
-func validateNewWafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertHeaderListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertHeaderListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

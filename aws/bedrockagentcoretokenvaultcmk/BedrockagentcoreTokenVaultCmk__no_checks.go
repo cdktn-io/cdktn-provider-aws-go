@@ -103,7 +103,7 @@ func (j *jsiiProxy_BedrockagentcoreTokenVaultCmk) validateSetCountParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreTokenVaultCmk) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BedrockagentcoreTokenVaultCmk) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

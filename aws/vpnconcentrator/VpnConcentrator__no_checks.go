@@ -99,7 +99,7 @@ func (j *jsiiProxy_VpnConcentrator) validateSetCountParameters(val interface{}) 
 	return nil
 }
 
-func (j *jsiiProxy_VpnConcentrator) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VpnConcentrator) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

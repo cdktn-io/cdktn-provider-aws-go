@@ -147,7 +147,7 @@ func (j *jsiiProxy_SpotFleetRequest) validateSetInstancePoolsToUseCountParameter
 	return nil
 }
 
-func (j *jsiiProxy_SpotFleetRequest) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SpotFleetRequest) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

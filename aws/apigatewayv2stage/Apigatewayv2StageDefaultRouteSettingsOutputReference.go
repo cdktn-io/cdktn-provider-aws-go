@@ -5,14 +5,14 @@ package apigatewayv2stage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/apigatewayv2stage/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/apigatewayv2stage/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Apigatewayv2StageDefaultRouteSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type Apigatewayv2StageDefaultRouteSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	ThrottlingBurstLimit() *float64
 	SetThrottlingBurstLimit(val *float64)
 	ThrottlingBurstLimitInput() *float64
@@ -60,7 +60,7 @@ type Apigatewayv2StageDefaultRouteSettingsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type Apigatewayv2StageDefaultRouteSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDataTraceEnabled()
 	ResetDetailedMetricsEnabled()
 	ResetLoggingLevel()
@@ -86,7 +86,7 @@ type Apigatewayv2StageDefaultRouteSettingsOutputReference interface {
 	ResetThrottlingRateLimit()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type Apigatewayv2StageDefaultRouteSettingsOutputReference interface {
 
 // The jsii proxy struct for Apigatewayv2StageDefaultRouteSettingsOutputReference
 type jsiiProxy_Apigatewayv2StageDefaultRouteSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Apigatewayv2StageDefaultRouteSettingsOutputReference) ComplexObjectIndex() interface{} {
@@ -219,8 +219,8 @@ func (j *jsiiProxy_Apigatewayv2StageDefaultRouteSettingsOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_Apigatewayv2StageDefaultRouteSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Apigatewayv2StageDefaultRouteSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_Apigatewayv2StageDefaultRouteSettingsOutputReference) Throttl
 }
 
 
-func NewApigatewayv2StageDefaultRouteSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) Apigatewayv2StageDefaultRouteSettingsOutputReference {
+func NewApigatewayv2StageDefaultRouteSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) Apigatewayv2StageDefaultRouteSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApigatewayv2StageDefaultRouteSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewApigatewayv2StageDefaultRouteSettingsOutputReference(terraformResource c
 	return &j
 }
 
-func NewApigatewayv2StageDefaultRouteSettingsOutputReference_Override(a Apigatewayv2StageDefaultRouteSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewApigatewayv2StageDefaultRouteSettingsOutputReference_Override(a Apigatewayv2StageDefaultRouteSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -374,7 +374,7 @@ func (j *jsiiProxy_Apigatewayv2StageDefaultRouteSettingsOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_Apigatewayv2StageDefaultRouteSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Apigatewayv2StageDefaultRouteSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -436,11 +436,11 @@ func (a *jsiiProxy_Apigatewayv2StageDefaultRouteSettingsOutputReference) GetAnyM
 	return returns
 }
 
-func (a *jsiiProxy_Apigatewayv2StageDefaultRouteSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_Apigatewayv2StageDefaultRouteSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -564,8 +564,8 @@ func (a *jsiiProxy_Apigatewayv2StageDefaultRouteSettingsOutputReference) GetStri
 	return returns
 }
 
-func (a *jsiiProxy_Apigatewayv2StageDefaultRouteSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_Apigatewayv2StageDefaultRouteSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -577,11 +577,11 @@ func (a *jsiiProxy_Apigatewayv2StageDefaultRouteSettingsOutputReference) Interpo
 	return returns
 }
 
-func (a *jsiiProxy_Apigatewayv2StageDefaultRouteSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_Apigatewayv2StageDefaultRouteSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -633,7 +633,7 @@ func (a *jsiiProxy_Apigatewayv2StageDefaultRouteSettingsOutputReference) ResetTh
 	)
 }
 
-func (a *jsiiProxy_Apigatewayv2StageDefaultRouteSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_Apigatewayv2StageDefaultRouteSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

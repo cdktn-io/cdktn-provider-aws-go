@@ -5,16 +5,16 @@ package odbcloudexadatainfrastructure
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/odbcloudexadatainfrastructure/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/odbcloudexadatainfrastructure/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/odb_cloud_exadata_infrastructure aws_odb_cloud_exadata_infrastructure}.
 type OdbCloudExadataInfrastructure interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ActivatedStorageCount() *float64
 	AdditionalStorageCount() *float64
 	Arn() *string
@@ -26,7 +26,7 @@ type OdbCloudExadataInfrastructure interface {
 	AvailabilityZoneInput() *string
 	AvailableStorageSizeInGbs() *float64
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ComputeCount() *float64
 	SetComputeCount(val *float64)
 	ComputeCountInput() *float64
@@ -59,9 +59,9 @@ type OdbCloudExadataInfrastructure interface {
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -69,9 +69,9 @@ type OdbCloudExadataInfrastructure interface {
 	Id() *string
 	LastMaintenanceRunId() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MaintenanceWindow() OdbCloudExadataInfrastructureMaintenanceWindowList
 	MaintenanceWindowInput() interface{}
 	MaxCpuCount() *float64
@@ -89,9 +89,9 @@ type OdbCloudExadataInfrastructure interface {
 	OciUrl() *string
 	PercentProgress() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -115,10 +115,10 @@ type OdbCloudExadataInfrastructure interface {
 	StorageServerVersion() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
-	TagsAll() cdktf.StringMap
+	TagsAll() cdktn.StringMap
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -134,7 +134,7 @@ type OdbCloudExadataInfrastructure interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -152,9 +152,9 @@ type OdbCloudExadataInfrastructure interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -200,7 +200,7 @@ type OdbCloudExadataInfrastructure interface {
 
 // The jsii proxy struct for OdbCloudExadataInfrastructure
 type jsiiProxy_OdbCloudExadataInfrastructure struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_OdbCloudExadataInfrastructure) ActivatedStorageCount() *float64 {
@@ -283,8 +283,8 @@ func (j *jsiiProxy_OdbCloudExadataInfrastructure) AvailableStorageSizeInGbs() *f
 	return returns
 }
 
-func (j *jsiiProxy_OdbCloudExadataInfrastructure) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_OdbCloudExadataInfrastructure) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -473,8 +473,8 @@ func (j *jsiiProxy_OdbCloudExadataInfrastructure) DisplayNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_OdbCloudExadataInfrastructure) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_OdbCloudExadataInfrastructure) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -523,8 +523,8 @@ func (j *jsiiProxy_OdbCloudExadataInfrastructure) LastMaintenanceRunId() *string
 	return returns
 }
 
-func (j *jsiiProxy_OdbCloudExadataInfrastructure) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_OdbCloudExadataInfrastructure) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -683,8 +683,8 @@ func (j *jsiiProxy_OdbCloudExadataInfrastructure) PercentProgress() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_OdbCloudExadataInfrastructure) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_OdbCloudExadataInfrastructure) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -833,8 +833,8 @@ func (j *jsiiProxy_OdbCloudExadataInfrastructure) Tags() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_OdbCloudExadataInfrastructure) TagsAll() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_OdbCloudExadataInfrastructure) TagsAll() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tagsAll",
@@ -853,8 +853,8 @@ func (j *jsiiProxy_OdbCloudExadataInfrastructure) TagsInput() *map[string]*strin
 	return returns
 }
 
-func (j *jsiiProxy_OdbCloudExadataInfrastructure) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_OdbCloudExadataInfrastructure) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1028,7 +1028,7 @@ func (j *jsiiProxy_OdbCloudExadataInfrastructure)SetDisplayName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_OdbCloudExadataInfrastructure)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_OdbCloudExadataInfrastructure)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1036,7 +1036,7 @@ func (j *jsiiProxy_OdbCloudExadataInfrastructure)SetForEach(val cdktf.ITerraform
 	)
 }
 
-func (j *jsiiProxy_OdbCloudExadataInfrastructure)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_OdbCloudExadataInfrastructure)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1047,7 +1047,7 @@ func (j *jsiiProxy_OdbCloudExadataInfrastructure)SetLifecycle(val *cdktf.Terrafo
 	)
 }
 
-func (j *jsiiProxy_OdbCloudExadataInfrastructure)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_OdbCloudExadataInfrastructure)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1121,14 +1121,14 @@ func (j *jsiiProxy_OdbCloudExadataInfrastructure)SetTags(val *map[string]*string
 	)
 }
 
-// Generates CDKTF code for importing a OdbCloudExadataInfrastructure resource upon running "cdktf plan <stack-name>".
-func OdbCloudExadataInfrastructure_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a OdbCloudExadataInfrastructure resource upon running "cdktn plan <stack-name>".
+func OdbCloudExadataInfrastructure_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateOdbCloudExadataInfrastructure_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructure",
@@ -1262,11 +1262,11 @@ func (o *jsiiProxy_OdbCloudExadataInfrastructure) GetAnyMapAttribute(terraformAt
 	return returns
 }
 
-func (o *jsiiProxy_OdbCloudExadataInfrastructure) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OdbCloudExadataInfrastructure) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -1403,7 +1403,7 @@ func (o *jsiiProxy_OdbCloudExadataInfrastructure) HasResourceMove() interface{} 
 	return returns
 }
 
-func (o *jsiiProxy_OdbCloudExadataInfrastructure) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (o *jsiiProxy_OdbCloudExadataInfrastructure) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := o.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1414,11 +1414,11 @@ func (o *jsiiProxy_OdbCloudExadataInfrastructure) ImportFrom(id *string, provide
 	)
 }
 
-func (o *jsiiProxy_OdbCloudExadataInfrastructure) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OdbCloudExadataInfrastructure) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,

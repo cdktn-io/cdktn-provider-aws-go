@@ -47,7 +47,7 @@ func (g *jsiiProxy_GlueCatalogDatabaseTargetDatabaseOutputReference) validateInt
 	return nil
 }
 
-func (g *jsiiProxy_GlueCatalogDatabaseTargetDatabaseOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueCatalogDatabaseTargetDatabaseOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GlueCatalogDatabaseTargetDatabaseOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_GlueCatalogDatabaseTargetDatabaseOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueCatalogDatabaseTargetDatabaseOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGlueCatalogDatabaseTargetDatabaseOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGlueCatalogDatabaseTargetDatabaseOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

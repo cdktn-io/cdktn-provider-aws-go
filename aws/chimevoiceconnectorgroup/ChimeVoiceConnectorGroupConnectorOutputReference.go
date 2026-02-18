@@ -5,14 +5,14 @@ package chimevoiceconnectorgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/chimevoiceconnectorgroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/chimevoiceconnectorgroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ChimeVoiceConnectorGroupConnectorOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type ChimeVoiceConnectorGroupConnectorOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VoiceConnectorId() *string
 	SetVoiceConnectorId(val *string)
 	VoiceConnectorIdInput() *string
@@ -51,7 +51,7 @@ type ChimeVoiceConnectorGroupConnectorOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type ChimeVoiceConnectorGroupConnectorOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type ChimeVoiceConnectorGroupConnectorOutputReference interface {
 
 // The jsii proxy struct for ChimeVoiceConnectorGroupConnectorOutputReference
 type jsiiProxy_ChimeVoiceConnectorGroupConnectorOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ChimeVoiceConnectorGroupConnectorOutputReference) ComplexObjectIndex() interface{} {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_ChimeVoiceConnectorGroupConnectorOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_ChimeVoiceConnectorGroupConnectorOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ChimeVoiceConnectorGroupConnectorOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_ChimeVoiceConnectorGroupConnectorOutputReference) VoiceConnec
 }
 
 
-func NewChimeVoiceConnectorGroupConnectorOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ChimeVoiceConnectorGroupConnectorOutputReference {
+func NewChimeVoiceConnectorGroupConnectorOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ChimeVoiceConnectorGroupConnectorOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewChimeVoiceConnectorGroupConnectorOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -213,7 +213,7 @@ func NewChimeVoiceConnectorGroupConnectorOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewChimeVoiceConnectorGroupConnectorOutputReference_Override(c ChimeVoiceConnectorGroupConnectorOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewChimeVoiceConnectorGroupConnectorOutputReference_Override(c ChimeVoiceConnectorGroupConnectorOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_ChimeVoiceConnectorGroupConnectorOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_ChimeVoiceConnectorGroupConnectorOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ChimeVoiceConnectorGroupConnectorOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (c *jsiiProxy_ChimeVoiceConnectorGroupConnectorOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (c *jsiiProxy_ChimeVoiceConnectorGroupConnectorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ChimeVoiceConnectorGroupConnectorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -457,8 +457,8 @@ func (c *jsiiProxy_ChimeVoiceConnectorGroupConnectorOutputReference) GetStringMa
 	return returns
 }
 
-func (c *jsiiProxy_ChimeVoiceConnectorGroupConnectorOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ChimeVoiceConnectorGroupConnectorOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -470,11 +470,11 @@ func (c *jsiiProxy_ChimeVoiceConnectorGroupConnectorOutputReference) Interpolati
 	return returns
 }
 
-func (c *jsiiProxy_ChimeVoiceConnectorGroupConnectorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ChimeVoiceConnectorGroupConnectorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -486,7 +486,7 @@ func (c *jsiiProxy_ChimeVoiceConnectorGroupConnectorOutputReference) Interpolati
 	return returns
 }
 
-func (c *jsiiProxy_ChimeVoiceConnectorGroupConnectorOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ChimeVoiceConnectorGroupConnectorOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

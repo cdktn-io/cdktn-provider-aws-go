@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsIdentitystoreUserEmailsList) validateGetParameters(ind
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsIdentitystoreUserEmailsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsIdentitystoreUserEmailsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsIdentitystoreUserEmailsList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsIdentitystoreUserEmailsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsIdentitystoreUserEmailsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsIdentitystoreUserEmailsList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewDataAwsIdentitystoreUserEmailsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsIdentitystoreUserEmailsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsBedrockagentAgentVersions) validateSetCountParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsBedrockagentAgentVersions) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsBedrockagentAgentVersions) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

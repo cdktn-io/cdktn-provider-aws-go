@@ -47,7 +47,7 @@ func (e *jsiiProxy_EksNodeGroupUpdateConfigOutputReference) validateInterpolatio
 	return nil
 }
 
-func (e *jsiiProxy_EksNodeGroupUpdateConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksNodeGroupUpdateConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_EksNodeGroupUpdateConfigOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_EksNodeGroupUpdateConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksNodeGroupUpdateConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_EksNodeGroupUpdateConfigOutputReference) validateSetUpdateStr
 	return nil
 }
 
-func validateNewEksNodeGroupUpdateConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEksNodeGroupUpdateConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

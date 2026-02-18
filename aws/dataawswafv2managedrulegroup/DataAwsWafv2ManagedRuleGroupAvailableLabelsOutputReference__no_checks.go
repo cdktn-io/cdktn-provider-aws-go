@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupAvailableLabelsOutputReference) v
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupAvailableLabelsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroupAvailableLabelsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupAvailableLabelsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupAvailableLabelsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroupAvailableLabelsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsWafv2ManagedRuleGroupAvailableLabelsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsWafv2ManagedRuleGroupAvailableLabelsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

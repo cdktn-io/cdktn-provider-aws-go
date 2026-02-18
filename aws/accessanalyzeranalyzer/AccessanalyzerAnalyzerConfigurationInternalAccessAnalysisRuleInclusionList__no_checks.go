@@ -15,7 +15,7 @@ func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRule
 	return nil
 }
 
-func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRuleInclusionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRuleInclusionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRule
 	return nil
 }
 
-func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRuleInclusionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRuleInclusionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRule
 	return nil
 }
 
-func validateNewAccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRuleInclusionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRuleInclusionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -55,7 +55,7 @@ func (s *jsiiProxy_SagemakerEndpointDeploymentConfigRollingUpdatePolicyOutputRef
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerEndpointDeploymentConfigRollingUpdatePolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerEndpointDeploymentConfigRollingUpdatePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SagemakerEndpointDeploymentConfigRollingUpdatePolicyOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerEndpointDeploymentConfigRollingUpdatePolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerEndpointDeploymentConfigRollingUpdatePolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SagemakerEndpointDeploymentConfigRollingUpdatePolicyOutputRef
 	return nil
 }
 
-func validateNewSagemakerEndpointDeploymentConfigRollingUpdatePolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerEndpointDeploymentConfigRollingUpdatePolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

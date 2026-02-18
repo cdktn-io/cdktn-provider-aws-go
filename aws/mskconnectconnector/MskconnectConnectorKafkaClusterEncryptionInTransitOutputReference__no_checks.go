@@ -47,7 +47,7 @@ func (m *jsiiProxy_MskconnectConnectorKafkaClusterEncryptionInTransitOutputRefer
 	return nil
 }
 
-func (m *jsiiProxy_MskconnectConnectorKafkaClusterEncryptionInTransitOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MskconnectConnectorKafkaClusterEncryptionInTransitOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_MskconnectConnectorKafkaClusterEncryptionInTransitOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_MskconnectConnectorKafkaClusterEncryptionInTransitOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MskconnectConnectorKafkaClusterEncryptionInTransitOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMskconnectConnectorKafkaClusterEncryptionInTransitOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMskconnectConnectorKafkaClusterEncryptionInTransitOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

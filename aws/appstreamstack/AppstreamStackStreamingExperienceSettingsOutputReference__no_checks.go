@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppstreamStackStreamingExperienceSettingsOutputReference) val
 	return nil
 }
 
-func (a *jsiiProxy_AppstreamStackStreamingExperienceSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppstreamStackStreamingExperienceSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AppstreamStackStreamingExperienceSettingsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_AppstreamStackStreamingExperienceSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppstreamStackStreamingExperienceSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppstreamStackStreamingExperienceSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppstreamStackStreamingExperienceSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

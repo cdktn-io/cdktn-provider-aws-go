@@ -47,7 +47,7 @@ func (l *jsiiProxy_LambdaCodeSigningConfigAllowedPublishersOutputReference) vali
 	return nil
 }
 
-func (l *jsiiProxy_LambdaCodeSigningConfigAllowedPublishersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LambdaCodeSigningConfigAllowedPublishersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_LambdaCodeSigningConfigAllowedPublishersOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_LambdaCodeSigningConfigAllowedPublishersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LambdaCodeSigningConfigAllowedPublishersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLambdaCodeSigningConfigAllowedPublishersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLambdaCodeSigningConfigAllowedPublishersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

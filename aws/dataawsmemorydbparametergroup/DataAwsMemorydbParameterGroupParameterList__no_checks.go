@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsMemorydbParameterGroupParameterList) validateGetParame
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsMemorydbParameterGroupParameterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsMemorydbParameterGroupParameterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsMemorydbParameterGroupParameterList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsMemorydbParameterGroupParameterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsMemorydbParameterGroupParameterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsMemorydbParameterGroupParameterList) validateSetWrapsS
 	return nil
 }
 
-func validateNewDataAwsMemorydbParameterGroupParameterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsMemorydbParameterGroupParameterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

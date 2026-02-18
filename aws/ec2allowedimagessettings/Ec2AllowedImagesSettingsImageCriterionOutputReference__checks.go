@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) valida
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Ec2AllowedImagesSettingsImageCriterionCreationDateCondition:
 		value := value.(*[]*Ec2AllowedImagesSettingsImageCriterionCreationDateCondition)
@@ -117,7 +117,7 @@ func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Ec2AllowedImagesSettingsImageCriterionCreationDateCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Ec2AllowedImagesSettingsImageCriterionCreationDateCondition; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) valida
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Ec2AllowedImagesSettingsImageCriterionDeprecationTimeCondition:
 		value := value.(*[]*Ec2AllowedImagesSettingsImageCriterionDeprecationTimeCondition)
@@ -148,14 +148,14 @@ func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Ec2AllowedImagesSettingsImageCriterionDeprecationTimeCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Ec2AllowedImagesSettingsImageCriterionDeprecationTimeCondition; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -246,7 +246,7 @@ func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) valida
 
 func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *Ec2AllowedImagesSettingsImageCriterion:
 		val := val.(*Ec2AllowedImagesSettingsImageCriterion)
@@ -261,7 +261,7 @@ func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *Ec2AllowedImagesSettingsImageCriterion; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *Ec2AllowedImagesSettingsImageCriterion; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -284,7 +284,7 @@ func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -292,7 +292,7 @@ func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) valida
 	return nil
 }
 
-func validateNewEc2AllowedImagesSettingsImageCriterionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEc2AllowedImagesSettingsImageCriterionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

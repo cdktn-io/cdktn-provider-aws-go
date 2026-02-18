@@ -163,7 +163,7 @@ func (j *jsiiProxy_StoragegatewaySmbFileShare) validateSetKmsKeyArnParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_StoragegatewaySmbFileShare) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StoragegatewaySmbFileShare) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (i *jsiiProxy_InstanceCpuOptionsOutputReference) validateInterpolationForAt
 	return nil
 }
 
-func (i *jsiiProxy_InstanceCpuOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_InstanceCpuOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_InstanceCpuOptionsOutputReference) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_InstanceCpuOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_InstanceCpuOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_InstanceCpuOptionsOutputReference) validateSetThreadsPerCoreP
 	return nil
 }
 
-func validateNewInstanceCpuOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewInstanceCpuOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

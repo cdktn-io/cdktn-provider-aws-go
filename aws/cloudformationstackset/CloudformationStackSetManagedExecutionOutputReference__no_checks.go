@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudformationStackSetManagedExecutionOutputReference) valida
 	return nil
 }
 
-func (c *jsiiProxy_CloudformationStackSetManagedExecutionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudformationStackSetManagedExecutionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CloudformationStackSetManagedExecutionOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_CloudformationStackSetManagedExecutionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudformationStackSetManagedExecutionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudformationStackSetManagedExecutionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudformationStackSetManagedExecutionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

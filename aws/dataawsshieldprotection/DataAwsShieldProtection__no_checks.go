@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataAwsShieldProtection) validateSetCountParameters(val inter
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsShieldProtection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsShieldProtection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

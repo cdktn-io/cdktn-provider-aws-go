@@ -47,7 +47,7 @@ func (s *jsiiProxy_Sesv2ConfigurationSetVdmOptionsDashboardOptionsOutputReferenc
 	return nil
 }
 
-func (s *jsiiProxy_Sesv2ConfigurationSetVdmOptionsDashboardOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_Sesv2ConfigurationSetVdmOptionsDashboardOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_Sesv2ConfigurationSetVdmOptionsDashboardOptionsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_Sesv2ConfigurationSetVdmOptionsDashboardOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Sesv2ConfigurationSetVdmOptionsDashboardOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSesv2ConfigurationSetVdmOptionsDashboardOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSesv2ConfigurationSetVdmOptionsDashboardOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

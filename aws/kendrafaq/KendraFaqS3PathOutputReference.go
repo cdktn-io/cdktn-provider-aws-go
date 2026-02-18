@@ -5,14 +5,14 @@ package kendrafaq
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/kendrafaq/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/kendrafaq/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KendraFaqS3PathOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Bucket() *string
 	SetBucket(val *string)
 	BucketInput() *string
@@ -43,15 +43,15 @@ type KendraFaqS3PathOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type KendraFaqS3PathOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type KendraFaqS3PathOutputReference interface {
 
 // The jsii proxy struct for KendraFaqS3PathOutputReference
 type jsiiProxy_KendraFaqS3PathOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_KendraFaqS3PathOutputReference) Bucket() *string {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_KendraFaqS3PathOutputReference) TerraformAttribute() *string 
 	return returns
 }
 
-func (j *jsiiProxy_KendraFaqS3PathOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KendraFaqS3PathOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_KendraFaqS3PathOutputReference) TerraformResource() cdktf.IIn
 }
 
 
-func NewKendraFaqS3PathOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) KendraFaqS3PathOutputReference {
+func NewKendraFaqS3PathOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) KendraFaqS3PathOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewKendraFaqS3PathOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewKendraFaqS3PathOutputReference(terraformResource cdktf.IInterpolatingPar
 	return &j
 }
 
-func NewKendraFaqS3PathOutputReference_Override(k KendraFaqS3PathOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewKendraFaqS3PathOutputReference_Override(k KendraFaqS3PathOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_KendraFaqS3PathOutputReference)SetTerraformAttribute(val *str
 	)
 }
 
-func (j *jsiiProxy_KendraFaqS3PathOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KendraFaqS3PathOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (k *jsiiProxy_KendraFaqS3PathOutputReference) GetAnyMapAttribute(terraformA
 	return returns
 }
 
-func (k *jsiiProxy_KendraFaqS3PathOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KendraFaqS3PathOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -457,8 +457,8 @@ func (k *jsiiProxy_KendraFaqS3PathOutputReference) GetStringMapAttribute(terrafo
 	return returns
 }
 
-func (k *jsiiProxy_KendraFaqS3PathOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (k *jsiiProxy_KendraFaqS3PathOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -470,11 +470,11 @@ func (k *jsiiProxy_KendraFaqS3PathOutputReference) InterpolationAsList() cdktf.I
 	return returns
 }
 
-func (k *jsiiProxy_KendraFaqS3PathOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KendraFaqS3PathOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -486,7 +486,7 @@ func (k *jsiiProxy_KendraFaqS3PathOutputReference) InterpolationForAttribute(ter
 	return returns
 }
 
-func (k *jsiiProxy_KendraFaqS3PathOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KendraFaqS3PathOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

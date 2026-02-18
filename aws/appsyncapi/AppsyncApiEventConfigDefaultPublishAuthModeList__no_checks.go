@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppsyncApiEventConfigDefaultPublishAuthModeList) validateGetP
 	return nil
 }
 
-func (a *jsiiProxy_AppsyncApiEventConfigDefaultPublishAuthModeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppsyncApiEventConfigDefaultPublishAuthModeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppsyncApiEventConfigDefaultPublishAuthModeList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncApiEventConfigDefaultPublishAuthModeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppsyncApiEventConfigDefaultPublishAuthModeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppsyncApiEventConfigDefaultPublishAuthModeList) validateSetW
 	return nil
 }
 
-func validateNewAppsyncApiEventConfigDefaultPublishAuthModeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppsyncApiEventConfigDefaultPublishAuthModeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

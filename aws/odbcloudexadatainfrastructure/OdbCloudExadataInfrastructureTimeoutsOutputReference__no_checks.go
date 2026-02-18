@@ -47,7 +47,7 @@ func (o *jsiiProxy_OdbCloudExadataInfrastructureTimeoutsOutputReference) validat
 	return nil
 }
 
-func (o *jsiiProxy_OdbCloudExadataInfrastructureTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OdbCloudExadataInfrastructureTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_OdbCloudExadataInfrastructureTimeoutsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_OdbCloudExadataInfrastructureTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OdbCloudExadataInfrastructureTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_OdbCloudExadataInfrastructureTimeoutsOutputReference) validat
 	return nil
 }
 
-func validateNewOdbCloudExadataInfrastructureTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOdbCloudExadataInfrastructureTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SesConfigurationSetDeliveryOptionsOutputReference) validateIn
 	return nil
 }
 
-func (s *jsiiProxy_SesConfigurationSetDeliveryOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SesConfigurationSetDeliveryOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_SesConfigurationSetDeliveryOptionsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_SesConfigurationSetDeliveryOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SesConfigurationSetDeliveryOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SesConfigurationSetDeliveryOptionsOutputReference) validateSe
 	return nil
 }
 
-func validateNewSesConfigurationSetDeliveryOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSesConfigurationSetDeliveryOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

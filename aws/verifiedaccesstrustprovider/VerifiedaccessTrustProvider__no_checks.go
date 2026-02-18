@@ -131,7 +131,7 @@ func (j *jsiiProxy_VerifiedaccessTrustProvider) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_VerifiedaccessTrustProvider) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VerifiedaccessTrustProvider) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

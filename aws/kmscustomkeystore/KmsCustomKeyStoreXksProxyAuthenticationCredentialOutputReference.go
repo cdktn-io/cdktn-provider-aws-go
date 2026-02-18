@@ -5,14 +5,14 @@ package kmscustomkeystore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/kmscustomkeystore/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/kmscustomkeystore/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AccessKeyId() *string
 	SetAccessKeyId(val *string)
 	AccessKeyIdInput() *string
@@ -43,15 +43,15 @@ type KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference interface 
 
 // The jsii proxy struct for KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference
 type jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference) AccessKeyId() *string {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputRefere
 }
 
 
-func NewKmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference {
+func NewKmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewKmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewKmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference(terrafo
 	return &j
 }
 
-func NewKmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference_Override(k KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewKmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference_Override(k KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputRefere
 	)
 }
 
-func (j *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (k *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputRefere
 	return returns
 }
 
-func (k *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -457,8 +457,8 @@ func (k *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputRefere
 	return returns
 }
 
-func (k *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (k *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -470,11 +470,11 @@ func (k *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputRefere
 	return returns
 }
 
-func (k *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -486,7 +486,7 @@ func (k *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputRefere
 	return returns
 }
 
-func (k *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

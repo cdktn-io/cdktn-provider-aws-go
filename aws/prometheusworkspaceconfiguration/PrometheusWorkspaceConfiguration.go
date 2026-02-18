@@ -5,18 +5,18 @@ package prometheusworkspaceconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/prometheusworkspaceconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/prometheusworkspaceconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/prometheus_workspace_configuration aws_prometheus_workspace_configuration}.
 type PrometheusWorkspaceConfiguration interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -32,25 +32,25 @@ type PrometheusWorkspaceConfiguration interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LimitsPerLabelSet() PrometheusWorkspaceConfigurationLimitsPerLabelSetList
 	LimitsPerLabelSetInput() interface{}
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -64,7 +64,7 @@ type PrometheusWorkspaceConfiguration interface {
 	SetRetentionPeriodInDays(val *float64)
 	RetentionPeriodInDaysInput() *float64
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -82,7 +82,7 @@ type PrometheusWorkspaceConfiguration interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -100,9 +100,9 @@ type PrometheusWorkspaceConfiguration interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -141,11 +141,11 @@ type PrometheusWorkspaceConfiguration interface {
 
 // The jsii proxy struct for PrometheusWorkspaceConfiguration
 type jsiiProxy_PrometheusWorkspaceConfiguration struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_PrometheusWorkspaceConfiguration) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_PrometheusWorkspaceConfiguration) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -194,8 +194,8 @@ func (j *jsiiProxy_PrometheusWorkspaceConfiguration) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_PrometheusWorkspaceConfiguration) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_PrometheusWorkspaceConfiguration) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -224,8 +224,8 @@ func (j *jsiiProxy_PrometheusWorkspaceConfiguration) FriendlyUniqueId() *string 
 	return returns
 }
 
-func (j *jsiiProxy_PrometheusWorkspaceConfiguration) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_PrometheusWorkspaceConfiguration) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -264,8 +264,8 @@ func (j *jsiiProxy_PrometheusWorkspaceConfiguration) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_PrometheusWorkspaceConfiguration) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_PrometheusWorkspaceConfiguration) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -334,8 +334,8 @@ func (j *jsiiProxy_PrometheusWorkspaceConfiguration) RetentionPeriodInDaysInput(
 	return returns
 }
 
-func (j *jsiiProxy_PrometheusWorkspaceConfiguration) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_PrometheusWorkspaceConfiguration) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -464,7 +464,7 @@ func (j *jsiiProxy_PrometheusWorkspaceConfiguration)SetDependsOn(val *[]*string)
 	)
 }
 
-func (j *jsiiProxy_PrometheusWorkspaceConfiguration)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_PrometheusWorkspaceConfiguration)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -472,7 +472,7 @@ func (j *jsiiProxy_PrometheusWorkspaceConfiguration)SetForEach(val cdktf.ITerraf
 	)
 }
 
-func (j *jsiiProxy_PrometheusWorkspaceConfiguration)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_PrometheusWorkspaceConfiguration)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -483,7 +483,7 @@ func (j *jsiiProxy_PrometheusWorkspaceConfiguration)SetLifecycle(val *cdktf.Terr
 	)
 }
 
-func (j *jsiiProxy_PrometheusWorkspaceConfiguration)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_PrometheusWorkspaceConfiguration)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -535,14 +535,14 @@ func (j *jsiiProxy_PrometheusWorkspaceConfiguration)SetWorkspaceId(val *string) 
 	)
 }
 
-// Generates CDKTF code for importing a PrometheusWorkspaceConfiguration resource upon running "cdktf plan <stack-name>".
-func PrometheusWorkspaceConfiguration_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a PrometheusWorkspaceConfiguration resource upon running "cdktn plan <stack-name>".
+func PrometheusWorkspaceConfiguration_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validatePrometheusWorkspaceConfiguration_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.prometheusWorkspaceConfiguration.PrometheusWorkspaceConfiguration",
@@ -676,11 +676,11 @@ func (p *jsiiProxy_PrometheusWorkspaceConfiguration) GetAnyMapAttribute(terrafor
 	return returns
 }
 
-func (p *jsiiProxy_PrometheusWorkspaceConfiguration) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrometheusWorkspaceConfiguration) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -817,7 +817,7 @@ func (p *jsiiProxy_PrometheusWorkspaceConfiguration) HasResourceMove() interface
 	return returns
 }
 
-func (p *jsiiProxy_PrometheusWorkspaceConfiguration) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (p *jsiiProxy_PrometheusWorkspaceConfiguration) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := p.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -828,11 +828,11 @@ func (p *jsiiProxy_PrometheusWorkspaceConfiguration) ImportFrom(id *string, prov
 	)
 }
 
-func (p *jsiiProxy_PrometheusWorkspaceConfiguration) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrometheusWorkspaceConfiguration) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,

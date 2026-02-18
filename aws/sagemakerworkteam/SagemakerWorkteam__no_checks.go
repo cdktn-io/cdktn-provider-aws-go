@@ -119,7 +119,7 @@ func (j *jsiiProxy_SagemakerWorkteam) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerWorkteam) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SagemakerWorkteam) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

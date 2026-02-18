@@ -47,7 +47,7 @@ func (q *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_QuicksightVpcConnectionTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewQuicksightVpcConnectionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewQuicksightVpcConnectionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

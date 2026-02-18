@@ -47,7 +47,7 @@ func (b *jsiiProxy_BatchJobQueueJobStateTimeLimitActionOutputReference) validate
 	return nil
 }
 
-func (b *jsiiProxy_BatchJobQueueJobStateTimeLimitActionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchJobQueueJobStateTimeLimitActionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_BatchJobQueueJobStateTimeLimitActionOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_BatchJobQueueJobStateTimeLimitActionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchJobQueueJobStateTimeLimitActionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBatchJobQueueJobStateTimeLimitActionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBatchJobQueueJobStateTimeLimitActionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

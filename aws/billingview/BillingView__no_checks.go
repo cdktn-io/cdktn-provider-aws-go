@@ -111,7 +111,7 @@ func (j *jsiiProxy_BillingView) validateSetDescriptionParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_BillingView) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BillingView) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

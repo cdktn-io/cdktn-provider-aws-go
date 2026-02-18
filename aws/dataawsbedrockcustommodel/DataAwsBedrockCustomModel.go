@@ -5,19 +5,19 @@ package dataawsbedrockcustommodel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsbedrockcustommodel/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsbedrockcustommodel/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/bedrock_custom_model aws_bedrock_custom_model}.
 type DataAwsBedrockCustomModel interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	BaseModelArn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -30,43 +30,43 @@ type DataAwsBedrockCustomModel interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
-	Hyperparameters() cdktf.StringMap
+	Hyperparameters() cdktn.StringMap
 	Id() *string
 	JobArn() *string
 	JobName() *string
-	JobTags() cdktf.StringMap
+	JobTags() cdktn.StringMap
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	ModelArn() *string
 	ModelId() *string
 	SetModelId(val *string)
 	ModelIdInput() *string
 	ModelKmsKeyArn() *string
 	ModelName() *string
-	ModelTags() cdktf.StringMap
+	ModelTags() cdktn.StringMap
 	// The tree node.
 	Node() constructs.Node
 	OutputDataConfig() DataAwsBedrockCustomModelOutputDataConfigList
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -80,7 +80,7 @@ type DataAwsBedrockCustomModel interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -96,7 +96,7 @@ type DataAwsBedrockCustomModel interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -120,7 +120,7 @@ type DataAwsBedrockCustomModel interface {
 
 // The jsii proxy struct for DataAwsBedrockCustomModel
 type jsiiProxy_DataAwsBedrockCustomModel struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsBedrockCustomModel) BaseModelArn() *string {
@@ -133,8 +133,8 @@ func (j *jsiiProxy_DataAwsBedrockCustomModel) BaseModelArn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsBedrockCustomModel) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsBedrockCustomModel) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -183,8 +183,8 @@ func (j *jsiiProxy_DataAwsBedrockCustomModel) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsBedrockCustomModel) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsBedrockCustomModel) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -213,8 +213,8 @@ func (j *jsiiProxy_DataAwsBedrockCustomModel) FriendlyUniqueId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsBedrockCustomModel) Hyperparameters() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAwsBedrockCustomModel) Hyperparameters() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"hyperparameters",
@@ -253,8 +253,8 @@ func (j *jsiiProxy_DataAwsBedrockCustomModel) JobName() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsBedrockCustomModel) JobTags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAwsBedrockCustomModel) JobTags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"jobTags",
@@ -263,8 +263,8 @@ func (j *jsiiProxy_DataAwsBedrockCustomModel) JobTags() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsBedrockCustomModel) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsBedrockCustomModel) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -323,8 +323,8 @@ func (j *jsiiProxy_DataAwsBedrockCustomModel) ModelName() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsBedrockCustomModel) ModelTags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAwsBedrockCustomModel) ModelTags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"modelTags",
@@ -353,8 +353,8 @@ func (j *jsiiProxy_DataAwsBedrockCustomModel) OutputDataConfig() DataAwsBedrockC
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsBedrockCustomModel) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsBedrockCustomModel) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -393,8 +393,8 @@ func (j *jsiiProxy_DataAwsBedrockCustomModel) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsBedrockCustomModel) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsBedrockCustomModel) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -512,7 +512,7 @@ func (j *jsiiProxy_DataAwsBedrockCustomModel)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsBedrockCustomModel)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsBedrockCustomModel)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -520,7 +520,7 @@ func (j *jsiiProxy_DataAwsBedrockCustomModel)SetForEach(val cdktf.ITerraformIter
 	)
 }
 
-func (j *jsiiProxy_DataAwsBedrockCustomModel)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsBedrockCustomModel)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -542,7 +542,7 @@ func (j *jsiiProxy_DataAwsBedrockCustomModel)SetModelId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsBedrockCustomModel)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsBedrockCustomModel)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -561,14 +561,14 @@ func (j *jsiiProxy_DataAwsBedrockCustomModel)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsBedrockCustomModel resource upon running "cdktf plan <stack-name>".
-func DataAwsBedrockCustomModel_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsBedrockCustomModel resource upon running "cdktn plan <stack-name>".
+func DataAwsBedrockCustomModel_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsBedrockCustomModel_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsBedrockCustomModel.DataAwsBedrockCustomModel",
@@ -691,11 +691,11 @@ func (d *jsiiProxy_DataAwsBedrockCustomModel) GetAnyMapAttribute(terraformAttrib
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsBedrockCustomModel) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsBedrockCustomModel) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -819,11 +819,11 @@ func (d *jsiiProxy_DataAwsBedrockCustomModel) GetStringMapAttribute(terraformAtt
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsBedrockCustomModel) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsBedrockCustomModel) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

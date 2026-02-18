@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) validateP
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*PaymentcryptographyKeyKeyAttributesKeyModesOfUse:
 		value := value.(*[]*PaymentcryptographyKeyKeyAttributesKeyModesOfUse)
@@ -117,14 +117,14 @@ func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) validateP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*PaymentcryptographyKeyKeyAttributesKeyModesOfUse; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*PaymentcryptographyKeyKeyAttributesKeyModesOfUse; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -199,7 +199,7 @@ func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) validateS
 
 func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *PaymentcryptographyKeyKeyAttributes:
 		val := val.(*PaymentcryptographyKeyKeyAttributes)
@@ -214,7 +214,7 @@ func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) validateS
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *PaymentcryptographyKeyKeyAttributes; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *PaymentcryptographyKeyKeyAttributes; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -253,7 +253,7 @@ func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -261,7 +261,7 @@ func (j *jsiiProxy_PaymentcryptographyKeyKeyAttributesOutputReference) validateS
 	return nil
 }
 
-func validateNewPaymentcryptographyKeyKeyAttributesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPaymentcryptographyKeyKeyAttributesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

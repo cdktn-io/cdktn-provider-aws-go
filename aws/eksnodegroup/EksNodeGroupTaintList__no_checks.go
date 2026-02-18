@@ -15,7 +15,7 @@ func (e *jsiiProxy_EksNodeGroupTaintList) validateGetParameters(index *float64) 
 	return nil
 }
 
-func (e *jsiiProxy_EksNodeGroupTaintList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksNodeGroupTaintList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EksNodeGroupTaintList) validateSetTerraformAttributeParameter
 	return nil
 }
 
-func (j *jsiiProxy_EksNodeGroupTaintList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksNodeGroupTaintList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EksNodeGroupTaintList) validateSetWrapsSetParameters(val *boo
 	return nil
 }
 
-func validateNewEksNodeGroupTaintListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEksNodeGroupTaintListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

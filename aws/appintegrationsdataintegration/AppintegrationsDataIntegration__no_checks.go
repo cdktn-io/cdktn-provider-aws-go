@@ -115,7 +115,7 @@ func (j *jsiiProxy_AppintegrationsDataIntegration) validateSetKmsKeyParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_AppintegrationsDataIntegration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppintegrationsDataIntegration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

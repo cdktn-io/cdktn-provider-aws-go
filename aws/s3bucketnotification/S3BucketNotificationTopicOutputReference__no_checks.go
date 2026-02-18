@@ -47,7 +47,7 @@ func (s *jsiiProxy_S3BucketNotificationTopicOutputReference) validateInterpolati
 	return nil
 }
 
-func (s *jsiiProxy_S3BucketNotificationTopicOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3BucketNotificationTopicOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_S3BucketNotificationTopicOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketNotificationTopicOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3BucketNotificationTopicOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_S3BucketNotificationTopicOutputReference) validateSetTopicArn
 	return nil
 }
 
-func validateNewS3BucketNotificationTopicOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewS3BucketNotificationTopicOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

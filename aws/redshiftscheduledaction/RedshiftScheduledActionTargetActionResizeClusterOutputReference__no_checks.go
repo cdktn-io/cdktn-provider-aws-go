@@ -47,7 +47,7 @@ func (r *jsiiProxy_RedshiftScheduledActionTargetActionResizeClusterOutputReferen
 	return nil
 }
 
-func (r *jsiiProxy_RedshiftScheduledActionTargetActionResizeClusterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedshiftScheduledActionTargetActionResizeClusterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_RedshiftScheduledActionTargetActionResizeClusterOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftScheduledActionTargetActionResizeClusterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedshiftScheduledActionTargetActionResizeClusterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRedshiftScheduledActionTargetActionResizeClusterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRedshiftScheduledActionTargetActionResizeClusterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

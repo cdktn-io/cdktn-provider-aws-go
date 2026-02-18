@@ -47,7 +47,7 @@ func (d *jsiiProxy_DynamodbTableGlobalTableWitnessOutputReference) validateInter
 	return nil
 }
 
-func (d *jsiiProxy_DynamodbTableGlobalTableWitnessOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DynamodbTableGlobalTableWitnessOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DynamodbTableGlobalTableWitnessOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DynamodbTableGlobalTableWitnessOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DynamodbTableGlobalTableWitnessOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDynamodbTableGlobalTableWitnessOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDynamodbTableGlobalTableWitnessOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

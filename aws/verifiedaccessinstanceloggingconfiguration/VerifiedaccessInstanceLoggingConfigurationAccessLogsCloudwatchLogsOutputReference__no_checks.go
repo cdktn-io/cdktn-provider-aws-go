@@ -47,7 +47,7 @@ func (v *jsiiProxy_VerifiedaccessInstanceLoggingConfigurationAccessLogsCloudwatc
 	return nil
 }
 
-func (v *jsiiProxy_VerifiedaccessInstanceLoggingConfigurationAccessLogsCloudwatchLogsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VerifiedaccessInstanceLoggingConfigurationAccessLogsCloudwatchLogsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VerifiedaccessInstanceLoggingConfigurationAccessLogsCloudwatc
 	return nil
 }
 
-func (j *jsiiProxy_VerifiedaccessInstanceLoggingConfigurationAccessLogsCloudwatchLogsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VerifiedaccessInstanceLoggingConfigurationAccessLogsCloudwatchLogsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVerifiedaccessInstanceLoggingConfigurationAccessLogsCloudwatchLogsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVerifiedaccessInstanceLoggingConfigurationAccessLogsCloudwatchLogsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

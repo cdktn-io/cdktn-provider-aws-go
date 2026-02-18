@@ -5,14 +5,14 @@ package dataawsmqbroker
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsmqbroker/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsmqbroker/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsMqBrokerEncryptionOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -38,16 +38,16 @@ type DataAwsMqBrokerEncryptionOptionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
-	UseAwsOwnedKey() cdktf.IResolvable
+	SetTerraformResource(val cdktn.IInterpolatingParent)
+	UseAwsOwnedKey() cdktn.IResolvable
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type DataAwsMqBrokerEncryptionOptionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type DataAwsMqBrokerEncryptionOptionsOutputReference interface {
 
 // The jsii proxy struct for DataAwsMqBrokerEncryptionOptionsOutputReference
 type jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference) ComplexObjectIndex() interface{} {
@@ -151,8 +151,8 @@ func (j *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -161,8 +161,8 @@ func (j *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference) TerraformRes
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference) UseAwsOwnedKey() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference) UseAwsOwnedKey() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"useAwsOwnedKey",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference) UseAwsOwnedK
 }
 
 
-func NewDataAwsMqBrokerEncryptionOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsMqBrokerEncryptionOptionsOutputReference {
+func NewDataAwsMqBrokerEncryptionOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsMqBrokerEncryptionOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsMqBrokerEncryptionOptionsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -189,7 +189,7 @@ func NewDataAwsMqBrokerEncryptionOptionsOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewDataAwsMqBrokerEncryptionOptionsOutputReference_Override(d DataAwsMqBrokerEncryptionOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsMqBrokerEncryptionOptionsOutputReference_Override(d DataAwsMqBrokerEncryptionOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -243,7 +243,7 @@ func (j *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (d *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -411,8 +411,8 @@ func (d *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference) GetStringMap
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -424,11 +424,11 @@ func (d *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference) Interpolatio
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -440,7 +440,7 @@ func (d *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference) Interpolatio
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsMqBrokerEncryptionOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

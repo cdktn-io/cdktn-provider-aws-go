@@ -5,14 +5,14 @@ package pipespipe
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/pipespipe/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/pipespipe/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOver
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOver
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDeviceName()
 	ResetDeviceType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOver
 
 // The jsii proxy struct for PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference
 type jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceA
 	return returns
 }
 
-func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceA
 }
 
 
-func NewPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference {
+func NewPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -215,7 +215,7 @@ func NewPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorO
 	return &j
 }
 
-func NewPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference_Override(p PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference_Override(p PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceA
 	)
 }
 
-func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceA
 	return returns
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -459,8 +459,8 @@ func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceA
 	return returns
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -472,11 +472,11 @@ func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceA
 	return returns
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -504,7 +504,7 @@ func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceA
 	)
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

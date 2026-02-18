@@ -47,7 +47,7 @@ func (r *jsiiProxy_RedshiftdataStatementParametersOutputReference) validateInter
 	return nil
 }
 
-func (r *jsiiProxy_RedshiftdataStatementParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedshiftdataStatementParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_RedshiftdataStatementParametersOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftdataStatementParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedshiftdataStatementParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_RedshiftdataStatementParametersOutputReference) validateSetVa
 	return nil
 }
 
-func validateNewRedshiftdataStatementParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRedshiftdataStatementParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

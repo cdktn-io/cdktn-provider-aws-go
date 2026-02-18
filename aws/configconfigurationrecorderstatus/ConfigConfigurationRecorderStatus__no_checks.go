@@ -107,7 +107,7 @@ func (j *jsiiProxy_ConfigConfigurationRecorderStatus) validateSetIsEnabledParame
 	return nil
 }
 
-func (j *jsiiProxy_ConfigConfigurationRecorderStatus) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ConfigConfigurationRecorderStatus) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

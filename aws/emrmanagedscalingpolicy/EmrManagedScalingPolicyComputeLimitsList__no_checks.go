@@ -15,7 +15,7 @@ func (e *jsiiProxy_EmrManagedScalingPolicyComputeLimitsList) validateGetParamete
 	return nil
 }
 
-func (e *jsiiProxy_EmrManagedScalingPolicyComputeLimitsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EmrManagedScalingPolicyComputeLimitsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EmrManagedScalingPolicyComputeLimitsList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_EmrManagedScalingPolicyComputeLimitsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EmrManagedScalingPolicyComputeLimitsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EmrManagedScalingPolicyComputeLimitsList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewEmrManagedScalingPolicyComputeLimitsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEmrManagedScalingPolicyComputeLimitsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

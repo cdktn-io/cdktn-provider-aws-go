@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsVpcPeeringConnectionsTimeoutsOutputReference) validate
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsVpcPeeringConnectionsTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsVpcPeeringConnectionsTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAwsVpcPeeringConnectionsTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVpcPeeringConnectionsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsVpcPeeringConnectionsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsVpcPeeringConnectionsTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAwsVpcPeeringConnectionsTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -115,7 +115,7 @@ func (j *jsiiProxy_ElasticsearchDomainSamlOptions) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_ElasticsearchDomainSamlOptions) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ElasticsearchDomainSamlOptions) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

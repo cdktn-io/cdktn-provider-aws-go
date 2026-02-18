@@ -99,7 +99,7 @@ func (j *jsiiProxy_IamOutboundWebIdentityFederation) validateSetCountParameters(
 	return nil
 }
 
-func (j *jsiiProxy_IamOutboundWebIdentityFederation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IamOutboundWebIdentityFederation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

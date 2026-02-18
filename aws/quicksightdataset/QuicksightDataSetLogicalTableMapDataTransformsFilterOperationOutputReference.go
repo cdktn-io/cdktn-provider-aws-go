@@ -5,14 +5,14 @@ package quicksightdataset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/quicksightdataset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/quicksightdataset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReferenc
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReferenc
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReferenc
 
 // The jsii proxy struct for QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference
 type jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsFilterOperation
 	return returns
 }
 
-func (j *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsFilterOperation
 }
 
 
-func NewQuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference {
+func NewQuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewQuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewQuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputRefer
 	return &j
 }
 
-func NewQuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference_Override(q QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewQuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference_Override(q QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsFilterOperation
 	)
 }
 
-func (j *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsFilterOperation
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := q.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -423,8 +423,8 @@ func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsFilterOperation
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -436,11 +436,11 @@ func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsFilterOperation
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := q.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		q,
@@ -452,7 +452,7 @@ func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsFilterOperation
 	return returns
 }
 
-func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (q *jsiiProxy_QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := q.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

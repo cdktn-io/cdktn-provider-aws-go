@@ -47,7 +47,7 @@ func (p *jsiiProxy_PrometheusScraperSourceEksOutputReference) validateInterpolat
 	return nil
 }
 
-func (p *jsiiProxy_PrometheusScraperSourceEksOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrometheusScraperSourceEksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_PrometheusScraperSourceEksOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_PrometheusScraperSourceEksOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrometheusScraperSourceEksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPrometheusScraperSourceEksOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPrometheusScraperSourceEksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

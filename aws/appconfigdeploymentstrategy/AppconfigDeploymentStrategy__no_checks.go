@@ -123,7 +123,7 @@ func (j *jsiiProxy_AppconfigDeploymentStrategy) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_AppconfigDeploymentStrategy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppconfigDeploymentStrategy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -107,7 +107,7 @@ func (j *jsiiProxy_Pinpointsmsvoicev2ConfigurationSet) validateSetDefaultSenderI
 	return nil
 }
 
-func (j *jsiiProxy_Pinpointsmsvoicev2ConfigurationSet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Pinpointsmsvoicev2ConfigurationSet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (q *jsiiProxy_QuicksightDataSetRefreshPropertiesRefreshConfigurationIncreme
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_QuicksightDataSetRefreshPropertiesRefreshConfigurationIncreme
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewQuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewQuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

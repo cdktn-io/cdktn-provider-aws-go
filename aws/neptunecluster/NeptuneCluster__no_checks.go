@@ -175,7 +175,7 @@ func (j *jsiiProxy_NeptuneCluster) validateSetKmsKeyArnParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_NeptuneCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NeptuneCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

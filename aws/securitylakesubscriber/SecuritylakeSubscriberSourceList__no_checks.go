@@ -15,7 +15,7 @@ func (s *jsiiProxy_SecuritylakeSubscriberSourceList) validateGetParameters(index
 	return nil
 }
 
-func (s *jsiiProxy_SecuritylakeSubscriberSourceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecuritylakeSubscriberSourceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SecuritylakeSubscriberSourceList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_SecuritylakeSubscriberSourceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecuritylakeSubscriberSourceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SecuritylakeSubscriberSourceList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewSecuritylakeSubscriberSourceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSecuritylakeSubscriberSourceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

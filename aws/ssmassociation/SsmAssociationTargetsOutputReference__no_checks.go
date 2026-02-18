@@ -47,7 +47,7 @@ func (s *jsiiProxy_SsmAssociationTargetsOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (s *jsiiProxy_SsmAssociationTargetsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsmAssociationTargetsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_SsmAssociationTargetsOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_SsmAssociationTargetsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsmAssociationTargetsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SsmAssociationTargetsOutputReference) validateSetValuesParame
 	return nil
 }
 
-func validateNewSsmAssociationTargetsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSsmAssociationTargetsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

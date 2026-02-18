@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsBatchJobDefinition) validateSetCountParameters(val int
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsBatchJobDefinition) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsBatchJobDefinition) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

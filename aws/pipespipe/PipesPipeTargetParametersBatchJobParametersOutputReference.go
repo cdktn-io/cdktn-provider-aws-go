@@ -5,14 +5,14 @@ package pipespipe
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/pipespipe/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/pipespipe/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PipesPipeTargetParametersBatchJobParametersOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ArrayProperties() PipesPipeTargetParametersBatchJobParametersArrayPropertiesOutputReference
 	ArrayPropertiesInput() *PipesPipeTargetParametersBatchJobParametersArrayProperties
 	// the index of the complex object in a list.
@@ -54,15 +54,15 @@ type PipesPipeTargetParametersBatchJobParametersOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -78,9 +78,9 @@ type PipesPipeTargetParametersBatchJobParametersOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutArrayProperties(value *PipesPipeTargetParametersBatchJobParametersArrayProperties)
 	PutContainerOverrides(value *PipesPipeTargetParametersBatchJobParametersContainerOverrides)
 	PutDependsOn(value interface{})
@@ -92,7 +92,7 @@ type PipesPipeTargetParametersBatchJobParametersOutputReference interface {
 	ResetRetryStrategy()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -102,7 +102,7 @@ type PipesPipeTargetParametersBatchJobParametersOutputReference interface {
 
 // The jsii proxy struct for PipesPipeTargetParametersBatchJobParametersOutputReference
 type jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference) ArrayProperties() PipesPipeTargetParametersBatchJobParametersArrayPropertiesOutputReference {
@@ -305,8 +305,8 @@ func (j *jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -316,7 +316,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference) T
 }
 
 
-func NewPipesPipeTargetParametersBatchJobParametersOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) PipesPipeTargetParametersBatchJobParametersOutputReference {
+func NewPipesPipeTargetParametersBatchJobParametersOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) PipesPipeTargetParametersBatchJobParametersOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPipesPipeTargetParametersBatchJobParametersOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -333,7 +333,7 @@ func NewPipesPipeTargetParametersBatchJobParametersOutputReference(terraformReso
 	return &j
 }
 
-func NewPipesPipeTargetParametersBatchJobParametersOutputReference_Override(p PipesPipeTargetParametersBatchJobParametersOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewPipesPipeTargetParametersBatchJobParametersOutputReference_Override(p PipesPipeTargetParametersBatchJobParametersOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -420,7 +420,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -460,11 +460,11 @@ func (p *jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference) G
 	return returns
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -588,8 +588,8 @@ func (p *jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference) G
 	return returns
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -601,11 +601,11 @@ func (p *jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference) I
 	return returns
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -701,7 +701,7 @@ func (p *jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference) R
 	)
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PipesPipeTargetParametersBatchJobParametersOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

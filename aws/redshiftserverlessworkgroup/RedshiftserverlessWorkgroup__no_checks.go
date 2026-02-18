@@ -123,7 +123,7 @@ func (j *jsiiProxy_RedshiftserverlessWorkgroup) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftserverlessWorkgroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RedshiftserverlessWorkgroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

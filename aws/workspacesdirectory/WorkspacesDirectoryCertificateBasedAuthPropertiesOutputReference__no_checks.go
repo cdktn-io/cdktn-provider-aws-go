@@ -47,7 +47,7 @@ func (w *jsiiProxy_WorkspacesDirectoryCertificateBasedAuthPropertiesOutputRefere
 	return nil
 }
 
-func (w *jsiiProxy_WorkspacesDirectoryCertificateBasedAuthPropertiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkspacesDirectoryCertificateBasedAuthPropertiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_WorkspacesDirectoryCertificateBasedAuthPropertiesOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_WorkspacesDirectoryCertificateBasedAuthPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkspacesDirectoryCertificateBasedAuthPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWorkspacesDirectoryCertificateBasedAuthPropertiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWorkspacesDirectoryCertificateBasedAuthPropertiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

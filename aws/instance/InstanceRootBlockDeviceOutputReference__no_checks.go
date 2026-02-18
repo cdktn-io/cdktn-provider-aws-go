@@ -47,7 +47,7 @@ func (i *jsiiProxy_InstanceRootBlockDeviceOutputReference) validateInterpolation
 	return nil
 }
 
-func (i *jsiiProxy_InstanceRootBlockDeviceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_InstanceRootBlockDeviceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_InstanceRootBlockDeviceOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_InstanceRootBlockDeviceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_InstanceRootBlockDeviceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -107,7 +107,7 @@ func (j *jsiiProxy_InstanceRootBlockDeviceOutputReference) validateSetVolumeType
 	return nil
 }
 
-func validateNewInstanceRootBlockDeviceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewInstanceRootBlockDeviceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

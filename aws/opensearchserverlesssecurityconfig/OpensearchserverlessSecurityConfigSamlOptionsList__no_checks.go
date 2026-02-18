@@ -15,7 +15,7 @@ func (o *jsiiProxy_OpensearchserverlessSecurityConfigSamlOptionsList) validateGe
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchserverlessSecurityConfigSamlOptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchserverlessSecurityConfigSamlOptionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_OpensearchserverlessSecurityConfigSamlOptionsList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchserverlessSecurityConfigSamlOptionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchserverlessSecurityConfigSamlOptionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_OpensearchserverlessSecurityConfigSamlOptionsList) validateSe
 	return nil
 }
 
-func validateNewOpensearchserverlessSecurityConfigSamlOptionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOpensearchserverlessSecurityConfigSamlOptionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

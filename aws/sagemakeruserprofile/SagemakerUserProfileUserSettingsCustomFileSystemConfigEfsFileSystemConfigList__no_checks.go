@@ -15,7 +15,7 @@ func (s *jsiiProxy_SagemakerUserProfileUserSettingsCustomFileSystemConfigEfsFile
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerUserProfileUserSettingsCustomFileSystemConfigEfsFileSystemConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerUserProfileUserSettingsCustomFileSystemConfigEfsFileSystemConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SagemakerUserProfileUserSettingsCustomFileSystemConfigEfsFile
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerUserProfileUserSettingsCustomFileSystemConfigEfsFileSystemConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerUserProfileUserSettingsCustomFileSystemConfigEfsFileSystemConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SagemakerUserProfileUserSettingsCustomFileSystemConfigEfsFile
 	return nil
 }
 
-func validateNewSagemakerUserProfileUserSettingsCustomFileSystemConfigEfsFileSystemConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSagemakerUserProfileUserSettingsCustomFileSystemConfigEfsFileSystemConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

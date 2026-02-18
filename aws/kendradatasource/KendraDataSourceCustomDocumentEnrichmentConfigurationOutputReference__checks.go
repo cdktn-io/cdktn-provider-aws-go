@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (k *jsiiProxy_KendraDataSourceCustomDocumentEnrichmentConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (k *jsiiProxy_KendraDataSourceCustomDocumentEnrichmentConfigurationOutputRe
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations:
 		value := value.(*[]*KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations)
@@ -117,7 +117,7 @@ func (k *jsiiProxy_KendraDataSourceCustomDocumentEnrichmentConfigurationOutputRe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -146,7 +146,7 @@ func (k *jsiiProxy_KendraDataSourceCustomDocumentEnrichmentConfigurationOutputRe
 	return nil
 }
 
-func (k *jsiiProxy_KendraDataSourceCustomDocumentEnrichmentConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KendraDataSourceCustomDocumentEnrichmentConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -243,7 +243,7 @@ func (j *jsiiProxy_KendraDataSourceCustomDocumentEnrichmentConfigurationOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_KendraDataSourceCustomDocumentEnrichmentConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KendraDataSourceCustomDocumentEnrichmentConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -251,7 +251,7 @@ func (j *jsiiProxy_KendraDataSourceCustomDocumentEnrichmentConfigurationOutputRe
 	return nil
 }
 
-func validateNewKendraDataSourceCustomDocumentEnrichmentConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKendraDataSourceCustomDocumentEnrichmentConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

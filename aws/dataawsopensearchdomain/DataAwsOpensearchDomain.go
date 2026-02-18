@@ -5,23 +5,23 @@ package dataawsopensearchdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsopensearchdomain/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsopensearchdomain/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/opensearch_domain aws_opensearch_domain}.
 type DataAwsOpensearchDomain interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AccessPolicies() *string
-	AdvancedOptions() cdktf.StringMap
+	AdvancedOptions() cdktn.StringMap
 	AdvancedSecurityOptions() DataAwsOpensearchDomainAdvancedSecurityOptionsList
 	Arn() *string
 	AutoTuneOptions() DataAwsOpensearchDomainAutoTuneOptionsList
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClusterConfig() DataAwsOpensearchDomainClusterConfigList
 	CognitoOptions() DataAwsOpensearchDomainCognitoOptionsList
 	// Experimental.
@@ -30,10 +30,10 @@ type DataAwsOpensearchDomain interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
-	Created() cdktf.IResolvable
+	Created() cdktn.IResolvable
 	DashboardEndpoint() *string
 	DashboardEndpointV2() *string
-	Deleted() cdktf.IResolvable
+	Deleted() cdktn.IResolvable
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -49,9 +49,9 @@ type DataAwsOpensearchDomain interface {
 	EndpointV2() *string
 	EngineVersion() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -62,19 +62,19 @@ type DataAwsOpensearchDomain interface {
 	IdInput() *string
 	IpAddressType() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LogPublishingOptions() DataAwsOpensearchDomainLogPublishingOptionsList
 	// The tree node.
 	Node() constructs.Node
 	NodeToNodeEncryption() DataAwsOpensearchDomainNodeToNodeEncryptionList
 	OffPeakWindowOptions() DataAwsOpensearchDomainOffPeakWindowOptionsList
-	Processing() cdktf.IResolvable
+	Processing() cdktn.IResolvable
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -86,7 +86,7 @@ type DataAwsOpensearchDomain interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -97,7 +97,7 @@ type DataAwsOpensearchDomain interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -113,7 +113,7 @@ type DataAwsOpensearchDomain interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -139,7 +139,7 @@ type DataAwsOpensearchDomain interface {
 
 // The jsii proxy struct for DataAwsOpensearchDomain
 type jsiiProxy_DataAwsOpensearchDomain struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsOpensearchDomain) AccessPolicies() *string {
@@ -152,8 +152,8 @@ func (j *jsiiProxy_DataAwsOpensearchDomain) AccessPolicies() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsOpensearchDomain) AdvancedOptions() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAwsOpensearchDomain) AdvancedOptions() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"advancedOptions",
@@ -192,8 +192,8 @@ func (j *jsiiProxy_DataAwsOpensearchDomain) AutoTuneOptions() DataAwsOpensearchD
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsOpensearchDomain) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsOpensearchDomain) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -242,8 +242,8 @@ func (j *jsiiProxy_DataAwsOpensearchDomain) Count() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsOpensearchDomain) Created() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsOpensearchDomain) Created() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"created",
@@ -272,8 +272,8 @@ func (j *jsiiProxy_DataAwsOpensearchDomain) DashboardEndpointV2() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsOpensearchDomain) Deleted() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsOpensearchDomain) Deleted() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"deleted",
@@ -382,8 +382,8 @@ func (j *jsiiProxy_DataAwsOpensearchDomain) EngineVersion() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsOpensearchDomain) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsOpensearchDomain) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -452,8 +452,8 @@ func (j *jsiiProxy_DataAwsOpensearchDomain) IpAddressType() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsOpensearchDomain) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsOpensearchDomain) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -502,8 +502,8 @@ func (j *jsiiProxy_DataAwsOpensearchDomain) OffPeakWindowOptions() DataAwsOpense
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsOpensearchDomain) Processing() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsOpensearchDomain) Processing() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"processing",
@@ -512,8 +512,8 @@ func (j *jsiiProxy_DataAwsOpensearchDomain) Processing() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsOpensearchDomain) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsOpensearchDomain) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -592,8 +592,8 @@ func (j *jsiiProxy_DataAwsOpensearchDomain) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsOpensearchDomain) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsOpensearchDomain) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -692,7 +692,7 @@ func (j *jsiiProxy_DataAwsOpensearchDomain)SetDomainName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsOpensearchDomain)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsOpensearchDomain)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -711,7 +711,7 @@ func (j *jsiiProxy_DataAwsOpensearchDomain)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsOpensearchDomain)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsOpensearchDomain)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -722,7 +722,7 @@ func (j *jsiiProxy_DataAwsOpensearchDomain)SetLifecycle(val *cdktf.TerraformReso
 	)
 }
 
-func (j *jsiiProxy_DataAwsOpensearchDomain)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsOpensearchDomain)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -752,14 +752,14 @@ func (j *jsiiProxy_DataAwsOpensearchDomain)SetTags(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsOpensearchDomain resource upon running "cdktf plan <stack-name>".
-func DataAwsOpensearchDomain_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsOpensearchDomain resource upon running "cdktn plan <stack-name>".
+func DataAwsOpensearchDomain_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsOpensearchDomain_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsOpensearchDomain.DataAwsOpensearchDomain",
@@ -882,11 +882,11 @@ func (d *jsiiProxy_DataAwsOpensearchDomain) GetAnyMapAttribute(terraformAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsOpensearchDomain) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsOpensearchDomain) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1010,11 +1010,11 @@ func (d *jsiiProxy_DataAwsOpensearchDomain) GetStringMapAttribute(terraformAttri
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsOpensearchDomain) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsOpensearchDomain) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

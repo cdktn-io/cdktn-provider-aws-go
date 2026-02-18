@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsLaunchTemplateNetworkInterfacesList) validateGetParame
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsLaunchTemplateNetworkInterfacesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsLaunchTemplateNetworkInterfacesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsLaunchTemplateNetworkInterfacesList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLaunchTemplateNetworkInterfacesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsLaunchTemplateNetworkInterfacesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsLaunchTemplateNetworkInterfacesList) validateSetWrapsS
 	return nil
 }
 
-func validateNewDataAwsLaunchTemplateNetworkInterfacesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsLaunchTemplateNetworkInterfacesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

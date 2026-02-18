@@ -5,14 +5,14 @@ package bedrockagentknowledgebase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/bedrockagentknowledgebase/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/bedrockagentknowledgebase/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputRe
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VectorBucketArn() *string
 	SetVectorBucketArn(val *string)
 	VectorBucketArnInput() *string
@@ -54,7 +54,7 @@ type BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputRe
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputRe
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetIndexArn()
 	ResetIndexName()
 	ResetVectorBucketArn()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputRe
 
 // The jsii proxy struct for BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference
 type jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigu
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigu
 }
 
 
-func NewBedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference {
+func NewBedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -239,7 +239,7 @@ func NewBedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutpu
 	return &j
 }
 
-func NewBedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference_Override(b BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewBedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference_Override(b BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigu
 	)
 }
 
-func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigu
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -494,8 +494,8 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigu
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -507,11 +507,11 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigu
 	return returns
 }
 
-func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -547,7 +547,7 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigu
 	)
 }
 
-func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

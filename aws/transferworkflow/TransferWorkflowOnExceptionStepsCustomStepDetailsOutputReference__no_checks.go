@@ -47,7 +47,7 @@ func (t *jsiiProxy_TransferWorkflowOnExceptionStepsCustomStepDetailsOutputRefere
 	return nil
 }
 
-func (t *jsiiProxy_TransferWorkflowOnExceptionStepsCustomStepDetailsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TransferWorkflowOnExceptionStepsCustomStepDetailsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_TransferWorkflowOnExceptionStepsCustomStepDetailsOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_TransferWorkflowOnExceptionStepsCustomStepDetailsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TransferWorkflowOnExceptionStepsCustomStepDetailsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_TransferWorkflowOnExceptionStepsCustomStepDetailsOutputRefere
 	return nil
 }
 
-func validateNewTransferWorkflowOnExceptionStepsCustomStepDetailsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTransferWorkflowOnExceptionStepsCustomStepDetailsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

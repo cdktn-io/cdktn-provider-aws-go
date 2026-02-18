@@ -15,7 +15,7 @@ func (f *jsiiProxy_FinspaceKxVolumeAttachedClustersList) validateGetParameters(i
 	return nil
 }
 
-func (f *jsiiProxy_FinspaceKxVolumeAttachedClustersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FinspaceKxVolumeAttachedClustersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_FinspaceKxVolumeAttachedClustersList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_FinspaceKxVolumeAttachedClustersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FinspaceKxVolumeAttachedClustersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_FinspaceKxVolumeAttachedClustersList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewFinspaceKxVolumeAttachedClustersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFinspaceKxVolumeAttachedClustersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

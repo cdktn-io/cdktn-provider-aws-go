@@ -107,7 +107,7 @@ func (j *jsiiProxy_XrayEncryptionConfig) validateSetKeyIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_XrayEncryptionConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_XrayEncryptionConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

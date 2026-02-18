@@ -115,7 +115,7 @@ func (j *jsiiProxy_NetworkfirewallVpcEndpointAssociation) validateSetFirewallArn
 	return nil
 }
 
-func (j *jsiiProxy_NetworkfirewallVpcEndpointAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkfirewallVpcEndpointAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsApiGatewayRestApiEndpointConfigurationOutputReference)
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsApiGatewayRestApiEndpointConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsApiGatewayRestApiEndpointConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsApiGatewayRestApiEndpointConfigurationOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsApiGatewayRestApiEndpointConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsApiGatewayRestApiEndpointConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsApiGatewayRestApiEndpointConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsApiGatewayRestApiEndpointConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

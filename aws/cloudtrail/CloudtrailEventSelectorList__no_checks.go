@@ -15,7 +15,7 @@ func (c *jsiiProxy_CloudtrailEventSelectorList) validateGetParameters(index *flo
 	return nil
 }
 
-func (c *jsiiProxy_CloudtrailEventSelectorList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudtrailEventSelectorList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CloudtrailEventSelectorList) validateSetTerraformAttributePar
 	return nil
 }
 
-func (j *jsiiProxy_CloudtrailEventSelectorList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudtrailEventSelectorList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CloudtrailEventSelectorList) validateSetWrapsSetParameters(va
 	return nil
 }
 
-func validateNewCloudtrailEventSelectorListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudtrailEventSelectorListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

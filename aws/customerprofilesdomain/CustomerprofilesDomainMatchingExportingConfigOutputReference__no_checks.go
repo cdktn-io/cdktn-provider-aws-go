@@ -51,7 +51,7 @@ func (c *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference)
 	return nil
 }
 
-func (c *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CustomerprofilesDomainMatchingExportingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCustomerprofilesDomainMatchingExportingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCustomerprofilesDomainMatchingExportingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

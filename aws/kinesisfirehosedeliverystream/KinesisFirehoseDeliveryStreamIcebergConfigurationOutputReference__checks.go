@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (k *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -109,7 +109,7 @@ func (k *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationOutputRefere
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*KinesisFirehoseDeliveryStreamIcebergConfigurationDestinationTableConfiguration:
 		value := value.(*[]*KinesisFirehoseDeliveryStreamIcebergConfigurationDestinationTableConfiguration)
@@ -128,7 +128,7 @@ func (k *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*KinesisFirehoseDeliveryStreamIcebergConfigurationDestinationTableConfiguration; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*KinesisFirehoseDeliveryStreamIcebergConfigurationDestinationTableConfiguration; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -157,7 +157,7 @@ func (k *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationOutputRefere
 	return nil
 }
 
-func (k *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -174,11 +174,11 @@ func (j *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationOutputRefere
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -314,7 +314,7 @@ func (j *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -322,7 +322,7 @@ func (j *jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationOutputRefere
 	return nil
 }
 
-func validateNewKinesisFirehoseDeliveryStreamIcebergConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKinesisFirehoseDeliveryStreamIcebergConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

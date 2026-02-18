@@ -103,7 +103,7 @@ func (j *jsiiProxy_CloudtrailOrganizationDelegatedAdminAccount) validateSetCount
 	return nil
 }
 
-func (j *jsiiProxy_CloudtrailOrganizationDelegatedAdminAccount) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudtrailOrganizationDelegatedAdminAccount) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

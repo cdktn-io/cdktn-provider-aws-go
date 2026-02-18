@@ -51,7 +51,7 @@ func (r *jsiiProxy_RbinRuleLockConfigurationOutputReference) validatePutUnlockDe
 	return nil
 }
 
-func (r *jsiiProxy_RbinRuleLockConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RbinRuleLockConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_RbinRuleLockConfigurationOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_RbinRuleLockConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RbinRuleLockConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRbinRuleLockConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRbinRuleLockConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (a *jsiiProxy_AutoscalingplansScalingPlanApplicationSourceTagFilterOutputRe
 	return nil
 }
 
-func (a *jsiiProxy_AutoscalingplansScalingPlanApplicationSourceTagFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutoscalingplansScalingPlanApplicationSourceTagFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_AutoscalingplansScalingPlanApplicationSourceTagFilterOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_AutoscalingplansScalingPlanApplicationSourceTagFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutoscalingplansScalingPlanApplicationSourceTagFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AutoscalingplansScalingPlanApplicationSourceTagFilterOutputRe
 	return nil
 }
 
-func validateNewAutoscalingplansScalingPlanApplicationSourceTagFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAutoscalingplansScalingPlanApplicationSourceTagFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

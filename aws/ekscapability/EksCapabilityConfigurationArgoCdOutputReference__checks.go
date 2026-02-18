@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (e *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (e *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validatePutA
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EksCapabilityConfigurationArgoCdAwsIdc:
 		value := value.(*[]*EksCapabilityConfigurationArgoCdAwsIdc)
@@ -117,7 +117,7 @@ func (e *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validatePutA
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EksCapabilityConfigurationArgoCdAwsIdc; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EksCapabilityConfigurationArgoCdAwsIdc; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (e *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validatePutN
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EksCapabilityConfigurationArgoCdNetworkAccess:
 		value := value.(*[]*EksCapabilityConfigurationArgoCdNetworkAccess)
@@ -148,7 +148,7 @@ func (e *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validatePutN
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EksCapabilityConfigurationArgoCdNetworkAccess; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EksCapabilityConfigurationArgoCdNetworkAccess; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (e *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validatePutR
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EksCapabilityConfigurationArgoCdRbacRoleMapping:
 		value := value.(*[]*EksCapabilityConfigurationArgoCdRbacRoleMapping)
@@ -179,14 +179,14 @@ func (e *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validatePutR
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EksCapabilityConfigurationArgoCdRbacRoleMapping; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EksCapabilityConfigurationArgoCdRbacRoleMapping; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (e *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -261,7 +261,7 @@ func (j *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validateSetC
 
 func (j *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *EksCapabilityConfigurationArgoCd:
 		val := val.(*EksCapabilityConfigurationArgoCd)
@@ -276,7 +276,7 @@ func (j *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validateSetI
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *EksCapabilityConfigurationArgoCd; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *EksCapabilityConfigurationArgoCd; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -299,7 +299,7 @@ func (j *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -307,7 +307,7 @@ func (j *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validateSetT
 	return nil
 }
 
-func validateNewEksCapabilityConfigurationArgoCdOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEksCapabilityConfigurationArgoCdOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

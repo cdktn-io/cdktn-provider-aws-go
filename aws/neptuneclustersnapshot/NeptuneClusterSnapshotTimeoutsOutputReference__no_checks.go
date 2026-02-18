@@ -47,7 +47,7 @@ func (n *jsiiProxy_NeptuneClusterSnapshotTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (n *jsiiProxy_NeptuneClusterSnapshotTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NeptuneClusterSnapshotTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_NeptuneClusterSnapshotTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_NeptuneClusterSnapshotTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NeptuneClusterSnapshotTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNeptuneClusterSnapshotTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNeptuneClusterSnapshotTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

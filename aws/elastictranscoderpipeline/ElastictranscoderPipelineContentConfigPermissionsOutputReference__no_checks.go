@@ -47,7 +47,7 @@ func (e *jsiiProxy_ElastictranscoderPipelineContentConfigPermissionsOutputRefere
 	return nil
 }
 
-func (e *jsiiProxy_ElastictranscoderPipelineContentConfigPermissionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElastictranscoderPipelineContentConfigPermissionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ElastictranscoderPipelineContentConfigPermissionsOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_ElastictranscoderPipelineContentConfigPermissionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElastictranscoderPipelineContentConfigPermissionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewElastictranscoderPipelineContentConfigPermissionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewElastictranscoderPipelineContentConfigPermissionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

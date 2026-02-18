@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsCodeguruprofilerProfilingGroupProfilingStatusLatestAgg
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCodeguruprofilerProfilingGroupProfilingStatusLatestAggregatedProfileList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCodeguruprofilerProfilingGroupProfilingStatusLatestAggregatedProfileList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsCodeguruprofilerProfilingGroupProfilingStatusLatestAgg
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCodeguruprofilerProfilingGroupProfilingStatusLatestAggregatedProfileList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCodeguruprofilerProfilingGroupProfilingStatusLatestAggregatedProfileList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsCodeguruprofilerProfilingGroupProfilingStatusLatestAgg
 	return nil
 }
 
-func validateNewDataAwsCodeguruprofilerProfilingGroupProfilingStatusLatestAggregatedProfileListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsCodeguruprofilerProfilingGroupProfilingStatusLatestAggregatedProfileListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

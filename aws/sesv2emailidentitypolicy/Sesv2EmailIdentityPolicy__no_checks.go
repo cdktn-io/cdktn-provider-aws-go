@@ -107,7 +107,7 @@ func (j *jsiiProxy_Sesv2EmailIdentityPolicy) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_Sesv2EmailIdentityPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Sesv2EmailIdentityPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

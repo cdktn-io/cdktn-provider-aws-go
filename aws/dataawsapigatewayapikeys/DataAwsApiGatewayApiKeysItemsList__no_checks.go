@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsApiGatewayApiKeysItemsList) validateGetParameters(inde
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsApiGatewayApiKeysItemsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsApiGatewayApiKeysItemsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsApiGatewayApiKeysItemsList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsApiGatewayApiKeysItemsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsApiGatewayApiKeysItemsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsApiGatewayApiKeysItemsList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewDataAwsApiGatewayApiKeysItemsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsApiGatewayApiKeysItemsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

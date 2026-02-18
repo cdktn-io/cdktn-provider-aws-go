@@ -119,7 +119,7 @@ func (j *jsiiProxy_SsoadminApplication) validateSetInstanceArnParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_SsoadminApplication) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SsoadminApplication) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

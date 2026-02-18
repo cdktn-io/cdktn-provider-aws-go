@@ -5,14 +5,14 @@ package codedeploydeploymentgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/codedeploydeploymentgroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/codedeploydeploymentgroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -54,7 +54,7 @@ type CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetKey()
 	ResetType()
 	ResetValue()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference interface {
 
 // The jsii proxy struct for CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference
 type jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference) ComplexObjectIndex() interface{} {
@@ -171,8 +171,8 @@ func (j *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference
 }
 
 
-func NewCodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference {
+func NewCodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -239,7 +239,7 @@ func NewCodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference(terraformR
 	return &j
 }
 
-func NewCodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference_Override(c CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewCodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference_Override(c CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -304,7 +304,7 @@ func (j *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference
 	)
 }
 
-func (j *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (c *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference
 	return returns
 }
 
-func (c *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -494,8 +494,8 @@ func (c *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference
 	return returns
 }
 
-func (c *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -507,11 +507,11 @@ func (c *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference
 	return returns
 }
 
-func (c *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -547,7 +547,7 @@ func (c *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference
 	)
 }
 
-func (c *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

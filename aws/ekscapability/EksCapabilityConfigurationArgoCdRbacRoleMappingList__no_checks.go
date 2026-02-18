@@ -15,7 +15,7 @@ func (e *jsiiProxy_EksCapabilityConfigurationArgoCdRbacRoleMappingList) validate
 	return nil
 }
 
-func (e *jsiiProxy_EksCapabilityConfigurationArgoCdRbacRoleMappingList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksCapabilityConfigurationArgoCdRbacRoleMappingList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EksCapabilityConfigurationArgoCdRbacRoleMappingList) validate
 	return nil
 }
 
-func (j *jsiiProxy_EksCapabilityConfigurationArgoCdRbacRoleMappingList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksCapabilityConfigurationArgoCdRbacRoleMappingList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EksCapabilityConfigurationArgoCdRbacRoleMappingList) validate
 	return nil
 }
 
-func validateNewEksCapabilityConfigurationArgoCdRbacRoleMappingListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEksCapabilityConfigurationArgoCdRbacRoleMappingListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

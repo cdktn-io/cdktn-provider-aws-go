@@ -103,7 +103,7 @@ func (j *jsiiProxy_AuditmanagerOrganizationAdminAccountRegistration) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_AuditmanagerOrganizationAdminAccountRegistration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AuditmanagerOrganizationAdminAccountRegistration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

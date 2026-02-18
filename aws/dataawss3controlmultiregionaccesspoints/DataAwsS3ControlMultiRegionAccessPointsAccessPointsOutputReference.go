@@ -5,14 +5,14 @@ package dataawss3controlmultiregionaccesspoints
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawss3controlmultiregionaccesspoints/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawss3controlmultiregionaccesspoints/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Alias() *string
 	// the index of the complex object in a list.
 	// Experimental.
@@ -43,15 +43,15 @@ type DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference interfac
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference interfac
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference interfac
 
 // The jsii proxy struct for DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference
 type jsiiProxy_DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference) Alias() *string {
@@ -205,8 +205,8 @@ func (j *jsiiProxy_DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputRefe
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -216,7 +216,7 @@ func (j *jsiiProxy_DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputRefe
 }
 
 
-func NewDataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference {
+func NewDataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -233,7 +233,7 @@ func NewDataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference(terra
 	return &j
 }
 
-func NewDataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference_Override(d DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference_Override(d DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -287,7 +287,7 @@ func (j *jsiiProxy_DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputRefe
 	)
 }
 
-func (j *jsiiProxy_DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -327,11 +327,11 @@ func (d *jsiiProxy_DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputRefe
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -455,8 +455,8 @@ func (d *jsiiProxy_DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputRefe
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -468,11 +468,11 @@ func (d *jsiiProxy_DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputRefe
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -484,7 +484,7 @@ func (d *jsiiProxy_DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputRefe
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsS3ControlMultiRegionAccessPointsAccessPointsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

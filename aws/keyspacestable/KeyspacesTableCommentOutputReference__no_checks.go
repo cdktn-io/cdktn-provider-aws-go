@@ -47,7 +47,7 @@ func (k *jsiiProxy_KeyspacesTableCommentOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (k *jsiiProxy_KeyspacesTableCommentOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KeyspacesTableCommentOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_KeyspacesTableCommentOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_KeyspacesTableCommentOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KeyspacesTableCommentOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKeyspacesTableCommentOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKeyspacesTableCommentOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

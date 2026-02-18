@@ -103,7 +103,7 @@ func (j *jsiiProxy_Ec2LocalGatewayRouteTableVpcAssociation) validateSetIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_Ec2LocalGatewayRouteTableVpcAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Ec2LocalGatewayRouteTableVpcAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

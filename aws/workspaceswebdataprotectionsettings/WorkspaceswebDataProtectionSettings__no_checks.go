@@ -119,7 +119,7 @@ func (j *jsiiProxy_WorkspaceswebDataProtectionSettings) validateSetDisplayNamePa
 	return nil
 }
 
-func (j *jsiiProxy_WorkspaceswebDataProtectionSettings) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_WorkspaceswebDataProtectionSettings) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (l *jsiiProxy_LambdaFunctionEphemeralStorageOutputReference) validateInterp
 	return nil
 }
 
-func (l *jsiiProxy_LambdaFunctionEphemeralStorageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LambdaFunctionEphemeralStorageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_LambdaFunctionEphemeralStorageOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_LambdaFunctionEphemeralStorageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LambdaFunctionEphemeralStorageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLambdaFunctionEphemeralStorageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLambdaFunctionEphemeralStorageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

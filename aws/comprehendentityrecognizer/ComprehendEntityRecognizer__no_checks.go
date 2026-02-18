@@ -123,7 +123,7 @@ func (j *jsiiProxy_ComprehendEntityRecognizer) validateSetLanguageCodeParameters
 	return nil
 }
 
-func (j *jsiiProxy_ComprehendEntityRecognizer) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComprehendEntityRecognizer) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

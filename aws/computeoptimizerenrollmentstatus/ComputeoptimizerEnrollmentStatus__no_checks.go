@@ -107,7 +107,7 @@ func (j *jsiiProxy_ComputeoptimizerEnrollmentStatus) validateSetIncludeMemberAcc
 	return nil
 }
 
-func (j *jsiiProxy_ComputeoptimizerEnrollmentStatus) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeoptimizerEnrollmentStatus) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

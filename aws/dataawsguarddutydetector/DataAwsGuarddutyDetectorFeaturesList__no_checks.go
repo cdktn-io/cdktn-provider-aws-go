@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsGuarddutyDetectorFeaturesList) validateGetParameters(i
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsGuarddutyDetectorFeaturesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsGuarddutyDetectorFeaturesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsGuarddutyDetectorFeaturesList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsGuarddutyDetectorFeaturesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsGuarddutyDetectorFeaturesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsGuarddutyDetectorFeaturesList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewDataAwsGuarddutyDetectorFeaturesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsGuarddutyDetectorFeaturesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

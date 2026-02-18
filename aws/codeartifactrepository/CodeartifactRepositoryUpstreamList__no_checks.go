@@ -15,7 +15,7 @@ func (c *jsiiProxy_CodeartifactRepositoryUpstreamList) validateGetParameters(ind
 	return nil
 }
 
-func (c *jsiiProxy_CodeartifactRepositoryUpstreamList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodeartifactRepositoryUpstreamList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CodeartifactRepositoryUpstreamList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_CodeartifactRepositoryUpstreamList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodeartifactRepositoryUpstreamList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CodeartifactRepositoryUpstreamList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewCodeartifactRepositoryUpstreamListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCodeartifactRepositoryUpstreamListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

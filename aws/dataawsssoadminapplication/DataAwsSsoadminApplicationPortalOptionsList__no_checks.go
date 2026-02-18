@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsSsoadminApplicationPortalOptionsList) validateGetParam
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsSsoadminApplicationPortalOptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsSsoadminApplicationPortalOptionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsSsoadminApplicationPortalOptionsList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSsoadminApplicationPortalOptionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsSsoadminApplicationPortalOptionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsSsoadminApplicationPortalOptionsList) validateSetWraps
 	return nil
 }
 
-func validateNewDataAwsSsoadminApplicationPortalOptionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsSsoadminApplicationPortalOptionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

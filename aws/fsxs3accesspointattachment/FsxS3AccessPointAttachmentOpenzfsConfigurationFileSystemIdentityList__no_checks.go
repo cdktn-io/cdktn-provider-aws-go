@@ -15,7 +15,7 @@ func (f *jsiiProxy_FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdent
 	return nil
 }
 
-func (f *jsiiProxy_FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdent
 	return nil
 }
 
-func (j *jsiiProxy_FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdent
 	return nil
 }
 
-func validateNewFsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

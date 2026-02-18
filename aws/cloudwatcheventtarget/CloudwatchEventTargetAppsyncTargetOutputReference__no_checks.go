@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudwatchEventTargetAppsyncTargetOutputReference) validateIn
 	return nil
 }
 
-func (c *jsiiProxy_CloudwatchEventTargetAppsyncTargetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudwatchEventTargetAppsyncTargetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CloudwatchEventTargetAppsyncTargetOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchEventTargetAppsyncTargetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudwatchEventTargetAppsyncTargetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudwatchEventTargetAppsyncTargetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudwatchEventTargetAppsyncTargetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

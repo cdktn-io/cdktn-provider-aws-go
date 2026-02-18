@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsRoute53TrafficPolicyDocument) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRoute53TrafficPolicyDocument) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsRoute53TrafficPolicyDocument) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

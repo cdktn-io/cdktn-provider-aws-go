@@ -55,7 +55,7 @@ func (e *jsiiProxy_EmrClusterCoreInstanceFleetOutputReference) validatePutLaunch
 	return nil
 }
 
-func (e *jsiiProxy_EmrClusterCoreInstanceFleetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EmrClusterCoreInstanceFleetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_EmrClusterCoreInstanceFleetOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_EmrClusterCoreInstanceFleetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EmrClusterCoreInstanceFleetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEmrClusterCoreInstanceFleetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEmrClusterCoreInstanceFleetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

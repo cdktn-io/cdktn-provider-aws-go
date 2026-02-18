@@ -47,7 +47,7 @@ func (p *jsiiProxy_PrometheusWorkspaceConfigurationTimeoutsOutputReference) vali
 	return nil
 }
 
-func (p *jsiiProxy_PrometheusWorkspaceConfigurationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrometheusWorkspaceConfigurationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_PrometheusWorkspaceConfigurationTimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_PrometheusWorkspaceConfigurationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrometheusWorkspaceConfigurationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_PrometheusWorkspaceConfigurationTimeoutsOutputReference) vali
 	return nil
 }
 
-func validateNewPrometheusWorkspaceConfigurationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPrometheusWorkspaceConfigurationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

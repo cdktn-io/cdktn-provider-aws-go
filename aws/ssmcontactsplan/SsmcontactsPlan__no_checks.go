@@ -111,7 +111,7 @@ func (j *jsiiProxy_SsmcontactsPlan) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_SsmcontactsPlan) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SsmcontactsPlan) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppmeshVirtualGatewaySpecListenerList) validateGetParameters(
 	return nil
 }
 
-func (a *jsiiProxy_AppmeshVirtualGatewaySpecListenerList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppmeshVirtualGatewaySpecListenerList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppmeshVirtualGatewaySpecListenerList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshVirtualGatewaySpecListenerList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppmeshVirtualGatewaySpecListenerList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppmeshVirtualGatewaySpecListenerList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewAppmeshVirtualGatewaySpecListenerListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppmeshVirtualGatewaySpecListenerListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

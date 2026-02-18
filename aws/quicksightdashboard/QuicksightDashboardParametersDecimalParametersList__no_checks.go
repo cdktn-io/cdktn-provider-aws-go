@@ -15,7 +15,7 @@ func (q *jsiiProxy_QuicksightDashboardParametersDecimalParametersList) validateG
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDashboardParametersDecimalParametersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDashboardParametersDecimalParametersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_QuicksightDashboardParametersDecimalParametersList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDashboardParametersDecimalParametersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDashboardParametersDecimalParametersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_QuicksightDashboardParametersDecimalParametersList) validateS
 	return nil
 }
 
-func validateNewQuicksightDashboardParametersDecimalParametersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewQuicksightDashboardParametersDecimalParametersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

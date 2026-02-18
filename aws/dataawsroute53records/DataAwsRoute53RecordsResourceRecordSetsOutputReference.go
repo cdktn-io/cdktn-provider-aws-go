@@ -5,14 +5,14 @@ package dataawsroute53records
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsroute53records/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsroute53records/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsRoute53RecordsResourceRecordSetsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AliasTarget() DataAwsRoute53RecordsResourceRecordSetsAliasTargetOutputReference
 	CidrRoutingConfig() DataAwsRoute53RecordsResourceRecordSetsCidrRoutingConfigOutputReference
 	// the index of the complex object in a list.
@@ -38,7 +38,7 @@ type DataAwsRoute53RecordsResourceRecordSetsOutputReference interface {
 	HealthCheckId() *string
 	InternalValue() *DataAwsRoute53RecordsResourceRecordSets
 	SetInternalValue(val *DataAwsRoute53RecordsResourceRecordSets)
-	MultiValueAnswer() cdktf.IResolvable
+	MultiValueAnswer() cdktn.IResolvable
 	Name() *string
 	Region() *string
 	ResourceRecords() DataAwsRoute53RecordsResourceRecordSetsResourceRecordsList
@@ -48,9 +48,9 @@ type DataAwsRoute53RecordsResourceRecordSetsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TrafficPolicyInstanceId() *string
 	Ttl() *float64
 	Type() *string
@@ -60,7 +60,7 @@ type DataAwsRoute53RecordsResourceRecordSetsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,12 +76,12 @@ type DataAwsRoute53RecordsResourceRecordSetsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type DataAwsRoute53RecordsResourceRecordSetsOutputReference interface {
 
 // The jsii proxy struct for DataAwsRoute53RecordsResourceRecordSetsOutputReference
 type jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference) AliasTarget() DataAwsRoute53RecordsResourceRecordSetsAliasTargetOutputReference {
@@ -204,8 +204,8 @@ func (j *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference) Inter
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference) MultiValueAnswer() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference) MultiValueAnswer() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"multiValueAnswer",
@@ -264,8 +264,8 @@ func (j *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -315,7 +315,7 @@ func (j *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference) Weigh
 }
 
 
-func NewDataAwsRoute53RecordsResourceRecordSetsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsRoute53RecordsResourceRecordSetsOutputReference {
+func NewDataAwsRoute53RecordsResourceRecordSetsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsRoute53RecordsResourceRecordSetsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsRoute53RecordsResourceRecordSetsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -332,7 +332,7 @@ func NewDataAwsRoute53RecordsResourceRecordSetsOutputReference(terraformResource
 	return &j
 }
 
-func NewDataAwsRoute53RecordsResourceRecordSetsOutputReference_Override(d DataAwsRoute53RecordsResourceRecordSetsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsRoute53RecordsResourceRecordSetsOutputReference_Override(d DataAwsRoute53RecordsResourceRecordSetsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -386,7 +386,7 @@ func (j *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -426,11 +426,11 @@ func (d *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference) GetAn
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -554,8 +554,8 @@ func (d *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference) GetSt
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -567,11 +567,11 @@ func (d *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference) Inter
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -583,7 +583,7 @@ func (d *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference) Inter
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

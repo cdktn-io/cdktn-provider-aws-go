@@ -107,7 +107,7 @@ func (j *jsiiProxy_LightsailDisk) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_LightsailDisk) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LightsailDisk) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

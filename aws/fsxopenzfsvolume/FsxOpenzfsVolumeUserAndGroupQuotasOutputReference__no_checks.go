@@ -47,7 +47,7 @@ func (f *jsiiProxy_FsxOpenzfsVolumeUserAndGroupQuotasOutputReference) validateIn
 	return nil
 }
 
-func (f *jsiiProxy_FsxOpenzfsVolumeUserAndGroupQuotasOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FsxOpenzfsVolumeUserAndGroupQuotasOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_FsxOpenzfsVolumeUserAndGroupQuotasOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_FsxOpenzfsVolumeUserAndGroupQuotasOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FsxOpenzfsVolumeUserAndGroupQuotasOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_FsxOpenzfsVolumeUserAndGroupQuotasOutputReference) validateSe
 	return nil
 }
 
-func validateNewFsxOpenzfsVolumeUserAndGroupQuotasOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFsxOpenzfsVolumeUserAndGroupQuotasOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

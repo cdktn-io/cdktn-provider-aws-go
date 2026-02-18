@@ -115,7 +115,7 @@ func (j *jsiiProxy_AuditmanagerControl) validateSetDescriptionParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_AuditmanagerControl) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AuditmanagerControl) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

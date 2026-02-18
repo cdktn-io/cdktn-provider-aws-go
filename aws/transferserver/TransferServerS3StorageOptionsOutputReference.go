@@ -5,14 +5,14 @@ package transferserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/transferserver/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/transferserver/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type TransferServerS3StorageOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type TransferServerS3StorageOptionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type TransferServerS3StorageOptionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDirectoryListingOptimization()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type TransferServerS3StorageOptionsOutputReference interface {
 
 // The jsii proxy struct for TransferServerS3StorageOptionsOutputReference
 type jsiiProxy_TransferServerS3StorageOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_TransferServerS3StorageOptionsOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_TransferServerS3StorageOptionsOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_TransferServerS3StorageOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_TransferServerS3StorageOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_TransferServerS3StorageOptionsOutputReference) TerraformResou
 }
 
 
-func NewTransferServerS3StorageOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) TransferServerS3StorageOptionsOutputReference {
+func NewTransferServerS3StorageOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) TransferServerS3StorageOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewTransferServerS3StorageOptionsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewTransferServerS3StorageOptionsOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewTransferServerS3StorageOptionsOutputReference_Override(t TransferServerS3StorageOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewTransferServerS3StorageOptionsOutputReference_Override(t TransferServerS3StorageOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_TransferServerS3StorageOptionsOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_TransferServerS3StorageOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_TransferServerS3StorageOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (t *jsiiProxy_TransferServerS3StorageOptionsOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (t *jsiiProxy_TransferServerS3StorageOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TransferServerS3StorageOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -424,8 +424,8 @@ func (t *jsiiProxy_TransferServerS3StorageOptionsOutputReference) GetStringMapAt
 	return returns
 }
 
-func (t *jsiiProxy_TransferServerS3StorageOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (t *jsiiProxy_TransferServerS3StorageOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -437,11 +437,11 @@ func (t *jsiiProxy_TransferServerS3StorageOptionsOutputReference) InterpolationA
 	return returns
 }
 
-func (t *jsiiProxy_TransferServerS3StorageOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TransferServerS3StorageOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -461,7 +461,7 @@ func (t *jsiiProxy_TransferServerS3StorageOptionsOutputReference) ResetDirectory
 	)
 }
 
-func (t *jsiiProxy_TransferServerS3StorageOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (t *jsiiProxy_TransferServerS3StorageOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := t.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

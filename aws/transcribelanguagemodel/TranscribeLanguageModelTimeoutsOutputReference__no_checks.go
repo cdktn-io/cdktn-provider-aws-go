@@ -47,7 +47,7 @@ func (t *jsiiProxy_TranscribeLanguageModelTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (t *jsiiProxy_TranscribeLanguageModelTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TranscribeLanguageModelTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_TranscribeLanguageModelTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_TranscribeLanguageModelTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TranscribeLanguageModelTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTranscribeLanguageModelTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTranscribeLanguageModelTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsCodebuildFleetScalingConfigurationList) validateGetPar
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCodebuildFleetScalingConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCodebuildFleetScalingConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsCodebuildFleetScalingConfigurationList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCodebuildFleetScalingConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCodebuildFleetScalingConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsCodebuildFleetScalingConfigurationList) validateSetWra
 	return nil
 }
 
-func validateNewDataAwsCodebuildFleetScalingConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsCodebuildFleetScalingConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

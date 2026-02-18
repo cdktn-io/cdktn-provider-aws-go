@@ -147,7 +147,7 @@ func (j *jsiiProxy_Ami) validateSetKernelIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_Ami) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Ami) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

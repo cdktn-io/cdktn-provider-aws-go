@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsGuarddutyDetector) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsGuarddutyDetector) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsGuarddutyDetector) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

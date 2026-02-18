@@ -47,7 +47,7 @@ func (d *jsiiProxy_DynamodbTableImportTableS3BucketSourceOutputReference) valida
 	return nil
 }
 
-func (d *jsiiProxy_DynamodbTableImportTableS3BucketSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DynamodbTableImportTableS3BucketSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_DynamodbTableImportTableS3BucketSourceOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_DynamodbTableImportTableS3BucketSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DynamodbTableImportTableS3BucketSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDynamodbTableImportTableS3BucketSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDynamodbTableImportTableS3BucketSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

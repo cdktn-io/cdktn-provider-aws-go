@@ -15,7 +15,7 @@ func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionList) validateGetParame
 	return nil
 }
 
-func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionList) validateSetWrapsS
 	return nil
 }
 
-func validateNewEc2AllowedImagesSettingsImageCriterionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEc2AllowedImagesSettingsImageCriterionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

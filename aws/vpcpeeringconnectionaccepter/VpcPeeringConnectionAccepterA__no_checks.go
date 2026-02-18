@@ -119,7 +119,7 @@ func (j *jsiiProxy_VpcPeeringConnectionAccepterA) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_VpcPeeringConnectionAccepterA) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VpcPeeringConnectionAccepterA) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

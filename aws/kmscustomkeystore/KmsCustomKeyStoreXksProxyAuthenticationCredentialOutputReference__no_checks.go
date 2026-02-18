@@ -47,7 +47,7 @@ func (k *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputRefere
 	return nil
 }
 
-func (k *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

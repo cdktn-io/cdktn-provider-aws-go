@@ -5,14 +5,14 @@ package sagemakermodel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/sagemakermodel/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/sagemakermodel/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ChannelName() *string
 	SetChannelName(val *string)
 	ChannelNameInput() *string
@@ -42,15 +42,15 @@ type SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference inte
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,13 +66,13 @@ type SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference inte
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutS3DataSource(value interface{})
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference inte
 
 // The jsii proxy struct for SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference
 type jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference) ChannelName() *string {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceOutput
 	return returns
 }
 
-func (j *jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceOutput
 }
 
 
-func NewSagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference {
+func NewSagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -213,7 +213,7 @@ func NewSagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference(t
 	return &j
 }
 
-func NewSagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference_Override(s SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference_Override(s SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceOutput
 	)
 }
 
-func (j *jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -318,11 +318,11 @@ func (s *jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceOutput
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -446,8 +446,8 @@ func (s *jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceOutput
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -459,11 +459,11 @@ func (s *jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceOutput
 	return returns
 }
 
-func (s *jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -486,7 +486,7 @@ func (s *jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceOutput
 	)
 }
 
-func (s *jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

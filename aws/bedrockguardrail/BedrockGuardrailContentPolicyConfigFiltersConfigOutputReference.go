@@ -5,14 +5,14 @@ package bedrockguardrail
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/bedrockguardrail/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/bedrockguardrail/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -61,9 +61,9 @@ type BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -72,7 +72,7 @@ type BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -88,9 +88,9 @@ type BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetInputAction()
 	ResetInputEnabled()
 	ResetInputModalities()
@@ -99,7 +99,7 @@ type BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference interface {
 	ResetOutputModalities()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -109,7 +109,7 @@ type BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference interface {
 
 // The jsii proxy struct for BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference
 type jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -332,8 +332,8 @@ func (j *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReferen
 	return returns
 }
 
-func (j *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -363,7 +363,7 @@ func (j *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReferen
 }
 
 
-func NewBedrockGuardrailContentPolicyConfigFiltersConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference {
+func NewBedrockGuardrailContentPolicyConfigFiltersConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBedrockGuardrailContentPolicyConfigFiltersConfigOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -380,7 +380,7 @@ func NewBedrockGuardrailContentPolicyConfigFiltersConfigOutputReference(terrafor
 	return &j
 }
 
-func NewBedrockGuardrailContentPolicyConfigFiltersConfigOutputReference_Override(b BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewBedrockGuardrailContentPolicyConfigFiltersConfigOutputReference_Override(b BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -522,7 +522,7 @@ func (j *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReferen
 	)
 }
 
-func (j *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -573,11 +573,11 @@ func (b *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReferen
 	return returns
 }
 
-func (b *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -701,8 +701,8 @@ func (b *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReferen
 	return returns
 }
 
-func (b *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -714,11 +714,11 @@ func (b *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReferen
 	return returns
 }
 
-func (b *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -778,7 +778,7 @@ func (b *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReferen
 	)
 }
 
-func (b *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

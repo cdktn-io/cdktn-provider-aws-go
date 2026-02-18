@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppstreamImageBuilderAccessEndpointList) validateGetParameter
 	return nil
 }
 
-func (a *jsiiProxy_AppstreamImageBuilderAccessEndpointList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppstreamImageBuilderAccessEndpointList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppstreamImageBuilderAccessEndpointList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_AppstreamImageBuilderAccessEndpointList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppstreamImageBuilderAccessEndpointList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppstreamImageBuilderAccessEndpointList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewAppstreamImageBuilderAccessEndpointListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppstreamImageBuilderAccessEndpointListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

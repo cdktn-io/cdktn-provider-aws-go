@@ -5,14 +5,14 @@ package amplifyapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/amplifyapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/amplifyapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AmplifyAppJobConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BuildComputeType() *string
 	SetBuildComputeType(val *string)
 	BuildComputeTypeInput() *string
@@ -40,15 +40,15 @@ type AmplifyAppJobConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type AmplifyAppJobConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBuildComputeType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type AmplifyAppJobConfigOutputReference interface {
 
 // The jsii proxy struct for AmplifyAppJobConfigOutputReference
 type jsiiProxy_AmplifyAppJobConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AmplifyAppJobConfigOutputReference) BuildComputeType() *string {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_AmplifyAppJobConfigOutputReference) TerraformAttribute() *str
 	return returns
 }
 
-func (j *jsiiProxy_AmplifyAppJobConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AmplifyAppJobConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_AmplifyAppJobConfigOutputReference) TerraformResource() cdktf
 }
 
 
-func NewAmplifyAppJobConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AmplifyAppJobConfigOutputReference {
+func NewAmplifyAppJobConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AmplifyAppJobConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAmplifyAppJobConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewAmplifyAppJobConfigOutputReference(terraformResource cdktf.IInterpolatin
 	return &j
 }
 
-func NewAmplifyAppJobConfigOutputReference_Override(a AmplifyAppJobConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAmplifyAppJobConfigOutputReference_Override(a AmplifyAppJobConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_AmplifyAppJobConfigOutputReference)SetTerraformAttribute(val 
 	)
 }
 
-func (j *jsiiProxy_AmplifyAppJobConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AmplifyAppJobConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (a *jsiiProxy_AmplifyAppJobConfigOutputReference) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (a *jsiiProxy_AmplifyAppJobConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AmplifyAppJobConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -424,8 +424,8 @@ func (a *jsiiProxy_AmplifyAppJobConfigOutputReference) GetStringMapAttribute(ter
 	return returns
 }
 
-func (a *jsiiProxy_AmplifyAppJobConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AmplifyAppJobConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -437,11 +437,11 @@ func (a *jsiiProxy_AmplifyAppJobConfigOutputReference) InterpolationAsList() cdk
 	return returns
 }
 
-func (a *jsiiProxy_AmplifyAppJobConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AmplifyAppJobConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -461,7 +461,7 @@ func (a *jsiiProxy_AmplifyAppJobConfigOutputReference) ResetBuildComputeType() {
 	)
 }
 
-func (a *jsiiProxy_AmplifyAppJobConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AmplifyAppJobConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

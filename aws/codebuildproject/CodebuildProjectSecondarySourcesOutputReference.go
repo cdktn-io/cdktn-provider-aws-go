@@ -5,14 +5,14 @@ package codebuildproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/codebuildproject/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/codebuildproject/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CodebuildProjectSecondarySourcesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Auth() CodebuildProjectSecondarySourcesAuthOutputReference
 	AuthInput() *CodebuildProjectSecondarySourcesAuth
 	Buildspec() *string
@@ -61,9 +61,9 @@ type CodebuildProjectSecondarySourcesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -72,7 +72,7 @@ type CodebuildProjectSecondarySourcesOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -88,9 +88,9 @@ type CodebuildProjectSecondarySourcesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAuth(value *CodebuildProjectSecondarySourcesAuth)
 	PutBuildStatusConfig(value *CodebuildProjectSecondarySourcesBuildStatusConfig)
 	PutGitSubmodulesConfig(value *CodebuildProjectSecondarySourcesGitSubmodulesConfig)
@@ -104,7 +104,7 @@ type CodebuildProjectSecondarySourcesOutputReference interface {
 	ResetReportBuildStatus()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -114,7 +114,7 @@ type CodebuildProjectSecondarySourcesOutputReference interface {
 
 // The jsii proxy struct for CodebuildProjectSecondarySourcesOutputReference
 type jsiiProxy_CodebuildProjectSecondarySourcesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) Auth() CodebuildProjectSecondarySourcesAuthOutputReference {
@@ -357,8 +357,8 @@ func (j *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -388,7 +388,7 @@ func (j *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) TypeInput() 
 }
 
 
-func NewCodebuildProjectSecondarySourcesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CodebuildProjectSecondarySourcesOutputReference {
+func NewCodebuildProjectSecondarySourcesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CodebuildProjectSecondarySourcesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCodebuildProjectSecondarySourcesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -405,7 +405,7 @@ func NewCodebuildProjectSecondarySourcesOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewCodebuildProjectSecondarySourcesOutputReference_Override(c CodebuildProjectSecondarySourcesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewCodebuildProjectSecondarySourcesOutputReference_Override(c CodebuildProjectSecondarySourcesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -525,7 +525,7 @@ func (j *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -576,11 +576,11 @@ func (c *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (c *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -704,8 +704,8 @@ func (c *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) GetStringMap
 	return returns
 }
 
-func (c *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -717,11 +717,11 @@ func (c *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) Interpolatio
 	return returns
 }
 
-func (c *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -830,7 +830,7 @@ func (c *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) ResetReportB
 	)
 }
 
-func (c *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CodebuildProjectSecondarySourcesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

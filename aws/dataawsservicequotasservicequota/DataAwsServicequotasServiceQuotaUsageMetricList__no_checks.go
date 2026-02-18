@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsServicequotasServiceQuotaUsageMetricList) validateGetP
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsServicequotasServiceQuotaUsageMetricList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsServicequotasServiceQuotaUsageMetricList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsServicequotasServiceQuotaUsageMetricList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsServicequotasServiceQuotaUsageMetricList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsServicequotasServiceQuotaUsageMetricList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsServicequotasServiceQuotaUsageMetricList) validateSetW
 	return nil
 }
 
-func validateNewDataAwsServicequotasServiceQuotaUsageMetricListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsServicequotasServiceQuotaUsageMetricListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

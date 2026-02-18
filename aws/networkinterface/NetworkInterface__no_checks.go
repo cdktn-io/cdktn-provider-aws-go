@@ -151,7 +151,7 @@ func (j *jsiiProxy_NetworkInterface) validateSetIpv6PrefixesParameters(val *[]*s
 	return nil
 }
 
-func (j *jsiiProxy_NetworkInterface) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkInterface) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

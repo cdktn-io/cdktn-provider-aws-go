@@ -51,7 +51,7 @@ func (p *jsiiProxy_PipesPipeSourceParametersRabbitmqBrokerParametersOutputRefere
 	return nil
 }
 
-func (p *jsiiProxy_PipesPipeSourceParametersRabbitmqBrokerParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PipesPipeSourceParametersRabbitmqBrokerParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_PipesPipeSourceParametersRabbitmqBrokerParametersOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_PipesPipeSourceParametersRabbitmqBrokerParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PipesPipeSourceParametersRabbitmqBrokerParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_PipesPipeSourceParametersRabbitmqBrokerParametersOutputRefere
 	return nil
 }
 
-func validateNewPipesPipeSourceParametersRabbitmqBrokerParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPipesPipeSourceParametersRabbitmqBrokerParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

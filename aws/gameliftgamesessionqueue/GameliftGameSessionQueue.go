@@ -5,19 +5,19 @@ package gameliftgamesessionqueue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/gameliftgamesessionqueue/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/gameliftgamesessionqueue/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/gamelift_game_session_queue aws_gamelift_game_session_queue}.
 type GameliftGameSessionQueue interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -39,9 +39,9 @@ type GameliftGameSessionQueue interface {
 	SetDestinations(val *[]*string)
 	DestinationsInput() *[]*string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -50,9 +50,9 @@ type GameliftGameSessionQueue interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -64,9 +64,9 @@ type GameliftGameSessionQueue interface {
 	PlayerLatencyPolicy() GameliftGameSessionQueuePlayerLatencyPolicyList
 	PlayerLatencyPolicyInput() interface{}
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -83,7 +83,7 @@ type GameliftGameSessionQueue interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -99,7 +99,7 @@ type GameliftGameSessionQueue interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -117,9 +117,9 @@ type GameliftGameSessionQueue interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -162,7 +162,7 @@ type GameliftGameSessionQueue interface {
 
 // The jsii proxy struct for GameliftGameSessionQueue
 type jsiiProxy_GameliftGameSessionQueue struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GameliftGameSessionQueue) Arn() *string {
@@ -175,8 +175,8 @@ func (j *jsiiProxy_GameliftGameSessionQueue) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GameliftGameSessionQueue) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GameliftGameSessionQueue) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -265,8 +265,8 @@ func (j *jsiiProxy_GameliftGameSessionQueue) DestinationsInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_GameliftGameSessionQueue) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GameliftGameSessionQueue) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -315,8 +315,8 @@ func (j *jsiiProxy_GameliftGameSessionQueue) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GameliftGameSessionQueue) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GameliftGameSessionQueue) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -395,8 +395,8 @@ func (j *jsiiProxy_GameliftGameSessionQueue) PlayerLatencyPolicyInput() interfac
 	return returns
 }
 
-func (j *jsiiProxy_GameliftGameSessionQueue) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GameliftGameSessionQueue) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -485,8 +485,8 @@ func (j *jsiiProxy_GameliftGameSessionQueue) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_GameliftGameSessionQueue) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GameliftGameSessionQueue) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -617,7 +617,7 @@ func (j *jsiiProxy_GameliftGameSessionQueue)SetDestinations(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_GameliftGameSessionQueue)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GameliftGameSessionQueue)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -636,7 +636,7 @@ func (j *jsiiProxy_GameliftGameSessionQueue)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GameliftGameSessionQueue)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GameliftGameSessionQueue)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -669,7 +669,7 @@ func (j *jsiiProxy_GameliftGameSessionQueue)SetNotificationTarget(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GameliftGameSessionQueue)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GameliftGameSessionQueue)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -732,14 +732,14 @@ func (j *jsiiProxy_GameliftGameSessionQueue)SetTimeoutInSeconds(val *float64) {
 	)
 }
 
-// Generates CDKTF code for importing a GameliftGameSessionQueue resource upon running "cdktf plan <stack-name>".
-func GameliftGameSessionQueue_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GameliftGameSessionQueue resource upon running "cdktn plan <stack-name>".
+func GameliftGameSessionQueue_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGameliftGameSessionQueue_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.gameliftGameSessionQueue.GameliftGameSessionQueue",
@@ -873,11 +873,11 @@ func (g *jsiiProxy_GameliftGameSessionQueue) GetAnyMapAttribute(terraformAttribu
 	return returns
 }
 
-func (g *jsiiProxy_GameliftGameSessionQueue) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GameliftGameSessionQueue) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1014,7 +1014,7 @@ func (g *jsiiProxy_GameliftGameSessionQueue) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GameliftGameSessionQueue) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GameliftGameSessionQueue) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1025,11 +1025,11 @@ func (g *jsiiProxy_GameliftGameSessionQueue) ImportFrom(id *string, provider cdk
 	)
 }
 
-func (g *jsiiProxy_GameliftGameSessionQueue) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GameliftGameSessionQueue) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

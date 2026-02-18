@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsRdsEngineVersionFilterOutputReference) validateInterpo
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsRdsEngineVersionFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsRdsEngineVersionFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataAwsRdsEngineVersionFilterOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRdsEngineVersionFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsRdsEngineVersionFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsRdsEngineVersionFilterOutputReference) validateSetValu
 	return nil
 }
 
-func validateNewDataAwsRdsEngineVersionFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsRdsEngineVersionFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

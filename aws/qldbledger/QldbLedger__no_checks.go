@@ -115,7 +115,7 @@ func (j *jsiiProxy_QldbLedger) validateSetKmsKeyParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_QldbLedger) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_QldbLedger) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

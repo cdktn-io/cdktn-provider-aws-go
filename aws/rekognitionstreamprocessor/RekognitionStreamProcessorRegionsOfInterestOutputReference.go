@@ -5,14 +5,14 @@ package rekognitionstreamprocessor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/rekognitionstreamprocessor/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/rekognitionstreamprocessor/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type RekognitionStreamProcessorRegionsOfInterestOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BoundingBox() RekognitionStreamProcessorRegionsOfInterestBoundingBoxList
 	BoundingBoxInput() interface{}
 	// the index of the complex object in a list.
@@ -41,15 +41,15 @@ type RekognitionStreamProcessorRegionsOfInterestOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,16 +65,16 @@ type RekognitionStreamProcessorRegionsOfInterestOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutBoundingBox(value interface{})
 	PutPolygon(value interface{})
 	ResetBoundingBox()
 	ResetPolygon()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type RekognitionStreamProcessorRegionsOfInterestOutputReference interface {
 
 // The jsii proxy struct for RekognitionStreamProcessorRegionsOfInterestOutputReference
 type jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) BoundingBox() RekognitionStreamProcessorRegionsOfInterestBoundingBoxList {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) T
 }
 
 
-func NewRekognitionStreamProcessorRegionsOfInterestOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) RekognitionStreamProcessorRegionsOfInterestOutputReference {
+func NewRekognitionStreamProcessorRegionsOfInterestOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) RekognitionStreamProcessorRegionsOfInterestOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewRekognitionStreamProcessorRegionsOfInterestOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -215,7 +215,7 @@ func NewRekognitionStreamProcessorRegionsOfInterestOutputReference(terraformReso
 	return &j
 }
 
-func NewRekognitionStreamProcessorRegionsOfInterestOutputReference_Override(r RekognitionStreamProcessorRegionsOfInterestOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewRekognitionStreamProcessorRegionsOfInterestOutputReference_Override(r RekognitionStreamProcessorRegionsOfInterestOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -269,7 +269,7 @@ func (j *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -309,11 +309,11 @@ func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) G
 	return returns
 }
 
-func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -437,8 +437,8 @@ func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) G
 	return returns
 }
 
-func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -450,11 +450,11 @@ func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) I
 	return returns
 }
 
-func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -504,7 +504,7 @@ func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) R
 	)
 }
 
-func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_RekognitionStreamProcessorRegionsOfInterestOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

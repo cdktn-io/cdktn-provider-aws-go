@@ -47,7 +47,7 @@ func (a *jsiiProxy_AthenaWorkgroupConfigurationManagedQueryResultsConfigurationE
 	return nil
 }
 
-func (a *jsiiProxy_AthenaWorkgroupConfigurationManagedQueryResultsConfigurationEncryptionConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AthenaWorkgroupConfigurationManagedQueryResultsConfigurationEncryptionConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AthenaWorkgroupConfigurationManagedQueryResultsConfigurationE
 	return nil
 }
 
-func (j *jsiiProxy_AthenaWorkgroupConfigurationManagedQueryResultsConfigurationEncryptionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AthenaWorkgroupConfigurationManagedQueryResultsConfigurationEncryptionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAthenaWorkgroupConfigurationManagedQueryResultsConfigurationEncryptionConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAthenaWorkgroupConfigurationManagedQueryResultsConfigurationEncryptionConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -91,7 +91,7 @@ func (j *jsiiProxy_DataAwsS3ControlAccessPoints) validateSetDataSourceTypeParame
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsS3ControlAccessPoints) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsS3ControlAccessPoints) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsVpnConnectionRoutesList) validateGetParameters(index *
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsVpnConnectionRoutesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsVpnConnectionRoutesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsVpnConnectionRoutesList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsVpnConnectionRoutesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsVpnConnectionRoutesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsVpnConnectionRoutesList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewDataAwsVpnConnectionRoutesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsVpnConnectionRoutesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

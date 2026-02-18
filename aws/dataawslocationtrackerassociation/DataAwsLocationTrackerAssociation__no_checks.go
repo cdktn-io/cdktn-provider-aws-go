@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsLocationTrackerAssociation) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLocationTrackerAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsLocationTrackerAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

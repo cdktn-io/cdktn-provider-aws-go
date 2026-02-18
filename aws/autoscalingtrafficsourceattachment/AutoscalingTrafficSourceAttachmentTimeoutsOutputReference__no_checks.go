@@ -47,7 +47,7 @@ func (a *jsiiProxy_AutoscalingTrafficSourceAttachmentTimeoutsOutputReference) va
 	return nil
 }
 
-func (a *jsiiProxy_AutoscalingTrafficSourceAttachmentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutoscalingTrafficSourceAttachmentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AutoscalingTrafficSourceAttachmentTimeoutsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_AutoscalingTrafficSourceAttachmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutoscalingTrafficSourceAttachmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAutoscalingTrafficSourceAttachmentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAutoscalingTrafficSourceAttachmentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

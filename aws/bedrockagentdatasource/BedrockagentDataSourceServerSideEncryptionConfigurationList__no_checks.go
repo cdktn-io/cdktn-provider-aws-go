@@ -15,7 +15,7 @@ func (b *jsiiProxy_BedrockagentDataSourceServerSideEncryptionConfigurationList) 
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentDataSourceServerSideEncryptionConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentDataSourceServerSideEncryptionConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BedrockagentDataSourceServerSideEncryptionConfigurationList) 
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentDataSourceServerSideEncryptionConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentDataSourceServerSideEncryptionConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BedrockagentDataSourceServerSideEncryptionConfigurationList) 
 	return nil
 }
 
-func validateNewBedrockagentDataSourceServerSideEncryptionConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockagentDataSourceServerSideEncryptionConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

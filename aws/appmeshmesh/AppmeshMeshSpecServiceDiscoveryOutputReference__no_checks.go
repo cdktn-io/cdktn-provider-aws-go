@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppmeshMeshSpecServiceDiscoveryOutputReference) validateInter
 	return nil
 }
 
-func (a *jsiiProxy_AppmeshMeshSpecServiceDiscoveryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppmeshMeshSpecServiceDiscoveryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AppmeshMeshSpecServiceDiscoveryOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_AppmeshMeshSpecServiceDiscoveryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppmeshMeshSpecServiceDiscoveryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppmeshMeshSpecServiceDiscoveryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppmeshMeshSpecServiceDiscoveryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

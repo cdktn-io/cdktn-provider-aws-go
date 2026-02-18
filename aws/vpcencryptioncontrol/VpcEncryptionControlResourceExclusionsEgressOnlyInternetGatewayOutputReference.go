@@ -5,14 +5,14 @@ package vpcencryptioncontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/vpcencryptioncontrol/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/vpcencryptioncontrol/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputRefere
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputRefere
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputRefere
 
 // The jsii proxy struct for VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference
 type jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference) ComplexObjectIndex() interface{} {
@@ -161,8 +161,8 @@ func (j *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatew
 	return returns
 }
 
-func (j *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatew
 }
 
 
-func NewVpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference {
+func NewVpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -189,7 +189,7 @@ func NewVpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputRef
 	return &j
 }
 
-func NewVpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference_Override(v VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference_Override(v VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -243,7 +243,7 @@ func (j *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatew
 	)
 }
 
-func (j *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatew
 	return returns
 }
 
-func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -411,8 +411,8 @@ func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatew
 	return returns
 }
 
-func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -424,11 +424,11 @@ func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatew
 	return returns
 }
 
-func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -440,7 +440,7 @@ func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatew
 	return returns
 }
 
-func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

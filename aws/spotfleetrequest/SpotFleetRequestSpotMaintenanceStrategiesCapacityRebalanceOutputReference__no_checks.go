@@ -47,7 +47,7 @@ func (s *jsiiProxy_SpotFleetRequestSpotMaintenanceStrategiesCapacityRebalanceOut
 	return nil
 }
 
-func (s *jsiiProxy_SpotFleetRequestSpotMaintenanceStrategiesCapacityRebalanceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpotFleetRequestSpotMaintenanceStrategiesCapacityRebalanceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SpotFleetRequestSpotMaintenanceStrategiesCapacityRebalanceOut
 	return nil
 }
 
-func (j *jsiiProxy_SpotFleetRequestSpotMaintenanceStrategiesCapacityRebalanceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpotFleetRequestSpotMaintenanceStrategiesCapacityRebalanceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSpotFleetRequestSpotMaintenanceStrategiesCapacityRebalanceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSpotFleetRequestSpotMaintenanceStrategiesCapacityRebalanceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

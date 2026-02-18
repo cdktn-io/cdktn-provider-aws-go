@@ -15,7 +15,7 @@ func (n *jsiiProxy_NetworkfirewallFirewallFirewallStatusTransitGatewayAttachment
 	return nil
 }
 
-func (n *jsiiProxy_NetworkfirewallFirewallFirewallStatusTransitGatewayAttachmentSyncStatesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkfirewallFirewallFirewallStatusTransitGatewayAttachmentSyncStatesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_NetworkfirewallFirewallFirewallStatusTransitGatewayAttachment
 	return nil
 }
 
-func (j *jsiiProxy_NetworkfirewallFirewallFirewallStatusTransitGatewayAttachmentSyncStatesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkfirewallFirewallFirewallStatusTransitGatewayAttachmentSyncStatesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_NetworkfirewallFirewallFirewallStatusTransitGatewayAttachment
 	return nil
 }
 
-func validateNewNetworkfirewallFirewallFirewallStatusTransitGatewayAttachmentSyncStatesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkfirewallFirewallFirewallStatusTransitGatewayAttachmentSyncStatesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

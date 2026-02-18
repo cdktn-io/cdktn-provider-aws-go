@@ -15,7 +15,7 @@ func (n *jsiiProxy_NetworkmanagerCoreNetworkSegmentsList) validateGetParameters(
 	return nil
 }
 
-func (n *jsiiProxy_NetworkmanagerCoreNetworkSegmentsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkmanagerCoreNetworkSegmentsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_NetworkmanagerCoreNetworkSegmentsList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerCoreNetworkSegmentsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkmanagerCoreNetworkSegmentsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_NetworkmanagerCoreNetworkSegmentsList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewNetworkmanagerCoreNetworkSegmentsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkmanagerCoreNetworkSegmentsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

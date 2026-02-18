@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsBudgetsBudget) validateSetIdParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsBudgetsBudget) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsBudgetsBudget) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

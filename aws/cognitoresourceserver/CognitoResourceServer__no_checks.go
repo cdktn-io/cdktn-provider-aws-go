@@ -111,7 +111,7 @@ func (j *jsiiProxy_CognitoResourceServer) validateSetIdentifierParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_CognitoResourceServer) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CognitoResourceServer) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

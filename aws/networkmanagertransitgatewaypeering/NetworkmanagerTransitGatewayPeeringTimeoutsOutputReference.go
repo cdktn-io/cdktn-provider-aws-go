@@ -5,14 +5,14 @@ package networkmanagertransitgatewaypeering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/networkmanagertransitgatewaypeering/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/networkmanagertransitgatewaypeering/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference interface {
 
 // The jsii proxy struct for NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference
 type jsiiProxy_NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference) T
 }
 
 
-func NewNetworkmanagerTransitGatewayPeeringTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference {
+func NewNetworkmanagerTransitGatewayPeeringTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNetworkmanagerTransitGatewayPeeringTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewNetworkmanagerTransitGatewayPeeringTimeoutsOutputReference(terraformReso
 	return &j
 }
 
-func NewNetworkmanagerTransitGatewayPeeringTimeoutsOutputReference_Override(n NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewNetworkmanagerTransitGatewayPeeringTimeoutsOutputReference_Override(n NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (n *jsiiProxy_NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference) G
 	return returns
 }
 
-func (n *jsiiProxy_NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -459,8 +459,8 @@ func (n *jsiiProxy_NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference) G
 	return returns
 }
 
-func (n *jsiiProxy_NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -472,11 +472,11 @@ func (n *jsiiProxy_NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference) I
 	return returns
 }
 
-func (n *jsiiProxy_NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -504,7 +504,7 @@ func (n *jsiiProxy_NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference) R
 	)
 }
 
-func (n *jsiiProxy_NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetworkmanagerTransitGatewayPeeringTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -5,25 +5,25 @@ package dataawslakeformationdatalakesettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawslakeformationdatalakesettings/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawslakeformationdatalakesettings/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/lakeformation_data_lake_settings aws_lakeformation_data_lake_settings}.
 type DataAwsLakeformationDataLakeSettings interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	Admins() *[]*string
-	AllowExternalDataFiltering() cdktf.IResolvable
-	AllowFullTableExternalDataAccess() cdktf.IResolvable
+	AllowExternalDataFiltering() cdktn.IResolvable
+	AllowFullTableExternalDataAccess() cdktn.IResolvable
 	AuthorizedSessionTagValueList() *[]*string
 	CatalogId() *string
 	SetCatalogId(val *string)
 	CatalogIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type DataAwsLakeformationDataLakeSettings interface {
 	SetDependsOn(val *[]*string)
 	ExternalDataFilteringAllowList() *[]*string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,16 +49,16 @@ type DataAwsLakeformationDataLakeSettings interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
-	Parameters() cdktf.StringMap
+	Parameters() cdktn.StringMap
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	ReadOnlyAdmins() *[]*string
@@ -66,7 +66,7 @@ type DataAwsLakeformationDataLakeSettings interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -77,7 +77,7 @@ type DataAwsLakeformationDataLakeSettings interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -93,7 +93,7 @@ type DataAwsLakeformationDataLakeSettings interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -119,7 +119,7 @@ type DataAwsLakeformationDataLakeSettings interface {
 
 // The jsii proxy struct for DataAwsLakeformationDataLakeSettings
 type jsiiProxy_DataAwsLakeformationDataLakeSettings struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) Admins() *[]*string {
@@ -132,8 +132,8 @@ func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) Admins() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) AllowExternalDataFiltering() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) AllowExternalDataFiltering() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"allowExternalDataFiltering",
@@ -142,8 +142,8 @@ func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) AllowExternalDataFilter
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) AllowFullTableExternalDataAccess() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) AllowFullTableExternalDataAccess() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"allowFullTableExternalDataAccess",
@@ -182,8 +182,8 @@ func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) CatalogIdInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -252,8 +252,8 @@ func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) ExternalDataFilteringAl
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -302,8 +302,8 @@ func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -322,8 +322,8 @@ func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) Node() constructs.Node 
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) Parameters() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) Parameters() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"parameters",
@@ -332,8 +332,8 @@ func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) Parameters() cdktf.Stri
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -382,8 +382,8 @@ func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -482,7 +482,7 @@ func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings)SetDependsOn(val *[]*str
 	)
 }
 
-func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -501,7 +501,7 @@ func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -512,7 +512,7 @@ func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings)SetLifecycle(val *cdktf.
 	)
 }
 
-func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -531,14 +531,14 @@ func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsLakeformationDataLakeSettings resource upon running "cdktf plan <stack-name>".
-func DataAwsLakeformationDataLakeSettings_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsLakeformationDataLakeSettings resource upon running "cdktn plan <stack-name>".
+func DataAwsLakeformationDataLakeSettings_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsLakeformationDataLakeSettings_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsLakeformationDataLakeSettings.DataAwsLakeformationDataLakeSettings",
@@ -661,11 +661,11 @@ func (d *jsiiProxy_DataAwsLakeformationDataLakeSettings) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsLakeformationDataLakeSettings) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsLakeformationDataLakeSettings) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -789,11 +789,11 @@ func (d *jsiiProxy_DataAwsLakeformationDataLakeSettings) GetStringMapAttribute(t
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsLakeformationDataLakeSettings) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsLakeformationDataLakeSettings) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

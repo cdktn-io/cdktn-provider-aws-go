@@ -99,7 +99,7 @@ func (j *jsiiProxy_CostoptimizationhubPreferences) validateSetCountParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_CostoptimizationhubPreferences) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CostoptimizationhubPreferences) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

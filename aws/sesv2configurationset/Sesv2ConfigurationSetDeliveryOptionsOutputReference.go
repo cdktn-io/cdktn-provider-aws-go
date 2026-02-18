@@ -5,14 +5,14 @@ package sesv2configurationset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/sesv2configurationset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/sesv2configurationset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Sesv2ConfigurationSetDeliveryOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type Sesv2ConfigurationSetDeliveryOptionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TlsPolicy() *string
 	SetTlsPolicy(val *string)
 	TlsPolicyInput() *string
@@ -54,7 +54,7 @@ type Sesv2ConfigurationSetDeliveryOptionsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type Sesv2ConfigurationSetDeliveryOptionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetMaxDeliverySeconds()
 	ResetSendingPoolName()
 	ResetTlsPolicy()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type Sesv2ConfigurationSetDeliveryOptionsOutputReference interface {
 
 // The jsii proxy struct for Sesv2ConfigurationSetDeliveryOptionsOutputReference
 type jsiiProxy_Sesv2ConfigurationSetDeliveryOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Sesv2ConfigurationSetDeliveryOptionsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_Sesv2ConfigurationSetDeliveryOptionsOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_Sesv2ConfigurationSetDeliveryOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Sesv2ConfigurationSetDeliveryOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_Sesv2ConfigurationSetDeliveryOptionsOutputReference) TlsPolic
 }
 
 
-func NewSesv2ConfigurationSetDeliveryOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) Sesv2ConfigurationSetDeliveryOptionsOutputReference {
+func NewSesv2ConfigurationSetDeliveryOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) Sesv2ConfigurationSetDeliveryOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSesv2ConfigurationSetDeliveryOptionsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewSesv2ConfigurationSetDeliveryOptionsOutputReference(terraformResource cd
 	return &j
 }
 
-func NewSesv2ConfigurationSetDeliveryOptionsOutputReference_Override(s Sesv2ConfigurationSetDeliveryOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSesv2ConfigurationSetDeliveryOptionsOutputReference_Override(s Sesv2ConfigurationSetDeliveryOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_Sesv2ConfigurationSetDeliveryOptionsOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_Sesv2ConfigurationSetDeliveryOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Sesv2ConfigurationSetDeliveryOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (s *jsiiProxy_Sesv2ConfigurationSetDeliveryOptionsOutputReference) GetAnyMa
 	return returns
 }
 
-func (s *jsiiProxy_Sesv2ConfigurationSetDeliveryOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_Sesv2ConfigurationSetDeliveryOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -494,8 +494,8 @@ func (s *jsiiProxy_Sesv2ConfigurationSetDeliveryOptionsOutputReference) GetStrin
 	return returns
 }
 
-func (s *jsiiProxy_Sesv2ConfigurationSetDeliveryOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_Sesv2ConfigurationSetDeliveryOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -507,11 +507,11 @@ func (s *jsiiProxy_Sesv2ConfigurationSetDeliveryOptionsOutputReference) Interpol
 	return returns
 }
 
-func (s *jsiiProxy_Sesv2ConfigurationSetDeliveryOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_Sesv2ConfigurationSetDeliveryOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -547,7 +547,7 @@ func (s *jsiiProxy_Sesv2ConfigurationSetDeliveryOptionsOutputReference) ResetTls
 	)
 }
 
-func (s *jsiiProxy_Sesv2ConfigurationSetDeliveryOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_Sesv2ConfigurationSetDeliveryOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

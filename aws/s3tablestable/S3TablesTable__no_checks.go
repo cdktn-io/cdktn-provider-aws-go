@@ -115,7 +115,7 @@ func (j *jsiiProxy_S3TablesTable) validateSetFormatParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_S3TablesTable) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_S3TablesTable) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

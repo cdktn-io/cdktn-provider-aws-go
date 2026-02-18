@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsCognitoUserPoolAccountRecoverySettingList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCognitoUserPoolAccountRecoverySettingList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCognitoUserPoolAccountRecoverySettingList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolAccountRecoverySettingList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCognitoUserPoolAccountRecoverySettingList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCognitoUserPoolAccountRecoverySettingList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolAccountRecoverySettingList) validateSet
 	return nil
 }
 
-func validateNewDataAwsCognitoUserPoolAccountRecoverySettingListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsCognitoUserPoolAccountRecoverySettingListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

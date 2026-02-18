@@ -15,7 +15,7 @@ func (e *jsiiProxy_EcsServiceLoadBalancerList) validateGetParameters(index *floa
 	return nil
 }
 
-func (e *jsiiProxy_EcsServiceLoadBalancerList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsServiceLoadBalancerList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EcsServiceLoadBalancerList) validateSetTerraformAttributePara
 	return nil
 }
 
-func (j *jsiiProxy_EcsServiceLoadBalancerList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsServiceLoadBalancerList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EcsServiceLoadBalancerList) validateSetWrapsSetParameters(val
 	return nil
 }
 
-func validateNewEcsServiceLoadBalancerListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEcsServiceLoadBalancerListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

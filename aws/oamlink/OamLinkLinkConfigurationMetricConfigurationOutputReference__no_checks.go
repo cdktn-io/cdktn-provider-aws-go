@@ -47,7 +47,7 @@ func (o *jsiiProxy_OamLinkLinkConfigurationMetricConfigurationOutputReference) v
 	return nil
 }
 
-func (o *jsiiProxy_OamLinkLinkConfigurationMetricConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OamLinkLinkConfigurationMetricConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_OamLinkLinkConfigurationMetricConfigurationOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_OamLinkLinkConfigurationMetricConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OamLinkLinkConfigurationMetricConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOamLinkLinkConfigurationMetricConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOamLinkLinkConfigurationMetricConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

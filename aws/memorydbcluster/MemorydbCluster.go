@@ -5,16 +5,16 @@ package memorydbcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/memorydbcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/memorydbcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/memorydb_cluster aws_memorydb_cluster}.
 type MemorydbCluster interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AclName() *string
 	SetAclName(val *string)
 	AclNameInput() *string
@@ -23,7 +23,7 @@ type MemorydbCluster interface {
 	SetAutoMinorVersionUpgrade(val interface{})
 	AutoMinorVersionUpgradeInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClusterEndpoint() MemorydbClusterClusterEndpointList
 	// Experimental.
 	Connection() interface{}
@@ -56,9 +56,9 @@ type MemorydbCluster interface {
 	SetFinalSnapshotName(val *string)
 	FinalSnapshotNameInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -70,9 +70,9 @@ type MemorydbCluster interface {
 	SetKmsKeyArn(val *string)
 	KmsKeyArnInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MaintenanceWindow() *string
 	SetMaintenanceWindow(val *string)
 	MaintenanceWindowInput() *string
@@ -103,9 +103,9 @@ type MemorydbCluster interface {
 	SetPort(val *float64)
 	PortInput() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -144,7 +144,7 @@ type MemorydbCluster interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -162,7 +162,7 @@ type MemorydbCluster interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -180,9 +180,9 @@ type MemorydbCluster interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -244,7 +244,7 @@ type MemorydbCluster interface {
 
 // The jsii proxy struct for MemorydbCluster
 type jsiiProxy_MemorydbCluster struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_MemorydbCluster) AclName() *string {
@@ -297,8 +297,8 @@ func (j *jsiiProxy_MemorydbCluster) AutoMinorVersionUpgradeInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_MemorydbCluster) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_MemorydbCluster) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -467,8 +467,8 @@ func (j *jsiiProxy_MemorydbCluster) FinalSnapshotNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_MemorydbCluster) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_MemorydbCluster) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -537,8 +537,8 @@ func (j *jsiiProxy_MemorydbCluster) KmsKeyArnInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_MemorydbCluster) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_MemorydbCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -737,8 +737,8 @@ func (j *jsiiProxy_MemorydbCluster) PortInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_MemorydbCluster) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_MemorydbCluster) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -977,8 +977,8 @@ func (j *jsiiProxy_MemorydbCluster) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_MemorydbCluster) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_MemorydbCluster) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1184,7 +1184,7 @@ func (j *jsiiProxy_MemorydbCluster)SetFinalSnapshotName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_MemorydbCluster)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_MemorydbCluster)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1214,7 +1214,7 @@ func (j *jsiiProxy_MemorydbCluster)SetKmsKeyArn(val *string) {
 	)
 }
 
-func (j *jsiiProxy_MemorydbCluster)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_MemorydbCluster)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1324,7 +1324,7 @@ func (j *jsiiProxy_MemorydbCluster)SetPort(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_MemorydbCluster)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_MemorydbCluster)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1464,14 +1464,14 @@ func (j *jsiiProxy_MemorydbCluster)SetTlsEnabled(val interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a MemorydbCluster resource upon running "cdktf plan <stack-name>".
-func MemorydbCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a MemorydbCluster resource upon running "cdktn plan <stack-name>".
+func MemorydbCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateMemorydbCluster_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.memorydbCluster.MemorydbCluster",
@@ -1605,11 +1605,11 @@ func (m *jsiiProxy_MemorydbCluster) GetAnyMapAttribute(terraformAttribute *strin
 	return returns
 }
 
-func (m *jsiiProxy_MemorydbCluster) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MemorydbCluster) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -1746,7 +1746,7 @@ func (m *jsiiProxy_MemorydbCluster) HasResourceMove() interface{} {
 	return returns
 }
 
-func (m *jsiiProxy_MemorydbCluster) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (m *jsiiProxy_MemorydbCluster) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := m.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1757,11 +1757,11 @@ func (m *jsiiProxy_MemorydbCluster) ImportFrom(id *string, provider cdktf.Terraf
 	)
 }
 
-func (m *jsiiProxy_MemorydbCluster) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MemorydbCluster) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,

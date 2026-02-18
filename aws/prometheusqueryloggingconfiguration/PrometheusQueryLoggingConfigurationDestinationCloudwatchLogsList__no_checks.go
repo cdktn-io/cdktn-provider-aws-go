@@ -15,7 +15,7 @@ func (p *jsiiProxy_PrometheusQueryLoggingConfigurationDestinationCloudwatchLogsL
 	return nil
 }
 
-func (p *jsiiProxy_PrometheusQueryLoggingConfigurationDestinationCloudwatchLogsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrometheusQueryLoggingConfigurationDestinationCloudwatchLogsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_PrometheusQueryLoggingConfigurationDestinationCloudwatchLogsL
 	return nil
 }
 
-func (j *jsiiProxy_PrometheusQueryLoggingConfigurationDestinationCloudwatchLogsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrometheusQueryLoggingConfigurationDestinationCloudwatchLogsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_PrometheusQueryLoggingConfigurationDestinationCloudwatchLogsL
 	return nil
 }
 
-func validateNewPrometheusQueryLoggingConfigurationDestinationCloudwatchLogsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewPrometheusQueryLoggingConfigurationDestinationCloudwatchLogsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -111,7 +111,7 @@ func (j *jsiiProxy_TransferHostKey) validateSetHostKeyBodyWoParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_TransferHostKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_TransferHostKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

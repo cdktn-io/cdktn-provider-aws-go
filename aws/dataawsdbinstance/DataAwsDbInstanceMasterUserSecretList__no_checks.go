@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsDbInstanceMasterUserSecretList) validateGetParameters(
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsDbInstanceMasterUserSecretList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsDbInstanceMasterUserSecretList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsDbInstanceMasterUserSecretList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDbInstanceMasterUserSecretList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsDbInstanceMasterUserSecretList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsDbInstanceMasterUserSecretList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewDataAwsDbInstanceMasterUserSecretListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsDbInstanceMasterUserSecretListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

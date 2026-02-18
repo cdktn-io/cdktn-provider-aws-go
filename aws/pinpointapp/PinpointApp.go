@@ -5,22 +5,22 @@ package pinpointapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/pinpointapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/pinpointapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/pinpoint_app aws_pinpoint_app}.
 type PinpointApp interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApplicationId() *string
 	Arn() *string
 	CampaignHook() PinpointAppCampaignHookOutputReference
 	CampaignHookInput() *PinpointAppCampaignHook
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -36,9 +36,9 @@ type PinpointApp interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -47,9 +47,9 @@ type PinpointApp interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Limits() PinpointAppLimitsOutputReference
 	LimitsInput() *PinpointAppLimits
 	Name() *string
@@ -61,9 +61,9 @@ type PinpointApp interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -82,7 +82,7 @@ type PinpointApp interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -95,7 +95,7 @@ type PinpointApp interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -113,9 +113,9 @@ type PinpointApp interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -160,7 +160,7 @@ type PinpointApp interface {
 
 // The jsii proxy struct for PinpointApp
 type jsiiProxy_PinpointApp struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_PinpointApp) ApplicationId() *string {
@@ -203,8 +203,8 @@ func (j *jsiiProxy_PinpointApp) CampaignHookInput() *PinpointAppCampaignHook {
 	return returns
 }
 
-func (j *jsiiProxy_PinpointApp) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_PinpointApp) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -253,8 +253,8 @@ func (j *jsiiProxy_PinpointApp) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_PinpointApp) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_PinpointApp) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -303,8 +303,8 @@ func (j *jsiiProxy_PinpointApp) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_PinpointApp) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_PinpointApp) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -383,8 +383,8 @@ func (j *jsiiProxy_PinpointApp) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_PinpointApp) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_PinpointApp) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -493,8 +493,8 @@ func (j *jsiiProxy_PinpointApp) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_PinpointApp) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_PinpointApp) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -583,7 +583,7 @@ func (j *jsiiProxy_PinpointApp)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_PinpointApp)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_PinpointApp)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -602,7 +602,7 @@ func (j *jsiiProxy_PinpointApp)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_PinpointApp)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_PinpointApp)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -635,7 +635,7 @@ func (j *jsiiProxy_PinpointApp)SetNamePrefix(val *string) {
 	)
 }
 
-func (j *jsiiProxy_PinpointApp)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_PinpointApp)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -687,14 +687,14 @@ func (j *jsiiProxy_PinpointApp)SetTagsAll(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a PinpointApp resource upon running "cdktf plan <stack-name>".
-func PinpointApp_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a PinpointApp resource upon running "cdktn plan <stack-name>".
+func PinpointApp_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validatePinpointApp_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.pinpointApp.PinpointApp",
@@ -828,11 +828,11 @@ func (p *jsiiProxy_PinpointApp) GetAnyMapAttribute(terraformAttribute *string) *
 	return returns
 }
 
-func (p *jsiiProxy_PinpointApp) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PinpointApp) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -969,7 +969,7 @@ func (p *jsiiProxy_PinpointApp) HasResourceMove() interface{} {
 	return returns
 }
 
-func (p *jsiiProxy_PinpointApp) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (p *jsiiProxy_PinpointApp) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := p.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -980,11 +980,11 @@ func (p *jsiiProxy_PinpointApp) ImportFrom(id *string, provider cdktf.TerraformP
 	)
 }
 
-func (p *jsiiProxy_PinpointApp) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PinpointApp) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,

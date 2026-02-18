@@ -5,14 +5,14 @@ package dataawssecretsmanagersecretversions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawssecretsmanagersecretversions/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawssecretsmanagersecretversions/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsSecretsmanagerSecretVersionsVersionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,9 +39,9 @@ type DataAwsSecretsmanagerSecretVersionsVersionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VersionId() *string
 	VersionStages() *[]*string
 	// Experimental.
@@ -49,7 +49,7 @@ type DataAwsSecretsmanagerSecretVersionsVersionsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type DataAwsSecretsmanagerSecretVersionsVersionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type DataAwsSecretsmanagerSecretVersionsVersionsOutputReference interface {
 
 // The jsii proxy struct for DataAwsSecretsmanagerSecretVersionsVersionsOutputReference
 type jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -194,7 +194,7 @@ func (j *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) V
 }
 
 
-func NewDataAwsSecretsmanagerSecretVersionsVersionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsSecretsmanagerSecretVersionsVersionsOutputReference {
+func NewDataAwsSecretsmanagerSecretVersionsVersionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsSecretsmanagerSecretVersionsVersionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsSecretsmanagerSecretVersionsVersionsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -211,7 +211,7 @@ func NewDataAwsSecretsmanagerSecretVersionsVersionsOutputReference(terraformReso
 	return &j
 }
 
-func NewDataAwsSecretsmanagerSecretVersionsVersionsOutputReference_Override(d DataAwsSecretsmanagerSecretVersionsVersionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsSecretsmanagerSecretVersionsVersionsOutputReference_Override(d DataAwsSecretsmanagerSecretVersionsVersionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -265,7 +265,7 @@ func (j *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -305,11 +305,11 @@ func (d *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) G
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -433,8 +433,8 @@ func (d *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) G
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -446,11 +446,11 @@ func (d *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) I
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -462,7 +462,7 @@ func (d *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) I
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsSecretsmanagerSecretVersionsVersionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

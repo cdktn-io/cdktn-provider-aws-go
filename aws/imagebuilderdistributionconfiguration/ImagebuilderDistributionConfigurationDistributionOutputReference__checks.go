@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (i *jsiiProxy_ImagebuilderDistributionConfigurationDistributionOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -120,7 +120,7 @@ func (i *jsiiProxy_ImagebuilderDistributionConfigurationDistributionOutputRefere
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ImagebuilderDistributionConfigurationDistributionFastLaunchConfiguration:
 		value := value.(*[]*ImagebuilderDistributionConfigurationDistributionFastLaunchConfiguration)
@@ -139,7 +139,7 @@ func (i *jsiiProxy_ImagebuilderDistributionConfigurationDistributionOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ImagebuilderDistributionConfigurationDistributionFastLaunchConfiguration; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ImagebuilderDistributionConfigurationDistributionFastLaunchConfiguration; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -151,7 +151,7 @@ func (i *jsiiProxy_ImagebuilderDistributionConfigurationDistributionOutputRefere
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ImagebuilderDistributionConfigurationDistributionLaunchTemplateConfiguration:
 		value := value.(*[]*ImagebuilderDistributionConfigurationDistributionLaunchTemplateConfiguration)
@@ -170,7 +170,7 @@ func (i *jsiiProxy_ImagebuilderDistributionConfigurationDistributionOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ImagebuilderDistributionConfigurationDistributionLaunchTemplateConfiguration; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ImagebuilderDistributionConfigurationDistributionLaunchTemplateConfiguration; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -193,7 +193,7 @@ func (i *jsiiProxy_ImagebuilderDistributionConfigurationDistributionOutputRefere
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ImagebuilderDistributionConfigurationDistributionSsmParameterConfiguration:
 		value := value.(*[]*ImagebuilderDistributionConfigurationDistributionSsmParameterConfiguration)
@@ -212,14 +212,14 @@ func (i *jsiiProxy_ImagebuilderDistributionConfigurationDistributionOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ImagebuilderDistributionConfigurationDistributionSsmParameterConfiguration; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ImagebuilderDistributionConfigurationDistributionSsmParameterConfiguration; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (i *jsiiProxy_ImagebuilderDistributionConfigurationDistributionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_ImagebuilderDistributionConfigurationDistributionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -294,7 +294,7 @@ func (j *jsiiProxy_ImagebuilderDistributionConfigurationDistributionOutputRefere
 
 func (j *jsiiProxy_ImagebuilderDistributionConfigurationDistributionOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *ImagebuilderDistributionConfigurationDistribution:
 		val := val.(*ImagebuilderDistributionConfigurationDistribution)
@@ -309,7 +309,7 @@ func (j *jsiiProxy_ImagebuilderDistributionConfigurationDistributionOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *ImagebuilderDistributionConfigurationDistribution; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *ImagebuilderDistributionConfigurationDistribution; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -340,7 +340,7 @@ func (j *jsiiProxy_ImagebuilderDistributionConfigurationDistributionOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_ImagebuilderDistributionConfigurationDistributionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ImagebuilderDistributionConfigurationDistributionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -348,7 +348,7 @@ func (j *jsiiProxy_ImagebuilderDistributionConfigurationDistributionOutputRefere
 	return nil
 }
 
-func validateNewImagebuilderDistributionConfigurationDistributionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewImagebuilderDistributionConfigurationDistributionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

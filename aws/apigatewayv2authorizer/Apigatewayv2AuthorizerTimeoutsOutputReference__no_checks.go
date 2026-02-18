@@ -47,7 +47,7 @@ func (a *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (a *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApigatewayv2AuthorizerTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApigatewayv2AuthorizerTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

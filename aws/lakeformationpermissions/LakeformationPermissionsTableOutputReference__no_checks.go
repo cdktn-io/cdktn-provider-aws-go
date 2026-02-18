@@ -47,7 +47,7 @@ func (l *jsiiProxy_LakeformationPermissionsTableOutputReference) validateInterpo
 	return nil
 }
 
-func (l *jsiiProxy_LakeformationPermissionsTableOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LakeformationPermissionsTableOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LakeformationPermissionsTableOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_LakeformationPermissionsTableOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LakeformationPermissionsTableOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_LakeformationPermissionsTableOutputReference) validateSetWild
 	return nil
 }
 
-func validateNewLakeformationPermissionsTableOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLakeformationPermissionsTableOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -55,7 +55,7 @@ func (s *jsiiProxy_S3BucketAclAccessControlPolicyOutputReference) validatePutOwn
 	return nil
 }
 
-func (s *jsiiProxy_S3BucketAclAccessControlPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3BucketAclAccessControlPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_S3BucketAclAccessControlPolicyOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketAclAccessControlPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3BucketAclAccessControlPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewS3BucketAclAccessControlPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewS3BucketAclAccessControlPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

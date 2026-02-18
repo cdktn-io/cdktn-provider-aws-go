@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsSignerSigningJobSourceList) validateGetParameters(inde
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsSignerSigningJobSourceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsSignerSigningJobSourceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsSignerSigningJobSourceList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsSignerSigningJobSourceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsSignerSigningJobSourceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsSignerSigningJobSourceList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewDataAwsSignerSigningJobSourceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsSignerSigningJobSourceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (q *jsiiProxy_QuicksightFolderPermissionsList) validateGetParameters(index 
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightFolderPermissionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightFolderPermissionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_QuicksightFolderPermissionsList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightFolderPermissionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightFolderPermissionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_QuicksightFolderPermissionsList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewQuicksightFolderPermissionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewQuicksightFolderPermissionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

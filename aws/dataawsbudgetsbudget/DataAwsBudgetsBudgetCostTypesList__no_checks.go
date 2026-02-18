@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsBudgetsBudgetCostTypesList) validateGetParameters(inde
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsBudgetsBudgetCostTypesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsBudgetsBudgetCostTypesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsBudgetsBudgetCostTypesList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsBudgetsBudgetCostTypesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsBudgetsBudgetCostTypesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsBudgetsBudgetCostTypesList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewDataAwsBudgetsBudgetCostTypesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsBudgetsBudgetCostTypesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

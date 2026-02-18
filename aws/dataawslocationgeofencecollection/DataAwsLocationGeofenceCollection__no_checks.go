@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsLocationGeofenceCollection) validateSetKmsKeyIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsLocationGeofenceCollection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsLocationGeofenceCollection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

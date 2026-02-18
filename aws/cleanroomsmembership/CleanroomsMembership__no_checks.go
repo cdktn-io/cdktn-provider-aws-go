@@ -111,7 +111,7 @@ func (j *jsiiProxy_CleanroomsMembership) validateSetCountParameters(val interfac
 	return nil
 }
 
-func (j *jsiiProxy_CleanroomsMembership) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CleanroomsMembership) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

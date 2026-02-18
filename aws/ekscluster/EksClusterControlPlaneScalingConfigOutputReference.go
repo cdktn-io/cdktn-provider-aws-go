@@ -5,14 +5,14 @@ package ekscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ekscluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ekscluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EksClusterControlPlaneScalingConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type EksClusterControlPlaneScalingConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Tier() *string
 	SetTier(val *string)
 	TierInput() *string
@@ -48,7 +48,7 @@ type EksClusterControlPlaneScalingConfigOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type EksClusterControlPlaneScalingConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetTier()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type EksClusterControlPlaneScalingConfigOutputReference interface {
 
 // The jsii proxy struct for EksClusterControlPlaneScalingConfigOutputReference
 type jsiiProxy_EksClusterControlPlaneScalingConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EksClusterControlPlaneScalingConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -143,8 +143,8 @@ func (j *jsiiProxy_EksClusterControlPlaneScalingConfigOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_EksClusterControlPlaneScalingConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EksClusterControlPlaneScalingConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_EksClusterControlPlaneScalingConfigOutputReference) TierInput
 }
 
 
-func NewEksClusterControlPlaneScalingConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) EksClusterControlPlaneScalingConfigOutputReference {
+func NewEksClusterControlPlaneScalingConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) EksClusterControlPlaneScalingConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEksClusterControlPlaneScalingConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewEksClusterControlPlaneScalingConfigOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewEksClusterControlPlaneScalingConfigOutputReference_Override(e EksClusterControlPlaneScalingConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEksClusterControlPlaneScalingConfigOutputReference_Override(e EksClusterControlPlaneScalingConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_EksClusterControlPlaneScalingConfigOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_EksClusterControlPlaneScalingConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EksClusterControlPlaneScalingConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (e *jsiiProxy_EksClusterControlPlaneScalingConfigOutputReference) GetAnyMap
 	return returns
 }
 
-func (e *jsiiProxy_EksClusterControlPlaneScalingConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EksClusterControlPlaneScalingConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -424,8 +424,8 @@ func (e *jsiiProxy_EksClusterControlPlaneScalingConfigOutputReference) GetString
 	return returns
 }
 
-func (e *jsiiProxy_EksClusterControlPlaneScalingConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EksClusterControlPlaneScalingConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -437,11 +437,11 @@ func (e *jsiiProxy_EksClusterControlPlaneScalingConfigOutputReference) Interpola
 	return returns
 }
 
-func (e *jsiiProxy_EksClusterControlPlaneScalingConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EksClusterControlPlaneScalingConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -461,7 +461,7 @@ func (e *jsiiProxy_EksClusterControlPlaneScalingConfigOutputReference) ResetTier
 	)
 }
 
-func (e *jsiiProxy_EksClusterControlPlaneScalingConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EksClusterControlPlaneScalingConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

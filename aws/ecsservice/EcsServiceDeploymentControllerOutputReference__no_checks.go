@@ -47,7 +47,7 @@ func (e *jsiiProxy_EcsServiceDeploymentControllerOutputReference) validateInterp
 	return nil
 }
 
-func (e *jsiiProxy_EcsServiceDeploymentControllerOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsServiceDeploymentControllerOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_EcsServiceDeploymentControllerOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_EcsServiceDeploymentControllerOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsServiceDeploymentControllerOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_EcsServiceDeploymentControllerOutputReference) validateSetTyp
 	return nil
 }
 
-func validateNewEcsServiceDeploymentControllerOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEcsServiceDeploymentControllerOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

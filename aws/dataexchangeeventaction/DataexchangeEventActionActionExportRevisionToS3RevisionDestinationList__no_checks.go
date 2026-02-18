@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3RevisionDestin
 	return nil
 }
 
-func (d *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3RevisionDestinationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3RevisionDestinationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3RevisionDestin
 	return nil
 }
 
-func (j *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3RevisionDestinationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3RevisionDestinationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataexchangeEventActionActionExportRevisionToS3RevisionDestin
 	return nil
 }
 
-func validateNewDataexchangeEventActionActionExportRevisionToS3RevisionDestinationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataexchangeEventActionActionExportRevisionToS3RevisionDestinationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

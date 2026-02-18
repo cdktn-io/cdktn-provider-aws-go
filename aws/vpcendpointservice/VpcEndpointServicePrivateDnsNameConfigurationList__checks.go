@@ -8,7 +8,7 @@ package vpcendpointservice
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (v *jsiiProxy_VpcEndpointServicePrivateDnsNameConfigurationList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (v *jsiiProxy_VpcEndpointServicePrivateDnsNameConfigurationList) validateGe
 	return nil
 }
 
-func (v *jsiiProxy_VpcEndpointServicePrivateDnsNameConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpcEndpointServicePrivateDnsNameConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_VpcEndpointServicePrivateDnsNameConfigurationList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_VpcEndpointServicePrivateDnsNameConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpcEndpointServicePrivateDnsNameConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_VpcEndpointServicePrivateDnsNameConfigurationList) validateSe
 	return nil
 }
 
-func validateNewVpcEndpointServicePrivateDnsNameConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVpcEndpointServicePrivateDnsNameConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

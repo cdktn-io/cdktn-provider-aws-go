@@ -47,7 +47,7 @@ func (c *jsiiProxy_CeCostCategoryRuleInheritedValueOutputReference) validateInte
 	return nil
 }
 
-func (c *jsiiProxy_CeCostCategoryRuleInheritedValueOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CeCostCategoryRuleInheritedValueOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CeCostCategoryRuleInheritedValueOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_CeCostCategoryRuleInheritedValueOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CeCostCategoryRuleInheritedValueOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCeCostCategoryRuleInheritedValueOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCeCostCategoryRuleInheritedValueOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

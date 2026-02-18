@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppstreamStackAccessEndpointsOutputReference) validateInterpo
 	return nil
 }
 
-func (a *jsiiProxy_AppstreamStackAccessEndpointsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppstreamStackAccessEndpointsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_AppstreamStackAccessEndpointsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_AppstreamStackAccessEndpointsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppstreamStackAccessEndpointsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AppstreamStackAccessEndpointsOutputReference) validateSetVpce
 	return nil
 }
 
-func validateNewAppstreamStackAccessEndpointsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppstreamStackAccessEndpointsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

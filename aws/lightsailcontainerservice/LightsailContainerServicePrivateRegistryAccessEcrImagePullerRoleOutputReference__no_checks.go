@@ -47,7 +47,7 @@ func (l *jsiiProxy_LightsailContainerServicePrivateRegistryAccessEcrImagePullerR
 	return nil
 }
 
-func (l *jsiiProxy_LightsailContainerServicePrivateRegistryAccessEcrImagePullerRoleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LightsailContainerServicePrivateRegistryAccessEcrImagePullerRoleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_LightsailContainerServicePrivateRegistryAccessEcrImagePullerR
 	return nil
 }
 
-func (j *jsiiProxy_LightsailContainerServicePrivateRegistryAccessEcrImagePullerRoleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LightsailContainerServicePrivateRegistryAccessEcrImagePullerRoleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLightsailContainerServicePrivateRegistryAccessEcrImagePullerRoleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLightsailContainerServicePrivateRegistryAccessEcrImagePullerRoleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

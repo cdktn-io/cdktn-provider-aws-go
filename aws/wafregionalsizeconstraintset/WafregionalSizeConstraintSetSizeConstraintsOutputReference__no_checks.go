@@ -51,7 +51,7 @@ func (w *jsiiProxy_WafregionalSizeConstraintSetSizeConstraintsOutputReference) v
 	return nil
 }
 
-func (w *jsiiProxy_WafregionalSizeConstraintSetSizeConstraintsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WafregionalSizeConstraintSetSizeConstraintsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WafregionalSizeConstraintSetSizeConstraintsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_WafregionalSizeConstraintSetSizeConstraintsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WafregionalSizeConstraintSetSizeConstraintsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_WafregionalSizeConstraintSetSizeConstraintsOutputReference) v
 	return nil
 }
 
-func validateNewWafregionalSizeConstraintSetSizeConstraintsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWafregionalSizeConstraintSetSizeConstraintsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

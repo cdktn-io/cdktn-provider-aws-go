@@ -5,19 +5,19 @@ package dxhostedprivatevirtualinterfaceaccepter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dxhostedprivatevirtualinterfaceaccepter/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dxhostedprivatevirtualinterfaceaccepter/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/dx_hosted_private_virtual_interface_accepter aws_dx_hosted_private_virtual_interface_accepter}.
 type DxHostedPrivateVirtualInterfaceAccepter interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -36,9 +36,9 @@ type DxHostedPrivateVirtualInterfaceAccepter interface {
 	SetDxGatewayId(val *string)
 	DxGatewayIdInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -47,15 +47,15 @@ type DxHostedPrivateVirtualInterfaceAccepter interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -72,7 +72,7 @@ type DxHostedPrivateVirtualInterfaceAccepter interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -93,7 +93,7 @@ type DxHostedPrivateVirtualInterfaceAccepter interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -111,9 +111,9 @@ type DxHostedPrivateVirtualInterfaceAccepter interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -154,7 +154,7 @@ type DxHostedPrivateVirtualInterfaceAccepter interface {
 
 // The jsii proxy struct for DxHostedPrivateVirtualInterfaceAccepter
 type jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) Arn() *string {
@@ -167,8 +167,8 @@ func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) Arn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -237,8 +237,8 @@ func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) DxGatewayIdInput() *
 	return returns
 }
 
-func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -287,8 +287,8 @@ func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -307,8 +307,8 @@ func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) Node() constructs.No
 	return returns
 }
 
-func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -397,8 +397,8 @@ func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) TagsInput() *map[str
 	return returns
 }
 
-func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -558,7 +558,7 @@ func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter)SetDxGatewayId(val *s
 	)
 }
 
-func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -577,7 +577,7 @@ func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -588,7 +588,7 @@ func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter)SetLifecycle(val *cdk
 	)
 }
 
-func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -662,14 +662,14 @@ func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter)SetVpnGatewayId(val *
 	)
 }
 
-// Generates CDKTF code for importing a DxHostedPrivateVirtualInterfaceAccepter resource upon running "cdktf plan <stack-name>".
-func DxHostedPrivateVirtualInterfaceAccepter_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DxHostedPrivateVirtualInterfaceAccepter resource upon running "cdktn plan <stack-name>".
+func DxHostedPrivateVirtualInterfaceAccepter_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDxHostedPrivateVirtualInterfaceAccepter_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dxHostedPrivateVirtualInterfaceAccepter.DxHostedPrivateVirtualInterfaceAccepter",
@@ -803,11 +803,11 @@ func (d *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) GetAnyMapAttribute(t
 	return returns
 }
 
-func (d *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -944,7 +944,7 @@ func (d *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) HasResourceMove() in
 	return returns
 }
 
-func (d *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (d *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := d.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -955,11 +955,11 @@ func (d *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) ImportFrom(id *strin
 	)
 }
 
-func (d *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

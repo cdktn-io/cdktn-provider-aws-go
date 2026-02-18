@@ -5,14 +5,14 @@ package pipespipe
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/pipespipe/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/pipespipe/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList interface
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList interface
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) PipesPipeTargetParametersEcsTaskParametersPlacementConstraintOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList interface
 
 // The jsii proxy struct for PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList
 type jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraint
 	return returns
 }
 
-func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraint
 }
 
 
-func NewPipesPipeTargetParametersEcsTaskParametersPlacementConstraintList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList {
+func NewPipesPipeTargetParametersEcsTaskParametersPlacementConstraintList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList {
 	_init_.Initialize()
 
 	if err := validateNewPipesPipeTargetParametersEcsTaskParametersPlacementConstraintListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewPipesPipeTargetParametersEcsTaskParametersPlacementConstraintList(terraf
 	return &j
 }
 
-func NewPipesPipeTargetParametersEcsTaskParametersPlacementConstraintList_Override(p PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewPipesPipeTargetParametersEcsTaskParametersPlacementConstraintList_Override(p PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraint
 	)
 }
 
-func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraint
 	)
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := p.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		p,
@@ -231,7 +231,7 @@ func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraint
 	return returns
 }
 
-func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsElbHealthCheckList) validateGetParameters(index *float
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsElbHealthCheckList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsElbHealthCheckList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsElbHealthCheckList) validateSetTerraformAttributeParam
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsElbHealthCheckList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsElbHealthCheckList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsElbHealthCheckList) validateSetWrapsSetParameters(val 
 	return nil
 }
 
-func validateNewDataAwsElbHealthCheckListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsElbHealthCheckListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

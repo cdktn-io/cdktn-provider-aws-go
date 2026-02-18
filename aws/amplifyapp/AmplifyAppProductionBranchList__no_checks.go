@@ -15,7 +15,7 @@ func (a *jsiiProxy_AmplifyAppProductionBranchList) validateGetParameters(index *
 	return nil
 }
 
-func (a *jsiiProxy_AmplifyAppProductionBranchList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AmplifyAppProductionBranchList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_AmplifyAppProductionBranchList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_AmplifyAppProductionBranchList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AmplifyAppProductionBranchList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_AmplifyAppProductionBranchList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewAmplifyAppProductionBranchListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAmplifyAppProductionBranchListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

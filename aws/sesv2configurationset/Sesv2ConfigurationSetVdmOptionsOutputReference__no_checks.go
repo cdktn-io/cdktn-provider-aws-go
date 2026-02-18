@@ -55,7 +55,7 @@ func (s *jsiiProxy_Sesv2ConfigurationSetVdmOptionsOutputReference) validatePutGu
 	return nil
 }
 
-func (s *jsiiProxy_Sesv2ConfigurationSetVdmOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_Sesv2ConfigurationSetVdmOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_Sesv2ConfigurationSetVdmOptionsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_Sesv2ConfigurationSetVdmOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Sesv2ConfigurationSetVdmOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSesv2ConfigurationSetVdmOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSesv2ConfigurationSetVdmOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package vpcblockpublicaccessexclusion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/vpcblockpublicaccessexclusion/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/vpcblockpublicaccessexclusion/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VpcBlockPublicAccessExclusionTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type VpcBlockPublicAccessExclusionTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type VpcBlockPublicAccessExclusionTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type VpcBlockPublicAccessExclusionTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type VpcBlockPublicAccessExclusionTimeoutsOutputReference interface {
 
 // The jsii proxy struct for VpcBlockPublicAccessExclusionTimeoutsOutputReference
 type jsiiProxy_VpcBlockPublicAccessExclusionTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VpcBlockPublicAccessExclusionTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_VpcBlockPublicAccessExclusionTimeoutsOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_VpcBlockPublicAccessExclusionTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VpcBlockPublicAccessExclusionTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_VpcBlockPublicAccessExclusionTimeoutsOutputReference) UpdateI
 }
 
 
-func NewVpcBlockPublicAccessExclusionTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VpcBlockPublicAccessExclusionTimeoutsOutputReference {
+func NewVpcBlockPublicAccessExclusionTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VpcBlockPublicAccessExclusionTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVpcBlockPublicAccessExclusionTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewVpcBlockPublicAccessExclusionTimeoutsOutputReference(terraformResource c
 	return &j
 }
 
-func NewVpcBlockPublicAccessExclusionTimeoutsOutputReference_Override(v VpcBlockPublicAccessExclusionTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVpcBlockPublicAccessExclusionTimeoutsOutputReference_Override(v VpcBlockPublicAccessExclusionTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_VpcBlockPublicAccessExclusionTimeoutsOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_VpcBlockPublicAccessExclusionTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VpcBlockPublicAccessExclusionTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (v *jsiiProxy_VpcBlockPublicAccessExclusionTimeoutsOutputReference) GetAnyM
 	return returns
 }
 
-func (v *jsiiProxy_VpcBlockPublicAccessExclusionTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpcBlockPublicAccessExclusionTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -494,8 +494,8 @@ func (v *jsiiProxy_VpcBlockPublicAccessExclusionTimeoutsOutputReference) GetStri
 	return returns
 }
 
-func (v *jsiiProxy_VpcBlockPublicAccessExclusionTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VpcBlockPublicAccessExclusionTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -507,11 +507,11 @@ func (v *jsiiProxy_VpcBlockPublicAccessExclusionTimeoutsOutputReference) Interpo
 	return returns
 }
 
-func (v *jsiiProxy_VpcBlockPublicAccessExclusionTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpcBlockPublicAccessExclusionTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -547,7 +547,7 @@ func (v *jsiiProxy_VpcBlockPublicAccessExclusionTimeoutsOutputReference) ResetUp
 	)
 }
 
-func (v *jsiiProxy_VpcBlockPublicAccessExclusionTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VpcBlockPublicAccessExclusionTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

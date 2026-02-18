@@ -47,7 +47,7 @@ func (t *jsiiProxy_TimestreaminfluxdbDbInstanceTimeoutsOutputReference) validate
 	return nil
 }
 
-func (t *jsiiProxy_TimestreaminfluxdbDbInstanceTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TimestreaminfluxdbDbInstanceTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_TimestreaminfluxdbDbInstanceTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_TimestreaminfluxdbDbInstanceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TimestreaminfluxdbDbInstanceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_TimestreaminfluxdbDbInstanceTimeoutsOutputReference) validate
 	return nil
 }
 
-func validateNewTimestreaminfluxdbDbInstanceTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTimestreaminfluxdbDbInstanceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

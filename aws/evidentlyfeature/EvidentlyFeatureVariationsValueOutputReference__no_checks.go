@@ -47,7 +47,7 @@ func (e *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) validateInter
 	return nil
 }
 
-func (e *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EvidentlyFeatureVariationsValueOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEvidentlyFeatureVariationsValueOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEvidentlyFeatureVariationsValueOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

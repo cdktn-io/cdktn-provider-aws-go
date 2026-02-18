@@ -47,7 +47,7 @@ func (b *jsiiProxy_BedrockagentcoreBrowserRecordingS3LocationOutputReference) va
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentcoreBrowserRecordingS3LocationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentcoreBrowserRecordingS3LocationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BedrockagentcoreBrowserRecordingS3LocationOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreBrowserRecordingS3LocationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentcoreBrowserRecordingS3LocationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBedrockagentcoreBrowserRecordingS3LocationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBedrockagentcoreBrowserRecordingS3LocationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

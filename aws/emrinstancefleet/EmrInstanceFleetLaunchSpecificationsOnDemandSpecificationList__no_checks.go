@@ -15,7 +15,7 @@ func (e *jsiiProxy_EmrInstanceFleetLaunchSpecificationsOnDemandSpecificationList
 	return nil
 }
 
-func (e *jsiiProxy_EmrInstanceFleetLaunchSpecificationsOnDemandSpecificationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EmrInstanceFleetLaunchSpecificationsOnDemandSpecificationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EmrInstanceFleetLaunchSpecificationsOnDemandSpecificationList
 	return nil
 }
 
-func (j *jsiiProxy_EmrInstanceFleetLaunchSpecificationsOnDemandSpecificationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EmrInstanceFleetLaunchSpecificationsOnDemandSpecificationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EmrInstanceFleetLaunchSpecificationsOnDemandSpecificationList
 	return nil
 }
 
-func validateNewEmrInstanceFleetLaunchSpecificationsOnDemandSpecificationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEmrInstanceFleetLaunchSpecificationsOnDemandSpecificationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

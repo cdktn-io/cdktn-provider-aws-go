@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsMskconnectWorkerConfiguration) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsMskconnectWorkerConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsMskconnectWorkerConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

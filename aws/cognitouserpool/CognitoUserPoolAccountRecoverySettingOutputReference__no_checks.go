@@ -51,7 +51,7 @@ func (c *jsiiProxy_CognitoUserPoolAccountRecoverySettingOutputReference) validat
 	return nil
 }
 
-func (c *jsiiProxy_CognitoUserPoolAccountRecoverySettingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CognitoUserPoolAccountRecoverySettingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CognitoUserPoolAccountRecoverySettingOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_CognitoUserPoolAccountRecoverySettingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CognitoUserPoolAccountRecoverySettingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCognitoUserPoolAccountRecoverySettingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCognitoUserPoolAccountRecoverySettingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

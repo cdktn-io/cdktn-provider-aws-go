@@ -5,23 +5,23 @@ package dataawsec2capacityblockoffering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsec2capacityblockoffering/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsec2capacityblockoffering/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/ec2_capacity_block_offering aws_ec2_capacity_block_offering}.
 type DataAwsEc2CapacityBlockOffering interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AvailabilityZone() *string
 	CapacityBlockOfferingId() *string
 	CapacityDurationHours() *float64
 	SetCapacityDurationHours(val *float64)
 	CapacityDurationHoursInput() *float64
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -37,9 +37,9 @@ type DataAwsEc2CapacityBlockOffering interface {
 	SetEndDateRange(val *string)
 	EndDateRangeInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -51,15 +51,15 @@ type DataAwsEc2CapacityBlockOffering interface {
 	SetInstanceType(val *string)
 	InstanceTypeInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -70,7 +70,7 @@ type DataAwsEc2CapacityBlockOffering interface {
 	StartDateRangeInput() *string
 	Tenancy() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -81,7 +81,7 @@ type DataAwsEc2CapacityBlockOffering interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -97,7 +97,7 @@ type DataAwsEc2CapacityBlockOffering interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -123,7 +123,7 @@ type DataAwsEc2CapacityBlockOffering interface {
 
 // The jsii proxy struct for DataAwsEc2CapacityBlockOffering
 type jsiiProxy_DataAwsEc2CapacityBlockOffering struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering) AvailabilityZone() *string {
@@ -166,8 +166,8 @@ func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering) CapacityDurationHoursInput()
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -236,8 +236,8 @@ func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering) EndDateRangeInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -306,8 +306,8 @@ func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering) InstanceTypeInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -326,8 +326,8 @@ func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -396,8 +396,8 @@ func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering) Tenancy() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -507,7 +507,7 @@ func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering)SetEndDateRange(val *string) 
 	)
 }
 
-func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -537,7 +537,7 @@ func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering)SetInstanceType(val *string) 
 	)
 }
 
-func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -548,7 +548,7 @@ func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering)SetLifecycle(val *cdktf.Terra
 	)
 }
 
-func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -578,14 +578,14 @@ func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering)SetStartDateRange(val *string
 	)
 }
 
-// Generates CDKTF code for importing a DataAwsEc2CapacityBlockOffering resource upon running "cdktf plan <stack-name>".
-func DataAwsEc2CapacityBlockOffering_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAwsEc2CapacityBlockOffering resource upon running "cdktn plan <stack-name>".
+func DataAwsEc2CapacityBlockOffering_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAwsEc2CapacityBlockOffering_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.dataAwsEc2CapacityBlockOffering.DataAwsEc2CapacityBlockOffering",
@@ -708,11 +708,11 @@ func (d *jsiiProxy_DataAwsEc2CapacityBlockOffering) GetAnyMapAttribute(terraform
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEc2CapacityBlockOffering) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEc2CapacityBlockOffering) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -836,11 +836,11 @@ func (d *jsiiProxy_DataAwsEc2CapacityBlockOffering) GetStringMapAttribute(terraf
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsEc2CapacityBlockOffering) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsEc2CapacityBlockOffering) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

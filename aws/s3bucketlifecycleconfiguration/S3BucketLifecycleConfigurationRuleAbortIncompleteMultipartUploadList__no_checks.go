@@ -15,7 +15,7 @@ func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleAbortIncompleteMultipartUpl
 	return nil
 }
 
-func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleAbortIncompleteMultipartUploadList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleAbortIncompleteMultipartUploadList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleAbortIncompleteMultipartUpl
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleAbortIncompleteMultipartUploadList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleAbortIncompleteMultipartUploadList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleAbortIncompleteMultipartUpl
 	return nil
 }
 
-func validateNewS3BucketLifecycleConfigurationRuleAbortIncompleteMultipartUploadListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewS3BucketLifecycleConfigurationRuleAbortIncompleteMultipartUploadListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

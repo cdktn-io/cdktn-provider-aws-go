@@ -107,7 +107,7 @@ func (j *jsiiProxy_RdsInstanceState) validateSetIdentifierParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_RdsInstanceState) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RdsInstanceState) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

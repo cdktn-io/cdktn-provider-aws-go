@@ -91,7 +91,7 @@ func (j *jsiiProxy_DataAwsGlueScript) validateSetLanguageParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsGlueScript) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsGlueScript) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

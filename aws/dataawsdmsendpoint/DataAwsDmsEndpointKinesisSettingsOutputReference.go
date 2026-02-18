@@ -5,14 +5,14 @@ package dataawsdmsendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsdmsendpoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsdmsendpoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsDmsEndpointKinesisSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -30,15 +30,15 @@ type DataAwsDmsEndpointKinesisSettingsOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	IncludeControlDetails() cdktf.IResolvable
-	IncludeNullAndEmpty() cdktf.IResolvable
-	IncludePartitionValue() cdktf.IResolvable
-	IncludeTableAlterOperations() cdktf.IResolvable
-	IncludeTransactionDetails() cdktf.IResolvable
+	IncludeControlDetails() cdktn.IResolvable
+	IncludeNullAndEmpty() cdktn.IResolvable
+	IncludePartitionValue() cdktn.IResolvable
+	IncludeTableAlterOperations() cdktn.IResolvable
+	IncludeTransactionDetails() cdktn.IResolvable
 	InternalValue() *DataAwsDmsEndpointKinesisSettings
 	SetInternalValue(val *DataAwsDmsEndpointKinesisSettings)
 	MessageFormat() *string
-	PartitionIncludeSchemaTable() cdktf.IResolvable
+	PartitionIncludeSchemaTable() cdktn.IResolvable
 	ServiceAccessRoleArn() *string
 	StreamArn() *string
 	// Experimental.
@@ -46,16 +46,16 @@ type DataAwsDmsEndpointKinesisSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
-	UseLargeIntegerValue() cdktf.IResolvable
+	SetTerraformResource(val cdktn.IInterpolatingParent)
+	UseLargeIntegerValue() cdktn.IResolvable
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -71,12 +71,12 @@ type DataAwsDmsEndpointKinesisSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type DataAwsDmsEndpointKinesisSettingsOutputReference interface {
 
 // The jsii proxy struct for DataAwsDmsEndpointKinesisSettingsOutputReference
 type jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) ComplexObjectIndex() interface{} {
@@ -129,8 +129,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) Fqn() *stri
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) IncludeControlDetails() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) IncludeControlDetails() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"includeControlDetails",
@@ -139,8 +139,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) IncludeCont
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) IncludeNullAndEmpty() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) IncludeNullAndEmpty() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"includeNullAndEmpty",
@@ -149,8 +149,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) IncludeNull
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) IncludePartitionValue() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) IncludePartitionValue() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"includePartitionValue",
@@ -159,8 +159,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) IncludePart
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) IncludeTableAlterOperations() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) IncludeTableAlterOperations() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"includeTableAlterOperations",
@@ -169,8 +169,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) IncludeTabl
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) IncludeTransactionDetails() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) IncludeTransactionDetails() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"includeTransactionDetails",
@@ -199,8 +199,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) MessageForm
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) PartitionIncludeSchemaTable() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) PartitionIncludeSchemaTable() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"partitionIncludeSchemaTable",
@@ -239,8 +239,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -249,8 +249,8 @@ func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) TerraformRe
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) UseLargeIntegerValue() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) UseLargeIntegerValue() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"useLargeIntegerValue",
@@ -260,7 +260,7 @@ func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) UseLargeInt
 }
 
 
-func NewDataAwsDmsEndpointKinesisSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsDmsEndpointKinesisSettingsOutputReference {
+func NewDataAwsDmsEndpointKinesisSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsDmsEndpointKinesisSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAwsDmsEndpointKinesisSettingsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -277,7 +277,7 @@ func NewDataAwsDmsEndpointKinesisSettingsOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewDataAwsDmsEndpointKinesisSettingsOutputReference_Override(d DataAwsDmsEndpointKinesisSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAwsDmsEndpointKinesisSettingsOutputReference_Override(d DataAwsDmsEndpointKinesisSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -331,7 +331,7 @@ func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -371,11 +371,11 @@ func (d *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -499,8 +499,8 @@ func (d *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) GetStringMa
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -512,11 +512,11 @@ func (d *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) Interpolati
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -528,7 +528,7 @@ func (d *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) Interpolati
 	return returns
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAwsDmsEndpointKinesisSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

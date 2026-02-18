@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsDmsEndpointMongodbSettingsList) validateGetParameters(
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsDmsEndpointMongodbSettingsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsDmsEndpointMongodbSettingsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsDmsEndpointMongodbSettingsList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDmsEndpointMongodbSettingsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsDmsEndpointMongodbSettingsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsDmsEndpointMongodbSettingsList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewDataAwsDmsEndpointMongodbSettingsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsDmsEndpointMongodbSettingsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

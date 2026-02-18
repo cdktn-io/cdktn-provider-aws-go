@@ -15,7 +15,7 @@ func (s *jsiiProxy_SsmDocumentAttachmentsSourceList) validateGetParameters(index
 	return nil
 }
 
-func (s *jsiiProxy_SsmDocumentAttachmentsSourceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsmDocumentAttachmentsSourceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SsmDocumentAttachmentsSourceList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_SsmDocumentAttachmentsSourceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsmDocumentAttachmentsSourceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SsmDocumentAttachmentsSourceList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewSsmDocumentAttachmentsSourceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSsmDocumentAttachmentsSourceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

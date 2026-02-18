@@ -47,7 +47,7 @@ func (s *jsiiProxy_SignerSigningJobDestinationS3OutputReference) validateInterpo
 	return nil
 }
 
-func (s *jsiiProxy_SignerSigningJobDestinationS3OutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SignerSigningJobDestinationS3OutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SignerSigningJobDestinationS3OutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_SignerSigningJobDestinationS3OutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SignerSigningJobDestinationS3OutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSignerSigningJobDestinationS3OutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSignerSigningJobDestinationS3OutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

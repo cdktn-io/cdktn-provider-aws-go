@@ -5,19 +5,19 @@ package ec2clientvpnnetworkassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ec2clientvpnnetworkassociation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ec2clientvpnnetworkassociation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/ec2_client_vpn_network_association aws_ec2_client_vpn_network_association}.
 type Ec2ClientVpnNetworkAssociation interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AssociationId() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClientVpnEndpointId() *string
 	SetClientVpnEndpointId(val *string)
 	ClientVpnEndpointIdInput() *string
@@ -36,9 +36,9 @@ type Ec2ClientVpnNetworkAssociation interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -47,15 +47,15 @@ type Ec2ClientVpnNetworkAssociation interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -69,7 +69,7 @@ type Ec2ClientVpnNetworkAssociation interface {
 	SetSubnetId(val *string)
 	SubnetIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -85,7 +85,7 @@ type Ec2ClientVpnNetworkAssociation interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -103,9 +103,9 @@ type Ec2ClientVpnNetworkAssociation interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -142,7 +142,7 @@ type Ec2ClientVpnNetworkAssociation interface {
 
 // The jsii proxy struct for Ec2ClientVpnNetworkAssociation
 type jsiiProxy_Ec2ClientVpnNetworkAssociation struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation) AssociationId() *string {
@@ -155,8 +155,8 @@ func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation) AssociationId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -225,8 +225,8 @@ func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -275,8 +275,8 @@ func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -295,8 +295,8 @@ func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -365,8 +365,8 @@ func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation) SubnetIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -496,7 +496,7 @@ func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -515,7 +515,7 @@ func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -526,7 +526,7 @@ func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation)SetLifecycle(val *cdktf.Terraf
 	)
 }
 
-func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -567,14 +567,14 @@ func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation)SetSubnetId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a Ec2ClientVpnNetworkAssociation resource upon running "cdktf plan <stack-name>".
-func Ec2ClientVpnNetworkAssociation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a Ec2ClientVpnNetworkAssociation resource upon running "cdktn plan <stack-name>".
+func Ec2ClientVpnNetworkAssociation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateEc2ClientVpnNetworkAssociation_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.ec2ClientVpnNetworkAssociation.Ec2ClientVpnNetworkAssociation",
@@ -708,11 +708,11 @@ func (e *jsiiProxy_Ec2ClientVpnNetworkAssociation) GetAnyMapAttribute(terraformA
 	return returns
 }
 
-func (e *jsiiProxy_Ec2ClientVpnNetworkAssociation) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_Ec2ClientVpnNetworkAssociation) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -849,7 +849,7 @@ func (e *jsiiProxy_Ec2ClientVpnNetworkAssociation) HasResourceMove() interface{}
 	return returns
 }
 
-func (e *jsiiProxy_Ec2ClientVpnNetworkAssociation) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (e *jsiiProxy_Ec2ClientVpnNetworkAssociation) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := e.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -860,11 +860,11 @@ func (e *jsiiProxy_Ec2ClientVpnNetworkAssociation) ImportFrom(id *string, provid
 	)
 }
 
-func (e *jsiiProxy_Ec2ClientVpnNetworkAssociation) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_Ec2ClientVpnNetworkAssociation) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,

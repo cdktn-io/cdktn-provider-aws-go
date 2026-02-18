@@ -47,7 +47,7 @@ func (o *jsiiProxy_OpensearchDomainClusterConfigColdStorageOptionsOutputReferenc
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchDomainClusterConfigColdStorageOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchDomainClusterConfigColdStorageOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_OpensearchDomainClusterConfigColdStorageOptionsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchDomainClusterConfigColdStorageOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchDomainClusterConfigColdStorageOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOpensearchDomainClusterConfigColdStorageOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOpensearchDomainClusterConfigColdStorageOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

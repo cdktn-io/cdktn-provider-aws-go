@@ -15,7 +15,7 @@ func (e *jsiiProxy_ElasticacheServerlessCacheEndpointList) validateGetParameters
 	return nil
 }
 
-func (e *jsiiProxy_ElasticacheServerlessCacheEndpointList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticacheServerlessCacheEndpointList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_ElasticacheServerlessCacheEndpointList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_ElasticacheServerlessCacheEndpointList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticacheServerlessCacheEndpointList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_ElasticacheServerlessCacheEndpointList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewElasticacheServerlessCacheEndpointListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewElasticacheServerlessCacheEndpointListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

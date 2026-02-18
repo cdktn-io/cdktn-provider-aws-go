@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -104,7 +104,7 @@ func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) vali
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -179,7 +179,7 @@ func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) vali
 
 func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *OpensearchDomainClusterConfigNodeOptions:
 		val := val.(*OpensearchDomainClusterConfigNodeOptions)
@@ -194,7 +194,7 @@ func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *OpensearchDomainClusterConfigNodeOptions; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *OpensearchDomainClusterConfigNodeOptions; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -217,7 +217,7 @@ func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -225,7 +225,7 @@ func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) vali
 	return nil
 }
 
-func validateNewOpensearchDomainClusterConfigNodeOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOpensearchDomainClusterConfigNodeOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -5,14 +5,14 @@ package route53domainsdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/route53domainsdomain/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/route53domainsdomain/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Route53DomainsDomainTechContactOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AddressLine1() *string
 	SetAddressLine1(val *string)
 	AddressLine1Input() *string
@@ -75,9 +75,9 @@ type Route53DomainsDomainTechContactOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	ZipCode() *string
 	SetZipCode(val *string)
 	ZipCodeInput() *string
@@ -86,7 +86,7 @@ type Route53DomainsDomainTechContactOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -102,9 +102,9 @@ type Route53DomainsDomainTechContactOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutExtraParam(value interface{})
 	ResetAddressLine1()
 	ResetAddressLine2()
@@ -122,7 +122,7 @@ type Route53DomainsDomainTechContactOutputReference interface {
 	ResetZipCode()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -132,7 +132,7 @@ type Route53DomainsDomainTechContactOutputReference interface {
 
 // The jsii proxy struct for Route53DomainsDomainTechContactOutputReference
 type jsiiProxy_Route53DomainsDomainTechContactOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Route53DomainsDomainTechContactOutputReference) AddressLine1() *string {
@@ -455,8 +455,8 @@ func (j *jsiiProxy_Route53DomainsDomainTechContactOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_Route53DomainsDomainTechContactOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Route53DomainsDomainTechContactOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -486,7 +486,7 @@ func (j *jsiiProxy_Route53DomainsDomainTechContactOutputReference) ZipCodeInput(
 }
 
 
-func NewRoute53DomainsDomainTechContactOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Route53DomainsDomainTechContactOutputReference {
+func NewRoute53DomainsDomainTechContactOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Route53DomainsDomainTechContactOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewRoute53DomainsDomainTechContactOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -503,7 +503,7 @@ func NewRoute53DomainsDomainTechContactOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewRoute53DomainsDomainTechContactOutputReference_Override(r Route53DomainsDomainTechContactOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewRoute53DomainsDomainTechContactOutputReference_Override(r Route53DomainsDomainTechContactOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -689,7 +689,7 @@ func (j *jsiiProxy_Route53DomainsDomainTechContactOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_Route53DomainsDomainTechContactOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Route53DomainsDomainTechContactOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -740,11 +740,11 @@ func (r *jsiiProxy_Route53DomainsDomainTechContactOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (r *jsiiProxy_Route53DomainsDomainTechContactOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_Route53DomainsDomainTechContactOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -868,8 +868,8 @@ func (r *jsiiProxy_Route53DomainsDomainTechContactOutputReference) GetStringMapA
 	return returns
 }
 
-func (r *jsiiProxy_Route53DomainsDomainTechContactOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_Route53DomainsDomainTechContactOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -881,11 +881,11 @@ func (r *jsiiProxy_Route53DomainsDomainTechContactOutputReference) Interpolation
 	return returns
 }
 
-func (r *jsiiProxy_Route53DomainsDomainTechContactOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_Route53DomainsDomainTechContactOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -1020,7 +1020,7 @@ func (r *jsiiProxy_Route53DomainsDomainTechContactOutputReference) ResetZipCode(
 	)
 }
 
-func (r *jsiiProxy_Route53DomainsDomainTechContactOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_Route53DomainsDomainTechContactOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

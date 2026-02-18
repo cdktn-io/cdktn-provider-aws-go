@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsIdentitystoreUsersUsersExternalIdsList) validateGetPar
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsIdentitystoreUsersUsersExternalIdsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsIdentitystoreUsersUsersExternalIdsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsIdentitystoreUsersUsersExternalIdsList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsIdentitystoreUsersUsersExternalIdsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsIdentitystoreUsersUsersExternalIdsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsIdentitystoreUsersUsersExternalIdsList) validateSetWra
 	return nil
 }
 
-func validateNewDataAwsIdentitystoreUsersUsersExternalIdsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsIdentitystoreUsersUsersExternalIdsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsEc2ClientVpnEndpointFilterOutputReference) validateInt
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsEc2ClientVpnEndpointFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsEc2ClientVpnEndpointFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataAwsEc2ClientVpnEndpointFilterOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2ClientVpnEndpointFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsEc2ClientVpnEndpointFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsEc2ClientVpnEndpointFilterOutputReference) validateSet
 	return nil
 }
 
-func validateNewDataAwsEc2ClientVpnEndpointFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsEc2ClientVpnEndpointFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

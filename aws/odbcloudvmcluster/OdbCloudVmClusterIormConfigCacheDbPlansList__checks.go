@@ -8,7 +8,7 @@ package odbcloudvmcluster
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (o *jsiiProxy_OdbCloudVmClusterIormConfigCacheDbPlansList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (o *jsiiProxy_OdbCloudVmClusterIormConfigCacheDbPlansList) validateGetParam
 	return nil
 }
 
-func (o *jsiiProxy_OdbCloudVmClusterIormConfigCacheDbPlansList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OdbCloudVmClusterIormConfigCacheDbPlansList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_OdbCloudVmClusterIormConfigCacheDbPlansList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_OdbCloudVmClusterIormConfigCacheDbPlansList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OdbCloudVmClusterIormConfigCacheDbPlansList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_OdbCloudVmClusterIormConfigCacheDbPlansList) validateSetWraps
 	return nil
 }
 
-func validateNewOdbCloudVmClusterIormConfigCacheDbPlansListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOdbCloudVmClusterIormConfigCacheDbPlansListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

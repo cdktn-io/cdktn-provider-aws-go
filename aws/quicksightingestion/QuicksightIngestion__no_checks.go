@@ -115,7 +115,7 @@ func (j *jsiiProxy_QuicksightIngestion) validateSetIngestionTypeParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightIngestion) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_QuicksightIngestion) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

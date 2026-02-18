@@ -15,7 +15,7 @@ func (g *jsiiProxy_GuarddutyOrganizationConfigurationFeatureAdditionalConfigurat
 	return nil
 }
 
-func (g *jsiiProxy_GuarddutyOrganizationConfigurationFeatureAdditionalConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GuarddutyOrganizationConfigurationFeatureAdditionalConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GuarddutyOrganizationConfigurationFeatureAdditionalConfigurat
 	return nil
 }
 
-func (j *jsiiProxy_GuarddutyOrganizationConfigurationFeatureAdditionalConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GuarddutyOrganizationConfigurationFeatureAdditionalConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GuarddutyOrganizationConfigurationFeatureAdditionalConfigurat
 	return nil
 }
 
-func validateNewGuarddutyOrganizationConfigurationFeatureAdditionalConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGuarddutyOrganizationConfigurationFeatureAdditionalConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

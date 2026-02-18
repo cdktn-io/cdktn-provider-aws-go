@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsServicecatalogProvisioningArtifactsTimeoutsOutputRefer
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsServicecatalogProvisioningArtifactsTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsServicecatalogProvisioningArtifactsTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAwsServicecatalogProvisioningArtifactsTimeoutsOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsServicecatalogProvisioningArtifactsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsServicecatalogProvisioningArtifactsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsServicecatalogProvisioningArtifactsTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAwsServicecatalogProvisioningArtifactsTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

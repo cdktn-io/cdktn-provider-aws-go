@@ -47,7 +47,7 @@ func (e *jsiiProxy_EcsExpressGatewayServiceScalingTargetOutputReference) validat
 	return nil
 }
 
-func (e *jsiiProxy_EcsExpressGatewayServiceScalingTargetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsExpressGatewayServiceScalingTargetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_EcsExpressGatewayServiceScalingTargetOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_EcsExpressGatewayServiceScalingTargetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsExpressGatewayServiceScalingTargetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEcsExpressGatewayServiceScalingTargetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEcsExpressGatewayServiceScalingTargetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

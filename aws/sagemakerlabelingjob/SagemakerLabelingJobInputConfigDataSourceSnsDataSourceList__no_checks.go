@@ -15,7 +15,7 @@ func (s *jsiiProxy_SagemakerLabelingJobInputConfigDataSourceSnsDataSourceList) v
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerLabelingJobInputConfigDataSourceSnsDataSourceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerLabelingJobInputConfigDataSourceSnsDataSourceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SagemakerLabelingJobInputConfigDataSourceSnsDataSourceList) v
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerLabelingJobInputConfigDataSourceSnsDataSourceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerLabelingJobInputConfigDataSourceSnsDataSourceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SagemakerLabelingJobInputConfigDataSourceSnsDataSourceList) v
 	return nil
 }
 
-func validateNewSagemakerLabelingJobInputConfigDataSourceSnsDataSourceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSagemakerLabelingJobInputConfigDataSourceSnsDataSourceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

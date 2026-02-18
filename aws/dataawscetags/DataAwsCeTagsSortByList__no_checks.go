@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsCeTagsSortByList) validateGetParameters(index *float64
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCeTagsSortByList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCeTagsSortByList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataAwsCeTagsSortByList) validateSetTerraformAttributeParamet
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCeTagsSortByList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCeTagsSortByList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataAwsCeTagsSortByList) validateSetWrapsSetParameters(val *b
 	return nil
 }
 
-func validateNewDataAwsCeTagsSortByListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsCeTagsSortByListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

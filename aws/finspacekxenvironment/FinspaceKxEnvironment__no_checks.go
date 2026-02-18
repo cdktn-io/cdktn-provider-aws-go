@@ -119,7 +119,7 @@ func (j *jsiiProxy_FinspaceKxEnvironment) validateSetKmsKeyIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_FinspaceKxEnvironment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_FinspaceKxEnvironment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

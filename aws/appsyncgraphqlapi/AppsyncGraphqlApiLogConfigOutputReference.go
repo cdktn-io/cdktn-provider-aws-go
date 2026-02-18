@@ -5,14 +5,14 @@ package appsyncgraphqlapi
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/appsyncgraphqlapi/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appsyncgraphqlapi/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppsyncGraphqlApiLogConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CloudwatchLogsRoleArn() *string
 	SetCloudwatchLogsRoleArn(val *string)
 	CloudwatchLogsRoleArnInput() *string
@@ -46,15 +46,15 @@ type AppsyncGraphqlApiLogConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type AppsyncGraphqlApiLogConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetExcludeVerboseContent()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type AppsyncGraphqlApiLogConfigOutputReference interface {
 
 // The jsii proxy struct for AppsyncGraphqlApiLogConfigOutputReference
 type jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference) CloudwatchLogsRoleArn() *string {
@@ -209,8 +209,8 @@ func (j *jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference) TerraformAttribute
 	return returns
 }
 
-func (j *jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference) TerraformResource(
 }
 
 
-func NewAppsyncGraphqlApiLogConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AppsyncGraphqlApiLogConfigOutputReference {
+func NewAppsyncGraphqlApiLogConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AppsyncGraphqlApiLogConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAppsyncGraphqlApiLogConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -237,7 +237,7 @@ func NewAppsyncGraphqlApiLogConfigOutputReference(terraformResource cdktf.IInter
 	return &j
 }
 
-func NewAppsyncGraphqlApiLogConfigOutputReference_Override(a AppsyncGraphqlApiLogConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAppsyncGraphqlApiLogConfigOutputReference_Override(a AppsyncGraphqlApiLogConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -324,7 +324,7 @@ func (j *jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference)SetTerraformAttribu
 	)
 }
 
-func (j *jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (a *jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference) GetAnyMapAttribute
 	return returns
 }
 
-func (a *jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -492,8 +492,8 @@ func (a *jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference) GetStringMapAttrib
 	return returns
 }
 
-func (a *jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -505,11 +505,11 @@ func (a *jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference) InterpolationAsLis
 	return returns
 }
 
-func (a *jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -529,7 +529,7 @@ func (a *jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference) ResetExcludeVerbos
 	)
 }
 
-func (a *jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

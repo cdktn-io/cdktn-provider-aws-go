@@ -47,7 +47,7 @@ func (i *jsiiProxy_IotDomainConfigurationTlsConfigOutputReference) validateInter
 	return nil
 }
 
-func (i *jsiiProxy_IotDomainConfigurationTlsConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotDomainConfigurationTlsConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_IotDomainConfigurationTlsConfigOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_IotDomainConfigurationTlsConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotDomainConfigurationTlsConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIotDomainConfigurationTlsConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIotDomainConfigurationTlsConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (e *jsiiProxy_ElasticacheUserAuthenticationModeOutputReference) validateInt
 	return nil
 }
 
-func (e *jsiiProxy_ElasticacheUserAuthenticationModeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticacheUserAuthenticationModeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ElasticacheUserAuthenticationModeOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ElasticacheUserAuthenticationModeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticacheUserAuthenticationModeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ElasticacheUserAuthenticationModeOutputReference) validateSet
 	return nil
 }
 
-func validateNewElasticacheUserAuthenticationModeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewElasticacheUserAuthenticationModeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

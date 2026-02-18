@@ -47,7 +47,7 @@ func (q *jsiiProxy_QuicksightDataSourceCredentialsCredentialPairOutputReference)
 	return nil
 }
 
-func (q *jsiiProxy_QuicksightDataSourceCredentialsCredentialPairOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (q *jsiiProxy_QuicksightDataSourceCredentialsCredentialPairOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_QuicksightDataSourceCredentialsCredentialPairOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightDataSourceCredentialsCredentialPairOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_QuicksightDataSourceCredentialsCredentialPairOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_QuicksightDataSourceCredentialsCredentialPairOutputReference)
 	return nil
 }
 
-func validateNewQuicksightDataSourceCredentialsCredentialPairOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewQuicksightDataSourceCredentialsCredentialPairOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

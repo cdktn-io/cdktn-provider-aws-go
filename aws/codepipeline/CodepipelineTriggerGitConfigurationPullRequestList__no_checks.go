@@ -15,7 +15,7 @@ func (c *jsiiProxy_CodepipelineTriggerGitConfigurationPullRequestList) validateG
 	return nil
 }
 
-func (c *jsiiProxy_CodepipelineTriggerGitConfigurationPullRequestList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodepipelineTriggerGitConfigurationPullRequestList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CodepipelineTriggerGitConfigurationPullRequestList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_CodepipelineTriggerGitConfigurationPullRequestList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodepipelineTriggerGitConfigurationPullRequestList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CodepipelineTriggerGitConfigurationPullRequestList) validateS
 	return nil
 }
 
-func validateNewCodepipelineTriggerGitConfigurationPullRequestListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCodepipelineTriggerGitConfigurationPullRequestListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (e *jsiiProxy_EfsFileSystemProtectionOutputReference) validateInterpolation
 	return nil
 }
 
-func (e *jsiiProxy_EfsFileSystemProtectionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EfsFileSystemProtectionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_EfsFileSystemProtectionOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_EfsFileSystemProtectionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EfsFileSystemProtectionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEfsFileSystemProtectionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEfsFileSystemProtectionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

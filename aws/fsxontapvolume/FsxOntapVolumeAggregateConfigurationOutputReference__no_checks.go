@@ -47,7 +47,7 @@ func (f *jsiiProxy_FsxOntapVolumeAggregateConfigurationOutputReference) validate
 	return nil
 }
 
-func (f *jsiiProxy_FsxOntapVolumeAggregateConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FsxOntapVolumeAggregateConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_FsxOntapVolumeAggregateConfigurationOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_FsxOntapVolumeAggregateConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FsxOntapVolumeAggregateConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFsxOntapVolumeAggregateConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFsxOntapVolumeAggregateConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

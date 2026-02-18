@@ -47,7 +47,7 @@ func (c *jsiiProxy_CognitoUserPoolUserAttributeUpdateSettingsOutputReference) va
 	return nil
 }
 
-func (c *jsiiProxy_CognitoUserPoolUserAttributeUpdateSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CognitoUserPoolUserAttributeUpdateSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CognitoUserPoolUserAttributeUpdateSettingsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_CognitoUserPoolUserAttributeUpdateSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CognitoUserPoolUserAttributeUpdateSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCognitoUserPoolUserAttributeUpdateSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCognitoUserPoolUserAttributeUpdateSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

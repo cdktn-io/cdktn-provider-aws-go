@@ -47,7 +47,7 @@ func (g *jsiiProxy_GlueCatalogTablePartitionKeysOutputReference) validateInterpo
 	return nil
 }
 
-func (g *jsiiProxy_GlueCatalogTablePartitionKeysOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GlueCatalogTablePartitionKeysOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GlueCatalogTablePartitionKeysOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_GlueCatalogTablePartitionKeysOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GlueCatalogTablePartitionKeysOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_GlueCatalogTablePartitionKeysOutputReference) validateSetType
 	return nil
 }
 
-func validateNewGlueCatalogTablePartitionKeysOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGlueCatalogTablePartitionKeysOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -127,7 +127,7 @@ func (j *jsiiProxy_Macie2Member) validateSetInviteParameters(val interface{}) er
 	return nil
 }
 
-func (j *jsiiProxy_Macie2Member) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Macie2Member) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

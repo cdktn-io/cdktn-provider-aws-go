@@ -47,7 +47,7 @@ func (w *jsiiProxy_WorkspaceswebIpAccessSettingsIpRuleOutputReference) validateI
 	return nil
 }
 
-func (w *jsiiProxy_WorkspaceswebIpAccessSettingsIpRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkspaceswebIpAccessSettingsIpRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_WorkspaceswebIpAccessSettingsIpRuleOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_WorkspaceswebIpAccessSettingsIpRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkspaceswebIpAccessSettingsIpRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWorkspaceswebIpAccessSettingsIpRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWorkspaceswebIpAccessSettingsIpRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

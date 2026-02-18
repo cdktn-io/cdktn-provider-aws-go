@@ -47,7 +47,7 @@ func (b *jsiiProxy_BackupRestoreTestingPlanRecoveryPointSelectionOutputReference
 	return nil
 }
 
-func (b *jsiiProxy_BackupRestoreTestingPlanRecoveryPointSelectionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BackupRestoreTestingPlanRecoveryPointSelectionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_BackupRestoreTestingPlanRecoveryPointSelectionOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_BackupRestoreTestingPlanRecoveryPointSelectionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BackupRestoreTestingPlanRecoveryPointSelectionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBackupRestoreTestingPlanRecoveryPointSelectionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBackupRestoreTestingPlanRecoveryPointSelectionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

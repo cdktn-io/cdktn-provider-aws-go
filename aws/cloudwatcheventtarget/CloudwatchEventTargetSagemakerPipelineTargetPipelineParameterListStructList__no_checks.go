@@ -15,7 +15,7 @@ func (c *jsiiProxy_CloudwatchEventTargetSagemakerPipelineTargetPipelineParameter
 	return nil
 }
 
-func (c *jsiiProxy_CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStructList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStructList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CloudwatchEventTargetSagemakerPipelineTargetPipelineParameter
 	return nil
 }
 
-func (j *jsiiProxy_CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStructList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStructList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CloudwatchEventTargetSagemakerPipelineTargetPipelineParameter
 	return nil
 }
 
-func validateNewCloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStructListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStructListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

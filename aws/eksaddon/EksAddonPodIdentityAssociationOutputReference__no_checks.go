@@ -47,7 +47,7 @@ func (e *jsiiProxy_EksAddonPodIdentityAssociationOutputReference) validateInterp
 	return nil
 }
 
-func (e *jsiiProxy_EksAddonPodIdentityAssociationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksAddonPodIdentityAssociationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EksAddonPodIdentityAssociationOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_EksAddonPodIdentityAssociationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksAddonPodIdentityAssociationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEksAddonPodIdentityAssociationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEksAddonPodIdentityAssociationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

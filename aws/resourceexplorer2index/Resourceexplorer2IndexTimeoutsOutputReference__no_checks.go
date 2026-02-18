@@ -47,7 +47,7 @@ func (r *jsiiProxy_Resourceexplorer2IndexTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (r *jsiiProxy_Resourceexplorer2IndexTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_Resourceexplorer2IndexTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_Resourceexplorer2IndexTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_Resourceexplorer2IndexTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Resourceexplorer2IndexTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_Resourceexplorer2IndexTimeoutsOutputReference) validateSetUpd
 	return nil
 }
 
-func validateNewResourceexplorer2IndexTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewResourceexplorer2IndexTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

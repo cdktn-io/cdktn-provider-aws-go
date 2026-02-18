@@ -47,7 +47,7 @@ func (w *jsiiProxy_WafregionalIpsetIpSetDescriptorOutputReference) validateInter
 	return nil
 }
 
-func (w *jsiiProxy_WafregionalIpsetIpSetDescriptorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WafregionalIpsetIpSetDescriptorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_WafregionalIpsetIpSetDescriptorOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_WafregionalIpsetIpSetDescriptorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WafregionalIpsetIpSetDescriptorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WafregionalIpsetIpSetDescriptorOutputReference) validateSetVa
 	return nil
 }
 
-func validateNewWafregionalIpsetIpSetDescriptorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWafregionalIpsetIpSetDescriptorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

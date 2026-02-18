@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsBatchJobDefinitionRetryStrategyList) validateGetParame
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsBatchJobDefinitionRetryStrategyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsBatchJobDefinitionRetryStrategyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsBatchJobDefinitionRetryStrategyList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsBatchJobDefinitionRetryStrategyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsBatchJobDefinitionRetryStrategyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsBatchJobDefinitionRetryStrategyList) validateSetWrapsS
 	return nil
 }
 
-func validateNewDataAwsBatchJobDefinitionRetryStrategyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsBatchJobDefinitionRetryStrategyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

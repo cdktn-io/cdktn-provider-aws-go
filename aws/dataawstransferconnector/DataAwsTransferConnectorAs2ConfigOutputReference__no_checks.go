@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsTransferConnectorAs2ConfigOutputReference) validateInt
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsTransferConnectorAs2ConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsTransferConnectorAs2ConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsTransferConnectorAs2ConfigOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsTransferConnectorAs2ConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsTransferConnectorAs2ConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsTransferConnectorAs2ConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsTransferConnectorAs2ConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

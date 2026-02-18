@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataAwsInstance) validateSetInstanceTagsParameters(val *map[s
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

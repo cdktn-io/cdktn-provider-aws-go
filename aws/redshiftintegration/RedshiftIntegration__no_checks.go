@@ -119,7 +119,7 @@ func (j *jsiiProxy_RedshiftIntegration) validateSetKmsKeyIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftIntegration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RedshiftIntegration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

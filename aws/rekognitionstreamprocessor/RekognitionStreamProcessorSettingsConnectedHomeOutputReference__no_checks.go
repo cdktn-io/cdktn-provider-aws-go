@@ -47,7 +47,7 @@ func (r *jsiiProxy_RekognitionStreamProcessorSettingsConnectedHomeOutputReferenc
 	return nil
 }
 
-func (r *jsiiProxy_RekognitionStreamProcessorSettingsConnectedHomeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RekognitionStreamProcessorSettingsConnectedHomeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_RekognitionStreamProcessorSettingsConnectedHomeOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_RekognitionStreamProcessorSettingsConnectedHomeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RekognitionStreamProcessorSettingsConnectedHomeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRekognitionStreamProcessorSettingsConnectedHomeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRekognitionStreamProcessorSettingsConnectedHomeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

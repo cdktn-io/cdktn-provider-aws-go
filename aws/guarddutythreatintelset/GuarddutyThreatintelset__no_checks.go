@@ -115,7 +115,7 @@ func (j *jsiiProxy_GuarddutyThreatintelset) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_GuarddutyThreatintelset) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GuarddutyThreatintelset) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

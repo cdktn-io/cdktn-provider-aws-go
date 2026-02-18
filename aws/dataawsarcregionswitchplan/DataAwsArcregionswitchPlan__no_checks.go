@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsArcregionswitchPlan) validateSetCountParameters(val in
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsArcregionswitchPlan) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsArcregionswitchPlan) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

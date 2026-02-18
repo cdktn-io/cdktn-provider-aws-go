@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsIdentitystoreGroupAlternateIdentifierUniqueAttributeOu
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsIdentitystoreGroupAlternateIdentifierUniqueAttributeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsIdentitystoreGroupAlternateIdentifierUniqueAttributeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DataAwsIdentitystoreGroupAlternateIdentifierUniqueAttributeOu
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsIdentitystoreGroupAlternateIdentifierUniqueAttributeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsIdentitystoreGroupAlternateIdentifierUniqueAttributeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsIdentitystoreGroupAlternateIdentifierUniqueAttributeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAwsIdentitystoreGroupAlternateIdentifierUniqueAttributeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

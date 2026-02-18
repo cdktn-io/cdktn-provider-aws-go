@@ -47,7 +47,7 @@ func (k *jsiiProxy_KinesisAnalyticsApplicationInputsKinesisFirehoseOutputReferen
 	return nil
 }
 
-func (k *jsiiProxy_KinesisAnalyticsApplicationInputsKinesisFirehoseOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KinesisAnalyticsApplicationInputsKinesisFirehoseOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_KinesisAnalyticsApplicationInputsKinesisFirehoseOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_KinesisAnalyticsApplicationInputsKinesisFirehoseOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KinesisAnalyticsApplicationInputsKinesisFirehoseOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKinesisAnalyticsApplicationInputsKinesisFirehoseOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKinesisAnalyticsApplicationInputsKinesisFirehoseOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

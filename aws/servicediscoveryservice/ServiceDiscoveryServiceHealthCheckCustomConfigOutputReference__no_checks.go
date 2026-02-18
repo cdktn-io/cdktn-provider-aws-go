@@ -47,7 +47,7 @@ func (s *jsiiProxy_ServiceDiscoveryServiceHealthCheckCustomConfigOutputReference
 	return nil
 }
 
-func (s *jsiiProxy_ServiceDiscoveryServiceHealthCheckCustomConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceDiscoveryServiceHealthCheckCustomConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ServiceDiscoveryServiceHealthCheckCustomConfigOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_ServiceDiscoveryServiceHealthCheckCustomConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceDiscoveryServiceHealthCheckCustomConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewServiceDiscoveryServiceHealthCheckCustomConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewServiceDiscoveryServiceHealthCheckCustomConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

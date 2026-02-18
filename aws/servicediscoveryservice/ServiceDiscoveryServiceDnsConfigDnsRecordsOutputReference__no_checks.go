@@ -47,7 +47,7 @@ func (s *jsiiProxy_ServiceDiscoveryServiceDnsConfigDnsRecordsOutputReference) va
 	return nil
 }
 
-func (s *jsiiProxy_ServiceDiscoveryServiceDnsConfigDnsRecordsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceDiscoveryServiceDnsConfigDnsRecordsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_ServiceDiscoveryServiceDnsConfigDnsRecordsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_ServiceDiscoveryServiceDnsConfigDnsRecordsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceDiscoveryServiceDnsConfigDnsRecordsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ServiceDiscoveryServiceDnsConfigDnsRecordsOutputReference) va
 	return nil
 }
 
-func validateNewServiceDiscoveryServiceDnsConfigDnsRecordsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewServiceDiscoveryServiceDnsConfigDnsRecordsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

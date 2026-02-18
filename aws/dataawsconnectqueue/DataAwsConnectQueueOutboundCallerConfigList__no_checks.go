@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsConnectQueueOutboundCallerConfigList) validateGetParam
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsConnectQueueOutboundCallerConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsConnectQueueOutboundCallerConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsConnectQueueOutboundCallerConfigList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsConnectQueueOutboundCallerConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsConnectQueueOutboundCallerConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsConnectQueueOutboundCallerConfigList) validateSetWraps
 	return nil
 }
 
-func validateNewDataAwsConnectQueueOutboundCallerConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsConnectQueueOutboundCallerConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

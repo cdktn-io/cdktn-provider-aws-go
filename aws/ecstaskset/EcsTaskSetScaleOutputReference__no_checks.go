@@ -47,7 +47,7 @@ func (e *jsiiProxy_EcsTaskSetScaleOutputReference) validateInterpolationForAttri
 	return nil
 }
 
-func (e *jsiiProxy_EcsTaskSetScaleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcsTaskSetScaleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_EcsTaskSetScaleOutputReference) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_EcsTaskSetScaleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcsTaskSetScaleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_EcsTaskSetScaleOutputReference) validateSetValueParameters(va
 	return nil
 }
 
-func validateNewEcsTaskSetScaleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEcsTaskSetScaleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (n *jsiiProxy_NetworkflowmonitorScopeTargetTargetIdentifierOutputReference)
 	return nil
 }
 
-func (n *jsiiProxy_NetworkflowmonitorScopeTargetTargetIdentifierOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkflowmonitorScopeTargetTargetIdentifierOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_NetworkflowmonitorScopeTargetTargetIdentifierOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_NetworkflowmonitorScopeTargetTargetIdentifierOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkflowmonitorScopeTargetTargetIdentifierOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkflowmonitorScopeTargetTargetIdentifierOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetworkflowmonitorScopeTargetTargetIdentifierOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

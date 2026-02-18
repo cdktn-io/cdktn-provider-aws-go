@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_SsmcontactsRotationRecurrenceOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (s *jsiiProxy_SsmcontactsRotationRecurrenceOutputReference) validatePutDail
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*SsmcontactsRotationRecurrenceDailySettings:
 		value := value.(*[]*SsmcontactsRotationRecurrenceDailySettings)
@@ -117,7 +117,7 @@ func (s *jsiiProxy_SsmcontactsRotationRecurrenceOutputReference) validatePutDail
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*SsmcontactsRotationRecurrenceDailySettings; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SsmcontactsRotationRecurrenceDailySettings; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (s *jsiiProxy_SsmcontactsRotationRecurrenceOutputReference) validatePutMont
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*SsmcontactsRotationRecurrenceMonthlySettings:
 		value := value.(*[]*SsmcontactsRotationRecurrenceMonthlySettings)
@@ -148,7 +148,7 @@ func (s *jsiiProxy_SsmcontactsRotationRecurrenceOutputReference) validatePutMont
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*SsmcontactsRotationRecurrenceMonthlySettings; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SsmcontactsRotationRecurrenceMonthlySettings; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (s *jsiiProxy_SsmcontactsRotationRecurrenceOutputReference) validatePutShif
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*SsmcontactsRotationRecurrenceShiftCoverages:
 		value := value.(*[]*SsmcontactsRotationRecurrenceShiftCoverages)
@@ -179,7 +179,7 @@ func (s *jsiiProxy_SsmcontactsRotationRecurrenceOutputReference) validatePutShif
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*SsmcontactsRotationRecurrenceShiftCoverages; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SsmcontactsRotationRecurrenceShiftCoverages; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -191,7 +191,7 @@ func (s *jsiiProxy_SsmcontactsRotationRecurrenceOutputReference) validatePutWeek
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*SsmcontactsRotationRecurrenceWeeklySettings:
 		value := value.(*[]*SsmcontactsRotationRecurrenceWeeklySettings)
@@ -210,14 +210,14 @@ func (s *jsiiProxy_SsmcontactsRotationRecurrenceOutputReference) validatePutWeek
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*SsmcontactsRotationRecurrenceWeeklySettings; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SsmcontactsRotationRecurrenceWeeklySettings; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (s *jsiiProxy_SsmcontactsRotationRecurrenceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsmcontactsRotationRecurrenceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -292,7 +292,7 @@ func (j *jsiiProxy_SsmcontactsRotationRecurrenceOutputReference) validateSetComp
 
 func (j *jsiiProxy_SsmcontactsRotationRecurrenceOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *SsmcontactsRotationRecurrence:
 		val := val.(*SsmcontactsRotationRecurrence)
@@ -307,7 +307,7 @@ func (j *jsiiProxy_SsmcontactsRotationRecurrenceOutputReference) validateSetInte
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *SsmcontactsRotationRecurrence; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *SsmcontactsRotationRecurrence; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -338,7 +338,7 @@ func (j *jsiiProxy_SsmcontactsRotationRecurrenceOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_SsmcontactsRotationRecurrenceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsmcontactsRotationRecurrenceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -346,7 +346,7 @@ func (j *jsiiProxy_SsmcontactsRotationRecurrenceOutputReference) validateSetTerr
 	return nil
 }
 
-func validateNewSsmcontactsRotationRecurrenceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSsmcontactsRotationRecurrenceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

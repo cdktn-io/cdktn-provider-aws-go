@@ -47,7 +47,7 @@ func (e *jsiiProxy_EksClusterUpgradePolicyOutputReference) validateInterpolation
 	return nil
 }
 
-func (e *jsiiProxy_EksClusterUpgradePolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksClusterUpgradePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_EksClusterUpgradePolicyOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_EksClusterUpgradePolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksClusterUpgradePolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEksClusterUpgradePolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEksClusterUpgradePolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

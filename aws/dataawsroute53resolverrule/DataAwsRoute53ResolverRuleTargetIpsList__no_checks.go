@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsRoute53ResolverRuleTargetIpsList) validateGetParameter
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsRoute53ResolverRuleTargetIpsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsRoute53ResolverRuleTargetIpsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverRuleTargetIpsList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsRoute53ResolverRuleTargetIpsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsRoute53ResolverRuleTargetIpsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverRuleTargetIpsList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewDataAwsRoute53ResolverRuleTargetIpsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsRoute53ResolverRuleTargetIpsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (e *jsiiProxy_Ec2FleetFleetInstanceSetList) validateGetParameters(index *fl
 	return nil
 }
 
-func (e *jsiiProxy_Ec2FleetFleetInstanceSetList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_Ec2FleetFleetInstanceSetList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Ec2FleetFleetInstanceSetList) validateSetTerraformAttributePa
 	return nil
 }
 
-func (j *jsiiProxy_Ec2FleetFleetInstanceSetList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Ec2FleetFleetInstanceSetList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Ec2FleetFleetInstanceSetList) validateSetWrapsSetParameters(v
 	return nil
 }
 
-func validateNewEc2FleetFleetInstanceSetListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEc2FleetFleetInstanceSetListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

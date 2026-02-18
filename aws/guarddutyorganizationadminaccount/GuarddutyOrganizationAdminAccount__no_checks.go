@@ -107,7 +107,7 @@ func (j *jsiiProxy_GuarddutyOrganizationAdminAccount) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GuarddutyOrganizationAdminAccount) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GuarddutyOrganizationAdminAccount) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (o *jsiiProxy_OdbNetworkManagedServicesStsAccessList) validateGetParameters
 	return nil
 }
 
-func (o *jsiiProxy_OdbNetworkManagedServicesStsAccessList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OdbNetworkManagedServicesStsAccessList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_OdbNetworkManagedServicesStsAccessList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_OdbNetworkManagedServicesStsAccessList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OdbNetworkManagedServicesStsAccessList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_OdbNetworkManagedServicesStsAccessList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewOdbNetworkManagedServicesStsAccessListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOdbNetworkManagedServicesStsAccessListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

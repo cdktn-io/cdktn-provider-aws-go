@@ -123,7 +123,7 @@ func (j *jsiiProxy_ComputeoptimizerRecommendationPreferences) validateSetInferre
 	return nil
 }
 
-func (j *jsiiProxy_ComputeoptimizerRecommendationPreferences) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeoptimizerRecommendationPreferences) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAwsImagebuilderImagePipeline) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsImagebuilderImagePipeline) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsImagebuilderImagePipeline) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package sesv2contactlist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/sesv2contactlist/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/sesv2contactlist/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Sesv2ContactListTopicOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type Sesv2ContactListTopicOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TopicName() *string
 	SetTopicName(val *string)
 	TopicNameInput() *string
@@ -57,7 +57,7 @@ type Sesv2ContactListTopicOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,13 +73,13 @@ type Sesv2ContactListTopicOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDescription()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -89,7 +89,7 @@ type Sesv2ContactListTopicOutputReference interface {
 
 // The jsii proxy struct for Sesv2ContactListTopicOutputReference
 type jsiiProxy_Sesv2ContactListTopicOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Sesv2ContactListTopicOutputReference) ComplexObjectIndex() interface{} {
@@ -212,8 +212,8 @@ func (j *jsiiProxy_Sesv2ContactListTopicOutputReference) TerraformAttribute() *s
 	return returns
 }
 
-func (j *jsiiProxy_Sesv2ContactListTopicOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Sesv2ContactListTopicOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -243,7 +243,7 @@ func (j *jsiiProxy_Sesv2ContactListTopicOutputReference) TopicNameInput() *strin
 }
 
 
-func NewSesv2ContactListTopicOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Sesv2ContactListTopicOutputReference {
+func NewSesv2ContactListTopicOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Sesv2ContactListTopicOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSesv2ContactListTopicOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -260,7 +260,7 @@ func NewSesv2ContactListTopicOutputReference(terraformResource cdktf.IInterpolat
 	return &j
 }
 
-func NewSesv2ContactListTopicOutputReference_Override(s Sesv2ContactListTopicOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSesv2ContactListTopicOutputReference_Override(s Sesv2ContactListTopicOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -347,7 +347,7 @@ func (j *jsiiProxy_Sesv2ContactListTopicOutputReference)SetTerraformAttribute(va
 	)
 }
 
-func (j *jsiiProxy_Sesv2ContactListTopicOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Sesv2ContactListTopicOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -398,11 +398,11 @@ func (s *jsiiProxy_Sesv2ContactListTopicOutputReference) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (s *jsiiProxy_Sesv2ContactListTopicOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_Sesv2ContactListTopicOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -526,8 +526,8 @@ func (s *jsiiProxy_Sesv2ContactListTopicOutputReference) GetStringMapAttribute(t
 	return returns
 }
 
-func (s *jsiiProxy_Sesv2ContactListTopicOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_Sesv2ContactListTopicOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -539,11 +539,11 @@ func (s *jsiiProxy_Sesv2ContactListTopicOutputReference) InterpolationAsList() c
 	return returns
 }
 
-func (s *jsiiProxy_Sesv2ContactListTopicOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_Sesv2ContactListTopicOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -563,7 +563,7 @@ func (s *jsiiProxy_Sesv2ContactListTopicOutputReference) ResetDescription() {
 	)
 }
 
-func (s *jsiiProxy_Sesv2ContactListTopicOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_Sesv2ContactListTopicOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

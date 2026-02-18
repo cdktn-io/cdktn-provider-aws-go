@@ -5,14 +5,14 @@ package opensearchdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/opensearchdomain/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/opensearchdomain/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OpensearchDomainClusterConfigNodeOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,15 +42,15 @@ type OpensearchDomainClusterConfigNodeOptionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,15 +66,15 @@ type OpensearchDomainClusterConfigNodeOptionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutNodeConfig(value *OpensearchDomainClusterConfigNodeOptionsNodeConfig)
 	ResetNodeConfig()
 	ResetNodeType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type OpensearchDomainClusterConfigNodeOptionsOutputReference interface {
 
 // The jsii proxy struct for OpensearchDomainClusterConfigNodeOptionsOutputReference
 type jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) Terr
 }
 
 
-func NewOpensearchDomainClusterConfigNodeOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) OpensearchDomainClusterConfigNodeOptionsOutputReference {
+func NewOpensearchDomainClusterConfigNodeOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) OpensearchDomainClusterConfigNodeOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOpensearchDomainClusterConfigNodeOptionsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -215,7 +215,7 @@ func NewOpensearchDomainClusterConfigNodeOptionsOutputReference(terraformResourc
 	return &j
 }
 
-func NewOpensearchDomainClusterConfigNodeOptionsOutputReference_Override(o OpensearchDomainClusterConfigNodeOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewOpensearchDomainClusterConfigNodeOptionsOutputReference_Override(o OpensearchDomainClusterConfigNodeOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -320,11 +320,11 @@ func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) GetA
 	return returns
 }
 
-func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -448,8 +448,8 @@ func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) GetS
 	return returns
 }
 
-func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -461,11 +461,11 @@ func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) Inte
 	return returns
 }
 
-func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -504,7 +504,7 @@ func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) Rese
 	)
 }
 
-func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OpensearchDomainClusterConfigNodeOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

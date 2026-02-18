@@ -5,14 +5,14 @@ package amplifydomainassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/amplifydomainassociation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/amplifydomainassociation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AmplifyDomainAssociationSubDomainOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BranchName() *string
 	SetBranchName(val *string)
 	BranchNameInput() *string
@@ -44,16 +44,16 @@ type AmplifyDomainAssociationSubDomainOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
-	Verified() cdktf.IResolvable
+	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Verified() cdktn.IResolvable
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,12 +69,12 @@ type AmplifyDomainAssociationSubDomainOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type AmplifyDomainAssociationSubDomainOutputReference interface {
 
 // The jsii proxy struct for AmplifyDomainAssociationSubDomainOutputReference
 type jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference) BranchName() *string {
@@ -197,8 +197,8 @@ func (j *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -207,8 +207,8 @@ func (j *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference) TerraformRe
 	return returns
 }
 
-func (j *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference) Verified() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference) Verified() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"verified",
@@ -218,7 +218,7 @@ func (j *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference) Verified() 
 }
 
 
-func NewAmplifyDomainAssociationSubDomainOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AmplifyDomainAssociationSubDomainOutputReference {
+func NewAmplifyDomainAssociationSubDomainOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AmplifyDomainAssociationSubDomainOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAmplifyDomainAssociationSubDomainOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -235,7 +235,7 @@ func NewAmplifyDomainAssociationSubDomainOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewAmplifyDomainAssociationSubDomainOutputReference_Override(a AmplifyDomainAssociationSubDomainOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewAmplifyDomainAssociationSubDomainOutputReference_Override(a AmplifyDomainAssociationSubDomainOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -311,7 +311,7 @@ func (j *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -351,11 +351,11 @@ func (a *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (a *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -479,8 +479,8 @@ func (a *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference) GetStringMa
 	return returns
 }
 
-func (a *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -492,11 +492,11 @@ func (a *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference) Interpolati
 	return returns
 }
 
-func (a *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -508,7 +508,7 @@ func (a *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference) Interpolati
 	return returns
 }
 
-func (a *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AmplifyDomainAssociationSubDomainOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

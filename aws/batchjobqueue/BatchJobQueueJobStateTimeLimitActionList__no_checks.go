@@ -15,7 +15,7 @@ func (b *jsiiProxy_BatchJobQueueJobStateTimeLimitActionList) validateGetParamete
 	return nil
 }
 
-func (b *jsiiProxy_BatchJobQueueJobStateTimeLimitActionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchJobQueueJobStateTimeLimitActionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BatchJobQueueJobStateTimeLimitActionList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_BatchJobQueueJobStateTimeLimitActionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchJobQueueJobStateTimeLimitActionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BatchJobQueueJobStateTimeLimitActionList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewBatchJobQueueJobStateTimeLimitActionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBatchJobQueueJobStateTimeLimitActionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

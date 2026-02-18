@@ -15,7 +15,7 @@ func (r *jsiiProxy_Route53RecoveryreadinessResourceSetResourcesList) validateGet
 	return nil
 }
 
-func (r *jsiiProxy_Route53RecoveryreadinessResourceSetResourcesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_Route53RecoveryreadinessResourceSetResourcesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_Route53RecoveryreadinessResourceSetResourcesList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_Route53RecoveryreadinessResourceSetResourcesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Route53RecoveryreadinessResourceSetResourcesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_Route53RecoveryreadinessResourceSetResourcesList) validateSet
 	return nil
 }
 
-func validateNewRoute53RecoveryreadinessResourceSetResourcesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRoute53RecoveryreadinessResourceSetResourcesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -115,7 +115,7 @@ func (j *jsiiProxy_DefaultNetworkAcl) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_DefaultNetworkAcl) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DefaultNetworkAcl) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

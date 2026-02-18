@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRuleInclusionOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRule
 	return nil
 }
 
-func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRuleInclusionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRuleInclusionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -187,11 +187,11 @@ func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRule
 		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 			return err
 		}
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRuleInclusion, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRuleInclusion, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRule
 	return nil
 }
 
-func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRuleInclusionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRuleInclusionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRule
 	return nil
 }
 
-func validateNewAccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRuleInclusionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRuleInclusionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -107,7 +107,7 @@ func (j *jsiiProxy_VpclatticeServiceNetworkServiceAssociation) validateSetIdPara
 	return nil
 }
 
-func (j *jsiiProxy_VpclatticeServiceNetworkServiceAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VpclatticeServiceNetworkServiceAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

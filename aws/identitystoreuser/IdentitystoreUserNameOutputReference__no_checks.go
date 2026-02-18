@@ -47,7 +47,7 @@ func (i *jsiiProxy_IdentitystoreUserNameOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (i *jsiiProxy_IdentitystoreUserNameOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IdentitystoreUserNameOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_IdentitystoreUserNameOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_IdentitystoreUserNameOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IdentitystoreUserNameOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIdentitystoreUserNameOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIdentitystoreUserNameOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

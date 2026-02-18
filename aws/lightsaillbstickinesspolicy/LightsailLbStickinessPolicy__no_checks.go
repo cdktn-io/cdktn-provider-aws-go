@@ -115,7 +115,7 @@ func (j *jsiiProxy_LightsailLbStickinessPolicy) validateSetLbNameParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_LightsailLbStickinessPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LightsailLbStickinessPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

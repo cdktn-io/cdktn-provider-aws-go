@@ -15,7 +15,7 @@ func (w *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationBl
 	return nil
 }
 
-func (w *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStructList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStructList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationBl
 	return nil
 }
 
-func (j *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStructList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStructList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WorkspaceswebUserSettingsCookieSynchronizationConfigurationBl
 	return nil
 }
 
-func validateNewWorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStructListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklistStructListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -103,7 +103,7 @@ func (j *jsiiProxy_EcsAccountSettingDefault) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_EcsAccountSettingDefault) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EcsAccountSettingDefault) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

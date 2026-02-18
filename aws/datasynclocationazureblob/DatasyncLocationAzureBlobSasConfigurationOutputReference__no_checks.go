@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatasyncLocationAzureBlobSasConfigurationOutputReference) val
 	return nil
 }
 
-func (d *jsiiProxy_DatasyncLocationAzureBlobSasConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatasyncLocationAzureBlobSasConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_DatasyncLocationAzureBlobSasConfigurationOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_DatasyncLocationAzureBlobSasConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatasyncLocationAzureBlobSasConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DatasyncLocationAzureBlobSasConfigurationOutputReference) val
 	return nil
 }
 
-func validateNewDatasyncLocationAzureBlobSasConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatasyncLocationAzureBlobSasConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

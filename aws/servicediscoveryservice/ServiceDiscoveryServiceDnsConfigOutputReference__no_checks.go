@@ -51,7 +51,7 @@ func (s *jsiiProxy_ServiceDiscoveryServiceDnsConfigOutputReference) validatePutD
 	return nil
 }
 
-func (s *jsiiProxy_ServiceDiscoveryServiceDnsConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceDiscoveryServiceDnsConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ServiceDiscoveryServiceDnsConfigOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ServiceDiscoveryServiceDnsConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceDiscoveryServiceDnsConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewServiceDiscoveryServiceDnsConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewServiceDiscoveryServiceDnsConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

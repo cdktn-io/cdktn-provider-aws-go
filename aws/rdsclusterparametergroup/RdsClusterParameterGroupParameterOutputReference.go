@@ -5,14 +5,14 @@ package rdsclusterparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/rdsclusterparametergroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/rdsclusterparametergroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type RdsClusterParameterGroupParameterOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ApplyMethod() *string
 	SetApplyMethod(val *string)
 	ApplyMethodInput() *string
@@ -43,9 +43,9 @@ type RdsClusterParameterGroupParameterOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Value() *string
 	SetValue(val *string)
 	ValueInput() *string
@@ -54,7 +54,7 @@ type RdsClusterParameterGroupParameterOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type RdsClusterParameterGroupParameterOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetApplyMethod()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type RdsClusterParameterGroupParameterOutputReference interface {
 
 // The jsii proxy struct for RdsClusterParameterGroupParameterOutputReference
 type jsiiProxy_RdsClusterParameterGroupParameterOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_RdsClusterParameterGroupParameterOutputReference) ApplyMethod() *string {
@@ -189,8 +189,8 @@ func (j *jsiiProxy_RdsClusterParameterGroupParameterOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_RdsClusterParameterGroupParameterOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_RdsClusterParameterGroupParameterOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_RdsClusterParameterGroupParameterOutputReference) ValueInput(
 }
 
 
-func NewRdsClusterParameterGroupParameterOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) RdsClusterParameterGroupParameterOutputReference {
+func NewRdsClusterParameterGroupParameterOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) RdsClusterParameterGroupParameterOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewRdsClusterParameterGroupParameterOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -237,7 +237,7 @@ func NewRdsClusterParameterGroupParameterOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewRdsClusterParameterGroupParameterOutputReference_Override(r RdsClusterParameterGroupParameterOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewRdsClusterParameterGroupParameterOutputReference_Override(r RdsClusterParameterGroupParameterOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -313,7 +313,7 @@ func (j *jsiiProxy_RdsClusterParameterGroupParameterOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_RdsClusterParameterGroupParameterOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_RdsClusterParameterGroupParameterOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (r *jsiiProxy_RdsClusterParameterGroupParameterOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (r *jsiiProxy_RdsClusterParameterGroupParameterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RdsClusterParameterGroupParameterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -492,8 +492,8 @@ func (r *jsiiProxy_RdsClusterParameterGroupParameterOutputReference) GetStringMa
 	return returns
 }
 
-func (r *jsiiProxy_RdsClusterParameterGroupParameterOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_RdsClusterParameterGroupParameterOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -505,11 +505,11 @@ func (r *jsiiProxy_RdsClusterParameterGroupParameterOutputReference) Interpolati
 	return returns
 }
 
-func (r *jsiiProxy_RdsClusterParameterGroupParameterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RdsClusterParameterGroupParameterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -529,7 +529,7 @@ func (r *jsiiProxy_RdsClusterParameterGroupParameterOutputReference) ResetApplyM
 	)
 }
 
-func (r *jsiiProxy_RdsClusterParameterGroupParameterOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_RdsClusterParameterGroupParameterOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

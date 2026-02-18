@@ -47,7 +47,7 @@ func (i *jsiiProxy_IdentitystoreUserAddressesOutputReference) validateInterpolat
 	return nil
 }
 
-func (i *jsiiProxy_IdentitystoreUserAddressesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IdentitystoreUserAddressesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_IdentitystoreUserAddressesOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_IdentitystoreUserAddressesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IdentitystoreUserAddressesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_IdentitystoreUserAddressesOutputReference) validateSetTypePar
 	return nil
 }
 
-func validateNewIdentitystoreUserAddressesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIdentitystoreUserAddressesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -115,7 +115,7 @@ func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachment) validateSetInstanceA
 	return nil
 }
 
-func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

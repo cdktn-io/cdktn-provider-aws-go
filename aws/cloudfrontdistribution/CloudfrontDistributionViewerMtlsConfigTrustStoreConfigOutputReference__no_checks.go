@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudfrontDistributionViewerMtlsConfigTrustStoreConfigOutputR
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontDistributionViewerMtlsConfigTrustStoreConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontDistributionViewerMtlsConfigTrustStoreConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_CloudfrontDistributionViewerMtlsConfigTrustStoreConfigOutputR
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontDistributionViewerMtlsConfigTrustStoreConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontDistributionViewerMtlsConfigTrustStoreConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_CloudfrontDistributionViewerMtlsConfigTrustStoreConfigOutputR
 	return nil
 }
 
-func validateNewCloudfrontDistributionViewerMtlsConfigTrustStoreConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudfrontDistributionViewerMtlsConfigTrustStoreConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

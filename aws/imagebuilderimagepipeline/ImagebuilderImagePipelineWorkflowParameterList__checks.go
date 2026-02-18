@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (i *jsiiProxy_ImagebuilderImagePipelineWorkflowParameterList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (i *jsiiProxy_ImagebuilderImagePipelineWorkflowParameterList) validateGetPa
 	return nil
 }
 
-func (i *jsiiProxy_ImagebuilderImagePipelineWorkflowParameterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_ImagebuilderImagePipelineWorkflowParameterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (i *jsiiProxy_ImagebuilderImagePipelineWorkflowParameterList) validateResol
 
 func (j *jsiiProxy_ImagebuilderImagePipelineWorkflowParameterList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ImagebuilderImagePipelineWorkflowParameter:
 		val := val.(*[]*ImagebuilderImagePipelineWorkflowParameter)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_ImagebuilderImagePipelineWorkflowParameterList) validateSetIn
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*ImagebuilderImagePipelineWorkflowParameter; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*ImagebuilderImagePipelineWorkflowParameter; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_ImagebuilderImagePipelineWorkflowParameterList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_ImagebuilderImagePipelineWorkflowParameterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ImagebuilderImagePipelineWorkflowParameterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_ImagebuilderImagePipelineWorkflowParameterList) validateSetWr
 	return nil
 }
 
-func validateNewImagebuilderImagePipelineWorkflowParameterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewImagebuilderImagePipelineWorkflowParameterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -103,7 +103,7 @@ func (j *jsiiProxy_ApprunnerDefaultAutoScalingConfigurationVersion) validateSetC
 	return nil
 }
 
-func (j *jsiiProxy_ApprunnerDefaultAutoScalingConfigurationVersion) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApprunnerDefaultAutoScalingConfigurationVersion) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

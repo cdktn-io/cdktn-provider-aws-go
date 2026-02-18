@@ -107,7 +107,7 @@ func (j *jsiiProxy_QuicksightFolderMembership) validateSetFolderIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightFolderMembership) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_QuicksightFolderMembership) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

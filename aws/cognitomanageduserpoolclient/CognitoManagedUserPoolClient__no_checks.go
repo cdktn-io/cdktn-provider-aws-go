@@ -155,7 +155,7 @@ func (j *jsiiProxy_CognitoManagedUserPoolClient) validateSetIdTokenValidityParam
 	return nil
 }
 
-func (j *jsiiProxy_CognitoManagedUserPoolClient) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CognitoManagedUserPoolClient) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

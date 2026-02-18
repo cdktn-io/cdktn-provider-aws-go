@@ -15,7 +15,7 @@ func (e *jsiiProxy_EksCapabilityConfigurationArgoCdNetworkAccessList) validateGe
 	return nil
 }
 
-func (e *jsiiProxy_EksCapabilityConfigurationArgoCdNetworkAccessList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksCapabilityConfigurationArgoCdNetworkAccessList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EksCapabilityConfigurationArgoCdNetworkAccessList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_EksCapabilityConfigurationArgoCdNetworkAccessList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksCapabilityConfigurationArgoCdNetworkAccessList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EksCapabilityConfigurationArgoCdNetworkAccessList) validateSe
 	return nil
 }
 
-func validateNewEksCapabilityConfigurationArgoCdNetworkAccessListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEksCapabilityConfigurationArgoCdNetworkAccessListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

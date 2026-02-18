@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsDevopsguruResourceCollectionTagsList) validateGetParam
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsDevopsguruResourceCollectionTagsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsDevopsguruResourceCollectionTagsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsDevopsguruResourceCollectionTagsList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsDevopsguruResourceCollectionTagsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsDevopsguruResourceCollectionTagsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsDevopsguruResourceCollectionTagsList) validateSetWraps
 	return nil
 }
 
-func validateNewDataAwsDevopsguruResourceCollectionTagsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsDevopsguruResourceCollectionTagsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

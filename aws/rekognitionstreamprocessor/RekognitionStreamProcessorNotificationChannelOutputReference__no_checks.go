@@ -47,7 +47,7 @@ func (r *jsiiProxy_RekognitionStreamProcessorNotificationChannelOutputReference)
 	return nil
 }
 
-func (r *jsiiProxy_RekognitionStreamProcessorNotificationChannelOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RekognitionStreamProcessorNotificationChannelOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_RekognitionStreamProcessorNotificationChannelOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_RekognitionStreamProcessorNotificationChannelOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RekognitionStreamProcessorNotificationChannelOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRekognitionStreamProcessorNotificationChannelOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRekognitionStreamProcessorNotificationChannelOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

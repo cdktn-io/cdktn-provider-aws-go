@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsOdbDbServersDbServersList) validateGetParameters(index
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsOdbDbServersDbServersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsOdbDbServersDbServersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsOdbDbServersDbServersList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOdbDbServersDbServersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsOdbDbServersDbServersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsOdbDbServersDbServersList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewDataAwsOdbDbServersDbServersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsOdbDbServersDbServersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -103,7 +103,7 @@ func (j *jsiiProxy_DynamodbResourcePolicy) validateSetCountParameters(val interf
 	return nil
 }
 
-func (j *jsiiProxy_DynamodbResourcePolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DynamodbResourcePolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

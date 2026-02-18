@@ -5,14 +5,14 @@ package fsxs3accesspointattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/fsxs3accesspointattachment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/fsxs3accesspointattachment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FsxS3AccessPointAttachmentS3AccessPointList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type FsxS3AccessPointAttachmentS3AccessPointList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type FsxS3AccessPointAttachmentS3AccessPointList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) FsxS3AccessPointAttachmentS3AccessPointOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type FsxS3AccessPointAttachmentS3AccessPointList interface {
 
 // The jsii proxy struct for FsxS3AccessPointAttachmentS3AccessPointList
 type jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) WrapsSet() *bool
 }
 
 
-func NewFsxS3AccessPointAttachmentS3AccessPointList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FsxS3AccessPointAttachmentS3AccessPointList {
+func NewFsxS3AccessPointAttachmentS3AccessPointList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FsxS3AccessPointAttachmentS3AccessPointList {
 	_init_.Initialize()
 
 	if err := validateNewFsxS3AccessPointAttachmentS3AccessPointListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewFsxS3AccessPointAttachmentS3AccessPointList(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewFsxS3AccessPointAttachmentS3AccessPointList_Override(f FsxS3AccessPointAttachmentS3AccessPointList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewFsxS3AccessPointAttachmentS3AccessPointList_Override(f FsxS3AccessPointAttachmentS3AccessPointList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList)SetWrapsSet(val *
 	)
 }
 
-func (f *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (f *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := f.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		f,
@@ -231,7 +231,7 @@ func (f *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) Get(index *float
 	return returns
 }
 
-func (f *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

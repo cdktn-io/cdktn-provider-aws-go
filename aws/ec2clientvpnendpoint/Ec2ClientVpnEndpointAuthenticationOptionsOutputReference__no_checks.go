@@ -47,7 +47,7 @@ func (e *jsiiProxy_Ec2ClientVpnEndpointAuthenticationOptionsOutputReference) val
 	return nil
 }
 
-func (e *jsiiProxy_Ec2ClientVpnEndpointAuthenticationOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_Ec2ClientVpnEndpointAuthenticationOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_Ec2ClientVpnEndpointAuthenticationOptionsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_Ec2ClientVpnEndpointAuthenticationOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Ec2ClientVpnEndpointAuthenticationOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_Ec2ClientVpnEndpointAuthenticationOptionsOutputReference) val
 	return nil
 }
 
-func validateNewEc2ClientVpnEndpointAuthenticationOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEc2ClientVpnEndpointAuthenticationOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

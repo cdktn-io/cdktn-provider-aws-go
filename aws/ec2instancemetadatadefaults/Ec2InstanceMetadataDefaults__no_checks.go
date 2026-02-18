@@ -115,7 +115,7 @@ func (j *jsiiProxy_Ec2InstanceMetadataDefaults) validateSetInstanceMetadataTagsP
 	return nil
 }
 
-func (j *jsiiProxy_Ec2InstanceMetadataDefaults) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Ec2InstanceMetadataDefaults) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

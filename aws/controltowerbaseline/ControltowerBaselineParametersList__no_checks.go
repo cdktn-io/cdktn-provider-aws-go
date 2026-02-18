@@ -15,7 +15,7 @@ func (c *jsiiProxy_ControltowerBaselineParametersList) validateGetParameters(ind
 	return nil
 }
 
-func (c *jsiiProxy_ControltowerBaselineParametersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ControltowerBaselineParametersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ControltowerBaselineParametersList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_ControltowerBaselineParametersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ControltowerBaselineParametersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ControltowerBaselineParametersList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewControltowerBaselineParametersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewControltowerBaselineParametersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

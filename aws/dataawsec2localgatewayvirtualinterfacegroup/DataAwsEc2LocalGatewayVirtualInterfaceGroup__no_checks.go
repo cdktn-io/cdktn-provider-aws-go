@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroup) validateSetIdPar
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

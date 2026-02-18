@@ -47,7 +47,7 @@ func (m *jsiiProxy_MskServerlessClusterClientAuthenticationSaslIamOutputReferenc
 	return nil
 }
 
-func (m *jsiiProxy_MskServerlessClusterClientAuthenticationSaslIamOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MskServerlessClusterClientAuthenticationSaslIamOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_MskServerlessClusterClientAuthenticationSaslIamOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_MskServerlessClusterClientAuthenticationSaslIamOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MskServerlessClusterClientAuthenticationSaslIamOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMskServerlessClusterClientAuthenticationSaslIamOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMskServerlessClusterClientAuthenticationSaslIamOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

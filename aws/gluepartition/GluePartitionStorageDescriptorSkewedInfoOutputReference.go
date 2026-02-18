@@ -5,14 +5,14 @@ package gluepartition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/gluepartition/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/gluepartition/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GluePartitionStorageDescriptorSkewedInfoOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type GluePartitionStorageDescriptorSkewedInfoOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type GluePartitionStorageDescriptorSkewedInfoOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetSkewedColumnNames()
 	ResetSkewedColumnValueLocationMaps()
 	ResetSkewedColumnValues()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type GluePartitionStorageDescriptorSkewedInfoOutputReference interface {
 
 // The jsii proxy struct for GluePartitionStorageDescriptorSkewedInfoOutputReference
 type jsiiProxy_GluePartitionStorageDescriptorSkewedInfoOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GluePartitionStorageDescriptorSkewedInfoOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_GluePartitionStorageDescriptorSkewedInfoOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_GluePartitionStorageDescriptorSkewedInfoOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GluePartitionStorageDescriptorSkewedInfoOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_GluePartitionStorageDescriptorSkewedInfoOutputReference) Terr
 }
 
 
-func NewGluePartitionStorageDescriptorSkewedInfoOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GluePartitionStorageDescriptorSkewedInfoOutputReference {
+func NewGluePartitionStorageDescriptorSkewedInfoOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GluePartitionStorageDescriptorSkewedInfoOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGluePartitionStorageDescriptorSkewedInfoOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewGluePartitionStorageDescriptorSkewedInfoOutputReference(terraformResourc
 	return &j
 }
 
-func NewGluePartitionStorageDescriptorSkewedInfoOutputReference_Override(g GluePartitionStorageDescriptorSkewedInfoOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGluePartitionStorageDescriptorSkewedInfoOutputReference_Override(g GluePartitionStorageDescriptorSkewedInfoOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_GluePartitionStorageDescriptorSkewedInfoOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_GluePartitionStorageDescriptorSkewedInfoOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GluePartitionStorageDescriptorSkewedInfoOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (g *jsiiProxy_GluePartitionStorageDescriptorSkewedInfoOutputReference) GetA
 	return returns
 }
 
-func (g *jsiiProxy_GluePartitionStorageDescriptorSkewedInfoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GluePartitionStorageDescriptorSkewedInfoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -494,8 +494,8 @@ func (g *jsiiProxy_GluePartitionStorageDescriptorSkewedInfoOutputReference) GetS
 	return returns
 }
 
-func (g *jsiiProxy_GluePartitionStorageDescriptorSkewedInfoOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GluePartitionStorageDescriptorSkewedInfoOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -507,11 +507,11 @@ func (g *jsiiProxy_GluePartitionStorageDescriptorSkewedInfoOutputReference) Inte
 	return returns
 }
 
-func (g *jsiiProxy_GluePartitionStorageDescriptorSkewedInfoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GluePartitionStorageDescriptorSkewedInfoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -547,7 +547,7 @@ func (g *jsiiProxy_GluePartitionStorageDescriptorSkewedInfoOutputReference) Rese
 	)
 }
 
-func (g *jsiiProxy_GluePartitionStorageDescriptorSkewedInfoOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GluePartitionStorageDescriptorSkewedInfoOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

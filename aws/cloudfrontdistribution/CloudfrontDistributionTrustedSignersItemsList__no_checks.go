@@ -15,7 +15,7 @@ func (c *jsiiProxy_CloudfrontDistributionTrustedSignersItemsList) validateGetPar
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontDistributionTrustedSignersItemsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontDistributionTrustedSignersItemsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_CloudfrontDistributionTrustedSignersItemsList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontDistributionTrustedSignersItemsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontDistributionTrustedSignersItemsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_CloudfrontDistributionTrustedSignersItemsList) validateSetWra
 	return nil
 }
 
-func validateNewCloudfrontDistributionTrustedSignersItemsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudfrontDistributionTrustedSignersItemsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -111,7 +111,7 @@ func (j *jsiiProxy_QuicksightIpRestriction) validateSetIpRestrictionRuleMapParam
 	return nil
 }
 
-func (j *jsiiProxy_QuicksightIpRestriction) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_QuicksightIpRestriction) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

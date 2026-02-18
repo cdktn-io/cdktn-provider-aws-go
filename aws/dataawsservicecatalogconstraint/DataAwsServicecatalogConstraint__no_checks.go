@@ -91,7 +91,7 @@ func (j *jsiiProxy_DataAwsServicecatalogConstraint) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsServicecatalogConstraint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsServicecatalogConstraint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

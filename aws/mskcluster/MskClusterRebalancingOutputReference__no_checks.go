@@ -47,7 +47,7 @@ func (m *jsiiProxy_MskClusterRebalancingOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (m *jsiiProxy_MskClusterRebalancingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MskClusterRebalancingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_MskClusterRebalancingOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_MskClusterRebalancingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MskClusterRebalancingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMskClusterRebalancingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMskClusterRebalancingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

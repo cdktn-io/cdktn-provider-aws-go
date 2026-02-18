@@ -5,14 +5,14 @@ package schedulerschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/schedulerschedule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/schedulerschedule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SchedulerScheduleTargetDeadLetterConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Arn() *string
 	SetArn(val *string)
 	ArnInput() *string
@@ -40,15 +40,15 @@ type SchedulerScheduleTargetDeadLetterConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type SchedulerScheduleTargetDeadLetterConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type SchedulerScheduleTargetDeadLetterConfigOutputReference interface {
 
 // The jsii proxy struct for SchedulerScheduleTargetDeadLetterConfigOutputReference
 type jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference) Arn() *string {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference) Terra
 }
 
 
-func NewSchedulerScheduleTargetDeadLetterConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SchedulerScheduleTargetDeadLetterConfigOutputReference {
+func NewSchedulerScheduleTargetDeadLetterConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SchedulerScheduleTargetDeadLetterConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSchedulerScheduleTargetDeadLetterConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewSchedulerScheduleTargetDeadLetterConfigOutputReference(terraformResource
 	return &j
 }
 
-func NewSchedulerScheduleTargetDeadLetterConfigOutputReference_Override(s SchedulerScheduleTargetDeadLetterConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSchedulerScheduleTargetDeadLetterConfigOutputReference_Override(s SchedulerScheduleTargetDeadLetterConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (s *jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference) GetAn
 	return returns
 }
 
-func (s *jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -423,8 +423,8 @@ func (s *jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference) GetSt
 	return returns
 }
 
-func (s *jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -436,11 +436,11 @@ func (s *jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference) Inter
 	return returns
 }
 
-func (s *jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -452,7 +452,7 @@ func (s *jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference) Inter
 	return returns
 }
 
-func (s *jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

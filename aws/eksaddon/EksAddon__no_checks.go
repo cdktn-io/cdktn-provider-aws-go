@@ -127,7 +127,7 @@ func (j *jsiiProxy_EksAddon) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_EksAddon) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EksAddon) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (e *jsiiProxy_EksClusterZonalShiftConfigOutputReference) validateInterpolat
 	return nil
 }
 
-func (e *jsiiProxy_EksClusterZonalShiftConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksClusterZonalShiftConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_EksClusterZonalShiftConfigOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_EksClusterZonalShiftConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksClusterZonalShiftConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEksClusterZonalShiftConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEksClusterZonalShiftConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

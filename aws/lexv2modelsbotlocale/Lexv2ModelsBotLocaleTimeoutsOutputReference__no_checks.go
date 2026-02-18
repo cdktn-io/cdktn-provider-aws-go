@@ -47,7 +47,7 @@ func (l *jsiiProxy_Lexv2ModelsBotLocaleTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (l *jsiiProxy_Lexv2ModelsBotLocaleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_Lexv2ModelsBotLocaleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_Lexv2ModelsBotLocaleTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_Lexv2ModelsBotLocaleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Lexv2ModelsBotLocaleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_Lexv2ModelsBotLocaleTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewLexv2ModelsBotLocaleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLexv2ModelsBotLocaleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

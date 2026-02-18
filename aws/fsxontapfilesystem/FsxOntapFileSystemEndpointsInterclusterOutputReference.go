@@ -5,14 +5,14 @@ package fsxontapfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/fsxontapfilesystem/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/fsxontapfilesystem/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FsxOntapFileSystemEndpointsInterclusterOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type FsxOntapFileSystemEndpointsInterclusterOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type FsxOntapFileSystemEndpointsInterclusterOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type FsxOntapFileSystemEndpointsInterclusterOutputReference interface {
 
 // The jsii proxy struct for FsxOntapFileSystemEndpointsInterclusterOutputReference
 type jsiiProxy_FsxOntapFileSystemEndpointsInterclusterOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FsxOntapFileSystemEndpointsInterclusterOutputReference) ComplexObjectIndex() interface{} {
@@ -161,8 +161,8 @@ func (j *jsiiProxy_FsxOntapFileSystemEndpointsInterclusterOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_FsxOntapFileSystemEndpointsInterclusterOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FsxOntapFileSystemEndpointsInterclusterOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_FsxOntapFileSystemEndpointsInterclusterOutputReference) Terra
 }
 
 
-func NewFsxOntapFileSystemEndpointsInterclusterOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) FsxOntapFileSystemEndpointsInterclusterOutputReference {
+func NewFsxOntapFileSystemEndpointsInterclusterOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) FsxOntapFileSystemEndpointsInterclusterOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFsxOntapFileSystemEndpointsInterclusterOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -189,7 +189,7 @@ func NewFsxOntapFileSystemEndpointsInterclusterOutputReference(terraformResource
 	return &j
 }
 
-func NewFsxOntapFileSystemEndpointsInterclusterOutputReference_Override(f FsxOntapFileSystemEndpointsInterclusterOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewFsxOntapFileSystemEndpointsInterclusterOutputReference_Override(f FsxOntapFileSystemEndpointsInterclusterOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -243,7 +243,7 @@ func (j *jsiiProxy_FsxOntapFileSystemEndpointsInterclusterOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_FsxOntapFileSystemEndpointsInterclusterOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FsxOntapFileSystemEndpointsInterclusterOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (f *jsiiProxy_FsxOntapFileSystemEndpointsInterclusterOutputReference) GetAn
 	return returns
 }
 
-func (f *jsiiProxy_FsxOntapFileSystemEndpointsInterclusterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FsxOntapFileSystemEndpointsInterclusterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -411,8 +411,8 @@ func (f *jsiiProxy_FsxOntapFileSystemEndpointsInterclusterOutputReference) GetSt
 	return returns
 }
 
-func (f *jsiiProxy_FsxOntapFileSystemEndpointsInterclusterOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FsxOntapFileSystemEndpointsInterclusterOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -424,11 +424,11 @@ func (f *jsiiProxy_FsxOntapFileSystemEndpointsInterclusterOutputReference) Inter
 	return returns
 }
 
-func (f *jsiiProxy_FsxOntapFileSystemEndpointsInterclusterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FsxOntapFileSystemEndpointsInterclusterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -440,7 +440,7 @@ func (f *jsiiProxy_FsxOntapFileSystemEndpointsInterclusterOutputReference) Inter
 	return returns
 }
 
-func (f *jsiiProxy_FsxOntapFileSystemEndpointsInterclusterOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FsxOntapFileSystemEndpointsInterclusterOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

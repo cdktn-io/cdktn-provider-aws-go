@@ -47,7 +47,7 @@ func (s *jsiiProxy_SesEventDestinationSnsDestinationOutputReference) validateInt
 	return nil
 }
 
-func (s *jsiiProxy_SesEventDestinationSnsDestinationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SesEventDestinationSnsDestinationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_SesEventDestinationSnsDestinationOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_SesEventDestinationSnsDestinationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SesEventDestinationSnsDestinationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SesEventDestinationSnsDestinationOutputReference) validateSet
 	return nil
 }
 
-func validateNewSesEventDestinationSnsDestinationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSesEventDestinationSnsDestinationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

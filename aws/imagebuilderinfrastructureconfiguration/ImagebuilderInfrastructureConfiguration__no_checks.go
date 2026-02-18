@@ -131,7 +131,7 @@ func (j *jsiiProxy_ImagebuilderInfrastructureConfiguration) validateSetKeyPairPa
 	return nil
 }
 
-func (j *jsiiProxy_ImagebuilderInfrastructureConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ImagebuilderInfrastructureConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

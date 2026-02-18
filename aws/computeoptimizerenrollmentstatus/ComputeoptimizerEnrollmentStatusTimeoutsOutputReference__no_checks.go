@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeoptimizerEnrollmentStatusTimeoutsOutputReference) vali
 	return nil
 }
 
-func (c *jsiiProxy_ComputeoptimizerEnrollmentStatusTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeoptimizerEnrollmentStatusTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ComputeoptimizerEnrollmentStatusTimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_ComputeoptimizerEnrollmentStatusTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeoptimizerEnrollmentStatusTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ComputeoptimizerEnrollmentStatusTimeoutsOutputReference) vali
 	return nil
 }
 
-func validateNewComputeoptimizerEnrollmentStatusTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeoptimizerEnrollmentStatusTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

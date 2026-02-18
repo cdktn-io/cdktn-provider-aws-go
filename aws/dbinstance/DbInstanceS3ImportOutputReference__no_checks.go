@@ -47,7 +47,7 @@ func (d *jsiiProxy_DbInstanceS3ImportOutputReference) validateInterpolationForAt
 	return nil
 }
 
-func (d *jsiiProxy_DbInstanceS3ImportOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DbInstanceS3ImportOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_DbInstanceS3ImportOutputReference) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_DbInstanceS3ImportOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DbInstanceS3ImportOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDbInstanceS3ImportOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDbInstanceS3ImportOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

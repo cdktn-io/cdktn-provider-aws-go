@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsAppstreamImage) validateSetCountParameters(val interfa
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAppstreamImage) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsAppstreamImage) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

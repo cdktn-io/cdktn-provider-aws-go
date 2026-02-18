@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudfrontDistributionTenantCustomizationsCertificateOutputRe
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontDistributionTenantCustomizationsCertificateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontDistributionTenantCustomizationsCertificateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CloudfrontDistributionTenantCustomizationsCertificateOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontDistributionTenantCustomizationsCertificateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontDistributionTenantCustomizationsCertificateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudfrontDistributionTenantCustomizationsCertificateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudfrontDistributionTenantCustomizationsCertificateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

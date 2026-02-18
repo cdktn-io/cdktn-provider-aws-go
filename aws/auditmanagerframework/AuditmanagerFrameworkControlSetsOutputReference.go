@@ -5,14 +5,14 @@ package auditmanagerframework
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/auditmanagerframework/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/auditmanagerframework/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AuditmanagerFrameworkControlSetsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type AuditmanagerFrameworkControlSetsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type AuditmanagerFrameworkControlSetsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutControls(value interface{})
 	ResetControls()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type AuditmanagerFrameworkControlSetsOutputReference interface {
 
 // The jsii proxy struct for AuditmanagerFrameworkControlSetsOutputReference
 type jsiiProxy_AuditmanagerFrameworkControlSetsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AuditmanagerFrameworkControlSetsOutputReference) ComplexObjectIndex() interface{} {
@@ -197,8 +197,8 @@ func (j *jsiiProxy_AuditmanagerFrameworkControlSetsOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_AuditmanagerFrameworkControlSetsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AuditmanagerFrameworkControlSetsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -208,7 +208,7 @@ func (j *jsiiProxy_AuditmanagerFrameworkControlSetsOutputReference) TerraformRes
 }
 
 
-func NewAuditmanagerFrameworkControlSetsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AuditmanagerFrameworkControlSetsOutputReference {
+func NewAuditmanagerFrameworkControlSetsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AuditmanagerFrameworkControlSetsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAuditmanagerFrameworkControlSetsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -225,7 +225,7 @@ func NewAuditmanagerFrameworkControlSetsOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewAuditmanagerFrameworkControlSetsOutputReference_Override(a AuditmanagerFrameworkControlSetsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewAuditmanagerFrameworkControlSetsOutputReference_Override(a AuditmanagerFrameworkControlSetsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_AuditmanagerFrameworkControlSetsOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_AuditmanagerFrameworkControlSetsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AuditmanagerFrameworkControlSetsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (a *jsiiProxy_AuditmanagerFrameworkControlSetsOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (a *jsiiProxy_AuditmanagerFrameworkControlSetsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AuditmanagerFrameworkControlSetsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -458,8 +458,8 @@ func (a *jsiiProxy_AuditmanagerFrameworkControlSetsOutputReference) GetStringMap
 	return returns
 }
 
-func (a *jsiiProxy_AuditmanagerFrameworkControlSetsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AuditmanagerFrameworkControlSetsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -471,11 +471,11 @@ func (a *jsiiProxy_AuditmanagerFrameworkControlSetsOutputReference) Interpolatio
 	return returns
 }
 
-func (a *jsiiProxy_AuditmanagerFrameworkControlSetsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AuditmanagerFrameworkControlSetsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -506,7 +506,7 @@ func (a *jsiiProxy_AuditmanagerFrameworkControlSetsOutputReference) ResetControl
 	)
 }
 
-func (a *jsiiProxy_AuditmanagerFrameworkControlSetsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AuditmanagerFrameworkControlSetsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

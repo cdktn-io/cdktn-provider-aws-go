@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicyStagingDistributionDnsNam
 	return nil
 }
 
-func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicyStagingDistributionDnsNamesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicyStagingDistributionDnsNamesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CloudfrontContinuousDeploymentPolicyStagingDistributionDnsNam
 	return nil
 }
 
-func (j *jsiiProxy_CloudfrontContinuousDeploymentPolicyStagingDistributionDnsNamesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfrontContinuousDeploymentPolicyStagingDistributionDnsNamesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudfrontContinuousDeploymentPolicyStagingDistributionDnsNamesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudfrontContinuousDeploymentPolicyStagingDistributionDnsNamesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

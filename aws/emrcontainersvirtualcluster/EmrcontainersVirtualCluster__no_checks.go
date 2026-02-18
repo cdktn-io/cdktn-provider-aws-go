@@ -111,7 +111,7 @@ func (j *jsiiProxy_EmrcontainersVirtualCluster) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_EmrcontainersVirtualCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EmrcontainersVirtualCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

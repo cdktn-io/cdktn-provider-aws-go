@@ -5,14 +5,14 @@ package emrserverlessapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/emrserverlessapplication/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/emrserverlessapplication/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WorkerConfiguration() EmrserverlessApplicationInitialCapacityInitialCapacityConfigWorkerConfigurationOutputReference
 	WorkerConfigurationInput() *EmrserverlessApplicationInitialCapacityInitialCapacityConfigWorkerConfiguration
 	WorkerCount() *float64
@@ -50,7 +50,7 @@ type EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,14 +66,14 @@ type EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutWorkerConfiguration(value *EmrserverlessApplicationInitialCapacityInitialCapacityConfigWorkerConfiguration)
 	ResetWorkerConfiguration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference
 
 // The jsii proxy struct for EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference
 type jsiiProxy_EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -146,8 +146,8 @@ func (j *jsiiProxy_EmrserverlessApplicationInitialCapacityInitialCapacityConfigO
 	return returns
 }
 
-func (j *jsiiProxy_EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_EmrserverlessApplicationInitialCapacityInitialCapacityConfigO
 }
 
 
-func NewEmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference {
+func NewEmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewEmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputRefere
 	return &j
 }
 
-func NewEmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference_Override(e EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference_Override(e EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -268,7 +268,7 @@ func (j *jsiiProxy_EmrserverlessApplicationInitialCapacityInitialCapacityConfigO
 	)
 }
 
-func (j *jsiiProxy_EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -319,11 +319,11 @@ func (e *jsiiProxy_EmrserverlessApplicationInitialCapacityInitialCapacityConfigO
 	return returns
 }
 
-func (e *jsiiProxy_EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -447,8 +447,8 @@ func (e *jsiiProxy_EmrserverlessApplicationInitialCapacityInitialCapacityConfigO
 	return returns
 }
 
-func (e *jsiiProxy_EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -460,11 +460,11 @@ func (e *jsiiProxy_EmrserverlessApplicationInitialCapacityInitialCapacityConfigO
 	return returns
 }
 
-func (e *jsiiProxy_EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -495,7 +495,7 @@ func (e *jsiiProxy_EmrserverlessApplicationInitialCapacityInitialCapacityConfigO
 	)
 }
 
-func (e *jsiiProxy_EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

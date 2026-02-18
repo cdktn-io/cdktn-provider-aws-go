@@ -111,7 +111,7 @@ func (j *jsiiProxy_LakeformationOptIn) validateSetCountParameters(val interface{
 	return nil
 }
 
-func (j *jsiiProxy_LakeformationOptIn) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LakeformationOptIn) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -107,7 +107,7 @@ func (j *jsiiProxy_CognitoManagedLoginBranding) validateSetCountParameters(val i
 	return nil
 }
 
-func (j *jsiiProxy_CognitoManagedLoginBranding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CognitoManagedLoginBranding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

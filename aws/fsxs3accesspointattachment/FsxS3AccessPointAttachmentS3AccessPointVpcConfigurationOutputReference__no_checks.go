@@ -47,7 +47,7 @@ func (f *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointVpcConfigurationOutput
 	return nil
 }
 
-func (f *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointVpcConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointVpcConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointVpcConfigurationOutput
 	return nil
 }
 
-func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointVpcConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointVpcConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointVpcConfigurationOutput
 	return nil
 }
 
-func validateNewFsxS3AccessPointAttachmentS3AccessPointVpcConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFsxS3AccessPointAttachmentS3AccessPointVpcConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

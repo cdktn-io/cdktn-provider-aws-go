@@ -5,14 +5,14 @@ package dynamodbtable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dynamodbtable/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dynamodbtable/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DynamodbTablePointInTimeRecoveryOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type DynamodbTablePointInTimeRecoveryOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type DynamodbTablePointInTimeRecoveryOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetRecoveryPeriodInDays()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type DynamodbTablePointInTimeRecoveryOutputReference interface {
 
 // The jsii proxy struct for DynamodbTablePointInTimeRecoveryOutputReference
 type jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) ComplexObjectIndex() interface{} {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) TerraformRes
 }
 
 
-func NewDynamodbTablePointInTimeRecoveryOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DynamodbTablePointInTimeRecoveryOutputReference {
+func NewDynamodbTablePointInTimeRecoveryOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DynamodbTablePointInTimeRecoveryOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDynamodbTablePointInTimeRecoveryOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewDynamodbTablePointInTimeRecoveryOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewDynamodbTablePointInTimeRecoveryOutputReference_Override(d DynamodbTablePointInTimeRecoveryOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDynamodbTablePointInTimeRecoveryOutputReference_Override(d DynamodbTablePointInTimeRecoveryOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (d *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (d *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -458,8 +458,8 @@ func (d *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) GetStringMap
 	return returns
 }
 
-func (d *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -471,11 +471,11 @@ func (d *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) Interpolatio
 	return returns
 }
 
-func (d *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -495,7 +495,7 @@ func (d *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) ResetRecover
 	)
 }
 
-func (d *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DynamodbTablePointInTimeRecoveryOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

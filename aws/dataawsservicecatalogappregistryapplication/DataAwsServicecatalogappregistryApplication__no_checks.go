@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsServicecatalogappregistryApplication) validateSetIdPar
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsServicecatalogappregistryApplication) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsServicecatalogappregistryApplication) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

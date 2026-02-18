@@ -47,7 +47,7 @@ func (s *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) validateInterpo
 	return nil
 }
 
-func (s *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3BucketOwnershipControlsRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewS3BucketOwnershipControlsRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewS3BucketOwnershipControlsRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

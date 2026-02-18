@@ -47,7 +47,7 @@ func (e *jsiiProxy_EcrRepositoryImageScanningConfigurationOutputReference) valid
 	return nil
 }
 
-func (e *jsiiProxy_EcrRepositoryImageScanningConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EcrRepositoryImageScanningConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_EcrRepositoryImageScanningConfigurationOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_EcrRepositoryImageScanningConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EcrRepositoryImageScanningConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEcrRepositoryImageScanningConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEcrRepositoryImageScanningConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

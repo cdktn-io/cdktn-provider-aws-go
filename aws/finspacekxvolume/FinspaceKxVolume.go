@@ -5,16 +5,16 @@ package finspacekxvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/finspacekxvolume/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/finspacekxvolume/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/finspace_kx_volume aws_finspace_kx_volume}.
 type FinspaceKxVolume interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Arn() *string
 	AttachedClusters() FinspaceKxVolumeAttachedClustersList
 	AvailabilityZones() *[]*string
@@ -24,7 +24,7 @@ type FinspaceKxVolume interface {
 	SetAzMode(val *string)
 	AzModeInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -47,9 +47,9 @@ type FinspaceKxVolume interface {
 	SetEnvironmentId(val *string)
 	EnvironmentIdInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -59,9 +59,9 @@ type FinspaceKxVolume interface {
 	IdInput() *string
 	LastModifiedTimestamp() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -70,9 +70,9 @@ type FinspaceKxVolume interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -91,7 +91,7 @@ type FinspaceKxVolume interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -109,7 +109,7 @@ type FinspaceKxVolume interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -127,9 +127,9 @@ type FinspaceKxVolume interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -171,7 +171,7 @@ type FinspaceKxVolume interface {
 
 // The jsii proxy struct for FinspaceKxVolume
 type jsiiProxy_FinspaceKxVolume struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_FinspaceKxVolume) Arn() *string {
@@ -234,8 +234,8 @@ func (j *jsiiProxy_FinspaceKxVolume) AzModeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FinspaceKxVolume) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_FinspaceKxVolume) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -334,8 +334,8 @@ func (j *jsiiProxy_FinspaceKxVolume) EnvironmentIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FinspaceKxVolume) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_FinspaceKxVolume) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -394,8 +394,8 @@ func (j *jsiiProxy_FinspaceKxVolume) LastModifiedTimestamp() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FinspaceKxVolume) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_FinspaceKxVolume) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -454,8 +454,8 @@ func (j *jsiiProxy_FinspaceKxVolume) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_FinspaceKxVolume) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_FinspaceKxVolume) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -564,8 +564,8 @@ func (j *jsiiProxy_FinspaceKxVolume) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_FinspaceKxVolume) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_FinspaceKxVolume) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -738,7 +738,7 @@ func (j *jsiiProxy_FinspaceKxVolume)SetEnvironmentId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_FinspaceKxVolume)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_FinspaceKxVolume)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -757,7 +757,7 @@ func (j *jsiiProxy_FinspaceKxVolume)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_FinspaceKxVolume)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_FinspaceKxVolume)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -779,7 +779,7 @@ func (j *jsiiProxy_FinspaceKxVolume)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_FinspaceKxVolume)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_FinspaceKxVolume)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -842,14 +842,14 @@ func (j *jsiiProxy_FinspaceKxVolume)SetType(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a FinspaceKxVolume resource upon running "cdktf plan <stack-name>".
-func FinspaceKxVolume_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a FinspaceKxVolume resource upon running "cdktn plan <stack-name>".
+func FinspaceKxVolume_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateFinspaceKxVolume_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.finspaceKxVolume.FinspaceKxVolume",
@@ -983,11 +983,11 @@ func (f *jsiiProxy_FinspaceKxVolume) GetAnyMapAttribute(terraformAttribute *stri
 	return returns
 }
 
-func (f *jsiiProxy_FinspaceKxVolume) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FinspaceKxVolume) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -1124,7 +1124,7 @@ func (f *jsiiProxy_FinspaceKxVolume) HasResourceMove() interface{} {
 	return returns
 }
 
-func (f *jsiiProxy_FinspaceKxVolume) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (f *jsiiProxy_FinspaceKxVolume) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := f.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1135,11 +1135,11 @@ func (f *jsiiProxy_FinspaceKxVolume) ImportFrom(id *string, provider cdktf.Terra
 	)
 }
 
-func (f *jsiiProxy_FinspaceKxVolume) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FinspaceKxVolume) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,

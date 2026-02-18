@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiGatewayUsagePlanQuotaSettingsOutputReference) validateInte
 	return nil
 }
 
-func (a *jsiiProxy_ApiGatewayUsagePlanQuotaSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiGatewayUsagePlanQuotaSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ApiGatewayUsagePlanQuotaSettingsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ApiGatewayUsagePlanQuotaSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiGatewayUsagePlanQuotaSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApiGatewayUsagePlanQuotaSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiGatewayUsagePlanQuotaSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

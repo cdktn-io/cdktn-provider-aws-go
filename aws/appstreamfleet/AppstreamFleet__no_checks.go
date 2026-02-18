@@ -155,7 +155,7 @@ func (j *jsiiProxy_AppstreamFleet) validateSetInstanceTypeParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_AppstreamFleet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppstreamFleet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

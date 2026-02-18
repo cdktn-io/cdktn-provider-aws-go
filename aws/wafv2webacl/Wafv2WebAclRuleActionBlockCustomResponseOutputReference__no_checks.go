@@ -51,7 +51,7 @@ func (w *jsiiProxy_Wafv2WebAclRuleActionBlockCustomResponseOutputReference) vali
 	return nil
 }
 
-func (w *jsiiProxy_Wafv2WebAclRuleActionBlockCustomResponseOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_Wafv2WebAclRuleActionBlockCustomResponseOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_Wafv2WebAclRuleActionBlockCustomResponseOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_Wafv2WebAclRuleActionBlockCustomResponseOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Wafv2WebAclRuleActionBlockCustomResponseOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWafv2WebAclRuleActionBlockCustomResponseOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWafv2WebAclRuleActionBlockCustomResponseOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

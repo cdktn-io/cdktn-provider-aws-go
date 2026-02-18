@@ -47,7 +47,7 @@ func (i *jsiiProxy_IdentitystoreUserExternalIdsOutputReference) validateInterpol
 	return nil
 }
 
-func (i *jsiiProxy_IdentitystoreUserExternalIdsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IdentitystoreUserExternalIdsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_IdentitystoreUserExternalIdsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_IdentitystoreUserExternalIdsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IdentitystoreUserExternalIdsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIdentitystoreUserExternalIdsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIdentitystoreUserExternalIdsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

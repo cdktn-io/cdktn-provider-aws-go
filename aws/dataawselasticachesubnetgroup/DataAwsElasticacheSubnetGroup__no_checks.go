@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsElasticacheSubnetGroup) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsElasticacheSubnetGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsElasticacheSubnetGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (s *jsiiProxy_SsoadminTrustedTokenIssuerTrustedTokenIssuerConfigurationOutp
 	return nil
 }
 
-func (s *jsiiProxy_SsoadminTrustedTokenIssuerTrustedTokenIssuerConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SsoadminTrustedTokenIssuerTrustedTokenIssuerConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SsoadminTrustedTokenIssuerTrustedTokenIssuerConfigurationOutp
 	return nil
 }
 
-func (j *jsiiProxy_SsoadminTrustedTokenIssuerTrustedTokenIssuerConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SsoadminTrustedTokenIssuerTrustedTokenIssuerConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSsoadminTrustedTokenIssuerTrustedTokenIssuerConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSsoadminTrustedTokenIssuerTrustedTokenIssuerConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

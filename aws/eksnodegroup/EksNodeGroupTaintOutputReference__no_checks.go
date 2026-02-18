@@ -47,7 +47,7 @@ func (e *jsiiProxy_EksNodeGroupTaintOutputReference) validateInterpolationForAtt
 	return nil
 }
 
-func (e *jsiiProxy_EksNodeGroupTaintOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EksNodeGroupTaintOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_EksNodeGroupTaintOutputReference) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_EksNodeGroupTaintOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EksNodeGroupTaintOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_EksNodeGroupTaintOutputReference) validateSetValueParameters(
 	return nil
 }
 
-func validateNewEksNodeGroupTaintOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEksNodeGroupTaintOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (c *jsiiProxy_CognitoIdentityPoolCognitoIdentityProvidersList) validateGetP
 	return nil
 }
 
-func (c *jsiiProxy_CognitoIdentityPoolCognitoIdentityProvidersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CognitoIdentityPoolCognitoIdentityProvidersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CognitoIdentityPoolCognitoIdentityProvidersList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_CognitoIdentityPoolCognitoIdentityProvidersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CognitoIdentityPoolCognitoIdentityProvidersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CognitoIdentityPoolCognitoIdentityProvidersList) validateSetW
 	return nil
 }
 
-func validateNewCognitoIdentityPoolCognitoIdentityProvidersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCognitoIdentityPoolCognitoIdentityProvidersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

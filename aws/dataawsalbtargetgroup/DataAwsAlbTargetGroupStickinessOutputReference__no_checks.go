@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsAlbTargetGroupStickinessOutputReference) validateInter
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAlbTargetGroupStickinessOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAlbTargetGroupStickinessOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsAlbTargetGroupStickinessOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAlbTargetGroupStickinessOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAlbTargetGroupStickinessOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsAlbTargetGroupStickinessOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsAlbTargetGroupStickinessOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

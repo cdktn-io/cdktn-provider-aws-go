@@ -47,7 +47,7 @@ func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleTransitionOutputReference) 
 	return nil
 }
 
-func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleTransitionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_S3BucketLifecycleConfigurationRuleTransitionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleTransitionOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleTransitionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_S3BucketLifecycleConfigurationRuleTransitionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewS3BucketLifecycleConfigurationRuleTransitionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewS3BucketLifecycleConfigurationRuleTransitionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

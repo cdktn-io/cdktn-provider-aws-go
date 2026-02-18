@@ -5,14 +5,14 @@ package appautoscalingtarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/appautoscalingtarget/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appautoscalingtarget/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppautoscalingTargetSuspendedStateOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type AppautoscalingTargetSuspendedStateOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type AppautoscalingTargetSuspendedStateOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDynamicScalingInSuspended()
 	ResetDynamicScalingOutSuspended()
 	ResetScheduledScalingSuspended()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type AppautoscalingTargetSuspendedStateOutputReference interface {
 
 // The jsii proxy struct for AppautoscalingTargetSuspendedStateOutputReference
 type jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) TerraformR
 }
 
 
-func NewAppautoscalingTargetSuspendedStateOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AppautoscalingTargetSuspendedStateOutputReference {
+func NewAppautoscalingTargetSuspendedStateOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AppautoscalingTargetSuspendedStateOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAppautoscalingTargetSuspendedStateOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewAppautoscalingTargetSuspendedStateOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewAppautoscalingTargetSuspendedStateOutputReference_Override(a AppautoscalingTargetSuspendedStateOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAppautoscalingTargetSuspendedStateOutputReference_Override(a AppautoscalingTargetSuspendedStateOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (a *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) GetAnyMapA
 	return returns
 }
 
-func (a *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -494,8 +494,8 @@ func (a *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) GetStringM
 	return returns
 }
 
-func (a *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -507,11 +507,11 @@ func (a *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) Interpolat
 	return returns
 }
 
-func (a *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -547,7 +547,7 @@ func (a *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) ResetSched
 	)
 }
 
-func (a *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

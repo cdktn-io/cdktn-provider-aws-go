@@ -15,7 +15,7 @@ func (b *jsiiProxy_BedrockagentAgentAliasRoutingConfigurationList) validateGetPa
 	return nil
 }
 
-func (b *jsiiProxy_BedrockagentAgentAliasRoutingConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BedrockagentAgentAliasRoutingConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BedrockagentAgentAliasRoutingConfigurationList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentAgentAliasRoutingConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BedrockagentAgentAliasRoutingConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BedrockagentAgentAliasRoutingConfigurationList) validateSetWr
 	return nil
 }
 
-func validateNewBedrockagentAgentAliasRoutingConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBedrockagentAgentAliasRoutingConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

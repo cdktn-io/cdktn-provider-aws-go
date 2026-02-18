@@ -47,7 +47,7 @@ func (s *jsiiProxy_ServicecatalogPortfolioShareTimeoutsOutputReference) validate
 	return nil
 }
 
-func (s *jsiiProxy_ServicecatalogPortfolioShareTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServicecatalogPortfolioShareTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ServicecatalogPortfolioShareTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_ServicecatalogPortfolioShareTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServicecatalogPortfolioShareTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ServicecatalogPortfolioShareTimeoutsOutputReference) validate
 	return nil
 }
 
-func validateNewServicecatalogPortfolioShareTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewServicecatalogPortfolioShareTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

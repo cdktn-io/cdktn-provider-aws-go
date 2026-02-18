@@ -103,7 +103,7 @@ func (j *jsiiProxy_VerifiedpermissionsPolicyTemplate) validateSetDescriptionPara
 	return nil
 }
 
-func (j *jsiiProxy_VerifiedpermissionsPolicyTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VerifiedpermissionsPolicyTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

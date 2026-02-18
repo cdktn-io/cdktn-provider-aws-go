@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAwsCloudwatchEventBusesEventBusesOutputReference) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsCloudwatchEventBusesEventBusesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsCloudwatchEventBusesEventBusesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAwsCloudwatchEventBusesEventBusesOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsCloudwatchEventBusesEventBusesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsCloudwatchEventBusesEventBusesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAwsCloudwatchEventBusesEventBusesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAwsCloudwatchEventBusesEventBusesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

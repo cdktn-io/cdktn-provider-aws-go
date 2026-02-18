@@ -47,7 +47,7 @@ func (s *jsiiProxy_SagemakerDeviceFleetOutputConfigOutputReference) validateInte
 	return nil
 }
 
-func (s *jsiiProxy_SagemakerDeviceFleetOutputConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SagemakerDeviceFleetOutputConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SagemakerDeviceFleetOutputConfigOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_SagemakerDeviceFleetOutputConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SagemakerDeviceFleetOutputConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSagemakerDeviceFleetOutputConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSagemakerDeviceFleetOutputConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

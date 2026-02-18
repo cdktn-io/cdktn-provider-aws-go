@@ -47,7 +47,7 @@ func (e *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) valid
 	return nil
 }
 
-func (e *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEfsAccessPointRootDirectoryCreationInfoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEfsAccessPointRootDirectoryCreationInfoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

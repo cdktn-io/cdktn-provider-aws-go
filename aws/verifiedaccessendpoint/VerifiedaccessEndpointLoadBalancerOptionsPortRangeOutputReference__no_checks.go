@@ -47,7 +47,7 @@ func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeOutputRefer
 	return nil
 }
 
-func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_VerifiedaccessEndpointLoadBalancerOptionsPortRangeOutputRefer
 	return nil
 }
 
-func validateNewVerifiedaccessEndpointLoadBalancerOptionsPortRangeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVerifiedaccessEndpointLoadBalancerOptionsPortRangeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

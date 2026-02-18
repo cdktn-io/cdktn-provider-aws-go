@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAwsAppmeshMeshSpecServiceDiscoveryList) validateGetParame
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsAppmeshMeshSpecServiceDiscoveryList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAwsAppmeshMeshSpecServiceDiscoveryList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAwsAppmeshMeshSpecServiceDiscoveryList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsAppmeshMeshSpecServiceDiscoveryList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAwsAppmeshMeshSpecServiceDiscoveryList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAwsAppmeshMeshSpecServiceDiscoveryList) validateSetWrapsS
 	return nil
 }
 
-func validateNewDataAwsAppmeshMeshSpecServiceDiscoveryListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAwsAppmeshMeshSpecServiceDiscoveryListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package apigatewayv2routingrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/apigatewayv2routingrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/apigatewayv2routingrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Apigatewayv2RoutingRuleConditionMatchHeadersList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type Apigatewayv2RoutingRuleConditionMatchHeadersList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type Apigatewayv2RoutingRuleConditionMatchHeadersList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) Apigatewayv2RoutingRuleConditionMatchHeadersOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type Apigatewayv2RoutingRuleConditionMatchHeadersList interface {
 
 // The jsii proxy struct for Apigatewayv2RoutingRuleConditionMatchHeadersList
 type jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersList) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersList) WrapsSet() 
 }
 
 
-func NewApigatewayv2RoutingRuleConditionMatchHeadersList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Apigatewayv2RoutingRuleConditionMatchHeadersList {
+func NewApigatewayv2RoutingRuleConditionMatchHeadersList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Apigatewayv2RoutingRuleConditionMatchHeadersList {
 	_init_.Initialize()
 
 	if err := validateNewApigatewayv2RoutingRuleConditionMatchHeadersListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewApigatewayv2RoutingRuleConditionMatchHeadersList(terraformResource cdktf
 	return &j
 }
 
-func NewApigatewayv2RoutingRuleConditionMatchHeadersList_Override(a Apigatewayv2RoutingRuleConditionMatchHeadersList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewApigatewayv2RoutingRuleConditionMatchHeadersList_Override(a Apigatewayv2RoutingRuleConditionMatchHeadersList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersList)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersList)SetWrapsSet(
 	)
 }
 
-func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := a.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		a,
@@ -231,7 +231,7 @@ func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersList) Get(index *
 	return returns
 }
 
-func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersList) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_Apigatewayv2RoutingRuleConditionMatchHeadersList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpclatticeListenerRuleActionForwardTargetGroupsOutputReferenc
 	return nil
 }
 
-func (v *jsiiProxy_VpclatticeListenerRuleActionForwardTargetGroupsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpclatticeListenerRuleActionForwardTargetGroupsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_VpclatticeListenerRuleActionForwardTargetGroupsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_VpclatticeListenerRuleActionForwardTargetGroupsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpclatticeListenerRuleActionForwardTargetGroupsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_VpclatticeListenerRuleActionForwardTargetGroupsOutputReferenc
 	return nil
 }
 
-func validateNewVpclatticeListenerRuleActionForwardTargetGroupsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVpclatticeListenerRuleActionForwardTargetGroupsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

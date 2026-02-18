@@ -115,7 +115,7 @@ func (j *jsiiProxy_FinspaceKxUser) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_FinspaceKxUser) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_FinspaceKxUser) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -119,7 +119,7 @@ func (j *jsiiProxy_MskReplicator) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_MskReplicator) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MskReplicator) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppsyncApiEventConfigAuthProviderList) validateGetParameters(
 	return nil
 }
 
-func (a *jsiiProxy_AppsyncApiEventConfigAuthProviderList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppsyncApiEventConfigAuthProviderList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppsyncApiEventConfigAuthProviderList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewAppsyncApiEventConfigAuthProviderListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppsyncApiEventConfigAuthProviderListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

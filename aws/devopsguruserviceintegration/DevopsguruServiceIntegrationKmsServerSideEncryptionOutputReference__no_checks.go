@@ -47,7 +47,7 @@ func (d *jsiiProxy_DevopsguruServiceIntegrationKmsServerSideEncryptionOutputRefe
 	return nil
 }
 
-func (d *jsiiProxy_DevopsguruServiceIntegrationKmsServerSideEncryptionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DevopsguruServiceIntegrationKmsServerSideEncryptionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DevopsguruServiceIntegrationKmsServerSideEncryptionOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_DevopsguruServiceIntegrationKmsServerSideEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DevopsguruServiceIntegrationKmsServerSideEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DevopsguruServiceIntegrationKmsServerSideEncryptionOutputRefe
 	return nil
 }
 
-func validateNewDevopsguruServiceIntegrationKmsServerSideEncryptionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDevopsguruServiceIntegrationKmsServerSideEncryptionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

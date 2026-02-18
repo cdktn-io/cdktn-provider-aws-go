@@ -203,7 +203,7 @@ func (j *jsiiProxy_AutoscalingGroup) validateSetLaunchConfigurationParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_AutoscalingGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AutoscalingGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

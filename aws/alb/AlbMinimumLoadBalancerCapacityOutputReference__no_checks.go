@@ -47,7 +47,7 @@ func (a *jsiiProxy_AlbMinimumLoadBalancerCapacityOutputReference) validateInterp
 	return nil
 }
 
-func (a *jsiiProxy_AlbMinimumLoadBalancerCapacityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AlbMinimumLoadBalancerCapacityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AlbMinimumLoadBalancerCapacityOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_AlbMinimumLoadBalancerCapacityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AlbMinimumLoadBalancerCapacityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAlbMinimumLoadBalancerCapacityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAlbMinimumLoadBalancerCapacityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -107,7 +107,7 @@ func (j *jsiiProxy_DatasyncLocationFsxLustreFileSystem) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DatasyncLocationFsxLustreFileSystem) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DatasyncLocationFsxLustreFileSystem) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

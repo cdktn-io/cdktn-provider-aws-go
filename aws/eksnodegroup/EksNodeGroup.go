@@ -5,16 +5,16 @@ package eksnodegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/eksnodegroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/eksnodegroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/eks_node_group aws_eks_node_group}.
 type EksNodeGroup interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AmiType() *string
 	SetAmiType(val *string)
 	AmiTypeInput() *string
@@ -23,7 +23,7 @@ type EksNodeGroup interface {
 	SetCapacityType(val *string)
 	CapacityTypeInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClusterName() *string
 	SetClusterName(val *string)
 	ClusterNameInput() *string
@@ -48,9 +48,9 @@ type EksNodeGroup interface {
 	SetForceUpdateVersion(val interface{})
 	ForceUpdateVersionInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -67,9 +67,9 @@ type EksNodeGroup interface {
 	LaunchTemplate() EksNodeGroupLaunchTemplateOutputReference
 	LaunchTemplateInput() *EksNodeGroupLaunchTemplate
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	NodeGroupName() *string
@@ -84,9 +84,9 @@ type EksNodeGroup interface {
 	SetNodeRoleArn(val *string)
 	NodeRoleArnInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -117,7 +117,7 @@ type EksNodeGroup interface {
 	Taint() EksNodeGroupTaintList
 	TaintInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -137,7 +137,7 @@ type EksNodeGroup interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -155,9 +155,9 @@ type EksNodeGroup interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -217,7 +217,7 @@ type EksNodeGroup interface {
 
 // The jsii proxy struct for EksNodeGroup
 type jsiiProxy_EksNodeGroup struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_EksNodeGroup) AmiType() *string {
@@ -270,8 +270,8 @@ func (j *jsiiProxy_EksNodeGroup) CapacityTypeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_EksNodeGroup) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_EksNodeGroup) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -380,8 +380,8 @@ func (j *jsiiProxy_EksNodeGroup) ForceUpdateVersionInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_EksNodeGroup) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_EksNodeGroup) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -490,8 +490,8 @@ func (j *jsiiProxy_EksNodeGroup) LaunchTemplateInput() *EksNodeGroupLaunchTempla
 	return returns
 }
 
-func (j *jsiiProxy_EksNodeGroup) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_EksNodeGroup) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -590,8 +590,8 @@ func (j *jsiiProxy_EksNodeGroup) NodeRoleArnInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_EksNodeGroup) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_EksNodeGroup) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -800,8 +800,8 @@ func (j *jsiiProxy_EksNodeGroup) TaintInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_EksNodeGroup) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_EksNodeGroup) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1005,7 +1005,7 @@ func (j *jsiiProxy_EksNodeGroup)SetForceUpdateVersion(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_EksNodeGroup)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_EksNodeGroup)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1046,7 +1046,7 @@ func (j *jsiiProxy_EksNodeGroup)SetLabels(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_EksNodeGroup)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_EksNodeGroup)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1090,7 +1090,7 @@ func (j *jsiiProxy_EksNodeGroup)SetNodeRoleArn(val *string) {
 	)
 }
 
-func (j *jsiiProxy_EksNodeGroup)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_EksNodeGroup)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1175,14 +1175,14 @@ func (j *jsiiProxy_EksNodeGroup)SetVersion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a EksNodeGroup resource upon running "cdktf plan <stack-name>".
-func EksNodeGroup_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a EksNodeGroup resource upon running "cdktn plan <stack-name>".
+func EksNodeGroup_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateEksNodeGroup_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.eksNodeGroup.EksNodeGroup",
@@ -1316,11 +1316,11 @@ func (e *jsiiProxy_EksNodeGroup) GetAnyMapAttribute(terraformAttribute *string) 
 	return returns
 }
 
-func (e *jsiiProxy_EksNodeGroup) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EksNodeGroup) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -1457,7 +1457,7 @@ func (e *jsiiProxy_EksNodeGroup) HasResourceMove() interface{} {
 	return returns
 }
 
-func (e *jsiiProxy_EksNodeGroup) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (e *jsiiProxy_EksNodeGroup) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := e.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1468,11 +1468,11 @@ func (e *jsiiProxy_EksNodeGroup) ImportFrom(id *string, provider cdktf.Terraform
 	)
 }
 
-func (e *jsiiProxy_EksNodeGroup) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EksNodeGroup) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,

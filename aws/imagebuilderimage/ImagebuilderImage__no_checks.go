@@ -147,7 +147,7 @@ func (j *jsiiProxy_ImagebuilderImage) validateSetInfrastructureConfigurationArnP
 	return nil
 }
 
-func (j *jsiiProxy_ImagebuilderImage) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ImagebuilderImage) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

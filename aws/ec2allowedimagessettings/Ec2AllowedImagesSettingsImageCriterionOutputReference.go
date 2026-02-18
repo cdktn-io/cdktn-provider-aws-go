@@ -5,14 +5,14 @@ package ec2allowedimagessettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ec2allowedimagessettings/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ec2allowedimagessettings/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Ec2AllowedImagesSettingsImageCriterionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -50,15 +50,15 @@ type Ec2AllowedImagesSettingsImageCriterionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -74,9 +74,9 @@ type Ec2AllowedImagesSettingsImageCriterionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCreationDateCondition(value interface{})
 	PutDeprecationTimeCondition(value interface{})
 	ResetCreationDateCondition()
@@ -86,7 +86,7 @@ type Ec2AllowedImagesSettingsImageCriterionOutputReference interface {
 	ResetMarketplaceProductCodes()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type Ec2AllowedImagesSettingsImageCriterionOutputReference interface {
 
 // The jsii proxy struct for Ec2AllowedImagesSettingsImageCriterionOutputReference
 type jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) ComplexObjectIndex() interface{} {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) Terraf
 }
 
 
-func NewEc2AllowedImagesSettingsImageCriterionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Ec2AllowedImagesSettingsImageCriterionOutputReference {
+func NewEc2AllowedImagesSettingsImageCriterionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Ec2AllowedImagesSettingsImageCriterionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEc2AllowedImagesSettingsImageCriterionOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -287,7 +287,7 @@ func NewEc2AllowedImagesSettingsImageCriterionOutputReference(terraformResource 
 	return &j
 }
 
-func NewEc2AllowedImagesSettingsImageCriterionOutputReference_Override(e Ec2AllowedImagesSettingsImageCriterionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewEc2AllowedImagesSettingsImageCriterionOutputReference_Override(e Ec2AllowedImagesSettingsImageCriterionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -374,7 +374,7 @@ func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -414,11 +414,11 @@ func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) GetAny
 	return returns
 }
 
-func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -542,8 +542,8 @@ func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) GetStr
 	return returns
 }
 
-func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -555,11 +555,11 @@ func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) Interp
 	return returns
 }
 
-func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -633,7 +633,7 @@ func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) ResetM
 	)
 }
 
-func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_Ec2AllowedImagesSettingsImageCriterionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

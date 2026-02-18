@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAwsS3BucketReplicationConfiguration) validateSetCountPara
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsS3BucketReplicationConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAwsS3BucketReplicationConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (o *jsiiProxy_OpensearchserverlessSecurityConfigSamlOptionsOutputReference)
 	return nil
 }
 
-func (o *jsiiProxy_OpensearchserverlessSecurityConfigSamlOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OpensearchserverlessSecurityConfigSamlOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_OpensearchserverlessSecurityConfigSamlOptionsOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_OpensearchserverlessSecurityConfigSamlOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OpensearchserverlessSecurityConfigSamlOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_OpensearchserverlessSecurityConfigSamlOptionsOutputReference)
 	return nil
 }
 
-func validateNewOpensearchserverlessSecurityConfigSamlOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOpensearchserverlessSecurityConfigSamlOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

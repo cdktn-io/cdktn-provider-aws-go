@@ -5,16 +5,16 @@ package eip
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/eip/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/eip/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/eip aws_eip}.
 type Eip interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Address() *string
 	SetAddress(val *string)
 	AddressInput() *string
@@ -26,7 +26,7 @@ type Eip interface {
 	AssociationId() *string
 	CarrierIp() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -49,9 +49,9 @@ type Eip interface {
 	SetDomain(val *string)
 	DomainInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -66,9 +66,9 @@ type Eip interface {
 	SetIpamPoolId(val *string)
 	IpamPoolIdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	NetworkBorderGroup() *string
 	SetNetworkBorderGroup(val *string)
 	NetworkBorderGroupInput() *string
@@ -80,9 +80,9 @@ type Eip interface {
 	PrivateDns() *string
 	PrivateIp() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -105,7 +105,7 @@ type Eip interface {
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -120,7 +120,7 @@ type Eip interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -138,9 +138,9 @@ type Eip interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -188,7 +188,7 @@ type Eip interface {
 
 // The jsii proxy struct for Eip
 type jsiiProxy_Eip struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_Eip) Address() *string {
@@ -271,8 +271,8 @@ func (j *jsiiProxy_Eip) CarrierIp() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Eip) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_Eip) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -371,8 +371,8 @@ func (j *jsiiProxy_Eip) DomainInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Eip) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_Eip) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -461,8 +461,8 @@ func (j *jsiiProxy_Eip) IpamPoolIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Eip) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_Eip) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -541,8 +541,8 @@ func (j *jsiiProxy_Eip) PrivateIp() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Eip) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_Eip) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -681,8 +681,8 @@ func (j *jsiiProxy_Eip) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_Eip) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_Eip) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -835,7 +835,7 @@ func (j *jsiiProxy_Eip)SetDomain(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Eip)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_Eip)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -876,7 +876,7 @@ func (j *jsiiProxy_Eip)SetIpamPoolId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Eip)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_Eip)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -909,7 +909,7 @@ func (j *jsiiProxy_Eip)SetNetworkInterface(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Eip)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_Eip)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -972,14 +972,14 @@ func (j *jsiiProxy_Eip)SetTagsAll(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a Eip resource upon running "cdktf plan <stack-name>".
-func Eip_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a Eip resource upon running "cdktn plan <stack-name>".
+func Eip_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateEip_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-aws.eip.Eip",
@@ -1113,11 +1113,11 @@ func (e *jsiiProxy_Eip) GetAnyMapAttribute(terraformAttribute *string) *map[stri
 	return returns
 }
 
-func (e *jsiiProxy_Eip) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_Eip) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -1254,7 +1254,7 @@ func (e *jsiiProxy_Eip) HasResourceMove() interface{} {
 	return returns
 }
 
-func (e *jsiiProxy_Eip) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (e *jsiiProxy_Eip) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := e.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1265,11 +1265,11 @@ func (e *jsiiProxy_Eip) ImportFrom(id *string, provider cdktf.TerraformProvider)
 	)
 }
 
-func (e *jsiiProxy_Eip) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_Eip) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,

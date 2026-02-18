@@ -15,7 +15,7 @@ func (d *jsiiProxy_DaxParameterGroupParametersList) validateGetParameters(index 
 	return nil
 }
 
-func (d *jsiiProxy_DaxParameterGroupParametersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DaxParameterGroupParametersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DaxParameterGroupParametersList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_DaxParameterGroupParametersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DaxParameterGroupParametersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DaxParameterGroupParametersList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewDaxParameterGroupParametersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDaxParameterGroupParametersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

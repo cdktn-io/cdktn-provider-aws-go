@@ -51,7 +51,7 @@ func (c *jsiiProxy_CodebuildFleetScalingConfigurationOutputReference) validatePu
 	return nil
 }
 
-func (c *jsiiProxy_CodebuildFleetScalingConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CodebuildFleetScalingConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_CodebuildFleetScalingConfigurationOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_CodebuildFleetScalingConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CodebuildFleetScalingConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCodebuildFleetScalingConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCodebuildFleetScalingConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

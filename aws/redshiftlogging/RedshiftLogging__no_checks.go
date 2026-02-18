@@ -107,7 +107,7 @@ func (j *jsiiProxy_RedshiftLogging) validateSetCountParameters(val interface{}) 
 	return nil
 }
 
-func (j *jsiiProxy_RedshiftLogging) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RedshiftLogging) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 
