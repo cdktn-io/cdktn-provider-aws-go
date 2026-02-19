@@ -58,6 +58,9 @@ type DmsEndpointMongodbSettingsOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	UseUpdateLookup() interface{}
+	SetUseUpdateLookup(val interface{})
+	UseUpdateLookupInput() interface{}
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -88,6 +91,7 @@ type DmsEndpointMongodbSettingsOutputReference interface {
 	ResetDocsToInvestigate()
 	ResetExtractDocId()
 	ResetNestingLevel()
+	ResetUseUpdateLookup()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -293,6 +297,26 @@ func (j *jsiiProxy_DmsEndpointMongodbSettingsOutputReference) TerraformResource(
 	return returns
 }
 
+func (j *jsiiProxy_DmsEndpointMongodbSettingsOutputReference) UseUpdateLookup() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"useUpdateLookup",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DmsEndpointMongodbSettingsOutputReference) UseUpdateLookupInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"useUpdateLookupInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewDmsEndpointMongodbSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DmsEndpointMongodbSettingsOutputReference {
 	_init_.Initialize()
@@ -438,6 +462,17 @@ func (j *jsiiProxy_DmsEndpointMongodbSettingsOutputReference)SetTerraformResourc
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DmsEndpointMongodbSettingsOutputReference)SetUseUpdateLookup(val interface{}) {
+	if err := j.validateSetUseUpdateLookupParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"useUpdateLookup",
 		val,
 	)
 }
@@ -672,6 +707,14 @@ func (d *jsiiProxy_DmsEndpointMongodbSettingsOutputReference) ResetNestingLevel(
 	_jsii_.InvokeVoid(
 		d,
 		"resetNestingLevel",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DmsEndpointMongodbSettingsOutputReference) ResetUseUpdateLookup() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetUseUpdateLookup",
 		nil, // no parameters
 	)
 }

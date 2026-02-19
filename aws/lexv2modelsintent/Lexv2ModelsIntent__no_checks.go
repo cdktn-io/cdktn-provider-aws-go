@@ -107,6 +107,10 @@ func (l *jsiiProxy_Lexv2ModelsIntent) validatePutOutputContextParameters(value i
 	return nil
 }
 
+func (l *jsiiProxy_Lexv2ModelsIntent) validatePutQnaIntentConfigurationParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_Lexv2ModelsIntent) validatePutSampleUtteranceParameters(value interface{}) error {
 	return nil
 }

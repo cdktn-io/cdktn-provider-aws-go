@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/launch_template aws_launch_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/launch_template aws_launch_template}.
 type LaunchTemplate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -136,6 +136,8 @@ type LaunchTemplate interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	SecondaryInterfaces() LaunchTemplateSecondaryInterfacesList
+	SecondaryInterfacesInput() interface{}
 	SecurityGroupNames() *[]*string
 	SetSecurityGroupNames(val *[]*string)
 	SecurityGroupNamesInput() *[]*string
@@ -222,6 +224,7 @@ type LaunchTemplate interface {
 	PutNetworkPerformanceOptions(value *LaunchTemplateNetworkPerformanceOptions)
 	PutPlacement(value *LaunchTemplatePlacement)
 	PutPrivateDnsNameOptions(value *LaunchTemplatePrivateDnsNameOptions)
+	PutSecondaryInterfaces(value interface{})
 	PutTagSpecifications(value interface{})
 	ResetBlockDeviceMappings()
 	ResetCapacityReservationSpecification()
@@ -258,6 +261,7 @@ type LaunchTemplate interface {
 	ResetPrivateDnsNameOptions()
 	ResetRamDiskId()
 	ResetRegion()
+	ResetSecondaryInterfaces()
 	ResetSecurityGroupNames()
 	ResetTags()
 	ResetTagsAll()
@@ -1073,6 +1077,26 @@ func (j *jsiiProxy_LaunchTemplate) RegionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_LaunchTemplate) SecondaryInterfaces() LaunchTemplateSecondaryInterfacesList {
+	var returns LaunchTemplateSecondaryInterfacesList
+	_jsii_.Get(
+		j,
+		"secondaryInterfaces",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LaunchTemplate) SecondaryInterfacesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"secondaryInterfacesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_LaunchTemplate) SecurityGroupNames() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -1244,7 +1268,7 @@ func (j *jsiiProxy_LaunchTemplate) VpcSecurityGroupIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/launch_template aws_launch_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/launch_template aws_launch_template} Resource.
 func NewLaunchTemplate(scope constructs.Construct, id *string, config *LaunchTemplateConfig) LaunchTemplate {
 	_init_.Initialize()
 
@@ -1262,7 +1286,7 @@ func NewLaunchTemplate(scope constructs.Construct, id *string, config *LaunchTem
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/launch_template aws_launch_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/launch_template aws_launch_template} Resource.
 func NewLaunchTemplate_Override(l LaunchTemplate, scope constructs.Construct, id *string, config *LaunchTemplateConfig) {
 	_init_.Initialize()
 
@@ -2112,6 +2136,17 @@ func (l *jsiiProxy_LaunchTemplate) PutPrivateDnsNameOptions(value *LaunchTemplat
 	)
 }
 
+func (l *jsiiProxy_LaunchTemplate) PutSecondaryInterfaces(value interface{}) {
+	if err := l.validatePutSecondaryInterfacesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		l,
+		"putSecondaryInterfaces",
+		[]interface{}{value},
+	)
+}
+
 func (l *jsiiProxy_LaunchTemplate) PutTagSpecifications(value interface{}) {
 	if err := l.validatePutTagSpecificationsParameters(value); err != nil {
 		panic(err)
@@ -2383,6 +2418,14 @@ func (l *jsiiProxy_LaunchTemplate) ResetRegion() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LaunchTemplate) ResetSecondaryInterfaces() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetSecondaryInterfaces",
 		nil, // no parameters
 	)
 }

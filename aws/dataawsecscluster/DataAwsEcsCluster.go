@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/ecs_cluster aws_ecs_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ecs_cluster aws_ecs_cluster}.
 type DataAwsEcsCluster interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -413,7 +413,7 @@ func (j *jsiiProxy_DataAwsEcsCluster) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/ecs_cluster aws_ecs_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ecs_cluster aws_ecs_cluster} Data Source.
 func NewDataAwsEcsCluster(scope constructs.Construct, id *string, config *DataAwsEcsClusterConfig) DataAwsEcsCluster {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewDataAwsEcsCluster(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/ecs_cluster aws_ecs_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ecs_cluster aws_ecs_cluster} Data Source.
 func NewDataAwsEcsCluster_Override(d DataAwsEcsCluster, scope constructs.Construct, id *string, config *DataAwsEcsClusterConfig) {
 	_init_.Initialize()
 

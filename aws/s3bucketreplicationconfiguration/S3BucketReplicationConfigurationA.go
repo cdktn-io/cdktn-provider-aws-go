@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/s3_bucket_replication_configuration aws_s3_bucket_replication_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3_bucket_replication_configuration aws_s3_bucket_replication_configuration}.
 type S3BucketReplicationConfigurationA interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -427,7 +427,7 @@ func (j *jsiiProxy_S3BucketReplicationConfigurationA) TokenInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/s3_bucket_replication_configuration aws_s3_bucket_replication_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3_bucket_replication_configuration aws_s3_bucket_replication_configuration} Resource.
 func NewS3BucketReplicationConfigurationA(scope constructs.Construct, id *string, config *S3BucketReplicationConfigurationAConfig) S3BucketReplicationConfigurationA {
 	_init_.Initialize()
 
@@ -445,7 +445,7 @@ func NewS3BucketReplicationConfigurationA(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/s3_bucket_replication_configuration aws_s3_bucket_replication_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3_bucket_replication_configuration aws_s3_bucket_replication_configuration} Resource.
 func NewS3BucketReplicationConfigurationA_Override(s S3BucketReplicationConfigurationA, scope constructs.Construct, id *string, config *S3BucketReplicationConfigurationAConfig) {
 	_init_.Initialize()
 

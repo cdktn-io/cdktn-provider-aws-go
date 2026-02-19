@@ -455,6 +455,37 @@ func (l *jsiiProxy_Lexv2ModelsIntent) validatePutOutputContextParameters(value i
 	return nil
 }
 
+func (l *jsiiProxy_Lexv2ModelsIntent) validatePutQnaIntentConfigurationParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*Lexv2ModelsIntentQnaIntentConfiguration:
+		value := value.(*[]*Lexv2ModelsIntentQnaIntentConfiguration)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*Lexv2ModelsIntentQnaIntentConfiguration:
+		value_ := value.([]*Lexv2ModelsIntentQnaIntentConfiguration)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Lexv2ModelsIntentQnaIntentConfiguration; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (l *jsiiProxy_Lexv2ModelsIntent) validatePutSampleUtteranceParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

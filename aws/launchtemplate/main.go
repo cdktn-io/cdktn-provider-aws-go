@@ -123,6 +123,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putNetworkPerformanceOptions", GoMethod: "PutNetworkPerformanceOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "putPlacement", GoMethod: "PutPlacement"},
 			_jsii_.MemberMethod{JsiiMethod: "putPrivateDnsNameOptions", GoMethod: "PutPrivateDnsNameOptions"},
+			_jsii_.MemberMethod{JsiiMethod: "putSecondaryInterfaces", GoMethod: "PutSecondaryInterfaces"},
 			_jsii_.MemberMethod{JsiiMethod: "putTagSpecifications", GoMethod: "PutTagSpecifications"},
 			_jsii_.MemberProperty{JsiiProperty: "ramDiskId", GoGetter: "RamDiskId"},
 			_jsii_.MemberProperty{JsiiProperty: "ramDiskIdInput", GoGetter: "RamDiskIdInput"},
@@ -162,6 +163,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetPrivateDnsNameOptions", GoMethod: "ResetPrivateDnsNameOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRamDiskId", GoMethod: "ResetRamDiskId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSecondaryInterfaces", GoMethod: "ResetSecondaryInterfaces"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSecurityGroupNames", GoMethod: "ResetSecurityGroupNames"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTagsAll", GoMethod: "ResetTagsAll"},
@@ -169,6 +171,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetUpdateDefaultVersion", GoMethod: "ResetUpdateDefaultVersion"},
 			_jsii_.MemberMethod{JsiiMethod: "resetUserData", GoMethod: "ResetUserData"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVpcSecurityGroupIds", GoMethod: "ResetVpcSecurityGroupIds"},
+			_jsii_.MemberProperty{JsiiProperty: "secondaryInterfaces", GoGetter: "SecondaryInterfaces"},
+			_jsii_.MemberProperty{JsiiProperty: "secondaryInterfacesInput", GoGetter: "SecondaryInterfacesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "securityGroupNames", GoGetter: "SecurityGroupNames"},
 			_jsii_.MemberProperty{JsiiProperty: "securityGroupNamesInput", GoGetter: "SecurityGroupNamesInput"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
@@ -451,8 +455,11 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "nestedVirtualization", GoGetter: "NestedVirtualization"},
+			_jsii_.MemberProperty{JsiiProperty: "nestedVirtualizationInput", GoGetter: "NestedVirtualizationInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAmdSevSnp", GoMethod: "ResetAmdSevSnp"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCoreCount", GoMethod: "ResetCoreCount"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNestedVirtualization", GoMethod: "ResetNestedVirtualization"},
 			_jsii_.MemberMethod{JsiiMethod: "resetThreadsPerCore", GoMethod: "ResetThreadsPerCore"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
@@ -1795,6 +1802,85 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.launchTemplate.LaunchTemplateSecondaryInterfaces",
+		reflect.TypeOf((*LaunchTemplateSecondaryInterfaces)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.launchTemplate.LaunchTemplateSecondaryInterfacesList",
+		reflect.TypeOf((*LaunchTemplateSecondaryInterfacesList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_LaunchTemplateSecondaryInterfacesList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.launchTemplate.LaunchTemplateSecondaryInterfacesOutputReference",
+		reflect.TypeOf((*LaunchTemplateSecondaryInterfacesOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "deleteOnTermination", GoGetter: "DeleteOnTermination"},
+			_jsii_.MemberProperty{JsiiProperty: "deleteOnTerminationInput", GoGetter: "DeleteOnTerminationInput"},
+			_jsii_.MemberProperty{JsiiProperty: "deviceIndex", GoGetter: "DeviceIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "deviceIndexInput", GoGetter: "DeviceIndexInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "interfaceType", GoGetter: "InterfaceType"},
+			_jsii_.MemberProperty{JsiiProperty: "interfaceTypeInput", GoGetter: "InterfaceTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "networkCardIndex", GoGetter: "NetworkCardIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "networkCardIndexInput", GoGetter: "NetworkCardIndexInput"},
+			_jsii_.MemberProperty{JsiiProperty: "privateIpAddressCount", GoGetter: "PrivateIpAddressCount"},
+			_jsii_.MemberProperty{JsiiProperty: "privateIpAddressCountInput", GoGetter: "PrivateIpAddressCountInput"},
+			_jsii_.MemberProperty{JsiiProperty: "privateIpAddresses", GoGetter: "PrivateIpAddresses"},
+			_jsii_.MemberProperty{JsiiProperty: "privateIpAddressesInput", GoGetter: "PrivateIpAddressesInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDeleteOnTermination", GoMethod: "ResetDeleteOnTermination"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDeviceIndex", GoMethod: "ResetDeviceIndex"},
+			_jsii_.MemberMethod{JsiiMethod: "resetInterfaceType", GoMethod: "ResetInterfaceType"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNetworkCardIndex", GoMethod: "ResetNetworkCardIndex"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPrivateIpAddressCount", GoMethod: "ResetPrivateIpAddressCount"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPrivateIpAddresses", GoMethod: "ResetPrivateIpAddresses"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSecondarySubnetId", GoMethod: "ResetSecondarySubnetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "secondarySubnetId", GoGetter: "SecondarySubnetId"},
+			_jsii_.MemberProperty{JsiiProperty: "secondarySubnetIdInput", GoGetter: "SecondarySubnetIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_LaunchTemplateSecondaryInterfacesOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

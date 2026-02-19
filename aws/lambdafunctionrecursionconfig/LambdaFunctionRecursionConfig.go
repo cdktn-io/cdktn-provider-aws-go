@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/lambda_function_recursion_config aws_lambda_function_recursion_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lambda_function_recursion_config aws_lambda_function_recursion_config}.
 type LambdaFunctionRecursionConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_LambdaFunctionRecursionConfig) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/lambda_function_recursion_config aws_lambda_function_recursion_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lambda_function_recursion_config aws_lambda_function_recursion_config} Resource.
 func NewLambdaFunctionRecursionConfig(scope constructs.Construct, id *string, config *LambdaFunctionRecursionConfigConfig) LambdaFunctionRecursionConfig {
 	_init_.Initialize()
 
@@ -374,7 +374,7 @@ func NewLambdaFunctionRecursionConfig(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/lambda_function_recursion_config aws_lambda_function_recursion_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lambda_function_recursion_config aws_lambda_function_recursion_config} Resource.
 func NewLambdaFunctionRecursionConfig_Override(l LambdaFunctionRecursionConfig, scope constructs.Construct, id *string, config *LambdaFunctionRecursionConfigConfig) {
 	_init_.Initialize()
 

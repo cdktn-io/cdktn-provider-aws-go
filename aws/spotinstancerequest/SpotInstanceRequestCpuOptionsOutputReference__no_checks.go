@@ -71,6 +71,10 @@ func (j *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) validateSetInte
 	return nil
 }
 
+func (j *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) validateSetNestedVirtualizationParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

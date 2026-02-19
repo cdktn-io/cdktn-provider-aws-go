@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/lexv2models_intent aws_lexv2models_intent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lexv2models_intent aws_lexv2models_intent}.
 type Lexv2ModelsIntent interface {
 	cdktn.TerraformResource
 	BotId() *string
@@ -91,6 +91,8 @@ type Lexv2ModelsIntent interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
+	QnaIntentConfiguration() Lexv2ModelsIntentQnaIntentConfigurationList
+	QnaIntentConfigurationInput() interface{}
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -159,6 +161,7 @@ type Lexv2ModelsIntent interface {
 	PutInputContext(value interface{})
 	PutKendraConfiguration(value interface{})
 	PutOutputContext(value interface{})
+	PutQnaIntentConfiguration(value interface{})
 	PutSampleUtterance(value interface{})
 	PutSlotPriority(value interface{})
 	PutTimeouts(value *Lexv2ModelsIntentTimeouts)
@@ -175,6 +178,7 @@ type Lexv2ModelsIntent interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetParentIntentSignature()
+	ResetQnaIntentConfiguration()
 	ResetRegion()
 	ResetSampleUtterance()
 	ResetSlotPriority()
@@ -637,6 +641,26 @@ func (j *jsiiProxy_Lexv2ModelsIntent) Provisioners() *[]interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_Lexv2ModelsIntent) QnaIntentConfiguration() Lexv2ModelsIntentQnaIntentConfigurationList {
+	var returns Lexv2ModelsIntentQnaIntentConfigurationList
+	_jsii_.Get(
+		j,
+		"qnaIntentConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Lexv2ModelsIntent) QnaIntentConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"qnaIntentConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Lexv2ModelsIntent) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -758,7 +782,7 @@ func (j *jsiiProxy_Lexv2ModelsIntent) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/lexv2models_intent aws_lexv2models_intent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lexv2models_intent aws_lexv2models_intent} Resource.
 func NewLexv2ModelsIntent(scope constructs.Construct, id *string, config *Lexv2ModelsIntentConfig) Lexv2ModelsIntent {
 	_init_.Initialize()
 
@@ -776,7 +800,7 @@ func NewLexv2ModelsIntent(scope constructs.Construct, id *string, config *Lexv2M
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/lexv2models_intent aws_lexv2models_intent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lexv2models_intent aws_lexv2models_intent} Resource.
 func NewLexv2ModelsIntent_Override(l Lexv2ModelsIntent, scope constructs.Construct, id *string, config *Lexv2ModelsIntentConfig) {
 	_init_.Initialize()
 
@@ -1373,6 +1397,17 @@ func (l *jsiiProxy_Lexv2ModelsIntent) PutOutputContext(value interface{}) {
 	)
 }
 
+func (l *jsiiProxy_Lexv2ModelsIntent) PutQnaIntentConfiguration(value interface{}) {
+	if err := l.validatePutQnaIntentConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		l,
+		"putQnaIntentConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (l *jsiiProxy_Lexv2ModelsIntent) PutSampleUtterance(value interface{}) {
 	if err := l.validatePutSampleUtteranceParameters(value); err != nil {
 		panic(err)
@@ -1490,6 +1525,14 @@ func (l *jsiiProxy_Lexv2ModelsIntent) ResetParentIntentSignature() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetParentIntentSignature",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_Lexv2ModelsIntent) ResetQnaIntentConfiguration() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetQnaIntentConfiguration",
 		nil, // no parameters
 	)
 }

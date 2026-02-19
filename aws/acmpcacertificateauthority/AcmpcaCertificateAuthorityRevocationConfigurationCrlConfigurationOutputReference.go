@@ -31,6 +31,9 @@ type AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationOutputRefe
 	CustomCname() *string
 	SetCustomCname(val *string)
 	CustomCnameInput() *string
+	CustomPath() *string
+	SetCustomPath(val *string)
+	CustomPathInput() *string
 	Enabled() interface{}
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
@@ -80,6 +83,7 @@ type AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationOutputRefe
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCustomCname()
+	ResetCustomPath()
 	ResetEnabled()
 	ResetExpirationInDays()
 	ResetS3BucketName()
@@ -144,6 +148,26 @@ func (j *jsiiProxy_AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigura
 	_jsii_.Get(
 		j,
 		"customCnameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationOutputReference) CustomPath() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"customPath",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationOutputReference) CustomPathInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"customPathInput",
 		&returns,
 	)
 	return returns
@@ -326,6 +350,17 @@ func (j *jsiiProxy_AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigura
 	_jsii_.Set(
 		j,
 		"customCname",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationOutputReference)SetCustomPath(val *string) {
+	if err := j.validateSetCustomPathParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"customPath",
 		val,
 	)
 }
@@ -597,6 +632,14 @@ func (a *jsiiProxy_AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigura
 	_jsii_.InvokeVoid(
 		a,
 		"resetCustomCname",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationOutputReference) ResetCustomPath() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetCustomPath",
 		nil, // no parameters
 	)
 }

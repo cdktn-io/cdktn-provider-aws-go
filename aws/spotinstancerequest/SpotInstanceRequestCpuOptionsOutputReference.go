@@ -38,6 +38,9 @@ type SpotInstanceRequestCpuOptionsOutputReference interface {
 	Fqn() *string
 	InternalValue() *SpotInstanceRequestCpuOptions
 	SetInternalValue(val *SpotInstanceRequestCpuOptions)
+	NestedVirtualization() *string
+	SetNestedVirtualization(val *string)
+	NestedVirtualizationInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -75,6 +78,7 @@ type SpotInstanceRequestCpuOptionsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAmdSevSnp()
 	ResetCoreCount()
+	ResetNestedVirtualization()
 	ResetThreadsPerCore()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -176,6 +180,26 @@ func (j *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) InternalValue()
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) NestedVirtualization() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"nestedVirtualization",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) NestedVirtualizationInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"nestedVirtualizationInput",
 		&returns,
 	)
 	return returns
@@ -300,6 +324,17 @@ func (j *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference)SetInternalValue
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference)SetNestedVirtualization(val *string) {
+	if err := j.validateSetNestedVirtualizationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"nestedVirtualization",
 		val,
 	)
 }
@@ -535,6 +570,14 @@ func (s *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) ResetCoreCount(
 	_jsii_.InvokeVoid(
 		s,
 		"resetCoreCount",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SpotInstanceRequestCpuOptionsOutputReference) ResetNestedVirtualization() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetNestedVirtualization",
 		nil, // no parameters
 	)
 }

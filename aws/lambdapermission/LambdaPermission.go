@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/lambda_permission aws_lambda_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lambda_permission aws_lambda_permission}.
 type LambdaPermission interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -619,7 +619,7 @@ func (j *jsiiProxy_LambdaPermission) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/lambda_permission aws_lambda_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lambda_permission aws_lambda_permission} Resource.
 func NewLambdaPermission(scope constructs.Construct, id *string, config *LambdaPermissionConfig) LambdaPermission {
 	_init_.Initialize()
 
@@ -637,7 +637,7 @@ func NewLambdaPermission(scope constructs.Construct, id *string, config *LambdaP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/lambda_permission aws_lambda_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lambda_permission aws_lambda_permission} Resource.
 func NewLambdaPermission_Override(l LambdaPermission, scope constructs.Construct, id *string, config *LambdaPermissionConfig) {
 	_init_.Initialize()
 

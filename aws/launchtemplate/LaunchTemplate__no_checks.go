@@ -143,6 +143,10 @@ func (l *jsiiProxy_LaunchTemplate) validatePutPrivateDnsNameOptionsParameters(va
 	return nil
 }
 
+func (l *jsiiProxy_LaunchTemplate) validatePutSecondaryInterfacesParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LaunchTemplate) validatePutTagSpecificationsParameters(value interface{}) error {
 	return nil
 }

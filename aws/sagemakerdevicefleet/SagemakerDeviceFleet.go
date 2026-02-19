@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/sagemaker_device_fleet aws_sagemaker_device_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_device_fleet aws_sagemaker_device_fleet}.
 type SagemakerDeviceFleet interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -521,7 +521,7 @@ func (j *jsiiProxy_SagemakerDeviceFleet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/sagemaker_device_fleet aws_sagemaker_device_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_device_fleet aws_sagemaker_device_fleet} Resource.
 func NewSagemakerDeviceFleet(scope constructs.Construct, id *string, config *SagemakerDeviceFleetConfig) SagemakerDeviceFleet {
 	_init_.Initialize()
 
@@ -539,7 +539,7 @@ func NewSagemakerDeviceFleet(scope constructs.Construct, id *string, config *Sag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/sagemaker_device_fleet aws_sagemaker_device_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_device_fleet aws_sagemaker_device_fleet} Resource.
 func NewSagemakerDeviceFleet_Override(s SagemakerDeviceFleet, scope constructs.Construct, id *string, config *SagemakerDeviceFleetConfig) {
 	_init_.Initialize()
 

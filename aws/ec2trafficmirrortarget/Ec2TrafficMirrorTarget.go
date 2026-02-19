@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/ec2_traffic_mirror_target aws_ec2_traffic_mirror_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ec2_traffic_mirror_target aws_ec2_traffic_mirror_target}.
 type Ec2TrafficMirrorTarget interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -500,7 +500,7 @@ func (j *jsiiProxy_Ec2TrafficMirrorTarget) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/ec2_traffic_mirror_target aws_ec2_traffic_mirror_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ec2_traffic_mirror_target aws_ec2_traffic_mirror_target} Resource.
 func NewEc2TrafficMirrorTarget(scope constructs.Construct, id *string, config *Ec2TrafficMirrorTargetConfig) Ec2TrafficMirrorTarget {
 	_init_.Initialize()
 
@@ -518,7 +518,7 @@ func NewEc2TrafficMirrorTarget(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/ec2_traffic_mirror_target aws_ec2_traffic_mirror_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ec2_traffic_mirror_target aws_ec2_traffic_mirror_target} Resource.
 func NewEc2TrafficMirrorTarget_Override(e Ec2TrafficMirrorTarget, scope constructs.Construct, id *string, config *Ec2TrafficMirrorTargetConfig) {
 	_init_.Initialize()
 

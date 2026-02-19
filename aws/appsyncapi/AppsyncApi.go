@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/appsync_api aws_appsync_api}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appsync_api aws_appsync_api}.
 type AppsyncApi interface {
 	cdktn.TerraformResource
 	ApiArn() *string
@@ -471,7 +471,7 @@ func (j *jsiiProxy_AppsyncApi) XrayEnabled() cdktn.IResolvable {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/appsync_api aws_appsync_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appsync_api aws_appsync_api} Resource.
 func NewAppsyncApi(scope constructs.Construct, id *string, config *AppsyncApiConfig) AppsyncApi {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewAppsyncApi(scope constructs.Construct, id *string, config *AppsyncApiCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/appsync_api aws_appsync_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appsync_api aws_appsync_api} Resource.
 func NewAppsyncApi_Override(a AppsyncApi, scope constructs.Construct, id *string, config *AppsyncApiConfig) {
 	_init_.Initialize()
 

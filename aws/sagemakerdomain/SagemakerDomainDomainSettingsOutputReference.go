@@ -50,6 +50,8 @@ type SagemakerDomainDomainSettingsOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	TrustedIdentityPropagationSettings() SagemakerDomainDomainSettingsTrustedIdentityPropagationSettingsOutputReference
+	TrustedIdentityPropagationSettingsInput() *SagemakerDomainDomainSettingsTrustedIdentityPropagationSettings
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -76,10 +78,12 @@ type SagemakerDomainDomainSettingsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDockerSettings(value *SagemakerDomainDomainSettingsDockerSettings)
 	PutRStudioServerProDomainSettings(value *SagemakerDomainDomainSettingsRStudioServerProDomainSettings)
+	PutTrustedIdentityPropagationSettings(value *SagemakerDomainDomainSettingsTrustedIdentityPropagationSettings)
 	ResetDockerSettings()
 	ResetExecutionRoleIdentityConfig()
 	ResetRStudioServerProDomainSettings()
 	ResetSecurityGroupIds()
+	ResetTrustedIdentityPropagationSettings()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -240,6 +244,26 @@ func (j *jsiiProxy_SagemakerDomainDomainSettingsOutputReference) TerraformResour
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerDomainDomainSettingsOutputReference) TrustedIdentityPropagationSettings() SagemakerDomainDomainSettingsTrustedIdentityPropagationSettingsOutputReference {
+	var returns SagemakerDomainDomainSettingsTrustedIdentityPropagationSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"trustedIdentityPropagationSettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerDomainDomainSettingsOutputReference) TrustedIdentityPropagationSettingsInput() *SagemakerDomainDomainSettingsTrustedIdentityPropagationSettings {
+	var returns *SagemakerDomainDomainSettingsTrustedIdentityPropagationSettings
+	_jsii_.Get(
+		j,
+		"trustedIdentityPropagationSettingsInput",
 		&returns,
 	)
 	return returns
@@ -558,6 +582,17 @@ func (s *jsiiProxy_SagemakerDomainDomainSettingsOutputReference) PutRStudioServe
 	)
 }
 
+func (s *jsiiProxy_SagemakerDomainDomainSettingsOutputReference) PutTrustedIdentityPropagationSettings(value *SagemakerDomainDomainSettingsTrustedIdentityPropagationSettings) {
+	if err := s.validatePutTrustedIdentityPropagationSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putTrustedIdentityPropagationSettings",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_SagemakerDomainDomainSettingsOutputReference) ResetDockerSettings() {
 	_jsii_.InvokeVoid(
 		s,
@@ -586,6 +621,14 @@ func (s *jsiiProxy_SagemakerDomainDomainSettingsOutputReference) ResetSecurityGr
 	_jsii_.InvokeVoid(
 		s,
 		"resetSecurityGroupIds",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SagemakerDomainDomainSettingsOutputReference) ResetTrustedIdentityPropagationSettings() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetTrustedIdentityPropagationSettings",
 		nil, // no parameters
 	)
 }

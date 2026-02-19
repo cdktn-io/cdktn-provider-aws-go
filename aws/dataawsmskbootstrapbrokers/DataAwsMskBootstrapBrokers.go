@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers}.
 type DataAwsMskBootstrapBrokers interface {
 	cdktn.TerraformDataSource
 	BootstrapBrokers() *string
@@ -422,7 +422,7 @@ func (j *jsiiProxy_DataAwsMskBootstrapBrokers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers} Data Source.
 func NewDataAwsMskBootstrapBrokers(scope constructs.Construct, id *string, config *DataAwsMskBootstrapBrokersConfig) DataAwsMskBootstrapBrokers {
 	_init_.Initialize()
 
@@ -440,7 +440,7 @@ func NewDataAwsMskBootstrapBrokers(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers} Data Source.
 func NewDataAwsMskBootstrapBrokers_Override(d DataAwsMskBootstrapBrokers, scope constructs.Construct, id *string, config *DataAwsMskBootstrapBrokersConfig) {
 	_init_.Initialize()
 

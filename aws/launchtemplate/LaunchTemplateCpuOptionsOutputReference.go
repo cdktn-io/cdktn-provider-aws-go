@@ -38,6 +38,9 @@ type LaunchTemplateCpuOptionsOutputReference interface {
 	Fqn() *string
 	InternalValue() *LaunchTemplateCpuOptions
 	SetInternalValue(val *LaunchTemplateCpuOptions)
+	NestedVirtualization() *string
+	SetNestedVirtualization(val *string)
+	NestedVirtualizationInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -75,6 +78,7 @@ type LaunchTemplateCpuOptionsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAmdSevSnp()
 	ResetCoreCount()
+	ResetNestedVirtualization()
 	ResetThreadsPerCore()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -176,6 +180,26 @@ func (j *jsiiProxy_LaunchTemplateCpuOptionsOutputReference) InternalValue() *Lau
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LaunchTemplateCpuOptionsOutputReference) NestedVirtualization() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"nestedVirtualization",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LaunchTemplateCpuOptionsOutputReference) NestedVirtualizationInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"nestedVirtualizationInput",
 		&returns,
 	)
 	return returns
@@ -300,6 +324,17 @@ func (j *jsiiProxy_LaunchTemplateCpuOptionsOutputReference)SetInternalValue(val 
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LaunchTemplateCpuOptionsOutputReference)SetNestedVirtualization(val *string) {
+	if err := j.validateSetNestedVirtualizationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"nestedVirtualization",
 		val,
 	)
 }
@@ -535,6 +570,14 @@ func (l *jsiiProxy_LaunchTemplateCpuOptionsOutputReference) ResetCoreCount() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetCoreCount",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LaunchTemplateCpuOptionsOutputReference) ResetNestedVirtualization() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetNestedVirtualization",
 		nil, // no parameters
 	)
 }

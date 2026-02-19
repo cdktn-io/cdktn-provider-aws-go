@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/vpc_endpoint_security_group_association aws_vpc_endpoint_security_group_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_endpoint_security_group_association aws_vpc_endpoint_security_group_association}.
 type VpcEndpointSecurityGroupAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_VpcEndpointSecurityGroupAssociation) VpcEndpointIdInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/vpc_endpoint_security_group_association aws_vpc_endpoint_security_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_endpoint_security_group_association aws_vpc_endpoint_security_group_association} Resource.
 func NewVpcEndpointSecurityGroupAssociation(scope constructs.Construct, id *string, config *VpcEndpointSecurityGroupAssociationConfig) VpcEndpointSecurityGroupAssociation {
 	_init_.Initialize()
 
@@ -422,7 +422,7 @@ func NewVpcEndpointSecurityGroupAssociation(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/vpc_endpoint_security_group_association aws_vpc_endpoint_security_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_endpoint_security_group_association aws_vpc_endpoint_security_group_association} Resource.
 func NewVpcEndpointSecurityGroupAssociation_Override(v VpcEndpointSecurityGroupAssociation, scope constructs.Construct, id *string, config *VpcEndpointSecurityGroupAssociationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/datazone_glossary_term aws_datazone_glossary_term}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/datazone_glossary_term aws_datazone_glossary_term}.
 type DatazoneGlossaryTerm interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -533,7 +533,7 @@ func (j *jsiiProxy_DatazoneGlossaryTerm) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/datazone_glossary_term aws_datazone_glossary_term} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/datazone_glossary_term aws_datazone_glossary_term} Resource.
 func NewDatazoneGlossaryTerm(scope constructs.Construct, id *string, config *DatazoneGlossaryTermConfig) DatazoneGlossaryTerm {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewDatazoneGlossaryTerm(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/datazone_glossary_term aws_datazone_glossary_term} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/datazone_glossary_term aws_datazone_glossary_term} Resource.
 func NewDatazoneGlossaryTerm_Override(d DatazoneGlossaryTerm, scope constructs.Construct, id *string, config *DatazoneGlossaryTermConfig) {
 	_init_.Initialize()
 

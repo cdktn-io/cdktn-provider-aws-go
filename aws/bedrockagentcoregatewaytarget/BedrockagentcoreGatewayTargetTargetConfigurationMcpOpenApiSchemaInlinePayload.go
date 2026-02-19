@@ -5,7 +5,7 @@ package bedrockagentcoregatewaytarget
 
 
 type BedrockagentcoreGatewayTargetTargetConfigurationMcpOpenApiSchemaInlinePayload struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/bedrockagentcore_gateway_target#payload BedrockagentcoreGatewayTarget#payload}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrockagentcore_gateway_target#payload BedrockagentcoreGatewayTarget#payload}.
 	Payload *string `field:"required" json:"payload" yaml:"payload"`
 }
 

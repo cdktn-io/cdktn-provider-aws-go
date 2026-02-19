@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/wafv2_web_acl_association aws_wafv2_web_acl_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/wafv2_web_acl_association aws_wafv2_web_acl_association}.
 type Wafv2WebAclAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_Wafv2WebAclAssociation) WebAclArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/wafv2_web_acl_association aws_wafv2_web_acl_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/wafv2_web_acl_association aws_wafv2_web_acl_association} Resource.
 func NewWafv2WebAclAssociation(scope constructs.Construct, id *string, config *Wafv2WebAclAssociationConfigA) Wafv2WebAclAssociation {
 	_init_.Initialize()
 
@@ -422,7 +422,7 @@ func NewWafv2WebAclAssociation(scope constructs.Construct, id *string, config *W
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/wafv2_web_acl_association aws_wafv2_web_acl_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/wafv2_web_acl_association aws_wafv2_web_acl_association} Resource.
 func NewWafv2WebAclAssociation_Override(w Wafv2WebAclAssociation, scope constructs.Construct, id *string, config *Wafv2WebAclAssociationConfigA) {
 	_init_.Initialize()
 

@@ -5,7 +5,7 @@ package arcregionswitchplan
 
 
 type ArcregionswitchPlanWorkflowStepEksResourceScalingConfigUngraceful struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/arcregionswitch_plan#minimum_success_percentage ArcregionswitchPlan#minimum_success_percentage}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/arcregionswitch_plan#minimum_success_percentage ArcregionswitchPlan#minimum_success_percentage}.
 	MinimumSuccessPercentage *float64 `field:"required" json:"minimumSuccessPercentage" yaml:"minimumSuccessPercentage"`
 }
 

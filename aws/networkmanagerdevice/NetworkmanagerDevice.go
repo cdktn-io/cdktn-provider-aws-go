@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/networkmanager_device aws_networkmanager_device}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkmanager_device aws_networkmanager_device}.
 type NetworkmanagerDevice interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -608,7 +608,7 @@ func (j *jsiiProxy_NetworkmanagerDevice) VendorInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/networkmanager_device aws_networkmanager_device} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkmanager_device aws_networkmanager_device} Resource.
 func NewNetworkmanagerDevice(scope constructs.Construct, id *string, config *NetworkmanagerDeviceConfig) NetworkmanagerDevice {
 	_init_.Initialize()
 
@@ -626,7 +626,7 @@ func NewNetworkmanagerDevice(scope constructs.Construct, id *string, config *Net
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/networkmanager_device aws_networkmanager_device} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkmanager_device aws_networkmanager_device} Resource.
 func NewNetworkmanagerDevice_Override(n NetworkmanagerDevice, scope constructs.Construct, id *string, config *NetworkmanagerDeviceConfig) {
 	_init_.Initialize()
 

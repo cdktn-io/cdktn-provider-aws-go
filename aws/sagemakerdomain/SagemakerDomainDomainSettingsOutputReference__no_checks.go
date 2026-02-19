@@ -55,6 +55,10 @@ func (s *jsiiProxy_SagemakerDomainDomainSettingsOutputReference) validatePutRStu
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerDomainDomainSettingsOutputReference) validatePutTrustedIdentityPropagationSettingsParameters(value *SagemakerDomainDomainSettingsTrustedIdentityPropagationSettings) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerDomainDomainSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

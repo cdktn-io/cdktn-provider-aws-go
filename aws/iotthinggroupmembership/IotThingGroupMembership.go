@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/iot_thing_group_membership aws_iot_thing_group_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_thing_group_membership aws_iot_thing_group_membership}.
 type IotThingGroupMembership interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_IotThingGroupMembership) ThingNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/iot_thing_group_membership aws_iot_thing_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_thing_group_membership aws_iot_thing_group_membership} Resource.
 func NewIotThingGroupMembership(scope constructs.Construct, id *string, config *IotThingGroupMembershipConfig) IotThingGroupMembership {
 	_init_.Initialize()
 
@@ -422,7 +422,7 @@ func NewIotThingGroupMembership(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/iot_thing_group_membership aws_iot_thing_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_thing_group_membership aws_iot_thing_group_membership} Resource.
 func NewIotThingGroupMembership_Override(i IotThingGroupMembership, scope constructs.Construct, id *string, config *IotThingGroupMembershipConfig) {
 	_init_.Initialize()
 

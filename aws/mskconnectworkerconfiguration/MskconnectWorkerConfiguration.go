@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/mskconnect_worker_configuration aws_mskconnect_worker_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/mskconnect_worker_configuration aws_mskconnect_worker_configuration}.
 type MskconnectWorkerConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -498,7 +498,7 @@ func (j *jsiiProxy_MskconnectWorkerConfiguration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/mskconnect_worker_configuration aws_mskconnect_worker_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/mskconnect_worker_configuration aws_mskconnect_worker_configuration} Resource.
 func NewMskconnectWorkerConfiguration(scope constructs.Construct, id *string, config *MskconnectWorkerConfigurationConfig) MskconnectWorkerConfiguration {
 	_init_.Initialize()
 
@@ -516,7 +516,7 @@ func NewMskconnectWorkerConfiguration(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/mskconnect_worker_configuration aws_mskconnect_worker_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/mskconnect_worker_configuration aws_mskconnect_worker_configuration} Resource.
 func NewMskconnectWorkerConfiguration_Override(m MskconnectWorkerConfiguration, scope constructs.Construct, id *string, config *MskconnectWorkerConfigurationConfig) {
 	_init_.Initialize()
 

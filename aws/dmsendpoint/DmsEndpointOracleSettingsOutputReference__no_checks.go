@@ -51,7 +51,47 @@ func (d *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateResolvePara
 	return nil
 }
 
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetAccessAlternateDirectlyParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetAdditionalArchivedLogDestIdParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetAddSupplementalLoggingParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetAllowSelectedNestedTablesParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetArchivedLogDestIdParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetArchivedLogsOnlyParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetAsmPasswordParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetAsmServerParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetAsmUserParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetAuthenticationMethodParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetCharLengthSemanticsParameters(val *string) error {
 	return nil
 }
 
@@ -63,7 +103,87 @@ func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetComplexO
 	return nil
 }
 
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetConvertTimestampWithZoneToUtcParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetDirectPathNoLogParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetDirectPathParallelLoadParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetEnableHomogenousTablespaceParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetExtraArchivedLogDestIdsParameters(val *[]*float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetFailTaskOnLobTruncationParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetInternalValueParameters(val *DmsEndpointOracleSettings) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetNumberDatatypeScaleParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetOpenTransactionWindowParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetOraclePathPrefixParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetParallelAsmReadThreadsParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetReadAheadBlocksParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetReadTableSpaceNameParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetReplacePathPrefixParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetRetryIntervalParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetSecretsManagerOracleAsmAccessRoleArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetSecretsManagerOracleAsmSecretIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetSecurityDbEncryptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetSecurityDbEncryptionNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetSpatialDataOptionToGeoJsonFunctionNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetStandbyDelayTimeParameters(val *float64) error {
 	return nil
 }
 
@@ -72,6 +192,30 @@ func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetTerrafor
 }
 
 func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetTrimSpaceInCharParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetUseAlternateFolderForOnlineParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetUseBfileParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetUseDirectPathFullLoadParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetUseLogminerReaderParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsEndpointOracleSettingsOutputReference) validateSetUsePathPrefixParameters(val *string) error {
 	return nil
 }
 

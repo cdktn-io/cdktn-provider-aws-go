@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/codeartifact_repository_endpoint aws_codeartifact_repository_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/codeartifact_repository_endpoint aws_codeartifact_repository_endpoint}.
 type DataAwsCodeartifactRepositoryEndpoint interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -393,7 +393,7 @@ func (j *jsiiProxy_DataAwsCodeartifactRepositoryEndpoint) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/codeartifact_repository_endpoint aws_codeartifact_repository_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/codeartifact_repository_endpoint aws_codeartifact_repository_endpoint} Data Source.
 func NewDataAwsCodeartifactRepositoryEndpoint(scope constructs.Construct, id *string, config *DataAwsCodeartifactRepositoryEndpointConfig) DataAwsCodeartifactRepositoryEndpoint {
 	_init_.Initialize()
 
@@ -411,7 +411,7 @@ func NewDataAwsCodeartifactRepositoryEndpoint(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/codeartifact_repository_endpoint aws_codeartifact_repository_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/codeartifact_repository_endpoint aws_codeartifact_repository_endpoint} Data Source.
 func NewDataAwsCodeartifactRepositoryEndpoint_Override(d DataAwsCodeartifactRepositoryEndpoint, scope constructs.Construct, id *string, config *DataAwsCodeartifactRepositoryEndpointConfig) {
 	_init_.Initialize()
 

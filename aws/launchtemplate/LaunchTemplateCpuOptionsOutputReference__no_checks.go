@@ -71,6 +71,10 @@ func (j *jsiiProxy_LaunchTemplateCpuOptionsOutputReference) validateSetInternalV
 	return nil
 }
 
+func (j *jsiiProxy_LaunchTemplateCpuOptionsOutputReference) validateSetNestedVirtualizationParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LaunchTemplateCpuOptionsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

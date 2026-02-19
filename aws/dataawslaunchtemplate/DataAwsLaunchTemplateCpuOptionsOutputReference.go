@@ -34,6 +34,7 @@ type DataAwsLaunchTemplateCpuOptionsOutputReference interface {
 	Fqn() *string
 	InternalValue() *DataAwsLaunchTemplateCpuOptions
 	SetInternalValue(val *DataAwsLaunchTemplateCpuOptions)
+	NestedVirtualization() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -147,6 +148,16 @@ func (j *jsiiProxy_DataAwsLaunchTemplateCpuOptionsOutputReference) InternalValue
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsLaunchTemplateCpuOptionsOutputReference) NestedVirtualization() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"nestedVirtualization",
 		&returns,
 	)
 	return returns

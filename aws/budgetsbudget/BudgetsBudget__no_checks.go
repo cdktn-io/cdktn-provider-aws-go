@@ -87,6 +87,10 @@ func (b *jsiiProxy_BudgetsBudget) validatePutCostTypesParameters(value *BudgetsB
 	return nil
 }
 
+func (b *jsiiProxy_BudgetsBudget) validatePutFilterExpressionParameters(value *BudgetsBudgetFilterExpression) error {
+	return nil
+}
+
 func (b *jsiiProxy_BudgetsBudget) validatePutNotificationParameters(value interface{}) error {
 	return nil
 }

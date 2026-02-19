@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/chimesdkvoice_global_settings aws_chimesdkvoice_global_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/chimesdkvoice_global_settings aws_chimesdkvoice_global_settings}.
 type ChimesdkvoiceGlobalSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -333,7 +333,7 @@ func (j *jsiiProxy_ChimesdkvoiceGlobalSettings) VoiceConnectorInput() *Chimesdkv
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/chimesdkvoice_global_settings aws_chimesdkvoice_global_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/chimesdkvoice_global_settings aws_chimesdkvoice_global_settings} Resource.
 func NewChimesdkvoiceGlobalSettings(scope constructs.Construct, id *string, config *ChimesdkvoiceGlobalSettingsConfig) ChimesdkvoiceGlobalSettings {
 	_init_.Initialize()
 
@@ -351,7 +351,7 @@ func NewChimesdkvoiceGlobalSettings(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/chimesdkvoice_global_settings aws_chimesdkvoice_global_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/chimesdkvoice_global_settings aws_chimesdkvoice_global_settings} Resource.
 func NewChimesdkvoiceGlobalSettings_Override(c ChimesdkvoiceGlobalSettings, scope constructs.Construct, id *string, config *ChimesdkvoiceGlobalSettingsConfig) {
 	_init_.Initialize()
 

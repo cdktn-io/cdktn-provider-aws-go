@@ -95,6 +95,10 @@ func (j *jsiiProxy_DmsEndpointMongodbSettingsOutputReference) validateSetTerrafo
 	return nil
 }
 
+func (j *jsiiProxy_DmsEndpointMongodbSettingsOutputReference) validateSetUseUpdateLookupParameters(val interface{}) error {
+	return nil
+}
+
 func validateNewDmsEndpointMongodbSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

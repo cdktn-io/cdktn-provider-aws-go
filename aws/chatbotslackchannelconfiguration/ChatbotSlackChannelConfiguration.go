@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/chatbot_slack_channel_configuration aws_chatbot_slack_channel_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/chatbot_slack_channel_configuration aws_chatbot_slack_channel_configuration}.
 type ChatbotSlackChannelConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -590,7 +590,7 @@ func (j *jsiiProxy_ChatbotSlackChannelConfiguration) UserAuthorizationRequiredIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/chatbot_slack_channel_configuration aws_chatbot_slack_channel_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/chatbot_slack_channel_configuration aws_chatbot_slack_channel_configuration} Resource.
 func NewChatbotSlackChannelConfiguration(scope constructs.Construct, id *string, config *ChatbotSlackChannelConfigurationConfig) ChatbotSlackChannelConfiguration {
 	_init_.Initialize()
 
@@ -608,7 +608,7 @@ func NewChatbotSlackChannelConfiguration(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/chatbot_slack_channel_configuration aws_chatbot_slack_channel_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/chatbot_slack_channel_configuration aws_chatbot_slack_channel_configuration} Resource.
 func NewChatbotSlackChannelConfiguration_Override(c ChatbotSlackChannelConfiguration, scope constructs.Construct, id *string, config *ChatbotSlackChannelConfigurationConfig) {
 	_init_.Initialize()
 

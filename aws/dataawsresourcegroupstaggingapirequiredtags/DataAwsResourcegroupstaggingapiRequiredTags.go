@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/resourcegroupstaggingapi_required_tags aws_resourcegroupstaggingapi_required_tags}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/resourcegroupstaggingapi_required_tags aws_resourcegroupstaggingapi_required_tags}.
 type DataAwsResourcegroupstaggingapiRequiredTags interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataAwsResourcegroupstaggingapiRequiredTags) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/resourcegroupstaggingapi_required_tags aws_resourcegroupstaggingapi_required_tags} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/resourcegroupstaggingapi_required_tags aws_resourcegroupstaggingapi_required_tags} Data Source.
 func NewDataAwsResourcegroupstaggingapiRequiredTags(scope constructs.Construct, id *string, config *DataAwsResourcegroupstaggingapiRequiredTagsConfig) DataAwsResourcegroupstaggingapiRequiredTags {
 	_init_.Initialize()
 
@@ -294,7 +294,7 @@ func NewDataAwsResourcegroupstaggingapiRequiredTags(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/resourcegroupstaggingapi_required_tags aws_resourcegroupstaggingapi_required_tags} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/resourcegroupstaggingapi_required_tags aws_resourcegroupstaggingapi_required_tags} Data Source.
 func NewDataAwsResourcegroupstaggingapiRequiredTags_Override(d DataAwsResourcegroupstaggingapiRequiredTags, scope constructs.Construct, id *string, config *DataAwsResourcegroupstaggingapiRequiredTagsConfig) {
 	_init_.Initialize()
 

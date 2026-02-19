@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/cloudwatch_log_transformer aws_cloudwatch_log_transformer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudwatch_log_transformer aws_cloudwatch_log_transformer}.
 type CloudwatchLogTransformer interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -357,7 +357,7 @@ func (j *jsiiProxy_CloudwatchLogTransformer) TransformerConfigInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/cloudwatch_log_transformer aws_cloudwatch_log_transformer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudwatch_log_transformer aws_cloudwatch_log_transformer} Resource.
 func NewCloudwatchLogTransformer(scope constructs.Construct, id *string, config *CloudwatchLogTransformerConfig) CloudwatchLogTransformer {
 	_init_.Initialize()
 
@@ -375,7 +375,7 @@ func NewCloudwatchLogTransformer(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/cloudwatch_log_transformer aws_cloudwatch_log_transformer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudwatch_log_transformer aws_cloudwatch_log_transformer} Resource.
 func NewCloudwatchLogTransformer_Override(c CloudwatchLogTransformer, scope constructs.Construct, id *string, config *CloudwatchLogTransformerConfig) {
 	_init_.Initialize()
 

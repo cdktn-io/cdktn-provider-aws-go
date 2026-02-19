@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/redshiftserverless_custom_domain_association aws_redshiftserverless_custom_domain_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshiftserverless_custom_domain_association aws_redshiftserverless_custom_domain_association}.
 type RedshiftserverlessCustomDomainAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_RedshiftserverlessCustomDomainAssociation) WorkgroupNameInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/redshiftserverless_custom_domain_association aws_redshiftserverless_custom_domain_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshiftserverless_custom_domain_association aws_redshiftserverless_custom_domain_association} Resource.
 func NewRedshiftserverlessCustomDomainAssociation(scope constructs.Construct, id *string, config *RedshiftserverlessCustomDomainAssociationConfig) RedshiftserverlessCustomDomainAssociation {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewRedshiftserverlessCustomDomainAssociation(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/redshiftserverless_custom_domain_association aws_redshiftserverless_custom_domain_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshiftserverless_custom_domain_association aws_redshiftserverless_custom_domain_association} Resource.
 func NewRedshiftserverlessCustomDomainAssociation_Override(r RedshiftserverlessCustomDomainAssociation, scope constructs.Construct, id *string, config *RedshiftserverlessCustomDomainAssociationConfig) {
 	_init_.Initialize()
 

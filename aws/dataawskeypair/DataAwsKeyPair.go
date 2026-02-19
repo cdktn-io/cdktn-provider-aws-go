@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/key_pair aws_key_pair}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/key_pair aws_key_pair}.
 type DataAwsKeyPair interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -488,7 +488,7 @@ func (j *jsiiProxy_DataAwsKeyPair) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/key_pair aws_key_pair} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/key_pair aws_key_pair} Data Source.
 func NewDataAwsKeyPair(scope constructs.Construct, id *string, config *DataAwsKeyPairConfig) DataAwsKeyPair {
 	_init_.Initialize()
 
@@ -506,7 +506,7 @@ func NewDataAwsKeyPair(scope constructs.Construct, id *string, config *DataAwsKe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/key_pair aws_key_pair} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/key_pair aws_key_pair} Data Source.
 func NewDataAwsKeyPair_Override(d DataAwsKeyPair, scope constructs.Construct, id *string, config *DataAwsKeyPairConfig) {
 	_init_.Initialize()
 

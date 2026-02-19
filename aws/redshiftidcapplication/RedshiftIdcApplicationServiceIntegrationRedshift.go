@@ -7,7 +7,7 @@ package redshiftidcapplication
 type RedshiftIdcApplicationServiceIntegrationRedshift struct {
 	// connect block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/redshift_idc_application#connect RedshiftIdcApplication#connect}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_idc_application#connect RedshiftIdcApplication#connect}
 	Connect interface{} `field:"optional" json:"connect" yaml:"connect"`
 }
 

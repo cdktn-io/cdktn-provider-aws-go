@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/budgets_budget aws_budgets_budget}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/budgets_budget aws_budgets_budget}.
 type BudgetsBudget interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -47,6 +47,8 @@ type BudgetsBudget interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	FilterExpression() BudgetsBudgetFilterExpressionOutputReference
+	FilterExpressionInput() *BudgetsBudgetFilterExpression
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -157,6 +159,7 @@ type BudgetsBudget interface {
 	PutAutoAdjustData(value *BudgetsBudgetAutoAdjustData)
 	PutCostFilter(value interface{})
 	PutCostTypes(value *BudgetsBudgetCostTypes)
+	PutFilterExpression(value *BudgetsBudgetFilterExpression)
 	PutNotification(value interface{})
 	PutPlannedLimit(value interface{})
 	ResetAccountId()
@@ -164,6 +167,7 @@ type BudgetsBudget interface {
 	ResetBillingViewArn()
 	ResetCostFilter()
 	ResetCostTypes()
+	ResetFilterExpression()
 	ResetId()
 	ResetLimitAmount()
 	ResetLimitUnit()
@@ -371,6 +375,26 @@ func (j *jsiiProxy_BudgetsBudget) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BudgetsBudget) FilterExpression() BudgetsBudgetFilterExpressionOutputReference {
+	var returns BudgetsBudgetFilterExpressionOutputReference
+	_jsii_.Get(
+		j,
+		"filterExpression",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BudgetsBudget) FilterExpressionInput() *BudgetsBudgetFilterExpression {
+	var returns *BudgetsBudgetFilterExpression
+	_jsii_.Get(
+		j,
+		"filterExpressionInput",
 		&returns,
 	)
 	return returns
@@ -727,7 +751,7 @@ func (j *jsiiProxy_BudgetsBudget) TimeUnitInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/budgets_budget aws_budgets_budget} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/budgets_budget aws_budgets_budget} Resource.
 func NewBudgetsBudget(scope constructs.Construct, id *string, config *BudgetsBudgetConfig) BudgetsBudget {
 	_init_.Initialize()
 
@@ -745,7 +769,7 @@ func NewBudgetsBudget(scope constructs.Construct, id *string, config *BudgetsBud
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/budgets_budget aws_budgets_budget} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/budgets_budget aws_budgets_budget} Resource.
 func NewBudgetsBudget_Override(b BudgetsBudget, scope constructs.Construct, id *string, config *BudgetsBudgetConfig) {
 	_init_.Initialize()
 
@@ -1353,6 +1377,17 @@ func (b *jsiiProxy_BudgetsBudget) PutCostTypes(value *BudgetsBudgetCostTypes) {
 	)
 }
 
+func (b *jsiiProxy_BudgetsBudget) PutFilterExpression(value *BudgetsBudgetFilterExpression) {
+	if err := b.validatePutFilterExpressionParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putFilterExpression",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BudgetsBudget) PutNotification(value interface{}) {
 	if err := b.validatePutNotificationParameters(value); err != nil {
 		panic(err)
@@ -1411,6 +1446,14 @@ func (b *jsiiProxy_BudgetsBudget) ResetCostTypes() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetCostTypes",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BudgetsBudget) ResetFilterExpression() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetFilterExpression",
 		nil, // no parameters
 	)
 }

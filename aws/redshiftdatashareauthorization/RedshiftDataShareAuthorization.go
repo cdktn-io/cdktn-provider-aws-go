@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/redshift_data_share_authorization aws_redshift_data_share_authorization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_data_share_authorization aws_redshift_data_share_authorization}.
 type RedshiftDataShareAuthorization interface {
 	cdktn.TerraformResource
 	AllowWrites() interface{}
@@ -413,7 +413,7 @@ func (j *jsiiProxy_RedshiftDataShareAuthorization) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/redshift_data_share_authorization aws_redshift_data_share_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_data_share_authorization aws_redshift_data_share_authorization} Resource.
 func NewRedshiftDataShareAuthorization(scope constructs.Construct, id *string, config *RedshiftDataShareAuthorizationConfig) RedshiftDataShareAuthorization {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewRedshiftDataShareAuthorization(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/redshift_data_share_authorization aws_redshift_data_share_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_data_share_authorization aws_redshift_data_share_authorization} Resource.
 func NewRedshiftDataShareAuthorization_Override(r RedshiftDataShareAuthorization, scope constructs.Construct, id *string, config *RedshiftDataShareAuthorizationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/appintegrations_data_integration aws_appintegrations_data_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appintegrations_data_integration aws_appintegrations_data_integration}.
 type AppintegrationsDataIntegration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -509,7 +509,7 @@ func (j *jsiiProxy_AppintegrationsDataIntegration) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/appintegrations_data_integration aws_appintegrations_data_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appintegrations_data_integration aws_appintegrations_data_integration} Resource.
 func NewAppintegrationsDataIntegration(scope constructs.Construct, id *string, config *AppintegrationsDataIntegrationConfig) AppintegrationsDataIntegration {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewAppintegrationsDataIntegration(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/appintegrations_data_integration aws_appintegrations_data_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appintegrations_data_integration aws_appintegrations_data_integration} Resource.
 func NewAppintegrationsDataIntegration_Override(a AppintegrationsDataIntegration, scope constructs.Construct, id *string, config *AppintegrationsDataIntegrationConfig) {
 	_init_.Initialize()
 

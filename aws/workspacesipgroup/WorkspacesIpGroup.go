@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/workspaces_ip_group aws_workspaces_ip_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspaces_ip_group aws_workspaces_ip_group}.
 type WorkspacesIpGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -453,7 +453,7 @@ func (j *jsiiProxy_WorkspacesIpGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/workspaces_ip_group aws_workspaces_ip_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspaces_ip_group aws_workspaces_ip_group} Resource.
 func NewWorkspacesIpGroup(scope constructs.Construct, id *string, config *WorkspacesIpGroupConfig) WorkspacesIpGroup {
 	_init_.Initialize()
 
@@ -471,7 +471,7 @@ func NewWorkspacesIpGroup(scope constructs.Construct, id *string, config *Worksp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/workspaces_ip_group aws_workspaces_ip_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspaces_ip_group aws_workspaces_ip_group} Resource.
 func NewWorkspacesIpGroup_Override(w WorkspacesIpGroup, scope constructs.Construct, id *string, config *WorkspacesIpGroupConfig) {
 	_init_.Initialize()
 
