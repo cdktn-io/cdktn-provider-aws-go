@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_data_share_consumer_association aws_redshift_data_share_consumer_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshift_data_share_consumer_association aws_redshift_data_share_consumer_association}.
 type RedshiftDataShareConsumerAssociation interface {
 	cdktn.TerraformResource
 	AllowWrites() interface{}
@@ -144,6 +144,15 @@ type RedshiftDataShareConsumerAssociation interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for RedshiftDataShareConsumerAssociation
@@ -462,7 +471,7 @@ func (j *jsiiProxy_RedshiftDataShareConsumerAssociation) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_data_share_consumer_association aws_redshift_data_share_consumer_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshift_data_share_consumer_association aws_redshift_data_share_consumer_association} Resource.
 func NewRedshiftDataShareConsumerAssociation(scope constructs.Construct, id *string, config *RedshiftDataShareConsumerAssociationConfig) RedshiftDataShareConsumerAssociation {
 	_init_.Initialize()
 
@@ -480,7 +489,7 @@ func NewRedshiftDataShareConsumerAssociation(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_data_share_consumer_association aws_redshift_data_share_consumer_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshift_data_share_consumer_association aws_redshift_data_share_consumer_association} Resource.
 func NewRedshiftDataShareConsumerAssociation_Override(r RedshiftDataShareConsumerAssociation, scope constructs.Construct, id *string, config *RedshiftDataShareConsumerAssociationConfig) {
 	_init_.Initialize()
 
@@ -1098,6 +1107,24 @@ func (r *jsiiProxy_RedshiftDataShareConsumerAssociation) ToTerraform() interface
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_RedshiftDataShareConsumerAssociation) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

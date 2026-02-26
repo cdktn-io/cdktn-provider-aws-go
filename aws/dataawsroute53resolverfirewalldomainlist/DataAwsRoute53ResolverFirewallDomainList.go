@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/route53_resolver_firewall_domain_list aws_route53_resolver_firewall_domain_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/route53_resolver_firewall_domain_list aws_route53_resolver_firewall_domain_list}.
 type DataAwsRoute53ResolverFirewallDomainList interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -113,6 +113,15 @@ type DataAwsRoute53ResolverFirewallDomainList interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsRoute53ResolverFirewallDomainList
@@ -411,7 +420,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverFirewallDomainList) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/route53_resolver_firewall_domain_list aws_route53_resolver_firewall_domain_list} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/route53_resolver_firewall_domain_list aws_route53_resolver_firewall_domain_list} Data Source.
 func NewDataAwsRoute53ResolverFirewallDomainList(scope constructs.Construct, id *string, config *DataAwsRoute53ResolverFirewallDomainListConfig) DataAwsRoute53ResolverFirewallDomainList {
 	_init_.Initialize()
 
@@ -429,7 +438,7 @@ func NewDataAwsRoute53ResolverFirewallDomainList(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/route53_resolver_firewall_domain_list aws_route53_resolver_firewall_domain_list} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/route53_resolver_firewall_domain_list aws_route53_resolver_firewall_domain_list} Data Source.
 func NewDataAwsRoute53ResolverFirewallDomainList_Override(d DataAwsRoute53ResolverFirewallDomainList, scope constructs.Construct, id *string, config *DataAwsRoute53ResolverFirewallDomainListConfig) {
 	_init_.Initialize()
 
@@ -900,6 +909,24 @@ func (d *jsiiProxy_DataAwsRoute53ResolverFirewallDomainList) ToTerraform() inter
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsRoute53ResolverFirewallDomainList) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema}.
 type VerifiedpermissionsSchema interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -131,6 +131,15 @@ type VerifiedpermissionsSchema interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for VerifiedpermissionsSchema
@@ -379,7 +388,7 @@ func (j *jsiiProxy_VerifiedpermissionsSchema) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema} Resource.
 func NewVerifiedpermissionsSchema(scope constructs.Construct, id *string, config *VerifiedpermissionsSchemaConfig) VerifiedpermissionsSchema {
 	_init_.Initialize()
 
@@ -397,7 +406,7 @@ func NewVerifiedpermissionsSchema(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema} Resource.
 func NewVerifiedpermissionsSchema_Override(v VerifiedpermissionsSchema, scope constructs.Construct, id *string, config *VerifiedpermissionsSchemaConfig) {
 	_init_.Initialize()
 
@@ -958,6 +967,24 @@ func (v *jsiiProxy_VerifiedpermissionsSchema) ToTerraform() interface{} {
 		v,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VerifiedpermissionsSchema) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		v,
+		"with",
+		args,
 		&returns,
 	)
 

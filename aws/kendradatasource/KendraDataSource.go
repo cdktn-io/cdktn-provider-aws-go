@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kendra_data_source aws_kendra_data_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kendra_data_source aws_kendra_data_source}.
 type KendraDataSource interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -177,6 +177,15 @@ type KendraDataSource interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for KendraDataSource
@@ -685,7 +694,7 @@ func (j *jsiiProxy_KendraDataSource) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kendra_data_source aws_kendra_data_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kendra_data_source aws_kendra_data_source} Resource.
 func NewKendraDataSource(scope constructs.Construct, id *string, config *KendraDataSourceConfig) KendraDataSource {
 	_init_.Initialize()
 
@@ -703,7 +712,7 @@ func NewKendraDataSource(scope constructs.Construct, id *string, config *KendraD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kendra_data_source aws_kendra_data_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kendra_data_source aws_kendra_data_source} Resource.
 func NewKendraDataSource_Override(k KendraDataSource, scope constructs.Construct, id *string, config *KendraDataSourceConfig) {
 	_init_.Initialize()
 
@@ -1457,6 +1466,24 @@ func (k *jsiiProxy_KendraDataSource) ToTerraform() interface{} {
 		k,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (k *jsiiProxy_KendraDataSource) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		k,
+		"with",
+		args,
 		&returns,
 	)
 

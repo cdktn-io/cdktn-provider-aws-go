@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/emr_studio aws_emr_studio}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/emr_studio aws_emr_studio}.
 type EmrStudio interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -180,6 +180,15 @@ type EmrStudio interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EmrStudio
@@ -708,7 +717,7 @@ func (j *jsiiProxy_EmrStudio) WorkspaceSecurityGroupIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/emr_studio aws_emr_studio} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/emr_studio aws_emr_studio} Resource.
 func NewEmrStudio(scope constructs.Construct, id *string, config *EmrStudioConfig) EmrStudio {
 	_init_.Initialize()
 
@@ -726,7 +735,7 @@ func NewEmrStudio(scope constructs.Construct, id *string, config *EmrStudioConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/emr_studio aws_emr_studio} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/emr_studio aws_emr_studio} Resource.
 func NewEmrStudio_Override(e EmrStudio, scope constructs.Construct, id *string, config *EmrStudioConfig) {
 	_init_.Initialize()
 
@@ -1497,6 +1506,24 @@ func (e *jsiiProxy_EmrStudio) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EmrStudio) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

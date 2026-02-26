@@ -148,6 +148,17 @@ func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) validatePutMonit
 	return nil
 }
 
+func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) validatePutQueryResultsS3AccessGrantsConfigurationParameters(value *AthenaWorkgroupConfigurationQueryResultsS3AccessGrantsConfiguration) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) validatePutResultConfigurationParameters(value *AthenaWorkgroupConfigurationResultConfiguration) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

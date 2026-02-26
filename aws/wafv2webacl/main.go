@@ -118,6 +118,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "visibilityConfig", GoGetter: "VisibilityConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "visibilityConfigInput", GoGetter: "VisibilityConfigInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_Wafv2WebAcl{}

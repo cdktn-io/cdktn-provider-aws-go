@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/prometheus_workspaces aws_prometheus_workspaces}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/prometheus_workspaces aws_prometheus_workspaces}.
 type DataAwsPrometheusWorkspaces interface {
 	cdktn.TerraformDataSource
 	Aliases() *[]*string
@@ -108,6 +108,15 @@ type DataAwsPrometheusWorkspaces interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsPrometheusWorkspaces
@@ -346,7 +355,7 @@ func (j *jsiiProxy_DataAwsPrometheusWorkspaces) WorkspaceIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/prometheus_workspaces aws_prometheus_workspaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/prometheus_workspaces aws_prometheus_workspaces} Data Source.
 func NewDataAwsPrometheusWorkspaces(scope constructs.Construct, id *string, config *DataAwsPrometheusWorkspacesConfig) DataAwsPrometheusWorkspaces {
 	_init_.Initialize()
 
@@ -364,7 +373,7 @@ func NewDataAwsPrometheusWorkspaces(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/prometheus_workspaces aws_prometheus_workspaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/prometheus_workspaces aws_prometheus_workspaces} Data Source.
 func NewDataAwsPrometheusWorkspaces_Override(d DataAwsPrometheusWorkspaces, scope constructs.Construct, id *string, config *DataAwsPrometheusWorkspacesConfig) {
 	_init_.Initialize()
 
@@ -843,6 +852,24 @@ func (d *jsiiProxy_DataAwsPrometheusWorkspaces) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsPrometheusWorkspaces) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

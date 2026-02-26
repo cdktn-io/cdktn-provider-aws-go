@@ -81,6 +81,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vnic2Id", GoGetter: "Vnic2Id"},
 			_jsii_.MemberProperty{JsiiProperty: "vnicId", GoGetter: "VnicId"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsOdbDbNode{}

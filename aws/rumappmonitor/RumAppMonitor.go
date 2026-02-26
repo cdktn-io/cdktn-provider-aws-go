@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/rum_app_monitor aws_rum_app_monitor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/rum_app_monitor aws_rum_app_monitor}.
 type RumAppMonitor interface {
 	cdktn.TerraformResource
 	AppMonitorConfiguration() RumAppMonitorAppMonitorConfigurationOutputReference
@@ -160,6 +160,15 @@ type RumAppMonitor interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for RumAppMonitor
@@ -558,7 +567,7 @@ func (j *jsiiProxy_RumAppMonitor) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/rum_app_monitor aws_rum_app_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/rum_app_monitor aws_rum_app_monitor} Resource.
 func NewRumAppMonitor(scope constructs.Construct, id *string, config *RumAppMonitorConfig) RumAppMonitor {
 	_init_.Initialize()
 
@@ -576,7 +585,7 @@ func NewRumAppMonitor(scope constructs.Construct, id *string, config *RumAppMoni
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/rum_app_monitor aws_rum_app_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/rum_app_monitor aws_rum_app_monitor} Resource.
 func NewRumAppMonitor_Override(r RumAppMonitor, scope constructs.Construct, id *string, config *RumAppMonitorConfig) {
 	_init_.Initialize()
 
@@ -1270,6 +1279,24 @@ func (r *jsiiProxy_RumAppMonitor) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_RumAppMonitor) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

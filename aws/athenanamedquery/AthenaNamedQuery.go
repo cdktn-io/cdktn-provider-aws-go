@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/athena_named_query aws_athena_named_query}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/athena_named_query aws_athena_named_query}.
 type AthenaNamedQuery interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -143,6 +143,15 @@ type AthenaNamedQuery interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AthenaNamedQuery
@@ -451,7 +460,7 @@ func (j *jsiiProxy_AthenaNamedQuery) WorkgroupInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/athena_named_query aws_athena_named_query} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/athena_named_query aws_athena_named_query} Resource.
 func NewAthenaNamedQuery(scope constructs.Construct, id *string, config *AthenaNamedQueryConfig) AthenaNamedQuery {
 	_init_.Initialize()
 
@@ -469,7 +478,7 @@ func NewAthenaNamedQuery(scope constructs.Construct, id *string, config *AthenaN
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/athena_named_query aws_athena_named_query} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/athena_named_query aws_athena_named_query} Resource.
 func NewAthenaNamedQuery_Override(a AthenaNamedQuery, scope constructs.Construct, id *string, config *AthenaNamedQueryConfig) {
 	_init_.Initialize()
 
@@ -1090,6 +1099,24 @@ func (a *jsiiProxy_AthenaNamedQuery) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AthenaNamedQuery) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/emr_cluster aws_emr_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/emr_cluster aws_emr_cluster}.
 type EmrCluster interface {
 	cdktn.TerraformResource
 	AdditionalInfo() *string
@@ -258,6 +258,15 @@ type EmrCluster interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EmrCluster
@@ -1156,7 +1165,7 @@ func (j *jsiiProxy_EmrCluster) VisibleToAllUsersInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/emr_cluster aws_emr_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/emr_cluster aws_emr_cluster} Resource.
 func NewEmrCluster(scope constructs.Construct, id *string, config *EmrClusterConfig) EmrCluster {
 	_init_.Initialize()
 
@@ -1174,7 +1183,7 @@ func NewEmrCluster(scope constructs.Construct, id *string, config *EmrClusterCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/emr_cluster aws_emr_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/emr_cluster aws_emr_cluster} Resource.
 func NewEmrCluster_Override(e EmrCluster, scope constructs.Construct, id *string, config *EmrClusterConfig) {
 	_init_.Initialize()
 
@@ -2327,6 +2336,24 @@ func (e *jsiiProxy_EmrCluster) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EmrCluster) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

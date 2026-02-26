@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/evidently_project aws_evidently_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/evidently_project aws_evidently_project}.
 type EvidentlyProject interface {
 	cdktn.TerraformResource
 	ActiveExperimentCount() *float64
@@ -158,6 +158,15 @@ type EvidentlyProject interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EvidentlyProject
@@ -576,7 +585,7 @@ func (j *jsiiProxy_EvidentlyProject) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/evidently_project aws_evidently_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/evidently_project aws_evidently_project} Resource.
 func NewEvidentlyProject(scope constructs.Construct, id *string, config *EvidentlyProjectConfig) EvidentlyProject {
 	_init_.Initialize()
 
@@ -594,7 +603,7 @@ func NewEvidentlyProject(scope constructs.Construct, id *string, config *Evident
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/evidently_project aws_evidently_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/evidently_project aws_evidently_project} Resource.
 func NewEvidentlyProject_Override(e EvidentlyProject, scope constructs.Construct, id *string, config *EvidentlyProjectConfig) {
 	_init_.Initialize()
 
@@ -1250,6 +1259,24 @@ func (e *jsiiProxy_EvidentlyProject) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EvidentlyProject) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

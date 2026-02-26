@@ -92,6 +92,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
 			_jsii_.MemberProperty{JsiiProperty: "versionToken", GoGetter: "VersionToken"},
 			_jsii_.MemberProperty{JsiiProperty: "warehouseLocation", GoGetter: "WarehouseLocation"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_S3TablesTable{}

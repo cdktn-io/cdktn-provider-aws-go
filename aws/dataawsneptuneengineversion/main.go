@@ -96,6 +96,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionActual", GoGetter: "VersionActual"},
 			_jsii_.MemberProperty{JsiiProperty: "versionDescription", GoGetter: "VersionDescription"},
 			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsNeptuneEngineVersion{}

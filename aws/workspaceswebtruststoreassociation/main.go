@@ -62,6 +62,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "trustStoreArn", GoGetter: "TrustStoreArn"},
 			_jsii_.MemberProperty{JsiiProperty: "trustStoreArnInput", GoGetter: "TrustStoreArnInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkspaceswebTrustStoreAssociation{}

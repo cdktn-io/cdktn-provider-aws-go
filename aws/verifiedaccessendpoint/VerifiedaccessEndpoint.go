@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint}.
 type VerifiedaccessEndpoint interface {
 	cdktn.TerraformResource
 	ApplicationDomain() *string
@@ -194,6 +194,15 @@ type VerifiedaccessEndpoint interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for VerifiedaccessEndpoint
@@ -772,7 +781,7 @@ func (j *jsiiProxy_VerifiedaccessEndpoint) VerifiedAccessInstanceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint} Resource.
 func NewVerifiedaccessEndpoint(scope constructs.Construct, id *string, config *VerifiedaccessEndpointConfig) VerifiedaccessEndpoint {
 	_init_.Initialize()
 
@@ -790,7 +799,7 @@ func NewVerifiedaccessEndpoint(scope constructs.Construct, id *string, config *V
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint} Resource.
 func NewVerifiedaccessEndpoint_Override(v VerifiedaccessEndpoint, scope constructs.Construct, id *string, config *VerifiedaccessEndpointConfig) {
 	_init_.Initialize()
 
@@ -1639,6 +1648,24 @@ func (v *jsiiProxy_VerifiedaccessEndpoint) ToTerraform() interface{} {
 		v,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VerifiedaccessEndpoint) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		v,
+		"with",
+		args,
 		&returns,
 	)
 

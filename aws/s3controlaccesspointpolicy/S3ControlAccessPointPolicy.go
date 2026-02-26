@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3control_access_point_policy aws_s3control_access_point_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3control_access_point_policy aws_s3control_access_point_policy}.
 type S3ControlAccessPointPolicy interface {
 	cdktn.TerraformResource
 	AccessPointArn() *string
@@ -133,6 +133,15 @@ type S3ControlAccessPointPolicy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for S3ControlAccessPointPolicy
@@ -391,7 +400,7 @@ func (j *jsiiProxy_S3ControlAccessPointPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3control_access_point_policy aws_s3control_access_point_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3control_access_point_policy aws_s3control_access_point_policy} Resource.
 func NewS3ControlAccessPointPolicy(scope constructs.Construct, id *string, config *S3ControlAccessPointPolicyConfig) S3ControlAccessPointPolicy {
 	_init_.Initialize()
 
@@ -409,7 +418,7 @@ func NewS3ControlAccessPointPolicy(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3control_access_point_policy aws_s3control_access_point_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3control_access_point_policy aws_s3control_access_point_policy} Resource.
 func NewS3ControlAccessPointPolicy_Override(s S3ControlAccessPointPolicy, scope constructs.Construct, id *string, config *S3ControlAccessPointPolicyConfig) {
 	_init_.Initialize()
 
@@ -981,6 +990,24 @@ func (s *jsiiProxy_S3ControlAccessPointPolicy) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_S3ControlAccessPointPolicy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

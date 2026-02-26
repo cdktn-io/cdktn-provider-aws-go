@@ -70,6 +70,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualRouterName", GoGetter: "VirtualRouterName"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualRouterNameInput", GoGetter: "VirtualRouterNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAppmeshRoute{}

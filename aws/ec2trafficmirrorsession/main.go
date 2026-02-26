@@ -86,6 +86,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trafficMirrorTargetIdInput", GoGetter: "TrafficMirrorTargetIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkId", GoGetter: "VirtualNetworkId"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkIdInput", GoGetter: "VirtualNetworkIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_Ec2TrafficMirrorSession{}

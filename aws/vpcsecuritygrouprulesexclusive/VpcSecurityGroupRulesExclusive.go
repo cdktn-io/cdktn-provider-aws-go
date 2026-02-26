@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_security_group_rules_exclusive aws_vpc_security_group_rules_exclusive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpc_security_group_rules_exclusive aws_vpc_security_group_rules_exclusive}.
 type VpcSecurityGroupRulesExclusive interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -131,6 +131,15 @@ type VpcSecurityGroupRulesExclusive interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for VpcSecurityGroupRulesExclusive
@@ -379,7 +388,7 @@ func (j *jsiiProxy_VpcSecurityGroupRulesExclusive) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_security_group_rules_exclusive aws_vpc_security_group_rules_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpc_security_group_rules_exclusive aws_vpc_security_group_rules_exclusive} Resource.
 func NewVpcSecurityGroupRulesExclusive(scope constructs.Construct, id *string, config *VpcSecurityGroupRulesExclusiveConfig) VpcSecurityGroupRulesExclusive {
 	_init_.Initialize()
 
@@ -397,7 +406,7 @@ func NewVpcSecurityGroupRulesExclusive(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_security_group_rules_exclusive aws_vpc_security_group_rules_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpc_security_group_rules_exclusive aws_vpc_security_group_rules_exclusive} Resource.
 func NewVpcSecurityGroupRulesExclusive_Override(v VpcSecurityGroupRulesExclusive, scope constructs.Construct, id *string, config *VpcSecurityGroupRulesExclusiveConfig) {
 	_init_.Initialize()
 
@@ -961,6 +970,24 @@ func (v *jsiiProxy_VpcSecurityGroupRulesExclusive) ToTerraform() interface{} {
 		v,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpcSecurityGroupRulesExclusive) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		v,
+		"with",
+		args,
 		&returns,
 	)
 

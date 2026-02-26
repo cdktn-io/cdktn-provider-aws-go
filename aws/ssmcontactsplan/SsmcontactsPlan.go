@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssmcontacts_plan aws_ssmcontacts_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssmcontacts_plan aws_ssmcontacts_plan}.
 type SsmcontactsPlan interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -132,6 +132,15 @@ type SsmcontactsPlan interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SsmcontactsPlan
@@ -380,7 +389,7 @@ func (j *jsiiProxy_SsmcontactsPlan) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssmcontacts_plan aws_ssmcontacts_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssmcontacts_plan aws_ssmcontacts_plan} Resource.
 func NewSsmcontactsPlan(scope constructs.Construct, id *string, config *SsmcontactsPlanConfig) SsmcontactsPlan {
 	_init_.Initialize()
 
@@ -398,7 +407,7 @@ func NewSsmcontactsPlan(scope constructs.Construct, id *string, config *Ssmconta
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssmcontacts_plan aws_ssmcontacts_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssmcontacts_plan aws_ssmcontacts_plan} Resource.
 func NewSsmcontactsPlan_Override(s SsmcontactsPlan, scope constructs.Construct, id *string, config *SsmcontactsPlanConfig) {
 	_init_.Initialize()
 
@@ -970,6 +979,24 @@ func (s *jsiiProxy_SsmcontactsPlan) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SsmcontactsPlan) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

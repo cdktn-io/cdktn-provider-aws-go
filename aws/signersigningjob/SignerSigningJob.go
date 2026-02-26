@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/signer_signing_job aws_signer_signing_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/signer_signing_job aws_signer_signing_job}.
 type SignerSigningJob interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -153,6 +153,15 @@ type SignerSigningJob interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SignerSigningJob
@@ -581,7 +590,7 @@ func (j *jsiiProxy_SignerSigningJob) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/signer_signing_job aws_signer_signing_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/signer_signing_job aws_signer_signing_job} Resource.
 func NewSignerSigningJob(scope constructs.Construct, id *string, config *SignerSigningJobConfig) SignerSigningJob {
 	_init_.Initialize()
 
@@ -599,7 +608,7 @@ func NewSignerSigningJob(scope constructs.Construct, id *string, config *SignerS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/signer_signing_job aws_signer_signing_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/signer_signing_job aws_signer_signing_job} Resource.
 func NewSignerSigningJob_Override(s SignerSigningJob, scope constructs.Construct, id *string, config *SignerSigningJobConfig) {
 	_init_.Initialize()
 
@@ -1201,6 +1210,24 @@ func (s *jsiiProxy_SignerSigningJob) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SignerSigningJob) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

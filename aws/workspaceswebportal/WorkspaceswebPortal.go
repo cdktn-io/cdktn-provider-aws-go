@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal}.
 type WorkspaceswebPortal interface {
 	cdktn.TerraformResource
 	AdditionalEncryptionContext() *map[string]*string
@@ -173,6 +173,15 @@ type WorkspaceswebPortal interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for WorkspaceswebPortal
@@ -691,7 +700,7 @@ func (j *jsiiProxy_WorkspaceswebPortal) UserSettingsArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal} Resource.
 func NewWorkspaceswebPortal(scope constructs.Construct, id *string, config *WorkspaceswebPortalConfig) WorkspaceswebPortal {
 	_init_.Initialize()
 
@@ -709,7 +718,7 @@ func NewWorkspaceswebPortal(scope constructs.Construct, id *string, config *Work
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal} Resource.
 func NewWorkspaceswebPortal_Override(w WorkspaceswebPortal, scope constructs.Construct, id *string, config *WorkspaceswebPortalConfig) {
 	_init_.Initialize()
 
@@ -1411,6 +1420,24 @@ func (w *jsiiProxy_WorkspaceswebPortal) ToTerraform() interface{} {
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkspaceswebPortal) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -89,6 +89,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "userAuthorizationRequired", GoGetter: "UserAuthorizationRequired"},
 			_jsii_.MemberProperty{JsiiProperty: "userAuthorizationRequiredInput", GoGetter: "UserAuthorizationRequiredInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ChatbotSlackChannelConfiguration{}

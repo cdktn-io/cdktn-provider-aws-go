@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/datapipeline_pipeline aws_datapipeline_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/datapipeline_pipeline aws_datapipeline_pipeline}.
 type DataAwsDatapipelinePipeline interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -110,6 +110,15 @@ type DataAwsDatapipelinePipeline interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsDatapipelinePipeline
@@ -358,7 +367,7 @@ func (j *jsiiProxy_DataAwsDatapipelinePipeline) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/datapipeline_pipeline aws_datapipeline_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/datapipeline_pipeline aws_datapipeline_pipeline} Data Source.
 func NewDataAwsDatapipelinePipeline(scope constructs.Construct, id *string, config *DataAwsDatapipelinePipelineConfig) DataAwsDatapipelinePipeline {
 	_init_.Initialize()
 
@@ -376,7 +385,7 @@ func NewDataAwsDatapipelinePipeline(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/datapipeline_pipeline aws_datapipeline_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/datapipeline_pipeline aws_datapipeline_pipeline} Data Source.
 func NewDataAwsDatapipelinePipeline_Override(d DataAwsDatapipelinePipeline, scope constructs.Construct, id *string, config *DataAwsDatapipelinePipelineConfig) {
 	_init_.Initialize()
 
@@ -866,6 +875,24 @@ func (d *jsiiProxy_DataAwsDatapipelinePipeline) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsDatapipelinePipeline) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

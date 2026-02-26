@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrock_custom_model aws_bedrock_custom_model}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrock_custom_model aws_bedrock_custom_model}.
 type BedrockCustomModel interface {
 	cdktn.TerraformResource
 	BaseModelIdentifier() *string
@@ -176,6 +176,15 @@ type BedrockCustomModel interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for BedrockCustomModel
@@ -694,7 +703,7 @@ func (j *jsiiProxy_BedrockCustomModel) VpcConfigInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrock_custom_model aws_bedrock_custom_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrock_custom_model aws_bedrock_custom_model} Resource.
 func NewBedrockCustomModel(scope constructs.Construct, id *string, config *BedrockCustomModelConfig) BedrockCustomModel {
 	_init_.Initialize()
 
@@ -712,7 +721,7 @@ func NewBedrockCustomModel(scope constructs.Construct, id *string, config *Bedro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrock_custom_model aws_bedrock_custom_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrock_custom_model aws_bedrock_custom_model} Resource.
 func NewBedrockCustomModel_Override(b BedrockCustomModel, scope constructs.Construct, id *string, config *BedrockCustomModelConfig) {
 	_init_.Initialize()
 
@@ -1450,6 +1459,24 @@ func (b *jsiiProxy_BedrockCustomModel) ToTerraform() interface{} {
 		b,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (b *jsiiProxy_BedrockCustomModel) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		b,
+		"with",
+		args,
 		&returns,
 	)
 

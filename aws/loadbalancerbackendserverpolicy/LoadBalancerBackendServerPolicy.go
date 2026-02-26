@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/load_balancer_backend_server_policy aws_load_balancer_backend_server_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/load_balancer_backend_server_policy aws_load_balancer_backend_server_policy}.
 type LoadBalancerBackendServerPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -136,6 +136,15 @@ type LoadBalancerBackendServerPolicy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LoadBalancerBackendServerPolicy
@@ -404,7 +413,7 @@ func (j *jsiiProxy_LoadBalancerBackendServerPolicy) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/load_balancer_backend_server_policy aws_load_balancer_backend_server_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/load_balancer_backend_server_policy aws_load_balancer_backend_server_policy} Resource.
 func NewLoadBalancerBackendServerPolicy(scope constructs.Construct, id *string, config *LoadBalancerBackendServerPolicyConfig) LoadBalancerBackendServerPolicy {
 	_init_.Initialize()
 
@@ -422,7 +431,7 @@ func NewLoadBalancerBackendServerPolicy(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/load_balancer_backend_server_policy aws_load_balancer_backend_server_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/load_balancer_backend_server_policy aws_load_balancer_backend_server_policy} Resource.
 func NewLoadBalancerBackendServerPolicy_Override(l LoadBalancerBackendServerPolicy, scope constructs.Construct, id *string, config *LoadBalancerBackendServerPolicyConfig) {
 	_init_.Initialize()
 
@@ -1013,6 +1022,24 @@ func (l *jsiiProxy_LoadBalancerBackendServerPolicy) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LoadBalancerBackendServerPolicy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

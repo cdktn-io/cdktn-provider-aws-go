@@ -75,6 +75,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "useServiceLinkedRole", GoGetter: "UseServiceLinkedRole"},
 			_jsii_.MemberProperty{JsiiProperty: "useServiceLinkedRoleInput", GoGetter: "UseServiceLinkedRoleInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "withFederation", GoGetter: "WithFederation"},
 			_jsii_.MemberProperty{JsiiProperty: "withFederationInput", GoGetter: "WithFederationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "withPrivilegedAccess", GoGetter: "WithPrivilegedAccess"},

@@ -80,6 +80,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "verificationStatus", GoGetter: "VerificationStatus"},
 			_jsii_.MemberProperty{JsiiProperty: "verifiedForSendingStatus", GoGetter: "VerifiedForSendingStatus"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_Sesv2EmailIdentity{}

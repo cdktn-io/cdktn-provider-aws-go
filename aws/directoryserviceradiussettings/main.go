@@ -84,6 +84,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "useSameUsername", GoGetter: "UseSameUsername"},
 			_jsii_.MemberProperty{JsiiProperty: "useSameUsernameInput", GoGetter: "UseSameUsernameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DirectoryServiceRadiusSettings{}

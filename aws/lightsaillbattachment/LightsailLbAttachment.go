@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment}.
 type LightsailLbAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -132,6 +132,15 @@ type LightsailLbAttachment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LightsailLbAttachment
@@ -380,7 +389,7 @@ func (j *jsiiProxy_LightsailLbAttachment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment} Resource.
 func NewLightsailLbAttachment(scope constructs.Construct, id *string, config *LightsailLbAttachmentConfig) LightsailLbAttachment {
 	_init_.Initialize()
 
@@ -398,7 +407,7 @@ func NewLightsailLbAttachment(scope constructs.Construct, id *string, config *Li
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment} Resource.
 func NewLightsailLbAttachment_Override(l LightsailLbAttachment, scope constructs.Construct, id *string, config *LightsailLbAttachmentConfig) {
 	_init_.Initialize()
 
@@ -970,6 +979,24 @@ func (l *jsiiProxy_LightsailLbAttachment) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LightsailLbAttachment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

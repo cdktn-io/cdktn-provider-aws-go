@@ -113,6 +113,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "version", GoGetter: "Version"},
 			_jsii_.MemberProperty{JsiiProperty: "voiceId", GoGetter: "VoiceId"},
 			_jsii_.MemberProperty{JsiiProperty: "voiceIdInput", GoGetter: "VoiceIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_LexBot{}

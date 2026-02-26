@@ -255,6 +255,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcSecurityGroupIdsInput", GoGetter: "VpcSecurityGroupIdsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForFulfillment", GoGetter: "WaitForFulfillment"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForFulfillmentInput", GoGetter: "WaitForFulfillmentInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_SpotInstanceRequest{}

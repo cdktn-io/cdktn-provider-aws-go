@@ -272,6 +272,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "upgradeRolloutOrder", GoGetter: "UpgradeRolloutOrder"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcSecurityGroupIds", GoGetter: "VpcSecurityGroupIds"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcSecurityGroupIdsInput", GoGetter: "VpcSecurityGroupIdsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_RdsCluster{}

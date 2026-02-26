@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/evidently_feature aws_evidently_feature}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/evidently_feature aws_evidently_feature}.
 type EvidentlyFeature interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -169,6 +169,15 @@ type EvidentlyFeature interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EvidentlyFeature
@@ -637,7 +646,7 @@ func (j *jsiiProxy_EvidentlyFeature) VariationsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/evidently_feature aws_evidently_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/evidently_feature aws_evidently_feature} Resource.
 func NewEvidentlyFeature(scope constructs.Construct, id *string, config *EvidentlyFeatureConfig) EvidentlyFeature {
 	_init_.Initialize()
 
@@ -655,7 +664,7 @@ func NewEvidentlyFeature(scope constructs.Construct, id *string, config *Evident
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/evidently_feature aws_evidently_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/evidently_feature aws_evidently_feature} Resource.
 func NewEvidentlyFeature_Override(e EvidentlyFeature, scope constructs.Construct, id *string, config *EvidentlyFeatureConfig) {
 	_init_.Initialize()
 
@@ -1371,6 +1380,24 @@ func (e *jsiiProxy_EvidentlyFeature) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EvidentlyFeature) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

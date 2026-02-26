@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/api_gateway_domain_name_access_association aws_api_gateway_domain_name_access_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/api_gateway_domain_name_access_association aws_api_gateway_domain_name_access_association}.
 type ApiGatewayDomainNameAccessAssociation interface {
 	cdktn.TerraformResource
 	AccessAssociationSource() *string
@@ -138,6 +138,15 @@ type ApiGatewayDomainNameAccessAssociation interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ApiGatewayDomainNameAccessAssociation
@@ -436,7 +445,7 @@ func (j *jsiiProxy_ApiGatewayDomainNameAccessAssociation) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/api_gateway_domain_name_access_association aws_api_gateway_domain_name_access_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/api_gateway_domain_name_access_association aws_api_gateway_domain_name_access_association} Resource.
 func NewApiGatewayDomainNameAccessAssociation(scope constructs.Construct, id *string, config *ApiGatewayDomainNameAccessAssociationConfig) ApiGatewayDomainNameAccessAssociation {
 	_init_.Initialize()
 
@@ -454,7 +463,7 @@ func NewApiGatewayDomainNameAccessAssociation(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/api_gateway_domain_name_access_association aws_api_gateway_domain_name_access_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/api_gateway_domain_name_access_association aws_api_gateway_domain_name_access_association} Resource.
 func NewApiGatewayDomainNameAccessAssociation_Override(a ApiGatewayDomainNameAccessAssociation, scope constructs.Construct, id *string, config *ApiGatewayDomainNameAccessAssociationConfig) {
 	_init_.Initialize()
 
@@ -1037,6 +1046,24 @@ func (a *jsiiProxy_ApiGatewayDomainNameAccessAssociation) ToTerraform() interfac
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ApiGatewayDomainNameAccessAssociation) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

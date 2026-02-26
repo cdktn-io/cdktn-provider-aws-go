@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/dynamodb_table aws_dynamodb_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/dynamodb_table aws_dynamodb_table}.
 type DataAwsDynamodbTable interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -132,6 +132,15 @@ type DataAwsDynamodbTable interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsDynamodbTable
@@ -580,7 +589,7 @@ func (j *jsiiProxy_DataAwsDynamodbTable) WriteCapacity() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/dynamodb_table aws_dynamodb_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/dynamodb_table aws_dynamodb_table} Data Source.
 func NewDataAwsDynamodbTable(scope constructs.Construct, id *string, config *DataAwsDynamodbTableConfig) DataAwsDynamodbTable {
 	_init_.Initialize()
 
@@ -598,7 +607,7 @@ func NewDataAwsDynamodbTable(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/dynamodb_table aws_dynamodb_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/dynamodb_table aws_dynamodb_table} Data Source.
 func NewDataAwsDynamodbTable_Override(d DataAwsDynamodbTable, scope constructs.Construct, id *string, config *DataAwsDynamodbTableConfig) {
 	_init_.Initialize()
 
@@ -1107,6 +1116,24 @@ func (d *jsiiProxy_DataAwsDynamodbTable) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsDynamodbTable) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

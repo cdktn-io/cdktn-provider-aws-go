@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/kms_secrets aws_kms_secrets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/kms_secrets aws_kms_secrets}.
 type DataAwsKmsSecrets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -105,6 +105,15 @@ type DataAwsKmsSecrets interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsKmsSecrets
@@ -323,7 +332,7 @@ func (j *jsiiProxy_DataAwsKmsSecrets) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/kms_secrets aws_kms_secrets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/kms_secrets aws_kms_secrets} Data Source.
 func NewDataAwsKmsSecrets(scope constructs.Construct, id *string, config *DataAwsKmsSecretsConfig) DataAwsKmsSecrets {
 	_init_.Initialize()
 
@@ -341,7 +350,7 @@ func NewDataAwsKmsSecrets(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/kms_secrets aws_kms_secrets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/kms_secrets aws_kms_secrets} Data Source.
 func NewDataAwsKmsSecrets_Override(d DataAwsKmsSecrets, scope constructs.Construct, id *string, config *DataAwsKmsSecretsConfig) {
 	_init_.Initialize()
 
@@ -812,6 +821,24 @@ func (d *jsiiProxy_DataAwsKmsSecrets) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsKmsSecrets) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

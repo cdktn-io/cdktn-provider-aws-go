@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/bedrock_custom_models aws_bedrock_custom_models}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/bedrock_custom_models aws_bedrock_custom_models}.
 type DataAwsBedrockCustomModels interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -99,6 +99,15 @@ type DataAwsBedrockCustomModels interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsBedrockCustomModels
@@ -287,7 +296,7 @@ func (j *jsiiProxy_DataAwsBedrockCustomModels) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/bedrock_custom_models aws_bedrock_custom_models} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/bedrock_custom_models aws_bedrock_custom_models} Data Source.
 func NewDataAwsBedrockCustomModels(scope constructs.Construct, id *string, config *DataAwsBedrockCustomModelsConfig) DataAwsBedrockCustomModels {
 	_init_.Initialize()
 
@@ -305,7 +314,7 @@ func NewDataAwsBedrockCustomModels(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/bedrock_custom_models aws_bedrock_custom_models} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/bedrock_custom_models aws_bedrock_custom_models} Data Source.
 func NewDataAwsBedrockCustomModels_Override(d DataAwsBedrockCustomModels, scope constructs.Construct, id *string, config *DataAwsBedrockCustomModelsConfig) {
 	_init_.Initialize()
 
@@ -746,6 +755,24 @@ func (d *jsiiProxy_DataAwsBedrockCustomModels) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsBedrockCustomModels) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

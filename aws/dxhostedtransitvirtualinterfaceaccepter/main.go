@@ -76,6 +76,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualInterfaceId", GoGetter: "VirtualInterfaceId"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualInterfaceIdInput", GoGetter: "VirtualInterfaceIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DxHostedTransitVirtualInterfaceAccepter{}

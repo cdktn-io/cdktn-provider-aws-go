@@ -99,6 +99,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionId", GoGetter: "VersionId"},
 			_jsii_.MemberProperty{JsiiProperty: "versionIdInput", GoGetter: "VersionIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "websiteRedirectLocation", GoGetter: "WebsiteRedirectLocation"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsS3Object{}

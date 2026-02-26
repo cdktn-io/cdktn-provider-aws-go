@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkmanager_connect_peer aws_networkmanager_connect_peer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkmanager_connect_peer aws_networkmanager_connect_peer}.
 type NetworkmanagerConnectPeer interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -163,6 +163,15 @@ type NetworkmanagerConnectPeer interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NetworkmanagerConnectPeer
@@ -601,7 +610,7 @@ func (j *jsiiProxy_NetworkmanagerConnectPeer) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkmanager_connect_peer aws_networkmanager_connect_peer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkmanager_connect_peer aws_networkmanager_connect_peer} Resource.
 func NewNetworkmanagerConnectPeer(scope constructs.Construct, id *string, config *NetworkmanagerConnectPeerConfig) NetworkmanagerConnectPeer {
 	_init_.Initialize()
 
@@ -619,7 +628,7 @@ func NewNetworkmanagerConnectPeer(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkmanager_connect_peer aws_networkmanager_connect_peer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkmanager_connect_peer aws_networkmanager_connect_peer} Resource.
 func NewNetworkmanagerConnectPeer_Override(n NetworkmanagerConnectPeer, scope constructs.Construct, id *string, config *NetworkmanagerConnectPeerConfig) {
 	_init_.Initialize()
 
@@ -1305,6 +1314,24 @@ func (n *jsiiProxy_NetworkmanagerConnectPeer) ToTerraform() interface{} {
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkmanagerConnectPeer) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

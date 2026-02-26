@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter}.
 type TranscribeVocabularyFilter interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -150,6 +150,15 @@ type TranscribeVocabularyFilter interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for TranscribeVocabularyFilter
@@ -498,7 +507,7 @@ func (j *jsiiProxy_TranscribeVocabularyFilter) WordsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter} Resource.
 func NewTranscribeVocabularyFilter(scope constructs.Construct, id *string, config *TranscribeVocabularyFilterConfig) TranscribeVocabularyFilter {
 	_init_.Initialize()
 
@@ -516,7 +525,7 @@ func NewTranscribeVocabularyFilter(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter} Resource.
 func NewTranscribeVocabularyFilter_Override(t TranscribeVocabularyFilter, scope constructs.Construct, id *string, config *TranscribeVocabularyFilterConfig) {
 	_init_.Initialize()
 
@@ -1164,6 +1173,24 @@ func (t *jsiiProxy_TranscribeVocabularyFilter) ToTerraform() interface{} {
 		t,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TranscribeVocabularyFilter) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		t,
+		"with",
+		args,
 		&returns,
 	)
 

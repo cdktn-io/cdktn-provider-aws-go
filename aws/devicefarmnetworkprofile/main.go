@@ -102,6 +102,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "uplinkJitterMsInput", GoGetter: "UplinkJitterMsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "uplinkLossPercent", GoGetter: "UplinkLossPercent"},
 			_jsii_.MemberProperty{JsiiProperty: "uplinkLossPercentInput", GoGetter: "UplinkLossPercentInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DevicefarmNetworkProfile{}

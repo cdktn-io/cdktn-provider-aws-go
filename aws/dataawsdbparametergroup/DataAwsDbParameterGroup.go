@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/db_parameter_group aws_db_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/db_parameter_group aws_db_parameter_group}.
 type DataAwsDbParameterGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -107,6 +107,15 @@ type DataAwsDbParameterGroup interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsDbParameterGroup
@@ -345,7 +354,7 @@ func (j *jsiiProxy_DataAwsDbParameterGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/db_parameter_group aws_db_parameter_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/db_parameter_group aws_db_parameter_group} Data Source.
 func NewDataAwsDbParameterGroup(scope constructs.Construct, id *string, config *DataAwsDbParameterGroupConfig) DataAwsDbParameterGroup {
 	_init_.Initialize()
 
@@ -363,7 +372,7 @@ func NewDataAwsDbParameterGroup(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/db_parameter_group aws_db_parameter_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/db_parameter_group aws_db_parameter_group} Data Source.
 func NewDataAwsDbParameterGroup_Override(d DataAwsDbParameterGroup, scope constructs.Construct, id *string, config *DataAwsDbParameterGroupConfig) {
 	_init_.Initialize()
 
@@ -834,6 +843,24 @@ func (d *jsiiProxy_DataAwsDbParameterGroup) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsDbParameterGroup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

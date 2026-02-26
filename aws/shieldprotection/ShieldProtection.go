@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/shield_protection aws_shield_protection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/shield_protection aws_shield_protection}.
 type ShieldProtection interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -137,6 +137,15 @@ type ShieldProtection interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ShieldProtection
@@ -415,7 +424,7 @@ func (j *jsiiProxy_ShieldProtection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/shield_protection aws_shield_protection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/shield_protection aws_shield_protection} Resource.
 func NewShieldProtection(scope constructs.Construct, id *string, config *ShieldProtectionConfig) ShieldProtection {
 	_init_.Initialize()
 
@@ -433,7 +442,7 @@ func NewShieldProtection(scope constructs.Construct, id *string, config *ShieldP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/shield_protection aws_shield_protection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/shield_protection aws_shield_protection} Resource.
 func NewShieldProtection_Override(s ShieldProtection, scope constructs.Construct, id *string, config *ShieldProtectionConfig) {
 	_init_.Initialize()
 
@@ -1024,6 +1033,24 @@ func (s *jsiiProxy_ShieldProtection) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_ShieldProtection) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

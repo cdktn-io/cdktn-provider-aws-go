@@ -31,8 +31,14 @@ type BedrockagentcoreGatewayTargetCredentialProviderConfigurationOauthOutputRefe
 	CustomParameters() *map[string]*string
 	SetCustomParameters(val *map[string]*string)
 	CustomParametersInput() *map[string]*string
+	DefaultReturnUrl() *string
+	SetDefaultReturnUrl(val *string)
+	DefaultReturnUrlInput() *string
 	// Experimental.
 	Fqn() *string
+	GrantType() *string
+	SetGrantType(val *string)
+	GrantTypeInput() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	ProviderArn() *string
@@ -74,6 +80,8 @@ type BedrockagentcoreGatewayTargetCredentialProviderConfigurationOauthOutputRefe
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCustomParameters()
+	ResetDefaultReturnUrl()
+	ResetGrantType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -139,11 +147,51 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationO
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOauthOutputReference) DefaultReturnUrl() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"defaultReturnUrl",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOauthOutputReference) DefaultReturnUrlInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"defaultReturnUrlInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOauthOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOauthOutputReference) GrantType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"grantType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOauthOutputReference) GrantTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"grantTypeInput",
 		&returns,
 	)
 	return returns
@@ -276,6 +324,28 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationO
 	_jsii_.Set(
 		j,
 		"customParameters",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOauthOutputReference)SetDefaultReturnUrl(val *string) {
+	if err := j.validateSetDefaultReturnUrlParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"defaultReturnUrl",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOauthOutputReference)SetGrantType(val *string) {
+	if err := j.validateSetGrantTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"grantType",
 		val,
 	)
 }
@@ -525,6 +595,22 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationO
 	_jsii_.InvokeVoid(
 		b,
 		"resetCustomParameters",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOauthOutputReference) ResetDefaultReturnUrl() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetDefaultReturnUrl",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOauthOutputReference) ResetGrantType() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetGrantType",
 		nil, // no parameters
 	)
 }

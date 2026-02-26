@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssm_patch_group aws_ssm_patch_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssm_patch_group aws_ssm_patch_group}.
 type SsmPatchGroup interface {
 	cdktn.TerraformResource
 	BaselineId() *string
@@ -132,6 +132,15 @@ type SsmPatchGroup interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SsmPatchGroup
@@ -380,7 +389,7 @@ func (j *jsiiProxy_SsmPatchGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssm_patch_group aws_ssm_patch_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssm_patch_group aws_ssm_patch_group} Resource.
 func NewSsmPatchGroup(scope constructs.Construct, id *string, config *SsmPatchGroupConfig) SsmPatchGroup {
 	_init_.Initialize()
 
@@ -398,7 +407,7 @@ func NewSsmPatchGroup(scope constructs.Construct, id *string, config *SsmPatchGr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssm_patch_group aws_ssm_patch_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssm_patch_group aws_ssm_patch_group} Resource.
 func NewSsmPatchGroup_Override(s SsmPatchGroup, scope constructs.Construct, id *string, config *SsmPatchGroupConfig) {
 	_init_.Initialize()
 
@@ -970,6 +979,24 @@ func (s *jsiiProxy_SsmPatchGroup) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SsmPatchGroup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

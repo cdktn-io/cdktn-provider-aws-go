@@ -70,6 +70,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userNameInput", GoGetter: "UserNameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "userVolumeEncryptionEnabled", GoGetter: "UserVolumeEncryptionEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "volumeEncryptionKey", GoGetter: "VolumeEncryptionKey"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "workspaceId", GoGetter: "WorkspaceId"},
 			_jsii_.MemberProperty{JsiiProperty: "workspaceIdInput", GoGetter: "WorkspaceIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "workspaceProperties", GoGetter: "WorkspaceProperties"},

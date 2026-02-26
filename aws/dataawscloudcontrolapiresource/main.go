@@ -64,6 +64,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeNameInput", GoGetter: "TypeNameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "typeVersionId", GoGetter: "TypeVersionId"},
 			_jsii_.MemberProperty{JsiiProperty: "typeVersionIdInput", GoGetter: "TypeVersionIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsCloudcontrolapiResource{}

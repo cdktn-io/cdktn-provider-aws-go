@@ -170,6 +170,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "unhealthyNodeReplacementInput", GoGetter: "UnhealthyNodeReplacementInput"},
 			_jsii_.MemberProperty{JsiiProperty: "visibleToAllUsers", GoGetter: "VisibleToAllUsers"},
 			_jsii_.MemberProperty{JsiiProperty: "visibleToAllUsersInput", GoGetter: "VisibleToAllUsersInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_EmrCluster{}

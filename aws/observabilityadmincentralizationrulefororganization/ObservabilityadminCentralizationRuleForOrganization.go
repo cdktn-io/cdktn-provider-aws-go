@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/observabilityadmin_centralization_rule_for_organization aws_observabilityadmin_centralization_rule_for_organization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/observabilityadmin_centralization_rule_for_organization aws_observabilityadmin_centralization_rule_for_organization}.
 type ObservabilityadminCentralizationRuleForOrganization interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -139,6 +139,15 @@ type ObservabilityadminCentralizationRuleForOrganization interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ObservabilityadminCentralizationRuleForOrganization
@@ -427,7 +436,7 @@ func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganization) Timeouts
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/observabilityadmin_centralization_rule_for_organization aws_observabilityadmin_centralization_rule_for_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/observabilityadmin_centralization_rule_for_organization aws_observabilityadmin_centralization_rule_for_organization} Resource.
 func NewObservabilityadminCentralizationRuleForOrganization(scope constructs.Construct, id *string, config *ObservabilityadminCentralizationRuleForOrganizationConfig) ObservabilityadminCentralizationRuleForOrganization {
 	_init_.Initialize()
 
@@ -445,7 +454,7 @@ func NewObservabilityadminCentralizationRuleForOrganization(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/observabilityadmin_centralization_rule_for_organization aws_observabilityadmin_centralization_rule_for_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/observabilityadmin_centralization_rule_for_organization aws_observabilityadmin_centralization_rule_for_organization} Resource.
 func NewObservabilityadminCentralizationRuleForOrganization_Override(o ObservabilityadminCentralizationRuleForOrganization, scope constructs.Construct, id *string, config *ObservabilityadminCentralizationRuleForOrganizationConfig) {
 	_init_.Initialize()
 
@@ -1044,6 +1053,24 @@ func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganization) ToTerraf
 		o,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganization) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		o,
+		"with",
+		args,
 		&returns,
 	)
 

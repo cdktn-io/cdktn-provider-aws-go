@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_ipv4_cidr_block_association aws_vpc_ipv4_cidr_block_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpc_ipv4_cidr_block_association aws_vpc_ipv4_cidr_block_association}.
 type VpcIpv4CidrBlockAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -145,6 +145,15 @@ type VpcIpv4CidrBlockAssociation interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for VpcIpv4CidrBlockAssociation
@@ -453,7 +462,7 @@ func (j *jsiiProxy_VpcIpv4CidrBlockAssociation) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_ipv4_cidr_block_association aws_vpc_ipv4_cidr_block_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpc_ipv4_cidr_block_association aws_vpc_ipv4_cidr_block_association} Resource.
 func NewVpcIpv4CidrBlockAssociation(scope constructs.Construct, id *string, config *VpcIpv4CidrBlockAssociationConfig) VpcIpv4CidrBlockAssociation {
 	_init_.Initialize()
 
@@ -471,7 +480,7 @@ func NewVpcIpv4CidrBlockAssociation(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_ipv4_cidr_block_association aws_vpc_ipv4_cidr_block_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpc_ipv4_cidr_block_association aws_vpc_ipv4_cidr_block_association} Resource.
 func NewVpcIpv4CidrBlockAssociation_Override(v VpcIpv4CidrBlockAssociation, scope constructs.Construct, id *string, config *VpcIpv4CidrBlockAssociationConfig) {
 	_init_.Initialize()
 
@@ -1108,6 +1117,24 @@ func (v *jsiiProxy_VpcIpv4CidrBlockAssociation) ToTerraform() interface{} {
 		v,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpcIpv4CidrBlockAssociation) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		v,
+		"with",
+		args,
 		&returns,
 	)
 

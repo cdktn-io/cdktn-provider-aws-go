@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssm_service_setting aws_ssm_service_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssm_service_setting aws_ssm_service_setting}.
 type SsmServiceSetting interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -134,6 +134,15 @@ type SsmServiceSetting interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SsmServiceSetting
@@ -402,7 +411,7 @@ func (j *jsiiProxy_SsmServiceSetting) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssm_service_setting aws_ssm_service_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssm_service_setting aws_ssm_service_setting} Resource.
 func NewSsmServiceSetting(scope constructs.Construct, id *string, config *SsmServiceSettingConfig) SsmServiceSetting {
 	_init_.Initialize()
 
@@ -420,7 +429,7 @@ func NewSsmServiceSetting(scope constructs.Construct, id *string, config *SsmSer
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssm_service_setting aws_ssm_service_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssm_service_setting aws_ssm_service_setting} Resource.
 func NewSsmServiceSetting_Override(s SsmServiceSetting, scope constructs.Construct, id *string, config *SsmServiceSettingConfig) {
 	_init_.Initialize()
 
@@ -992,6 +1001,24 @@ func (s *jsiiProxy_SsmServiceSetting) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SsmServiceSetting) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

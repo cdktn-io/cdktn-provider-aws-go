@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/organizations_entity_path aws_organizations_entity_path}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/organizations_entity_path aws_organizations_entity_path}.
 type DataAwsOrganizationsEntityPath interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -97,6 +97,15 @@ type DataAwsOrganizationsEntityPath interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsOrganizationsEntityPath
@@ -275,7 +284,7 @@ func (j *jsiiProxy_DataAwsOrganizationsEntityPath) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/organizations_entity_path aws_organizations_entity_path} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/organizations_entity_path aws_organizations_entity_path} Data Source.
 func NewDataAwsOrganizationsEntityPath(scope constructs.Construct, id *string, config *DataAwsOrganizationsEntityPathConfig) DataAwsOrganizationsEntityPath {
 	_init_.Initialize()
 
@@ -293,7 +302,7 @@ func NewDataAwsOrganizationsEntityPath(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/organizations_entity_path aws_organizations_entity_path} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/organizations_entity_path aws_organizations_entity_path} Data Source.
 func NewDataAwsOrganizationsEntityPath_Override(d DataAwsOrganizationsEntityPath, scope constructs.Construct, id *string, config *DataAwsOrganizationsEntityPathConfig) {
 	_init_.Initialize()
 
@@ -726,6 +735,24 @@ func (d *jsiiProxy_DataAwsOrganizationsEntityPath) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsOrganizationsEntityPath) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

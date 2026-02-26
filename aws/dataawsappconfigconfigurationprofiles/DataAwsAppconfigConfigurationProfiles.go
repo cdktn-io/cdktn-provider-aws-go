@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/appconfig_configuration_profiles aws_appconfig_configuration_profiles}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/appconfig_configuration_profiles aws_appconfig_configuration_profiles}.
 type DataAwsAppconfigConfigurationProfiles interface {
 	cdktn.TerraformDataSource
 	ApplicationId() *string
@@ -105,6 +105,15 @@ type DataAwsAppconfigConfigurationProfiles interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsAppconfigConfigurationProfiles
@@ -323,7 +332,7 @@ func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/appconfig_configuration_profiles aws_appconfig_configuration_profiles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/appconfig_configuration_profiles aws_appconfig_configuration_profiles} Data Source.
 func NewDataAwsAppconfigConfigurationProfiles(scope constructs.Construct, id *string, config *DataAwsAppconfigConfigurationProfilesConfig) DataAwsAppconfigConfigurationProfiles {
 	_init_.Initialize()
 
@@ -341,7 +350,7 @@ func NewDataAwsAppconfigConfigurationProfiles(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/appconfig_configuration_profiles aws_appconfig_configuration_profiles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/appconfig_configuration_profiles aws_appconfig_configuration_profiles} Data Source.
 func NewDataAwsAppconfigConfigurationProfiles_Override(d DataAwsAppconfigConfigurationProfiles, scope constructs.Construct, id *string, config *DataAwsAppconfigConfigurationProfilesConfig) {
 	_init_.Initialize()
 
@@ -812,6 +821,24 @@ func (d *jsiiProxy_DataAwsAppconfigConfigurationProfiles) ToTerraform() interfac
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsAppconfigConfigurationProfiles) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

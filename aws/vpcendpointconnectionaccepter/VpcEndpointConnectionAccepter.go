@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_endpoint_connection_accepter aws_vpc_endpoint_connection_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpc_endpoint_connection_accepter aws_vpc_endpoint_connection_accepter}.
 type VpcEndpointConnectionAccepter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -133,6 +133,15 @@ type VpcEndpointConnectionAccepter interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for VpcEndpointConnectionAccepter
@@ -391,7 +400,7 @@ func (j *jsiiProxy_VpcEndpointConnectionAccepter) VpcEndpointState() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_endpoint_connection_accepter aws_vpc_endpoint_connection_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpc_endpoint_connection_accepter aws_vpc_endpoint_connection_accepter} Resource.
 func NewVpcEndpointConnectionAccepter(scope constructs.Construct, id *string, config *VpcEndpointConnectionAccepterConfig) VpcEndpointConnectionAccepter {
 	_init_.Initialize()
 
@@ -409,7 +418,7 @@ func NewVpcEndpointConnectionAccepter(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_endpoint_connection_accepter aws_vpc_endpoint_connection_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpc_endpoint_connection_accepter aws_vpc_endpoint_connection_accepter} Resource.
 func NewVpcEndpointConnectionAccepter_Override(v VpcEndpointConnectionAccepter, scope constructs.Construct, id *string, config *VpcEndpointConnectionAccepterConfig) {
 	_init_.Initialize()
 
@@ -981,6 +990,24 @@ func (v *jsiiProxy_VpcEndpointConnectionAccepter) ToTerraform() interface{} {
 		v,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpcEndpointConnectionAccepter) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		v,
+		"with",
+		args,
 		&returns,
 	)
 

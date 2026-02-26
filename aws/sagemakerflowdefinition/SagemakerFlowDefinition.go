@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_flow_definition aws_sagemaker_flow_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_flow_definition aws_sagemaker_flow_definition}.
 type SagemakerFlowDefinition interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -155,6 +155,15 @@ type SagemakerFlowDefinition interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SagemakerFlowDefinition
@@ -533,7 +542,7 @@ func (j *jsiiProxy_SagemakerFlowDefinition) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_flow_definition aws_sagemaker_flow_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_flow_definition aws_sagemaker_flow_definition} Resource.
 func NewSagemakerFlowDefinition(scope constructs.Construct, id *string, config *SagemakerFlowDefinitionConfig) SagemakerFlowDefinition {
 	_init_.Initialize()
 
@@ -551,7 +560,7 @@ func NewSagemakerFlowDefinition(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_flow_definition aws_sagemaker_flow_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_flow_definition aws_sagemaker_flow_definition} Resource.
 func NewSagemakerFlowDefinition_Override(s SagemakerFlowDefinition, scope constructs.Construct, id *string, config *SagemakerFlowDefinitionConfig) {
 	_init_.Initialize()
 
@@ -1221,6 +1230,24 @@ func (s *jsiiProxy_SagemakerFlowDefinition) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SagemakerFlowDefinition) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

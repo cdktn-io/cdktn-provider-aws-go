@@ -73,6 +73,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcEndpointIdInput", GoGetter: "VpcEndpointIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcEndpointServiceId", GoGetter: "VpcEndpointServiceId"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcEndpointServiceIdInput", GoGetter: "VpcEndpointServiceIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VpcEndpointConnectionNotification{}

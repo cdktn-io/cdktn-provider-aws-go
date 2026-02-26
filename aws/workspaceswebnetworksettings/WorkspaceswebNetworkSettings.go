@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_network_settings aws_workspacesweb_network_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_network_settings aws_workspacesweb_network_settings}.
 type WorkspaceswebNetworkSettings interface {
 	cdktn.TerraformResource
 	AssociatedPortalArns() *[]*string
@@ -138,6 +138,15 @@ type WorkspaceswebNetworkSettings interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for WorkspaceswebNetworkSettings
@@ -436,7 +445,7 @@ func (j *jsiiProxy_WorkspaceswebNetworkSettings) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_network_settings aws_workspacesweb_network_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_network_settings aws_workspacesweb_network_settings} Resource.
 func NewWorkspaceswebNetworkSettings(scope constructs.Construct, id *string, config *WorkspaceswebNetworkSettingsConfig) WorkspaceswebNetworkSettings {
 	_init_.Initialize()
 
@@ -454,7 +463,7 @@ func NewWorkspaceswebNetworkSettings(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_network_settings aws_workspacesweb_network_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_network_settings aws_workspacesweb_network_settings} Resource.
 func NewWorkspaceswebNetworkSettings_Override(w WorkspaceswebNetworkSettings, scope constructs.Construct, id *string, config *WorkspaceswebNetworkSettingsConfig) {
 	_init_.Initialize()
 
@@ -1037,6 +1046,24 @@ func (w *jsiiProxy_WorkspaceswebNetworkSettings) ToTerraform() interface{} {
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkspaceswebNetworkSettings) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

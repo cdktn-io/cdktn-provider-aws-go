@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/networkmanager_connection aws_networkmanager_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/networkmanager_connection aws_networkmanager_connection}.
 type DataAwsNetworkmanagerConnection interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -113,6 +113,15 @@ type DataAwsNetworkmanagerConnection interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsNetworkmanagerConnection
@@ -401,7 +410,7 @@ func (j *jsiiProxy_DataAwsNetworkmanagerConnection) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/networkmanager_connection aws_networkmanager_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/networkmanager_connection aws_networkmanager_connection} Data Source.
 func NewDataAwsNetworkmanagerConnection(scope constructs.Construct, id *string, config *DataAwsNetworkmanagerConnectionConfig) DataAwsNetworkmanagerConnection {
 	_init_.Initialize()
 
@@ -419,7 +428,7 @@ func NewDataAwsNetworkmanagerConnection(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/networkmanager_connection aws_networkmanager_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/networkmanager_connection aws_networkmanager_connection} Data Source.
 func NewDataAwsNetworkmanagerConnection_Override(d DataAwsNetworkmanagerConnection, scope constructs.Construct, id *string, config *DataAwsNetworkmanagerConnectionConfig) {
 	_init_.Initialize()
 
@@ -901,6 +910,24 @@ func (d *jsiiProxy_DataAwsNetworkmanagerConnection) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsNetworkmanagerConnection) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -79,6 +79,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "upgradePolicy", GoGetter: "UpgradePolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "version", GoGetter: "Version"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcConfig", GoGetter: "VpcConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zonalShiftConfig", GoGetter: "ZonalShiftConfig"},
 		},
 		func() interface{} {

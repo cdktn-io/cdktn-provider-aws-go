@@ -85,6 +85,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "trustAnchorCertificate", GoGetter: "TrustAnchorCertificate"},
 			_jsii_.MemberProperty{JsiiProperty: "trustAnchorCertificateInput", GoGetter: "TrustAnchorCertificateInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "xksProxyAuthenticationCredential", GoGetter: "XksProxyAuthenticationCredential"},
 			_jsii_.MemberProperty{JsiiProperty: "xksProxyAuthenticationCredentialInput", GoGetter: "XksProxyAuthenticationCredentialInput"},
 			_jsii_.MemberProperty{JsiiProperty: "xksProxyConnectivity", GoGetter: "XksProxyConnectivity"},

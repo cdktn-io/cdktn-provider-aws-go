@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/efs_file_system aws_efs_file_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/efs_file_system aws_efs_file_system}.
 type EfsFileSystem interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -177,6 +177,15 @@ type EfsFileSystem interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EfsFileSystem
@@ -675,7 +684,7 @@ func (j *jsiiProxy_EfsFileSystem) ThroughputModeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/efs_file_system aws_efs_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/efs_file_system aws_efs_file_system} Resource.
 func NewEfsFileSystem(scope constructs.Construct, id *string, config *EfsFileSystemConfig) EfsFileSystem {
 	_init_.Initialize()
 
@@ -693,7 +702,7 @@ func NewEfsFileSystem(scope constructs.Construct, id *string, config *EfsFileSys
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/efs_file_system aws_efs_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/efs_file_system aws_efs_file_system} Resource.
 func NewEfsFileSystem_Override(e EfsFileSystem, scope constructs.Construct, id *string, config *EfsFileSystemConfig) {
 	_init_.Initialize()
 
@@ -1452,6 +1461,24 @@ func (e *jsiiProxy_EfsFileSystem) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EfsFileSystem) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

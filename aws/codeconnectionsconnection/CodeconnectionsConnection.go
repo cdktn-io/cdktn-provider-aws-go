@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/codeconnections_connection aws_codeconnections_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/codeconnections_connection aws_codeconnections_connection}.
 type CodeconnectionsConnection interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -146,6 +146,15 @@ type CodeconnectionsConnection interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for CodeconnectionsConnection
@@ -484,7 +493,7 @@ func (j *jsiiProxy_CodeconnectionsConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/codeconnections_connection aws_codeconnections_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/codeconnections_connection aws_codeconnections_connection} Resource.
 func NewCodeconnectionsConnection(scope constructs.Construct, id *string, config *CodeconnectionsConnectionConfig) CodeconnectionsConnection {
 	_init_.Initialize()
 
@@ -502,7 +511,7 @@ func NewCodeconnectionsConnection(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/codeconnections_connection aws_codeconnections_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/codeconnections_connection aws_codeconnections_connection} Resource.
 func NewCodeconnectionsConnection_Override(c CodeconnectionsConnection, scope constructs.Construct, id *string, config *CodeconnectionsConnectionConfig) {
 	_init_.Initialize()
 
@@ -1120,6 +1129,24 @@ func (c *jsiiProxy_CodeconnectionsConnection) ToTerraform() interface{} {
 		c,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_CodeconnectionsConnection) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		c,
+		"with",
+		args,
 		&returns,
 	)
 

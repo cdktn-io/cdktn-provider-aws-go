@@ -94,6 +94,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trackingOptionsInput", GoGetter: "TrackingOptionsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vdmOptions", GoGetter: "VdmOptions"},
 			_jsii_.MemberProperty{JsiiProperty: "vdmOptionsInput", GoGetter: "VdmOptionsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_Sesv2ConfigurationSet{}

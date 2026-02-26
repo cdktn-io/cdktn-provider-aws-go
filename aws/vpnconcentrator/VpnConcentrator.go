@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpn_concentrator aws_vpn_concentrator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpn_concentrator aws_vpn_concentrator}.
 type VpnConcentrator interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -135,6 +135,15 @@ type VpnConcentrator interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for VpnConcentrator
@@ -413,7 +422,7 @@ func (j *jsiiProxy_VpnConcentrator) VpnConcentratorId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpn_concentrator aws_vpn_concentrator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpn_concentrator aws_vpn_concentrator} Resource.
 func NewVpnConcentrator(scope constructs.Construct, id *string, config *VpnConcentratorConfig) VpnConcentrator {
 	_init_.Initialize()
 
@@ -431,7 +440,7 @@ func NewVpnConcentrator(scope constructs.Construct, id *string, config *VpnConce
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpn_concentrator aws_vpn_concentrator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpn_concentrator aws_vpn_concentrator} Resource.
 func NewVpnConcentrator_Override(v VpnConcentrator, scope constructs.Construct, id *string, config *VpnConcentratorConfig) {
 	_init_.Initialize()
 
@@ -1003,6 +1012,24 @@ func (v *jsiiProxy_VpnConcentrator) ToTerraform() interface{} {
 		v,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpnConcentrator) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		v,
+		"with",
+		args,
 		&returns,
 	)
 

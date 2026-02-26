@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dataexchange_data_set aws_dataexchange_data_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dataexchange_data_set aws_dataexchange_data_set}.
 type DataexchangeDataSet interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -144,6 +144,15 @@ type DataexchangeDataSet interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataexchangeDataSet
@@ -462,7 +471,7 @@ func (j *jsiiProxy_DataexchangeDataSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dataexchange_data_set aws_dataexchange_data_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dataexchange_data_set aws_dataexchange_data_set} Resource.
 func NewDataexchangeDataSet(scope constructs.Construct, id *string, config *DataexchangeDataSetConfig) DataexchangeDataSet {
 	_init_.Initialize()
 
@@ -480,7 +489,7 @@ func NewDataexchangeDataSet(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dataexchange_data_set aws_dataexchange_data_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dataexchange_data_set aws_dataexchange_data_set} Resource.
 func NewDataexchangeDataSet_Override(d DataexchangeDataSet, scope constructs.Construct, id *string, config *DataexchangeDataSetConfig) {
 	_init_.Initialize()
 
@@ -1101,6 +1110,24 @@ func (d *jsiiProxy_DataexchangeDataSet) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataexchangeDataSet) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

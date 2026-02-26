@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_session_logger aws_workspacesweb_session_logger}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_session_logger aws_workspacesweb_session_logger}.
 type WorkspaceswebSessionLogger interface {
 	cdktn.TerraformResource
 	AdditionalEncryptionContext() *map[string]*string
@@ -149,6 +149,15 @@ type WorkspaceswebSessionLogger interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for WorkspaceswebSessionLogger
@@ -487,7 +496,7 @@ func (j *jsiiProxy_WorkspaceswebSessionLogger) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_session_logger aws_workspacesweb_session_logger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_session_logger aws_workspacesweb_session_logger} Resource.
 func NewWorkspaceswebSessionLogger(scope constructs.Construct, id *string, config *WorkspaceswebSessionLoggerConfig) WorkspaceswebSessionLogger {
 	_init_.Initialize()
 
@@ -505,7 +514,7 @@ func NewWorkspaceswebSessionLogger(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_session_logger aws_workspacesweb_session_logger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_session_logger aws_workspacesweb_session_logger} Resource.
 func NewWorkspaceswebSessionLogger_Override(w WorkspaceswebSessionLogger, scope constructs.Construct, id *string, config *WorkspaceswebSessionLoggerConfig) {
 	_init_.Initialize()
 
@@ -1150,6 +1159,24 @@ func (w *jsiiProxy_WorkspaceswebSessionLogger) ToTerraform() interface{} {
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkspaceswebSessionLogger) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dynamodb_kinesis_streaming_destination aws_dynamodb_kinesis_streaming_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dynamodb_kinesis_streaming_destination aws_dynamodb_kinesis_streaming_destination}.
 type DynamodbKinesisStreamingDestination interface {
 	cdktn.TerraformResource
 	ApproximateCreationDateTimePrecision() *string
@@ -136,6 +136,15 @@ type DynamodbKinesisStreamingDestination interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DynamodbKinesisStreamingDestination
@@ -404,7 +413,7 @@ func (j *jsiiProxy_DynamodbKinesisStreamingDestination) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dynamodb_kinesis_streaming_destination aws_dynamodb_kinesis_streaming_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dynamodb_kinesis_streaming_destination aws_dynamodb_kinesis_streaming_destination} Resource.
 func NewDynamodbKinesisStreamingDestination(scope constructs.Construct, id *string, config *DynamodbKinesisStreamingDestinationConfig) DynamodbKinesisStreamingDestination {
 	_init_.Initialize()
 
@@ -422,7 +431,7 @@ func NewDynamodbKinesisStreamingDestination(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dynamodb_kinesis_streaming_destination aws_dynamodb_kinesis_streaming_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dynamodb_kinesis_streaming_destination aws_dynamodb_kinesis_streaming_destination} Resource.
 func NewDynamodbKinesisStreamingDestination_Override(d DynamodbKinesisStreamingDestination, scope constructs.Construct, id *string, config *DynamodbKinesisStreamingDestinationConfig) {
 	_init_.Initialize()
 
@@ -1013,6 +1022,24 @@ func (d *jsiiProxy_DynamodbKinesisStreamingDestination) ToTerraform() interface{
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DynamodbKinesisStreamingDestination) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

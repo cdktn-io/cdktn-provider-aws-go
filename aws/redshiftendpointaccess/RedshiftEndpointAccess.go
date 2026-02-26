@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_endpoint_access aws_redshift_endpoint_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshift_endpoint_access aws_redshift_endpoint_access}.
 type RedshiftEndpointAccess interface {
 	cdktn.TerraformResource
 	Address() *string
@@ -146,6 +146,15 @@ type RedshiftEndpointAccess interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for RedshiftEndpointAccess
@@ -484,7 +493,7 @@ func (j *jsiiProxy_RedshiftEndpointAccess) VpcSecurityGroupIdsInput() *[]*string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_endpoint_access aws_redshift_endpoint_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshift_endpoint_access aws_redshift_endpoint_access} Resource.
 func NewRedshiftEndpointAccess(scope constructs.Construct, id *string, config *RedshiftEndpointAccessConfig) RedshiftEndpointAccess {
 	_init_.Initialize()
 
@@ -502,7 +511,7 @@ func NewRedshiftEndpointAccess(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_endpoint_access aws_redshift_endpoint_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshift_endpoint_access aws_redshift_endpoint_access} Resource.
 func NewRedshiftEndpointAccess_Override(r RedshiftEndpointAccess, scope constructs.Construct, id *string, config *RedshiftEndpointAccessConfig) {
 	_init_.Initialize()
 
@@ -1123,6 +1132,24 @@ func (r *jsiiProxy_RedshiftEndpointAccess) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_RedshiftEndpointAccess) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

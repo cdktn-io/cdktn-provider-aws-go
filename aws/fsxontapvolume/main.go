@@ -130,6 +130,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeStyleInput", GoGetter: "VolumeStyleInput"},
 			_jsii_.MemberProperty{JsiiProperty: "volumeType", GoGetter: "VolumeType"},
 			_jsii_.MemberProperty{JsiiProperty: "volumeTypeInput", GoGetter: "VolumeTypeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_FsxOntapVolume{}

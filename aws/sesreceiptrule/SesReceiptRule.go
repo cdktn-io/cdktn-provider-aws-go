@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ses_receipt_rule aws_ses_receipt_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ses_receipt_rule aws_ses_receipt_rule}.
 type SesReceiptRule interface {
 	cdktn.TerraformResource
 	AddHeaderAction() SesReceiptRuleAddHeaderActionList
@@ -181,6 +181,15 @@ type SesReceiptRule interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SesReceiptRule
@@ -679,7 +688,7 @@ func (j *jsiiProxy_SesReceiptRule) WorkmailActionInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ses_receipt_rule aws_ses_receipt_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ses_receipt_rule aws_ses_receipt_rule} Resource.
 func NewSesReceiptRule(scope constructs.Construct, id *string, config *SesReceiptRuleConfig) SesReceiptRule {
 	_init_.Initialize()
 
@@ -697,7 +706,7 @@ func NewSesReceiptRule(scope constructs.Construct, id *string, config *SesReceip
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ses_receipt_rule aws_ses_receipt_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ses_receipt_rule aws_ses_receipt_rule} Resource.
 func NewSesReceiptRule_Override(s SesReceiptRule, scope constructs.Construct, id *string, config *SesReceiptRuleConfig) {
 	_init_.Initialize()
 
@@ -1497,6 +1506,24 @@ func (s *jsiiProxy_SesReceiptRule) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SesReceiptRule) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

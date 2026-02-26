@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sns_topic_subscription aws_sns_topic_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sns_topic_subscription aws_sns_topic_subscription}.
 type SnsTopicSubscription interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -175,6 +175,15 @@ type SnsTopicSubscription interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SnsTopicSubscription
@@ -663,7 +672,7 @@ func (j *jsiiProxy_SnsTopicSubscription) TopicArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sns_topic_subscription aws_sns_topic_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sns_topic_subscription aws_sns_topic_subscription} Resource.
 func NewSnsTopicSubscription(scope constructs.Construct, id *string, config *SnsTopicSubscriptionConfig) SnsTopicSubscription {
 	_init_.Initialize()
 
@@ -681,7 +690,7 @@ func NewSnsTopicSubscription(scope constructs.Construct, id *string, config *Sns
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sns_topic_subscription aws_sns_topic_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sns_topic_subscription aws_sns_topic_subscription} Resource.
 func NewSnsTopicSubscription_Override(s SnsTopicSubscription, scope constructs.Construct, id *string, config *SnsTopicSubscriptionConfig) {
 	_init_.Initialize()
 
@@ -1435,6 +1444,24 @@ func (s *jsiiProxy_SnsTopicSubscription) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SnsTopicSubscription) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

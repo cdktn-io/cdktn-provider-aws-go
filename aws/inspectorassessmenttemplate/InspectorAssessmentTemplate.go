@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/inspector_assessment_template aws_inspector_assessment_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/inspector_assessment_template aws_inspector_assessment_template}.
 type InspectorAssessmentTemplate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -151,6 +151,15 @@ type InspectorAssessmentTemplate interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for InspectorAssessmentTemplate
@@ -509,7 +518,7 @@ func (j *jsiiProxy_InspectorAssessmentTemplate) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/inspector_assessment_template aws_inspector_assessment_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/inspector_assessment_template aws_inspector_assessment_template} Resource.
 func NewInspectorAssessmentTemplate(scope constructs.Construct, id *string, config *InspectorAssessmentTemplateConfig) InspectorAssessmentTemplate {
 	_init_.Initialize()
 
@@ -527,7 +536,7 @@ func NewInspectorAssessmentTemplate(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/inspector_assessment_template aws_inspector_assessment_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/inspector_assessment_template aws_inspector_assessment_template} Resource.
 func NewInspectorAssessmentTemplate_Override(i InspectorAssessmentTemplate, scope constructs.Construct, id *string, config *InspectorAssessmentTemplateConfig) {
 	_init_.Initialize()
 
@@ -1178,6 +1187,24 @@ func (i *jsiiProxy_InspectorAssessmentTemplate) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_InspectorAssessmentTemplate) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

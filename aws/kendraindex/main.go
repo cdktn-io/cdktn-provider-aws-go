@@ -110,6 +110,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userGroupResolutionConfigurationInput", GoGetter: "UserGroupResolutionConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "userTokenConfigurations", GoGetter: "UserTokenConfigurations"},
 			_jsii_.MemberProperty{JsiiProperty: "userTokenConfigurationsInput", GoGetter: "UserTokenConfigurationsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_KendraIndex{}

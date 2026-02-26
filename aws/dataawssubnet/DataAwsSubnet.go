@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/subnet aws_subnet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/subnet aws_subnet}.
 type DataAwsSubnet interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -156,6 +156,15 @@ type DataAwsSubnet interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsSubnet
@@ -694,7 +703,7 @@ func (j *jsiiProxy_DataAwsSubnet) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/subnet aws_subnet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/subnet aws_subnet} Data Source.
 func NewDataAwsSubnet(scope constructs.Construct, id *string, config *DataAwsSubnetConfig) DataAwsSubnet {
 	_init_.Initialize()
 
@@ -712,7 +721,7 @@ func NewDataAwsSubnet(scope constructs.Construct, id *string, config *DataAwsSub
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/subnet aws_subnet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/subnet aws_subnet} Data Source.
 func NewDataAwsSubnet_Override(d DataAwsSubnet, scope constructs.Construct, id *string, config *DataAwsSubnetConfig) {
 	_init_.Initialize()
 
@@ -1362,6 +1371,24 @@ func (d *jsiiProxy_DataAwsSubnet) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsSubnet) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

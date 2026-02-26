@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/odb_network_peering_connection aws_odb_network_peering_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/odb_network_peering_connection aws_odb_network_peering_connection}.
 type OdbNetworkPeeringConnection interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -153,6 +153,15 @@ type OdbNetworkPeeringConnection interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for OdbNetworkPeeringConnection
@@ -551,7 +560,7 @@ func (j *jsiiProxy_OdbNetworkPeeringConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/odb_network_peering_connection aws_odb_network_peering_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/odb_network_peering_connection aws_odb_network_peering_connection} Resource.
 func NewOdbNetworkPeeringConnection(scope constructs.Construct, id *string, config *OdbNetworkPeeringConnectionConfig) OdbNetworkPeeringConnection {
 	_init_.Initialize()
 
@@ -569,7 +578,7 @@ func NewOdbNetworkPeeringConnection(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/odb_network_peering_connection aws_odb_network_peering_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/odb_network_peering_connection aws_odb_network_peering_connection} Resource.
 func NewOdbNetworkPeeringConnection_Override(o OdbNetworkPeeringConnection, scope constructs.Construct, id *string, config *OdbNetworkPeeringConnectionConfig) {
 	_init_.Initialize()
 
@@ -1198,6 +1207,24 @@ func (o *jsiiProxy_OdbNetworkPeeringConnection) ToTerraform() interface{} {
 		o,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_OdbNetworkPeeringConnection) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		o,
+		"with",
+		args,
 		&returns,
 	)
 

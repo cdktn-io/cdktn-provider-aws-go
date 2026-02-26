@@ -84,6 +84,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnConnectionArn", GoGetter: "VpnConnectionArn"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnConnectionArnInput", GoGetter: "VpnConnectionArnInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment{}

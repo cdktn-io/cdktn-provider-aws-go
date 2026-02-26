@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/rds_cluster_endpoint aws_rds_cluster_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/rds_cluster_endpoint aws_rds_cluster_endpoint}.
 type RdsClusterEndpoint interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -153,6 +153,15 @@ type RdsClusterEndpoint interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for RdsClusterEndpoint
@@ -521,7 +530,7 @@ func (j *jsiiProxy_RdsClusterEndpoint) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/rds_cluster_endpoint aws_rds_cluster_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/rds_cluster_endpoint aws_rds_cluster_endpoint} Resource.
 func NewRdsClusterEndpoint(scope constructs.Construct, id *string, config *RdsClusterEndpointConfig) RdsClusterEndpoint {
 	_init_.Initialize()
 
@@ -539,7 +548,7 @@ func NewRdsClusterEndpoint(scope constructs.Construct, id *string, config *RdsCl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/rds_cluster_endpoint aws_rds_cluster_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/rds_cluster_endpoint aws_rds_cluster_endpoint} Resource.
 func NewRdsClusterEndpoint_Override(r RdsClusterEndpoint, scope constructs.Construct, id *string, config *RdsClusterEndpointConfig) {
 	_init_.Initialize()
 
@@ -1198,6 +1207,24 @@ func (r *jsiiProxy_RdsClusterEndpoint) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_RdsClusterEndpoint) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

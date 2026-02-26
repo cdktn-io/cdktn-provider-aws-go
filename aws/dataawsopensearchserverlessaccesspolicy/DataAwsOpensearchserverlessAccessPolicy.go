@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/opensearchserverless_access_policy aws_opensearchserverless_access_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/opensearchserverless_access_policy aws_opensearchserverless_access_policy}.
 type DataAwsOpensearchserverlessAccessPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -107,6 +107,15 @@ type DataAwsOpensearchserverlessAccessPolicy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsOpensearchserverlessAccessPolicy
@@ -355,7 +364,7 @@ func (j *jsiiProxy_DataAwsOpensearchserverlessAccessPolicy) TypeInput() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/opensearchserverless_access_policy aws_opensearchserverless_access_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/opensearchserverless_access_policy aws_opensearchserverless_access_policy} Data Source.
 func NewDataAwsOpensearchserverlessAccessPolicy(scope constructs.Construct, id *string, config *DataAwsOpensearchserverlessAccessPolicyConfig) DataAwsOpensearchserverlessAccessPolicy {
 	_init_.Initialize()
 
@@ -373,7 +382,7 @@ func NewDataAwsOpensearchserverlessAccessPolicy(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/opensearchserverless_access_policy aws_opensearchserverless_access_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/opensearchserverless_access_policy aws_opensearchserverless_access_policy} Data Source.
 func NewDataAwsOpensearchserverlessAccessPolicy_Override(d DataAwsOpensearchserverlessAccessPolicy, scope constructs.Construct, id *string, config *DataAwsOpensearchserverlessAccessPolicyConfig) {
 	_init_.Initialize()
 
@@ -836,6 +845,24 @@ func (d *jsiiProxy_DataAwsOpensearchserverlessAccessPolicy) ToTerraform() interf
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsOpensearchserverlessAccessPolicy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

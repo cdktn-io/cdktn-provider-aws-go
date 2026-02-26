@@ -75,6 +75,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "transitionDefaultMinimumObjectSize", GoGetter: "TransitionDefaultMinimumObjectSize"},
 			_jsii_.MemberProperty{JsiiProperty: "transitionDefaultMinimumObjectSizeInput", GoGetter: "TransitionDefaultMinimumObjectSizeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_S3BucketLifecycleConfiguration{}

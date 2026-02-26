@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kinesis_video_stream aws_kinesis_video_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kinesis_video_stream aws_kinesis_video_stream}.
 type KinesisVideoStream interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -160,6 +160,15 @@ type KinesisVideoStream interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for KinesisVideoStream
@@ -558,7 +567,7 @@ func (j *jsiiProxy_KinesisVideoStream) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kinesis_video_stream aws_kinesis_video_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kinesis_video_stream aws_kinesis_video_stream} Resource.
 func NewKinesisVideoStream(scope constructs.Construct, id *string, config *KinesisVideoStreamConfig) KinesisVideoStream {
 	_init_.Initialize()
 
@@ -576,7 +585,7 @@ func NewKinesisVideoStream(scope constructs.Construct, id *string, config *Kines
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kinesis_video_stream aws_kinesis_video_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kinesis_video_stream aws_kinesis_video_stream} Resource.
 func NewKinesisVideoStream_Override(k KinesisVideoStream, scope constructs.Construct, id *string, config *KinesisVideoStreamConfig) {
 	_init_.Initialize()
 
@@ -1270,6 +1279,24 @@ func (k *jsiiProxy_KinesisVideoStream) ToTerraform() interface{} {
 		k,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (k *jsiiProxy_KinesisVideoStream) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		k,
+		"with",
+		args,
 		&returns,
 	)
 

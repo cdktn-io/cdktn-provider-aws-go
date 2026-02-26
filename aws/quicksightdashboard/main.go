@@ -109,6 +109,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionDescription", GoGetter: "VersionDescription"},
 			_jsii_.MemberProperty{JsiiProperty: "versionDescriptionInput", GoGetter: "VersionDescriptionInput"},
 			_jsii_.MemberProperty{JsiiProperty: "versionNumber", GoGetter: "VersionNumber"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_QuicksightDashboard{}

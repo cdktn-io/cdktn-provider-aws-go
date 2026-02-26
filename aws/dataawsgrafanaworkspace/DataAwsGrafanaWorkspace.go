@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/grafana_workspace aws_grafana_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/grafana_workspace aws_grafana_workspace}.
 type DataAwsGrafanaWorkspace interface {
 	cdktn.TerraformDataSource
 	AccountAccessType() *string
@@ -46,6 +46,7 @@ type DataAwsGrafanaWorkspace interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	KmsKeyId() *string
 	LastUpdatedDate() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
@@ -126,6 +127,15 @@ type DataAwsGrafanaWorkspace interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsGrafanaWorkspace
@@ -298,6 +308,16 @@ func (j *jsiiProxy_DataAwsGrafanaWorkspace) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsGrafanaWorkspace) KmsKeyId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyId",
 		&returns,
 	)
 	return returns
@@ -534,7 +554,7 @@ func (j *jsiiProxy_DataAwsGrafanaWorkspace) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/grafana_workspace aws_grafana_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/grafana_workspace aws_grafana_workspace} Data Source.
 func NewDataAwsGrafanaWorkspace(scope constructs.Construct, id *string, config *DataAwsGrafanaWorkspaceConfig) DataAwsGrafanaWorkspace {
 	_init_.Initialize()
 
@@ -552,7 +572,7 @@ func NewDataAwsGrafanaWorkspace(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/grafana_workspace aws_grafana_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/grafana_workspace aws_grafana_workspace} Data Source.
 func NewDataAwsGrafanaWorkspace_Override(d DataAwsGrafanaWorkspace, scope constructs.Construct, id *string, config *DataAwsGrafanaWorkspaceConfig) {
 	_init_.Initialize()
 
@@ -1042,6 +1062,24 @@ func (d *jsiiProxy_DataAwsGrafanaWorkspace) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsGrafanaWorkspace) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

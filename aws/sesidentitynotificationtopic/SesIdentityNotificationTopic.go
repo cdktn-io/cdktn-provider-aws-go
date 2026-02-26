@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ses_identity_notification_topic aws_ses_identity_notification_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ses_identity_notification_topic aws_ses_identity_notification_topic}.
 type SesIdentityNotificationTopic interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -140,6 +140,15 @@ type SesIdentityNotificationTopic interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SesIdentityNotificationTopic
@@ -428,7 +437,7 @@ func (j *jsiiProxy_SesIdentityNotificationTopic) TopicArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ses_identity_notification_topic aws_ses_identity_notification_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ses_identity_notification_topic aws_ses_identity_notification_topic} Resource.
 func NewSesIdentityNotificationTopic(scope constructs.Construct, id *string, config *SesIdentityNotificationTopicConfig) SesIdentityNotificationTopic {
 	_init_.Initialize()
 
@@ -446,7 +455,7 @@ func NewSesIdentityNotificationTopic(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ses_identity_notification_topic aws_ses_identity_notification_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ses_identity_notification_topic aws_ses_identity_notification_topic} Resource.
 func NewSesIdentityNotificationTopic_Override(s SesIdentityNotificationTopic, scope constructs.Construct, id *string, config *SesIdentityNotificationTopicConfig) {
 	_init_.Initialize()
 
@@ -1056,6 +1065,24 @@ func (s *jsiiProxy_SesIdentityNotificationTopic) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SesIdentityNotificationTopic) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

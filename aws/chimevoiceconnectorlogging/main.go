@@ -69,6 +69,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "voiceConnectorId", GoGetter: "VoiceConnectorId"},
 			_jsii_.MemberProperty{JsiiProperty: "voiceConnectorIdInput", GoGetter: "VoiceConnectorIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ChimeVoiceConnectorLogging{}

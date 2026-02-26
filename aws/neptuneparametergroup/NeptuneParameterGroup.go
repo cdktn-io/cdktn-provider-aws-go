@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/neptune_parameter_group aws_neptune_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/neptune_parameter_group aws_neptune_parameter_group}.
 type NeptuneParameterGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -154,6 +154,15 @@ type NeptuneParameterGroup interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NeptuneParameterGroup
@@ -512,7 +521,7 @@ func (j *jsiiProxy_NeptuneParameterGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/neptune_parameter_group aws_neptune_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/neptune_parameter_group aws_neptune_parameter_group} Resource.
 func NewNeptuneParameterGroup(scope constructs.Construct, id *string, config *NeptuneParameterGroupConfig) NeptuneParameterGroup {
 	_init_.Initialize()
 
@@ -530,7 +539,7 @@ func NewNeptuneParameterGroup(scope constructs.Construct, id *string, config *Ne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/neptune_parameter_group aws_neptune_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/neptune_parameter_group aws_neptune_parameter_group} Resource.
 func NewNeptuneParameterGroup_Override(n NeptuneParameterGroup, scope constructs.Construct, id *string, config *NeptuneParameterGroupConfig) {
 	_init_.Initialize()
 
@@ -1205,6 +1214,24 @@ func (n *jsiiProxy_NeptuneParameterGroup) ToTerraform() interface{} {
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NeptuneParameterGroup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

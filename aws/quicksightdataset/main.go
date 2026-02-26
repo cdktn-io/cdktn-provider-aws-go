@@ -121,6 +121,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "useAs", GoGetter: "UseAs"},
 			_jsii_.MemberProperty{JsiiProperty: "useAsInput", GoGetter: "UseAsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_QuicksightDataSet{}

@@ -115,6 +115,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateToken", GoGetter: "UpdateToken"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcId", GoGetter: "VpcId"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdInput", GoGetter: "VpcIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkfirewallFirewall{}

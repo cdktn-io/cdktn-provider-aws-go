@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/alb_target_group_attachment aws_alb_target_group_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/alb_target_group_attachment aws_alb_target_group_attachment}.
 type AlbTargetGroupAttachment interface {
 	cdktn.TerraformResource
 	AvailabilityZone() *string
@@ -144,6 +144,15 @@ type AlbTargetGroupAttachment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AlbTargetGroupAttachment
@@ -452,7 +461,7 @@ func (j *jsiiProxy_AlbTargetGroupAttachment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/alb_target_group_attachment aws_alb_target_group_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/alb_target_group_attachment aws_alb_target_group_attachment} Resource.
 func NewAlbTargetGroupAttachment(scope constructs.Construct, id *string, config *AlbTargetGroupAttachmentConfig) AlbTargetGroupAttachment {
 	_init_.Initialize()
 
@@ -470,7 +479,7 @@ func NewAlbTargetGroupAttachment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/alb_target_group_attachment aws_alb_target_group_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/alb_target_group_attachment aws_alb_target_group_attachment} Resource.
 func NewAlbTargetGroupAttachment_Override(a AlbTargetGroupAttachment, scope constructs.Construct, id *string, config *AlbTargetGroupAttachmentConfig) {
 	_init_.Initialize()
 
@@ -1099,6 +1108,24 @@ func (a *jsiiProxy_AlbTargetGroupAttachment) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AlbTargetGroupAttachment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/macie2_organization_admin_account aws_macie2_organization_admin_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/macie2_organization_admin_account aws_macie2_organization_admin_account}.
 type Macie2OrganizationAdminAccount interface {
 	cdktn.TerraformResource
 	AdminAccountId() *string
@@ -129,6 +129,15 @@ type Macie2OrganizationAdminAccount interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Macie2OrganizationAdminAccount
@@ -357,7 +366,7 @@ func (j *jsiiProxy_Macie2OrganizationAdminAccount) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/macie2_organization_admin_account aws_macie2_organization_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/macie2_organization_admin_account aws_macie2_organization_admin_account} Resource.
 func NewMacie2OrganizationAdminAccount(scope constructs.Construct, id *string, config *Macie2OrganizationAdminAccountConfig) Macie2OrganizationAdminAccount {
 	_init_.Initialize()
 
@@ -375,7 +384,7 @@ func NewMacie2OrganizationAdminAccount(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/macie2_organization_admin_account aws_macie2_organization_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/macie2_organization_admin_account aws_macie2_organization_admin_account} Resource.
 func NewMacie2OrganizationAdminAccount_Override(m Macie2OrganizationAdminAccount, scope constructs.Construct, id *string, config *Macie2OrganizationAdminAccountConfig) {
 	_init_.Initialize()
 
@@ -936,6 +945,24 @@ func (m *jsiiProxy_Macie2OrganizationAdminAccount) ToTerraform() interface{} {
 		m,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (m *jsiiProxy_Macie2OrganizationAdminAccount) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		m,
+		"with",
+		args,
 		&returns,
 	)
 

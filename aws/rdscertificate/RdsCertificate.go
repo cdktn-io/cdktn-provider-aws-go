@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/rds_certificate aws_rds_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/rds_certificate aws_rds_certificate}.
 type RdsCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -129,6 +129,15 @@ type RdsCertificate interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for RdsCertificate
@@ -357,7 +366,7 @@ func (j *jsiiProxy_RdsCertificate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/rds_certificate aws_rds_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/rds_certificate aws_rds_certificate} Resource.
 func NewRdsCertificate(scope constructs.Construct, id *string, config *RdsCertificateConfig) RdsCertificate {
 	_init_.Initialize()
 
@@ -375,7 +384,7 @@ func NewRdsCertificate(scope constructs.Construct, id *string, config *RdsCertif
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/rds_certificate aws_rds_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/rds_certificate aws_rds_certificate} Resource.
 func NewRdsCertificate_Override(r RdsCertificate, scope constructs.Construct, id *string, config *RdsCertificateConfig) {
 	_init_.Initialize()
 
@@ -936,6 +945,24 @@ func (r *jsiiProxy_RdsCertificate) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_RdsCertificate) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

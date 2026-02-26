@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/emr_instance_group aws_emr_instance_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/emr_instance_group aws_emr_instance_group}.
 type EmrInstanceGroup interface {
 	cdktn.TerraformResource
 	AutoscalingPolicy() *string
@@ -162,6 +162,15 @@ type EmrInstanceGroup interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EmrInstanceGroup
@@ -570,7 +579,7 @@ func (j *jsiiProxy_EmrInstanceGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/emr_instance_group aws_emr_instance_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/emr_instance_group aws_emr_instance_group} Resource.
 func NewEmrInstanceGroup(scope constructs.Construct, id *string, config *EmrInstanceGroupConfig) EmrInstanceGroup {
 	_init_.Initialize()
 
@@ -588,7 +597,7 @@ func NewEmrInstanceGroup(scope constructs.Construct, id *string, config *EmrInst
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/emr_instance_group aws_emr_instance_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/emr_instance_group aws_emr_instance_group} Resource.
 func NewEmrInstanceGroup_Override(e EmrInstanceGroup, scope constructs.Construct, id *string, config *EmrInstanceGroupConfig) {
 	_init_.Initialize()
 
@@ -1293,6 +1302,24 @@ func (e *jsiiProxy_EmrInstanceGroup) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EmrInstanceGroup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

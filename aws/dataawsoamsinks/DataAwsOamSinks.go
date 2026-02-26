@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/oam_sinks aws_oam_sinks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/oam_sinks aws_oam_sinks}.
 type DataAwsOamSinks interface {
 	cdktn.TerraformDataSource
 	Arns() *[]*string
@@ -102,6 +102,15 @@ type DataAwsOamSinks interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsOamSinks
@@ -300,7 +309,7 @@ func (j *jsiiProxy_DataAwsOamSinks) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/oam_sinks aws_oam_sinks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/oam_sinks aws_oam_sinks} Data Source.
 func NewDataAwsOamSinks(scope constructs.Construct, id *string, config *DataAwsOamSinksConfig) DataAwsOamSinks {
 	_init_.Initialize()
 
@@ -318,7 +327,7 @@ func NewDataAwsOamSinks(scope constructs.Construct, id *string, config *DataAwsO
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/oam_sinks aws_oam_sinks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/oam_sinks aws_oam_sinks} Data Source.
 func NewDataAwsOamSinks_Override(d DataAwsOamSinks, scope constructs.Construct, id *string, config *DataAwsOamSinksConfig) {
 	_init_.Initialize()
 
@@ -778,6 +787,24 @@ func (d *jsiiProxy_DataAwsOamSinks) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsOamSinks) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/cloudwatch_log_group aws_cloudwatch_log_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/cloudwatch_log_group aws_cloudwatch_log_group}.
 type DataAwsCloudwatchLogGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -114,6 +114,15 @@ type DataAwsCloudwatchLogGroup interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsCloudwatchLogGroup
@@ -402,7 +411,7 @@ func (j *jsiiProxy_DataAwsCloudwatchLogGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/cloudwatch_log_group aws_cloudwatch_log_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/cloudwatch_log_group aws_cloudwatch_log_group} Data Source.
 func NewDataAwsCloudwatchLogGroup(scope constructs.Construct, id *string, config *DataAwsCloudwatchLogGroupConfig) DataAwsCloudwatchLogGroup {
 	_init_.Initialize()
 
@@ -420,7 +429,7 @@ func NewDataAwsCloudwatchLogGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/cloudwatch_log_group aws_cloudwatch_log_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/cloudwatch_log_group aws_cloudwatch_log_group} Data Source.
 func NewDataAwsCloudwatchLogGroup_Override(d DataAwsCloudwatchLogGroup, scope constructs.Construct, id *string, config *DataAwsCloudwatchLogGroupConfig) {
 	_init_.Initialize()
 
@@ -910,6 +919,24 @@ func (d *jsiiProxy_DataAwsCloudwatchLogGroup) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsCloudwatchLogGroup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

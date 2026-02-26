@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_identity_provider aws_workspacesweb_identity_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_identity_provider aws_workspacesweb_identity_provider}.
 type WorkspaceswebIdentityProvider interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -140,6 +140,15 @@ type WorkspaceswebIdentityProvider interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for WorkspaceswebIdentityProvider
@@ -448,7 +457,7 @@ func (j *jsiiProxy_WorkspaceswebIdentityProvider) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_identity_provider aws_workspacesweb_identity_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_identity_provider aws_workspacesweb_identity_provider} Resource.
 func NewWorkspaceswebIdentityProvider(scope constructs.Construct, id *string, config *WorkspaceswebIdentityProviderConfig) WorkspaceswebIdentityProvider {
 	_init_.Initialize()
 
@@ -466,7 +475,7 @@ func NewWorkspaceswebIdentityProvider(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_identity_provider aws_workspacesweb_identity_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_identity_provider aws_workspacesweb_identity_provider} Resource.
 func NewWorkspaceswebIdentityProvider_Override(w WorkspaceswebIdentityProvider, scope constructs.Construct, id *string, config *WorkspaceswebIdentityProviderConfig) {
 	_init_.Initialize()
 
@@ -1060,6 +1069,24 @@ func (w *jsiiProxy_WorkspaceswebIdentityProvider) ToTerraform() interface{} {
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkspaceswebIdentityProvider) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

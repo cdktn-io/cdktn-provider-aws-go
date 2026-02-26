@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_ipam_scope aws_vpc_ipam_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpc_ipam_scope aws_vpc_ipam_scope}.
 type VpcIpamScope interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -150,6 +150,15 @@ type VpcIpamScope interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for VpcIpamScope
@@ -508,7 +517,7 @@ func (j *jsiiProxy_VpcIpamScope) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_ipam_scope aws_vpc_ipam_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpc_ipam_scope aws_vpc_ipam_scope} Resource.
 func NewVpcIpamScope(scope constructs.Construct, id *string, config *VpcIpamScopeConfig) VpcIpamScope {
 	_init_.Initialize()
 
@@ -526,7 +535,7 @@ func NewVpcIpamScope(scope constructs.Construct, id *string, config *VpcIpamScop
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_ipam_scope aws_vpc_ipam_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpc_ipam_scope aws_vpc_ipam_scope} Resource.
 func NewVpcIpamScope_Override(v VpcIpamScope, scope constructs.Construct, id *string, config *VpcIpamScopeConfig) {
 	_init_.Initialize()
 
@@ -1163,6 +1172,24 @@ func (v *jsiiProxy_VpcIpamScope) ToTerraform() interface{} {
 		v,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpcIpamScope) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		v,
+		"with",
+		args,
 		&returns,
 	)
 

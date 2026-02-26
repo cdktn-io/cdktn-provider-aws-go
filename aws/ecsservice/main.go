@@ -183,6 +183,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcLatticeConfigurationsInput", GoGetter: "VpcLatticeConfigurationsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForSteadyState", GoGetter: "WaitForSteadyState"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForSteadyStateInput", GoGetter: "WaitForSteadyStateInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_EcsService{}
@@ -878,6 +879,47 @@ func init() {
 		reflect.TypeOf((*EcsServiceServiceConnectConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationAccessLogConfiguration",
+		reflect.TypeOf((*EcsServiceServiceConnectConfigurationAccessLogConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationAccessLogConfigurationOutputReference",
+		reflect.TypeOf((*EcsServiceServiceConnectConfigurationAccessLogConfigurationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "format", GoGetter: "Format"},
+			_jsii_.MemberProperty{JsiiProperty: "formatInput", GoGetter: "FormatInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "includeQueryParameters", GoGetter: "IncludeQueryParameters"},
+			_jsii_.MemberProperty{JsiiProperty: "includeQueryParametersInput", GoGetter: "IncludeQueryParametersInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetIncludeQueryParameters", GoMethod: "ResetIncludeQueryParameters"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_EcsServiceServiceConnectConfigurationAccessLogConfigurationOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationLogConfiguration",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationLogConfiguration)(nil)).Elem(),
 	)
@@ -988,6 +1030,8 @@ func init() {
 		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationOutputReference",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "accessLogConfiguration", GoGetter: "AccessLogConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "accessLogConfigurationInput", GoGetter: "AccessLogConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1011,8 +1055,10 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "logConfigurationInput", GoGetter: "LogConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "namespace", GoGetter: "Namespace"},
 			_jsii_.MemberProperty{JsiiProperty: "namespaceInput", GoGetter: "NamespaceInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putAccessLogConfiguration", GoMethod: "PutAccessLogConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putLogConfiguration", GoMethod: "PutLogConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putService", GoMethod: "PutService"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAccessLogConfiguration", GoMethod: "ResetAccessLogConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLogConfiguration", GoMethod: "ResetLogConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNamespace", GoMethod: "ResetNamespace"},
 			_jsii_.MemberMethod{JsiiMethod: "resetService", GoMethod: "ResetService"},

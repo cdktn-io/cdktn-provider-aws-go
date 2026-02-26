@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/db_instance aws_db_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/db_instance aws_db_instance}.
 type DataAwsDbInstance interface {
 	cdktn.TerraformDataSource
 	Address() *string
@@ -151,6 +151,15 @@ type DataAwsDbInstance interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsDbInstance
@@ -799,7 +808,7 @@ func (j *jsiiProxy_DataAwsDbInstance) VpcSecurityGroups() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/db_instance aws_db_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/db_instance aws_db_instance} Data Source.
 func NewDataAwsDbInstance(scope constructs.Construct, id *string, config *DataAwsDbInstanceConfig) DataAwsDbInstance {
 	_init_.Initialize()
 
@@ -817,7 +826,7 @@ func NewDataAwsDbInstance(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/db_instance aws_db_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/db_instance aws_db_instance} Data Source.
 func NewDataAwsDbInstance_Override(d DataAwsDbInstance, scope constructs.Construct, id *string, config *DataAwsDbInstanceConfig) {
 	_init_.Initialize()
 
@@ -1315,6 +1324,24 @@ func (d *jsiiProxy_DataAwsDbInstance) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsDbInstance) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

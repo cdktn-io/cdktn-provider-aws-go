@@ -144,6 +144,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "validUserListInput", GoGetter: "ValidUserListInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcEndpointDnsName", GoGetter: "VpcEndpointDnsName"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcEndpointDnsNameInput", GoGetter: "VpcEndpointDnsNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_StoragegatewaySmbFileShare{}

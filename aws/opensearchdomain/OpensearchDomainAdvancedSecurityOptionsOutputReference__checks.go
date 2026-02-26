@@ -93,6 +93,17 @@ func (o *jsiiProxy_OpensearchDomainAdvancedSecurityOptionsOutputReference) valid
 	return nil
 }
 
+func (o *jsiiProxy_OpensearchDomainAdvancedSecurityOptionsOutputReference) validatePutJwtOptionsParameters(value *OpensearchDomainAdvancedSecurityOptionsJwtOptions) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (o *jsiiProxy_OpensearchDomainAdvancedSecurityOptionsOutputReference) validatePutMasterUserOptionsParameters(value *OpensearchDomainAdvancedSecurityOptionsMasterUserOptions) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

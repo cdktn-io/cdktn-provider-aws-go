@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpclattice_resource_configuration aws_vpclattice_resource_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpclattice_resource_configuration aws_vpclattice_resource_configuration}.
 type VpclatticeResourceConfiguration interface {
 	cdktn.TerraformResource
 	AllowAssociationToShareableServiceNetwork() interface{}
@@ -174,6 +174,15 @@ type VpclatticeResourceConfiguration interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for VpclatticeResourceConfiguration
@@ -652,7 +661,7 @@ func (j *jsiiProxy_VpclatticeResourceConfiguration) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpclattice_resource_configuration aws_vpclattice_resource_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpclattice_resource_configuration aws_vpclattice_resource_configuration} Resource.
 func NewVpclatticeResourceConfiguration(scope constructs.Construct, id *string, config *VpclatticeResourceConfigurationConfig) VpclatticeResourceConfiguration {
 	_init_.Initialize()
 
@@ -670,7 +679,7 @@ func NewVpclatticeResourceConfiguration(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpclattice_resource_configuration aws_vpclattice_resource_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpclattice_resource_configuration aws_vpclattice_resource_configuration} Resource.
 func NewVpclatticeResourceConfiguration_Override(v VpclatticeResourceConfiguration, scope constructs.Construct, id *string, config *VpclatticeResourceConfigurationConfig) {
 	_init_.Initialize()
 
@@ -1421,6 +1430,24 @@ func (v *jsiiProxy_VpclatticeResourceConfiguration) ToTerraform() interface{} {
 		v,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpclatticeResourceConfiguration) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		v,
+		"with",
+		args,
 		&returns,
 	)
 

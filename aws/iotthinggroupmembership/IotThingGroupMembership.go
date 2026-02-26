@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_thing_group_membership aws_iot_thing_group_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iot_thing_group_membership aws_iot_thing_group_membership}.
 type IotThingGroupMembership interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -136,6 +136,15 @@ type IotThingGroupMembership interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IotThingGroupMembership
@@ -404,7 +413,7 @@ func (j *jsiiProxy_IotThingGroupMembership) ThingNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_thing_group_membership aws_iot_thing_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iot_thing_group_membership aws_iot_thing_group_membership} Resource.
 func NewIotThingGroupMembership(scope constructs.Construct, id *string, config *IotThingGroupMembershipConfig) IotThingGroupMembership {
 	_init_.Initialize()
 
@@ -422,7 +431,7 @@ func NewIotThingGroupMembership(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_thing_group_membership aws_iot_thing_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iot_thing_group_membership aws_iot_thing_group_membership} Resource.
 func NewIotThingGroupMembership_Override(i IotThingGroupMembership, scope constructs.Construct, id *string, config *IotThingGroupMembershipConfig) {
 	_init_.Initialize()
 
@@ -1013,6 +1022,24 @@ func (i *jsiiProxy_IotThingGroupMembership) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IotThingGroupMembership) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

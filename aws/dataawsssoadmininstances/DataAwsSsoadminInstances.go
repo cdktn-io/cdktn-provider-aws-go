@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ssoadmin_instances aws_ssoadmin_instances}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ssoadmin_instances aws_ssoadmin_instances}.
 type DataAwsSsoadminInstances interface {
 	cdktn.TerraformDataSource
 	Arns() *[]*string
@@ -103,6 +103,15 @@ type DataAwsSsoadminInstances interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsSsoadminInstances
@@ -311,7 +320,7 @@ func (j *jsiiProxy_DataAwsSsoadminInstances) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ssoadmin_instances aws_ssoadmin_instances} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ssoadmin_instances aws_ssoadmin_instances} Data Source.
 func NewDataAwsSsoadminInstances(scope constructs.Construct, id *string, config *DataAwsSsoadminInstancesConfig) DataAwsSsoadminInstances {
 	_init_.Initialize()
 
@@ -329,7 +338,7 @@ func NewDataAwsSsoadminInstances(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ssoadmin_instances aws_ssoadmin_instances} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ssoadmin_instances aws_ssoadmin_instances} Data Source.
 func NewDataAwsSsoadminInstances_Override(d DataAwsSsoadminInstances, scope constructs.Construct, id *string, config *DataAwsSsoadminInstancesConfig) {
 	_init_.Initialize()
 
@@ -789,6 +798,24 @@ func (d *jsiiProxy_DataAwsSsoadminInstances) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsSsoadminInstances) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -63,6 +63,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "types", GoGetter: "Types"},
 			_jsii_.MemberProperty{JsiiProperty: "values", GoGetter: "Values"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "withDecryption", GoGetter: "WithDecryption"},
 			_jsii_.MemberProperty{JsiiProperty: "withDecryptionInput", GoGetter: "WithDecryptionInput"},
 		},

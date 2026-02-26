@@ -85,6 +85,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "waitForCompletion", GoGetter: "WaitForCompletion"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForCompletionInput", GoGetter: "WaitForCompletionInput"},
 			_jsii_.MemberProperty{JsiiProperty: "warningMessage", GoGetter: "WarningMessage"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_Ec2NetworkInsightsAnalysis{}

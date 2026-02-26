@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/licensemanager_grant_accepter aws_licensemanager_grant_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/licensemanager_grant_accepter aws_licensemanager_grant_accepter}.
 type LicensemanagerGrantAccepter interface {
 	cdktn.TerraformResource
 	AllowedOperations() *[]*string
@@ -137,6 +137,15 @@ type LicensemanagerGrantAccepter interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LicensemanagerGrantAccepter
@@ -445,7 +454,7 @@ func (j *jsiiProxy_LicensemanagerGrantAccepter) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/licensemanager_grant_accepter aws_licensemanager_grant_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/licensemanager_grant_accepter aws_licensemanager_grant_accepter} Resource.
 func NewLicensemanagerGrantAccepter(scope constructs.Construct, id *string, config *LicensemanagerGrantAccepterConfig) LicensemanagerGrantAccepter {
 	_init_.Initialize()
 
@@ -463,7 +472,7 @@ func NewLicensemanagerGrantAccepter(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/licensemanager_grant_accepter aws_licensemanager_grant_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/licensemanager_grant_accepter aws_licensemanager_grant_accepter} Resource.
 func NewLicensemanagerGrantAccepter_Override(l LicensemanagerGrantAccepter, scope constructs.Construct, id *string, config *LicensemanagerGrantAccepterConfig) {
 	_init_.Initialize()
 
@@ -1024,6 +1033,24 @@ func (l *jsiiProxy_LicensemanagerGrantAccepter) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LicensemanagerGrantAccepter) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

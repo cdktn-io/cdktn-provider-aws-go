@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/glue_registry aws_glue_registry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/glue_registry aws_glue_registry}.
 type GlueRegistry interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -142,6 +142,15 @@ type GlueRegistry interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for GlueRegistry
@@ -440,7 +449,7 @@ func (j *jsiiProxy_GlueRegistry) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/glue_registry aws_glue_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/glue_registry aws_glue_registry} Resource.
 func NewGlueRegistry(scope constructs.Construct, id *string, config *GlueRegistryConfig) GlueRegistry {
 	_init_.Initialize()
 
@@ -458,7 +467,7 @@ func NewGlueRegistry(scope constructs.Construct, id *string, config *GlueRegistr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/glue_registry aws_glue_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/glue_registry aws_glue_registry} Resource.
 func NewGlueRegistry_Override(g GlueRegistry, scope constructs.Construct, id *string, config *GlueRegistryConfig) {
 	_init_.Initialize()
 
@@ -1076,6 +1085,24 @@ func (g *jsiiProxy_GlueRegistry) ToTerraform() interface{} {
 		g,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (g *jsiiProxy_GlueRegistry) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		g,
+		"with",
+		args,
 		&returns,
 	)
 

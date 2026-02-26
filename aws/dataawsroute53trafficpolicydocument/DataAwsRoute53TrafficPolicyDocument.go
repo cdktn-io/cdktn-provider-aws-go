@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/route53_traffic_policy_document aws_route53_traffic_policy_document}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/route53_traffic_policy_document aws_route53_traffic_policy_document}.
 type DataAwsRoute53TrafficPolicyDocument interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -122,6 +122,15 @@ type DataAwsRoute53TrafficPolicyDocument interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsRoute53TrafficPolicyDocument
@@ -420,7 +429,7 @@ func (j *jsiiProxy_DataAwsRoute53TrafficPolicyDocument) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/route53_traffic_policy_document aws_route53_traffic_policy_document} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/route53_traffic_policy_document aws_route53_traffic_policy_document} Data Source.
 func NewDataAwsRoute53TrafficPolicyDocument(scope constructs.Construct, id *string, config *DataAwsRoute53TrafficPolicyDocumentConfig) DataAwsRoute53TrafficPolicyDocument {
 	_init_.Initialize()
 
@@ -438,7 +447,7 @@ func NewDataAwsRoute53TrafficPolicyDocument(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/route53_traffic_policy_document aws_route53_traffic_policy_document} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/route53_traffic_policy_document aws_route53_traffic_policy_document} Data Source.
 func NewDataAwsRoute53TrafficPolicyDocument_Override(d DataAwsRoute53TrafficPolicyDocument, scope constructs.Construct, id *string, config *DataAwsRoute53TrafficPolicyDocumentConfig) {
 	_init_.Initialize()
 
@@ -993,6 +1002,24 @@ func (d *jsiiProxy_DataAwsRoute53TrafficPolicyDocument) ToTerraform() interface{
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsRoute53TrafficPolicyDocument) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

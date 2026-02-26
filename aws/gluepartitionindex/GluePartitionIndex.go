@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/glue_partition_index aws_glue_partition_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/glue_partition_index aws_glue_partition_index}.
 type GluePartitionIndex interface {
 	cdktn.TerraformResource
 	CatalogId() *string
@@ -143,6 +143,15 @@ type GluePartitionIndex interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for GluePartitionIndex
@@ -451,7 +460,7 @@ func (j *jsiiProxy_GluePartitionIndex) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/glue_partition_index aws_glue_partition_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/glue_partition_index aws_glue_partition_index} Resource.
 func NewGluePartitionIndex(scope constructs.Construct, id *string, config *GluePartitionIndexConfig) GluePartitionIndex {
 	_init_.Initialize()
 
@@ -469,7 +478,7 @@ func NewGluePartitionIndex(scope constructs.Construct, id *string, config *GlueP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/glue_partition_index aws_glue_partition_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/glue_partition_index aws_glue_partition_index} Resource.
 func NewGluePartitionIndex_Override(g GluePartitionIndex, scope constructs.Construct, id *string, config *GluePartitionIndexConfig) {
 	_init_.Initialize()
 
@@ -1090,6 +1099,24 @@ func (g *jsiiProxy_GluePartitionIndex) ToTerraform() interface{} {
 		g,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (g *jsiiProxy_GluePartitionIndex) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		g,
+		"with",
+		args,
 		&returns,
 	)
 

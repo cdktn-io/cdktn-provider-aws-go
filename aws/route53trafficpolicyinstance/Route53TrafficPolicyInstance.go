@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance}.
 type Route53TrafficPolicyInstance interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -138,6 +138,15 @@ type Route53TrafficPolicyInstance interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Route53TrafficPolicyInstance
@@ -436,7 +445,7 @@ func (j *jsiiProxy_Route53TrafficPolicyInstance) TtlInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance} Resource.
 func NewRoute53TrafficPolicyInstance(scope constructs.Construct, id *string, config *Route53TrafficPolicyInstanceConfig) Route53TrafficPolicyInstance {
 	_init_.Initialize()
 
@@ -454,7 +463,7 @@ func NewRoute53TrafficPolicyInstance(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance} Resource.
 func NewRoute53TrafficPolicyInstance_Override(r Route53TrafficPolicyInstance, scope constructs.Construct, id *string, config *Route53TrafficPolicyInstanceConfig) {
 	_init_.Initialize()
 
@@ -1040,6 +1049,24 @@ func (r *jsiiProxy_Route53TrafficPolicyInstance) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_Route53TrafficPolicyInstance) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

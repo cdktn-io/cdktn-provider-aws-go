@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/backup_vault aws_backup_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/backup_vault aws_backup_vault}.
 type DataAwsBackupVault interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -111,6 +111,15 @@ type DataAwsBackupVault interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsBackupVault
@@ -369,7 +378,7 @@ func (j *jsiiProxy_DataAwsBackupVault) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/backup_vault aws_backup_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/backup_vault aws_backup_vault} Data Source.
 func NewDataAwsBackupVault(scope constructs.Construct, id *string, config *DataAwsBackupVaultConfig) DataAwsBackupVault {
 	_init_.Initialize()
 
@@ -387,7 +396,7 @@ func NewDataAwsBackupVault(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/backup_vault aws_backup_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/backup_vault aws_backup_vault} Data Source.
 func NewDataAwsBackupVault_Override(d DataAwsBackupVault, scope constructs.Construct, id *string, config *DataAwsBackupVaultConfig) {
 	_init_.Initialize()
 
@@ -877,6 +886,24 @@ func (d *jsiiProxy_DataAwsBackupVault) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsBackupVault) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

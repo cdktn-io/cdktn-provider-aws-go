@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ses_event_destination aws_ses_event_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ses_event_destination aws_ses_event_destination}.
 type SesEventDestination interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -152,6 +152,15 @@ type SesEventDestination interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SesEventDestination
@@ -510,7 +519,7 @@ func (j *jsiiProxy_SesEventDestination) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ses_event_destination aws_ses_event_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ses_event_destination aws_ses_event_destination} Resource.
 func NewSesEventDestination(scope constructs.Construct, id *string, config *SesEventDestinationConfig) SesEventDestination {
 	_init_.Initialize()
 
@@ -528,7 +537,7 @@ func NewSesEventDestination(scope constructs.Construct, id *string, config *SesE
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ses_event_destination aws_ses_event_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ses_event_destination aws_ses_event_destination} Resource.
 func NewSesEventDestination_Override(s SesEventDestination, scope constructs.Construct, id *string, config *SesEventDestinationConfig) {
 	_init_.Initialize()
 
@@ -1187,6 +1196,24 @@ func (s *jsiiProxy_SesEventDestination) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SesEventDestination) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -98,6 +98,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcLatticeExclusionInput", GoGetter: "VpcLatticeExclusionInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcPeeringExclusion", GoGetter: "VpcPeeringExclusion"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcPeeringExclusionInput", GoGetter: "VpcPeeringExclusionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VpcEncryptionControl{}

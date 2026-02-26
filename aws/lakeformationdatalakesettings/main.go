@@ -96,6 +96,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "trustedResourceOwners", GoGetter: "TrustedResourceOwners"},
 			_jsii_.MemberProperty{JsiiProperty: "trustedResourceOwnersInput", GoGetter: "TrustedResourceOwnersInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_LakeformationDataLakeSettings{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration}.
 type QuicksightKeyRegistration interface {
 	cdktn.TerraformResource
 	AwsAccountId() *string
@@ -130,6 +130,15 @@ type QuicksightKeyRegistration interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for QuicksightKeyRegistration
@@ -358,7 +367,7 @@ func (j *jsiiProxy_QuicksightKeyRegistration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration} Resource.
 func NewQuicksightKeyRegistration(scope constructs.Construct, id *string, config *QuicksightKeyRegistrationConfig) QuicksightKeyRegistration {
 	_init_.Initialize()
 
@@ -376,7 +385,7 @@ func NewQuicksightKeyRegistration(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration} Resource.
 func NewQuicksightKeyRegistration_Override(q QuicksightKeyRegistration, scope constructs.Construct, id *string, config *QuicksightKeyRegistrationConfig) {
 	_init_.Initialize()
 
@@ -945,6 +954,24 @@ func (q *jsiiProxy_QuicksightKeyRegistration) ToTerraform() interface{} {
 		q,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (q *jsiiProxy_QuicksightKeyRegistration) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		q,
+		"with",
+		args,
 		&returns,
 	)
 

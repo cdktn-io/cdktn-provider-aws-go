@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_namespace aws_quicksight_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_namespace aws_quicksight_namespace}.
 type QuicksightNamespace interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -146,6 +146,15 @@ type QuicksightNamespace interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for QuicksightNamespace
@@ -484,7 +493,7 @@ func (j *jsiiProxy_QuicksightNamespace) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_namespace aws_quicksight_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_namespace aws_quicksight_namespace} Resource.
 func NewQuicksightNamespace(scope constructs.Construct, id *string, config *QuicksightNamespaceConfig) QuicksightNamespace {
 	_init_.Initialize()
 
@@ -502,7 +511,7 @@ func NewQuicksightNamespace(scope constructs.Construct, id *string, config *Quic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_namespace aws_quicksight_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_namespace aws_quicksight_namespace} Resource.
 func NewQuicksightNamespace_Override(q QuicksightNamespace, scope constructs.Construct, id *string, config *QuicksightNamespaceConfig) {
 	_init_.Initialize()
 
@@ -1120,6 +1129,24 @@ func (q *jsiiProxy_QuicksightNamespace) ToTerraform() interface{} {
 		q,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (q *jsiiProxy_QuicksightNamespace) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		q,
+		"with",
+		args,
 		&returns,
 	)
 

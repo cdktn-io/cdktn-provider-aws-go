@@ -75,6 +75,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userGroupIdInput", GoGetter: "UserGroupIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "userIds", GoGetter: "UserIds"},
 			_jsii_.MemberProperty{JsiiProperty: "userIdsInput", GoGetter: "UserIdsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ElasticacheUserGroup{}

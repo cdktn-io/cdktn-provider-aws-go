@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/glue_catalog_table aws_glue_catalog_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/glue_catalog_table aws_glue_catalog_table}.
 type GlueCatalogTable interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -185,6 +185,15 @@ type GlueCatalogTable interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for GlueCatalogTable
@@ -703,7 +712,7 @@ func (j *jsiiProxy_GlueCatalogTable) ViewOriginalTextInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/glue_catalog_table aws_glue_catalog_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/glue_catalog_table aws_glue_catalog_table} Resource.
 func NewGlueCatalogTable(scope constructs.Construct, id *string, config *GlueCatalogTableConfig) GlueCatalogTable {
 	_init_.Initialize()
 
@@ -721,7 +730,7 @@ func NewGlueCatalogTable(scope constructs.Construct, id *string, config *GlueCat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/glue_catalog_table aws_glue_catalog_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/glue_catalog_table aws_glue_catalog_table} Resource.
 func NewGlueCatalogTable_Override(g GlueCatalogTable, scope constructs.Construct, id *string, config *GlueCatalogTableConfig) {
 	_init_.Initialize()
 
@@ -1540,6 +1549,24 @@ func (g *jsiiProxy_GlueCatalogTable) ToTerraform() interface{} {
 		g,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (g *jsiiProxy_GlueCatalogTable) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		g,
+		"with",
+		args,
 		&returns,
 	)
 

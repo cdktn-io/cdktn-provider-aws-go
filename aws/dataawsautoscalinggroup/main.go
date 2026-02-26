@@ -84,6 +84,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcZoneIdentifier", GoGetter: "VpcZoneIdentifier"},
 			_jsii_.MemberProperty{JsiiProperty: "warmPool", GoGetter: "WarmPool"},
 			_jsii_.MemberProperty{JsiiProperty: "warmPoolSize", GoGetter: "WarmPoolSize"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAutoscalingGroup{}

@@ -47,6 +47,10 @@ func (e *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) validat
 	return nil
 }
 
+func (e *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) validatePutAccessLogConfigurationParameters(value *EcsServiceServiceConnectConfigurationAccessLogConfiguration) error {
+	return nil
+}
+
 func (e *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) validatePutLogConfigurationParameters(value *EcsServiceServiceConnectConfigurationLogConfiguration) error {
 	return nil
 }

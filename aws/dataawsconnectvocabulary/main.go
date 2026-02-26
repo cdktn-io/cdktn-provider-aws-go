@@ -70,6 +70,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vocabularyId", GoGetter: "VocabularyId"},
 			_jsii_.MemberProperty{JsiiProperty: "vocabularyIdInput", GoGetter: "VocabularyIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsConnectVocabulary{}

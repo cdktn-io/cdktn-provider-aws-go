@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_encryption_control aws_vpc_encryption_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpc_encryption_control aws_vpc_encryption_control}.
 type VpcEncryptionControl interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -173,6 +173,15 @@ type VpcEncryptionControl interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for VpcEncryptionControl
@@ -651,7 +660,7 @@ func (j *jsiiProxy_VpcEncryptionControl) VpcPeeringExclusionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_encryption_control aws_vpc_encryption_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpc_encryption_control aws_vpc_encryption_control} Resource.
 func NewVpcEncryptionControl(scope constructs.Construct, id *string, config *VpcEncryptionControlConfig) VpcEncryptionControl {
 	_init_.Initialize()
 
@@ -669,7 +678,7 @@ func NewVpcEncryptionControl(scope constructs.Construct, id *string, config *Vpc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_encryption_control aws_vpc_encryption_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpc_encryption_control aws_vpc_encryption_control} Resource.
 func NewVpcEncryptionControl_Override(v VpcEncryptionControl, scope constructs.Construct, id *string, config *VpcEncryptionControlConfig) {
 	_init_.Initialize()
 
@@ -1412,6 +1421,24 @@ func (v *jsiiProxy_VpcEncryptionControl) ToTerraform() interface{} {
 		v,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpcEncryptionControl) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		v,
+		"with",
+		args,
 		&returns,
 	)
 

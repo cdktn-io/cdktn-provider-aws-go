@@ -118,6 +118,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "transferLockInput", GoGetter: "TransferLockInput"},
 			_jsii_.MemberProperty{JsiiProperty: "updatedDate", GoGetter: "UpdatedDate"},
 			_jsii_.MemberProperty{JsiiProperty: "whoisServer", GoGetter: "WhoisServer"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_Route53DomainsRegisteredDomain{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cleanrooms_configured_table aws_cleanrooms_configured_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cleanrooms_configured_table aws_cleanrooms_configured_table}.
 type CleanroomsConfiguredTable interface {
 	cdktn.TerraformResource
 	AllowedColumns() *[]*string
@@ -157,6 +157,15 @@ type CleanroomsConfiguredTable interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for CleanroomsConfiguredTable
@@ -555,7 +564,7 @@ func (j *jsiiProxy_CleanroomsConfiguredTable) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cleanrooms_configured_table aws_cleanrooms_configured_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cleanrooms_configured_table aws_cleanrooms_configured_table} Resource.
 func NewCleanroomsConfiguredTable(scope constructs.Construct, id *string, config *CleanroomsConfiguredTableConfig) CleanroomsConfiguredTable {
 	_init_.Initialize()
 
@@ -573,7 +582,7 @@ func NewCleanroomsConfiguredTable(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cleanrooms_configured_table aws_cleanrooms_configured_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cleanrooms_configured_table aws_cleanrooms_configured_table} Resource.
 func NewCleanroomsConfiguredTable_Override(c CleanroomsConfiguredTable, scope constructs.Construct, id *string, config *CleanroomsConfiguredTableConfig) {
 	_init_.Initialize()
 
@@ -1243,6 +1252,24 @@ func (c *jsiiProxy_CleanroomsConfiguredTable) ToTerraform() interface{} {
 		c,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_CleanroomsConfiguredTable) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		c,
+		"with",
+		args,
 		&returns,
 	)
 

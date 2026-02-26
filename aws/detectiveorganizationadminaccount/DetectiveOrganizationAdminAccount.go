@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/detective_organization_admin_account aws_detective_organization_admin_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/detective_organization_admin_account aws_detective_organization_admin_account}.
 type DetectiveOrganizationAdminAccount interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -129,6 +129,15 @@ type DetectiveOrganizationAdminAccount interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DetectiveOrganizationAdminAccount
@@ -357,7 +366,7 @@ func (j *jsiiProxy_DetectiveOrganizationAdminAccount) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/detective_organization_admin_account aws_detective_organization_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/detective_organization_admin_account aws_detective_organization_admin_account} Resource.
 func NewDetectiveOrganizationAdminAccount(scope constructs.Construct, id *string, config *DetectiveOrganizationAdminAccountConfig) DetectiveOrganizationAdminAccount {
 	_init_.Initialize()
 
@@ -375,7 +384,7 @@ func NewDetectiveOrganizationAdminAccount(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/detective_organization_admin_account aws_detective_organization_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/detective_organization_admin_account aws_detective_organization_admin_account} Resource.
 func NewDetectiveOrganizationAdminAccount_Override(d DetectiveOrganizationAdminAccount, scope constructs.Construct, id *string, config *DetectiveOrganizationAdminAccountConfig) {
 	_init_.Initialize()
 
@@ -936,6 +945,24 @@ func (d *jsiiProxy_DetectiveOrganizationAdminAccount) ToTerraform() interface{} 
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DetectiveOrganizationAdminAccount) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

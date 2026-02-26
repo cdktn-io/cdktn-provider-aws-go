@@ -96,6 +96,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForDeployment", GoGetter: "WaitForDeployment"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForDeploymentInput", GoGetter: "WaitForDeploymentInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudfrontDistributionTenant{}

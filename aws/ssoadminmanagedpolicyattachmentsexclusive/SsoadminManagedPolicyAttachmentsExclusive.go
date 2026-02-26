@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssoadmin_managed_policy_attachments_exclusive aws_ssoadmin_managed_policy_attachments_exclusive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssoadmin_managed_policy_attachments_exclusive aws_ssoadmin_managed_policy_attachments_exclusive}.
 type SsoadminManagedPolicyAttachmentsExclusive interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -135,6 +135,15 @@ type SsoadminManagedPolicyAttachmentsExclusive interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SsoadminManagedPolicyAttachmentsExclusive
@@ -403,7 +412,7 @@ func (j *jsiiProxy_SsoadminManagedPolicyAttachmentsExclusive) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssoadmin_managed_policy_attachments_exclusive aws_ssoadmin_managed_policy_attachments_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssoadmin_managed_policy_attachments_exclusive aws_ssoadmin_managed_policy_attachments_exclusive} Resource.
 func NewSsoadminManagedPolicyAttachmentsExclusive(scope constructs.Construct, id *string, config *SsoadminManagedPolicyAttachmentsExclusiveConfig) SsoadminManagedPolicyAttachmentsExclusive {
 	_init_.Initialize()
 
@@ -421,7 +430,7 @@ func NewSsoadminManagedPolicyAttachmentsExclusive(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssoadmin_managed_policy_attachments_exclusive aws_ssoadmin_managed_policy_attachments_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssoadmin_managed_policy_attachments_exclusive aws_ssoadmin_managed_policy_attachments_exclusive} Resource.
 func NewSsoadminManagedPolicyAttachmentsExclusive_Override(s SsoadminManagedPolicyAttachmentsExclusive, scope constructs.Construct, id *string, config *SsoadminManagedPolicyAttachmentsExclusiveConfig) {
 	_init_.Initialize()
 
@@ -1004,6 +1013,24 @@ func (s *jsiiProxy_SsoadminManagedPolicyAttachmentsExclusive) ToTerraform() inte
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SsoadminManagedPolicyAttachmentsExclusive) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

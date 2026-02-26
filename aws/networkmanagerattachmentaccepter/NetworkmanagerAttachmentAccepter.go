@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkmanager_attachment_accepter aws_networkmanager_attachment_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkmanager_attachment_accepter aws_networkmanager_attachment_accepter}.
 type NetworkmanagerAttachmentAccepter interface {
 	cdktn.TerraformResource
 	AttachmentId() *string
@@ -141,6 +141,15 @@ type NetworkmanagerAttachmentAccepter interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NetworkmanagerAttachmentAccepter
@@ -479,7 +488,7 @@ func (j *jsiiProxy_NetworkmanagerAttachmentAccepter) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkmanager_attachment_accepter aws_networkmanager_attachment_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkmanager_attachment_accepter aws_networkmanager_attachment_accepter} Resource.
 func NewNetworkmanagerAttachmentAccepter(scope constructs.Construct, id *string, config *NetworkmanagerAttachmentAccepterConfig) NetworkmanagerAttachmentAccepter {
 	_init_.Initialize()
 
@@ -497,7 +506,7 @@ func NewNetworkmanagerAttachmentAccepter(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkmanager_attachment_accepter aws_networkmanager_attachment_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkmanager_attachment_accepter aws_networkmanager_attachment_accepter} Resource.
 func NewNetworkmanagerAttachmentAccepter_Override(n NetworkmanagerAttachmentAccepter, scope constructs.Construct, id *string, config *NetworkmanagerAttachmentAccepterConfig) {
 	_init_.Initialize()
 
@@ -1069,6 +1078,24 @@ func (n *jsiiProxy_NetworkmanagerAttachmentAccepter) ToTerraform() interface{} {
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkmanagerAttachmentAccepter) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

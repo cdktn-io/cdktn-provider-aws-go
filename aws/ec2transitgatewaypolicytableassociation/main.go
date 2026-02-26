@@ -67,6 +67,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayAttachmentIdInput", GoGetter: "TransitGatewayAttachmentIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayPolicyTableId", GoGetter: "TransitGatewayPolicyTableId"},
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayPolicyTableIdInput", GoGetter: "TransitGatewayPolicyTableIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_Ec2TransitGatewayPolicyTableAssociation{}

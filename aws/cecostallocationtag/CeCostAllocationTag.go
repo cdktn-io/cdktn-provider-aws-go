@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag}.
 type CeCostAllocationTag interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -129,6 +129,15 @@ type CeCostAllocationTag interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for CeCostAllocationTag
@@ -367,7 +376,7 @@ func (j *jsiiProxy_CeCostAllocationTag) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag} Resource.
 func NewCeCostAllocationTag(scope constructs.Construct, id *string, config *CeCostAllocationTagConfig) CeCostAllocationTag {
 	_init_.Initialize()
 
@@ -385,7 +394,7 @@ func NewCeCostAllocationTag(scope constructs.Construct, id *string, config *CeCo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag} Resource.
 func NewCeCostAllocationTag_Override(c CeCostAllocationTag, scope constructs.Construct, id *string, config *CeCostAllocationTagConfig) {
 	_init_.Initialize()
 
@@ -938,6 +947,24 @@ func (c *jsiiProxy_CeCostAllocationTag) ToTerraform() interface{} {
 		c,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_CeCostAllocationTag) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		c,
+		"with",
+		args,
 		&returns,
 	)
 

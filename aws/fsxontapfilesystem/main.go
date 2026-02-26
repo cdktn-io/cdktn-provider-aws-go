@@ -125,6 +125,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcId", GoGetter: "VpcId"},
 			_jsii_.MemberProperty{JsiiProperty: "weeklyMaintenanceStartTime", GoGetter: "WeeklyMaintenanceStartTime"},
 			_jsii_.MemberProperty{JsiiProperty: "weeklyMaintenanceStartTimeInput", GoGetter: "WeeklyMaintenanceStartTimeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_FsxOntapFileSystem{}

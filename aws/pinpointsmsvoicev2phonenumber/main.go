@@ -99,6 +99,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "twoWayChannelEnabledInput", GoGetter: "TwoWayChannelEnabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "twoWayChannelRole", GoGetter: "TwoWayChannelRole"},
 			_jsii_.MemberProperty{JsiiProperty: "twoWayChannelRoleInput", GoGetter: "TwoWayChannelRoleInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_Pinpointsmsvoicev2PhoneNumber{}

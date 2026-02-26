@@ -73,6 +73,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "triggerTypeInput", GoGetter: "TriggerTypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "triggerValue", GoGetter: "TriggerValue"},
 			_jsii_.MemberProperty{JsiiProperty: "triggerValueInput", GoGetter: "TriggerValueInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ChimesdkvoiceSipRule{}

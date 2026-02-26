@@ -55,6 +55,10 @@ func (c *jsiiProxy_CloudwatchEventConnectionAuthParametersOutputReference) valid
 	return nil
 }
 
+func (c *jsiiProxy_CloudwatchEventConnectionAuthParametersOutputReference) validatePutConnectivityParametersParameters(value *CloudwatchEventConnectionAuthParametersConnectivityParameters) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudwatchEventConnectionAuthParametersOutputReference) validatePutInvocationHttpParametersParameters(value *CloudwatchEventConnectionAuthParametersInvocationHttpParameters) error {
 	return nil
 }

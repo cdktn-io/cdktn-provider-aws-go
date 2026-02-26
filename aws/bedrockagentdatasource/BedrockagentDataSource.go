@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrockagent_data_source aws_bedrockagent_data_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrockagent_data_source aws_bedrockagent_data_source}.
 type BedrockagentDataSource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -154,6 +154,15 @@ type BedrockagentDataSource interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for BedrockagentDataSource
@@ -522,7 +531,7 @@ func (j *jsiiProxy_BedrockagentDataSource) VectorIngestionConfigurationInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrockagent_data_source aws_bedrockagent_data_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrockagent_data_source aws_bedrockagent_data_source} Resource.
 func NewBedrockagentDataSource(scope constructs.Construct, id *string, config *BedrockagentDataSourceConfig) BedrockagentDataSource {
 	_init_.Initialize()
 
@@ -540,7 +549,7 @@ func NewBedrockagentDataSource(scope constructs.Construct, id *string, config *B
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrockagent_data_source aws_bedrockagent_data_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrockagent_data_source aws_bedrockagent_data_source} Resource.
 func NewBedrockagentDataSource_Override(b BedrockagentDataSource, scope constructs.Construct, id *string, config *BedrockagentDataSourceConfig) {
 	_init_.Initialize()
 
@@ -1207,6 +1216,24 @@ func (b *jsiiProxy_BedrockagentDataSource) ToTerraform() interface{} {
 		b,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (b *jsiiProxy_BedrockagentDataSource) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		b,
+		"with",
+		args,
 		&returns,
 	)
 

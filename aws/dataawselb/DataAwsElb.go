@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/elb aws_elb}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/elb aws_elb}.
 type DataAwsElb interface {
 	cdktn.TerraformDataSource
 	AccessLogs() DataAwsElbAccessLogsList
@@ -126,6 +126,15 @@ type DataAwsElb interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsElb
@@ -534,7 +543,7 @@ func (j *jsiiProxy_DataAwsElb) ZoneId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/elb aws_elb} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/elb aws_elb} Data Source.
 func NewDataAwsElb(scope constructs.Construct, id *string, config *DataAwsElbConfig) DataAwsElb {
 	_init_.Initialize()
 
@@ -552,7 +561,7 @@ func NewDataAwsElb(scope constructs.Construct, id *string, config *DataAwsElbCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/elb aws_elb} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/elb aws_elb} Data Source.
 func NewDataAwsElb_Override(d DataAwsElb, scope constructs.Construct, id *string, config *DataAwsElbConfig) {
 	_init_.Initialize()
 
@@ -1042,6 +1051,24 @@ func (d *jsiiProxy_DataAwsElb) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsElb) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

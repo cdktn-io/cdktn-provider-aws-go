@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lakeformation_resource_lf_tags aws_lakeformation_resource_lf_tags}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lakeformation_resource_lf_tags aws_lakeformation_resource_lf_tags}.
 type LakeformationResourceLfTags interface {
 	cdktn.TerraformResource
 	CatalogId() *string
@@ -149,6 +149,15 @@ type LakeformationResourceLfTags interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LakeformationResourceLfTags
@@ -477,7 +486,7 @@ func (j *jsiiProxy_LakeformationResourceLfTags) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lakeformation_resource_lf_tags aws_lakeformation_resource_lf_tags} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lakeformation_resource_lf_tags aws_lakeformation_resource_lf_tags} Resource.
 func NewLakeformationResourceLfTags(scope constructs.Construct, id *string, config *LakeformationResourceLfTagsConfig) LakeformationResourceLfTags {
 	_init_.Initialize()
 
@@ -495,7 +504,7 @@ func NewLakeformationResourceLfTags(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lakeformation_resource_lf_tags aws_lakeformation_resource_lf_tags} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lakeformation_resource_lf_tags aws_lakeformation_resource_lf_tags} Resource.
 func NewLakeformationResourceLfTags_Override(l LakeformationResourceLfTags, scope constructs.Construct, id *string, config *LakeformationResourceLfTagsConfig) {
 	_init_.Initialize()
 
@@ -1151,6 +1160,24 @@ func (l *jsiiProxy_LakeformationResourceLfTags) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LakeformationResourceLfTags) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

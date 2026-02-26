@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/backup_region_settings aws_backup_region_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/backup_region_settings aws_backup_region_settings}.
 type BackupRegionSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -133,6 +133,15 @@ type BackupRegionSettings interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for BackupRegionSettings
@@ -381,7 +390,7 @@ func (j *jsiiProxy_BackupRegionSettings) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/backup_region_settings aws_backup_region_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/backup_region_settings aws_backup_region_settings} Resource.
 func NewBackupRegionSettings(scope constructs.Construct, id *string, config *BackupRegionSettingsConfig) BackupRegionSettings {
 	_init_.Initialize()
 
@@ -399,7 +408,7 @@ func NewBackupRegionSettings(scope constructs.Construct, id *string, config *Bac
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/backup_region_settings aws_backup_region_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/backup_region_settings aws_backup_region_settings} Resource.
 func NewBackupRegionSettings_Override(b BackupRegionSettings, scope constructs.Construct, id *string, config *BackupRegionSettingsConfig) {
 	_init_.Initialize()
 
@@ -979,6 +988,24 @@ func (b *jsiiProxy_BackupRegionSettings) ToTerraform() interface{} {
 		b,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (b *jsiiProxy_BackupRegionSettings) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		b,
+		"with",
+		args,
 		&returns,
 	)
 

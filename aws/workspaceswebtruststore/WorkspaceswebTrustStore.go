@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_trust_store aws_workspacesweb_trust_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_trust_store aws_workspacesweb_trust_store}.
 type WorkspaceswebTrustStore interface {
 	cdktn.TerraformResource
 	AssociatedPortalArns() *[]*string
@@ -133,6 +133,15 @@ type WorkspaceswebTrustStore interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for WorkspaceswebTrustStore
@@ -391,7 +400,7 @@ func (j *jsiiProxy_WorkspaceswebTrustStore) TrustStoreArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_trust_store aws_workspacesweb_trust_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_trust_store aws_workspacesweb_trust_store} Resource.
 func NewWorkspaceswebTrustStore(scope constructs.Construct, id *string, config *WorkspaceswebTrustStoreConfig) WorkspaceswebTrustStore {
 	_init_.Initialize()
 
@@ -409,7 +418,7 @@ func NewWorkspaceswebTrustStore(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_trust_store aws_workspacesweb_trust_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_trust_store aws_workspacesweb_trust_store} Resource.
 func NewWorkspaceswebTrustStore_Override(w WorkspaceswebTrustStore, scope constructs.Construct, id *string, config *WorkspaceswebTrustStoreConfig) {
 	_init_.Initialize()
 
@@ -978,6 +987,24 @@ func (w *jsiiProxy_WorkspaceswebTrustStore) ToTerraform() interface{} {
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkspaceswebTrustStore) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

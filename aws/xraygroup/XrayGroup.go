@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/xray_group aws_xray_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/xray_group aws_xray_group}.
 type XrayGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -145,6 +145,15 @@ type XrayGroup interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for XrayGroup
@@ -463,7 +472,7 @@ func (j *jsiiProxy_XrayGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/xray_group aws_xray_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/xray_group aws_xray_group} Resource.
 func NewXrayGroup(scope constructs.Construct, id *string, config *XrayGroupConfig) XrayGroup {
 	_init_.Initialize()
 
@@ -481,7 +490,7 @@ func NewXrayGroup(scope constructs.Construct, id *string, config *XrayGroupConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/xray_group aws_xray_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/xray_group aws_xray_group} Resource.
 func NewXrayGroup_Override(x XrayGroup, scope constructs.Construct, id *string, config *XrayGroupConfig) {
 	_init_.Initialize()
 
@@ -1110,6 +1119,24 @@ func (x *jsiiProxy_XrayGroup) ToTerraform() interface{} {
 		x,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (x *jsiiProxy_XrayGroup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		x,
+		"with",
+		args,
 		&returns,
 	)
 

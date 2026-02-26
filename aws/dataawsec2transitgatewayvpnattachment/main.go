@@ -70,6 +70,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayIdInput", GoGetter: "TransitGatewayIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnConnectionId", GoGetter: "VpnConnectionId"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnConnectionIdInput", GoGetter: "VpnConnectionIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsEc2TransitGatewayVpnAttachment{}

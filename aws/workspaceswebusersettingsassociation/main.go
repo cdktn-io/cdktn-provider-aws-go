@@ -62,6 +62,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "userSettingsArn", GoGetter: "UserSettingsArn"},
 			_jsii_.MemberProperty{JsiiProperty: "userSettingsArnInput", GoGetter: "UserSettingsArnInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkspaceswebUserSettingsAssociation{}

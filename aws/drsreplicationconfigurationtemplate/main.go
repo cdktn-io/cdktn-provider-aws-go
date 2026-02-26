@@ -100,6 +100,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "useDedicatedReplicationServer", GoGetter: "UseDedicatedReplicationServer"},
 			_jsii_.MemberProperty{JsiiProperty: "useDedicatedReplicationServerInput", GoGetter: "UseDedicatedReplicationServerInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DrsReplicationConfigurationTemplate{}

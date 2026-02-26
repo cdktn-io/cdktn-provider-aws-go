@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/memorydb_multi_region_cluster aws_memorydb_multi_region_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/memorydb_multi_region_cluster aws_memorydb_multi_region_cluster}.
 type MemorydbMultiRegionCluster interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -168,6 +168,15 @@ type MemorydbMultiRegionCluster interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for MemorydbMultiRegionCluster
@@ -616,7 +625,7 @@ func (j *jsiiProxy_MemorydbMultiRegionCluster) UpdateStrategyInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/memorydb_multi_region_cluster aws_memorydb_multi_region_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/memorydb_multi_region_cluster aws_memorydb_multi_region_cluster} Resource.
 func NewMemorydbMultiRegionCluster(scope constructs.Construct, id *string, config *MemorydbMultiRegionClusterConfig) MemorydbMultiRegionCluster {
 	_init_.Initialize()
 
@@ -634,7 +643,7 @@ func NewMemorydbMultiRegionCluster(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/memorydb_multi_region_cluster aws_memorydb_multi_region_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/memorydb_multi_region_cluster aws_memorydb_multi_region_cluster} Resource.
 func NewMemorydbMultiRegionCluster_Override(m MemorydbMultiRegionCluster, scope constructs.Construct, id *string, config *MemorydbMultiRegionClusterConfig) {
 	_init_.Initialize()
 
@@ -1358,6 +1367,24 @@ func (m *jsiiProxy_MemorydbMultiRegionCluster) ToTerraform() interface{} {
 		m,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (m *jsiiProxy_MemorydbMultiRegionCluster) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		m,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -79,6 +79,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "usageReportS3Bucket", GoGetter: "UsageReportS3Bucket"},
 			_jsii_.MemberProperty{JsiiProperty: "usageReportS3BucketInput", GoGetter: "UsageReportS3BucketInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_SnsSmsPreferences{}

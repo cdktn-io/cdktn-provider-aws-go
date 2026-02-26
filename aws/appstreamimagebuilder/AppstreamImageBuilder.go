@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appstream_image_builder aws_appstream_image_builder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appstream_image_builder aws_appstream_image_builder}.
 type AppstreamImageBuilder interface {
 	cdktn.TerraformResource
 	AccessEndpoint() AppstreamImageBuilderAccessEndpointList
@@ -183,6 +183,15 @@ type AppstreamImageBuilder interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AppstreamImageBuilder
@@ -701,7 +710,7 @@ func (j *jsiiProxy_AppstreamImageBuilder) VpcConfigInput() *AppstreamImageBuilde
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appstream_image_builder aws_appstream_image_builder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appstream_image_builder aws_appstream_image_builder} Resource.
 func NewAppstreamImageBuilder(scope constructs.Construct, id *string, config *AppstreamImageBuilderConfig) AppstreamImageBuilder {
 	_init_.Initialize()
 
@@ -719,7 +728,7 @@ func NewAppstreamImageBuilder(scope constructs.Construct, id *string, config *Ap
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appstream_image_builder aws_appstream_image_builder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appstream_image_builder aws_appstream_image_builder} Resource.
 func NewAppstreamImageBuilder_Override(a AppstreamImageBuilder, scope constructs.Construct, id *string, config *AppstreamImageBuilderConfig) {
 	_init_.Initialize()
 
@@ -1519,6 +1528,24 @@ func (a *jsiiProxy_AppstreamImageBuilder) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AppstreamImageBuilder) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

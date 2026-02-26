@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/mq_broker aws_mq_broker}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/mq_broker aws_mq_broker}.
 type MqBroker interface {
 	cdktn.TerraformResource
 	ApplyImmediately() interface{}
@@ -216,6 +216,15 @@ type MqBroker interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for MqBroker
@@ -914,7 +923,7 @@ func (j *jsiiProxy_MqBroker) UserInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/mq_broker aws_mq_broker} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/mq_broker aws_mq_broker} Resource.
 func NewMqBroker(scope constructs.Construct, id *string, config *MqBrokerConfig) MqBroker {
 	_init_.Initialize()
 
@@ -932,7 +941,7 @@ func NewMqBroker(scope constructs.Construct, id *string, config *MqBrokerConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/mq_broker aws_mq_broker} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/mq_broker aws_mq_broker} Resource.
 func NewMqBroker_Override(m MqBroker, scope constructs.Construct, id *string, config *MqBrokerConfig) {
 	_init_.Initialize()
 
@@ -1879,6 +1888,24 @@ func (m *jsiiProxy_MqBroker) ToTerraform() interface{} {
 		m,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (m *jsiiProxy_MqBroker) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		m,
+		"with",
+		args,
 		&returns,
 	)
 

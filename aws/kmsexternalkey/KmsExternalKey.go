@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kms_external_key aws_kms_external_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kms_external_key aws_kms_external_key}.
 type KmsExternalKey interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -177,6 +177,15 @@ type KmsExternalKey interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for KmsExternalKey
@@ -655,7 +664,7 @@ func (j *jsiiProxy_KmsExternalKey) ValidToInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kms_external_key aws_kms_external_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kms_external_key aws_kms_external_key} Resource.
 func NewKmsExternalKey(scope constructs.Construct, id *string, config *KmsExternalKeyConfig) KmsExternalKey {
 	_init_.Initialize()
 
@@ -673,7 +682,7 @@ func NewKmsExternalKey(scope constructs.Construct, id *string, config *KmsExtern
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kms_external_key aws_kms_external_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kms_external_key aws_kms_external_key} Resource.
 func NewKmsExternalKey_Override(k KmsExternalKey, scope constructs.Construct, id *string, config *KmsExternalKeyConfig) {
 	_init_.Initialize()
 
@@ -1451,6 +1460,24 @@ func (k *jsiiProxy_KmsExternalKey) ToTerraform() interface{} {
 		k,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (k *jsiiProxy_KmsExternalKey) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		k,
+		"with",
+		args,
 		&returns,
 	)
 

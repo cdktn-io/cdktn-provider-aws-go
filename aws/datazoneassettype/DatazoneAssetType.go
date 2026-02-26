@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/datazone_asset_type aws_datazone_asset_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/datazone_asset_type aws_datazone_asset_type}.
 type DatazoneAssetType interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -146,6 +146,15 @@ type DatazoneAssetType interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DatazoneAssetType
@@ -484,7 +493,7 @@ func (j *jsiiProxy_DatazoneAssetType) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/datazone_asset_type aws_datazone_asset_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/datazone_asset_type aws_datazone_asset_type} Resource.
 func NewDatazoneAssetType(scope constructs.Construct, id *string, config *DatazoneAssetTypeConfig) DatazoneAssetType {
 	_init_.Initialize()
 
@@ -502,7 +511,7 @@ func NewDatazoneAssetType(scope constructs.Construct, id *string, config *Datazo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/datazone_asset_type aws_datazone_asset_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/datazone_asset_type aws_datazone_asset_type} Resource.
 func NewDatazoneAssetType_Override(d DatazoneAssetType, scope constructs.Construct, id *string, config *DatazoneAssetTypeConfig) {
 	_init_.Initialize()
 
@@ -1123,6 +1132,24 @@ func (d *jsiiProxy_DatazoneAssetType) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DatazoneAssetType) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

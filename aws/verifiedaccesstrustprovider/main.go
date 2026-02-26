@@ -100,6 +100,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trustProviderTypeInput", GoGetter: "TrustProviderTypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "userTrustProviderType", GoGetter: "UserTrustProviderType"},
 			_jsii_.MemberProperty{JsiiProperty: "userTrustProviderTypeInput", GoGetter: "UserTrustProviderTypeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VerifiedaccessTrustProvider{}

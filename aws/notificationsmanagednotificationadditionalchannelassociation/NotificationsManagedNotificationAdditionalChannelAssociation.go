@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/notifications_managed_notification_additional_channel_association aws_notifications_managed_notification_additional_channel_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/notifications_managed_notification_additional_channel_association aws_notifications_managed_notification_additional_channel_association}.
 type NotificationsManagedNotificationAdditionalChannelAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -124,6 +124,15 @@ type NotificationsManagedNotificationAdditionalChannelAssociation interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NotificationsManagedNotificationAdditionalChannelAssociation
@@ -332,7 +341,7 @@ func (j *jsiiProxy_NotificationsManagedNotificationAdditionalChannelAssociation)
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/notifications_managed_notification_additional_channel_association aws_notifications_managed_notification_additional_channel_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/notifications_managed_notification_additional_channel_association aws_notifications_managed_notification_additional_channel_association} Resource.
 func NewNotificationsManagedNotificationAdditionalChannelAssociation(scope constructs.Construct, id *string, config *NotificationsManagedNotificationAdditionalChannelAssociationConfig) NotificationsManagedNotificationAdditionalChannelAssociation {
 	_init_.Initialize()
 
@@ -350,7 +359,7 @@ func NewNotificationsManagedNotificationAdditionalChannelAssociation(scope const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/notifications_managed_notification_additional_channel_association aws_notifications_managed_notification_additional_channel_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/notifications_managed_notification_additional_channel_association aws_notifications_managed_notification_additional_channel_association} Resource.
 func NewNotificationsManagedNotificationAdditionalChannelAssociation_Override(n NotificationsManagedNotificationAdditionalChannelAssociation, scope constructs.Construct, id *string, config *NotificationsManagedNotificationAdditionalChannelAssociationConfig) {
 	_init_.Initialize()
 
@@ -884,6 +893,24 @@ func (n *jsiiProxy_NotificationsManagedNotificationAdditionalChannelAssociation)
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NotificationsManagedNotificationAdditionalChannelAssociation) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

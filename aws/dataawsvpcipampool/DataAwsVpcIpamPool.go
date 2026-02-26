@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/vpc_ipam_pool aws_vpc_ipam_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/vpc_ipam_pool aws_vpc_ipam_pool}.
 type DataAwsVpcIpamPool interface {
 	cdktn.TerraformDataSource
 	AddressFamily() *string
@@ -137,6 +137,15 @@ type DataAwsVpcIpamPool interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsVpcIpamPool
@@ -585,7 +594,7 @@ func (j *jsiiProxy_DataAwsVpcIpamPool) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/vpc_ipam_pool aws_vpc_ipam_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/vpc_ipam_pool aws_vpc_ipam_pool} Data Source.
 func NewDataAwsVpcIpamPool(scope constructs.Construct, id *string, config *DataAwsVpcIpamPoolConfig) DataAwsVpcIpamPool {
 	_init_.Initialize()
 
@@ -603,7 +612,7 @@ func NewDataAwsVpcIpamPool(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/vpc_ipam_pool aws_vpc_ipam_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/vpc_ipam_pool aws_vpc_ipam_pool} Data Source.
 func NewDataAwsVpcIpamPool_Override(d DataAwsVpcIpamPool, scope constructs.Construct, id *string, config *DataAwsVpcIpamPoolConfig) {
 	_init_.Initialize()
 
@@ -1158,6 +1167,24 @@ func (d *jsiiProxy_DataAwsVpcIpamPool) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsVpcIpamPool) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

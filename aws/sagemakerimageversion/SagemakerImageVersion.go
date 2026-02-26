@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_image_version aws_sagemaker_image_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_image_version aws_sagemaker_image_version}.
 type SagemakerImageVersion interface {
 	cdktn.TerraformResource
 	Aliases() *[]*string
@@ -168,6 +168,15 @@ type SagemakerImageVersion interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SagemakerImageVersion
@@ -616,7 +625,7 @@ func (j *jsiiProxy_SagemakerImageVersion) Version() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_image_version aws_sagemaker_image_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_image_version aws_sagemaker_image_version} Resource.
 func NewSagemakerImageVersion(scope constructs.Construct, id *string, config *SagemakerImageVersionConfig) SagemakerImageVersion {
 	_init_.Initialize()
 
@@ -634,7 +643,7 @@ func NewSagemakerImageVersion(scope constructs.Construct, id *string, config *Sa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_image_version aws_sagemaker_image_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_image_version aws_sagemaker_image_version} Resource.
 func NewSagemakerImageVersion_Override(s SagemakerImageVersion, scope constructs.Construct, id *string, config *SagemakerImageVersionConfig) {
 	_init_.Initialize()
 
@@ -1358,6 +1367,24 @@ func (s *jsiiProxy_SagemakerImageVersion) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SagemakerImageVersion) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

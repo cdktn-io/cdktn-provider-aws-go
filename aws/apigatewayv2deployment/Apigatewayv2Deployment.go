@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/apigatewayv2_deployment aws_apigatewayv2_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/apigatewayv2_deployment aws_apigatewayv2_deployment}.
 type Apigatewayv2Deployment interface {
 	cdktn.TerraformResource
 	ApiId() *string
@@ -138,6 +138,15 @@ type Apigatewayv2Deployment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Apigatewayv2Deployment
@@ -416,7 +425,7 @@ func (j *jsiiProxy_Apigatewayv2Deployment) TriggersInput() *map[string]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/apigatewayv2_deployment aws_apigatewayv2_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/apigatewayv2_deployment aws_apigatewayv2_deployment} Resource.
 func NewApigatewayv2Deployment(scope constructs.Construct, id *string, config *Apigatewayv2DeploymentConfig) Apigatewayv2Deployment {
 	_init_.Initialize()
 
@@ -434,7 +443,7 @@ func NewApigatewayv2Deployment(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/apigatewayv2_deployment aws_apigatewayv2_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/apigatewayv2_deployment aws_apigatewayv2_deployment} Resource.
 func NewApigatewayv2Deployment_Override(a Apigatewayv2Deployment, scope constructs.Construct, id *string, config *Apigatewayv2DeploymentConfig) {
 	_init_.Initialize()
 
@@ -1033,6 +1042,24 @@ func (a *jsiiProxy_Apigatewayv2Deployment) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_Apigatewayv2Deployment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

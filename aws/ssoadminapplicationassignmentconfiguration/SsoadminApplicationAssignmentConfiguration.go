@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssoadmin_application_assignment_configuration aws_ssoadmin_application_assignment_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssoadmin_application_assignment_configuration aws_ssoadmin_application_assignment_configuration}.
 type SsoadminApplicationAssignmentConfiguration interface {
 	cdktn.TerraformResource
 	ApplicationArn() *string
@@ -129,6 +129,15 @@ type SsoadminApplicationAssignmentConfiguration interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SsoadminApplicationAssignmentConfiguration
@@ -367,7 +376,7 @@ func (j *jsiiProxy_SsoadminApplicationAssignmentConfiguration) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssoadmin_application_assignment_configuration aws_ssoadmin_application_assignment_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssoadmin_application_assignment_configuration aws_ssoadmin_application_assignment_configuration} Resource.
 func NewSsoadminApplicationAssignmentConfiguration(scope constructs.Construct, id *string, config *SsoadminApplicationAssignmentConfigurationConfig) SsoadminApplicationAssignmentConfiguration {
 	_init_.Initialize()
 
@@ -385,7 +394,7 @@ func NewSsoadminApplicationAssignmentConfiguration(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssoadmin_application_assignment_configuration aws_ssoadmin_application_assignment_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssoadmin_application_assignment_configuration aws_ssoadmin_application_assignment_configuration} Resource.
 func NewSsoadminApplicationAssignmentConfiguration_Override(s SsoadminApplicationAssignmentConfiguration, scope constructs.Construct, id *string, config *SsoadminApplicationAssignmentConfigurationConfig) {
 	_init_.Initialize()
 
@@ -938,6 +947,24 @@ func (s *jsiiProxy_SsoadminApplicationAssignmentConfiguration) ToTerraform() int
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SsoadminApplicationAssignmentConfiguration) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lambda_layer_version_permission aws_lambda_layer_version_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lambda_layer_version_permission aws_lambda_layer_version_permission}.
 type LambdaLayerVersionPermission interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -151,6 +151,15 @@ type LambdaLayerVersionPermission interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LambdaLayerVersionPermission
@@ -519,7 +528,7 @@ func (j *jsiiProxy_LambdaLayerVersionPermission) VersionNumberInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lambda_layer_version_permission aws_lambda_layer_version_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lambda_layer_version_permission aws_lambda_layer_version_permission} Resource.
 func NewLambdaLayerVersionPermission(scope constructs.Construct, id *string, config *LambdaLayerVersionPermissionConfig) LambdaLayerVersionPermission {
 	_init_.Initialize()
 
@@ -537,7 +546,7 @@ func NewLambdaLayerVersionPermission(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lambda_layer_version_permission aws_lambda_layer_version_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lambda_layer_version_permission aws_lambda_layer_version_permission} Resource.
 func NewLambdaLayerVersionPermission_Override(l LambdaLayerVersionPermission, scope constructs.Construct, id *string, config *LambdaLayerVersionPermissionConfig) {
 	_init_.Initialize()
 
@@ -1180,6 +1189,24 @@ func (l *jsiiProxy_LambdaLayerVersionPermission) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LambdaLayerVersionPermission) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

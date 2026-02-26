@@ -75,6 +75,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "types", GoGetter: "Types"},
 			_jsii_.MemberProperty{JsiiProperty: "typesInput", GoGetter: "TypesInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsAcmCertificate{}

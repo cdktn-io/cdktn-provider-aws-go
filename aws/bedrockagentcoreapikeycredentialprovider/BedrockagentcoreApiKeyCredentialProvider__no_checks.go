@@ -127,6 +127,10 @@ func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) validateSetRegionPa
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
 func validateNewBedrockagentcoreApiKeyCredentialProviderParameters(scope constructs.Construct, id *string, config *BedrockagentcoreApiKeyCredentialProviderConfig) error {
 	return nil
 }

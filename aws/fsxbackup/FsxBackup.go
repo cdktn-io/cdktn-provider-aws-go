@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/fsx_backup aws_fsx_backup}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/fsx_backup aws_fsx_backup}.
 type FsxBackup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -150,6 +150,15 @@ type FsxBackup interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for FsxBackup
@@ -498,7 +507,7 @@ func (j *jsiiProxy_FsxBackup) VolumeIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/fsx_backup aws_fsx_backup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/fsx_backup aws_fsx_backup} Resource.
 func NewFsxBackup(scope constructs.Construct, id *string, config *FsxBackupConfig) FsxBackup {
 	_init_.Initialize()
 
@@ -516,7 +525,7 @@ func NewFsxBackup(scope constructs.Construct, id *string, config *FsxBackupConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/fsx_backup aws_fsx_backup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/fsx_backup aws_fsx_backup} Resource.
 func NewFsxBackup_Override(f FsxBackup, scope constructs.Construct, id *string, config *FsxBackupConfig) {
 	_init_.Initialize()
 
@@ -1161,6 +1170,24 @@ func (f *jsiiProxy_FsxBackup) ToTerraform() interface{} {
 		f,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (f *jsiiProxy_FsxBackup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		f,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/notifications_event_rule aws_notifications_event_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/notifications_event_rule aws_notifications_event_rule}.
 type NotificationsEventRule interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -135,6 +135,15 @@ type NotificationsEventRule interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NotificationsEventRule
@@ -413,7 +422,7 @@ func (j *jsiiProxy_NotificationsEventRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/notifications_event_rule aws_notifications_event_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/notifications_event_rule aws_notifications_event_rule} Resource.
 func NewNotificationsEventRule(scope constructs.Construct, id *string, config *NotificationsEventRuleConfig) NotificationsEventRule {
 	_init_.Initialize()
 
@@ -431,7 +440,7 @@ func NewNotificationsEventRule(scope constructs.Construct, id *string, config *N
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/notifications_event_rule aws_notifications_event_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/notifications_event_rule aws_notifications_event_rule} Resource.
 func NewNotificationsEventRule_Override(n NotificationsEventRule, scope constructs.Construct, id *string, config *NotificationsEventRuleConfig) {
 	_init_.Initialize()
 
@@ -1006,6 +1015,24 @@ func (n *jsiiProxy_NotificationsEventRule) ToTerraform() interface{} {
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NotificationsEventRule) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -88,6 +88,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trafficDirectionInput", GoGetter: "TrafficDirectionInput"},
 			_jsii_.MemberProperty{JsiiProperty: "trafficMirrorFilterId", GoGetter: "TrafficMirrorFilterId"},
 			_jsii_.MemberProperty{JsiiProperty: "trafficMirrorFilterIdInput", GoGetter: "TrafficMirrorFilterIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_Ec2TrafficMirrorFilterRule{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/transfer_host_key aws_transfer_host_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/transfer_host_key aws_transfer_host_key}.
 type TransferHostKey interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -145,6 +145,15 @@ type TransferHostKey interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for TransferHostKey
@@ -473,7 +482,7 @@ func (j *jsiiProxy_TransferHostKey) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/transfer_host_key aws_transfer_host_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/transfer_host_key aws_transfer_host_key} Resource.
 func NewTransferHostKey(scope constructs.Construct, id *string, config *TransferHostKeyConfig) TransferHostKey {
 	_init_.Initialize()
 
@@ -491,7 +500,7 @@ func NewTransferHostKey(scope constructs.Construct, id *string, config *Transfer
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/transfer_host_key aws_transfer_host_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/transfer_host_key aws_transfer_host_key} Resource.
 func NewTransferHostKey_Override(t TransferHostKey, scope constructs.Construct, id *string, config *TransferHostKeyConfig) {
 	_init_.Initialize()
 
@@ -1109,6 +1118,24 @@ func (t *jsiiProxy_TransferHostKey) ToTerraform() interface{} {
 		t,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TransferHostKey) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		t,
+		"with",
+		args,
 		&returns,
 	)
 

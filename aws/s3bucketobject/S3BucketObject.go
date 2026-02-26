@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3_bucket_object aws_s3_bucket_object}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3_bucket_object aws_s3_bucket_object}.
 type S3BucketObject interface {
 	cdktn.TerraformResource
 	Acl() *string
@@ -226,6 +226,15 @@ type S3BucketObject interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for S3BucketObject
@@ -954,7 +963,7 @@ func (j *jsiiProxy_S3BucketObject) WebsiteRedirectInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3_bucket_object aws_s3_bucket_object} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3_bucket_object aws_s3_bucket_object} Resource.
 func NewS3BucketObject(scope constructs.Construct, id *string, config *S3BucketObjectConfig) S3BucketObject {
 	_init_.Initialize()
 
@@ -972,7 +981,7 @@ func NewS3BucketObject(scope constructs.Construct, id *string, config *S3BucketO
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3_bucket_object aws_s3_bucket_object} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3_bucket_object aws_s3_bucket_object} Resource.
 func NewS3BucketObject_Override(s S3BucketObject, scope constructs.Construct, id *string, config *S3BucketObjectConfig) {
 	_init_.Initialize()
 
@@ -1981,6 +1990,24 @@ func (s *jsiiProxy_S3BucketObject) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_S3BucketObject) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

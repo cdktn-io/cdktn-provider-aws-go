@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/guardduty_organization_configuration aws_guardduty_organization_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/guardduty_organization_configuration aws_guardduty_organization_configuration}.
 type GuarddutyOrganizationConfiguration interface {
 	cdktn.TerraformResource
 	AutoEnableOrganizationMembers() *string
@@ -136,6 +136,15 @@ type GuarddutyOrganizationConfiguration interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for GuarddutyOrganizationConfiguration
@@ -404,7 +413,7 @@ func (j *jsiiProxy_GuarddutyOrganizationConfiguration) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/guardduty_organization_configuration aws_guardduty_organization_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/guardduty_organization_configuration aws_guardduty_organization_configuration} Resource.
 func NewGuarddutyOrganizationConfiguration(scope constructs.Construct, id *string, config *GuarddutyOrganizationConfigurationConfig) GuarddutyOrganizationConfiguration {
 	_init_.Initialize()
 
@@ -422,7 +431,7 @@ func NewGuarddutyOrganizationConfiguration(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/guardduty_organization_configuration aws_guardduty_organization_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/guardduty_organization_configuration aws_guardduty_organization_configuration} Resource.
 func NewGuarddutyOrganizationConfiguration_Override(g GuarddutyOrganizationConfiguration, scope constructs.Construct, id *string, config *GuarddutyOrganizationConfigurationConfig) {
 	_init_.Initialize()
 
@@ -1013,6 +1022,24 @@ func (g *jsiiProxy_GuarddutyOrganizationConfiguration) ToTerraform() interface{}
 		g,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (g *jsiiProxy_GuarddutyOrganizationConfiguration) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		g,
+		"with",
+		args,
 		&returns,
 	)
 

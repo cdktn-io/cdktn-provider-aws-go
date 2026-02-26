@@ -89,6 +89,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "utilizationPreference", GoGetter: "UtilizationPreference"},
 			_jsii_.MemberProperty{JsiiProperty: "utilizationPreferenceInput", GoGetter: "UtilizationPreferenceInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeoptimizerRecommendationPreferences{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ram_resource_share aws_ram_resource_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ram_resource_share aws_ram_resource_share}.
 type RamResourceShare interface {
 	cdktn.TerraformResource
 	AllowExternalPrincipals() interface{}
@@ -150,6 +150,15 @@ type RamResourceShare interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for RamResourceShare
@@ -488,7 +497,7 @@ func (j *jsiiProxy_RamResourceShare) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ram_resource_share aws_ram_resource_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ram_resource_share aws_ram_resource_share} Resource.
 func NewRamResourceShare(scope constructs.Construct, id *string, config *RamResourceShareConfig) RamResourceShare {
 	_init_.Initialize()
 
@@ -506,7 +515,7 @@ func NewRamResourceShare(scope constructs.Construct, id *string, config *RamReso
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ram_resource_share aws_ram_resource_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ram_resource_share aws_ram_resource_share} Resource.
 func NewRamResourceShare_Override(r RamResourceShare, scope constructs.Construct, id *string, config *RamResourceShareConfig) {
 	_init_.Initialize()
 
@@ -1162,6 +1171,24 @@ func (r *jsiiProxy_RamResourceShare) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_RamResourceShare) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

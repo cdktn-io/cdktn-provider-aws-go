@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkfirewall_tls_inspection_configuration aws_networkfirewall_tls_inspection_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkfirewall_tls_inspection_configuration aws_networkfirewall_tls_inspection_configuration}.
 type NetworkfirewallTlsInspectionConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -153,6 +153,15 @@ type NetworkfirewallTlsInspectionConfiguration interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NetworkfirewallTlsInspectionConfiguration
@@ -541,7 +550,7 @@ func (j *jsiiProxy_NetworkfirewallTlsInspectionConfiguration) UpdateToken() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkfirewall_tls_inspection_configuration aws_networkfirewall_tls_inspection_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkfirewall_tls_inspection_configuration aws_networkfirewall_tls_inspection_configuration} Resource.
 func NewNetworkfirewallTlsInspectionConfiguration(scope constructs.Construct, id *string, config *NetworkfirewallTlsInspectionConfigurationConfig) NetworkfirewallTlsInspectionConfiguration {
 	_init_.Initialize()
 
@@ -559,7 +568,7 @@ func NewNetworkfirewallTlsInspectionConfiguration(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkfirewall_tls_inspection_configuration aws_networkfirewall_tls_inspection_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkfirewall_tls_inspection_configuration aws_networkfirewall_tls_inspection_configuration} Resource.
 func NewNetworkfirewallTlsInspectionConfiguration_Override(n NetworkfirewallTlsInspectionConfiguration, scope constructs.Construct, id *string, config *NetworkfirewallTlsInspectionConfigurationConfig) {
 	_init_.Initialize()
 
@@ -1196,6 +1205,24 @@ func (n *jsiiProxy_NetworkfirewallTlsInspectionConfiguration) ToTerraform() inte
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkfirewallTlsInspectionConfiguration) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

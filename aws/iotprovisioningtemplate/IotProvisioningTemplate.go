@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_provisioning_template aws_iot_provisioning_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iot_provisioning_template aws_iot_provisioning_template}.
 type IotProvisioningTemplate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -161,6 +161,15 @@ type IotProvisioningTemplate interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IotProvisioningTemplate
@@ -569,7 +578,7 @@ func (j *jsiiProxy_IotProvisioningTemplate) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_provisioning_template aws_iot_provisioning_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iot_provisioning_template aws_iot_provisioning_template} Resource.
 func NewIotProvisioningTemplate(scope constructs.Construct, id *string, config *IotProvisioningTemplateConfig) IotProvisioningTemplate {
 	_init_.Initialize()
 
@@ -587,7 +596,7 @@ func NewIotProvisioningTemplate(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_provisioning_template aws_iot_provisioning_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iot_provisioning_template aws_iot_provisioning_template} Resource.
 func NewIotProvisioningTemplate_Override(i IotProvisioningTemplate, scope constructs.Construct, id *string, config *IotProvisioningTemplateConfig) {
 	_init_.Initialize()
 
@@ -1284,6 +1293,24 @@ func (i *jsiiProxy_IotProvisioningTemplate) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IotProvisioningTemplate) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

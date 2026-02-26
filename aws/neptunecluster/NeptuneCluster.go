@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/neptune_cluster aws_neptune_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/neptune_cluster aws_neptune_cluster}.
 type NeptuneCluster interface {
 	cdktn.TerraformResource
 	AllowMajorVersionUpgrade() interface{}
@@ -260,6 +260,15 @@ type NeptuneCluster interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NeptuneCluster
@@ -1168,7 +1177,7 @@ func (j *jsiiProxy_NeptuneCluster) VpcSecurityGroupIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/neptune_cluster aws_neptune_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/neptune_cluster aws_neptune_cluster} Resource.
 func NewNeptuneCluster(scope constructs.Construct, id *string, config *NeptuneClusterConfig) NeptuneCluster {
 	_init_.Initialize()
 
@@ -1186,7 +1195,7 @@ func NewNeptuneCluster(scope constructs.Construct, id *string, config *NeptuneCl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/neptune_cluster aws_neptune_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/neptune_cluster aws_neptune_cluster} Resource.
 func NewNeptuneCluster_Override(n NeptuneCluster, scope constructs.Construct, id *string, config *NeptuneClusterConfig) {
 	_init_.Initialize()
 
@@ -2344,6 +2353,24 @@ func (n *jsiiProxy_NeptuneCluster) ToTerraform() interface{} {
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NeptuneCluster) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

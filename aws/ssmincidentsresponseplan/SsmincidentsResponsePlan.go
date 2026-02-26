@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssmincidents_response_plan aws_ssmincidents_response_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssmincidents_response_plan aws_ssmincidents_response_plan}.
 type SsmincidentsResponsePlan interface {
 	cdktn.TerraformResource
 	Action() SsmincidentsResponsePlanActionOutputReference
@@ -161,6 +161,15 @@ type SsmincidentsResponsePlan interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SsmincidentsResponsePlan
@@ -559,7 +568,7 @@ func (j *jsiiProxy_SsmincidentsResponsePlan) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssmincidents_response_plan aws_ssmincidents_response_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssmincidents_response_plan aws_ssmincidents_response_plan} Resource.
 func NewSsmincidentsResponsePlan(scope constructs.Construct, id *string, config *SsmincidentsResponsePlanConfig) SsmincidentsResponsePlan {
 	_init_.Initialize()
 
@@ -577,7 +586,7 @@ func NewSsmincidentsResponsePlan(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssmincidents_response_plan aws_ssmincidents_response_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssmincidents_response_plan aws_ssmincidents_response_plan} Resource.
 func NewSsmincidentsResponsePlan_Override(s SsmincidentsResponsePlan, scope constructs.Construct, id *string, config *SsmincidentsResponsePlanConfig) {
 	_init_.Initialize()
 
@@ -1282,6 +1291,24 @@ func (s *jsiiProxy_SsmincidentsResponsePlan) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SsmincidentsResponsePlan) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

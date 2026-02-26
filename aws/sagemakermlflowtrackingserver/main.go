@@ -87,6 +87,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trackingServerUrl", GoGetter: "TrackingServerUrl"},
 			_jsii_.MemberProperty{JsiiProperty: "weeklyMaintenanceWindowStart", GoGetter: "WeeklyMaintenanceWindowStart"},
 			_jsii_.MemberProperty{JsiiProperty: "weeklyMaintenanceWindowStartInput", GoGetter: "WeeklyMaintenanceWindowStartInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_SagemakerMlflowTrackingServer{}

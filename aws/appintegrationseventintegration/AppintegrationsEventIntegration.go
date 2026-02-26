@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appintegrations_event_integration aws_appintegrations_event_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appintegrations_event_integration aws_appintegrations_event_integration}.
 type AppintegrationsEventIntegration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -148,6 +148,15 @@ type AppintegrationsEventIntegration interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AppintegrationsEventIntegration
@@ -486,7 +495,7 @@ func (j *jsiiProxy_AppintegrationsEventIntegration) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appintegrations_event_integration aws_appintegrations_event_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appintegrations_event_integration aws_appintegrations_event_integration} Resource.
 func NewAppintegrationsEventIntegration(scope constructs.Construct, id *string, config *AppintegrationsEventIntegrationConfig) AppintegrationsEventIntegration {
 	_init_.Initialize()
 
@@ -504,7 +513,7 @@ func NewAppintegrationsEventIntegration(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appintegrations_event_integration aws_appintegrations_event_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appintegrations_event_integration aws_appintegrations_event_integration} Resource.
 func NewAppintegrationsEventIntegration_Override(a AppintegrationsEventIntegration, scope constructs.Construct, id *string, config *AppintegrationsEventIntegrationConfig) {
 	_init_.Initialize()
 
@@ -1144,6 +1153,24 @@ func (a *jsiiProxy_AppintegrationsEventIntegration) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AppintegrationsEventIntegration) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

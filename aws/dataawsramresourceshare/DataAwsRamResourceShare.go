@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ram_resource_share aws_ram_resource_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ram_resource_share aws_ram_resource_share}.
 type DataAwsRamResourceShare interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -124,6 +124,15 @@ type DataAwsRamResourceShare interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsRamResourceShare
@@ -452,7 +461,7 @@ func (j *jsiiProxy_DataAwsRamResourceShare) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ram_resource_share aws_ram_resource_share} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ram_resource_share aws_ram_resource_share} Data Source.
 func NewDataAwsRamResourceShare(scope constructs.Construct, id *string, config *DataAwsRamResourceShareConfig) DataAwsRamResourceShare {
 	_init_.Initialize()
 
@@ -470,7 +479,7 @@ func NewDataAwsRamResourceShare(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ram_resource_share aws_ram_resource_share} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ram_resource_share aws_ram_resource_share} Data Source.
 func NewDataAwsRamResourceShare_Override(d DataAwsRamResourceShare, scope constructs.Construct, id *string, config *DataAwsRamResourceShareConfig) {
 	_init_.Initialize()
 
@@ -1017,6 +1026,24 @@ func (d *jsiiProxy_DataAwsRamResourceShare) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsRamResourceShare) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

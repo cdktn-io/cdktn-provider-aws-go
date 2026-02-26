@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_model_card aws_sagemaker_model_card}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_model_card aws_sagemaker_model_card}.
 type SagemakerModelCard interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -145,6 +145,15 @@ type SagemakerModelCard interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SagemakerModelCard
@@ -473,7 +482,7 @@ func (j *jsiiProxy_SagemakerModelCard) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_model_card aws_sagemaker_model_card} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_model_card aws_sagemaker_model_card} Resource.
 func NewSagemakerModelCard(scope constructs.Construct, id *string, config *SagemakerModelCardConfig) SagemakerModelCard {
 	_init_.Initialize()
 
@@ -491,7 +500,7 @@ func NewSagemakerModelCard(scope constructs.Construct, id *string, config *Sagem
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_model_card aws_sagemaker_model_card} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_model_card aws_sagemaker_model_card} Resource.
 func NewSagemakerModelCard_Override(s SagemakerModelCard, scope constructs.Construct, id *string, config *SagemakerModelCardConfig) {
 	_init_.Initialize()
 
@@ -1112,6 +1121,24 @@ func (s *jsiiProxy_SagemakerModelCard) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SagemakerModelCard) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

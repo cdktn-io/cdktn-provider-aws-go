@@ -116,6 +116,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "uefiData", GoGetter: "UefiData"},
 			_jsii_.MemberProperty{JsiiProperty: "usageOperation", GoGetter: "UsageOperation"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualizationType", GoGetter: "VirtualizationType"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_AmiFromInstance{}

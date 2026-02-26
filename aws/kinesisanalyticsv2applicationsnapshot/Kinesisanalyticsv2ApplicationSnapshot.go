@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kinesisanalyticsv2_application_snapshot aws_kinesisanalyticsv2_application_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kinesisanalyticsv2_application_snapshot aws_kinesisanalyticsv2_application_snapshot}.
 type Kinesisanalyticsv2ApplicationSnapshot interface {
 	cdktn.TerraformResource
 	ApplicationName() *string
@@ -138,6 +138,15 @@ type Kinesisanalyticsv2ApplicationSnapshot interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Kinesisanalyticsv2ApplicationSnapshot
@@ -426,7 +435,7 @@ func (j *jsiiProxy_Kinesisanalyticsv2ApplicationSnapshot) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kinesisanalyticsv2_application_snapshot aws_kinesisanalyticsv2_application_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kinesisanalyticsv2_application_snapshot aws_kinesisanalyticsv2_application_snapshot} Resource.
 func NewKinesisanalyticsv2ApplicationSnapshot(scope constructs.Construct, id *string, config *Kinesisanalyticsv2ApplicationSnapshotConfig) Kinesisanalyticsv2ApplicationSnapshot {
 	_init_.Initialize()
 
@@ -444,7 +453,7 @@ func NewKinesisanalyticsv2ApplicationSnapshot(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kinesisanalyticsv2_application_snapshot aws_kinesisanalyticsv2_application_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kinesisanalyticsv2_application_snapshot aws_kinesisanalyticsv2_application_snapshot} Resource.
 func NewKinesisanalyticsv2ApplicationSnapshot_Override(k Kinesisanalyticsv2ApplicationSnapshot, scope constructs.Construct, id *string, config *Kinesisanalyticsv2ApplicationSnapshotConfig) {
 	_init_.Initialize()
 
@@ -1035,6 +1044,24 @@ func (k *jsiiProxy_Kinesisanalyticsv2ApplicationSnapshot) ToTerraform() interfac
 		k,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (k *jsiiProxy_Kinesisanalyticsv2ApplicationSnapshot) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		k,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -113,6 +113,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "weightedRoutingPolicy", GoGetter: "WeightedRoutingPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "weightedRoutingPolicyInput", GoGetter: "WeightedRoutingPolicyInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zoneId", GoGetter: "ZoneId"},
 			_jsii_.MemberProperty{JsiiProperty: "zoneIdInput", GoGetter: "ZoneIdInput"},
 		},

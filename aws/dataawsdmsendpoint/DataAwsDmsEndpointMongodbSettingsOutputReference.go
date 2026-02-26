@@ -46,6 +46,7 @@ type DataAwsDmsEndpointMongodbSettingsOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	UseUpdateLookup() cdktn.IResolvable
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -210,6 +211,16 @@ func (j *jsiiProxy_DataAwsDmsEndpointMongodbSettingsOutputReference) TerraformRe
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsDmsEndpointMongodbSettingsOutputReference) UseUpdateLookup() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"useUpdateLookup",
 		&returns,
 	)
 	return returns

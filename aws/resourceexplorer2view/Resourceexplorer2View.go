@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/resourceexplorer2_view aws_resourceexplorer2_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/resourceexplorer2_view aws_resourceexplorer2_view}.
 type Resourceexplorer2View interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -148,6 +148,15 @@ type Resourceexplorer2View interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Resourceexplorer2View
@@ -486,7 +495,7 @@ func (j *jsiiProxy_Resourceexplorer2View) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/resourceexplorer2_view aws_resourceexplorer2_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/resourceexplorer2_view aws_resourceexplorer2_view} Resource.
 func NewResourceexplorer2View(scope constructs.Construct, id *string, config *Resourceexplorer2ViewConfig) Resourceexplorer2View {
 	_init_.Initialize()
 
@@ -504,7 +513,7 @@ func NewResourceexplorer2View(scope constructs.Construct, id *string, config *Re
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/resourceexplorer2_view aws_resourceexplorer2_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/resourceexplorer2_view aws_resourceexplorer2_view} Resource.
 func NewResourceexplorer2View_Override(r Resourceexplorer2View, scope constructs.Construct, id *string, config *Resourceexplorer2ViewConfig) {
 	_init_.Initialize()
 
@@ -1141,6 +1150,24 @@ func (r *jsiiProxy_Resourceexplorer2View) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_Resourceexplorer2View) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

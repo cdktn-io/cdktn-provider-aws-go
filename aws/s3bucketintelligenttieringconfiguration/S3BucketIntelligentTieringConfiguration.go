@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3_bucket_intelligent_tiering_configuration aws_s3_bucket_intelligent_tiering_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3_bucket_intelligent_tiering_configuration aws_s3_bucket_intelligent_tiering_configuration}.
 type S3BucketIntelligentTieringConfiguration interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -143,6 +143,15 @@ type S3BucketIntelligentTieringConfiguration interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for S3BucketIntelligentTieringConfiguration
@@ -451,7 +460,7 @@ func (j *jsiiProxy_S3BucketIntelligentTieringConfiguration) TieringInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3_bucket_intelligent_tiering_configuration aws_s3_bucket_intelligent_tiering_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3_bucket_intelligent_tiering_configuration aws_s3_bucket_intelligent_tiering_configuration} Resource.
 func NewS3BucketIntelligentTieringConfiguration(scope constructs.Construct, id *string, config *S3BucketIntelligentTieringConfigurationConfig) S3BucketIntelligentTieringConfiguration {
 	_init_.Initialize()
 
@@ -469,7 +478,7 @@ func NewS3BucketIntelligentTieringConfiguration(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3_bucket_intelligent_tiering_configuration aws_s3_bucket_intelligent_tiering_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3_bucket_intelligent_tiering_configuration aws_s3_bucket_intelligent_tiering_configuration} Resource.
 func NewS3BucketIntelligentTieringConfiguration_Override(s S3BucketIntelligentTieringConfiguration, scope constructs.Construct, id *string, config *S3BucketIntelligentTieringConfigurationConfig) {
 	_init_.Initialize()
 
@@ -1090,6 +1099,24 @@ func (s *jsiiProxy_S3BucketIntelligentTieringConfiguration) ToTerraform() interf
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_S3BucketIntelligentTieringConfiguration) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

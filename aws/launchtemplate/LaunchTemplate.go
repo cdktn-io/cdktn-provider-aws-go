@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/launch_template aws_launch_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/launch_template aws_launch_template}.
 type LaunchTemplate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -280,6 +280,15 @@ type LaunchTemplate interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LaunchTemplate
@@ -1268,7 +1277,7 @@ func (j *jsiiProxy_LaunchTemplate) VpcSecurityGroupIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/launch_template aws_launch_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/launch_template aws_launch_template} Resource.
 func NewLaunchTemplate(scope constructs.Construct, id *string, config *LaunchTemplateConfig) LaunchTemplate {
 	_init_.Initialize()
 
@@ -1286,7 +1295,7 @@ func NewLaunchTemplate(scope constructs.Construct, id *string, config *LaunchTem
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/launch_template aws_launch_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/launch_template aws_launch_template} Resource.
 func NewLaunchTemplate_Override(l LaunchTemplate, scope constructs.Construct, id *string, config *LaunchTemplateConfig) {
 	_init_.Initialize()
 
@@ -2558,6 +2567,24 @@ func (l *jsiiProxy_LaunchTemplate) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LaunchTemplate) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

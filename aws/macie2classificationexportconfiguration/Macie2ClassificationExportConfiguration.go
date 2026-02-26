@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/macie2_classification_export_configuration aws_macie2_classification_export_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/macie2_classification_export_configuration aws_macie2_classification_export_configuration}.
 type Macie2ClassificationExportConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -129,6 +129,15 @@ type Macie2ClassificationExportConfiguration interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Macie2ClassificationExportConfiguration
@@ -357,7 +366,7 @@ func (j *jsiiProxy_Macie2ClassificationExportConfiguration) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/macie2_classification_export_configuration aws_macie2_classification_export_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/macie2_classification_export_configuration aws_macie2_classification_export_configuration} Resource.
 func NewMacie2ClassificationExportConfiguration(scope constructs.Construct, id *string, config *Macie2ClassificationExportConfigurationConfig) Macie2ClassificationExportConfiguration {
 	_init_.Initialize()
 
@@ -375,7 +384,7 @@ func NewMacie2ClassificationExportConfiguration(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/macie2_classification_export_configuration aws_macie2_classification_export_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/macie2_classification_export_configuration aws_macie2_classification_export_configuration} Resource.
 func NewMacie2ClassificationExportConfiguration_Override(m Macie2ClassificationExportConfiguration, scope constructs.Construct, id *string, config *Macie2ClassificationExportConfigurationConfig) {
 	_init_.Initialize()
 
@@ -936,6 +945,24 @@ func (m *jsiiProxy_Macie2ClassificationExportConfiguration) ToTerraform() interf
 		m,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (m *jsiiProxy_Macie2ClassificationExportConfiguration) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		m,
+		"with",
+		args,
 		&returns,
 	)
 

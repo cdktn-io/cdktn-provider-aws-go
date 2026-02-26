@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sesv2_dedicated_ip_pool aws_sesv2_dedicated_ip_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sesv2_dedicated_ip_pool aws_sesv2_dedicated_ip_pool}.
 type Sesv2DedicatedIpPool interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -142,6 +142,15 @@ type Sesv2DedicatedIpPool interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Sesv2DedicatedIpPool
@@ -440,7 +449,7 @@ func (j *jsiiProxy_Sesv2DedicatedIpPool) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sesv2_dedicated_ip_pool aws_sesv2_dedicated_ip_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sesv2_dedicated_ip_pool aws_sesv2_dedicated_ip_pool} Resource.
 func NewSesv2DedicatedIpPool(scope constructs.Construct, id *string, config *Sesv2DedicatedIpPoolConfig) Sesv2DedicatedIpPool {
 	_init_.Initialize()
 
@@ -458,7 +467,7 @@ func NewSesv2DedicatedIpPool(scope constructs.Construct, id *string, config *Ses
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sesv2_dedicated_ip_pool aws_sesv2_dedicated_ip_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sesv2_dedicated_ip_pool aws_sesv2_dedicated_ip_pool} Resource.
 func NewSesv2DedicatedIpPool_Override(s Sesv2DedicatedIpPool, scope constructs.Construct, id *string, config *Sesv2DedicatedIpPoolConfig) {
 	_init_.Initialize()
 
@@ -1076,6 +1085,24 @@ func (s *jsiiProxy_Sesv2DedicatedIpPool) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_Sesv2DedicatedIpPool) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

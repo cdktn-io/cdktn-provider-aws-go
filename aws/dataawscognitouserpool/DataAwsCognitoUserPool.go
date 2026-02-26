@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/cognito_user_pool aws_cognito_user_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/cognito_user_pool aws_cognito_user_pool}.
 type DataAwsCognitoUserPool interface {
 	cdktn.TerraformDataSource
 	AccountRecoverySetting() DataAwsCognitoUserPoolAccountRecoverySettingList
@@ -124,6 +124,15 @@ type DataAwsCognitoUserPool interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsCognitoUserPool
@@ -552,7 +561,7 @@ func (j *jsiiProxy_DataAwsCognitoUserPool) UserPoolTags() cdktn.StringMap {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/cognito_user_pool aws_cognito_user_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/cognito_user_pool aws_cognito_user_pool} Data Source.
 func NewDataAwsCognitoUserPool(scope constructs.Construct, id *string, config *DataAwsCognitoUserPoolConfig) DataAwsCognitoUserPool {
 	_init_.Initialize()
 
@@ -570,7 +579,7 @@ func NewDataAwsCognitoUserPool(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/cognito_user_pool aws_cognito_user_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/cognito_user_pool aws_cognito_user_pool} Data Source.
 func NewDataAwsCognitoUserPool_Override(d DataAwsCognitoUserPool, scope constructs.Construct, id *string, config *DataAwsCognitoUserPoolConfig) {
 	_init_.Initialize()
 
@@ -1022,6 +1031,24 @@ func (d *jsiiProxy_DataAwsCognitoUserPool) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsCognitoUserPool) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

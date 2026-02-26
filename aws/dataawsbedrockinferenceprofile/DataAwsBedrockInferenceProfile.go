@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/bedrock_inference_profile aws_bedrock_inference_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/bedrock_inference_profile aws_bedrock_inference_profile}.
 type DataAwsBedrockInferenceProfile interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -108,6 +108,15 @@ type DataAwsBedrockInferenceProfile interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsBedrockInferenceProfile
@@ -376,7 +385,7 @@ func (j *jsiiProxy_DataAwsBedrockInferenceProfile) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/bedrock_inference_profile aws_bedrock_inference_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/bedrock_inference_profile aws_bedrock_inference_profile} Data Source.
 func NewDataAwsBedrockInferenceProfile(scope constructs.Construct, id *string, config *DataAwsBedrockInferenceProfileConfig) DataAwsBedrockInferenceProfile {
 	_init_.Initialize()
 
@@ -394,7 +403,7 @@ func NewDataAwsBedrockInferenceProfile(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/bedrock_inference_profile aws_bedrock_inference_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/bedrock_inference_profile aws_bedrock_inference_profile} Data Source.
 func NewDataAwsBedrockInferenceProfile_Override(d DataAwsBedrockInferenceProfile, scope constructs.Construct, id *string, config *DataAwsBedrockInferenceProfileConfig) {
 	_init_.Initialize()
 
@@ -846,6 +855,24 @@ func (d *jsiiProxy_DataAwsBedrockInferenceProfile) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsBedrockInferenceProfile) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

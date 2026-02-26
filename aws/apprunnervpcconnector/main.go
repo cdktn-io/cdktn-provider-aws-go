@@ -76,6 +76,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcConnectorName", GoGetter: "VpcConnectorName"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcConnectorNameInput", GoGetter: "VpcConnectorNameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcConnectorRevision", GoGetter: "VpcConnectorRevision"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ApprunnerVpcConnector{}

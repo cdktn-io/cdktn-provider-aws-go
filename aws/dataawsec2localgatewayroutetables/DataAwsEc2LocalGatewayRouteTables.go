@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ec2_local_gateway_route_tables aws_ec2_local_gateway_route_tables}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ec2_local_gateway_route_tables aws_ec2_local_gateway_route_tables}.
 type DataAwsEc2LocalGatewayRouteTables interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -114,6 +114,15 @@ type DataAwsEc2LocalGatewayRouteTables interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsEc2LocalGatewayRouteTables
@@ -372,7 +381,7 @@ func (j *jsiiProxy_DataAwsEc2LocalGatewayRouteTables) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ec2_local_gateway_route_tables aws_ec2_local_gateway_route_tables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ec2_local_gateway_route_tables aws_ec2_local_gateway_route_tables} Data Source.
 func NewDataAwsEc2LocalGatewayRouteTables(scope constructs.Construct, id *string, config *DataAwsEc2LocalGatewayRouteTablesConfig) DataAwsEc2LocalGatewayRouteTables {
 	_init_.Initialize()
 
@@ -390,7 +399,7 @@ func NewDataAwsEc2LocalGatewayRouteTables(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ec2_local_gateway_route_tables aws_ec2_local_gateway_route_tables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ec2_local_gateway_route_tables aws_ec2_local_gateway_route_tables} Data Source.
 func NewDataAwsEc2LocalGatewayRouteTables_Override(d DataAwsEc2LocalGatewayRouteTables, scope constructs.Construct, id *string, config *DataAwsEc2LocalGatewayRouteTablesConfig) {
 	_init_.Initialize()
 
@@ -907,6 +916,24 @@ func (d *jsiiProxy_DataAwsEc2LocalGatewayRouteTables) ToTerraform() interface{} 
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsEc2LocalGatewayRouteTables) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

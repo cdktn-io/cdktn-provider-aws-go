@@ -149,6 +149,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "waitForDeploymentInput", GoGetter: "WaitForDeploymentInput"},
 			_jsii_.MemberProperty{JsiiProperty: "webAclId", GoGetter: "WebAclId"},
 			_jsii_.MemberProperty{JsiiProperty: "webAclIdInput", GoGetter: "WebAclIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudfrontDistribution{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/globalaccelerator_accelerator aws_globalaccelerator_accelerator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/globalaccelerator_accelerator aws_globalaccelerator_accelerator}.
 type GlobalacceleratorAccelerator interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -158,6 +158,15 @@ type GlobalacceleratorAccelerator interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for GlobalacceleratorAccelerator
@@ -556,7 +565,7 @@ func (j *jsiiProxy_GlobalacceleratorAccelerator) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/globalaccelerator_accelerator aws_globalaccelerator_accelerator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/globalaccelerator_accelerator aws_globalaccelerator_accelerator} Resource.
 func NewGlobalacceleratorAccelerator(scope constructs.Construct, id *string, config *GlobalacceleratorAcceleratorConfig) GlobalacceleratorAccelerator {
 	_init_.Initialize()
 
@@ -574,7 +583,7 @@ func NewGlobalacceleratorAccelerator(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/globalaccelerator_accelerator aws_globalaccelerator_accelerator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/globalaccelerator_accelerator aws_globalaccelerator_accelerator} Resource.
 func NewGlobalacceleratorAccelerator_Override(g GlobalacceleratorAccelerator, scope constructs.Construct, id *string, config *GlobalacceleratorAcceleratorConfig) {
 	_init_.Initialize()
 
@@ -1249,6 +1258,24 @@ func (g *jsiiProxy_GlobalacceleratorAccelerator) ToTerraform() interface{} {
 		g,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (g *jsiiProxy_GlobalacceleratorAccelerator) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		g,
+		"with",
+		args,
 		&returns,
 	)
 

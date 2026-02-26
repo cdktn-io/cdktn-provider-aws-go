@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ssmincidents_replication_set aws_ssmincidents_replication_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ssmincidents_replication_set aws_ssmincidents_replication_set}.
 type DataAwsSsmincidentsReplicationSet interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -108,6 +108,15 @@ type DataAwsSsmincidentsReplicationSet interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsSsmincidentsReplicationSet
@@ -366,7 +375,7 @@ func (j *jsiiProxy_DataAwsSsmincidentsReplicationSet) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ssmincidents_replication_set aws_ssmincidents_replication_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ssmincidents_replication_set aws_ssmincidents_replication_set} Data Source.
 func NewDataAwsSsmincidentsReplicationSet(scope constructs.Construct, id *string, config *DataAwsSsmincidentsReplicationSetConfig) DataAwsSsmincidentsReplicationSet {
 	_init_.Initialize()
 
@@ -384,7 +393,7 @@ func NewDataAwsSsmincidentsReplicationSet(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ssmincidents_replication_set aws_ssmincidents_replication_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ssmincidents_replication_set aws_ssmincidents_replication_set} Data Source.
 func NewDataAwsSsmincidentsReplicationSet_Override(d DataAwsSsmincidentsReplicationSet, scope constructs.Construct, id *string, config *DataAwsSsmincidentsReplicationSetConfig) {
 	_init_.Initialize()
 
@@ -844,6 +853,24 @@ func (d *jsiiProxy_DataAwsSsmincidentsReplicationSet) ToTerraform() interface{} 
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsSsmincidentsReplicationSet) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

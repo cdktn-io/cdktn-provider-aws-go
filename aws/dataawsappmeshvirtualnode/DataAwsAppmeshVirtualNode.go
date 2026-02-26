@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/appmesh_virtual_node aws_appmesh_virtual_node}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/appmesh_virtual_node aws_appmesh_virtual_node}.
 type DataAwsAppmeshVirtualNode interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -120,6 +120,15 @@ type DataAwsAppmeshVirtualNode interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsAppmeshVirtualNode
@@ -438,7 +447,7 @@ func (j *jsiiProxy_DataAwsAppmeshVirtualNode) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/appmesh_virtual_node aws_appmesh_virtual_node} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/appmesh_virtual_node aws_appmesh_virtual_node} Data Source.
 func NewDataAwsAppmeshVirtualNode(scope constructs.Construct, id *string, config *DataAwsAppmeshVirtualNodeConfig) DataAwsAppmeshVirtualNode {
 	_init_.Initialize()
 
@@ -456,7 +465,7 @@ func NewDataAwsAppmeshVirtualNode(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/appmesh_virtual_node aws_appmesh_virtual_node} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/appmesh_virtual_node aws_appmesh_virtual_node} Data Source.
 func NewDataAwsAppmeshVirtualNode_Override(d DataAwsAppmeshVirtualNode, scope constructs.Construct, id *string, config *DataAwsAppmeshVirtualNodeConfig) {
 	_init_.Initialize()
 
@@ -976,6 +985,24 @@ func (d *jsiiProxy_DataAwsAppmeshVirtualNode) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsAppmeshVirtualNode) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

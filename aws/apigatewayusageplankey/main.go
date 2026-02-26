@@ -69,6 +69,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usagePlanId", GoGetter: "UsagePlanId"},
 			_jsii_.MemberProperty{JsiiProperty: "usagePlanIdInput", GoGetter: "UsagePlanIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "value", GoGetter: "Value"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ApiGatewayUsagePlanKey{}

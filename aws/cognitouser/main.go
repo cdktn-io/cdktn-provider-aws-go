@@ -98,6 +98,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userPoolIdInput", GoGetter: "UserPoolIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "validationData", GoGetter: "ValidationData"},
 			_jsii_.MemberProperty{JsiiProperty: "validationDataInput", GoGetter: "ValidationDataInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_CognitoUser{}

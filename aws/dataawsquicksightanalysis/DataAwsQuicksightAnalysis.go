@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/quicksight_analysis aws_quicksight_analysis}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/quicksight_analysis aws_quicksight_analysis}.
 type DataAwsQuicksightAnalysis interface {
 	cdktn.TerraformDataSource
 	AnalysisId() *string
@@ -121,6 +121,15 @@ type DataAwsQuicksightAnalysis interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsQuicksightAnalysis
@@ -459,7 +468,7 @@ func (j *jsiiProxy_DataAwsQuicksightAnalysis) ThemeArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/quicksight_analysis aws_quicksight_analysis} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/quicksight_analysis aws_quicksight_analysis} Data Source.
 func NewDataAwsQuicksightAnalysis(scope constructs.Construct, id *string, config *DataAwsQuicksightAnalysisConfig) DataAwsQuicksightAnalysis {
 	_init_.Initialize()
 
@@ -477,7 +486,7 @@ func NewDataAwsQuicksightAnalysis(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/quicksight_analysis aws_quicksight_analysis} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/quicksight_analysis aws_quicksight_analysis} Data Source.
 func NewDataAwsQuicksightAnalysis_Override(d DataAwsQuicksightAnalysis, scope constructs.Construct, id *string, config *DataAwsQuicksightAnalysisConfig) {
 	_init_.Initialize()
 
@@ -986,6 +995,24 @@ func (d *jsiiProxy_DataAwsQuicksightAnalysis) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsQuicksightAnalysis) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

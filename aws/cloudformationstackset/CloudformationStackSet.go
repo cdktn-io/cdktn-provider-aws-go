@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudformation_stack_set aws_cloudformation_stack_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloudformation_stack_set aws_cloudformation_stack_set}.
 type CloudformationStackSet interface {
 	cdktn.TerraformResource
 	AdministrationRoleArn() *string
@@ -191,6 +191,15 @@ type CloudformationStackSet interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for CloudformationStackSet
@@ -739,7 +748,7 @@ func (j *jsiiProxy_CloudformationStackSet) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudformation_stack_set aws_cloudformation_stack_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloudformation_stack_set aws_cloudformation_stack_set} Resource.
 func NewCloudformationStackSet(scope constructs.Construct, id *string, config *CloudformationStackSetConfig) CloudformationStackSet {
 	_init_.Initialize()
 
@@ -757,7 +766,7 @@ func NewCloudformationStackSet(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudformation_stack_set aws_cloudformation_stack_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloudformation_stack_set aws_cloudformation_stack_set} Resource.
 func NewCloudformationStackSet_Override(c CloudformationStackSet, scope constructs.Construct, id *string, config *CloudformationStackSetConfig) {
 	_init_.Initialize()
 
@@ -1603,6 +1612,24 @@ func (c *jsiiProxy_CloudformationStackSet) ToTerraform() interface{} {
 		c,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_CloudformationStackSet) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		c,
+		"with",
+		args,
 		&returns,
 	)
 

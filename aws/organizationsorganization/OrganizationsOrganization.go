@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/organizations_organization aws_organizations_organization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/organizations_organization aws_organizations_organization}.
 type OrganizationsOrganization interface {
 	cdktn.TerraformResource
 	Accounts() OrganizationsOrganizationAccountsList
@@ -146,6 +146,15 @@ type OrganizationsOrganization interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for OrganizationsOrganization
@@ -494,7 +503,7 @@ func (j *jsiiProxy_OrganizationsOrganization) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/organizations_organization aws_organizations_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/organizations_organization aws_organizations_organization} Resource.
 func NewOrganizationsOrganization(scope constructs.Construct, id *string, config *OrganizationsOrganizationConfig) OrganizationsOrganization {
 	_init_.Initialize()
 
@@ -512,7 +521,7 @@ func NewOrganizationsOrganization(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/organizations_organization aws_organizations_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/organizations_organization aws_organizations_organization} Resource.
 func NewOrganizationsOrganization_Override(o OrganizationsOrganization, scope constructs.Construct, id *string, config *OrganizationsOrganizationConfig) {
 	_init_.Initialize()
 
@@ -1119,6 +1128,24 @@ func (o *jsiiProxy_OrganizationsOrganization) ToTerraform() interface{} {
 		o,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_OrganizationsOrganization) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		o,
+		"with",
+		args,
 		&returns,
 	)
 

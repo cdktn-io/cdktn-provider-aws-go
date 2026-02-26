@@ -148,6 +148,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionId", GoGetter: "VersionId"},
 			_jsii_.MemberProperty{JsiiProperty: "websiteRedirect", GoGetter: "WebsiteRedirect"},
 			_jsii_.MemberProperty{JsiiProperty: "websiteRedirectInput", GoGetter: "WebsiteRedirectInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_S3Object{}

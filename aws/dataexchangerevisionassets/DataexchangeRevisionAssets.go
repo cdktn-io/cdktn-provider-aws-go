@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets}.
 type DataexchangeRevisionAssets interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -154,6 +154,15 @@ type DataexchangeRevisionAssets interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataexchangeRevisionAssets
@@ -532,7 +541,7 @@ func (j *jsiiProxy_DataexchangeRevisionAssets) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets} Resource.
 func NewDataexchangeRevisionAssets(scope constructs.Construct, id *string, config *DataexchangeRevisionAssetsConfig) DataexchangeRevisionAssets {
 	_init_.Initialize()
 
@@ -550,7 +559,7 @@ func NewDataexchangeRevisionAssets(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets} Resource.
 func NewDataexchangeRevisionAssets_Override(d DataexchangeRevisionAssets, scope constructs.Construct, id *string, config *DataexchangeRevisionAssetsConfig) {
 	_init_.Initialize()
 
@@ -1206,6 +1215,24 @@ func (d *jsiiProxy_DataexchangeRevisionAssets) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataexchangeRevisionAssets) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

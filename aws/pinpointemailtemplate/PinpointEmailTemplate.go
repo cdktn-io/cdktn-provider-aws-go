@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/pinpoint_email_template aws_pinpoint_email_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/pinpoint_email_template aws_pinpoint_email_template}.
 type PinpointEmailTemplate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -135,6 +135,15 @@ type PinpointEmailTemplate interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for PinpointEmailTemplate
@@ -403,7 +412,7 @@ func (j *jsiiProxy_PinpointEmailTemplate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/pinpoint_email_template aws_pinpoint_email_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/pinpoint_email_template aws_pinpoint_email_template} Resource.
 func NewPinpointEmailTemplate(scope constructs.Construct, id *string, config *PinpointEmailTemplateConfig) PinpointEmailTemplate {
 	_init_.Initialize()
 
@@ -421,7 +430,7 @@ func NewPinpointEmailTemplate(scope constructs.Construct, id *string, config *Pi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/pinpoint_email_template aws_pinpoint_email_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/pinpoint_email_template aws_pinpoint_email_template} Resource.
 func NewPinpointEmailTemplate_Override(p PinpointEmailTemplate, scope constructs.Construct, id *string, config *PinpointEmailTemplateConfig) {
 	_init_.Initialize()
 
@@ -1001,6 +1010,24 @@ func (p *jsiiProxy_PinpointEmailTemplate) ToTerraform() interface{} {
 		p,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_PinpointEmailTemplate) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		p,
+		"with",
+		args,
 		&returns,
 	)
 

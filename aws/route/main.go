@@ -110,6 +110,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcEndpointIdInput", GoGetter: "VpcEndpointIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcPeeringConnectionId", GoGetter: "VpcPeeringConnectionId"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcPeeringConnectionIdInput", GoGetter: "VpcPeeringConnectionIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_Route{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/eks_fargate_profile aws_eks_fargate_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/eks_fargate_profile aws_eks_fargate_profile}.
 type EksFargateProfile interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -156,6 +156,15 @@ type EksFargateProfile interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EksFargateProfile
@@ -544,7 +553,7 @@ func (j *jsiiProxy_EksFargateProfile) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/eks_fargate_profile aws_eks_fargate_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/eks_fargate_profile aws_eks_fargate_profile} Resource.
 func NewEksFargateProfile(scope constructs.Construct, id *string, config *EksFargateProfileConfig) EksFargateProfile {
 	_init_.Initialize()
 
@@ -562,7 +571,7 @@ func NewEksFargateProfile(scope constructs.Construct, id *string, config *EksFar
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/eks_fargate_profile aws_eks_fargate_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/eks_fargate_profile aws_eks_fargate_profile} Resource.
 func NewEksFargateProfile_Override(e EksFargateProfile, scope constructs.Construct, id *string, config *EksFargateProfileConfig) {
 	_init_.Initialize()
 
@@ -1232,6 +1241,24 @@ func (e *jsiiProxy_EksFargateProfile) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EksFargateProfile) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in}.
 type LakeformationOptIn interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -136,6 +136,15 @@ type LakeformationOptIn interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LakeformationOptIn
@@ -404,7 +413,7 @@ func (j *jsiiProxy_LakeformationOptIn) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in} Resource.
 func NewLakeformationOptIn(scope constructs.Construct, id *string, config *LakeformationOptInConfig) LakeformationOptIn {
 	_init_.Initialize()
 
@@ -422,7 +431,7 @@ func NewLakeformationOptIn(scope constructs.Construct, id *string, config *Lakef
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in} Resource.
 func NewLakeformationOptIn_Override(l LakeformationOptIn, scope constructs.Construct, id *string, config *LakeformationOptInConfig) {
 	_init_.Initialize()
 
@@ -1010,6 +1019,24 @@ func (l *jsiiProxy_LakeformationOptIn) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LakeformationOptIn) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

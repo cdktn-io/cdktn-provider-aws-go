@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/route53_resolver_rule aws_route53_resolver_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/route53_resolver_rule aws_route53_resolver_rule}.
 type DataAwsRoute53ResolverRule interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -129,6 +129,15 @@ type DataAwsRoute53ResolverRule interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsRoute53ResolverRule
@@ -477,7 +486,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/route53_resolver_rule aws_route53_resolver_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/route53_resolver_rule aws_route53_resolver_rule} Data Source.
 func NewDataAwsRoute53ResolverRule(scope constructs.Construct, id *string, config *DataAwsRoute53ResolverRuleConfig) DataAwsRoute53ResolverRule {
 	_init_.Initialize()
 
@@ -495,7 +504,7 @@ func NewDataAwsRoute53ResolverRule(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/route53_resolver_rule aws_route53_resolver_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/route53_resolver_rule aws_route53_resolver_rule} Data Source.
 func NewDataAwsRoute53ResolverRule_Override(d DataAwsRoute53ResolverRule, scope constructs.Construct, id *string, config *DataAwsRoute53ResolverRuleConfig) {
 	_init_.Initialize()
 
@@ -1069,6 +1078,24 @@ func (d *jsiiProxy_DataAwsRoute53ResolverRule) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsRoute53ResolverRule) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/apigatewayv2_vpc_link aws_apigatewayv2_vpc_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/apigatewayv2_vpc_link aws_apigatewayv2_vpc_link}.
 type Apigatewayv2VpcLink interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -144,6 +144,15 @@ type Apigatewayv2VpcLink interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Apigatewayv2VpcLink
@@ -462,7 +471,7 @@ func (j *jsiiProxy_Apigatewayv2VpcLink) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/apigatewayv2_vpc_link aws_apigatewayv2_vpc_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/apigatewayv2_vpc_link aws_apigatewayv2_vpc_link} Resource.
 func NewApigatewayv2VpcLink(scope constructs.Construct, id *string, config *Apigatewayv2VpcLinkConfig) Apigatewayv2VpcLink {
 	_init_.Initialize()
 
@@ -480,7 +489,7 @@ func NewApigatewayv2VpcLink(scope constructs.Construct, id *string, config *Apig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/apigatewayv2_vpc_link aws_apigatewayv2_vpc_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/apigatewayv2_vpc_link aws_apigatewayv2_vpc_link} Resource.
 func NewApigatewayv2VpcLink_Override(a Apigatewayv2VpcLink, scope constructs.Construct, id *string, config *Apigatewayv2VpcLinkConfig) {
 	_init_.Initialize()
 
@@ -1101,6 +1110,24 @@ func (a *jsiiProxy_Apigatewayv2VpcLink) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_Apigatewayv2VpcLink) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

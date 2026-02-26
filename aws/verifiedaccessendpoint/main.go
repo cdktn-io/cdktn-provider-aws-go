@@ -118,6 +118,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "verifiedAccessGroupId", GoGetter: "VerifiedAccessGroupId"},
 			_jsii_.MemberProperty{JsiiProperty: "verifiedAccessGroupIdInput", GoGetter: "VerifiedAccessGroupIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "verifiedAccessInstanceId", GoGetter: "VerifiedAccessInstanceId"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VerifiedaccessEndpoint{}

@@ -135,6 +135,10 @@ func (j *jsiiProxy_MemorydbCluster) validateSetIdParameters(val *string) error {
 	return nil
 }
 
+func (j *jsiiProxy_MemorydbCluster) validateSetIpDiscoveryParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MemorydbCluster) validateSetKmsKeyArnParameters(val *string) error {
 	return nil
 }
@@ -156,6 +160,10 @@ func (j *jsiiProxy_MemorydbCluster) validateSetNameParameters(val *string) error
 }
 
 func (j *jsiiProxy_MemorydbCluster) validateSetNamePrefixParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_MemorydbCluster) validateSetNetworkTypeParameters(val *string) error {
 	return nil
 }
 

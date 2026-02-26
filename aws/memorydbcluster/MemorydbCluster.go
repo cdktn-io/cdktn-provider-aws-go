@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/memorydb_cluster aws_memorydb_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/memorydb_cluster aws_memorydb_cluster}.
 type MemorydbCluster interface {
 	cdktn.TerraformResource
 	AclName() *string
@@ -66,6 +66,9 @@ type MemorydbCluster interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	IpDiscovery() *string
+	SetIpDiscovery(val *string)
+	IpDiscoveryInput() *string
 	KmsKeyArn() *string
 	SetKmsKeyArn(val *string)
 	KmsKeyArnInput() *string
@@ -85,6 +88,9 @@ type MemorydbCluster interface {
 	NamePrefix() *string
 	SetNamePrefix(val *string)
 	NamePrefixInput() *string
+	NetworkType() *string
+	SetNetworkType(val *string)
+	NetworkTypeInput() *string
 	// The tree node.
 	Node() constructs.Node
 	NodeType() *string
@@ -205,11 +211,13 @@ type MemorydbCluster interface {
 	ResetEngineVersion()
 	ResetFinalSnapshotName()
 	ResetId()
+	ResetIpDiscovery()
 	ResetKmsKeyArn()
 	ResetMaintenanceWindow()
 	ResetMultiRegionClusterName()
 	ResetName()
 	ResetNamePrefix()
+	ResetNetworkType()
 	ResetNumReplicasPerShard()
 	ResetNumShards()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -240,6 +248,15 @@ type MemorydbCluster interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for MemorydbCluster
@@ -517,6 +534,26 @@ func (j *jsiiProxy_MemorydbCluster) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_MemorydbCluster) IpDiscovery() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipDiscovery",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MemorydbCluster) IpDiscoveryInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipDiscoveryInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_MemorydbCluster) KmsKeyArn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -622,6 +659,26 @@ func (j *jsiiProxy_MemorydbCluster) NamePrefixInput() *string {
 	_jsii_.Get(
 		j,
 		"namePrefixInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MemorydbCluster) NetworkType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MemorydbCluster) NetworkTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkTypeInput",
 		&returns,
 	)
 	return returns
@@ -1048,7 +1105,7 @@ func (j *jsiiProxy_MemorydbCluster) TlsEnabledInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/memorydb_cluster aws_memorydb_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/memorydb_cluster aws_memorydb_cluster} Resource.
 func NewMemorydbCluster(scope constructs.Construct, id *string, config *MemorydbClusterConfig) MemorydbCluster {
 	_init_.Initialize()
 
@@ -1066,7 +1123,7 @@ func NewMemorydbCluster(scope constructs.Construct, id *string, config *Memorydb
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/memorydb_cluster aws_memorydb_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/memorydb_cluster aws_memorydb_cluster} Resource.
 func NewMemorydbCluster_Override(m MemorydbCluster, scope constructs.Construct, id *string, config *MemorydbClusterConfig) {
 	_init_.Initialize()
 
@@ -1203,6 +1260,17 @@ func (j *jsiiProxy_MemorydbCluster)SetId(val *string) {
 	)
 }
 
+func (j *jsiiProxy_MemorydbCluster)SetIpDiscovery(val *string) {
+	if err := j.validateSetIpDiscoveryParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ipDiscovery",
+		val,
+	)
+}
+
 func (j *jsiiProxy_MemorydbCluster)SetKmsKeyArn(val *string) {
 	if err := j.validateSetKmsKeyArnParameters(val); err != nil {
 		panic(err)
@@ -1265,6 +1333,17 @@ func (j *jsiiProxy_MemorydbCluster)SetNamePrefix(val *string) {
 	_jsii_.Set(
 		j,
 		"namePrefix",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MemorydbCluster)SetNetworkType(val *string) {
+	if err := j.validateSetNetworkTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"networkType",
 		val,
 	)
 }
@@ -1884,6 +1963,14 @@ func (m *jsiiProxy_MemorydbCluster) ResetId() {
 	)
 }
 
+func (m *jsiiProxy_MemorydbCluster) ResetIpDiscovery() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetIpDiscovery",
+		nil, // no parameters
+	)
+}
+
 func (m *jsiiProxy_MemorydbCluster) ResetKmsKeyArn() {
 	_jsii_.InvokeVoid(
 		m,
@@ -1920,6 +2007,14 @@ func (m *jsiiProxy_MemorydbCluster) ResetNamePrefix() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetNamePrefix",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MemorydbCluster) ResetNetworkType() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetNetworkType",
 		nil, // no parameters
 	)
 }
@@ -2132,6 +2227,24 @@ func (m *jsiiProxy_MemorydbCluster) ToTerraform() interface{} {
 		m,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (m *jsiiProxy_MemorydbCluster) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		m,
+		"with",
+		args,
 		&returns,
 	)
 

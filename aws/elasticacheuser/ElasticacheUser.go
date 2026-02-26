@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/elasticache_user aws_elasticache_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/elasticache_user aws_elasticache_user}.
 type ElasticacheUser interface {
 	cdktn.TerraformResource
 	AccessString() *string
@@ -163,6 +163,15 @@ type ElasticacheUser interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ElasticacheUser
@@ -581,7 +590,7 @@ func (j *jsiiProxy_ElasticacheUser) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/elasticache_user aws_elasticache_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/elasticache_user aws_elasticache_user} Resource.
 func NewElasticacheUser(scope constructs.Construct, id *string, config *ElasticacheUserConfig) ElasticacheUser {
 	_init_.Initialize()
 
@@ -599,7 +608,7 @@ func NewElasticacheUser(scope constructs.Construct, id *string, config *Elastica
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/elasticache_user aws_elasticache_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/elasticache_user aws_elasticache_user} Resource.
 func NewElasticacheUser_Override(e ElasticacheUser, scope constructs.Construct, id *string, config *ElasticacheUserConfig) {
 	_init_.Initialize()
 
@@ -1307,6 +1316,24 @@ func (e *jsiiProxy_ElasticacheUser) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_ElasticacheUser) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

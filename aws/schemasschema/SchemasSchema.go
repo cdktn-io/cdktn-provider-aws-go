@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/schemas_schema aws_schemas_schema}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/schemas_schema aws_schemas_schema}.
 type SchemasSchema interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -154,6 +154,15 @@ type SchemasSchema interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SchemasSchema
@@ -542,7 +551,7 @@ func (j *jsiiProxy_SchemasSchema) VersionCreatedDate() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/schemas_schema aws_schemas_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/schemas_schema aws_schemas_schema} Resource.
 func NewSchemasSchema(scope constructs.Construct, id *string, config *SchemasSchemaConfig) SchemasSchema {
 	_init_.Initialize()
 
@@ -560,7 +569,7 @@ func NewSchemasSchema(scope constructs.Construct, id *string, config *SchemasSch
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/schemas_schema aws_schemas_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/schemas_schema aws_schemas_schema} Resource.
 func NewSchemasSchema_Override(s SchemasSchema, scope constructs.Construct, id *string, config *SchemasSchemaConfig) {
 	_init_.Initialize()
 
@@ -1211,6 +1220,24 @@ func (s *jsiiProxy_SchemasSchema) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SchemasSchema) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

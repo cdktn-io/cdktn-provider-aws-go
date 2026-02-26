@@ -144,6 +144,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "totalContainerDatabases", GoGetter: "TotalContainerDatabases"},
 			_jsii_.MemberProperty{JsiiProperty: "totalContainerDatabasesInput", GoGetter: "TotalContainerDatabasesInput"},
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_OdbCloudAutonomousVmCluster{}

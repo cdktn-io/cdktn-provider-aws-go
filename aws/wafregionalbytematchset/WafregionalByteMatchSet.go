@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set}.
 type WafregionalByteMatchSet interface {
 	cdktn.TerraformResource
 	ByteMatchTuples() WafregionalByteMatchSetByteMatchTuplesList
@@ -133,6 +133,15 @@ type WafregionalByteMatchSet interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for WafregionalByteMatchSet
@@ -381,7 +390,7 @@ func (j *jsiiProxy_WafregionalByteMatchSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set} Resource.
 func NewWafregionalByteMatchSet(scope constructs.Construct, id *string, config *WafregionalByteMatchSetConfig) WafregionalByteMatchSet {
 	_init_.Initialize()
 
@@ -399,7 +408,7 @@ func NewWafregionalByteMatchSet(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set} Resource.
 func NewWafregionalByteMatchSet_Override(w WafregionalByteMatchSet, scope constructs.Construct, id *string, config *WafregionalByteMatchSetConfig) {
 	_init_.Initialize()
 
@@ -979,6 +988,24 @@ func (w *jsiiProxy_WafregionalByteMatchSet) ToTerraform() interface{} {
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WafregionalByteMatchSet) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

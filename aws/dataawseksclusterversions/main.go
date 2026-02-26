@@ -66,6 +66,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "versionStatus", GoGetter: "VersionStatus"},
 			_jsii_.MemberProperty{JsiiProperty: "versionStatusInput", GoGetter: "VersionStatusInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsEksClusterVersions{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/wafv2_web_acl_rule_group_association aws_wafv2_web_acl_rule_group_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/wafv2_web_acl_rule_group_association aws_wafv2_web_acl_rule_group_association}.
 type Wafv2WebAclRuleGroupAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -79,6 +79,8 @@ type Wafv2WebAclRuleGroupAssociation interface {
 	TerraformResourceType() *string
 	Timeouts() Wafv2WebAclRuleGroupAssociationTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	VisibilityConfig() Wafv2WebAclRuleGroupAssociationVisibilityConfigList
+	VisibilityConfigInput() interface{}
 	WebAclArn() *string
 	SetWebAclArn(val *string)
 	WebAclArnInput() *string
@@ -128,6 +130,7 @@ type Wafv2WebAclRuleGroupAssociation interface {
 	PutManagedRuleGroup(value interface{})
 	PutRuleGroupReference(value interface{})
 	PutTimeouts(value *Wafv2WebAclRuleGroupAssociationTimeouts)
+	PutVisibilityConfig(value interface{})
 	ResetManagedRuleGroup()
 	ResetOverrideAction()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -136,6 +139,7 @@ type Wafv2WebAclRuleGroupAssociation interface {
 	ResetRegion()
 	ResetRuleGroupReference()
 	ResetTimeouts()
+	ResetVisibilityConfig()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -147,6 +151,15 @@ type Wafv2WebAclRuleGroupAssociation interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Wafv2WebAclRuleGroupAssociation
@@ -454,6 +467,26 @@ func (j *jsiiProxy_Wafv2WebAclRuleGroupAssociation) TimeoutsInput() interface{} 
 	return returns
 }
 
+func (j *jsiiProxy_Wafv2WebAclRuleGroupAssociation) VisibilityConfig() Wafv2WebAclRuleGroupAssociationVisibilityConfigList {
+	var returns Wafv2WebAclRuleGroupAssociationVisibilityConfigList
+	_jsii_.Get(
+		j,
+		"visibilityConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2WebAclRuleGroupAssociation) VisibilityConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"visibilityConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Wafv2WebAclRuleGroupAssociation) WebAclArn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -475,7 +508,7 @@ func (j *jsiiProxy_Wafv2WebAclRuleGroupAssociation) WebAclArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/wafv2_web_acl_rule_group_association aws_wafv2_web_acl_rule_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/wafv2_web_acl_rule_group_association aws_wafv2_web_acl_rule_group_association} Resource.
 func NewWafv2WebAclRuleGroupAssociation(scope constructs.Construct, id *string, config *Wafv2WebAclRuleGroupAssociationConfig) Wafv2WebAclRuleGroupAssociation {
 	_init_.Initialize()
 
@@ -493,7 +526,7 @@ func NewWafv2WebAclRuleGroupAssociation(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/wafv2_web_acl_rule_group_association aws_wafv2_web_acl_rule_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/wafv2_web_acl_rule_group_association aws_wafv2_web_acl_rule_group_association} Resource.
 func NewWafv2WebAclRuleGroupAssociation_Override(w Wafv2WebAclRuleGroupAssociation, scope constructs.Construct, id *string, config *Wafv2WebAclRuleGroupAssociationConfig) {
 	_init_.Initialize()
 
@@ -1013,6 +1046,17 @@ func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociation) PutTimeouts(value *Wafv2WebA
 	)
 }
 
+func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociation) PutVisibilityConfig(value interface{}) {
+	if err := w.validatePutVisibilityConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"putVisibilityConfig",
+		[]interface{}{value},
+	)
+}
+
 func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociation) ResetManagedRuleGroup() {
 	_jsii_.InvokeVoid(
 		w,
@@ -1057,6 +1101,14 @@ func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociation) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		w,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociation) ResetVisibilityConfig() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetVisibilityConfig",
 		nil, // no parameters
 	)
 }
@@ -1133,6 +1185,24 @@ func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociation) ToTerraform() interface{} {
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociation) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

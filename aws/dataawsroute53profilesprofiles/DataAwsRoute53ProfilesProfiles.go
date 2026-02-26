@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/route53profiles_profiles aws_route53profiles_profiles}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/route53profiles_profiles aws_route53profiles_profiles}.
 type DataAwsRoute53ProfilesProfiles interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -98,6 +98,15 @@ type DataAwsRoute53ProfilesProfiles interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsRoute53ProfilesProfiles
@@ -276,7 +285,7 @@ func (j *jsiiProxy_DataAwsRoute53ProfilesProfiles) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/route53profiles_profiles aws_route53profiles_profiles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/route53profiles_profiles aws_route53profiles_profiles} Data Source.
 func NewDataAwsRoute53ProfilesProfiles(scope constructs.Construct, id *string, config *DataAwsRoute53ProfilesProfilesConfig) DataAwsRoute53ProfilesProfiles {
 	_init_.Initialize()
 
@@ -294,7 +303,7 @@ func NewDataAwsRoute53ProfilesProfiles(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/route53profiles_profiles aws_route53profiles_profiles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/route53profiles_profiles aws_route53profiles_profiles} Data Source.
 func NewDataAwsRoute53ProfilesProfiles_Override(d DataAwsRoute53ProfilesProfiles, scope constructs.Construct, id *string, config *DataAwsRoute53ProfilesProfilesConfig) {
 	_init_.Initialize()
 
@@ -735,6 +744,24 @@ func (d *jsiiProxy_DataAwsRoute53ProfilesProfiles) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsRoute53ProfilesProfiles) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

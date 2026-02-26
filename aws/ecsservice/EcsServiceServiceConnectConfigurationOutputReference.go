@@ -13,6 +13,8 @@ import (
 
 type EcsServiceServiceConnectConfigurationOutputReference interface {
 	cdktn.ComplexObject
+	AccessLogConfiguration() EcsServiceServiceConnectConfigurationAccessLogConfigurationOutputReference
+	AccessLogConfigurationInput() *EcsServiceServiceConnectConfigurationAccessLogConfiguration
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -74,8 +76,10 @@ type EcsServiceServiceConnectConfigurationOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAccessLogConfiguration(value *EcsServiceServiceConnectConfigurationAccessLogConfiguration)
 	PutLogConfiguration(value *EcsServiceServiceConnectConfigurationLogConfiguration)
 	PutService(value interface{})
+	ResetAccessLogConfiguration()
 	ResetLogConfiguration()
 	ResetNamespace()
 	ResetService()
@@ -92,6 +96,26 @@ type EcsServiceServiceConnectConfigurationOutputReference interface {
 // The jsii proxy struct for EcsServiceServiceConnectConfigurationOutputReference
 type jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) AccessLogConfiguration() EcsServiceServiceConnectConfigurationAccessLogConfigurationOutputReference {
+	var returns EcsServiceServiceConnectConfigurationAccessLogConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"accessLogConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) AccessLogConfigurationInput() *EcsServiceServiceConnectConfigurationAccessLogConfiguration {
+	var returns *EcsServiceServiceConnectConfigurationAccessLogConfiguration
+	_jsii_.Get(
+		j,
+		"accessLogConfigurationInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -535,6 +559,17 @@ func (e *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) Interpo
 	return returns
 }
 
+func (e *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) PutAccessLogConfiguration(value *EcsServiceServiceConnectConfigurationAccessLogConfiguration) {
+	if err := e.validatePutAccessLogConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putAccessLogConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) PutLogConfiguration(value *EcsServiceServiceConnectConfigurationLogConfiguration) {
 	if err := e.validatePutLogConfigurationParameters(value); err != nil {
 		panic(err)
@@ -554,6 +589,14 @@ func (e *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) PutServ
 		e,
 		"putService",
 		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) ResetAccessLogConfiguration() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetAccessLogConfiguration",
+		nil, // no parameters
 	)
 }
 

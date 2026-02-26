@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/guardduty_detector aws_guardduty_detector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/guardduty_detector aws_guardduty_detector}.
 type GuarddutyDetector interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -148,6 +148,15 @@ type GuarddutyDetector interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for GuarddutyDetector
@@ -476,7 +485,7 @@ func (j *jsiiProxy_GuarddutyDetector) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/guardduty_detector aws_guardduty_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/guardduty_detector aws_guardduty_detector} Resource.
 func NewGuarddutyDetector(scope constructs.Construct, id *string, config *GuarddutyDetectorConfig) GuarddutyDetector {
 	_init_.Initialize()
 
@@ -494,7 +503,7 @@ func NewGuarddutyDetector(scope constructs.Construct, id *string, config *Guardd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/guardduty_detector aws_guardduty_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/guardduty_detector aws_guardduty_detector} Resource.
 func NewGuarddutyDetector_Override(g GuarddutyDetector, scope constructs.Construct, id *string, config *GuarddutyDetectorConfig) {
 	_init_.Initialize()
 
@@ -1139,6 +1148,24 @@ func (g *jsiiProxy_GuarddutyDetector) ToTerraform() interface{} {
 		g,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (g *jsiiProxy_GuarddutyDetector) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		g,
+		"with",
+		args,
 		&returns,
 	)
 

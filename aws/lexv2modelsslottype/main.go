@@ -94,6 +94,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "valueSelectionSetting", GoGetter: "ValueSelectionSetting"},
 			_jsii_.MemberProperty{JsiiProperty: "valueSelectionSettingInput", GoGetter: "ValueSelectionSettingInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_Lexv2ModelsSlotType{}

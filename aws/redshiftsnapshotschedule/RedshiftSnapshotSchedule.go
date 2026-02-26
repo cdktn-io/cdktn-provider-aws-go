@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_snapshot_schedule aws_redshift_snapshot_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshift_snapshot_schedule aws_redshift_snapshot_schedule}.
 type RedshiftSnapshotSchedule interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -154,6 +154,15 @@ type RedshiftSnapshotSchedule interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for RedshiftSnapshotSchedule
@@ -512,7 +521,7 @@ func (j *jsiiProxy_RedshiftSnapshotSchedule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_snapshot_schedule aws_redshift_snapshot_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshift_snapshot_schedule aws_redshift_snapshot_schedule} Resource.
 func NewRedshiftSnapshotSchedule(scope constructs.Construct, id *string, config *RedshiftSnapshotScheduleConfig) RedshiftSnapshotSchedule {
 	_init_.Initialize()
 
@@ -530,7 +539,7 @@ func NewRedshiftSnapshotSchedule(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_snapshot_schedule aws_redshift_snapshot_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshift_snapshot_schedule aws_redshift_snapshot_schedule} Resource.
 func NewRedshiftSnapshotSchedule_Override(r RedshiftSnapshotSchedule, scope constructs.Construct, id *string, config *RedshiftSnapshotScheduleConfig) {
 	_init_.Initialize()
 
@@ -1205,6 +1214,24 @@ func (r *jsiiProxy_RedshiftSnapshotSchedule) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_RedshiftSnapshotSchedule) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

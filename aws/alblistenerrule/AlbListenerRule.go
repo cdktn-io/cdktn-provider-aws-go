@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/alb_listener_rule aws_alb_listener_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/alb_listener_rule aws_alb_listener_rule}.
 type AlbListenerRule interface {
 	cdktn.TerraformResource
 	Action() AlbListenerRuleActionList
@@ -152,6 +152,15 @@ type AlbListenerRule interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AlbListenerRule
@@ -510,7 +519,7 @@ func (j *jsiiProxy_AlbListenerRule) TransformInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/alb_listener_rule aws_alb_listener_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/alb_listener_rule aws_alb_listener_rule} Resource.
 func NewAlbListenerRule(scope constructs.Construct, id *string, config *AlbListenerRuleConfig) AlbListenerRule {
 	_init_.Initialize()
 
@@ -528,7 +537,7 @@ func NewAlbListenerRule(scope constructs.Construct, id *string, config *AlbListe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/alb_listener_rule aws_alb_listener_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/alb_listener_rule aws_alb_listener_rule} Resource.
 func NewAlbListenerRule_Override(a AlbListenerRule, scope constructs.Construct, id *string, config *AlbListenerRuleConfig) {
 	_init_.Initialize()
 
@@ -1187,6 +1196,24 @@ func (a *jsiiProxy_AlbListenerRule) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AlbListenerRule) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

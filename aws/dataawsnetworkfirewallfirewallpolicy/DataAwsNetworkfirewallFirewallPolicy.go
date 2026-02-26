@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/networkfirewall_firewall_policy aws_networkfirewall_firewall_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/networkfirewall_firewall_policy aws_networkfirewall_firewall_policy}.
 type DataAwsNetworkfirewallFirewallPolicy interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -116,6 +116,15 @@ type DataAwsNetworkfirewallFirewallPolicy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsNetworkfirewallFirewallPolicy
@@ -394,7 +403,7 @@ func (j *jsiiProxy_DataAwsNetworkfirewallFirewallPolicy) UpdateToken() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/networkfirewall_firewall_policy aws_networkfirewall_firewall_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/networkfirewall_firewall_policy aws_networkfirewall_firewall_policy} Data Source.
 func NewDataAwsNetworkfirewallFirewallPolicy(scope constructs.Construct, id *string, config *DataAwsNetworkfirewallFirewallPolicyConfig) DataAwsNetworkfirewallFirewallPolicy {
 	_init_.Initialize()
 
@@ -412,7 +421,7 @@ func NewDataAwsNetworkfirewallFirewallPolicy(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/networkfirewall_firewall_policy aws_networkfirewall_firewall_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/networkfirewall_firewall_policy aws_networkfirewall_firewall_policy} Data Source.
 func NewDataAwsNetworkfirewallFirewallPolicy_Override(d DataAwsNetworkfirewallFirewallPolicy, scope constructs.Construct, id *string, config *DataAwsNetworkfirewallFirewallPolicyConfig) {
 	_init_.Initialize()
 
@@ -929,6 +938,24 @@ func (d *jsiiProxy_DataAwsNetworkfirewallFirewallPolicy) ToTerraform() interface
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsNetworkfirewallFirewallPolicy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

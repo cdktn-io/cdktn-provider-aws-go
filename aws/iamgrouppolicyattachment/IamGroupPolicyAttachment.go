@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iam_group_policy_attachment aws_iam_group_policy_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iam_group_policy_attachment aws_iam_group_policy_attachment}.
 type IamGroupPolicyAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -128,6 +128,15 @@ type IamGroupPolicyAttachment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IamGroupPolicyAttachment
@@ -356,7 +365,7 @@ func (j *jsiiProxy_IamGroupPolicyAttachment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iam_group_policy_attachment aws_iam_group_policy_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iam_group_policy_attachment aws_iam_group_policy_attachment} Resource.
 func NewIamGroupPolicyAttachment(scope constructs.Construct, id *string, config *IamGroupPolicyAttachmentConfig) IamGroupPolicyAttachment {
 	_init_.Initialize()
 
@@ -374,7 +383,7 @@ func NewIamGroupPolicyAttachment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iam_group_policy_attachment aws_iam_group_policy_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iam_group_policy_attachment aws_iam_group_policy_attachment} Resource.
 func NewIamGroupPolicyAttachment_Override(i IamGroupPolicyAttachment, scope constructs.Construct, id *string, config *IamGroupPolicyAttachmentConfig) {
 	_init_.Initialize()
 
@@ -927,6 +936,24 @@ func (i *jsiiProxy_IamGroupPolicyAttachment) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IamGroupPolicyAttachment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

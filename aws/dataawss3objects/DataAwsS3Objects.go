@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/s3_objects aws_s3_objects}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/s3_objects aws_s3_objects}.
 type DataAwsS3Objects interface {
 	cdktn.TerraformDataSource
 	Bucket() *string
@@ -136,6 +136,15 @@ type DataAwsS3Objects interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsS3Objects
@@ -524,7 +533,7 @@ func (j *jsiiProxy_DataAwsS3Objects) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/s3_objects aws_s3_objects} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/s3_objects aws_s3_objects} Data Source.
 func NewDataAwsS3Objects(scope constructs.Construct, id *string, config *DataAwsS3ObjectsConfig) DataAwsS3Objects {
 	_init_.Initialize()
 
@@ -542,7 +551,7 @@ func NewDataAwsS3Objects(scope constructs.Construct, id *string, config *DataAws
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/s3_objects aws_s3_objects} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/s3_objects aws_s3_objects} Data Source.
 func NewDataAwsS3Objects_Override(d DataAwsS3Objects, scope constructs.Construct, id *string, config *DataAwsS3ObjectsConfig) {
 	_init_.Initialize()
 
@@ -1146,6 +1155,24 @@ func (d *jsiiProxy_DataAwsS3Objects) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsS3Objects) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

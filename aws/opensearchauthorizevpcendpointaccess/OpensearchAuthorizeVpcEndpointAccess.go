@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/opensearch_authorize_vpc_endpoint_access aws_opensearch_authorize_vpc_endpoint_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/opensearch_authorize_vpc_endpoint_access aws_opensearch_authorize_vpc_endpoint_access}.
 type OpensearchAuthorizeVpcEndpointAccess interface {
 	cdktn.TerraformResource
 	Account() *string
@@ -129,6 +129,15 @@ type OpensearchAuthorizeVpcEndpointAccess interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for OpensearchAuthorizeVpcEndpointAccess
@@ -367,7 +376,7 @@ func (j *jsiiProxy_OpensearchAuthorizeVpcEndpointAccess) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/opensearch_authorize_vpc_endpoint_access aws_opensearch_authorize_vpc_endpoint_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/opensearch_authorize_vpc_endpoint_access aws_opensearch_authorize_vpc_endpoint_access} Resource.
 func NewOpensearchAuthorizeVpcEndpointAccess(scope constructs.Construct, id *string, config *OpensearchAuthorizeVpcEndpointAccessConfig) OpensearchAuthorizeVpcEndpointAccess {
 	_init_.Initialize()
 
@@ -385,7 +394,7 @@ func NewOpensearchAuthorizeVpcEndpointAccess(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/opensearch_authorize_vpc_endpoint_access aws_opensearch_authorize_vpc_endpoint_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/opensearch_authorize_vpc_endpoint_access aws_opensearch_authorize_vpc_endpoint_access} Resource.
 func NewOpensearchAuthorizeVpcEndpointAccess_Override(o OpensearchAuthorizeVpcEndpointAccess, scope constructs.Construct, id *string, config *OpensearchAuthorizeVpcEndpointAccessConfig) {
 	_init_.Initialize()
 
@@ -938,6 +947,24 @@ func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccess) ToTerraform() interface
 		o,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccess) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		o,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -5,9 +5,9 @@ package arcregionswitchplan
 
 
 type ArcregionswitchPlanWorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControl struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/arcregionswitch_plan#routing_control_arn ArcregionswitchPlan#routing_control_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/arcregionswitch_plan#routing_control_arn ArcregionswitchPlan#routing_control_arn}.
 	RoutingControlArn *string `field:"required" json:"routingControlArn" yaml:"routingControlArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/arcregionswitch_plan#state ArcregionswitchPlan#state}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/arcregionswitch_plan#state ArcregionswitchPlan#state}.
 	State *string `field:"required" json:"state" yaml:"state"`
 }
 

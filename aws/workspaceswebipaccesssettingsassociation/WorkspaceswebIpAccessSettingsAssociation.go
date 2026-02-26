@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_ip_access_settings_association aws_workspacesweb_ip_access_settings_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_ip_access_settings_association aws_workspacesweb_ip_access_settings_association}.
 type WorkspaceswebIpAccessSettingsAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -128,6 +128,15 @@ type WorkspaceswebIpAccessSettingsAssociation interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for WorkspaceswebIpAccessSettingsAssociation
@@ -356,7 +365,7 @@ func (j *jsiiProxy_WorkspaceswebIpAccessSettingsAssociation) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_ip_access_settings_association aws_workspacesweb_ip_access_settings_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_ip_access_settings_association aws_workspacesweb_ip_access_settings_association} Resource.
 func NewWorkspaceswebIpAccessSettingsAssociation(scope constructs.Construct, id *string, config *WorkspaceswebIpAccessSettingsAssociationConfig) WorkspaceswebIpAccessSettingsAssociation {
 	_init_.Initialize()
 
@@ -374,7 +383,7 @@ func NewWorkspaceswebIpAccessSettingsAssociation(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_ip_access_settings_association aws_workspacesweb_ip_access_settings_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_ip_access_settings_association aws_workspacesweb_ip_access_settings_association} Resource.
 func NewWorkspaceswebIpAccessSettingsAssociation_Override(w WorkspaceswebIpAccessSettingsAssociation, scope constructs.Construct, id *string, config *WorkspaceswebIpAccessSettingsAssociationConfig) {
 	_init_.Initialize()
 
@@ -927,6 +936,24 @@ func (w *jsiiProxy_WorkspaceswebIpAccessSettingsAssociation) ToTerraform() inter
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkspaceswebIpAccessSettingsAssociation) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

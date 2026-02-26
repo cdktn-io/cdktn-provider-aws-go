@@ -101,6 +101,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trustStoreArn", GoGetter: "TrustStoreArn"},
 			_jsii_.MemberProperty{JsiiProperty: "userAccessLoggingSettingsArn", GoGetter: "UserAccessLoggingSettingsArn"},
 			_jsii_.MemberProperty{JsiiProperty: "userSettingsArn", GoGetter: "UserSettingsArn"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkspaceswebPortal{}

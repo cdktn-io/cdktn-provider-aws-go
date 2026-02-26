@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dx_gateway_association aws_dx_gateway_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dx_gateway_association aws_dx_gateway_association}.
 type DxGatewayAssociation interface {
 	cdktn.TerraformResource
 	AllowedPrefixes() *[]*string
@@ -153,6 +153,15 @@ type DxGatewayAssociation interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DxGatewayAssociation
@@ -521,7 +530,7 @@ func (j *jsiiProxy_DxGatewayAssociation) TransitGatewayAttachmentId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dx_gateway_association aws_dx_gateway_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dx_gateway_association aws_dx_gateway_association} Resource.
 func NewDxGatewayAssociation(scope constructs.Construct, id *string, config *DxGatewayAssociationConfig) DxGatewayAssociation {
 	_init_.Initialize()
 
@@ -539,7 +548,7 @@ func NewDxGatewayAssociation(scope constructs.Construct, id *string, config *DxG
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dx_gateway_association aws_dx_gateway_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dx_gateway_association aws_dx_gateway_association} Resource.
 func NewDxGatewayAssociation_Override(d DxGatewayAssociation, scope constructs.Construct, id *string, config *DxGatewayAssociationConfig) {
 	_init_.Initialize()
 
@@ -1195,6 +1204,24 @@ func (d *jsiiProxy_DxGatewayAssociation) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DxGatewayAssociation) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

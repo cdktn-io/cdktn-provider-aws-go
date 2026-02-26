@@ -78,6 +78,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "trafficRoutingConfig", GoGetter: "TrafficRoutingConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "trafficRoutingConfigInput", GoGetter: "TrafficRoutingConfigInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zonalConfig", GoGetter: "ZonalConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "zonalConfigInput", GoGetter: "ZonalConfigInput"},
 		},

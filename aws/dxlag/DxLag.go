@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dx_lag aws_dx_lag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dx_lag aws_dx_lag}.
 type DxLag interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -159,6 +159,15 @@ type DxLag interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DxLag
@@ -567,7 +576,7 @@ func (j *jsiiProxy_DxLag) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dx_lag aws_dx_lag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dx_lag aws_dx_lag} Resource.
 func NewDxLag(scope constructs.Construct, id *string, config *DxLagConfig) DxLag {
 	_init_.Initialize()
 
@@ -585,7 +594,7 @@ func NewDxLag(scope constructs.Construct, id *string, config *DxLagConfig) DxLag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dx_lag aws_dx_lag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dx_lag aws_dx_lag} Resource.
 func NewDxLag_Override(d DxLag, scope constructs.Construct, id *string, config *DxLagConfig) {
 	_init_.Initialize()
 
@@ -1263,6 +1272,24 @@ func (d *jsiiProxy_DxLag) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DxLag) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

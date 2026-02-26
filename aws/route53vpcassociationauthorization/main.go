@@ -67,6 +67,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdInput", GoGetter: "VpcIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcRegion", GoGetter: "VpcRegion"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcRegionInput", GoGetter: "VpcRegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zoneId", GoGetter: "ZoneId"},
 			_jsii_.MemberProperty{JsiiProperty: "zoneIdInput", GoGetter: "ZoneIdInput"},
 		},

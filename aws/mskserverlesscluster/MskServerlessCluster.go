@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/msk_serverless_cluster aws_msk_serverless_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/msk_serverless_cluster aws_msk_serverless_cluster}.
 type MskServerlessCluster interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -150,6 +150,15 @@ type MskServerlessCluster interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for MskServerlessCluster
@@ -508,7 +517,7 @@ func (j *jsiiProxy_MskServerlessCluster) VpcConfigInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/msk_serverless_cluster aws_msk_serverless_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/msk_serverless_cluster aws_msk_serverless_cluster} Resource.
 func NewMskServerlessCluster(scope constructs.Construct, id *string, config *MskServerlessClusterConfig) MskServerlessCluster {
 	_init_.Initialize()
 
@@ -526,7 +535,7 @@ func NewMskServerlessCluster(scope constructs.Construct, id *string, config *Msk
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/msk_serverless_cluster aws_msk_serverless_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/msk_serverless_cluster aws_msk_serverless_cluster} Resource.
 func NewMskServerlessCluster_Override(m MskServerlessCluster, scope constructs.Construct, id *string, config *MskServerlessClusterConfig) {
 	_init_.Initialize()
 
@@ -1166,6 +1175,24 @@ func (m *jsiiProxy_MskServerlessCluster) ToTerraform() interface{} {
 		m,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (m *jsiiProxy_MskServerlessCluster) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		m,
+		"with",
+		args,
 		&returns,
 	)
 

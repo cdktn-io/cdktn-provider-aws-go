@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/connect_phone_number aws_connect_phone_number}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/connect_phone_number aws_connect_phone_number}.
 type ConnectPhoneNumber interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -158,6 +158,15 @@ type ConnectPhoneNumber interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ConnectPhoneNumber
@@ -556,7 +565,7 @@ func (j *jsiiProxy_ConnectPhoneNumber) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/connect_phone_number aws_connect_phone_number} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/connect_phone_number aws_connect_phone_number} Resource.
 func NewConnectPhoneNumber(scope constructs.Construct, id *string, config *ConnectPhoneNumberConfig) ConnectPhoneNumber {
 	_init_.Initialize()
 
@@ -574,7 +583,7 @@ func NewConnectPhoneNumber(scope constructs.Construct, id *string, config *Conne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/connect_phone_number aws_connect_phone_number} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/connect_phone_number aws_connect_phone_number} Resource.
 func NewConnectPhoneNumber_Override(c ConnectPhoneNumber, scope constructs.Construct, id *string, config *ConnectPhoneNumberConfig) {
 	_init_.Initialize()
 
@@ -1252,6 +1261,24 @@ func (c *jsiiProxy_ConnectPhoneNumber) ToTerraform() interface{} {
 		c,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_ConnectPhoneNumber) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		c,
+		"with",
+		args,
 		&returns,
 	)
 

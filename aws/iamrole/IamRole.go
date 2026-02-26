@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iam_role aws_iam_role}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iam_role aws_iam_role}.
 type IamRole interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -172,6 +172,15 @@ type IamRole interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IamRole
@@ -630,7 +639,7 @@ func (j *jsiiProxy_IamRole) UniqueId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iam_role aws_iam_role} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iam_role aws_iam_role} Resource.
 func NewIamRole(scope constructs.Construct, id *string, config *IamRoleConfig) IamRole {
 	_init_.Initialize()
 
@@ -648,7 +657,7 @@ func NewIamRole(scope constructs.Construct, id *string, config *IamRoleConfig) I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iam_role aws_iam_role} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iam_role aws_iam_role} Resource.
 func NewIamRole_Override(i IamRole, scope constructs.Construct, id *string, config *IamRoleConfig) {
 	_init_.Initialize()
 
@@ -1399,6 +1408,24 @@ func (i *jsiiProxy_IamRole) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IamRole) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

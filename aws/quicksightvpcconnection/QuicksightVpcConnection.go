@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_vpc_connection aws_quicksight_vpc_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_vpc_connection aws_quicksight_vpc_connection}.
 type QuicksightVpcConnection interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -157,6 +157,15 @@ type QuicksightVpcConnection interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for QuicksightVpcConnection
@@ -565,7 +574,7 @@ func (j *jsiiProxy_QuicksightVpcConnection) VpcConnectionIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_vpc_connection aws_quicksight_vpc_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_vpc_connection aws_quicksight_vpc_connection} Resource.
 func NewQuicksightVpcConnection(scope constructs.Construct, id *string, config *QuicksightVpcConnectionConfig) QuicksightVpcConnection {
 	_init_.Initialize()
 
@@ -583,7 +592,7 @@ func NewQuicksightVpcConnection(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_vpc_connection aws_quicksight_vpc_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_vpc_connection aws_quicksight_vpc_connection} Resource.
 func NewQuicksightVpcConnection_Override(q QuicksightVpcConnection, scope constructs.Construct, id *string, config *QuicksightVpcConnectionConfig) {
 	_init_.Initialize()
 
@@ -1245,6 +1254,24 @@ func (q *jsiiProxy_QuicksightVpcConnection) ToTerraform() interface{} {
 		q,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (q *jsiiProxy_QuicksightVpcConnection) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		q,
+		"with",
+		args,
 		&returns,
 	)
 

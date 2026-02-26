@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkflowmonitor_scope aws_networkflowmonitor_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkflowmonitor_scope aws_networkflowmonitor_scope}.
 type NetworkflowmonitorScope interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -137,6 +137,15 @@ type NetworkflowmonitorScope interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NetworkflowmonitorScope
@@ -415,7 +424,7 @@ func (j *jsiiProxy_NetworkflowmonitorScope) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkflowmonitor_scope aws_networkflowmonitor_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkflowmonitor_scope aws_networkflowmonitor_scope} Resource.
 func NewNetworkflowmonitorScope(scope constructs.Construct, id *string, config *NetworkflowmonitorScopeConfig) NetworkflowmonitorScope {
 	_init_.Initialize()
 
@@ -433,7 +442,7 @@ func NewNetworkflowmonitorScope(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkflowmonitor_scope aws_networkflowmonitor_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkflowmonitor_scope aws_networkflowmonitor_scope} Resource.
 func NewNetworkflowmonitorScope_Override(n NetworkflowmonitorScope, scope constructs.Construct, id *string, config *NetworkflowmonitorScopeConfig) {
 	_init_.Initialize()
 
@@ -1021,6 +1030,24 @@ func (n *jsiiProxy_NetworkflowmonitorScope) ToTerraform() interface{} {
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkflowmonitorScope) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_browser_settings_association aws_workspacesweb_browser_settings_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_browser_settings_association aws_workspacesweb_browser_settings_association}.
 type WorkspaceswebBrowserSettingsAssociation interface {
 	cdktn.TerraformResource
 	BrowserSettingsArn() *string
@@ -128,6 +128,15 @@ type WorkspaceswebBrowserSettingsAssociation interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for WorkspaceswebBrowserSettingsAssociation
@@ -356,7 +365,7 @@ func (j *jsiiProxy_WorkspaceswebBrowserSettingsAssociation) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_browser_settings_association aws_workspacesweb_browser_settings_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_browser_settings_association aws_workspacesweb_browser_settings_association} Resource.
 func NewWorkspaceswebBrowserSettingsAssociation(scope constructs.Construct, id *string, config *WorkspaceswebBrowserSettingsAssociationConfig) WorkspaceswebBrowserSettingsAssociation {
 	_init_.Initialize()
 
@@ -374,7 +383,7 @@ func NewWorkspaceswebBrowserSettingsAssociation(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_browser_settings_association aws_workspacesweb_browser_settings_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_browser_settings_association aws_workspacesweb_browser_settings_association} Resource.
 func NewWorkspaceswebBrowserSettingsAssociation_Override(w WorkspaceswebBrowserSettingsAssociation, scope constructs.Construct, id *string, config *WorkspaceswebBrowserSettingsAssociationConfig) {
 	_init_.Initialize()
 
@@ -927,6 +936,24 @@ func (w *jsiiProxy_WorkspaceswebBrowserSettingsAssociation) ToTerraform() interf
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkspaceswebBrowserSettingsAssociation) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

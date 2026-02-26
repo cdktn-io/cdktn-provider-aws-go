@@ -115,6 +115,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForSuccessTimeoutSeconds", GoGetter: "WaitForSuccessTimeoutSeconds"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForSuccessTimeoutSecondsInput", GoGetter: "WaitForSuccessTimeoutSecondsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_SsmAssociation{}

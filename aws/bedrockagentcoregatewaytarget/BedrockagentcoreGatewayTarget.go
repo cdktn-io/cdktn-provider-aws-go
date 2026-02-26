@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target}.
 type BedrockagentcoreGatewayTarget interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -51,6 +51,8 @@ type BedrockagentcoreGatewayTarget interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	MetadataConfiguration() BedrockagentcoreGatewayTargetMetadataConfigurationList
+	MetadataConfigurationInput() interface{}
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -124,10 +126,12 @@ type BedrockagentcoreGatewayTarget interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutCredentialProviderConfiguration(value interface{})
+	PutMetadataConfiguration(value interface{})
 	PutTargetConfiguration(value interface{})
 	PutTimeouts(value *BedrockagentcoreGatewayTargetTimeouts)
 	ResetCredentialProviderConfiguration()
 	ResetDescription()
+	ResetMetadataConfiguration()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -145,6 +149,15 @@ type BedrockagentcoreGatewayTarget interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for BedrockagentcoreGatewayTarget
@@ -297,6 +310,26 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTarget) Lifecycle() *cdktn.TerraformRe
 	_jsii_.Get(
 		j,
 		"lifecycle",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTarget) MetadataConfiguration() BedrockagentcoreGatewayTargetMetadataConfigurationList {
+	var returns BedrockagentcoreGatewayTargetMetadataConfigurationList
+	_jsii_.Get(
+		j,
+		"metadataConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTarget) MetadataConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"metadataConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -463,7 +496,7 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTarget) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target} Resource.
 func NewBedrockagentcoreGatewayTarget(scope constructs.Construct, id *string, config *BedrockagentcoreGatewayTargetConfig) BedrockagentcoreGatewayTarget {
 	_init_.Initialize()
 
@@ -481,7 +514,7 @@ func NewBedrockagentcoreGatewayTarget(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target} Resource.
 func NewBedrockagentcoreGatewayTarget_Override(b BedrockagentcoreGatewayTarget, scope constructs.Construct, id *string, config *BedrockagentcoreGatewayTargetConfig) {
 	_init_.Initialize()
 
@@ -968,6 +1001,17 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTarget) PutCredentialProviderConfigura
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayTarget) PutMetadataConfiguration(value interface{}) {
+	if err := b.validatePutMetadataConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putMetadataConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayTarget) PutTargetConfiguration(value interface{}) {
 	if err := b.validatePutTargetConfigurationParameters(value); err != nil {
 		panic(err)
@@ -1002,6 +1046,14 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTarget) ResetDescription() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayTarget) ResetMetadataConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetMetadataConfiguration",
 		nil, // no parameters
 	)
 }
@@ -1110,6 +1162,24 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTarget) ToTerraform() interface{} {
 		b,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayTarget) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		b,
+		"with",
+		args,
 		&returns,
 	)
 

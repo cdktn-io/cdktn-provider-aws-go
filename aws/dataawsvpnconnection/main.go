@@ -72,6 +72,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpnConnectionId", GoGetter: "VpnConnectionId"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnConnectionIdInput", GoGetter: "VpnConnectionIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnGatewayId", GoGetter: "VpnGatewayId"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsVpnConnection{}

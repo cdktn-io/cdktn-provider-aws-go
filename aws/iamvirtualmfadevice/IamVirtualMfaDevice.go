@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iam_virtual_mfa_device aws_iam_virtual_mfa_device}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iam_virtual_mfa_device aws_iam_virtual_mfa_device}.
 type IamVirtualMfaDevice interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -143,6 +143,15 @@ type IamVirtualMfaDevice interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IamVirtualMfaDevice
@@ -471,7 +480,7 @@ func (j *jsiiProxy_IamVirtualMfaDevice) VirtualMfaDeviceNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iam_virtual_mfa_device aws_iam_virtual_mfa_device} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iam_virtual_mfa_device aws_iam_virtual_mfa_device} Resource.
 func NewIamVirtualMfaDevice(scope constructs.Construct, id *string, config *IamVirtualMfaDeviceConfig) IamVirtualMfaDevice {
 	_init_.Initialize()
 
@@ -489,7 +498,7 @@ func NewIamVirtualMfaDevice(scope constructs.Construct, id *string, config *IamV
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iam_virtual_mfa_device aws_iam_virtual_mfa_device} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iam_virtual_mfa_device aws_iam_virtual_mfa_device} Resource.
 func NewIamVirtualMfaDevice_Override(i IamVirtualMfaDevice, scope constructs.Construct, id *string, config *IamVirtualMfaDeviceConfig) {
 	_init_.Initialize()
 
@@ -1088,6 +1097,24 @@ func (i *jsiiProxy_IamVirtualMfaDevice) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IamVirtualMfaDevice) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

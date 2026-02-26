@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_snapshot_copy_grant aws_redshift_snapshot_copy_grant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshift_snapshot_copy_grant aws_redshift_snapshot_copy_grant}.
 type RedshiftSnapshotCopyGrant interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -142,6 +142,15 @@ type RedshiftSnapshotCopyGrant interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for RedshiftSnapshotCopyGrant
@@ -440,7 +449,7 @@ func (j *jsiiProxy_RedshiftSnapshotCopyGrant) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_snapshot_copy_grant aws_redshift_snapshot_copy_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshift_snapshot_copy_grant aws_redshift_snapshot_copy_grant} Resource.
 func NewRedshiftSnapshotCopyGrant(scope constructs.Construct, id *string, config *RedshiftSnapshotCopyGrantConfig) RedshiftSnapshotCopyGrant {
 	_init_.Initialize()
 
@@ -458,7 +467,7 @@ func NewRedshiftSnapshotCopyGrant(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_snapshot_copy_grant aws_redshift_snapshot_copy_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshift_snapshot_copy_grant aws_redshift_snapshot_copy_grant} Resource.
 func NewRedshiftSnapshotCopyGrant_Override(r RedshiftSnapshotCopyGrant, scope constructs.Construct, id *string, config *RedshiftSnapshotCopyGrantConfig) {
 	_init_.Initialize()
 
@@ -1076,6 +1085,24 @@ func (r *jsiiProxy_RedshiftSnapshotCopyGrant) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_RedshiftSnapshotCopyGrant) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

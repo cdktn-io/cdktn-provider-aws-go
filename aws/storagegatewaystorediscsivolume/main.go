@@ -96,6 +96,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeSizeInBytes", GoGetter: "VolumeSizeInBytes"},
 			_jsii_.MemberProperty{JsiiProperty: "volumeStatus", GoGetter: "VolumeStatus"},
 			_jsii_.MemberProperty{JsiiProperty: "volumeType", GoGetter: "VolumeType"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_StoragegatewayStoredIscsiVolume{}

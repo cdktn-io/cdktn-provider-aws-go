@@ -41,6 +41,8 @@ type OpensearchDomainAdvancedSecurityOptionsOutputReference interface {
 	InternalUserDatabaseEnabledInput() interface{}
 	InternalValue() *OpensearchDomainAdvancedSecurityOptions
 	SetInternalValue(val *OpensearchDomainAdvancedSecurityOptions)
+	JwtOptions() OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference
+	JwtOptionsInput() *OpensearchDomainAdvancedSecurityOptionsJwtOptions
 	MasterUserOptions() OpensearchDomainAdvancedSecurityOptionsMasterUserOptionsOutputReference
 	MasterUserOptionsInput() *OpensearchDomainAdvancedSecurityOptionsMasterUserOptions
 	// Experimental.
@@ -75,9 +77,11 @@ type OpensearchDomainAdvancedSecurityOptionsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutJwtOptions(value *OpensearchDomainAdvancedSecurityOptionsJwtOptions)
 	PutMasterUserOptions(value *OpensearchDomainAdvancedSecurityOptionsMasterUserOptions)
 	ResetAnonymousAuthEnabled()
 	ResetInternalUserDatabaseEnabled()
+	ResetJwtOptions()
 	ResetMasterUserOptions()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -199,6 +203,26 @@ func (j *jsiiProxy_OpensearchDomainAdvancedSecurityOptionsOutputReference) Inter
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OpensearchDomainAdvancedSecurityOptionsOutputReference) JwtOptions() OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference {
+	var returns OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference
+	_jsii_.Get(
+		j,
+		"jwtOptions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OpensearchDomainAdvancedSecurityOptionsOutputReference) JwtOptionsInput() *OpensearchDomainAdvancedSecurityOptionsJwtOptions {
+	var returns *OpensearchDomainAdvancedSecurityOptionsJwtOptions
+	_jsii_.Get(
+		j,
+		"jwtOptionsInput",
 		&returns,
 	)
 	return returns
@@ -546,6 +570,17 @@ func (o *jsiiProxy_OpensearchDomainAdvancedSecurityOptionsOutputReference) Inter
 	return returns
 }
 
+func (o *jsiiProxy_OpensearchDomainAdvancedSecurityOptionsOutputReference) PutJwtOptions(value *OpensearchDomainAdvancedSecurityOptionsJwtOptions) {
+	if err := o.validatePutJwtOptionsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		o,
+		"putJwtOptions",
+		[]interface{}{value},
+	)
+}
+
 func (o *jsiiProxy_OpensearchDomainAdvancedSecurityOptionsOutputReference) PutMasterUserOptions(value *OpensearchDomainAdvancedSecurityOptionsMasterUserOptions) {
 	if err := o.validatePutMasterUserOptionsParameters(value); err != nil {
 		panic(err)
@@ -569,6 +604,14 @@ func (o *jsiiProxy_OpensearchDomainAdvancedSecurityOptionsOutputReference) Reset
 	_jsii_.InvokeVoid(
 		o,
 		"resetInternalUserDatabaseEnabled",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OpensearchDomainAdvancedSecurityOptionsOutputReference) ResetJwtOptions() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetJwtOptions",
 		nil, // no parameters
 	)
 }

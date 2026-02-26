@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iam_outbound_web_identity_federation aws_iam_outbound_web_identity_federation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iam_outbound_web_identity_federation aws_iam_outbound_web_identity_federation}.
 type IamOutboundWebIdentityFederation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -119,6 +119,15 @@ type IamOutboundWebIdentityFederation interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IamOutboundWebIdentityFederation
@@ -297,7 +306,7 @@ func (j *jsiiProxy_IamOutboundWebIdentityFederation) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iam_outbound_web_identity_federation aws_iam_outbound_web_identity_federation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iam_outbound_web_identity_federation aws_iam_outbound_web_identity_federation} Resource.
 func NewIamOutboundWebIdentityFederation(scope constructs.Construct, id *string, config *IamOutboundWebIdentityFederationConfig) IamOutboundWebIdentityFederation {
 	_init_.Initialize()
 
@@ -315,7 +324,7 @@ func NewIamOutboundWebIdentityFederation(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iam_outbound_web_identity_federation aws_iam_outbound_web_identity_federation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iam_outbound_web_identity_federation aws_iam_outbound_web_identity_federation} Resource.
 func NewIamOutboundWebIdentityFederation_Override(i IamOutboundWebIdentityFederation, scope constructs.Construct, id *string, config *IamOutboundWebIdentityFederationConfig) {
 	_init_.Initialize()
 
@@ -827,6 +836,24 @@ func (i *jsiiProxy_IamOutboundWebIdentityFederation) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IamOutboundWebIdentityFederation) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

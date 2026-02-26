@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ecr_account_setting aws_ecr_account_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ecr_account_setting aws_ecr_account_setting}.
 type EcrAccountSetting interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -128,6 +128,15 @@ type EcrAccountSetting interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EcrAccountSetting
@@ -356,7 +365,7 @@ func (j *jsiiProxy_EcrAccountSetting) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ecr_account_setting aws_ecr_account_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ecr_account_setting aws_ecr_account_setting} Resource.
 func NewEcrAccountSetting(scope constructs.Construct, id *string, config *EcrAccountSettingConfig) EcrAccountSetting {
 	_init_.Initialize()
 
@@ -374,7 +383,7 @@ func NewEcrAccountSetting(scope constructs.Construct, id *string, config *EcrAcc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ecr_account_setting aws_ecr_account_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ecr_account_setting aws_ecr_account_setting} Resource.
 func NewEcrAccountSetting_Override(e EcrAccountSetting, scope constructs.Construct, id *string, config *EcrAccountSettingConfig) {
 	_init_.Initialize()
 
@@ -927,6 +936,24 @@ func (e *jsiiProxy_EcrAccountSetting) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EcrAccountSetting) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

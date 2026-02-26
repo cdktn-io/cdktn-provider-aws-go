@@ -65,6 +65,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vendorNameInput", GoGetter: "VendorNameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "versionName", GoGetter: "VersionName"},
 			_jsii_.MemberProperty{JsiiProperty: "versionNameInput", GoGetter: "VersionNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsWafv2ManagedRuleGroup{}

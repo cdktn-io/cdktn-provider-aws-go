@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/transfer_certificate aws_transfer_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/transfer_certificate aws_transfer_certificate}.
 type TransferCertificate interface {
 	cdktn.TerraformResource
 	ActiveDate() *string
@@ -156,6 +156,15 @@ type TransferCertificate interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for TransferCertificate
@@ -544,7 +553,7 @@ func (j *jsiiProxy_TransferCertificate) UsageInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/transfer_certificate aws_transfer_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/transfer_certificate aws_transfer_certificate} Resource.
 func NewTransferCertificate(scope constructs.Construct, id *string, config *TransferCertificateConfig) TransferCertificate {
 	_init_.Initialize()
 
@@ -562,7 +571,7 @@ func NewTransferCertificate(scope constructs.Construct, id *string, config *Tran
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/transfer_certificate aws_transfer_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/transfer_certificate aws_transfer_certificate} Resource.
 func NewTransferCertificate_Override(t TransferCertificate, scope constructs.Construct, id *string, config *TransferCertificateConfig) {
 	_init_.Initialize()
 
@@ -1229,6 +1238,24 @@ func (t *jsiiProxy_TransferCertificate) ToTerraform() interface{} {
 		t,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TransferCertificate) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		t,
+		"with",
+		args,
 		&returns,
 	)
 

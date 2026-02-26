@@ -75,6 +75,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcIds", GoGetter: "VpcIds"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdsInput", GoGetter: "VpcIdsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_RedshiftEndpointAuthorization{}

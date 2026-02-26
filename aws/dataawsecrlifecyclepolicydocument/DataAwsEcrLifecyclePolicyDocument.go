@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ecr_lifecycle_policy_document aws_ecr_lifecycle_policy_document}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ecr_lifecycle_policy_document aws_ecr_lifecycle_policy_document}.
 type DataAwsEcrLifecyclePolicyDocument interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -98,6 +98,15 @@ type DataAwsEcrLifecyclePolicyDocument interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsEcrLifecyclePolicyDocument
@@ -276,7 +285,7 @@ func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocument) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ecr_lifecycle_policy_document aws_ecr_lifecycle_policy_document} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ecr_lifecycle_policy_document aws_ecr_lifecycle_policy_document} Data Source.
 func NewDataAwsEcrLifecyclePolicyDocument(scope constructs.Construct, id *string, config *DataAwsEcrLifecyclePolicyDocumentConfig) DataAwsEcrLifecyclePolicyDocument {
 	_init_.Initialize()
 
@@ -294,7 +303,7 @@ func NewDataAwsEcrLifecyclePolicyDocument(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ecr_lifecycle_policy_document aws_ecr_lifecycle_policy_document} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ecr_lifecycle_policy_document aws_ecr_lifecycle_policy_document} Data Source.
 func NewDataAwsEcrLifecyclePolicyDocument_Override(d DataAwsEcrLifecyclePolicyDocument, scope constructs.Construct, id *string, config *DataAwsEcrLifecyclePolicyDocumentConfig) {
 	_init_.Initialize()
 
@@ -735,6 +744,24 @@ func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocument) ToTerraform() interface{} 
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocument) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

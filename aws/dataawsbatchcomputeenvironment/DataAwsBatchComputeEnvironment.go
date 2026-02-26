@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/batch_compute_environment aws_batch_compute_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/batch_compute_environment aws_batch_compute_environment}.
 type DataAwsBatchComputeEnvironment interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -116,6 +116,15 @@ type DataAwsBatchComputeEnvironment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsBatchComputeEnvironment
@@ -424,7 +433,7 @@ func (j *jsiiProxy_DataAwsBatchComputeEnvironment) UpdatePolicy() DataAwsBatchCo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/batch_compute_environment aws_batch_compute_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/batch_compute_environment aws_batch_compute_environment} Data Source.
 func NewDataAwsBatchComputeEnvironment(scope constructs.Construct, id *string, config *DataAwsBatchComputeEnvironmentConfig) DataAwsBatchComputeEnvironment {
 	_init_.Initialize()
 
@@ -442,7 +451,7 @@ func NewDataAwsBatchComputeEnvironment(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/batch_compute_environment aws_batch_compute_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/batch_compute_environment aws_batch_compute_environment} Data Source.
 func NewDataAwsBatchComputeEnvironment_Override(d DataAwsBatchComputeEnvironment, scope constructs.Construct, id *string, config *DataAwsBatchComputeEnvironmentConfig) {
 	_init_.Initialize()
 
@@ -932,6 +941,24 @@ func (d *jsiiProxy_DataAwsBatchComputeEnvironment) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsBatchComputeEnvironment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

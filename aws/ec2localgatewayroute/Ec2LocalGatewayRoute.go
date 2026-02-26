@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ec2_local_gateway_route aws_ec2_local_gateway_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ec2_local_gateway_route aws_ec2_local_gateway_route}.
 type Ec2LocalGatewayRoute interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -135,6 +135,15 @@ type Ec2LocalGatewayRoute interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Ec2LocalGatewayRoute
@@ -403,7 +412,7 @@ func (j *jsiiProxy_Ec2LocalGatewayRoute) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ec2_local_gateway_route aws_ec2_local_gateway_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ec2_local_gateway_route aws_ec2_local_gateway_route} Resource.
 func NewEc2LocalGatewayRoute(scope constructs.Construct, id *string, config *Ec2LocalGatewayRouteConfig) Ec2LocalGatewayRoute {
 	_init_.Initialize()
 
@@ -421,7 +430,7 @@ func NewEc2LocalGatewayRoute(scope constructs.Construct, id *string, config *Ec2
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ec2_local_gateway_route aws_ec2_local_gateway_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ec2_local_gateway_route aws_ec2_local_gateway_route} Resource.
 func NewEc2LocalGatewayRoute_Override(e Ec2LocalGatewayRoute, scope constructs.Construct, id *string, config *Ec2LocalGatewayRouteConfig) {
 	_init_.Initialize()
 
@@ -1004,6 +1013,24 @@ func (e *jsiiProxy_Ec2LocalGatewayRoute) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_Ec2LocalGatewayRoute) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

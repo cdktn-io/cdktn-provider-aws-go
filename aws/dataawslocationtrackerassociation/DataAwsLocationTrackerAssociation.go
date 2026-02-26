@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/location_tracker_association aws_location_tracker_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/location_tracker_association aws_location_tracker_association}.
 type DataAwsLocationTrackerAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -107,6 +107,15 @@ type DataAwsLocationTrackerAssociation interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsLocationTrackerAssociation
@@ -335,7 +344,7 @@ func (j *jsiiProxy_DataAwsLocationTrackerAssociation) TrackerNameInput() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/location_tracker_association aws_location_tracker_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/location_tracker_association aws_location_tracker_association} Data Source.
 func NewDataAwsLocationTrackerAssociation(scope constructs.Construct, id *string, config *DataAwsLocationTrackerAssociationConfig) DataAwsLocationTrackerAssociation {
 	_init_.Initialize()
 
@@ -353,7 +362,7 @@ func NewDataAwsLocationTrackerAssociation(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/location_tracker_association aws_location_tracker_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/location_tracker_association aws_location_tracker_association} Data Source.
 func NewDataAwsLocationTrackerAssociation_Override(d DataAwsLocationTrackerAssociation, scope constructs.Construct, id *string, config *DataAwsLocationTrackerAssociationConfig) {
 	_init_.Initialize()
 
@@ -835,6 +844,24 @@ func (d *jsiiProxy_DataAwsLocationTrackerAssociation) ToTerraform() interface{} 
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsLocationTrackerAssociation) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

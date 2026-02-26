@@ -199,6 +199,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "warmPool", GoGetter: "WarmPool"},
 			_jsii_.MemberProperty{JsiiProperty: "warmPoolInput", GoGetter: "WarmPoolInput"},
 			_jsii_.MemberProperty{JsiiProperty: "warmPoolSize", GoGetter: "WarmPoolSize"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_AutoscalingGroup{}

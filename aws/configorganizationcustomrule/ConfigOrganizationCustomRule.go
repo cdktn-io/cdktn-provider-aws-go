@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/config_organization_custom_rule aws_config_organization_custom_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/config_organization_custom_rule aws_config_organization_custom_rule}.
 type ConfigOrganizationCustomRule interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -172,6 +172,15 @@ type ConfigOrganizationCustomRule interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ConfigOrganizationCustomRule
@@ -630,7 +639,7 @@ func (j *jsiiProxy_ConfigOrganizationCustomRule) TriggerTypesInput() *[]*string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/config_organization_custom_rule aws_config_organization_custom_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/config_organization_custom_rule aws_config_organization_custom_rule} Resource.
 func NewConfigOrganizationCustomRule(scope constructs.Construct, id *string, config *ConfigOrganizationCustomRuleConfig) ConfigOrganizationCustomRule {
 	_init_.Initialize()
 
@@ -648,7 +657,7 @@ func NewConfigOrganizationCustomRule(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/config_organization_custom_rule aws_config_organization_custom_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/config_organization_custom_rule aws_config_organization_custom_rule} Resource.
 func NewConfigOrganizationCustomRule_Override(c ConfigOrganizationCustomRule, scope constructs.Construct, id *string, config *ConfigOrganizationCustomRuleConfig) {
 	_init_.Initialize()
 
@@ -1402,6 +1411,24 @@ func (c *jsiiProxy_ConfigOrganizationCustomRule) ToTerraform() interface{} {
 		c,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_ConfigOrganizationCustomRule) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		c,
+		"with",
+		args,
 		&returns,
 	)
 

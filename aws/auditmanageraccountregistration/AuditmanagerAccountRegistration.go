@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/auditmanager_account_registration aws_auditmanager_account_registration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/auditmanager_account_registration aws_auditmanager_account_registration}.
 type AuditmanagerAccountRegistration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -136,6 +136,15 @@ type AuditmanagerAccountRegistration interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AuditmanagerAccountRegistration
@@ -404,7 +413,7 @@ func (j *jsiiProxy_AuditmanagerAccountRegistration) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/auditmanager_account_registration aws_auditmanager_account_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/auditmanager_account_registration aws_auditmanager_account_registration} Resource.
 func NewAuditmanagerAccountRegistration(scope constructs.Construct, id *string, config *AuditmanagerAccountRegistrationConfig) AuditmanagerAccountRegistration {
 	_init_.Initialize()
 
@@ -422,7 +431,7 @@ func NewAuditmanagerAccountRegistration(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/auditmanager_account_registration aws_auditmanager_account_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/auditmanager_account_registration aws_auditmanager_account_registration} Resource.
 func NewAuditmanagerAccountRegistration_Override(a AuditmanagerAccountRegistration, scope constructs.Construct, id *string, config *AuditmanagerAccountRegistrationConfig) {
 	_init_.Initialize()
 
@@ -1010,6 +1019,24 @@ func (a *jsiiProxy_AuditmanagerAccountRegistration) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AuditmanagerAccountRegistration) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

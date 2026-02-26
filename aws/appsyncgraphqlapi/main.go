@@ -119,6 +119,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userPoolConfigInput", GoGetter: "UserPoolConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "visibility", GoGetter: "Visibility"},
 			_jsii_.MemberProperty{JsiiProperty: "visibilityInput", GoGetter: "VisibilityInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "xrayEnabled", GoGetter: "XrayEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "xrayEnabledInput", GoGetter: "XrayEnabledInput"},
 		},

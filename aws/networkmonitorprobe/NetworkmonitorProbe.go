@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkmonitor_probe aws_networkmonitor_probe}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkmonitor_probe aws_networkmonitor_probe}.
 type NetworkmonitorProbe interface {
 	cdktn.TerraformResource
 	AddressFamily() *string
@@ -152,6 +152,15 @@ type NetworkmonitorProbe interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NetworkmonitorProbe
@@ -540,7 +549,7 @@ func (j *jsiiProxy_NetworkmonitorProbe) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkmonitor_probe aws_networkmonitor_probe} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkmonitor_probe aws_networkmonitor_probe} Resource.
 func NewNetworkmonitorProbe(scope constructs.Construct, id *string, config *NetworkmonitorProbeConfig) NetworkmonitorProbe {
 	_init_.Initialize()
 
@@ -558,7 +567,7 @@ func NewNetworkmonitorProbe(scope constructs.Construct, id *string, config *Netw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkmonitor_probe aws_networkmonitor_probe} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkmonitor_probe aws_networkmonitor_probe} Resource.
 func NewNetworkmonitorProbe_Override(n NetworkmonitorProbe, scope constructs.Construct, id *string, config *NetworkmonitorProbeConfig) {
 	_init_.Initialize()
 
@@ -1190,6 +1199,24 @@ func (n *jsiiProxy_NetworkmonitorProbe) ToTerraform() interface{} {
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkmonitorProbe) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

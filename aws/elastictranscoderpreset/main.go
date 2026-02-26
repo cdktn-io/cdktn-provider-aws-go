@@ -96,6 +96,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "videoInput", GoGetter: "VideoInput"},
 			_jsii_.MemberProperty{JsiiProperty: "videoWatermarks", GoGetter: "VideoWatermarks"},
 			_jsii_.MemberProperty{JsiiProperty: "videoWatermarksInput", GoGetter: "VideoWatermarksInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ElastictranscoderPreset{}

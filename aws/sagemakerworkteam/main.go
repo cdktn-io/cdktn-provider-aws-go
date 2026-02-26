@@ -81,6 +81,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "workerAccessConfiguration", GoGetter: "WorkerAccessConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "workerAccessConfigurationInput", GoGetter: "WorkerAccessConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "workforceName", GoGetter: "WorkforceName"},

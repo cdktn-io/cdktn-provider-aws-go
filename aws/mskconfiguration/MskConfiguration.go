@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/msk_configuration aws_msk_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/msk_configuration aws_msk_configuration}.
 type MskConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -142,6 +142,15 @@ type MskConfiguration interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for MskConfiguration
@@ -450,7 +459,7 @@ func (j *jsiiProxy_MskConfiguration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/msk_configuration aws_msk_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/msk_configuration aws_msk_configuration} Resource.
 func NewMskConfiguration(scope constructs.Construct, id *string, config *MskConfigurationConfig) MskConfiguration {
 	_init_.Initialize()
 
@@ -468,7 +477,7 @@ func NewMskConfiguration(scope constructs.Construct, id *string, config *MskConf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/msk_configuration aws_msk_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/msk_configuration aws_msk_configuration} Resource.
 func NewMskConfiguration_Override(m MskConfiguration, scope constructs.Construct, id *string, config *MskConfigurationConfig) {
 	_init_.Initialize()
 
@@ -1078,6 +1087,24 @@ func (m *jsiiProxy_MskConfiguration) ToTerraform() interface{} {
 		m,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (m *jsiiProxy_MskConfiguration) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		m,
+		"with",
+		args,
 		&returns,
 	)
 

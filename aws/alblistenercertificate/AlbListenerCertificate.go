@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/alb_listener_certificate aws_alb_listener_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/alb_listener_certificate aws_alb_listener_certificate}.
 type AlbListenerCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -132,6 +132,15 @@ type AlbListenerCertificate interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AlbListenerCertificate
@@ -380,7 +389,7 @@ func (j *jsiiProxy_AlbListenerCertificate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/alb_listener_certificate aws_alb_listener_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/alb_listener_certificate aws_alb_listener_certificate} Resource.
 func NewAlbListenerCertificate(scope constructs.Construct, id *string, config *AlbListenerCertificateConfig) AlbListenerCertificate {
 	_init_.Initialize()
 
@@ -398,7 +407,7 @@ func NewAlbListenerCertificate(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/alb_listener_certificate aws_alb_listener_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/alb_listener_certificate aws_alb_listener_certificate} Resource.
 func NewAlbListenerCertificate_Override(a AlbListenerCertificate, scope constructs.Construct, id *string, config *AlbListenerCertificateConfig) {
 	_init_.Initialize()
 
@@ -970,6 +979,24 @@ func (a *jsiiProxy_AlbListenerCertificate) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AlbListenerCertificate) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

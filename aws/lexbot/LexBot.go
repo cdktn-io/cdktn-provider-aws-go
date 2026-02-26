@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lex_bot aws_lex_bot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lex_bot aws_lex_bot}.
 type LexBot interface {
 	cdktn.TerraformResource
 	AbortStatement() LexBotAbortStatementOutputReference
@@ -189,6 +189,15 @@ type LexBot interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LexBot
@@ -767,7 +776,7 @@ func (j *jsiiProxy_LexBot) VoiceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lex_bot aws_lex_bot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lex_bot aws_lex_bot} Resource.
 func NewLexBot(scope constructs.Construct, id *string, config *LexBotConfig) LexBot {
 	_init_.Initialize()
 
@@ -785,7 +794,7 @@ func NewLexBot(scope constructs.Construct, id *string, config *LexBotConfig) Lex
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lex_bot aws_lex_bot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lex_bot aws_lex_bot} Resource.
 func NewLexBot_Override(l LexBot, scope constructs.Construct, id *string, config *LexBotConfig) {
 	_init_.Initialize()
 
@@ -1588,6 +1597,24 @@ func (l *jsiiProxy_LexBot) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LexBot) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

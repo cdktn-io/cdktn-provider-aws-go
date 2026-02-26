@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/secretsmanager_secret aws_secretsmanager_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/secretsmanager_secret aws_secretsmanager_secret}.
 type DataAwsSecretsmanagerSecret interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -118,6 +118,15 @@ type DataAwsSecretsmanagerSecret interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsSecretsmanagerSecret
@@ -416,7 +425,7 @@ func (j *jsiiProxy_DataAwsSecretsmanagerSecret) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/secretsmanager_secret aws_secretsmanager_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/secretsmanager_secret aws_secretsmanager_secret} Data Source.
 func NewDataAwsSecretsmanagerSecret(scope constructs.Construct, id *string, config *DataAwsSecretsmanagerSecretConfig) DataAwsSecretsmanagerSecret {
 	_init_.Initialize()
 
@@ -434,7 +443,7 @@ func NewDataAwsSecretsmanagerSecret(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/secretsmanager_secret aws_secretsmanager_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/secretsmanager_secret aws_secretsmanager_secret} Data Source.
 func NewDataAwsSecretsmanagerSecret_Override(d DataAwsSecretsmanagerSecret, scope constructs.Construct, id *string, config *DataAwsSecretsmanagerSecretConfig) {
 	_init_.Initialize()
 
@@ -951,6 +960,24 @@ func (d *jsiiProxy_DataAwsSecretsmanagerSecret) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsSecretsmanagerSecret) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

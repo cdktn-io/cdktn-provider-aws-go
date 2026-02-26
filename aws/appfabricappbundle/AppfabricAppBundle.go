@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appfabric_app_bundle aws_appfabric_app_bundle}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appfabric_app_bundle aws_appfabric_app_bundle}.
 type AppfabricAppBundle interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -133,6 +133,15 @@ type AppfabricAppBundle interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AppfabricAppBundle
@@ -391,7 +400,7 @@ func (j *jsiiProxy_AppfabricAppBundle) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appfabric_app_bundle aws_appfabric_app_bundle} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appfabric_app_bundle aws_appfabric_app_bundle} Resource.
 func NewAppfabricAppBundle(scope constructs.Construct, id *string, config *AppfabricAppBundleConfig) AppfabricAppBundle {
 	_init_.Initialize()
 
@@ -409,7 +418,7 @@ func NewAppfabricAppBundle(scope constructs.Construct, id *string, config *Appfa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appfabric_app_bundle aws_appfabric_app_bundle} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appfabric_app_bundle aws_appfabric_app_bundle} Resource.
 func NewAppfabricAppBundle_Override(a AppfabricAppBundle, scope constructs.Construct, id *string, config *AppfabricAppBundleConfig) {
 	_init_.Initialize()
 
@@ -978,6 +987,24 @@ func (a *jsiiProxy_AppfabricAppBundle) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AppfabricAppBundle) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

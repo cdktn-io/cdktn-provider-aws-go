@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ec2_transit_gateway_dx_gateway_attachment aws_ec2_transit_gateway_dx_gateway_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ec2_transit_gateway_dx_gateway_attachment aws_ec2_transit_gateway_dx_gateway_attachment}.
 type DataAwsEc2TransitGatewayDxGatewayAttachment interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -122,6 +122,15 @@ type DataAwsEc2TransitGatewayDxGatewayAttachment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsEc2TransitGatewayDxGatewayAttachment
@@ -420,7 +429,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayDxGatewayAttachment) TransitGatewayId
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ec2_transit_gateway_dx_gateway_attachment aws_ec2_transit_gateway_dx_gateway_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ec2_transit_gateway_dx_gateway_attachment aws_ec2_transit_gateway_dx_gateway_attachment} Data Source.
 func NewDataAwsEc2TransitGatewayDxGatewayAttachment(scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayDxGatewayAttachmentConfig) DataAwsEc2TransitGatewayDxGatewayAttachment {
 	_init_.Initialize()
 
@@ -438,7 +447,7 @@ func NewDataAwsEc2TransitGatewayDxGatewayAttachment(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ec2_transit_gateway_dx_gateway_attachment aws_ec2_transit_gateway_dx_gateway_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ec2_transit_gateway_dx_gateway_attachment aws_ec2_transit_gateway_dx_gateway_attachment} Data Source.
 func NewDataAwsEc2TransitGatewayDxGatewayAttachment_Override(d DataAwsEc2TransitGatewayDxGatewayAttachment, scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayDxGatewayAttachmentConfig) {
 	_init_.Initialize()
 
@@ -993,6 +1002,24 @@ func (d *jsiiProxy_DataAwsEc2TransitGatewayDxGatewayAttachment) ToTerraform() in
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsEc2TransitGatewayDxGatewayAttachment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

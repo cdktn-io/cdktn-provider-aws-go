@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/emr_managed_scaling_policy aws_emr_managed_scaling_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/emr_managed_scaling_policy aws_emr_managed_scaling_policy}.
 type EmrManagedScalingPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -140,6 +140,15 @@ type EmrManagedScalingPolicy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EmrManagedScalingPolicy
@@ -428,7 +437,7 @@ func (j *jsiiProxy_EmrManagedScalingPolicy) UtilizationPerformanceIndexInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/emr_managed_scaling_policy aws_emr_managed_scaling_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/emr_managed_scaling_policy aws_emr_managed_scaling_policy} Resource.
 func NewEmrManagedScalingPolicy(scope constructs.Construct, id *string, config *EmrManagedScalingPolicyConfig) EmrManagedScalingPolicy {
 	_init_.Initialize()
 
@@ -446,7 +455,7 @@ func NewEmrManagedScalingPolicy(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/emr_managed_scaling_policy aws_emr_managed_scaling_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/emr_managed_scaling_policy aws_emr_managed_scaling_policy} Resource.
 func NewEmrManagedScalingPolicy_Override(e EmrManagedScalingPolicy, scope constructs.Construct, id *string, config *EmrManagedScalingPolicyConfig) {
 	_init_.Initialize()
 
@@ -1056,6 +1065,24 @@ func (e *jsiiProxy_EmrManagedScalingPolicy) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EmrManagedScalingPolicy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

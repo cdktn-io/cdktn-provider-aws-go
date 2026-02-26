@@ -95,6 +95,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "validTo", GoGetter: "ValidTo"},
 			_jsii_.MemberProperty{JsiiProperty: "validToInput", GoGetter: "ValidToInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_KmsReplicaExternalKey{}

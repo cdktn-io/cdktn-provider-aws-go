@@ -90,6 +90,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayConfiguration", GoGetter: "TransitGatewayConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayConfigurationInput", GoGetter: "TransitGatewayConfigurationInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_FinspaceKxEnvironment{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/route53_record aws_route53_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/route53_record aws_route53_record}.
 type Route53Record interface {
 	cdktn.TerraformResource
 	Alias() Route53RecordAliasOutputReference
@@ -188,6 +188,15 @@ type Route53Record interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Route53Record
@@ -726,7 +735,7 @@ func (j *jsiiProxy_Route53Record) ZoneIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/route53_record aws_route53_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/route53_record aws_route53_record} Resource.
 func NewRoute53Record(scope constructs.Construct, id *string, config *Route53RecordConfig) Route53Record {
 	_init_.Initialize()
 
@@ -744,7 +753,7 @@ func NewRoute53Record(scope constructs.Construct, id *string, config *Route53Rec
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/route53_record aws_route53_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/route53_record aws_route53_record} Resource.
 func NewRoute53Record_Override(r Route53Record, scope constructs.Construct, id *string, config *Route53RecordConfig) {
 	_init_.Initialize()
 
@@ -1574,6 +1583,24 @@ func (r *jsiiProxy_Route53Record) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_Route53Record) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

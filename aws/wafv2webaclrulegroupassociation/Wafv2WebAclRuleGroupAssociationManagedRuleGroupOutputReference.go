@@ -32,6 +32,8 @@ type Wafv2WebAclRuleGroupAssociationManagedRuleGroupOutputReference interface {
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	ManagedRuleGroupConfigs() Wafv2WebAclRuleGroupAssociationManagedRuleGroupManagedRuleGroupConfigsList
+	ManagedRuleGroupConfigsInput() interface{}
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -75,7 +77,9 @@ type Wafv2WebAclRuleGroupAssociationManagedRuleGroupOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutManagedRuleGroupConfigs(value interface{})
 	PutRuleActionOverride(value interface{})
+	ResetManagedRuleGroupConfigs()
 	ResetRuleActionOverride()
 	ResetVersion()
 	// Produce the Token's value at resolution time.
@@ -138,6 +142,26 @@ func (j *jsiiProxy_Wafv2WebAclRuleGroupAssociationManagedRuleGroupOutputReferenc
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2WebAclRuleGroupAssociationManagedRuleGroupOutputReference) ManagedRuleGroupConfigs() Wafv2WebAclRuleGroupAssociationManagedRuleGroupManagedRuleGroupConfigsList {
+	var returns Wafv2WebAclRuleGroupAssociationManagedRuleGroupManagedRuleGroupConfigsList
+	_jsii_.Get(
+		j,
+		"managedRuleGroupConfigs",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2WebAclRuleGroupAssociationManagedRuleGroupOutputReference) ManagedRuleGroupConfigsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"managedRuleGroupConfigsInput",
 		&returns,
 	)
 	return returns
@@ -545,6 +569,17 @@ func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociationManagedRuleGroupOutputReferenc
 	return returns
 }
 
+func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociationManagedRuleGroupOutputReference) PutManagedRuleGroupConfigs(value interface{}) {
+	if err := w.validatePutManagedRuleGroupConfigsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"putManagedRuleGroupConfigs",
+		[]interface{}{value},
+	)
+}
+
 func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociationManagedRuleGroupOutputReference) PutRuleActionOverride(value interface{}) {
 	if err := w.validatePutRuleActionOverrideParameters(value); err != nil {
 		panic(err)
@@ -553,6 +588,14 @@ func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociationManagedRuleGroupOutputReferenc
 		w,
 		"putRuleActionOverride",
 		[]interface{}{value},
+	)
+}
+
+func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociationManagedRuleGroupOutputReference) ResetManagedRuleGroupConfigs() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetManagedRuleGroupConfigs",
+		nil, // no parameters
 	)
 }
 

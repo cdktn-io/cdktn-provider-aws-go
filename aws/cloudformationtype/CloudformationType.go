@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudformation_type aws_cloudformation_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloudformation_type aws_cloudformation_type}.
 type CloudformationType interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -156,6 +156,15 @@ type CloudformationType interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for CloudformationType
@@ -584,7 +593,7 @@ func (j *jsiiProxy_CloudformationType) Visibility() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudformation_type aws_cloudformation_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloudformation_type aws_cloudformation_type} Resource.
 func NewCloudformationType(scope constructs.Construct, id *string, config *CloudformationTypeConfig) CloudformationType {
 	_init_.Initialize()
 
@@ -602,7 +611,7 @@ func NewCloudformationType(scope constructs.Construct, id *string, config *Cloud
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudformation_type aws_cloudformation_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloudformation_type aws_cloudformation_type} Resource.
 func NewCloudformationType_Override(c CloudformationType, scope constructs.Construct, id *string, config *CloudformationTypeConfig) {
 	_init_.Initialize()
 
@@ -1231,6 +1240,24 @@ func (c *jsiiProxy_CloudformationType) ToTerraform() interface{} {
 		c,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_CloudformationType) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		c,
+		"with",
+		args,
 		&returns,
 	)
 

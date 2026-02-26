@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/datazone_user_profile aws_datazone_user_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/datazone_user_profile aws_datazone_user_profile}.
 type DatazoneUserProfile interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -143,6 +143,15 @@ type DatazoneUserProfile interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DatazoneUserProfile
@@ -461,7 +470,7 @@ func (j *jsiiProxy_DatazoneUserProfile) UserTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/datazone_user_profile aws_datazone_user_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/datazone_user_profile aws_datazone_user_profile} Resource.
 func NewDatazoneUserProfile(scope constructs.Construct, id *string, config *DatazoneUserProfileConfig) DatazoneUserProfile {
 	_init_.Initialize()
 
@@ -479,7 +488,7 @@ func NewDatazoneUserProfile(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/datazone_user_profile aws_datazone_user_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/datazone_user_profile aws_datazone_user_profile} Resource.
 func NewDatazoneUserProfile_Override(d DatazoneUserProfile, scope constructs.Construct, id *string, config *DatazoneUserProfileConfig) {
 	_init_.Initialize()
 
@@ -1089,6 +1098,24 @@ func (d *jsiiProxy_DatazoneUserProfile) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DatazoneUserProfile) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

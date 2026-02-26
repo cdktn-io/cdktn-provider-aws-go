@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/transfer_access aws_transfer_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/transfer_access aws_transfer_access}.
 type TransferAccess interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -156,6 +156,15 @@ type TransferAccess interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for TransferAccess
@@ -524,7 +533,7 @@ func (j *jsiiProxy_TransferAccess) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/transfer_access aws_transfer_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/transfer_access aws_transfer_access} Resource.
 func NewTransferAccess(scope constructs.Construct, id *string, config *TransferAccessConfig) TransferAccess {
 	_init_.Initialize()
 
@@ -542,7 +551,7 @@ func NewTransferAccess(scope constructs.Construct, id *string, config *TransferA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/transfer_access aws_transfer_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/transfer_access aws_transfer_access} Resource.
 func NewTransferAccess_Override(t TransferAccess, scope constructs.Construct, id *string, config *TransferAccessConfig) {
 	_init_.Initialize()
 
@@ -1228,6 +1237,24 @@ func (t *jsiiProxy_TransferAccess) ToTerraform() interface{} {
 		t,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TransferAccess) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		t,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -141,6 +141,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "useFipsEndpointInput", GoGetter: "UseFipsEndpointInput"},
 			_jsii_.MemberProperty{JsiiProperty: "userAgent", GoGetter: "UserAgent"},
 			_jsii_.MemberProperty{JsiiProperty: "userAgentInput", GoGetter: "UserAgentInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_AwsProvider{}

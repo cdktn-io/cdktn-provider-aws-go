@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_topic_rule_destination aws_iot_topic_rule_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iot_topic_rule_destination aws_iot_topic_rule_destination}.
 type IotTopicRuleDestination interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -138,6 +138,15 @@ type IotTopicRuleDestination interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IotTopicRuleDestination
@@ -416,7 +425,7 @@ func (j *jsiiProxy_IotTopicRuleDestination) VpcConfigurationInput() *IotTopicRul
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_topic_rule_destination aws_iot_topic_rule_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iot_topic_rule_destination aws_iot_topic_rule_destination} Resource.
 func NewIotTopicRuleDestination(scope constructs.Construct, id *string, config *IotTopicRuleDestinationConfig) IotTopicRuleDestination {
 	_init_.Initialize()
 
@@ -434,7 +443,7 @@ func NewIotTopicRuleDestination(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_topic_rule_destination aws_iot_topic_rule_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iot_topic_rule_destination aws_iot_topic_rule_destination} Resource.
 func NewIotTopicRuleDestination_Override(i IotTopicRuleDestination, scope constructs.Construct, id *string, config *IotTopicRuleDestinationConfig) {
 	_init_.Initialize()
 
@@ -1033,6 +1042,24 @@ func (i *jsiiProxy_IotTopicRuleDestination) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/globalaccelerator_custom_routing_accelerator aws_globalaccelerator_custom_routing_accelerator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/globalaccelerator_custom_routing_accelerator aws_globalaccelerator_custom_routing_accelerator}.
 type GlobalacceleratorCustomRoutingAccelerator interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -157,6 +157,15 @@ type GlobalacceleratorCustomRoutingAccelerator interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for GlobalacceleratorCustomRoutingAccelerator
@@ -545,7 +554,7 @@ func (j *jsiiProxy_GlobalacceleratorCustomRoutingAccelerator) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/globalaccelerator_custom_routing_accelerator aws_globalaccelerator_custom_routing_accelerator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/globalaccelerator_custom_routing_accelerator aws_globalaccelerator_custom_routing_accelerator} Resource.
 func NewGlobalacceleratorCustomRoutingAccelerator(scope constructs.Construct, id *string, config *GlobalacceleratorCustomRoutingAcceleratorConfig) GlobalacceleratorCustomRoutingAccelerator {
 	_init_.Initialize()
 
@@ -563,7 +572,7 @@ func NewGlobalacceleratorCustomRoutingAccelerator(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/globalaccelerator_custom_routing_accelerator aws_globalaccelerator_custom_routing_accelerator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/globalaccelerator_custom_routing_accelerator aws_globalaccelerator_custom_routing_accelerator} Resource.
 func NewGlobalacceleratorCustomRoutingAccelerator_Override(g GlobalacceleratorCustomRoutingAccelerator, scope constructs.Construct, id *string, config *GlobalacceleratorCustomRoutingAcceleratorConfig) {
 	_init_.Initialize()
 
@@ -1238,6 +1247,24 @@ func (g *jsiiProxy_GlobalacceleratorCustomRoutingAccelerator) ToTerraform() inte
 		g,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (g *jsiiProxy_GlobalacceleratorCustomRoutingAccelerator) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		g,
+		"with",
+		args,
 		&returns,
 	)
 

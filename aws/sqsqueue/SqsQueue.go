@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sqs_queue aws_sqs_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sqs_queue aws_sqs_queue}.
 type SqsQueue interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -208,6 +208,15 @@ type SqsQueue interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SqsQueue
@@ -836,7 +845,7 @@ func (j *jsiiProxy_SqsQueue) VisibilityTimeoutSecondsInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sqs_queue aws_sqs_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sqs_queue aws_sqs_queue} Resource.
 func NewSqsQueue(scope constructs.Construct, id *string, config *SqsQueueConfig) SqsQueue {
 	_init_.Initialize()
 
@@ -854,7 +863,7 @@ func NewSqsQueue(scope constructs.Construct, id *string, config *SqsQueueConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sqs_queue aws_sqs_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sqs_queue aws_sqs_queue} Resource.
 func NewSqsQueue_Override(s SqsQueue, scope constructs.Construct, id *string, config *SqsQueueConfig) {
 	_init_.Initialize()
 
@@ -1784,6 +1793,24 @@ func (s *jsiiProxy_SqsQueue) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SqsQueue) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -71,6 +71,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vdmEnabled", GoGetter: "VdmEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "vdmEnabledInput", GoGetter: "VdmEnabledInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_Sesv2AccountVdmAttributes{}

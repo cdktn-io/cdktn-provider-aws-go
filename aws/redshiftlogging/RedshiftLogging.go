@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_logging aws_redshift_logging}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshift_logging aws_redshift_logging}.
 type RedshiftLogging interface {
 	cdktn.TerraformResource
 	BucketName() *string
@@ -142,6 +142,15 @@ type RedshiftLogging interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for RedshiftLogging
@@ -440,7 +449,7 @@ func (j *jsiiProxy_RedshiftLogging) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_logging aws_redshift_logging} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshift_logging aws_redshift_logging} Resource.
 func NewRedshiftLogging(scope constructs.Construct, id *string, config *RedshiftLoggingConfig) RedshiftLogging {
 	_init_.Initialize()
 
@@ -458,7 +467,7 @@ func NewRedshiftLogging(scope constructs.Construct, id *string, config *Redshift
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_logging aws_redshift_logging} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshift_logging aws_redshift_logging} Resource.
 func NewRedshiftLogging_Override(r RedshiftLogging, scope constructs.Construct, id *string, config *RedshiftLoggingConfig) {
 	_init_.Initialize()
 
@@ -1076,6 +1085,24 @@ func (r *jsiiProxy_RedshiftLogging) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_RedshiftLogging) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

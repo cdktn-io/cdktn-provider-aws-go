@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/devicefarm_instance_profile aws_devicefarm_instance_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/devicefarm_instance_profile aws_devicefarm_instance_profile}.
 type DevicefarmInstanceProfile interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -154,6 +154,15 @@ type DevicefarmInstanceProfile interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DevicefarmInstanceProfile
@@ -512,7 +521,7 @@ func (j *jsiiProxy_DevicefarmInstanceProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/devicefarm_instance_profile aws_devicefarm_instance_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/devicefarm_instance_profile aws_devicefarm_instance_profile} Resource.
 func NewDevicefarmInstanceProfile(scope constructs.Construct, id *string, config *DevicefarmInstanceProfileConfig) DevicefarmInstanceProfile {
 	_init_.Initialize()
 
@@ -530,7 +539,7 @@ func NewDevicefarmInstanceProfile(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/devicefarm_instance_profile aws_devicefarm_instance_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/devicefarm_instance_profile aws_devicefarm_instance_profile} Resource.
 func NewDevicefarmInstanceProfile_Override(d DevicefarmInstanceProfile, scope constructs.Construct, id *string, config *DevicefarmInstanceProfileConfig) {
 	_init_.Initialize()
 
@@ -1205,6 +1214,24 @@ func (d *jsiiProxy_DevicefarmInstanceProfile) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DevicefarmInstanceProfile) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

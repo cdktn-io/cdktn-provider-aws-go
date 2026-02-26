@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/db_proxy_target aws_db_proxy_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/db_proxy_target aws_db_proxy_target}.
 type DbProxyTarget interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -146,6 +146,15 @@ type DbProxyTarget interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DbProxyTarget
@@ -494,7 +503,7 @@ func (j *jsiiProxy_DbProxyTarget) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/db_proxy_target aws_db_proxy_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/db_proxy_target aws_db_proxy_target} Resource.
 func NewDbProxyTarget(scope constructs.Construct, id *string, config *DbProxyTargetConfig) DbProxyTarget {
 	_init_.Initialize()
 
@@ -512,7 +521,7 @@ func NewDbProxyTarget(scope constructs.Construct, id *string, config *DbProxyTar
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/db_proxy_target aws_db_proxy_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/db_proxy_target aws_db_proxy_target} Resource.
 func NewDbProxyTarget_Override(d DbProxyTarget, scope constructs.Construct, id *string, config *DbProxyTargetConfig) {
 	_init_.Initialize()
 
@@ -1122,6 +1131,24 @@ func (d *jsiiProxy_DbProxyTarget) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DbProxyTarget) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

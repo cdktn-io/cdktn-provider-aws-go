@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ses_receipt_filter aws_ses_receipt_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ses_receipt_filter aws_ses_receipt_filter}.
 type SesReceiptFilter interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -136,6 +136,15 @@ type SesReceiptFilter interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SesReceiptFilter
@@ -414,7 +423,7 @@ func (j *jsiiProxy_SesReceiptFilter) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ses_receipt_filter aws_ses_receipt_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ses_receipt_filter aws_ses_receipt_filter} Resource.
 func NewSesReceiptFilter(scope constructs.Construct, id *string, config *SesReceiptFilterConfig) SesReceiptFilter {
 	_init_.Initialize()
 
@@ -432,7 +441,7 @@ func NewSesReceiptFilter(scope constructs.Construct, id *string, config *SesRece
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ses_receipt_filter aws_ses_receipt_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ses_receipt_filter aws_ses_receipt_filter} Resource.
 func NewSesReceiptFilter_Override(s SesReceiptFilter, scope constructs.Construct, id *string, config *SesReceiptFilterConfig) {
 	_init_.Initialize()
 
@@ -1015,6 +1024,24 @@ func (s *jsiiProxy_SesReceiptFilter) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SesReceiptFilter) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

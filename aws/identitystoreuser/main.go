@@ -105,6 +105,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userNameInput", GoGetter: "UserNameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "userType", GoGetter: "UserType"},
 			_jsii_.MemberProperty{JsiiProperty: "userTypeInput", GoGetter: "UserTypeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_IdentitystoreUser{}

@@ -112,6 +112,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "validationMethodInput", GoGetter: "ValidationMethodInput"},
 			_jsii_.MemberProperty{JsiiProperty: "validationOption", GoGetter: "ValidationOption"},
 			_jsii_.MemberProperty{JsiiProperty: "validationOptionInput", GoGetter: "ValidationOptionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_AcmCertificate{}

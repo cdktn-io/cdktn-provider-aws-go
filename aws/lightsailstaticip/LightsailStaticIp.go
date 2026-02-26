@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lightsail_static_ip aws_lightsail_static_ip}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lightsail_static_ip aws_lightsail_static_ip}.
 type LightsailStaticIp interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -132,6 +132,15 @@ type LightsailStaticIp interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LightsailStaticIp
@@ -390,7 +399,7 @@ func (j *jsiiProxy_LightsailStaticIp) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lightsail_static_ip aws_lightsail_static_ip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lightsail_static_ip aws_lightsail_static_ip} Resource.
 func NewLightsailStaticIp(scope constructs.Construct, id *string, config *LightsailStaticIpConfig) LightsailStaticIp {
 	_init_.Initialize()
 
@@ -408,7 +417,7 @@ func NewLightsailStaticIp(scope constructs.Construct, id *string, config *Lights
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lightsail_static_ip aws_lightsail_static_ip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lightsail_static_ip aws_lightsail_static_ip} Resource.
 func NewLightsailStaticIp_Override(l LightsailStaticIp, scope constructs.Construct, id *string, config *LightsailStaticIpConfig) {
 	_init_.Initialize()
 
@@ -969,6 +978,24 @@ func (l *jsiiProxy_LightsailStaticIp) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LightsailStaticIp) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

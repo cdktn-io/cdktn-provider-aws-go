@@ -96,6 +96,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueType", GoGetter: "ValueType"},
 			_jsii_.MemberProperty{JsiiProperty: "variations", GoGetter: "Variations"},
 			_jsii_.MemberProperty{JsiiProperty: "variationsInput", GoGetter: "VariationsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_EvidentlyFeature{}

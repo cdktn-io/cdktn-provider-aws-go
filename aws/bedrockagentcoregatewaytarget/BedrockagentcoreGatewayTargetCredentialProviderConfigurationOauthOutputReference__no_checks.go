@@ -63,6 +63,14 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationO
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOauthOutputReference) validateSetDefaultReturnUrlParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOauthOutputReference) validateSetGrantTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOauthOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	return nil
 }

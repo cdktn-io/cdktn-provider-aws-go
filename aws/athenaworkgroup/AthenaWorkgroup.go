@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/athena_workgroup aws_athena_workgroup}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/athena_workgroup aws_athena_workgroup}.
 type AthenaWorkgroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -154,6 +154,15 @@ type AthenaWorkgroup interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AthenaWorkgroup
@@ -512,7 +521,7 @@ func (j *jsiiProxy_AthenaWorkgroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/athena_workgroup aws_athena_workgroup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/athena_workgroup aws_athena_workgroup} Resource.
 func NewAthenaWorkgroup(scope constructs.Construct, id *string, config *AthenaWorkgroupConfig) AthenaWorkgroup {
 	_init_.Initialize()
 
@@ -530,7 +539,7 @@ func NewAthenaWorkgroup(scope constructs.Construct, id *string, config *AthenaWo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/athena_workgroup aws_athena_workgroup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/athena_workgroup aws_athena_workgroup} Resource.
 func NewAthenaWorkgroup_Override(a AthenaWorkgroup, scope constructs.Construct, id *string, config *AthenaWorkgroupConfig) {
 	_init_.Initialize()
 
@@ -1205,6 +1214,24 @@ func (a *jsiiProxy_AthenaWorkgroup) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AthenaWorkgroup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

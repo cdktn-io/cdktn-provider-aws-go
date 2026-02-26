@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iam_service_specific_credential aws_iam_service_specific_credential}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iam_service_specific_credential aws_iam_service_specific_credential}.
 type IamServiceSpecificCredential interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -143,6 +143,15 @@ type IamServiceSpecificCredential interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IamServiceSpecificCredential
@@ -481,7 +490,7 @@ func (j *jsiiProxy_IamServiceSpecificCredential) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iam_service_specific_credential aws_iam_service_specific_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iam_service_specific_credential aws_iam_service_specific_credential} Resource.
 func NewIamServiceSpecificCredential(scope constructs.Construct, id *string, config *IamServiceSpecificCredentialConfig) IamServiceSpecificCredential {
 	_init_.Initialize()
 
@@ -499,7 +508,7 @@ func NewIamServiceSpecificCredential(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iam_service_specific_credential aws_iam_service_specific_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iam_service_specific_credential aws_iam_service_specific_credential} Resource.
 func NewIamServiceSpecificCredential_Override(i IamServiceSpecificCredential, scope constructs.Construct, id *string, config *IamServiceSpecificCredentialConfig) {
 	_init_.Initialize()
 
@@ -1090,6 +1099,24 @@ func (i *jsiiProxy_IamServiceSpecificCredential) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IamServiceSpecificCredential) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -82,6 +82,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "webAppId", GoGetter: "WebAppId"},
 			_jsii_.MemberProperty{JsiiProperty: "webAppUnits", GoGetter: "WebAppUnits"},
 			_jsii_.MemberProperty{JsiiProperty: "webAppUnitsInput", GoGetter: "WebAppUnitsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_TransferWebApp{}

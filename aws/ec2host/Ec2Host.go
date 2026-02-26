@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ec2_host aws_ec2_host}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ec2_host aws_ec2_host}.
 type Ec2Host interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -167,6 +167,15 @@ type Ec2Host interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Ec2Host
@@ -595,7 +604,7 @@ func (j *jsiiProxy_Ec2Host) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ec2_host aws_ec2_host} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ec2_host aws_ec2_host} Resource.
 func NewEc2Host(scope constructs.Construct, id *string, config *Ec2HostConfig) Ec2Host {
 	_init_.Initialize()
 
@@ -613,7 +622,7 @@ func NewEc2Host(scope constructs.Construct, id *string, config *Ec2HostConfig) E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ec2_host aws_ec2_host} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ec2_host aws_ec2_host} Resource.
 func NewEc2Host_Override(e Ec2Host, scope constructs.Construct, id *string, config *Ec2HostConfig) {
 	_init_.Initialize()
 
@@ -1345,6 +1354,24 @@ func (e *jsiiProxy_Ec2Host) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_Ec2Host) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

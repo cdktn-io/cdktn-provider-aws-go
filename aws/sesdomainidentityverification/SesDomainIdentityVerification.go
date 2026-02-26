@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ses_domain_identity_verification aws_ses_domain_identity_verification}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ses_domain_identity_verification aws_ses_domain_identity_verification}.
 type SesDomainIdentityVerification interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -134,6 +134,15 @@ type SesDomainIdentityVerification interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SesDomainIdentityVerification
@@ -392,7 +401,7 @@ func (j *jsiiProxy_SesDomainIdentityVerification) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ses_domain_identity_verification aws_ses_domain_identity_verification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ses_domain_identity_verification aws_ses_domain_identity_verification} Resource.
 func NewSesDomainIdentityVerification(scope constructs.Construct, id *string, config *SesDomainIdentityVerificationConfig) SesDomainIdentityVerification {
 	_init_.Initialize()
 
@@ -410,7 +419,7 @@ func NewSesDomainIdentityVerification(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ses_domain_identity_verification aws_ses_domain_identity_verification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ses_domain_identity_verification aws_ses_domain_identity_verification} Resource.
 func NewSesDomainIdentityVerification_Override(s SesDomainIdentityVerification, scope constructs.Construct, id *string, config *SesDomainIdentityVerificationConfig) {
 	_init_.Initialize()
 
@@ -990,6 +999,24 @@ func (s *jsiiProxy_SesDomainIdentityVerification) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SesDomainIdentityVerification) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

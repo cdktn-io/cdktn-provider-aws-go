@@ -60,6 +60,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "upstreamRegistryUrl", GoGetter: "UpstreamRegistryUrl"},
 			_jsii_.MemberProperty{JsiiProperty: "upstreamRepositoryPrefix", GoGetter: "UpstreamRepositoryPrefix"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsEcrPullThroughCacheRule{}

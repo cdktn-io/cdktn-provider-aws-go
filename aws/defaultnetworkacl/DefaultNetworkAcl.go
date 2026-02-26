@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/default_network_acl aws_default_network_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/default_network_acl aws_default_network_acl}.
 type DefaultNetworkAcl interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -152,6 +152,15 @@ type DefaultNetworkAcl interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DefaultNetworkAcl
@@ -510,7 +519,7 @@ func (j *jsiiProxy_DefaultNetworkAcl) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/default_network_acl aws_default_network_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/default_network_acl aws_default_network_acl} Resource.
 func NewDefaultNetworkAcl(scope constructs.Construct, id *string, config *DefaultNetworkAclConfig) DefaultNetworkAcl {
 	_init_.Initialize()
 
@@ -528,7 +537,7 @@ func NewDefaultNetworkAcl(scope constructs.Construct, id *string, config *Defaul
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/default_network_acl aws_default_network_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/default_network_acl aws_default_network_acl} Resource.
 func NewDefaultNetworkAcl_Override(d DefaultNetworkAcl, scope constructs.Construct, id *string, config *DefaultNetworkAclConfig) {
 	_init_.Initialize()
 
@@ -1184,6 +1193,24 @@ func (d *jsiiProxy_DefaultNetworkAcl) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DefaultNetworkAcl) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

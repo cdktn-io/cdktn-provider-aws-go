@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/elb_attachment aws_elb_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/elb_attachment aws_elb_attachment}.
 type ElbAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -132,6 +132,15 @@ type ElbAttachment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ElbAttachment
@@ -380,7 +389,7 @@ func (j *jsiiProxy_ElbAttachment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/elb_attachment aws_elb_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/elb_attachment aws_elb_attachment} Resource.
 func NewElbAttachment(scope constructs.Construct, id *string, config *ElbAttachmentConfig) ElbAttachment {
 	_init_.Initialize()
 
@@ -398,7 +407,7 @@ func NewElbAttachment(scope constructs.Construct, id *string, config *ElbAttachm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/elb_attachment aws_elb_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/elb_attachment aws_elb_attachment} Resource.
 func NewElbAttachment_Override(e ElbAttachment, scope constructs.Construct, id *string, config *ElbAttachmentConfig) {
 	_init_.Initialize()
 
@@ -970,6 +979,24 @@ func (e *jsiiProxy_ElbAttachment) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_ElbAttachment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

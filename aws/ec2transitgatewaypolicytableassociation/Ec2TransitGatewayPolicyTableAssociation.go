@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ec2_transit_gateway_policy_table_association aws_ec2_transit_gateway_policy_table_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ec2_transit_gateway_policy_table_association aws_ec2_transit_gateway_policy_table_association}.
 type Ec2TransitGatewayPolicyTableAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -134,6 +134,15 @@ type Ec2TransitGatewayPolicyTableAssociation interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Ec2TransitGatewayPolicyTableAssociation
@@ -402,7 +411,7 @@ func (j *jsiiProxy_Ec2TransitGatewayPolicyTableAssociation) TransitGatewayPolicy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ec2_transit_gateway_policy_table_association aws_ec2_transit_gateway_policy_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ec2_transit_gateway_policy_table_association aws_ec2_transit_gateway_policy_table_association} Resource.
 func NewEc2TransitGatewayPolicyTableAssociation(scope constructs.Construct, id *string, config *Ec2TransitGatewayPolicyTableAssociationConfig) Ec2TransitGatewayPolicyTableAssociation {
 	_init_.Initialize()
 
@@ -420,7 +429,7 @@ func NewEc2TransitGatewayPolicyTableAssociation(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ec2_transit_gateway_policy_table_association aws_ec2_transit_gateway_policy_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ec2_transit_gateway_policy_table_association aws_ec2_transit_gateway_policy_table_association} Resource.
 func NewEc2TransitGatewayPolicyTableAssociation_Override(e Ec2TransitGatewayPolicyTableAssociation, scope constructs.Construct, id *string, config *Ec2TransitGatewayPolicyTableAssociationConfig) {
 	_init_.Initialize()
 
@@ -992,6 +1001,24 @@ func (e *jsiiProxy_Ec2TransitGatewayPolicyTableAssociation) ToTerraform() interf
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayPolicyTableAssociation) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool}.
 type DataAwsCognitoIdentityPool interface {
 	cdktn.TerraformDataSource
 	AllowClassicFlow() cdktn.IResolvable
@@ -116,6 +116,15 @@ type DataAwsCognitoIdentityPool interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsCognitoIdentityPool
@@ -424,7 +433,7 @@ func (j *jsiiProxy_DataAwsCognitoIdentityPool) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool} Data Source.
 func NewDataAwsCognitoIdentityPool(scope constructs.Construct, id *string, config *DataAwsCognitoIdentityPoolConfig) DataAwsCognitoIdentityPool {
 	_init_.Initialize()
 
@@ -442,7 +451,7 @@ func NewDataAwsCognitoIdentityPool(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool} Data Source.
 func NewDataAwsCognitoIdentityPool_Override(d DataAwsCognitoIdentityPool, scope constructs.Construct, id *string, config *DataAwsCognitoIdentityPoolConfig) {
 	_init_.Initialize()
 
@@ -932,6 +941,24 @@ func (d *jsiiProxy_DataAwsCognitoIdentityPool) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsCognitoIdentityPool) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

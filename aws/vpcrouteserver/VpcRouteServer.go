@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_route_server aws_vpc_route_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpc_route_server aws_vpc_route_server}.
 type VpcRouteServer interface {
 	cdktn.TerraformResource
 	AmazonSideAsn() *float64
@@ -149,6 +149,15 @@ type VpcRouteServer interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for VpcRouteServer
@@ -497,7 +506,7 @@ func (j *jsiiProxy_VpcRouteServer) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_route_server aws_vpc_route_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpc_route_server aws_vpc_route_server} Resource.
 func NewVpcRouteServer(scope constructs.Construct, id *string, config *VpcRouteServerConfig) VpcRouteServer {
 	_init_.Initialize()
 
@@ -515,7 +524,7 @@ func NewVpcRouteServer(scope constructs.Construct, id *string, config *VpcRouteS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_route_server aws_vpc_route_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpc_route_server aws_vpc_route_server} Resource.
 func NewVpcRouteServer_Override(v VpcRouteServer, scope constructs.Construct, id *string, config *VpcRouteServerConfig) {
 	_init_.Initialize()
 
@@ -1152,6 +1161,24 @@ func (v *jsiiProxy_VpcRouteServer) ToTerraform() interface{} {
 		v,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpcRouteServer) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		v,
+		"with",
+		args,
 		&returns,
 	)
 

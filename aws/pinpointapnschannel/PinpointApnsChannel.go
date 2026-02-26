@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/pinpoint_apns_channel aws_pinpoint_apns_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/pinpoint_apns_channel aws_pinpoint_apns_channel}.
 type PinpointApnsChannel interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -161,6 +161,15 @@ type PinpointApnsChannel interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for PinpointApnsChannel
@@ -549,7 +558,7 @@ func (j *jsiiProxy_PinpointApnsChannel) TokenKeyInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/pinpoint_apns_channel aws_pinpoint_apns_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/pinpoint_apns_channel aws_pinpoint_apns_channel} Resource.
 func NewPinpointApnsChannel(scope constructs.Construct, id *string, config *PinpointApnsChannelConfig) PinpointApnsChannel {
 	_init_.Initialize()
 
@@ -567,7 +576,7 @@ func NewPinpointApnsChannel(scope constructs.Construct, id *string, config *Pinp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/pinpoint_apns_channel aws_pinpoint_apns_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/pinpoint_apns_channel aws_pinpoint_apns_channel} Resource.
 func NewPinpointApnsChannel_Override(p PinpointApnsChannel, scope constructs.Construct, id *string, config *PinpointApnsChannelConfig) {
 	_init_.Initialize()
 
@@ -1280,6 +1289,24 @@ func (p *jsiiProxy_PinpointApnsChannel) ToTerraform() interface{} {
 		p,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_PinpointApnsChannel) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		p,
+		"with",
+		args,
 		&returns,
 	)
 

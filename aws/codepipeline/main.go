@@ -93,6 +93,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "triggerInput", GoGetter: "TriggerInput"},
 			_jsii_.MemberProperty{JsiiProperty: "variable", GoGetter: "Variable"},
 			_jsii_.MemberProperty{JsiiProperty: "variableInput", GoGetter: "VariableInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_Codepipeline{}

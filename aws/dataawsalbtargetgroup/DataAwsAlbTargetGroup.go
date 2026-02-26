@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/alb_target_group aws_alb_target_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/alb_target_group aws_alb_target_group}.
 type DataAwsAlbTargetGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -139,6 +139,15 @@ type DataAwsAlbTargetGroup interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsAlbTargetGroup
@@ -607,7 +616,7 @@ func (j *jsiiProxy_DataAwsAlbTargetGroup) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/alb_target_group aws_alb_target_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/alb_target_group aws_alb_target_group} Data Source.
 func NewDataAwsAlbTargetGroup(scope constructs.Construct, id *string, config *DataAwsAlbTargetGroupConfig) DataAwsAlbTargetGroup {
 	_init_.Initialize()
 
@@ -625,7 +634,7 @@ func NewDataAwsAlbTargetGroup(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/alb_target_group aws_alb_target_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/alb_target_group aws_alb_target_group} Data Source.
 func NewDataAwsAlbTargetGroup_Override(d DataAwsAlbTargetGroup, scope constructs.Construct, id *string, config *DataAwsAlbTargetGroupConfig) {
 	_init_.Initialize()
 
@@ -1180,6 +1189,24 @@ func (d *jsiiProxy_DataAwsAlbTargetGroup) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsAlbTargetGroup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

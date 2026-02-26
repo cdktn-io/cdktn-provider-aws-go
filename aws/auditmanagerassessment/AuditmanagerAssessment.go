@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/auditmanager_assessment aws_auditmanager_assessment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/auditmanager_assessment aws_auditmanager_assessment}.
 type AuditmanagerAssessment interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -153,6 +153,15 @@ type AuditmanagerAssessment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AuditmanagerAssessment
@@ -531,7 +540,7 @@ func (j *jsiiProxy_AuditmanagerAssessment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/auditmanager_assessment aws_auditmanager_assessment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/auditmanager_assessment aws_auditmanager_assessment} Resource.
 func NewAuditmanagerAssessment(scope constructs.Construct, id *string, config *AuditmanagerAssessmentConfig) AuditmanagerAssessment {
 	_init_.Initialize()
 
@@ -549,7 +558,7 @@ func NewAuditmanagerAssessment(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/auditmanager_assessment aws_auditmanager_assessment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/auditmanager_assessment aws_auditmanager_assessment} Resource.
 func NewAuditmanagerAssessment_Override(a AuditmanagerAssessment, scope constructs.Construct, id *string, config *AuditmanagerAssessmentConfig) {
 	_init_.Initialize()
 
@@ -1197,6 +1206,24 @@ func (a *jsiiProxy_AuditmanagerAssessment) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AuditmanagerAssessment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

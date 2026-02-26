@@ -67,6 +67,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "validFromDate", GoGetter: "ValidFromDate"},
 			_jsii_.MemberProperty{JsiiProperty: "validToDate", GoGetter: "ValidToDate"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsDmsCertificate{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ssm_patch_baseline aws_ssm_patch_baseline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ssm_patch_baseline aws_ssm_patch_baseline}.
 type DataAwsSsmPatchBaseline interface {
 	cdktn.TerraformDataSource
 	ApprovalRule() DataAwsSsmPatchBaselineApprovalRuleList
@@ -128,6 +128,15 @@ type DataAwsSsmPatchBaseline interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsSsmPatchBaseline
@@ -516,7 +525,7 @@ func (j *jsiiProxy_DataAwsSsmPatchBaseline) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ssm_patch_baseline aws_ssm_patch_baseline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ssm_patch_baseline aws_ssm_patch_baseline} Data Source.
 func NewDataAwsSsmPatchBaseline(scope constructs.Construct, id *string, config *DataAwsSsmPatchBaselineConfig) DataAwsSsmPatchBaseline {
 	_init_.Initialize()
 
@@ -534,7 +543,7 @@ func NewDataAwsSsmPatchBaseline(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ssm_patch_baseline aws_ssm_patch_baseline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ssm_patch_baseline aws_ssm_patch_baseline} Data Source.
 func NewDataAwsSsmPatchBaseline_Override(d DataAwsSsmPatchBaseline, scope constructs.Construct, id *string, config *DataAwsSsmPatchBaselineConfig) {
 	_init_.Initialize()
 
@@ -1062,6 +1071,24 @@ func (d *jsiiProxy_DataAwsSsmPatchBaseline) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsSsmPatchBaseline) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections}.
 type DataAwsVpcPeeringConnections interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -114,6 +114,15 @@ type DataAwsVpcPeeringConnections interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsVpcPeeringConnections
@@ -372,7 +381,7 @@ func (j *jsiiProxy_DataAwsVpcPeeringConnections) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections} Data Source.
 func NewDataAwsVpcPeeringConnections(scope constructs.Construct, id *string, config *DataAwsVpcPeeringConnectionsConfig) DataAwsVpcPeeringConnections {
 	_init_.Initialize()
 
@@ -390,7 +399,7 @@ func NewDataAwsVpcPeeringConnections(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections} Data Source.
 func NewDataAwsVpcPeeringConnections_Override(d DataAwsVpcPeeringConnections, scope constructs.Construct, id *string, config *DataAwsVpcPeeringConnectionsConfig) {
 	_init_.Initialize()
 
@@ -907,6 +916,24 @@ func (d *jsiiProxy_DataAwsVpcPeeringConnections) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsVpcPeeringConnections) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

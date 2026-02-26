@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dataexchange_event_action aws_dataexchange_event_action}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dataexchange_event_action aws_dataexchange_event_action}.
 type DataexchangeEventAction interface {
 	cdktn.TerraformResource
 	Action() DataexchangeEventActionActionList
@@ -134,6 +134,15 @@ type DataexchangeEventAction interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataexchangeEventAction
@@ -402,7 +411,7 @@ func (j *jsiiProxy_DataexchangeEventAction) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dataexchange_event_action aws_dataexchange_event_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dataexchange_event_action aws_dataexchange_event_action} Resource.
 func NewDataexchangeEventAction(scope constructs.Construct, id *string, config *DataexchangeEventActionConfig) DataexchangeEventAction {
 	_init_.Initialize()
 
@@ -420,7 +429,7 @@ func NewDataexchangeEventAction(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dataexchange_event_action aws_dataexchange_event_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dataexchange_event_action aws_dataexchange_event_action} Resource.
 func NewDataexchangeEventAction_Override(d DataexchangeEventAction, scope constructs.Construct, id *string, config *DataexchangeEventActionConfig) {
 	_init_.Initialize()
 
@@ -989,6 +998,24 @@ func (d *jsiiProxy_DataexchangeEventAction) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataexchangeEventAction) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

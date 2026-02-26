@@ -77,6 +77,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vocabularyFilterFileUriInput", GoGetter: "VocabularyFilterFileUriInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vocabularyFilterName", GoGetter: "VocabularyFilterName"},
 			_jsii_.MemberProperty{JsiiProperty: "vocabularyFilterNameInput", GoGetter: "VocabularyFilterNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "words", GoGetter: "Words"},
 			_jsii_.MemberProperty{JsiiProperty: "wordsInput", GoGetter: "WordsInput"},
 		},

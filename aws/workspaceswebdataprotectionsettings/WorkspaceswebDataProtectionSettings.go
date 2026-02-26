@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_data_protection_settings aws_workspacesweb_data_protection_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_data_protection_settings aws_workspacesweb_data_protection_settings}.
 type WorkspaceswebDataProtectionSettings interface {
 	cdktn.TerraformResource
 	AdditionalEncryptionContext() *map[string]*string
@@ -148,6 +148,15 @@ type WorkspaceswebDataProtectionSettings interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for WorkspaceswebDataProtectionSettings
@@ -486,7 +495,7 @@ func (j *jsiiProxy_WorkspaceswebDataProtectionSettings) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_data_protection_settings aws_workspacesweb_data_protection_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_data_protection_settings aws_workspacesweb_data_protection_settings} Resource.
 func NewWorkspaceswebDataProtectionSettings(scope constructs.Construct, id *string, config *WorkspaceswebDataProtectionSettingsConfig) WorkspaceswebDataProtectionSettings {
 	_init_.Initialize()
 
@@ -504,7 +513,7 @@ func NewWorkspaceswebDataProtectionSettings(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspacesweb_data_protection_settings aws_workspacesweb_data_protection_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspacesweb_data_protection_settings aws_workspacesweb_data_protection_settings} Resource.
 func NewWorkspaceswebDataProtectionSettings_Override(w WorkspaceswebDataProtectionSettings, scope constructs.Construct, id *string, config *WorkspaceswebDataProtectionSettingsConfig) {
 	_init_.Initialize()
 
@@ -1141,6 +1150,24 @@ func (w *jsiiProxy_WorkspaceswebDataProtectionSettings) ToTerraform() interface{
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkspaceswebDataProtectionSettings) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

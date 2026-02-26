@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/apigatewayv2_api aws_apigatewayv2_api}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/apigatewayv2_api aws_apigatewayv2_api}.
 type Apigatewayv2Api interface {
 	cdktn.TerraformResource
 	ApiEndpoint() *string
@@ -191,6 +191,15 @@ type Apigatewayv2Api interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Apigatewayv2Api
@@ -749,7 +758,7 @@ func (j *jsiiProxy_Apigatewayv2Api) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/apigatewayv2_api aws_apigatewayv2_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/apigatewayv2_api aws_apigatewayv2_api} Resource.
 func NewApigatewayv2Api(scope constructs.Construct, id *string, config *Apigatewayv2ApiConfig) Apigatewayv2Api {
 	_init_.Initialize()
 
@@ -767,7 +776,7 @@ func NewApigatewayv2Api(scope constructs.Construct, id *string, config *Apigatew
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/apigatewayv2_api aws_apigatewayv2_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/apigatewayv2_api aws_apigatewayv2_api} Resource.
 func NewApigatewayv2Api_Override(a Apigatewayv2Api, scope constructs.Construct, id *string, config *Apigatewayv2ApiConfig) {
 	_init_.Initialize()
 
@@ -1605,6 +1614,24 @@ func (a *jsiiProxy_Apigatewayv2Api) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_Apigatewayv2Api) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3_account_public_access_block aws_s3_account_public_access_block}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3_account_public_access_block aws_s3_account_public_access_block}.
 type S3AccountPublicAccessBlock interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -142,6 +142,15 @@ type S3AccountPublicAccessBlock interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for S3AccountPublicAccessBlock
@@ -430,7 +439,7 @@ func (j *jsiiProxy_S3AccountPublicAccessBlock) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3_account_public_access_block aws_s3_account_public_access_block} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3_account_public_access_block aws_s3_account_public_access_block} Resource.
 func NewS3AccountPublicAccessBlock(scope constructs.Construct, id *string, config *S3AccountPublicAccessBlockConfig) S3AccountPublicAccessBlock {
 	_init_.Initialize()
 
@@ -448,7 +457,7 @@ func NewS3AccountPublicAccessBlock(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3_account_public_access_block aws_s3_account_public_access_block} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3_account_public_access_block aws_s3_account_public_access_block} Resource.
 func NewS3AccountPublicAccessBlock_Override(s S3AccountPublicAccessBlock, scope constructs.Construct, id *string, config *S3AccountPublicAccessBlockConfig) {
 	_init_.Initialize()
 
@@ -1074,6 +1083,24 @@ func (s *jsiiProxy_S3AccountPublicAccessBlock) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_S3AccountPublicAccessBlock) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

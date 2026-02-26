@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lambda_function_event_invoke_config aws_lambda_function_event_invoke_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lambda_function_event_invoke_config aws_lambda_function_event_invoke_config}.
 type LambdaFunctionEventInvokeConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -145,6 +145,15 @@ type LambdaFunctionEventInvokeConfig interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LambdaFunctionEventInvokeConfig
@@ -453,7 +462,7 @@ func (j *jsiiProxy_LambdaFunctionEventInvokeConfig) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lambda_function_event_invoke_config aws_lambda_function_event_invoke_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lambda_function_event_invoke_config aws_lambda_function_event_invoke_config} Resource.
 func NewLambdaFunctionEventInvokeConfig(scope constructs.Construct, id *string, config *LambdaFunctionEventInvokeConfigConfig) LambdaFunctionEventInvokeConfig {
 	_init_.Initialize()
 
@@ -471,7 +480,7 @@ func NewLambdaFunctionEventInvokeConfig(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lambda_function_event_invoke_config aws_lambda_function_event_invoke_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lambda_function_event_invoke_config aws_lambda_function_event_invoke_config} Resource.
 func NewLambdaFunctionEventInvokeConfig_Override(l LambdaFunctionEventInvokeConfig, scope constructs.Construct, id *string, config *LambdaFunctionEventInvokeConfigConfig) {
 	_init_.Initialize()
 
@@ -1108,6 +1117,24 @@ func (l *jsiiProxy_LambdaFunctionEventInvokeConfig) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LambdaFunctionEventInvokeConfig) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

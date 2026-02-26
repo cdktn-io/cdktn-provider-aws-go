@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs aws}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs aws}.
 type AwsProvider interface {
 	cdktn.TerraformProvider
 	AccessKey() *string
@@ -198,6 +198,15 @@ type AwsProvider interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AwsProvider
@@ -1026,7 +1035,7 @@ func (j *jsiiProxy_AwsProvider) UserAgentInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs aws} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs aws} Resource.
 func NewAwsProvider(scope constructs.Construct, id *string, config *AwsProviderConfig) AwsProvider {
 	_init_.Initialize()
 
@@ -1044,7 +1053,7 @@ func NewAwsProvider(scope constructs.Construct, id *string, config *AwsProviderC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs aws} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs aws} Resource.
 func NewAwsProvider_Override(a AwsProvider, scope constructs.Construct, id *string, config *AwsProviderConfig) {
 	_init_.Initialize()
 
@@ -1872,6 +1881,24 @@ func (a *jsiiProxy_AwsProvider) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AwsProvider) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

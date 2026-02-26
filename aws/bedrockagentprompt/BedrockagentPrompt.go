@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrockagent_prompt aws_bedrockagent_prompt}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrockagent_prompt aws_bedrockagent_prompt}.
 type BedrockagentPrompt interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -151,6 +151,15 @@ type BedrockagentPrompt interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for BedrockagentPrompt
@@ -519,7 +528,7 @@ func (j *jsiiProxy_BedrockagentPrompt) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrockagent_prompt aws_bedrockagent_prompt} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrockagent_prompt aws_bedrockagent_prompt} Resource.
 func NewBedrockagentPrompt(scope constructs.Construct, id *string, config *BedrockagentPromptConfig) BedrockagentPrompt {
 	_init_.Initialize()
 
@@ -537,7 +546,7 @@ func NewBedrockagentPrompt(scope constructs.Construct, id *string, config *Bedro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrockagent_prompt aws_bedrockagent_prompt} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrockagent_prompt aws_bedrockagent_prompt} Resource.
 func NewBedrockagentPrompt_Override(b BedrockagentPrompt, scope constructs.Construct, id *string, config *BedrockagentPromptConfig) {
 	_init_.Initialize()
 
@@ -1174,6 +1183,24 @@ func (b *jsiiProxy_BedrockagentPrompt) ToTerraform() interface{} {
 		b,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (b *jsiiProxy_BedrockagentPrompt) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		b,
+		"with",
+		args,
 		&returns,
 	)
 

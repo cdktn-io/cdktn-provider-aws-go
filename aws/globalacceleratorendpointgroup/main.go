@@ -94,6 +94,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "trafficDialPercentage", GoGetter: "TrafficDialPercentage"},
 			_jsii_.MemberProperty{JsiiProperty: "trafficDialPercentageInput", GoGetter: "TrafficDialPercentageInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GlobalacceleratorEndpointGroup{}

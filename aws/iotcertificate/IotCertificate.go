@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_certificate aws_iot_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iot_certificate aws_iot_certificate}.
 type IotCertificate interface {
 	cdktn.TerraformResource
 	Active() interface{}
@@ -145,6 +145,15 @@ type IotCertificate interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IotCertificate
@@ -473,7 +482,7 @@ func (j *jsiiProxy_IotCertificate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_certificate aws_iot_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iot_certificate aws_iot_certificate} Resource.
 func NewIotCertificate(scope constructs.Construct, id *string, config *IotCertificateConfig) IotCertificate {
 	_init_.Initialize()
 
@@ -491,7 +500,7 @@ func NewIotCertificate(scope constructs.Construct, id *string, config *IotCertif
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_certificate aws_iot_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iot_certificate aws_iot_certificate} Resource.
 func NewIotCertificate_Override(i IotCertificate, scope constructs.Construct, id *string, config *IotCertificateConfig) {
 	_init_.Initialize()
 
@@ -1109,6 +1118,24 @@ func (i *jsiiProxy_IotCertificate) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IotCertificate) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

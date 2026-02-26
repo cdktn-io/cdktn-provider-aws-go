@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkmanager_vpc_attachment aws_networkmanager_vpc_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkmanager_vpc_attachment aws_networkmanager_vpc_attachment}.
 type NetworkmanagerVpcAttachment interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -160,6 +160,15 @@ type NetworkmanagerVpcAttachment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NetworkmanagerVpcAttachment
@@ -598,7 +607,7 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachment) VpcArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkmanager_vpc_attachment aws_networkmanager_vpc_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkmanager_vpc_attachment aws_networkmanager_vpc_attachment} Resource.
 func NewNetworkmanagerVpcAttachment(scope constructs.Construct, id *string, config *NetworkmanagerVpcAttachmentConfig) NetworkmanagerVpcAttachment {
 	_init_.Initialize()
 
@@ -616,7 +625,7 @@ func NewNetworkmanagerVpcAttachment(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkmanager_vpc_attachment aws_networkmanager_vpc_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkmanager_vpc_attachment aws_networkmanager_vpc_attachment} Resource.
 func NewNetworkmanagerVpcAttachment_Override(n NetworkmanagerVpcAttachment, scope constructs.Construct, id *string, config *NetworkmanagerVpcAttachmentConfig) {
 	_init_.Initialize()
 
@@ -1275,6 +1284,24 @@ func (n *jsiiProxy_NetworkmanagerVpcAttachment) ToTerraform() interface{} {
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkmanagerVpcAttachment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sesv2_email_identity aws_sesv2_email_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sesv2_email_identity aws_sesv2_email_identity}.
 type Sesv2EmailIdentity interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -149,6 +149,15 @@ type Sesv2EmailIdentity interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Sesv2EmailIdentity
@@ -497,7 +506,7 @@ func (j *jsiiProxy_Sesv2EmailIdentity) VerifiedForSendingStatus() cdktn.IResolva
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sesv2_email_identity aws_sesv2_email_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sesv2_email_identity aws_sesv2_email_identity} Resource.
 func NewSesv2EmailIdentity(scope constructs.Construct, id *string, config *Sesv2EmailIdentityConfig) Sesv2EmailIdentity {
 	_init_.Initialize()
 
@@ -515,7 +524,7 @@ func NewSesv2EmailIdentity(scope constructs.Construct, id *string, config *Sesv2
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sesv2_email_identity aws_sesv2_email_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sesv2_email_identity aws_sesv2_email_identity} Resource.
 func NewSesv2EmailIdentity_Override(s Sesv2EmailIdentity, scope constructs.Construct, id *string, config *Sesv2EmailIdentityConfig) {
 	_init_.Initialize()
 
@@ -1152,6 +1161,24 @@ func (s *jsiiProxy_Sesv2EmailIdentity) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_Sesv2EmailIdentity) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

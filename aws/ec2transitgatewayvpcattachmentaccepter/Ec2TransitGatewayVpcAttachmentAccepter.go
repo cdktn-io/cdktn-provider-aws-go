@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ec2_transit_gateway_vpc_attachment_accepter aws_ec2_transit_gateway_vpc_attachment_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ec2_transit_gateway_vpc_attachment_accepter aws_ec2_transit_gateway_vpc_attachment_accepter}.
 type Ec2TransitGatewayVpcAttachmentAccepter interface {
 	cdktn.TerraformResource
 	ApplianceModeSupport() *string
@@ -153,6 +153,15 @@ type Ec2TransitGatewayVpcAttachmentAccepter interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Ec2TransitGatewayVpcAttachmentAccepter
@@ -541,7 +550,7 @@ func (j *jsiiProxy_Ec2TransitGatewayVpcAttachmentAccepter) VpcOwnerId() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ec2_transit_gateway_vpc_attachment_accepter aws_ec2_transit_gateway_vpc_attachment_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ec2_transit_gateway_vpc_attachment_accepter aws_ec2_transit_gateway_vpc_attachment_accepter} Resource.
 func NewEc2TransitGatewayVpcAttachmentAccepter(scope constructs.Construct, id *string, config *Ec2TransitGatewayVpcAttachmentAccepterConfig) Ec2TransitGatewayVpcAttachmentAccepter {
 	_init_.Initialize()
 
@@ -559,7 +568,7 @@ func NewEc2TransitGatewayVpcAttachmentAccepter(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ec2_transit_gateway_vpc_attachment_accepter aws_ec2_transit_gateway_vpc_attachment_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ec2_transit_gateway_vpc_attachment_accepter aws_ec2_transit_gateway_vpc_attachment_accepter} Resource.
 func NewEc2TransitGatewayVpcAttachmentAccepter_Override(e Ec2TransitGatewayVpcAttachmentAccepter, scope constructs.Construct, id *string, config *Ec2TransitGatewayVpcAttachmentAccepterConfig) {
 	_init_.Initialize()
 
@@ -1196,6 +1205,24 @@ func (e *jsiiProxy_Ec2TransitGatewayVpcAttachmentAccepter) ToTerraform() interfa
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachmentAccepter) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

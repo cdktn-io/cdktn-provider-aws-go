@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/keyspaces_table aws_keyspaces_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/keyspaces_table aws_keyspaces_table}.
 type KeyspacesTable interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -176,6 +176,15 @@ type KeyspacesTable interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for KeyspacesTable
@@ -654,7 +663,7 @@ func (j *jsiiProxy_KeyspacesTable) TtlInput() *KeyspacesTableTtl {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/keyspaces_table aws_keyspaces_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/keyspaces_table aws_keyspaces_table} Resource.
 func NewKeyspacesTable(scope constructs.Construct, id *string, config *KeyspacesTableConfig) KeyspacesTable {
 	_init_.Initialize()
 
@@ -672,7 +681,7 @@ func NewKeyspacesTable(scope constructs.Construct, id *string, config *Keyspaces
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/keyspaces_table aws_keyspaces_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/keyspaces_table aws_keyspaces_table} Resource.
 func NewKeyspacesTable_Override(k KeyspacesTable, scope constructs.Construct, id *string, config *KeyspacesTableConfig) {
 	_init_.Initialize()
 
@@ -1445,6 +1454,24 @@ func (k *jsiiProxy_KeyspacesTable) ToTerraform() interface{} {
 		k,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (k *jsiiProxy_KeyspacesTable) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		k,
+		"with",
+		args,
 		&returns,
 	)
 

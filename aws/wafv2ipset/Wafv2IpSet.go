@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/wafv2_ip_set aws_wafv2_ip_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/wafv2_ip_set aws_wafv2_ip_set}.
 type Wafv2IpSet interface {
 	cdktn.TerraformResource
 	Addresses() *[]*string
@@ -158,6 +158,15 @@ type Wafv2IpSet interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Wafv2IpSet
@@ -546,7 +555,7 @@ func (j *jsiiProxy_Wafv2IpSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/wafv2_ip_set aws_wafv2_ip_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/wafv2_ip_set aws_wafv2_ip_set} Resource.
 func NewWafv2IpSet(scope constructs.Construct, id *string, config *Wafv2IpSetConfig) Wafv2IpSet {
 	_init_.Initialize()
 
@@ -564,7 +573,7 @@ func NewWafv2IpSet(scope constructs.Construct, id *string, config *Wafv2IpSetCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/wafv2_ip_set aws_wafv2_ip_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/wafv2_ip_set aws_wafv2_ip_set} Resource.
 func NewWafv2IpSet_Override(w Wafv2IpSet, scope constructs.Construct, id *string, config *Wafv2IpSetConfig) {
 	_init_.Initialize()
 
@@ -1250,6 +1259,24 @@ func (w *jsiiProxy_Wafv2IpSet) ToTerraform() interface{} {
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_Wafv2IpSet) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

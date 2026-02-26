@@ -75,6 +75,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "validationSettings", GoGetter: "ValidationSettings"},
 			_jsii_.MemberProperty{JsiiProperty: "validationSettingsInput", GoGetter: "ValidationSettingsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VerifiedpermissionsPolicyStore{}

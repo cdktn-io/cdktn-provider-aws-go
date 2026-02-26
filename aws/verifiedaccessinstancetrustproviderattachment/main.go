@@ -65,6 +65,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "verifiedaccessInstanceIdInput", GoGetter: "VerifiedaccessInstanceIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "verifiedaccessTrustProviderId", GoGetter: "VerifiedaccessTrustProviderId"},
 			_jsii_.MemberProperty{JsiiProperty: "verifiedaccessTrustProviderIdInput", GoGetter: "VerifiedaccessTrustProviderIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment{}

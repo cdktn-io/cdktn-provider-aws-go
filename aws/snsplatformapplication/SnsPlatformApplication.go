@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sns_platform_application aws_sns_platform_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sns_platform_application aws_sns_platform_application}.
 type SnsPlatformApplication interface {
 	cdktn.TerraformResource
 	ApplePlatformBundleId() *string
@@ -176,6 +176,15 @@ type SnsPlatformApplication interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SnsPlatformApplication
@@ -654,7 +663,7 @@ func (j *jsiiProxy_SnsPlatformApplication) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sns_platform_application aws_sns_platform_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sns_platform_application aws_sns_platform_application} Resource.
 func NewSnsPlatformApplication(scope constructs.Construct, id *string, config *SnsPlatformApplicationConfig) SnsPlatformApplication {
 	_init_.Initialize()
 
@@ -672,7 +681,7 @@ func NewSnsPlatformApplication(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sns_platform_application aws_sns_platform_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sns_platform_application aws_sns_platform_application} Resource.
 func NewSnsPlatformApplication_Override(s SnsPlatformApplication, scope constructs.Construct, id *string, config *SnsPlatformApplicationConfig) {
 	_init_.Initialize()
 
@@ -1445,6 +1454,24 @@ func (s *jsiiProxy_SnsPlatformApplication) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SnsPlatformApplication) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

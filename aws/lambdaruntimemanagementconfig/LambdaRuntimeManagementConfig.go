@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lambda_runtime_management_config aws_lambda_runtime_management_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lambda_runtime_management_config aws_lambda_runtime_management_config}.
 type LambdaRuntimeManagementConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -138,6 +138,15 @@ type LambdaRuntimeManagementConfig interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LambdaRuntimeManagementConfig
@@ -416,7 +425,7 @@ func (j *jsiiProxy_LambdaRuntimeManagementConfig) UpdateRuntimeOnInput() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lambda_runtime_management_config aws_lambda_runtime_management_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lambda_runtime_management_config aws_lambda_runtime_management_config} Resource.
 func NewLambdaRuntimeManagementConfig(scope constructs.Construct, id *string, config *LambdaRuntimeManagementConfigConfig) LambdaRuntimeManagementConfig {
 	_init_.Initialize()
 
@@ -434,7 +443,7 @@ func NewLambdaRuntimeManagementConfig(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lambda_runtime_management_config aws_lambda_runtime_management_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lambda_runtime_management_config aws_lambda_runtime_management_config} Resource.
 func NewLambdaRuntimeManagementConfig_Override(l LambdaRuntimeManagementConfig, scope constructs.Construct, id *string, config *LambdaRuntimeManagementConfigConfig) {
 	_init_.Initialize()
 
@@ -1033,6 +1042,24 @@ func (l *jsiiProxy_LambdaRuntimeManagementConfig) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LambdaRuntimeManagementConfig) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

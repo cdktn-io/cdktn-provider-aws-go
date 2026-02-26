@@ -56,6 +56,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "trackerName", GoGetter: "TrackerName"},
 			_jsii_.MemberProperty{JsiiProperty: "trackerNameInput", GoGetter: "TrackerNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsLocationTrackerAssociations{}

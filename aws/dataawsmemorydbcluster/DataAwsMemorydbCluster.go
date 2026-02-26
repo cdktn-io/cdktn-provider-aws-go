@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/memorydb_cluster aws_memorydb_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/memorydb_cluster aws_memorydb_cluster}.
 type DataAwsMemorydbCluster interface {
 	cdktn.TerraformDataSource
 	AclName() *string
@@ -48,6 +48,7 @@ type DataAwsMemorydbCluster interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	IpDiscovery() *string
 	KmsKeyArn() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
@@ -57,6 +58,7 @@ type DataAwsMemorydbCluster interface {
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
+	NetworkType() *string
 	// The tree node.
 	Node() constructs.Node
 	NodeType() *string
@@ -132,6 +134,15 @@ type DataAwsMemorydbCluster interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsMemorydbCluster
@@ -329,6 +340,16 @@ func (j *jsiiProxy_DataAwsMemorydbCluster) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsMemorydbCluster) IpDiscovery() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipDiscovery",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsMemorydbCluster) KmsKeyArn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -374,6 +395,16 @@ func (j *jsiiProxy_DataAwsMemorydbCluster) NameInput() *string {
 	_jsii_.Get(
 		j,
 		"nameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsMemorydbCluster) NetworkType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkType",
 		&returns,
 	)
 	return returns
@@ -600,7 +631,7 @@ func (j *jsiiProxy_DataAwsMemorydbCluster) TlsEnabled() cdktn.IResolvable {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/memorydb_cluster aws_memorydb_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/memorydb_cluster aws_memorydb_cluster} Data Source.
 func NewDataAwsMemorydbCluster(scope constructs.Construct, id *string, config *DataAwsMemorydbClusterConfig) DataAwsMemorydbCluster {
 	_init_.Initialize()
 
@@ -618,7 +649,7 @@ func NewDataAwsMemorydbCluster(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/memorydb_cluster aws_memorydb_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/memorydb_cluster aws_memorydb_cluster} Data Source.
 func NewDataAwsMemorydbCluster_Override(d DataAwsMemorydbCluster, scope constructs.Construct, id *string, config *DataAwsMemorydbClusterConfig) {
 	_init_.Initialize()
 
@@ -1108,6 +1139,24 @@ func (d *jsiiProxy_DataAwsMemorydbCluster) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsMemorydbCluster) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

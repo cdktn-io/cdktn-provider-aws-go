@@ -100,6 +100,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "usageMode", GoGetter: "UsageMode"},
 			_jsii_.MemberProperty{JsiiProperty: "usageModeInput", GoGetter: "UsageModeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_AcmpcaCertificateAuthority{}

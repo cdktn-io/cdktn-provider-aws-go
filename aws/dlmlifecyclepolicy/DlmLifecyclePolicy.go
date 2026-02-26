@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dlm_lifecycle_policy aws_dlm_lifecycle_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dlm_lifecycle_policy aws_dlm_lifecycle_policy}.
 type DlmLifecyclePolicy interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -152,6 +152,15 @@ type DlmLifecyclePolicy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DlmLifecyclePolicy
@@ -510,7 +519,7 @@ func (j *jsiiProxy_DlmLifecyclePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dlm_lifecycle_policy aws_dlm_lifecycle_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dlm_lifecycle_policy aws_dlm_lifecycle_policy} Resource.
 func NewDlmLifecyclePolicy(scope constructs.Construct, id *string, config *DlmLifecyclePolicyConfig) DlmLifecyclePolicy {
 	_init_.Initialize()
 
@@ -528,7 +537,7 @@ func NewDlmLifecyclePolicy(scope constructs.Construct, id *string, config *DlmLi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dlm_lifecycle_policy aws_dlm_lifecycle_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dlm_lifecycle_policy aws_dlm_lifecycle_policy} Resource.
 func NewDlmLifecyclePolicy_Override(d DlmLifecyclePolicy, scope constructs.Construct, id *string, config *DlmLifecyclePolicyConfig) {
 	_init_.Initialize()
 
@@ -1187,6 +1196,24 @@ func (d *jsiiProxy_DlmLifecyclePolicy) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DlmLifecyclePolicy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

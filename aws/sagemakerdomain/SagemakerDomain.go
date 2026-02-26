@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_domain aws_sagemaker_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_domain aws_sagemaker_domain}.
 type SagemakerDomain interface {
 	cdktn.TerraformResource
 	AppNetworkAccessType() *string
@@ -183,6 +183,15 @@ type SagemakerDomain interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SagemakerDomain
@@ -731,7 +740,7 @@ func (j *jsiiProxy_SagemakerDomain) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_domain aws_sagemaker_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_domain aws_sagemaker_domain} Resource.
 func NewSagemakerDomain(scope constructs.Construct, id *string, config *SagemakerDomainConfig) SagemakerDomain {
 	_init_.Initialize()
 
@@ -749,7 +758,7 @@ func NewSagemakerDomain(scope constructs.Construct, id *string, config *Sagemake
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_domain aws_sagemaker_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_domain aws_sagemaker_domain} Resource.
 func NewSagemakerDomain_Override(s SagemakerDomain, scope constructs.Construct, id *string, config *SagemakerDomainConfig) {
 	_init_.Initialize()
 
@@ -1525,6 +1534,24 @@ func (s *jsiiProxy_SagemakerDomain) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SagemakerDomain) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

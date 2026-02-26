@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/msk_broker_nodes aws_msk_broker_nodes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/msk_broker_nodes aws_msk_broker_nodes}.
 type DataAwsMskBrokerNodes interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -105,6 +105,15 @@ type DataAwsMskBrokerNodes interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsMskBrokerNodes
@@ -323,7 +332,7 @@ func (j *jsiiProxy_DataAwsMskBrokerNodes) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/msk_broker_nodes aws_msk_broker_nodes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/msk_broker_nodes aws_msk_broker_nodes} Data Source.
 func NewDataAwsMskBrokerNodes(scope constructs.Construct, id *string, config *DataAwsMskBrokerNodesConfig) DataAwsMskBrokerNodes {
 	_init_.Initialize()
 
@@ -341,7 +350,7 @@ func NewDataAwsMskBrokerNodes(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/msk_broker_nodes aws_msk_broker_nodes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/msk_broker_nodes aws_msk_broker_nodes} Data Source.
 func NewDataAwsMskBrokerNodes_Override(d DataAwsMskBrokerNodes, scope constructs.Construct, id *string, config *DataAwsMskBrokerNodesConfig) {
 	_init_.Initialize()
 
@@ -812,6 +821,24 @@ func (d *jsiiProxy_DataAwsMskBrokerNodes) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsMskBrokerNodes) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -82,6 +82,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vectorBucketName", GoGetter: "VectorBucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "vectorBucketNameInput", GoGetter: "VectorBucketNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_S3VectorsIndex{}

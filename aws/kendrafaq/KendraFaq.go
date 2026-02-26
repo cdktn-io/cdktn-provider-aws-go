@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kendra_faq aws_kendra_faq}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kendra_faq aws_kendra_faq}.
 type KendraFaq interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -168,6 +168,15 @@ type KendraFaq interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for KendraFaq
@@ -636,7 +645,7 @@ func (j *jsiiProxy_KendraFaq) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kendra_faq aws_kendra_faq} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kendra_faq aws_kendra_faq} Resource.
 func NewKendraFaq(scope constructs.Construct, id *string, config *KendraFaqConfig) KendraFaq {
 	_init_.Initialize()
 
@@ -654,7 +663,7 @@ func NewKendraFaq(scope constructs.Construct, id *string, config *KendraFaqConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kendra_faq aws_kendra_faq} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kendra_faq aws_kendra_faq} Resource.
 func NewKendraFaq_Override(k KendraFaq, scope constructs.Construct, id *string, config *KendraFaqConfig) {
 	_init_.Initialize()
 
@@ -1362,6 +1371,24 @@ func (k *jsiiProxy_KendraFaq) ToTerraform() interface{} {
 		k,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (k *jsiiProxy_KendraFaq) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		k,
+		"with",
+		args,
 		&returns,
 	)
 

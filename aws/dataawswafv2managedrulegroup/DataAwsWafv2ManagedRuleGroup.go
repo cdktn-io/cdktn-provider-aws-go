@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/wafv2_managed_rule_group aws_wafv2_managed_rule_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/wafv2_managed_rule_group aws_wafv2_managed_rule_group}.
 type DataAwsWafv2ManagedRuleGroup interface {
 	cdktn.TerraformDataSource
 	AvailableLabels() DataAwsWafv2ManagedRuleGroupAvailableLabelsList
@@ -116,6 +116,15 @@ type DataAwsWafv2ManagedRuleGroup interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsWafv2ManagedRuleGroup
@@ -424,7 +433,7 @@ func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroup) VersionNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/wafv2_managed_rule_group aws_wafv2_managed_rule_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/wafv2_managed_rule_group aws_wafv2_managed_rule_group} Data Source.
 func NewDataAwsWafv2ManagedRuleGroup(scope constructs.Construct, id *string, config *DataAwsWafv2ManagedRuleGroupConfig) DataAwsWafv2ManagedRuleGroup {
 	_init_.Initialize()
 
@@ -442,7 +451,7 @@ func NewDataAwsWafv2ManagedRuleGroup(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/wafv2_managed_rule_group aws_wafv2_managed_rule_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/wafv2_managed_rule_group aws_wafv2_managed_rule_group} Data Source.
 func NewDataAwsWafv2ManagedRuleGroup_Override(d DataAwsWafv2ManagedRuleGroup, scope constructs.Construct, id *string, config *DataAwsWafv2ManagedRuleGroupConfig) {
 	_init_.Initialize()
 
@@ -935,6 +944,24 @@ func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroup) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsWafv2ManagedRuleGroup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

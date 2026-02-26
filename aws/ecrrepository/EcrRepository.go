@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ecr_repository aws_ecr_repository}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ecr_repository aws_ecr_repository}.
 type EcrRepository interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -164,6 +164,15 @@ type EcrRepository interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EcrRepository
@@ -582,7 +591,7 @@ func (j *jsiiProxy_EcrRepository) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ecr_repository aws_ecr_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ecr_repository aws_ecr_repository} Resource.
 func NewEcrRepository(scope constructs.Construct, id *string, config *EcrRepositoryConfig) EcrRepository {
 	_init_.Initialize()
 
@@ -600,7 +609,7 @@ func NewEcrRepository(scope constructs.Construct, id *string, config *EcrReposit
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ecr_repository aws_ecr_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ecr_repository aws_ecr_repository} Resource.
 func NewEcrRepository_Override(e EcrRepository, scope constructs.Construct, id *string, config *EcrRepositoryConfig) {
 	_init_.Initialize()
 
@@ -1313,6 +1322,24 @@ func (e *jsiiProxy_EcrRepository) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EcrRepository) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

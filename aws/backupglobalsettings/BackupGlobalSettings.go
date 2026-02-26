@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/backup_global_settings aws_backup_global_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/backup_global_settings aws_backup_global_settings}.
 type BackupGlobalSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -125,6 +125,15 @@ type BackupGlobalSettings interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for BackupGlobalSettings
@@ -333,7 +342,7 @@ func (j *jsiiProxy_BackupGlobalSettings) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/backup_global_settings aws_backup_global_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/backup_global_settings aws_backup_global_settings} Resource.
 func NewBackupGlobalSettings(scope constructs.Construct, id *string, config *BackupGlobalSettingsConfig) BackupGlobalSettings {
 	_init_.Initialize()
 
@@ -351,7 +360,7 @@ func NewBackupGlobalSettings(scope constructs.Construct, id *string, config *Bac
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/backup_global_settings aws_backup_global_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/backup_global_settings aws_backup_global_settings} Resource.
 func NewBackupGlobalSettings_Override(b BackupGlobalSettings, scope constructs.Construct, id *string, config *BackupGlobalSettingsConfig) {
 	_init_.Initialize()
 
@@ -893,6 +902,24 @@ func (b *jsiiProxy_BackupGlobalSettings) ToTerraform() interface{} {
 		b,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (b *jsiiProxy_BackupGlobalSettings) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		b,
+		"with",
+		args,
 		&returns,
 	)
 

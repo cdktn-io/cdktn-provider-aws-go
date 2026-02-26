@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshiftserverless_snapshot aws_redshiftserverless_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshiftserverless_snapshot aws_redshiftserverless_snapshot}.
 type RedshiftserverlessSnapshot interface {
 	cdktn.TerraformResource
 	AccountsWithProvisionedRestoreAccess() *[]*string
@@ -143,6 +143,15 @@ type RedshiftserverlessSnapshot interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for RedshiftserverlessSnapshot
@@ -481,7 +490,7 @@ func (j *jsiiProxy_RedshiftserverlessSnapshot) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshiftserverless_snapshot aws_redshiftserverless_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshiftserverless_snapshot aws_redshiftserverless_snapshot} Resource.
 func NewRedshiftserverlessSnapshot(scope constructs.Construct, id *string, config *RedshiftserverlessSnapshotConfig) RedshiftserverlessSnapshot {
 	_init_.Initialize()
 
@@ -499,7 +508,7 @@ func NewRedshiftserverlessSnapshot(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshiftserverless_snapshot aws_redshiftserverless_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshiftserverless_snapshot aws_redshiftserverless_snapshot} Resource.
 func NewRedshiftserverlessSnapshot_Override(r RedshiftserverlessSnapshot, scope constructs.Construct, id *string, config *RedshiftserverlessSnapshotConfig) {
 	_init_.Initialize()
 
@@ -1090,6 +1099,24 @@ func (r *jsiiProxy_RedshiftserverlessSnapshot) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_RedshiftserverlessSnapshot) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

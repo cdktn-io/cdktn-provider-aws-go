@@ -90,6 +90,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "trafficPercentageToMonitor", GoGetter: "TrafficPercentageToMonitor"},
 			_jsii_.MemberProperty{JsiiProperty: "trafficPercentageToMonitorInput", GoGetter: "TrafficPercentageToMonitorInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_InternetmonitorMonitor{}

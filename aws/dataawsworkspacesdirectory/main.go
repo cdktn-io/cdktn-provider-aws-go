@@ -73,6 +73,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "userIdentityType", GoGetter: "UserIdentityType"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "workspaceAccessProperties", GoGetter: "WorkspaceAccessProperties"},
 			_jsii_.MemberProperty{JsiiProperty: "workspaceCreationProperties", GoGetter: "WorkspaceCreationProperties"},
 			_jsii_.MemberProperty{JsiiProperty: "workspaceDirectoryDescription", GoGetter: "WorkspaceDirectoryDescription"},

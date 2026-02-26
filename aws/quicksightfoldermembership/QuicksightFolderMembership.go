@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_folder_membership aws_quicksight_folder_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_folder_membership aws_quicksight_folder_membership}.
 type QuicksightFolderMembership interface {
 	cdktn.TerraformResource
 	AwsAccountId() *string
@@ -136,6 +136,15 @@ type QuicksightFolderMembership interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for QuicksightFolderMembership
@@ -414,7 +423,7 @@ func (j *jsiiProxy_QuicksightFolderMembership) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_folder_membership aws_quicksight_folder_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_folder_membership aws_quicksight_folder_membership} Resource.
 func NewQuicksightFolderMembership(scope constructs.Construct, id *string, config *QuicksightFolderMembershipConfig) QuicksightFolderMembership {
 	_init_.Initialize()
 
@@ -432,7 +441,7 @@ func NewQuicksightFolderMembership(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_folder_membership aws_quicksight_folder_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_folder_membership aws_quicksight_folder_membership} Resource.
 func NewQuicksightFolderMembership_Override(q QuicksightFolderMembership, scope constructs.Construct, id *string, config *QuicksightFolderMembershipConfig) {
 	_init_.Initialize()
 
@@ -1015,6 +1024,24 @@ func (q *jsiiProxy_QuicksightFolderMembership) ToTerraform() interface{} {
 		q,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (q *jsiiProxy_QuicksightFolderMembership) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		q,
+		"with",
+		args,
 		&returns,
 	)
 

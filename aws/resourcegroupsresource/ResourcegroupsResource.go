@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/resourcegroups_resource aws_resourcegroups_resource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/resourcegroups_resource aws_resourcegroups_resource}.
 type ResourcegroupsResource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -137,6 +137,15 @@ type ResourcegroupsResource interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ResourcegroupsResource
@@ -415,7 +424,7 @@ func (j *jsiiProxy_ResourcegroupsResource) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/resourcegroups_resource aws_resourcegroups_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/resourcegroups_resource aws_resourcegroups_resource} Resource.
 func NewResourcegroupsResource(scope constructs.Construct, id *string, config *ResourcegroupsResourceConfig) ResourcegroupsResource {
 	_init_.Initialize()
 
@@ -433,7 +442,7 @@ func NewResourcegroupsResource(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/resourcegroups_resource aws_resourcegroups_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/resourcegroups_resource aws_resourcegroups_resource} Resource.
 func NewResourcegroupsResource_Override(r ResourcegroupsResource, scope constructs.Construct, id *string, config *ResourcegroupsResourceConfig) {
 	_init_.Initialize()
 
@@ -1024,6 +1033,24 @@ func (r *jsiiProxy_ResourcegroupsResource) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_ResourcegroupsResource) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

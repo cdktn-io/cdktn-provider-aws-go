@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lambda_capacity_provider aws_lambda_capacity_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lambda_capacity_provider aws_lambda_capacity_provider}.
 type LambdaCapacityProvider interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -155,6 +155,15 @@ type LambdaCapacityProvider interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LambdaCapacityProvider
@@ -523,7 +532,7 @@ func (j *jsiiProxy_LambdaCapacityProvider) VpcConfigInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lambda_capacity_provider aws_lambda_capacity_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lambda_capacity_provider aws_lambda_capacity_provider} Resource.
 func NewLambdaCapacityProvider(scope constructs.Construct, id *string, config *LambdaCapacityProviderConfig) LambdaCapacityProvider {
 	_init_.Initialize()
 
@@ -541,7 +550,7 @@ func NewLambdaCapacityProvider(scope constructs.Construct, id *string, config *L
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lambda_capacity_provider aws_lambda_capacity_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lambda_capacity_provider aws_lambda_capacity_provider} Resource.
 func NewLambdaCapacityProvider_Override(l LambdaCapacityProvider, scope constructs.Construct, id *string, config *LambdaCapacityProviderConfig) {
 	_init_.Initialize()
 
@@ -1216,6 +1225,24 @@ func (l *jsiiProxy_LambdaCapacityProvider) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LambdaCapacityProvider) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers}.
 type DataAwsMskBootstrapBrokers interface {
 	cdktn.TerraformDataSource
 	BootstrapBrokers() *string
@@ -114,6 +114,15 @@ type DataAwsMskBootstrapBrokers interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsMskBootstrapBrokers
@@ -422,7 +431,7 @@ func (j *jsiiProxy_DataAwsMskBootstrapBrokers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers} Data Source.
 func NewDataAwsMskBootstrapBrokers(scope constructs.Construct, id *string, config *DataAwsMskBootstrapBrokersConfig) DataAwsMskBootstrapBrokers {
 	_init_.Initialize()
 
@@ -440,7 +449,7 @@ func NewDataAwsMskBootstrapBrokers(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers} Data Source.
 func NewDataAwsMskBootstrapBrokers_Override(d DataAwsMskBootstrapBrokers, scope constructs.Construct, id *string, config *DataAwsMskBootstrapBrokersConfig) {
 	_init_.Initialize()
 
@@ -911,6 +920,24 @@ func (d *jsiiProxy_DataAwsMskBootstrapBrokers) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsMskBootstrapBrokers) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

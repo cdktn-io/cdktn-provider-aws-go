@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/service_discovery_instance aws_service_discovery_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/service_discovery_instance aws_service_discovery_instance}.
 type ServiceDiscoveryInstance interface {
 	cdktn.TerraformResource
 	Attributes() *map[string]*string
@@ -135,6 +135,15 @@ type ServiceDiscoveryInstance interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ServiceDiscoveryInstance
@@ -403,7 +412,7 @@ func (j *jsiiProxy_ServiceDiscoveryInstance) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/service_discovery_instance aws_service_discovery_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/service_discovery_instance aws_service_discovery_instance} Resource.
 func NewServiceDiscoveryInstance(scope constructs.Construct, id *string, config *ServiceDiscoveryInstanceConfig) ServiceDiscoveryInstance {
 	_init_.Initialize()
 
@@ -421,7 +430,7 @@ func NewServiceDiscoveryInstance(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/service_discovery_instance aws_service_discovery_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/service_discovery_instance aws_service_discovery_instance} Resource.
 func NewServiceDiscoveryInstance_Override(s ServiceDiscoveryInstance, scope constructs.Construct, id *string, config *ServiceDiscoveryInstanceConfig) {
 	_init_.Initialize()
 
@@ -1004,6 +1013,24 @@ func (s *jsiiProxy_ServiceDiscoveryInstance) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_ServiceDiscoveryInstance) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lexv2models_slot aws_lexv2models_slot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lexv2models_slot aws_lexv2models_slot}.
 type Lexv2ModelsSlot interface {
 	cdktn.TerraformResource
 	BotId() *string
@@ -167,6 +167,15 @@ type Lexv2ModelsSlot interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Lexv2ModelsSlot
@@ -615,7 +624,7 @@ func (j *jsiiProxy_Lexv2ModelsSlot) ValueElicitationSettingInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lexv2models_slot aws_lexv2models_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lexv2models_slot aws_lexv2models_slot} Resource.
 func NewLexv2ModelsSlot(scope constructs.Construct, id *string, config *Lexv2ModelsSlotConfig) Lexv2ModelsSlot {
 	_init_.Initialize()
 
@@ -633,7 +642,7 @@ func NewLexv2ModelsSlot(scope constructs.Construct, id *string, config *Lexv2Mod
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lexv2models_slot aws_lexv2models_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lexv2models_slot aws_lexv2models_slot} Resource.
 func NewLexv2ModelsSlot_Override(l Lexv2ModelsSlot, scope constructs.Construct, id *string, config *Lexv2ModelsSlotConfig) {
 	_init_.Initialize()
 
@@ -1352,6 +1361,24 @@ func (l *jsiiProxy_Lexv2ModelsSlot) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_Lexv2ModelsSlot) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

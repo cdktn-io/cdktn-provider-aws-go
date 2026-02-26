@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/imagebuilder_workflow aws_imagebuilder_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/imagebuilder_workflow aws_imagebuilder_workflow}.
 type ImagebuilderWorkflow interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -166,6 +166,15 @@ type ImagebuilderWorkflow interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ImagebuilderWorkflow
@@ -604,7 +613,7 @@ func (j *jsiiProxy_ImagebuilderWorkflow) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/imagebuilder_workflow aws_imagebuilder_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/imagebuilder_workflow aws_imagebuilder_workflow} Resource.
 func NewImagebuilderWorkflow(scope constructs.Construct, id *string, config *ImagebuilderWorkflowConfig) ImagebuilderWorkflow {
 	_init_.Initialize()
 
@@ -622,7 +631,7 @@ func NewImagebuilderWorkflow(scope constructs.Construct, id *string, config *Ima
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/imagebuilder_workflow aws_imagebuilder_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/imagebuilder_workflow aws_imagebuilder_workflow} Resource.
 func NewImagebuilderWorkflow_Override(i ImagebuilderWorkflow, scope constructs.Construct, id *string, config *ImagebuilderWorkflowConfig) {
 	_init_.Initialize()
 
@@ -1338,6 +1347,24 @@ func (i *jsiiProxy_ImagebuilderWorkflow) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_ImagebuilderWorkflow) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

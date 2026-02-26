@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/oam_link aws_oam_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/oam_link aws_oam_link}.
 type DataAwsOamLink interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -115,6 +115,15 @@ type DataAwsOamLink interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsOamLink
@@ -413,7 +422,7 @@ func (j *jsiiProxy_DataAwsOamLink) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/oam_link aws_oam_link} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/oam_link aws_oam_link} Data Source.
 func NewDataAwsOamLink(scope constructs.Construct, id *string, config *DataAwsOamLinkConfig) DataAwsOamLink {
 	_init_.Initialize()
 
@@ -431,7 +440,7 @@ func NewDataAwsOamLink(scope constructs.Construct, id *string, config *DataAwsOa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/oam_link aws_oam_link} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/oam_link aws_oam_link} Data Source.
 func NewDataAwsOamLink_Override(d DataAwsOamLink, scope constructs.Construct, id *string, config *DataAwsOamLinkConfig) {
 	_init_.Initialize()
 
@@ -921,6 +930,24 @@ func (d *jsiiProxy_DataAwsOamLink) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsOamLink) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

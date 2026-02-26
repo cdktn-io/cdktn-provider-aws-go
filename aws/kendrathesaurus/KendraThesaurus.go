@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kendra_thesaurus aws_kendra_thesaurus}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kendra_thesaurus aws_kendra_thesaurus}.
 type KendraThesaurus interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -157,6 +157,15 @@ type KendraThesaurus interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for KendraThesaurus
@@ -555,7 +564,7 @@ func (j *jsiiProxy_KendraThesaurus) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kendra_thesaurus aws_kendra_thesaurus} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kendra_thesaurus aws_kendra_thesaurus} Resource.
 func NewKendraThesaurus(scope constructs.Construct, id *string, config *KendraThesaurusConfig) KendraThesaurus {
 	_init_.Initialize()
 
@@ -573,7 +582,7 @@ func NewKendraThesaurus(scope constructs.Construct, id *string, config *KendraTh
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kendra_thesaurus aws_kendra_thesaurus} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kendra_thesaurus aws_kendra_thesaurus} Resource.
 func NewKendraThesaurus_Override(k KendraThesaurus, scope constructs.Construct, id *string, config *KendraThesaurusConfig) {
 	_init_.Initialize()
 
@@ -1243,6 +1252,24 @@ func (k *jsiiProxy_KendraThesaurus) ToTerraform() interface{} {
 		k,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (k *jsiiProxy_KendraThesaurus) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		k,
+		"with",
+		args,
 		&returns,
 	)
 

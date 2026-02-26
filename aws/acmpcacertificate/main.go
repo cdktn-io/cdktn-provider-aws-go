@@ -79,6 +79,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "validity", GoGetter: "Validity"},
 			_jsii_.MemberProperty{JsiiProperty: "validityInput", GoGetter: "ValidityInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_AcmpcaCertificate{}

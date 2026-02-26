@@ -83,6 +83,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_AthenaWorkgroup{}
@@ -590,7 +591,10 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putIdentityCenterConfiguration", GoMethod: "PutIdentityCenterConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putManagedQueryResultsConfiguration", GoMethod: "PutManagedQueryResultsConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putMonitoringConfiguration", GoMethod: "PutMonitoringConfiguration"},
+			_jsii_.MemberMethod{JsiiMethod: "putQueryResultsS3AccessGrantsConfiguration", GoMethod: "PutQueryResultsS3AccessGrantsConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putResultConfiguration", GoMethod: "PutResultConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "queryResultsS3AccessGrantsConfiguration", GoGetter: "QueryResultsS3AccessGrantsConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "queryResultsS3AccessGrantsConfigurationInput", GoGetter: "QueryResultsS3AccessGrantsConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "requesterPaysEnabled", GoGetter: "RequesterPaysEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "requesterPaysEnabledInput", GoGetter: "RequesterPaysEnabledInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBytesScannedCutoffPerQuery", GoMethod: "ResetBytesScannedCutoffPerQuery"},
@@ -603,6 +607,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetManagedQueryResultsConfiguration", GoMethod: "ResetManagedQueryResultsConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMonitoringConfiguration", GoMethod: "ResetMonitoringConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPublishCloudwatchMetricsEnabled", GoMethod: "ResetPublishCloudwatchMetricsEnabled"},
+			_jsii_.MemberMethod{JsiiMethod: "resetQueryResultsS3AccessGrantsConfiguration", GoMethod: "ResetQueryResultsS3AccessGrantsConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRequesterPaysEnabled", GoMethod: "ResetRequesterPaysEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetResultConfiguration", GoMethod: "ResetResultConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
@@ -614,6 +619,49 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AthenaWorkgroupConfigurationOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.athenaWorkgroup.AthenaWorkgroupConfigurationQueryResultsS3AccessGrantsConfiguration",
+		reflect.TypeOf((*AthenaWorkgroupConfigurationQueryResultsS3AccessGrantsConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.athenaWorkgroup.AthenaWorkgroupConfigurationQueryResultsS3AccessGrantsConfigurationOutputReference",
+		reflect.TypeOf((*AthenaWorkgroupConfigurationQueryResultsS3AccessGrantsConfigurationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "authenticationType", GoGetter: "AuthenticationType"},
+			_jsii_.MemberProperty{JsiiProperty: "authenticationTypeInput", GoGetter: "AuthenticationTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "createUserLevelPrefix", GoGetter: "CreateUserLevelPrefix"},
+			_jsii_.MemberProperty{JsiiProperty: "createUserLevelPrefixInput", GoGetter: "CreateUserLevelPrefixInput"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "enableS3AccessGrants", GoGetter: "EnableS3AccessGrants"},
+			_jsii_.MemberProperty{JsiiProperty: "enableS3AccessGrantsInput", GoGetter: "EnableS3AccessGrantsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCreateUserLevelPrefix", GoMethod: "ResetCreateUserLevelPrefix"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_AthenaWorkgroupConfigurationQueryResultsS3AccessGrantsConfigurationOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

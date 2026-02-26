@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/transfer_agreement aws_transfer_agreement}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/transfer_agreement aws_transfer_agreement}.
 type TransferAgreement interface {
 	cdktn.TerraformResource
 	AccessRole() *string
@@ -156,6 +156,15 @@ type TransferAgreement interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for TransferAgreement
@@ -554,7 +563,7 @@ func (j *jsiiProxy_TransferAgreement) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/transfer_agreement aws_transfer_agreement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/transfer_agreement aws_transfer_agreement} Resource.
 func NewTransferAgreement(scope constructs.Construct, id *string, config *TransferAgreementConfig) TransferAgreement {
 	_init_.Initialize()
 
@@ -572,7 +581,7 @@ func NewTransferAgreement(scope constructs.Construct, id *string, config *Transf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/transfer_agreement aws_transfer_agreement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/transfer_agreement aws_transfer_agreement} Resource.
 func NewTransferAgreement_Override(t TransferAgreement, scope constructs.Construct, id *string, config *TransferAgreementConfig) {
 	_init_.Initialize()
 
@@ -1234,6 +1243,24 @@ func (t *jsiiProxy_TransferAgreement) ToTerraform() interface{} {
 		t,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TransferAgreement) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		t,
+		"with",
+		args,
 		&returns,
 	)
 

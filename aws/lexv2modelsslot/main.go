@@ -96,6 +96,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "valueElicitationSetting", GoGetter: "ValueElicitationSetting"},
 			_jsii_.MemberProperty{JsiiProperty: "valueElicitationSettingInput", GoGetter: "ValueElicitationSettingInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_Lexv2ModelsSlot{}

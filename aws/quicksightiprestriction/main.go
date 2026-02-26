@@ -72,6 +72,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcEndpointIdRestrictionRuleMapInput", GoGetter: "VpcEndpointIdRestrictionRuleMapInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdRestrictionRuleMap", GoGetter: "VpcIdRestrictionRuleMap"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdRestrictionRuleMapInput", GoGetter: "VpcIdRestrictionRuleMapInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_QuicksightIpRestriction{}

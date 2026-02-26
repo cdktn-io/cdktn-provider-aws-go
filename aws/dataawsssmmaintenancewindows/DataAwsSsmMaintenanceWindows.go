@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ssm_maintenance_windows aws_ssm_maintenance_windows}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ssm_maintenance_windows aws_ssm_maintenance_windows}.
 type DataAwsSsmMaintenanceWindows interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -106,6 +106,15 @@ type DataAwsSsmMaintenanceWindows interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsSsmMaintenanceWindows
@@ -324,7 +333,7 @@ func (j *jsiiProxy_DataAwsSsmMaintenanceWindows) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ssm_maintenance_windows aws_ssm_maintenance_windows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ssm_maintenance_windows aws_ssm_maintenance_windows} Data Source.
 func NewDataAwsSsmMaintenanceWindows(scope constructs.Construct, id *string, config *DataAwsSsmMaintenanceWindowsConfig) DataAwsSsmMaintenanceWindows {
 	_init_.Initialize()
 
@@ -342,7 +351,7 @@ func NewDataAwsSsmMaintenanceWindows(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ssm_maintenance_windows aws_ssm_maintenance_windows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ssm_maintenance_windows aws_ssm_maintenance_windows} Data Source.
 func NewDataAwsSsmMaintenanceWindows_Override(d DataAwsSsmMaintenanceWindows, scope constructs.Construct, id *string, config *DataAwsSsmMaintenanceWindowsConfig) {
 	_init_.Initialize()
 
@@ -821,6 +830,24 @@ func (d *jsiiProxy_DataAwsSsmMaintenanceWindows) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsSsmMaintenanceWindows) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

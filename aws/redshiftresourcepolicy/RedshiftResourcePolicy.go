@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_resource_policy aws_redshift_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshift_resource_policy aws_redshift_resource_policy}.
 type RedshiftResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -132,6 +132,15 @@ type RedshiftResourcePolicy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for RedshiftResourcePolicy
@@ -380,7 +389,7 @@ func (j *jsiiProxy_RedshiftResourcePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_resource_policy aws_redshift_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshift_resource_policy aws_redshift_resource_policy} Resource.
 func NewRedshiftResourcePolicy(scope constructs.Construct, id *string, config *RedshiftResourcePolicyConfig) RedshiftResourcePolicy {
 	_init_.Initialize()
 
@@ -398,7 +407,7 @@ func NewRedshiftResourcePolicy(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/redshift_resource_policy aws_redshift_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshift_resource_policy aws_redshift_resource_policy} Resource.
 func NewRedshiftResourcePolicy_Override(r RedshiftResourcePolicy, scope constructs.Construct, id *string, config *RedshiftResourcePolicyConfig) {
 	_init_.Initialize()
 
@@ -970,6 +979,24 @@ func (r *jsiiProxy_RedshiftResourcePolicy) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_RedshiftResourcePolicy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

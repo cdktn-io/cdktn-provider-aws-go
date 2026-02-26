@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/shield_protection_group aws_shield_protection_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/shield_protection_group aws_shield_protection_group}.
 type ShieldProtectionGroup interface {
 	cdktn.TerraformResource
 	Aggregation() *string
@@ -148,6 +148,15 @@ type ShieldProtectionGroup interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ShieldProtectionGroup
@@ -486,7 +495,7 @@ func (j *jsiiProxy_ShieldProtectionGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/shield_protection_group aws_shield_protection_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/shield_protection_group aws_shield_protection_group} Resource.
 func NewShieldProtectionGroup(scope constructs.Construct, id *string, config *ShieldProtectionGroupConfig) ShieldProtectionGroup {
 	_init_.Initialize()
 
@@ -504,7 +513,7 @@ func NewShieldProtectionGroup(scope constructs.Construct, id *string, config *Sh
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/shield_protection_group aws_shield_protection_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/shield_protection_group aws_shield_protection_group} Resource.
 func NewShieldProtectionGroup_Override(s ShieldProtectionGroup, scope constructs.Construct, id *string, config *ShieldProtectionGroupConfig) {
 	_init_.Initialize()
 
@@ -1144,6 +1153,24 @@ func (s *jsiiProxy_ShieldProtectionGroup) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_ShieldProtectionGroup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

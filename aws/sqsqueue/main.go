@@ -124,6 +124,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "url", GoGetter: "Url"},
 			_jsii_.MemberProperty{JsiiProperty: "visibilityTimeoutSeconds", GoGetter: "VisibilityTimeoutSeconds"},
 			_jsii_.MemberProperty{JsiiProperty: "visibilityTimeoutSecondsInput", GoGetter: "VisibilityTimeoutSecondsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_SqsQueue{}

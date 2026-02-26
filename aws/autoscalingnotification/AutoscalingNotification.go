@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/autoscaling_notification aws_autoscaling_notification}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/autoscaling_notification aws_autoscaling_notification}.
 type AutoscalingNotification interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -135,6 +135,15 @@ type AutoscalingNotification interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AutoscalingNotification
@@ -403,7 +412,7 @@ func (j *jsiiProxy_AutoscalingNotification) TopicArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/autoscaling_notification aws_autoscaling_notification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/autoscaling_notification aws_autoscaling_notification} Resource.
 func NewAutoscalingNotification(scope constructs.Construct, id *string, config *AutoscalingNotificationConfig) AutoscalingNotification {
 	_init_.Initialize()
 
@@ -421,7 +430,7 @@ func NewAutoscalingNotification(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/autoscaling_notification aws_autoscaling_notification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/autoscaling_notification aws_autoscaling_notification} Resource.
 func NewAutoscalingNotification_Override(a AutoscalingNotification, scope constructs.Construct, id *string, config *AutoscalingNotificationConfig) {
 	_init_.Initialize()
 
@@ -1004,6 +1013,24 @@ func (a *jsiiProxy_AutoscalingNotification) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AutoscalingNotification) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

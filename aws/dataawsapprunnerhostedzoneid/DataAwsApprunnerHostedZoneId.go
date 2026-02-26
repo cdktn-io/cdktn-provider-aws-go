@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/apprunner_hosted_zone_id aws_apprunner_hosted_zone_id}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/apprunner_hosted_zone_id aws_apprunner_hosted_zone_id}.
 type DataAwsApprunnerHostedZoneId interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -98,6 +98,15 @@ type DataAwsApprunnerHostedZoneId interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsApprunnerHostedZoneId
@@ -276,7 +285,7 @@ func (j *jsiiProxy_DataAwsApprunnerHostedZoneId) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/apprunner_hosted_zone_id aws_apprunner_hosted_zone_id} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/apprunner_hosted_zone_id aws_apprunner_hosted_zone_id} Data Source.
 func NewDataAwsApprunnerHostedZoneId(scope constructs.Construct, id *string, config *DataAwsApprunnerHostedZoneIdConfig) DataAwsApprunnerHostedZoneId {
 	_init_.Initialize()
 
@@ -294,7 +303,7 @@ func NewDataAwsApprunnerHostedZoneId(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/apprunner_hosted_zone_id aws_apprunner_hosted_zone_id} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/apprunner_hosted_zone_id aws_apprunner_hosted_zone_id} Data Source.
 func NewDataAwsApprunnerHostedZoneId_Override(d DataAwsApprunnerHostedZoneId, scope constructs.Construct, id *string, config *DataAwsApprunnerHostedZoneIdConfig) {
 	_init_.Initialize()
 
@@ -735,6 +744,24 @@ func (d *jsiiProxy_DataAwsApprunnerHostedZoneId) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsApprunnerHostedZoneId) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

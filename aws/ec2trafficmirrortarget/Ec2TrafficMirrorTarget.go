@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ec2_traffic_mirror_target aws_ec2_traffic_mirror_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ec2_traffic_mirror_target aws_ec2_traffic_mirror_target}.
 type Ec2TrafficMirrorTarget interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -152,6 +152,15 @@ type Ec2TrafficMirrorTarget interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Ec2TrafficMirrorTarget
@@ -500,7 +509,7 @@ func (j *jsiiProxy_Ec2TrafficMirrorTarget) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ec2_traffic_mirror_target aws_ec2_traffic_mirror_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ec2_traffic_mirror_target aws_ec2_traffic_mirror_target} Resource.
 func NewEc2TrafficMirrorTarget(scope constructs.Construct, id *string, config *Ec2TrafficMirrorTargetConfig) Ec2TrafficMirrorTarget {
 	_init_.Initialize()
 
@@ -518,7 +527,7 @@ func NewEc2TrafficMirrorTarget(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ec2_traffic_mirror_target aws_ec2_traffic_mirror_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ec2_traffic_mirror_target aws_ec2_traffic_mirror_target} Resource.
 func NewEc2TrafficMirrorTarget_Override(e Ec2TrafficMirrorTarget, scope constructs.Construct, id *string, config *Ec2TrafficMirrorTargetConfig) {
 	_init_.Initialize()
 
@@ -1182,6 +1191,24 @@ func (e *jsiiProxy_Ec2TrafficMirrorTarget) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_Ec2TrafficMirrorTarget) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

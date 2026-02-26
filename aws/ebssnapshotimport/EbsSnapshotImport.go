@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ebs_snapshot_import aws_ebs_snapshot_import}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ebs_snapshot_import aws_ebs_snapshot_import}.
 type EbsSnapshotImport interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -180,6 +180,15 @@ type EbsSnapshotImport interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EbsSnapshotImport
@@ -698,7 +707,7 @@ func (j *jsiiProxy_EbsSnapshotImport) VolumeSize() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ebs_snapshot_import aws_ebs_snapshot_import} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ebs_snapshot_import aws_ebs_snapshot_import} Resource.
 func NewEbsSnapshotImport(scope constructs.Construct, id *string, config *EbsSnapshotImportConfig) EbsSnapshotImport {
 	_init_.Initialize()
 
@@ -716,7 +725,7 @@ func NewEbsSnapshotImport(scope constructs.Construct, id *string, config *EbsSna
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ebs_snapshot_import aws_ebs_snapshot_import} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ebs_snapshot_import aws_ebs_snapshot_import} Resource.
 func NewEbsSnapshotImport_Override(e EbsSnapshotImport, scope constructs.Construct, id *string, config *EbsSnapshotImportConfig) {
 	_init_.Initialize()
 
@@ -1486,6 +1495,24 @@ func (e *jsiiProxy_EbsSnapshotImport) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EbsSnapshotImport) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

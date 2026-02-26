@@ -83,6 +83,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userProfileNameInput", GoGetter: "UserProfileNameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "userSettings", GoGetter: "UserSettings"},
 			_jsii_.MemberProperty{JsiiProperty: "userSettingsInput", GoGetter: "UserSettingsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_SagemakerUserProfile{}

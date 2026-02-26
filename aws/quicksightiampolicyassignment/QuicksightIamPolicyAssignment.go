@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_iam_policy_assignment aws_quicksight_iam_policy_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_iam_policy_assignment aws_quicksight_iam_policy_assignment}.
 type QuicksightIamPolicyAssignment interface {
 	cdktn.TerraformResource
 	AssignmentId() *string
@@ -146,6 +146,15 @@ type QuicksightIamPolicyAssignment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for QuicksightIamPolicyAssignment
@@ -474,7 +483,7 @@ func (j *jsiiProxy_QuicksightIamPolicyAssignment) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_iam_policy_assignment aws_quicksight_iam_policy_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_iam_policy_assignment aws_quicksight_iam_policy_assignment} Resource.
 func NewQuicksightIamPolicyAssignment(scope constructs.Construct, id *string, config *QuicksightIamPolicyAssignmentConfig) QuicksightIamPolicyAssignment {
 	_init_.Initialize()
 
@@ -492,7 +501,7 @@ func NewQuicksightIamPolicyAssignment(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_iam_policy_assignment aws_quicksight_iam_policy_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_iam_policy_assignment aws_quicksight_iam_policy_assignment} Resource.
 func NewQuicksightIamPolicyAssignment_Override(q QuicksightIamPolicyAssignment, scope constructs.Construct, id *string, config *QuicksightIamPolicyAssignmentConfig) {
 	_init_.Initialize()
 
@@ -1121,6 +1130,24 @@ func (q *jsiiProxy_QuicksightIamPolicyAssignment) ToTerraform() interface{} {
 		q,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (q *jsiiProxy_QuicksightIamPolicyAssignment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		q,
+		"with",
+		args,
 		&returns,
 	)
 

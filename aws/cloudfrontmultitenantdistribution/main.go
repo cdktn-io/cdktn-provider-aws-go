@@ -121,6 +121,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "viewerCertificateInput", GoGetter: "ViewerCertificateInput"},
 			_jsii_.MemberProperty{JsiiProperty: "webAclId", GoGetter: "WebAclId"},
 			_jsii_.MemberProperty{JsiiProperty: "webAclIdInput", GoGetter: "WebAclIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudfrontMultitenantDistribution{}

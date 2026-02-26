@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ecs_cluster_capacity_providers aws_ecs_cluster_capacity_providers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ecs_cluster_capacity_providers aws_ecs_cluster_capacity_providers}.
 type EcsClusterCapacityProviders interface {
 	cdktn.TerraformResource
 	CapacityProviders() *[]*string
@@ -137,6 +137,15 @@ type EcsClusterCapacityProviders interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EcsClusterCapacityProviders
@@ -405,7 +414,7 @@ func (j *jsiiProxy_EcsClusterCapacityProviders) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ecs_cluster_capacity_providers aws_ecs_cluster_capacity_providers} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ecs_cluster_capacity_providers aws_ecs_cluster_capacity_providers} Resource.
 func NewEcsClusterCapacityProviders(scope constructs.Construct, id *string, config *EcsClusterCapacityProvidersConfig) EcsClusterCapacityProviders {
 	_init_.Initialize()
 
@@ -423,7 +432,7 @@ func NewEcsClusterCapacityProviders(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ecs_cluster_capacity_providers aws_ecs_cluster_capacity_providers} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ecs_cluster_capacity_providers aws_ecs_cluster_capacity_providers} Resource.
 func NewEcsClusterCapacityProviders_Override(e EcsClusterCapacityProviders, scope constructs.Construct, id *string, config *EcsClusterCapacityProvidersConfig) {
 	_init_.Initialize()
 
@@ -1022,6 +1031,24 @@ func (e *jsiiProxy_EcsClusterCapacityProviders) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EcsClusterCapacityProviders) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

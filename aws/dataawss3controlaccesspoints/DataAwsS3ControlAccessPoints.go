@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/s3control_access_points aws_s3control_access_points}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/s3control_access_points aws_s3control_access_points}.
 type DataAwsS3ControlAccessPoints interface {
 	cdktn.TerraformDataSource
 	AccessPoints() DataAwsS3ControlAccessPointsAccessPointsList
@@ -114,6 +114,15 @@ type DataAwsS3ControlAccessPoints interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsS3ControlAccessPoints
@@ -372,7 +381,7 @@ func (j *jsiiProxy_DataAwsS3ControlAccessPoints) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/s3control_access_points aws_s3control_access_points} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/s3control_access_points aws_s3control_access_points} Data Source.
 func NewDataAwsS3ControlAccessPoints(scope constructs.Construct, id *string, config *DataAwsS3ControlAccessPointsConfig) DataAwsS3ControlAccessPoints {
 	_init_.Initialize()
 
@@ -390,7 +399,7 @@ func NewDataAwsS3ControlAccessPoints(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/s3control_access_points aws_s3control_access_points} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/s3control_access_points aws_s3control_access_points} Data Source.
 func NewDataAwsS3ControlAccessPoints_Override(d DataAwsS3ControlAccessPoints, scope constructs.Construct, id *string, config *DataAwsS3ControlAccessPointsConfig) {
 	_init_.Initialize()
 
@@ -907,6 +916,24 @@ func (d *jsiiProxy_DataAwsS3ControlAccessPoints) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsS3ControlAccessPoints) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/emr_block_public_access_configuration aws_emr_block_public_access_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/emr_block_public_access_configuration aws_emr_block_public_access_configuration}.
 type EmrBlockPublicAccessConfiguration interface {
 	cdktn.TerraformResource
 	BlockPublicSecurityGroupRules() interface{}
@@ -133,6 +133,15 @@ type EmrBlockPublicAccessConfiguration interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EmrBlockPublicAccessConfiguration
@@ -381,7 +390,7 @@ func (j *jsiiProxy_EmrBlockPublicAccessConfiguration) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/emr_block_public_access_configuration aws_emr_block_public_access_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/emr_block_public_access_configuration aws_emr_block_public_access_configuration} Resource.
 func NewEmrBlockPublicAccessConfiguration(scope constructs.Construct, id *string, config *EmrBlockPublicAccessConfigurationConfig) EmrBlockPublicAccessConfiguration {
 	_init_.Initialize()
 
@@ -399,7 +408,7 @@ func NewEmrBlockPublicAccessConfiguration(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/emr_block_public_access_configuration aws_emr_block_public_access_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/emr_block_public_access_configuration aws_emr_block_public_access_configuration} Resource.
 func NewEmrBlockPublicAccessConfiguration_Override(e EmrBlockPublicAccessConfiguration, scope constructs.Construct, id *string, config *EmrBlockPublicAccessConfigurationConfig) {
 	_init_.Initialize()
 
@@ -979,6 +988,24 @@ func (e *jsiiProxy_EmrBlockPublicAccessConfiguration) ToTerraform() interface{} 
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EmrBlockPublicAccessConfiguration) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

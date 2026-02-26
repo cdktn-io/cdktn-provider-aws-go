@@ -72,6 +72,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "versioningConfiguration", GoGetter: "VersioningConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "versioningConfigurationInput", GoGetter: "VersioningConfigurationInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_S3BucketVersioningA{}

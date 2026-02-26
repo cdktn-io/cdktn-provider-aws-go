@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/savingsplans_savings_plan aws_savingsplans_savings_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/savingsplans_savings_plan aws_savingsplans_savings_plan}.
 type DataAwsSavingsplansSavingsPlan interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -116,6 +116,15 @@ type DataAwsSavingsplansSavingsPlan interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsSavingsplansSavingsPlan
@@ -484,7 +493,7 @@ func (j *jsiiProxy_DataAwsSavingsplansSavingsPlan) UpfrontPaymentAmount() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/savingsplans_savings_plan aws_savingsplans_savings_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/savingsplans_savings_plan aws_savingsplans_savings_plan} Data Source.
 func NewDataAwsSavingsplansSavingsPlan(scope constructs.Construct, id *string, config *DataAwsSavingsplansSavingsPlanConfig) DataAwsSavingsplansSavingsPlan {
 	_init_.Initialize()
 
@@ -502,7 +511,7 @@ func NewDataAwsSavingsplansSavingsPlan(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/savingsplans_savings_plan aws_savingsplans_savings_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/savingsplans_savings_plan aws_savingsplans_savings_plan} Data Source.
 func NewDataAwsSavingsplansSavingsPlan_Override(d DataAwsSavingsplansSavingsPlan, scope constructs.Construct, id *string, config *DataAwsSavingsplansSavingsPlanConfig) {
 	_init_.Initialize()
 
@@ -935,6 +944,24 @@ func (d *jsiiProxy_DataAwsSavingsplansSavingsPlan) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsSavingsplansSavingsPlan) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/athena_database aws_athena_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/athena_database aws_athena_database}.
 type AthenaDatabase interface {
 	cdktn.TerraformResource
 	AclConfiguration() AthenaDatabaseAclConfigurationOutputReference
@@ -161,6 +161,15 @@ type AthenaDatabase interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AthenaDatabase
@@ -549,7 +558,7 @@ func (j *jsiiProxy_AthenaDatabase) WorkgroupInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/athena_database aws_athena_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/athena_database aws_athena_database} Resource.
 func NewAthenaDatabase(scope constructs.Construct, id *string, config *AthenaDatabaseConfig) AthenaDatabase {
 	_init_.Initialize()
 
@@ -567,7 +576,7 @@ func NewAthenaDatabase(scope constructs.Construct, id *string, config *AthenaDat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/athena_database aws_athena_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/athena_database aws_athena_database} Resource.
 func NewAthenaDatabase_Override(a AthenaDatabase, scope constructs.Construct, id *string, config *AthenaDatabaseConfig) {
 	_init_.Initialize()
 
@@ -1280,6 +1289,24 @@ func (a *jsiiProxy_AthenaDatabase) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AthenaDatabase) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/route53domains_registered_domain aws_route53domains_registered_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/route53domains_registered_domain aws_route53domains_registered_domain}.
 type Route53DomainsRegisteredDomain interface {
 	cdktn.TerraformResource
 	AbuseContactEmail() *string
@@ -191,6 +191,15 @@ type Route53DomainsRegisteredDomain interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Route53DomainsRegisteredDomain
@@ -779,7 +788,7 @@ func (j *jsiiProxy_Route53DomainsRegisteredDomain) WhoisServer() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/route53domains_registered_domain aws_route53domains_registered_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/route53domains_registered_domain aws_route53domains_registered_domain} Resource.
 func NewRoute53DomainsRegisteredDomain(scope constructs.Construct, id *string, config *Route53DomainsRegisteredDomainConfig) Route53DomainsRegisteredDomain {
 	_init_.Initialize()
 
@@ -797,7 +806,7 @@ func NewRoute53DomainsRegisteredDomain(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/route53domains_registered_domain aws_route53domains_registered_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/route53domains_registered_domain aws_route53domains_registered_domain} Resource.
 func NewRoute53DomainsRegisteredDomain_Override(r Route53DomainsRegisteredDomain, scope constructs.Construct, id *string, config *Route53DomainsRegisteredDomainConfig) {
 	_init_.Initialize()
 
@@ -1605,6 +1614,24 @@ func (r *jsiiProxy_Route53DomainsRegisteredDomain) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_Route53DomainsRegisteredDomain) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

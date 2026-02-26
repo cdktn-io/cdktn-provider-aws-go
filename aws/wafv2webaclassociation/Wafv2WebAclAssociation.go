@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/wafv2_web_acl_association aws_wafv2_web_acl_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/wafv2_web_acl_association aws_wafv2_web_acl_association}.
 type Wafv2WebAclAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -136,6 +136,15 @@ type Wafv2WebAclAssociation interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Wafv2WebAclAssociation
@@ -404,7 +413,7 @@ func (j *jsiiProxy_Wafv2WebAclAssociation) WebAclArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/wafv2_web_acl_association aws_wafv2_web_acl_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/wafv2_web_acl_association aws_wafv2_web_acl_association} Resource.
 func NewWafv2WebAclAssociation(scope constructs.Construct, id *string, config *Wafv2WebAclAssociationConfigA) Wafv2WebAclAssociation {
 	_init_.Initialize()
 
@@ -422,7 +431,7 @@ func NewWafv2WebAclAssociation(scope constructs.Construct, id *string, config *W
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/wafv2_web_acl_association aws_wafv2_web_acl_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/wafv2_web_acl_association aws_wafv2_web_acl_association} Resource.
 func NewWafv2WebAclAssociation_Override(w Wafv2WebAclAssociation, scope constructs.Construct, id *string, config *Wafv2WebAclAssociationConfigA) {
 	_init_.Initialize()
 
@@ -1013,6 +1022,24 @@ func (w *jsiiProxy_Wafv2WebAclAssociation) ToTerraform() interface{} {
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_Wafv2WebAclAssociation) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

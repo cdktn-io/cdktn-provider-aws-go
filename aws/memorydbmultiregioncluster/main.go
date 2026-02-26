@@ -94,6 +94,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "updateStrategy", GoGetter: "UpdateStrategy"},
 			_jsii_.MemberProperty{JsiiProperty: "updateStrategyInput", GoGetter: "UpdateStrategyInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_MemorydbMultiRegionCluster{}

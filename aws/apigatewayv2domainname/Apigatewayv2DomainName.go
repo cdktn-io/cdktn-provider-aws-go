@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/apigatewayv2_domain_name aws_apigatewayv2_domain_name}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/apigatewayv2_domain_name aws_apigatewayv2_domain_name}.
 type Apigatewayv2DomainName interface {
 	cdktn.TerraformResource
 	ApiMappingSelectionExpression() *string
@@ -154,6 +154,15 @@ type Apigatewayv2DomainName interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Apigatewayv2DomainName
@@ -522,7 +531,7 @@ func (j *jsiiProxy_Apigatewayv2DomainName) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/apigatewayv2_domain_name aws_apigatewayv2_domain_name} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/apigatewayv2_domain_name aws_apigatewayv2_domain_name} Resource.
 func NewApigatewayv2DomainName(scope constructs.Construct, id *string, config *Apigatewayv2DomainNameConfig) Apigatewayv2DomainName {
 	_init_.Initialize()
 
@@ -540,7 +549,7 @@ func NewApigatewayv2DomainName(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/apigatewayv2_domain_name aws_apigatewayv2_domain_name} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/apigatewayv2_domain_name aws_apigatewayv2_domain_name} Resource.
 func NewApigatewayv2DomainName_Override(a Apigatewayv2DomainName, scope constructs.Construct, id *string, config *Apigatewayv2DomainNameConfig) {
 	_init_.Initialize()
 
@@ -1207,6 +1216,24 @@ func (a *jsiiProxy_Apigatewayv2DomainName) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_Apigatewayv2DomainName) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

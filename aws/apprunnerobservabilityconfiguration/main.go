@@ -77,6 +77,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "traceConfiguration", GoGetter: "TraceConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "traceConfigurationInput", GoGetter: "TraceConfigurationInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ApprunnerObservabilityConfiguration{}

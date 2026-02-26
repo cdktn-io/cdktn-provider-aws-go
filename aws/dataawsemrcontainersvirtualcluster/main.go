@@ -63,6 +63,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualClusterId", GoGetter: "VirtualClusterId"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualClusterIdInput", GoGetter: "VirtualClusterIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsEmrcontainersVirtualCluster{}

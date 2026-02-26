@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sesv2_account_suppression_attributes aws_sesv2_account_suppression_attributes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sesv2_account_suppression_attributes aws_sesv2_account_suppression_attributes}.
 type Sesv2AccountSuppressionAttributes interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -126,6 +126,15 @@ type Sesv2AccountSuppressionAttributes interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Sesv2AccountSuppressionAttributes
@@ -344,7 +353,7 @@ func (j *jsiiProxy_Sesv2AccountSuppressionAttributes) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sesv2_account_suppression_attributes aws_sesv2_account_suppression_attributes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sesv2_account_suppression_attributes aws_sesv2_account_suppression_attributes} Resource.
 func NewSesv2AccountSuppressionAttributes(scope constructs.Construct, id *string, config *Sesv2AccountSuppressionAttributesConfig) Sesv2AccountSuppressionAttributes {
 	_init_.Initialize()
 
@@ -362,7 +371,7 @@ func NewSesv2AccountSuppressionAttributes(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sesv2_account_suppression_attributes aws_sesv2_account_suppression_attributes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sesv2_account_suppression_attributes aws_sesv2_account_suppression_attributes} Resource.
 func NewSesv2AccountSuppressionAttributes_Override(s Sesv2AccountSuppressionAttributes, scope constructs.Construct, id *string, config *Sesv2AccountSuppressionAttributesConfig) {
 	_init_.Initialize()
 
@@ -904,6 +913,24 @@ func (s *jsiiProxy_Sesv2AccountSuppressionAttributes) ToTerraform() interface{} 
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_Sesv2AccountSuppressionAttributes) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/docdb_cluster_snapshot aws_docdb_cluster_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/docdb_cluster_snapshot aws_docdb_cluster_snapshot}.
 type DocdbClusterSnapshot interface {
 	cdktn.TerraformResource
 	AvailabilityZones() *[]*string
@@ -147,6 +147,15 @@ type DocdbClusterSnapshot interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DocdbClusterSnapshot
@@ -525,7 +534,7 @@ func (j *jsiiProxy_DocdbClusterSnapshot) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/docdb_cluster_snapshot aws_docdb_cluster_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/docdb_cluster_snapshot aws_docdb_cluster_snapshot} Resource.
 func NewDocdbClusterSnapshot(scope constructs.Construct, id *string, config *DocdbClusterSnapshotConfig) DocdbClusterSnapshot {
 	_init_.Initialize()
 
@@ -543,7 +552,7 @@ func NewDocdbClusterSnapshot(scope constructs.Construct, id *string, config *Doc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/docdb_cluster_snapshot aws_docdb_cluster_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/docdb_cluster_snapshot aws_docdb_cluster_snapshot} Resource.
 func NewDocdbClusterSnapshot_Override(d DocdbClusterSnapshot, scope constructs.Construct, id *string, config *DocdbClusterSnapshotConfig) {
 	_init_.Initialize()
 
@@ -1134,6 +1143,24 @@ func (d *jsiiProxy_DocdbClusterSnapshot) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DocdbClusterSnapshot) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

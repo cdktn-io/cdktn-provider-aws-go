@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appsync_api aws_appsync_api}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appsync_api aws_appsync_api}.
 type AppsyncApi interface {
 	cdktn.TerraformResource
 	ApiArn() *string
@@ -143,6 +143,15 @@ type AppsyncApi interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AppsyncApi
@@ -471,7 +480,7 @@ func (j *jsiiProxy_AppsyncApi) XrayEnabled() cdktn.IResolvable {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appsync_api aws_appsync_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appsync_api aws_appsync_api} Resource.
 func NewAppsyncApi(scope constructs.Construct, id *string, config *AppsyncApiConfig) AppsyncApi {
 	_init_.Initialize()
 
@@ -489,7 +498,7 @@ func NewAppsyncApi(scope constructs.Construct, id *string, config *AppsyncApiCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appsync_api aws_appsync_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appsync_api aws_appsync_api} Resource.
 func NewAppsyncApi_Override(a AppsyncApi, scope constructs.Construct, id *string, config *AppsyncApiConfig) {
 	_init_.Initialize()
 
@@ -1088,6 +1097,24 @@ func (a *jsiiProxy_AppsyncApi) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AppsyncApi) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

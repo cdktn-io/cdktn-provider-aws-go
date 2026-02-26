@@ -170,6 +170,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "verificationMessageTemplateInput", GoGetter: "VerificationMessageTemplateInput"},
 			_jsii_.MemberProperty{JsiiProperty: "webAuthnConfiguration", GoGetter: "WebAuthnConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "webAuthnConfigurationInput", GoGetter: "WebAuthnConfigurationInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_CognitoUserPool{}

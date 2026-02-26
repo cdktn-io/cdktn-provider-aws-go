@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_account_subscription aws_quicksight_account_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_account_subscription aws_quicksight_account_subscription}.
 type QuicksightAccountSubscription interface {
 	cdktn.TerraformResource
 	AccountName() *string
@@ -203,6 +203,15 @@ type QuicksightAccountSubscription interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for QuicksightAccountSubscription
@@ -821,7 +830,7 @@ func (j *jsiiProxy_QuicksightAccountSubscription) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_account_subscription aws_quicksight_account_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_account_subscription aws_quicksight_account_subscription} Resource.
 func NewQuicksightAccountSubscription(scope constructs.Construct, id *string, config *QuicksightAccountSubscriptionConfig) QuicksightAccountSubscription {
 	_init_.Initialize()
 
@@ -839,7 +848,7 @@ func NewQuicksightAccountSubscription(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_account_subscription aws_quicksight_account_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_account_subscription aws_quicksight_account_subscription} Resource.
 func NewQuicksightAccountSubscription_Override(q QuicksightAccountSubscription, scope constructs.Construct, id *string, config *QuicksightAccountSubscriptionConfig) {
 	_init_.Initialize()
 
@@ -1737,6 +1746,24 @@ func (q *jsiiProxy_QuicksightAccountSubscription) ToTerraform() interface{} {
 		q,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (q *jsiiProxy_QuicksightAccountSubscription) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		q,
+		"with",
+		args,
 		&returns,
 	)
 

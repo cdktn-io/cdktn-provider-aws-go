@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrockagentcore_api_key_credential_provider aws_bedrockagentcore_api_key_credential_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrockagentcore_api_key_credential_provider aws_bedrockagentcore_api_key_credential_provider}.
 type BedrockagentcoreApiKeyCredentialProvider interface {
 	cdktn.TerraformResource
 	ApiKey() *string
@@ -72,6 +72,10 @@ type BedrockagentcoreApiKeyCredentialProvider interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	Tags() *map[string]*string
+	SetTags(val *map[string]*string)
+	TagsAll() cdktn.StringMap
+	TagsInput() *map[string]*string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -128,6 +132,7 @@ type BedrockagentcoreApiKeyCredentialProvider interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRegion()
+	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -139,6 +144,15 @@ type BedrockagentcoreApiKeyCredentialProvider interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for BedrockagentcoreApiKeyCredentialProvider
@@ -396,6 +410,36 @@ func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) RegionInput() *stri
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) Tags() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) TagsAll() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"tagsAll",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) TagsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -427,7 +471,7 @@ func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrockagentcore_api_key_credential_provider aws_bedrockagentcore_api_key_credential_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrockagentcore_api_key_credential_provider aws_bedrockagentcore_api_key_credential_provider} Resource.
 func NewBedrockagentcoreApiKeyCredentialProvider(scope constructs.Construct, id *string, config *BedrockagentcoreApiKeyCredentialProviderConfig) BedrockagentcoreApiKeyCredentialProvider {
 	_init_.Initialize()
 
@@ -445,7 +489,7 @@ func NewBedrockagentcoreApiKeyCredentialProvider(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrockagentcore_api_key_credential_provider aws_bedrockagentcore_api_key_credential_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrockagentcore_api_key_credential_provider aws_bedrockagentcore_api_key_credential_provider} Resource.
 func NewBedrockagentcoreApiKeyCredentialProvider_Override(b BedrockagentcoreApiKeyCredentialProvider, scope constructs.Construct, id *string, config *BedrockagentcoreApiKeyCredentialProviderConfig) {
 	_init_.Initialize()
 
@@ -575,6 +619,17 @@ func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider)SetRegion(val *strin
 	_jsii_.Set(
 		j,
 		"region",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider)SetTags(val *map[string]*string) {
+	if err := j.validateSetTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tags",
 		val,
 	)
 }
@@ -972,6 +1027,14 @@ func (b *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) ResetRegion() {
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) ResetTags() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetTags",
+		nil, // no parameters
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) SynthesizeAttributes() *map[string]interface{} {
 	var returns *map[string]interface{}
 
@@ -1044,6 +1107,24 @@ func (b *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) ToTerraform() inter
 		b,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (b *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		b,
+		"with",
+		args,
 		&returns,
 	)
 

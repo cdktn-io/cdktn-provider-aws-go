@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster}.
 type FinspaceKxCluster interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -213,6 +213,15 @@ type FinspaceKxCluster interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for FinspaceKxCluster
@@ -911,7 +920,7 @@ func (j *jsiiProxy_FinspaceKxCluster) VpcConfigurationInput() *FinspaceKxCluster
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster} Resource.
 func NewFinspaceKxCluster(scope constructs.Construct, id *string, config *FinspaceKxClusterConfig) FinspaceKxCluster {
 	_init_.Initialize()
 
@@ -929,7 +938,7 @@ func NewFinspaceKxCluster(scope constructs.Construct, id *string, config *Finspa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster} Resource.
 func NewFinspaceKxCluster_Override(f FinspaceKxCluster, scope constructs.Construct, id *string, config *FinspaceKxClusterConfig) {
 	_init_.Initialize()
 
@@ -1849,6 +1858,24 @@ func (f *jsiiProxy_FinspaceKxCluster) ToTerraform() interface{} {
 		f,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (f *jsiiProxy_FinspaceKxCluster) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		f,
+		"with",
+		args,
 		&returns,
 	)
 

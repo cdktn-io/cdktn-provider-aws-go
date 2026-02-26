@@ -108,6 +108,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "volumeInitializationRate", GoGetter: "VolumeInitializationRate"},
 			_jsii_.MemberProperty{JsiiProperty: "volumeInitializationRateInput", GoGetter: "VolumeInitializationRateInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_EbsVolume{}

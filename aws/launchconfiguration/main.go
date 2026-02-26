@@ -118,6 +118,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userDataBase64", GoGetter: "UserDataBase64"},
 			_jsii_.MemberProperty{JsiiProperty: "userDataBase64Input", GoGetter: "UserDataBase64Input"},
 			_jsii_.MemberProperty{JsiiProperty: "userDataInput", GoGetter: "UserDataInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_LaunchConfiguration{}

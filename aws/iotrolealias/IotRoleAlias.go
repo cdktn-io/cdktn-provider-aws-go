@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_role_alias aws_iot_role_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iot_role_alias aws_iot_role_alias}.
 type IotRoleAlias interface {
 	cdktn.TerraformResource
 	Alias() *string
@@ -145,6 +145,15 @@ type IotRoleAlias interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IotRoleAlias
@@ -463,7 +472,7 @@ func (j *jsiiProxy_IotRoleAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_role_alias aws_iot_role_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iot_role_alias aws_iot_role_alias} Resource.
 func NewIotRoleAlias(scope constructs.Construct, id *string, config *IotRoleAliasConfig) IotRoleAlias {
 	_init_.Initialize()
 
@@ -481,7 +490,7 @@ func NewIotRoleAlias(scope constructs.Construct, id *string, config *IotRoleAlia
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_role_alias aws_iot_role_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iot_role_alias aws_iot_role_alias} Resource.
 func NewIotRoleAlias_Override(i IotRoleAlias, scope constructs.Construct, id *string, config *IotRoleAliasConfig) {
 	_init_.Initialize()
 
@@ -1110,6 +1119,24 @@ func (i *jsiiProxy_IotRoleAlias) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IotRoleAlias) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

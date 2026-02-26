@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sns_topic aws_sns_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sns_topic aws_sns_topic}.
 type SnsTopic interface {
 	cdktn.TerraformResource
 	ApplicationFailureFeedbackRoleArn() *string
@@ -245,6 +245,15 @@ type SnsTopic interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SnsTopic
@@ -1063,7 +1072,7 @@ func (j *jsiiProxy_SnsTopic) TracingConfigInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sns_topic aws_sns_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sns_topic aws_sns_topic} Resource.
 func NewSnsTopic(scope constructs.Construct, id *string, config *SnsTopicConfig) SnsTopic {
 	_init_.Initialize()
 
@@ -1081,7 +1090,7 @@ func NewSnsTopic(scope constructs.Construct, id *string, config *SnsTopicConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sns_topic aws_sns_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sns_topic aws_sns_topic} Resource.
 func NewSnsTopic_Override(s SnsTopic, scope constructs.Construct, id *string, config *SnsTopicConfig) {
 	_init_.Initialize()
 
@@ -2182,6 +2191,24 @@ func (s *jsiiProxy_SnsTopic) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SnsTopic) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -108,6 +108,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayCidrBlocksInput", GoGetter: "TransitGatewayCidrBlocksInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnEcmpSupport", GoGetter: "VpnEcmpSupport"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnEcmpSupportInput", GoGetter: "VpnEcmpSupportInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_Ec2TransitGateway{}

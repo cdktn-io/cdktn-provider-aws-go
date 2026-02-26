@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule}.
 type Apigatewayv2RoutingRule interface {
 	cdktn.TerraformResource
 	Action() Apigatewayv2RoutingRuleActionList
@@ -138,6 +138,15 @@ type Apigatewayv2RoutingRule interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Apigatewayv2RoutingRule
@@ -426,7 +435,7 @@ func (j *jsiiProxy_Apigatewayv2RoutingRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule} Resource.
 func NewApigatewayv2RoutingRule(scope constructs.Construct, id *string, config *Apigatewayv2RoutingRuleConfig) Apigatewayv2RoutingRule {
 	_init_.Initialize()
 
@@ -444,7 +453,7 @@ func NewApigatewayv2RoutingRule(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule} Resource.
 func NewApigatewayv2RoutingRule_Override(a Apigatewayv2RoutingRule, scope constructs.Construct, id *string, config *Apigatewayv2RoutingRuleConfig) {
 	_init_.Initialize()
 
@@ -1035,6 +1044,24 @@ func (a *jsiiProxy_Apigatewayv2RoutingRule) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_Apigatewayv2RoutingRule) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

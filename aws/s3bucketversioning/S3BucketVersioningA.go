@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3_bucket_versioning aws_s3_bucket_versioning}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3_bucket_versioning aws_s3_bucket_versioning}.
 type S3BucketVersioningA interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -140,6 +140,15 @@ type S3BucketVersioningA interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for S3BucketVersioningA
@@ -428,7 +437,7 @@ func (j *jsiiProxy_S3BucketVersioningA) VersioningConfigurationInput() *S3Bucket
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3_bucket_versioning aws_s3_bucket_versioning} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3_bucket_versioning aws_s3_bucket_versioning} Resource.
 func NewS3BucketVersioningA(scope constructs.Construct, id *string, config *S3BucketVersioningAConfig) S3BucketVersioningA {
 	_init_.Initialize()
 
@@ -446,7 +455,7 @@ func NewS3BucketVersioningA(scope constructs.Construct, id *string, config *S3Bu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3_bucket_versioning aws_s3_bucket_versioning} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3_bucket_versioning aws_s3_bucket_versioning} Resource.
 func NewS3BucketVersioningA_Override(s S3BucketVersioningA, scope constructs.Construct, id *string, config *S3BucketVersioningAConfig) {
 	_init_.Initialize()
 
@@ -1056,6 +1065,24 @@ func (s *jsiiProxy_S3BucketVersioningA) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_S3BucketVersioningA) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

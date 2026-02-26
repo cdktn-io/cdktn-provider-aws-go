@@ -157,6 +157,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ttlInput", GoGetter: "TtlInput"},
 			_jsii_.MemberProperty{JsiiProperty: "warmThroughput", GoGetter: "WarmThroughput"},
 			_jsii_.MemberProperty{JsiiProperty: "warmThroughputInput", GoGetter: "WarmThroughputInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "writeCapacity", GoGetter: "WriteCapacity"},
 			_jsii_.MemberProperty{JsiiProperty: "writeCapacityInput", GoGetter: "WriteCapacityInput"},
 		},

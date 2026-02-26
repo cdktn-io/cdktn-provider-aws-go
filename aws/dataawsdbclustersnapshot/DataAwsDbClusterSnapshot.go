@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/db_cluster_snapshot aws_db_cluster_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/db_cluster_snapshot aws_db_cluster_snapshot}.
 type DataAwsDbClusterSnapshot interface {
 	cdktn.TerraformDataSource
 	AllocatedStorage() *float64
@@ -142,6 +142,15 @@ type DataAwsDbClusterSnapshot interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsDbClusterSnapshot
@@ -600,7 +609,7 @@ func (j *jsiiProxy_DataAwsDbClusterSnapshot) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/db_cluster_snapshot aws_db_cluster_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/db_cluster_snapshot aws_db_cluster_snapshot} Data Source.
 func NewDataAwsDbClusterSnapshot(scope constructs.Construct, id *string, config *DataAwsDbClusterSnapshotConfig) DataAwsDbClusterSnapshot {
 	_init_.Initialize()
 
@@ -618,7 +627,7 @@ func NewDataAwsDbClusterSnapshot(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/db_cluster_snapshot aws_db_cluster_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/db_cluster_snapshot aws_db_cluster_snapshot} Data Source.
 func NewDataAwsDbClusterSnapshot_Override(d DataAwsDbClusterSnapshot, scope constructs.Construct, id *string, config *DataAwsDbClusterSnapshotConfig) {
 	_init_.Initialize()
 
@@ -1211,6 +1220,24 @@ func (d *jsiiProxy_DataAwsDbClusterSnapshot) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsDbClusterSnapshot) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

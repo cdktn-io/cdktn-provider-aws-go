@@ -63,6 +63,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "totalAddressCount", GoGetter: "TotalAddressCount"},
 			_jsii_.MemberProperty{JsiiProperty: "totalAvailableAddressCount", GoGetter: "TotalAvailableAddressCount"},
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsEc2PublicIpv4Pool{}

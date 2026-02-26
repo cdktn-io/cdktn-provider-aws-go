@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_labeling_job aws_sagemaker_labeling_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_labeling_job aws_sagemaker_labeling_job}.
 type SagemakerLabelingJob interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -165,6 +165,15 @@ type SagemakerLabelingJob interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SagemakerLabelingJob
@@ -613,7 +622,7 @@ func (j *jsiiProxy_SagemakerLabelingJob) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_labeling_job aws_sagemaker_labeling_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_labeling_job aws_sagemaker_labeling_job} Resource.
 func NewSagemakerLabelingJob(scope constructs.Construct, id *string, config *SagemakerLabelingJobConfig) SagemakerLabelingJob {
 	_init_.Initialize()
 
@@ -631,7 +640,7 @@ func NewSagemakerLabelingJob(scope constructs.Construct, id *string, config *Sag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_labeling_job aws_sagemaker_labeling_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_labeling_job aws_sagemaker_labeling_job} Resource.
 func NewSagemakerLabelingJob_Override(s SagemakerLabelingJob, scope constructs.Construct, id *string, config *SagemakerLabelingJobConfig) {
 	_init_.Initialize()
 
@@ -1328,6 +1337,24 @@ func (s *jsiiProxy_SagemakerLabelingJob) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SagemakerLabelingJob) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

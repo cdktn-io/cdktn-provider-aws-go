@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lexv2models_bot_version aws_lexv2models_bot_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lexv2models_bot_version aws_lexv2models_bot_version}.
 type Lexv2ModelsBotVersion interface {
 	cdktn.TerraformResource
 	BotId() *string
@@ -141,6 +141,15 @@ type Lexv2ModelsBotVersion interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Lexv2ModelsBotVersion
@@ -439,7 +448,7 @@ func (j *jsiiProxy_Lexv2ModelsBotVersion) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lexv2models_bot_version aws_lexv2models_bot_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lexv2models_bot_version aws_lexv2models_bot_version} Resource.
 func NewLexv2ModelsBotVersion(scope constructs.Construct, id *string, config *Lexv2ModelsBotVersionConfig) Lexv2ModelsBotVersion {
 	_init_.Initialize()
 
@@ -457,7 +466,7 @@ func NewLexv2ModelsBotVersion(scope constructs.Construct, id *string, config *Le
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lexv2models_bot_version aws_lexv2models_bot_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lexv2models_bot_version aws_lexv2models_bot_version} Resource.
 func NewLexv2ModelsBotVersion_Override(l Lexv2ModelsBotVersion, scope constructs.Construct, id *string, config *Lexv2ModelsBotVersionConfig) {
 	_init_.Initialize()
 
@@ -1067,6 +1076,24 @@ func (l *jsiiProxy_Lexv2ModelsBotVersion) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_Lexv2ModelsBotVersion) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

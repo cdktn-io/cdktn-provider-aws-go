@@ -73,6 +73,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "uiTemplate", GoGetter: "UiTemplate"},
 			_jsii_.MemberProperty{JsiiProperty: "uiTemplateInput", GoGetter: "UiTemplateInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_SagemakerHumanTaskUi{}

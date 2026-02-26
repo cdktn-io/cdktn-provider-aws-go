@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appconfig_configuration_profile aws_appconfig_configuration_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appconfig_configuration_profile aws_appconfig_configuration_profile}.
 type AppconfigConfigurationProfile interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -165,6 +165,15 @@ type AppconfigConfigurationProfile interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AppconfigConfigurationProfile
@@ -593,7 +602,7 @@ func (j *jsiiProxy_AppconfigConfigurationProfile) ValidatorInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appconfig_configuration_profile aws_appconfig_configuration_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appconfig_configuration_profile aws_appconfig_configuration_profile} Resource.
 func NewAppconfigConfigurationProfile(scope constructs.Construct, id *string, config *AppconfigConfigurationProfileConfig) AppconfigConfigurationProfile {
 	_init_.Initialize()
 
@@ -611,7 +620,7 @@ func NewAppconfigConfigurationProfile(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appconfig_configuration_profile aws_appconfig_configuration_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appconfig_configuration_profile aws_appconfig_configuration_profile} Resource.
 func NewAppconfigConfigurationProfile_Override(a AppconfigConfigurationProfile, scope constructs.Construct, id *string, config *AppconfigConfigurationProfileConfig) {
 	_init_.Initialize()
 
@@ -1327,6 +1336,24 @@ func (a *jsiiProxy_AppconfigConfigurationProfile) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AppconfigConfigurationProfile) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

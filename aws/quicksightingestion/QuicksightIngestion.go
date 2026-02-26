@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion}.
 type QuicksightIngestion interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -138,6 +138,15 @@ type QuicksightIngestion interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for QuicksightIngestion
@@ -436,7 +445,7 @@ func (j *jsiiProxy_QuicksightIngestion) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion} Resource.
 func NewQuicksightIngestion(scope constructs.Construct, id *string, config *QuicksightIngestionConfig) QuicksightIngestion {
 	_init_.Initialize()
 
@@ -454,7 +463,7 @@ func NewQuicksightIngestion(scope constructs.Construct, id *string, config *Quic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion} Resource.
 func NewQuicksightIngestion_Override(q QuicksightIngestion, scope constructs.Construct, id *string, config *QuicksightIngestionConfig) {
 	_init_.Initialize()
 
@@ -1037,6 +1046,24 @@ func (q *jsiiProxy_QuicksightIngestion) ToTerraform() interface{} {
 		q,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (q *jsiiProxy_QuicksightIngestion) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		q,
+		"with",
+		args,
 		&returns,
 	)
 

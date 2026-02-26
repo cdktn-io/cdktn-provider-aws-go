@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope}.
 type SsoadminApplicationAccessScope interface {
 	cdktn.TerraformResource
 	ApplicationArn() *string
@@ -133,6 +133,15 @@ type SsoadminApplicationAccessScope interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SsoadminApplicationAccessScope
@@ -391,7 +400,7 @@ func (j *jsiiProxy_SsoadminApplicationAccessScope) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope} Resource.
 func NewSsoadminApplicationAccessScope(scope constructs.Construct, id *string, config *SsoadminApplicationAccessScopeConfig) SsoadminApplicationAccessScope {
 	_init_.Initialize()
 
@@ -409,7 +418,7 @@ func NewSsoadminApplicationAccessScope(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope} Resource.
 func NewSsoadminApplicationAccessScope_Override(s SsoadminApplicationAccessScope, scope constructs.Construct, id *string, config *SsoadminApplicationAccessScopeConfig) {
 	_init_.Initialize()
 
@@ -981,6 +990,24 @@ func (s *jsiiProxy_SsoadminApplicationAccessScope) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SsoadminApplicationAccessScope) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kms_custom_key_store aws_kms_custom_key_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kms_custom_key_store aws_kms_custom_key_store}.
 type KmsCustomKeyStore interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -169,6 +169,15 @@ type KmsCustomKeyStore interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for KmsCustomKeyStore
@@ -597,7 +606,7 @@ func (j *jsiiProxy_KmsCustomKeyStore) XksProxyVpcEndpointServiceNameInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kms_custom_key_store aws_kms_custom_key_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kms_custom_key_store aws_kms_custom_key_store} Resource.
 func NewKmsCustomKeyStore(scope constructs.Construct, id *string, config *KmsCustomKeyStoreConfig) KmsCustomKeyStore {
 	_init_.Initialize()
 
@@ -615,7 +624,7 @@ func NewKmsCustomKeyStore(scope constructs.Construct, id *string, config *KmsCus
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kms_custom_key_store aws_kms_custom_key_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kms_custom_key_store aws_kms_custom_key_store} Resource.
 func NewKmsCustomKeyStore_Override(k KmsCustomKeyStore, scope constructs.Construct, id *string, config *KmsCustomKeyStoreConfig) {
 	_init_.Initialize()
 
@@ -1366,6 +1375,24 @@ func (k *jsiiProxy_KmsCustomKeyStore) ToTerraform() interface{} {
 		k,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (k *jsiiProxy_KmsCustomKeyStore) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		k,
+		"with",
+		args,
 		&returns,
 	)
 

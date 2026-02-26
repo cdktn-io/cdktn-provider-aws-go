@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/organizations_account aws_organizations_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/organizations_account aws_organizations_account}.
 type DataAwsOrganizationsAccount interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -111,6 +111,15 @@ type DataAwsOrganizationsAccount interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsOrganizationsAccount
@@ -389,7 +398,7 @@ func (j *jsiiProxy_DataAwsOrganizationsAccount) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/organizations_account aws_organizations_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/organizations_account aws_organizations_account} Data Source.
 func NewDataAwsOrganizationsAccount(scope constructs.Construct, id *string, config *DataAwsOrganizationsAccountConfig) DataAwsOrganizationsAccount {
 	_init_.Initialize()
 
@@ -407,7 +416,7 @@ func NewDataAwsOrganizationsAccount(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/organizations_account aws_organizations_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/organizations_account aws_organizations_account} Data Source.
 func NewDataAwsOrganizationsAccount_Override(d DataAwsOrganizationsAccount, scope constructs.Construct, id *string, config *DataAwsOrganizationsAccountConfig) {
 	_init_.Initialize()
 
@@ -878,6 +887,24 @@ func (d *jsiiProxy_DataAwsOrganizationsAccount) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsOrganizationsAccount) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

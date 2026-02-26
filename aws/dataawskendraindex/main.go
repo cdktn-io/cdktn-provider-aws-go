@@ -71,6 +71,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userContextPolicy", GoGetter: "UserContextPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "userGroupResolutionConfiguration", GoGetter: "UserGroupResolutionConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "userTokenConfigurations", GoGetter: "UserTokenConfigurations"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsKendraIndex{}

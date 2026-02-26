@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ebs_encryption_by_default aws_ebs_encryption_by_default}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ebs_encryption_by_default aws_ebs_encryption_by_default}.
 type EbsEncryptionByDefault interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -130,6 +130,15 @@ type EbsEncryptionByDefault interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EbsEncryptionByDefault
@@ -358,7 +367,7 @@ func (j *jsiiProxy_EbsEncryptionByDefault) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ebs_encryption_by_default aws_ebs_encryption_by_default} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ebs_encryption_by_default aws_ebs_encryption_by_default} Resource.
 func NewEbsEncryptionByDefault(scope constructs.Construct, id *string, config *EbsEncryptionByDefaultConfig) EbsEncryptionByDefault {
 	_init_.Initialize()
 
@@ -376,7 +385,7 @@ func NewEbsEncryptionByDefault(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ebs_encryption_by_default aws_ebs_encryption_by_default} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ebs_encryption_by_default aws_ebs_encryption_by_default} Resource.
 func NewEbsEncryptionByDefault_Override(e EbsEncryptionByDefault, scope constructs.Construct, id *string, config *EbsEncryptionByDefaultConfig) {
 	_init_.Initialize()
 
@@ -945,6 +954,24 @@ func (e *jsiiProxy_EbsEncryptionByDefault) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EbsEncryptionByDefault) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

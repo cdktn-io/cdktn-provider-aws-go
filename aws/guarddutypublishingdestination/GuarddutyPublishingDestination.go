@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/guardduty_publishing_destination aws_guardduty_publishing_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/guardduty_publishing_destination aws_guardduty_publishing_destination}.
 type GuarddutyPublishingDestination interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -139,6 +139,15 @@ type GuarddutyPublishingDestination interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for GuarddutyPublishingDestination
@@ -427,7 +436,7 @@ func (j *jsiiProxy_GuarddutyPublishingDestination) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/guardduty_publishing_destination aws_guardduty_publishing_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/guardduty_publishing_destination aws_guardduty_publishing_destination} Resource.
 func NewGuarddutyPublishingDestination(scope constructs.Construct, id *string, config *GuarddutyPublishingDestinationConfig) GuarddutyPublishingDestination {
 	_init_.Initialize()
 
@@ -445,7 +454,7 @@ func NewGuarddutyPublishingDestination(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/guardduty_publishing_destination aws_guardduty_publishing_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/guardduty_publishing_destination aws_guardduty_publishing_destination} Resource.
 func NewGuarddutyPublishingDestination_Override(g GuarddutyPublishingDestination, scope constructs.Construct, id *string, config *GuarddutyPublishingDestinationConfig) {
 	_init_.Initialize()
 
@@ -1047,6 +1056,24 @@ func (g *jsiiProxy_GuarddutyPublishingDestination) ToTerraform() interface{} {
 		g,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (g *jsiiProxy_GuarddutyPublishingDestination) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		g,
+		"with",
+		args,
 		&returns,
 	)
 

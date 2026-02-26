@@ -76,6 +76,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "whitelistRules", GoGetter: "WhitelistRules"},
 			_jsii_.MemberProperty{JsiiProperty: "whitelistRulesInput", GoGetter: "WhitelistRulesInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_MedialiveInputSecurityGroup{}

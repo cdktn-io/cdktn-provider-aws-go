@@ -212,6 +212,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "useCsvNoSupValueInput", GoGetter: "UseCsvNoSupValueInput"},
 			_jsii_.MemberProperty{JsiiProperty: "useTaskStartTimeForFullLoadTimestamp", GoGetter: "UseTaskStartTimeForFullLoadTimestamp"},
 			_jsii_.MemberProperty{JsiiProperty: "useTaskStartTimeForFullLoadTimestampInput", GoGetter: "UseTaskStartTimeForFullLoadTimestampInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DmsS3Endpoint{}

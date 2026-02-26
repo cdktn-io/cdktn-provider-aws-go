@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/storagegateway_cache aws_storagegateway_cache}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/storagegateway_cache aws_storagegateway_cache}.
 type StoragegatewayCache interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -132,6 +132,15 @@ type StoragegatewayCache interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for StoragegatewayCache
@@ -380,7 +389,7 @@ func (j *jsiiProxy_StoragegatewayCache) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/storagegateway_cache aws_storagegateway_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/storagegateway_cache aws_storagegateway_cache} Resource.
 func NewStoragegatewayCache(scope constructs.Construct, id *string, config *StoragegatewayCacheConfig) StoragegatewayCache {
 	_init_.Initialize()
 
@@ -398,7 +407,7 @@ func NewStoragegatewayCache(scope constructs.Construct, id *string, config *Stor
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/storagegateway_cache aws_storagegateway_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/storagegateway_cache aws_storagegateway_cache} Resource.
 func NewStoragegatewayCache_Override(s StoragegatewayCache, scope constructs.Construct, id *string, config *StoragegatewayCacheConfig) {
 	_init_.Initialize()
 
@@ -970,6 +979,24 @@ func (s *jsiiProxy_StoragegatewayCache) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_StoragegatewayCache) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

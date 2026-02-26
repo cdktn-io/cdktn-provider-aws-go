@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/rds_instance_state aws_rds_instance_state}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/rds_instance_state aws_rds_instance_state}.
 type RdsInstanceState interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -132,6 +132,15 @@ type RdsInstanceState interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for RdsInstanceState
@@ -380,7 +389,7 @@ func (j *jsiiProxy_RdsInstanceState) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/rds_instance_state aws_rds_instance_state} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/rds_instance_state aws_rds_instance_state} Resource.
 func NewRdsInstanceState(scope constructs.Construct, id *string, config *RdsInstanceStateConfig) RdsInstanceState {
 	_init_.Initialize()
 
@@ -398,7 +407,7 @@ func NewRdsInstanceState(scope constructs.Construct, id *string, config *RdsInst
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/rds_instance_state aws_rds_instance_state} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/rds_instance_state aws_rds_instance_state} Resource.
 func NewRdsInstanceState_Override(r RdsInstanceState, scope constructs.Construct, id *string, config *RdsInstanceStateConfig) {
 	_init_.Initialize()
 
@@ -970,6 +979,24 @@ func (r *jsiiProxy_RdsInstanceState) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_RdsInstanceState) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

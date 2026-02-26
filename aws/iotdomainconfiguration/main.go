@@ -100,6 +100,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "validationCertificateArn", GoGetter: "ValidationCertificateArn"},
 			_jsii_.MemberProperty{JsiiProperty: "validationCertificateArnInput", GoGetter: "ValidationCertificateArnInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_IotDomainConfiguration{}

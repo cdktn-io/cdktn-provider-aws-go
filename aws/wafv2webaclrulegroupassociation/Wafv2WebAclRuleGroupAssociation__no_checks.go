@@ -87,6 +87,10 @@ func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociation) validatePutTimeoutsParameter
 	return nil
 }
 
+func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociation) validatePutVisibilityConfigParameters(value interface{}) error {
+	return nil
+}
+
 func validateWafv2WebAclRuleGroupAssociation_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

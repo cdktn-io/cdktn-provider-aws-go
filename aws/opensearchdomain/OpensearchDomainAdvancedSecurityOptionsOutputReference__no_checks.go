@@ -47,6 +47,10 @@ func (o *jsiiProxy_OpensearchDomainAdvancedSecurityOptionsOutputReference) valid
 	return nil
 }
 
+func (o *jsiiProxy_OpensearchDomainAdvancedSecurityOptionsOutputReference) validatePutJwtOptionsParameters(value *OpensearchDomainAdvancedSecurityOptionsJwtOptions) error {
+	return nil
+}
+
 func (o *jsiiProxy_OpensearchDomainAdvancedSecurityOptionsOutputReference) validatePutMasterUserOptionsParameters(value *OpensearchDomainAdvancedSecurityOptionsMasterUserOptions) error {
 	return nil
 }

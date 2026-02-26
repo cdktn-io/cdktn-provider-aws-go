@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/route53domains_delegation_signer_record aws_route53domains_delegation_signer_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/route53domains_delegation_signer_record aws_route53domains_delegation_signer_record}.
 type Route53DomainsDelegationSignerRecord interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -131,6 +131,15 @@ type Route53DomainsDelegationSignerRecord interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Route53DomainsDelegationSignerRecord
@@ -379,7 +388,7 @@ func (j *jsiiProxy_Route53DomainsDelegationSignerRecord) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/route53domains_delegation_signer_record aws_route53domains_delegation_signer_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/route53domains_delegation_signer_record aws_route53domains_delegation_signer_record} Resource.
 func NewRoute53DomainsDelegationSignerRecord(scope constructs.Construct, id *string, config *Route53DomainsDelegationSignerRecordConfig) Route53DomainsDelegationSignerRecord {
 	_init_.Initialize()
 
@@ -397,7 +406,7 @@ func NewRoute53DomainsDelegationSignerRecord(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/route53domains_delegation_signer_record aws_route53domains_delegation_signer_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/route53domains_delegation_signer_record aws_route53domains_delegation_signer_record} Resource.
 func NewRoute53DomainsDelegationSignerRecord_Override(r Route53DomainsDelegationSignerRecord, scope constructs.Construct, id *string, config *Route53DomainsDelegationSignerRecordConfig) {
 	_init_.Initialize()
 
@@ -958,6 +967,24 @@ func (r *jsiiProxy_Route53DomainsDelegationSignerRecord) ToTerraform() interface
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_Route53DomainsDelegationSignerRecord) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

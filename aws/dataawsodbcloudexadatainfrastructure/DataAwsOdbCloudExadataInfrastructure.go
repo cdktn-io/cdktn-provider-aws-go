@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/odb_cloud_exadata_infrastructure aws_odb_cloud_exadata_infrastructure}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/odb_cloud_exadata_infrastructure aws_odb_cloud_exadata_infrastructure}.
 type DataAwsOdbCloudExadataInfrastructure interface {
 	cdktn.TerraformDataSource
 	ActivatedStorageCount() *float64
@@ -138,6 +138,15 @@ type DataAwsOdbCloudExadataInfrastructure interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsOdbCloudExadataInfrastructure
@@ -706,7 +715,7 @@ func (j *jsiiProxy_DataAwsOdbCloudExadataInfrastructure) TotalStorageSizeInGbs()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/odb_cloud_exadata_infrastructure aws_odb_cloud_exadata_infrastructure} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/odb_cloud_exadata_infrastructure aws_odb_cloud_exadata_infrastructure} Data Source.
 func NewDataAwsOdbCloudExadataInfrastructure(scope constructs.Construct, id *string, config *DataAwsOdbCloudExadataInfrastructureConfig) DataAwsOdbCloudExadataInfrastructure {
 	_init_.Initialize()
 
@@ -724,7 +733,7 @@ func NewDataAwsOdbCloudExadataInfrastructure(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/odb_cloud_exadata_infrastructure aws_odb_cloud_exadata_infrastructure} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/odb_cloud_exadata_infrastructure aws_odb_cloud_exadata_infrastructure} Data Source.
 func NewDataAwsOdbCloudExadataInfrastructure_Override(d DataAwsOdbCloudExadataInfrastructure, scope constructs.Construct, id *string, config *DataAwsOdbCloudExadataInfrastructureConfig) {
 	_init_.Initialize()
 
@@ -1176,6 +1185,24 @@ func (d *jsiiProxy_DataAwsOdbCloudExadataInfrastructure) ToTerraform() interface
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsOdbCloudExadataInfrastructure) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

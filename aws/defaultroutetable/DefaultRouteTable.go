@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/default_route_table aws_default_route_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/default_route_table aws_default_route_table}.
 type DefaultRouteTable interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -152,6 +152,15 @@ type DefaultRouteTable interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DefaultRouteTable
@@ -510,7 +519,7 @@ func (j *jsiiProxy_DefaultRouteTable) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/default_route_table aws_default_route_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/default_route_table aws_default_route_table} Resource.
 func NewDefaultRouteTable(scope constructs.Construct, id *string, config *DefaultRouteTableConfig) DefaultRouteTable {
 	_init_.Initialize()
 
@@ -528,7 +537,7 @@ func NewDefaultRouteTable(scope constructs.Construct, id *string, config *Defaul
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/default_route_table aws_default_route_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/default_route_table aws_default_route_table} Resource.
 func NewDefaultRouteTable_Override(d DefaultRouteTable, scope constructs.Construct, id *string, config *DefaultRouteTableConfig) {
 	_init_.Initialize()
 
@@ -1184,6 +1193,24 @@ func (d *jsiiProxy_DefaultRouteTable) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DefaultRouteTable) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

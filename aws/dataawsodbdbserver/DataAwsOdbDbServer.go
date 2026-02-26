@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/odb_db_server aws_odb_db_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/odb_db_server aws_odb_db_server}.
 type DataAwsOdbDbServer interface {
 	cdktn.TerraformDataSource
 	AutonomousVirtualMachineIds() *[]*string
@@ -122,6 +122,15 @@ type DataAwsOdbDbServer interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsOdbDbServer
@@ -520,7 +529,7 @@ func (j *jsiiProxy_DataAwsOdbDbServer) VmClusterIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/odb_db_server aws_odb_db_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/odb_db_server aws_odb_db_server} Data Source.
 func NewDataAwsOdbDbServer(scope constructs.Construct, id *string, config *DataAwsOdbDbServerConfig) DataAwsOdbDbServer {
 	_init_.Initialize()
 
@@ -538,7 +547,7 @@ func NewDataAwsOdbDbServer(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/odb_db_server aws_odb_db_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/odb_db_server aws_odb_db_server} Data Source.
 func NewDataAwsOdbDbServer_Override(d DataAwsOdbDbServer, scope constructs.Construct, id *string, config *DataAwsOdbDbServerConfig) {
 	_init_.Initialize()
 
@@ -1001,6 +1010,24 @@ func (d *jsiiProxy_DataAwsOdbDbServer) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsOdbDbServer) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

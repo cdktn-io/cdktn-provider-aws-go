@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/network_acls aws_network_acls}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/network_acls aws_network_acls}.
 type DataAwsNetworkAcls interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -118,6 +118,15 @@ type DataAwsNetworkAcls interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsNetworkAcls
@@ -396,7 +405,7 @@ func (j *jsiiProxy_DataAwsNetworkAcls) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/network_acls aws_network_acls} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/network_acls aws_network_acls} Data Source.
 func NewDataAwsNetworkAcls(scope constructs.Construct, id *string, config *DataAwsNetworkAclsConfig) DataAwsNetworkAcls {
 	_init_.Initialize()
 
@@ -414,7 +423,7 @@ func NewDataAwsNetworkAcls(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/network_acls aws_network_acls} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/network_acls aws_network_acls} Data Source.
 func NewDataAwsNetworkAcls_Override(d DataAwsNetworkAcls, scope constructs.Construct, id *string, config *DataAwsNetworkAclsConfig) {
 	_init_.Initialize()
 
@@ -950,6 +959,24 @@ func (d *jsiiProxy_DataAwsNetworkAcls) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsNetworkAcls) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

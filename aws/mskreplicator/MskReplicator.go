@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/msk_replicator aws_msk_replicator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/msk_replicator aws_msk_replicator}.
 type MskReplicator interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -156,6 +156,15 @@ type MskReplicator interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for MskReplicator
@@ -544,7 +553,7 @@ func (j *jsiiProxy_MskReplicator) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/msk_replicator aws_msk_replicator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/msk_replicator aws_msk_replicator} Resource.
 func NewMskReplicator(scope constructs.Construct, id *string, config *MskReplicatorConfig) MskReplicator {
 	_init_.Initialize()
 
@@ -562,7 +571,7 @@ func NewMskReplicator(scope constructs.Construct, id *string, config *MskReplica
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/msk_replicator aws_msk_replicator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/msk_replicator aws_msk_replicator} Resource.
 func NewMskReplicator_Override(m MskReplicator, scope constructs.Construct, id *string, config *MskReplicatorConfig) {
 	_init_.Initialize()
 
@@ -1232,6 +1241,24 @@ func (m *jsiiProxy_MskReplicator) ToTerraform() interface{} {
 		m,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (m *jsiiProxy_MskReplicator) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		m,
+		"with",
+		args,
 		&returns,
 	)
 

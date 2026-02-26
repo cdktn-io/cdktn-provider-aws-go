@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/grafana_workspace aws_grafana_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/grafana_workspace aws_grafana_workspace}.
 type GrafanaWorkspace interface {
 	cdktn.TerraformResource
 	AccountAccessType() *string
@@ -62,6 +62,9 @@ type GrafanaWorkspace interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	KmsKeyId() *string
+	SetKmsKeyId(val *string)
+	KmsKeyIdInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -172,6 +175,7 @@ type GrafanaWorkspace interface {
 	ResetDescription()
 	ResetGrafanaVersion()
 	ResetId()
+	ResetKmsKeyId()
 	ResetName()
 	ResetNetworkAccessControl()
 	ResetNotificationDestinations()
@@ -198,6 +202,15 @@ type GrafanaWorkspace interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for GrafanaWorkspace
@@ -440,6 +453,26 @@ func (j *jsiiProxy_GrafanaWorkspace) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GrafanaWorkspace) KmsKeyId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GrafanaWorkspace) KmsKeyIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyIdInput",
 		&returns,
 	)
 	return returns
@@ -796,7 +829,7 @@ func (j *jsiiProxy_GrafanaWorkspace) VpcConfigurationInput() *GrafanaWorkspaceVp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/grafana_workspace aws_grafana_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/grafana_workspace aws_grafana_workspace} Resource.
 func NewGrafanaWorkspace(scope constructs.Construct, id *string, config *GrafanaWorkspaceConfig) GrafanaWorkspace {
 	_init_.Initialize()
 
@@ -814,7 +847,7 @@ func NewGrafanaWorkspace(scope constructs.Construct, id *string, config *Grafana
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/grafana_workspace aws_grafana_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/grafana_workspace aws_grafana_workspace} Resource.
 func NewGrafanaWorkspace_Override(g GrafanaWorkspace, scope constructs.Construct, id *string, config *GrafanaWorkspaceConfig) {
 	_init_.Initialize()
 
@@ -936,6 +969,17 @@ func (j *jsiiProxy_GrafanaWorkspace)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GrafanaWorkspace)SetKmsKeyId(val *string) {
+	if err := j.validateSetKmsKeyIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"kmsKeyId",
 		val,
 	)
 }
@@ -1506,6 +1550,14 @@ func (g *jsiiProxy_GrafanaWorkspace) ResetId() {
 	)
 }
 
+func (g *jsiiProxy_GrafanaWorkspace) ResetKmsKeyId() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetKmsKeyId",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GrafanaWorkspace) ResetName() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1682,6 +1734,24 @@ func (g *jsiiProxy_GrafanaWorkspace) ToTerraform() interface{} {
 		g,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (g *jsiiProxy_GrafanaWorkspace) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		g,
+		"with",
+		args,
 		&returns,
 	)
 

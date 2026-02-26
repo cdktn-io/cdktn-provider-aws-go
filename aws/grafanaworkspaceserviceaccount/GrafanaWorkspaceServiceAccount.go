@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/grafana_workspace_service_account aws_grafana_workspace_service_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/grafana_workspace_service_account aws_grafana_workspace_service_account}.
 type GrafanaWorkspaceServiceAccount interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -133,6 +133,15 @@ type GrafanaWorkspaceServiceAccount interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for GrafanaWorkspaceServiceAccount
@@ -401,7 +410,7 @@ func (j *jsiiProxy_GrafanaWorkspaceServiceAccount) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/grafana_workspace_service_account aws_grafana_workspace_service_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/grafana_workspace_service_account aws_grafana_workspace_service_account} Resource.
 func NewGrafanaWorkspaceServiceAccount(scope constructs.Construct, id *string, config *GrafanaWorkspaceServiceAccountConfig) GrafanaWorkspaceServiceAccount {
 	_init_.Initialize()
 
@@ -419,7 +428,7 @@ func NewGrafanaWorkspaceServiceAccount(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/grafana_workspace_service_account aws_grafana_workspace_service_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/grafana_workspace_service_account aws_grafana_workspace_service_account} Resource.
 func NewGrafanaWorkspaceServiceAccount_Override(g GrafanaWorkspaceServiceAccount, scope constructs.Construct, id *string, config *GrafanaWorkspaceServiceAccountConfig) {
 	_init_.Initialize()
 
@@ -983,6 +992,24 @@ func (g *jsiiProxy_GrafanaWorkspaceServiceAccount) ToTerraform() interface{} {
 		g,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (g *jsiiProxy_GrafanaWorkspaceServiceAccount) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		g,
+		"with",
+		args,
 		&returns,
 	)
 

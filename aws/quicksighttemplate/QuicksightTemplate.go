@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_template aws_quicksight_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_template aws_quicksight_template}.
 type QuicksightTemplate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -169,6 +169,15 @@ type QuicksightTemplate interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for QuicksightTemplate
@@ -637,7 +646,7 @@ func (j *jsiiProxy_QuicksightTemplate) VersionNumber() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_template aws_quicksight_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_template aws_quicksight_template} Resource.
 func NewQuicksightTemplate(scope constructs.Construct, id *string, config *QuicksightTemplateConfig) QuicksightTemplate {
 	_init_.Initialize()
 
@@ -655,7 +664,7 @@ func NewQuicksightTemplate(scope constructs.Construct, id *string, config *Quick
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_template aws_quicksight_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_template aws_quicksight_template} Resource.
 func NewQuicksightTemplate_Override(q QuicksightTemplate, scope constructs.Construct, id *string, config *QuicksightTemplateConfig) {
 	_init_.Initialize()
 
@@ -1371,6 +1380,24 @@ func (q *jsiiProxy_QuicksightTemplate) ToTerraform() interface{} {
 		q,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (q *jsiiProxy_QuicksightTemplate) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		q,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cognito_risk_configuration aws_cognito_risk_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cognito_risk_configuration aws_cognito_risk_configuration}.
 type CognitoRiskConfiguration interface {
 	cdktn.TerraformResource
 	AccountTakeoverRiskConfiguration() CognitoRiskConfigurationAccountTakeoverRiskConfigurationOutputReference
@@ -145,6 +145,15 @@ type CognitoRiskConfiguration interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for CognitoRiskConfiguration
@@ -453,7 +462,7 @@ func (j *jsiiProxy_CognitoRiskConfiguration) UserPoolIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cognito_risk_configuration aws_cognito_risk_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cognito_risk_configuration aws_cognito_risk_configuration} Resource.
 func NewCognitoRiskConfiguration(scope constructs.Construct, id *string, config *CognitoRiskConfigurationConfig) CognitoRiskConfiguration {
 	_init_.Initialize()
 
@@ -471,7 +480,7 @@ func NewCognitoRiskConfiguration(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cognito_risk_configuration aws_cognito_risk_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cognito_risk_configuration aws_cognito_risk_configuration} Resource.
 func NewCognitoRiskConfiguration_Override(c CognitoRiskConfiguration, scope constructs.Construct, id *string, config *CognitoRiskConfigurationConfig) {
 	_init_.Initialize()
 
@@ -1108,6 +1117,24 @@ func (c *jsiiProxy_CognitoRiskConfiguration) ToTerraform() interface{} {
 		c,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_CognitoRiskConfiguration) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		c,
+		"with",
+		args,
 		&returns,
 	)
 

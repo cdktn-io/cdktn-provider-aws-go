@@ -79,6 +79,10 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTarget) validatePutCredentialProviderC
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayTarget) validatePutMetadataConfigurationParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayTarget) validatePutTargetConfigurationParameters(value interface{}) error {
 	return nil
 }

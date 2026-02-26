@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/macie2_custom_data_identifier aws_macie2_custom_data_identifier}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/macie2_custom_data_identifier aws_macie2_custom_data_identifier}.
 type Macie2CustomDataIdentifier interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -168,6 +168,15 @@ type Macie2CustomDataIdentifier interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Macie2CustomDataIdentifier
@@ -596,7 +605,7 @@ func (j *jsiiProxy_Macie2CustomDataIdentifier) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/macie2_custom_data_identifier aws_macie2_custom_data_identifier} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/macie2_custom_data_identifier aws_macie2_custom_data_identifier} Resource.
 func NewMacie2CustomDataIdentifier(scope constructs.Construct, id *string, config *Macie2CustomDataIdentifierConfig) Macie2CustomDataIdentifier {
 	_init_.Initialize()
 
@@ -614,7 +623,7 @@ func NewMacie2CustomDataIdentifier(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/macie2_custom_data_identifier aws_macie2_custom_data_identifier} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/macie2_custom_data_identifier aws_macie2_custom_data_identifier} Resource.
 func NewMacie2CustomDataIdentifier_Override(m Macie2CustomDataIdentifier, scope constructs.Construct, id *string, config *Macie2CustomDataIdentifierConfig) {
 	_init_.Initialize()
 
@@ -1354,6 +1363,24 @@ func (m *jsiiProxy_Macie2CustomDataIdentifier) ToTerraform() interface{} {
 		m,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (m *jsiiProxy_Macie2CustomDataIdentifier) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		m,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -88,6 +88,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdentifier", GoGetter: "VpcIdentifier"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdentifierInput", GoGetter: "VpcIdentifierInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VpclatticeServiceNetworkVpcAssociation{}

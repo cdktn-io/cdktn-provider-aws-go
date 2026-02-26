@@ -253,6 +253,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpnConcentratorIdInput", GoGetter: "VpnConcentratorIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnGatewayId", GoGetter: "VpnGatewayId"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnGatewayIdInput", GoGetter: "VpnGatewayIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VpnConnection{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lightsail_instance_public_ports aws_lightsail_instance_public_ports}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lightsail_instance_public_ports aws_lightsail_instance_public_ports}.
 type LightsailInstancePublicPorts interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -132,6 +132,15 @@ type LightsailInstancePublicPorts interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LightsailInstancePublicPorts
@@ -380,7 +389,7 @@ func (j *jsiiProxy_LightsailInstancePublicPorts) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lightsail_instance_public_ports aws_lightsail_instance_public_ports} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lightsail_instance_public_ports aws_lightsail_instance_public_ports} Resource.
 func NewLightsailInstancePublicPorts(scope constructs.Construct, id *string, config *LightsailInstancePublicPortsConfig) LightsailInstancePublicPorts {
 	_init_.Initialize()
 
@@ -398,7 +407,7 @@ func NewLightsailInstancePublicPorts(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lightsail_instance_public_ports aws_lightsail_instance_public_ports} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lightsail_instance_public_ports aws_lightsail_instance_public_ports} Resource.
 func NewLightsailInstancePublicPorts_Override(l LightsailInstancePublicPorts, scope constructs.Construct, id *string, config *LightsailInstancePublicPortsConfig) {
 	_init_.Initialize()
 
@@ -970,6 +979,24 @@ func (l *jsiiProxy_LightsailInstancePublicPorts) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LightsailInstancePublicPorts) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

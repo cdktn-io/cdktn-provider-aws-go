@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3control_access_grants_location aws_s3control_access_grants_location}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3control_access_grants_location aws_s3control_access_grants_location}.
 type S3ControlAccessGrantsLocation interface {
 	cdktn.TerraformResource
 	AccessGrantsLocationArn() *string
@@ -140,6 +140,15 @@ type S3ControlAccessGrantsLocation interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for S3ControlAccessGrantsLocation
@@ -448,7 +457,7 @@ func (j *jsiiProxy_S3ControlAccessGrantsLocation) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3control_access_grants_location aws_s3control_access_grants_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3control_access_grants_location aws_s3control_access_grants_location} Resource.
 func NewS3ControlAccessGrantsLocation(scope constructs.Construct, id *string, config *S3ControlAccessGrantsLocationConfig) S3ControlAccessGrantsLocation {
 	_init_.Initialize()
 
@@ -466,7 +475,7 @@ func NewS3ControlAccessGrantsLocation(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3control_access_grants_location aws_s3control_access_grants_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3control_access_grants_location aws_s3control_access_grants_location} Resource.
 func NewS3ControlAccessGrantsLocation_Override(s S3ControlAccessGrantsLocation, scope constructs.Construct, id *string, config *S3ControlAccessGrantsLocationConfig) {
 	_init_.Initialize()
 
@@ -1057,6 +1066,24 @@ func (s *jsiiProxy_S3ControlAccessGrantsLocation) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_S3ControlAccessGrantsLocation) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

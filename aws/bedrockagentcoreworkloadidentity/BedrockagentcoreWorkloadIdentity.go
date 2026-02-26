@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity}.
 type BedrockagentcoreWorkloadIdentity interface {
 	cdktn.TerraformResource
 	AllowedResourceOauth2ReturnUrls() *[]*string
@@ -130,6 +130,15 @@ type BedrockagentcoreWorkloadIdentity interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for BedrockagentcoreWorkloadIdentity
@@ -368,7 +377,7 @@ func (j *jsiiProxy_BedrockagentcoreWorkloadIdentity) WorkloadIdentityArn() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity} Resource.
 func NewBedrockagentcoreWorkloadIdentity(scope constructs.Construct, id *string, config *BedrockagentcoreWorkloadIdentityConfig) BedrockagentcoreWorkloadIdentity {
 	_init_.Initialize()
 
@@ -386,7 +395,7 @@ func NewBedrockagentcoreWorkloadIdentity(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity} Resource.
 func NewBedrockagentcoreWorkloadIdentity_Override(b BedrockagentcoreWorkloadIdentity, scope constructs.Construct, id *string, config *BedrockagentcoreWorkloadIdentityConfig) {
 	_init_.Initialize()
 
@@ -947,6 +956,24 @@ func (b *jsiiProxy_BedrockagentcoreWorkloadIdentity) ToTerraform() interface{} {
 		b,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (b *jsiiProxy_BedrockagentcoreWorkloadIdentity) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		b,
+		"with",
+		args,
 		&returns,
 	)
 

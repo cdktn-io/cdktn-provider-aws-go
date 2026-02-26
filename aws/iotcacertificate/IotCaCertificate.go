@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_ca_certificate aws_iot_ca_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iot_ca_certificate aws_iot_ca_certificate}.
 type IotCaCertificate interface {
 	cdktn.TerraformResource
 	Active() interface{}
@@ -159,6 +159,15 @@ type IotCaCertificate interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IotCaCertificate
@@ -567,7 +576,7 @@ func (j *jsiiProxy_IotCaCertificate) VerificationCertificatePemInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_ca_certificate aws_iot_ca_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iot_ca_certificate aws_iot_ca_certificate} Resource.
 func NewIotCaCertificate(scope constructs.Construct, id *string, config *IotCaCertificateConfig) IotCaCertificate {
 	_init_.Initialize()
 
@@ -585,7 +594,7 @@ func NewIotCaCertificate(scope constructs.Construct, id *string, config *IotCaCe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_ca_certificate aws_iot_ca_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iot_ca_certificate aws_iot_ca_certificate} Resource.
 func NewIotCaCertificate_Override(i IotCaCertificate, scope constructs.Construct, id *string, config *IotCaCertificateConfig) {
 	_init_.Initialize()
 
@@ -1263,6 +1272,24 @@ func (i *jsiiProxy_IotCaCertificate) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IotCaCertificate) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

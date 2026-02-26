@@ -129,6 +129,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "treatMissingDataInput", GoGetter: "TreatMissingDataInput"},
 			_jsii_.MemberProperty{JsiiProperty: "unit", GoGetter: "Unit"},
 			_jsii_.MemberProperty{JsiiProperty: "unitInput", GoGetter: "UnitInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudwatchMetricAlarm{}

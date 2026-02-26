@@ -81,6 +81,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "voiceSettings", GoGetter: "VoiceSettings"},
 			_jsii_.MemberProperty{JsiiProperty: "voiceSettingsInput", GoGetter: "VoiceSettingsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_Lexv2ModelsBotLocale{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/notifications_organizational_unit_association aws_notifications_organizational_unit_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/notifications_organizational_unit_association aws_notifications_organizational_unit_association}.
 type NotificationsOrganizationalUnitAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -124,6 +124,15 @@ type NotificationsOrganizationalUnitAssociation interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NotificationsOrganizationalUnitAssociation
@@ -332,7 +341,7 @@ func (j *jsiiProxy_NotificationsOrganizationalUnitAssociation) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/notifications_organizational_unit_association aws_notifications_organizational_unit_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/notifications_organizational_unit_association aws_notifications_organizational_unit_association} Resource.
 func NewNotificationsOrganizationalUnitAssociation(scope constructs.Construct, id *string, config *NotificationsOrganizationalUnitAssociationConfig) NotificationsOrganizationalUnitAssociation {
 	_init_.Initialize()
 
@@ -350,7 +359,7 @@ func NewNotificationsOrganizationalUnitAssociation(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/notifications_organizational_unit_association aws_notifications_organizational_unit_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/notifications_organizational_unit_association aws_notifications_organizational_unit_association} Resource.
 func NewNotificationsOrganizationalUnitAssociation_Override(n NotificationsOrganizationalUnitAssociation, scope constructs.Construct, id *string, config *NotificationsOrganizationalUnitAssociationConfig) {
 	_init_.Initialize()
 
@@ -884,6 +893,24 @@ func (n *jsiiProxy_NotificationsOrganizationalUnitAssociation) ToTerraform() int
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NotificationsOrganizationalUnitAssociation) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

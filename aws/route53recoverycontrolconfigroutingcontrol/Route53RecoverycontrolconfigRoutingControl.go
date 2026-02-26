@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/route53recoverycontrolconfig_routing_control aws_route53recoverycontrolconfig_routing_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/route53recoverycontrolconfig_routing_control aws_route53recoverycontrolconfig_routing_control}.
 type Route53RecoverycontrolconfigRoutingControl interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -134,6 +134,15 @@ type Route53RecoverycontrolconfigRoutingControl interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Route53RecoverycontrolconfigRoutingControl
@@ -402,7 +411,7 @@ func (j *jsiiProxy_Route53RecoverycontrolconfigRoutingControl) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/route53recoverycontrolconfig_routing_control aws_route53recoverycontrolconfig_routing_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/route53recoverycontrolconfig_routing_control aws_route53recoverycontrolconfig_routing_control} Resource.
 func NewRoute53RecoverycontrolconfigRoutingControl(scope constructs.Construct, id *string, config *Route53RecoverycontrolconfigRoutingControlConfig) Route53RecoverycontrolconfigRoutingControl {
 	_init_.Initialize()
 
@@ -420,7 +429,7 @@ func NewRoute53RecoverycontrolconfigRoutingControl(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/route53recoverycontrolconfig_routing_control aws_route53recoverycontrolconfig_routing_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/route53recoverycontrolconfig_routing_control aws_route53recoverycontrolconfig_routing_control} Resource.
 func NewRoute53RecoverycontrolconfigRoutingControl_Override(r Route53RecoverycontrolconfigRoutingControl, scope constructs.Construct, id *string, config *Route53RecoverycontrolconfigRoutingControlConfig) {
 	_init_.Initialize()
 
@@ -992,6 +1001,24 @@ func (r *jsiiProxy_Route53RecoverycontrolconfigRoutingControl) ToTerraform() int
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_Route53RecoverycontrolconfigRoutingControl) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

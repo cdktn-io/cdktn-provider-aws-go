@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ssm_parameter aws_ssm_parameter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ssm_parameter aws_ssm_parameter}.
 type DataAwsSsmParameter interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -113,6 +113,15 @@ type DataAwsSsmParameter interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsSsmParameter
@@ -391,7 +400,7 @@ func (j *jsiiProxy_DataAwsSsmParameter) WithDecryptionInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ssm_parameter aws_ssm_parameter} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ssm_parameter aws_ssm_parameter} Data Source.
 func NewDataAwsSsmParameter(scope constructs.Construct, id *string, config *DataAwsSsmParameterConfig) DataAwsSsmParameter {
 	_init_.Initialize()
 
@@ -409,7 +418,7 @@ func NewDataAwsSsmParameter(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ssm_parameter aws_ssm_parameter} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ssm_parameter aws_ssm_parameter} Data Source.
 func NewDataAwsSsmParameter_Override(d DataAwsSsmParameter, scope constructs.Construct, id *string, config *DataAwsSsmParameterConfig) {
 	_init_.Initialize()
 
@@ -899,6 +908,24 @@ func (d *jsiiProxy_DataAwsSsmParameter) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsSsmParameter) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

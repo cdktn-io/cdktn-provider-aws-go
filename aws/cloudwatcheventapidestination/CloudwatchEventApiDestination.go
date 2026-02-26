@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudwatch_event_api_destination aws_cloudwatch_event_api_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloudwatch_event_api_destination aws_cloudwatch_event_api_destination}.
 type CloudwatchEventApiDestination interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -147,6 +147,15 @@ type CloudwatchEventApiDestination interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for CloudwatchEventApiDestination
@@ -485,7 +494,7 @@ func (j *jsiiProxy_CloudwatchEventApiDestination) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudwatch_event_api_destination aws_cloudwatch_event_api_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloudwatch_event_api_destination aws_cloudwatch_event_api_destination} Resource.
 func NewCloudwatchEventApiDestination(scope constructs.Construct, id *string, config *CloudwatchEventApiDestinationConfig) CloudwatchEventApiDestination {
 	_init_.Initialize()
 
@@ -503,7 +512,7 @@ func NewCloudwatchEventApiDestination(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudwatch_event_api_destination aws_cloudwatch_event_api_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloudwatch_event_api_destination aws_cloudwatch_event_api_destination} Resource.
 func NewCloudwatchEventApiDestination_Override(c CloudwatchEventApiDestination, scope constructs.Construct, id *string, config *CloudwatchEventApiDestinationConfig) {
 	_init_.Initialize()
 
@@ -1135,6 +1144,24 @@ func (c *jsiiProxy_CloudwatchEventApiDestination) ToTerraform() interface{} {
 		c,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_CloudwatchEventApiDestination) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		c,
+		"with",
+		args,
 		&returns,
 	)
 

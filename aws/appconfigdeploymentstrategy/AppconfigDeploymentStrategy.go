@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appconfig_deployment_strategy aws_appconfig_deployment_strategy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appconfig_deployment_strategy aws_appconfig_deployment_strategy}.
 type AppconfigDeploymentStrategy interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -159,6 +159,15 @@ type AppconfigDeploymentStrategy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AppconfigDeploymentStrategy
@@ -557,7 +566,7 @@ func (j *jsiiProxy_AppconfigDeploymentStrategy) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appconfig_deployment_strategy aws_appconfig_deployment_strategy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appconfig_deployment_strategy aws_appconfig_deployment_strategy} Resource.
 func NewAppconfigDeploymentStrategy(scope constructs.Construct, id *string, config *AppconfigDeploymentStrategyConfig) AppconfigDeploymentStrategy {
 	_init_.Initialize()
 
@@ -575,7 +584,7 @@ func NewAppconfigDeploymentStrategy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appconfig_deployment_strategy aws_appconfig_deployment_strategy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appconfig_deployment_strategy aws_appconfig_deployment_strategy} Resource.
 func NewAppconfigDeploymentStrategy_Override(a AppconfigDeploymentStrategy, scope constructs.Construct, id *string, config *AppconfigDeploymentStrategyConfig) {
 	_init_.Initialize()
 
@@ -1264,6 +1273,24 @@ func (a *jsiiProxy_AppconfigDeploymentStrategy) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AppconfigDeploymentStrategy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

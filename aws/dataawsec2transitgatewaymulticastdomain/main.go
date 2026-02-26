@@ -78,6 +78,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayId", GoGetter: "TransitGatewayId"},
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayMulticastDomainId", GoGetter: "TransitGatewayMulticastDomainId"},
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayMulticastDomainIdInput", GoGetter: "TransitGatewayMulticastDomainIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsEc2TransitGatewayMulticastDomain{}

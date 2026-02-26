@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/glue_classifier aws_glue_classifier}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/glue_classifier aws_glue_classifier}.
 type GlueClassifier interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -145,6 +145,15 @@ type GlueClassifier interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for GlueClassifier
@@ -453,7 +462,7 @@ func (j *jsiiProxy_GlueClassifier) XmlClassifierInput() *GlueClassifierXmlClassi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/glue_classifier aws_glue_classifier} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/glue_classifier aws_glue_classifier} Resource.
 func NewGlueClassifier(scope constructs.Construct, id *string, config *GlueClassifierConfig) GlueClassifier {
 	_init_.Initialize()
 
@@ -471,7 +480,7 @@ func NewGlueClassifier(scope constructs.Construct, id *string, config *GlueClass
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/glue_classifier aws_glue_classifier} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/glue_classifier aws_glue_classifier} Resource.
 func NewGlueClassifier_Override(g GlueClassifier, scope constructs.Construct, id *string, config *GlueClassifierConfig) {
 	_init_.Initialize()
 
@@ -1108,6 +1117,24 @@ func (g *jsiiProxy_GlueClassifier) ToTerraform() interface{} {
 		g,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (g *jsiiProxy_GlueClassifier) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		g,
+		"with",
+		args,
 		&returns,
 	)
 

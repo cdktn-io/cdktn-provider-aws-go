@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/route53_resolver_query_log_config aws_route53_resolver_query_log_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/route53_resolver_query_log_config aws_route53_resolver_query_log_config}.
 type DataAwsRoute53ResolverQueryLogConfig interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -121,6 +121,15 @@ type DataAwsRoute53ResolverQueryLogConfig interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsRoute53ResolverQueryLogConfig
@@ -429,7 +438,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverQueryLogConfig) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/route53_resolver_query_log_config aws_route53_resolver_query_log_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/route53_resolver_query_log_config aws_route53_resolver_query_log_config} Data Source.
 func NewDataAwsRoute53ResolverQueryLogConfig(scope constructs.Construct, id *string, config *DataAwsRoute53ResolverQueryLogConfigConfig) DataAwsRoute53ResolverQueryLogConfig {
 	_init_.Initialize()
 
@@ -447,7 +456,7 @@ func NewDataAwsRoute53ResolverQueryLogConfig(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/route53_resolver_query_log_config aws_route53_resolver_query_log_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/route53_resolver_query_log_config aws_route53_resolver_query_log_config} Data Source.
 func NewDataAwsRoute53ResolverQueryLogConfig_Override(d DataAwsRoute53ResolverQueryLogConfig, scope constructs.Construct, id *string, config *DataAwsRoute53ResolverQueryLogConfigConfig) {
 	_init_.Initialize()
 
@@ -983,6 +992,24 @@ func (d *jsiiProxy_DataAwsRoute53ResolverQueryLogConfig) ToTerraform() interface
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsRoute53ResolverQueryLogConfig) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

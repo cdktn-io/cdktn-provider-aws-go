@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/memorydb_parameter_group aws_memorydb_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/memorydb_parameter_group aws_memorydb_parameter_group}.
 type DataAwsMemorydbParameterGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -112,6 +112,15 @@ type DataAwsMemorydbParameterGroup interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsMemorydbParameterGroup
@@ -380,7 +389,7 @@ func (j *jsiiProxy_DataAwsMemorydbParameterGroup) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/memorydb_parameter_group aws_memorydb_parameter_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/memorydb_parameter_group aws_memorydb_parameter_group} Data Source.
 func NewDataAwsMemorydbParameterGroup(scope constructs.Construct, id *string, config *DataAwsMemorydbParameterGroupConfig) DataAwsMemorydbParameterGroup {
 	_init_.Initialize()
 
@@ -398,7 +407,7 @@ func NewDataAwsMemorydbParameterGroup(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/memorydb_parameter_group aws_memorydb_parameter_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/memorydb_parameter_group aws_memorydb_parameter_group} Data Source.
 func NewDataAwsMemorydbParameterGroup_Override(d DataAwsMemorydbParameterGroup, scope constructs.Construct, id *string, config *DataAwsMemorydbParameterGroupConfig) {
 	_init_.Initialize()
 
@@ -888,6 +897,24 @@ func (d *jsiiProxy_DataAwsMemorydbParameterGroup) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsMemorydbParameterGroup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

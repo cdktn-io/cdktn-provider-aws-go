@@ -195,6 +195,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "transitEncryptionModeInput", GoGetter: "TransitEncryptionModeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "userGroupIds", GoGetter: "UserGroupIds"},
 			_jsii_.MemberProperty{JsiiProperty: "userGroupIdsInput", GoGetter: "UserGroupIdsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ElasticacheReplicationGroup{}

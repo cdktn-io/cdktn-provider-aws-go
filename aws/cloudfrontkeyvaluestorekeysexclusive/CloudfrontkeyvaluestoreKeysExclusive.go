@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudfrontkeyvaluestore_keys_exclusive aws_cloudfrontkeyvaluestore_keys_exclusive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloudfrontkeyvaluestore_keys_exclusive aws_cloudfrontkeyvaluestore_keys_exclusive}.
 type CloudfrontkeyvaluestoreKeysExclusive interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -130,6 +130,15 @@ type CloudfrontkeyvaluestoreKeysExclusive interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for CloudfrontkeyvaluestoreKeysExclusive
@@ -368,7 +377,7 @@ func (j *jsiiProxy_CloudfrontkeyvaluestoreKeysExclusive) TotalSizeInBytes() *flo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudfrontkeyvaluestore_keys_exclusive aws_cloudfrontkeyvaluestore_keys_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloudfrontkeyvaluestore_keys_exclusive aws_cloudfrontkeyvaluestore_keys_exclusive} Resource.
 func NewCloudfrontkeyvaluestoreKeysExclusive(scope constructs.Construct, id *string, config *CloudfrontkeyvaluestoreKeysExclusiveConfig) CloudfrontkeyvaluestoreKeysExclusive {
 	_init_.Initialize()
 
@@ -386,7 +395,7 @@ func NewCloudfrontkeyvaluestoreKeysExclusive(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudfrontkeyvaluestore_keys_exclusive aws_cloudfrontkeyvaluestore_keys_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloudfrontkeyvaluestore_keys_exclusive aws_cloudfrontkeyvaluestore_keys_exclusive} Resource.
 func NewCloudfrontkeyvaluestoreKeysExclusive_Override(c CloudfrontkeyvaluestoreKeysExclusive, scope constructs.Construct, id *string, config *CloudfrontkeyvaluestoreKeysExclusiveConfig) {
 	_init_.Initialize()
 
@@ -947,6 +956,24 @@ func (c *jsiiProxy_CloudfrontkeyvaluestoreKeysExclusive) ToTerraform() interface
 		c,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_CloudfrontkeyvaluestoreKeysExclusive) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		c,
+		"with",
+		args,
 		&returns,
 	)
 

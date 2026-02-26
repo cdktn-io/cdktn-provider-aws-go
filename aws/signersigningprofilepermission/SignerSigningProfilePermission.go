@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/signer_signing_profile_permission aws_signer_signing_profile_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/signer_signing_profile_permission aws_signer_signing_profile_permission}.
 type SignerSigningProfilePermission interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -147,6 +147,15 @@ type SignerSigningProfilePermission interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SignerSigningProfilePermission
@@ -475,7 +484,7 @@ func (j *jsiiProxy_SignerSigningProfilePermission) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/signer_signing_profile_permission aws_signer_signing_profile_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/signer_signing_profile_permission aws_signer_signing_profile_permission} Resource.
 func NewSignerSigningProfilePermission(scope constructs.Construct, id *string, config *SignerSigningProfilePermissionConfig) SignerSigningProfilePermission {
 	_init_.Initialize()
 
@@ -493,7 +502,7 @@ func NewSignerSigningProfilePermission(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/signer_signing_profile_permission aws_signer_signing_profile_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/signer_signing_profile_permission aws_signer_signing_profile_permission} Resource.
 func NewSignerSigningProfilePermission_Override(s SignerSigningProfilePermission, scope constructs.Construct, id *string, config *SignerSigningProfilePermissionConfig) {
 	_init_.Initialize()
 
@@ -1133,6 +1142,24 @@ func (s *jsiiProxy_SignerSigningProfilePermission) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SignerSigningProfilePermission) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

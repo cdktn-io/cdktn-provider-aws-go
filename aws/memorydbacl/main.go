@@ -78,6 +78,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "userNames", GoGetter: "UserNames"},
 			_jsii_.MemberProperty{JsiiProperty: "userNamesInput", GoGetter: "UserNamesInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_MemorydbAcl{}

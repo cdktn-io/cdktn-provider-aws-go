@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/rds_export_task aws_rds_export_task}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/rds_export_task aws_rds_export_task}.
 type RdsExportTask interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -158,6 +158,15 @@ type RdsExportTask interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for RdsExportTask
@@ -596,7 +605,7 @@ func (j *jsiiProxy_RdsExportTask) WarningMessage() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/rds_export_task aws_rds_export_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/rds_export_task aws_rds_export_task} Resource.
 func NewRdsExportTask(scope constructs.Construct, id *string, config *RdsExportTaskConfig) RdsExportTask {
 	_init_.Initialize()
 
@@ -614,7 +623,7 @@ func NewRdsExportTask(scope constructs.Construct, id *string, config *RdsExportT
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/rds_export_task aws_rds_export_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/rds_export_task aws_rds_export_task} Resource.
 func NewRdsExportTask_Override(r RdsExportTask, scope constructs.Construct, id *string, config *RdsExportTaskConfig) {
 	_init_.Initialize()
 
@@ -1257,6 +1266,24 @@ func (r *jsiiProxy_RdsExportTask) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_RdsExportTask) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

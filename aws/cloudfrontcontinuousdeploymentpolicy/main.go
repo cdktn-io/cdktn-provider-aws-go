@@ -69,6 +69,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "trafficConfig", GoGetter: "TrafficConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "trafficConfigInput", GoGetter: "TrafficConfigInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudfrontContinuousDeploymentPolicy{}

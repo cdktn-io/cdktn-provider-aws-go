@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/elasticsearch_domain_policy aws_elasticsearch_domain_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/elasticsearch_domain_policy aws_elasticsearch_domain_policy}.
 type ElasticsearchDomainPolicy interface {
 	cdktn.TerraformResource
 	AccessPolicies() *string
@@ -136,6 +136,15 @@ type ElasticsearchDomainPolicy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ElasticsearchDomainPolicy
@@ -404,7 +413,7 @@ func (j *jsiiProxy_ElasticsearchDomainPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/elasticsearch_domain_policy aws_elasticsearch_domain_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/elasticsearch_domain_policy aws_elasticsearch_domain_policy} Resource.
 func NewElasticsearchDomainPolicy(scope constructs.Construct, id *string, config *ElasticsearchDomainPolicyConfig) ElasticsearchDomainPolicy {
 	_init_.Initialize()
 
@@ -422,7 +431,7 @@ func NewElasticsearchDomainPolicy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/elasticsearch_domain_policy aws_elasticsearch_domain_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/elasticsearch_domain_policy aws_elasticsearch_domain_policy} Resource.
 func NewElasticsearchDomainPolicy_Override(e ElasticsearchDomainPolicy, scope constructs.Construct, id *string, config *ElasticsearchDomainPolicyConfig) {
 	_init_.Initialize()
 
@@ -1013,6 +1022,24 @@ func (e *jsiiProxy_ElasticsearchDomainPolicy) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_ElasticsearchDomainPolicy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

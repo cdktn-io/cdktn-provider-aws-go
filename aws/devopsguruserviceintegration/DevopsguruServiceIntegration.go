@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/devopsguru_service_integration aws_devopsguru_service_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/devopsguru_service_integration aws_devopsguru_service_integration}.
 type DevopsguruServiceIntegration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -135,6 +135,15 @@ type DevopsguruServiceIntegration interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DevopsguruServiceIntegration
@@ -393,7 +402,7 @@ func (j *jsiiProxy_DevopsguruServiceIntegration) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/devopsguru_service_integration aws_devopsguru_service_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/devopsguru_service_integration aws_devopsguru_service_integration} Resource.
 func NewDevopsguruServiceIntegration(scope constructs.Construct, id *string, config *DevopsguruServiceIntegrationConfig) DevopsguruServiceIntegration {
 	_init_.Initialize()
 
@@ -411,7 +420,7 @@ func NewDevopsguruServiceIntegration(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/devopsguru_service_integration aws_devopsguru_service_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/devopsguru_service_integration aws_devopsguru_service_integration} Resource.
 func NewDevopsguruServiceIntegration_Override(d DevopsguruServiceIntegration, scope constructs.Construct, id *string, config *DevopsguruServiceIntegrationConfig) {
 	_init_.Initialize()
 
@@ -999,6 +1008,24 @@ func (d *jsiiProxy_DevopsguruServiceIntegration) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DevopsguruServiceIntegration) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

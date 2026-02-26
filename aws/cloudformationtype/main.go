@@ -87,6 +87,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeNameInput", GoGetter: "TypeNameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "versionId", GoGetter: "VersionId"},
 			_jsii_.MemberProperty{JsiiProperty: "visibility", GoGetter: "Visibility"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudformationType{}

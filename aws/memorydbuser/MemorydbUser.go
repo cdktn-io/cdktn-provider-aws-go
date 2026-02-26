@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/memorydb_user aws_memorydb_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/memorydb_user aws_memorydb_user}.
 type MemorydbUser interface {
 	cdktn.TerraformResource
 	AccessString() *string
@@ -145,6 +145,15 @@ type MemorydbUser interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for MemorydbUser
@@ -473,7 +482,7 @@ func (j *jsiiProxy_MemorydbUser) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/memorydb_user aws_memorydb_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/memorydb_user aws_memorydb_user} Resource.
 func NewMemorydbUser(scope constructs.Construct, id *string, config *MemorydbUserConfig) MemorydbUser {
 	_init_.Initialize()
 
@@ -491,7 +500,7 @@ func NewMemorydbUser(scope constructs.Construct, id *string, config *MemorydbUse
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/memorydb_user aws_memorydb_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/memorydb_user aws_memorydb_user} Resource.
 func NewMemorydbUser_Override(m MemorydbUser, scope constructs.Construct, id *string, config *MemorydbUserConfig) {
 	_init_.Initialize()
 
@@ -1112,6 +1121,24 @@ func (m *jsiiProxy_MemorydbUser) ToTerraform() interface{} {
 		m,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (m *jsiiProxy_MemorydbUser) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		m,
+		"with",
+		args,
 		&returns,
 	)
 

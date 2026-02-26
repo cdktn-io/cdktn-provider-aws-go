@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/pinpoint_adm_channel aws_pinpoint_adm_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/pinpoint_adm_channel aws_pinpoint_adm_channel}.
 type PinpointAdmChannel interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -139,6 +139,15 @@ type PinpointAdmChannel interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for PinpointAdmChannel
@@ -427,7 +436,7 @@ func (j *jsiiProxy_PinpointAdmChannel) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/pinpoint_adm_channel aws_pinpoint_adm_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/pinpoint_adm_channel aws_pinpoint_adm_channel} Resource.
 func NewPinpointAdmChannel(scope constructs.Construct, id *string, config *PinpointAdmChannelConfig) PinpointAdmChannel {
 	_init_.Initialize()
 
@@ -445,7 +454,7 @@ func NewPinpointAdmChannel(scope constructs.Construct, id *string, config *Pinpo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/pinpoint_adm_channel aws_pinpoint_adm_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/pinpoint_adm_channel aws_pinpoint_adm_channel} Resource.
 func NewPinpointAdmChannel_Override(p PinpointAdmChannel, scope constructs.Construct, id *string, config *PinpointAdmChannelConfig) {
 	_init_.Initialize()
 
@@ -1047,6 +1056,24 @@ func (p *jsiiProxy_PinpointAdmChannel) ToTerraform() interface{} {
 		p,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_PinpointAdmChannel) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		p,
+		"with",
+		args,
 		&returns,
 	)
 

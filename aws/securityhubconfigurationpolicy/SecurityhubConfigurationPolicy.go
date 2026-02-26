@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/securityhub_configuration_policy aws_securityhub_configuration_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/securityhub_configuration_policy aws_securityhub_configuration_policy}.
 type SecurityhubConfigurationPolicy interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -137,6 +137,15 @@ type SecurityhubConfigurationPolicy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SecurityhubConfigurationPolicy
@@ -415,7 +424,7 @@ func (j *jsiiProxy_SecurityhubConfigurationPolicy) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/securityhub_configuration_policy aws_securityhub_configuration_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/securityhub_configuration_policy aws_securityhub_configuration_policy} Resource.
 func NewSecurityhubConfigurationPolicy(scope constructs.Construct, id *string, config *SecurityhubConfigurationPolicyConfig) SecurityhubConfigurationPolicy {
 	_init_.Initialize()
 
@@ -433,7 +442,7 @@ func NewSecurityhubConfigurationPolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/securityhub_configuration_policy aws_securityhub_configuration_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/securityhub_configuration_policy aws_securityhub_configuration_policy} Resource.
 func NewSecurityhubConfigurationPolicy_Override(s SecurityhubConfigurationPolicy, scope constructs.Construct, id *string, config *SecurityhubConfigurationPolicyConfig) {
 	_init_.Initialize()
 
@@ -1024,6 +1033,24 @@ func (s *jsiiProxy_SecurityhubConfigurationPolicy) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SecurityhubConfigurationPolicy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

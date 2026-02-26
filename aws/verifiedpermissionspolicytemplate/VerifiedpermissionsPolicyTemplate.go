@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/verifiedpermissions_policy_template aws_verifiedpermissions_policy_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/verifiedpermissions_policy_template aws_verifiedpermissions_policy_template}.
 type VerifiedpermissionsPolicyTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -135,6 +135,15 @@ type VerifiedpermissionsPolicyTemplate interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for VerifiedpermissionsPolicyTemplate
@@ -413,7 +422,7 @@ func (j *jsiiProxy_VerifiedpermissionsPolicyTemplate) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/verifiedpermissions_policy_template aws_verifiedpermissions_policy_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/verifiedpermissions_policy_template aws_verifiedpermissions_policy_template} Resource.
 func NewVerifiedpermissionsPolicyTemplate(scope constructs.Construct, id *string, config *VerifiedpermissionsPolicyTemplateConfig) VerifiedpermissionsPolicyTemplate {
 	_init_.Initialize()
 
@@ -431,7 +440,7 @@ func NewVerifiedpermissionsPolicyTemplate(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/verifiedpermissions_policy_template aws_verifiedpermissions_policy_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/verifiedpermissions_policy_template aws_verifiedpermissions_policy_template} Resource.
 func NewVerifiedpermissionsPolicyTemplate_Override(v VerifiedpermissionsPolicyTemplate, scope constructs.Construct, id *string, config *VerifiedpermissionsPolicyTemplateConfig) {
 	_init_.Initialize()
 
@@ -1003,6 +1012,24 @@ func (v *jsiiProxy_VerifiedpermissionsPolicyTemplate) ToTerraform() interface{} 
 		v,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VerifiedpermissionsPolicyTemplate) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		v,
+		"with",
+		args,
 		&returns,
 	)
 

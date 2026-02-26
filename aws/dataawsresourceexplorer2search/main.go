@@ -58,6 +58,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "viewArn", GoGetter: "ViewArn"},
 			_jsii_.MemberProperty{JsiiProperty: "viewArnInput", GoGetter: "ViewArnInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsResourceexplorer2Search{}

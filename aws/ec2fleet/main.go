@@ -123,6 +123,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "validFromInput", GoGetter: "ValidFromInput"},
 			_jsii_.MemberProperty{JsiiProperty: "validUntil", GoGetter: "ValidUntil"},
 			_jsii_.MemberProperty{JsiiProperty: "validUntilInput", GoGetter: "ValidUntilInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_Ec2Fleet{}

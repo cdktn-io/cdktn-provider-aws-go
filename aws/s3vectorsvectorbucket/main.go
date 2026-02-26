@@ -73,6 +73,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vectorBucketArn", GoGetter: "VectorBucketArn"},
 			_jsii_.MemberProperty{JsiiProperty: "vectorBucketName", GoGetter: "VectorBucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "vectorBucketNameInput", GoGetter: "VectorBucketNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_S3VectorsVectorBucket{}

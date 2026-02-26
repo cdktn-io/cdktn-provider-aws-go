@@ -138,6 +138,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "websiteDomain", GoGetter: "WebsiteDomain"},
 			_jsii_.MemberProperty{JsiiProperty: "websiteEndpoint", GoGetter: "WebsiteEndpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "websiteInput", GoGetter: "WebsiteInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_S3Bucket{}

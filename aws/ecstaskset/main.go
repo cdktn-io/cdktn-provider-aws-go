@@ -115,6 +115,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "waitUntilStableInput", GoGetter: "WaitUntilStableInput"},
 			_jsii_.MemberProperty{JsiiProperty: "waitUntilStableTimeout", GoGetter: "WaitUntilStableTimeout"},
 			_jsii_.MemberProperty{JsiiProperty: "waitUntilStableTimeoutInput", GoGetter: "WaitUntilStableTimeoutInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_EcsTaskSet{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/identitystore_group_membership aws_identitystore_group_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/identitystore_group_membership aws_identitystore_group_membership}.
 type IdentitystoreGroupMembership interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -136,6 +136,15 @@ type IdentitystoreGroupMembership interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IdentitystoreGroupMembership
@@ -414,7 +423,7 @@ func (j *jsiiProxy_IdentitystoreGroupMembership) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/identitystore_group_membership aws_identitystore_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/identitystore_group_membership aws_identitystore_group_membership} Resource.
 func NewIdentitystoreGroupMembership(scope constructs.Construct, id *string, config *IdentitystoreGroupMembershipConfig) IdentitystoreGroupMembership {
 	_init_.Initialize()
 
@@ -432,7 +441,7 @@ func NewIdentitystoreGroupMembership(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/identitystore_group_membership aws_identitystore_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/identitystore_group_membership aws_identitystore_group_membership} Resource.
 func NewIdentitystoreGroupMembership_Override(i IdentitystoreGroupMembership, scope constructs.Construct, id *string, config *IdentitystoreGroupMembershipConfig) {
 	_init_.Initialize()
 
@@ -1015,6 +1024,24 @@ func (i *jsiiProxy_IdentitystoreGroupMembership) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IdentitystoreGroupMembership) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

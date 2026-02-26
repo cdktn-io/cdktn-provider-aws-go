@@ -161,6 +161,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "tumblingWindowInSeconds", GoGetter: "TumblingWindowInSeconds"},
 			_jsii_.MemberProperty{JsiiProperty: "tumblingWindowInSecondsInput", GoGetter: "TumblingWindowInSecondsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "uuid", GoGetter: "Uuid"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_LambdaEventSourceMapping{}

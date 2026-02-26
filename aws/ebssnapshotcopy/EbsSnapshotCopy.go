@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ebs_snapshot_copy aws_ebs_snapshot_copy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ebs_snapshot_copy aws_ebs_snapshot_copy}.
 type EbsSnapshotCopy interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -179,6 +179,15 @@ type EbsSnapshotCopy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EbsSnapshotCopy
@@ -697,7 +706,7 @@ func (j *jsiiProxy_EbsSnapshotCopy) VolumeSize() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ebs_snapshot_copy aws_ebs_snapshot_copy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ebs_snapshot_copy aws_ebs_snapshot_copy} Resource.
 func NewEbsSnapshotCopy(scope constructs.Construct, id *string, config *EbsSnapshotCopyConfig) EbsSnapshotCopy {
 	_init_.Initialize()
 
@@ -715,7 +724,7 @@ func NewEbsSnapshotCopy(scope constructs.Construct, id *string, config *EbsSnaps
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ebs_snapshot_copy aws_ebs_snapshot_copy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ebs_snapshot_copy aws_ebs_snapshot_copy} Resource.
 func NewEbsSnapshotCopy_Override(e EbsSnapshotCopy, scope constructs.Construct, id *string, config *EbsSnapshotCopyConfig) {
 	_init_.Initialize()
 
@@ -1477,6 +1486,24 @@ func (e *jsiiProxy_EbsSnapshotCopy) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EbsSnapshotCopy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

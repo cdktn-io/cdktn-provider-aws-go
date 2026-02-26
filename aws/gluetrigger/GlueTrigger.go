@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/glue_trigger aws_glue_trigger}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/glue_trigger aws_glue_trigger}.
 type GlueTrigger interface {
 	cdktn.TerraformResource
 	Actions() GlueTriggerActionsList
@@ -177,6 +177,15 @@ type GlueTrigger interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for GlueTrigger
@@ -665,7 +674,7 @@ func (j *jsiiProxy_GlueTrigger) WorkflowNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/glue_trigger aws_glue_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/glue_trigger aws_glue_trigger} Resource.
 func NewGlueTrigger(scope constructs.Construct, id *string, config *GlueTriggerConfig) GlueTrigger {
 	_init_.Initialize()
 
@@ -683,7 +692,7 @@ func NewGlueTrigger(scope constructs.Construct, id *string, config *GlueTriggerC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/glue_trigger aws_glue_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/glue_trigger aws_glue_trigger} Resource.
 func NewGlueTrigger_Override(g GlueTrigger, scope constructs.Construct, id *string, config *GlueTriggerConfig) {
 	_init_.Initialize()
 
@@ -1456,6 +1465,24 @@ func (g *jsiiProxy_GlueTrigger) ToTerraform() interface{} {
 		g,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (g *jsiiProxy_GlueTrigger) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		g,
+		"with",
+		args,
 		&returns,
 	)
 

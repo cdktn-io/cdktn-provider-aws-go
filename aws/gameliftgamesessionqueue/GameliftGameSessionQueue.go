@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/gamelift_game_session_queue aws_gamelift_game_session_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/gamelift_game_session_queue aws_gamelift_game_session_queue}.
 type GameliftGameSessionQueue interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -158,6 +158,15 @@ type GameliftGameSessionQueue interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for GameliftGameSessionQueue
@@ -536,7 +545,7 @@ func (j *jsiiProxy_GameliftGameSessionQueue) TimeoutInSecondsInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/gamelift_game_session_queue aws_gamelift_game_session_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/gamelift_game_session_queue aws_gamelift_game_session_queue} Resource.
 func NewGameliftGameSessionQueue(scope constructs.Construct, id *string, config *GameliftGameSessionQueueConfig) GameliftGameSessionQueue {
 	_init_.Initialize()
 
@@ -554,7 +563,7 @@ func NewGameliftGameSessionQueue(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/gamelift_game_session_queue aws_gamelift_game_session_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/gamelift_game_session_queue aws_gamelift_game_session_queue} Resource.
 func NewGameliftGameSessionQueue_Override(g GameliftGameSessionQueue, scope constructs.Construct, id *string, config *GameliftGameSessionQueueConfig) {
 	_init_.Initialize()
 
@@ -1248,6 +1257,24 @@ func (g *jsiiProxy_GameliftGameSessionQueue) ToTerraform() interface{} {
 		g,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (g *jsiiProxy_GameliftGameSessionQueue) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		g,
+		"with",
+		args,
 		&returns,
 	)
 

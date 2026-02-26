@@ -71,6 +71,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayConnectPeerArn", GoGetter: "TransitGatewayConnectPeerArn"},
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayConnectPeerArnInput", GoGetter: "TransitGatewayConnectPeerArnInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkmanagerTransitGatewayConnectPeerAssociation{}

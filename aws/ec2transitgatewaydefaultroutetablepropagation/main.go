@@ -68,6 +68,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayIdInput", GoGetter: "TransitGatewayIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayRouteTableId", GoGetter: "TransitGatewayRouteTableId"},
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayRouteTableIdInput", GoGetter: "TransitGatewayRouteTableIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_Ec2TransitGatewayDefaultRouteTablePropagation{}

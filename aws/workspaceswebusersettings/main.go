@@ -97,6 +97,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "uploadAllowed", GoGetter: "UploadAllowed"},
 			_jsii_.MemberProperty{JsiiProperty: "uploadAllowedInput", GoGetter: "UploadAllowedInput"},
 			_jsii_.MemberProperty{JsiiProperty: "userSettingsArn", GoGetter: "UserSettingsArn"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkspaceswebUserSettings{}

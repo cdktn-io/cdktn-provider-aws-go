@@ -127,6 +127,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trackLatestInput", GoGetter: "TrackLatestInput"},
 			_jsii_.MemberProperty{JsiiProperty: "volume", GoGetter: "Volume"},
 			_jsii_.MemberProperty{JsiiProperty: "volumeInput", GoGetter: "VolumeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_EcsTaskDefinition{}

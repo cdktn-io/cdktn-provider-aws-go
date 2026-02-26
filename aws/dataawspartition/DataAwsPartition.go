@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/partition aws_partition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/partition aws_partition}.
 type DataAwsPartition interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -100,6 +100,15 @@ type DataAwsPartition interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsPartition
@@ -298,7 +307,7 @@ func (j *jsiiProxy_DataAwsPartition) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/partition aws_partition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/partition aws_partition} Data Source.
 func NewDataAwsPartition(scope constructs.Construct, id *string, config *DataAwsPartitionConfig) DataAwsPartition {
 	_init_.Initialize()
 
@@ -316,7 +325,7 @@ func NewDataAwsPartition(scope constructs.Construct, id *string, config *DataAws
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/partition aws_partition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/partition aws_partition} Data Source.
 func NewDataAwsPartition_Override(d DataAwsPartition, scope constructs.Construct, id *string, config *DataAwsPartitionConfig) {
 	_init_.Initialize()
 
@@ -757,6 +766,24 @@ func (d *jsiiProxy_DataAwsPartition) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsPartition) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

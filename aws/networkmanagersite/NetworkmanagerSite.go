@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkmanager_site aws_networkmanager_site}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkmanager_site aws_networkmanager_site}.
 type NetworkmanagerSite interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -146,6 +146,15 @@ type NetworkmanagerSite interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NetworkmanagerSite
@@ -464,7 +473,7 @@ func (j *jsiiProxy_NetworkmanagerSite) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkmanager_site aws_networkmanager_site} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkmanager_site aws_networkmanager_site} Resource.
 func NewNetworkmanagerSite(scope constructs.Construct, id *string, config *NetworkmanagerSiteConfig) NetworkmanagerSite {
 	_init_.Initialize()
 
@@ -482,7 +491,7 @@ func NewNetworkmanagerSite(scope constructs.Construct, id *string, config *Netwo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkmanager_site aws_networkmanager_site} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkmanager_site aws_networkmanager_site} Resource.
 func NewNetworkmanagerSite_Override(n NetworkmanagerSite, scope constructs.Construct, id *string, config *NetworkmanagerSiteConfig) {
 	_init_.Initialize()
 
@@ -1119,6 +1128,24 @@ func (n *jsiiProxy_NetworkmanagerSite) ToTerraform() interface{} {
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkmanagerSite) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

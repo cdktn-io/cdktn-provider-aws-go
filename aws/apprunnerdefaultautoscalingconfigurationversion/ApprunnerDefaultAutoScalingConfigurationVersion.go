@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/apprunner_default_auto_scaling_configuration_version aws_apprunner_default_auto_scaling_configuration_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/apprunner_default_auto_scaling_configuration_version aws_apprunner_default_auto_scaling_configuration_version}.
 type ApprunnerDefaultAutoScalingConfigurationVersion interface {
 	cdktn.TerraformResource
 	AutoScalingConfigurationArn() *string
@@ -126,6 +126,15 @@ type ApprunnerDefaultAutoScalingConfigurationVersion interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ApprunnerDefaultAutoScalingConfigurationVersion
@@ -344,7 +353,7 @@ func (j *jsiiProxy_ApprunnerDefaultAutoScalingConfigurationVersion) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/apprunner_default_auto_scaling_configuration_version aws_apprunner_default_auto_scaling_configuration_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/apprunner_default_auto_scaling_configuration_version aws_apprunner_default_auto_scaling_configuration_version} Resource.
 func NewApprunnerDefaultAutoScalingConfigurationVersion(scope constructs.Construct, id *string, config *ApprunnerDefaultAutoScalingConfigurationVersionConfig) ApprunnerDefaultAutoScalingConfigurationVersion {
 	_init_.Initialize()
 
@@ -362,7 +371,7 @@ func NewApprunnerDefaultAutoScalingConfigurationVersion(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/apprunner_default_auto_scaling_configuration_version aws_apprunner_default_auto_scaling_configuration_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/apprunner_default_auto_scaling_configuration_version aws_apprunner_default_auto_scaling_configuration_version} Resource.
 func NewApprunnerDefaultAutoScalingConfigurationVersion_Override(a ApprunnerDefaultAutoScalingConfigurationVersion, scope constructs.Construct, id *string, config *ApprunnerDefaultAutoScalingConfigurationVersionConfig) {
 	_init_.Initialize()
 
@@ -904,6 +913,24 @@ func (a *jsiiProxy_ApprunnerDefaultAutoScalingConfigurationVersion) ToTerraform(
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ApprunnerDefaultAutoScalingConfigurationVersion) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

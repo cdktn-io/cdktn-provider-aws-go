@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudwatch_query_definition aws_cloudwatch_query_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloudwatch_query_definition aws_cloudwatch_query_definition}.
 type CloudwatchQueryDefinition interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -137,6 +137,15 @@ type CloudwatchQueryDefinition interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for CloudwatchQueryDefinition
@@ -415,7 +424,7 @@ func (j *jsiiProxy_CloudwatchQueryDefinition) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudwatch_query_definition aws_cloudwatch_query_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloudwatch_query_definition aws_cloudwatch_query_definition} Resource.
 func NewCloudwatchQueryDefinition(scope constructs.Construct, id *string, config *CloudwatchQueryDefinitionConfig) CloudwatchQueryDefinition {
 	_init_.Initialize()
 
@@ -433,7 +442,7 @@ func NewCloudwatchQueryDefinition(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudwatch_query_definition aws_cloudwatch_query_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloudwatch_query_definition aws_cloudwatch_query_definition} Resource.
 func NewCloudwatchQueryDefinition_Override(c CloudwatchQueryDefinition, scope constructs.Construct, id *string, config *CloudwatchQueryDefinitionConfig) {
 	_init_.Initialize()
 
@@ -1024,6 +1033,24 @@ func (c *jsiiProxy_CloudwatchQueryDefinition) ToTerraform() interface{} {
 		c,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_CloudwatchQueryDefinition) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		c,
+		"with",
+		args,
 		&returns,
 	)
 

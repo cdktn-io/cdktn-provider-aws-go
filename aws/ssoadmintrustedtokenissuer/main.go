@@ -77,6 +77,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trustedTokenIssuerConfigurationInput", GoGetter: "TrustedTokenIssuerConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "trustedTokenIssuerType", GoGetter: "TrustedTokenIssuerType"},
 			_jsii_.MemberProperty{JsiiProperty: "trustedTokenIssuerTypeInput", GoGetter: "TrustedTokenIssuerTypeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_SsoadminTrustedTokenIssuer{}

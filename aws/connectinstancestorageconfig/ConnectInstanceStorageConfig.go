@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/connect_instance_storage_config aws_connect_instance_storage_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/connect_instance_storage_config aws_connect_instance_storage_config}.
 type ConnectInstanceStorageConfig interface {
 	cdktn.TerraformResource
 	AssociationId() *string
@@ -136,6 +136,15 @@ type ConnectInstanceStorageConfig interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ConnectInstanceStorageConfig
@@ -414,7 +423,7 @@ func (j *jsiiProxy_ConnectInstanceStorageConfig) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/connect_instance_storage_config aws_connect_instance_storage_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/connect_instance_storage_config aws_connect_instance_storage_config} Resource.
 func NewConnectInstanceStorageConfig(scope constructs.Construct, id *string, config *ConnectInstanceStorageConfigConfig) ConnectInstanceStorageConfig {
 	_init_.Initialize()
 
@@ -432,7 +441,7 @@ func NewConnectInstanceStorageConfig(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/connect_instance_storage_config aws_connect_instance_storage_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/connect_instance_storage_config aws_connect_instance_storage_config} Resource.
 func NewConnectInstanceStorageConfig_Override(c ConnectInstanceStorageConfig, scope constructs.Construct, id *string, config *ConnectInstanceStorageConfigConfig) {
 	_init_.Initialize()
 
@@ -1015,6 +1024,24 @@ func (c *jsiiProxy_ConnectInstanceStorageConfig) ToTerraform() interface{} {
 		c,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_ConnectInstanceStorageConfig) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		c,
+		"with",
+		args,
 		&returns,
 	)
 

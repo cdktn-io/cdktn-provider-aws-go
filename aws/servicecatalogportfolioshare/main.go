@@ -84,6 +84,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForAcceptance", GoGetter: "WaitForAcceptance"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForAcceptanceInput", GoGetter: "WaitForAcceptanceInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ServicecatalogPortfolioShare{}

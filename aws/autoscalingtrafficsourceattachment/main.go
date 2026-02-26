@@ -71,6 +71,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "trafficSource", GoGetter: "TrafficSource"},
 			_jsii_.MemberProperty{JsiiProperty: "trafficSourceInput", GoGetter: "TrafficSourceInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_AutoscalingTrafficSourceAttachment{}

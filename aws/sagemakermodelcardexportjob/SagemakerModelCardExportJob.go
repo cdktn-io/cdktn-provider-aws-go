@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_model_card_export_job aws_sagemaker_model_card_export_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_model_card_export_job aws_sagemaker_model_card_export_job}.
 type SagemakerModelCardExportJob interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -142,6 +142,15 @@ type SagemakerModelCardExportJob interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SagemakerModelCardExportJob
@@ -450,7 +459,7 @@ func (j *jsiiProxy_SagemakerModelCardExportJob) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_model_card_export_job aws_sagemaker_model_card_export_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_model_card_export_job aws_sagemaker_model_card_export_job} Resource.
 func NewSagemakerModelCardExportJob(scope constructs.Construct, id *string, config *SagemakerModelCardExportJobConfig) SagemakerModelCardExportJob {
 	_init_.Initialize()
 
@@ -468,7 +477,7 @@ func NewSagemakerModelCardExportJob(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_model_card_export_job aws_sagemaker_model_card_export_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_model_card_export_job aws_sagemaker_model_card_export_job} Resource.
 func NewSagemakerModelCardExportJob_Override(s SagemakerModelCardExportJob, scope constructs.Construct, id *string, config *SagemakerModelCardExportJobConfig) {
 	_init_.Initialize()
 
@@ -1078,6 +1087,24 @@ func (s *jsiiProxy_SagemakerModelCardExportJob) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SagemakerModelCardExportJob) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

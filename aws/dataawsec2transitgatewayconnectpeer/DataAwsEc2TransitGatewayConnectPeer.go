@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ec2_transit_gateway_connect_peer aws_ec2_transit_gateway_connect_peer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ec2_transit_gateway_connect_peer aws_ec2_transit_gateway_connect_peer}.
 type DataAwsEc2TransitGatewayConnectPeer interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -125,6 +125,15 @@ type DataAwsEc2TransitGatewayConnectPeer interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsEc2TransitGatewayConnectPeer
@@ -473,7 +482,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayConnectPeer) TransitGatewayConnectPee
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ec2_transit_gateway_connect_peer aws_ec2_transit_gateway_connect_peer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ec2_transit_gateway_connect_peer aws_ec2_transit_gateway_connect_peer} Data Source.
 func NewDataAwsEc2TransitGatewayConnectPeer(scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayConnectPeerConfig) DataAwsEc2TransitGatewayConnectPeer {
 	_init_.Initialize()
 
@@ -491,7 +500,7 @@ func NewDataAwsEc2TransitGatewayConnectPeer(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ec2_transit_gateway_connect_peer aws_ec2_transit_gateway_connect_peer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ec2_transit_gateway_connect_peer aws_ec2_transit_gateway_connect_peer} Data Source.
 func NewDataAwsEc2TransitGatewayConnectPeer_Override(d DataAwsEc2TransitGatewayConnectPeer, scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayConnectPeerConfig) {
 	_init_.Initialize()
 
@@ -1027,6 +1036,24 @@ func (d *jsiiProxy_DataAwsEc2TransitGatewayConnectPeer) ToTerraform() interface{
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsEc2TransitGatewayConnectPeer) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

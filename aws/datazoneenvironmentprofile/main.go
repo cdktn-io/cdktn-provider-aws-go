@@ -82,6 +82,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updatedAt", GoGetter: "UpdatedAt"},
 			_jsii_.MemberProperty{JsiiProperty: "userParameters", GoGetter: "UserParameters"},
 			_jsii_.MemberProperty{JsiiProperty: "userParametersInput", GoGetter: "UserParametersInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DatazoneEnvironmentProfile{}

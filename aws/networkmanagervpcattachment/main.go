@@ -90,6 +90,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcArn", GoGetter: "VpcArn"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcArnInput", GoGetter: "VpcArnInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkmanagerVpcAttachment{}

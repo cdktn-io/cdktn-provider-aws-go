@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/route53_resolver_config aws_route53_resolver_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/route53_resolver_config aws_route53_resolver_config}.
 type Route53ResolverConfig interface {
 	cdktn.TerraformResource
 	AutodefinedReverseFlag() *string
@@ -133,6 +133,15 @@ type Route53ResolverConfig interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Route53ResolverConfig
@@ -391,7 +400,7 @@ func (j *jsiiProxy_Route53ResolverConfig) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/route53_resolver_config aws_route53_resolver_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/route53_resolver_config aws_route53_resolver_config} Resource.
 func NewRoute53ResolverConfig(scope constructs.Construct, id *string, config *Route53ResolverConfigConfig) Route53ResolverConfig {
 	_init_.Initialize()
 
@@ -409,7 +418,7 @@ func NewRoute53ResolverConfig(scope constructs.Construct, id *string, config *Ro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/route53_resolver_config aws_route53_resolver_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/route53_resolver_config aws_route53_resolver_config} Resource.
 func NewRoute53ResolverConfig_Override(r Route53ResolverConfig, scope constructs.Construct, id *string, config *Route53ResolverConfigConfig) {
 	_init_.Initialize()
 
@@ -981,6 +990,24 @@ func (r *jsiiProxy_Route53ResolverConfig) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_Route53ResolverConfig) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

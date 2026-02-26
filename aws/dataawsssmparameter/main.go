@@ -61,6 +61,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
 			_jsii_.MemberProperty{JsiiProperty: "value", GoGetter: "Value"},
 			_jsii_.MemberProperty{JsiiProperty: "version", GoGetter: "Version"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "withDecryption", GoGetter: "WithDecryption"},
 			_jsii_.MemberProperty{JsiiProperty: "withDecryptionInput", GoGetter: "WithDecryptionInput"},
 		},

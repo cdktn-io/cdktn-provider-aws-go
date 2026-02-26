@@ -101,6 +101,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "triggerTypes", GoGetter: "TriggerTypes"},
 			_jsii_.MemberProperty{JsiiProperty: "triggerTypesInput", GoGetter: "TriggerTypesInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ConfigOrganizationCustomPolicyRule{}

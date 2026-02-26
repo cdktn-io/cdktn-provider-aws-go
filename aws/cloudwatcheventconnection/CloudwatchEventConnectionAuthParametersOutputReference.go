@@ -27,6 +27,8 @@ type CloudwatchEventConnectionAuthParametersOutputReference interface {
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ConnectivityParameters() CloudwatchEventConnectionAuthParametersConnectivityParametersOutputReference
+	ConnectivityParametersInput() *CloudwatchEventConnectionAuthParametersConnectivityParameters
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -74,10 +76,12 @@ type CloudwatchEventConnectionAuthParametersOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutApiKey(value *CloudwatchEventConnectionAuthParametersApiKey)
 	PutBasic(value *CloudwatchEventConnectionAuthParametersBasic)
+	PutConnectivityParameters(value *CloudwatchEventConnectionAuthParametersConnectivityParameters)
 	PutInvocationHttpParameters(value *CloudwatchEventConnectionAuthParametersInvocationHttpParameters)
 	PutOauth(value *CloudwatchEventConnectionAuthParametersOauth)
 	ResetApiKey()
 	ResetBasic()
+	ResetConnectivityParameters()
 	ResetInvocationHttpParameters()
 	ResetOauth()
 	// Produce the Token's value at resolution time.
@@ -150,6 +154,26 @@ func (j *jsiiProxy_CloudwatchEventConnectionAuthParametersOutputReference) Compl
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudwatchEventConnectionAuthParametersOutputReference) ConnectivityParameters() CloudwatchEventConnectionAuthParametersConnectivityParametersOutputReference {
+	var returns CloudwatchEventConnectionAuthParametersConnectivityParametersOutputReference
+	_jsii_.Get(
+		j,
+		"connectivityParameters",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudwatchEventConnectionAuthParametersOutputReference) ConnectivityParametersInput() *CloudwatchEventConnectionAuthParametersConnectivityParameters {
+	var returns *CloudwatchEventConnectionAuthParametersConnectivityParameters
+	_jsii_.Get(
+		j,
+		"connectivityParametersInput",
 		&returns,
 	)
 	return returns
@@ -536,6 +560,17 @@ func (c *jsiiProxy_CloudwatchEventConnectionAuthParametersOutputReference) PutBa
 	)
 }
 
+func (c *jsiiProxy_CloudwatchEventConnectionAuthParametersOutputReference) PutConnectivityParameters(value *CloudwatchEventConnectionAuthParametersConnectivityParameters) {
+	if err := c.validatePutConnectivityParametersParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putConnectivityParameters",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CloudwatchEventConnectionAuthParametersOutputReference) PutInvocationHttpParameters(value *CloudwatchEventConnectionAuthParametersInvocationHttpParameters) {
 	if err := c.validatePutInvocationHttpParametersParameters(value); err != nil {
 		panic(err)
@@ -570,6 +605,14 @@ func (c *jsiiProxy_CloudwatchEventConnectionAuthParametersOutputReference) Reset
 	_jsii_.InvokeVoid(
 		c,
 		"resetBasic",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudwatchEventConnectionAuthParametersOutputReference) ResetConnectivityParameters() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetConnectivityParameters",
 		nil, // no parameters
 	)
 }

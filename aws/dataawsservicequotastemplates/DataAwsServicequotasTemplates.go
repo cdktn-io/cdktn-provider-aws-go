@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/servicequotas_templates aws_servicequotas_templates}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/servicequotas_templates aws_servicequotas_templates}.
 type DataAwsServicequotasTemplates interface {
 	cdktn.TerraformDataSource
 	AwsRegion() *string
@@ -103,6 +103,15 @@ type DataAwsServicequotasTemplates interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsServicequotasTemplates
@@ -311,7 +320,7 @@ func (j *jsiiProxy_DataAwsServicequotasTemplates) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/servicequotas_templates aws_servicequotas_templates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/servicequotas_templates aws_servicequotas_templates} Data Source.
 func NewDataAwsServicequotasTemplates(scope constructs.Construct, id *string, config *DataAwsServicequotasTemplatesConfig) DataAwsServicequotasTemplates {
 	_init_.Initialize()
 
@@ -329,7 +338,7 @@ func NewDataAwsServicequotasTemplates(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/servicequotas_templates aws_servicequotas_templates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/servicequotas_templates aws_servicequotas_templates} Data Source.
 func NewDataAwsServicequotasTemplates_Override(d DataAwsServicequotasTemplates, scope constructs.Construct, id *string, config *DataAwsServicequotasTemplatesConfig) {
 	_init_.Initialize()
 
@@ -789,6 +798,24 @@ func (d *jsiiProxy_DataAwsServicequotasTemplates) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsServicequotasTemplates) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

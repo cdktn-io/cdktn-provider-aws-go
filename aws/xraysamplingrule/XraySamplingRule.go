@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/xray_sampling_rule aws_xray_sampling_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/xray_sampling_rule aws_xray_sampling_rule}.
 type XraySamplingRule interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -173,6 +173,15 @@ type XraySamplingRule interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for XraySamplingRule
@@ -671,7 +680,7 @@ func (j *jsiiProxy_XraySamplingRule) VersionInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/xray_sampling_rule aws_xray_sampling_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/xray_sampling_rule aws_xray_sampling_rule} Resource.
 func NewXraySamplingRule(scope constructs.Construct, id *string, config *XraySamplingRuleConfig) XraySamplingRule {
 	_init_.Initialize()
 
@@ -689,7 +698,7 @@ func NewXraySamplingRule(scope constructs.Construct, id *string, config *XraySam
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/xray_sampling_rule aws_xray_sampling_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/xray_sampling_rule aws_xray_sampling_rule} Resource.
 func NewXraySamplingRule_Override(x XraySamplingRule, scope constructs.Construct, id *string, config *XraySamplingRuleConfig) {
 	_init_.Initialize()
 
@@ -1425,6 +1434,24 @@ func (x *jsiiProxy_XraySamplingRule) ToTerraform() interface{} {
 		x,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (x *jsiiProxy_XraySamplingRule) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		x,
+		"with",
+		args,
 		&returns,
 	)
 

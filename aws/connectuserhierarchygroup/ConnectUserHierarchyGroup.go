@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/connect_user_hierarchy_group aws_connect_user_hierarchy_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/connect_user_hierarchy_group aws_connect_user_hierarchy_group}.
 type ConnectUserHierarchyGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -148,6 +148,15 @@ type ConnectUserHierarchyGroup interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ConnectUserHierarchyGroup
@@ -496,7 +505,7 @@ func (j *jsiiProxy_ConnectUserHierarchyGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/connect_user_hierarchy_group aws_connect_user_hierarchy_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/connect_user_hierarchy_group aws_connect_user_hierarchy_group} Resource.
 func NewConnectUserHierarchyGroup(scope constructs.Construct, id *string, config *ConnectUserHierarchyGroupConfig) ConnectUserHierarchyGroup {
 	_init_.Initialize()
 
@@ -514,7 +523,7 @@ func NewConnectUserHierarchyGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/connect_user_hierarchy_group aws_connect_user_hierarchy_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/connect_user_hierarchy_group aws_connect_user_hierarchy_group} Resource.
 func NewConnectUserHierarchyGroup_Override(c ConnectUserHierarchyGroup, scope constructs.Construct, id *string, config *ConnectUserHierarchyGroupConfig) {
 	_init_.Initialize()
 
@@ -1143,6 +1152,24 @@ func (c *jsiiProxy_ConnectUserHierarchyGroup) ToTerraform() interface{} {
 		c,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_ConnectUserHierarchyGroup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		c,
+		"with",
+		args,
 		&returns,
 	)
 

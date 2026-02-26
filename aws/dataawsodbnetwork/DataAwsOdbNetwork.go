@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/odb_network aws_odb_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/odb_network aws_odb_network}.
 type DataAwsOdbNetwork interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -121,6 +121,15 @@ type DataAwsOdbNetwork interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsOdbNetwork
@@ -519,7 +528,7 @@ func (j *jsiiProxy_DataAwsOdbNetwork) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/odb_network aws_odb_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/odb_network aws_odb_network} Data Source.
 func NewDataAwsOdbNetwork(scope constructs.Construct, id *string, config *DataAwsOdbNetworkConfig) DataAwsOdbNetwork {
 	_init_.Initialize()
 
@@ -537,7 +546,7 @@ func NewDataAwsOdbNetwork(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/odb_network aws_odb_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/odb_network aws_odb_network} Data Source.
 func NewDataAwsOdbNetwork_Override(d DataAwsOdbNetwork, scope constructs.Construct, id *string, config *DataAwsOdbNetworkConfig) {
 	_init_.Initialize()
 
@@ -989,6 +998,24 @@ func (d *jsiiProxy_DataAwsOdbNetwork) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsOdbNetwork) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

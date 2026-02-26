@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3control_storage_lens_configuration aws_s3control_storage_lens_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3control_storage_lens_configuration aws_s3control_storage_lens_configuration}.
 type S3ControlStorageLensConfiguration interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -145,6 +145,15 @@ type S3ControlStorageLensConfiguration interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for S3ControlStorageLensConfiguration
@@ -463,7 +472,7 @@ func (j *jsiiProxy_S3ControlStorageLensConfiguration) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3control_storage_lens_configuration aws_s3control_storage_lens_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3control_storage_lens_configuration aws_s3control_storage_lens_configuration} Resource.
 func NewS3ControlStorageLensConfiguration(scope constructs.Construct, id *string, config *S3ControlStorageLensConfigurationConfig) S3ControlStorageLensConfiguration {
 	_init_.Initialize()
 
@@ -481,7 +490,7 @@ func NewS3ControlStorageLensConfiguration(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3control_storage_lens_configuration aws_s3control_storage_lens_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3control_storage_lens_configuration aws_s3control_storage_lens_configuration} Resource.
 func NewS3ControlStorageLensConfiguration_Override(s S3ControlStorageLensConfiguration, scope constructs.Construct, id *string, config *S3ControlStorageLensConfigurationConfig) {
 	_init_.Initialize()
 
@@ -1110,6 +1119,24 @@ func (s *jsiiProxy_S3ControlStorageLensConfiguration) ToTerraform() interface{} 
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_S3ControlStorageLensConfiguration) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

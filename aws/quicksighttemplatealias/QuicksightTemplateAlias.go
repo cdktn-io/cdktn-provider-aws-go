@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_template_alias aws_quicksight_template_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_template_alias aws_quicksight_template_alias}.
 type QuicksightTemplateAlias interface {
 	cdktn.TerraformResource
 	AliasName() *string
@@ -137,6 +137,15 @@ type QuicksightTemplateAlias interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for QuicksightTemplateAlias
@@ -425,7 +434,7 @@ func (j *jsiiProxy_QuicksightTemplateAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_template_alias aws_quicksight_template_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_template_alias aws_quicksight_template_alias} Resource.
 func NewQuicksightTemplateAlias(scope constructs.Construct, id *string, config *QuicksightTemplateAliasConfig) QuicksightTemplateAlias {
 	_init_.Initialize()
 
@@ -443,7 +452,7 @@ func NewQuicksightTemplateAlias(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_template_alias aws_quicksight_template_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_template_alias aws_quicksight_template_alias} Resource.
 func NewQuicksightTemplateAlias_Override(q QuicksightTemplateAlias, scope constructs.Construct, id *string, config *QuicksightTemplateAliasConfig) {
 	_init_.Initialize()
 
@@ -1026,6 +1035,24 @@ func (q *jsiiProxy_QuicksightTemplateAlias) ToTerraform() interface{} {
 		q,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (q *jsiiProxy_QuicksightTemplateAlias) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		q,
+		"with",
+		args,
 		&returns,
 	)
 

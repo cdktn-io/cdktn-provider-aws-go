@@ -89,6 +89,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "transportAttachmentId", GoGetter: "TransportAttachmentId"},
 			_jsii_.MemberProperty{JsiiProperty: "transportAttachmentIdInput", GoGetter: "TransportAttachmentIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkmanagerConnectAttachment{}

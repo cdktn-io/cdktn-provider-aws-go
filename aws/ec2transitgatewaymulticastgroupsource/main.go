@@ -67,6 +67,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayMulticastDomainId", GoGetter: "TransitGatewayMulticastDomainId"},
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayMulticastDomainIdInput", GoGetter: "TransitGatewayMulticastDomainIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_Ec2TransitGatewayMulticastGroupSource{}

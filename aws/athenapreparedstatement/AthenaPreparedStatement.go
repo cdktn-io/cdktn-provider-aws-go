@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/athena_prepared_statement aws_athena_prepared_statement}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/athena_prepared_statement aws_athena_prepared_statement}.
 type AthenaPreparedStatement interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -143,6 +143,15 @@ type AthenaPreparedStatement interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AthenaPreparedStatement
@@ -451,7 +460,7 @@ func (j *jsiiProxy_AthenaPreparedStatement) WorkgroupInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/athena_prepared_statement aws_athena_prepared_statement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/athena_prepared_statement aws_athena_prepared_statement} Resource.
 func NewAthenaPreparedStatement(scope constructs.Construct, id *string, config *AthenaPreparedStatementConfig) AthenaPreparedStatement {
 	_init_.Initialize()
 
@@ -469,7 +478,7 @@ func NewAthenaPreparedStatement(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/athena_prepared_statement aws_athena_prepared_statement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/athena_prepared_statement aws_athena_prepared_statement} Resource.
 func NewAthenaPreparedStatement_Override(a AthenaPreparedStatement, scope constructs.Construct, id *string, config *AthenaPreparedStatementConfig) {
 	_init_.Initialize()
 
@@ -1090,6 +1099,24 @@ func (a *jsiiProxy_AthenaPreparedStatement) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AthenaPreparedStatement) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

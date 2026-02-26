@@ -112,6 +112,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "userIdentityType", GoGetter: "UserIdentityType"},
 			_jsii_.MemberProperty{JsiiProperty: "userIdentityTypeInput", GoGetter: "UserIdentityTypeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "workspaceAccessProperties", GoGetter: "WorkspaceAccessProperties"},
 			_jsii_.MemberProperty{JsiiProperty: "workspaceAccessPropertiesInput", GoGetter: "WorkspaceAccessPropertiesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "workspaceCreationProperties", GoGetter: "WorkspaceCreationProperties"},

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/eks_access_policy_association aws_eks_access_policy_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/eks_access_policy_association aws_eks_access_policy_association}.
 type EksAccessPolicyAssociation interface {
 	cdktn.TerraformResource
 	AccessScope() EksAccessPolicyAssociationAccessScopeOutputReference
@@ -144,6 +144,15 @@ type EksAccessPolicyAssociation interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EksAccessPolicyAssociation
@@ -472,7 +481,7 @@ func (j *jsiiProxy_EksAccessPolicyAssociation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/eks_access_policy_association aws_eks_access_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/eks_access_policy_association aws_eks_access_policy_association} Resource.
 func NewEksAccessPolicyAssociation(scope constructs.Construct, id *string, config *EksAccessPolicyAssociationConfig) EksAccessPolicyAssociation {
 	_init_.Initialize()
 
@@ -490,7 +499,7 @@ func NewEksAccessPolicyAssociation(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/eks_access_policy_association aws_eks_access_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/eks_access_policy_association aws_eks_access_policy_association} Resource.
 func NewEksAccessPolicyAssociation_Override(e EksAccessPolicyAssociation, scope constructs.Construct, id *string, config *EksAccessPolicyAssociationConfig) {
 	_init_.Initialize()
 
@@ -1103,6 +1112,24 @@ func (e *jsiiProxy_EksAccessPolicyAssociation) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EksAccessPolicyAssociation) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

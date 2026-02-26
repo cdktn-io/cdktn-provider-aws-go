@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kms_replica_key aws_kms_replica_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kms_replica_key aws_kms_replica_key}.
 type KmsReplicaKey interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -162,6 +162,15 @@ type KmsReplicaKey interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for KmsReplicaKey
@@ -580,7 +589,7 @@ func (j *jsiiProxy_KmsReplicaKey) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kms_replica_key aws_kms_replica_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kms_replica_key aws_kms_replica_key} Resource.
 func NewKmsReplicaKey(scope constructs.Construct, id *string, config *KmsReplicaKeyConfig) KmsReplicaKey {
 	_init_.Initialize()
 
@@ -598,7 +607,7 @@ func NewKmsReplicaKey(scope constructs.Construct, id *string, config *KmsReplica
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/kms_replica_key aws_kms_replica_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/kms_replica_key aws_kms_replica_key} Resource.
 func NewKmsReplicaKey_Override(k KmsReplicaKey, scope constructs.Construct, id *string, config *KmsReplicaKeyConfig) {
 	_init_.Initialize()
 
@@ -1292,6 +1301,24 @@ func (k *jsiiProxy_KmsReplicaKey) ToTerraform() interface{} {
 		k,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (k *jsiiProxy_KmsReplicaKey) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		k,
+		"with",
+		args,
 		&returns,
 	)
 

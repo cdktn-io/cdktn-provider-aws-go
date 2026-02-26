@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/pipes_pipe aws_pipes_pipe}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/pipes_pipe aws_pipes_pipe}.
 type PipesPipe interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -188,6 +188,15 @@ type PipesPipe interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for PipesPipe
@@ -726,7 +735,7 @@ func (j *jsiiProxy_PipesPipe) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/pipes_pipe aws_pipes_pipe} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/pipes_pipe aws_pipes_pipe} Resource.
 func NewPipesPipe(scope constructs.Construct, id *string, config *PipesPipeConfig) PipesPipe {
 	_init_.Initialize()
 
@@ -744,7 +753,7 @@ func NewPipesPipe(scope constructs.Construct, id *string, config *PipesPipeConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/pipes_pipe aws_pipes_pipe} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/pipes_pipe aws_pipes_pipe} Resource.
 func NewPipesPipe_Override(p PipesPipe, scope constructs.Construct, id *string, config *PipesPipeConfig) {
 	_init_.Initialize()
 
@@ -1574,6 +1583,24 @@ func (p *jsiiProxy_PipesPipe) ToTerraform() interface{} {
 		p,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_PipesPipe) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		p,
+		"with",
+		args,
 		&returns,
 	)
 

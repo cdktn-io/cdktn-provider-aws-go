@@ -93,6 +93,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vlan", GoGetter: "Vlan"},
 			_jsii_.MemberProperty{JsiiProperty: "vlanInput", GoGetter: "VlanInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DxHostedPrivateVirtualInterface{}

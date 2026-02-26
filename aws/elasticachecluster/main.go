@@ -160,6 +160,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "transitEncryptionEnabled", GoGetter: "TransitEncryptionEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "transitEncryptionEnabledInput", GoGetter: "TransitEncryptionEnabledInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ElasticacheCluster{}

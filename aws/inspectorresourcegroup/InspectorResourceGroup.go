@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/inspector_resource_group aws_inspector_resource_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/inspector_resource_group aws_inspector_resource_group}.
 type InspectorResourceGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -130,6 +130,15 @@ type InspectorResourceGroup interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for InspectorResourceGroup
@@ -368,7 +377,7 @@ func (j *jsiiProxy_InspectorResourceGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/inspector_resource_group aws_inspector_resource_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/inspector_resource_group aws_inspector_resource_group} Resource.
 func NewInspectorResourceGroup(scope constructs.Construct, id *string, config *InspectorResourceGroupConfig) InspectorResourceGroup {
 	_init_.Initialize()
 
@@ -386,7 +395,7 @@ func NewInspectorResourceGroup(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/inspector_resource_group aws_inspector_resource_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/inspector_resource_group aws_inspector_resource_group} Resource.
 func NewInspectorResourceGroup_Override(i InspectorResourceGroup, scope constructs.Construct, id *string, config *InspectorResourceGroupConfig) {
 	_init_.Initialize()
 
@@ -947,6 +956,24 @@ func (i *jsiiProxy_InspectorResourceGroup) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_InspectorResourceGroup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

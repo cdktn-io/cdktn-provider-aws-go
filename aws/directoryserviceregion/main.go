@@ -81,6 +81,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcSettings", GoGetter: "VpcSettings"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcSettingsInput", GoGetter: "VpcSettingsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DirectoryServiceRegion{}

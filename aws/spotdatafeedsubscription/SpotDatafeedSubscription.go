@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/spot_datafeed_subscription aws_spot_datafeed_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/spot_datafeed_subscription aws_spot_datafeed_subscription}.
 type SpotDatafeedSubscription interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -133,6 +133,15 @@ type SpotDatafeedSubscription interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SpotDatafeedSubscription
@@ -381,7 +390,7 @@ func (j *jsiiProxy_SpotDatafeedSubscription) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/spot_datafeed_subscription aws_spot_datafeed_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/spot_datafeed_subscription aws_spot_datafeed_subscription} Resource.
 func NewSpotDatafeedSubscription(scope constructs.Construct, id *string, config *SpotDatafeedSubscriptionConfig) SpotDatafeedSubscription {
 	_init_.Initialize()
 
@@ -399,7 +408,7 @@ func NewSpotDatafeedSubscription(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/spot_datafeed_subscription aws_spot_datafeed_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/spot_datafeed_subscription aws_spot_datafeed_subscription} Resource.
 func NewSpotDatafeedSubscription_Override(s SpotDatafeedSubscription, scope constructs.Construct, id *string, config *SpotDatafeedSubscriptionConfig) {
 	_init_.Initialize()
 
@@ -979,6 +988,24 @@ func (s *jsiiProxy_SpotDatafeedSubscription) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SpotDatafeedSubscription) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

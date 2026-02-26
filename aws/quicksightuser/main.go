@@ -84,6 +84,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userNameInput", GoGetter: "UserNameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "userRole", GoGetter: "UserRole"},
 			_jsii_.MemberProperty{JsiiProperty: "userRoleInput", GoGetter: "UserRoleInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_QuicksightUser{}

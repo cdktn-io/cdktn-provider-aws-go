@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ami aws_ami}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ami aws_ami}.
 type DataAwsAmi interface {
 	cdktn.TerraformDataSource
 	AllowUnsafeFilter() interface{}
@@ -173,6 +173,15 @@ type DataAwsAmi interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsAmi
@@ -881,7 +890,7 @@ func (j *jsiiProxy_DataAwsAmi) VirtualizationType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ami aws_ami} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ami aws_ami} Data Source.
 func NewDataAwsAmi(scope constructs.Construct, id *string, config *DataAwsAmiConfig) DataAwsAmi {
 	_init_.Initialize()
 
@@ -899,7 +908,7 @@ func NewDataAwsAmi(scope constructs.Construct, id *string, config *DataAwsAmiCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ami aws_ami} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ami aws_ami} Data Source.
 func NewDataAwsAmi_Override(d DataAwsAmi, scope constructs.Construct, id *string, config *DataAwsAmiConfig) {
 	_init_.Initialize()
 
@@ -1549,6 +1558,24 @@ func (d *jsiiProxy_DataAwsAmi) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsAmi) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

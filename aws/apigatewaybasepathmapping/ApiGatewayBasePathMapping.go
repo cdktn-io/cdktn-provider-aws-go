@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/api_gateway_base_path_mapping aws_api_gateway_base_path_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/api_gateway_base_path_mapping aws_api_gateway_base_path_mapping}.
 type ApiGatewayBasePathMapping interface {
 	cdktn.TerraformResource
 	ApiId() *string
@@ -144,6 +144,15 @@ type ApiGatewayBasePathMapping interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ApiGatewayBasePathMapping
@@ -452,7 +461,7 @@ func (j *jsiiProxy_ApiGatewayBasePathMapping) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/api_gateway_base_path_mapping aws_api_gateway_base_path_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/api_gateway_base_path_mapping aws_api_gateway_base_path_mapping} Resource.
 func NewApiGatewayBasePathMapping(scope constructs.Construct, id *string, config *ApiGatewayBasePathMappingConfig) ApiGatewayBasePathMapping {
 	_init_.Initialize()
 
@@ -470,7 +479,7 @@ func NewApiGatewayBasePathMapping(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/api_gateway_base_path_mapping aws_api_gateway_base_path_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/api_gateway_base_path_mapping aws_api_gateway_base_path_mapping} Resource.
 func NewApiGatewayBasePathMapping_Override(a ApiGatewayBasePathMapping, scope constructs.Construct, id *string, config *ApiGatewayBasePathMappingConfig) {
 	_init_.Initialize()
 
@@ -1099,6 +1108,24 @@ func (a *jsiiProxy_ApiGatewayBasePathMapping) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ApiGatewayBasePathMapping) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

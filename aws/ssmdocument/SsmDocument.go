@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssm_document aws_ssm_document}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssm_document aws_ssm_document}.
 type SsmDocument interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -176,6 +176,15 @@ type SsmDocument interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SsmDocument
@@ -714,7 +723,7 @@ func (j *jsiiProxy_SsmDocument) VersionNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssm_document aws_ssm_document} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssm_document aws_ssm_document} Resource.
 func NewSsmDocument(scope constructs.Construct, id *string, config *SsmDocumentConfig) SsmDocument {
 	_init_.Initialize()
 
@@ -732,7 +741,7 @@ func NewSsmDocument(scope constructs.Construct, id *string, config *SsmDocumentC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ssm_document aws_ssm_document} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ssm_document aws_ssm_document} Resource.
 func NewSsmDocument_Override(s SsmDocument, scope constructs.Construct, id *string, config *SsmDocumentConfig) {
 	_init_.Initialize()
 
@@ -1448,6 +1457,24 @@ func (s *jsiiProxy_SsmDocument) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SsmDocument) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

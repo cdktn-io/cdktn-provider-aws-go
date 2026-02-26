@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_event_configurations aws_iot_event_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iot_event_configurations aws_iot_event_configurations}.
 type IotEventConfigurations interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -129,6 +129,15 @@ type IotEventConfigurations interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IotEventConfigurations
@@ -357,7 +366,7 @@ func (j *jsiiProxy_IotEventConfigurations) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_event_configurations aws_iot_event_configurations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iot_event_configurations aws_iot_event_configurations} Resource.
 func NewIotEventConfigurations(scope constructs.Construct, id *string, config *IotEventConfigurationsConfig) IotEventConfigurations {
 	_init_.Initialize()
 
@@ -375,7 +384,7 @@ func NewIotEventConfigurations(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iot_event_configurations aws_iot_event_configurations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iot_event_configurations aws_iot_event_configurations} Resource.
 func NewIotEventConfigurations_Override(i IotEventConfigurations, scope constructs.Construct, id *string, config *IotEventConfigurationsConfig) {
 	_init_.Initialize()
 
@@ -936,6 +945,24 @@ func (i *jsiiProxy_IotEventConfigurations) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IotEventConfigurations) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

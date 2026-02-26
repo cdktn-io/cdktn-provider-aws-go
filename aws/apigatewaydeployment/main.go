@@ -73,6 +73,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "triggersInput", GoGetter: "TriggersInput"},
 			_jsii_.MemberProperty{JsiiProperty: "variables", GoGetter: "Variables"},
 			_jsii_.MemberProperty{JsiiProperty: "variablesInput", GoGetter: "VariablesInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ApiGatewayDeployment{}

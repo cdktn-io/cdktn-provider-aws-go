@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/dms_certificate aws_dms_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/dms_certificate aws_dms_certificate}.
 type DataAwsDmsCertificate interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -117,6 +117,15 @@ type DataAwsDmsCertificate interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsDmsCertificate
@@ -435,7 +444,7 @@ func (j *jsiiProxy_DataAwsDmsCertificate) ValidToDate() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/dms_certificate aws_dms_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/dms_certificate aws_dms_certificate} Data Source.
 func NewDataAwsDmsCertificate(scope constructs.Construct, id *string, config *DataAwsDmsCertificateConfig) DataAwsDmsCertificate {
 	_init_.Initialize()
 
@@ -453,7 +462,7 @@ func NewDataAwsDmsCertificate(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/dms_certificate aws_dms_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/dms_certificate aws_dms_certificate} Data Source.
 func NewDataAwsDmsCertificate_Override(d DataAwsDmsCertificate, scope constructs.Construct, id *string, config *DataAwsDmsCertificateConfig) {
 	_init_.Initialize()
 
@@ -943,6 +952,24 @@ func (d *jsiiProxy_DataAwsDmsCertificate) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsDmsCertificate) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

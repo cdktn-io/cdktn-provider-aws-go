@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3_bucket_server_side_encryption_configuration aws_s3_bucket_server_side_encryption_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3_bucket_server_side_encryption_configuration aws_s3_bucket_server_side_encryption_configuration}.
 type S3BucketServerSideEncryptionConfigurationA interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -136,6 +136,15 @@ type S3BucketServerSideEncryptionConfigurationA interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for S3BucketServerSideEncryptionConfigurationA
@@ -404,7 +413,7 @@ func (j *jsiiProxy_S3BucketServerSideEncryptionConfigurationA) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3_bucket_server_side_encryption_configuration aws_s3_bucket_server_side_encryption_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3_bucket_server_side_encryption_configuration aws_s3_bucket_server_side_encryption_configuration} Resource.
 func NewS3BucketServerSideEncryptionConfigurationA(scope constructs.Construct, id *string, config *S3BucketServerSideEncryptionConfigurationAConfig) S3BucketServerSideEncryptionConfigurationA {
 	_init_.Initialize()
 
@@ -422,7 +431,7 @@ func NewS3BucketServerSideEncryptionConfigurationA(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3_bucket_server_side_encryption_configuration aws_s3_bucket_server_side_encryption_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3_bucket_server_side_encryption_configuration aws_s3_bucket_server_side_encryption_configuration} Resource.
 func NewS3BucketServerSideEncryptionConfigurationA_Override(s S3BucketServerSideEncryptionConfigurationA, scope constructs.Construct, id *string, config *S3BucketServerSideEncryptionConfigurationAConfig) {
 	_init_.Initialize()
 
@@ -1013,6 +1022,24 @@ func (s *jsiiProxy_S3BucketServerSideEncryptionConfigurationA) ToTerraform() int
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_S3BucketServerSideEncryptionConfigurationA) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

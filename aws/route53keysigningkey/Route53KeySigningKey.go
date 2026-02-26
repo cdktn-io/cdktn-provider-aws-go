@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/route53_key_signing_key aws_route53_key_signing_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/route53_key_signing_key aws_route53_key_signing_key}.
 type Route53KeySigningKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -149,6 +149,15 @@ type Route53KeySigningKey interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Route53KeySigningKey
@@ -537,7 +546,7 @@ func (j *jsiiProxy_Route53KeySigningKey) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/route53_key_signing_key aws_route53_key_signing_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/route53_key_signing_key aws_route53_key_signing_key} Resource.
 func NewRoute53KeySigningKey(scope constructs.Construct, id *string, config *Route53KeySigningKeyConfig) Route53KeySigningKey {
 	_init_.Initialize()
 
@@ -555,7 +564,7 @@ func NewRoute53KeySigningKey(scope constructs.Construct, id *string, config *Rou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/route53_key_signing_key aws_route53_key_signing_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/route53_key_signing_key aws_route53_key_signing_key} Resource.
 func NewRoute53KeySigningKey_Override(r Route53KeySigningKey, scope constructs.Construct, id *string, config *Route53KeySigningKeyConfig) {
 	_init_.Initialize()
 
@@ -1157,6 +1166,24 @@ func (r *jsiiProxy_Route53KeySigningKey) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_Route53KeySigningKey) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

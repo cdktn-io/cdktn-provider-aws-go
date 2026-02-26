@@ -69,6 +69,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "webAppId", GoGetter: "WebAppId"},
 			_jsii_.MemberProperty{JsiiProperty: "webAppIdInput", GoGetter: "WebAppIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_TransferWebAppCustomization{}

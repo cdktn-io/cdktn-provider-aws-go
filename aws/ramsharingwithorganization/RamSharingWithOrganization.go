@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ram_sharing_with_organization aws_ram_sharing_with_organization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ram_sharing_with_organization aws_ram_sharing_with_organization}.
 type RamSharingWithOrganization interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -122,6 +122,15 @@ type RamSharingWithOrganization interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for RamSharingWithOrganization
@@ -310,7 +319,7 @@ func (j *jsiiProxy_RamSharingWithOrganization) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ram_sharing_with_organization aws_ram_sharing_with_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ram_sharing_with_organization aws_ram_sharing_with_organization} Resource.
 func NewRamSharingWithOrganization(scope constructs.Construct, id *string, config *RamSharingWithOrganizationConfig) RamSharingWithOrganization {
 	_init_.Initialize()
 
@@ -328,7 +337,7 @@ func NewRamSharingWithOrganization(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ram_sharing_with_organization aws_ram_sharing_with_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ram_sharing_with_organization aws_ram_sharing_with_organization} Resource.
 func NewRamSharingWithOrganization_Override(r RamSharingWithOrganization, scope constructs.Construct, id *string, config *RamSharingWithOrganizationConfig) {
 	_init_.Initialize()
 
@@ -859,6 +868,24 @@ func (r *jsiiProxy_RamSharingWithOrganization) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_RamSharingWithOrganization) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

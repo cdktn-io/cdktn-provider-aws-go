@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/m2_environment aws_m2_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/m2_environment aws_m2_environment}.
 type M2Environment interface {
 	cdktn.TerraformResource
 	ApplyChangesDuringMaintenanceWindow() interface{}
@@ -188,6 +188,15 @@ type M2Environment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for M2Environment
@@ -746,7 +755,7 @@ func (j *jsiiProxy_M2Environment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/m2_environment aws_m2_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/m2_environment aws_m2_environment} Resource.
 func NewM2Environment(scope constructs.Construct, id *string, config *M2EnvironmentConfig) M2Environment {
 	_init_.Initialize()
 
@@ -764,7 +773,7 @@ func NewM2Environment(scope constructs.Construct, id *string, config *M2Environm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/m2_environment aws_m2_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/m2_environment aws_m2_environment} Resource.
 func NewM2Environment_Override(m M2Environment, scope constructs.Construct, id *string, config *M2EnvironmentConfig) {
 	_init_.Initialize()
 
@@ -1575,6 +1584,24 @@ func (m *jsiiProxy_M2Environment) ToTerraform() interface{} {
 		m,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (m *jsiiProxy_M2Environment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		m,
+		"with",
+		args,
 		&returns,
 	)
 

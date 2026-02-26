@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iam_group_policy_attachments_exclusive aws_iam_group_policy_attachments_exclusive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iam_group_policy_attachments_exclusive aws_iam_group_policy_attachments_exclusive}.
 type IamGroupPolicyAttachmentsExclusive interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -124,6 +124,15 @@ type IamGroupPolicyAttachmentsExclusive interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IamGroupPolicyAttachmentsExclusive
@@ -332,7 +341,7 @@ func (j *jsiiProxy_IamGroupPolicyAttachmentsExclusive) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iam_group_policy_attachments_exclusive aws_iam_group_policy_attachments_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iam_group_policy_attachments_exclusive aws_iam_group_policy_attachments_exclusive} Resource.
 func NewIamGroupPolicyAttachmentsExclusive(scope constructs.Construct, id *string, config *IamGroupPolicyAttachmentsExclusiveConfig) IamGroupPolicyAttachmentsExclusive {
 	_init_.Initialize()
 
@@ -350,7 +359,7 @@ func NewIamGroupPolicyAttachmentsExclusive(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iam_group_policy_attachments_exclusive aws_iam_group_policy_attachments_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iam_group_policy_attachments_exclusive aws_iam_group_policy_attachments_exclusive} Resource.
 func NewIamGroupPolicyAttachmentsExclusive_Override(i IamGroupPolicyAttachmentsExclusive, scope constructs.Construct, id *string, config *IamGroupPolicyAttachmentsExclusiveConfig) {
 	_init_.Initialize()
 
@@ -884,6 +893,24 @@ func (i *jsiiProxy_IamGroupPolicyAttachmentsExclusive) ToTerraform() interface{}
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IamGroupPolicyAttachmentsExclusive) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

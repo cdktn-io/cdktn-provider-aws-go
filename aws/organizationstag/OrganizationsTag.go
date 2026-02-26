@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/organizations_tag aws_organizations_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/organizations_tag aws_organizations_tag}.
 type OrganizationsTag interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -131,6 +131,15 @@ type OrganizationsTag interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for OrganizationsTag
@@ -379,7 +388,7 @@ func (j *jsiiProxy_OrganizationsTag) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/organizations_tag aws_organizations_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/organizations_tag aws_organizations_tag} Resource.
 func NewOrganizationsTag(scope constructs.Construct, id *string, config *OrganizationsTagConfig) OrganizationsTag {
 	_init_.Initialize()
 
@@ -397,7 +406,7 @@ func NewOrganizationsTag(scope constructs.Construct, id *string, config *Organiz
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/organizations_tag aws_organizations_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/organizations_tag aws_organizations_tag} Resource.
 func NewOrganizationsTag_Override(o OrganizationsTag, scope constructs.Construct, id *string, config *OrganizationsTagConfig) {
 	_init_.Initialize()
 
@@ -961,6 +970,24 @@ func (o *jsiiProxy_OrganizationsTag) ToTerraform() interface{} {
 		o,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_OrganizationsTag) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		o,
+		"with",
+		args,
 		&returns,
 	)
 

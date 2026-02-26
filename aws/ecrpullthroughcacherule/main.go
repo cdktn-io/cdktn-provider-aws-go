@@ -75,6 +75,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "upstreamRegistryUrlInput", GoGetter: "UpstreamRegistryUrlInput"},
 			_jsii_.MemberProperty{JsiiProperty: "upstreamRepositoryPrefix", GoGetter: "UpstreamRepositoryPrefix"},
 			_jsii_.MemberProperty{JsiiProperty: "upstreamRepositoryPrefixInput", GoGetter: "UpstreamRepositoryPrefixInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_EcrPullThroughCacheRule{}

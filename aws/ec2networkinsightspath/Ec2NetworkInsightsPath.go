@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ec2_network_insights_path aws_ec2_network_insights_path}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ec2_network_insights_path aws_ec2_network_insights_path}.
 type Ec2NetworkInsightsPath interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -167,6 +167,15 @@ type Ec2NetworkInsightsPath interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Ec2NetworkInsightsPath
@@ -605,7 +614,7 @@ func (j *jsiiProxy_Ec2NetworkInsightsPath) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ec2_network_insights_path aws_ec2_network_insights_path} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ec2_network_insights_path aws_ec2_network_insights_path} Resource.
 func NewEc2NetworkInsightsPath(scope constructs.Construct, id *string, config *Ec2NetworkInsightsPathConfig) Ec2NetworkInsightsPath {
 	_init_.Initialize()
 
@@ -623,7 +632,7 @@ func NewEc2NetworkInsightsPath(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ec2_network_insights_path aws_ec2_network_insights_path} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ec2_network_insights_path aws_ec2_network_insights_path} Resource.
 func NewEc2NetworkInsightsPath_Override(e Ec2NetworkInsightsPath, scope constructs.Construct, id *string, config *Ec2NetworkInsightsPathConfig) {
 	_init_.Initialize()
 
@@ -1347,6 +1356,24 @@ func (e *jsiiProxy_Ec2NetworkInsightsPath) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_Ec2NetworkInsightsPath) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

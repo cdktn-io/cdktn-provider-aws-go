@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/wafregional_rule aws_wafregional_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/wafregional_rule aws_wafregional_rule}.
 type WafregionalRule interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -145,6 +145,15 @@ type WafregionalRule interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for WafregionalRule
@@ -463,7 +472,7 @@ func (j *jsiiProxy_WafregionalRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/wafregional_rule aws_wafregional_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/wafregional_rule aws_wafregional_rule} Resource.
 func NewWafregionalRule(scope constructs.Construct, id *string, config *WafregionalRuleConfig) WafregionalRule {
 	_init_.Initialize()
 
@@ -481,7 +490,7 @@ func NewWafregionalRule(scope constructs.Construct, id *string, config *Wafregio
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/wafregional_rule aws_wafregional_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/wafregional_rule aws_wafregional_rule} Resource.
 func NewWafregionalRule_Override(w WafregionalRule, scope constructs.Construct, id *string, config *WafregionalRuleConfig) {
 	_init_.Initialize()
 
@@ -1110,6 +1119,24 @@ func (w *jsiiProxy_WafregionalRule) ToTerraform() interface{} {
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WafregionalRule) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

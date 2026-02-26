@@ -62,6 +62,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "websiteDomain", GoGetter: "WebsiteDomain"},
 			_jsii_.MemberProperty{JsiiProperty: "websiteEndpoint", GoGetter: "WebsiteEndpoint"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsS3Bucket{}

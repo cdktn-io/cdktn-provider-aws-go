@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/mskconnect_connector aws_mskconnect_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/mskconnect_connector aws_mskconnect_connector}.
 type DataAwsMskconnectConnector interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -111,6 +111,15 @@ type DataAwsMskconnectConnector interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsMskconnectConnector
@@ -369,7 +378,7 @@ func (j *jsiiProxy_DataAwsMskconnectConnector) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/mskconnect_connector aws_mskconnect_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/mskconnect_connector aws_mskconnect_connector} Data Source.
 func NewDataAwsMskconnectConnector(scope constructs.Construct, id *string, config *DataAwsMskconnectConnectorConfig) DataAwsMskconnectConnector {
 	_init_.Initialize()
 
@@ -387,7 +396,7 @@ func NewDataAwsMskconnectConnector(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/mskconnect_connector aws_mskconnect_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/mskconnect_connector aws_mskconnect_connector} Data Source.
 func NewDataAwsMskconnectConnector_Override(d DataAwsMskconnectConnector, scope constructs.Construct, id *string, config *DataAwsMskconnectConnectorConfig) {
 	_init_.Initialize()
 
@@ -877,6 +886,24 @@ func (d *jsiiProxy_DataAwsMskconnectConnector) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsMskconnectConnector) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

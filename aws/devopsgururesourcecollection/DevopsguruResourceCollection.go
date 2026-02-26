@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/devopsguru_resource_collection aws_devopsguru_resource_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/devopsguru_resource_collection aws_devopsguru_resource_collection}.
 type DevopsguruResourceCollection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -134,6 +134,15 @@ type DevopsguruResourceCollection interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DevopsguruResourceCollection
@@ -392,7 +401,7 @@ func (j *jsiiProxy_DevopsguruResourceCollection) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/devopsguru_resource_collection aws_devopsguru_resource_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/devopsguru_resource_collection aws_devopsguru_resource_collection} Resource.
 func NewDevopsguruResourceCollection(scope constructs.Construct, id *string, config *DevopsguruResourceCollectionConfig) DevopsguruResourceCollection {
 	_init_.Initialize()
 
@@ -410,7 +419,7 @@ func NewDevopsguruResourceCollection(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/devopsguru_resource_collection aws_devopsguru_resource_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/devopsguru_resource_collection aws_devopsguru_resource_collection} Resource.
 func NewDevopsguruResourceCollection_Override(d DevopsguruResourceCollection, scope constructs.Construct, id *string, config *DevopsguruResourceCollectionConfig) {
 	_init_.Initialize()
 
@@ -990,6 +999,24 @@ func (d *jsiiProxy_DevopsguruResourceCollection) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DevopsguruResourceCollection) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lightsail_bucket aws_lightsail_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lightsail_bucket aws_lightsail_bucket}.
 type LightsailBucket interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -149,6 +149,15 @@ type LightsailBucket interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LightsailBucket
@@ -507,7 +516,7 @@ func (j *jsiiProxy_LightsailBucket) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lightsail_bucket aws_lightsail_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lightsail_bucket aws_lightsail_bucket} Resource.
 func NewLightsailBucket(scope constructs.Construct, id *string, config *LightsailBucketConfig) LightsailBucket {
 	_init_.Initialize()
 
@@ -525,7 +534,7 @@ func NewLightsailBucket(scope constructs.Construct, id *string, config *Lightsai
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lightsail_bucket aws_lightsail_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lightsail_bucket aws_lightsail_bucket} Resource.
 func NewLightsailBucket_Override(l LightsailBucket, scope constructs.Construct, id *string, config *LightsailBucketConfig) {
 	_init_.Initialize()
 
@@ -1154,6 +1163,24 @@ func (l *jsiiProxy_LightsailBucket) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LightsailBucket) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

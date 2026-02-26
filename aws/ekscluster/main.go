@@ -139,6 +139,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcConfig", GoGetter: "VpcConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcConfigInput", GoGetter: "VpcConfigInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zonalShiftConfig", GoGetter: "ZonalShiftConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "zonalShiftConfigInput", GoGetter: "ZonalShiftConfigInput"},
 		},

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/kms_custom_key_store aws_kms_custom_key_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/kms_custom_key_store aws_kms_custom_key_store}.
 type DataAwsKmsCustomKeyStore interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -113,6 +113,15 @@ type DataAwsKmsCustomKeyStore interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsKmsCustomKeyStore
@@ -381,7 +390,7 @@ func (j *jsiiProxy_DataAwsKmsCustomKeyStore) TrustAnchorCertificate() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/kms_custom_key_store aws_kms_custom_key_store} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/kms_custom_key_store aws_kms_custom_key_store} Data Source.
 func NewDataAwsKmsCustomKeyStore(scope constructs.Construct, id *string, config *DataAwsKmsCustomKeyStoreConfig) DataAwsKmsCustomKeyStore {
 	_init_.Initialize()
 
@@ -399,7 +408,7 @@ func NewDataAwsKmsCustomKeyStore(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/kms_custom_key_store aws_kms_custom_key_store} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/kms_custom_key_store aws_kms_custom_key_store} Data Source.
 func NewDataAwsKmsCustomKeyStore_Override(d DataAwsKmsCustomKeyStore, scope constructs.Construct, id *string, config *DataAwsKmsCustomKeyStoreConfig) {
 	_init_.Initialize()
 
@@ -897,6 +906,24 @@ func (d *jsiiProxy_DataAwsKmsCustomKeyStore) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsKmsCustomKeyStore) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

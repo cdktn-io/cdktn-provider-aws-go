@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/odb_db_node aws_odb_db_node}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/odb_db_node aws_odb_db_node}.
 type DataAwsOdbDbNode interface {
 	cdktn.TerraformDataSource
 	AdditionalDetails() *string
@@ -130,6 +130,15 @@ type DataAwsOdbDbNode interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsOdbDbNode
@@ -608,7 +617,7 @@ func (j *jsiiProxy_DataAwsOdbDbNode) VnicId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/odb_db_node aws_odb_db_node} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/odb_db_node aws_odb_db_node} Data Source.
 func NewDataAwsOdbDbNode(scope constructs.Construct, id *string, config *DataAwsOdbDbNodeConfig) DataAwsOdbDbNode {
 	_init_.Initialize()
 
@@ -626,7 +635,7 @@ func NewDataAwsOdbDbNode(scope constructs.Construct, id *string, config *DataAws
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/odb_db_node aws_odb_db_node} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/odb_db_node aws_odb_db_node} Data Source.
 func NewDataAwsOdbDbNode_Override(d DataAwsOdbDbNode, scope constructs.Construct, id *string, config *DataAwsOdbDbNodeConfig) {
 	_init_.Initialize()
 
@@ -1089,6 +1098,24 @@ func (d *jsiiProxy_DataAwsOdbDbNode) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsOdbDbNode) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

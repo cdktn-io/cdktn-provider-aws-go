@@ -71,6 +71,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "validateRequestBodyInput", GoGetter: "ValidateRequestBodyInput"},
 			_jsii_.MemberProperty{JsiiProperty: "validateRequestParameters", GoGetter: "ValidateRequestParameters"},
 			_jsii_.MemberProperty{JsiiProperty: "validateRequestParametersInput", GoGetter: "ValidateRequestParametersInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ApiGatewayRequestValidator{}

@@ -123,6 +123,10 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) validateSetRegionPa
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
 func validateNewBedrockagentcoreOauth2CredentialProviderParameters(scope constructs.Construct, id *string, config *BedrockagentcoreOauth2CredentialProviderConfig) error {
 	return nil
 }

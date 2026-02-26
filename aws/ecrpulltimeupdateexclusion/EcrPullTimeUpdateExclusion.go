@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ecr_pull_time_update_exclusion aws_ecr_pull_time_update_exclusion}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ecr_pull_time_update_exclusion aws_ecr_pull_time_update_exclusion}.
 type EcrPullTimeUpdateExclusion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -125,6 +125,15 @@ type EcrPullTimeUpdateExclusion interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EcrPullTimeUpdateExclusion
@@ -333,7 +342,7 @@ func (j *jsiiProxy_EcrPullTimeUpdateExclusion) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ecr_pull_time_update_exclusion aws_ecr_pull_time_update_exclusion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ecr_pull_time_update_exclusion aws_ecr_pull_time_update_exclusion} Resource.
 func NewEcrPullTimeUpdateExclusion(scope constructs.Construct, id *string, config *EcrPullTimeUpdateExclusionConfig) EcrPullTimeUpdateExclusion {
 	_init_.Initialize()
 
@@ -351,7 +360,7 @@ func NewEcrPullTimeUpdateExclusion(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ecr_pull_time_update_exclusion aws_ecr_pull_time_update_exclusion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ecr_pull_time_update_exclusion aws_ecr_pull_time_update_exclusion} Resource.
 func NewEcrPullTimeUpdateExclusion_Override(e EcrPullTimeUpdateExclusion, scope constructs.Construct, id *string, config *EcrPullTimeUpdateExclusionConfig) {
 	_init_.Initialize()
 
@@ -893,6 +902,24 @@ func (e *jsiiProxy_EcrPullTimeUpdateExclusion) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EcrPullTimeUpdateExclusion) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

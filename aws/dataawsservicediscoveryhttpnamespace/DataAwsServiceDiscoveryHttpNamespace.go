@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/service_discovery_http_namespace aws_service_discovery_http_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/service_discovery_http_namespace aws_service_discovery_http_namespace}.
 type DataAwsServiceDiscoveryHttpNamespace interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -111,6 +111,15 @@ type DataAwsServiceDiscoveryHttpNamespace interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsServiceDiscoveryHttpNamespace
@@ -369,7 +378,7 @@ func (j *jsiiProxy_DataAwsServiceDiscoveryHttpNamespace) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/service_discovery_http_namespace aws_service_discovery_http_namespace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/service_discovery_http_namespace aws_service_discovery_http_namespace} Data Source.
 func NewDataAwsServiceDiscoveryHttpNamespace(scope constructs.Construct, id *string, config *DataAwsServiceDiscoveryHttpNamespaceConfig) DataAwsServiceDiscoveryHttpNamespace {
 	_init_.Initialize()
 
@@ -387,7 +396,7 @@ func NewDataAwsServiceDiscoveryHttpNamespace(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/service_discovery_http_namespace aws_service_discovery_http_namespace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/service_discovery_http_namespace aws_service_discovery_http_namespace} Data Source.
 func NewDataAwsServiceDiscoveryHttpNamespace_Override(d DataAwsServiceDiscoveryHttpNamespace, scope constructs.Construct, id *string, config *DataAwsServiceDiscoveryHttpNamespaceConfig) {
 	_init_.Initialize()
 
@@ -877,6 +886,24 @@ func (d *jsiiProxy_DataAwsServiceDiscoveryHttpNamespace) ToTerraform() interface
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsServiceDiscoveryHttpNamespace) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

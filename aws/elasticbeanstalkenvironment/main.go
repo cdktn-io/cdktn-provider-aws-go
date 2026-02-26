@@ -112,6 +112,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionLabelInput", GoGetter: "VersionLabelInput"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForReadyTimeout", GoGetter: "WaitForReadyTimeout"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForReadyTimeoutInput", GoGetter: "WaitForReadyTimeoutInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ElasticBeanstalkEnvironment{}

@@ -81,6 +81,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionId", GoGetter: "VersionId"},
 			_jsii_.MemberProperty{JsiiProperty: "versionStages", GoGetter: "VersionStages"},
 			_jsii_.MemberProperty{JsiiProperty: "versionStagesInput", GoGetter: "VersionStagesInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_SecretsmanagerSecretVersion{}

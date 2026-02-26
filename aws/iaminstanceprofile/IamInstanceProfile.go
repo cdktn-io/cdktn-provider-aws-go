@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iam_instance_profile aws_iam_instance_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iam_instance_profile aws_iam_instance_profile}.
 type IamInstanceProfile interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -149,6 +149,15 @@ type IamInstanceProfile interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IamInstanceProfile
@@ -487,7 +496,7 @@ func (j *jsiiProxy_IamInstanceProfile) UniqueId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iam_instance_profile aws_iam_instance_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iam_instance_profile aws_iam_instance_profile} Resource.
 func NewIamInstanceProfile(scope constructs.Construct, id *string, config *IamInstanceProfileConfig) IamInstanceProfile {
 	_init_.Initialize()
 
@@ -505,7 +514,7 @@ func NewIamInstanceProfile(scope constructs.Construct, id *string, config *IamIn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/iam_instance_profile aws_iam_instance_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/iam_instance_profile aws_iam_instance_profile} Resource.
 func NewIamInstanceProfile_Override(i IamInstanceProfile, scope constructs.Construct, id *string, config *IamInstanceProfileConfig) {
 	_init_.Initialize()
 
@@ -1150,6 +1159,24 @@ func (i *jsiiProxy_IamInstanceProfile) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IamInstanceProfile) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

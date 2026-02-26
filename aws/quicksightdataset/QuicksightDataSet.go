@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_data_set aws_quicksight_data_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_data_set aws_quicksight_data_set}.
 type QuicksightDataSet interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -193,6 +193,15 @@ type QuicksightDataSet interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for QuicksightDataSet
@@ -761,7 +770,7 @@ func (j *jsiiProxy_QuicksightDataSet) UseAsInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_data_set aws_quicksight_data_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_data_set aws_quicksight_data_set} Resource.
 func NewQuicksightDataSet(scope constructs.Construct, id *string, config *QuicksightDataSetConfig) QuicksightDataSet {
 	_init_.Initialize()
 
@@ -779,7 +788,7 @@ func NewQuicksightDataSet(scope constructs.Construct, id *string, config *Quicks
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/quicksight_data_set aws_quicksight_data_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/quicksight_data_set aws_quicksight_data_set} Resource.
 func NewQuicksightDataSet_Override(q QuicksightDataSet, scope constructs.Construct, id *string, config *QuicksightDataSetConfig) {
 	_init_.Initialize()
 
@@ -1628,6 +1637,24 @@ func (q *jsiiProxy_QuicksightDataSet) ToTerraform() interface{} {
 		q,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (q *jsiiProxy_QuicksightDataSet) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		q,
+		"with",
+		args,
 		&returns,
 	)
 

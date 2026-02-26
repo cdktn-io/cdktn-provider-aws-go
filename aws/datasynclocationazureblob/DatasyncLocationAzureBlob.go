@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob}.
 type DatasyncLocationAzureBlob interface {
 	cdktn.TerraformResource
 	AccessTier() *string
@@ -161,6 +161,15 @@ type DatasyncLocationAzureBlob interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DatasyncLocationAzureBlob
@@ -569,7 +578,7 @@ func (j *jsiiProxy_DatasyncLocationAzureBlob) Uri() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob} Resource.
 func NewDatasyncLocationAzureBlob(scope constructs.Construct, id *string, config *DatasyncLocationAzureBlobConfig) DatasyncLocationAzureBlob {
 	_init_.Initialize()
 
@@ -587,7 +596,7 @@ func NewDatasyncLocationAzureBlob(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob} Resource.
 func NewDatasyncLocationAzureBlob_Override(d DatasyncLocationAzureBlob, scope constructs.Construct, id *string, config *DatasyncLocationAzureBlobConfig) {
 	_init_.Initialize()
 
@@ -1284,6 +1293,24 @@ func (d *jsiiProxy_DatasyncLocationAzureBlob) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DatasyncLocationAzureBlob) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

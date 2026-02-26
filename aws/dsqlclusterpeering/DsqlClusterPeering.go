@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dsql_cluster_peering aws_dsql_cluster_peering}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dsql_cluster_peering aws_dsql_cluster_peering}.
 type DsqlClusterPeering interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -135,6 +135,15 @@ type DsqlClusterPeering interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DsqlClusterPeering
@@ -403,7 +412,7 @@ func (j *jsiiProxy_DsqlClusterPeering) WitnessRegionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dsql_cluster_peering aws_dsql_cluster_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dsql_cluster_peering aws_dsql_cluster_peering} Resource.
 func NewDsqlClusterPeering(scope constructs.Construct, id *string, config *DsqlClusterPeeringConfig) DsqlClusterPeering {
 	_init_.Initialize()
 
@@ -421,7 +430,7 @@ func NewDsqlClusterPeering(scope constructs.Construct, id *string, config *DsqlC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dsql_cluster_peering aws_dsql_cluster_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dsql_cluster_peering aws_dsql_cluster_peering} Resource.
 func NewDsqlClusterPeering_Override(d DsqlClusterPeering, scope constructs.Construct, id *string, config *DsqlClusterPeeringConfig) {
 	_init_.Initialize()
 
@@ -1004,6 +1013,24 @@ func (d *jsiiProxy_DsqlClusterPeering) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DsqlClusterPeering) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

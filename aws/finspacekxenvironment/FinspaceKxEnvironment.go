@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/finspace_kx_environment aws_finspace_kx_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/finspace_kx_environment aws_finspace_kx_environment}.
 type FinspaceKxEnvironment interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -159,6 +159,15 @@ type FinspaceKxEnvironment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for FinspaceKxEnvironment
@@ -577,7 +586,7 @@ func (j *jsiiProxy_FinspaceKxEnvironment) TransitGatewayConfigurationInput() *Fi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/finspace_kx_environment aws_finspace_kx_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/finspace_kx_environment aws_finspace_kx_environment} Resource.
 func NewFinspaceKxEnvironment(scope constructs.Construct, id *string, config *FinspaceKxEnvironmentConfig) FinspaceKxEnvironment {
 	_init_.Initialize()
 
@@ -595,7 +604,7 @@ func NewFinspaceKxEnvironment(scope constructs.Construct, id *string, config *Fi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/finspace_kx_environment aws_finspace_kx_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/finspace_kx_environment aws_finspace_kx_environment} Resource.
 func NewFinspaceKxEnvironment_Override(f FinspaceKxEnvironment, scope constructs.Construct, id *string, config *FinspaceKxEnvironmentConfig) {
 	_init_.Initialize()
 
@@ -1262,6 +1271,24 @@ func (f *jsiiProxy_FinspaceKxEnvironment) ToTerraform() interface{} {
 		f,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (f *jsiiProxy_FinspaceKxEnvironment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		f,
+		"with",
+		args,
 		&returns,
 	)
 

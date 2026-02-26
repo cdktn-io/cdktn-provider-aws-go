@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/glue_partition aws_glue_partition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/glue_partition aws_glue_partition}.
 type GluePartition interface {
 	cdktn.TerraformResource
 	CatalogId() *string
@@ -150,6 +150,15 @@ type GluePartition interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for GluePartition
@@ -508,7 +517,7 @@ func (j *jsiiProxy_GluePartition) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/glue_partition aws_glue_partition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/glue_partition aws_glue_partition} Resource.
 func NewGluePartition(scope constructs.Construct, id *string, config *GluePartitionConfig) GluePartition {
 	_init_.Initialize()
 
@@ -526,7 +535,7 @@ func NewGluePartition(scope constructs.Construct, id *string, config *GluePartit
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/glue_partition aws_glue_partition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/glue_partition aws_glue_partition} Resource.
 func NewGluePartition_Override(g GluePartition, scope constructs.Construct, id *string, config *GluePartitionConfig) {
 	_init_.Initialize()
 
@@ -1166,6 +1175,24 @@ func (g *jsiiProxy_GluePartition) ToTerraform() interface{} {
 		g,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (g *jsiiProxy_GluePartition) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		g,
+		"with",
+		args,
 		&returns,
 	)
 

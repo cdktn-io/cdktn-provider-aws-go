@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dms_s3_endpoint aws_dms_s3_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dms_s3_endpoint aws_dms_s3_endpoint}.
 type DmsS3Endpoint interface {
 	cdktn.TerraformResource
 	AddColumnName() interface{}
@@ -326,6 +326,15 @@ type DmsS3Endpoint interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DmsS3Endpoint
@@ -1574,7 +1583,7 @@ func (j *jsiiProxy_DmsS3Endpoint) UseTaskStartTimeForFullLoadTimestampInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dms_s3_endpoint aws_dms_s3_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dms_s3_endpoint aws_dms_s3_endpoint} Resource.
 func NewDmsS3Endpoint(scope constructs.Construct, id *string, config *DmsS3EndpointConfig) DmsS3Endpoint {
 	_init_.Initialize()
 
@@ -1592,7 +1601,7 @@ func NewDmsS3Endpoint(scope constructs.Construct, id *string, config *DmsS3Endpo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/dms_s3_endpoint aws_dms_s3_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/dms_s3_endpoint aws_dms_s3_endpoint} Resource.
 func NewDmsS3Endpoint_Override(d DmsS3Endpoint, scope constructs.Construct, id *string, config *DmsS3EndpointConfig) {
 	_init_.Initialize()
 
@@ -3060,6 +3069,24 @@ func (d *jsiiProxy_DmsS3Endpoint) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DmsS3Endpoint) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

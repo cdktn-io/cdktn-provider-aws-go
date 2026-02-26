@@ -104,6 +104,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "variables", GoGetter: "Variables"},
 			_jsii_.MemberProperty{JsiiProperty: "variablesInput", GoGetter: "VariablesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "webAclArn", GoGetter: "WebAclArn"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "xrayTracingEnabled", GoGetter: "XrayTracingEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "xrayTracingEnabledInput", GoGetter: "XrayTracingEnabledInput"},
 		},

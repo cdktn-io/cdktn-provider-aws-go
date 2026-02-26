@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/codeartifact_authorization_token aws_codeartifact_authorization_token}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/codeartifact_authorization_token aws_codeartifact_authorization_token}.
 type DataAwsCodeartifactAuthorizationToken interface {
 	cdktn.TerraformDataSource
 	AuthorizationToken() *string
@@ -114,6 +114,15 @@ type DataAwsCodeartifactAuthorizationToken interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsCodeartifactAuthorizationToken
@@ -382,7 +391,7 @@ func (j *jsiiProxy_DataAwsCodeartifactAuthorizationToken) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/codeartifact_authorization_token aws_codeartifact_authorization_token} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/codeartifact_authorization_token aws_codeartifact_authorization_token} Data Source.
 func NewDataAwsCodeartifactAuthorizationToken(scope constructs.Construct, id *string, config *DataAwsCodeartifactAuthorizationTokenConfig) DataAwsCodeartifactAuthorizationToken {
 	_init_.Initialize()
 
@@ -400,7 +409,7 @@ func NewDataAwsCodeartifactAuthorizationToken(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/codeartifact_authorization_token aws_codeartifact_authorization_token} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/codeartifact_authorization_token aws_codeartifact_authorization_token} Data Source.
 func NewDataAwsCodeartifactAuthorizationToken_Override(d DataAwsCodeartifactAuthorizationToken, scope constructs.Construct, id *string, config *DataAwsCodeartifactAuthorizationTokenConfig) {
 	_init_.Initialize()
 
@@ -909,6 +918,24 @@ func (d *jsiiProxy_DataAwsCodeartifactAuthorizationToken) ToTerraform() interfac
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsCodeartifactAuthorizationToken) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

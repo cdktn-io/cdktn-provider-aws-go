@@ -98,6 +98,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userRoleInput", GoGetter: "UserRoleInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcId", GoGetter: "VpcId"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdInput", GoGetter: "VpcIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "workspaceSecurityGroupId", GoGetter: "WorkspaceSecurityGroupId"},
 			_jsii_.MemberProperty{JsiiProperty: "workspaceSecurityGroupIdInput", GoGetter: "WorkspaceSecurityGroupIdInput"},
 		},

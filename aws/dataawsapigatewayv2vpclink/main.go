@@ -62,6 +62,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcLinkId", GoGetter: "VpcLinkId"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcLinkIdInput", GoGetter: "VpcLinkIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsApigatewayv2VpcLink{}

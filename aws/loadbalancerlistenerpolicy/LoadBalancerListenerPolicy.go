@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/load_balancer_listener_policy aws_load_balancer_listener_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/load_balancer_listener_policy aws_load_balancer_listener_policy}.
 type LoadBalancerListenerPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -140,6 +140,15 @@ type LoadBalancerListenerPolicy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LoadBalancerListenerPolicy
@@ -428,7 +437,7 @@ func (j *jsiiProxy_LoadBalancerListenerPolicy) TriggersInput() *map[string]*stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/load_balancer_listener_policy aws_load_balancer_listener_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/load_balancer_listener_policy aws_load_balancer_listener_policy} Resource.
 func NewLoadBalancerListenerPolicy(scope constructs.Construct, id *string, config *LoadBalancerListenerPolicyConfig) LoadBalancerListenerPolicy {
 	_init_.Initialize()
 
@@ -446,7 +455,7 @@ func NewLoadBalancerListenerPolicy(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/load_balancer_listener_policy aws_load_balancer_listener_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/load_balancer_listener_policy aws_load_balancer_listener_policy} Resource.
 func NewLoadBalancerListenerPolicy_Override(l LoadBalancerListenerPolicy, scope constructs.Construct, id *string, config *LoadBalancerListenerPolicyConfig) {
 	_init_.Initialize()
 
@@ -1056,6 +1065,24 @@ func (l *jsiiProxy_LoadBalancerListenerPolicy) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LoadBalancerListenerPolicy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

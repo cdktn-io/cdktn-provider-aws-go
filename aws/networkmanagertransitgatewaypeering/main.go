@@ -79,6 +79,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayArn", GoGetter: "TransitGatewayArn"},
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayArnInput", GoGetter: "TransitGatewayArnInput"},
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayPeeringAttachmentId", GoGetter: "TransitGatewayPeeringAttachmentId"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkmanagerTransitGatewayPeering{}

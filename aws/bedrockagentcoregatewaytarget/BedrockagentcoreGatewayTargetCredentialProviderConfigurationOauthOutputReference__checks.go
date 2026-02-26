@@ -174,6 +174,22 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationO
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOauthOutputReference) validateSetDefaultReturnUrlParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOauthOutputReference) validateSetGrantTypeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOauthOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
 	case cdktn.IResolvable:

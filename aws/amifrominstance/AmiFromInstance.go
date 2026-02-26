@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ami_from_instance aws_ami_from_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ami_from_instance aws_ami_from_instance}.
 type AmiFromInstance interface {
 	cdktn.TerraformResource
 	Architecture() *string
@@ -188,6 +188,15 @@ type AmiFromInstance interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AmiFromInstance
@@ -836,7 +845,7 @@ func (j *jsiiProxy_AmiFromInstance) VirtualizationType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ami_from_instance aws_ami_from_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ami_from_instance aws_ami_from_instance} Resource.
 func NewAmiFromInstance(scope constructs.Construct, id *string, config *AmiFromInstanceConfig) AmiFromInstance {
 	_init_.Initialize()
 
@@ -854,7 +863,7 @@ func NewAmiFromInstance(scope constructs.Construct, id *string, config *AmiFromI
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/ami_from_instance aws_ami_from_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ami_from_instance aws_ami_from_instance} Resource.
 func NewAmiFromInstance_Override(a AmiFromInstance, scope constructs.Construct, id *string, config *AmiFromInstanceConfig) {
 	_init_.Initialize()
 
@@ -1578,6 +1587,24 @@ func (a *jsiiProxy_AmiFromInstance) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AmiFromInstance) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

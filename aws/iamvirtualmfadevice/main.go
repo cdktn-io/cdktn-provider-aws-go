@@ -75,6 +75,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userName", GoGetter: "UserName"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualMfaDeviceName", GoGetter: "VirtualMfaDeviceName"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualMfaDeviceNameInput", GoGetter: "VirtualMfaDeviceNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_IamVirtualMfaDevice{}

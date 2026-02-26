@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/waf_regex_pattern_set aws_waf_regex_pattern_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/waf_regex_pattern_set aws_waf_regex_pattern_set}.
 type WafRegexPatternSet interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -130,6 +130,15 @@ type WafRegexPatternSet interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for WafRegexPatternSet
@@ -368,7 +377,7 @@ func (j *jsiiProxy_WafRegexPatternSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/waf_regex_pattern_set aws_waf_regex_pattern_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/waf_regex_pattern_set aws_waf_regex_pattern_set} Resource.
 func NewWafRegexPatternSet(scope constructs.Construct, id *string, config *WafRegexPatternSetConfig) WafRegexPatternSet {
 	_init_.Initialize()
 
@@ -386,7 +395,7 @@ func NewWafRegexPatternSet(scope constructs.Construct, id *string, config *WafRe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/waf_regex_pattern_set aws_waf_regex_pattern_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/waf_regex_pattern_set aws_waf_regex_pattern_set} Resource.
 func NewWafRegexPatternSet_Override(w WafRegexPatternSet, scope constructs.Construct, id *string, config *WafRegexPatternSetConfig) {
 	_init_.Initialize()
 
@@ -947,6 +956,24 @@ func (w *jsiiProxy_WafRegexPatternSet) ToTerraform() interface{} {
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WafRegexPatternSet) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

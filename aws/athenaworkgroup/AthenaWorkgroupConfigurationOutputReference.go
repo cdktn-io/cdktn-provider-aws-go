@@ -57,6 +57,8 @@ type AthenaWorkgroupConfigurationOutputReference interface {
 	PublishCloudwatchMetricsEnabled() interface{}
 	SetPublishCloudwatchMetricsEnabled(val interface{})
 	PublishCloudwatchMetricsEnabledInput() interface{}
+	QueryResultsS3AccessGrantsConfiguration() AthenaWorkgroupConfigurationQueryResultsS3AccessGrantsConfigurationOutputReference
+	QueryResultsS3AccessGrantsConfigurationInput() *AthenaWorkgroupConfigurationQueryResultsS3AccessGrantsConfiguration
 	RequesterPaysEnabled() interface{}
 	SetRequesterPaysEnabled(val interface{})
 	RequesterPaysEnabledInput() interface{}
@@ -99,6 +101,7 @@ type AthenaWorkgroupConfigurationOutputReference interface {
 	PutIdentityCenterConfiguration(value *AthenaWorkgroupConfigurationIdentityCenterConfiguration)
 	PutManagedQueryResultsConfiguration(value *AthenaWorkgroupConfigurationManagedQueryResultsConfiguration)
 	PutMonitoringConfiguration(value *AthenaWorkgroupConfigurationMonitoringConfiguration)
+	PutQueryResultsS3AccessGrantsConfiguration(value *AthenaWorkgroupConfigurationQueryResultsS3AccessGrantsConfiguration)
 	PutResultConfiguration(value *AthenaWorkgroupConfigurationResultConfiguration)
 	ResetBytesScannedCutoffPerQuery()
 	ResetCustomerContentEncryptionConfiguration()
@@ -110,6 +113,7 @@ type AthenaWorkgroupConfigurationOutputReference interface {
 	ResetManagedQueryResultsConfiguration()
 	ResetMonitoringConfiguration()
 	ResetPublishCloudwatchMetricsEnabled()
+	ResetQueryResultsS3AccessGrantsConfiguration()
 	ResetRequesterPaysEnabled()
 	ResetResultConfiguration()
 	// Produce the Token's value at resolution time.
@@ -372,6 +376,26 @@ func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) PublishCloudwatc
 	_jsii_.Get(
 		j,
 		"publishCloudwatchMetricsEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) QueryResultsS3AccessGrantsConfiguration() AthenaWorkgroupConfigurationQueryResultsS3AccessGrantsConfigurationOutputReference {
+	var returns AthenaWorkgroupConfigurationQueryResultsS3AccessGrantsConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"queryResultsS3AccessGrantsConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) QueryResultsS3AccessGrantsConfigurationInput() *AthenaWorkgroupConfigurationQueryResultsS3AccessGrantsConfiguration {
+	var returns *AthenaWorkgroupConfigurationQueryResultsS3AccessGrantsConfiguration
+	_jsii_.Get(
+		j,
+		"queryResultsS3AccessGrantsConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -827,6 +851,17 @@ func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) PutMonitoringCon
 	)
 }
 
+func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) PutQueryResultsS3AccessGrantsConfiguration(value *AthenaWorkgroupConfigurationQueryResultsS3AccessGrantsConfiguration) {
+	if err := a.validatePutQueryResultsS3AccessGrantsConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putQueryResultsS3AccessGrantsConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) PutResultConfiguration(value *AthenaWorkgroupConfigurationResultConfiguration) {
 	if err := a.validatePutResultConfigurationParameters(value); err != nil {
 		panic(err)
@@ -914,6 +949,14 @@ func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) ResetPublishClou
 	_jsii_.InvokeVoid(
 		a,
 		"resetPublishCloudwatchMetricsEnabled",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) ResetQueryResultsS3AccessGrantsConfiguration() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetQueryResultsS3AccessGrantsConfiguration",
 		nil, // no parameters
 	)
 }

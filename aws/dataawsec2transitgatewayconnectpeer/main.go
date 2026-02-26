@@ -75,6 +75,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayAttachmentId", GoGetter: "TransitGatewayAttachmentId"},
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayConnectPeerId", GoGetter: "TransitGatewayConnectPeerId"},
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayConnectPeerIdInput", GoGetter: "TransitGatewayConnectPeerIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsEc2TransitGatewayConnectPeer{}

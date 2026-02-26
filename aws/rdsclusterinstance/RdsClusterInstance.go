@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance}.
 type RdsClusterInstance interface {
 	cdktn.TerraformResource
 	ApplyImmediately() interface{}
@@ -240,6 +240,15 @@ type RdsClusterInstance interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for RdsClusterInstance
@@ -1078,7 +1087,7 @@ func (j *jsiiProxy_RdsClusterInstance) Writer() cdktn.IResolvable {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance} Resource.
 func NewRdsClusterInstance(scope constructs.Construct, id *string, config *RdsClusterInstanceConfig) RdsClusterInstance {
 	_init_.Initialize()
 
@@ -1096,7 +1105,7 @@ func NewRdsClusterInstance(scope constructs.Construct, id *string, config *RdsCl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance} Resource.
 func NewRdsClusterInstance_Override(r RdsClusterInstance, scope constructs.Construct, id *string, config *RdsClusterInstanceConfig) {
 	_init_.Initialize()
 
@@ -2135,6 +2144,24 @@ func (r *jsiiProxy_RdsClusterInstance) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_RdsClusterInstance) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

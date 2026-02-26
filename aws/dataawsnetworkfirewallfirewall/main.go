@@ -77,6 +77,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayOwnerAccountId", GoGetter: "TransitGatewayOwnerAccountId"},
 			_jsii_.MemberProperty{JsiiProperty: "updateToken", GoGetter: "UpdateToken"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcId", GoGetter: "VpcId"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsNetworkfirewallFirewall{}

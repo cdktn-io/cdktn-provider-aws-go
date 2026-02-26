@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter}.
 type GuarddutyInviteAccepter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -136,6 +136,15 @@ type GuarddutyInviteAccepter interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for GuarddutyInviteAccepter
@@ -404,7 +413,7 @@ func (j *jsiiProxy_GuarddutyInviteAccepter) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter} Resource.
 func NewGuarddutyInviteAccepter(scope constructs.Construct, id *string, config *GuarddutyInviteAccepterConfig) GuarddutyInviteAccepter {
 	_init_.Initialize()
 
@@ -422,7 +431,7 @@ func NewGuarddutyInviteAccepter(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter} Resource.
 func NewGuarddutyInviteAccepter_Override(g GuarddutyInviteAccepter, scope constructs.Construct, id *string, config *GuarddutyInviteAccepterConfig) {
 	_init_.Initialize()
 
@@ -1013,6 +1022,24 @@ func (g *jsiiProxy_GuarddutyInviteAccepter) ToTerraform() interface{} {
 		g,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (g *jsiiProxy_GuarddutyInviteAccepter) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		g,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -79,6 +79,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vocabularyFileUriInput", GoGetter: "VocabularyFileUriInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vocabularyName", GoGetter: "VocabularyName"},
 			_jsii_.MemberProperty{JsiiProperty: "vocabularyNameInput", GoGetter: "VocabularyNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscribeMedicalVocabulary{}

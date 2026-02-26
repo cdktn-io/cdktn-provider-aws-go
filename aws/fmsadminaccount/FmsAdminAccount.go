@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/fms_admin_account aws_fms_admin_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/fms_admin_account aws_fms_admin_account}.
 type FmsAdminAccount interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -130,6 +130,15 @@ type FmsAdminAccount interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for FmsAdminAccount
@@ -358,7 +367,7 @@ func (j *jsiiProxy_FmsAdminAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/fms_admin_account aws_fms_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/fms_admin_account aws_fms_admin_account} Resource.
 func NewFmsAdminAccount(scope constructs.Construct, id *string, config *FmsAdminAccountConfig) FmsAdminAccount {
 	_init_.Initialize()
 
@@ -376,7 +385,7 @@ func NewFmsAdminAccount(scope constructs.Construct, id *string, config *FmsAdmin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/fms_admin_account aws_fms_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/fms_admin_account aws_fms_admin_account} Resource.
 func NewFmsAdminAccount_Override(f FmsAdminAccount, scope constructs.Construct, id *string, config *FmsAdminAccountConfig) {
 	_init_.Initialize()
 
@@ -945,6 +954,24 @@ func (f *jsiiProxy_FmsAdminAccount) ToTerraform() interface{} {
 		f,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (f *jsiiProxy_FmsAdminAccount) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		f,
+		"with",
+		args,
 		&returns,
 	)
 

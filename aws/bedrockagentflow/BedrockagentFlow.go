@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow}.
 type BedrockagentFlow interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -155,6 +155,15 @@ type BedrockagentFlow interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for BedrockagentFlow
@@ -553,7 +562,7 @@ func (j *jsiiProxy_BedrockagentFlow) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow} Resource.
 func NewBedrockagentFlow(scope constructs.Construct, id *string, config *BedrockagentFlowConfig) BedrockagentFlow {
 	_init_.Initialize()
 
@@ -571,7 +580,7 @@ func NewBedrockagentFlow(scope constructs.Construct, id *string, config *Bedrock
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow} Resource.
 func NewBedrockagentFlow_Override(b BedrockagentFlow, scope constructs.Construct, id *string, config *BedrockagentFlowConfig) {
 	_init_.Initialize()
 
@@ -1219,6 +1228,24 @@ func (b *jsiiProxy_BedrockagentFlow) ToTerraform() interface{} {
 		b,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (b *jsiiProxy_BedrockagentFlow) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		b,
+		"with",
+		args,
 		&returns,
 	)
 

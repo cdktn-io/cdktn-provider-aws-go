@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkmanager_connect_attachment aws_networkmanager_connect_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkmanager_connect_attachment aws_networkmanager_connect_attachment}.
 type NetworkmanagerConnectAttachment interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -159,6 +159,15 @@ type NetworkmanagerConnectAttachment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NetworkmanagerConnectAttachment
@@ -597,7 +606,7 @@ func (j *jsiiProxy_NetworkmanagerConnectAttachment) TransportAttachmentIdInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkmanager_connect_attachment aws_networkmanager_connect_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkmanager_connect_attachment aws_networkmanager_connect_attachment} Resource.
 func NewNetworkmanagerConnectAttachment(scope constructs.Construct, id *string, config *NetworkmanagerConnectAttachmentConfig) NetworkmanagerConnectAttachment {
 	_init_.Initialize()
 
@@ -615,7 +624,7 @@ func NewNetworkmanagerConnectAttachment(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/networkmanager_connect_attachment aws_networkmanager_connect_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/networkmanager_connect_attachment aws_networkmanager_connect_attachment} Resource.
 func NewNetworkmanagerConnectAttachment_Override(n NetworkmanagerConnectAttachment, scope constructs.Construct, id *string, config *NetworkmanagerConnectAttachmentConfig) {
 	_init_.Initialize()
 
@@ -1266,6 +1275,24 @@ func (n *jsiiProxy_NetworkmanagerConnectAttachment) ToTerraform() interface{} {
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkmanagerConnectAttachment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

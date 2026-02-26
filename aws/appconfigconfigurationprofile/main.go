@@ -91,6 +91,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "validator", GoGetter: "Validator"},
 			_jsii_.MemberProperty{JsiiProperty: "validatorInput", GoGetter: "ValidatorInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_AppconfigConfigurationProfile{}

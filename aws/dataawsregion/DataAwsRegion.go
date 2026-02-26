@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/region aws_region}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/region aws_region}.
 type DataAwsRegion interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -110,6 +110,15 @@ type DataAwsRegion interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsRegion
@@ -348,7 +357,7 @@ func (j *jsiiProxy_DataAwsRegion) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/region aws_region} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/region aws_region} Data Source.
 func NewDataAwsRegion(scope constructs.Construct, id *string, config *DataAwsRegionConfig) DataAwsRegion {
 	_init_.Initialize()
 
@@ -366,7 +375,7 @@ func NewDataAwsRegion(scope constructs.Construct, id *string, config *DataAwsReg
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/region aws_region} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/region aws_region} Data Source.
 func NewDataAwsRegion_Override(d DataAwsRegion, scope constructs.Construct, id *string, config *DataAwsRegionConfig) {
 	_init_.Initialize()
 
@@ -864,6 +873,24 @@ func (d *jsiiProxy_DataAwsRegion) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsRegion) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

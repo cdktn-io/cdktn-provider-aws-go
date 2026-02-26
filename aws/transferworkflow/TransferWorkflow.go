@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/transfer_workflow aws_transfer_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/transfer_workflow aws_transfer_workflow}.
 type TransferWorkflow interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -146,6 +146,15 @@ type TransferWorkflow interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for TransferWorkflow
@@ -464,7 +473,7 @@ func (j *jsiiProxy_TransferWorkflow) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/transfer_workflow aws_transfer_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/transfer_workflow aws_transfer_workflow} Resource.
 func NewTransferWorkflow(scope constructs.Construct, id *string, config *TransferWorkflowConfig) TransferWorkflow {
 	_init_.Initialize()
 
@@ -482,7 +491,7 @@ func NewTransferWorkflow(scope constructs.Construct, id *string, config *Transfe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/transfer_workflow aws_transfer_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/transfer_workflow aws_transfer_workflow} Resource.
 func NewTransferWorkflow_Override(t TransferWorkflow, scope constructs.Construct, id *string, config *TransferWorkflowConfig) {
 	_init_.Initialize()
 
@@ -1119,6 +1128,24 @@ func (t *jsiiProxy_TransferWorkflow) ToTerraform() interface{} {
 		t,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TransferWorkflow) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		t,
+		"with",
+		args,
 		&returns,
 	)
 

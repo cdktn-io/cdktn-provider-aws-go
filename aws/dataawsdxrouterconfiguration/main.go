@@ -60,6 +60,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "virtualInterfaceId", GoGetter: "VirtualInterfaceId"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualInterfaceIdInput", GoGetter: "VirtualInterfaceIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualInterfaceName", GoGetter: "VirtualInterfaceName"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsDxRouterConfiguration{}

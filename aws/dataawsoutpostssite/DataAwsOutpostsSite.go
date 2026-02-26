@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/outposts_site aws_outposts_site}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/outposts_site aws_outposts_site}.
 type DataAwsOutpostsSite interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -107,6 +107,15 @@ type DataAwsOutpostsSite interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsOutpostsSite
@@ -335,7 +344,7 @@ func (j *jsiiProxy_DataAwsOutpostsSite) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/outposts_site aws_outposts_site} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/outposts_site aws_outposts_site} Data Source.
 func NewDataAwsOutpostsSite(scope constructs.Construct, id *string, config *DataAwsOutpostsSiteConfig) DataAwsOutpostsSite {
 	_init_.Initialize()
 
@@ -353,7 +362,7 @@ func NewDataAwsOutpostsSite(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/outposts_site aws_outposts_site} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/outposts_site aws_outposts_site} Data Source.
 func NewDataAwsOutpostsSite_Override(d DataAwsOutpostsSite, scope constructs.Construct, id *string, config *DataAwsOutpostsSiteConfig) {
 	_init_.Initialize()
 
@@ -832,6 +841,24 @@ func (d *jsiiProxy_DataAwsOutpostsSite) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsOutpostsSite) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

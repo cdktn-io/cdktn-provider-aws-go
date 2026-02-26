@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appflow_connector_profile aws_appflow_connector_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appflow_connector_profile aws_appflow_connector_profile}.
 type AppflowConnectorProfile interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -148,6 +148,15 @@ type AppflowConnectorProfile interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AppflowConnectorProfile
@@ -496,7 +505,7 @@ func (j *jsiiProxy_AppflowConnectorProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appflow_connector_profile aws_appflow_connector_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appflow_connector_profile aws_appflow_connector_profile} Resource.
 func NewAppflowConnectorProfile(scope constructs.Construct, id *string, config *AppflowConnectorProfileConfig) AppflowConnectorProfile {
 	_init_.Initialize()
 
@@ -514,7 +523,7 @@ func NewAppflowConnectorProfile(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appflow_connector_profile aws_appflow_connector_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appflow_connector_profile aws_appflow_connector_profile} Resource.
 func NewAppflowConnectorProfile_Override(a AppflowConnectorProfile, scope constructs.Construct, id *string, config *AppflowConnectorProfileConfig) {
 	_init_.Initialize()
 
@@ -1146,6 +1155,24 @@ func (a *jsiiProxy_AppflowConnectorProfile) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AppflowConnectorProfile) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

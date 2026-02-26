@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lightsail_instance aws_lightsail_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lightsail_instance aws_lightsail_instance}.
 type LightsailInstance interface {
 	cdktn.TerraformResource
 	AddOn() LightsailInstanceAddOnOutputReference
@@ -171,6 +171,15 @@ type LightsailInstance interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LightsailInstance
@@ -669,7 +678,7 @@ func (j *jsiiProxy_LightsailInstance) Username() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lightsail_instance aws_lightsail_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lightsail_instance aws_lightsail_instance} Resource.
 func NewLightsailInstance(scope constructs.Construct, id *string, config *LightsailInstanceConfig) LightsailInstance {
 	_init_.Initialize()
 
@@ -687,7 +696,7 @@ func NewLightsailInstance(scope constructs.Construct, id *string, config *Lights
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lightsail_instance aws_lightsail_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lightsail_instance aws_lightsail_instance} Resource.
 func NewLightsailInstance_Override(l LightsailInstance, scope constructs.Construct, id *string, config *LightsailInstanceConfig) {
 	_init_.Initialize()
 
@@ -1395,6 +1404,24 @@ func (l *jsiiProxy_LightsailInstance) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LightsailInstance) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

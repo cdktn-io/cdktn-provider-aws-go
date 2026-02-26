@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/glue_catalog_table_optimizer aws_glue_catalog_table_optimizer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/glue_catalog_table_optimizer aws_glue_catalog_table_optimizer}.
 type GlueCatalogTableOptimizer interface {
 	cdktn.TerraformResource
 	CatalogId() *string
@@ -138,6 +138,15 @@ type GlueCatalogTableOptimizer interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for GlueCatalogTableOptimizer
@@ -426,7 +435,7 @@ func (j *jsiiProxy_GlueCatalogTableOptimizer) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/glue_catalog_table_optimizer aws_glue_catalog_table_optimizer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/glue_catalog_table_optimizer aws_glue_catalog_table_optimizer} Resource.
 func NewGlueCatalogTableOptimizer(scope constructs.Construct, id *string, config *GlueCatalogTableOptimizerConfig) GlueCatalogTableOptimizer {
 	_init_.Initialize()
 
@@ -444,7 +453,7 @@ func NewGlueCatalogTableOptimizer(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/glue_catalog_table_optimizer aws_glue_catalog_table_optimizer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/glue_catalog_table_optimizer aws_glue_catalog_table_optimizer} Resource.
 func NewGlueCatalogTableOptimizer_Override(g GlueCatalogTableOptimizer, scope constructs.Construct, id *string, config *GlueCatalogTableOptimizerConfig) {
 	_init_.Initialize()
 
@@ -1038,6 +1047,24 @@ func (g *jsiiProxy_GlueCatalogTableOptimizer) ToTerraform() interface{} {
 		g,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (g *jsiiProxy_GlueCatalogTableOptimizer) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		g,
+		"with",
+		args,
 		&returns,
 	)
 

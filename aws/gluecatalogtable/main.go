@@ -110,6 +110,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "viewExpandedTextInput", GoGetter: "ViewExpandedTextInput"},
 			_jsii_.MemberProperty{JsiiProperty: "viewOriginalText", GoGetter: "ViewOriginalText"},
 			_jsii_.MemberProperty{JsiiProperty: "viewOriginalTextInput", GoGetter: "ViewOriginalTextInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GlueCatalogTable{}

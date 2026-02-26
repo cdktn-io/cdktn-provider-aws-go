@@ -70,6 +70,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcOriginEndpointConfig", GoGetter: "VpcOriginEndpointConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcOriginEndpointConfigInput", GoGetter: "VpcOriginEndpointConfigInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudfrontVpcOrigin{}

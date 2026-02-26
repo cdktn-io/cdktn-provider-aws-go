@@ -67,6 +67,10 @@ func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) validatePutMonit
 	return nil
 }
 
+func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) validatePutQueryResultsS3AccessGrantsConfigurationParameters(value *AthenaWorkgroupConfigurationQueryResultsS3AccessGrantsConfiguration) error {
+	return nil
+}
+
 func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) validatePutResultConfigurationParameters(value *AthenaWorkgroupConfigurationResultConfiguration) error {
 	return nil
 }

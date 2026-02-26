@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/iam_users aws_iam_users}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/iam_users aws_iam_users}.
 type DataAwsIamUsers interface {
 	cdktn.TerraformDataSource
 	Arns() *[]*string
@@ -107,6 +107,15 @@ type DataAwsIamUsers interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsIamUsers
@@ -335,7 +344,7 @@ func (j *jsiiProxy_DataAwsIamUsers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/iam_users aws_iam_users} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/iam_users aws_iam_users} Data Source.
 func NewDataAwsIamUsers(scope constructs.Construct, id *string, config *DataAwsIamUsersConfig) DataAwsIamUsers {
 	_init_.Initialize()
 
@@ -353,7 +362,7 @@ func NewDataAwsIamUsers(scope constructs.Construct, id *string, config *DataAwsI
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/iam_users aws_iam_users} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/iam_users aws_iam_users} Data Source.
 func NewDataAwsIamUsers_Override(d DataAwsIamUsers, scope constructs.Construct, id *string, config *DataAwsIamUsersConfig) {
 	_init_.Initialize()
 
@@ -832,6 +841,24 @@ func (d *jsiiProxy_DataAwsIamUsers) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsIamUsers) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

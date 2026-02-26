@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appmesh_route aws_appmesh_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appmesh_route aws_appmesh_route}.
 type AppmeshRoute interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -154,6 +154,15 @@ type AppmeshRoute interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AppmeshRoute
@@ -542,7 +551,7 @@ func (j *jsiiProxy_AppmeshRoute) VirtualRouterNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appmesh_route aws_appmesh_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appmesh_route aws_appmesh_route} Resource.
 func NewAppmeshRoute(scope constructs.Construct, id *string, config *AppmeshRouteConfig) AppmeshRoute {
 	_init_.Initialize()
 
@@ -560,7 +569,7 @@ func NewAppmeshRoute(scope constructs.Construct, id *string, config *AppmeshRout
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/appmesh_route aws_appmesh_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/appmesh_route aws_appmesh_route} Resource.
 func NewAppmeshRoute_Override(a AppmeshRoute, scope constructs.Construct, id *string, config *AppmeshRouteConfig) {
 	_init_.Initialize()
 
@@ -1211,6 +1220,24 @@ func (a *jsiiProxy_AppmeshRoute) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AppmeshRoute) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

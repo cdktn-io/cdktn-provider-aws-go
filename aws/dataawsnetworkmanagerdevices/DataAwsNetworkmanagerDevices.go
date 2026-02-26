@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/networkmanager_devices aws_networkmanager_devices}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/networkmanager_devices aws_networkmanager_devices}.
 type DataAwsNetworkmanagerDevices interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -109,6 +109,15 @@ type DataAwsNetworkmanagerDevices interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsNetworkmanagerDevices
@@ -347,7 +356,7 @@ func (j *jsiiProxy_DataAwsNetworkmanagerDevices) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/networkmanager_devices aws_networkmanager_devices} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/networkmanager_devices aws_networkmanager_devices} Data Source.
 func NewDataAwsNetworkmanagerDevices(scope constructs.Construct, id *string, config *DataAwsNetworkmanagerDevicesConfig) DataAwsNetworkmanagerDevices {
 	_init_.Initialize()
 
@@ -365,7 +374,7 @@ func NewDataAwsNetworkmanagerDevices(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/networkmanager_devices aws_networkmanager_devices} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/networkmanager_devices aws_networkmanager_devices} Data Source.
 func NewDataAwsNetworkmanagerDevices_Override(d DataAwsNetworkmanagerDevices, scope constructs.Construct, id *string, config *DataAwsNetworkmanagerDevicesConfig) {
 	_init_.Initialize()
 
@@ -855,6 +864,24 @@ func (d *jsiiProxy_DataAwsNetworkmanagerDevices) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsNetworkmanagerDevices) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

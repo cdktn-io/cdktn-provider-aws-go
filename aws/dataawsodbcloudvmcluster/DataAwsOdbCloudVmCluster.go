@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster}.
 type DataAwsOdbCloudVmCluster interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -142,6 +142,15 @@ type DataAwsOdbCloudVmCluster interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsOdbCloudVmCluster
@@ -750,7 +759,7 @@ func (j *jsiiProxy_DataAwsOdbCloudVmCluster) VipIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster} Data Source.
 func NewDataAwsOdbCloudVmCluster(scope constructs.Construct, id *string, config *DataAwsOdbCloudVmClusterConfig) DataAwsOdbCloudVmCluster {
 	_init_.Initialize()
 
@@ -768,7 +777,7 @@ func NewDataAwsOdbCloudVmCluster(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster} Data Source.
 func NewDataAwsOdbCloudVmCluster_Override(d DataAwsOdbCloudVmCluster, scope constructs.Construct, id *string, config *DataAwsOdbCloudVmClusterConfig) {
 	_init_.Initialize()
 
@@ -1220,6 +1229,24 @@ func (d *jsiiProxy_DataAwsOdbCloudVmCluster) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsOdbCloudVmCluster) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

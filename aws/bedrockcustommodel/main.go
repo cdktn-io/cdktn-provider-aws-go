@@ -104,6 +104,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "validationMetrics", GoGetter: "ValidationMetrics"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcConfig", GoGetter: "VpcConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcConfigInput", GoGetter: "VpcConfigInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_BedrockCustomModel{}

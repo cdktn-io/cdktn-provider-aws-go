@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/waf_rule aws_waf_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/waf_rule aws_waf_rule}.
 type WafRule interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -141,6 +141,15 @@ type WafRule interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for WafRule
@@ -439,7 +448,7 @@ func (j *jsiiProxy_WafRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/waf_rule aws_waf_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/waf_rule aws_waf_rule} Resource.
 func NewWafRule(scope constructs.Construct, id *string, config *WafRuleConfig) WafRule {
 	_init_.Initialize()
 
@@ -457,7 +466,7 @@ func NewWafRule(scope constructs.Construct, id *string, config *WafRuleConfig) W
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/waf_rule aws_waf_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/waf_rule aws_waf_rule} Resource.
 func NewWafRule_Override(w WafRule, scope constructs.Construct, id *string, config *WafRuleConfig) {
 	_init_.Initialize()
 
@@ -1067,6 +1076,24 @@ func (w *jsiiProxy_WafRule) ToTerraform() interface{} {
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WafRule) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

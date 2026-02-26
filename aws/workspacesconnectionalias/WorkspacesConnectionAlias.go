@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspaces_connection_alias aws_workspaces_connection_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspaces_connection_alias aws_workspaces_connection_alias}.
 type WorkspacesConnectionAlias interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -137,6 +137,15 @@ type WorkspacesConnectionAlias interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for WorkspacesConnectionAlias
@@ -425,7 +434,7 @@ func (j *jsiiProxy_WorkspacesConnectionAlias) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspaces_connection_alias aws_workspaces_connection_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspaces_connection_alias aws_workspaces_connection_alias} Resource.
 func NewWorkspacesConnectionAlias(scope constructs.Construct, id *string, config *WorkspacesConnectionAliasConfig) WorkspacesConnectionAlias {
 	_init_.Initialize()
 
@@ -443,7 +452,7 @@ func NewWorkspacesConnectionAlias(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/workspaces_connection_alias aws_workspaces_connection_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/workspaces_connection_alias aws_workspaces_connection_alias} Resource.
 func NewWorkspacesConnectionAlias_Override(w WorkspacesConnectionAlias, scope constructs.Construct, id *string, config *WorkspacesConnectionAliasConfig) {
 	_init_.Initialize()
 
@@ -1023,6 +1032,24 @@ func (w *jsiiProxy_WorkspacesConnectionAlias) ToTerraform() interface{} {
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkspacesConnectionAlias) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

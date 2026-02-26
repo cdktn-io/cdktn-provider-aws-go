@@ -121,6 +121,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "validCores", GoGetter: "ValidCores"},
 			_jsii_.MemberProperty{JsiiProperty: "validThreadsPerCore", GoGetter: "ValidThreadsPerCore"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsEc2InstanceType{}

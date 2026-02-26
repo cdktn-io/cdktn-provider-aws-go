@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lightsail_disk aws_lightsail_disk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lightsail_disk aws_lightsail_disk}.
 type LightsailDisk interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -146,6 +146,15 @@ type LightsailDisk interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LightsailDisk
@@ -484,7 +493,7 @@ func (j *jsiiProxy_LightsailDisk) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lightsail_disk aws_lightsail_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lightsail_disk aws_lightsail_disk} Resource.
 func NewLightsailDisk(scope constructs.Construct, id *string, config *LightsailDiskConfig) LightsailDisk {
 	_init_.Initialize()
 
@@ -502,7 +511,7 @@ func NewLightsailDisk(scope constructs.Construct, id *string, config *LightsailD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/lightsail_disk aws_lightsail_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/lightsail_disk aws_lightsail_disk} Resource.
 func NewLightsailDisk_Override(l LightsailDisk, scope constructs.Construct, id *string, config *LightsailDiskConfig) {
 	_init_.Initialize()
 
@@ -1123,6 +1132,24 @@ func (l *jsiiProxy_LightsailDisk) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LightsailDisk) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/app_cookie_stickiness_policy aws_app_cookie_stickiness_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/app_cookie_stickiness_policy aws_app_cookie_stickiness_policy}.
 type AppCookieStickinessPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -138,6 +138,15 @@ type AppCookieStickinessPolicy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AppCookieStickinessPolicy
@@ -426,7 +435,7 @@ func (j *jsiiProxy_AppCookieStickinessPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/app_cookie_stickiness_policy aws_app_cookie_stickiness_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/app_cookie_stickiness_policy aws_app_cookie_stickiness_policy} Resource.
 func NewAppCookieStickinessPolicy(scope constructs.Construct, id *string, config *AppCookieStickinessPolicyConfig) AppCookieStickinessPolicy {
 	_init_.Initialize()
 
@@ -444,7 +453,7 @@ func NewAppCookieStickinessPolicy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/app_cookie_stickiness_policy aws_app_cookie_stickiness_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/app_cookie_stickiness_policy aws_app_cookie_stickiness_policy} Resource.
 func NewAppCookieStickinessPolicy_Override(a AppCookieStickinessPolicy, scope constructs.Construct, id *string, config *AppCookieStickinessPolicyConfig) {
 	_init_.Initialize()
 
@@ -1038,6 +1047,24 @@ func (a *jsiiProxy_AppCookieStickinessPolicy) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AppCookieStickinessPolicy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

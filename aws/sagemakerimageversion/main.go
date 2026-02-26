@@ -93,6 +93,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vendorGuidance", GoGetter: "VendorGuidance"},
 			_jsii_.MemberProperty{JsiiProperty: "vendorGuidanceInput", GoGetter: "VendorGuidanceInput"},
 			_jsii_.MemberProperty{JsiiProperty: "version", GoGetter: "Version"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_SagemakerImageVersion{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudsearch_domain_service_access_policy aws_cloudsearch_domain_service_access_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloudsearch_domain_service_access_policy aws_cloudsearch_domain_service_access_policy}.
 type CloudsearchDomainServiceAccessPolicy interface {
 	cdktn.TerraformResource
 	AccessPolicy() *string
@@ -136,6 +136,15 @@ type CloudsearchDomainServiceAccessPolicy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for CloudsearchDomainServiceAccessPolicy
@@ -404,7 +413,7 @@ func (j *jsiiProxy_CloudsearchDomainServiceAccessPolicy) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudsearch_domain_service_access_policy aws_cloudsearch_domain_service_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloudsearch_domain_service_access_policy aws_cloudsearch_domain_service_access_policy} Resource.
 func NewCloudsearchDomainServiceAccessPolicy(scope constructs.Construct, id *string, config *CloudsearchDomainServiceAccessPolicyConfig) CloudsearchDomainServiceAccessPolicy {
 	_init_.Initialize()
 
@@ -422,7 +431,7 @@ func NewCloudsearchDomainServiceAccessPolicy(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudsearch_domain_service_access_policy aws_cloudsearch_domain_service_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloudsearch_domain_service_access_policy aws_cloudsearch_domain_service_access_policy} Resource.
 func NewCloudsearchDomainServiceAccessPolicy_Override(c CloudsearchDomainServiceAccessPolicy, scope constructs.Construct, id *string, config *CloudsearchDomainServiceAccessPolicyConfig) {
 	_init_.Initialize()
 
@@ -1013,6 +1022,24 @@ func (c *jsiiProxy_CloudsearchDomainServiceAccessPolicy) ToTerraform() interface
 		c,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_CloudsearchDomainServiceAccessPolicy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		c,
+		"with",
+		args,
 		&returns,
 	)
 

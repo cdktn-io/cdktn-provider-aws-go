@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/servicequotas_service_quota aws_servicequotas_service_quota}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/servicequotas_service_quota aws_servicequotas_service_quota}.
 type ServicequotasServiceQuota interface {
 	cdktn.TerraformResource
 	Adjustable() cdktn.IResolvable
@@ -143,6 +143,15 @@ type ServicequotasServiceQuota interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ServicequotasServiceQuota
@@ -491,7 +500,7 @@ func (j *jsiiProxy_ServicequotasServiceQuota) ValueInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/servicequotas_service_quota aws_servicequotas_service_quota} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/servicequotas_service_quota aws_servicequotas_service_quota} Resource.
 func NewServicequotasServiceQuota(scope constructs.Construct, id *string, config *ServicequotasServiceQuotaConfig) ServicequotasServiceQuota {
 	_init_.Initialize()
 
@@ -509,7 +518,7 @@ func NewServicequotasServiceQuota(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/servicequotas_service_quota aws_servicequotas_service_quota} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/servicequotas_service_quota aws_servicequotas_service_quota} Resource.
 func NewServicequotasServiceQuota_Override(s ServicequotasServiceQuota, scope constructs.Construct, id *string, config *ServicequotasServiceQuotaConfig) {
 	_init_.Initialize()
 
@@ -1092,6 +1101,24 @@ func (s *jsiiProxy_ServicequotasServiceQuota) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_ServicequotasServiceQuota) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

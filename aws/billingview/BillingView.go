@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/billing_view aws_billing_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/billing_view aws_billing_view}.
 type BillingView interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -151,6 +151,15 @@ type BillingView interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for BillingView
@@ -539,7 +548,7 @@ func (j *jsiiProxy_BillingView) ViewDefinitionLastUpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/billing_view aws_billing_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/billing_view aws_billing_view} Resource.
 func NewBillingView(scope constructs.Construct, id *string, config *BillingViewConfig) BillingView {
 	_init_.Initialize()
 
@@ -557,7 +566,7 @@ func NewBillingView(scope constructs.Construct, id *string, config *BillingViewC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/billing_view aws_billing_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/billing_view aws_billing_view} Resource.
 func NewBillingView_Override(b BillingView, scope constructs.Construct, id *string, config *BillingViewConfig) {
 	_init_.Initialize()
 
@@ -1175,6 +1184,24 @@ func (b *jsiiProxy_BillingView) ToTerraform() interface{} {
 		b,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (b *jsiiProxy_BillingView) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		b,
+		"with",
+		args,
 		&returns,
 	)
 

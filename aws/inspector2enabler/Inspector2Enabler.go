@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/inspector2_enabler aws_inspector2_enabler}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/inspector2_enabler aws_inspector2_enabler}.
 type Inspector2Enabler interface {
 	cdktn.TerraformResource
 	AccountIds() *[]*string
@@ -136,6 +136,15 @@ type Inspector2Enabler interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Inspector2Enabler
@@ -404,7 +413,7 @@ func (j *jsiiProxy_Inspector2Enabler) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/inspector2_enabler aws_inspector2_enabler} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/inspector2_enabler aws_inspector2_enabler} Resource.
 func NewInspector2Enabler(scope constructs.Construct, id *string, config *Inspector2EnablerConfig) Inspector2Enabler {
 	_init_.Initialize()
 
@@ -422,7 +431,7 @@ func NewInspector2Enabler(scope constructs.Construct, id *string, config *Inspec
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/inspector2_enabler aws_inspector2_enabler} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/inspector2_enabler aws_inspector2_enabler} Resource.
 func NewInspector2Enabler_Override(i Inspector2Enabler, scope constructs.Construct, id *string, config *Inspector2EnablerConfig) {
 	_init_.Initialize()
 
@@ -1013,6 +1022,24 @@ func (i *jsiiProxy_Inspector2Enabler) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_Inspector2Enabler) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

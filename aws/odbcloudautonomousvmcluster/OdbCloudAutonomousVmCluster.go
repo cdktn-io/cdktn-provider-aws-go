@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster}.
 type OdbCloudAutonomousVmCluster interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -225,6 +225,15 @@ type OdbCloudAutonomousVmCluster interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for OdbCloudAutonomousVmCluster
@@ -1143,7 +1152,7 @@ func (j *jsiiProxy_OdbCloudAutonomousVmCluster) TotalContainerDatabasesInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster} Resource.
 func NewOdbCloudAutonomousVmCluster(scope constructs.Construct, id *string, config *OdbCloudAutonomousVmClusterConfig) OdbCloudAutonomousVmCluster {
 	_init_.Initialize()
 
@@ -1161,7 +1170,7 @@ func NewOdbCloudAutonomousVmCluster(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster} Resource.
 func NewOdbCloudAutonomousVmCluster_Override(o OdbCloudAutonomousVmCluster, scope constructs.Construct, id *string, config *OdbCloudAutonomousVmClusterConfig) {
 	_init_.Initialize()
 
@@ -1989,6 +1998,24 @@ func (o *jsiiProxy_OdbCloudAutonomousVmCluster) ToTerraform() interface{} {
 		o,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_OdbCloudAutonomousVmCluster) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		o,
+		"with",
+		args,
 		&returns,
 	)
 

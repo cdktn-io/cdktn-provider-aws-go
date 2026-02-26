@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/waf_web_acl aws_waf_web_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/waf_web_acl aws_waf_web_acl}.
 type WafWebAcl interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -148,6 +148,15 @@ type WafWebAcl interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for WafWebAcl
@@ -486,7 +495,7 @@ func (j *jsiiProxy_WafWebAcl) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/waf_web_acl aws_waf_web_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/waf_web_acl aws_waf_web_acl} Resource.
 func NewWafWebAcl(scope constructs.Construct, id *string, config *WafWebAclConfig) WafWebAcl {
 	_init_.Initialize()
 
@@ -504,7 +513,7 @@ func NewWafWebAcl(scope constructs.Construct, id *string, config *WafWebAclConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/waf_web_acl aws_waf_web_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/waf_web_acl aws_waf_web_acl} Resource.
 func NewWafWebAcl_Override(w WafWebAcl, scope constructs.Construct, id *string, config *WafWebAclConfig) {
 	_init_.Initialize()
 
@@ -1144,6 +1153,24 @@ func (w *jsiiProxy_WafWebAcl) ToTerraform() interface{} {
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WafWebAcl) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

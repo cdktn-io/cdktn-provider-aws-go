@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/servicecatalogappregistry_attribute_group aws_servicecatalogappregistry_attribute_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/servicecatalogappregistry_attribute_group aws_servicecatalogappregistry_attribute_group}.
 type DataAwsServicecatalogappregistryAttributeGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -112,6 +112,15 @@ type DataAwsServicecatalogappregistryAttributeGroup interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsServicecatalogappregistryAttributeGroup
@@ -370,7 +379,7 @@ func (j *jsiiProxy_DataAwsServicecatalogappregistryAttributeGroup) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/servicecatalogappregistry_attribute_group aws_servicecatalogappregistry_attribute_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/servicecatalogappregistry_attribute_group aws_servicecatalogappregistry_attribute_group} Data Source.
 func NewDataAwsServicecatalogappregistryAttributeGroup(scope constructs.Construct, id *string, config *DataAwsServicecatalogappregistryAttributeGroupConfig) DataAwsServicecatalogappregistryAttributeGroup {
 	_init_.Initialize()
 
@@ -388,7 +397,7 @@ func NewDataAwsServicecatalogappregistryAttributeGroup(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/servicecatalogappregistry_attribute_group aws_servicecatalogappregistry_attribute_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/servicecatalogappregistry_attribute_group aws_servicecatalogappregistry_attribute_group} Data Source.
 func NewDataAwsServicecatalogappregistryAttributeGroup_Override(d DataAwsServicecatalogappregistryAttributeGroup, scope constructs.Construct, id *string, config *DataAwsServicecatalogappregistryAttributeGroupConfig) {
 	_init_.Initialize()
 
@@ -886,6 +895,24 @@ func (d *jsiiProxy_DataAwsServicecatalogappregistryAttributeGroup) ToTerraform()
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsServicecatalogappregistryAttributeGroup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -66,6 +66,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionStage", GoGetter: "VersionStage"},
 			_jsii_.MemberProperty{JsiiProperty: "versionStageInput", GoGetter: "VersionStageInput"},
 			_jsii_.MemberProperty{JsiiProperty: "versionStages", GoGetter: "VersionStages"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsSecretsmanagerSecretVersion{}

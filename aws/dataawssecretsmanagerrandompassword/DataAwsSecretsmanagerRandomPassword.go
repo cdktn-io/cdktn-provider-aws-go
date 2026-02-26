@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/secretsmanager_random_password aws_secretsmanager_random_password}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/secretsmanager_random_password aws_secretsmanager_random_password}.
 type DataAwsSecretsmanagerRandomPassword interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -134,6 +134,15 @@ type DataAwsSecretsmanagerRandomPassword interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsSecretsmanagerRandomPassword
@@ -492,7 +501,7 @@ func (j *jsiiProxy_DataAwsSecretsmanagerRandomPassword) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/secretsmanager_random_password aws_secretsmanager_random_password} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/secretsmanager_random_password aws_secretsmanager_random_password} Data Source.
 func NewDataAwsSecretsmanagerRandomPassword(scope constructs.Construct, id *string, config *DataAwsSecretsmanagerRandomPasswordConfig) DataAwsSecretsmanagerRandomPassword {
 	_init_.Initialize()
 
@@ -510,7 +519,7 @@ func NewDataAwsSecretsmanagerRandomPassword(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/secretsmanager_random_password aws_secretsmanager_random_password} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/secretsmanager_random_password aws_secretsmanager_random_password} Data Source.
 func NewDataAwsSecretsmanagerRandomPassword_Override(d DataAwsSecretsmanagerRandomPassword, scope constructs.Construct, id *string, config *DataAwsSecretsmanagerRandomPasswordConfig) {
 	_init_.Initialize()
 
@@ -1122,6 +1131,24 @@ func (d *jsiiProxy_DataAwsSecretsmanagerRandomPassword) ToTerraform() interface{
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsSecretsmanagerRandomPassword) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

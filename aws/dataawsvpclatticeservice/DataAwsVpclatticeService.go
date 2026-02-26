@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/vpclattice_service aws_vpclattice_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/vpclattice_service aws_vpclattice_service}.
 type DataAwsVpclatticeService interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -119,6 +119,15 @@ type DataAwsVpclatticeService interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsVpclatticeService
@@ -427,7 +436,7 @@ func (j *jsiiProxy_DataAwsVpclatticeService) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/vpclattice_service aws_vpclattice_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/vpclattice_service aws_vpclattice_service} Data Source.
 func NewDataAwsVpclatticeService(scope constructs.Construct, id *string, config *DataAwsVpclatticeServiceConfig) DataAwsVpclatticeService {
 	_init_.Initialize()
 
@@ -445,7 +454,7 @@ func NewDataAwsVpclatticeService(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/vpclattice_service aws_vpclattice_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/vpclattice_service aws_vpclattice_service} Data Source.
 func NewDataAwsVpclatticeService_Override(d DataAwsVpclatticeService, scope constructs.Construct, id *string, config *DataAwsVpclatticeServiceConfig) {
 	_init_.Initialize()
 
@@ -962,6 +971,24 @@ func (d *jsiiProxy_DataAwsVpclatticeService) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsVpclatticeService) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

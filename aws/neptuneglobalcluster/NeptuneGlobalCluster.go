@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/neptune_global_cluster aws_neptune_global_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/neptune_global_cluster aws_neptune_global_cluster}.
 type NeptuneGlobalCluster interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -157,6 +157,15 @@ type NeptuneGlobalCluster interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NeptuneGlobalCluster
@@ -545,7 +554,7 @@ func (j *jsiiProxy_NeptuneGlobalCluster) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/neptune_global_cluster aws_neptune_global_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/neptune_global_cluster aws_neptune_global_cluster} Resource.
 func NewNeptuneGlobalCluster(scope constructs.Construct, id *string, config *NeptuneGlobalClusterConfig) NeptuneGlobalCluster {
 	_init_.Initialize()
 
@@ -563,7 +572,7 @@ func NewNeptuneGlobalCluster(scope constructs.Construct, id *string, config *Nep
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/neptune_global_cluster aws_neptune_global_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/neptune_global_cluster aws_neptune_global_cluster} Resource.
 func NewNeptuneGlobalCluster_Override(n NeptuneGlobalCluster, scope constructs.Construct, id *string, config *NeptuneGlobalClusterConfig) {
 	_init_.Initialize()
 
@@ -1238,6 +1247,24 @@ func (n *jsiiProxy_NeptuneGlobalCluster) ToTerraform() interface{} {
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NeptuneGlobalCluster) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

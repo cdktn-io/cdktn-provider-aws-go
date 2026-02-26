@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sesv2_contact_list aws_sesv2_contact_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sesv2_contact_list aws_sesv2_contact_list}.
 type Sesv2ContactList interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -148,6 +148,15 @@ type Sesv2ContactList interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Sesv2ContactList
@@ -486,7 +495,7 @@ func (j *jsiiProxy_Sesv2ContactList) TopicInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sesv2_contact_list aws_sesv2_contact_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sesv2_contact_list aws_sesv2_contact_list} Resource.
 func NewSesv2ContactList(scope constructs.Construct, id *string, config *Sesv2ContactListConfig) Sesv2ContactList {
 	_init_.Initialize()
 
@@ -504,7 +513,7 @@ func NewSesv2ContactList(scope constructs.Construct, id *string, config *Sesv2Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sesv2_contact_list aws_sesv2_contact_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sesv2_contact_list aws_sesv2_contact_list} Resource.
 func NewSesv2ContactList_Override(s Sesv2ContactList, scope constructs.Construct, id *string, config *Sesv2ContactListConfig) {
 	_init_.Initialize()
 
@@ -1141,6 +1150,24 @@ func (s *jsiiProxy_Sesv2ContactList) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_Sesv2ContactList) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

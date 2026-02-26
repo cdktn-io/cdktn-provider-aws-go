@@ -87,6 +87,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "validity", GoGetter: "Validity"},
 			_jsii_.MemberProperty{JsiiProperty: "verificationCertificatePem", GoGetter: "VerificationCertificatePem"},
 			_jsii_.MemberProperty{JsiiProperty: "verificationCertificatePemInput", GoGetter: "VerificationCertificatePemInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_IotCaCertificate{}

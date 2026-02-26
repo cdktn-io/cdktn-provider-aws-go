@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3_bucket_inventory aws_s3_bucket_inventory}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3_bucket_inventory aws_s3_bucket_inventory}.
 type S3BucketInventory interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -153,6 +153,15 @@ type S3BucketInventory interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for S3BucketInventory
@@ -521,7 +530,7 @@ func (j *jsiiProxy_S3BucketInventory) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3_bucket_inventory aws_s3_bucket_inventory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3_bucket_inventory aws_s3_bucket_inventory} Resource.
 func NewS3BucketInventory(scope constructs.Construct, id *string, config *S3BucketInventoryConfig) S3BucketInventory {
 	_init_.Initialize()
 
@@ -539,7 +548,7 @@ func NewS3BucketInventory(scope constructs.Construct, id *string, config *S3Buck
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/s3_bucket_inventory aws_s3_bucket_inventory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/s3_bucket_inventory aws_s3_bucket_inventory} Resource.
 func NewS3BucketInventory_Override(s S3BucketInventory, scope constructs.Construct, id *string, config *S3BucketInventoryConfig) {
 	_init_.Initialize()
 
@@ -1201,6 +1210,24 @@ func (s *jsiiProxy_S3BucketInventory) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_S3BucketInventory) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_user_profile aws_sagemaker_user_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_user_profile aws_sagemaker_user_profile}.
 type SagemakerUserProfile interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -154,6 +154,15 @@ type SagemakerUserProfile interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SagemakerUserProfile
@@ -522,7 +531,7 @@ func (j *jsiiProxy_SagemakerUserProfile) UserSettingsInput() *SagemakerUserProfi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_user_profile aws_sagemaker_user_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_user_profile aws_sagemaker_user_profile} Resource.
 func NewSagemakerUserProfile(scope constructs.Construct, id *string, config *SagemakerUserProfileConfig) SagemakerUserProfile {
 	_init_.Initialize()
 
@@ -540,7 +549,7 @@ func NewSagemakerUserProfile(scope constructs.Construct, id *string, config *Sag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/sagemaker_user_profile aws_sagemaker_user_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_user_profile aws_sagemaker_user_profile} Resource.
 func NewSagemakerUserProfile_Override(s SagemakerUserProfile, scope constructs.Construct, id *string, config *SagemakerUserProfileConfig) {
 	_init_.Initialize()
 
@@ -1207,6 +1216,24 @@ func (s *jsiiProxy_SagemakerUserProfile) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SagemakerUserProfile) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

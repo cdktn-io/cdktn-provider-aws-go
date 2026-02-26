@@ -80,6 +80,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcEndpointAssociationStatus", GoGetter: "VpcEndpointAssociationStatus"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcId", GoGetter: "VpcId"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdInput", GoGetter: "VpcIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkfirewallVpcEndpointAssociation{}

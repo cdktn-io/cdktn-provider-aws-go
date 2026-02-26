@@ -70,6 +70,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayConnectIdInput", GoGetter: "TransitGatewayConnectIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayId", GoGetter: "TransitGatewayId"},
 			_jsii_.MemberProperty{JsiiProperty: "transportAttachmentId", GoGetter: "TransportAttachmentId"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsEc2TransitGatewayConnect{}

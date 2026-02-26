@@ -68,6 +68,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userArn", GoGetter: "UserArn"},
 			_jsii_.MemberProperty{JsiiProperty: "userArnInput", GoGetter: "UserArnInput"},
 			_jsii_.MemberProperty{JsiiProperty: "userId", GoGetter: "UserId"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_Cloud9EnvironmentMembership{}

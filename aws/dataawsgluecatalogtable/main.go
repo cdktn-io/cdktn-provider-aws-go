@@ -78,6 +78,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "transactionIdInput", GoGetter: "TransactionIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "viewExpandedText", GoGetter: "ViewExpandedText"},
 			_jsii_.MemberProperty{JsiiProperty: "viewOriginalText", GoGetter: "ViewOriginalText"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsGlueCatalogTable{}

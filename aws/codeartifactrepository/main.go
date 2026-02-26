@@ -87,6 +87,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "upstream", GoGetter: "Upstream"},
 			_jsii_.MemberProperty{JsiiProperty: "upstreamInput", GoGetter: "UpstreamInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_CodeartifactRepository{}

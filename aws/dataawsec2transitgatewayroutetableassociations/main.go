@@ -64,6 +64,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayRouteTableId", GoGetter: "TransitGatewayRouteTableId"},
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayRouteTableIdInput", GoGetter: "TransitGatewayRouteTableIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsEc2TransitGatewayRouteTableAssociations{}

@@ -76,6 +76,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userIdInput", GoGetter: "UserIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "userName", GoGetter: "UserName"},
 			_jsii_.MemberProperty{JsiiProperty: "userType", GoGetter: "UserType"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsIdentitystoreUser{}

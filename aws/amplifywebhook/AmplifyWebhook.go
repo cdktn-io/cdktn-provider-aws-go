@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/amplify_webhook aws_amplify_webhook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/amplify_webhook aws_amplify_webhook}.
 type AmplifyWebhook interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -138,6 +138,15 @@ type AmplifyWebhook interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AmplifyWebhook
@@ -426,7 +435,7 @@ func (j *jsiiProxy_AmplifyWebhook) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/amplify_webhook aws_amplify_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/amplify_webhook aws_amplify_webhook} Resource.
 func NewAmplifyWebhook(scope constructs.Construct, id *string, config *AmplifyWebhookConfig) AmplifyWebhook {
 	_init_.Initialize()
 
@@ -444,7 +453,7 @@ func NewAmplifyWebhook(scope constructs.Construct, id *string, config *AmplifyWe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/amplify_webhook aws_amplify_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/amplify_webhook aws_amplify_webhook} Resource.
 func NewAmplifyWebhook_Override(a AmplifyWebhook, scope constructs.Construct, id *string, config *AmplifyWebhookConfig) {
 	_init_.Initialize()
 
@@ -1035,6 +1044,24 @@ func (a *jsiiProxy_AmplifyWebhook) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AmplifyWebhook) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

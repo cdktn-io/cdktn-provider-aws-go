@@ -85,6 +85,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayRouteTableArn", GoGetter: "TransitGatewayRouteTableArn"},
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayRouteTableArnInput", GoGetter: "TransitGatewayRouteTableArnInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment{}

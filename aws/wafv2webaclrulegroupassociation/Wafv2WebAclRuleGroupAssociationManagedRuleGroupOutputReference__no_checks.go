@@ -47,6 +47,10 @@ func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociationManagedRuleGroupOutputReferenc
 	return nil
 }
 
+func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociationManagedRuleGroupOutputReference) validatePutManagedRuleGroupConfigsParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociationManagedRuleGroupOutputReference) validatePutRuleActionOverrideParameters(value interface{}) error {
 	return nil
 }

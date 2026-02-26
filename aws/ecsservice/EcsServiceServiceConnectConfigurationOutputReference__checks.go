@@ -93,6 +93,17 @@ func (e *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) validat
 	return nil
 }
 
+func (e *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) validatePutAccessLogConfigurationParameters(value *EcsServiceServiceConnectConfigurationAccessLogConfiguration) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (e *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) validatePutLogConfigurationParameters(value *EcsServiceServiceConnectConfigurationLogConfiguration) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

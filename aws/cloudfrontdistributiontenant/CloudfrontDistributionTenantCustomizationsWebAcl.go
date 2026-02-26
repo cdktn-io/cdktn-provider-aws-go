@@ -5,9 +5,9 @@ package cloudfrontdistributiontenant
 
 
 type CloudfrontDistributionTenantCustomizationsWebAcl struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudfront_distribution_tenant#action CloudfrontDistributionTenant#action}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloudfront_distribution_tenant#action CloudfrontDistributionTenant#action}.
 	Action *string `field:"optional" json:"action" yaml:"action"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloudfront_distribution_tenant#arn CloudfrontDistributionTenant#arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloudfront_distribution_tenant#arn CloudfrontDistributionTenant#arn}.
 	Arn *string `field:"optional" json:"arn" yaml:"arn"`
 }
 

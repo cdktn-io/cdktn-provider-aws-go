@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/key_pair aws_key_pair}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/key_pair aws_key_pair}.
 type KeyPair interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -149,6 +149,15 @@ type KeyPair interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for KeyPair
@@ -497,7 +506,7 @@ func (j *jsiiProxy_KeyPair) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/key_pair aws_key_pair} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/key_pair aws_key_pair} Resource.
 func NewKeyPair(scope constructs.Construct, id *string, config *KeyPairConfig) KeyPair {
 	_init_.Initialize()
 
@@ -515,7 +524,7 @@ func NewKeyPair(scope constructs.Construct, id *string, config *KeyPairConfig) K
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/key_pair aws_key_pair} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/key_pair aws_key_pair} Resource.
 func NewKeyPair_Override(k KeyPair, scope constructs.Construct, id *string, config *KeyPairConfig) {
 	_init_.Initialize()
 
@@ -1152,6 +1161,24 @@ func (k *jsiiProxy_KeyPair) ToTerraform() interface{} {
 		k,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (k *jsiiProxy_KeyPair) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		k,
+		"with",
+		args,
 		&returns,
 	)
 

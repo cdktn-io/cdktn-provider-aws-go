@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/quicksight_user aws_quicksight_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/quicksight_user aws_quicksight_user}.
 type DataAwsQuicksightUser interface {
 	cdktn.TerraformDataSource
 	Active() cdktn.IResolvable
@@ -119,6 +119,15 @@ type DataAwsQuicksightUser interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsQuicksightUser
@@ -437,7 +446,7 @@ func (j *jsiiProxy_DataAwsQuicksightUser) UserRole() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/quicksight_user aws_quicksight_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/quicksight_user aws_quicksight_user} Data Source.
 func NewDataAwsQuicksightUser(scope constructs.Construct, id *string, config *DataAwsQuicksightUserConfig) DataAwsQuicksightUser {
 	_init_.Initialize()
 
@@ -455,7 +464,7 @@ func NewDataAwsQuicksightUser(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/quicksight_user aws_quicksight_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/quicksight_user aws_quicksight_user} Data Source.
 func NewDataAwsQuicksightUser_Override(d DataAwsQuicksightUser, scope constructs.Construct, id *string, config *DataAwsQuicksightUserConfig) {
 	_init_.Initialize()
 
@@ -964,6 +973,24 @@ func (d *jsiiProxy_DataAwsQuicksightUser) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsQuicksightUser) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

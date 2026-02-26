@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/finspace_kx_scaling_group aws_finspace_kx_scaling_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/finspace_kx_scaling_group aws_finspace_kx_scaling_group}.
 type FinspaceKxScalingGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -156,6 +156,15 @@ type FinspaceKxScalingGroup interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for FinspaceKxScalingGroup
@@ -564,7 +573,7 @@ func (j *jsiiProxy_FinspaceKxScalingGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/finspace_kx_scaling_group aws_finspace_kx_scaling_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/finspace_kx_scaling_group aws_finspace_kx_scaling_group} Resource.
 func NewFinspaceKxScalingGroup(scope constructs.Construct, id *string, config *FinspaceKxScalingGroupConfig) FinspaceKxScalingGroup {
 	_init_.Initialize()
 
@@ -582,7 +591,7 @@ func NewFinspaceKxScalingGroup(scope constructs.Construct, id *string, config *F
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/finspace_kx_scaling_group aws_finspace_kx_scaling_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/finspace_kx_scaling_group aws_finspace_kx_scaling_group} Resource.
 func NewFinspaceKxScalingGroup_Override(f FinspaceKxScalingGroup, scope constructs.Construct, id *string, config *FinspaceKxScalingGroupConfig) {
 	_init_.Initialize()
 
@@ -1233,6 +1242,24 @@ func (f *jsiiProxy_FinspaceKxScalingGroup) ToTerraform() interface{} {
 		f,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (f *jsiiProxy_FinspaceKxScalingGroup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		f,
+		"with",
+		args,
 		&returns,
 	)
 

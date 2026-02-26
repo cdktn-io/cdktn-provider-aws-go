@@ -68,6 +68,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trainingMetrics", GoGetter: "TrainingMetrics"},
 			_jsii_.MemberProperty{JsiiProperty: "validationDataConfig", GoGetter: "ValidationDataConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "validationMetrics", GoGetter: "ValidationMetrics"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsBedrockCustomModel{}

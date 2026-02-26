@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account}.
 type VpcIpamOrganizationAdminAccount interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -129,6 +129,15 @@ type VpcIpamOrganizationAdminAccount interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for VpcIpamOrganizationAdminAccount
@@ -377,7 +386,7 @@ func (j *jsiiProxy_VpcIpamOrganizationAdminAccount) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account} Resource.
 func NewVpcIpamOrganizationAdminAccount(scope constructs.Construct, id *string, config *VpcIpamOrganizationAdminAccountConfig) VpcIpamOrganizationAdminAccount {
 	_init_.Initialize()
 
@@ -395,7 +404,7 @@ func NewVpcIpamOrganizationAdminAccount(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account} Resource.
 func NewVpcIpamOrganizationAdminAccount_Override(v VpcIpamOrganizationAdminAccount, scope constructs.Construct, id *string, config *VpcIpamOrganizationAdminAccountConfig) {
 	_init_.Initialize()
 
@@ -937,6 +946,24 @@ func (v *jsiiProxy_VpcIpamOrganizationAdminAccount) ToTerraform() interface{} {
 		v,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpcIpamOrganizationAdminAccount) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		v,
+		"with",
+		args,
 		&returns,
 	)
 

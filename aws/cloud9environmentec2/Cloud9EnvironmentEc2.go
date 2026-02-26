@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloud9_environment_ec2 aws_cloud9_environment_ec2}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloud9_environment_ec2 aws_cloud9_environment_ec2}.
 type Cloud9EnvironmentEc2 interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -165,6 +165,15 @@ type Cloud9EnvironmentEc2 interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Cloud9EnvironmentEc2
@@ -593,7 +602,7 @@ func (j *jsiiProxy_Cloud9EnvironmentEc2) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloud9_environment_ec2 aws_cloud9_environment_ec2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloud9_environment_ec2 aws_cloud9_environment_ec2} Resource.
 func NewCloud9EnvironmentEc2(scope constructs.Construct, id *string, config *Cloud9EnvironmentEc2Config) Cloud9EnvironmentEc2 {
 	_init_.Initialize()
 
@@ -611,7 +620,7 @@ func NewCloud9EnvironmentEc2(scope constructs.Construct, id *string, config *Clo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/cloud9_environment_ec2 aws_cloud9_environment_ec2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloud9_environment_ec2 aws_cloud9_environment_ec2} Resource.
 func NewCloud9EnvironmentEc2_Override(c Cloud9EnvironmentEc2, scope constructs.Construct, id *string, config *Cloud9EnvironmentEc2Config) {
 	_init_.Initialize()
 
@@ -1327,6 +1336,24 @@ func (c *jsiiProxy_Cloud9EnvironmentEc2) ToTerraform() interface{} {
 		c,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_Cloud9EnvironmentEc2) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		c,
+		"with",
+		args,
 		&returns,
 	)
 

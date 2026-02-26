@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/auditmanager_control aws_auditmanager_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/auditmanager_control aws_auditmanager_control}.
 type DataAwsAuditmanagerControl interface {
 	cdktn.TerraformDataSource
 	ActionPlanInstructions() *string
@@ -111,6 +111,15 @@ type DataAwsAuditmanagerControl interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsAuditmanagerControl
@@ -399,7 +408,7 @@ func (j *jsiiProxy_DataAwsAuditmanagerControl) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/auditmanager_control aws_auditmanager_control} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/auditmanager_control aws_auditmanager_control} Data Source.
 func NewDataAwsAuditmanagerControl(scope constructs.Construct, id *string, config *DataAwsAuditmanagerControlConfig) DataAwsAuditmanagerControl {
 	_init_.Initialize()
 
@@ -417,7 +426,7 @@ func NewDataAwsAuditmanagerControl(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/auditmanager_control aws_auditmanager_control} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/auditmanager_control aws_auditmanager_control} Data Source.
 func NewDataAwsAuditmanagerControl_Override(d DataAwsAuditmanagerControl, scope constructs.Construct, id *string, config *DataAwsAuditmanagerControlConfig) {
 	_init_.Initialize()
 
@@ -880,6 +889,24 @@ func (d *jsiiProxy_DataAwsAuditmanagerControl) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsAuditmanagerControl) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ec2_transit_gateway_vpn_attachment aws_ec2_transit_gateway_vpn_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ec2_transit_gateway_vpn_attachment aws_ec2_transit_gateway_vpn_attachment}.
 type DataAwsEc2TransitGatewayVpnAttachment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -121,6 +121,15 @@ type DataAwsEc2TransitGatewayVpnAttachment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsEc2TransitGatewayVpnAttachment
@@ -409,7 +418,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayVpnAttachment) VpnConnectionIdInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ec2_transit_gateway_vpn_attachment aws_ec2_transit_gateway_vpn_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ec2_transit_gateway_vpn_attachment aws_ec2_transit_gateway_vpn_attachment} Data Source.
 func NewDataAwsEc2TransitGatewayVpnAttachment(scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayVpnAttachmentConfig) DataAwsEc2TransitGatewayVpnAttachment {
 	_init_.Initialize()
 
@@ -427,7 +436,7 @@ func NewDataAwsEc2TransitGatewayVpnAttachment(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/ec2_transit_gateway_vpn_attachment aws_ec2_transit_gateway_vpn_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ec2_transit_gateway_vpn_attachment aws_ec2_transit_gateway_vpn_attachment} Data Source.
 func NewDataAwsEc2TransitGatewayVpnAttachment_Override(d DataAwsEc2TransitGatewayVpnAttachment, scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayVpnAttachmentConfig) {
 	_init_.Initialize()
 
@@ -982,6 +991,24 @@ func (d *jsiiProxy_DataAwsEc2TransitGatewayVpnAttachment) ToTerraform() interfac
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsEc2TransitGatewayVpnAttachment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

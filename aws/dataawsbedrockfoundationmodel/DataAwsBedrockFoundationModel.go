@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/bedrock_foundation_model aws_bedrock_foundation_model}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/bedrock_foundation_model aws_bedrock_foundation_model}.
 type DataAwsBedrockFoundationModel interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -109,6 +109,15 @@ type DataAwsBedrockFoundationModel interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAwsBedrockFoundationModel
@@ -387,7 +396,7 @@ func (j *jsiiProxy_DataAwsBedrockFoundationModel) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/bedrock_foundation_model aws_bedrock_foundation_model} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/bedrock_foundation_model aws_bedrock_foundation_model} Data Source.
 func NewDataAwsBedrockFoundationModel(scope constructs.Construct, id *string, config *DataAwsBedrockFoundationModelConfig) DataAwsBedrockFoundationModel {
 	_init_.Initialize()
 
@@ -405,7 +414,7 @@ func NewDataAwsBedrockFoundationModel(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/data-sources/bedrock_foundation_model aws_bedrock_foundation_model} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/bedrock_foundation_model aws_bedrock_foundation_model} Data Source.
 func NewDataAwsBedrockFoundationModel_Override(d DataAwsBedrockFoundationModel, scope constructs.Construct, id *string, config *DataAwsBedrockFoundationModelConfig) {
 	_init_.Initialize()
 
@@ -857,6 +866,24 @@ func (d *jsiiProxy_DataAwsBedrockFoundationModel) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsBedrockFoundationModel) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

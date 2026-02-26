@@ -82,6 +82,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "variant", GoGetter: "Variant"},
 			_jsii_.MemberProperty{JsiiProperty: "variantInput", GoGetter: "VariantInput"},
 			_jsii_.MemberProperty{JsiiProperty: "version", GoGetter: "Version"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_BedrockagentPrompt{}

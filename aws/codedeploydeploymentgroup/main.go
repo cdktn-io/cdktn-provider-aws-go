@@ -128,6 +128,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "triggerConfiguration", GoGetter: "TriggerConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "triggerConfigurationInput", GoGetter: "TriggerConfigurationInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_CodedeployDeploymentGroup{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/xray_resource_policy aws_xray_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/xray_resource_policy aws_xray_resource_policy}.
 type XrayResourcePolicy interface {
 	cdktn.TerraformResource
 	BypassPolicyLockoutCheck() interface{}
@@ -137,6 +137,15 @@ type XrayResourcePolicy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for XrayResourcePolicy
@@ -415,7 +424,7 @@ func (j *jsiiProxy_XrayResourcePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/xray_resource_policy aws_xray_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/xray_resource_policy aws_xray_resource_policy} Resource.
 func NewXrayResourcePolicy(scope constructs.Construct, id *string, config *XrayResourcePolicyConfig) XrayResourcePolicy {
 	_init_.Initialize()
 
@@ -433,7 +442,7 @@ func NewXrayResourcePolicy(scope constructs.Construct, id *string, config *XrayR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.33.0/docs/resources/xray_resource_policy aws_xray_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/xray_resource_policy aws_xray_resource_policy} Resource.
 func NewXrayResourcePolicy_Override(x XrayResourcePolicy, scope constructs.Construct, id *string, config *XrayResourcePolicyConfig) {
 	_init_.Initialize()
 
@@ -1024,6 +1033,24 @@ func (x *jsiiProxy_XrayResourcePolicy) ToTerraform() interface{} {
 		x,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (x *jsiiProxy_XrayResourcePolicy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		x,
+		"with",
+		args,
 		&returns,
 	)
 
