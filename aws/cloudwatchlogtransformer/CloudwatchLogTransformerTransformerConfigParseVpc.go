@@ -5,7 +5,7 @@ package cloudwatchlogtransformer
 
 
 type CloudwatchLogTransformerTransformerConfigParseVpc struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}.
 	Source *string `field:"optional" json:"source" yaml:"source"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/organizations_tag aws_organizations_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/organizations_tag aws_organizations_tag}.
 type OrganizationsTag interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -388,7 +388,7 @@ func (j *jsiiProxy_OrganizationsTag) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/organizations_tag aws_organizations_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/organizations_tag aws_organizations_tag} Resource.
 func NewOrganizationsTag(scope constructs.Construct, id *string, config *OrganizationsTagConfig) OrganizationsTag {
 	_init_.Initialize()
 
@@ -406,7 +406,7 @@ func NewOrganizationsTag(scope constructs.Construct, id *string, config *Organiz
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/organizations_tag aws_organizations_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/organizations_tag aws_organizations_tag} Resource.
 func NewOrganizationsTag_Override(o OrganizationsTag, scope constructs.Construct, id *string, config *OrganizationsTagConfig) {
 	_init_.Initialize()
 

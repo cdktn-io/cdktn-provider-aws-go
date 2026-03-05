@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ram_resource_share aws_ram_resource_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/ram_resource_share aws_ram_resource_share}.
 type RamResourceShare interface {
 	cdktn.TerraformResource
 	AllowExternalPrincipals() interface{}
@@ -71,6 +71,8 @@ type RamResourceShare interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	ResourceShareConfiguration() RamResourceShareResourceShareConfigurationOutputReference
+	ResourceShareConfigurationInput() *RamResourceShareResourceShareConfiguration
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsAll() *map[string]*string
@@ -128,6 +130,7 @@ type RamResourceShare interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutResourceShareConfiguration(value *RamResourceShareResourceShareConfiguration)
 	PutTimeouts(value *RamResourceShareTimeouts)
 	ResetAllowExternalPrincipals()
 	ResetId()
@@ -136,6 +139,7 @@ type RamResourceShare interface {
 	ResetOverrideLogicalId()
 	ResetPermissionArns()
 	ResetRegion()
+	ResetResourceShareConfiguration()
 	ResetTags()
 	ResetTagsAll()
 	ResetTimeouts()
@@ -406,6 +410,26 @@ func (j *jsiiProxy_RamResourceShare) RegionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_RamResourceShare) ResourceShareConfiguration() RamResourceShareResourceShareConfigurationOutputReference {
+	var returns RamResourceShareResourceShareConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"resourceShareConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RamResourceShare) ResourceShareConfigurationInput() *RamResourceShareResourceShareConfiguration {
+	var returns *RamResourceShareResourceShareConfiguration
+	_jsii_.Get(
+		j,
+		"resourceShareConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_RamResourceShare) Tags() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -497,7 +521,7 @@ func (j *jsiiProxy_RamResourceShare) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ram_resource_share aws_ram_resource_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/ram_resource_share aws_ram_resource_share} Resource.
 func NewRamResourceShare(scope constructs.Construct, id *string, config *RamResourceShareConfig) RamResourceShare {
 	_init_.Initialize()
 
@@ -515,7 +539,7 @@ func NewRamResourceShare(scope constructs.Construct, id *string, config *RamReso
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/ram_resource_share aws_ram_resource_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/ram_resource_share aws_ram_resource_share} Resource.
 func NewRamResourceShare_Override(r RamResourceShare, scope constructs.Construct, id *string, config *RamResourceShareConfig) {
 	_init_.Initialize()
 
@@ -1024,6 +1048,17 @@ func (r *jsiiProxy_RamResourceShare) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (r *jsiiProxy_RamResourceShare) PutResourceShareConfiguration(value *RamResourceShareResourceShareConfiguration) {
+	if err := r.validatePutResourceShareConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		r,
+		"putResourceShareConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (r *jsiiProxy_RamResourceShare) PutTimeouts(value *RamResourceShareTimeouts) {
 	if err := r.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1071,6 +1106,14 @@ func (r *jsiiProxy_RamResourceShare) ResetRegion() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RamResourceShare) ResetResourceShareConfiguration() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetResourceShareConfiguration",
 		nil, // no parameters
 	)
 }

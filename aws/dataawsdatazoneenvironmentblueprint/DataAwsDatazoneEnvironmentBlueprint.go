@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/datazone_environment_blueprint aws_datazone_environment_blueprint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/datazone_environment_blueprint aws_datazone_environment_blueprint}.
 type DataAwsDatazoneEnvironmentBlueprint interface {
 	cdktn.TerraformDataSource
 	BlueprintProvider() *string
@@ -376,7 +376,7 @@ func (j *jsiiProxy_DataAwsDatazoneEnvironmentBlueprint) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/datazone_environment_blueprint aws_datazone_environment_blueprint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/datazone_environment_blueprint aws_datazone_environment_blueprint} Data Source.
 func NewDataAwsDatazoneEnvironmentBlueprint(scope constructs.Construct, id *string, config *DataAwsDatazoneEnvironmentBlueprintConfig) DataAwsDatazoneEnvironmentBlueprint {
 	_init_.Initialize()
 
@@ -394,7 +394,7 @@ func NewDataAwsDatazoneEnvironmentBlueprint(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/datazone_environment_blueprint aws_datazone_environment_blueprint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/datazone_environment_blueprint aws_datazone_environment_blueprint} Data Source.
 func NewDataAwsDatazoneEnvironmentBlueprint_Override(d DataAwsDatazoneEnvironmentBlueprint, scope constructs.Construct, id *string, config *DataAwsDatazoneEnvironmentBlueprintConfig) {
 	_init_.Initialize()
 

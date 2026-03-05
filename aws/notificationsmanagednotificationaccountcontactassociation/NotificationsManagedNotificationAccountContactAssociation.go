@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/notifications_managed_notification_account_contact_association aws_notifications_managed_notification_account_contact_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/notifications_managed_notification_account_contact_association aws_notifications_managed_notification_account_contact_association}.
 type NotificationsManagedNotificationAccountContactAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_NotificationsManagedNotificationAccountContactAssociation) Te
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/notifications_managed_notification_account_contact_association aws_notifications_managed_notification_account_contact_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/notifications_managed_notification_account_contact_association aws_notifications_managed_notification_account_contact_association} Resource.
 func NewNotificationsManagedNotificationAccountContactAssociation(scope constructs.Construct, id *string, config *NotificationsManagedNotificationAccountContactAssociationConfig) NotificationsManagedNotificationAccountContactAssociation {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewNotificationsManagedNotificationAccountContactAssociation(scope construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/notifications_managed_notification_account_contact_association aws_notifications_managed_notification_account_contact_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/notifications_managed_notification_account_contact_association aws_notifications_managed_notification_account_contact_association} Resource.
 func NewNotificationsManagedNotificationAccountContactAssociation_Override(n NotificationsManagedNotificationAccountContactAssociation, scope constructs.Construct, id *string, config *NotificationsManagedNotificationAccountContactAssociationConfig) {
 	_init_.Initialize()
 

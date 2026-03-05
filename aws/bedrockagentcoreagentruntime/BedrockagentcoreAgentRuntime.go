@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrockagentcore_agent_runtime aws_bedrockagentcore_agent_runtime}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/bedrockagentcore_agent_runtime aws_bedrockagentcore_agent_runtime}.
 type BedrockagentcoreAgentRuntime interface {
 	cdktn.TerraformResource
 	AgentRuntimeArn() *string
@@ -660,7 +660,7 @@ func (j *jsiiProxy_BedrockagentcoreAgentRuntime) WorkloadIdentityDetails() Bedro
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrockagentcore_agent_runtime aws_bedrockagentcore_agent_runtime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/bedrockagentcore_agent_runtime aws_bedrockagentcore_agent_runtime} Resource.
 func NewBedrockagentcoreAgentRuntime(scope constructs.Construct, id *string, config *BedrockagentcoreAgentRuntimeConfig) BedrockagentcoreAgentRuntime {
 	_init_.Initialize()
 
@@ -678,7 +678,7 @@ func NewBedrockagentcoreAgentRuntime(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/bedrockagentcore_agent_runtime aws_bedrockagentcore_agent_runtime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/bedrockagentcore_agent_runtime aws_bedrockagentcore_agent_runtime} Resource.
 func NewBedrockagentcoreAgentRuntime_Override(b BedrockagentcoreAgentRuntime, scope constructs.Construct, id *string, config *BedrockagentcoreAgentRuntimeConfig) {
 	_init_.Initialize()
 

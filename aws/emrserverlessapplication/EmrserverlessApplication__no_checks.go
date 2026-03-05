@@ -95,6 +95,10 @@ func (e *jsiiProxy_EmrserverlessApplication) validatePutInteractiveConfiguration
 	return nil
 }
 
+func (e *jsiiProxy_EmrserverlessApplication) validatePutJobLevelCostAllocationConfigurationParameters(value *EmrserverlessApplicationJobLevelCostAllocationConfiguration) error {
+	return nil
+}
+
 func (e *jsiiProxy_EmrserverlessApplication) validatePutMaximumCapacityParameters(value *EmrserverlessApplicationMaximumCapacity) error {
 	return nil
 }

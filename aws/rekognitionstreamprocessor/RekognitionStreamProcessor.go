@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/rekognition_stream_processor aws_rekognition_stream_processor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/rekognition_stream_processor aws_rekognition_stream_processor}.
 type RekognitionStreamProcessor interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -614,7 +614,7 @@ func (j *jsiiProxy_RekognitionStreamProcessor) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/rekognition_stream_processor aws_rekognition_stream_processor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/rekognition_stream_processor aws_rekognition_stream_processor} Resource.
 func NewRekognitionStreamProcessor(scope constructs.Construct, id *string, config *RekognitionStreamProcessorConfig) RekognitionStreamProcessor {
 	_init_.Initialize()
 
@@ -632,7 +632,7 @@ func NewRekognitionStreamProcessor(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/rekognition_stream_processor aws_rekognition_stream_processor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/rekognition_stream_processor aws_rekognition_stream_processor} Resource.
 func NewRekognitionStreamProcessor_Override(r RekognitionStreamProcessor, scope constructs.Construct, id *string, config *RekognitionStreamProcessorConfig) {
 	_init_.Initialize()
 

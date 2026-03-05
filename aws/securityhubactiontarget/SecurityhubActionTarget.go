@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/securityhub_action_target aws_securityhub_action_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/securityhub_action_target aws_securityhub_action_target}.
 type SecurityhubActionTarget interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -423,7 +423,7 @@ func (j *jsiiProxy_SecurityhubActionTarget) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/securityhub_action_target aws_securityhub_action_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/securityhub_action_target aws_securityhub_action_target} Resource.
 func NewSecurityhubActionTarget(scope constructs.Construct, id *string, config *SecurityhubActionTargetConfig) SecurityhubActionTarget {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewSecurityhubActionTarget(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/securityhub_action_target aws_securityhub_action_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/securityhub_action_target aws_securityhub_action_target} Resource.
 func NewSecurityhubActionTarget_Override(s SecurityhubActionTarget, scope constructs.Construct, id *string, config *SecurityhubActionTargetConfig) {
 	_init_.Initialize()
 

@@ -22,18 +22,18 @@ type OrganizationsOrganizationConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/organizations_organization#aws_service_access_principals OrganizationsOrganization#aws_service_access_principals}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/organizations_organization#aws_service_access_principals OrganizationsOrganization#aws_service_access_principals}.
 	AwsServiceAccessPrincipals *[]*string `field:"optional" json:"awsServiceAccessPrincipals" yaml:"awsServiceAccessPrincipals"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/organizations_organization#enabled_policy_types OrganizationsOrganization#enabled_policy_types}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/organizations_organization#enabled_policy_types OrganizationsOrganization#enabled_policy_types}.
 	EnabledPolicyTypes *[]*string `field:"optional" json:"enabledPolicyTypes" yaml:"enabledPolicyTypes"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/organizations_organization#feature_set OrganizationsOrganization#feature_set}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/organizations_organization#feature_set OrganizationsOrganization#feature_set}.
 	FeatureSet *string `field:"optional" json:"featureSet" yaml:"featureSet"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/organizations_organization#id OrganizationsOrganization#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/organizations_organization#id OrganizationsOrganization#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/organizations_organization#return_organization_only OrganizationsOrganization#return_organization_only}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/organizations_organization#return_organization_only OrganizationsOrganization#return_organization_only}.
 	ReturnOrganizationOnly interface{} `field:"optional" json:"returnOrganizationOnly" yaml:"returnOrganizationOnly"`
 }
 

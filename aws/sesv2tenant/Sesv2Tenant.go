@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sesv2_tenant aws_sesv2_tenant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/sesv2_tenant aws_sesv2_tenant}.
 type Sesv2Tenant interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -410,7 +410,7 @@ func (j *jsiiProxy_Sesv2Tenant) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sesv2_tenant aws_sesv2_tenant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/sesv2_tenant aws_sesv2_tenant} Resource.
 func NewSesv2Tenant(scope constructs.Construct, id *string, config *Sesv2TenantConfig) Sesv2Tenant {
 	_init_.Initialize()
 
@@ -428,7 +428,7 @@ func NewSesv2Tenant(scope constructs.Construct, id *string, config *Sesv2TenantC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sesv2_tenant aws_sesv2_tenant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/sesv2_tenant aws_sesv2_tenant} Resource.
 func NewSesv2Tenant_Override(s Sesv2Tenant, scope constructs.Construct, id *string, config *Sesv2TenantConfig) {
 	_init_.Initialize()
 

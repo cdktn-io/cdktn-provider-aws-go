@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/db_parameter_group aws_db_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/db_parameter_group aws_db_parameter_group}.
 type DataAwsDbParameterGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -354,7 +354,7 @@ func (j *jsiiProxy_DataAwsDbParameterGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/db_parameter_group aws_db_parameter_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/db_parameter_group aws_db_parameter_group} Data Source.
 func NewDataAwsDbParameterGroup(scope constructs.Construct, id *string, config *DataAwsDbParameterGroupConfig) DataAwsDbParameterGroup {
 	_init_.Initialize()
 
@@ -372,7 +372,7 @@ func NewDataAwsDbParameterGroup(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/db_parameter_group aws_db_parameter_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/db_parameter_group aws_db_parameter_group} Data Source.
 func NewDataAwsDbParameterGroup_Override(d DataAwsDbParameterGroup, scope constructs.Construct, id *string, config *DataAwsDbParameterGroupConfig) {
 	_init_.Initialize()
 

@@ -75,6 +75,10 @@ func (r *jsiiProxy_RamResourceShare) validateOverrideLogicalIdParameters(newLogi
 	return nil
 }
 
+func (r *jsiiProxy_RamResourceShare) validatePutResourceShareConfigurationParameters(value *RamResourceShareResourceShareConfiguration) error {
+	return nil
+}
+
 func (r *jsiiProxy_RamResourceShare) validatePutTimeoutsParameters(value *RamResourceShareTimeouts) error {
 	return nil
 }

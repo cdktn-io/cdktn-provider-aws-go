@@ -53,6 +53,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "permissionArnsInput", GoGetter: "PermissionArnsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
+			_jsii_.MemberMethod{JsiiMethod: "putResourceShareConfiguration", GoMethod: "PutResourceShareConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
@@ -62,9 +63,12 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPermissionArns", GoMethod: "ResetPermissionArns"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "resetResourceShareConfiguration", GoMethod: "ResetResourceShareConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTagsAll", GoMethod: "ResetTagsAll"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
+			_jsii_.MemberProperty{JsiiProperty: "resourceShareConfiguration", GoGetter: "ResourceShareConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "resourceShareConfigurationInput", GoGetter: "ResourceShareConfigurationInput"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
 			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
@@ -91,6 +95,45 @@ func init() {
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-aws.ramResourceShare.RamResourceShareConfig",
 		reflect.TypeOf((*RamResourceShareConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.ramResourceShare.RamResourceShareResourceShareConfiguration",
+		reflect.TypeOf((*RamResourceShareResourceShareConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.ramResourceShare.RamResourceShareResourceShareConfigurationOutputReference",
+		reflect.TypeOf((*RamResourceShareResourceShareConfigurationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRetainSharingOnAccountLeaveOrganization", GoMethod: "ResetRetainSharingOnAccountLeaveOrganization"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "retainSharingOnAccountLeaveOrganization", GoGetter: "RetainSharingOnAccountLeaveOrganization"},
+			_jsii_.MemberProperty{JsiiProperty: "retainSharingOnAccountLeaveOrganizationInput", GoGetter: "RetainSharingOnAccountLeaveOrganizationInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_RamResourceShareResourceShareConfigurationOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
 	)
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-aws.ramResourceShare.RamResourceShareTimeouts",

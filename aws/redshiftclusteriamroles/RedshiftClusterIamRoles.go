@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshift_cluster_iam_roles aws_redshift_cluster_iam_roles}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/redshift_cluster_iam_roles aws_redshift_cluster_iam_roles}.
 type RedshiftClusterIamRoles interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_RedshiftClusterIamRoles) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshift_cluster_iam_roles aws_redshift_cluster_iam_roles} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/redshift_cluster_iam_roles aws_redshift_cluster_iam_roles} Resource.
 func NewRedshiftClusterIamRoles(scope constructs.Construct, id *string, config *RedshiftClusterIamRolesConfig) RedshiftClusterIamRoles {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewRedshiftClusterIamRoles(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/redshift_cluster_iam_roles aws_redshift_cluster_iam_roles} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/redshift_cluster_iam_roles aws_redshift_cluster_iam_roles} Resource.
 func NewRedshiftClusterIamRoles_Override(r RedshiftClusterIamRoles, scope constructs.Construct, id *string, config *RedshiftClusterIamRolesConfig) {
 	_init_.Initialize()
 

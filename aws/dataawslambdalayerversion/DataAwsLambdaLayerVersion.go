@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/lambda_layer_version aws_lambda_layer_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/lambda_layer_version aws_lambda_layer_version}.
 type DataAwsLambdaLayerVersion interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -54,6 +54,9 @@ type DataAwsLambdaLayerVersion interface {
 	LayerName() *string
 	SetLayerName(val *string)
 	LayerNameInput() *string
+	LayerVersionArn() *string
+	SetLayerVersionArn(val *string)
+	LayerVersionArnInput() *string
 	LicenseInfo() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
@@ -111,6 +114,8 @@ type DataAwsLambdaLayerVersion interface {
 	ResetCompatibleArchitecture()
 	ResetCompatibleRuntime()
 	ResetId()
+	ResetLayerName()
+	ResetLayerVersionArn()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -364,6 +369,26 @@ func (j *jsiiProxy_DataAwsLambdaLayerVersion) LayerNameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsLambdaLayerVersion) LayerVersionArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"layerVersionArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsLambdaLayerVersion) LayerVersionArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"layerVersionArnInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsLambdaLayerVersion) LicenseInfo() *string {
 	var returns *string
 	_jsii_.Get(
@@ -525,7 +550,7 @@ func (j *jsiiProxy_DataAwsLambdaLayerVersion) VersionInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/lambda_layer_version aws_lambda_layer_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/lambda_layer_version aws_lambda_layer_version} Data Source.
 func NewDataAwsLambdaLayerVersion(scope constructs.Construct, id *string, config *DataAwsLambdaLayerVersionConfig) DataAwsLambdaLayerVersion {
 	_init_.Initialize()
 
@@ -543,7 +568,7 @@ func NewDataAwsLambdaLayerVersion(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/lambda_layer_version aws_lambda_layer_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/lambda_layer_version aws_lambda_layer_version} Data Source.
 func NewDataAwsLambdaLayerVersion_Override(d DataAwsLambdaLayerVersion, scope constructs.Construct, id *string, config *DataAwsLambdaLayerVersionConfig) {
 	_init_.Initialize()
 
@@ -621,6 +646,17 @@ func (j *jsiiProxy_DataAwsLambdaLayerVersion)SetLayerName(val *string) {
 	_jsii_.Set(
 		j,
 		"layerName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAwsLambdaLayerVersion)SetLayerVersionArn(val *string) {
+	if err := j.validateSetLayerVersionArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"layerVersionArn",
 		val,
 	)
 }
@@ -971,6 +1007,22 @@ func (d *jsiiProxy_DataAwsLambdaLayerVersion) ResetId() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAwsLambdaLayerVersion) ResetLayerName() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetLayerName",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAwsLambdaLayerVersion) ResetLayerVersionArn() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetLayerVersionArn",
 		nil, // no parameters
 	)
 }

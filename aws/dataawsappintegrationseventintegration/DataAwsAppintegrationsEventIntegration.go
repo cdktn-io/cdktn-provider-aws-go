@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/appintegrations_event_integration aws_appintegrations_event_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/appintegrations_event_integration aws_appintegrations_event_integration}.
 type DataAwsAppintegrationsEventIntegration interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -389,7 +389,7 @@ func (j *jsiiProxy_DataAwsAppintegrationsEventIntegration) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/appintegrations_event_integration aws_appintegrations_event_integration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/appintegrations_event_integration aws_appintegrations_event_integration} Data Source.
 func NewDataAwsAppintegrationsEventIntegration(scope constructs.Construct, id *string, config *DataAwsAppintegrationsEventIntegrationConfig) DataAwsAppintegrationsEventIntegration {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewDataAwsAppintegrationsEventIntegration(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/appintegrations_event_integration aws_appintegrations_event_integration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/appintegrations_event_integration aws_appintegrations_event_integration} Data Source.
 func NewDataAwsAppintegrationsEventIntegration_Override(d DataAwsAppintegrationsEventIntegration, scope constructs.Construct, id *string, config *DataAwsAppintegrationsEventIntegrationConfig) {
 	_init_.Initialize()
 

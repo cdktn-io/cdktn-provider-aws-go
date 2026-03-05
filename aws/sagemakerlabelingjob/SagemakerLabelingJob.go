@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_labeling_job aws_sagemaker_labeling_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/sagemaker_labeling_job aws_sagemaker_labeling_job}.
 type SagemakerLabelingJob interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -622,7 +622,7 @@ func (j *jsiiProxy_SagemakerLabelingJob) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_labeling_job aws_sagemaker_labeling_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/sagemaker_labeling_job aws_sagemaker_labeling_job} Resource.
 func NewSagemakerLabelingJob(scope constructs.Construct, id *string, config *SagemakerLabelingJobConfig) SagemakerLabelingJob {
 	_init_.Initialize()
 
@@ -640,7 +640,7 @@ func NewSagemakerLabelingJob(scope constructs.Construct, id *string, config *Sag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/sagemaker_labeling_job aws_sagemaker_labeling_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/sagemaker_labeling_job aws_sagemaker_labeling_job} Resource.
 func NewSagemakerLabelingJob_Override(s SagemakerLabelingJob, scope constructs.Construct, id *string, config *SagemakerLabelingJobConfig) {
 	_init_.Initialize()
 

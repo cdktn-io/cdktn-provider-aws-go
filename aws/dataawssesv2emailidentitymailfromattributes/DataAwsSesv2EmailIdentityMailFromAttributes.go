@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/sesv2_email_identity_mail_from_attributes aws_sesv2_email_identity_mail_from_attributes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/sesv2_email_identity_mail_from_attributes aws_sesv2_email_identity_mail_from_attributes}.
 type DataAwsSesv2EmailIdentityMailFromAttributes interface {
 	cdktn.TerraformDataSource
 	BehaviorOnMxFailure() *string
@@ -343,7 +343,7 @@ func (j *jsiiProxy_DataAwsSesv2EmailIdentityMailFromAttributes) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/sesv2_email_identity_mail_from_attributes aws_sesv2_email_identity_mail_from_attributes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/sesv2_email_identity_mail_from_attributes aws_sesv2_email_identity_mail_from_attributes} Data Source.
 func NewDataAwsSesv2EmailIdentityMailFromAttributes(scope constructs.Construct, id *string, config *DataAwsSesv2EmailIdentityMailFromAttributesConfig) DataAwsSesv2EmailIdentityMailFromAttributes {
 	_init_.Initialize()
 
@@ -361,7 +361,7 @@ func NewDataAwsSesv2EmailIdentityMailFromAttributes(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/sesv2_email_identity_mail_from_attributes aws_sesv2_email_identity_mail_from_attributes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/sesv2_email_identity_mail_from_attributes aws_sesv2_email_identity_mail_from_attributes} Data Source.
 func NewDataAwsSesv2EmailIdentityMailFromAttributes_Override(d DataAwsSesv2EmailIdentityMailFromAttributes, scope constructs.Construct, id *string, config *DataAwsSesv2EmailIdentityMailFromAttributesConfig) {
 	_init_.Initialize()
 

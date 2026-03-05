@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ec2_coip_pools aws_ec2_coip_pools}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/ec2_coip_pools aws_ec2_coip_pools}.
 type DataAwsEc2CoipPools interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -381,7 +381,7 @@ func (j *jsiiProxy_DataAwsEc2CoipPools) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ec2_coip_pools aws_ec2_coip_pools} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/ec2_coip_pools aws_ec2_coip_pools} Data Source.
 func NewDataAwsEc2CoipPools(scope constructs.Construct, id *string, config *DataAwsEc2CoipPoolsConfig) DataAwsEc2CoipPools {
 	_init_.Initialize()
 
@@ -399,7 +399,7 @@ func NewDataAwsEc2CoipPools(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/data-sources/ec2_coip_pools aws_ec2_coip_pools} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/ec2_coip_pools aws_ec2_coip_pools} Data Source.
 func NewDataAwsEc2CoipPools_Override(d DataAwsEc2CoipPools, scope constructs.Construct, id *string, config *DataAwsEc2CoipPoolsConfig) {
 	_init_.Initialize()
 

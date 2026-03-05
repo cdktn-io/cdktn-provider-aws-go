@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/autoscaling_lifecycle_hook aws_autoscaling_lifecycle_hook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/autoscaling_lifecycle_hook aws_autoscaling_lifecycle_hook}.
 type AutoscalingLifecycleHook interface {
 	cdktn.TerraformResource
 	AutoscalingGroupName() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_AutoscalingLifecycleHook) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/autoscaling_lifecycle_hook aws_autoscaling_lifecycle_hook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/autoscaling_lifecycle_hook aws_autoscaling_lifecycle_hook} Resource.
 func NewAutoscalingLifecycleHook(scope constructs.Construct, id *string, config *AutoscalingLifecycleHookConfig) AutoscalingLifecycleHook {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewAutoscalingLifecycleHook(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/autoscaling_lifecycle_hook aws_autoscaling_lifecycle_hook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/autoscaling_lifecycle_hook aws_autoscaling_lifecycle_hook} Resource.
 func NewAutoscalingLifecycleHook_Override(a AutoscalingLifecycleHook, scope constructs.Construct, id *string, config *AutoscalingLifecycleHookConfig) {
 	_init_.Initialize()
 

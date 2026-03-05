@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/emrserverless_application aws_emrserverless_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/emrserverless_application aws_emrserverless_application}.
 type EmrserverlessApplication interface {
 	cdktn.TerraformResource
 	Architecture() *string
@@ -56,6 +56,8 @@ type EmrserverlessApplication interface {
 	InitialCapacityInput() interface{}
 	InteractiveConfiguration() EmrserverlessApplicationInteractiveConfigurationOutputReference
 	InteractiveConfigurationInput() *EmrserverlessApplicationInteractiveConfiguration
+	JobLevelCostAllocationConfiguration() EmrserverlessApplicationJobLevelCostAllocationConfigurationOutputReference
+	JobLevelCostAllocationConfigurationInput() *EmrserverlessApplicationJobLevelCostAllocationConfiguration
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -154,6 +156,7 @@ type EmrserverlessApplication interface {
 	PutImageConfiguration(value *EmrserverlessApplicationImageConfiguration)
 	PutInitialCapacity(value interface{})
 	PutInteractiveConfiguration(value *EmrserverlessApplicationInteractiveConfiguration)
+	PutJobLevelCostAllocationConfiguration(value *EmrserverlessApplicationJobLevelCostAllocationConfiguration)
 	PutMaximumCapacity(value *EmrserverlessApplicationMaximumCapacity)
 	PutMonitoringConfiguration(value *EmrserverlessApplicationMonitoringConfiguration)
 	PutNetworkConfiguration(value *EmrserverlessApplicationNetworkConfiguration)
@@ -166,6 +169,7 @@ type EmrserverlessApplication interface {
 	ResetImageConfiguration()
 	ResetInitialCapacity()
 	ResetInteractiveConfiguration()
+	ResetJobLevelCostAllocationConfiguration()
 	ResetMaximumCapacity()
 	ResetMonitoringConfiguration()
 	ResetNetworkConfiguration()
@@ -429,6 +433,26 @@ func (j *jsiiProxy_EmrserverlessApplication) InteractiveConfigurationInput() *Em
 	_jsii_.Get(
 		j,
 		"interactiveConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EmrserverlessApplication) JobLevelCostAllocationConfiguration() EmrserverlessApplicationJobLevelCostAllocationConfigurationOutputReference {
+	var returns EmrserverlessApplicationJobLevelCostAllocationConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"jobLevelCostAllocationConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EmrserverlessApplication) JobLevelCostAllocationConfigurationInput() *EmrserverlessApplicationJobLevelCostAllocationConfiguration {
+	var returns *EmrserverlessApplicationJobLevelCostAllocationConfiguration
+	_jsii_.Get(
+		j,
+		"jobLevelCostAllocationConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -735,7 +759,7 @@ func (j *jsiiProxy_EmrserverlessApplication) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/emrserverless_application aws_emrserverless_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/emrserverless_application aws_emrserverless_application} Resource.
 func NewEmrserverlessApplication(scope constructs.Construct, id *string, config *EmrserverlessApplicationConfig) EmrserverlessApplication {
 	_init_.Initialize()
 
@@ -753,7 +777,7 @@ func NewEmrserverlessApplication(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.34.0/docs/resources/emrserverless_application aws_emrserverless_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/emrserverless_application aws_emrserverless_application} Resource.
 func NewEmrserverlessApplication_Override(e EmrserverlessApplication, scope constructs.Construct, id *string, config *EmrserverlessApplicationConfig) {
 	_init_.Initialize()
 
@@ -1328,6 +1352,17 @@ func (e *jsiiProxy_EmrserverlessApplication) PutInteractiveConfiguration(value *
 	)
 }
 
+func (e *jsiiProxy_EmrserverlessApplication) PutJobLevelCostAllocationConfiguration(value *EmrserverlessApplicationJobLevelCostAllocationConfiguration) {
+	if err := e.validatePutJobLevelCostAllocationConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putJobLevelCostAllocationConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_EmrserverlessApplication) PutMaximumCapacity(value *EmrserverlessApplicationMaximumCapacity) {
 	if err := e.validatePutMaximumCapacityParameters(value); err != nil {
 		panic(err)
@@ -1435,6 +1470,14 @@ func (e *jsiiProxy_EmrserverlessApplication) ResetInteractiveConfiguration() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetInteractiveConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EmrserverlessApplication) ResetJobLevelCostAllocationConfiguration() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetJobLevelCostAllocationConfiguration",
 		nil, // no parameters
 	)
 }
