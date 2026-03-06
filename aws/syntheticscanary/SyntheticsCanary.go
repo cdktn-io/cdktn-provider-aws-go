@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/synthetics_canary aws_synthetics_canary}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/synthetics_canary aws_synthetics_canary}.
 type SyntheticsCanary interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -848,7 +848,7 @@ func (j *jsiiProxy_SyntheticsCanary) ZipFileInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/synthetics_canary aws_synthetics_canary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/synthetics_canary aws_synthetics_canary} Resource.
 func NewSyntheticsCanary(scope constructs.Construct, id *string, config *SyntheticsCanaryConfig) SyntheticsCanary {
 	_init_.Initialize()
 
@@ -866,7 +866,7 @@ func NewSyntheticsCanary(scope constructs.Construct, id *string, config *Synthet
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/synthetics_canary aws_synthetics_canary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/synthetics_canary aws_synthetics_canary} Resource.
 func NewSyntheticsCanary_Override(s SyntheticsCanary, scope constructs.Construct, id *string, config *SyntheticsCanaryConfig) {
 	_init_.Initialize()
 

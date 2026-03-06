@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/waf_ipset aws_waf_ipset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/waf_ipset aws_waf_ipset}.
 type WafIpset interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -377,7 +377,7 @@ func (j *jsiiProxy_WafIpset) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/waf_ipset aws_waf_ipset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/waf_ipset aws_waf_ipset} Resource.
 func NewWafIpset(scope constructs.Construct, id *string, config *WafIpsetConfig) WafIpset {
 	_init_.Initialize()
 
@@ -395,7 +395,7 @@ func NewWafIpset(scope constructs.Construct, id *string, config *WafIpsetConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/waf_ipset aws_waf_ipset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/waf_ipset aws_waf_ipset} Resource.
 func NewWafIpset_Override(w WafIpset, scope constructs.Construct, id *string, config *WafIpsetConfig) {
 	_init_.Initialize()
 

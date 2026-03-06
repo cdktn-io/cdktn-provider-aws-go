@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/bedrock_custom_model aws_bedrock_custom_model}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/bedrock_custom_model aws_bedrock_custom_model}.
 type BedrockCustomModel interface {
 	cdktn.TerraformResource
 	BaseModelIdentifier() *string
@@ -703,7 +703,7 @@ func (j *jsiiProxy_BedrockCustomModel) VpcConfigInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/bedrock_custom_model aws_bedrock_custom_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/bedrock_custom_model aws_bedrock_custom_model} Resource.
 func NewBedrockCustomModel(scope constructs.Construct, id *string, config *BedrockCustomModelConfig) BedrockCustomModel {
 	_init_.Initialize()
 
@@ -721,7 +721,7 @@ func NewBedrockCustomModel(scope constructs.Construct, id *string, config *Bedro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/bedrock_custom_model aws_bedrock_custom_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/bedrock_custom_model aws_bedrock_custom_model} Resource.
 func NewBedrockCustomModel_Override(b BedrockCustomModel, scope constructs.Construct, id *string, config *BedrockCustomModelConfig) {
 	_init_.Initialize()
 

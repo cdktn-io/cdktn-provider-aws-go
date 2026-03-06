@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter}.
 type GuarddutyInviteAccepter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_GuarddutyInviteAccepter) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter} Resource.
 func NewGuarddutyInviteAccepter(scope constructs.Construct, id *string, config *GuarddutyInviteAccepterConfig) GuarddutyInviteAccepter {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewGuarddutyInviteAccepter(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter} Resource.
 func NewGuarddutyInviteAccepter_Override(g GuarddutyInviteAccepter, scope constructs.Construct, id *string, config *GuarddutyInviteAccepterConfig) {
 	_init_.Initialize()
 

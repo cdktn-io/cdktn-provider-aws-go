@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/sfn_alias aws_sfn_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/sfn_alias aws_sfn_alias}.
 type DataAwsSfnAlias interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -401,7 +401,7 @@ func (j *jsiiProxy_DataAwsSfnAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/sfn_alias aws_sfn_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/sfn_alias aws_sfn_alias} Data Source.
 func NewDataAwsSfnAlias(scope constructs.Construct, id *string, config *DataAwsSfnAliasConfig) DataAwsSfnAlias {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewDataAwsSfnAlias(scope constructs.Construct, id *string, config *DataAwsS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/sfn_alias aws_sfn_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/sfn_alias aws_sfn_alias} Data Source.
 func NewDataAwsSfnAlias_Override(d DataAwsSfnAlias, scope constructs.Construct, id *string, config *DataAwsSfnAliasConfig) {
 	_init_.Initialize()
 

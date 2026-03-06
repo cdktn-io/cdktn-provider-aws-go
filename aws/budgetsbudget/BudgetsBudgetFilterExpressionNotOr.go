@@ -7,15 +7,15 @@ package budgetsbudget
 type BudgetsBudgetFilterExpressionNotOr struct {
 	// cost_categories block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
 	CostCategories *BudgetsBudgetFilterExpressionNotOrCostCategories `field:"optional" json:"costCategories" yaml:"costCategories"`
 	// dimensions block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
 	Dimensions *BudgetsBudgetFilterExpressionNotOrDimensions `field:"optional" json:"dimensions" yaml:"dimensions"`
 	// tags block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/budgets_budget#tags BudgetsBudget#tags}
 	Tags *BudgetsBudgetFilterExpressionNotOrTags `field:"optional" json:"tags" yaml:"tags"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/internet_gateway_attachment aws_internet_gateway_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/internet_gateway_attachment aws_internet_gateway_attachment}.
 type InternetGatewayAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_InternetGatewayAttachment) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/internet_gateway_attachment aws_internet_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/internet_gateway_attachment aws_internet_gateway_attachment} Resource.
 func NewInternetGatewayAttachment(scope constructs.Construct, id *string, config *InternetGatewayAttachmentConfig) InternetGatewayAttachment {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewInternetGatewayAttachment(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/internet_gateway_attachment aws_internet_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/internet_gateway_attachment aws_internet_gateway_attachment} Resource.
 func NewInternetGatewayAttachment_Override(i InternetGatewayAttachment, scope constructs.Construct, id *string, config *InternetGatewayAttachmentConfig) {
 	_init_.Initialize()
 

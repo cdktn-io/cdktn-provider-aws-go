@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/kms_custom_key_store aws_kms_custom_key_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/kms_custom_key_store aws_kms_custom_key_store}.
 type KmsCustomKeyStore interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -606,7 +606,7 @@ func (j *jsiiProxy_KmsCustomKeyStore) XksProxyVpcEndpointServiceNameInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/kms_custom_key_store aws_kms_custom_key_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/kms_custom_key_store aws_kms_custom_key_store} Resource.
 func NewKmsCustomKeyStore(scope constructs.Construct, id *string, config *KmsCustomKeyStoreConfig) KmsCustomKeyStore {
 	_init_.Initialize()
 
@@ -624,7 +624,7 @@ func NewKmsCustomKeyStore(scope constructs.Construct, id *string, config *KmsCus
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/kms_custom_key_store aws_kms_custom_key_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/kms_custom_key_store aws_kms_custom_key_store} Resource.
 func NewKmsCustomKeyStore_Override(k KmsCustomKeyStore, scope constructs.Construct, id *string, config *KmsCustomKeyStoreConfig) {
 	_init_.Initialize()
 

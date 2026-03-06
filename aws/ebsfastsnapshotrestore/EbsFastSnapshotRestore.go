@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/ebs_fast_snapshot_restore aws_ebs_fast_snapshot_restore}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/ebs_fast_snapshot_restore aws_ebs_fast_snapshot_restore}.
 type EbsFastSnapshotRestore interface {
 	cdktn.TerraformResource
 	AvailabilityZone() *string
@@ -411,7 +411,7 @@ func (j *jsiiProxy_EbsFastSnapshotRestore) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/ebs_fast_snapshot_restore aws_ebs_fast_snapshot_restore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/ebs_fast_snapshot_restore aws_ebs_fast_snapshot_restore} Resource.
 func NewEbsFastSnapshotRestore(scope constructs.Construct, id *string, config *EbsFastSnapshotRestoreConfig) EbsFastSnapshotRestore {
 	_init_.Initialize()
 
@@ -429,7 +429,7 @@ func NewEbsFastSnapshotRestore(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/ebs_fast_snapshot_restore aws_ebs_fast_snapshot_restore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/ebs_fast_snapshot_restore aws_ebs_fast_snapshot_restore} Resource.
 func NewEbsFastSnapshotRestore_Override(e EbsFastSnapshotRestore, scope constructs.Construct, id *string, config *EbsFastSnapshotRestoreConfig) {
 	_init_.Initialize()
 

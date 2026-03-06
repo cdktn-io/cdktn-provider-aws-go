@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/vpc_ipam_preview_next_cidr aws_vpc_ipam_preview_next_cidr}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/vpc_ipam_preview_next_cidr aws_vpc_ipam_preview_next_cidr}.
 type DataAwsVpcIpamPreviewNextCidr interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_DataAwsVpcIpamPreviewNextCidr) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/vpc_ipam_preview_next_cidr aws_vpc_ipam_preview_next_cidr} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/vpc_ipam_preview_next_cidr aws_vpc_ipam_preview_next_cidr} Data Source.
 func NewDataAwsVpcIpamPreviewNextCidr(scope constructs.Construct, id *string, config *DataAwsVpcIpamPreviewNextCidrConfig) DataAwsVpcIpamPreviewNextCidr {
 	_init_.Initialize()
 
@@ -422,7 +422,7 @@ func NewDataAwsVpcIpamPreviewNextCidr(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/data-sources/vpc_ipam_preview_next_cidr aws_vpc_ipam_preview_next_cidr} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/vpc_ipam_preview_next_cidr aws_vpc_ipam_preview_next_cidr} Data Source.
 func NewDataAwsVpcIpamPreviewNextCidr_Override(d DataAwsVpcIpamPreviewNextCidr, scope constructs.Construct, id *string, config *DataAwsVpcIpamPreviewNextCidrConfig) {
 	_init_.Initialize()
 

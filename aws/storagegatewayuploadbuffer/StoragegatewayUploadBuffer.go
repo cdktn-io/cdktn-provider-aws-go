@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer}.
 type StoragegatewayUploadBuffer interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_StoragegatewayUploadBuffer) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer} Resource.
 func NewStoragegatewayUploadBuffer(scope constructs.Construct, id *string, config *StoragegatewayUploadBufferConfig) StoragegatewayUploadBuffer {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewStoragegatewayUploadBuffer(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer} Resource.
 func NewStoragegatewayUploadBuffer_Override(s StoragegatewayUploadBuffer, scope constructs.Construct, id *string, config *StoragegatewayUploadBufferConfig) {
 	_init_.Initialize()
 

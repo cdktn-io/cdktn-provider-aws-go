@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/cloudwatch_event_archive aws_cloudwatch_event_archive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/cloudwatch_event_archive aws_cloudwatch_event_archive}.
 type CloudwatchEventArchive interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -496,7 +496,7 @@ func (j *jsiiProxy_CloudwatchEventArchive) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/cloudwatch_event_archive aws_cloudwatch_event_archive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/cloudwatch_event_archive aws_cloudwatch_event_archive} Resource.
 func NewCloudwatchEventArchive(scope constructs.Construct, id *string, config *CloudwatchEventArchiveConfig) CloudwatchEventArchive {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewCloudwatchEventArchive(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.0/docs/resources/cloudwatch_event_archive aws_cloudwatch_event_archive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/cloudwatch_event_archive aws_cloudwatch_event_archive} Resource.
 func NewCloudwatchEventArchive_Override(c CloudwatchEventArchive, scope constructs.Construct, id *string, config *CloudwatchEventArchiveConfig) {
 	_init_.Initialize()
 
