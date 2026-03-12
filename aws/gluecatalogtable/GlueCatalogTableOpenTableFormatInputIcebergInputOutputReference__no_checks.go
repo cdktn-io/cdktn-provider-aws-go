@@ -47,6 +47,10 @@ func (g *jsiiProxy_GlueCatalogTableOpenTableFormatInputIcebergInputOutputReferen
 	return nil
 }
 
+func (g *jsiiProxy_GlueCatalogTableOpenTableFormatInputIcebergInputOutputReference) validatePutIcebergTableInputParameters(value *GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInput) error {
+	return nil
+}
+
 func (g *jsiiProxy_GlueCatalogTableOpenTableFormatInputIcebergInputOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

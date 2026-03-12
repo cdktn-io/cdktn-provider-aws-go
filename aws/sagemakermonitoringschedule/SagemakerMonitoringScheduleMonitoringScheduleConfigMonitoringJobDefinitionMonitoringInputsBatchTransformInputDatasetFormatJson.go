@@ -5,7 +5,7 @@ package sagemakermonitoringschedule
 
 
 type SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringInputsBatchTransformInputDatasetFormatJson struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/sagemaker_monitoring_schedule#line SagemakerMonitoringSchedule#line}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/sagemaker_monitoring_schedule#line SagemakerMonitoringSchedule#line}.
 	Line interface{} `field:"optional" json:"line" yaml:"line"`
 }
 

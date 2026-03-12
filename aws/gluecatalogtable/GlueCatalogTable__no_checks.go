@@ -95,6 +95,10 @@ func (g *jsiiProxy_GlueCatalogTable) validatePutTargetTableParameters(value *Glu
 	return nil
 }
 
+func (g *jsiiProxy_GlueCatalogTable) validatePutViewDefinitionParameters(value *GlueCatalogTableViewDefinition) error {
+	return nil
+}
+
 func validateGlueCatalogTable_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

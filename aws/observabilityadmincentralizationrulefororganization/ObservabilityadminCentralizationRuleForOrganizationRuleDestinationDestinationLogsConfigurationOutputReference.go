@@ -34,6 +34,8 @@ type ObservabilityadminCentralizationRuleForOrganizationRuleDestinationDestinati
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	LogGroupNameConfiguration() ObservabilityadminCentralizationRuleForOrganizationRuleDestinationDestinationLogsConfigurationLogGroupNameConfigurationList
+	LogGroupNameConfigurationInput() interface{}
 	LogsEncryptionConfiguration() ObservabilityadminCentralizationRuleForOrganizationRuleDestinationDestinationLogsConfigurationLogsEncryptionConfigurationList
 	LogsEncryptionConfigurationInput() interface{}
 	// Experimental.
@@ -69,8 +71,10 @@ type ObservabilityadminCentralizationRuleForOrganizationRuleDestinationDestinati
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutBackupConfiguration(value interface{})
+	PutLogGroupNameConfiguration(value interface{})
 	PutLogsEncryptionConfiguration(value interface{})
 	ResetBackupConfiguration()
+	ResetLogGroupNameConfiguration()
 	ResetLogsEncryptionConfiguration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -152,6 +156,26 @@ func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestin
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationDestinationLogsConfigurationOutputReference) LogGroupNameConfiguration() ObservabilityadminCentralizationRuleForOrganizationRuleDestinationDestinationLogsConfigurationLogGroupNameConfigurationList {
+	var returns ObservabilityadminCentralizationRuleForOrganizationRuleDestinationDestinationLogsConfigurationLogGroupNameConfigurationList
+	_jsii_.Get(
+		j,
+		"logGroupNameConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationDestinationLogsConfigurationOutputReference) LogGroupNameConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"logGroupNameConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -477,6 +501,17 @@ func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestin
 	)
 }
 
+func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationDestinationLogsConfigurationOutputReference) PutLogGroupNameConfiguration(value interface{}) {
+	if err := o.validatePutLogGroupNameConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		o,
+		"putLogGroupNameConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationDestinationLogsConfigurationOutputReference) PutLogsEncryptionConfiguration(value interface{}) {
 	if err := o.validatePutLogsEncryptionConfigurationParameters(value); err != nil {
 		panic(err)
@@ -492,6 +527,14 @@ func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestin
 	_jsii_.InvokeVoid(
 		o,
 		"resetBackupConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationDestinationLogsConfigurationOutputReference) ResetLogGroupNameConfiguration() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetLogGroupNameConfiguration",
 		nil, // no parameters
 	)
 }

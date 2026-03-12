@@ -19,6 +19,9 @@ type BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutpu
 	AllowedClients() *[]*string
 	SetAllowedClients(val *[]*string)
 	AllowedClientsInput() *[]*string
+	AllowedScopes() *[]*string
+	SetAllowedScopes(val *[]*string)
+	AllowedScopesInput() *[]*string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -75,6 +78,7 @@ type BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutpu
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAllowedAudience()
 	ResetAllowedClients()
+	ResetAllowedScopes()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -125,6 +129,26 @@ func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtA
 	_jsii_.Get(
 		j,
 		"allowedClientsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutputReference) AllowedScopes() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"allowedScopes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutputReference) AllowedScopesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"allowedScopesInput",
 		&returns,
 	)
 	return returns
@@ -266,6 +290,17 @@ func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtA
 	_jsii_.Set(
 		j,
 		"allowedClients",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutputReference)SetAllowedScopes(val *[]*string) {
+	if err := j.validateSetAllowedScopesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"allowedScopes",
 		val,
 	)
 }
@@ -534,6 +569,14 @@ func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtA
 	_jsii_.InvokeVoid(
 		b,
 		"resetAllowedClients",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutputReference) ResetAllowedScopes() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetAllowedScopes",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/transfer_workflow aws_transfer_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/transfer_workflow aws_transfer_workflow}.
 type TransferWorkflow interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_TransferWorkflow) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/transfer_workflow aws_transfer_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/transfer_workflow aws_transfer_workflow} Resource.
 func NewTransferWorkflow(scope constructs.Construct, id *string, config *TransferWorkflowConfig) TransferWorkflow {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewTransferWorkflow(scope constructs.Construct, id *string, config *Transfe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/transfer_workflow aws_transfer_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/transfer_workflow aws_transfer_workflow} Resource.
 func NewTransferWorkflow_Override(t TransferWorkflow, scope constructs.Construct, id *string, config *TransferWorkflowConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/ebs_snapshot_block_public_access aws_ebs_snapshot_block_public_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/ebs_snapshot_block_public_access aws_ebs_snapshot_block_public_access}.
 type EbsSnapshotBlockPublicAccess interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -366,7 +366,7 @@ func (j *jsiiProxy_EbsSnapshotBlockPublicAccess) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/ebs_snapshot_block_public_access aws_ebs_snapshot_block_public_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/ebs_snapshot_block_public_access aws_ebs_snapshot_block_public_access} Resource.
 func NewEbsSnapshotBlockPublicAccess(scope constructs.Construct, id *string, config *EbsSnapshotBlockPublicAccessConfig) EbsSnapshotBlockPublicAccess {
 	_init_.Initialize()
 
@@ -384,7 +384,7 @@ func NewEbsSnapshotBlockPublicAccess(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/ebs_snapshot_block_public_access aws_ebs_snapshot_block_public_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/ebs_snapshot_block_public_access aws_ebs_snapshot_block_public_access} Resource.
 func NewEbsSnapshotBlockPublicAccess_Override(e EbsSnapshotBlockPublicAccess, scope constructs.Construct, id *string, config *EbsSnapshotBlockPublicAccessConfig) {
 	_init_.Initialize()
 

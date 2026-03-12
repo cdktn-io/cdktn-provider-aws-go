@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/cloudwatch_log_resource_policy aws_cloudwatch_log_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/cloudwatch_log_resource_policy aws_cloudwatch_log_resource_policy}.
 type CloudwatchLogResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -54,6 +54,7 @@ type CloudwatchLogResourcePolicy interface {
 	PolicyName() *string
 	SetPolicyName(val *string)
 	PolicyNameInput() *string
+	PolicyScope() *string
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -67,6 +68,10 @@ type CloudwatchLogResourcePolicy interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	ResourceArn() *string
+	SetResourceArn(val *string)
+	ResourceArnInput() *string
+	RevisionId() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -120,7 +125,9 @@ type CloudwatchLogResourcePolicy interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPolicyName()
 	ResetRegion()
+	ResetResourceArn()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -308,6 +315,16 @@ func (j *jsiiProxy_CloudwatchLogResourcePolicy) PolicyNameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_CloudwatchLogResourcePolicy) PolicyScope() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"policyScope",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CloudwatchLogResourcePolicy) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -358,6 +375,36 @@ func (j *jsiiProxy_CloudwatchLogResourcePolicy) RegionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_CloudwatchLogResourcePolicy) ResourceArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"resourceArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudwatchLogResourcePolicy) ResourceArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"resourceArnInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudwatchLogResourcePolicy) RevisionId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"revisionId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CloudwatchLogResourcePolicy) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -389,7 +436,7 @@ func (j *jsiiProxy_CloudwatchLogResourcePolicy) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/cloudwatch_log_resource_policy aws_cloudwatch_log_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/cloudwatch_log_resource_policy aws_cloudwatch_log_resource_policy} Resource.
 func NewCloudwatchLogResourcePolicy(scope constructs.Construct, id *string, config *CloudwatchLogResourcePolicyConfig) CloudwatchLogResourcePolicy {
 	_init_.Initialize()
 
@@ -407,7 +454,7 @@ func NewCloudwatchLogResourcePolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/cloudwatch_log_resource_policy aws_cloudwatch_log_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/cloudwatch_log_resource_policy aws_cloudwatch_log_resource_policy} Resource.
 func NewCloudwatchLogResourcePolicy_Override(c CloudwatchLogResourcePolicy, scope constructs.Construct, id *string, config *CloudwatchLogResourcePolicyConfig) {
 	_init_.Initialize()
 
@@ -526,6 +573,17 @@ func (j *jsiiProxy_CloudwatchLogResourcePolicy)SetRegion(val *string) {
 	_jsii_.Set(
 		j,
 		"region",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudwatchLogResourcePolicy)SetResourceArn(val *string) {
+	if err := j.validateSetResourceArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"resourceArn",
 		val,
 	)
 }
@@ -899,10 +957,26 @@ func (c *jsiiProxy_CloudwatchLogResourcePolicy) ResetOverrideLogicalId() {
 	)
 }
 
+func (c *jsiiProxy_CloudwatchLogResourcePolicy) ResetPolicyName() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetPolicyName",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_CloudwatchLogResourcePolicy) ResetRegion() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudwatchLogResourcePolicy) ResetResourceArn() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetResourceArn",
 		nil, // no parameters
 	)
 }

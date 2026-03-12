@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/ebs_snapshot_import aws_ebs_snapshot_import}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/ebs_snapshot_import aws_ebs_snapshot_import}.
 type EbsSnapshotImport interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -707,7 +707,7 @@ func (j *jsiiProxy_EbsSnapshotImport) VolumeSize() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/ebs_snapshot_import aws_ebs_snapshot_import} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/ebs_snapshot_import aws_ebs_snapshot_import} Resource.
 func NewEbsSnapshotImport(scope constructs.Construct, id *string, config *EbsSnapshotImportConfig) EbsSnapshotImport {
 	_init_.Initialize()
 
@@ -725,7 +725,7 @@ func NewEbsSnapshotImport(scope constructs.Construct, id *string, config *EbsSna
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/ebs_snapshot_import aws_ebs_snapshot_import} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/ebs_snapshot_import aws_ebs_snapshot_import} Resource.
 func NewEbsSnapshotImport_Override(e EbsSnapshotImport, scope constructs.Construct, id *string, config *EbsSnapshotImportConfig) {
 	_init_.Initialize()
 

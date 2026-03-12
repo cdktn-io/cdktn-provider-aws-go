@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/appconfig_application aws_appconfig_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/appconfig_application aws_appconfig_application}.
 type DataAwsAppconfigApplication interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -344,7 +344,7 @@ func (j *jsiiProxy_DataAwsAppconfigApplication) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/appconfig_application aws_appconfig_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/appconfig_application aws_appconfig_application} Data Source.
 func NewDataAwsAppconfigApplication(scope constructs.Construct, id *string, config *DataAwsAppconfigApplicationConfig) DataAwsAppconfigApplication {
 	_init_.Initialize()
 
@@ -362,7 +362,7 @@ func NewDataAwsAppconfigApplication(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/appconfig_application aws_appconfig_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/appconfig_application aws_appconfig_application} Data Source.
 func NewDataAwsAppconfigApplication_Override(d DataAwsAppconfigApplication, scope constructs.Construct, id *string, config *DataAwsAppconfigApplicationConfig) {
 	_init_.Initialize()
 

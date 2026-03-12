@@ -30,6 +30,8 @@ type GlueCatalogTableOpenTableFormatInputIcebergInputOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	IcebergTableInput() GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputOutputReference
+	IcebergTableInputInput() *GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInput
 	InternalValue() *GlueCatalogTableOpenTableFormatInputIcebergInput
 	SetInternalValue(val *GlueCatalogTableOpenTableFormatInputIcebergInput)
 	MetadataOperation() *string
@@ -70,6 +72,8 @@ type GlueCatalogTableOpenTableFormatInputIcebergInputOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutIcebergTableInput(value *GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInput)
+	ResetIcebergTableInput()
 	ResetVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -121,6 +125,26 @@ func (j *jsiiProxy_GlueCatalogTableOpenTableFormatInputIcebergInputOutputReferen
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GlueCatalogTableOpenTableFormatInputIcebergInputOutputReference) IcebergTableInput() GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputOutputReference {
+	var returns GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputOutputReference
+	_jsii_.Get(
+		j,
+		"icebergTableInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GlueCatalogTableOpenTableFormatInputIcebergInputOutputReference) IcebergTableInputInput() *GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInput {
+	var returns *GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInput
+	_jsii_.Get(
+		j,
+		"icebergTableInputInput",
 		&returns,
 	)
 	return returns
@@ -485,6 +509,25 @@ func (g *jsiiProxy_GlueCatalogTableOpenTableFormatInputIcebergInputOutputReferen
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GlueCatalogTableOpenTableFormatInputIcebergInputOutputReference) PutIcebergTableInput(value *GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInput) {
+	if err := g.validatePutIcebergTableInputParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putIcebergTableInput",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GlueCatalogTableOpenTableFormatInputIcebergInputOutputReference) ResetIcebergTableInput() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetIcebergTableInput",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GlueCatalogTableOpenTableFormatInputIcebergInputOutputReference) ResetVersion() {

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/vpn_connection aws_vpn_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/vpn_connection aws_vpn_connection}.
 type DataAwsVpnConnection interface {
 	cdktn.TerraformDataSource
 	Category() *string
@@ -487,7 +487,7 @@ func (j *jsiiProxy_DataAwsVpnConnection) VpnGatewayId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/vpn_connection aws_vpn_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/vpn_connection aws_vpn_connection} Data Source.
 func NewDataAwsVpnConnection(scope constructs.Construct, id *string, config *DataAwsVpnConnectionConfig) DataAwsVpnConnection {
 	_init_.Initialize()
 
@@ -505,7 +505,7 @@ func NewDataAwsVpnConnection(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/vpn_connection aws_vpn_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/vpn_connection aws_vpn_connection} Data Source.
 func NewDataAwsVpnConnection_Override(d DataAwsVpnConnection, scope constructs.Construct, id *string, config *DataAwsVpnConnectionConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/organizations_delegated_services aws_organizations_delegated_services}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/organizations_delegated_services aws_organizations_delegated_services}.
 type DataAwsOrganizationsDelegatedServices interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsOrganizationsDelegatedServices) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/organizations_delegated_services aws_organizations_delegated_services} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/organizations_delegated_services aws_organizations_delegated_services} Data Source.
 func NewDataAwsOrganizationsDelegatedServices(scope constructs.Construct, id *string, config *DataAwsOrganizationsDelegatedServicesConfig) DataAwsOrganizationsDelegatedServices {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsOrganizationsDelegatedServices(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/organizations_delegated_services aws_organizations_delegated_services} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/organizations_delegated_services aws_organizations_delegated_services} Data Source.
 func NewDataAwsOrganizationsDelegatedServices_Override(d DataAwsOrganizationsDelegatedServices, scope constructs.Construct, id *string, config *DataAwsOrganizationsDelegatedServicesConfig) {
 	_init_.Initialize()
 

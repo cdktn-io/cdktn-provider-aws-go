@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/vpc_security_group_rules_exclusive aws_vpc_security_group_rules_exclusive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/vpc_security_group_rules_exclusive aws_vpc_security_group_rules_exclusive}.
 type VpcSecurityGroupRulesExclusive interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -388,7 +388,7 @@ func (j *jsiiProxy_VpcSecurityGroupRulesExclusive) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/vpc_security_group_rules_exclusive aws_vpc_security_group_rules_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/vpc_security_group_rules_exclusive aws_vpc_security_group_rules_exclusive} Resource.
 func NewVpcSecurityGroupRulesExclusive(scope constructs.Construct, id *string, config *VpcSecurityGroupRulesExclusiveConfig) VpcSecurityGroupRulesExclusive {
 	_init_.Initialize()
 
@@ -406,7 +406,7 @@ func NewVpcSecurityGroupRulesExclusive(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/vpc_security_group_rules_exclusive aws_vpc_security_group_rules_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/vpc_security_group_rules_exclusive aws_vpc_security_group_rules_exclusive} Resource.
 func NewVpcSecurityGroupRulesExclusive_Override(v VpcSecurityGroupRulesExclusive, scope constructs.Construct, id *string, config *VpcSecurityGroupRulesExclusiveConfig) {
 	_init_.Initialize()
 

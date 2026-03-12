@@ -5,13 +5,13 @@ package instance
 
 
 type InstanceCpuOptions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/instance#amd_sev_snp Instance#amd_sev_snp}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/instance#amd_sev_snp Instance#amd_sev_snp}.
 	AmdSevSnp *string `field:"optional" json:"amdSevSnp" yaml:"amdSevSnp"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/instance#core_count Instance#core_count}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/instance#core_count Instance#core_count}.
 	CoreCount *float64 `field:"optional" json:"coreCount" yaml:"coreCount"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/instance#nested_virtualization Instance#nested_virtualization}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/instance#nested_virtualization Instance#nested_virtualization}.
 	NestedVirtualization *string `field:"optional" json:"nestedVirtualization" yaml:"nestedVirtualization"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/instance#threads_per_core Instance#threads_per_core}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/instance#threads_per_core Instance#threads_per_core}.
 	ThreadsPerCore *float64 `field:"optional" json:"threadsPerCore" yaml:"threadsPerCore"`
 }
 

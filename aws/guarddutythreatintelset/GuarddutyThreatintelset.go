@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/guardduty_threatintelset aws_guardduty_threatintelset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/guardduty_threatintelset aws_guardduty_threatintelset}.
 type GuarddutyThreatintelset interface {
 	cdktn.TerraformResource
 	Activate() interface{}
@@ -89,6 +89,7 @@ type GuarddutyThreatintelset interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	ThreatIntelSetId() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -516,8 +517,18 @@ func (j *jsiiProxy_GuarddutyThreatintelset) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GuarddutyThreatintelset) ThreatIntelSetId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"threatIntelSetId",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/guardduty_threatintelset aws_guardduty_threatintelset} Resource.
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/guardduty_threatintelset aws_guardduty_threatintelset} Resource.
 func NewGuarddutyThreatintelset(scope constructs.Construct, id *string, config *GuarddutyThreatintelsetConfig) GuarddutyThreatintelset {
 	_init_.Initialize()
 
@@ -535,7 +546,7 @@ func NewGuarddutyThreatintelset(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/guardduty_threatintelset aws_guardduty_threatintelset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/guardduty_threatintelset aws_guardduty_threatintelset} Resource.
 func NewGuarddutyThreatintelset_Override(g GuarddutyThreatintelset, scope constructs.Construct, id *string, config *GuarddutyThreatintelsetConfig) {
 	_init_.Initialize()
 

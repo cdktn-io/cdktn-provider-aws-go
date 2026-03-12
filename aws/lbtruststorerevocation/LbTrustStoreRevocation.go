@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/lb_trust_store_revocation aws_lb_trust_store_revocation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/lb_trust_store_revocation aws_lb_trust_store_revocation}.
 type LbTrustStoreRevocation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_LbTrustStoreRevocation) TrustStoreArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/lb_trust_store_revocation aws_lb_trust_store_revocation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/lb_trust_store_revocation aws_lb_trust_store_revocation} Resource.
 func NewLbTrustStoreRevocation(scope constructs.Construct, id *string, config *LbTrustStoreRevocationConfig) LbTrustStoreRevocation {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewLbTrustStoreRevocation(scope constructs.Construct, id *string, config *L
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/lb_trust_store_revocation aws_lb_trust_store_revocation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/lb_trust_store_revocation aws_lb_trust_store_revocation} Resource.
 func NewLbTrustStoreRevocation_Override(l LbTrustStoreRevocation, scope constructs.Construct, id *string, config *LbTrustStoreRevocationConfig) {
 	_init_.Initialize()
 

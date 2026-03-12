@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/elastic_beanstalk_solution_stack aws_elastic_beanstalk_solution_stack}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/elastic_beanstalk_solution_stack aws_elastic_beanstalk_solution_stack}.
 type DataAwsElasticBeanstalkSolutionStack interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_DataAwsElasticBeanstalkSolutionStack) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/elastic_beanstalk_solution_stack aws_elastic_beanstalk_solution_stack} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/elastic_beanstalk_solution_stack aws_elastic_beanstalk_solution_stack} Data Source.
 func NewDataAwsElasticBeanstalkSolutionStack(scope constructs.Construct, id *string, config *DataAwsElasticBeanstalkSolutionStackConfig) DataAwsElasticBeanstalkSolutionStack {
 	_init_.Initialize()
 
@@ -374,7 +374,7 @@ func NewDataAwsElasticBeanstalkSolutionStack(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/elastic_beanstalk_solution_stack aws_elastic_beanstalk_solution_stack} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/elastic_beanstalk_solution_stack aws_elastic_beanstalk_solution_stack} Data Source.
 func NewDataAwsElasticBeanstalkSolutionStack_Override(d DataAwsElasticBeanstalkSolutionStack, scope constructs.Construct, id *string, config *DataAwsElasticBeanstalkSolutionStackConfig) {
 	_init_.Initialize()
 

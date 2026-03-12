@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/ec2_transit_gateway_default_route_table_association aws_ec2_transit_gateway_default_route_table_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/ec2_transit_gateway_default_route_table_association aws_ec2_transit_gateway_default_route_table_association}.
 type Ec2TransitGatewayDefaultRouteTableAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -411,7 +411,7 @@ func (j *jsiiProxy_Ec2TransitGatewayDefaultRouteTableAssociation) TransitGateway
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/ec2_transit_gateway_default_route_table_association aws_ec2_transit_gateway_default_route_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/ec2_transit_gateway_default_route_table_association aws_ec2_transit_gateway_default_route_table_association} Resource.
 func NewEc2TransitGatewayDefaultRouteTableAssociation(scope constructs.Construct, id *string, config *Ec2TransitGatewayDefaultRouteTableAssociationConfig) Ec2TransitGatewayDefaultRouteTableAssociation {
 	_init_.Initialize()
 
@@ -429,7 +429,7 @@ func NewEc2TransitGatewayDefaultRouteTableAssociation(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/ec2_transit_gateway_default_route_table_association aws_ec2_transit_gateway_default_route_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/ec2_transit_gateway_default_route_table_association aws_ec2_transit_gateway_default_route_table_association} Resource.
 func NewEc2TransitGatewayDefaultRouteTableAssociation_Override(e Ec2TransitGatewayDefaultRouteTableAssociation, scope constructs.Construct, id *string, config *Ec2TransitGatewayDefaultRouteTableAssociationConfig) {
 	_init_.Initialize()
 

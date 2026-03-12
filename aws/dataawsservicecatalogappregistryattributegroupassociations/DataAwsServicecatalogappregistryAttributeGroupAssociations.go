@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/servicecatalogappregistry_attribute_group_associations aws_servicecatalogappregistry_attribute_group_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/servicecatalogappregistry_attribute_group_associations aws_servicecatalogappregistry_attribute_group_associations}.
 type DataAwsServicecatalogappregistryAttributeGroupAssociations interface {
 	cdktn.TerraformDataSource
 	AttributeGroupIds() *[]*string
@@ -333,7 +333,7 @@ func (j *jsiiProxy_DataAwsServicecatalogappregistryAttributeGroupAssociations) T
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/servicecatalogappregistry_attribute_group_associations aws_servicecatalogappregistry_attribute_group_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/servicecatalogappregistry_attribute_group_associations aws_servicecatalogappregistry_attribute_group_associations} Data Source.
 func NewDataAwsServicecatalogappregistryAttributeGroupAssociations(scope constructs.Construct, id *string, config *DataAwsServicecatalogappregistryAttributeGroupAssociationsConfig) DataAwsServicecatalogappregistryAttributeGroupAssociations {
 	_init_.Initialize()
 
@@ -351,7 +351,7 @@ func NewDataAwsServicecatalogappregistryAttributeGroupAssociations(scope constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/servicecatalogappregistry_attribute_group_associations aws_servicecatalogappregistry_attribute_group_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/servicecatalogappregistry_attribute_group_associations aws_servicecatalogappregistry_attribute_group_associations} Data Source.
 func NewDataAwsServicecatalogappregistryAttributeGroupAssociations_Override(d DataAwsServicecatalogappregistryAttributeGroupAssociations, scope constructs.Construct, id *string, config *DataAwsServicecatalogappregistryAttributeGroupAssociationsConfig) {
 	_init_.Initialize()
 

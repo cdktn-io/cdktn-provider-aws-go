@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/ec2_transit_gateway_route_table_association aws_ec2_transit_gateway_route_table_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/ec2_transit_gateway_route_table_association aws_ec2_transit_gateway_route_table_association}.
 type Ec2TransitGatewayRouteTableAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -435,7 +435,7 @@ func (j *jsiiProxy_Ec2TransitGatewayRouteTableAssociation) TransitGatewayRouteTa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/ec2_transit_gateway_route_table_association aws_ec2_transit_gateway_route_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/ec2_transit_gateway_route_table_association aws_ec2_transit_gateway_route_table_association} Resource.
 func NewEc2TransitGatewayRouteTableAssociation(scope constructs.Construct, id *string, config *Ec2TransitGatewayRouteTableAssociationConfig) Ec2TransitGatewayRouteTableAssociation {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewEc2TransitGatewayRouteTableAssociation(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/ec2_transit_gateway_route_table_association aws_ec2_transit_gateway_route_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/ec2_transit_gateway_route_table_association aws_ec2_transit_gateway_route_table_association} Resource.
 func NewEc2TransitGatewayRouteTableAssociation_Override(e Ec2TransitGatewayRouteTableAssociation, scope constructs.Construct, id *string, config *Ec2TransitGatewayRouteTableAssociationConfig) {
 	_init_.Initialize()
 

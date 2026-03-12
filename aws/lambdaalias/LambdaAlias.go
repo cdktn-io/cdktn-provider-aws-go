@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/lambda_alias aws_lambda_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/lambda_alias aws_lambda_alias}.
 type LambdaAlias interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -482,7 +482,7 @@ func (j *jsiiProxy_LambdaAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/lambda_alias aws_lambda_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/lambda_alias aws_lambda_alias} Resource.
 func NewLambdaAlias(scope constructs.Construct, id *string, config *LambdaAliasConfig) LambdaAlias {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewLambdaAlias(scope constructs.Construct, id *string, config *LambdaAliasC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/lambda_alias aws_lambda_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/lambda_alias aws_lambda_alias} Resource.
 func NewLambdaAlias_Override(l LambdaAlias, scope constructs.Construct, id *string, config *LambdaAliasConfig) {
 	_init_.Initialize()
 

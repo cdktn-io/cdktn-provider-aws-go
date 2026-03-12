@@ -12,9 +12,10 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/guardduty_publishing_destination aws_guardduty_publishing_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/guardduty_publishing_destination aws_guardduty_publishing_destination}.
 type GuarddutyPublishingDestination interface {
 	cdktn.TerraformResource
+	Arn() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -34,6 +35,7 @@ type GuarddutyPublishingDestination interface {
 	DestinationArn() *string
 	SetDestinationArn(val *string)
 	DestinationArnInput() *string
+	DestinationId() *string
 	DestinationType() *string
 	SetDestinationType(val *string)
 	DestinationTypeInput() *string
@@ -73,6 +75,12 @@ type GuarddutyPublishingDestination interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	Tags() *map[string]*string
+	SetTags(val *map[string]*string)
+	TagsAll() *map[string]*string
+	SetTagsAll(val *map[string]*string)
+	TagsAllInput() *map[string]*string
+	TagsInput() *map[string]*string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -128,6 +136,8 @@ type GuarddutyPublishingDestination interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRegion()
+	ResetTags()
+	ResetTagsAll()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -153,6 +163,16 @@ type GuarddutyPublishingDestination interface {
 // The jsii proxy struct for GuarddutyPublishingDestination
 type jsiiProxy_GuarddutyPublishingDestination struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_GuarddutyPublishingDestination) Arn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"arn",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GuarddutyPublishingDestination) CdktfStack() cdktn.TerraformStack {
@@ -220,6 +240,16 @@ func (j *jsiiProxy_GuarddutyPublishingDestination) DestinationArnInput() *string
 	_jsii_.Get(
 		j,
 		"destinationArnInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GuarddutyPublishingDestination) DestinationId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"destinationId",
 		&returns,
 	)
 	return returns
@@ -405,6 +435,46 @@ func (j *jsiiProxy_GuarddutyPublishingDestination) RegionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GuarddutyPublishingDestination) Tags() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GuarddutyPublishingDestination) TagsAll() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsAll",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GuarddutyPublishingDestination) TagsAllInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsAllInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GuarddutyPublishingDestination) TagsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GuarddutyPublishingDestination) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -436,7 +506,7 @@ func (j *jsiiProxy_GuarddutyPublishingDestination) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/guardduty_publishing_destination aws_guardduty_publishing_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/guardduty_publishing_destination aws_guardduty_publishing_destination} Resource.
 func NewGuarddutyPublishingDestination(scope constructs.Construct, id *string, config *GuarddutyPublishingDestinationConfig) GuarddutyPublishingDestination {
 	_init_.Initialize()
 
@@ -454,7 +524,7 @@ func NewGuarddutyPublishingDestination(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/guardduty_publishing_destination aws_guardduty_publishing_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/guardduty_publishing_destination aws_guardduty_publishing_destination} Resource.
 func NewGuarddutyPublishingDestination_Override(g GuarddutyPublishingDestination, scope constructs.Construct, id *string, config *GuarddutyPublishingDestinationConfig) {
 	_init_.Initialize()
 
@@ -595,6 +665,28 @@ func (j *jsiiProxy_GuarddutyPublishingDestination)SetRegion(val *string) {
 	_jsii_.Set(
 		j,
 		"region",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GuarddutyPublishingDestination)SetTags(val *map[string]*string) {
+	if err := j.validateSetTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tags",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GuarddutyPublishingDestination)SetTagsAll(val *map[string]*string) {
+	if err := j.validateSetTagsAllParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tagsAll",
 		val,
 	)
 }
@@ -980,6 +1072,22 @@ func (g *jsiiProxy_GuarddutyPublishingDestination) ResetRegion() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GuarddutyPublishingDestination) ResetTags() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTags",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GuarddutyPublishingDestination) ResetTagsAll() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTagsAll",
 		nil, // no parameters
 	)
 }

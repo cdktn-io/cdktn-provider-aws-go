@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/ssmincidents_response_plan aws_ssmincidents_response_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/ssmincidents_response_plan aws_ssmincidents_response_plan}.
 type SsmincidentsResponsePlan interface {
 	cdktn.TerraformResource
 	Action() SsmincidentsResponsePlanActionOutputReference
@@ -568,7 +568,7 @@ func (j *jsiiProxy_SsmincidentsResponsePlan) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/ssmincidents_response_plan aws_ssmincidents_response_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/ssmincidents_response_plan aws_ssmincidents_response_plan} Resource.
 func NewSsmincidentsResponsePlan(scope constructs.Construct, id *string, config *SsmincidentsResponsePlanConfig) SsmincidentsResponsePlan {
 	_init_.Initialize()
 
@@ -586,7 +586,7 @@ func NewSsmincidentsResponsePlan(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/ssmincidents_response_plan aws_ssmincidents_response_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/ssmincidents_response_plan aws_ssmincidents_response_plan} Resource.
 func NewSsmincidentsResponsePlan_Override(s SsmincidentsResponsePlan, scope constructs.Construct, id *string, config *SsmincidentsResponsePlanConfig) {
 	_init_.Initialize()
 

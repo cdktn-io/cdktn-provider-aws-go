@@ -5,7 +5,7 @@ package athenaworkgroup
 
 
 type AthenaWorkgroupConfigurationCustomerContentEncryptionConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/athena_workgroup#kms_key AthenaWorkgroup#kms_key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/athena_workgroup#kms_key AthenaWorkgroup#kms_key}.
 	KmsKey *string `field:"optional" json:"kmsKey" yaml:"kmsKey"`
 }
 

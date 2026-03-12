@@ -131,6 +131,14 @@ func (j *jsiiProxy_GuarddutyPublishingDestination) validateSetRegionParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GuarddutyPublishingDestination) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GuarddutyPublishingDestination) validateSetTagsAllParameters(val *map[string]*string) error {
+	return nil
+}
+
 func validateNewGuarddutyPublishingDestinationParameters(scope constructs.Construct, id *string, config *GuarddutyPublishingDestinationConfig) error {
 	return nil
 }

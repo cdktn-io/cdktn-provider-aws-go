@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/guardduty_ipset aws_guardduty_ipset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/guardduty_ipset aws_guardduty_ipset}.
 type GuarddutyIpset interface {
 	cdktn.TerraformResource
 	Activate() interface{}
@@ -52,6 +52,7 @@ type GuarddutyIpset interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	IpSetId() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -336,6 +337,16 @@ func (j *jsiiProxy_GuarddutyIpset) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GuarddutyIpset) IpSetId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipSetId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GuarddutyIpset) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -517,7 +528,7 @@ func (j *jsiiProxy_GuarddutyIpset) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/guardduty_ipset aws_guardduty_ipset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/guardduty_ipset aws_guardduty_ipset} Resource.
 func NewGuarddutyIpset(scope constructs.Construct, id *string, config *GuarddutyIpsetConfig) GuarddutyIpset {
 	_init_.Initialize()
 
@@ -535,7 +546,7 @@ func NewGuarddutyIpset(scope constructs.Construct, id *string, config *Guardduty
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/guardduty_ipset aws_guardduty_ipset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/guardduty_ipset aws_guardduty_ipset} Resource.
 func NewGuarddutyIpset_Override(g GuarddutyIpset, scope constructs.Construct, id *string, config *GuarddutyIpsetConfig) {
 	_init_.Initialize()
 

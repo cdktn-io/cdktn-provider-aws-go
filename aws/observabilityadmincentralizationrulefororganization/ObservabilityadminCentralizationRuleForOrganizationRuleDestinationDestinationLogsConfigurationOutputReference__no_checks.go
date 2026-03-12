@@ -51,6 +51,10 @@ func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestin
 	return nil
 }
 
+func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationDestinationLogsConfigurationOutputReference) validatePutLogGroupNameConfigurationParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationDestinationLogsConfigurationOutputReference) validatePutLogsEncryptionConfigurationParameters(value interface{}) error {
 	return nil
 }

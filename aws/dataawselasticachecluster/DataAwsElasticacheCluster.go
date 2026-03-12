@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/elasticache_cluster aws_elasticache_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/elasticache_cluster aws_elasticache_cluster}.
 type DataAwsElasticacheCluster interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -587,7 +587,7 @@ func (j *jsiiProxy_DataAwsElasticacheCluster) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/elasticache_cluster aws_elasticache_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/elasticache_cluster aws_elasticache_cluster} Data Source.
 func NewDataAwsElasticacheCluster(scope constructs.Construct, id *string, config *DataAwsElasticacheClusterConfig) DataAwsElasticacheCluster {
 	_init_.Initialize()
 
@@ -605,7 +605,7 @@ func NewDataAwsElasticacheCluster(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/data-sources/elasticache_cluster aws_elasticache_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/elasticache_cluster aws_elasticache_cluster} Data Source.
 func NewDataAwsElasticacheCluster_Override(d DataAwsElasticacheCluster, scope constructs.Construct, id *string, config *DataAwsElasticacheClusterConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/ec2_network_insights_analysis aws_ec2_network_insights_analysis}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/ec2_network_insights_analysis aws_ec2_network_insights_analysis}.
 type Ec2NetworkInsightsAnalysis interface {
 	cdktn.TerraformResource
 	AlternatePathHints() Ec2NetworkInsightsAnalysisAlternatePathHintsList
@@ -572,7 +572,7 @@ func (j *jsiiProxy_Ec2NetworkInsightsAnalysis) WarningMessage() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/ec2_network_insights_analysis aws_ec2_network_insights_analysis} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/ec2_network_insights_analysis aws_ec2_network_insights_analysis} Resource.
 func NewEc2NetworkInsightsAnalysis(scope constructs.Construct, id *string, config *Ec2NetworkInsightsAnalysisConfig) Ec2NetworkInsightsAnalysis {
 	_init_.Initialize()
 
@@ -590,7 +590,7 @@ func NewEc2NetworkInsightsAnalysis(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/ec2_network_insights_analysis aws_ec2_network_insights_analysis} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/ec2_network_insights_analysis aws_ec2_network_insights_analysis} Resource.
 func NewEc2NetworkInsightsAnalysis_Override(e Ec2NetworkInsightsAnalysis, scope constructs.Construct, id *string, config *Ec2NetworkInsightsAnalysisConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/glue_catalog_table aws_glue_catalog_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/glue_catalog_table aws_glue_catalog_table}.
 type GlueCatalogTable interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -102,6 +102,8 @@ type GlueCatalogTable interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	ViewDefinition() GlueCatalogTableViewDefinitionOutputReference
+	ViewDefinitionInput() *GlueCatalogTableViewDefinition
 	ViewExpandedText() *string
 	SetViewExpandedText(val *string)
 	ViewExpandedTextInput() *string
@@ -156,6 +158,7 @@ type GlueCatalogTable interface {
 	PutPartitionKeys(value interface{})
 	PutStorageDescriptor(value *GlueCatalogTableStorageDescriptor)
 	PutTargetTable(value *GlueCatalogTableTargetTable)
+	PutViewDefinition(value *GlueCatalogTableViewDefinition)
 	ResetCatalogId()
 	ResetDescription()
 	ResetId()
@@ -172,6 +175,7 @@ type GlueCatalogTable interface {
 	ResetStorageDescriptor()
 	ResetTableType()
 	ResetTargetTable()
+	ResetViewDefinition()
 	ResetViewExpandedText()
 	ResetViewOriginalText()
 	SynthesizeAttributes() *map[string]interface{}
@@ -671,6 +675,26 @@ func (j *jsiiProxy_GlueCatalogTable) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GlueCatalogTable) ViewDefinition() GlueCatalogTableViewDefinitionOutputReference {
+	var returns GlueCatalogTableViewDefinitionOutputReference
+	_jsii_.Get(
+		j,
+		"viewDefinition",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GlueCatalogTable) ViewDefinitionInput() *GlueCatalogTableViewDefinition {
+	var returns *GlueCatalogTableViewDefinition
+	_jsii_.Get(
+		j,
+		"viewDefinitionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GlueCatalogTable) ViewExpandedText() *string {
 	var returns *string
 	_jsii_.Get(
@@ -712,7 +736,7 @@ func (j *jsiiProxy_GlueCatalogTable) ViewOriginalTextInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/glue_catalog_table aws_glue_catalog_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/glue_catalog_table aws_glue_catalog_table} Resource.
 func NewGlueCatalogTable(scope constructs.Construct, id *string, config *GlueCatalogTableConfig) GlueCatalogTable {
 	_init_.Initialize()
 
@@ -730,7 +754,7 @@ func NewGlueCatalogTable(scope constructs.Construct, id *string, config *GlueCat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.35.1/docs/resources/glue_catalog_table aws_glue_catalog_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/glue_catalog_table aws_glue_catalog_table} Resource.
 func NewGlueCatalogTable_Override(g GlueCatalogTable, scope constructs.Construct, id *string, config *GlueCatalogTableConfig) {
 	_init_.Initialize()
 
@@ -1349,6 +1373,17 @@ func (g *jsiiProxy_GlueCatalogTable) PutTargetTable(value *GlueCatalogTableTarge
 	)
 }
 
+func (g *jsiiProxy_GlueCatalogTable) PutViewDefinition(value *GlueCatalogTableViewDefinition) {
+	if err := g.validatePutViewDefinitionParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putViewDefinition",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GlueCatalogTable) ResetCatalogId() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1457,6 +1492,14 @@ func (g *jsiiProxy_GlueCatalogTable) ResetTargetTable() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetTargetTable",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GlueCatalogTable) ResetViewDefinition() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetViewDefinition",
 		nil, // no parameters
 	)
 }
