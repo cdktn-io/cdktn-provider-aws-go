@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/backup_region_settings aws_backup_region_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/backup_region_settings aws_backup_region_settings}.
 type BackupRegionSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_BackupRegionSettings) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/backup_region_settings aws_backup_region_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/backup_region_settings aws_backup_region_settings} Resource.
 func NewBackupRegionSettings(scope constructs.Construct, id *string, config *BackupRegionSettingsConfig) BackupRegionSettings {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewBackupRegionSettings(scope constructs.Construct, id *string, config *Bac
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/backup_region_settings aws_backup_region_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/backup_region_settings aws_backup_region_settings} Resource.
 func NewBackupRegionSettings_Override(b BackupRegionSettings, scope constructs.Construct, id *string, config *BackupRegionSettingsConfig) {
 	_init_.Initialize()
 

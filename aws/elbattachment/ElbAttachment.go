@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/elb_attachment aws_elb_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/elb_attachment aws_elb_attachment}.
 type ElbAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_ElbAttachment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/elb_attachment aws_elb_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/elb_attachment aws_elb_attachment} Resource.
 func NewElbAttachment(scope constructs.Construct, id *string, config *ElbAttachmentConfig) ElbAttachment {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewElbAttachment(scope constructs.Construct, id *string, config *ElbAttachm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/elb_attachment aws_elb_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/elb_attachment aws_elb_attachment} Resource.
 func NewElbAttachment_Override(e ElbAttachment, scope constructs.Construct, id *string, config *ElbAttachmentConfig) {
 	_init_.Initialize()
 

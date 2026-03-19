@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/networkmanager_core_network_policy_attachment aws_networkmanager_core_network_policy_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/networkmanager_core_network_policy_attachment aws_networkmanager_core_network_policy_attachment}.
 type NetworkmanagerCoreNetworkPolicyAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_NetworkmanagerCoreNetworkPolicyAttachment) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/networkmanager_core_network_policy_attachment aws_networkmanager_core_network_policy_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/networkmanager_core_network_policy_attachment aws_networkmanager_core_network_policy_attachment} Resource.
 func NewNetworkmanagerCoreNetworkPolicyAttachment(scope constructs.Construct, id *string, config *NetworkmanagerCoreNetworkPolicyAttachmentConfig) NetworkmanagerCoreNetworkPolicyAttachment {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewNetworkmanagerCoreNetworkPolicyAttachment(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/networkmanager_core_network_policy_attachment aws_networkmanager_core_network_policy_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/networkmanager_core_network_policy_attachment aws_networkmanager_core_network_policy_attachment} Resource.
 func NewNetworkmanagerCoreNetworkPolicyAttachment_Override(n NetworkmanagerCoreNetworkPolicyAttachment, scope constructs.Construct, id *string, config *NetworkmanagerCoreNetworkPolicyAttachmentConfig) {
 	_init_.Initialize()
 

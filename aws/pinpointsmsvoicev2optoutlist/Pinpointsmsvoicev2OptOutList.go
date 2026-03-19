@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/pinpointsmsvoicev2_opt_out_list aws_pinpointsmsvoicev2_opt_out_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/pinpointsmsvoicev2_opt_out_list aws_pinpointsmsvoicev2_opt_out_list}.
 type Pinpointsmsvoicev2OptOutList interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -399,7 +399,7 @@ func (j *jsiiProxy_Pinpointsmsvoicev2OptOutList) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/pinpointsmsvoicev2_opt_out_list aws_pinpointsmsvoicev2_opt_out_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/pinpointsmsvoicev2_opt_out_list aws_pinpointsmsvoicev2_opt_out_list} Resource.
 func NewPinpointsmsvoicev2OptOutList(scope constructs.Construct, id *string, config *Pinpointsmsvoicev2OptOutListConfig) Pinpointsmsvoicev2OptOutList {
 	_init_.Initialize()
 
@@ -417,7 +417,7 @@ func NewPinpointsmsvoicev2OptOutList(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/pinpointsmsvoicev2_opt_out_list aws_pinpointsmsvoicev2_opt_out_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/pinpointsmsvoicev2_opt_out_list aws_pinpointsmsvoicev2_opt_out_list} Resource.
 func NewPinpointsmsvoicev2OptOutList_Override(p Pinpointsmsvoicev2OptOutList, scope constructs.Construct, id *string, config *Pinpointsmsvoicev2OptOutListConfig) {
 	_init_.Initialize()
 

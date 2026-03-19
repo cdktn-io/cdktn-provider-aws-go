@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/ec2_transit_gateway_vpn_attachment aws_ec2_transit_gateway_vpn_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/data-sources/ec2_transit_gateway_vpn_attachment aws_ec2_transit_gateway_vpn_attachment}.
 type DataAwsEc2TransitGatewayVpnAttachment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayVpnAttachment) VpnConnectionIdInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/ec2_transit_gateway_vpn_attachment aws_ec2_transit_gateway_vpn_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/data-sources/ec2_transit_gateway_vpn_attachment aws_ec2_transit_gateway_vpn_attachment} Data Source.
 func NewDataAwsEc2TransitGatewayVpnAttachment(scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayVpnAttachmentConfig) DataAwsEc2TransitGatewayVpnAttachment {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsEc2TransitGatewayVpnAttachment(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/ec2_transit_gateway_vpn_attachment aws_ec2_transit_gateway_vpn_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/data-sources/ec2_transit_gateway_vpn_attachment aws_ec2_transit_gateway_vpn_attachment} Data Source.
 func NewDataAwsEc2TransitGatewayVpnAttachment_Override(d DataAwsEc2TransitGatewayVpnAttachment, scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayVpnAttachmentConfig) {
 	_init_.Initialize()
 

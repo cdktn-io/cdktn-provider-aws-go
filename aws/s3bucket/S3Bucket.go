@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/s3_bucket aws_s3_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/s3_bucket aws_s3_bucket}.
 type S3Bucket interface {
 	cdktn.TerraformResource
 	AccelerationStatus() *string
@@ -26,6 +26,9 @@ type S3Bucket interface {
 	SetBucket(val *string)
 	BucketDomainName() *string
 	BucketInput() *string
+	BucketNamespace() *string
+	SetBucketNamespace(val *string)
+	BucketNamespaceInput() *string
 	BucketPrefix() *string
 	SetBucketPrefix(val *string)
 	BucketPrefixInput() *string
@@ -180,6 +183,7 @@ type S3Bucket interface {
 	ResetAccelerationStatus()
 	ResetAcl()
 	ResetBucket()
+	ResetBucketNamespace()
 	ResetBucketPrefix()
 	ResetCorsRule()
 	ResetForceDestroy()
@@ -304,6 +308,26 @@ func (j *jsiiProxy_S3Bucket) BucketInput() *string {
 	_jsii_.Get(
 		j,
 		"bucketInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3Bucket) BucketNamespace() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bucketNamespace",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3Bucket) BucketNamespaceInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bucketNamespaceInput",
 		&returns,
 	)
 	return returns
@@ -900,7 +924,7 @@ func (j *jsiiProxy_S3Bucket) WebsiteInput() *S3BucketWebsite {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/s3_bucket aws_s3_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/s3_bucket aws_s3_bucket} Resource.
 func NewS3Bucket(scope constructs.Construct, id *string, config *S3BucketConfig) S3Bucket {
 	_init_.Initialize()
 
@@ -918,7 +942,7 @@ func NewS3Bucket(scope constructs.Construct, id *string, config *S3BucketConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/s3_bucket aws_s3_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/s3_bucket aws_s3_bucket} Resource.
 func NewS3Bucket_Override(s S3Bucket, scope constructs.Construct, id *string, config *S3BucketConfig) {
 	_init_.Initialize()
 
@@ -958,6 +982,17 @@ func (j *jsiiProxy_S3Bucket)SetBucket(val *string) {
 	_jsii_.Set(
 		j,
 		"bucket",
+		val,
+	)
+}
+
+func (j *jsiiProxy_S3Bucket)SetBucketNamespace(val *string) {
+	if err := j.validateSetBucketNamespaceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"bucketNamespace",
 		val,
 	)
 }
@@ -1612,6 +1647,14 @@ func (s *jsiiProxy_S3Bucket) ResetBucket() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetBucket",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_S3Bucket) ResetBucketNamespace() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetBucketNamespace",
 		nil, // no parameters
 	)
 }

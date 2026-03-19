@@ -59,6 +59,10 @@ func (j *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthor
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference) validateSetAllowedScopesParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }

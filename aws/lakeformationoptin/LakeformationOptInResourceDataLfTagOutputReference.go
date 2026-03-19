@@ -46,9 +46,9 @@ type LakeformationOptInResourceDataLfTagOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
-	Value() *string
-	SetValue(val *string)
-	ValueInput() *string
+	Values() *[]*string
+	SetValues(val *[]*string)
+	ValuesInput() *[]*string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -199,21 +199,21 @@ func (j *jsiiProxy_LakeformationOptInResourceDataLfTagOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_LakeformationOptInResourceDataLfTagOutputReference) Value() *string {
-	var returns *string
+func (j *jsiiProxy_LakeformationOptInResourceDataLfTagOutputReference) Values() *[]*string {
+	var returns *[]*string
 	_jsii_.Get(
 		j,
-		"value",
+		"values",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_LakeformationOptInResourceDataLfTagOutputReference) ValueInput() *string {
-	var returns *string
+func (j *jsiiProxy_LakeformationOptInResourceDataLfTagOutputReference) ValuesInput() *[]*string {
+	var returns *[]*string
 	_jsii_.Get(
 		j,
-		"valueInput",
+		"valuesInput",
 		&returns,
 	)
 	return returns
@@ -324,13 +324,13 @@ func (j *jsiiProxy_LakeformationOptInResourceDataLfTagOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_LakeformationOptInResourceDataLfTagOutputReference)SetValue(val *string) {
-	if err := j.validateSetValueParameters(val); err != nil {
+func (j *jsiiProxy_LakeformationOptInResourceDataLfTagOutputReference)SetValues(val *[]*string) {
+	if err := j.validateSetValuesParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
-		"value",
+		"values",
 		val,
 	)
 }

@@ -143,6 +143,10 @@ func (j *jsiiProxy_S3Bucket) validateSetBucketParameters(val *string) error {
 	return nil
 }
 
+func (j *jsiiProxy_S3Bucket) validateSetBucketNamespaceParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_S3Bucket) validateSetBucketPrefixParameters(val *string) error {
 	return nil
 }

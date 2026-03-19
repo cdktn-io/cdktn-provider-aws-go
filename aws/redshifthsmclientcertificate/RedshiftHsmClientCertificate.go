@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/redshift_hsm_client_certificate aws_redshift_hsm_client_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/redshift_hsm_client_certificate aws_redshift_hsm_client_certificate}.
 type RedshiftHsmClientCertificate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_RedshiftHsmClientCertificate) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/redshift_hsm_client_certificate aws_redshift_hsm_client_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/redshift_hsm_client_certificate aws_redshift_hsm_client_certificate} Resource.
 func NewRedshiftHsmClientCertificate(scope constructs.Construct, id *string, config *RedshiftHsmClientCertificateConfig) RedshiftHsmClientCertificate {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewRedshiftHsmClientCertificate(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/redshift_hsm_client_certificate aws_redshift_hsm_client_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/redshift_hsm_client_certificate aws_redshift_hsm_client_certificate} Resource.
 func NewRedshiftHsmClientCertificate_Override(r RedshiftHsmClientCertificate, scope constructs.Construct, id *string, config *RedshiftHsmClientCertificateConfig) {
 	_init_.Initialize()
 

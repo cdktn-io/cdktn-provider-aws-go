@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/dx_locations aws_dx_locations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/data-sources/dx_locations aws_dx_locations}.
 type DataAwsDxLocations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -309,7 +309,7 @@ func (j *jsiiProxy_DataAwsDxLocations) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/dx_locations aws_dx_locations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/data-sources/dx_locations aws_dx_locations} Data Source.
 func NewDataAwsDxLocations(scope constructs.Construct, id *string, config *DataAwsDxLocationsConfig) DataAwsDxLocations {
 	_init_.Initialize()
 
@@ -327,7 +327,7 @@ func NewDataAwsDxLocations(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/dx_locations aws_dx_locations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/data-sources/dx_locations aws_dx_locations} Data Source.
 func NewDataAwsDxLocations_Override(d DataAwsDxLocations, scope constructs.Construct, id *string, config *DataAwsDxLocationsConfig) {
 	_init_.Initialize()
 

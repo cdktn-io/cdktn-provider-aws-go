@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/api_gateway_domain_name aws_api_gateway_domain_name}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/api_gateway_domain_name aws_api_gateway_domain_name}.
 type ApiGatewayDomainName interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -851,7 +851,7 @@ func (j *jsiiProxy_ApiGatewayDomainName) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/api_gateway_domain_name aws_api_gateway_domain_name} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/api_gateway_domain_name aws_api_gateway_domain_name} Resource.
 func NewApiGatewayDomainName(scope constructs.Construct, id *string, config *ApiGatewayDomainNameConfig) ApiGatewayDomainName {
 	_init_.Initialize()
 
@@ -869,7 +869,7 @@ func NewApiGatewayDomainName(scope constructs.Construct, id *string, config *Api
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/api_gateway_domain_name aws_api_gateway_domain_name} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/api_gateway_domain_name aws_api_gateway_domain_name} Resource.
 func NewApiGatewayDomainName_Override(a ApiGatewayDomainName, scope constructs.Construct, id *string, config *ApiGatewayDomainNameConfig) {
 	_init_.Initialize()
 

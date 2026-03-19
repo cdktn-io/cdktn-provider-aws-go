@@ -79,7 +79,7 @@ func (j *jsiiProxy_LakeformationOptInResourceDataLfTagOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_LakeformationOptInResourceDataLfTagOutputReference) validateSetValueParameters(val *string) error {
+func (j *jsiiProxy_LakeformationOptInResourceDataLfTagOutputReference) validateSetValuesParameters(val *[]*string) error {
 	return nil
 }
 

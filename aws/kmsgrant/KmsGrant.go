@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/kms_grant aws_kms_grant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/kms_grant aws_kms_grant}.
 type KmsGrant interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -554,7 +554,7 @@ func (j *jsiiProxy_KmsGrant) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/kms_grant aws_kms_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/kms_grant aws_kms_grant} Resource.
 func NewKmsGrant(scope constructs.Construct, id *string, config *KmsGrantConfig) KmsGrant {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewKmsGrant(scope constructs.Construct, id *string, config *KmsGrantConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/kms_grant aws_kms_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/kms_grant aws_kms_grant} Resource.
 func NewKmsGrant_Override(k KmsGrant, scope constructs.Construct, id *string, config *KmsGrantConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/securityhub_product_subscription aws_securityhub_product_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/securityhub_product_subscription aws_securityhub_product_subscription}.
 type SecurityhubProductSubscription interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -377,7 +377,7 @@ func (j *jsiiProxy_SecurityhubProductSubscription) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/securityhub_product_subscription aws_securityhub_product_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/securityhub_product_subscription aws_securityhub_product_subscription} Resource.
 func NewSecurityhubProductSubscription(scope constructs.Construct, id *string, config *SecurityhubProductSubscriptionConfig) SecurityhubProductSubscription {
 	_init_.Initialize()
 
@@ -395,7 +395,7 @@ func NewSecurityhubProductSubscription(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/securityhub_product_subscription aws_securityhub_product_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/securityhub_product_subscription aws_securityhub_product_subscription} Resource.
 func NewSecurityhubProductSubscription_Override(s SecurityhubProductSubscription, scope constructs.Construct, id *string, config *SecurityhubProductSubscriptionConfig) {
 	_init_.Initialize()
 

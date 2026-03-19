@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/synthetics_runtime_version aws_synthetics_runtime_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/data-sources/synthetics_runtime_version aws_synthetics_runtime_version}.
 type DataAwsSyntheticsRuntimeVersion interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_DataAwsSyntheticsRuntimeVersion) VersionName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/synthetics_runtime_version aws_synthetics_runtime_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/data-sources/synthetics_runtime_version aws_synthetics_runtime_version} Data Source.
 func NewDataAwsSyntheticsRuntimeVersion(scope constructs.Construct, id *string, config *DataAwsSyntheticsRuntimeVersionConfig) DataAwsSyntheticsRuntimeVersion {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewDataAwsSyntheticsRuntimeVersion(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/data-sources/synthetics_runtime_version aws_synthetics_runtime_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/data-sources/synthetics_runtime_version aws_synthetics_runtime_version} Data Source.
 func NewDataAwsSyntheticsRuntimeVersion_Override(d DataAwsSyntheticsRuntimeVersion, scope constructs.Construct, id *string, config *DataAwsSyntheticsRuntimeVersionConfig) {
 	_init_.Initialize()
 

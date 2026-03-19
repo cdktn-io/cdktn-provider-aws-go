@@ -222,7 +222,7 @@ func (j *jsiiProxy_LakeformationOptInResourceDataLfTagOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_LakeformationOptInResourceDataLfTagOutputReference) validateSetValueParameters(val *string) error {
+func (j *jsiiProxy_LakeformationOptInResourceDataLfTagOutputReference) validateSetValuesParameters(val *[]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

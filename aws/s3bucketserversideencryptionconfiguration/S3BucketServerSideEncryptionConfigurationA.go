@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/s3_bucket_server_side_encryption_configuration aws_s3_bucket_server_side_encryption_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/s3_bucket_server_side_encryption_configuration aws_s3_bucket_server_side_encryption_configuration}.
 type S3BucketServerSideEncryptionConfigurationA interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -413,7 +413,7 @@ func (j *jsiiProxy_S3BucketServerSideEncryptionConfigurationA) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/s3_bucket_server_side_encryption_configuration aws_s3_bucket_server_side_encryption_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/s3_bucket_server_side_encryption_configuration aws_s3_bucket_server_side_encryption_configuration} Resource.
 func NewS3BucketServerSideEncryptionConfigurationA(scope constructs.Construct, id *string, config *S3BucketServerSideEncryptionConfigurationAConfig) S3BucketServerSideEncryptionConfigurationA {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewS3BucketServerSideEncryptionConfigurationA(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/s3_bucket_server_side_encryption_configuration aws_s3_bucket_server_side_encryption_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/s3_bucket_server_side_encryption_configuration aws_s3_bucket_server_side_encryption_configuration} Resource.
 func NewS3BucketServerSideEncryptionConfigurationA_Override(s S3BucketServerSideEncryptionConfigurationA, scope constructs.Construct, id *string, config *S3BucketServerSideEncryptionConfigurationAConfig) {
 	_init_.Initialize()
 

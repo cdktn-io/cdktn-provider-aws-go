@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/docdbelastic_cluster aws_docdbelastic_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/docdbelastic_cluster aws_docdbelastic_cluster}.
 type DocdbelasticCluster interface {
 	cdktn.TerraformResource
 	AdminUserName() *string
@@ -91,6 +91,9 @@ type DocdbelasticCluster interface {
 	ShardCount() *float64
 	SetShardCount(val *float64)
 	ShardCountInput() *float64
+	ShardInstanceCount() *float64
+	SetShardInstanceCount(val *float64)
+	ShardInstanceCountInput() *float64
 	SubnetIds() *[]*string
 	SetSubnetIds(val *[]*string)
 	SubnetIdsInput() *[]*string
@@ -161,6 +164,7 @@ type DocdbelasticCluster interface {
 	ResetPreferredBackupWindow()
 	ResetPreferredMaintenanceWindow()
 	ResetRegion()
+	ResetShardInstanceCount()
 	ResetSubnetIds()
 	ResetTags()
 	ResetTimeouts()
@@ -572,6 +576,26 @@ func (j *jsiiProxy_DocdbelasticCluster) ShardCountInput() *float64 {
 	return returns
 }
 
+func (j *jsiiProxy_DocdbelasticCluster) ShardInstanceCount() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"shardInstanceCount",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DocdbelasticCluster) ShardInstanceCountInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"shardInstanceCountInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DocdbelasticCluster) SubnetIds() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -693,7 +717,7 @@ func (j *jsiiProxy_DocdbelasticCluster) VpcSecurityGroupIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/docdbelastic_cluster aws_docdbelastic_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/docdbelastic_cluster aws_docdbelastic_cluster} Resource.
 func NewDocdbelasticCluster(scope constructs.Construct, id *string, config *DocdbelasticClusterConfig) DocdbelasticCluster {
 	_init_.Initialize()
 
@@ -711,7 +735,7 @@ func NewDocdbelasticCluster(scope constructs.Construct, id *string, config *Docd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.36.0/docs/resources/docdbelastic_cluster aws_docdbelastic_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/docdbelastic_cluster aws_docdbelastic_cluster} Resource.
 func NewDocdbelasticCluster_Override(d DocdbelasticCluster, scope constructs.Construct, id *string, config *DocdbelasticClusterConfig) {
 	_init_.Initialize()
 
@@ -907,6 +931,17 @@ func (j *jsiiProxy_DocdbelasticCluster)SetShardCount(val *float64) {
 	_jsii_.Set(
 		j,
 		"shardCount",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DocdbelasticCluster)SetShardInstanceCount(val *float64) {
+	if err := j.validateSetShardInstanceCountParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"shardInstanceCount",
 		val,
 	)
 }
@@ -1352,6 +1387,14 @@ func (d *jsiiProxy_DocdbelasticCluster) ResetRegion() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DocdbelasticCluster) ResetShardInstanceCount() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetShardInstanceCount",
 		nil, // no parameters
 	)
 }

@@ -155,6 +155,10 @@ func (j *jsiiProxy_DocdbelasticCluster) validateSetShardCountParameters(val *flo
 	return nil
 }
 
+func (j *jsiiProxy_DocdbelasticCluster) validateSetShardInstanceCountParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_DocdbelasticCluster) validateSetSubnetIdsParameters(val *[]*string) error {
 	return nil
 }
