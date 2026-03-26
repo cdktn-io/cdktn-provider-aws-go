@@ -28,6 +28,8 @@ type Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionTo
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	CustomRequestHandling() Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseAllowCustomRequestHandlingList
+	CustomRequestHandlingInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -64,6 +66,8 @@ type Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionTo
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCustomRequestHandling(value interface{})
+	ResetCustomRequestHandling()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -104,6 +108,26 @@ func (j *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOv
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseAllowOutputReference) CustomRequestHandling() Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseAllowCustomRequestHandlingList {
+	var returns Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseAllowCustomRequestHandlingList
+	_jsii_.Get(
+		j,
+		"customRequestHandling",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseAllowOutputReference) CustomRequestHandlingInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"customRequestHandlingInput",
 		&returns,
 	)
 	return returns
@@ -416,6 +440,25 @@ func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOv
 	)
 
 	return returns
+}
+
+func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseAllowOutputReference) PutCustomRequestHandling(value interface{}) {
+	if err := w.validatePutCustomRequestHandlingParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"putCustomRequestHandling",
+		[]interface{}{value},
+	)
+}
+
+func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseAllowOutputReference) ResetCustomRequestHandling() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetCustomRequestHandling",
+		nil, // no parameters
+	)
 }
 
 func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseAllowOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

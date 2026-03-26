@@ -17,6 +17,10 @@ type Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionTo
 	AllowInput() interface{}
 	Block() Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseBlockList
 	BlockInput() interface{}
+	Captcha() Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseCaptchaList
+	CaptchaInput() interface{}
+	Challenge() Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseChallengeList
+	ChallengeInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -72,9 +76,13 @@ type Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionTo
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAllow(value interface{})
 	PutBlock(value interface{})
+	PutCaptcha(value interface{})
+	PutChallenge(value interface{})
 	PutCount(value interface{})
 	ResetAllow()
 	ResetBlock()
+	ResetCaptcha()
+	ResetChallenge()
 	ResetCount()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -126,6 +134,46 @@ func (j *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOv
 	_jsii_.Get(
 		j,
 		"blockInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseOutputReference) Captcha() Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseCaptchaList {
+	var returns Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseCaptchaList
+	_jsii_.Get(
+		j,
+		"captcha",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseOutputReference) CaptchaInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"captchaInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseOutputReference) Challenge() Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseChallengeList {
+	var returns Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseChallengeList
+	_jsii_.Get(
+		j,
+		"challenge",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseOutputReference) ChallengeInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"challengeInput",
 		&returns,
 	)
 	return returns
@@ -512,6 +560,28 @@ func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOv
 	)
 }
 
+func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseOutputReference) PutCaptcha(value interface{}) {
+	if err := w.validatePutCaptchaParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"putCaptcha",
+		[]interface{}{value},
+	)
+}
+
+func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseOutputReference) PutChallenge(value interface{}) {
+	if err := w.validatePutChallengeParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"putChallenge",
+		[]interface{}{value},
+	)
+}
+
 func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseOutputReference) PutCount(value interface{}) {
 	if err := w.validatePutCountParameters(value); err != nil {
 		panic(err)
@@ -535,6 +605,22 @@ func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOv
 	_jsii_.InvokeVoid(
 		w,
 		"resetBlock",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseOutputReference) ResetCaptcha() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetCaptcha",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseOutputReference) ResetChallenge() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetChallenge",
 		nil, // no parameters
 	)
 }

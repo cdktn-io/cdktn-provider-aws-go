@@ -47,6 +47,10 @@ func (w *jsiiProxy_Wafv2WebAclRuleStatementRuleGroupReferenceStatementRuleAction
 	return nil
 }
 
+func (w *jsiiProxy_Wafv2WebAclRuleStatementRuleGroupReferenceStatementRuleActionOverrideActionToUseBlockOutputReference) validatePutCustomResponseParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_Wafv2WebAclRuleStatementRuleGroupReferenceStatementRuleActionOverrideActionToUseBlockOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

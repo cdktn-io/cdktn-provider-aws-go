@@ -51,7 +51,27 @@ func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) validatePutAwsAccou
 	return nil
 }
 
+func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) validatePutAwsAccountNameParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) validatePutCompanyNameParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) validatePutComplianceAssociatedStandardsIdParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) validatePutComplianceSecurityControlIdParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) validatePutComplianceSecurityControlParametersNameParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) validatePutComplianceSecurityControlParametersValueParameters(value interface{}) error {
 	return nil
 }
 

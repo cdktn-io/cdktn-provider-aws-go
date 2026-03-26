@@ -28,6 +28,8 @@ type Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionTo
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	CustomResponse() Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseBlockCustomResponseList
+	CustomResponseInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -64,6 +66,8 @@ type Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionTo
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCustomResponse(value interface{})
+	ResetCustomResponse()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -104,6 +108,26 @@ func (j *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOv
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseBlockOutputReference) CustomResponse() Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseBlockCustomResponseList {
+	var returns Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseBlockCustomResponseList
+	_jsii_.Get(
+		j,
+		"customResponse",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseBlockOutputReference) CustomResponseInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"customResponseInput",
 		&returns,
 	)
 	return returns
@@ -416,6 +440,25 @@ func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOv
 	)
 
 	return returns
+}
+
+func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseBlockOutputReference) PutCustomResponse(value interface{}) {
+	if err := w.validatePutCustomResponseParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"putCustomResponse",
+		[]interface{}{value},
+	)
+}
+
+func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseBlockOutputReference) ResetCustomResponse() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetCustomResponse",
+		nil, // no parameters
+	)
 }
 
 func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverrideActionToUseBlockOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

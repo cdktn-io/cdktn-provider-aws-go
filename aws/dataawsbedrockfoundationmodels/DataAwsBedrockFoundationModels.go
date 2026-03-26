@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/data-sources/bedrock_foundation_models aws_bedrock_foundation_models}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/bedrock_foundation_models aws_bedrock_foundation_models}.
 type DataAwsBedrockFoundationModels interface {
 	cdktn.TerraformDataSource
 	ByCustomizationType() *string
@@ -392,7 +392,7 @@ func (j *jsiiProxy_DataAwsBedrockFoundationModels) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/data-sources/bedrock_foundation_models aws_bedrock_foundation_models} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/bedrock_foundation_models aws_bedrock_foundation_models} Data Source.
 func NewDataAwsBedrockFoundationModels(scope constructs.Construct, id *string, config *DataAwsBedrockFoundationModelsConfig) DataAwsBedrockFoundationModels {
 	_init_.Initialize()
 
@@ -410,7 +410,7 @@ func NewDataAwsBedrockFoundationModels(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/data-sources/bedrock_foundation_models aws_bedrock_foundation_models} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/bedrock_foundation_models aws_bedrock_foundation_models} Data Source.
 func NewDataAwsBedrockFoundationModels_Override(d DataAwsBedrockFoundationModels, scope constructs.Construct, id *string, config *DataAwsBedrockFoundationModelsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/data-sources/organizations_entity_path aws_organizations_entity_path}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/organizations_entity_path aws_organizations_entity_path}.
 type DataAwsOrganizationsEntityPath interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -284,7 +284,7 @@ func (j *jsiiProxy_DataAwsOrganizationsEntityPath) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/data-sources/organizations_entity_path aws_organizations_entity_path} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/organizations_entity_path aws_organizations_entity_path} Data Source.
 func NewDataAwsOrganizationsEntityPath(scope constructs.Construct, id *string, config *DataAwsOrganizationsEntityPathConfig) DataAwsOrganizationsEntityPath {
 	_init_.Initialize()
 
@@ -302,7 +302,7 @@ func NewDataAwsOrganizationsEntityPath(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/data-sources/organizations_entity_path aws_organizations_entity_path} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/organizations_entity_path aws_organizations_entity_path} Data Source.
 func NewDataAwsOrganizationsEntityPath_Override(d DataAwsOrganizationsEntityPath, scope constructs.Construct, id *string, config *DataAwsOrganizationsEntityPathConfig) {
 	_init_.Initialize()
 

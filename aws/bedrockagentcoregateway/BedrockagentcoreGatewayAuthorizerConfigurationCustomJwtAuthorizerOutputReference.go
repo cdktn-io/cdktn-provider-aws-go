@@ -37,6 +37,8 @@ type BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputRefe
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	CustomClaim() BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerCustomClaimList
+	CustomClaimInput() interface{}
 	DiscoveryUrl() *string
 	SetDiscoveryUrl(val *string)
 	DiscoveryUrlInput() *string
@@ -76,9 +78,11 @@ type BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputRefe
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCustomClaim(value interface{})
 	ResetAllowedAudience()
 	ResetAllowedClients()
 	ResetAllowedScopes()
+	ResetCustomClaim()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -179,6 +183,26 @@ func (j *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthor
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference) CustomClaim() BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerCustomClaimList {
+	var returns BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerCustomClaimList
+	_jsii_.Get(
+		j,
+		"customClaim",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference) CustomClaimInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"customClaimInput",
 		&returns,
 	)
 	return returns
@@ -557,6 +581,17 @@ func (b *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthor
 	return returns
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference) PutCustomClaim(value interface{}) {
+	if err := b.validatePutCustomClaimParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putCustomClaim",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference) ResetAllowedAudience() {
 	_jsii_.InvokeVoid(
 		b,
@@ -577,6 +612,14 @@ func (b *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthor
 	_jsii_.InvokeVoid(
 		b,
 		"resetAllowedScopes",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference) ResetCustomClaim() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetCustomClaim",
 		nil, // no parameters
 	)
 }

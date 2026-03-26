@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool}.
 type DataAwsCognitoIdentityPool interface {
 	cdktn.TerraformDataSource
 	AllowClassicFlow() cdktn.IResolvable
@@ -433,7 +433,7 @@ func (j *jsiiProxy_DataAwsCognitoIdentityPool) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool} Data Source.
 func NewDataAwsCognitoIdentityPool(scope constructs.Construct, id *string, config *DataAwsCognitoIdentityPoolConfig) DataAwsCognitoIdentityPool {
 	_init_.Initialize()
 
@@ -451,7 +451,7 @@ func NewDataAwsCognitoIdentityPool(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool} Data Source.
 func NewDataAwsCognitoIdentityPool_Override(d DataAwsCognitoIdentityPool, scope constructs.Construct, id *string, config *DataAwsCognitoIdentityPoolConfig) {
 	_init_.Initialize()
 

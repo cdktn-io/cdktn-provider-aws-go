@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/sesv2_email_identity aws_sesv2_email_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/sesv2_email_identity aws_sesv2_email_identity}.
 type Sesv2EmailIdentity interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_Sesv2EmailIdentity) VerifiedForSendingStatus() cdktn.IResolva
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/sesv2_email_identity aws_sesv2_email_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/sesv2_email_identity aws_sesv2_email_identity} Resource.
 func NewSesv2EmailIdentity(scope constructs.Construct, id *string, config *Sesv2EmailIdentityConfig) Sesv2EmailIdentity {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewSesv2EmailIdentity(scope constructs.Construct, id *string, config *Sesv2
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/sesv2_email_identity aws_sesv2_email_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/sesv2_email_identity aws_sesv2_email_identity} Resource.
 func NewSesv2EmailIdentity_Override(s Sesv2EmailIdentity, scope constructs.Construct, id *string, config *Sesv2EmailIdentityConfig) {
 	_init_.Initialize()
 

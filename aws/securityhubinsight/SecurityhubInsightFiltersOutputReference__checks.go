@@ -124,6 +124,37 @@ func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) validatePutAwsAccou
 	return nil
 }
 
+func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) validatePutAwsAccountNameParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*SecurityhubInsightFiltersAwsAccountName:
+		value := value.(*[]*SecurityhubInsightFiltersAwsAccountName)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*SecurityhubInsightFiltersAwsAccountName:
+		value_ := value.([]*SecurityhubInsightFiltersAwsAccountName)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SecurityhubInsightFiltersAwsAccountName; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) validatePutCompanyNameParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -149,6 +180,130 @@ func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) validatePutCompanyN
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SecurityhubInsightFiltersCompanyName; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) validatePutComplianceAssociatedStandardsIdParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*SecurityhubInsightFiltersComplianceAssociatedStandardsId:
+		value := value.(*[]*SecurityhubInsightFiltersComplianceAssociatedStandardsId)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*SecurityhubInsightFiltersComplianceAssociatedStandardsId:
+		value_ := value.([]*SecurityhubInsightFiltersComplianceAssociatedStandardsId)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SecurityhubInsightFiltersComplianceAssociatedStandardsId; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) validatePutComplianceSecurityControlIdParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*SecurityhubInsightFiltersComplianceSecurityControlId:
+		value := value.(*[]*SecurityhubInsightFiltersComplianceSecurityControlId)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*SecurityhubInsightFiltersComplianceSecurityControlId:
+		value_ := value.([]*SecurityhubInsightFiltersComplianceSecurityControlId)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SecurityhubInsightFiltersComplianceSecurityControlId; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) validatePutComplianceSecurityControlParametersNameParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*SecurityhubInsightFiltersComplianceSecurityControlParametersName:
+		value := value.(*[]*SecurityhubInsightFiltersComplianceSecurityControlParametersName)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*SecurityhubInsightFiltersComplianceSecurityControlParametersName:
+		value_ := value.([]*SecurityhubInsightFiltersComplianceSecurityControlParametersName)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SecurityhubInsightFiltersComplianceSecurityControlParametersName; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) validatePutComplianceSecurityControlParametersValueParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*SecurityhubInsightFiltersComplianceSecurityControlParametersValue:
+		value := value.(*[]*SecurityhubInsightFiltersComplianceSecurityControlParametersValue)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*SecurityhubInsightFiltersComplianceSecurityControlParametersValue:
+		value_ := value.([]*SecurityhubInsightFiltersComplianceSecurityControlParametersValue)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SecurityhubInsightFiltersComplianceSecurityControlParametersValue; received %#v (a %T)", value, value)
 		}
 	}
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/api_gateway_documentation_part aws_api_gateway_documentation_part}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/api_gateway_documentation_part aws_api_gateway_documentation_part}.
 type ApiGatewayDocumentationPart interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_ApiGatewayDocumentationPart) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/api_gateway_documentation_part aws_api_gateway_documentation_part} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/api_gateway_documentation_part aws_api_gateway_documentation_part} Resource.
 func NewApiGatewayDocumentationPart(scope constructs.Construct, id *string, config *ApiGatewayDocumentationPartConfig) ApiGatewayDocumentationPart {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewApiGatewayDocumentationPart(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/api_gateway_documentation_part aws_api_gateway_documentation_part} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/api_gateway_documentation_part aws_api_gateway_documentation_part} Resource.
 func NewApiGatewayDocumentationPart_Override(a ApiGatewayDocumentationPart, scope constructs.Construct, id *string, config *ApiGatewayDocumentationPartConfig) {
 	_init_.Initialize()
 

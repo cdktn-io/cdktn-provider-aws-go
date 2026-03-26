@@ -79,6 +79,10 @@ func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) v
 	return nil
 }
 
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) validateSetEnableTlsSessionHoldingParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) validateSetInternalValueParameters(val *NetworkfirewallFirewallPolicyFirewallPolicy) error {
 	return nil
 }

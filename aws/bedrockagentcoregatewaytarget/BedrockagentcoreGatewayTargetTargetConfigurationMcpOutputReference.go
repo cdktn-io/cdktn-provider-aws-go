@@ -13,6 +13,8 @@ import (
 
 type BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputReference interface {
 	cdktn.ComplexObject
+	ApiGateway() BedrockagentcoreGatewayTargetTargetConfigurationMcpApiGatewayList
+	ApiGatewayInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -72,10 +74,12 @@ type BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputReference interfac
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutApiGateway(value interface{})
 	PutLambda(value interface{})
 	PutMcpServer(value interface{})
 	PutOpenApiSchema(value interface{})
 	PutSmithyModel(value interface{})
+	ResetApiGateway()
 	ResetLambda()
 	ResetMcpServer()
 	ResetOpenApiSchema()
@@ -93,6 +97,26 @@ type BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputReference interfac
 // The jsii proxy struct for BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputReference
 type jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputReference) ApiGateway() BedrockagentcoreGatewayTargetTargetConfigurationMcpApiGatewayList {
+	var returns BedrockagentcoreGatewayTargetTargetConfigurationMcpApiGatewayList
+	_jsii_.Get(
+		j,
+		"apiGateway",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputReference) ApiGatewayInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"apiGatewayInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputReference) ComplexObjectIndex() interface{} {
@@ -514,6 +538,17 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputRefe
 	return returns
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputReference) PutApiGateway(value interface{}) {
+	if err := b.validatePutApiGatewayParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putApiGateway",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputReference) PutLambda(value interface{}) {
 	if err := b.validatePutLambdaParameters(value); err != nil {
 		panic(err)
@@ -555,6 +590,14 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputRefe
 		b,
 		"putSmithyModel",
 		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputReference) ResetApiGateway() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetApiGateway",
+		nil, // no parameters
 	)
 }
 

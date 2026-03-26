@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/appfabric_ingestion_destination aws_appfabric_ingestion_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/appfabric_ingestion_destination aws_appfabric_ingestion_destination}.
 type AppfabricIngestionDestination interface {
 	cdktn.TerraformResource
 	AppBundleArn() *string
@@ -494,7 +494,7 @@ func (j *jsiiProxy_AppfabricIngestionDestination) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/appfabric_ingestion_destination aws_appfabric_ingestion_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/appfabric_ingestion_destination aws_appfabric_ingestion_destination} Resource.
 func NewAppfabricIngestionDestination(scope constructs.Construct, id *string, config *AppfabricIngestionDestinationConfig) AppfabricIngestionDestination {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewAppfabricIngestionDestination(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/appfabric_ingestion_destination aws_appfabric_ingestion_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/appfabric_ingestion_destination aws_appfabric_ingestion_destination} Resource.
 func NewAppfabricIngestionDestination_Override(a AppfabricIngestionDestination, scope constructs.Construct, id *string, config *AppfabricIngestionDestinationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/cloudcontrolapi_resource aws_cloudcontrolapi_resource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/cloudcontrolapi_resource aws_cloudcontrolapi_resource}.
 type CloudcontrolapiResource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_CloudcontrolapiResource) TypeVersionIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/cloudcontrolapi_resource aws_cloudcontrolapi_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/cloudcontrolapi_resource aws_cloudcontrolapi_resource} Resource.
 func NewCloudcontrolapiResource(scope constructs.Construct, id *string, config *CloudcontrolapiResourceConfig) CloudcontrolapiResource {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewCloudcontrolapiResource(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/cloudcontrolapi_resource aws_cloudcontrolapi_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/cloudcontrolapi_resource aws_cloudcontrolapi_resource} Resource.
 func NewCloudcontrolapiResource_Override(c CloudcontrolapiResource, scope constructs.Construct, id *string, config *CloudcontrolapiResourceConfig) {
 	_init_.Initialize()
 

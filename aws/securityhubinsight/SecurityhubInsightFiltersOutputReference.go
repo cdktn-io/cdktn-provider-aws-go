@@ -15,6 +15,8 @@ type SecurityhubInsightFiltersOutputReference interface {
 	cdktn.ComplexObject
 	AwsAccountId() SecurityhubInsightFiltersAwsAccountIdList
 	AwsAccountIdInput() interface{}
+	AwsAccountName() SecurityhubInsightFiltersAwsAccountNameList
+	AwsAccountNameInput() interface{}
 	CompanyName() SecurityhubInsightFiltersCompanyNameList
 	CompanyNameInput() interface{}
 	// the index of the complex object in a list.
@@ -27,6 +29,14 @@ type SecurityhubInsightFiltersOutputReference interface {
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ComplianceAssociatedStandardsId() SecurityhubInsightFiltersComplianceAssociatedStandardsIdList
+	ComplianceAssociatedStandardsIdInput() interface{}
+	ComplianceSecurityControlId() SecurityhubInsightFiltersComplianceSecurityControlIdList
+	ComplianceSecurityControlIdInput() interface{}
+	ComplianceSecurityControlParametersName() SecurityhubInsightFiltersComplianceSecurityControlParametersNameList
+	ComplianceSecurityControlParametersNameInput() interface{}
+	ComplianceSecurityControlParametersValue() SecurityhubInsightFiltersComplianceSecurityControlParametersValueList
+	ComplianceSecurityControlParametersValueInput() interface{}
 	ComplianceStatus() SecurityhubInsightFiltersComplianceStatusList
 	ComplianceStatusInput() interface{}
 	Confidence() SecurityhubInsightFiltersConfidenceList
@@ -241,7 +251,12 @@ type SecurityhubInsightFiltersOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAwsAccountId(value interface{})
+	PutAwsAccountName(value interface{})
 	PutCompanyName(value interface{})
+	PutComplianceAssociatedStandardsId(value interface{})
+	PutComplianceSecurityControlId(value interface{})
+	PutComplianceSecurityControlParametersName(value interface{})
+	PutComplianceSecurityControlParametersValue(value interface{})
 	PutComplianceStatus(value interface{})
 	PutConfidence(value interface{})
 	PutCreatedAt(value interface{})
@@ -329,7 +344,12 @@ type SecurityhubInsightFiltersOutputReference interface {
 	PutVerificationState(value interface{})
 	PutWorkflowStatus(value interface{})
 	ResetAwsAccountId()
+	ResetAwsAccountName()
 	ResetCompanyName()
+	ResetComplianceAssociatedStandardsId()
+	ResetComplianceSecurityControlId()
+	ResetComplianceSecurityControlParametersName()
+	ResetComplianceSecurityControlParametersValue()
 	ResetComplianceStatus()
 	ResetConfidence()
 	ResetCreatedAt()
@@ -451,6 +471,26 @@ func (j *jsiiProxy_SecurityhubInsightFiltersOutputReference) AwsAccountIdInput()
 	return returns
 }
 
+func (j *jsiiProxy_SecurityhubInsightFiltersOutputReference) AwsAccountName() SecurityhubInsightFiltersAwsAccountNameList {
+	var returns SecurityhubInsightFiltersAwsAccountNameList
+	_jsii_.Get(
+		j,
+		"awsAccountName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecurityhubInsightFiltersOutputReference) AwsAccountNameInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"awsAccountNameInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SecurityhubInsightFiltersOutputReference) CompanyName() SecurityhubInsightFiltersCompanyNameList {
 	var returns SecurityhubInsightFiltersCompanyNameList
 	_jsii_.Get(
@@ -486,6 +526,86 @@ func (j *jsiiProxy_SecurityhubInsightFiltersOutputReference) ComplexObjectIsFrom
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecurityhubInsightFiltersOutputReference) ComplianceAssociatedStandardsId() SecurityhubInsightFiltersComplianceAssociatedStandardsIdList {
+	var returns SecurityhubInsightFiltersComplianceAssociatedStandardsIdList
+	_jsii_.Get(
+		j,
+		"complianceAssociatedStandardsId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecurityhubInsightFiltersOutputReference) ComplianceAssociatedStandardsIdInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"complianceAssociatedStandardsIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecurityhubInsightFiltersOutputReference) ComplianceSecurityControlId() SecurityhubInsightFiltersComplianceSecurityControlIdList {
+	var returns SecurityhubInsightFiltersComplianceSecurityControlIdList
+	_jsii_.Get(
+		j,
+		"complianceSecurityControlId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecurityhubInsightFiltersOutputReference) ComplianceSecurityControlIdInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"complianceSecurityControlIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecurityhubInsightFiltersOutputReference) ComplianceSecurityControlParametersName() SecurityhubInsightFiltersComplianceSecurityControlParametersNameList {
+	var returns SecurityhubInsightFiltersComplianceSecurityControlParametersNameList
+	_jsii_.Get(
+		j,
+		"complianceSecurityControlParametersName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecurityhubInsightFiltersOutputReference) ComplianceSecurityControlParametersNameInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"complianceSecurityControlParametersNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecurityhubInsightFiltersOutputReference) ComplianceSecurityControlParametersValue() SecurityhubInsightFiltersComplianceSecurityControlParametersValueList {
+	var returns SecurityhubInsightFiltersComplianceSecurityControlParametersValueList
+	_jsii_.Get(
+		j,
+		"complianceSecurityControlParametersValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecurityhubInsightFiltersOutputReference) ComplianceSecurityControlParametersValueInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"complianceSecurityControlParametersValueInput",
 		&returns,
 	)
 	return returns
@@ -2541,6 +2661,17 @@ func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) PutAwsAccountId(val
 	)
 }
 
+func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) PutAwsAccountName(value interface{}) {
+	if err := s.validatePutAwsAccountNameParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putAwsAccountName",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) PutCompanyName(value interface{}) {
 	if err := s.validatePutCompanyNameParameters(value); err != nil {
 		panic(err)
@@ -2548,6 +2679,50 @@ func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) PutCompanyName(valu
 	_jsii_.InvokeVoid(
 		s,
 		"putCompanyName",
+		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) PutComplianceAssociatedStandardsId(value interface{}) {
+	if err := s.validatePutComplianceAssociatedStandardsIdParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putComplianceAssociatedStandardsId",
+		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) PutComplianceSecurityControlId(value interface{}) {
+	if err := s.validatePutComplianceSecurityControlIdParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putComplianceSecurityControlId",
+		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) PutComplianceSecurityControlParametersName(value interface{}) {
+	if err := s.validatePutComplianceSecurityControlParametersNameParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putComplianceSecurityControlParametersName",
+		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) PutComplianceSecurityControlParametersValue(value interface{}) {
+	if err := s.validatePutComplianceSecurityControlParametersValueParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putComplianceSecurityControlParametersValue",
 		[]interface{}{value},
 	)
 }
@@ -3506,10 +3681,50 @@ func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) ResetAwsAccountId()
 	)
 }
 
+func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) ResetAwsAccountName() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetAwsAccountName",
+		nil, // no parameters
+	)
+}
+
 func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) ResetCompanyName() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetCompanyName",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) ResetComplianceAssociatedStandardsId() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetComplianceAssociatedStandardsId",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) ResetComplianceSecurityControlId() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetComplianceSecurityControlId",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) ResetComplianceSecurityControlParametersName() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetComplianceSecurityControlParametersName",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersOutputReference) ResetComplianceSecurityControlParametersValue() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetComplianceSecurityControlParametersValue",
 		nil, // no parameters
 	)
 }

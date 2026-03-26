@@ -28,6 +28,9 @@ type NetworkfirewallFirewallPolicyFirewallPolicyOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EnableTlsSessionHolding() interface{}
+	SetEnableTlsSessionHolding(val interface{})
+	EnableTlsSessionHoldingInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() *NetworkfirewallFirewallPolicyFirewallPolicy
@@ -91,6 +94,7 @@ type NetworkfirewallFirewallPolicyFirewallPolicyOutputReference interface {
 	PutStatefulRuleGroupReference(value interface{})
 	PutStatelessCustomAction(value interface{})
 	PutStatelessRuleGroupReference(value interface{})
+	ResetEnableTlsSessionHolding()
 	ResetPolicyVariables()
 	ResetStatefulDefaultActions()
 	ResetStatefulEngineOptions()
@@ -138,6 +142,26 @@ func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) C
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) EnableTlsSessionHolding() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableTlsSessionHolding",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) EnableTlsSessionHoldingInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableTlsSessionHoldingInput",
 		&returns,
 	)
 	return returns
@@ -409,6 +433,17 @@ func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference)Se
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference)SetEnableTlsSessionHolding(val interface{}) {
+	if err := j.validateSetEnableTlsSessionHoldingParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enableTlsSessionHolding",
 		val,
 	)
 }
@@ -728,6 +763,14 @@ func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) P
 		n,
 		"putStatelessRuleGroupReference",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) ResetEnableTlsSessionHolding() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetEnableTlsSessionHolding",
+		nil, // no parameters
 	)
 }
 

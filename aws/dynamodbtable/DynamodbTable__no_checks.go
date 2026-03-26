@@ -187,6 +187,10 @@ func (j *jsiiProxy_DynamodbTable) validateSetRegionParameters(val *string) error
 	return nil
 }
 
+func (j *jsiiProxy_DynamodbTable) validateSetRestoreBackupArnParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DynamodbTable) validateSetRestoreDateTimeParameters(val *string) error {
 	return nil
 }

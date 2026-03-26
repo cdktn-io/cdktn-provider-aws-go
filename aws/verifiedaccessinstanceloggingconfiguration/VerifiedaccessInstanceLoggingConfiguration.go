@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/verifiedaccess_instance_logging_configuration aws_verifiedaccess_instance_logging_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/verifiedaccess_instance_logging_configuration aws_verifiedaccess_instance_logging_configuration}.
 type VerifiedaccessInstanceLoggingConfiguration interface {
 	cdktn.TerraformResource
 	AccessLogs() VerifiedaccessInstanceLoggingConfigurationAccessLogsOutputReference
@@ -389,7 +389,7 @@ func (j *jsiiProxy_VerifiedaccessInstanceLoggingConfiguration) VerifiedaccessIns
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/verifiedaccess_instance_logging_configuration aws_verifiedaccess_instance_logging_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/verifiedaccess_instance_logging_configuration aws_verifiedaccess_instance_logging_configuration} Resource.
 func NewVerifiedaccessInstanceLoggingConfiguration(scope constructs.Construct, id *string, config *VerifiedaccessInstanceLoggingConfigurationConfig) VerifiedaccessInstanceLoggingConfiguration {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewVerifiedaccessInstanceLoggingConfiguration(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/verifiedaccess_instance_logging_configuration aws_verifiedaccess_instance_logging_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/verifiedaccess_instance_logging_configuration aws_verifiedaccess_instance_logging_configuration} Resource.
 func NewVerifiedaccessInstanceLoggingConfiguration_Override(v VerifiedaccessInstanceLoggingConfiguration, scope constructs.Construct, id *string, config *VerifiedaccessInstanceLoggingConfigurationConfig) {
 	_init_.Initialize()
 

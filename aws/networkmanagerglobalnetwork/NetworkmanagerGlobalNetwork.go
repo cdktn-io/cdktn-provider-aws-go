@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/networkmanager_global_network aws_networkmanager_global_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/networkmanager_global_network aws_networkmanager_global_network}.
 type NetworkmanagerGlobalNetwork interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -426,7 +426,7 @@ func (j *jsiiProxy_NetworkmanagerGlobalNetwork) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/networkmanager_global_network aws_networkmanager_global_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/networkmanager_global_network aws_networkmanager_global_network} Resource.
 func NewNetworkmanagerGlobalNetwork(scope constructs.Construct, id *string, config *NetworkmanagerGlobalNetworkConfig) NetworkmanagerGlobalNetwork {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewNetworkmanagerGlobalNetwork(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/networkmanager_global_network aws_networkmanager_global_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/networkmanager_global_network aws_networkmanager_global_network} Resource.
 func NewNetworkmanagerGlobalNetwork_Override(n NetworkmanagerGlobalNetwork, scope constructs.Construct, id *string, config *NetworkmanagerGlobalNetworkConfig) {
 	_init_.Initialize()
 

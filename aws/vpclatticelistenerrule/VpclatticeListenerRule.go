@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/vpclattice_listener_rule aws_vpclattice_listener_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/vpclattice_listener_rule aws_vpclattice_listener_rule}.
 type VpclatticeListenerRule interface {
 	cdktn.TerraformResource
 	Action() VpclatticeListenerRuleActionOutputReference
@@ -575,7 +575,7 @@ func (j *jsiiProxy_VpclatticeListenerRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/vpclattice_listener_rule aws_vpclattice_listener_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/vpclattice_listener_rule aws_vpclattice_listener_rule} Resource.
 func NewVpclatticeListenerRule(scope constructs.Construct, id *string, config *VpclatticeListenerRuleConfig) VpclatticeListenerRule {
 	_init_.Initialize()
 
@@ -593,7 +593,7 @@ func NewVpclatticeListenerRule(scope constructs.Construct, id *string, config *V
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/vpclattice_listener_rule aws_vpclattice_listener_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/vpclattice_listener_rule aws_vpclattice_listener_rule} Resource.
 func NewVpclatticeListenerRule_Override(v VpclatticeListenerRule, scope constructs.Construct, id *string, config *VpclatticeListenerRuleConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/dynamodb_table aws_dynamodb_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/dynamodb_table aws_dynamodb_table}.
 type DynamodbTable interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -96,6 +96,9 @@ type DynamodbTable interface {
 	RegionInput() *string
 	Replica() DynamodbTableReplicaList
 	ReplicaInput() interface{}
+	RestoreBackupArn() *string
+	SetRestoreBackupArn(val *string)
+	RestoreBackupArnInput() *string
 	RestoreDateTime() *string
 	SetRestoreDateTime(val *string)
 	RestoreDateTimeInput() *string
@@ -215,6 +218,7 @@ type DynamodbTable interface {
 	ResetReadCapacity()
 	ResetRegion()
 	ResetReplica()
+	ResetRestoreBackupArn()
 	ResetRestoreDateTime()
 	ResetRestoreSourceName()
 	ResetRestoreSourceTableArn()
@@ -716,6 +720,26 @@ func (j *jsiiProxy_DynamodbTable) ReplicaInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_DynamodbTable) RestoreBackupArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"restoreBackupArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DynamodbTable) RestoreBackupArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"restoreBackupArnInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DynamodbTable) RestoreDateTime() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1047,7 +1071,7 @@ func (j *jsiiProxy_DynamodbTable) WriteCapacityInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/dynamodb_table aws_dynamodb_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/dynamodb_table aws_dynamodb_table} Resource.
 func NewDynamodbTable(scope constructs.Construct, id *string, config *DynamodbTableConfig) DynamodbTable {
 	_init_.Initialize()
 
@@ -1065,7 +1089,7 @@ func NewDynamodbTable(scope constructs.Construct, id *string, config *DynamodbTa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.37.0/docs/resources/dynamodb_table aws_dynamodb_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/dynamodb_table aws_dynamodb_table} Resource.
 func NewDynamodbTable_Override(d DynamodbTable, scope constructs.Construct, id *string, config *DynamodbTableConfig) {
 	_init_.Initialize()
 
@@ -1228,6 +1252,17 @@ func (j *jsiiProxy_DynamodbTable)SetRegion(val *string) {
 	_jsii_.Set(
 		j,
 		"region",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DynamodbTable)SetRestoreBackupArn(val *string) {
+	if err := j.validateSetRestoreBackupArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"restoreBackupArn",
 		val,
 	)
 }
@@ -1951,6 +1986,14 @@ func (d *jsiiProxy_DynamodbTable) ResetReplica() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetReplica",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DynamodbTable) ResetRestoreBackupArn() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetRestoreBackupArn",
 		nil, // no parameters
 	)
 }
