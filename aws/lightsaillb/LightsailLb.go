@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/lightsail_lb aws_lightsail_lb}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/lightsail_lb aws_lightsail_lb}.
 type LightsailLb interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -551,7 +551,7 @@ func (j *jsiiProxy_LightsailLb) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/lightsail_lb aws_lightsail_lb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/lightsail_lb aws_lightsail_lb} Resource.
 func NewLightsailLb(scope constructs.Construct, id *string, config *LightsailLbConfig) LightsailLb {
 	_init_.Initialize()
 
@@ -569,7 +569,7 @@ func NewLightsailLb(scope constructs.Construct, id *string, config *LightsailLbC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/lightsail_lb aws_lightsail_lb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/lightsail_lb aws_lightsail_lb} Resource.
 func NewLightsailLb_Override(l LightsailLb, scope constructs.Construct, id *string, config *LightsailLbConfig) {
 	_init_.Initialize()
 

@@ -5,7 +5,7 @@ package arcregionswitchplan
 
 
 type ArcregionswitchPlanWorkflowStepDocumentDbConfigUngraceful struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/arcregionswitch_plan#ungraceful ArcregionswitchPlan#ungraceful}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/arcregionswitch_plan#ungraceful ArcregionswitchPlan#ungraceful}.
 	Ungraceful *string `field:"required" json:"ungraceful" yaml:"ungraceful"`
 }
 

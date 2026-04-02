@@ -7,7 +7,7 @@ package arcregionswitchplan
 type ArcregionswitchPlanWorkflowStepParallelConfig struct {
 	// step block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/arcregionswitch_plan#step ArcregionswitchPlan#step}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/arcregionswitch_plan#step ArcregionswitchPlan#step}
 	Step interface{} `field:"optional" json:"step" yaml:"step"`
 }
 

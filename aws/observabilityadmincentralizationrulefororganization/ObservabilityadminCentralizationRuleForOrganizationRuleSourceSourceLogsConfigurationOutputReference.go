@@ -28,6 +28,9 @@ type ObservabilityadminCentralizationRuleForOrganizationRuleSourceSourceLogsConf
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DataSourceSelectionCriteria() *string
+	SetDataSourceSelectionCriteria(val *string)
+	DataSourceSelectionCriteriaInput() *string
 	EncryptedLogGroupStrategy() *string
 	SetEncryptedLogGroupStrategy(val *string)
 	EncryptedLogGroupStrategyInput() *string
@@ -70,6 +73,8 @@ type ObservabilityadminCentralizationRuleForOrganizationRuleSourceSourceLogsConf
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetDataSourceSelectionCriteria()
+	ResetLogGroupSelectionCriteria()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -110,6 +115,26 @@ func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSource
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSourceSourceLogsConfigurationOutputReference) DataSourceSelectionCriteria() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dataSourceSelectionCriteria",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSourceSourceLogsConfigurationOutputReference) DataSourceSelectionCriteriaInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dataSourceSelectionCriteriaInput",
 		&returns,
 	)
 	return returns
@@ -241,6 +266,17 @@ func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSource
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSourceSourceLogsConfigurationOutputReference)SetDataSourceSelectionCriteria(val *string) {
+	if err := j.validateSetDataSourceSelectionCriteriaParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"dataSourceSelectionCriteria",
 		val,
 	)
 }
@@ -484,6 +520,22 @@ func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSource
 	)
 
 	return returns
+}
+
+func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSourceSourceLogsConfigurationOutputReference) ResetDataSourceSelectionCriteria() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetDataSourceSelectionCriteria",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSourceSourceLogsConfigurationOutputReference) ResetLogGroupSelectionCriteria() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetLogGroupSelectionCriteria",
+		nil, // no parameters
+	)
 }
 
 func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSourceSourceLogsConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/ses_email_identity aws_ses_email_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/ses_email_identity aws_ses_email_identity}.
 type DataAwsSesEmailIdentity interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataAwsSesEmailIdentity) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/ses_email_identity aws_ses_email_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/ses_email_identity aws_ses_email_identity} Data Source.
 func NewDataAwsSesEmailIdentity(scope constructs.Construct, id *string, config *DataAwsSesEmailIdentityConfig) DataAwsSesEmailIdentity {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewDataAwsSesEmailIdentity(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/ses_email_identity aws_ses_email_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/ses_email_identity aws_ses_email_identity} Data Source.
 func NewDataAwsSesEmailIdentity_Override(d DataAwsSesEmailIdentity, scope constructs.Construct, id *string, config *DataAwsSesEmailIdentityConfig) {
 	_init_.Initialize()
 

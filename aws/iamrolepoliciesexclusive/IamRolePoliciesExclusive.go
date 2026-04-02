@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/iam_role_policies_exclusive aws_iam_role_policies_exclusive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/iam_role_policies_exclusive aws_iam_role_policies_exclusive}.
 type IamRolePoliciesExclusive interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_IamRolePoliciesExclusive) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/iam_role_policies_exclusive aws_iam_role_policies_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/iam_role_policies_exclusive aws_iam_role_policies_exclusive} Resource.
 func NewIamRolePoliciesExclusive(scope constructs.Construct, id *string, config *IamRolePoliciesExclusiveConfig) IamRolePoliciesExclusive {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewIamRolePoliciesExclusive(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/iam_role_policies_exclusive aws_iam_role_policies_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/iam_role_policies_exclusive aws_iam_role_policies_exclusive} Resource.
 func NewIamRolePoliciesExclusive_Override(i IamRolePoliciesExclusive, scope constructs.Construct, id *string, config *IamRolePoliciesExclusiveConfig) {
 	_init_.Initialize()
 

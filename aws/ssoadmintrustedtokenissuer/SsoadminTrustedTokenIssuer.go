@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/ssoadmin_trusted_token_issuer aws_ssoadmin_trusted_token_issuer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/ssoadmin_trusted_token_issuer aws_ssoadmin_trusted_token_issuer}.
 type SsoadminTrustedTokenIssuer interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -493,7 +493,7 @@ func (j *jsiiProxy_SsoadminTrustedTokenIssuer) TrustedTokenIssuerTypeInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/ssoadmin_trusted_token_issuer aws_ssoadmin_trusted_token_issuer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/ssoadmin_trusted_token_issuer aws_ssoadmin_trusted_token_issuer} Resource.
 func NewSsoadminTrustedTokenIssuer(scope constructs.Construct, id *string, config *SsoadminTrustedTokenIssuerConfig) SsoadminTrustedTokenIssuer {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewSsoadminTrustedTokenIssuer(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/ssoadmin_trusted_token_issuer aws_ssoadmin_trusted_token_issuer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/ssoadmin_trusted_token_issuer aws_ssoadmin_trusted_token_issuer} Resource.
 func NewSsoadminTrustedTokenIssuer_Override(s SsoadminTrustedTokenIssuer, scope constructs.Construct, id *string, config *SsoadminTrustedTokenIssuerConfig) {
 	_init_.Initialize()
 

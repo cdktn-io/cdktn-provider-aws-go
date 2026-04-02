@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/default_tags aws_default_tags}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/default_tags aws_default_tags}.
 type DataAwsDefaultTags interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsDefaultTags) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/default_tags aws_default_tags} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/default_tags aws_default_tags} Data Source.
 func NewDataAwsDefaultTags(scope constructs.Construct, id *string, config *DataAwsDefaultTagsConfig) DataAwsDefaultTags {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsDefaultTags(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/default_tags aws_default_tags} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/default_tags aws_default_tags} Data Source.
 func NewDataAwsDefaultTags_Override(d DataAwsDefaultTags, scope constructs.Construct, id *string, config *DataAwsDefaultTagsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/storagegateway_file_system_association aws_storagegateway_file_system_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/storagegateway_file_system_association aws_storagegateway_file_system_association}.
 type StoragegatewayFileSystemAssociation interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -566,7 +566,7 @@ func (j *jsiiProxy_StoragegatewayFileSystemAssociation) UsernameInput() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/storagegateway_file_system_association aws_storagegateway_file_system_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/storagegateway_file_system_association aws_storagegateway_file_system_association} Resource.
 func NewStoragegatewayFileSystemAssociation(scope constructs.Construct, id *string, config *StoragegatewayFileSystemAssociationConfig) StoragegatewayFileSystemAssociation {
 	_init_.Initialize()
 
@@ -584,7 +584,7 @@ func NewStoragegatewayFileSystemAssociation(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/storagegateway_file_system_association aws_storagegateway_file_system_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/storagegateway_file_system_association aws_storagegateway_file_system_association} Resource.
 func NewStoragegatewayFileSystemAssociation_Override(s StoragegatewayFileSystemAssociation, scope constructs.Construct, id *string, config *StoragegatewayFileSystemAssociationConfig) {
 	_init_.Initialize()
 

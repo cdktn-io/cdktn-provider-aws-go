@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/iam_account_password_policy aws_iam_account_password_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/iam_account_password_policy aws_iam_account_password_policy}.
 type IamAccountPasswordPolicy interface {
 	cdktn.TerraformResource
 	AllowUsersToChangePassword() interface{}
@@ -546,7 +546,7 @@ func (j *jsiiProxy_IamAccountPasswordPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/iam_account_password_policy aws_iam_account_password_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/iam_account_password_policy aws_iam_account_password_policy} Resource.
 func NewIamAccountPasswordPolicy(scope constructs.Construct, id *string, config *IamAccountPasswordPolicyConfig) IamAccountPasswordPolicy {
 	_init_.Initialize()
 
@@ -564,7 +564,7 @@ func NewIamAccountPasswordPolicy(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/iam_account_password_policy aws_iam_account_password_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/iam_account_password_policy aws_iam_account_password_policy} Resource.
 func NewIamAccountPasswordPolicy_Override(i IamAccountPasswordPolicy, scope constructs.Construct, id *string, config *IamAccountPasswordPolicyConfig) {
 	_init_.Initialize()
 

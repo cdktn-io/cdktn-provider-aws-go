@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/networkmanager_sites aws_networkmanager_sites}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/networkmanager_sites aws_networkmanager_sites}.
 type DataAwsNetworkmanagerSites interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataAwsNetworkmanagerSites) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/networkmanager_sites aws_networkmanager_sites} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/networkmanager_sites aws_networkmanager_sites} Data Source.
 func NewDataAwsNetworkmanagerSites(scope constructs.Construct, id *string, config *DataAwsNetworkmanagerSitesConfig) DataAwsNetworkmanagerSites {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewDataAwsNetworkmanagerSites(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/networkmanager_sites aws_networkmanager_sites} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/networkmanager_sites aws_networkmanager_sites} Data Source.
 func NewDataAwsNetworkmanagerSites_Override(d DataAwsNetworkmanagerSites, scope constructs.Construct, id *string, config *DataAwsNetworkmanagerSitesConfig) {
 	_init_.Initialize()
 

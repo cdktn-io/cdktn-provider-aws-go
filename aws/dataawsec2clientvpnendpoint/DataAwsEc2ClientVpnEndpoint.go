@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/ec2_client_vpn_endpoint aws_ec2_client_vpn_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/ec2_client_vpn_endpoint aws_ec2_client_vpn_endpoint}.
 type DataAwsEc2ClientVpnEndpoint interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -625,7 +625,7 @@ func (j *jsiiProxy_DataAwsEc2ClientVpnEndpoint) VpnPort() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/ec2_client_vpn_endpoint aws_ec2_client_vpn_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/ec2_client_vpn_endpoint aws_ec2_client_vpn_endpoint} Data Source.
 func NewDataAwsEc2ClientVpnEndpoint(scope constructs.Construct, id *string, config *DataAwsEc2ClientVpnEndpointConfig) DataAwsEc2ClientVpnEndpoint {
 	_init_.Initialize()
 
@@ -643,7 +643,7 @@ func NewDataAwsEc2ClientVpnEndpoint(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/ec2_client_vpn_endpoint aws_ec2_client_vpn_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/ec2_client_vpn_endpoint aws_ec2_client_vpn_endpoint} Data Source.
 func NewDataAwsEc2ClientVpnEndpoint_Override(d DataAwsEc2ClientVpnEndpoint, scope constructs.Construct, id *string, config *DataAwsEc2ClientVpnEndpointConfig) {
 	_init_.Initialize()
 

@@ -5,7 +5,7 @@ package sagemakermonitoringschedule
 
 
 type SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionMonitoringInputsBatchTransformInputDatasetFormatCsv struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/sagemaker_monitoring_schedule#header SagemakerMonitoringSchedule#header}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/sagemaker_monitoring_schedule#header SagemakerMonitoringSchedule#header}.
 	Header interface{} `field:"optional" json:"header" yaml:"header"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/notifications_notification_configuration aws_notifications_notification_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/notifications_notification_configuration aws_notifications_notification_configuration}.
 type NotificationsNotificationConfiguration interface {
 	cdktn.TerraformResource
 	AggregationDuration() *string
@@ -411,7 +411,7 @@ func (j *jsiiProxy_NotificationsNotificationConfiguration) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/notifications_notification_configuration aws_notifications_notification_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/notifications_notification_configuration aws_notifications_notification_configuration} Resource.
 func NewNotificationsNotificationConfiguration(scope constructs.Construct, id *string, config *NotificationsNotificationConfigurationConfig) NotificationsNotificationConfiguration {
 	_init_.Initialize()
 
@@ -429,7 +429,7 @@ func NewNotificationsNotificationConfiguration(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/notifications_notification_configuration aws_notifications_notification_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/notifications_notification_configuration aws_notifications_notification_configuration} Resource.
 func NewNotificationsNotificationConfiguration_Override(n NotificationsNotificationConfiguration, scope constructs.Construct, id *string, config *NotificationsNotificationConfigurationConfig) {
 	_init_.Initialize()
 

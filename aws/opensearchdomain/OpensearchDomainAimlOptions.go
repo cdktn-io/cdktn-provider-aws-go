@@ -7,15 +7,15 @@ package opensearchdomain
 type OpensearchDomainAimlOptions struct {
 	// natural_language_query_generation_options block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/opensearch_domain#natural_language_query_generation_options OpensearchDomain#natural_language_query_generation_options}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/opensearch_domain#natural_language_query_generation_options OpensearchDomain#natural_language_query_generation_options}
 	NaturalLanguageQueryGenerationOptions *OpensearchDomainAimlOptionsNaturalLanguageQueryGenerationOptions `field:"optional" json:"naturalLanguageQueryGenerationOptions" yaml:"naturalLanguageQueryGenerationOptions"`
 	// s3_vectors_engine block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/opensearch_domain#s3_vectors_engine OpensearchDomain#s3_vectors_engine}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/opensearch_domain#s3_vectors_engine OpensearchDomain#s3_vectors_engine}
 	S3VectorsEngine *OpensearchDomainAimlOptionsS3VectorsEngine `field:"optional" json:"s3VectorsEngine" yaml:"s3VectorsEngine"`
 	// serverless_vector_acceleration block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/opensearch_domain#serverless_vector_acceleration OpensearchDomain#serverless_vector_acceleration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/opensearch_domain#serverless_vector_acceleration OpensearchDomain#serverless_vector_acceleration}
 	ServerlessVectorAcceleration *OpensearchDomainAimlOptionsServerlessVectorAcceleration `field:"optional" json:"serverlessVectorAcceleration" yaml:"serverlessVectorAcceleration"`
 }
 

@@ -5,9 +5,9 @@ package bedrockagentcoregatewaytarget
 
 
 type BedrockagentcoreGatewayTargetTargetConfigurationMcpApiGatewayApiGatewayToolConfigurationToolFilter struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/bedrockagentcore_gateway_target#filter_path BedrockagentcoreGatewayTarget#filter_path}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/bedrockagentcore_gateway_target#filter_path BedrockagentcoreGatewayTarget#filter_path}.
 	FilterPath *string `field:"required" json:"filterPath" yaml:"filterPath"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/bedrockagentcore_gateway_target#methods BedrockagentcoreGatewayTarget#methods}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/bedrockagentcore_gateway_target#methods BedrockagentcoreGatewayTarget#methods}.
 	Methods *[]*string `field:"required" json:"methods" yaml:"methods"`
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAcco
 	return nil
 }
 
+func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelOutputReference) validatePutAdvancedPerformanceMetricsParameters(value *S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetrics) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelOutputReference) validatePutBucketLevelParameters(value *S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelBucketLevel) error {
 	return nil
 }

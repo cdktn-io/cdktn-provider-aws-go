@@ -214,6 +214,45 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetrics",
+		reflect.TypeOf((*S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetrics)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference",
+		reflect.TypeOf((*S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "enabled", GoGetter: "Enabled"},
+			_jsii_.MemberProperty{JsiiProperty: "enabledInput", GoGetter: "EnabledInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEnabled", GoMethod: "ResetEnabled"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelBucketLevel",
 		reflect.TypeOf((*S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelBucketLevel)(nil)).Elem(),
 	)
@@ -335,6 +374,45 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelBucketLevelAdvancedPerformanceMetrics",
+		reflect.TypeOf((*S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelBucketLevelAdvancedPerformanceMetrics)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelBucketLevelAdvancedPerformanceMetricsOutputReference",
+		reflect.TypeOf((*S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelBucketLevelAdvancedPerformanceMetricsOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "enabled", GoGetter: "Enabled"},
+			_jsii_.MemberProperty{JsiiProperty: "enabledInput", GoGetter: "EnabledInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEnabled", GoMethod: "ResetEnabled"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelBucketLevelAdvancedPerformanceMetricsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelBucketLevelDetailedStatusCodeMetrics",
 		reflect.TypeOf((*S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelBucketLevelDetailedStatusCodeMetrics)(nil)).Elem(),
 	)
@@ -383,6 +461,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "advancedCostOptimizationMetricsInput", GoGetter: "AdvancedCostOptimizationMetricsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "advancedDataProtectionMetrics", GoGetter: "AdvancedDataProtectionMetrics"},
 			_jsii_.MemberProperty{JsiiProperty: "advancedDataProtectionMetricsInput", GoGetter: "AdvancedDataProtectionMetricsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "advancedPerformanceMetrics", GoGetter: "AdvancedPerformanceMetrics"},
+			_jsii_.MemberProperty{JsiiProperty: "advancedPerformanceMetricsInput", GoGetter: "AdvancedPerformanceMetricsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -407,11 +487,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putActivityMetrics", GoMethod: "PutActivityMetrics"},
 			_jsii_.MemberMethod{JsiiMethod: "putAdvancedCostOptimizationMetrics", GoMethod: "PutAdvancedCostOptimizationMetrics"},
 			_jsii_.MemberMethod{JsiiMethod: "putAdvancedDataProtectionMetrics", GoMethod: "PutAdvancedDataProtectionMetrics"},
+			_jsii_.MemberMethod{JsiiMethod: "putAdvancedPerformanceMetrics", GoMethod: "PutAdvancedPerformanceMetrics"},
 			_jsii_.MemberMethod{JsiiMethod: "putDetailedStatusCodeMetrics", GoMethod: "PutDetailedStatusCodeMetrics"},
 			_jsii_.MemberMethod{JsiiMethod: "putPrefixLevel", GoMethod: "PutPrefixLevel"},
 			_jsii_.MemberMethod{JsiiMethod: "resetActivityMetrics", GoMethod: "ResetActivityMetrics"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAdvancedCostOptimizationMetrics", GoMethod: "ResetAdvancedCostOptimizationMetrics"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAdvancedDataProtectionMetrics", GoMethod: "ResetAdvancedDataProtectionMetrics"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAdvancedPerformanceMetrics", GoMethod: "ResetAdvancedPerformanceMetrics"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDetailedStatusCodeMetrics", GoMethod: "ResetDetailedStatusCodeMetrics"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPrefixLevel", GoMethod: "ResetPrefixLevel"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
@@ -601,6 +683,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "advancedCostOptimizationMetricsInput", GoGetter: "AdvancedCostOptimizationMetricsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "advancedDataProtectionMetrics", GoGetter: "AdvancedDataProtectionMetrics"},
 			_jsii_.MemberProperty{JsiiProperty: "advancedDataProtectionMetricsInput", GoGetter: "AdvancedDataProtectionMetricsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "advancedPerformanceMetrics", GoGetter: "AdvancedPerformanceMetrics"},
+			_jsii_.MemberProperty{JsiiProperty: "advancedPerformanceMetricsInput", GoGetter: "AdvancedPerformanceMetricsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketLevel", GoGetter: "BucketLevel"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketLevelInput", GoGetter: "BucketLevelInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -625,11 +709,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putActivityMetrics", GoMethod: "PutActivityMetrics"},
 			_jsii_.MemberMethod{JsiiMethod: "putAdvancedCostOptimizationMetrics", GoMethod: "PutAdvancedCostOptimizationMetrics"},
 			_jsii_.MemberMethod{JsiiMethod: "putAdvancedDataProtectionMetrics", GoMethod: "PutAdvancedDataProtectionMetrics"},
+			_jsii_.MemberMethod{JsiiMethod: "putAdvancedPerformanceMetrics", GoMethod: "PutAdvancedPerformanceMetrics"},
 			_jsii_.MemberMethod{JsiiMethod: "putBucketLevel", GoMethod: "PutBucketLevel"},
 			_jsii_.MemberMethod{JsiiMethod: "putDetailedStatusCodeMetrics", GoMethod: "PutDetailedStatusCodeMetrics"},
 			_jsii_.MemberMethod{JsiiMethod: "resetActivityMetrics", GoMethod: "ResetActivityMetrics"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAdvancedCostOptimizationMetrics", GoMethod: "ResetAdvancedCostOptimizationMetrics"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAdvancedDataProtectionMetrics", GoMethod: "ResetAdvancedDataProtectionMetrics"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAdvancedPerformanceMetrics", GoMethod: "ResetAdvancedPerformanceMetrics"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDetailedStatusCodeMetrics", GoMethod: "ResetDetailedStatusCodeMetrics"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},

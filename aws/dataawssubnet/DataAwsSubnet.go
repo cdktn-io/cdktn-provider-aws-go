@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/subnet aws_subnet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/subnet aws_subnet}.
 type DataAwsSubnet interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -703,7 +703,7 @@ func (j *jsiiProxy_DataAwsSubnet) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/subnet aws_subnet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/subnet aws_subnet} Data Source.
 func NewDataAwsSubnet(scope constructs.Construct, id *string, config *DataAwsSubnetConfig) DataAwsSubnet {
 	_init_.Initialize()
 
@@ -721,7 +721,7 @@ func NewDataAwsSubnet(scope constructs.Construct, id *string, config *DataAwsSub
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/subnet aws_subnet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/subnet aws_subnet} Data Source.
 func NewDataAwsSubnet_Override(d DataAwsSubnet, scope constructs.Construct, id *string, config *DataAwsSubnetConfig) {
 	_init_.Initialize()
 

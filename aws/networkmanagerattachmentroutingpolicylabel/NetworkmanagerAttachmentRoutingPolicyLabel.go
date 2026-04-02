@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/networkmanager_attachment_routing_policy_label aws_networkmanager_attachment_routing_policy_label}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/networkmanager_attachment_routing_policy_label aws_networkmanager_attachment_routing_policy_label}.
 type NetworkmanagerAttachmentRoutingPolicyLabel interface {
 	cdktn.TerraformResource
 	AttachmentId() *string
@@ -364,7 +364,7 @@ func (j *jsiiProxy_NetworkmanagerAttachmentRoutingPolicyLabel) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/networkmanager_attachment_routing_policy_label aws_networkmanager_attachment_routing_policy_label} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/networkmanager_attachment_routing_policy_label aws_networkmanager_attachment_routing_policy_label} Resource.
 func NewNetworkmanagerAttachmentRoutingPolicyLabel(scope constructs.Construct, id *string, config *NetworkmanagerAttachmentRoutingPolicyLabelConfig) NetworkmanagerAttachmentRoutingPolicyLabel {
 	_init_.Initialize()
 
@@ -382,7 +382,7 @@ func NewNetworkmanagerAttachmentRoutingPolicyLabel(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/networkmanager_attachment_routing_policy_label aws_networkmanager_attachment_routing_policy_label} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/networkmanager_attachment_routing_policy_label aws_networkmanager_attachment_routing_policy_label} Resource.
 func NewNetworkmanagerAttachmentRoutingPolicyLabel_Override(n NetworkmanagerAttachmentRoutingPolicyLabel, scope constructs.Construct, id *string, config *NetworkmanagerAttachmentRoutingPolicyLabelConfig) {
 	_init_.Initialize()
 

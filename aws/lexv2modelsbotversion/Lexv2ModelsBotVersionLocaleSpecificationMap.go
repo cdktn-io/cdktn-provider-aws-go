@@ -22,11 +22,13 @@ type Lexv2ModelsBotVersionLocaleSpecificationMap interface {
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
-	// The attribute on the parent resource this class is referencing.
+	// Experimental.
 	TerraformAttribute() *string
+	// Experimental.
 	SetTerraformAttribute(val *string)
-	// The parent resource.
+	// Experimental.
 	TerraformResource() cdktn.IInterpolatingParent
+	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string

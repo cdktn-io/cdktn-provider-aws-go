@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/lbs aws_lbs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/lbs aws_lbs}.
 type DataAwsLbs interface {
 	cdktn.TerraformDataSource
 	Arns() *[]*string
@@ -333,7 +333,7 @@ func (j *jsiiProxy_DataAwsLbs) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/lbs aws_lbs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/lbs aws_lbs} Data Source.
 func NewDataAwsLbs(scope constructs.Construct, id *string, config *DataAwsLbsConfig) DataAwsLbs {
 	_init_.Initialize()
 
@@ -351,7 +351,7 @@ func NewDataAwsLbs(scope constructs.Construct, id *string, config *DataAwsLbsCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/lbs aws_lbs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/lbs aws_lbs} Data Source.
 func NewDataAwsLbs_Override(d DataAwsLbs, scope constructs.Construct, id *string, config *DataAwsLbsConfig) {
 	_init_.Initialize()
 

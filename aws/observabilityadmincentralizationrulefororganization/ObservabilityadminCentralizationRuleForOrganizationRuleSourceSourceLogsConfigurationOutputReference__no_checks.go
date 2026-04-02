@@ -59,6 +59,10 @@ func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSource
 	return nil
 }
 
+func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSourceSourceLogsConfigurationOutputReference) validateSetDataSourceSelectionCriteriaParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSourceSourceLogsConfigurationOutputReference) validateSetEncryptedLogGroupStrategyParameters(val *string) error {
 	return nil
 }

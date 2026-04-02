@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/appstream_user_stack_association aws_appstream_user_stack_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/appstream_user_stack_association aws_appstream_user_stack_association}.
 type AppstreamUserStackAssociation interface {
 	cdktn.TerraformResource
 	AuthenticationType() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_AppstreamUserStackAssociation) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/appstream_user_stack_association aws_appstream_user_stack_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/appstream_user_stack_association aws_appstream_user_stack_association} Resource.
 func NewAppstreamUserStackAssociation(scope constructs.Construct, id *string, config *AppstreamUserStackAssociationConfig) AppstreamUserStackAssociation {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewAppstreamUserStackAssociation(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/appstream_user_stack_association aws_appstream_user_stack_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/appstream_user_stack_association aws_appstream_user_stack_association} Resource.
 func NewAppstreamUserStackAssociation_Override(a AppstreamUserStackAssociation, scope constructs.Construct, id *string, config *AppstreamUserStackAssociationConfig) {
 	_init_.Initialize()
 

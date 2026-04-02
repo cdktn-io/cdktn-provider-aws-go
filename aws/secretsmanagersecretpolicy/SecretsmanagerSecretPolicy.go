@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/secretsmanager_secret_policy aws_secretsmanager_secret_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/secretsmanager_secret_policy aws_secretsmanager_secret_policy}.
 type SecretsmanagerSecretPolicy interface {
 	cdktn.TerraformResource
 	BlockPublicPolicy() interface{}
@@ -413,7 +413,7 @@ func (j *jsiiProxy_SecretsmanagerSecretPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/secretsmanager_secret_policy aws_secretsmanager_secret_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/secretsmanager_secret_policy aws_secretsmanager_secret_policy} Resource.
 func NewSecretsmanagerSecretPolicy(scope constructs.Construct, id *string, config *SecretsmanagerSecretPolicyConfig) SecretsmanagerSecretPolicy {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewSecretsmanagerSecretPolicy(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/secretsmanager_secret_policy aws_secretsmanager_secret_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/secretsmanager_secret_policy aws_secretsmanager_secret_policy} Resource.
 func NewSecretsmanagerSecretPolicy_Override(s SecretsmanagerSecretPolicy, scope constructs.Construct, id *string, config *SecretsmanagerSecretPolicyConfig) {
 	_init_.Initialize()
 

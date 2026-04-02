@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/db_proxy_default_target_group aws_db_proxy_default_target_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/db_proxy_default_target_group aws_db_proxy_default_target_group}.
 type DbProxyDefaultTargetGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_DbProxyDefaultTargetGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/db_proxy_default_target_group aws_db_proxy_default_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/db_proxy_default_target_group aws_db_proxy_default_target_group} Resource.
 func NewDbProxyDefaultTargetGroup(scope constructs.Construct, id *string, config *DbProxyDefaultTargetGroupConfig) DbProxyDefaultTargetGroup {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewDbProxyDefaultTargetGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/db_proxy_default_target_group aws_db_proxy_default_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/db_proxy_default_target_group aws_db_proxy_default_target_group} Resource.
 func NewDbProxyDefaultTargetGroup_Override(d DbProxyDefaultTargetGroup, scope constructs.Construct, id *string, config *DbProxyDefaultTargetGroupConfig) {
 	_init_.Initialize()
 

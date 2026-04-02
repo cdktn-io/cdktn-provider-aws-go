@@ -42,6 +42,8 @@ type PrometheusScraperSourceOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Vpc() PrometheusScraperSourceVpcList
+	VpcInput() interface{}
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -67,7 +69,9 @@ type PrometheusScraperSourceOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutEks(value interface{})
+	PutVpc(value interface{})
 	ResetEks()
+	ResetVpc()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -168,6 +172,26 @@ func (j *jsiiProxy_PrometheusScraperSourceOutputReference) TerraformResource() c
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrometheusScraperSourceOutputReference) Vpc() PrometheusScraperSourceVpcList {
+	var returns PrometheusScraperSourceVpcList
+	_jsii_.Get(
+		j,
+		"vpc",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrometheusScraperSourceOutputReference) VpcInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"vpcInput",
 		&returns,
 	)
 	return returns
@@ -453,10 +477,29 @@ func (p *jsiiProxy_PrometheusScraperSourceOutputReference) PutEks(value interfac
 	)
 }
 
+func (p *jsiiProxy_PrometheusScraperSourceOutputReference) PutVpc(value interface{}) {
+	if err := p.validatePutVpcParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"putVpc",
+		[]interface{}{value},
+	)
+}
+
 func (p *jsiiProxy_PrometheusScraperSourceOutputReference) ResetEks() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetEks",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PrometheusScraperSourceOutputReference) ResetVpc() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetVpc",
 		nil, // no parameters
 	)
 }

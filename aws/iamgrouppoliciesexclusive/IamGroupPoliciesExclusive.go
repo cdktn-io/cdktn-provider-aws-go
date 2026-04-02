@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/iam_group_policies_exclusive aws_iam_group_policies_exclusive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/iam_group_policies_exclusive aws_iam_group_policies_exclusive}.
 type IamGroupPoliciesExclusive interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_IamGroupPoliciesExclusive) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/iam_group_policies_exclusive aws_iam_group_policies_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/iam_group_policies_exclusive aws_iam_group_policies_exclusive} Resource.
 func NewIamGroupPoliciesExclusive(scope constructs.Construct, id *string, config *IamGroupPoliciesExclusiveConfig) IamGroupPoliciesExclusive {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewIamGroupPoliciesExclusive(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/iam_group_policies_exclusive aws_iam_group_policies_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/iam_group_policies_exclusive aws_iam_group_policies_exclusive} Resource.
 func NewIamGroupPoliciesExclusive_Override(i IamGroupPoliciesExclusive, scope constructs.Construct, id *string, config *IamGroupPoliciesExclusiveConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/s3vectors_vector_bucket_policy aws_s3vectors_vector_bucket_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/s3vectors_vector_bucket_policy aws_s3vectors_vector_bucket_policy}.
 type S3VectorsVectorBucketPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -365,7 +365,7 @@ func (j *jsiiProxy_S3VectorsVectorBucketPolicy) VectorBucketArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/s3vectors_vector_bucket_policy aws_s3vectors_vector_bucket_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/s3vectors_vector_bucket_policy aws_s3vectors_vector_bucket_policy} Resource.
 func NewS3VectorsVectorBucketPolicy(scope constructs.Construct, id *string, config *S3VectorsVectorBucketPolicyConfig) S3VectorsVectorBucketPolicy {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewS3VectorsVectorBucketPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/s3vectors_vector_bucket_policy aws_s3vectors_vector_bucket_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/s3vectors_vector_bucket_policy aws_s3vectors_vector_bucket_policy} Resource.
 func NewS3VectorsVectorBucketPolicy_Override(s S3VectorsVectorBucketPolicy, scope constructs.Construct, id *string, config *S3VectorsVectorBucketPolicyConfig) {
 	_init_.Initialize()
 

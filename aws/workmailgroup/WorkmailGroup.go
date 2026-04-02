@@ -1,0 +1,1083 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package workmailgroup
+
+import (
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+
+	"github.com/aws/constructs-go/constructs/v10"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/workmailgroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/workmail_group aws_workmail_group}.
+type WorkmailGroup interface {
+	cdktn.TerraformResource
+	// Experimental.
+	CdktfStack() cdktn.TerraformStack
+	// Experimental.
+	Connection() interface{}
+	// Experimental.
+	SetConnection(val interface{})
+	// Experimental.
+	ConstructNodeMetadata() *map[string]interface{}
+	// Experimental.
+	Count() interface{}
+	// Experimental.
+	SetCount(val interface{})
+	// Experimental.
+	DependsOn() *[]*string
+	// Experimental.
+	SetDependsOn(val *[]*string)
+	DisabledDate() *string
+	Email() *string
+	SetEmail(val *string)
+	EmailInput() *string
+	EnabledDate() *string
+	// Experimental.
+	ForEach() cdktn.ITerraformIterator
+	// Experimental.
+	SetForEach(val cdktn.ITerraformIterator)
+	// Experimental.
+	Fqn() *string
+	// Experimental.
+	FriendlyUniqueId() *string
+	GroupId() *string
+	HiddenFromGlobalAddressList() interface{}
+	SetHiddenFromGlobalAddressList(val interface{})
+	HiddenFromGlobalAddressListInput() interface{}
+	// Experimental.
+	Lifecycle() *cdktn.TerraformResourceLifecycle
+	// Experimental.
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	Name() *string
+	SetName(val *string)
+	NameInput() *string
+	// The tree node.
+	Node() constructs.Node
+	OrganizationId() *string
+	SetOrganizationId(val *string)
+	OrganizationIdInput() *string
+	// Experimental.
+	Provider() cdktn.TerraformProvider
+	// Experimental.
+	SetProvider(val cdktn.TerraformProvider)
+	// Experimental.
+	Provisioners() *[]interface{}
+	// Experimental.
+	SetProvisioners(val *[]interface{})
+	// Experimental.
+	RawOverrides() interface{}
+	Region() *string
+	SetRegion(val *string)
+	RegionInput() *string
+	State() *string
+	// Experimental.
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	// Experimental.
+	TerraformMetaArguments() *map[string]interface{}
+	// Experimental.
+	TerraformResourceType() *string
+	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
+	// Experimental.
+	AddMoveTarget(moveTarget *string)
+	// Experimental.
+	AddOverride(path *string, value interface{})
+	// Experimental.
+	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+	// Experimental.
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Experimental.
+	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+	// Experimental.
+	GetListAttribute(terraformAttribute *string) *[]*string
+	// Experimental.
+	GetNumberAttribute(terraformAttribute *string) *float64
+	// Experimental.
+	GetNumberListAttribute(terraformAttribute *string) *[]*float64
+	// Experimental.
+	GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64
+	// Experimental.
+	GetStringAttribute(terraformAttribute *string) *string
+	// Experimental.
+	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+	// Experimental.
+	HasResourceMove() interface{}
+	// Experimental.
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
+	// Experimental.
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Move the resource corresponding to "id" to this resource.
+	//
+	// Note that the resource being moved from must be marked as moved using it's instance function.
+	// Experimental.
+	MoveFromId(id *string)
+	// Moves this resource to the target resource given by moveTarget.
+	// Experimental.
+	MoveTo(moveTarget *string, index interface{})
+	// Moves this resource to the resource corresponding to "id".
+	// Experimental.
+	MoveToId(id *string)
+	// Overrides the auto-generated logical ID with a specific ID.
+	// Experimental.
+	OverrideLogicalId(newLogicalId *string)
+	ResetHiddenFromGlobalAddressList()
+	// Resets a previously passed logical Id to use the auto-generated logical id again.
+	// Experimental.
+	ResetOverrideLogicalId()
+	ResetRegion()
+	SynthesizeAttributes() *map[string]interface{}
+	SynthesizeHclAttributes() *map[string]interface{}
+	// Experimental.
+	ToHclTerraform() interface{}
+	// Experimental.
+	ToMetadata() interface{}
+	// Returns a string representation of this construct.
+	ToString() *string
+	// Adds this resource to the terraform JSON output.
+	// Experimental.
+	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
+}
+
+// The jsii proxy struct for WorkmailGroup
+type jsiiProxy_WorkmailGroup struct {
+	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_WorkmailGroup) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
+	_jsii_.Get(
+		j,
+		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) Connection() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"connection",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) ConstructNodeMetadata() *map[string]interface{} {
+	var returns *map[string]interface{}
+	_jsii_.Get(
+		j,
+		"constructNodeMetadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) Count() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) DependsOn() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) DisabledDate() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"disabledDate",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) Email() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"email",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) EmailInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"emailInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) EnabledDate() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"enabledDate",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
+	_jsii_.Get(
+		j,
+		"forEach",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) Fqn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) FriendlyUniqueId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"friendlyUniqueId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) GroupId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"groupId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) HiddenFromGlobalAddressList() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"hiddenFromGlobalAddressList",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) HiddenFromGlobalAddressListInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"hiddenFromGlobalAddressListInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
+	_jsii_.Get(
+		j,
+		"lifecycle",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) Name() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"name",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) NameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"nameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) Node() constructs.Node {
+	var returns constructs.Node
+	_jsii_.Get(
+		j,
+		"node",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) OrganizationId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"organizationId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) OrganizationIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"organizationIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
+	_jsii_.Get(
+		j,
+		"provider",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) Provisioners() *[]interface{} {
+	var returns *[]interface{}
+	_jsii_.Get(
+		j,
+		"provisioners",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) RawOverrides() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"rawOverrides",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) Region() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"region",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) RegionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"regionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) State() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"state",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
+	_jsii_.Get(
+		j,
+		"terraformGeneratorMetadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) TerraformMetaArguments() *map[string]interface{} {
+	var returns *map[string]interface{}
+	_jsii_.Get(
+		j,
+		"terraformMetaArguments",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkmailGroup) TerraformResourceType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"terraformResourceType",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/workmail_group aws_workmail_group} Resource.
+func NewWorkmailGroup(scope constructs.Construct, id *string, config *WorkmailGroupConfig) WorkmailGroup {
+	_init_.Initialize()
+
+	if err := validateNewWorkmailGroupParameters(scope, id, config); err != nil {
+		panic(err)
+	}
+	j := jsiiProxy_WorkmailGroup{}
+
+	_jsii_.Create(
+		"@cdktn/provider-aws.workmailGroup.WorkmailGroup",
+		[]interface{}{scope, id, config},
+		&j,
+	)
+
+	return &j
+}
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/workmail_group aws_workmail_group} Resource.
+func NewWorkmailGroup_Override(w WorkmailGroup, scope constructs.Construct, id *string, config *WorkmailGroupConfig) {
+	_init_.Initialize()
+
+	_jsii_.Create(
+		"@cdktn/provider-aws.workmailGroup.WorkmailGroup",
+		[]interface{}{scope, id, config},
+		w,
+	)
+}
+
+func (j *jsiiProxy_WorkmailGroup)SetConnection(val interface{}) {
+	if err := j.validateSetConnectionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"connection",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WorkmailGroup)SetCount(val interface{}) {
+	if err := j.validateSetCountParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WorkmailGroup)SetDependsOn(val *[]*string) {
+	_jsii_.Set(
+		j,
+		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WorkmailGroup)SetEmail(val *string) {
+	if err := j.validateSetEmailParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"email",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WorkmailGroup)SetForEach(val cdktn.ITerraformIterator) {
+	_jsii_.Set(
+		j,
+		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WorkmailGroup)SetHiddenFromGlobalAddressList(val interface{}) {
+	if err := j.validateSetHiddenFromGlobalAddressListParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"hiddenFromGlobalAddressList",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WorkmailGroup)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
+	if err := j.validateSetLifecycleParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WorkmailGroup)SetName(val *string) {
+	if err := j.validateSetNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WorkmailGroup)SetOrganizationId(val *string) {
+	if err := j.validateSetOrganizationIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"organizationId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WorkmailGroup)SetProvider(val cdktn.TerraformProvider) {
+	_jsii_.Set(
+		j,
+		"provider",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WorkmailGroup)SetProvisioners(val *[]interface{}) {
+	if err := j.validateSetProvisionersParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WorkmailGroup)SetRegion(val *string) {
+	if err := j.validateSetRegionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"region",
+		val,
+	)
+}
+
+// Generates CDKTN code for importing a WorkmailGroup resource upon running "cdktn plan <stack-name>".
+func WorkmailGroup_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
+	_init_.Initialize()
+
+	if err := validateWorkmailGroup_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
+		panic(err)
+	}
+	var returns cdktn.ImportableResource
+
+	_jsii_.StaticInvoke(
+		"@cdktn/provider-aws.workmailGroup.WorkmailGroup",
+		"generateConfigForImport",
+		[]interface{}{scope, importToId, importFromId, provider},
+		&returns,
+	)
+
+	return returns
+}
+
+// Checks if `x` is a construct.
+//
+// Use this method instead of `instanceof` to properly detect `Construct`
+// instances, even when the construct library is symlinked.
+//
+// Explanation: in JavaScript, multiple copies of the `constructs` library on
+// disk are seen as independent, completely different libraries. As a
+// consequence, the class `Construct` in each copy of the `constructs` library
+// is seen as a different class, and an instance of one class will not test as
+// `instanceof` the other class. `npm install` will not create installations
+// like this, but users may manually symlink construct libraries together or
+// use a monorepo tool: in those cases, multiple copies of the `constructs`
+// library can be accidentally installed, and `instanceof` will behave
+// unpredictably. It is safest to avoid using `instanceof`, and using
+// this type-testing method instead.
+//
+// Returns: true if `x` is an object created from a class which extends `Construct`.
+func WorkmailGroup_IsConstruct(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateWorkmailGroup_IsConstructParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktn/provider-aws.workmailGroup.WorkmailGroup",
+		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func WorkmailGroup_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateWorkmailGroup_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktn/provider-aws.workmailGroup.WorkmailGroup",
+		"isTerraformElement",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func WorkmailGroup_IsTerraformResource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateWorkmailGroup_IsTerraformResourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktn/provider-aws.workmailGroup.WorkmailGroup",
+		"isTerraformResource",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+func WorkmailGroup_TfResourceType() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdktn/provider-aws.workmailGroup.WorkmailGroup",
+		"tfResourceType",
+		&returns,
+	)
+	return returns
+}
+
+func (w *jsiiProxy_WorkmailGroup) AddMoveTarget(moveTarget *string) {
+	if err := w.validateAddMoveTargetParameters(moveTarget); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"addMoveTarget",
+		[]interface{}{moveTarget},
+	)
+}
+
+func (w *jsiiProxy_WorkmailGroup) AddOverride(path *string, value interface{}) {
+	if err := w.validateAddOverrideParameters(path, value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"addOverride",
+		[]interface{}{path, value},
+	)
+}
+
+func (w *jsiiProxy_WorkmailGroup) GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{} {
+	if err := w.validateGetAnyMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		w,
+		"getAnyMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkmailGroup) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		w,
+		"getBooleanAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkmailGroup) GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool {
+	if err := w.validateGetBooleanMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*bool
+
+	_jsii_.Invoke(
+		w,
+		"getBooleanMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkmailGroup) GetListAttribute(terraformAttribute *string) *[]*string {
+	if err := w.validateGetListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*string
+
+	_jsii_.Invoke(
+		w,
+		"getListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkmailGroup) GetNumberAttribute(terraformAttribute *string) *float64 {
+	if err := w.validateGetNumberAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *float64
+
+	_jsii_.Invoke(
+		w,
+		"getNumberAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkmailGroup) GetNumberListAttribute(terraformAttribute *string) *[]*float64 {
+	if err := w.validateGetNumberListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*float64
+
+	_jsii_.Invoke(
+		w,
+		"getNumberListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkmailGroup) GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64 {
+	if err := w.validateGetNumberMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*float64
+
+	_jsii_.Invoke(
+		w,
+		"getNumberMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkmailGroup) GetStringAttribute(terraformAttribute *string) *string {
+	if err := w.validateGetStringAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *string
+
+	_jsii_.Invoke(
+		w,
+		"getStringAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkmailGroup) GetStringMapAttribute(terraformAttribute *string) *map[string]*string {
+	if err := w.validateGetStringMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*string
+
+	_jsii_.Invoke(
+		w,
+		"getStringMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkmailGroup) HasResourceMove() interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		w,
+		"hasResourceMove",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkmailGroup) ImportFrom(id *string, provider cdktn.TerraformProvider) {
+	if err := w.validateImportFromParameters(id); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"importFrom",
+		[]interface{}{id, provider},
+	)
+}
+
+func (w *jsiiProxy_WorkmailGroup) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		w,
+		"interpolationForAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkmailGroup) MoveFromId(id *string) {
+	if err := w.validateMoveFromIdParameters(id); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"moveFromId",
+		[]interface{}{id},
+	)
+}
+
+func (w *jsiiProxy_WorkmailGroup) MoveTo(moveTarget *string, index interface{}) {
+	if err := w.validateMoveToParameters(moveTarget, index); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"moveTo",
+		[]interface{}{moveTarget, index},
+	)
+}
+
+func (w *jsiiProxy_WorkmailGroup) MoveToId(id *string) {
+	if err := w.validateMoveToIdParameters(id); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"moveToId",
+		[]interface{}{id},
+	)
+}
+
+func (w *jsiiProxy_WorkmailGroup) OverrideLogicalId(newLogicalId *string) {
+	if err := w.validateOverrideLogicalIdParameters(newLogicalId); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"overrideLogicalId",
+		[]interface{}{newLogicalId},
+	)
+}
+
+func (w *jsiiProxy_WorkmailGroup) ResetHiddenFromGlobalAddressList() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetHiddenFromGlobalAddressList",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_WorkmailGroup) ResetOverrideLogicalId() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_WorkmailGroup) ResetRegion() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_WorkmailGroup) SynthesizeAttributes() *map[string]interface{} {
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		w,
+		"synthesizeAttributes",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkmailGroup) SynthesizeHclAttributes() *map[string]interface{} {
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		w,
+		"synthesizeHclAttributes",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkmailGroup) ToHclTerraform() interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		w,
+		"toHclTerraform",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkmailGroup) ToMetadata() interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		w,
+		"toMetadata",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkmailGroup) ToString() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		w,
+		"toString",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkmailGroup) ToTerraform() interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		w,
+		"toTerraform",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkmailGroup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
+		&returns,
+	)
+
+	return returns
+}
+

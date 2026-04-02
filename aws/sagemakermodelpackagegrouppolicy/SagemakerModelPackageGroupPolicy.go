@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/sagemaker_model_package_group_policy aws_sagemaker_model_package_group_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/sagemaker_model_package_group_policy aws_sagemaker_model_package_group_policy}.
 type SagemakerModelPackageGroupPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_SagemakerModelPackageGroupPolicy) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/sagemaker_model_package_group_policy aws_sagemaker_model_package_group_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/sagemaker_model_package_group_policy aws_sagemaker_model_package_group_policy} Resource.
 func NewSagemakerModelPackageGroupPolicy(scope constructs.Construct, id *string, config *SagemakerModelPackageGroupPolicyConfig) SagemakerModelPackageGroupPolicy {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewSagemakerModelPackageGroupPolicy(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/sagemaker_model_package_group_policy aws_sagemaker_model_package_group_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/sagemaker_model_package_group_policy aws_sagemaker_model_package_group_policy} Resource.
 func NewSagemakerModelPackageGroupPolicy_Override(s SagemakerModelPackageGroupPolicy, scope constructs.Construct, id *string, config *SagemakerModelPackageGroupPolicyConfig) {
 	_init_.Initialize()
 

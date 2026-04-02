@@ -51,6 +51,10 @@ func (p *jsiiProxy_PrometheusScraperSourceOutputReference) validatePutEksParamet
 	return nil
 }
 
+func (p *jsiiProxy_PrometheusScraperSourceOutputReference) validatePutVpcParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PrometheusScraperSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

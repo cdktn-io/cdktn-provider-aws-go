@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/emr_supported_instance_types aws_emr_supported_instance_types}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/emr_supported_instance_types aws_emr_supported_instance_types}.
 type DataAwsEmrSupportedInstanceTypes interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsEmrSupportedInstanceTypes) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/emr_supported_instance_types aws_emr_supported_instance_types} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/emr_supported_instance_types aws_emr_supported_instance_types} Data Source.
 func NewDataAwsEmrSupportedInstanceTypes(scope constructs.Construct, id *string, config *DataAwsEmrSupportedInstanceTypesConfig) DataAwsEmrSupportedInstanceTypes {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsEmrSupportedInstanceTypes(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/data-sources/emr_supported_instance_types aws_emr_supported_instance_types} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/emr_supported_instance_types aws_emr_supported_instance_types} Data Source.
 func NewDataAwsEmrSupportedInstanceTypes_Override(d DataAwsEmrSupportedInstanceTypes, scope constructs.Construct, id *string, config *DataAwsEmrSupportedInstanceTypesConfig) {
 	_init_.Initialize()
 

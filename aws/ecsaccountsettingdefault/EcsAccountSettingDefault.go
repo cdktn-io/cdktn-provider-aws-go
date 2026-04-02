@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/ecs_account_setting_default aws_ecs_account_setting_default}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/ecs_account_setting_default aws_ecs_account_setting_default}.
 type EcsAccountSettingDefault interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_EcsAccountSettingDefault) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/ecs_account_setting_default aws_ecs_account_setting_default} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/ecs_account_setting_default aws_ecs_account_setting_default} Resource.
 func NewEcsAccountSettingDefault(scope constructs.Construct, id *string, config *EcsAccountSettingDefaultConfig) EcsAccountSettingDefault {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewEcsAccountSettingDefault(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/ecs_account_setting_default aws_ecs_account_setting_default} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/ecs_account_setting_default aws_ecs_account_setting_default} Resource.
 func NewEcsAccountSettingDefault_Override(e EcsAccountSettingDefault, scope constructs.Construct, id *string, config *EcsAccountSettingDefaultConfig) {
 	_init_.Initialize()
 

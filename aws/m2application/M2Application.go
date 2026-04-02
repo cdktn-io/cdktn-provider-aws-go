@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/m2_application aws_m2_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/m2_application aws_m2_application}.
 type M2Application interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -564,7 +564,7 @@ func (j *jsiiProxy_M2Application) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/m2_application aws_m2_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/m2_application aws_m2_application} Resource.
 func NewM2Application(scope constructs.Construct, id *string, config *M2ApplicationConfig) M2Application {
 	_init_.Initialize()
 
@@ -582,7 +582,7 @@ func NewM2Application(scope constructs.Construct, id *string, config *M2Applicat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.38.0/docs/resources/m2_application aws_m2_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/m2_application aws_m2_application} Resource.
 func NewM2Application_Override(m M2Application, scope constructs.Construct, id *string, config *M2ApplicationConfig) {
 	_init_.Initialize()
 

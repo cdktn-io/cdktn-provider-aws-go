@@ -1,0 +1,81 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package s3controlstoragelensconfiguration
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference) validateSetEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference) validateSetInternalValueParameters(val *S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetrics) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewS3ControlStorageLensConfigurationStorageLensConfigurationAccountLevelAdvancedPerformanceMetricsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+
