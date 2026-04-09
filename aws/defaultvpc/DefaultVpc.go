@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/default_vpc aws_default_vpc}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/default_vpc aws_default_vpc}.
 type DefaultVpc interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -728,7 +728,7 @@ func (j *jsiiProxy_DefaultVpc) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/default_vpc aws_default_vpc} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/default_vpc aws_default_vpc} Resource.
 func NewDefaultVpc(scope constructs.Construct, id *string, config *DefaultVpcConfig) DefaultVpc {
 	_init_.Initialize()
 
@@ -746,7 +746,7 @@ func NewDefaultVpc(scope constructs.Construct, id *string, config *DefaultVpcCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/default_vpc aws_default_vpc} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/default_vpc aws_default_vpc} Resource.
 func NewDefaultVpc_Override(d DefaultVpc, scope constructs.Construct, id *string, config *DefaultVpcConfig) {
 	_init_.Initialize()
 

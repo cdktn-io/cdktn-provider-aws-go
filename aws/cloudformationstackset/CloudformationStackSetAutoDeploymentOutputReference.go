@@ -28,6 +28,9 @@ type CloudformationStackSetAutoDeploymentOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DependsOnStackSets() *[]*string
+	SetDependsOnStackSets(val *[]*string)
+	DependsOnStackSetsInput() *[]*string
 	Enabled() interface{}
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
@@ -70,6 +73,7 @@ type CloudformationStackSetAutoDeploymentOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetDependsOnStackSets()
 	ResetEnabled()
 	ResetRetainStacksOnAccountRemoval()
 	// Produce the Token's value at resolution time.
@@ -112,6 +116,26 @@ func (j *jsiiProxy_CloudformationStackSetAutoDeploymentOutputReference) Creation
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudformationStackSetAutoDeploymentOutputReference) DependsOnStackSets() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"dependsOnStackSets",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudformationStackSetAutoDeploymentOutputReference) DependsOnStackSetsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"dependsOnStackSetsInput",
 		&returns,
 	)
 	return returns
@@ -243,6 +267,17 @@ func (j *jsiiProxy_CloudformationStackSetAutoDeploymentOutputReference)SetComple
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudformationStackSetAutoDeploymentOutputReference)SetDependsOnStackSets(val *[]*string) {
+	if err := j.validateSetDependsOnStackSetsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"dependsOnStackSets",
 		val,
 	)
 }
@@ -486,6 +521,14 @@ func (c *jsiiProxy_CloudformationStackSetAutoDeploymentOutputReference) Interpol
 	)
 
 	return returns
+}
+
+func (c *jsiiProxy_CloudformationStackSetAutoDeploymentOutputReference) ResetDependsOnStackSets() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDependsOnStackSets",
+		nil, // no parameters
+	)
 }
 
 func (c *jsiiProxy_CloudformationStackSetAutoDeploymentOutputReference) ResetEnabled() {

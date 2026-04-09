@@ -32,6 +32,9 @@ type MskClusterBrokerNodeGroupInfoConnectivityInfoOutputReference interface {
 	Fqn() *string
 	InternalValue() *MskClusterBrokerNodeGroupInfoConnectivityInfo
 	SetInternalValue(val *MskClusterBrokerNodeGroupInfoConnectivityInfo)
+	NetworkType() *string
+	SetNetworkType(val *string)
+	NetworkTypeInput() *string
 	PublicAccess() MskClusterBrokerNodeGroupInfoConnectivityInfoPublicAccessOutputReference
 	PublicAccessInput() *MskClusterBrokerNodeGroupInfoConnectivityInfoPublicAccess
 	// Experimental.
@@ -70,6 +73,7 @@ type MskClusterBrokerNodeGroupInfoConnectivityInfoOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutPublicAccess(value *MskClusterBrokerNodeGroupInfoConnectivityInfoPublicAccess)
 	PutVpcConnectivity(value *MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivity)
+	ResetNetworkType()
 	ResetPublicAccess()
 	ResetVpcConnectivity()
 	// Produce the Token's value at resolution time.
@@ -132,6 +136,26 @@ func (j *jsiiProxy_MskClusterBrokerNodeGroupInfoConnectivityInfoOutputReference)
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MskClusterBrokerNodeGroupInfoConnectivityInfoOutputReference) NetworkType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MskClusterBrokerNodeGroupInfoConnectivityInfoOutputReference) NetworkTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkTypeInput",
 		&returns,
 	)
 	return returns
@@ -254,6 +278,17 @@ func (j *jsiiProxy_MskClusterBrokerNodeGroupInfoConnectivityInfoOutputReference)
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MskClusterBrokerNodeGroupInfoConnectivityInfoOutputReference)SetNetworkType(val *string) {
+	if err := j.validateSetNetworkTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"networkType",
 		val,
 	)
 }
@@ -485,6 +520,14 @@ func (m *jsiiProxy_MskClusterBrokerNodeGroupInfoConnectivityInfoOutputReference)
 		m,
 		"putVpcConnectivity",
 		[]interface{}{value},
+	)
+}
+
+func (m *jsiiProxy_MskClusterBrokerNodeGroupInfoConnectivityInfoOutputReference) ResetNetworkType() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetNetworkType",
+		nil, // no parameters
 	)
 }
 

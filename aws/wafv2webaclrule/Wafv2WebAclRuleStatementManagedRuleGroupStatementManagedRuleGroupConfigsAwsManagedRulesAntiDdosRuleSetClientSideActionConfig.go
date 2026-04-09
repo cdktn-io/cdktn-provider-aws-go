@@ -7,7 +7,7 @@ package wafv2webaclrule
 type Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupConfigsAwsManagedRulesAntiDdosRuleSetClientSideActionConfig struct {
 	// challenge block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/wafv2_web_acl_rule#challenge Wafv2WebAclRuleA#challenge}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/wafv2_web_acl_rule#challenge Wafv2WebAclRuleA#challenge}
 	Challenge interface{} `field:"optional" json:"challenge" yaml:"challenge"`
 }
 

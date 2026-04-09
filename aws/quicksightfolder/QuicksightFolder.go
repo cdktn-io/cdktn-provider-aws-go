@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/quicksight_folder aws_quicksight_folder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/quicksight_folder aws_quicksight_folder}.
 type QuicksightFolder interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -602,7 +602,7 @@ func (j *jsiiProxy_QuicksightFolder) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/quicksight_folder aws_quicksight_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/quicksight_folder aws_quicksight_folder} Resource.
 func NewQuicksightFolder(scope constructs.Construct, id *string, config *QuicksightFolderConfig) QuicksightFolder {
 	_init_.Initialize()
 
@@ -620,7 +620,7 @@ func NewQuicksightFolder(scope constructs.Construct, id *string, config *Quicksi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/quicksight_folder aws_quicksight_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/quicksight_folder aws_quicksight_folder} Resource.
 func NewQuicksightFolder_Override(q QuicksightFolder, scope constructs.Construct, id *string, config *QuicksightFolderConfig) {
 	_init_.Initialize()
 

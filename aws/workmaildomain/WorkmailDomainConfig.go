@@ -24,15 +24,15 @@ type WorkmailDomainConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Mail domain name to register.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/workmail_domain#domain_name WorkmailDomain#domain_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/workmail_domain#domain_name WorkmailDomain#domain_name}
 	DomainName *string `field:"required" json:"domainName" yaml:"domainName"`
 	// Identifier of the WorkMail organization.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/workmail_domain#organization_id WorkmailDomain#organization_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/workmail_domain#organization_id WorkmailDomain#organization_id}
 	OrganizationId *string `field:"required" json:"organizationId" yaml:"organizationId"`
 	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/workmail_domain#region WorkmailDomain#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/workmail_domain#region WorkmailDomain#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
 }
 

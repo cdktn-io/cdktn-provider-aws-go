@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/resourcegroups_resource aws_resourcegroups_resource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/resourcegroups_resource aws_resourcegroups_resource}.
 type ResourcegroupsResource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_ResourcegroupsResource) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/resourcegroups_resource aws_resourcegroups_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/resourcegroups_resource aws_resourcegroups_resource} Resource.
 func NewResourcegroupsResource(scope constructs.Construct, id *string, config *ResourcegroupsResourceConfig) ResourcegroupsResource {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewResourcegroupsResource(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/resourcegroups_resource aws_resourcegroups_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/resourcegroups_resource aws_resourcegroups_resource} Resource.
 func NewResourcegroupsResource_Override(r ResourcegroupsResource, scope constructs.Construct, id *string, config *ResourcegroupsResourceConfig) {
 	_init_.Initialize()
 

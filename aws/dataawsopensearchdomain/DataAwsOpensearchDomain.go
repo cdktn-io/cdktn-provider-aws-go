@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/opensearch_domain aws_opensearch_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/data-sources/opensearch_domain aws_opensearch_domain}.
 type DataAwsOpensearchDomain interface {
 	cdktn.TerraformDataSource
 	AccessPolicies() *string
@@ -642,7 +642,7 @@ func (j *jsiiProxy_DataAwsOpensearchDomain) VpcOptions() DataAwsOpensearchDomain
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/opensearch_domain aws_opensearch_domain} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/data-sources/opensearch_domain aws_opensearch_domain} Data Source.
 func NewDataAwsOpensearchDomain(scope constructs.Construct, id *string, config *DataAwsOpensearchDomainConfig) DataAwsOpensearchDomain {
 	_init_.Initialize()
 
@@ -660,7 +660,7 @@ func NewDataAwsOpensearchDomain(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/data-sources/opensearch_domain aws_opensearch_domain} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/data-sources/opensearch_domain aws_opensearch_domain} Data Source.
 func NewDataAwsOpensearchDomain_Override(d DataAwsOpensearchDomain, scope constructs.Construct, id *string, config *DataAwsOpensearchDomainConfig) {
 	_init_.Initialize()
 

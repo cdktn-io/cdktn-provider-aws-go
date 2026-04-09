@@ -36,6 +36,8 @@ type S3ControlStorageLensConfigurationStorageLensConfigurationDataExportOutputRe
 	SetInternalValue(val *S3ControlStorageLensConfigurationStorageLensConfigurationDataExport)
 	S3BucketDestination() S3ControlStorageLensConfigurationStorageLensConfigurationDataExportS3BucketDestinationOutputReference
 	S3BucketDestinationInput() *S3ControlStorageLensConfigurationStorageLensConfigurationDataExportS3BucketDestination
+	StorageLensTableDestination() S3ControlStorageLensConfigurationStorageLensConfigurationDataExportStorageLensTableDestinationOutputReference
+	StorageLensTableDestinationInput() *S3ControlStorageLensConfigurationStorageLensConfigurationDataExportStorageLensTableDestination
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -70,8 +72,10 @@ type S3ControlStorageLensConfigurationStorageLensConfigurationDataExportOutputRe
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCloudWatchMetrics(value *S3ControlStorageLensConfigurationStorageLensConfigurationDataExportCloudWatchMetrics)
 	PutS3BucketDestination(value *S3ControlStorageLensConfigurationStorageLensConfigurationDataExportS3BucketDestination)
+	PutStorageLensTableDestination(value *S3ControlStorageLensConfigurationStorageLensConfigurationDataExportStorageLensTableDestination)
 	ResetCloudWatchMetrics()
 	ResetS3BucketDestination()
+	ResetStorageLensTableDestination()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -172,6 +176,26 @@ func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationData
 	_jsii_.Get(
 		j,
 		"s3BucketDestinationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationDataExportOutputReference) StorageLensTableDestination() S3ControlStorageLensConfigurationStorageLensConfigurationDataExportStorageLensTableDestinationOutputReference {
+	var returns S3ControlStorageLensConfigurationStorageLensConfigurationDataExportStorageLensTableDestinationOutputReference
+	_jsii_.Get(
+		j,
+		"storageLensTableDestination",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationDataExportOutputReference) StorageLensTableDestinationInput() *S3ControlStorageLensConfigurationStorageLensConfigurationDataExportStorageLensTableDestination {
+	var returns *S3ControlStorageLensConfigurationStorageLensConfigurationDataExportStorageLensTableDestination
+	_jsii_.Get(
+		j,
+		"storageLensTableDestinationInput",
 		&returns,
 	)
 	return returns
@@ -488,6 +512,17 @@ func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationData
 	)
 }
 
+func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationDataExportOutputReference) PutStorageLensTableDestination(value *S3ControlStorageLensConfigurationStorageLensConfigurationDataExportStorageLensTableDestination) {
+	if err := s.validatePutStorageLensTableDestinationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putStorageLensTableDestination",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationDataExportOutputReference) ResetCloudWatchMetrics() {
 	_jsii_.InvokeVoid(
 		s,
@@ -500,6 +535,14 @@ func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationData
 	_jsii_.InvokeVoid(
 		s,
 		"resetS3BucketDestination",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationDataExportOutputReference) ResetStorageLensTableDestination() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetStorageLensTableDestination",
 		nil, // no parameters
 	)
 }

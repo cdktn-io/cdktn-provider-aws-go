@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/wafregional_rate_based_rule aws_wafregional_rate_based_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/wafregional_rate_based_rule aws_wafregional_rate_based_rule}.
 type WafregionalRateBasedRule interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -518,7 +518,7 @@ func (j *jsiiProxy_WafregionalRateBasedRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/wafregional_rate_based_rule aws_wafregional_rate_based_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/wafregional_rate_based_rule aws_wafregional_rate_based_rule} Resource.
 func NewWafregionalRateBasedRule(scope constructs.Construct, id *string, config *WafregionalRateBasedRuleConfig) WafregionalRateBasedRule {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewWafregionalRateBasedRule(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/wafregional_rate_based_rule aws_wafregional_rate_based_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/wafregional_rate_based_rule aws_wafregional_rate_based_rule} Resource.
 func NewWafregionalRateBasedRule_Override(w WafregionalRateBasedRule, scope constructs.Construct, id *string, config *WafregionalRateBasedRuleConfig) {
 	_init_.Initialize()
 

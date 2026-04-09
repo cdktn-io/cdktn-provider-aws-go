@@ -55,6 +55,10 @@ func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationData
 	return nil
 }
 
+func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationDataExportOutputReference) validatePutStorageLensTableDestinationParameters(value *S3ControlStorageLensConfigurationStorageLensConfigurationDataExportStorageLensTableDestination) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationDataExportOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/invoicing_invoice_unit aws_invoicing_invoice_unit}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/invoicing_invoice_unit aws_invoicing_invoice_unit}.
 type InvoicingInvoiceUnit interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -518,7 +518,7 @@ func (j *jsiiProxy_InvoicingInvoiceUnit) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/invoicing_invoice_unit aws_invoicing_invoice_unit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/invoicing_invoice_unit aws_invoicing_invoice_unit} Resource.
 func NewInvoicingInvoiceUnit(scope constructs.Construct, id *string, config *InvoicingInvoiceUnitConfig) InvoicingInvoiceUnit {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewInvoicingInvoiceUnit(scope constructs.Construct, id *string, config *Inv
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/invoicing_invoice_unit aws_invoicing_invoice_unit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/invoicing_invoice_unit aws_invoicing_invoice_unit} Resource.
 func NewInvoicingInvoiceUnit_Override(i InvoicingInvoiceUnit, scope constructs.Construct, id *string, config *InvoicingInvoiceUnitConfig) {
 	_init_.Initialize()
 

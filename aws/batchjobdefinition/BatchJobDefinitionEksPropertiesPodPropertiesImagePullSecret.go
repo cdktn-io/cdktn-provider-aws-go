@@ -5,7 +5,7 @@ package batchjobdefinition
 
 
 type BatchJobDefinitionEksPropertiesPodPropertiesImagePullSecret struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/waf_web_acl aws_waf_web_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/waf_web_acl aws_waf_web_acl}.
 type WafWebAcl interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_WafWebAcl) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/waf_web_acl aws_waf_web_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/waf_web_acl aws_waf_web_acl} Resource.
 func NewWafWebAcl(scope constructs.Construct, id *string, config *WafWebAclConfig) WafWebAcl {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewWafWebAcl(scope constructs.Construct, id *string, config *WafWebAclConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/waf_web_acl aws_waf_web_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/waf_web_acl aws_waf_web_acl} Resource.
 func NewWafWebAcl_Override(w WafWebAcl, scope constructs.Construct, id *string, config *WafWebAclConfig) {
 	_init_.Initialize()
 

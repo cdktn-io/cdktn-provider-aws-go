@@ -32,6 +32,7 @@ type DataAwsMskClusterBrokerNodeGroupInfoConnectivityInfoOutputReference interfa
 	Fqn() *string
 	InternalValue() *DataAwsMskClusterBrokerNodeGroupInfoConnectivityInfo
 	SetInternalValue(val *DataAwsMskClusterBrokerNodeGroupInfoConnectivityInfo)
+	NetworkType() *string
 	PublicAccess() DataAwsMskClusterBrokerNodeGroupInfoConnectivityInfoPublicAccessList
 	// Experimental.
 	TerraformAttribute() *string
@@ -126,6 +127,16 @@ func (j *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoConnectivityInfoOutputRef
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsMskClusterBrokerNodeGroupInfoConnectivityInfoOutputReference) NetworkType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkType",
 		&returns,
 	)
 	return returns

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/config_delivery_channel aws_config_delivery_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/config_delivery_channel aws_config_delivery_channel}.
 type ConfigDeliveryChannel interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -486,7 +486,7 @@ func (j *jsiiProxy_ConfigDeliveryChannel) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/config_delivery_channel aws_config_delivery_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/config_delivery_channel aws_config_delivery_channel} Resource.
 func NewConfigDeliveryChannel(scope constructs.Construct, id *string, config *ConfigDeliveryChannelConfig) ConfigDeliveryChannel {
 	_init_.Initialize()
 
@@ -504,7 +504,7 @@ func NewConfigDeliveryChannel(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/config_delivery_channel aws_config_delivery_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/config_delivery_channel aws_config_delivery_channel} Resource.
 func NewConfigDeliveryChannel_Override(c ConfigDeliveryChannel, scope constructs.Construct, id *string, config *ConfigDeliveryChannelConfig) {
 	_init_.Initialize()
 

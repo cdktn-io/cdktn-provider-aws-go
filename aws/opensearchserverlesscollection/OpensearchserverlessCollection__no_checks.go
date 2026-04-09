@@ -75,6 +75,10 @@ func (o *jsiiProxy_OpensearchserverlessCollection) validateOverrideLogicalIdPara
 	return nil
 }
 
+func (o *jsiiProxy_OpensearchserverlessCollection) validatePutEncryptionConfigParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OpensearchserverlessCollection) validatePutTimeoutsParameters(value *OpensearchserverlessCollectionTimeouts) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func validateOpensearchserverlessCollection_IsTerraformElementParameters(x inter
 }
 
 func validateOpensearchserverlessCollection_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_OpensearchserverlessCollection) validateSetCollectionGroupNameParameters(val *string) error {
 	return nil
 }
 

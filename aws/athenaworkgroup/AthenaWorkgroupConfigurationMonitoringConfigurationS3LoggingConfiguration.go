@@ -5,11 +5,11 @@ package athenaworkgroup
 
 
 type AthenaWorkgroupConfigurationMonitoringConfigurationS3LoggingConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/athena_workgroup#enabled AthenaWorkgroup#enabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/athena_workgroup#enabled AthenaWorkgroup#enabled}.
 	Enabled interface{} `field:"required" json:"enabled" yaml:"enabled"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/athena_workgroup#kms_key AthenaWorkgroup#kms_key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/athena_workgroup#kms_key AthenaWorkgroup#kms_key}.
 	KmsKey *string `field:"optional" json:"kmsKey" yaml:"kmsKey"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/athena_workgroup#log_location AthenaWorkgroup#log_location}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/athena_workgroup#log_location AthenaWorkgroup#log_location}.
 	LogLocation *string `field:"optional" json:"logLocation" yaml:"logLocation"`
 }
 

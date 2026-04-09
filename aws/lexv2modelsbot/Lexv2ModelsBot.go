@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/lexv2models_bot aws_lexv2models_bot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/lexv2models_bot aws_lexv2models_bot}.
 type Lexv2ModelsBot interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -589,7 +589,7 @@ func (j *jsiiProxy_Lexv2ModelsBot) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/lexv2models_bot aws_lexv2models_bot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/lexv2models_bot aws_lexv2models_bot} Resource.
 func NewLexv2ModelsBot(scope constructs.Construct, id *string, config *Lexv2ModelsBotConfig) Lexv2ModelsBot {
 	_init_.Initialize()
 
@@ -607,7 +607,7 @@ func NewLexv2ModelsBot(scope constructs.Construct, id *string, config *Lexv2Mode
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/lexv2models_bot aws_lexv2models_bot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/lexv2models_bot aws_lexv2models_bot} Resource.
 func NewLexv2ModelsBot_Override(l Lexv2ModelsBot, scope constructs.Construct, id *string, config *Lexv2ModelsBotConfig) {
 	_init_.Initialize()
 

@@ -59,6 +59,10 @@ func (j *jsiiProxy_CloudformationStackSetAutoDeploymentOutputReference) validate
 	return nil
 }
 
+func (j *jsiiProxy_CloudformationStackSetAutoDeploymentOutputReference) validateSetDependsOnStackSetsParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudformationStackSetAutoDeploymentOutputReference) validateSetEnabledParameters(val interface{}) error {
 	return nil
 }

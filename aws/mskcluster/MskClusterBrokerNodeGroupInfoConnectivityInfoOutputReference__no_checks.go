@@ -71,6 +71,10 @@ func (j *jsiiProxy_MskClusterBrokerNodeGroupInfoConnectivityInfoOutputReference)
 	return nil
 }
 
+func (j *jsiiProxy_MskClusterBrokerNodeGroupInfoConnectivityInfoOutputReference) validateSetNetworkTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MskClusterBrokerNodeGroupInfoConnectivityInfoOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

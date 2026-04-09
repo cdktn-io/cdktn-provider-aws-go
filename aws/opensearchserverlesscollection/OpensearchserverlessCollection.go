@@ -12,13 +12,16 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/opensearchserverless_collection aws_opensearchserverless_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/opensearchserverless_collection aws_opensearchserverless_collection}.
 type OpensearchserverlessCollection interface {
 	cdktn.TerraformResource
 	Arn() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	CollectionEndpoint() *string
+	CollectionGroupName() *string
+	SetCollectionGroupName(val *string)
+	CollectionGroupNameInput() *string
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -37,6 +40,8 @@ type OpensearchserverlessCollection interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
+	EncryptionConfig() OpensearchserverlessCollectionEncryptionConfigList
+	EncryptionConfigInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -130,8 +135,11 @@ type OpensearchserverlessCollection interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutEncryptionConfig(value interface{})
 	PutTimeouts(value *OpensearchserverlessCollectionTimeouts)
+	ResetCollectionGroupName()
 	ResetDescription()
+	ResetEncryptionConfig()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -192,6 +200,26 @@ func (j *jsiiProxy_OpensearchserverlessCollection) CollectionEndpoint() *string 
 	_jsii_.Get(
 		j,
 		"collectionEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OpensearchserverlessCollection) CollectionGroupName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"collectionGroupName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OpensearchserverlessCollection) CollectionGroupNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"collectionGroupNameInput",
 		&returns,
 	)
 	return returns
@@ -262,6 +290,26 @@ func (j *jsiiProxy_OpensearchserverlessCollection) DescriptionInput() *string {
 	_jsii_.Get(
 		j,
 		"descriptionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OpensearchserverlessCollection) EncryptionConfig() OpensearchserverlessCollectionEncryptionConfigList {
+	var returns OpensearchserverlessCollectionEncryptionConfigList
+	_jsii_.Get(
+		j,
+		"encryptionConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OpensearchserverlessCollection) EncryptionConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"encryptionConfigInput",
 		&returns,
 	)
 	return returns
@@ -528,7 +576,7 @@ func (j *jsiiProxy_OpensearchserverlessCollection) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/opensearchserverless_collection aws_opensearchserverless_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/opensearchserverless_collection aws_opensearchserverless_collection} Resource.
 func NewOpensearchserverlessCollection(scope constructs.Construct, id *string, config *OpensearchserverlessCollectionConfig) OpensearchserverlessCollection {
 	_init_.Initialize()
 
@@ -546,7 +594,7 @@ func NewOpensearchserverlessCollection(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/opensearchserverless_collection aws_opensearchserverless_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/opensearchserverless_collection aws_opensearchserverless_collection} Resource.
 func NewOpensearchserverlessCollection_Override(o OpensearchserverlessCollection, scope constructs.Construct, id *string, config *OpensearchserverlessCollectionConfig) {
 	_init_.Initialize()
 
@@ -554,6 +602,17 @@ func NewOpensearchserverlessCollection_Override(o OpensearchserverlessCollection
 		"@cdktn/provider-aws.opensearchserverlessCollection.OpensearchserverlessCollection",
 		[]interface{}{scope, id, config},
 		o,
+	)
+}
+
+func (j *jsiiProxy_OpensearchserverlessCollection)SetCollectionGroupName(val *string) {
+	if err := j.validateSetCollectionGroupNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"collectionGroupName",
+		val,
 	)
 }
 
@@ -1044,6 +1103,17 @@ func (o *jsiiProxy_OpensearchserverlessCollection) OverrideLogicalId(newLogicalI
 	)
 }
 
+func (o *jsiiProxy_OpensearchserverlessCollection) PutEncryptionConfig(value interface{}) {
+	if err := o.validatePutEncryptionConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		o,
+		"putEncryptionConfig",
+		[]interface{}{value},
+	)
+}
+
 func (o *jsiiProxy_OpensearchserverlessCollection) PutTimeouts(value *OpensearchserverlessCollectionTimeouts) {
 	if err := o.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1055,10 +1125,26 @@ func (o *jsiiProxy_OpensearchserverlessCollection) PutTimeouts(value *Opensearch
 	)
 }
 
+func (o *jsiiProxy_OpensearchserverlessCollection) ResetCollectionGroupName() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetCollectionGroupName",
+		nil, // no parameters
+	)
+}
+
 func (o *jsiiProxy_OpensearchserverlessCollection) ResetDescription() {
 	_jsii_.InvokeVoid(
 		o,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OpensearchserverlessCollection) ResetEncryptionConfig() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetEncryptionConfig",
 		nil, // no parameters
 	)
 }

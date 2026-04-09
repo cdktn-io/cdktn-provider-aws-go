@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/wafv2_web_acl_rule aws_wafv2_web_acl_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/wafv2_web_acl_rule aws_wafv2_web_acl_rule}.
 type Wafv2WebAclRuleA interface {
 	cdktn.TerraformResource
 	Action() Wafv2WebAclRuleActionAList
@@ -580,7 +580,7 @@ func (j *jsiiProxy_Wafv2WebAclRuleA) WebAclArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/wafv2_web_acl_rule aws_wafv2_web_acl_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/wafv2_web_acl_rule aws_wafv2_web_acl_rule} Resource.
 func NewWafv2WebAclRuleA(scope constructs.Construct, id *string, config *Wafv2WebAclRuleAConfig) Wafv2WebAclRuleA {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewWafv2WebAclRuleA(scope constructs.Construct, id *string, config *Wafv2We
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/wafv2_web_acl_rule aws_wafv2_web_acl_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/wafv2_web_acl_rule aws_wafv2_web_acl_rule} Resource.
 func NewWafv2WebAclRuleA_Override(w Wafv2WebAclRuleA, scope constructs.Construct, id *string, config *Wafv2WebAclRuleAConfig) {
 	_init_.Initialize()
 

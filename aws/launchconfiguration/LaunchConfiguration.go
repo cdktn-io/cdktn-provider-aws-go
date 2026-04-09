@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/launch_configuration aws_launch_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/launch_configuration aws_launch_configuration}.
 type LaunchConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -784,7 +784,7 @@ func (j *jsiiProxy_LaunchConfiguration) UserDataInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/launch_configuration aws_launch_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/launch_configuration aws_launch_configuration} Resource.
 func NewLaunchConfiguration(scope constructs.Construct, id *string, config *LaunchConfigurationConfig) LaunchConfiguration {
 	_init_.Initialize()
 
@@ -802,7 +802,7 @@ func NewLaunchConfiguration(scope constructs.Construct, id *string, config *Laun
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/launch_configuration aws_launch_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/launch_configuration aws_launch_configuration} Resource.
 func NewLaunchConfiguration_Override(l LaunchConfiguration, scope constructs.Construct, id *string, config *LaunchConfigurationConfig) {
 	_init_.Initialize()
 

@@ -123,6 +123,10 @@ func (j *jsiiProxy_ControltowerLandingZone) validateSetRegionParameters(val *str
 	return nil
 }
 
+func (j *jsiiProxy_ControltowerLandingZone) validateSetRemediationTypesParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ControltowerLandingZone) validateSetTagsParameters(val *map[string]*string) error {
 	return nil
 }

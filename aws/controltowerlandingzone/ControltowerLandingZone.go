@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/controltower_landing_zone aws_controltower_landing_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/controltower_landing_zone aws_controltower_landing_zone}.
 type ControltowerLandingZone interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -67,6 +67,9 @@ type ControltowerLandingZone interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	RemediationTypes() *[]*string
+	SetRemediationTypes(val *[]*string)
+	RemediationTypesInput() *[]*string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsAll() *map[string]*string
@@ -133,6 +136,7 @@ type ControltowerLandingZone interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRegion()
+	ResetRemediationTypes()
 	ResetTags()
 	ResetTagsAll()
 	ResetTimeouts()
@@ -383,6 +387,26 @@ func (j *jsiiProxy_ControltowerLandingZone) RegionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ControltowerLandingZone) RemediationTypes() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"remediationTypes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ControltowerLandingZone) RemediationTypesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"remediationTypesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ControltowerLandingZone) Tags() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -494,7 +518,7 @@ func (j *jsiiProxy_ControltowerLandingZone) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/controltower_landing_zone aws_controltower_landing_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/controltower_landing_zone aws_controltower_landing_zone} Resource.
 func NewControltowerLandingZone(scope constructs.Construct, id *string, config *ControltowerLandingZoneConfig) ControltowerLandingZone {
 	_init_.Initialize()
 
@@ -512,7 +536,7 @@ func NewControltowerLandingZone(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/controltower_landing_zone aws_controltower_landing_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/controltower_landing_zone aws_controltower_landing_zone} Resource.
 func NewControltowerLandingZone_Override(c ControltowerLandingZone, scope constructs.Construct, id *string, config *ControltowerLandingZoneConfig) {
 	_init_.Initialize()
 
@@ -620,6 +644,17 @@ func (j *jsiiProxy_ControltowerLandingZone)SetRegion(val *string) {
 	_jsii_.Set(
 		j,
 		"region",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ControltowerLandingZone)SetRemediationTypes(val *[]*string) {
+	if err := j.validateSetRemediationTypesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"remediationTypes",
 		val,
 	)
 }
@@ -1041,6 +1076,14 @@ func (c *jsiiProxy_ControltowerLandingZone) ResetRegion() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ControltowerLandingZone) ResetRemediationTypes() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetRemediationTypes",
 		nil, // no parameters
 	)
 }

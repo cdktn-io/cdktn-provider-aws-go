@@ -7,9 +7,9 @@ package gluecatalogtable
 type GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputSortOrder struct {
 	// fields block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/glue_catalog_table#fields GlueCatalogTable#fields}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/glue_catalog_table#fields GlueCatalogTable#fields}
 	Fields interface{} `field:"required" json:"fields" yaml:"fields"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.39.0/docs/resources/glue_catalog_table#order_id GlueCatalogTable#order_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/glue_catalog_table#order_id GlueCatalogTable#order_id}.
 	OrderId *float64 `field:"required" json:"orderId" yaml:"orderId"`
 }
 
