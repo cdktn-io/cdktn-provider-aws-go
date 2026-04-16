@@ -151,6 +151,10 @@ func (j *jsiiProxy_BudgetsBudget) validateSetLimitUnitParameters(val *string) er
 	return nil
 }
 
+func (j *jsiiProxy_BudgetsBudget) validateSetMetricsParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BudgetsBudget) validateSetNameParameters(val *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (e *jsiiProxy_EcsTaskDefinitionVolumeOutputReference) validatePutFsxWindows
 	return nil
 }
 
+func (e *jsiiProxy_EcsTaskDefinitionVolumeOutputReference) validatePutS3FilesVolumeConfigurationParameters(value *EcsTaskDefinitionVolumeS3FilesVolumeConfiguration) error {
+	return nil
+}
+
 func (e *jsiiProxy_EcsTaskDefinitionVolumeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

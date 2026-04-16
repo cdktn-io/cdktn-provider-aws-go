@@ -5,11 +5,11 @@ package sagemakertrainingjob
 
 
 type SagemakerTrainingJobResourceConfigInstanceGroups struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/sagemaker_training_job#instance_count SagemakerTrainingJob#instance_count}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_training_job#instance_count SagemakerTrainingJob#instance_count}.
 	InstanceCount *float64 `field:"optional" json:"instanceCount" yaml:"instanceCount"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/sagemaker_training_job#instance_group_name SagemakerTrainingJob#instance_group_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_training_job#instance_group_name SagemakerTrainingJob#instance_group_name}.
 	InstanceGroupName *string `field:"optional" json:"instanceGroupName" yaml:"instanceGroupName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/sagemaker_training_job#instance_type SagemakerTrainingJob#instance_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_training_job#instance_type SagemakerTrainingJob#instance_type}.
 	InstanceType *string `field:"optional" json:"instanceType" yaml:"instanceType"`
 }
 

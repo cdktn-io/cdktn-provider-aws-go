@@ -7,11 +7,11 @@ package s3filesaccesspoint
 type S3FilesAccessPointRootDirectory struct {
 	// creation_permissions block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/s3files_access_point#creation_permissions S3FilesAccessPoint#creation_permissions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3files_access_point#creation_permissions S3FilesAccessPoint#creation_permissions}
 	CreationPermissions interface{} `field:"optional" json:"creationPermissions" yaml:"creationPermissions"`
 	// Root directory path.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/s3files_access_point#path S3FilesAccessPoint#path}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3files_access_point#path S3FilesAccessPoint#path}
 	Path *string `field:"optional" json:"path" yaml:"path"`
 }
 

@@ -5,9 +5,9 @@ package dataawssavingsplansofferings
 
 
 type DataAwsSavingsplansOfferingsFilter struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/data-sources/savingsplans_offerings#name DataAwsSavingsplansOfferings#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/savingsplans_offerings#name DataAwsSavingsplansOfferings#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/data-sources/savingsplans_offerings#values DataAwsSavingsplansOfferings#values}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/savingsplans_offerings#values DataAwsSavingsplansOfferings#values}.
 	Values *[]*string `field:"required" json:"values" yaml:"values"`
 }
 

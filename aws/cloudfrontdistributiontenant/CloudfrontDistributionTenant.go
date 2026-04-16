@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant}.
 type CloudfrontDistributionTenant interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -612,7 +612,7 @@ func (j *jsiiProxy_CloudfrontDistributionTenant) WaitForDeploymentInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant} Resource.
 func NewCloudfrontDistributionTenant(scope constructs.Construct, id *string, config *CloudfrontDistributionTenantConfig) CloudfrontDistributionTenant {
 	_init_.Initialize()
 
@@ -630,7 +630,7 @@ func NewCloudfrontDistributionTenant(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant} Resource.
 func NewCloudfrontDistributionTenant_Override(c CloudfrontDistributionTenant, scope constructs.Construct, id *string, config *CloudfrontDistributionTenantConfig) {
 	_init_.Initialize()
 

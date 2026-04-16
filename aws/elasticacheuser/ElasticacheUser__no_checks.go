@@ -131,6 +131,14 @@ func (j *jsiiProxy_ElasticacheUser) validateSetPasswordsParameters(val *[]*strin
 	return nil
 }
 
+func (j *jsiiProxy_ElasticacheUser) validateSetPasswordsWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ElasticacheUser) validateSetPasswordsWoVersionParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_ElasticacheUser) validateSetProvisionersParameters(val *[]interface{}) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections}.
 type DataAwsVpcPeeringConnections interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -381,7 +381,7 @@ func (j *jsiiProxy_DataAwsVpcPeeringConnections) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections} Data Source.
 func NewDataAwsVpcPeeringConnections(scope constructs.Construct, id *string, config *DataAwsVpcPeeringConnectionsConfig) DataAwsVpcPeeringConnections {
 	_init_.Initialize()
 
@@ -399,7 +399,7 @@ func NewDataAwsVpcPeeringConnections(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections} Data Source.
 func NewDataAwsVpcPeeringConnections_Override(d DataAwsVpcPeeringConnections, scope constructs.Construct, id *string, config *DataAwsVpcPeeringConnectionsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/s3files_synchronization_configuration aws_s3files_synchronization_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3files_synchronization_configuration aws_s3files_synchronization_configuration}.
 type S3FilesSynchronizationConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_S3FilesSynchronizationConfiguration) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/s3files_synchronization_configuration aws_s3files_synchronization_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3files_synchronization_configuration aws_s3files_synchronization_configuration} Resource.
 func NewS3FilesSynchronizationConfiguration(scope constructs.Construct, id *string, config *S3FilesSynchronizationConfigurationConfig) S3FilesSynchronizationConfiguration {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewS3FilesSynchronizationConfiguration(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/s3files_synchronization_configuration aws_s3files_synchronization_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3files_synchronization_configuration aws_s3files_synchronization_configuration} Resource.
 func NewS3FilesSynchronizationConfiguration_Override(s S3FilesSynchronizationConfiguration, scope constructs.Construct, id *string, config *S3FilesSynchronizationConfigurationConfig) {
 	_init_.Initialize()
 

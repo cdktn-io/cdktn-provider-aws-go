@@ -38,6 +38,7 @@ type DataAwsEcsTaskDefinitionVolumeOutputReference interface {
 	InternalValue() *DataAwsEcsTaskDefinitionVolume
 	SetInternalValue(val *DataAwsEcsTaskDefinitionVolume)
 	Name() *string
+	S3FilesVolumeConfiguration() DataAwsEcsTaskDefinitionVolumeS3FilesVolumeConfigurationList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -190,6 +191,16 @@ func (j *jsiiProxy_DataAwsEcsTaskDefinitionVolumeOutputReference) Name() *string
 	_jsii_.Get(
 		j,
 		"name",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsEcsTaskDefinitionVolumeOutputReference) S3FilesVolumeConfiguration() DataAwsEcsTaskDefinitionVolumeS3FilesVolumeConfigurationList {
+	var returns DataAwsEcsTaskDefinitionVolumeS3FilesVolumeConfigurationList
+	_jsii_.Get(
+		j,
+		"s3FilesVolumeConfiguration",
 		&returns,
 	)
 	return returns

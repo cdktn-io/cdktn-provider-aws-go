@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/workmail_group aws_workmail_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workmail_group aws_workmail_group}.
 type WorkmailGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -456,7 +456,7 @@ func (j *jsiiProxy_WorkmailGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/workmail_group aws_workmail_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workmail_group aws_workmail_group} Resource.
 func NewWorkmailGroup(scope constructs.Construct, id *string, config *WorkmailGroupConfig) WorkmailGroup {
 	_init_.Initialize()
 
@@ -474,7 +474,7 @@ func NewWorkmailGroup(scope constructs.Construct, id *string, config *WorkmailGr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/workmail_group aws_workmail_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workmail_group aws_workmail_group} Resource.
 func NewWorkmailGroup_Override(w WorkmailGroup, scope constructs.Construct, id *string, config *WorkmailGroupConfig) {
 	_init_.Initialize()
 

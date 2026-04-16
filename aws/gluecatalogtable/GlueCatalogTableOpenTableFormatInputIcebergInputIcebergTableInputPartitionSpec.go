@@ -7,9 +7,9 @@ package gluecatalogtable
 type GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpec struct {
 	// fields block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/glue_catalog_table#fields GlueCatalogTable#fields}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_catalog_table#fields GlueCatalogTable#fields}
 	Fields interface{} `field:"required" json:"fields" yaml:"fields"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/glue_catalog_table#spec_id GlueCatalogTable#spec_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_catalog_table#spec_id GlueCatalogTable#spec_id}.
 	SpecId *float64 `field:"optional" json:"specId" yaml:"specId"`
 }
 

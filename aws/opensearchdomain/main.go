@@ -38,6 +38,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "dashboardEndpoint", GoGetter: "DashboardEndpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "dashboardEndpointV2", GoGetter: "DashboardEndpointV2"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "deploymentStrategyOptions", GoGetter: "DeploymentStrategyOptions"},
+			_jsii_.MemberProperty{JsiiProperty: "deploymentStrategyOptionsInput", GoGetter: "DeploymentStrategyOptionsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "domainEndpointOptions", GoGetter: "DomainEndpointOptions"},
 			_jsii_.MemberProperty{JsiiProperty: "domainEndpointOptionsInput", GoGetter: "DomainEndpointOptionsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "domainEndpointV2HostedZoneId", GoGetter: "DomainEndpointV2HostedZoneId"},
@@ -92,6 +94,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putAutoTuneOptions", GoMethod: "PutAutoTuneOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "putClusterConfig", GoMethod: "PutClusterConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putCognitoOptions", GoMethod: "PutCognitoOptions"},
+			_jsii_.MemberMethod{JsiiMethod: "putDeploymentStrategyOptions", GoMethod: "PutDeploymentStrategyOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "putDomainEndpointOptions", GoMethod: "PutDomainEndpointOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "putEbsOptions", GoMethod: "PutEbsOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "putEncryptAtRest", GoMethod: "PutEncryptAtRest"},
@@ -113,6 +116,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetAutoTuneOptions", GoMethod: "ResetAutoTuneOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetClusterConfig", GoMethod: "ResetClusterConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCognitoOptions", GoMethod: "ResetCognitoOptions"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDeploymentStrategyOptions", GoMethod: "ResetDeploymentStrategyOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDomainEndpointOptions", GoMethod: "ResetDomainEndpointOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEbsOptions", GoMethod: "ResetEbsOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEncryptAtRest", GoMethod: "ResetEncryptAtRest"},
@@ -937,6 +941,44 @@ func init() {
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-aws.opensearchDomain.OpensearchDomainConfig",
 		reflect.TypeOf((*OpensearchDomainConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.opensearchDomain.OpensearchDomainDeploymentStrategyOptions",
+		reflect.TypeOf((*OpensearchDomainDeploymentStrategyOptions)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.opensearchDomain.OpensearchDomainDeploymentStrategyOptionsOutputReference",
+		reflect.TypeOf((*OpensearchDomainDeploymentStrategyOptionsOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "deploymentStrategy", GoGetter: "DeploymentStrategy"},
+			_jsii_.MemberProperty{JsiiProperty: "deploymentStrategyInput", GoGetter: "DeploymentStrategyInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_OpensearchDomainDeploymentStrategyOptionsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
 	)
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-aws.opensearchDomain.OpensearchDomainDomainEndpointOptions",

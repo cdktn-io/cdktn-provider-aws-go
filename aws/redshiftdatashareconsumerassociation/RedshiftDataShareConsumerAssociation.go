@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/redshift_data_share_consumer_association aws_redshift_data_share_consumer_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_data_share_consumer_association aws_redshift_data_share_consumer_association}.
 type RedshiftDataShareConsumerAssociation interface {
 	cdktn.TerraformResource
 	AllowWrites() interface{}
@@ -471,7 +471,7 @@ func (j *jsiiProxy_RedshiftDataShareConsumerAssociation) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/redshift_data_share_consumer_association aws_redshift_data_share_consumer_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_data_share_consumer_association aws_redshift_data_share_consumer_association} Resource.
 func NewRedshiftDataShareConsumerAssociation(scope constructs.Construct, id *string, config *RedshiftDataShareConsumerAssociationConfig) RedshiftDataShareConsumerAssociation {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewRedshiftDataShareConsumerAssociation(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/redshift_data_share_consumer_association aws_redshift_data_share_consumer_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_data_share_consumer_association aws_redshift_data_share_consumer_association} Resource.
 func NewRedshiftDataShareConsumerAssociation_Override(r RedshiftDataShareConsumerAssociation, scope constructs.Construct, id *string, config *RedshiftDataShareConsumerAssociationConfig) {
 	_init_.Initialize()
 

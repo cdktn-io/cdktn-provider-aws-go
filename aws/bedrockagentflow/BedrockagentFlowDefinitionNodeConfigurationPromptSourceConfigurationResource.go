@@ -5,7 +5,7 @@ package bedrockagentflow
 
 
 type BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationResource struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/bedrockagent_flow#prompt_arn BedrockagentFlow#prompt_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagent_flow#prompt_arn BedrockagentFlow#prompt_arn}.
 	PromptArn *string `field:"required" json:"promptArn" yaml:"promptArn"`
 }
 

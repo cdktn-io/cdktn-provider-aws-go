@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/opensearch_domain aws_opensearch_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/opensearch_domain aws_opensearch_domain}.
 type OpensearchDomain interface {
 	cdktn.TerraformResource
 	AccessPolicies() *string
@@ -50,6 +50,8 @@ type OpensearchDomain interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	DeploymentStrategyOptions() OpensearchDomainDeploymentStrategyOptionsOutputReference
+	DeploymentStrategyOptionsInput() *OpensearchDomainDeploymentStrategyOptions
 	DomainEndpointOptions() OpensearchDomainDomainEndpointOptionsOutputReference
 	DomainEndpointOptionsInput() *OpensearchDomainDomainEndpointOptions
 	DomainEndpointV2HostedZoneId() *string
@@ -175,6 +177,7 @@ type OpensearchDomain interface {
 	PutAutoTuneOptions(value *OpensearchDomainAutoTuneOptions)
 	PutClusterConfig(value *OpensearchDomainClusterConfig)
 	PutCognitoOptions(value *OpensearchDomainCognitoOptions)
+	PutDeploymentStrategyOptions(value *OpensearchDomainDeploymentStrategyOptions)
 	PutDomainEndpointOptions(value *OpensearchDomainDomainEndpointOptions)
 	PutEbsOptions(value *OpensearchDomainEbsOptions)
 	PutEncryptAtRest(value *OpensearchDomainEncryptAtRest)
@@ -193,6 +196,7 @@ type OpensearchDomain interface {
 	ResetAutoTuneOptions()
 	ResetClusterConfig()
 	ResetCognitoOptions()
+	ResetDeploymentStrategyOptions()
 	ResetDomainEndpointOptions()
 	ResetEbsOptions()
 	ResetEncryptAtRest()
@@ -455,6 +459,26 @@ func (j *jsiiProxy_OpensearchDomain) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OpensearchDomain) DeploymentStrategyOptions() OpensearchDomainDeploymentStrategyOptionsOutputReference {
+	var returns OpensearchDomainDeploymentStrategyOptionsOutputReference
+	_jsii_.Get(
+		j,
+		"deploymentStrategyOptions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OpensearchDomain) DeploymentStrategyOptionsInput() *OpensearchDomainDeploymentStrategyOptions {
+	var returns *OpensearchDomainDeploymentStrategyOptions
+	_jsii_.Get(
+		j,
+		"deploymentStrategyOptionsInput",
 		&returns,
 	)
 	return returns
@@ -971,7 +995,7 @@ func (j *jsiiProxy_OpensearchDomain) VpcOptionsInput() *OpensearchDomainVpcOptio
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/opensearch_domain aws_opensearch_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/opensearch_domain aws_opensearch_domain} Resource.
 func NewOpensearchDomain(scope constructs.Construct, id *string, config *OpensearchDomainConfig) OpensearchDomain {
 	_init_.Initialize()
 
@@ -989,7 +1013,7 @@ func NewOpensearchDomain(scope constructs.Construct, id *string, config *Opensea
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/opensearch_domain aws_opensearch_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/opensearch_domain aws_opensearch_domain} Resource.
 func NewOpensearchDomain_Override(o OpensearchDomain, scope constructs.Construct, id *string, config *OpensearchDomainConfig) {
 	_init_.Initialize()
 
@@ -1575,6 +1599,17 @@ func (o *jsiiProxy_OpensearchDomain) PutCognitoOptions(value *OpensearchDomainCo
 	)
 }
 
+func (o *jsiiProxy_OpensearchDomain) PutDeploymentStrategyOptions(value *OpensearchDomainDeploymentStrategyOptions) {
+	if err := o.validatePutDeploymentStrategyOptionsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		o,
+		"putDeploymentStrategyOptions",
+		[]interface{}{value},
+	)
+}
+
 func (o *jsiiProxy_OpensearchDomain) PutDomainEndpointOptions(value *OpensearchDomainDomainEndpointOptions) {
 	if err := o.validatePutDomainEndpointOptionsParameters(value); err != nil {
 		panic(err)
@@ -1748,6 +1783,14 @@ func (o *jsiiProxy_OpensearchDomain) ResetCognitoOptions() {
 	_jsii_.InvokeVoid(
 		o,
 		"resetCognitoOptions",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OpensearchDomain) ResetDeploymentStrategyOptions() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetDeploymentStrategyOptions",
 		nil, // no parameters
 	)
 }

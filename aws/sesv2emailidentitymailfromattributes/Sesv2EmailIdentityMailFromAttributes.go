@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/sesv2_email_identity_mail_from_attributes aws_sesv2_email_identity_mail_from_attributes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sesv2_email_identity_mail_from_attributes aws_sesv2_email_identity_mail_from_attributes}.
 type Sesv2EmailIdentityMailFromAttributes interface {
 	cdktn.TerraformResource
 	BehaviorOnMxFailure() *string
@@ -414,7 +414,7 @@ func (j *jsiiProxy_Sesv2EmailIdentityMailFromAttributes) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/sesv2_email_identity_mail_from_attributes aws_sesv2_email_identity_mail_from_attributes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sesv2_email_identity_mail_from_attributes aws_sesv2_email_identity_mail_from_attributes} Resource.
 func NewSesv2EmailIdentityMailFromAttributes(scope constructs.Construct, id *string, config *Sesv2EmailIdentityMailFromAttributesConfig) Sesv2EmailIdentityMailFromAttributes {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewSesv2EmailIdentityMailFromAttributes(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/sesv2_email_identity_mail_from_attributes aws_sesv2_email_identity_mail_from_attributes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sesv2_email_identity_mail_from_attributes aws_sesv2_email_identity_mail_from_attributes} Resource.
 func NewSesv2EmailIdentityMailFromAttributes_Override(s Sesv2EmailIdentityMailFromAttributes, scope constructs.Construct, id *string, config *Sesv2EmailIdentityMailFromAttributesConfig) {
 	_init_.Initialize()
 

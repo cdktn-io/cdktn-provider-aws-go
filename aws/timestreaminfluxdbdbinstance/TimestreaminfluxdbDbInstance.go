@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/timestreaminfluxdb_db_instance aws_timestreaminfluxdb_db_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/timestreaminfluxdb_db_instance aws_timestreaminfluxdb_db_instance}.
 type TimestreaminfluxdbDbInstance interface {
 	cdktn.TerraformResource
 	AllocatedStorage() *float64
@@ -819,7 +819,7 @@ func (j *jsiiProxy_TimestreaminfluxdbDbInstance) VpcSubnetIdsInput() *[]*string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/timestreaminfluxdb_db_instance aws_timestreaminfluxdb_db_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/timestreaminfluxdb_db_instance aws_timestreaminfluxdb_db_instance} Resource.
 func NewTimestreaminfluxdbDbInstance(scope constructs.Construct, id *string, config *TimestreaminfluxdbDbInstanceConfig) TimestreaminfluxdbDbInstance {
 	_init_.Initialize()
 
@@ -837,7 +837,7 @@ func NewTimestreaminfluxdbDbInstance(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/timestreaminfluxdb_db_instance aws_timestreaminfluxdb_db_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/timestreaminfluxdb_db_instance aws_timestreaminfluxdb_db_instance} Resource.
 func NewTimestreaminfluxdbDbInstance_Override(t TimestreaminfluxdbDbInstance, scope constructs.Construct, id *string, config *TimestreaminfluxdbDbInstanceConfig) {
 	_init_.Initialize()
 

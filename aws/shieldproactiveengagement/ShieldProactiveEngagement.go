@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/shield_proactive_engagement aws_shield_proactive_engagement}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/shield_proactive_engagement aws_shield_proactive_engagement}.
 type ShieldProactiveEngagement interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -353,7 +353,7 @@ func (j *jsiiProxy_ShieldProactiveEngagement) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/shield_proactive_engagement aws_shield_proactive_engagement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/shield_proactive_engagement aws_shield_proactive_engagement} Resource.
 func NewShieldProactiveEngagement(scope constructs.Construct, id *string, config *ShieldProactiveEngagementConfig) ShieldProactiveEngagement {
 	_init_.Initialize()
 
@@ -371,7 +371,7 @@ func NewShieldProactiveEngagement(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/shield_proactive_engagement aws_shield_proactive_engagement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/shield_proactive_engagement aws_shield_proactive_engagement} Resource.
 func NewShieldProactiveEngagement_Override(s ShieldProactiveEngagement, scope constructs.Construct, id *string, config *ShieldProactiveEngagementConfig) {
 	_init_.Initialize()
 

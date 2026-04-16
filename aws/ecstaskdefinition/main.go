@@ -615,18 +615,69 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putDockerVolumeConfiguration", GoMethod: "PutDockerVolumeConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putEfsVolumeConfiguration", GoMethod: "PutEfsVolumeConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putFsxWindowsFileServerVolumeConfiguration", GoMethod: "PutFsxWindowsFileServerVolumeConfiguration"},
+			_jsii_.MemberMethod{JsiiMethod: "putS3FilesVolumeConfiguration", GoMethod: "PutS3FilesVolumeConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetConfigureAtLaunch", GoMethod: "ResetConfigureAtLaunch"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDockerVolumeConfiguration", GoMethod: "ResetDockerVolumeConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEfsVolumeConfiguration", GoMethod: "ResetEfsVolumeConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFsxWindowsFileServerVolumeConfiguration", GoMethod: "ResetFsxWindowsFileServerVolumeConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetHostPath", GoMethod: "ResetHostPath"},
+			_jsii_.MemberMethod{JsiiMethod: "resetS3FilesVolumeConfiguration", GoMethod: "ResetS3FilesVolumeConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "s3FilesVolumeConfiguration", GoGetter: "S3FilesVolumeConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "s3FilesVolumeConfigurationInput", GoGetter: "S3FilesVolumeConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
 			j := jsiiProxy_EcsTaskDefinitionVolumeOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.ecsTaskDefinition.EcsTaskDefinitionVolumeS3FilesVolumeConfiguration",
+		reflect.TypeOf((*EcsTaskDefinitionVolumeS3FilesVolumeConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.ecsTaskDefinition.EcsTaskDefinitionVolumeS3FilesVolumeConfigurationOutputReference",
+		reflect.TypeOf((*EcsTaskDefinitionVolumeS3FilesVolumeConfigurationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "accessPointArn", GoGetter: "AccessPointArn"},
+			_jsii_.MemberProperty{JsiiProperty: "accessPointArnInput", GoGetter: "AccessPointArnInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fileSystemArn", GoGetter: "FileSystemArn"},
+			_jsii_.MemberProperty{JsiiProperty: "fileSystemArnInput", GoGetter: "FileSystemArnInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAccessPointArn", GoMethod: "ResetAccessPointArn"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRootDirectory", GoMethod: "ResetRootDirectory"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTransitEncryptionPort", GoMethod: "ResetTransitEncryptionPort"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "rootDirectory", GoGetter: "RootDirectory"},
+			_jsii_.MemberProperty{JsiiProperty: "rootDirectoryInput", GoGetter: "RootDirectoryInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "transitEncryptionPort", GoGetter: "TransitEncryptionPort"},
+			_jsii_.MemberProperty{JsiiProperty: "transitEncryptionPortInput", GoGetter: "TransitEncryptionPortInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_EcsTaskDefinitionVolumeS3FilesVolumeConfigurationOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

@@ -95,6 +95,10 @@ func (o *jsiiProxy_OpensearchDomain) validatePutCognitoOptionsParameters(value *
 	return nil
 }
 
+func (o *jsiiProxy_OpensearchDomain) validatePutDeploymentStrategyOptionsParameters(value *OpensearchDomainDeploymentStrategyOptions) error {
+	return nil
+}
+
 func (o *jsiiProxy_OpensearchDomain) validatePutDomainEndpointOptionsParameters(value *OpensearchDomainDomainEndpointOptions) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/vpc_endpoint_private_dns aws_vpc_endpoint_private_dns}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc_endpoint_private_dns aws_vpc_endpoint_private_dns}.
 type VpcEndpointPrivateDns interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -365,7 +365,7 @@ func (j *jsiiProxy_VpcEndpointPrivateDns) VpcEndpointIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/vpc_endpoint_private_dns aws_vpc_endpoint_private_dns} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc_endpoint_private_dns aws_vpc_endpoint_private_dns} Resource.
 func NewVpcEndpointPrivateDns(scope constructs.Construct, id *string, config *VpcEndpointPrivateDnsConfig) VpcEndpointPrivateDns {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewVpcEndpointPrivateDns(scope constructs.Construct, id *string, config *Vp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/vpc_endpoint_private_dns aws_vpc_endpoint_private_dns} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc_endpoint_private_dns aws_vpc_endpoint_private_dns} Resource.
 func NewVpcEndpointPrivateDns_Override(v VpcEndpointPrivateDns, scope constructs.Construct, id *string, config *VpcEndpointPrivateDnsConfig) {
 	_init_.Initialize()
 

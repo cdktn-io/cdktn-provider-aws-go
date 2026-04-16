@@ -47,6 +47,8 @@ type EcsTaskDefinitionVolumeOutputReference interface {
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
+	S3FilesVolumeConfiguration() EcsTaskDefinitionVolumeS3FilesVolumeConfigurationOutputReference
+	S3FilesVolumeConfigurationInput() *EcsTaskDefinitionVolumeS3FilesVolumeConfiguration
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -82,11 +84,13 @@ type EcsTaskDefinitionVolumeOutputReference interface {
 	PutDockerVolumeConfiguration(value *EcsTaskDefinitionVolumeDockerVolumeConfiguration)
 	PutEfsVolumeConfiguration(value *EcsTaskDefinitionVolumeEfsVolumeConfiguration)
 	PutFsxWindowsFileServerVolumeConfiguration(value *EcsTaskDefinitionVolumeFsxWindowsFileServerVolumeConfiguration)
+	PutS3FilesVolumeConfiguration(value *EcsTaskDefinitionVolumeS3FilesVolumeConfiguration)
 	ResetConfigureAtLaunch()
 	ResetDockerVolumeConfiguration()
 	ResetEfsVolumeConfiguration()
 	ResetFsxWindowsFileServerVolumeConfiguration()
 	ResetHostPath()
+	ResetS3FilesVolumeConfiguration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -267,6 +271,26 @@ func (j *jsiiProxy_EcsTaskDefinitionVolumeOutputReference) NameInput() *string {
 	_jsii_.Get(
 		j,
 		"nameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsTaskDefinitionVolumeOutputReference) S3FilesVolumeConfiguration() EcsTaskDefinitionVolumeS3FilesVolumeConfigurationOutputReference {
+	var returns EcsTaskDefinitionVolumeS3FilesVolumeConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"s3FilesVolumeConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsTaskDefinitionVolumeOutputReference) S3FilesVolumeConfigurationInput() *EcsTaskDefinitionVolumeS3FilesVolumeConfiguration {
+	var returns *EcsTaskDefinitionVolumeS3FilesVolumeConfiguration
+	_jsii_.Get(
+		j,
+		"s3FilesVolumeConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -627,6 +651,17 @@ func (e *jsiiProxy_EcsTaskDefinitionVolumeOutputReference) PutFsxWindowsFileServ
 	)
 }
 
+func (e *jsiiProxy_EcsTaskDefinitionVolumeOutputReference) PutS3FilesVolumeConfiguration(value *EcsTaskDefinitionVolumeS3FilesVolumeConfiguration) {
+	if err := e.validatePutS3FilesVolumeConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putS3FilesVolumeConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_EcsTaskDefinitionVolumeOutputReference) ResetConfigureAtLaunch() {
 	_jsii_.InvokeVoid(
 		e,
@@ -663,6 +698,14 @@ func (e *jsiiProxy_EcsTaskDefinitionVolumeOutputReference) ResetHostPath() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetHostPath",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EcsTaskDefinitionVolumeOutputReference) ResetS3FilesVolumeConfiguration() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetS3FilesVolumeConfiguration",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/directory_service_directory aws_directory_service_directory}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_directory aws_directory_service_directory}.
 type DirectoryServiceDirectory interface {
 	cdktn.TerraformResource
 	AccessUrl() *string
@@ -47,6 +47,9 @@ type DirectoryServiceDirectory interface {
 	Edition() *string
 	SetEdition(val *string)
 	EditionInput() *string
+	EnableDirectoryDataAccess() interface{}
+	SetEnableDirectoryDataAccess(val interface{})
+	EnableDirectoryDataAccessInput() interface{}
 	EnableSso() interface{}
 	SetEnableSso(val interface{})
 	EnableSsoInput() interface{}
@@ -163,6 +166,7 @@ type DirectoryServiceDirectory interface {
 	ResetDescription()
 	ResetDesiredNumberOfDomainControllers()
 	ResetEdition()
+	ResetEnableDirectoryDataAccess()
 	ResetEnableSso()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -368,6 +372,26 @@ func (j *jsiiProxy_DirectoryServiceDirectory) EditionInput() *string {
 	_jsii_.Get(
 		j,
 		"editionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DirectoryServiceDirectory) EnableDirectoryDataAccess() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableDirectoryDataAccess",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DirectoryServiceDirectory) EnableDirectoryDataAccessInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableDirectoryDataAccessInput",
 		&returns,
 	)
 	return returns
@@ -734,7 +758,7 @@ func (j *jsiiProxy_DirectoryServiceDirectory) VpcSettingsInput() *DirectoryServi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/directory_service_directory aws_directory_service_directory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_directory aws_directory_service_directory} Resource.
 func NewDirectoryServiceDirectory(scope constructs.Construct, id *string, config *DirectoryServiceDirectoryConfig) DirectoryServiceDirectory {
 	_init_.Initialize()
 
@@ -752,7 +776,7 @@ func NewDirectoryServiceDirectory(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/directory_service_directory aws_directory_service_directory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_directory aws_directory_service_directory} Resource.
 func NewDirectoryServiceDirectory_Override(d DirectoryServiceDirectory, scope constructs.Construct, id *string, config *DirectoryServiceDirectoryConfig) {
 	_init_.Initialize()
 
@@ -833,6 +857,17 @@ func (j *jsiiProxy_DirectoryServiceDirectory)SetEdition(val *string) {
 	_jsii_.Set(
 		j,
 		"edition",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DirectoryServiceDirectory)SetEnableDirectoryDataAccess(val interface{}) {
+	if err := j.validateSetEnableDirectoryDataAccessParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enableDirectoryDataAccess",
 		val,
 	)
 }
@@ -1407,6 +1442,14 @@ func (d *jsiiProxy_DirectoryServiceDirectory) ResetEdition() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetEdition",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DirectoryServiceDirectory) ResetEnableDirectoryDataAccess() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetEnableDirectoryDataAccess",
 		nil, // no parameters
 	)
 }

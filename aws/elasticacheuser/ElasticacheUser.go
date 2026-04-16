@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/elasticache_user aws_elasticache_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticache_user aws_elasticache_user}.
 type ElasticacheUser interface {
 	cdktn.TerraformResource
 	AccessString() *string
@@ -63,6 +63,12 @@ type ElasticacheUser interface {
 	Passwords() *[]*string
 	SetPasswords(val *[]*string)
 	PasswordsInput() *[]*string
+	PasswordsWo() *string
+	SetPasswordsWo(val *string)
+	PasswordsWoInput() *string
+	PasswordsWoVersion() *float64
+	SetPasswordsWoVersion(val *float64)
+	PasswordsWoVersionInput() *float64
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -148,6 +154,8 @@ type ElasticacheUser interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetPasswords()
+	ResetPasswordsWo()
+	ResetPasswordsWoVersion()
 	ResetRegion()
 	ResetTags()
 	ResetTagsAll()
@@ -409,6 +417,46 @@ func (j *jsiiProxy_ElasticacheUser) PasswordsInput() *[]*string {
 	return returns
 }
 
+func (j *jsiiProxy_ElasticacheUser) PasswordsWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"passwordsWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ElasticacheUser) PasswordsWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"passwordsWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ElasticacheUser) PasswordsWoVersion() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"passwordsWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ElasticacheUser) PasswordsWoVersionInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"passwordsWoVersionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ElasticacheUser) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -590,7 +638,7 @@ func (j *jsiiProxy_ElasticacheUser) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/elasticache_user aws_elasticache_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticache_user aws_elasticache_user} Resource.
 func NewElasticacheUser(scope constructs.Construct, id *string, config *ElasticacheUserConfig) ElasticacheUser {
 	_init_.Initialize()
 
@@ -608,7 +656,7 @@ func NewElasticacheUser(scope constructs.Construct, id *string, config *Elastica
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/elasticache_user aws_elasticache_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticache_user aws_elasticache_user} Resource.
 func NewElasticacheUser_Override(e ElasticacheUser, scope constructs.Construct, id *string, config *ElasticacheUserConfig) {
 	_init_.Initialize()
 
@@ -719,6 +767,28 @@ func (j *jsiiProxy_ElasticacheUser)SetPasswords(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"passwords",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ElasticacheUser)SetPasswordsWo(val *string) {
+	if err := j.validateSetPasswordsWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"passwordsWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ElasticacheUser)SetPasswordsWoVersion(val *float64) {
+	if err := j.validateSetPasswordsWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"passwordsWoVersion",
 		val,
 	)
 }
@@ -1208,6 +1278,22 @@ func (e *jsiiProxy_ElasticacheUser) ResetPasswords() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetPasswords",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_ElasticacheUser) ResetPasswordsWo() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetPasswordsWo",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_ElasticacheUser) ResetPasswordsWoVersion() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetPasswordsWoVersion",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/budgets_budget aws_budgets_budget}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/budgets_budget aws_budgets_budget}.
 type BudgetsBudget interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -70,6 +70,9 @@ type BudgetsBudget interface {
 	LimitUnit() *string
 	SetLimitUnit(val *string)
 	LimitUnitInput() *string
+	Metrics() *[]*string
+	SetMetrics(val *[]*string)
+	MetricsInput() *[]*string
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -171,6 +174,7 @@ type BudgetsBudget interface {
 	ResetId()
 	ResetLimitAmount()
 	ResetLimitUnit()
+	ResetMetrics()
 	ResetName()
 	ResetNamePrefix()
 	ResetNotification()
@@ -509,6 +513,26 @@ func (j *jsiiProxy_BudgetsBudget) LimitUnitInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_BudgetsBudget) Metrics() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"metrics",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BudgetsBudget) MetricsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"metricsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BudgetsBudget) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -760,7 +784,7 @@ func (j *jsiiProxy_BudgetsBudget) TimeUnitInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/budgets_budget aws_budgets_budget} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/budgets_budget aws_budgets_budget} Resource.
 func NewBudgetsBudget(scope constructs.Construct, id *string, config *BudgetsBudgetConfig) BudgetsBudget {
 	_init_.Initialize()
 
@@ -778,7 +802,7 @@ func NewBudgetsBudget(scope constructs.Construct, id *string, config *BudgetsBud
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.40.0/docs/resources/budgets_budget aws_budgets_budget} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/budgets_budget aws_budgets_budget} Resource.
 func NewBudgetsBudget_Override(b BudgetsBudget, scope constructs.Construct, id *string, config *BudgetsBudgetConfig) {
 	_init_.Initialize()
 
@@ -900,6 +924,17 @@ func (j *jsiiProxy_BudgetsBudget)SetLimitUnit(val *string) {
 	_jsii_.Set(
 		j,
 		"limitUnit",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BudgetsBudget)SetMetrics(val *[]*string) {
+	if err := j.validateSetMetricsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"metrics",
 		val,
 	)
 }
@@ -1487,6 +1522,14 @@ func (b *jsiiProxy_BudgetsBudget) ResetLimitUnit() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetLimitUnit",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BudgetsBudget) ResetMetrics() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetMetrics",
 		nil, // no parameters
 	)
 }

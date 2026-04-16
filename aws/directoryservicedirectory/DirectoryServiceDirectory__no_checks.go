@@ -127,6 +127,10 @@ func (j *jsiiProxy_DirectoryServiceDirectory) validateSetEditionParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_DirectoryServiceDirectory) validateSetEnableDirectoryDataAccessParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_DirectoryServiceDirectory) validateSetEnableSsoParameters(val interface{}) error {
 	return nil
 }
