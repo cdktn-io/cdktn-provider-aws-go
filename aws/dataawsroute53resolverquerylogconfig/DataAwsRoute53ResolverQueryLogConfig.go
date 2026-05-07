@@ -5,14 +5,14 @@ package dataawsroute53resolverquerylogconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsroute53resolverquerylogconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsroute53resolverquerylogconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/route53_resolver_query_log_config aws_route53_resolver_query_log_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/route53_resolver_query_log_config aws_route53_resolver_query_log_config}.
 type DataAwsRoute53ResolverQueryLogConfig interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -438,7 +438,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverQueryLogConfig) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/route53_resolver_query_log_config aws_route53_resolver_query_log_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/route53_resolver_query_log_config aws_route53_resolver_query_log_config} Data Source.
 func NewDataAwsRoute53ResolverQueryLogConfig(scope constructs.Construct, id *string, config *DataAwsRoute53ResolverQueryLogConfigConfig) DataAwsRoute53ResolverQueryLogConfig {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewDataAwsRoute53ResolverQueryLogConfig(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/route53_resolver_query_log_config aws_route53_resolver_query_log_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/route53_resolver_query_log_config aws_route53_resolver_query_log_config} Data Source.
 func NewDataAwsRoute53ResolverQueryLogConfig_Override(d DataAwsRoute53ResolverQueryLogConfig, scope constructs.Construct, id *string, config *DataAwsRoute53ResolverQueryLogConfigConfig) {
 	_init_.Initialize()
 

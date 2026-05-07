@@ -5,14 +5,14 @@ package emrserverlessapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/emrserverlessapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/emrserverlessapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/emrserverless_application aws_emrserverless_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/emrserverless_application aws_emrserverless_application}.
 type EmrserverlessApplication interface {
 	cdktn.TerraformResource
 	Architecture() *string
@@ -759,7 +759,7 @@ func (j *jsiiProxy_EmrserverlessApplication) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/emrserverless_application aws_emrserverless_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/emrserverless_application aws_emrserverless_application} Resource.
 func NewEmrserverlessApplication(scope constructs.Construct, id *string, config *EmrserverlessApplicationConfig) EmrserverlessApplication {
 	_init_.Initialize()
 
@@ -777,7 +777,7 @@ func NewEmrserverlessApplication(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/emrserverless_application aws_emrserverless_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/emrserverless_application aws_emrserverless_application} Resource.
 func NewEmrserverlessApplication_Override(e EmrserverlessApplication, scope constructs.Construct, id *string, config *EmrserverlessApplicationConfig) {
 	_init_.Initialize()
 

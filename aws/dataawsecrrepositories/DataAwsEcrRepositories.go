@@ -5,14 +5,14 @@ package dataawsecrrepositories
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsecrrepositories/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsecrrepositories/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ecr_repositories aws_ecr_repositories}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ecr_repositories aws_ecr_repositories}.
 type DataAwsEcrRepositories interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -296,7 +296,7 @@ func (j *jsiiProxy_DataAwsEcrRepositories) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ecr_repositories aws_ecr_repositories} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ecr_repositories aws_ecr_repositories} Data Source.
 func NewDataAwsEcrRepositories(scope constructs.Construct, id *string, config *DataAwsEcrRepositoriesConfig) DataAwsEcrRepositories {
 	_init_.Initialize()
 
@@ -314,7 +314,7 @@ func NewDataAwsEcrRepositories(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ecr_repositories aws_ecr_repositories} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ecr_repositories aws_ecr_repositories} Data Source.
 func NewDataAwsEcrRepositories_Override(d DataAwsEcrRepositories, scope constructs.Construct, id *string, config *DataAwsEcrRepositoriesConfig) {
 	_init_.Initialize()
 

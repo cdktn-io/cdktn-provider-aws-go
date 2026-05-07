@@ -5,14 +5,14 @@ package prometheusqueryloggingconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/prometheusqueryloggingconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/prometheusqueryloggingconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/prometheus_query_logging_configuration aws_prometheus_query_logging_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/prometheus_query_logging_configuration aws_prometheus_query_logging_configuration}.
 type PrometheusQueryLoggingConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_PrometheusQueryLoggingConfiguration) WorkspaceIdInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/prometheus_query_logging_configuration aws_prometheus_query_logging_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/prometheus_query_logging_configuration aws_prometheus_query_logging_configuration} Resource.
 func NewPrometheusQueryLoggingConfiguration(scope constructs.Construct, id *string, config *PrometheusQueryLoggingConfigurationConfig) PrometheusQueryLoggingConfiguration {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewPrometheusQueryLoggingConfiguration(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/prometheus_query_logging_configuration aws_prometheus_query_logging_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/prometheus_query_logging_configuration aws_prometheus_query_logging_configuration} Resource.
 func NewPrometheusQueryLoggingConfiguration_Override(p PrometheusQueryLoggingConfiguration, scope constructs.Construct, id *string, config *PrometheusQueryLoggingConfigurationConfig) {
 	_init_.Initialize()
 

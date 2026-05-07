@@ -5,14 +5,14 @@ package pinpointbaiduchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/pinpointbaiduchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/pinpointbaiduchannel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pinpoint_baidu_channel aws_pinpoint_baidu_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/pinpoint_baidu_channel aws_pinpoint_baidu_channel}.
 type PinpointBaiduChannel interface {
 	cdktn.TerraformResource
 	ApiKey() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_PinpointBaiduChannel) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pinpoint_baidu_channel aws_pinpoint_baidu_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/pinpoint_baidu_channel aws_pinpoint_baidu_channel} Resource.
 func NewPinpointBaiduChannel(scope constructs.Construct, id *string, config *PinpointBaiduChannelConfig) PinpointBaiduChannel {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewPinpointBaiduChannel(scope constructs.Construct, id *string, config *Pin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pinpoint_baidu_channel aws_pinpoint_baidu_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/pinpoint_baidu_channel aws_pinpoint_baidu_channel} Resource.
 func NewPinpointBaiduChannel_Override(p PinpointBaiduChannel, scope constructs.Construct, id *string, config *PinpointBaiduChannelConfig) {
 	_init_.Initialize()
 

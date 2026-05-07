@@ -5,14 +5,14 @@ package verifiedaccessinstancetrustproviderattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/verifiedaccessinstancetrustproviderattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/verifiedaccessinstancetrustproviderattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/verifiedaccess_instance_trust_provider_attachment aws_verifiedaccess_instance_trust_provider_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/verifiedaccess_instance_trust_provider_attachment aws_verifiedaccess_instance_trust_provider_attachment}.
 type VerifiedaccessInstanceTrustProviderAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) Verifiedaccess
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/verifiedaccess_instance_trust_provider_attachment aws_verifiedaccess_instance_trust_provider_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/verifiedaccess_instance_trust_provider_attachment aws_verifiedaccess_instance_trust_provider_attachment} Resource.
 func NewVerifiedaccessInstanceTrustProviderAttachment(scope constructs.Construct, id *string, config *VerifiedaccessInstanceTrustProviderAttachmentConfig) VerifiedaccessInstanceTrustProviderAttachment {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewVerifiedaccessInstanceTrustProviderAttachment(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/verifiedaccess_instance_trust_provider_attachment aws_verifiedaccess_instance_trust_provider_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/verifiedaccess_instance_trust_provider_attachment aws_verifiedaccess_instance_trust_provider_attachment} Resource.
 func NewVerifiedaccessInstanceTrustProviderAttachment_Override(v VerifiedaccessInstanceTrustProviderAttachment, scope constructs.Construct, id *string, config *VerifiedaccessInstanceTrustProviderAttachmentConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsopensearchserverlesscollectiongroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsopensearchserverlesscollectiongroups/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsopensearchserverlesscollectiongroups/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/opensearchserverless_collection_groups aws_opensearchserverless_collection_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/opensearchserverless_collection_groups aws_opensearchserverless_collection_groups}.
 type DataAwsOpensearchserverlessCollectionGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsOpensearchserverlessCollectionGroups) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/opensearchserverless_collection_groups aws_opensearchserverless_collection_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/opensearchserverless_collection_groups aws_opensearchserverless_collection_groups} Data Source.
 func NewDataAwsOpensearchserverlessCollectionGroups(scope constructs.Construct, id *string, config *DataAwsOpensearchserverlessCollectionGroupsConfig) DataAwsOpensearchserverlessCollectionGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsOpensearchserverlessCollectionGroups(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/opensearchserverless_collection_groups aws_opensearchserverless_collection_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/opensearchserverless_collection_groups aws_opensearchserverless_collection_groups} Data Source.
 func NewDataAwsOpensearchserverlessCollectionGroups_Override(d DataAwsOpensearchserverlessCollectionGroups, scope constructs.Construct, id *string, config *DataAwsOpensearchserverlessCollectionGroupsConfig) {
 	_init_.Initialize()
 

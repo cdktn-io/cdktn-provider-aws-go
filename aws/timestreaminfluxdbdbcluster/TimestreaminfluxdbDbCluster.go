@@ -5,14 +5,14 @@ package timestreaminfluxdbdbcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/timestreaminfluxdbdbcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/timestreaminfluxdbdbcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster}.
 type TimestreaminfluxdbDbCluster interface {
 	cdktn.TerraformResource
 	AllocatedStorage() *float64
@@ -71,6 +71,8 @@ type TimestreaminfluxdbDbCluster interface {
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LogDeliveryConfiguration() TimestreaminfluxdbDbClusterLogDeliveryConfigurationList
 	LogDeliveryConfigurationInput() interface{}
+	MaintenanceSchedule() TimestreaminfluxdbDbClusterMaintenanceScheduleList
+	MaintenanceScheduleInput() interface{}
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -170,6 +172,7 @@ type TimestreaminfluxdbDbCluster interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutLogDeliveryConfiguration(value interface{})
+	PutMaintenanceSchedule(value interface{})
 	PutTimeouts(value *TimestreaminfluxdbDbClusterTimeouts)
 	ResetAllocatedStorage()
 	ResetBucket()
@@ -178,6 +181,7 @@ type TimestreaminfluxdbDbCluster interface {
 	ResetDeploymentType()
 	ResetFailoverMode()
 	ResetLogDeliveryConfiguration()
+	ResetMaintenanceSchedule()
 	ResetNetworkType()
 	ResetOrganization()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -517,6 +521,26 @@ func (j *jsiiProxy_TimestreaminfluxdbDbCluster) LogDeliveryConfigurationInput() 
 	return returns
 }
 
+func (j *jsiiProxy_TimestreaminfluxdbDbCluster) MaintenanceSchedule() TimestreaminfluxdbDbClusterMaintenanceScheduleList {
+	var returns TimestreaminfluxdbDbClusterMaintenanceScheduleList
+	_jsii_.Get(
+		j,
+		"maintenanceSchedule",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TimestreaminfluxdbDbCluster) MaintenanceScheduleInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"maintenanceScheduleInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_TimestreaminfluxdbDbCluster) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -848,7 +872,7 @@ func (j *jsiiProxy_TimestreaminfluxdbDbCluster) VpcSubnetIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster} Resource.
 func NewTimestreaminfluxdbDbCluster(scope constructs.Construct, id *string, config *TimestreaminfluxdbDbClusterConfig) TimestreaminfluxdbDbCluster {
 	_init_.Initialize()
 
@@ -866,7 +890,7 @@ func NewTimestreaminfluxdbDbCluster(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster} Resource.
 func NewTimestreaminfluxdbDbCluster_Override(t TimestreaminfluxdbDbCluster, scope constructs.Construct, id *string, config *TimestreaminfluxdbDbClusterConfig) {
 	_init_.Initialize()
 
@@ -1507,6 +1531,17 @@ func (t *jsiiProxy_TimestreaminfluxdbDbCluster) PutLogDeliveryConfiguration(valu
 	)
 }
 
+func (t *jsiiProxy_TimestreaminfluxdbDbCluster) PutMaintenanceSchedule(value interface{}) {
+	if err := t.validatePutMaintenanceScheduleParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		t,
+		"putMaintenanceSchedule",
+		[]interface{}{value},
+	)
+}
+
 func (t *jsiiProxy_TimestreaminfluxdbDbCluster) PutTimeouts(value *TimestreaminfluxdbDbClusterTimeouts) {
 	if err := t.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1570,6 +1605,14 @@ func (t *jsiiProxy_TimestreaminfluxdbDbCluster) ResetLogDeliveryConfiguration() 
 	_jsii_.InvokeVoid(
 		t,
 		"resetLogDeliveryConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TimestreaminfluxdbDbCluster) ResetMaintenanceSchedule() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetMaintenanceSchedule",
 		nil, // no parameters
 	)
 }

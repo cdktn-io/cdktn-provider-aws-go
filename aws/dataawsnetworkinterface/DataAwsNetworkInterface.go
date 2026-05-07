@@ -5,14 +5,14 @@ package dataawsnetworkinterface
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsnetworkinterface/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsnetworkinterface/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/network_interface aws_network_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/network_interface aws_network_interface}.
 type DataAwsNetworkInterface interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -32,6 +32,7 @@ type DataAwsNetworkInterface interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	Description() *string
+	EnaSrdSpecification() DataAwsNetworkInterfaceEnaSrdSpecificationList
 	Filter() DataAwsNetworkInterfaceFilterList
 	FilterInput() interface{}
 	// Experimental.
@@ -231,6 +232,16 @@ func (j *jsiiProxy_DataAwsNetworkInterface) Description() *string {
 	_jsii_.Get(
 		j,
 		"description",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsNetworkInterface) EnaSrdSpecification() DataAwsNetworkInterfaceEnaSrdSpecificationList {
+	var returns DataAwsNetworkInterfaceEnaSrdSpecificationList
+	_jsii_.Get(
+		j,
+		"enaSrdSpecification",
 		&returns,
 	)
 	return returns
@@ -557,7 +568,7 @@ func (j *jsiiProxy_DataAwsNetworkInterface) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/network_interface aws_network_interface} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/network_interface aws_network_interface} Data Source.
 func NewDataAwsNetworkInterface(scope constructs.Construct, id *string, config *DataAwsNetworkInterfaceConfig) DataAwsNetworkInterface {
 	_init_.Initialize()
 
@@ -575,7 +586,7 @@ func NewDataAwsNetworkInterface(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/network_interface aws_network_interface} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/network_interface aws_network_interface} Data Source.
 func NewDataAwsNetworkInterface_Override(d DataAwsNetworkInterface, scope constructs.Construct, id *string, config *DataAwsNetworkInterfaceConfig) {
 	_init_.Initialize()
 

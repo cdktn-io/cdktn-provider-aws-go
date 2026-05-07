@@ -5,14 +5,14 @@ package ssmmaintenancewindow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ssmmaintenancewindow/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/ssmmaintenancewindow/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssm_maintenance_window aws_ssm_maintenance_window}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ssm_maintenance_window aws_ssm_maintenance_window}.
 type SsmMaintenanceWindow interface {
 	cdktn.TerraformResource
 	AllowUnassociatedTargets() interface{}
@@ -651,7 +651,7 @@ func (j *jsiiProxy_SsmMaintenanceWindow) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssm_maintenance_window aws_ssm_maintenance_window} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ssm_maintenance_window aws_ssm_maintenance_window} Resource.
 func NewSsmMaintenanceWindow(scope constructs.Construct, id *string, config *SsmMaintenanceWindowConfig) SsmMaintenanceWindow {
 	_init_.Initialize()
 
@@ -669,7 +669,7 @@ func NewSsmMaintenanceWindow(scope constructs.Construct, id *string, config *Ssm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssm_maintenance_window aws_ssm_maintenance_window} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ssm_maintenance_window aws_ssm_maintenance_window} Resource.
 func NewSsmMaintenanceWindow_Override(s SsmMaintenanceWindow, scope constructs.Construct, id *string, config *SsmMaintenanceWindowConfig) {
 	_init_.Initialize()
 

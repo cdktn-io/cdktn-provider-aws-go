@@ -5,14 +5,14 @@ package dynamodbtableexport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dynamodbtableexport/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dynamodbtableexport/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dynamodb_table_export aws_dynamodb_table_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/dynamodb_table_export aws_dynamodb_table_export}.
 type DynamodbTableExport interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -682,7 +682,7 @@ func (j *jsiiProxy_DynamodbTableExport) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dynamodb_table_export aws_dynamodb_table_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/dynamodb_table_export aws_dynamodb_table_export} Resource.
 func NewDynamodbTableExport(scope constructs.Construct, id *string, config *DynamodbTableExportConfig) DynamodbTableExport {
 	_init_.Initialize()
 
@@ -700,7 +700,7 @@ func NewDynamodbTableExport(scope constructs.Construct, id *string, config *Dyna
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dynamodb_table_export aws_dynamodb_table_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/dynamodb_table_export aws_dynamodb_table_export} Resource.
 func NewDynamodbTableExport_Override(d DynamodbTableExport, scope constructs.Construct, id *string, config *DynamodbTableExportConfig) {
 	_init_.Initialize()
 

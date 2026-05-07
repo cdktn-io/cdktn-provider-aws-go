@@ -5,14 +5,14 @@ package xraygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/xraygroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/xraygroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/xray_group aws_xray_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/xray_group aws_xray_group}.
 type XrayGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -472,7 +472,7 @@ func (j *jsiiProxy_XrayGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/xray_group aws_xray_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/xray_group aws_xray_group} Resource.
 func NewXrayGroup(scope constructs.Construct, id *string, config *XrayGroupConfig) XrayGroup {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewXrayGroup(scope constructs.Construct, id *string, config *XrayGroupConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/xray_group aws_xray_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/xray_group aws_xray_group} Resource.
 func NewXrayGroup_Override(x XrayGroup, scope constructs.Construct, id *string, config *XrayGroupConfig) {
 	_init_.Initialize()
 

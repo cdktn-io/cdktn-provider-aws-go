@@ -5,14 +5,14 @@ package vpc
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/vpc/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/vpc/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc aws_vpc}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/vpc aws_vpc}.
 type Vpc interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -767,7 +767,7 @@ func (j *jsiiProxy_Vpc) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc aws_vpc} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/vpc aws_vpc} Resource.
 func NewVpc(scope constructs.Construct, id *string, config *VpcConfig) Vpc {
 	_init_.Initialize()
 
@@ -785,7 +785,7 @@ func NewVpc(scope constructs.Construct, id *string, config *VpcConfig) Vpc {
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc aws_vpc} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/vpc aws_vpc} Resource.
 func NewVpc_Override(v Vpc, scope constructs.Construct, id *string, config *VpcConfig) {
 	_init_.Initialize()
 

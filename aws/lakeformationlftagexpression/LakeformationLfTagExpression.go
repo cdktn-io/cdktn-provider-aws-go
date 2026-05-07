@@ -5,14 +5,14 @@ package lakeformationlftagexpression
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lakeformationlftagexpression/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/lakeformationlftagexpression/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression}.
 type LakeformationLfTagExpression interface {
 	cdktn.TerraformResource
 	CatalogId() *string
@@ -414,7 +414,7 @@ func (j *jsiiProxy_LakeformationLfTagExpression) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression} Resource.
 func NewLakeformationLfTagExpression(scope constructs.Construct, id *string, config *LakeformationLfTagExpressionConfig) LakeformationLfTagExpression {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewLakeformationLfTagExpression(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression} Resource.
 func NewLakeformationLfTagExpression_Override(l LakeformationLfTagExpression, scope constructs.Construct, id *string, config *LakeformationLfTagExpressionConfig) {
 	_init_.Initialize()
 

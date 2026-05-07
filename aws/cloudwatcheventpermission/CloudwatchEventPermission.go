@@ -5,14 +5,14 @@ package cloudwatcheventpermission
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/cloudwatcheventpermission/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/cloudwatcheventpermission/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_event_permission aws_cloudwatch_event_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudwatch_event_permission aws_cloudwatch_event_permission}.
 type CloudwatchEventPermission interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -461,7 +461,7 @@ func (j *jsiiProxy_CloudwatchEventPermission) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_event_permission aws_cloudwatch_event_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudwatch_event_permission aws_cloudwatch_event_permission} Resource.
 func NewCloudwatchEventPermission(scope constructs.Construct, id *string, config *CloudwatchEventPermissionConfig) CloudwatchEventPermission {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewCloudwatchEventPermission(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_event_permission aws_cloudwatch_event_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudwatch_event_permission aws_cloudwatch_event_permission} Resource.
 func NewCloudwatchEventPermission_Override(c CloudwatchEventPermission, scope constructs.Construct, id *string, config *CloudwatchEventPermissionConfig) {
 	_init_.Initialize()
 

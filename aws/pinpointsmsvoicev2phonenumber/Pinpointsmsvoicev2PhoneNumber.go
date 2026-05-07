@@ -5,14 +5,14 @@ package pinpointsmsvoicev2phonenumber
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/pinpointsmsvoicev2phonenumber/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/pinpointsmsvoicev2phonenumber/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pinpointsmsvoicev2_phone_number aws_pinpointsmsvoicev2_phone_number}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/pinpointsmsvoicev2_phone_number aws_pinpointsmsvoicev2_phone_number}.
 type Pinpointsmsvoicev2PhoneNumber interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -682,7 +682,7 @@ func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) TwoWayChannelRoleInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pinpointsmsvoicev2_phone_number aws_pinpointsmsvoicev2_phone_number} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/pinpointsmsvoicev2_phone_number aws_pinpointsmsvoicev2_phone_number} Resource.
 func NewPinpointsmsvoicev2PhoneNumber(scope constructs.Construct, id *string, config *Pinpointsmsvoicev2PhoneNumberConfig) Pinpointsmsvoicev2PhoneNumber {
 	_init_.Initialize()
 
@@ -700,7 +700,7 @@ func NewPinpointsmsvoicev2PhoneNumber(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pinpointsmsvoicev2_phone_number aws_pinpointsmsvoicev2_phone_number} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/pinpointsmsvoicev2_phone_number aws_pinpointsmsvoicev2_phone_number} Resource.
 func NewPinpointsmsvoicev2PhoneNumber_Override(p Pinpointsmsvoicev2PhoneNumber, scope constructs.Construct, id *string, config *Pinpointsmsvoicev2PhoneNumberConfig) {
 	_init_.Initialize()
 

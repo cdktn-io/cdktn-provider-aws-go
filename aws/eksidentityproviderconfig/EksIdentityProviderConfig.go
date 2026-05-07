@@ -5,14 +5,14 @@ package eksidentityproviderconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/eksidentityproviderconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/eksidentityproviderconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/eks_identity_provider_config aws_eks_identity_provider_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/eks_identity_provider_config aws_eks_identity_provider_config}.
 type EksIdentityProviderConfig interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -45,6 +45,7 @@ type EksIdentityProviderConfig interface {
 	FriendlyUniqueId() *string
 	Id() *string
 	SetId(val *string)
+	IdentityProviderConfigName() *string
 	IdInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
@@ -282,6 +283,16 @@ func (j *jsiiProxy_EksIdentityProviderConfig) Id() *string {
 	return returns
 }
 
+func (j *jsiiProxy_EksIdentityProviderConfig) IdentityProviderConfigName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"identityProviderConfigName",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_EksIdentityProviderConfig) IdInput() *string {
 	var returns *string
 	_jsii_.Get(
@@ -483,7 +494,7 @@ func (j *jsiiProxy_EksIdentityProviderConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/eks_identity_provider_config aws_eks_identity_provider_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/eks_identity_provider_config aws_eks_identity_provider_config} Resource.
 func NewEksIdentityProviderConfig(scope constructs.Construct, id *string, config *EksIdentityProviderConfigConfig) EksIdentityProviderConfig {
 	_init_.Initialize()
 
@@ -501,7 +512,7 @@ func NewEksIdentityProviderConfig(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/eks_identity_provider_config aws_eks_identity_provider_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/eks_identity_provider_config aws_eks_identity_provider_config} Resource.
 func NewEksIdentityProviderConfig_Override(e EksIdentityProviderConfig, scope constructs.Construct, id *string, config *EksIdentityProviderConfigConfig) {
 	_init_.Initialize()
 

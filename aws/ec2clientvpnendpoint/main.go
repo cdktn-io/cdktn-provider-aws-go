@@ -73,6 +73,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putClientLoginBannerOptions", GoMethod: "PutClientLoginBannerOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "putClientRouteEnforcementOptions", GoMethod: "PutClientRouteEnforcementOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "putConnectionLogOptions", GoMethod: "PutConnectionLogOptions"},
+			_jsii_.MemberMethod{JsiiMethod: "putTransitGatewayConfiguration", GoMethod: "PutTransitGatewayConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
 			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
@@ -94,6 +95,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTagsAll", GoMethod: "ResetTagsAll"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTrafficIpAddressType", GoMethod: "ResetTrafficIpAddressType"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTransitGatewayConfiguration", GoMethod: "ResetTransitGatewayConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTransportProtocol", GoMethod: "ResetTransportProtocol"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVpcId", GoMethod: "ResetVpcId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVpnPort", GoMethod: "ResetVpnPort"},
@@ -123,6 +125,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "trafficIpAddressType", GoGetter: "TrafficIpAddressType"},
 			_jsii_.MemberProperty{JsiiProperty: "trafficIpAddressTypeInput", GoGetter: "TrafficIpAddressTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "transitGatewayConfiguration", GoGetter: "TransitGatewayConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "transitGatewayConfigurationInput", GoGetter: "TransitGatewayConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "transportProtocol", GoGetter: "TransportProtocol"},
 			_jsii_.MemberProperty{JsiiProperty: "transportProtocolInput", GoGetter: "TransportProtocolInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcId", GoGetter: "VpcId"},
@@ -376,6 +380,52 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Ec2ClientVpnEndpointConnectionLogOptionsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.ec2ClientVpnEndpoint.Ec2ClientVpnEndpointTransitGatewayConfiguration",
+		reflect.TypeOf((*Ec2ClientVpnEndpointTransitGatewayConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.ec2ClientVpnEndpoint.Ec2ClientVpnEndpointTransitGatewayConfigurationOutputReference",
+		reflect.TypeOf((*Ec2ClientVpnEndpointTransitGatewayConfigurationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "availabilityZoneIds", GoGetter: "AvailabilityZoneIds"},
+			_jsii_.MemberProperty{JsiiProperty: "availabilityZoneIdsInput", GoGetter: "AvailabilityZoneIdsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "availabilityZones", GoGetter: "AvailabilityZones"},
+			_jsii_.MemberProperty{JsiiProperty: "availabilityZonesInput", GoGetter: "AvailabilityZonesInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAvailabilityZoneIds", GoMethod: "ResetAvailabilityZoneIds"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAvailabilityZones", GoMethod: "ResetAvailabilityZones"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTransitGatewayId", GoMethod: "ResetTransitGatewayId"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "transitGatewayAttachmentId", GoGetter: "TransitGatewayAttachmentId"},
+			_jsii_.MemberProperty{JsiiProperty: "transitGatewayId", GoGetter: "TransitGatewayId"},
+			_jsii_.MemberProperty{JsiiProperty: "transitGatewayIdInput", GoGetter: "TransitGatewayIdInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_Ec2ClientVpnEndpointTransitGatewayConfigurationOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

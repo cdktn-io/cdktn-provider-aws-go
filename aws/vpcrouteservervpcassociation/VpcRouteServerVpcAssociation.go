@@ -5,14 +5,14 @@ package vpcrouteservervpcassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/vpcrouteservervpcassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/vpcrouteservervpcassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc_route_server_vpc_association aws_vpc_route_server_vpc_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/vpc_route_server_vpc_association aws_vpc_route_server_vpc_association}.
 type VpcRouteServerVpcAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_VpcRouteServerVpcAssociation) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc_route_server_vpc_association aws_vpc_route_server_vpc_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/vpc_route_server_vpc_association aws_vpc_route_server_vpc_association} Resource.
 func NewVpcRouteServerVpcAssociation(scope constructs.Construct, id *string, config *VpcRouteServerVpcAssociationConfig) VpcRouteServerVpcAssociation {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewVpcRouteServerVpcAssociation(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc_route_server_vpc_association aws_vpc_route_server_vpc_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/vpc_route_server_vpc_association aws_vpc_route_server_vpc_association} Resource.
 func NewVpcRouteServerVpcAssociation_Override(v VpcRouteServerVpcAssociation, scope constructs.Construct, id *string, config *VpcRouteServerVpcAssociationConfig) {
 	_init_.Initialize()
 

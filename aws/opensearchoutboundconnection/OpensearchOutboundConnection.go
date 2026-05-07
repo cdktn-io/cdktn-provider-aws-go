@@ -5,14 +5,14 @@ package opensearchoutboundconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/opensearchoutboundconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/opensearchoutboundconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/opensearch_outbound_connection aws_opensearch_outbound_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/opensearch_outbound_connection aws_opensearch_outbound_connection}.
 type OpensearchOutboundConnection interface {
 	cdktn.TerraformResource
 	AcceptConnection() interface{}
@@ -519,7 +519,7 @@ func (j *jsiiProxy_OpensearchOutboundConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/opensearch_outbound_connection aws_opensearch_outbound_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/opensearch_outbound_connection aws_opensearch_outbound_connection} Resource.
 func NewOpensearchOutboundConnection(scope constructs.Construct, id *string, config *OpensearchOutboundConnectionConfig) OpensearchOutboundConnection {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewOpensearchOutboundConnection(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/opensearch_outbound_connection aws_opensearch_outbound_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/opensearch_outbound_connection aws_opensearch_outbound_connection} Resource.
 func NewOpensearchOutboundConnection_Override(o OpensearchOutboundConnection, scope constructs.Construct, id *string, config *OpensearchOutboundConnectionConfig) {
 	_init_.Initialize()
 

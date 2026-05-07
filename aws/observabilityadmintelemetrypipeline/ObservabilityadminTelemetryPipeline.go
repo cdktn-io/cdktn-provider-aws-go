@@ -5,14 +5,14 @@ package observabilityadmintelemetrypipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/observabilityadmintelemetrypipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/observabilityadmintelemetrypipeline/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/observabilityadmin_telemetry_pipeline aws_observabilityadmin_telemetry_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/observabilityadmin_telemetry_pipeline aws_observabilityadmin_telemetry_pipeline}.
 type ObservabilityadminTelemetryPipeline interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_ObservabilityadminTelemetryPipeline) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/observabilityadmin_telemetry_pipeline aws_observabilityadmin_telemetry_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/observabilityadmin_telemetry_pipeline aws_observabilityadmin_telemetry_pipeline} Resource.
 func NewObservabilityadminTelemetryPipeline(scope constructs.Construct, id *string, config *ObservabilityadminTelemetryPipelineConfig) ObservabilityadminTelemetryPipeline {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewObservabilityadminTelemetryPipeline(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/observabilityadmin_telemetry_pipeline aws_observabilityadmin_telemetry_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/observabilityadmin_telemetry_pipeline aws_observabilityadmin_telemetry_pipeline} Resource.
 func NewObservabilityadminTelemetryPipeline_Override(o ObservabilityadminTelemetryPipeline, scope constructs.Construct, id *string, config *ObservabilityadminTelemetryPipelineConfig) {
 	_init_.Initialize()
 

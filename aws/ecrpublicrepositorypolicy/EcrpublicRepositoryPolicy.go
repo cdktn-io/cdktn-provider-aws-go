@@ -5,14 +5,14 @@ package ecrpublicrepositorypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ecrpublicrepositorypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/ecrpublicrepositorypolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecrpublic_repository_policy aws_ecrpublic_repository_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ecrpublic_repository_policy aws_ecrpublic_repository_policy}.
 type EcrpublicRepositoryPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_EcrpublicRepositoryPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecrpublic_repository_policy aws_ecrpublic_repository_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ecrpublic_repository_policy aws_ecrpublic_repository_policy} Resource.
 func NewEcrpublicRepositoryPolicy(scope constructs.Construct, id *string, config *EcrpublicRepositoryPolicyConfig) EcrpublicRepositoryPolicy {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewEcrpublicRepositoryPolicy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecrpublic_repository_policy aws_ecrpublic_repository_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ecrpublic_repository_policy aws_ecrpublic_repository_policy} Resource.
 func NewEcrpublicRepositoryPolicy_Override(e EcrpublicRepositoryPolicy, scope constructs.Construct, id *string, config *EcrpublicRepositoryPolicyConfig) {
 	_init_.Initialize()
 

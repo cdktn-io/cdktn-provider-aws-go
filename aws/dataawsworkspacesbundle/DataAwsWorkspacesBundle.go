@@ -5,14 +5,14 @@ package dataawsworkspacesbundle
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsworkspacesbundle/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsworkspacesbundle/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/workspaces_bundle aws_workspaces_bundle}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/workspaces_bundle aws_workspaces_bundle}.
 type DataAwsWorkspacesBundle interface {
 	cdktn.TerraformDataSource
 	BundleId() *string
@@ -414,7 +414,7 @@ func (j *jsiiProxy_DataAwsWorkspacesBundle) UserStorage() DataAwsWorkspacesBundl
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/workspaces_bundle aws_workspaces_bundle} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/workspaces_bundle aws_workspaces_bundle} Data Source.
 func NewDataAwsWorkspacesBundle(scope constructs.Construct, id *string, config *DataAwsWorkspacesBundleConfig) DataAwsWorkspacesBundle {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewDataAwsWorkspacesBundle(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/workspaces_bundle aws_workspaces_bundle} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/workspaces_bundle aws_workspaces_bundle} Data Source.
 func NewDataAwsWorkspacesBundle_Override(d DataAwsWorkspacesBundle, scope constructs.Construct, id *string, config *DataAwsWorkspacesBundleConfig) {
 	_init_.Initialize()
 

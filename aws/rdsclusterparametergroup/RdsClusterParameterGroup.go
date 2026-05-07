@@ -5,14 +5,14 @@ package rdsclusterparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/rdsclusterparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/rdsclusterparametergroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rds_cluster_parameter_group aws_rds_cluster_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/rds_cluster_parameter_group aws_rds_cluster_parameter_group}.
 type RdsClusterParameterGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -521,7 +521,7 @@ func (j *jsiiProxy_RdsClusterParameterGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rds_cluster_parameter_group aws_rds_cluster_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/rds_cluster_parameter_group aws_rds_cluster_parameter_group} Resource.
 func NewRdsClusterParameterGroup(scope constructs.Construct, id *string, config *RdsClusterParameterGroupConfig) RdsClusterParameterGroup {
 	_init_.Initialize()
 
@@ -539,7 +539,7 @@ func NewRdsClusterParameterGroup(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rds_cluster_parameter_group aws_rds_cluster_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/rds_cluster_parameter_group aws_rds_cluster_parameter_group} Resource.
 func NewRdsClusterParameterGroup_Override(r RdsClusterParameterGroup, scope constructs.Construct, id *string, config *RdsClusterParameterGroupConfig) {
 	_init_.Initialize()
 

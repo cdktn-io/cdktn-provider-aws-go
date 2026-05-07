@@ -5,9 +5,9 @@ package dataawsidentitystoreusers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsidentitystoreusers/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsidentitystoreusers/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -55,6 +55,7 @@ type DataAwsIdentitystoreUsersUsersOutputReference interface {
 	Title() *string
 	UserId() *string
 	UserName() *string
+	UserStatus() *string
 	UserType() *string
 	// Experimental.
 	ComputeFqn() *string
@@ -310,6 +311,16 @@ func (j *jsiiProxy_DataAwsIdentitystoreUsersUsersOutputReference) UserName() *st
 	_jsii_.Get(
 		j,
 		"userName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsIdentitystoreUsersUsersOutputReference) UserStatus() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"userStatus",
 		&returns,
 	)
 	return returns

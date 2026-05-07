@@ -5,14 +5,14 @@ package workspaceswebusersettingsassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/workspaceswebusersettingsassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/workspaceswebusersettingsassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspacesweb_user_settings_association aws_workspacesweb_user_settings_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/workspacesweb_user_settings_association aws_workspacesweb_user_settings_association}.
 type WorkspaceswebUserSettingsAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -365,7 +365,7 @@ func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation) UserSettingsArnInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspacesweb_user_settings_association aws_workspacesweb_user_settings_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/workspacesweb_user_settings_association aws_workspacesweb_user_settings_association} Resource.
 func NewWorkspaceswebUserSettingsAssociation(scope constructs.Construct, id *string, config *WorkspaceswebUserSettingsAssociationConfig) WorkspaceswebUserSettingsAssociation {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewWorkspaceswebUserSettingsAssociation(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspacesweb_user_settings_association aws_workspacesweb_user_settings_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/workspacesweb_user_settings_association aws_workspacesweb_user_settings_association} Resource.
 func NewWorkspaceswebUserSettingsAssociation_Override(w WorkspaceswebUserSettingsAssociation, scope constructs.Construct, id *string, config *WorkspaceswebUserSettingsAssociationConfig) {
 	_init_.Initialize()
 

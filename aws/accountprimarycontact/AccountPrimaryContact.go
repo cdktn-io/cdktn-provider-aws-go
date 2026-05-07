@@ -5,14 +5,14 @@ package accountprimarycontact
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/accountprimarycontact/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/accountprimarycontact/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/account_primary_contact aws_account_primary_contact}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/account_primary_contact aws_account_primary_contact}.
 type AccountPrimaryContact interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -625,7 +625,7 @@ func (j *jsiiProxy_AccountPrimaryContact) WebsiteUrlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/account_primary_contact aws_account_primary_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/account_primary_contact aws_account_primary_contact} Resource.
 func NewAccountPrimaryContact(scope constructs.Construct, id *string, config *AccountPrimaryContactConfig) AccountPrimaryContact {
 	_init_.Initialize()
 
@@ -643,7 +643,7 @@ func NewAccountPrimaryContact(scope constructs.Construct, id *string, config *Ac
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/account_primary_contact aws_account_primary_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/account_primary_contact aws_account_primary_contact} Resource.
 func NewAccountPrimaryContact_Override(a AccountPrimaryContact, scope constructs.Construct, id *string, config *AccountPrimaryContactConfig) {
 	_init_.Initialize()
 

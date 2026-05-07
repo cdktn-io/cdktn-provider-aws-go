@@ -5,9 +5,9 @@ package dataawsodbnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsodbnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsodbnetwork/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -28,6 +28,7 @@ type DataAwsOdbNetworkManagedServicesOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	CrossRegionS3RestoreSourcesAccess() DataAwsOdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccessList
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsOdbNetworkManagedServices
@@ -113,6 +114,16 @@ func (j *jsiiProxy_DataAwsOdbNetworkManagedServicesOutputReference) CreationStac
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsOdbNetworkManagedServicesOutputReference) CrossRegionS3RestoreSourcesAccess() DataAwsOdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccessList {
+	var returns DataAwsOdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccessList
+	_jsii_.Get(
+		j,
+		"crossRegionS3RestoreSourcesAccess",
 		&returns,
 	)
 	return returns

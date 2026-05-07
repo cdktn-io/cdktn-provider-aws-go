@@ -5,14 +5,14 @@ package dataawsec2transitgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsec2transitgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsec2transitgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ec2_transit_gateway aws_ec2_transit_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ec2_transit_gateway aws_ec2_transit_gateway}.
 type DataAwsEc2TransitGateway interface {
 	cdktn.TerraformDataSource
 	AmazonSideAsn() *float64
@@ -535,7 +535,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGateway) VpnEcmpSupport() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ec2_transit_gateway aws_ec2_transit_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ec2_transit_gateway aws_ec2_transit_gateway} Data Source.
 func NewDataAwsEc2TransitGateway(scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayConfig) DataAwsEc2TransitGateway {
 	_init_.Initialize()
 
@@ -553,7 +553,7 @@ func NewDataAwsEc2TransitGateway(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ec2_transit_gateway aws_ec2_transit_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ec2_transit_gateway aws_ec2_transit_gateway} Data Source.
 func NewDataAwsEc2TransitGateway_Override(d DataAwsEc2TransitGateway, scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayConfig) {
 	_init_.Initialize()
 

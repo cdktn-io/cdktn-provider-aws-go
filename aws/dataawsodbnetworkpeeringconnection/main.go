@@ -43,6 +43,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "odbPeeringConnectionType", GoGetter: "OdbPeeringConnectionType"},
 			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
 			_jsii_.MemberProperty{JsiiProperty: "peerNetworkArn", GoGetter: "PeerNetworkArn"},
+			_jsii_.MemberProperty{JsiiProperty: "peerNetworkCidrs", GoGetter: "PeerNetworkCidrs"},
 			_jsii_.MemberProperty{JsiiProperty: "percentProgress", GoGetter: "PercentProgress"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},

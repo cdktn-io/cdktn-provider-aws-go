@@ -5,14 +5,14 @@ package kmsreplicaexternalkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/kmsreplicaexternalkey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/kmsreplicaexternalkey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kms_replica_external_key aws_kms_replica_external_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/kms_replica_external_key aws_kms_replica_external_key}.
 type KmsReplicaExternalKey interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -637,7 +637,7 @@ func (j *jsiiProxy_KmsReplicaExternalKey) ValidToInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kms_replica_external_key aws_kms_replica_external_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/kms_replica_external_key aws_kms_replica_external_key} Resource.
 func NewKmsReplicaExternalKey(scope constructs.Construct, id *string, config *KmsReplicaExternalKeyConfig) KmsReplicaExternalKey {
 	_init_.Initialize()
 
@@ -655,7 +655,7 @@ func NewKmsReplicaExternalKey(scope constructs.Construct, id *string, config *Km
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kms_replica_external_key aws_kms_replica_external_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/kms_replica_external_key aws_kms_replica_external_key} Resource.
 func NewKmsReplicaExternalKey_Override(k KmsReplicaExternalKey, scope constructs.Construct, id *string, config *KmsReplicaExternalKeyConfig) {
 	_init_.Initialize()
 

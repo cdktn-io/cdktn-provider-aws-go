@@ -5,14 +5,14 @@ package datasynclocationazureblob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/datasynclocationazureblob/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/datasynclocationazureblob/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob}.
 type DatasyncLocationAzureBlob interface {
 	cdktn.TerraformResource
 	AccessTier() *string
@@ -578,7 +578,7 @@ func (j *jsiiProxy_DatasyncLocationAzureBlob) Uri() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob} Resource.
 func NewDatasyncLocationAzureBlob(scope constructs.Construct, id *string, config *DatasyncLocationAzureBlobConfig) DatasyncLocationAzureBlob {
 	_init_.Initialize()
 
@@ -596,7 +596,7 @@ func NewDatasyncLocationAzureBlob(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob} Resource.
 func NewDatasyncLocationAzureBlob_Override(d DatasyncLocationAzureBlob, scope constructs.Construct, id *string, config *DatasyncLocationAzureBlobConfig) {
 	_init_.Initialize()
 

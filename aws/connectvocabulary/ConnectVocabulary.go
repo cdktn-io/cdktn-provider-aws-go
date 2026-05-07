@@ -5,14 +5,14 @@ package connectvocabulary
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/connectvocabulary/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/connectvocabulary/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_vocabulary aws_connect_vocabulary}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/connect_vocabulary aws_connect_vocabulary}.
 type ConnectVocabulary interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -562,7 +562,7 @@ func (j *jsiiProxy_ConnectVocabulary) VocabularyId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_vocabulary aws_connect_vocabulary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/connect_vocabulary aws_connect_vocabulary} Resource.
 func NewConnectVocabulary(scope constructs.Construct, id *string, config *ConnectVocabularyConfig) ConnectVocabulary {
 	_init_.Initialize()
 
@@ -580,7 +580,7 @@ func NewConnectVocabulary(scope constructs.Construct, id *string, config *Connec
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_vocabulary aws_connect_vocabulary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/connect_vocabulary aws_connect_vocabulary} Resource.
 func NewConnectVocabulary_Override(c ConnectVocabulary, scope constructs.Construct, id *string, config *ConnectVocabularyConfig) {
 	_init_.Initialize()
 

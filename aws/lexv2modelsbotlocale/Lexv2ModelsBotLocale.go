@@ -5,14 +5,14 @@ package lexv2modelsbotlocale
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lexv2modelsbotlocale/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/lexv2modelsbotlocale/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_bot_locale aws_lexv2models_bot_locale}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lexv2models_bot_locale aws_lexv2models_bot_locale}.
 type Lexv2ModelsBotLocale interface {
 	cdktn.TerraformResource
 	BotId() *string
@@ -518,7 +518,7 @@ func (j *jsiiProxy_Lexv2ModelsBotLocale) VoiceSettingsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_bot_locale aws_lexv2models_bot_locale} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lexv2models_bot_locale aws_lexv2models_bot_locale} Resource.
 func NewLexv2ModelsBotLocale(scope constructs.Construct, id *string, config *Lexv2ModelsBotLocaleConfig) Lexv2ModelsBotLocale {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewLexv2ModelsBotLocale(scope constructs.Construct, id *string, config *Lex
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lexv2models_bot_locale aws_lexv2models_bot_locale} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lexv2models_bot_locale aws_lexv2models_bot_locale} Resource.
 func NewLexv2ModelsBotLocale_Override(l Lexv2ModelsBotLocale, scope constructs.Construct, id *string, config *Lexv2ModelsBotLocaleConfig) {
 	_init_.Initialize()
 

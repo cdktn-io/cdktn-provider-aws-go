@@ -5,14 +5,14 @@ package securityhubinviteaccepter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/securityhubinviteaccepter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/securityhubinviteaccepter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_invite_accepter aws_securityhub_invite_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/securityhub_invite_accepter aws_securityhub_invite_accepter}.
 type SecurityhubInviteAccepter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -377,7 +377,7 @@ func (j *jsiiProxy_SecurityhubInviteAccepter) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_invite_accepter aws_securityhub_invite_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/securityhub_invite_accepter aws_securityhub_invite_accepter} Resource.
 func NewSecurityhubInviteAccepter(scope constructs.Construct, id *string, config *SecurityhubInviteAccepterConfig) SecurityhubInviteAccepter {
 	_init_.Initialize()
 
@@ -395,7 +395,7 @@ func NewSecurityhubInviteAccepter(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_invite_accepter aws_securityhub_invite_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/securityhub_invite_accepter aws_securityhub_invite_accepter} Resource.
 func NewSecurityhubInviteAccepter_Override(s SecurityhubInviteAccepter, scope constructs.Construct, id *string, config *SecurityhubInviteAccepterConfig) {
 	_init_.Initialize()
 

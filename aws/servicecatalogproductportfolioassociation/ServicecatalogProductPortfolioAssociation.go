@@ -5,14 +5,14 @@ package servicecatalogproductportfolioassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/servicecatalogproductportfolioassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/servicecatalogproductportfolioassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/servicecatalog_product_portfolio_association aws_servicecatalog_product_portfolio_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/servicecatalog_product_portfolio_association aws_servicecatalog_product_portfolio_association}.
 type ServicecatalogProductPortfolioAssociation interface {
 	cdktn.TerraformResource
 	AcceptLanguage() *string
@@ -461,7 +461,7 @@ func (j *jsiiProxy_ServicecatalogProductPortfolioAssociation) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/servicecatalog_product_portfolio_association aws_servicecatalog_product_portfolio_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/servicecatalog_product_portfolio_association aws_servicecatalog_product_portfolio_association} Resource.
 func NewServicecatalogProductPortfolioAssociation(scope constructs.Construct, id *string, config *ServicecatalogProductPortfolioAssociationConfig) ServicecatalogProductPortfolioAssociation {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewServicecatalogProductPortfolioAssociation(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/servicecatalog_product_portfolio_association aws_servicecatalog_product_portfolio_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/servicecatalog_product_portfolio_association aws_servicecatalog_product_portfolio_association} Resource.
 func NewServicecatalogProductPortfolioAssociation_Override(s ServicecatalogProductPortfolioAssociation, scope constructs.Construct, id *string, config *ServicecatalogProductPortfolioAssociationConfig) {
 	_init_.Initialize()
 

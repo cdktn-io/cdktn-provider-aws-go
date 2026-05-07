@@ -5,14 +5,14 @@ package dataawsec2spotprice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsec2spotprice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsec2spotprice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ec2_spot_price aws_ec2_spot_price}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ec2_spot_price aws_ec2_spot_price}.
 type DataAwsEc2SpotPrice interface {
 	cdktn.TerraformDataSource
 	AvailabilityZone() *string
@@ -416,7 +416,7 @@ func (j *jsiiProxy_DataAwsEc2SpotPrice) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ec2_spot_price aws_ec2_spot_price} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ec2_spot_price aws_ec2_spot_price} Data Source.
 func NewDataAwsEc2SpotPrice(scope constructs.Construct, id *string, config *DataAwsEc2SpotPriceConfig) DataAwsEc2SpotPrice {
 	_init_.Initialize()
 
@@ -434,7 +434,7 @@ func NewDataAwsEc2SpotPrice(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ec2_spot_price aws_ec2_spot_price} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ec2_spot_price aws_ec2_spot_price} Data Source.
 func NewDataAwsEc2SpotPrice_Override(d DataAwsEc2SpotPrice, scope constructs.Construct, id *string, config *DataAwsEc2SpotPriceConfig) {
 	_init_.Initialize()
 

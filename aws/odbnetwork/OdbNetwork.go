@@ -5,14 +5,14 @@ package odbnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/odbnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/odbnetwork/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/odb_network aws_odb_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/odb_network aws_odb_network}.
 type OdbNetwork interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -41,6 +41,9 @@ type OdbNetwork interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreatedAt() *string
+	CrossRegionS3RestoreSourcesAccess() *[]*string
+	SetCrossRegionS3RestoreSourcesAccess(val *[]*string)
+	CrossRegionS3RestoreSourcesAccessInput() *[]*string
 	CustomDomainName() *string
 	SetCustomDomainName(val *string)
 	CustomDomainNameInput() *string
@@ -174,6 +177,7 @@ type OdbNetwork interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *OdbNetworkTimeouts)
 	ResetAvailabilityZone()
+	ResetCrossRegionS3RestoreSourcesAccess()
 	ResetCustomDomainName()
 	ResetDefaultDnsPrefix()
 	ResetDeleteAssociatedResources()
@@ -350,6 +354,26 @@ func (j *jsiiProxy_OdbNetwork) CreatedAt() *string {
 	_jsii_.Get(
 		j,
 		"createdAt",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbNetwork) CrossRegionS3RestoreSourcesAccess() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"crossRegionS3RestoreSourcesAccess",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbNetwork) CrossRegionS3RestoreSourcesAccessInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"crossRegionS3RestoreSourcesAccessInput",
 		&returns,
 	)
 	return returns
@@ -886,7 +910,7 @@ func (j *jsiiProxy_OdbNetwork) ZeroEtlAccessInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/odb_network aws_odb_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/odb_network aws_odb_network} Resource.
 func NewOdbNetwork(scope constructs.Construct, id *string, config *OdbNetworkConfig) OdbNetwork {
 	_init_.Initialize()
 
@@ -904,7 +928,7 @@ func NewOdbNetwork(scope constructs.Construct, id *string, config *OdbNetworkCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/odb_network aws_odb_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/odb_network aws_odb_network} Resource.
 func NewOdbNetwork_Override(o OdbNetwork, scope constructs.Construct, id *string, config *OdbNetworkConfig) {
 	_init_.Initialize()
 
@@ -977,6 +1001,17 @@ func (j *jsiiProxy_OdbNetwork)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OdbNetwork)SetCrossRegionS3RestoreSourcesAccess(val *[]*string) {
+	if err := j.validateSetCrossRegionS3RestoreSourcesAccessParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"crossRegionS3RestoreSourcesAccess",
 		val,
 	)
 }
@@ -1538,6 +1573,14 @@ func (o *jsiiProxy_OdbNetwork) ResetAvailabilityZone() {
 	_jsii_.InvokeVoid(
 		o,
 		"resetAvailabilityZone",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OdbNetwork) ResetCrossRegionS3RestoreSourcesAccess() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetCrossRegionS3RestoreSourcesAccess",
 		nil, // no parameters
 	)
 }

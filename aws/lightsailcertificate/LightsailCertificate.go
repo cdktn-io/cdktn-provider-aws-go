@@ -5,14 +5,14 @@ package lightsailcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lightsailcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/lightsailcertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lightsail_certificate aws_lightsail_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lightsail_certificate aws_lightsail_certificate}.
 type LightsailCertificate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_LightsailCertificate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lightsail_certificate aws_lightsail_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lightsail_certificate aws_lightsail_certificate} Resource.
 func NewLightsailCertificate(scope constructs.Construct, id *string, config *LightsailCertificateConfig) LightsailCertificate {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewLightsailCertificate(scope constructs.Construct, id *string, config *Lig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lightsail_certificate aws_lightsail_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lightsail_certificate aws_lightsail_certificate} Resource.
 func NewLightsailCertificate_Override(l LightsailCertificate, scope constructs.Construct, id *string, config *LightsailCertificateConfig) {
 	_init_.Initialize()
 

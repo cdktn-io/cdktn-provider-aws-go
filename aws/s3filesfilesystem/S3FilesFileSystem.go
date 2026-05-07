@@ -5,16 +5,19 @@ package s3filesfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/s3filesfilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/s3filesfilesystem/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3files_file_system aws_s3files_file_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3files_file_system aws_s3files_file_system}.
 type S3FilesFileSystem interface {
 	cdktn.TerraformResource
+	AcceptBucketWarning() interface{}
+	SetAcceptBucketWarning(val interface{})
+	AcceptBucketWarningInput() interface{}
 	Arn() *string
 	Bucket() *string
 	SetBucket(val *string)
@@ -133,6 +136,7 @@ type S3FilesFileSystem interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *S3FilesFileSystemTimeouts)
+	ResetAcceptBucketWarning()
 	ResetKmsKeyId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -166,6 +170,26 @@ type S3FilesFileSystem interface {
 // The jsii proxy struct for S3FilesFileSystem
 type jsiiProxy_S3FilesFileSystem struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_S3FilesFileSystem) AcceptBucketWarning() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"acceptBucketWarning",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3FilesFileSystem) AcceptBucketWarningInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"acceptBucketWarningInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_S3FilesFileSystem) Arn() *string {
@@ -549,7 +573,7 @@ func (j *jsiiProxy_S3FilesFileSystem) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3files_file_system aws_s3files_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3files_file_system aws_s3files_file_system} Resource.
 func NewS3FilesFileSystem(scope constructs.Construct, id *string, config *S3FilesFileSystemConfig) S3FilesFileSystem {
 	_init_.Initialize()
 
@@ -567,7 +591,7 @@ func NewS3FilesFileSystem(scope constructs.Construct, id *string, config *S3File
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3files_file_system aws_s3files_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3files_file_system aws_s3files_file_system} Resource.
 func NewS3FilesFileSystem_Override(s S3FilesFileSystem, scope constructs.Construct, id *string, config *S3FilesFileSystemConfig) {
 	_init_.Initialize()
 
@@ -575,6 +599,17 @@ func NewS3FilesFileSystem_Override(s S3FilesFileSystem, scope constructs.Constru
 		"@cdktn/provider-aws.s3FilesFileSystem.S3FilesFileSystem",
 		[]interface{}{scope, id, config},
 		s,
+	)
+}
+
+func (j *jsiiProxy_S3FilesFileSystem)SetAcceptBucketWarning(val interface{}) {
+	if err := j.validateSetAcceptBucketWarningParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"acceptBucketWarning",
+		val,
 	)
 }
 
@@ -1073,6 +1108,14 @@ func (s *jsiiProxy_S3FilesFileSystem) PutTimeouts(value *S3FilesFileSystemTimeou
 		s,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_S3FilesFileSystem) ResetAcceptBucketWarning() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetAcceptBucketWarning",
+		nil, // no parameters
 	)
 }
 

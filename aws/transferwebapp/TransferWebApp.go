@@ -5,14 +5,14 @@ package transferwebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/transferwebapp/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/transferwebapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_web_app aws_transfer_web_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/transfer_web_app aws_transfer_web_app}.
 type TransferWebApp interface {
 	cdktn.TerraformResource
 	AccessEndpoint() *string
@@ -496,7 +496,7 @@ func (j *jsiiProxy_TransferWebApp) WebAppUnitsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_web_app aws_transfer_web_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/transfer_web_app aws_transfer_web_app} Resource.
 func NewTransferWebApp(scope constructs.Construct, id *string, config *TransferWebAppConfig) TransferWebApp {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewTransferWebApp(scope constructs.Construct, id *string, config *TransferW
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_web_app aws_transfer_web_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/transfer_web_app aws_transfer_web_app} Resource.
 func NewTransferWebApp_Override(t TransferWebApp, scope constructs.Construct, id *string, config *TransferWebAppConfig) {
 	_init_.Initialize()
 

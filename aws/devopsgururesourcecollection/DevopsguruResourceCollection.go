@@ -5,14 +5,14 @@ package devopsgururesourcecollection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/devopsgururesourcecollection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/devopsgururesourcecollection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/devopsguru_resource_collection aws_devopsguru_resource_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/devopsguru_resource_collection aws_devopsguru_resource_collection}.
 type DevopsguruResourceCollection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_DevopsguruResourceCollection) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/devopsguru_resource_collection aws_devopsguru_resource_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/devopsguru_resource_collection aws_devopsguru_resource_collection} Resource.
 func NewDevopsguruResourceCollection(scope constructs.Construct, id *string, config *DevopsguruResourceCollectionConfig) DevopsguruResourceCollection {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewDevopsguruResourceCollection(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/devopsguru_resource_collection aws_devopsguru_resource_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/devopsguru_resource_collection aws_devopsguru_resource_collection} Resource.
 func NewDevopsguruResourceCollection_Override(d DevopsguruResourceCollection, scope constructs.Construct, id *string, config *DevopsguruResourceCollectionConfig) {
 	_init_.Initialize()
 

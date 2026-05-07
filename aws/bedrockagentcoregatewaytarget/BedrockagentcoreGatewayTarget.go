@@ -5,14 +5,14 @@ package bedrockagentcoregatewaytarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/bedrockagentcoregatewaytarget/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/bedrockagentcoregatewaytarget/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target}.
 type BedrockagentcoreGatewayTarget interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTarget) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target} Resource.
 func NewBedrockagentcoreGatewayTarget(scope constructs.Construct, id *string, config *BedrockagentcoreGatewayTargetConfig) BedrockagentcoreGatewayTarget {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewBedrockagentcoreGatewayTarget(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target} Resource.
 func NewBedrockagentcoreGatewayTarget_Override(b BedrockagentcoreGatewayTarget, scope constructs.Construct, id *string, config *BedrockagentcoreGatewayTargetConfig) {
 	_init_.Initialize()
 

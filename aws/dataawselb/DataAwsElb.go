@@ -5,14 +5,14 @@ package dataawselb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawselb/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawselb/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/elb aws_elb}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/elb aws_elb}.
 type DataAwsElb interface {
 	cdktn.TerraformDataSource
 	AccessLogs() DataAwsElbAccessLogsList
@@ -543,7 +543,7 @@ func (j *jsiiProxy_DataAwsElb) ZoneId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/elb aws_elb} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/elb aws_elb} Data Source.
 func NewDataAwsElb(scope constructs.Construct, id *string, config *DataAwsElbConfig) DataAwsElb {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewDataAwsElb(scope constructs.Construct, id *string, config *DataAwsElbCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/elb aws_elb} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/elb aws_elb} Data Source.
 func NewDataAwsElb_Override(d DataAwsElb, scope constructs.Construct, id *string, config *DataAwsElbConfig) {
 	_init_.Initialize()
 

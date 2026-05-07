@@ -5,7 +5,7 @@ package iotdomainconfiguration
 
 
 type IotDomainConfigurationTlsConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_domain_configuration#security_policy IotDomainConfiguration#security_policy}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/iot_domain_configuration#security_policy IotDomainConfiguration#security_policy}.
 	SecurityPolicy *string `field:"optional" json:"securityPolicy" yaml:"securityPolicy"`
 }
 

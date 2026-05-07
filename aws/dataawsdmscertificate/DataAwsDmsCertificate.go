@@ -5,14 +5,14 @@ package dataawsdmscertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsdmscertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsdmscertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/dms_certificate aws_dms_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/dms_certificate aws_dms_certificate}.
 type DataAwsDmsCertificate interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -444,7 +444,7 @@ func (j *jsiiProxy_DataAwsDmsCertificate) ValidToDate() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/dms_certificate aws_dms_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/dms_certificate aws_dms_certificate} Data Source.
 func NewDataAwsDmsCertificate(scope constructs.Construct, id *string, config *DataAwsDmsCertificateConfig) DataAwsDmsCertificate {
 	_init_.Initialize()
 
@@ -462,7 +462,7 @@ func NewDataAwsDmsCertificate(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/dms_certificate aws_dms_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/dms_certificate aws_dms_certificate} Data Source.
 func NewDataAwsDmsCertificate_Override(d DataAwsDmsCertificate, scope constructs.Construct, id *string, config *DataAwsDmsCertificateConfig) {
 	_init_.Initialize()
 

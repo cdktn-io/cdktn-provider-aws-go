@@ -5,14 +5,14 @@ package ecsclustercapacityproviders
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ecsclustercapacityproviders/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/ecsclustercapacityproviders/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_cluster_capacity_providers aws_ecs_cluster_capacity_providers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ecs_cluster_capacity_providers aws_ecs_cluster_capacity_providers}.
 type EcsClusterCapacityProviders interface {
 	cdktn.TerraformResource
 	CapacityProviders() *[]*string
@@ -414,7 +414,7 @@ func (j *jsiiProxy_EcsClusterCapacityProviders) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_cluster_capacity_providers aws_ecs_cluster_capacity_providers} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ecs_cluster_capacity_providers aws_ecs_cluster_capacity_providers} Resource.
 func NewEcsClusterCapacityProviders(scope constructs.Construct, id *string, config *EcsClusterCapacityProvidersConfig) EcsClusterCapacityProviders {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewEcsClusterCapacityProviders(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_cluster_capacity_providers aws_ecs_cluster_capacity_providers} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ecs_cluster_capacity_providers aws_ecs_cluster_capacity_providers} Resource.
 func NewEcsClusterCapacityProviders_Override(e EcsClusterCapacityProviders, scope constructs.Construct, id *string, config *EcsClusterCapacityProvidersConfig) {
 	_init_.Initialize()
 

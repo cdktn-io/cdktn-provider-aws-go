@@ -5,14 +5,14 @@ package guarddutyinviteaccepter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/guarddutyinviteaccepter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/guarddutyinviteaccepter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter}.
 type GuarddutyInviteAccepter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_GuarddutyInviteAccepter) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter} Resource.
 func NewGuarddutyInviteAccepter(scope constructs.Construct, id *string, config *GuarddutyInviteAccepterConfig) GuarddutyInviteAccepter {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewGuarddutyInviteAccepter(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter} Resource.
 func NewGuarddutyInviteAccepter_Override(g GuarddutyInviteAccepter, scope constructs.Construct, id *string, config *GuarddutyInviteAccepterConfig) {
 	_init_.Initialize()
 

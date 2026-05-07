@@ -380,6 +380,14 @@ func (j *jsiiProxy_OdbNetwork) validateSetCountParameters(val interface{}) error
 	return nil
 }
 
+func (j *jsiiProxy_OdbNetwork) validateSetCrossRegionS3RestoreSourcesAccessParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_OdbNetwork) validateSetCustomDomainNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

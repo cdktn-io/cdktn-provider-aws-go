@@ -5,14 +5,14 @@ package quicksightfoldermembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/quicksightfoldermembership/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/quicksightfoldermembership/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_folder_membership aws_quicksight_folder_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/quicksight_folder_membership aws_quicksight_folder_membership}.
 type QuicksightFolderMembership interface {
 	cdktn.TerraformResource
 	AwsAccountId() *string
@@ -423,7 +423,7 @@ func (j *jsiiProxy_QuicksightFolderMembership) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_folder_membership aws_quicksight_folder_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/quicksight_folder_membership aws_quicksight_folder_membership} Resource.
 func NewQuicksightFolderMembership(scope constructs.Construct, id *string, config *QuicksightFolderMembershipConfig) QuicksightFolderMembership {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewQuicksightFolderMembership(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_folder_membership aws_quicksight_folder_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/quicksight_folder_membership aws_quicksight_folder_membership} Resource.
 func NewQuicksightFolderMembership_Override(q QuicksightFolderMembership, scope constructs.Construct, id *string, config *QuicksightFolderMembershipConfig) {
 	_init_.Initialize()
 

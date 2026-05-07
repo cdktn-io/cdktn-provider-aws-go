@@ -5,14 +5,14 @@ package dataawsconnectinstancestorageconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsconnectinstancestorageconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsconnectinstancestorageconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/connect_instance_storage_config aws_connect_instance_storage_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/connect_instance_storage_config aws_connect_instance_storage_config}.
 type DataAwsConnectInstanceStorageConfig interface {
 	cdktn.TerraformDataSource
 	AssociationId() *string
@@ -378,7 +378,7 @@ func (j *jsiiProxy_DataAwsConnectInstanceStorageConfig) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/connect_instance_storage_config aws_connect_instance_storage_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/connect_instance_storage_config aws_connect_instance_storage_config} Data Source.
 func NewDataAwsConnectInstanceStorageConfig(scope constructs.Construct, id *string, config *DataAwsConnectInstanceStorageConfigConfig) DataAwsConnectInstanceStorageConfig {
 	_init_.Initialize()
 
@@ -396,7 +396,7 @@ func NewDataAwsConnectInstanceStorageConfig(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/connect_instance_storage_config aws_connect_instance_storage_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/connect_instance_storage_config aws_connect_instance_storage_config} Data Source.
 func NewDataAwsConnectInstanceStorageConfig_Override(d DataAwsConnectInstanceStorageConfig, scope constructs.Construct, id *string, config *DataAwsConnectInstanceStorageConfigConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawschatbotslackworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawschatbotslackworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawschatbotslackworkspace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/chatbot_slack_workspace aws_chatbot_slack_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/chatbot_slack_workspace aws_chatbot_slack_workspace}.
 type DataAwsChatbotSlackWorkspace interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsChatbotSlackWorkspace) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/chatbot_slack_workspace aws_chatbot_slack_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/chatbot_slack_workspace aws_chatbot_slack_workspace} Data Source.
 func NewDataAwsChatbotSlackWorkspace(scope constructs.Construct, id *string, config *DataAwsChatbotSlackWorkspaceConfig) DataAwsChatbotSlackWorkspace {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsChatbotSlackWorkspace(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/chatbot_slack_workspace aws_chatbot_slack_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/chatbot_slack_workspace aws_chatbot_slack_workspace} Data Source.
 func NewDataAwsChatbotSlackWorkspace_Override(d DataAwsChatbotSlackWorkspace, scope constructs.Construct, id *string, config *DataAwsChatbotSlackWorkspaceConfig) {
 	_init_.Initialize()
 

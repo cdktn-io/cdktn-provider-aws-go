@@ -5,14 +5,14 @@ package route53profilesresourceassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/route53profilesresourceassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/route53profilesresourceassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53profiles_resource_association aws_route53profiles_resource_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/route53profiles_resource_association aws_route53profiles_resource_association}.
 type Route53ProfilesResourceAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -491,7 +491,7 @@ func (j *jsiiProxy_Route53ProfilesResourceAssociation) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53profiles_resource_association aws_route53profiles_resource_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/route53profiles_resource_association aws_route53profiles_resource_association} Resource.
 func NewRoute53ProfilesResourceAssociation(scope constructs.Construct, id *string, config *Route53ProfilesResourceAssociationConfig) Route53ProfilesResourceAssociation {
 	_init_.Initialize()
 
@@ -509,7 +509,7 @@ func NewRoute53ProfilesResourceAssociation(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53profiles_resource_association aws_route53profiles_resource_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/route53profiles_resource_association aws_route53profiles_resource_association} Resource.
 func NewRoute53ProfilesResourceAssociation_Override(r Route53ProfilesResourceAssociation, scope constructs.Construct, id *string, config *Route53ProfilesResourceAssociationConfig) {
 	_init_.Initialize()
 

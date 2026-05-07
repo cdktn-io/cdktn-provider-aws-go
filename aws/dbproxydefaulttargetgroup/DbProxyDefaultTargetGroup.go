@@ -5,14 +5,14 @@ package dbproxydefaulttargetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dbproxydefaulttargetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dbproxydefaulttargetgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/db_proxy_default_target_group aws_db_proxy_default_target_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/db_proxy_default_target_group aws_db_proxy_default_target_group}.
 type DbProxyDefaultTargetGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_DbProxyDefaultTargetGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/db_proxy_default_target_group aws_db_proxy_default_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/db_proxy_default_target_group aws_db_proxy_default_target_group} Resource.
 func NewDbProxyDefaultTargetGroup(scope constructs.Construct, id *string, config *DbProxyDefaultTargetGroupConfig) DbProxyDefaultTargetGroup {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewDbProxyDefaultTargetGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/db_proxy_default_target_group aws_db_proxy_default_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/db_proxy_default_target_group aws_db_proxy_default_target_group} Resource.
 func NewDbProxyDefaultTargetGroup_Override(d DbProxyDefaultTargetGroup, scope constructs.Construct, id *string, config *DbProxyDefaultTargetGroupConfig) {
 	_init_.Initialize()
 

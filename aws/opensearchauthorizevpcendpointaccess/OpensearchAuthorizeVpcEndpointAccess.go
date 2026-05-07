@@ -5,14 +5,14 @@ package opensearchauthorizevpcendpointaccess
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/opensearchauthorizevpcendpointaccess/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/opensearchauthorizevpcendpointaccess/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/opensearch_authorize_vpc_endpoint_access aws_opensearch_authorize_vpc_endpoint_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/opensearch_authorize_vpc_endpoint_access aws_opensearch_authorize_vpc_endpoint_access}.
 type OpensearchAuthorizeVpcEndpointAccess interface {
 	cdktn.TerraformResource
 	Account() *string
@@ -376,7 +376,7 @@ func (j *jsiiProxy_OpensearchAuthorizeVpcEndpointAccess) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/opensearch_authorize_vpc_endpoint_access aws_opensearch_authorize_vpc_endpoint_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/opensearch_authorize_vpc_endpoint_access aws_opensearch_authorize_vpc_endpoint_access} Resource.
 func NewOpensearchAuthorizeVpcEndpointAccess(scope constructs.Construct, id *string, config *OpensearchAuthorizeVpcEndpointAccessConfig) OpensearchAuthorizeVpcEndpointAccess {
 	_init_.Initialize()
 
@@ -394,7 +394,7 @@ func NewOpensearchAuthorizeVpcEndpointAccess(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/opensearch_authorize_vpc_endpoint_access aws_opensearch_authorize_vpc_endpoint_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/opensearch_authorize_vpc_endpoint_access aws_opensearch_authorize_vpc_endpoint_access} Resource.
 func NewOpensearchAuthorizeVpcEndpointAccess_Override(o OpensearchAuthorizeVpcEndpointAccess, scope constructs.Construct, id *string, config *OpensearchAuthorizeVpcEndpointAccessConfig) {
 	_init_.Initialize()
 

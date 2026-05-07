@@ -5,14 +5,14 @@ package s3controlaccessgrantsinstanceresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/s3controlaccessgrantsinstanceresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/s3controlaccessgrantsinstanceresourcepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3control_access_grants_instance_resource_policy aws_s3control_access_grants_instance_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3control_access_grants_instance_resource_policy aws_s3control_access_grants_instance_resource_policy}.
 type S3ControlAccessGrantsInstanceResourcePolicy interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -377,7 +377,7 @@ func (j *jsiiProxy_S3ControlAccessGrantsInstanceResourcePolicy) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3control_access_grants_instance_resource_policy aws_s3control_access_grants_instance_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3control_access_grants_instance_resource_policy aws_s3control_access_grants_instance_resource_policy} Resource.
 func NewS3ControlAccessGrantsInstanceResourcePolicy(scope constructs.Construct, id *string, config *S3ControlAccessGrantsInstanceResourcePolicyConfig) S3ControlAccessGrantsInstanceResourcePolicy {
 	_init_.Initialize()
 
@@ -395,7 +395,7 @@ func NewS3ControlAccessGrantsInstanceResourcePolicy(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3control_access_grants_instance_resource_policy aws_s3control_access_grants_instance_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3control_access_grants_instance_resource_policy aws_s3control_access_grants_instance_resource_policy} Resource.
 func NewS3ControlAccessGrantsInstanceResourcePolicy_Override(s S3ControlAccessGrantsInstanceResourcePolicy, scope constructs.Construct, id *string, config *S3ControlAccessGrantsInstanceResourcePolicyConfig) {
 	_init_.Initialize()
 

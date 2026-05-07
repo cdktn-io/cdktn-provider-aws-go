@@ -5,14 +5,14 @@ package sagemakermlflowapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/sagemakermlflowapp/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/sagemakermlflowapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_mlflow_app aws_sagemaker_mlflow_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/sagemaker_mlflow_app aws_sagemaker_mlflow_app}.
 type SagemakerMlflowApp interface {
 	cdktn.TerraformResource
 	AccountDefaultStatus() *string
@@ -554,7 +554,7 @@ func (j *jsiiProxy_SagemakerMlflowApp) WeeklyMaintenanceWindowStartInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_mlflow_app aws_sagemaker_mlflow_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/sagemaker_mlflow_app aws_sagemaker_mlflow_app} Resource.
 func NewSagemakerMlflowApp(scope constructs.Construct, id *string, config *SagemakerMlflowAppConfig) SagemakerMlflowApp {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewSagemakerMlflowApp(scope constructs.Construct, id *string, config *Sagem
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_mlflow_app aws_sagemaker_mlflow_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/sagemaker_mlflow_app aws_sagemaker_mlflow_app} Resource.
 func NewSagemakerMlflowApp_Override(s SagemakerMlflowApp, scope constructs.Construct, id *string, config *SagemakerMlflowAppConfig) {
 	_init_.Initialize()
 

@@ -5,7 +5,7 @@ package sagemakerlabelingjob
 
 
 type SagemakerLabelingJobInputConfigDataSourceS3DataSource struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sagemaker_labeling_job#manifest_s3_uri SagemakerLabelingJob#manifest_s3_uri}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/sagemaker_labeling_job#manifest_s3_uri SagemakerLabelingJob#manifest_s3_uri}.
 	ManifestS3Uri *string `field:"required" json:"manifestS3Uri" yaml:"manifestS3Uri"`
 }
 

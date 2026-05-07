@@ -5,14 +5,14 @@ package securitylakedatalake
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/securitylakedatalake/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/securitylakedatalake/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securitylake_data_lake aws_securitylake_data_lake}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/securitylake_data_lake aws_securitylake_data_lake}.
 type SecuritylakeDataLake interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -458,7 +458,7 @@ func (j *jsiiProxy_SecuritylakeDataLake) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securitylake_data_lake aws_securitylake_data_lake} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/securitylake_data_lake aws_securitylake_data_lake} Resource.
 func NewSecuritylakeDataLake(scope constructs.Construct, id *string, config *SecuritylakeDataLakeConfig) SecuritylakeDataLake {
 	_init_.Initialize()
 
@@ -476,7 +476,7 @@ func NewSecuritylakeDataLake(scope constructs.Construct, id *string, config *Sec
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securitylake_data_lake aws_securitylake_data_lake} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/securitylake_data_lake aws_securitylake_data_lake} Resource.
 func NewSecuritylakeDataLake_Override(s SecuritylakeDataLake, scope constructs.Construct, id *string, config *SecuritylakeDataLakeConfig) {
 	_init_.Initialize()
 

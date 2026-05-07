@@ -5,14 +5,14 @@ package dataawsamiids
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsamiids/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsamiids/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ami_ids aws_ami_ids}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ami_ids aws_ami_ids}.
 type DataAwsAmiIds interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -476,7 +476,7 @@ func (j *jsiiProxy_DataAwsAmiIds) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ami_ids aws_ami_ids} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ami_ids aws_ami_ids} Data Source.
 func NewDataAwsAmiIds(scope constructs.Construct, id *string, config *DataAwsAmiIdsConfig) DataAwsAmiIds {
 	_init_.Initialize()
 
@@ -494,7 +494,7 @@ func NewDataAwsAmiIds(scope constructs.Construct, id *string, config *DataAwsAmi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ami_ids aws_ami_ids} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ami_ids aws_ami_ids} Data Source.
 func NewDataAwsAmiIds_Override(d DataAwsAmiIds, scope constructs.Construct, id *string, config *DataAwsAmiIdsConfig) {
 	_init_.Initialize()
 

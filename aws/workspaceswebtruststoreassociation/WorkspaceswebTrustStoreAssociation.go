@@ -5,14 +5,14 @@ package workspaceswebtruststoreassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/workspaceswebtruststoreassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/workspaceswebtruststoreassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspacesweb_trust_store_association aws_workspacesweb_trust_store_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/workspacesweb_trust_store_association aws_workspacesweb_trust_store_association}.
 type WorkspaceswebTrustStoreAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -365,7 +365,7 @@ func (j *jsiiProxy_WorkspaceswebTrustStoreAssociation) TrustStoreArnInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspacesweb_trust_store_association aws_workspacesweb_trust_store_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/workspacesweb_trust_store_association aws_workspacesweb_trust_store_association} Resource.
 func NewWorkspaceswebTrustStoreAssociation(scope constructs.Construct, id *string, config *WorkspaceswebTrustStoreAssociationConfig) WorkspaceswebTrustStoreAssociation {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewWorkspaceswebTrustStoreAssociation(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspacesweb_trust_store_association aws_workspacesweb_trust_store_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/workspacesweb_trust_store_association aws_workspacesweb_trust_store_association} Resource.
 func NewWorkspaceswebTrustStoreAssociation_Override(w WorkspaceswebTrustStoreAssociation, scope constructs.Construct, id *string, config *WorkspaceswebTrustStoreAssociationConfig) {
 	_init_.Initialize()
 

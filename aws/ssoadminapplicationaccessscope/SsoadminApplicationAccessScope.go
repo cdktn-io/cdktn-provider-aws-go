@@ -5,14 +5,14 @@ package ssoadminapplicationaccessscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ssoadminapplicationaccessscope/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/ssoadminapplicationaccessscope/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope}.
 type SsoadminApplicationAccessScope interface {
 	cdktn.TerraformResource
 	ApplicationArn() *string
@@ -400,7 +400,7 @@ func (j *jsiiProxy_SsoadminApplicationAccessScope) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope} Resource.
 func NewSsoadminApplicationAccessScope(scope constructs.Construct, id *string, config *SsoadminApplicationAccessScopeConfig) SsoadminApplicationAccessScope {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewSsoadminApplicationAccessScope(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope} Resource.
 func NewSsoadminApplicationAccessScope_Override(s SsoadminApplicationAccessScope, scope constructs.Construct, id *string, config *SsoadminApplicationAccessScopeConfig) {
 	_init_.Initialize()
 

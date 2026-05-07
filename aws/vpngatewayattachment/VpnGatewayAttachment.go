@@ -5,14 +5,14 @@ package vpngatewayattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/vpngatewayattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/vpngatewayattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpn_gateway_attachment aws_vpn_gateway_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/vpn_gateway_attachment aws_vpn_gateway_attachment}.
 type VpnGatewayAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_VpnGatewayAttachment) VpnGatewayIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpn_gateway_attachment aws_vpn_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/vpn_gateway_attachment aws_vpn_gateway_attachment} Resource.
 func NewVpnGatewayAttachment(scope constructs.Construct, id *string, config *VpnGatewayAttachmentConfig) VpnGatewayAttachment {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewVpnGatewayAttachment(scope constructs.Construct, id *string, config *Vpn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpn_gateway_attachment aws_vpn_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/vpn_gateway_attachment aws_vpn_gateway_attachment} Resource.
 func NewVpnGatewayAttachment_Override(v VpnGatewayAttachment, scope constructs.Construct, id *string, config *VpnGatewayAttachmentConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package licensemanagerassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/licensemanagerassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/licensemanagerassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/licensemanager_association aws_licensemanager_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/licensemanager_association aws_licensemanager_association}.
 type LicensemanagerAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_LicensemanagerAssociation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/licensemanager_association aws_licensemanager_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/licensemanager_association aws_licensemanager_association} Resource.
 func NewLicensemanagerAssociation(scope constructs.Construct, id *string, config *LicensemanagerAssociationConfig) LicensemanagerAssociation {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewLicensemanagerAssociation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/licensemanager_association aws_licensemanager_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/licensemanager_association aws_licensemanager_association} Resource.
 func NewLicensemanagerAssociation_Override(l LicensemanagerAssociation, scope constructs.Construct, id *string, config *LicensemanagerAssociationConfig) {
 	_init_.Initialize()
 

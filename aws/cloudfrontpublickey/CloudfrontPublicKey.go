@@ -5,14 +5,14 @@ package cloudfrontpublickey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/cloudfrontpublickey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/cloudfrontpublickey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_public_key aws_cloudfront_public_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudfront_public_key aws_cloudfront_public_key}.
 type CloudfrontPublicKey interface {
 	cdktn.TerraformResource
 	CallerReference() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_CloudfrontPublicKey) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_public_key aws_cloudfront_public_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudfront_public_key aws_cloudfront_public_key} Resource.
 func NewCloudfrontPublicKey(scope constructs.Construct, id *string, config *CloudfrontPublicKeyConfig) CloudfrontPublicKey {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewCloudfrontPublicKey(scope constructs.Construct, id *string, config *Clou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_public_key aws_cloudfront_public_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudfront_public_key aws_cloudfront_public_key} Resource.
 func NewCloudfrontPublicKey_Override(c CloudfrontPublicKey, scope constructs.Construct, id *string, config *CloudfrontPublicKeyConfig) {
 	_init_.Initialize()
 

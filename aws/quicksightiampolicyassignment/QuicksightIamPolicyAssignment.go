@@ -5,14 +5,14 @@ package quicksightiampolicyassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/quicksightiampolicyassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/quicksightiampolicyassignment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_iam_policy_assignment aws_quicksight_iam_policy_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/quicksight_iam_policy_assignment aws_quicksight_iam_policy_assignment}.
 type QuicksightIamPolicyAssignment interface {
 	cdktn.TerraformResource
 	AssignmentId() *string
@@ -483,7 +483,7 @@ func (j *jsiiProxy_QuicksightIamPolicyAssignment) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_iam_policy_assignment aws_quicksight_iam_policy_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/quicksight_iam_policy_assignment aws_quicksight_iam_policy_assignment} Resource.
 func NewQuicksightIamPolicyAssignment(scope constructs.Construct, id *string, config *QuicksightIamPolicyAssignmentConfig) QuicksightIamPolicyAssignment {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewQuicksightIamPolicyAssignment(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_iam_policy_assignment aws_quicksight_iam_policy_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/quicksight_iam_policy_assignment aws_quicksight_iam_policy_assignment} Resource.
 func NewQuicksightIamPolicyAssignment_Override(q QuicksightIamPolicyAssignment, scope constructs.Construct, id *string, config *QuicksightIamPolicyAssignmentConfig) {
 	_init_.Initialize()
 

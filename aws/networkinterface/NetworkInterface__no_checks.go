@@ -79,6 +79,10 @@ func (n *jsiiProxy_NetworkInterface) validatePutAttachmentParameters(value inter
 	return nil
 }
 
+func (n *jsiiProxy_NetworkInterface) validatePutEnaSrdSpecificationParameters(value *NetworkInterfaceEnaSrdSpecification) error {
+	return nil
+}
+
 func validateNetworkInterface_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

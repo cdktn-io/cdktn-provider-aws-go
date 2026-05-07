@@ -5,14 +5,14 @@ package computeoptimizerenrollmentstatus
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/computeoptimizerenrollmentstatus/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/computeoptimizerenrollmentstatus/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/computeoptimizer_enrollment_status aws_computeoptimizer_enrollment_status}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/computeoptimizer_enrollment_status aws_computeoptimizer_enrollment_status}.
 type ComputeoptimizerEnrollmentStatus interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_ComputeoptimizerEnrollmentStatus) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/computeoptimizer_enrollment_status aws_computeoptimizer_enrollment_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/computeoptimizer_enrollment_status aws_computeoptimizer_enrollment_status} Resource.
 func NewComputeoptimizerEnrollmentStatus(scope constructs.Construct, id *string, config *ComputeoptimizerEnrollmentStatusConfig) ComputeoptimizerEnrollmentStatus {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewComputeoptimizerEnrollmentStatus(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/computeoptimizer_enrollment_status aws_computeoptimizer_enrollment_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/computeoptimizer_enrollment_status aws_computeoptimizer_enrollment_status} Resource.
 func NewComputeoptimizerEnrollmentStatus_Override(c ComputeoptimizerEnrollmentStatus, scope constructs.Construct, id *string, config *ComputeoptimizerEnrollmentStatusConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package cleanroomsconfiguredtable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/cleanroomsconfiguredtable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/cleanroomsconfiguredtable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cleanrooms_configured_table aws_cleanrooms_configured_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cleanrooms_configured_table aws_cleanrooms_configured_table}.
 type CleanroomsConfiguredTable interface {
 	cdktn.TerraformResource
 	AllowedColumns() *[]*string
@@ -564,7 +564,7 @@ func (j *jsiiProxy_CleanroomsConfiguredTable) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cleanrooms_configured_table aws_cleanrooms_configured_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cleanrooms_configured_table aws_cleanrooms_configured_table} Resource.
 func NewCleanroomsConfiguredTable(scope constructs.Construct, id *string, config *CleanroomsConfiguredTableConfig) CleanroomsConfiguredTable {
 	_init_.Initialize()
 
@@ -582,7 +582,7 @@ func NewCleanroomsConfiguredTable(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cleanrooms_configured_table aws_cleanrooms_configured_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cleanrooms_configured_table aws_cleanrooms_configured_table} Resource.
 func NewCleanroomsConfiguredTable_Override(c CleanroomsConfiguredTable, scope constructs.Construct, id *string, config *CleanroomsConfiguredTableConfig) {
 	_init_.Initialize()
 

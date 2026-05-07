@@ -5,14 +5,14 @@ package s3bucketownershipcontrols
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/s3bucketownershipcontrols/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/s3bucketownershipcontrols/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_ownership_controls aws_s3_bucket_ownership_controls}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3_bucket_ownership_controls aws_s3_bucket_ownership_controls}.
 type S3BucketOwnershipControls interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -389,7 +389,7 @@ func (j *jsiiProxy_S3BucketOwnershipControls) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_ownership_controls aws_s3_bucket_ownership_controls} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3_bucket_ownership_controls aws_s3_bucket_ownership_controls} Resource.
 func NewS3BucketOwnershipControls(scope constructs.Construct, id *string, config *S3BucketOwnershipControlsConfig) S3BucketOwnershipControls {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewS3BucketOwnershipControls(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_ownership_controls aws_s3_bucket_ownership_controls} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3_bucket_ownership_controls aws_s3_bucket_ownership_controls} Resource.
 func NewS3BucketOwnershipControls_Override(s S3BucketOwnershipControls, scope constructs.Construct, id *string, config *S3BucketOwnershipControlsConfig) {
 	_init_.Initialize()
 

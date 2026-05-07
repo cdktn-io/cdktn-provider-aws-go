@@ -5,14 +5,14 @@ package dataawscloudfrontlogdeliverycanonicaluserid
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawscloudfrontlogdeliverycanonicaluserid/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawscloudfrontlogdeliverycanonicaluserid/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id aws_cloudfront_log_delivery_canonical_user_id}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id aws_cloudfront_log_delivery_canonical_user_id}.
 type DataAwsCloudfrontLogDeliveryCanonicalUserId interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -298,7 +298,7 @@ func (j *jsiiProxy_DataAwsCloudfrontLogDeliveryCanonicalUserId) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id aws_cloudfront_log_delivery_canonical_user_id} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id aws_cloudfront_log_delivery_canonical_user_id} Data Source.
 func NewDataAwsCloudfrontLogDeliveryCanonicalUserId(scope constructs.Construct, id *string, config *DataAwsCloudfrontLogDeliveryCanonicalUserIdConfig) DataAwsCloudfrontLogDeliveryCanonicalUserId {
 	_init_.Initialize()
 
@@ -316,7 +316,7 @@ func NewDataAwsCloudfrontLogDeliveryCanonicalUserId(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id aws_cloudfront_log_delivery_canonical_user_id} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id aws_cloudfront_log_delivery_canonical_user_id} Data Source.
 func NewDataAwsCloudfrontLogDeliveryCanonicalUserId_Override(d DataAwsCloudfrontLogDeliveryCanonicalUserId, scope constructs.Construct, id *string, config *DataAwsCloudfrontLogDeliveryCanonicalUserIdConfig) {
 	_init_.Initialize()
 

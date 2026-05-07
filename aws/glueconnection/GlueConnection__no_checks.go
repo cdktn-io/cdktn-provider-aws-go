@@ -75,6 +75,10 @@ func (g *jsiiProxy_GlueConnection) validateOverrideLogicalIdParameters(newLogica
 	return nil
 }
 
+func (g *jsiiProxy_GlueConnection) validatePutAuthenticationConfigurationParameters(value *GlueConnectionAuthenticationConfiguration) error {
+	return nil
+}
+
 func (g *jsiiProxy_GlueConnection) validatePutPhysicalConnectionRequirementsParameters(value *GlueConnectionPhysicalConnectionRequirements) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package chimesdkmediapipelinesmediainsightspipelineconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/chimesdkmediapipelinesmediainsightspipelineconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/chimesdkmediapipelinesmediainsightspipelineconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/chimesdkmediapipelines_media_insights_pipeline_configuration aws_chimesdkmediapipelines_media_insights_pipeline_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/chimesdkmediapipelines_media_insights_pipeline_configuration aws_chimesdkmediapipelines_media_insights_pipeline_configuration}.
 type ChimesdkmediapipelinesMediaInsightsPipelineConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_ChimesdkmediapipelinesMediaInsightsPipelineConfiguration) Tim
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/chimesdkmediapipelines_media_insights_pipeline_configuration aws_chimesdkmediapipelines_media_insights_pipeline_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/chimesdkmediapipelines_media_insights_pipeline_configuration aws_chimesdkmediapipelines_media_insights_pipeline_configuration} Resource.
 func NewChimesdkmediapipelinesMediaInsightsPipelineConfiguration(scope constructs.Construct, id *string, config *ChimesdkmediapipelinesMediaInsightsPipelineConfigurationConfig) ChimesdkmediapipelinesMediaInsightsPipelineConfiguration {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewChimesdkmediapipelinesMediaInsightsPipelineConfiguration(scope construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/chimesdkmediapipelines_media_insights_pipeline_configuration aws_chimesdkmediapipelines_media_insights_pipeline_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/chimesdkmediapipelines_media_insights_pipeline_configuration aws_chimesdkmediapipelines_media_insights_pipeline_configuration} Resource.
 func NewChimesdkmediapipelinesMediaInsightsPipelineConfiguration_Override(c ChimesdkmediapipelinesMediaInsightsPipelineConfiguration, scope constructs.Construct, id *string, config *ChimesdkmediapipelinesMediaInsightsPipelineConfigurationConfig) {
 	_init_.Initialize()
 

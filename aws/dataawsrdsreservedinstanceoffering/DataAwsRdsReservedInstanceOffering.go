@@ -5,14 +5,14 @@ package dataawsrdsreservedinstanceoffering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsrdsreservedinstanceoffering/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsrdsreservedinstanceoffering/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/rds_reserved_instance_offering aws_rds_reserved_instance_offering}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/rds_reserved_instance_offering aws_rds_reserved_instance_offering}.
 type DataAwsRdsReservedInstanceOffering interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -446,7 +446,7 @@ func (j *jsiiProxy_DataAwsRdsReservedInstanceOffering) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/rds_reserved_instance_offering aws_rds_reserved_instance_offering} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/rds_reserved_instance_offering aws_rds_reserved_instance_offering} Data Source.
 func NewDataAwsRdsReservedInstanceOffering(scope constructs.Construct, id *string, config *DataAwsRdsReservedInstanceOfferingConfig) DataAwsRdsReservedInstanceOffering {
 	_init_.Initialize()
 
@@ -464,7 +464,7 @@ func NewDataAwsRdsReservedInstanceOffering(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/rds_reserved_instance_offering aws_rds_reserved_instance_offering} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/rds_reserved_instance_offering aws_rds_reserved_instance_offering} Data Source.
 func NewDataAwsRdsReservedInstanceOffering_Override(d DataAwsRdsReservedInstanceOffering, scope constructs.Construct, id *string, config *DataAwsRdsReservedInstanceOfferingConfig) {
 	_init_.Initialize()
 

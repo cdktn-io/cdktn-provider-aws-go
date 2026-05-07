@@ -5,14 +5,14 @@ package rdsintegration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/rdsintegration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/rdsintegration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rds_integration aws_rds_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/rds_integration aws_rds_integration}.
 type RdsIntegration interface {
 	cdktn.TerraformResource
 	AdditionalEncryptionContext() *map[string]*string
@@ -47,6 +47,7 @@ type RdsIntegration interface {
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
+	IntegrationIdentifier() *string
 	IntegrationName() *string
 	SetIntegrationName(val *string)
 	IntegrationNameInput() *string
@@ -310,6 +311,16 @@ func (j *jsiiProxy_RdsIntegration) Id() *string {
 	return returns
 }
 
+func (j *jsiiProxy_RdsIntegration) IntegrationIdentifier() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"integrationIdentifier",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_RdsIntegration) IntegrationName() *string {
 	var returns *string
 	_jsii_.Get(
@@ -541,7 +552,7 @@ func (j *jsiiProxy_RdsIntegration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rds_integration aws_rds_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/rds_integration aws_rds_integration} Resource.
 func NewRdsIntegration(scope constructs.Construct, id *string, config *RdsIntegrationConfig) RdsIntegration {
 	_init_.Initialize()
 
@@ -559,7 +570,7 @@ func NewRdsIntegration(scope constructs.Construct, id *string, config *RdsIntegr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rds_integration aws_rds_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/rds_integration aws_rds_integration} Resource.
 func NewRdsIntegration_Override(r RdsIntegration, scope constructs.Construct, id *string, config *RdsIntegrationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package pinpointapnssandboxchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/pinpointapnssandboxchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/pinpointapnssandboxchannel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pinpoint_apns_sandbox_channel aws_pinpoint_apns_sandbox_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/pinpoint_apns_sandbox_channel aws_pinpoint_apns_sandbox_channel}.
 type PinpointApnsSandboxChannel interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -558,7 +558,7 @@ func (j *jsiiProxy_PinpointApnsSandboxChannel) TokenKeyInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pinpoint_apns_sandbox_channel aws_pinpoint_apns_sandbox_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/pinpoint_apns_sandbox_channel aws_pinpoint_apns_sandbox_channel} Resource.
 func NewPinpointApnsSandboxChannel(scope constructs.Construct, id *string, config *PinpointApnsSandboxChannelConfig) PinpointApnsSandboxChannel {
 	_init_.Initialize()
 
@@ -576,7 +576,7 @@ func NewPinpointApnsSandboxChannel(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pinpoint_apns_sandbox_channel aws_pinpoint_apns_sandbox_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/pinpoint_apns_sandbox_channel aws_pinpoint_apns_sandbox_channel} Resource.
 func NewPinpointApnsSandboxChannel_Override(p PinpointApnsSandboxChannel, scope constructs.Construct, id *string, config *PinpointApnsSandboxChannelConfig) {
 	_init_.Initialize()
 

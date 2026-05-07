@@ -5,14 +5,14 @@ package dataawsapigatewayv2export
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsapigatewayv2export/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsapigatewayv2export/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/apigatewayv2_export aws_apigatewayv2_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/apigatewayv2_export aws_apigatewayv2_export}.
 type DataAwsApigatewayv2Export interface {
 	cdktn.TerraformDataSource
 	ApiId() *string
@@ -450,7 +450,7 @@ func (j *jsiiProxy_DataAwsApigatewayv2Export) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/apigatewayv2_export aws_apigatewayv2_export} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/apigatewayv2_export aws_apigatewayv2_export} Data Source.
 func NewDataAwsApigatewayv2Export(scope constructs.Construct, id *string, config *DataAwsApigatewayv2ExportConfig) DataAwsApigatewayv2Export {
 	_init_.Initialize()
 
@@ -468,7 +468,7 @@ func NewDataAwsApigatewayv2Export(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/apigatewayv2_export aws_apigatewayv2_export} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/apigatewayv2_export aws_apigatewayv2_export} Data Source.
 func NewDataAwsApigatewayv2Export_Override(d DataAwsApigatewayv2Export, scope constructs.Construct, id *string, config *DataAwsApigatewayv2ExportConfig) {
 	_init_.Initialize()
 

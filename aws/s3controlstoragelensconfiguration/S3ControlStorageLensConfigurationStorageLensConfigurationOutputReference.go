@@ -5,9 +5,9 @@ package s3controlstoragelensconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/s3controlstoragelensconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/s3controlstoragelensconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -39,12 +39,17 @@ type S3ControlStorageLensConfigurationStorageLensConfigurationOutputReference in
 	EnabledInput() interface{}
 	Exclude() S3ControlStorageLensConfigurationStorageLensConfigurationExcludeOutputReference
 	ExcludeInput() *S3ControlStorageLensConfigurationStorageLensConfigurationExclude
+	ExpandedPrefixesDataExport() S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPrefixesDataExportOutputReference
+	ExpandedPrefixesDataExportInput() *S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPrefixesDataExport
 	// Experimental.
 	Fqn() *string
 	Include() S3ControlStorageLensConfigurationStorageLensConfigurationIncludeOutputReference
 	IncludeInput() *S3ControlStorageLensConfigurationStorageLensConfigurationInclude
 	InternalValue() *S3ControlStorageLensConfigurationStorageLensConfiguration
 	SetInternalValue(val *S3ControlStorageLensConfigurationStorageLensConfiguration)
+	PrefixDelimiter() *string
+	SetPrefixDelimiter(val *string)
+	PrefixDelimiterInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -81,11 +86,14 @@ type S3ControlStorageLensConfigurationStorageLensConfigurationOutputReference in
 	PutAwsOrg(value *S3ControlStorageLensConfigurationStorageLensConfigurationAwsOrg)
 	PutDataExport(value *S3ControlStorageLensConfigurationStorageLensConfigurationDataExport)
 	PutExclude(value *S3ControlStorageLensConfigurationStorageLensConfigurationExclude)
+	PutExpandedPrefixesDataExport(value *S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPrefixesDataExport)
 	PutInclude(value *S3ControlStorageLensConfigurationStorageLensConfigurationInclude)
 	ResetAwsOrg()
 	ResetDataExport()
 	ResetExclude()
+	ResetExpandedPrefixesDataExport()
 	ResetInclude()
+	ResetPrefixDelimiter()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -231,6 +239,26 @@ func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutp
 	return returns
 }
 
+func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutputReference) ExpandedPrefixesDataExport() S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPrefixesDataExportOutputReference {
+	var returns S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPrefixesDataExportOutputReference
+	_jsii_.Get(
+		j,
+		"expandedPrefixesDataExport",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutputReference) ExpandedPrefixesDataExportInput() *S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPrefixesDataExport {
+	var returns *S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPrefixesDataExport
+	_jsii_.Get(
+		j,
+		"expandedPrefixesDataExportInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -266,6 +294,26 @@ func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutp
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutputReference) PrefixDelimiter() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"prefixDelimiter",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutputReference) PrefixDelimiterInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"prefixDelimiterInput",
 		&returns,
 	)
 	return returns
@@ -359,6 +407,17 @@ func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutp
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutputReference)SetPrefixDelimiter(val *string) {
+	if err := j.validateSetPrefixDelimiterParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"prefixDelimiter",
 		val,
 	)
 }
@@ -615,6 +674,17 @@ func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutp
 	)
 }
 
+func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutputReference) PutExpandedPrefixesDataExport(value *S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPrefixesDataExport) {
+	if err := s.validatePutExpandedPrefixesDataExportParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putExpandedPrefixesDataExport",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutputReference) PutInclude(value *S3ControlStorageLensConfigurationStorageLensConfigurationInclude) {
 	if err := s.validatePutIncludeParameters(value); err != nil {
 		panic(err)
@@ -650,10 +720,26 @@ func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutp
 	)
 }
 
+func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutputReference) ResetExpandedPrefixesDataExport() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetExpandedPrefixesDataExport",
+		nil, // no parameters
+	)
+}
+
 func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutputReference) ResetInclude() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetInclude",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutputReference) ResetPrefixDelimiter() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetPrefixDelimiter",
 		nil, // no parameters
 	)
 }

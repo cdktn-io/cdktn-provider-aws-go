@@ -5,14 +5,14 @@ package egressonlyinternetgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/egressonlyinternetgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/egressonlyinternetgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/egress_only_internet_gateway aws_egress_only_internet_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/egress_only_internet_gateway aws_egress_only_internet_gateway}.
 type EgressOnlyInternetGateway interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_EgressOnlyInternetGateway) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/egress_only_internet_gateway aws_egress_only_internet_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/egress_only_internet_gateway aws_egress_only_internet_gateway} Resource.
 func NewEgressOnlyInternetGateway(scope constructs.Construct, id *string, config *EgressOnlyInternetGatewayConfig) EgressOnlyInternetGateway {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewEgressOnlyInternetGateway(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/egress_only_internet_gateway aws_egress_only_internet_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/egress_only_internet_gateway aws_egress_only_internet_gateway} Resource.
 func NewEgressOnlyInternetGateway_Override(e EgressOnlyInternetGateway, scope constructs.Construct, id *string, config *EgressOnlyInternetGatewayConfig) {
 	_init_.Initialize()
 

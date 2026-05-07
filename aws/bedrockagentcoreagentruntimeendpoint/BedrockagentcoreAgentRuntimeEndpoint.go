@@ -5,14 +5,14 @@ package bedrockagentcoreagentruntimeendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/bedrockagentcoreagentruntimeendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/bedrockagentcoreagentruntimeendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagentcore_agent_runtime_endpoint aws_bedrockagentcore_agent_runtime_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/bedrockagentcore_agent_runtime_endpoint aws_bedrockagentcore_agent_runtime_endpoint}.
 type BedrockagentcoreAgentRuntimeEndpoint interface {
 	cdktn.TerraformResource
 	AgentRuntimeArn() *string
@@ -494,7 +494,7 @@ func (j *jsiiProxy_BedrockagentcoreAgentRuntimeEndpoint) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagentcore_agent_runtime_endpoint aws_bedrockagentcore_agent_runtime_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/bedrockagentcore_agent_runtime_endpoint aws_bedrockagentcore_agent_runtime_endpoint} Resource.
 func NewBedrockagentcoreAgentRuntimeEndpoint(scope constructs.Construct, id *string, config *BedrockagentcoreAgentRuntimeEndpointConfig) BedrockagentcoreAgentRuntimeEndpoint {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewBedrockagentcoreAgentRuntimeEndpoint(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagentcore_agent_runtime_endpoint aws_bedrockagentcore_agent_runtime_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/bedrockagentcore_agent_runtime_endpoint aws_bedrockagentcore_agent_runtime_endpoint} Resource.
 func NewBedrockagentcoreAgentRuntimeEndpoint_Override(b BedrockagentcoreAgentRuntimeEndpoint, scope constructs.Construct, id *string, config *BedrockagentcoreAgentRuntimeEndpointConfig) {
 	_init_.Initialize()
 

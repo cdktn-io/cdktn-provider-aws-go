@@ -5,14 +5,14 @@ package dataawsodbdbservers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsodbdbservers/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsodbdbservers/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/odb_db_servers aws_odb_db_servers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/odb_db_servers aws_odb_db_servers}.
 type DataAwsOdbDbServers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsOdbDbServers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/odb_db_servers aws_odb_db_servers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/odb_db_servers aws_odb_db_servers} Data Source.
 func NewDataAwsOdbDbServers(scope constructs.Construct, id *string, config *DataAwsOdbDbServersConfig) DataAwsOdbDbServers {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsOdbDbServers(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/odb_db_servers aws_odb_db_servers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/odb_db_servers aws_odb_db_servers} Data Source.
 func NewDataAwsOdbDbServers_Override(d DataAwsOdbDbServers, scope constructs.Construct, id *string, config *DataAwsOdbDbServersConfig) {
 	_init_.Initialize()
 

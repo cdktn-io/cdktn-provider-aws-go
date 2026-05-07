@@ -5,14 +5,14 @@ package gluedevendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/gluedevendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/gluedevendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint}.
 type GlueDevEndpoint interface {
 	cdktn.TerraformResource
 	Arguments() *map[string]*string
@@ -824,7 +824,7 @@ func (j *jsiiProxy_GlueDevEndpoint) ZeppelinRemoteSparkInterpreterPort() *float6
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint} Resource.
 func NewGlueDevEndpoint(scope constructs.Construct, id *string, config *GlueDevEndpointConfig) GlueDevEndpoint {
 	_init_.Initialize()
 
@@ -842,7 +842,7 @@ func NewGlueDevEndpoint(scope constructs.Construct, id *string, config *GlueDevE
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint} Resource.
 func NewGlueDevEndpoint_Override(g GlueDevEndpoint, scope constructs.Construct, id *string, config *GlueDevEndpointConfig) {
 	_init_.Initialize()
 

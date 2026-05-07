@@ -5,14 +5,14 @@ package loadbalancerbackendserverpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/loadbalancerbackendserverpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/loadbalancerbackendserverpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/load_balancer_backend_server_policy aws_load_balancer_backend_server_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/load_balancer_backend_server_policy aws_load_balancer_backend_server_policy}.
 type LoadBalancerBackendServerPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_LoadBalancerBackendServerPolicy) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/load_balancer_backend_server_policy aws_load_balancer_backend_server_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/load_balancer_backend_server_policy aws_load_balancer_backend_server_policy} Resource.
 func NewLoadBalancerBackendServerPolicy(scope constructs.Construct, id *string, config *LoadBalancerBackendServerPolicyConfig) LoadBalancerBackendServerPolicy {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewLoadBalancerBackendServerPolicy(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/load_balancer_backend_server_policy aws_load_balancer_backend_server_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/load_balancer_backend_server_policy aws_load_balancer_backend_server_policy} Resource.
 func NewLoadBalancerBackendServerPolicy_Override(l LoadBalancerBackendServerPolicy, scope constructs.Construct, id *string, config *LoadBalancerBackendServerPolicyConfig) {
 	_init_.Initialize()
 

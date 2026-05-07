@@ -95,6 +95,10 @@ func validateS3FilesFileSystem_IsTerraformResourceParameters(x interface{}) erro
 	return nil
 }
 
+func (j *jsiiProxy_S3FilesFileSystem) validateSetAcceptBucketWarningParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_S3FilesFileSystem) validateSetBucketParameters(val *string) error {
 	return nil
 }

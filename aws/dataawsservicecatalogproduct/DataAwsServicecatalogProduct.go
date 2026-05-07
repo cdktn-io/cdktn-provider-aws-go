@@ -5,14 +5,14 @@ package dataawsservicecatalogproduct
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsservicecatalogproduct/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsservicecatalogproduct/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/servicecatalog_product aws_servicecatalog_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/servicecatalog_product aws_servicecatalog_product}.
 type DataAwsServicecatalogProduct interface {
 	cdktn.TerraformDataSource
 	AcceptLanguage() *string
@@ -501,7 +501,7 @@ func (j *jsiiProxy_DataAwsServicecatalogProduct) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/servicecatalog_product aws_servicecatalog_product} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/servicecatalog_product aws_servicecatalog_product} Data Source.
 func NewDataAwsServicecatalogProduct(scope constructs.Construct, id *string, config *DataAwsServicecatalogProductConfig) DataAwsServicecatalogProduct {
 	_init_.Initialize()
 
@@ -519,7 +519,7 @@ func NewDataAwsServicecatalogProduct(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/servicecatalog_product aws_servicecatalog_product} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/servicecatalog_product aws_servicecatalog_product} Data Source.
 func NewDataAwsServicecatalogProduct_Override(d DataAwsServicecatalogProduct, scope constructs.Construct, id *string, config *DataAwsServicecatalogProductConfig) {
 	_init_.Initialize()
 

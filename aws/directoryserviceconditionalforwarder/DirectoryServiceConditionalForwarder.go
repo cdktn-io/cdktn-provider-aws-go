@@ -5,14 +5,14 @@ package directoryserviceconditionalforwarder
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/directoryserviceconditionalforwarder/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/directoryserviceconditionalforwarder/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_conditional_forwarder aws_directory_service_conditional_forwarder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/directory_service_conditional_forwarder aws_directory_service_conditional_forwarder}.
 type DirectoryServiceConditionalForwarder interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_DirectoryServiceConditionalForwarder) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_conditional_forwarder aws_directory_service_conditional_forwarder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/directory_service_conditional_forwarder aws_directory_service_conditional_forwarder} Resource.
 func NewDirectoryServiceConditionalForwarder(scope constructs.Construct, id *string, config *DirectoryServiceConditionalForwarderConfig) DirectoryServiceConditionalForwarder {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewDirectoryServiceConditionalForwarder(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_conditional_forwarder aws_directory_service_conditional_forwarder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/directory_service_conditional_forwarder aws_directory_service_conditional_forwarder} Resource.
 func NewDirectoryServiceConditionalForwarder_Override(d DirectoryServiceConditionalForwarder, scope constructs.Construct, id *string, config *DirectoryServiceConditionalForwarderConfig) {
 	_init_.Initialize()
 

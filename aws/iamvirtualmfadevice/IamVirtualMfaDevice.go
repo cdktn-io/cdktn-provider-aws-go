@@ -5,14 +5,14 @@ package iamvirtualmfadevice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/iamvirtualmfadevice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/iamvirtualmfadevice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iam_virtual_mfa_device aws_iam_virtual_mfa_device}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/iam_virtual_mfa_device aws_iam_virtual_mfa_device}.
 type IamVirtualMfaDevice interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -480,7 +480,7 @@ func (j *jsiiProxy_IamVirtualMfaDevice) VirtualMfaDeviceNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iam_virtual_mfa_device aws_iam_virtual_mfa_device} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/iam_virtual_mfa_device aws_iam_virtual_mfa_device} Resource.
 func NewIamVirtualMfaDevice(scope constructs.Construct, id *string, config *IamVirtualMfaDeviceConfig) IamVirtualMfaDevice {
 	_init_.Initialize()
 
@@ -498,7 +498,7 @@ func NewIamVirtualMfaDevice(scope constructs.Construct, id *string, config *IamV
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iam_virtual_mfa_device aws_iam_virtual_mfa_device} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/iam_virtual_mfa_device aws_iam_virtual_mfa_device} Resource.
 func NewIamVirtualMfaDevice_Override(i IamVirtualMfaDevice, scope constructs.Construct, id *string, config *IamVirtualMfaDeviceConfig) {
 	_init_.Initialize()
 

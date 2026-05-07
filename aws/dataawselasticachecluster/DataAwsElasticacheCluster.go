@@ -5,14 +5,14 @@ package dataawselasticachecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawselasticachecluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawselasticachecluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/elasticache_cluster aws_elasticache_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/elasticache_cluster aws_elasticache_cluster}.
 type DataAwsElasticacheCluster interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -587,7 +587,7 @@ func (j *jsiiProxy_DataAwsElasticacheCluster) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/elasticache_cluster aws_elasticache_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/elasticache_cluster aws_elasticache_cluster} Data Source.
 func NewDataAwsElasticacheCluster(scope constructs.Construct, id *string, config *DataAwsElasticacheClusterConfig) DataAwsElasticacheCluster {
 	_init_.Initialize()
 
@@ -605,7 +605,7 @@ func NewDataAwsElasticacheCluster(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/elasticache_cluster aws_elasticache_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/elasticache_cluster aws_elasticache_cluster} Data Source.
 func NewDataAwsElasticacheCluster_Override(d DataAwsElasticacheCluster, scope constructs.Construct, id *string, config *DataAwsElasticacheClusterConfig) {
 	_init_.Initialize()
 

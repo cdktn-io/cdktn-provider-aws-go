@@ -137,6 +137,17 @@ func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutp
 	return nil
 }
 
+func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutputReference) validatePutExpandedPrefixesDataExportParameters(value *S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPrefixesDataExport) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutputReference) validatePutIncludeParameters(value *S3ControlStorageLensConfigurationStorageLensConfigurationInclude) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -244,6 +255,14 @@ func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutp
 func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutputReference) validateSetInternalValueParameters(val *S3ControlStorageLensConfigurationStorageLensConfiguration) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutputReference) validateSetPrefixDelimiterParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil

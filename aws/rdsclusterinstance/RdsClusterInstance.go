@@ -5,14 +5,14 @@ package rdsclusterinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/rdsclusterinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/rdsclusterinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance}.
 type RdsClusterInstance interface {
 	cdktn.TerraformResource
 	ApplyImmediately() interface{}
@@ -1087,7 +1087,7 @@ func (j *jsiiProxy_RdsClusterInstance) Writer() cdktn.IResolvable {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance} Resource.
 func NewRdsClusterInstance(scope constructs.Construct, id *string, config *RdsClusterInstanceConfig) RdsClusterInstance {
 	_init_.Initialize()
 
@@ -1105,7 +1105,7 @@ func NewRdsClusterInstance(scope constructs.Construct, id *string, config *RdsCl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance} Resource.
 func NewRdsClusterInstance_Override(r RdsClusterInstance, scope constructs.Construct, id *string, config *RdsClusterInstanceConfig) {
 	_init_.Initialize()
 

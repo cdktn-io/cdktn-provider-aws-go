@@ -5,14 +5,14 @@ package apigatewayaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/apigatewayaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/apigatewayaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/api_gateway_account aws_api_gateway_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/api_gateway_account aws_api_gateway_account}.
 type ApiGatewayAccount interface {
 	cdktn.TerraformResource
 	ApiKeyVersion() *string
@@ -387,7 +387,7 @@ func (j *jsiiProxy_ApiGatewayAccount) ThrottleSettings() ApiGatewayAccountThrott
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/api_gateway_account aws_api_gateway_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/api_gateway_account aws_api_gateway_account} Resource.
 func NewApiGatewayAccount(scope constructs.Construct, id *string, config *ApiGatewayAccountConfig) ApiGatewayAccount {
 	_init_.Initialize()
 
@@ -405,7 +405,7 @@ func NewApiGatewayAccount(scope constructs.Construct, id *string, config *ApiGat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/api_gateway_account aws_api_gateway_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/api_gateway_account aws_api_gateway_account} Resource.
 func NewApiGatewayAccount_Override(a ApiGatewayAccount, scope constructs.Construct, id *string, config *ApiGatewayAccountConfig) {
 	_init_.Initialize()
 

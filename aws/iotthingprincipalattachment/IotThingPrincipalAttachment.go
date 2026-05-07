@@ -5,14 +5,14 @@ package iotthingprincipalattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/iotthingprincipalattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/iotthingprincipalattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_thing_principal_attachment aws_iot_thing_principal_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/iot_thing_principal_attachment aws_iot_thing_principal_attachment}.
 type IotThingPrincipalAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_IotThingPrincipalAttachment) ThingPrincipalTypeInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_thing_principal_attachment aws_iot_thing_principal_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/iot_thing_principal_attachment aws_iot_thing_principal_attachment} Resource.
 func NewIotThingPrincipalAttachment(scope constructs.Construct, id *string, config *IotThingPrincipalAttachmentConfig) IotThingPrincipalAttachment {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewIotThingPrincipalAttachment(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_thing_principal_attachment aws_iot_thing_principal_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/iot_thing_principal_attachment aws_iot_thing_principal_attachment} Resource.
 func NewIotThingPrincipalAttachment_Override(i IotThingPrincipalAttachment, scope constructs.Construct, id *string, config *IotThingPrincipalAttachmentConfig) {
 	_init_.Initialize()
 

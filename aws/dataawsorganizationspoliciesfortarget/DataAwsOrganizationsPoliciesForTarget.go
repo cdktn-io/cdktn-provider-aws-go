@@ -5,14 +5,14 @@ package dataawsorganizationspoliciesfortarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsorganizationspoliciesfortarget/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsorganizationspoliciesfortarget/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/organizations_policies_for_target aws_organizations_policies_for_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/organizations_policies_for_target aws_organizations_policies_for_target}.
 type DataAwsOrganizationsPoliciesForTarget interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -331,7 +331,7 @@ func (j *jsiiProxy_DataAwsOrganizationsPoliciesForTarget) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/organizations_policies_for_target aws_organizations_policies_for_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/organizations_policies_for_target aws_organizations_policies_for_target} Data Source.
 func NewDataAwsOrganizationsPoliciesForTarget(scope constructs.Construct, id *string, config *DataAwsOrganizationsPoliciesForTargetConfig) DataAwsOrganizationsPoliciesForTarget {
 	_init_.Initialize()
 
@@ -349,7 +349,7 @@ func NewDataAwsOrganizationsPoliciesForTarget(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/organizations_policies_for_target aws_organizations_policies_for_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/organizations_policies_for_target aws_organizations_policies_for_target} Data Source.
 func NewDataAwsOrganizationsPoliciesForTarget_Override(d DataAwsOrganizationsPoliciesForTarget, scope constructs.Construct, id *string, config *DataAwsOrganizationsPoliciesForTargetConfig) {
 	_init_.Initialize()
 

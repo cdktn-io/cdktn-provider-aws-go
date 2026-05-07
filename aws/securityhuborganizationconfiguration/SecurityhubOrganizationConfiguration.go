@@ -5,14 +5,14 @@ package securityhuborganizationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/securityhuborganizationconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/securityhuborganizationconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_organization_configuration aws_securityhub_organization_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/securityhub_organization_configuration aws_securityhub_organization_configuration}.
 type SecurityhubOrganizationConfiguration interface {
 	cdktn.TerraformResource
 	AutoEnable() interface{}
@@ -438,7 +438,7 @@ func (j *jsiiProxy_SecurityhubOrganizationConfiguration) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_organization_configuration aws_securityhub_organization_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/securityhub_organization_configuration aws_securityhub_organization_configuration} Resource.
 func NewSecurityhubOrganizationConfiguration(scope constructs.Construct, id *string, config *SecurityhubOrganizationConfigurationConfig) SecurityhubOrganizationConfiguration {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewSecurityhubOrganizationConfiguration(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_organization_configuration aws_securityhub_organization_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/securityhub_organization_configuration aws_securityhub_organization_configuration} Resource.
 func NewSecurityhubOrganizationConfiguration_Override(s SecurityhubOrganizationConfiguration, scope constructs.Construct, id *string, config *SecurityhubOrganizationConfigurationConfig) {
 	_init_.Initialize()
 

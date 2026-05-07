@@ -5,14 +5,14 @@ package route53trafficpolicyinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/route53trafficpolicyinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/route53trafficpolicyinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance}.
 type Route53TrafficPolicyInstance interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -445,7 +445,7 @@ func (j *jsiiProxy_Route53TrafficPolicyInstance) TtlInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance} Resource.
 func NewRoute53TrafficPolicyInstance(scope constructs.Construct, id *string, config *Route53TrafficPolicyInstanceConfig) Route53TrafficPolicyInstance {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewRoute53TrafficPolicyInstance(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance} Resource.
 func NewRoute53TrafficPolicyInstance_Override(r Route53TrafficPolicyInstance, scope constructs.Construct, id *string, config *Route53TrafficPolicyInstanceConfig) {
 	_init_.Initialize()
 

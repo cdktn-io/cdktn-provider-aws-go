@@ -5,14 +5,14 @@ package servicecatalogappregistryattributegroupassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/servicecatalogappregistryattributegroupassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/servicecatalogappregistryattributegroupassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/servicecatalogappregistry_attribute_group_association aws_servicecatalogappregistry_attribute_group_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/servicecatalogappregistry_attribute_group_association aws_servicecatalogappregistry_attribute_group_association}.
 type ServicecatalogappregistryAttributeGroupAssociation interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -365,7 +365,7 @@ func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) Terraform
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/servicecatalogappregistry_attribute_group_association aws_servicecatalogappregistry_attribute_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/servicecatalogappregistry_attribute_group_association aws_servicecatalogappregistry_attribute_group_association} Resource.
 func NewServicecatalogappregistryAttributeGroupAssociation(scope constructs.Construct, id *string, config *ServicecatalogappregistryAttributeGroupAssociationConfig) ServicecatalogappregistryAttributeGroupAssociation {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewServicecatalogappregistryAttributeGroupAssociation(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/servicecatalogappregistry_attribute_group_association aws_servicecatalogappregistry_attribute_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/servicecatalogappregistry_attribute_group_association aws_servicecatalogappregistry_attribute_group_association} Resource.
 func NewServicecatalogappregistryAttributeGroupAssociation_Override(s ServicecatalogappregistryAttributeGroupAssociation, scope constructs.Construct, id *string, config *ServicecatalogappregistryAttributeGroupAssociationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package apigatewayintegration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/apigatewayintegration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/apigatewayintegration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/api_gateway_integration aws_api_gateway_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/api_gateway_integration aws_api_gateway_integration}.
 type ApiGatewayIntegration interface {
 	cdktn.TerraformResource
 	CacheKeyParameters() *[]*string
@@ -795,7 +795,7 @@ func (j *jsiiProxy_ApiGatewayIntegration) UriInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/api_gateway_integration aws_api_gateway_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/api_gateway_integration aws_api_gateway_integration} Resource.
 func NewApiGatewayIntegration(scope constructs.Construct, id *string, config *ApiGatewayIntegrationConfig) ApiGatewayIntegration {
 	_init_.Initialize()
 
@@ -813,7 +813,7 @@ func NewApiGatewayIntegration(scope constructs.Construct, id *string, config *Ap
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/api_gateway_integration aws_api_gateway_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/api_gateway_integration aws_api_gateway_integration} Resource.
 func NewApiGatewayIntegration_Override(a ApiGatewayIntegration, scope constructs.Construct, id *string, config *ApiGatewayIntegrationConfig) {
 	_init_.Initialize()
 

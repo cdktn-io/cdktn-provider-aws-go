@@ -5,14 +5,14 @@ package dataawsnetworkfirewallresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsnetworkfirewallresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsnetworkfirewallresourcepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/networkfirewall_resource_policy aws_networkfirewall_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/networkfirewall_resource_policy aws_networkfirewall_resource_policy}.
 type DataAwsNetworkfirewallResourcePolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataAwsNetworkfirewallResourcePolicy) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/networkfirewall_resource_policy aws_networkfirewall_resource_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/networkfirewall_resource_policy aws_networkfirewall_resource_policy} Data Source.
 func NewDataAwsNetworkfirewallResourcePolicy(scope constructs.Construct, id *string, config *DataAwsNetworkfirewallResourcePolicyConfig) DataAwsNetworkfirewallResourcePolicy {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewDataAwsNetworkfirewallResourcePolicy(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/networkfirewall_resource_policy aws_networkfirewall_resource_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/networkfirewall_resource_policy aws_networkfirewall_resource_policy} Data Source.
 func NewDataAwsNetworkfirewallResourcePolicy_Override(d DataAwsNetworkfirewallResourcePolicy, scope constructs.Construct, id *string, config *DataAwsNetworkfirewallResourcePolicyConfig) {
 	_init_.Initialize()
 

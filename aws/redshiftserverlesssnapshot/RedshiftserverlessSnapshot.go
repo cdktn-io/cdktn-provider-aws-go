@@ -5,14 +5,14 @@ package redshiftserverlesssnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/redshiftserverlesssnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/redshiftserverlesssnapshot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshiftserverless_snapshot aws_redshiftserverless_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshiftserverless_snapshot aws_redshiftserverless_snapshot}.
 type RedshiftserverlessSnapshot interface {
 	cdktn.TerraformResource
 	AccountsWithProvisionedRestoreAccess() *[]*string
@@ -490,7 +490,7 @@ func (j *jsiiProxy_RedshiftserverlessSnapshot) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshiftserverless_snapshot aws_redshiftserverless_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshiftserverless_snapshot aws_redshiftserverless_snapshot} Resource.
 func NewRedshiftserverlessSnapshot(scope constructs.Construct, id *string, config *RedshiftserverlessSnapshotConfig) RedshiftserverlessSnapshot {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewRedshiftserverlessSnapshot(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshiftserverless_snapshot aws_redshiftserverless_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshiftserverless_snapshot aws_redshiftserverless_snapshot} Resource.
 func NewRedshiftserverlessSnapshot_Override(r RedshiftserverlessSnapshot, scope constructs.Construct, id *string, config *RedshiftserverlessSnapshotConfig) {
 	_init_.Initialize()
 

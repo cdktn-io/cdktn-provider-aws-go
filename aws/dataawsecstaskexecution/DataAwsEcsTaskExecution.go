@@ -5,14 +5,14 @@ package dataawsecstaskexecution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsecstaskexecution/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsecstaskexecution/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ecs_task_execution aws_ecs_task_execution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ecs_task_execution aws_ecs_task_execution}.
 type DataAwsEcsTaskExecution interface {
 	cdktn.TerraformDataSource
 	CapacityProviderStrategy() DataAwsEcsTaskExecutionCapacityProviderStrategyList
@@ -739,7 +739,7 @@ func (j *jsiiProxy_DataAwsEcsTaskExecution) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ecs_task_execution aws_ecs_task_execution} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ecs_task_execution aws_ecs_task_execution} Data Source.
 func NewDataAwsEcsTaskExecution(scope constructs.Construct, id *string, config *DataAwsEcsTaskExecutionConfig) DataAwsEcsTaskExecution {
 	_init_.Initialize()
 
@@ -757,7 +757,7 @@ func NewDataAwsEcsTaskExecution(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ecs_task_execution aws_ecs_task_execution} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ecs_task_execution aws_ecs_task_execution} Data Source.
 func NewDataAwsEcsTaskExecution_Override(d DataAwsEcsTaskExecution, scope constructs.Construct, id *string, config *DataAwsEcsTaskExecutionConfig) {
 	_init_.Initialize()
 

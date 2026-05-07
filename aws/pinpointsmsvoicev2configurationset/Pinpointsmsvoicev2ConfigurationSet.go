@@ -5,14 +5,14 @@ package pinpointsmsvoicev2configurationset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/pinpointsmsvoicev2configurationset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/pinpointsmsvoicev2configurationset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pinpointsmsvoicev2_configuration_set aws_pinpointsmsvoicev2_configuration_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/pinpointsmsvoicev2_configuration_set aws_pinpointsmsvoicev2_configuration_set}.
 type Pinpointsmsvoicev2ConfigurationSet interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -447,7 +447,7 @@ func (j *jsiiProxy_Pinpointsmsvoicev2ConfigurationSet) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pinpointsmsvoicev2_configuration_set aws_pinpointsmsvoicev2_configuration_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/pinpointsmsvoicev2_configuration_set aws_pinpointsmsvoicev2_configuration_set} Resource.
 func NewPinpointsmsvoicev2ConfigurationSet(scope constructs.Construct, id *string, config *Pinpointsmsvoicev2ConfigurationSetConfig) Pinpointsmsvoicev2ConfigurationSet {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewPinpointsmsvoicev2ConfigurationSet(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pinpointsmsvoicev2_configuration_set aws_pinpointsmsvoicev2_configuration_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/pinpointsmsvoicev2_configuration_set aws_pinpointsmsvoicev2_configuration_set} Resource.
 func NewPinpointsmsvoicev2ConfigurationSet_Override(p Pinpointsmsvoicev2ConfigurationSet, scope constructs.Construct, id *string, config *Pinpointsmsvoicev2ConfigurationSetConfig) {
 	_init_.Initialize()
 

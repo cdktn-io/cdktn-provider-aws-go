@@ -5,14 +5,14 @@ package dataawsguarddutyfindingids
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsguarddutyfindingids/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsguarddutyfindingids/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/guardduty_finding_ids aws_guardduty_finding_ids}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/guardduty_finding_ids aws_guardduty_finding_ids}.
 type DataAwsGuarddutyFindingIds interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsGuarddutyFindingIds) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/guardduty_finding_ids aws_guardduty_finding_ids} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/guardduty_finding_ids aws_guardduty_finding_ids} Data Source.
 func NewDataAwsGuarddutyFindingIds(scope constructs.Construct, id *string, config *DataAwsGuarddutyFindingIdsConfig) DataAwsGuarddutyFindingIds {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsGuarddutyFindingIds(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/guardduty_finding_ids aws_guardduty_finding_ids} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/guardduty_finding_ids aws_guardduty_finding_ids} Data Source.
 func NewDataAwsGuarddutyFindingIds_Override(d DataAwsGuarddutyFindingIds, scope constructs.Construct, id *string, config *DataAwsGuarddutyFindingIdsConfig) {
 	_init_.Initialize()
 

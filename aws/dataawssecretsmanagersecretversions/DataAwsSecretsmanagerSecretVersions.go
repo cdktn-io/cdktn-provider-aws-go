@@ -5,14 +5,14 @@ package dataawssecretsmanagersecretversions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawssecretsmanagersecretversions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawssecretsmanagersecretversions/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/secretsmanager_secret_versions aws_secretsmanager_secret_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/secretsmanager_secret_versions aws_secretsmanager_secret_versions}.
 type DataAwsSecretsmanagerSecretVersions interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -354,7 +354,7 @@ func (j *jsiiProxy_DataAwsSecretsmanagerSecretVersions) Versions() DataAwsSecret
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/secretsmanager_secret_versions aws_secretsmanager_secret_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/secretsmanager_secret_versions aws_secretsmanager_secret_versions} Data Source.
 func NewDataAwsSecretsmanagerSecretVersions(scope constructs.Construct, id *string, config *DataAwsSecretsmanagerSecretVersionsConfig) DataAwsSecretsmanagerSecretVersions {
 	_init_.Initialize()
 
@@ -372,7 +372,7 @@ func NewDataAwsSecretsmanagerSecretVersions(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/secretsmanager_secret_versions aws_secretsmanager_secret_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/secretsmanager_secret_versions aws_secretsmanager_secret_versions} Data Source.
 func NewDataAwsSecretsmanagerSecretVersions_Override(d DataAwsSecretsmanagerSecretVersions, scope constructs.Construct, id *string, config *DataAwsSecretsmanagerSecretVersionsConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package lakeformationdatalakesettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lakeformationdatalakesettings/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/lakeformationdatalakesettings/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lakeformation_data_lake_settings aws_lakeformation_data_lake_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lakeformation_data_lake_settings aws_lakeformation_data_lake_settings}.
 type LakeformationDataLakeSettings interface {
 	cdktn.TerraformResource
 	Admins() *[]*string
@@ -607,7 +607,7 @@ func (j *jsiiProxy_LakeformationDataLakeSettings) TrustedResourceOwnersInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lakeformation_data_lake_settings aws_lakeformation_data_lake_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lakeformation_data_lake_settings aws_lakeformation_data_lake_settings} Resource.
 func NewLakeformationDataLakeSettings(scope constructs.Construct, id *string, config *LakeformationDataLakeSettingsConfig) LakeformationDataLakeSettings {
 	_init_.Initialize()
 
@@ -625,7 +625,7 @@ func NewLakeformationDataLakeSettings(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lakeformation_data_lake_settings aws_lakeformation_data_lake_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lakeformation_data_lake_settings aws_lakeformation_data_lake_settings} Resource.
 func NewLakeformationDataLakeSettings_Override(l LakeformationDataLakeSettings, scope constructs.Construct, id *string, config *LakeformationDataLakeSettingsConfig) {
 	_init_.Initialize()
 

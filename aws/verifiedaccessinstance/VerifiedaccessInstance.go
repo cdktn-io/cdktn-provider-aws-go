@@ -5,14 +5,14 @@ package verifiedaccessinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/verifiedaccessinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/verifiedaccessinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/verifiedaccess_instance aws_verifiedaccess_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/verifiedaccess_instance aws_verifiedaccess_instance}.
 type VerifiedaccessInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -507,7 +507,7 @@ func (j *jsiiProxy_VerifiedaccessInstance) VerifiedAccessTrustProviders() Verifi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/verifiedaccess_instance aws_verifiedaccess_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/verifiedaccess_instance aws_verifiedaccess_instance} Resource.
 func NewVerifiedaccessInstance(scope constructs.Construct, id *string, config *VerifiedaccessInstanceConfig) VerifiedaccessInstance {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewVerifiedaccessInstance(scope constructs.Construct, id *string, config *V
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/verifiedaccess_instance aws_verifiedaccess_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/verifiedaccess_instance aws_verifiedaccess_instance} Resource.
 func NewVerifiedaccessInstance_Override(v VerifiedaccessInstance, scope constructs.Construct, id *string, config *VerifiedaccessInstanceConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package bedrockagentcorebrowser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/bedrockagentcorebrowser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/bedrockagentcorebrowser/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser}.
 type BedrockagentcoreBrowser interface {
 	cdktn.TerraformResource
 	BrowserArn() *string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_BedrockagentcoreBrowser) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser} Resource.
 func NewBedrockagentcoreBrowser(scope constructs.Construct, id *string, config *BedrockagentcoreBrowserConfig) BedrockagentcoreBrowser {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewBedrockagentcoreBrowser(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser} Resource.
 func NewBedrockagentcoreBrowser_Override(b BedrockagentcoreBrowser, scope constructs.Construct, id *string, config *BedrockagentcoreBrowserConfig) {
 	_init_.Initialize()
 

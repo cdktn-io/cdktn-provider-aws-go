@@ -380,6 +380,14 @@ func (j *jsiiProxy_OdbNetworkPeeringConnection) validateSetOdbNetworkIdParameter
 	return nil
 }
 
+func (j *jsiiProxy_OdbNetworkPeeringConnection) validateSetPeerNetworkCidrsParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_OdbNetworkPeeringConnection) validateSetPeerNetworkIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

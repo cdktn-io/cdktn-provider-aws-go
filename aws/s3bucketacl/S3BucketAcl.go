@@ -5,14 +5,14 @@ package s3bucketacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/s3bucketacl/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/s3bucketacl/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_acl aws_s3_bucket_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3_bucket_acl aws_s3_bucket_acl}.
 type S3BucketAcl interface {
 	cdktn.TerraformResource
 	AccessControlPolicy() S3BucketAclAccessControlPolicyOutputReference
@@ -438,7 +438,7 @@ func (j *jsiiProxy_S3BucketAcl) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_acl aws_s3_bucket_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3_bucket_acl aws_s3_bucket_acl} Resource.
 func NewS3BucketAcl(scope constructs.Construct, id *string, config *S3BucketAclConfig) S3BucketAcl {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewS3BucketAcl(scope constructs.Construct, id *string, config *S3BucketAclC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_acl aws_s3_bucket_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3_bucket_acl aws_s3_bucket_acl} Resource.
 func NewS3BucketAcl_Override(s S3BucketAcl, scope constructs.Construct, id *string, config *S3BucketAclConfig) {
 	_init_.Initialize()
 

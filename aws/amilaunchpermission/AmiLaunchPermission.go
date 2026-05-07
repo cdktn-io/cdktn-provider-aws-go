@@ -5,14 +5,14 @@ package amilaunchpermission
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/amilaunchpermission/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/amilaunchpermission/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ami_launch_permission aws_ami_launch_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ami_launch_permission aws_ami_launch_permission}.
 type AmiLaunchPermission interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_AmiLaunchPermission) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ami_launch_permission aws_ami_launch_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ami_launch_permission aws_ami_launch_permission} Resource.
 func NewAmiLaunchPermission(scope constructs.Construct, id *string, config *AmiLaunchPermissionConfig) AmiLaunchPermission {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewAmiLaunchPermission(scope constructs.Construct, id *string, config *AmiL
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ami_launch_permission aws_ami_launch_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ami_launch_permission aws_ami_launch_permission} Resource.
 func NewAmiLaunchPermission_Override(a AmiLaunchPermission, scope constructs.Construct, id *string, config *AmiLaunchPermissionConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package appfabricappauthorizationconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appfabricappauthorizationconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/appfabricappauthorizationconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appfabric_app_authorization_connection aws_appfabric_app_authorization_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/appfabric_app_authorization_connection aws_appfabric_app_authorization_connection}.
 type AppfabricAppAuthorizationConnection interface {
 	cdktn.TerraformResource
 	App() *string
@@ -446,7 +446,7 @@ func (j *jsiiProxy_AppfabricAppAuthorizationConnection) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appfabric_app_authorization_connection aws_appfabric_app_authorization_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/appfabric_app_authorization_connection aws_appfabric_app_authorization_connection} Resource.
 func NewAppfabricAppAuthorizationConnection(scope constructs.Construct, id *string, config *AppfabricAppAuthorizationConnectionConfig) AppfabricAppAuthorizationConnection {
 	_init_.Initialize()
 
@@ -464,7 +464,7 @@ func NewAppfabricAppAuthorizationConnection(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appfabric_app_authorization_connection aws_appfabric_app_authorization_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/appfabric_app_authorization_connection aws_appfabric_app_authorization_connection} Resource.
 func NewAppfabricAppAuthorizationConnection_Override(a AppfabricAppAuthorizationConnection, scope constructs.Construct, id *string, config *AppfabricAppAuthorizationConnectionConfig) {
 	_init_.Initialize()
 

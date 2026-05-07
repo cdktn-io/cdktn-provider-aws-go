@@ -5,14 +5,14 @@ package ssoadminapplicationassignmentconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ssoadminapplicationassignmentconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/ssoadminapplicationassignmentconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssoadmin_application_assignment_configuration aws_ssoadmin_application_assignment_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ssoadmin_application_assignment_configuration aws_ssoadmin_application_assignment_configuration}.
 type SsoadminApplicationAssignmentConfiguration interface {
 	cdktn.TerraformResource
 	ApplicationArn() *string
@@ -376,7 +376,7 @@ func (j *jsiiProxy_SsoadminApplicationAssignmentConfiguration) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssoadmin_application_assignment_configuration aws_ssoadmin_application_assignment_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ssoadmin_application_assignment_configuration aws_ssoadmin_application_assignment_configuration} Resource.
 func NewSsoadminApplicationAssignmentConfiguration(scope constructs.Construct, id *string, config *SsoadminApplicationAssignmentConfigurationConfig) SsoadminApplicationAssignmentConfiguration {
 	_init_.Initialize()
 
@@ -394,7 +394,7 @@ func NewSsoadminApplicationAssignmentConfiguration(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssoadmin_application_assignment_configuration aws_ssoadmin_application_assignment_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ssoadmin_application_assignment_configuration aws_ssoadmin_application_assignment_configuration} Resource.
 func NewSsoadminApplicationAssignmentConfiguration_Override(s SsoadminApplicationAssignmentConfiguration, scope constructs.Construct, id *string, config *SsoadminApplicationAssignmentConfigurationConfig) {
 	_init_.Initialize()
 

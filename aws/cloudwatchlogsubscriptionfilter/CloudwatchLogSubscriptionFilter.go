@@ -5,14 +5,14 @@ package cloudwatchlogsubscriptionfilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/cloudwatchlogsubscriptionfilter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/cloudwatchlogsubscriptionfilter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_log_subscription_filter aws_cloudwatch_log_subscription_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudwatch_log_subscription_filter aws_cloudwatch_log_subscription_filter}.
 type CloudwatchLogSubscriptionFilter interface {
 	cdktn.TerraformResource
 	ApplyOnTransformedLogs() interface{}
@@ -531,7 +531,7 @@ func (j *jsiiProxy_CloudwatchLogSubscriptionFilter) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_log_subscription_filter aws_cloudwatch_log_subscription_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudwatch_log_subscription_filter aws_cloudwatch_log_subscription_filter} Resource.
 func NewCloudwatchLogSubscriptionFilter(scope constructs.Construct, id *string, config *CloudwatchLogSubscriptionFilterConfig) CloudwatchLogSubscriptionFilter {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewCloudwatchLogSubscriptionFilter(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_log_subscription_filter aws_cloudwatch_log_subscription_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudwatch_log_subscription_filter aws_cloudwatch_log_subscription_filter} Resource.
 func NewCloudwatchLogSubscriptionFilter_Override(c CloudwatchLogSubscriptionFilter, scope constructs.Construct, id *string, config *CloudwatchLogSubscriptionFilterConfig) {
 	_init_.Initialize()
 

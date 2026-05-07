@@ -5,14 +5,14 @@ package route53resolverfirewallrulegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/route53resolverfirewallrulegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/route53resolverfirewallrulegroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_resolver_firewall_rule_group aws_route53_resolver_firewall_rule_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/route53_resolver_firewall_rule_group aws_route53_resolver_firewall_rule_group}.
 type Route53ResolverFirewallRuleGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -447,7 +447,7 @@ func (j *jsiiProxy_Route53ResolverFirewallRuleGroup) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_resolver_firewall_rule_group aws_route53_resolver_firewall_rule_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/route53_resolver_firewall_rule_group aws_route53_resolver_firewall_rule_group} Resource.
 func NewRoute53ResolverFirewallRuleGroup(scope constructs.Construct, id *string, config *Route53ResolverFirewallRuleGroupConfig) Route53ResolverFirewallRuleGroup {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewRoute53ResolverFirewallRuleGroup(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_resolver_firewall_rule_group aws_route53_resolver_firewall_rule_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/route53_resolver_firewall_rule_group aws_route53_resolver_firewall_rule_group} Resource.
 func NewRoute53ResolverFirewallRuleGroup_Override(r Route53ResolverFirewallRuleGroup, scope constructs.Construct, id *string, config *Route53ResolverFirewallRuleGroupConfig) {
 	_init_.Initialize()
 

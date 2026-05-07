@@ -5,14 +5,14 @@ package odbnetworkpeeringconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/odbnetworkpeeringconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/odbnetworkpeeringconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/odb_network_peering_connection aws_odb_network_peering_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/odb_network_peering_connection aws_odb_network_peering_connection}.
 type OdbNetworkPeeringConnection interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -59,6 +59,9 @@ type OdbNetworkPeeringConnection interface {
 	OdbNetworkIdInput() *string
 	OdbPeeringConnectionType() *string
 	PeerNetworkArn() *string
+	PeerNetworkCidrs() *[]*string
+	SetPeerNetworkCidrs(val *[]*string)
+	PeerNetworkCidrsInput() *[]*string
 	PeerNetworkId() *string
 	SetPeerNetworkId(val *string)
 	PeerNetworkIdInput() *string
@@ -139,6 +142,7 @@ type OdbNetworkPeeringConnection interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPeerNetworkCidrs()
 	ResetRegion()
 	ResetTags()
 	ResetTimeouts()
@@ -379,6 +383,26 @@ func (j *jsiiProxy_OdbNetworkPeeringConnection) PeerNetworkArn() *string {
 	return returns
 }
 
+func (j *jsiiProxy_OdbNetworkPeeringConnection) PeerNetworkCidrs() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"peerNetworkCidrs",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbNetworkPeeringConnection) PeerNetworkCidrsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"peerNetworkCidrsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_OdbNetworkPeeringConnection) PeerNetworkId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -560,7 +584,7 @@ func (j *jsiiProxy_OdbNetworkPeeringConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/odb_network_peering_connection aws_odb_network_peering_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/odb_network_peering_connection aws_odb_network_peering_connection} Resource.
 func NewOdbNetworkPeeringConnection(scope constructs.Construct, id *string, config *OdbNetworkPeeringConnectionConfig) OdbNetworkPeeringConnection {
 	_init_.Initialize()
 
@@ -578,7 +602,7 @@ func NewOdbNetworkPeeringConnection(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/odb_network_peering_connection aws_odb_network_peering_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/odb_network_peering_connection aws_odb_network_peering_connection} Resource.
 func NewOdbNetworkPeeringConnection_Override(o OdbNetworkPeeringConnection, scope constructs.Construct, id *string, config *OdbNetworkPeeringConnectionConfig) {
 	_init_.Initialize()
 
@@ -667,6 +691,17 @@ func (j *jsiiProxy_OdbNetworkPeeringConnection)SetOdbNetworkId(val *string) {
 	_jsii_.Set(
 		j,
 		"odbNetworkId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OdbNetworkPeeringConnection)SetPeerNetworkCidrs(val *[]*string) {
+	if err := j.validateSetPeerNetworkCidrsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"peerNetworkCidrs",
 		val,
 	)
 }
@@ -1107,6 +1142,14 @@ func (o *jsiiProxy_OdbNetworkPeeringConnection) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		o,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OdbNetworkPeeringConnection) ResetPeerNetworkCidrs() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetPeerNetworkCidrs",
 		nil, // no parameters
 	)
 }

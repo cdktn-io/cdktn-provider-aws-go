@@ -139,6 +139,10 @@ func (j *jsiiProxy_MqConfiguration) validateSetRegionParameters(val *string) err
 	return nil
 }
 
+func (j *jsiiProxy_MqConfiguration) validateSetSkipDestroyParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_MqConfiguration) validateSetTagsParameters(val *map[string]*string) error {
 	return nil
 }

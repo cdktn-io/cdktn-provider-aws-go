@@ -5,14 +5,14 @@ package guarddutypublishingdestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/guarddutypublishingdestination/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/guarddutypublishingdestination/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/guardduty_publishing_destination aws_guardduty_publishing_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/guardduty_publishing_destination aws_guardduty_publishing_destination}.
 type GuarddutyPublishingDestination interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_GuarddutyPublishingDestination) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/guardduty_publishing_destination aws_guardduty_publishing_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/guardduty_publishing_destination aws_guardduty_publishing_destination} Resource.
 func NewGuarddutyPublishingDestination(scope constructs.Construct, id *string, config *GuarddutyPublishingDestinationConfig) GuarddutyPublishingDestination {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewGuarddutyPublishingDestination(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/guardduty_publishing_destination aws_guardduty_publishing_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/guardduty_publishing_destination aws_guardduty_publishing_destination} Resource.
 func NewGuarddutyPublishingDestination_Override(g GuarddutyPublishingDestination, scope constructs.Construct, id *string, config *GuarddutyPublishingDestinationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package redshiftidcapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/redshiftidcapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/redshiftidcapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_idc_application aws_redshift_idc_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshift_idc_application aws_redshift_idc_application}.
 type RedshiftIdcApplication interface {
 	cdktn.TerraformResource
 	ApplicationType() *string
@@ -564,7 +564,7 @@ func (j *jsiiProxy_RedshiftIdcApplication) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_idc_application aws_redshift_idc_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshift_idc_application aws_redshift_idc_application} Resource.
 func NewRedshiftIdcApplication(scope constructs.Construct, id *string, config *RedshiftIdcApplicationConfig) RedshiftIdcApplication {
 	_init_.Initialize()
 
@@ -582,7 +582,7 @@ func NewRedshiftIdcApplication(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_idc_application aws_redshift_idc_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshift_idc_application aws_redshift_idc_application} Resource.
 func NewRedshiftIdcApplication_Override(r RedshiftIdcApplication, scope constructs.Construct, id *string, config *RedshiftIdcApplicationConfig) {
 	_init_.Initialize()
 

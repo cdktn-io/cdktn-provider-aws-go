@@ -5,14 +5,14 @@ package kinesisstreamconsumer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/kinesisstreamconsumer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/kinesisstreamconsumer/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kinesis_stream_consumer aws_kinesis_stream_consumer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/kinesis_stream_consumer aws_kinesis_stream_consumer}.
 type KinesisStreamConsumer interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_KinesisStreamConsumer) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kinesis_stream_consumer aws_kinesis_stream_consumer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/kinesis_stream_consumer aws_kinesis_stream_consumer} Resource.
 func NewKinesisStreamConsumer(scope constructs.Construct, id *string, config *KinesisStreamConsumerConfig) KinesisStreamConsumer {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewKinesisStreamConsumer(scope constructs.Construct, id *string, config *Ki
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kinesis_stream_consumer aws_kinesis_stream_consumer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/kinesis_stream_consumer aws_kinesis_stream_consumer} Resource.
 func NewKinesisStreamConsumer_Override(k KinesisStreamConsumer, scope constructs.Construct, id *string, config *KinesisStreamConsumerConfig) {
 	_init_.Initialize()
 

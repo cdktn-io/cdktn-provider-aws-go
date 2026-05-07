@@ -5,14 +5,14 @@ package chimevoiceconnectororigination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/chimevoiceconnectororigination/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/chimevoiceconnectororigination/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/chime_voice_connector_origination aws_chime_voice_connector_origination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/chime_voice_connector_origination aws_chime_voice_connector_origination}.
 type ChimeVoiceConnectorOrigination interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_ChimeVoiceConnectorOrigination) VoiceConnectorIdInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/chime_voice_connector_origination aws_chime_voice_connector_origination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/chime_voice_connector_origination aws_chime_voice_connector_origination} Resource.
 func NewChimeVoiceConnectorOrigination(scope constructs.Construct, id *string, config *ChimeVoiceConnectorOriginationConfig) ChimeVoiceConnectorOrigination {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewChimeVoiceConnectorOrigination(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/chime_voice_connector_origination aws_chime_voice_connector_origination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/chime_voice_connector_origination aws_chime_voice_connector_origination} Resource.
 func NewChimeVoiceConnectorOrigination_Override(c ChimeVoiceConnectorOrigination, scope constructs.Construct, id *string, config *ChimeVoiceConnectorOriginationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsec2localgatewayroutetables
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsec2localgatewayroutetables/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsec2localgatewayroutetables/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ec2_local_gateway_route_tables aws_ec2_local_gateway_route_tables}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ec2_local_gateway_route_tables aws_ec2_local_gateway_route_tables}.
 type DataAwsEc2LocalGatewayRouteTables interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -381,7 +381,7 @@ func (j *jsiiProxy_DataAwsEc2LocalGatewayRouteTables) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ec2_local_gateway_route_tables aws_ec2_local_gateway_route_tables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ec2_local_gateway_route_tables aws_ec2_local_gateway_route_tables} Data Source.
 func NewDataAwsEc2LocalGatewayRouteTables(scope constructs.Construct, id *string, config *DataAwsEc2LocalGatewayRouteTablesConfig) DataAwsEc2LocalGatewayRouteTables {
 	_init_.Initialize()
 
@@ -399,7 +399,7 @@ func NewDataAwsEc2LocalGatewayRouteTables(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ec2_local_gateway_route_tables aws_ec2_local_gateway_route_tables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ec2_local_gateway_route_tables aws_ec2_local_gateway_route_tables} Data Source.
 func NewDataAwsEc2LocalGatewayRouteTables_Override(d DataAwsEc2LocalGatewayRouteTables, scope constructs.Construct, id *string, config *DataAwsEc2LocalGatewayRouteTablesConfig) {
 	_init_.Initialize()
 

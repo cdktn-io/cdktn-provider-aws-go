@@ -5,14 +5,14 @@ package odbcloudvmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/odbcloudvmcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/odbcloudvmcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster}.
 type OdbCloudVmCluster interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -1126,7 +1126,7 @@ func (j *jsiiProxy_OdbCloudVmCluster) VipIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster} Resource.
 func NewOdbCloudVmCluster(scope constructs.Construct, id *string, config *OdbCloudVmClusterConfig) OdbCloudVmCluster {
 	_init_.Initialize()
 
@@ -1144,7 +1144,7 @@ func NewOdbCloudVmCluster(scope constructs.Construct, id *string, config *OdbClo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster} Resource.
 func NewOdbCloudVmCluster_Override(o OdbCloudVmCluster, scope constructs.Construct, id *string, config *OdbCloudVmClusterConfig) {
 	_init_.Initialize()
 

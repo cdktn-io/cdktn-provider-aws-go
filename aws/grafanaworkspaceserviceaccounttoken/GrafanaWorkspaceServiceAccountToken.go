@@ -5,14 +5,14 @@ package grafanaworkspaceserviceaccounttoken
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/grafanaworkspaceserviceaccounttoken/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/grafanaworkspaceserviceaccounttoken/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/grafana_workspace_service_account_token aws_grafana_workspace_service_account_token}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/grafana_workspace_service_account_token aws_grafana_workspace_service_account_token}.
 type GrafanaWorkspaceServiceAccountToken interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -466,7 +466,7 @@ func (j *jsiiProxy_GrafanaWorkspaceServiceAccountToken) WorkspaceIdInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/grafana_workspace_service_account_token aws_grafana_workspace_service_account_token} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/grafana_workspace_service_account_token aws_grafana_workspace_service_account_token} Resource.
 func NewGrafanaWorkspaceServiceAccountToken(scope constructs.Construct, id *string, config *GrafanaWorkspaceServiceAccountTokenConfig) GrafanaWorkspaceServiceAccountToken {
 	_init_.Initialize()
 
@@ -484,7 +484,7 @@ func NewGrafanaWorkspaceServiceAccountToken(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/grafana_workspace_service_account_token aws_grafana_workspace_service_account_token} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/grafana_workspace_service_account_token aws_grafana_workspace_service_account_token} Resource.
 func NewGrafanaWorkspaceServiceAccountToken_Override(g GrafanaWorkspaceServiceAccountToken, scope constructs.Construct, id *string, config *GrafanaWorkspaceServiceAccountTokenConfig) {
 	_init_.Initialize()
 

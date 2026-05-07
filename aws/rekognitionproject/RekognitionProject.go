@@ -5,14 +5,14 @@ package rekognitionproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/rekognitionproject/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/rekognitionproject/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rekognition_project aws_rekognition_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/rekognition_project aws_rekognition_project}.
 type RekognitionProject interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -471,7 +471,7 @@ func (j *jsiiProxy_RekognitionProject) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rekognition_project aws_rekognition_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/rekognition_project aws_rekognition_project} Resource.
 func NewRekognitionProject(scope constructs.Construct, id *string, config *RekognitionProjectConfig) RekognitionProject {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewRekognitionProject(scope constructs.Construct, id *string, config *Rekog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rekognition_project aws_rekognition_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/rekognition_project aws_rekognition_project} Resource.
 func NewRekognitionProject_Override(r RekognitionProject, scope constructs.Construct, id *string, config *RekognitionProjectConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package observabilityadmincentralizationrulefororganization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/observabilityadmincentralizationrulefororganization/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/observabilityadmincentralizationrulefororganization/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/observabilityadmin_centralization_rule_for_organization aws_observabilityadmin_centralization_rule_for_organization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/observabilityadmin_centralization_rule_for_organization aws_observabilityadmin_centralization_rule_for_organization}.
 type ObservabilityadminCentralizationRuleForOrganization interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -436,7 +436,7 @@ func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganization) Timeouts
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/observabilityadmin_centralization_rule_for_organization aws_observabilityadmin_centralization_rule_for_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/observabilityadmin_centralization_rule_for_organization aws_observabilityadmin_centralization_rule_for_organization} Resource.
 func NewObservabilityadminCentralizationRuleForOrganization(scope constructs.Construct, id *string, config *ObservabilityadminCentralizationRuleForOrganizationConfig) ObservabilityadminCentralizationRuleForOrganization {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewObservabilityadminCentralizationRuleForOrganization(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/observabilityadmin_centralization_rule_for_organization aws_observabilityadmin_centralization_rule_for_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/observabilityadmin_centralization_rule_for_organization aws_observabilityadmin_centralization_rule_for_organization} Resource.
 func NewObservabilityadminCentralizationRuleForOrganization_Override(o ObservabilityadminCentralizationRuleForOrganization, scope constructs.Construct, id *string, config *ObservabilityadminCentralizationRuleForOrganizationConfig) {
 	_init_.Initialize()
 

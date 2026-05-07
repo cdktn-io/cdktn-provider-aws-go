@@ -5,14 +5,14 @@ package dataawsprometheusworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsprometheusworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsprometheusworkspace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/prometheus_workspace aws_prometheus_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/prometheus_workspace aws_prometheus_workspace}.
 type DataAwsPrometheusWorkspace interface {
 	cdktn.TerraformDataSource
 	Alias() *string
@@ -411,7 +411,7 @@ func (j *jsiiProxy_DataAwsPrometheusWorkspace) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/prometheus_workspace aws_prometheus_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/prometheus_workspace aws_prometheus_workspace} Data Source.
 func NewDataAwsPrometheusWorkspace(scope constructs.Construct, id *string, config *DataAwsPrometheusWorkspaceConfig) DataAwsPrometheusWorkspace {
 	_init_.Initialize()
 
@@ -429,7 +429,7 @@ func NewDataAwsPrometheusWorkspace(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/prometheus_workspace aws_prometheus_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/prometheus_workspace aws_prometheus_workspace} Data Source.
 func NewDataAwsPrometheusWorkspace_Override(d DataAwsPrometheusWorkspace, scope constructs.Construct, id *string, config *DataAwsPrometheusWorkspaceConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dxbgppeer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dxbgppeer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dxbgppeer/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dx_bgp_peer aws_dx_bgp_peer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/dx_bgp_peer aws_dx_bgp_peer}.
 type DxBgpPeer interface {
 	cdktn.TerraformResource
 	AddressFamily() *string
@@ -541,7 +541,7 @@ func (j *jsiiProxy_DxBgpPeer) VirtualInterfaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dx_bgp_peer aws_dx_bgp_peer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/dx_bgp_peer aws_dx_bgp_peer} Resource.
 func NewDxBgpPeer(scope constructs.Construct, id *string, config *DxBgpPeerConfig) DxBgpPeer {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewDxBgpPeer(scope constructs.Construct, id *string, config *DxBgpPeerConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dx_bgp_peer aws_dx_bgp_peer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/dx_bgp_peer aws_dx_bgp_peer} Resource.
 func NewDxBgpPeer_Override(d DxBgpPeer, scope constructs.Construct, id *string, config *DxBgpPeerConfig) {
 	_init_.Initialize()
 

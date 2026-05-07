@@ -5,14 +5,14 @@ package accountregion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/accountregion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/accountregion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/account_region aws_account_region}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/account_region aws_account_region}.
 type AccountRegion interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -424,7 +424,7 @@ func (j *jsiiProxy_AccountRegion) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/account_region aws_account_region} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/account_region aws_account_region} Resource.
 func NewAccountRegion(scope constructs.Construct, id *string, config *AccountRegionConfig) AccountRegion {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewAccountRegion(scope constructs.Construct, id *string, config *AccountReg
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/account_region aws_account_region} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/account_region aws_account_region} Resource.
 func NewAccountRegion_Override(a AccountRegion, scope constructs.Construct, id *string, config *AccountRegionConfig) {
 	_init_.Initialize()
 

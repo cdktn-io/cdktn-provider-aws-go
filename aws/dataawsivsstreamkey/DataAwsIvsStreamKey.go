@@ -5,14 +5,14 @@ package dataawsivsstreamkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsivsstreamkey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsivsstreamkey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ivs_stream_key aws_ivs_stream_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ivs_stream_key aws_ivs_stream_key}.
 type DataAwsIvsStreamKey interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -367,7 +367,7 @@ func (j *jsiiProxy_DataAwsIvsStreamKey) Value() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ivs_stream_key aws_ivs_stream_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ivs_stream_key aws_ivs_stream_key} Data Source.
 func NewDataAwsIvsStreamKey(scope constructs.Construct, id *string, config *DataAwsIvsStreamKeyConfig) DataAwsIvsStreamKey {
 	_init_.Initialize()
 
@@ -385,7 +385,7 @@ func NewDataAwsIvsStreamKey(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ivs_stream_key aws_ivs_stream_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ivs_stream_key aws_ivs_stream_key} Data Source.
 func NewDataAwsIvsStreamKey_Override(d DataAwsIvsStreamKey, scope constructs.Construct, id *string, config *DataAwsIvsStreamKeyConfig) {
 	_init_.Initialize()
 

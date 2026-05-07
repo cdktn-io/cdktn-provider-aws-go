@@ -5,14 +5,14 @@ package appconfigextensionassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appconfigextensionassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/appconfigextensionassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appconfig_extension_association aws_appconfig_extension_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/appconfig_extension_association aws_appconfig_extension_association}.
 type AppconfigExtensionAssociation interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -435,7 +435,7 @@ func (j *jsiiProxy_AppconfigExtensionAssociation) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appconfig_extension_association aws_appconfig_extension_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/appconfig_extension_association aws_appconfig_extension_association} Resource.
 func NewAppconfigExtensionAssociation(scope constructs.Construct, id *string, config *AppconfigExtensionAssociationConfig) AppconfigExtensionAssociation {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewAppconfigExtensionAssociation(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appconfig_extension_association aws_appconfig_extension_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/appconfig_extension_association aws_appconfig_extension_association} Resource.
 func NewAppconfigExtensionAssociation_Override(a AppconfigExtensionAssociation, scope constructs.Construct, id *string, config *AppconfigExtensionAssociationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsidentitystoreusers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsidentitystoreusers/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsidentitystoreusers/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/identitystore_users aws_identitystore_users}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/identitystore_users aws_identitystore_users}.
 type DataAwsIdentitystoreUsers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsIdentitystoreUsers) Users() DataAwsIdentitystoreUsersU
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/identitystore_users aws_identitystore_users} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/identitystore_users aws_identitystore_users} Data Source.
 func NewDataAwsIdentitystoreUsers(scope constructs.Construct, id *string, config *DataAwsIdentitystoreUsersConfig) DataAwsIdentitystoreUsers {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsIdentitystoreUsers(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/identitystore_users aws_identitystore_users} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/identitystore_users aws_identitystore_users} Data Source.
 func NewDataAwsIdentitystoreUsers_Override(d DataAwsIdentitystoreUsers, scope constructs.Construct, id *string, config *DataAwsIdentitystoreUsersConfig) {
 	_init_.Initialize()
 

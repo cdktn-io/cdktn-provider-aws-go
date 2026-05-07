@@ -5,14 +5,14 @@ package dataawsvpcipams
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsvpcipams/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsvpcipams/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/vpc_ipams aws_vpc_ipams}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/vpc_ipams aws_vpc_ipams}.
 type DataAwsVpcIpams interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -333,7 +333,7 @@ func (j *jsiiProxy_DataAwsVpcIpams) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/vpc_ipams aws_vpc_ipams} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/vpc_ipams aws_vpc_ipams} Data Source.
 func NewDataAwsVpcIpams(scope constructs.Construct, id *string, config *DataAwsVpcIpamsConfig) DataAwsVpcIpams {
 	_init_.Initialize()
 
@@ -351,7 +351,7 @@ func NewDataAwsVpcIpams(scope constructs.Construct, id *string, config *DataAwsV
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/vpc_ipams aws_vpc_ipams} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/vpc_ipams aws_vpc_ipams} Data Source.
 func NewDataAwsVpcIpams_Override(d DataAwsVpcIpams, scope constructs.Construct, id *string, config *DataAwsVpcIpamsConfig) {
 	_init_.Initialize()
 

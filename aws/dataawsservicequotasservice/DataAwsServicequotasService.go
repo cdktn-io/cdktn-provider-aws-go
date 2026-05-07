@@ -5,14 +5,14 @@ package dataawsservicequotasservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsservicequotasservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsservicequotasservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/servicequotas_service aws_servicequotas_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/servicequotas_service aws_servicequotas_service}.
 type DataAwsServicequotasService interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataAwsServicequotasService) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/servicequotas_service aws_servicequotas_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/servicequotas_service aws_servicequotas_service} Data Source.
 func NewDataAwsServicequotasService(scope constructs.Construct, id *string, config *DataAwsServicequotasServiceConfig) DataAwsServicequotasService {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewDataAwsServicequotasService(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/servicequotas_service aws_servicequotas_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/servicequotas_service aws_servicequotas_service} Data Source.
 func NewDataAwsServicequotasService_Override(d DataAwsServicequotasService, scope constructs.Construct, id *string, config *DataAwsServicequotasServiceConfig) {
 	_init_.Initialize()
 

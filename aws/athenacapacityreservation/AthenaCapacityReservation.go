@@ -5,14 +5,14 @@ package athenacapacityreservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/athenacapacityreservation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/athenacapacityreservation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/athena_capacity_reservation aws_athena_capacity_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/athena_capacity_reservation aws_athena_capacity_reservation}.
 type AthenaCapacityReservation interface {
 	cdktn.TerraformResource
 	AllocatedDpus() *float64
@@ -457,7 +457,7 @@ func (j *jsiiProxy_AthenaCapacityReservation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/athena_capacity_reservation aws_athena_capacity_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/athena_capacity_reservation aws_athena_capacity_reservation} Resource.
 func NewAthenaCapacityReservation(scope constructs.Construct, id *string, config *AthenaCapacityReservationConfig) AthenaCapacityReservation {
 	_init_.Initialize()
 
@@ -475,7 +475,7 @@ func NewAthenaCapacityReservation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/athena_capacity_reservation aws_athena_capacity_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/athena_capacity_reservation aws_athena_capacity_reservation} Resource.
 func NewAthenaCapacityReservation_Override(a AthenaCapacityReservation, scope constructs.Construct, id *string, config *AthenaCapacityReservationConfig) {
 	_init_.Initialize()
 

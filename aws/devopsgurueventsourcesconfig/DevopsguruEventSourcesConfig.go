@@ -5,14 +5,14 @@ package devopsgurueventsourcesconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/devopsgurueventsourcesconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/devopsgurueventsourcesconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/devopsguru_event_sources_config aws_devopsguru_event_sources_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/devopsguru_event_sources_config aws_devopsguru_event_sources_config}.
 type DevopsguruEventSourcesConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -354,7 +354,7 @@ func (j *jsiiProxy_DevopsguruEventSourcesConfig) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/devopsguru_event_sources_config aws_devopsguru_event_sources_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/devopsguru_event_sources_config aws_devopsguru_event_sources_config} Resource.
 func NewDevopsguruEventSourcesConfig(scope constructs.Construct, id *string, config *DevopsguruEventSourcesConfigConfig) DevopsguruEventSourcesConfig {
 	_init_.Initialize()
 
@@ -372,7 +372,7 @@ func NewDevopsguruEventSourcesConfig(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/devopsguru_event_sources_config aws_devopsguru_event_sources_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/devopsguru_event_sources_config aws_devopsguru_event_sources_config} Resource.
 func NewDevopsguruEventSourcesConfig_Override(d DevopsguruEventSourcesConfig, scope constructs.Construct, id *string, config *DevopsguruEventSourcesConfigConfig) {
 	_init_.Initialize()
 

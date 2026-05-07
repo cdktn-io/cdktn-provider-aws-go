@@ -5,14 +5,14 @@ package networkmanagerconnectpeer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/networkmanagerconnectpeer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/networkmanagerconnectpeer/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_connect_peer aws_networkmanager_connect_peer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/networkmanager_connect_peer aws_networkmanager_connect_peer}.
 type NetworkmanagerConnectPeer interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -610,7 +610,7 @@ func (j *jsiiProxy_NetworkmanagerConnectPeer) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_connect_peer aws_networkmanager_connect_peer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/networkmanager_connect_peer aws_networkmanager_connect_peer} Resource.
 func NewNetworkmanagerConnectPeer(scope constructs.Construct, id *string, config *NetworkmanagerConnectPeerConfig) NetworkmanagerConnectPeer {
 	_init_.Initialize()
 
@@ -628,7 +628,7 @@ func NewNetworkmanagerConnectPeer(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_connect_peer aws_networkmanager_connect_peer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/networkmanager_connect_peer aws_networkmanager_connect_peer} Resource.
 func NewNetworkmanagerConnectPeer_Override(n NetworkmanagerConnectPeer, scope constructs.Construct, id *string, config *NetworkmanagerConnectPeerConfig) {
 	_init_.Initialize()
 

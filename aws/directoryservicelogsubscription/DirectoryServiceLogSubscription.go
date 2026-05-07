@@ -5,14 +5,14 @@ package directoryservicelogsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/directoryservicelogsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/directoryservicelogsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_log_subscription aws_directory_service_log_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/directory_service_log_subscription aws_directory_service_log_subscription}.
 type DirectoryServiceLogSubscription interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_DirectoryServiceLogSubscription) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_log_subscription aws_directory_service_log_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/directory_service_log_subscription aws_directory_service_log_subscription} Resource.
 func NewDirectoryServiceLogSubscription(scope constructs.Construct, id *string, config *DirectoryServiceLogSubscriptionConfig) DirectoryServiceLogSubscription {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewDirectoryServiceLogSubscription(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_log_subscription aws_directory_service_log_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/directory_service_log_subscription aws_directory_service_log_subscription} Resource.
 func NewDirectoryServiceLogSubscription_Override(d DirectoryServiceLogSubscription, scope constructs.Construct, id *string, config *DirectoryServiceLogSubscriptionConfig) {
 	_init_.Initialize()
 

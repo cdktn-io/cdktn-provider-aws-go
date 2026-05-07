@@ -5,14 +5,14 @@ package ebsfastsnapshotrestore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ebsfastsnapshotrestore/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/ebsfastsnapshotrestore/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ebs_fast_snapshot_restore aws_ebs_fast_snapshot_restore}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ebs_fast_snapshot_restore aws_ebs_fast_snapshot_restore}.
 type EbsFastSnapshotRestore interface {
 	cdktn.TerraformResource
 	AvailabilityZone() *string
@@ -411,7 +411,7 @@ func (j *jsiiProxy_EbsFastSnapshotRestore) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ebs_fast_snapshot_restore aws_ebs_fast_snapshot_restore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ebs_fast_snapshot_restore aws_ebs_fast_snapshot_restore} Resource.
 func NewEbsFastSnapshotRestore(scope constructs.Construct, id *string, config *EbsFastSnapshotRestoreConfig) EbsFastSnapshotRestore {
 	_init_.Initialize()
 
@@ -429,7 +429,7 @@ func NewEbsFastSnapshotRestore(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ebs_fast_snapshot_restore aws_ebs_fast_snapshot_restore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ebs_fast_snapshot_restore aws_ebs_fast_snapshot_restore} Resource.
 func NewEbsFastSnapshotRestore_Override(e EbsFastSnapshotRestore, scope constructs.Construct, id *string, config *EbsFastSnapshotRestoreConfig) {
 	_init_.Initialize()
 

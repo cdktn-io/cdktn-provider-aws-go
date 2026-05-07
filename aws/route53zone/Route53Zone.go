@@ -5,14 +5,14 @@ package route53zone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/route53zone/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/route53zone/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_zone aws_route53_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/route53_zone aws_route53_zone}.
 type Route53Zone interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -578,7 +578,7 @@ func (j *jsiiProxy_Route53Zone) ZoneId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_zone aws_route53_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/route53_zone aws_route53_zone} Resource.
 func NewRoute53Zone(scope constructs.Construct, id *string, config *Route53ZoneConfig) Route53Zone {
 	_init_.Initialize()
 
@@ -596,7 +596,7 @@ func NewRoute53Zone(scope constructs.Construct, id *string, config *Route53ZoneC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_zone aws_route53_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/route53_zone aws_route53_zone} Resource.
 func NewRoute53Zone_Override(r Route53Zone, scope constructs.Construct, id *string, config *Route53ZoneConfig) {
 	_init_.Initialize()
 

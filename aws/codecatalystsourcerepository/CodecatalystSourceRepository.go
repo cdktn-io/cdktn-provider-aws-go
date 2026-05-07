@@ -5,14 +5,14 @@ package codecatalystsourcerepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/codecatalystsourcerepository/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/codecatalystsourcerepository/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codecatalyst_source_repository aws_codecatalyst_source_repository}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/codecatalyst_source_repository aws_codecatalyst_source_repository}.
 type CodecatalystSourceRepository interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -460,7 +460,7 @@ func (j *jsiiProxy_CodecatalystSourceRepository) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codecatalyst_source_repository aws_codecatalyst_source_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/codecatalyst_source_repository aws_codecatalyst_source_repository} Resource.
 func NewCodecatalystSourceRepository(scope constructs.Construct, id *string, config *CodecatalystSourceRepositoryConfig) CodecatalystSourceRepository {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewCodecatalystSourceRepository(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codecatalyst_source_repository aws_codecatalyst_source_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/codecatalyst_source_repository aws_codecatalyst_source_repository} Resource.
 func NewCodecatalystSourceRepository_Override(c CodecatalystSourceRepository, scope constructs.Construct, id *string, config *CodecatalystSourceRepositoryConfig) {
 	_init_.Initialize()
 

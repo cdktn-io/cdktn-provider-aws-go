@@ -5,14 +5,14 @@ package xrayresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/xrayresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/xrayresourcepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/xray_resource_policy aws_xray_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/xray_resource_policy aws_xray_resource_policy}.
 type XrayResourcePolicy interface {
 	cdktn.TerraformResource
 	BypassPolicyLockoutCheck() interface{}
@@ -424,7 +424,7 @@ func (j *jsiiProxy_XrayResourcePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/xray_resource_policy aws_xray_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/xray_resource_policy aws_xray_resource_policy} Resource.
 func NewXrayResourcePolicy(scope constructs.Construct, id *string, config *XrayResourcePolicyConfig) XrayResourcePolicy {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewXrayResourcePolicy(scope constructs.Construct, id *string, config *XrayR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/xray_resource_policy aws_xray_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/xray_resource_policy aws_xray_resource_policy} Resource.
 func NewXrayResourcePolicy_Override(x XrayResourcePolicy, scope constructs.Construct, id *string, config *XrayResourcePolicyConfig) {
 	_init_.Initialize()
 

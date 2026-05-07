@@ -5,14 +5,14 @@ package dxprivatevirtualinterface
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dxprivatevirtualinterface/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dxprivatevirtualinterface/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dx_private_virtual_interface aws_dx_private_virtual_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/dx_private_virtual_interface aws_dx_private_virtual_interface}.
 type DxPrivateVirtualInterface interface {
 	cdktn.TerraformResource
 	AddressFamily() *string
@@ -742,7 +742,7 @@ func (j *jsiiProxy_DxPrivateVirtualInterface) VpnGatewayIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dx_private_virtual_interface aws_dx_private_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/dx_private_virtual_interface aws_dx_private_virtual_interface} Resource.
 func NewDxPrivateVirtualInterface(scope constructs.Construct, id *string, config *DxPrivateVirtualInterfaceConfig) DxPrivateVirtualInterface {
 	_init_.Initialize()
 
@@ -760,7 +760,7 @@ func NewDxPrivateVirtualInterface(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dx_private_virtual_interface aws_dx_private_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/dx_private_virtual_interface aws_dx_private_virtual_interface} Resource.
 func NewDxPrivateVirtualInterface_Override(d DxPrivateVirtualInterface, scope constructs.Construct, id *string, config *DxPrivateVirtualInterfaceConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package ssmcontactscontactchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ssmcontactscontactchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/ssmcontactscontactchannel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssmcontacts_contact_channel aws_ssmcontacts_contact_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ssmcontacts_contact_channel aws_ssmcontacts_contact_channel}.
 type SsmcontactsContactChannel interface {
 	cdktn.TerraformResource
 	ActivationStatus() *string
@@ -457,7 +457,7 @@ func (j *jsiiProxy_SsmcontactsContactChannel) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssmcontacts_contact_channel aws_ssmcontacts_contact_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ssmcontacts_contact_channel aws_ssmcontacts_contact_channel} Resource.
 func NewSsmcontactsContactChannel(scope constructs.Construct, id *string, config *SsmcontactsContactChannelConfig) SsmcontactsContactChannel {
 	_init_.Initialize()
 
@@ -475,7 +475,7 @@ func NewSsmcontactsContactChannel(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssmcontacts_contact_channel aws_ssmcontacts_contact_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ssmcontacts_contact_channel aws_ssmcontacts_contact_channel} Resource.
 func NewSsmcontactsContactChannel_Override(s SsmcontactsContactChannel, scope constructs.Construct, id *string, config *SsmcontactsContactChannelConfig) {
 	_init_.Initialize()
 

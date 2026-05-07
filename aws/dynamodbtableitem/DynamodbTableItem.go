@@ -5,14 +5,14 @@ package dynamodbtableitem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dynamodbtableitem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dynamodbtableitem/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dynamodb_table_item aws_dynamodb_table_item}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/dynamodb_table_item aws_dynamodb_table_item}.
 type DynamodbTableItem interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -436,7 +436,7 @@ func (j *jsiiProxy_DynamodbTableItem) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dynamodb_table_item aws_dynamodb_table_item} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/dynamodb_table_item aws_dynamodb_table_item} Resource.
 func NewDynamodbTableItem(scope constructs.Construct, id *string, config *DynamodbTableItemConfig) DynamodbTableItem {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewDynamodbTableItem(scope constructs.Construct, id *string, config *Dynamo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dynamodb_table_item aws_dynamodb_table_item} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/dynamodb_table_item aws_dynamodb_table_item} Resource.
 func NewDynamodbTableItem_Override(d DynamodbTableItem, scope constructs.Construct, id *string, config *DynamodbTableItemConfig) {
 	_init_.Initialize()
 

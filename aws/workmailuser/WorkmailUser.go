@@ -5,14 +5,14 @@ package workmailuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/workmailuser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/workmailuser/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workmail_user aws_workmail_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/workmail_user aws_workmail_user}.
 type WorkmailUser interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -872,7 +872,7 @@ func (j *jsiiProxy_WorkmailUser) ZipCodeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workmail_user aws_workmail_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/workmail_user aws_workmail_user} Resource.
 func NewWorkmailUser(scope constructs.Construct, id *string, config *WorkmailUserConfig) WorkmailUser {
 	_init_.Initialize()
 
@@ -890,7 +890,7 @@ func NewWorkmailUser(scope constructs.Construct, id *string, config *WorkmailUse
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workmail_user aws_workmail_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/workmail_user aws_workmail_user} Resource.
 func NewWorkmailUser_Override(w WorkmailUser, scope constructs.Construct, id *string, config *WorkmailUserConfig) {
 	_init_.Initialize()
 

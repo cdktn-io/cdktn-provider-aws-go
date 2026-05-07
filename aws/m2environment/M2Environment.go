@@ -5,14 +5,14 @@ package m2environment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/m2environment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/m2environment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/m2_environment aws_m2_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/m2_environment aws_m2_environment}.
 type M2Environment interface {
 	cdktn.TerraformResource
 	ApplyChangesDuringMaintenanceWindow() interface{}
@@ -755,7 +755,7 @@ func (j *jsiiProxy_M2Environment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/m2_environment aws_m2_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/m2_environment aws_m2_environment} Resource.
 func NewM2Environment(scope constructs.Construct, id *string, config *M2EnvironmentConfig) M2Environment {
 	_init_.Initialize()
 
@@ -773,7 +773,7 @@ func NewM2Environment(scope constructs.Construct, id *string, config *M2Environm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/m2_environment aws_m2_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/m2_environment aws_m2_environment} Resource.
 func NewM2Environment_Override(m M2Environment, scope constructs.Construct, id *string, config *M2EnvironmentConfig) {
 	_init_.Initialize()
 

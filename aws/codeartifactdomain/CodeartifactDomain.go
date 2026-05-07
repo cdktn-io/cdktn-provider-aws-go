@@ -5,14 +5,14 @@ package codeartifactdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/codeartifactdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/codeartifactdomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codeartifact_domain aws_codeartifact_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/codeartifact_domain aws_codeartifact_domain}.
 type CodeartifactDomain interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -504,7 +504,7 @@ func (j *jsiiProxy_CodeartifactDomain) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codeartifact_domain aws_codeartifact_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/codeartifact_domain aws_codeartifact_domain} Resource.
 func NewCodeartifactDomain(scope constructs.Construct, id *string, config *CodeartifactDomainConfig) CodeartifactDomain {
 	_init_.Initialize()
 
@@ -522,7 +522,7 @@ func NewCodeartifactDomain(scope constructs.Construct, id *string, config *Codea
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codeartifact_domain aws_codeartifact_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/codeartifact_domain aws_codeartifact_domain} Resource.
 func NewCodeartifactDomain_Override(c CodeartifactDomain, scope constructs.Construct, id *string, config *CodeartifactDomainConfig) {
 	_init_.Initialize()
 

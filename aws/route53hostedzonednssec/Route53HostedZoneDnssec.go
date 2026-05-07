@@ -5,14 +5,14 @@ package route53hostedzonednssec
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/route53hostedzonednssec/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/route53hostedzonednssec/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_hosted_zone_dnssec aws_route53_hosted_zone_dnssec}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/route53_hosted_zone_dnssec aws_route53_hosted_zone_dnssec}.
 type Route53HostedZoneDnssec interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_Route53HostedZoneDnssec) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_hosted_zone_dnssec aws_route53_hosted_zone_dnssec} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/route53_hosted_zone_dnssec aws_route53_hosted_zone_dnssec} Resource.
 func NewRoute53HostedZoneDnssec(scope constructs.Construct, id *string, config *Route53HostedZoneDnssecConfig) Route53HostedZoneDnssec {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewRoute53HostedZoneDnssec(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_hosted_zone_dnssec aws_route53_hosted_zone_dnssec} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/route53_hosted_zone_dnssec aws_route53_hosted_zone_dnssec} Resource.
 func NewRoute53HostedZoneDnssec_Override(r Route53HostedZoneDnssec, scope constructs.Construct, id *string, config *Route53HostedZoneDnssecConfig) {
 	_init_.Initialize()
 

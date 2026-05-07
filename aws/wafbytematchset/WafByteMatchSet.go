@@ -5,14 +5,14 @@ package wafbytematchset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/wafbytematchset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/wafbytematchset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/waf_byte_match_set aws_waf_byte_match_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/waf_byte_match_set aws_waf_byte_match_set}.
 type WafByteMatchSet interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -377,7 +377,7 @@ func (j *jsiiProxy_WafByteMatchSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/waf_byte_match_set aws_waf_byte_match_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/waf_byte_match_set aws_waf_byte_match_set} Resource.
 func NewWafByteMatchSet(scope constructs.Construct, id *string, config *WafByteMatchSetConfig) WafByteMatchSet {
 	_init_.Initialize()
 
@@ -395,7 +395,7 @@ func NewWafByteMatchSet(scope constructs.Construct, id *string, config *WafByteM
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/waf_byte_match_set aws_waf_byte_match_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/waf_byte_match_set aws_waf_byte_match_set} Resource.
 func NewWafByteMatchSet_Override(w WafByteMatchSet, scope constructs.Construct, id *string, config *WafByteMatchSetConfig) {
 	_init_.Initialize()
 

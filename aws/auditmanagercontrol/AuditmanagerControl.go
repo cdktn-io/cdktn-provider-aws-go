@@ -5,14 +5,14 @@ package auditmanagercontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/auditmanagercontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/auditmanagercontrol/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/auditmanager_control aws_auditmanager_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/auditmanager_control aws_auditmanager_control}.
 type AuditmanagerControl interface {
 	cdktn.TerraformResource
 	ActionPlanInstructions() *string
@@ -530,7 +530,7 @@ func (j *jsiiProxy_AuditmanagerControl) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/auditmanager_control aws_auditmanager_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/auditmanager_control aws_auditmanager_control} Resource.
 func NewAuditmanagerControl(scope constructs.Construct, id *string, config *AuditmanagerControlConfig) AuditmanagerControl {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewAuditmanagerControl(scope constructs.Construct, id *string, config *Audi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/auditmanager_control aws_auditmanager_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/auditmanager_control aws_auditmanager_control} Resource.
 func NewAuditmanagerControl_Override(a AuditmanagerControl, scope constructs.Construct, id *string, config *AuditmanagerControlConfig) {
 	_init_.Initialize()
 

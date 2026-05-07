@@ -5,14 +5,14 @@ package dataawsprometheusdefaultscraperconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsprometheusdefaultscraperconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsprometheusdefaultscraperconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/prometheus_default_scraper_configuration aws_prometheus_default_scraper_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/prometheus_default_scraper_configuration aws_prometheus_default_scraper_configuration}.
 type DataAwsPrometheusDefaultScraperConfiguration interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsPrometheusDefaultScraperConfiguration) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/prometheus_default_scraper_configuration aws_prometheus_default_scraper_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/prometheus_default_scraper_configuration aws_prometheus_default_scraper_configuration} Data Source.
 func NewDataAwsPrometheusDefaultScraperConfiguration(scope constructs.Construct, id *string, config *DataAwsPrometheusDefaultScraperConfigurationConfig) DataAwsPrometheusDefaultScraperConfiguration {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsPrometheusDefaultScraperConfiguration(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/prometheus_default_scraper_configuration aws_prometheus_default_scraper_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/prometheus_default_scraper_configuration aws_prometheus_default_scraper_configuration} Data Source.
 func NewDataAwsPrometheusDefaultScraperConfiguration_Override(d DataAwsPrometheusDefaultScraperConfiguration, scope constructs.Construct, id *string, config *DataAwsPrometheusDefaultScraperConfigurationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package notificationsorganizationalunitassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/notificationsorganizationalunitassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/notificationsorganizationalunitassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_organizational_unit_association aws_notifications_organizational_unit_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/notifications_organizational_unit_association aws_notifications_organizational_unit_association}.
 type NotificationsOrganizationalUnitAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_NotificationsOrganizationalUnitAssociation) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_organizational_unit_association aws_notifications_organizational_unit_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/notifications_organizational_unit_association aws_notifications_organizational_unit_association} Resource.
 func NewNotificationsOrganizationalUnitAssociation(scope constructs.Construct, id *string, config *NotificationsOrganizationalUnitAssociationConfig) NotificationsOrganizationalUnitAssociation {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewNotificationsOrganizationalUnitAssociation(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_organizational_unit_association aws_notifications_organizational_unit_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/notifications_organizational_unit_association aws_notifications_organizational_unit_association} Resource.
 func NewNotificationsOrganizationalUnitAssociation_Override(n NotificationsOrganizationalUnitAssociation, scope constructs.Construct, id *string, config *NotificationsOrganizationalUnitAssociationConfig) {
 	_init_.Initialize()
 

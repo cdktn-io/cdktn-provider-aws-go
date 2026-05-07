@@ -5,14 +5,14 @@ package redshiftsnapshotcopy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/redshiftsnapshotcopy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/redshiftsnapshotcopy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_snapshot_copy aws_redshift_snapshot_copy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshift_snapshot_copy aws_redshift_snapshot_copy}.
 type RedshiftSnapshotCopy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -448,7 +448,7 @@ func (j *jsiiProxy_RedshiftSnapshotCopy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_snapshot_copy aws_redshift_snapshot_copy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshift_snapshot_copy aws_redshift_snapshot_copy} Resource.
 func NewRedshiftSnapshotCopy(scope constructs.Construct, id *string, config *RedshiftSnapshotCopyConfig) RedshiftSnapshotCopy {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewRedshiftSnapshotCopy(scope constructs.Construct, id *string, config *Red
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_snapshot_copy aws_redshift_snapshot_copy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshift_snapshot_copy aws_redshift_snapshot_copy} Resource.
 func NewRedshiftSnapshotCopy_Override(r RedshiftSnapshotCopy, scope constructs.Construct, id *string, config *RedshiftSnapshotCopyConfig) {
 	_init_.Initialize()
 

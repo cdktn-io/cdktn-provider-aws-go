@@ -5,14 +5,14 @@ package redshiftparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/redshiftparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/redshiftparametergroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_parameter_group aws_redshift_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshift_parameter_group aws_redshift_parameter_group}.
 type RedshiftParameterGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -496,7 +496,7 @@ func (j *jsiiProxy_RedshiftParameterGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_parameter_group aws_redshift_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshift_parameter_group aws_redshift_parameter_group} Resource.
 func NewRedshiftParameterGroup(scope constructs.Construct, id *string, config *RedshiftParameterGroupConfig) RedshiftParameterGroup {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewRedshiftParameterGroup(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_parameter_group aws_redshift_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshift_parameter_group aws_redshift_parameter_group} Resource.
 func NewRedshiftParameterGroup_Override(r RedshiftParameterGroup, scope constructs.Construct, id *string, config *RedshiftParameterGroupConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package cloudfrontfunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/cloudfrontfunction/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/cloudfrontfunction/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_function aws_cloudfront_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudfront_function aws_cloudfront_function}.
 type CloudfrontFunction interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -504,7 +504,7 @@ func (j *jsiiProxy_CloudfrontFunction) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_function aws_cloudfront_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudfront_function aws_cloudfront_function} Resource.
 func NewCloudfrontFunction(scope constructs.Construct, id *string, config *CloudfrontFunctionConfig) CloudfrontFunction {
 	_init_.Initialize()
 
@@ -522,7 +522,7 @@ func NewCloudfrontFunction(scope constructs.Construct, id *string, config *Cloud
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_function aws_cloudfront_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudfront_function aws_cloudfront_function} Resource.
 func NewCloudfrontFunction_Override(c CloudfrontFunction, scope constructs.Construct, id *string, config *CloudfrontFunctionConfig) {
 	_init_.Initialize()
 

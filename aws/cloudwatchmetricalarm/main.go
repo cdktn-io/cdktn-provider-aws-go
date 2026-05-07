@@ -38,6 +38,10 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "dimensionsInput", GoGetter: "DimensionsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "evaluateLowSampleCountPercentiles", GoGetter: "EvaluateLowSampleCountPercentiles"},
 			_jsii_.MemberProperty{JsiiProperty: "evaluateLowSampleCountPercentilesInput", GoGetter: "EvaluateLowSampleCountPercentilesInput"},
+			_jsii_.MemberProperty{JsiiProperty: "evaluationCriteria", GoGetter: "EvaluationCriteria"},
+			_jsii_.MemberProperty{JsiiProperty: "evaluationCriteriaInput", GoGetter: "EvaluationCriteriaInput"},
+			_jsii_.MemberProperty{JsiiProperty: "evaluationInterval", GoGetter: "EvaluationInterval"},
+			_jsii_.MemberProperty{JsiiProperty: "evaluationIntervalInput", GoGetter: "EvaluationIntervalInput"},
 			_jsii_.MemberProperty{JsiiProperty: "evaluationPeriods", GoGetter: "EvaluationPeriods"},
 			_jsii_.MemberProperty{JsiiProperty: "evaluationPeriodsInput", GoGetter: "EvaluationPeriodsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "extendedStatistic", GoGetter: "ExtendedStatistic"},
@@ -79,6 +83,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "periodInput", GoGetter: "PeriodInput"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
+			_jsii_.MemberMethod{JsiiMethod: "putEvaluationCriteria", GoMethod: "PutEvaluationCriteria"},
 			_jsii_.MemberMethod{JsiiMethod: "putMetricQuery", GoMethod: "PutMetricQuery"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
@@ -86,9 +91,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetActionsEnabled", GoMethod: "ResetActionsEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAlarmActions", GoMethod: "ResetAlarmActions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAlarmDescription", GoMethod: "ResetAlarmDescription"},
+			_jsii_.MemberMethod{JsiiMethod: "resetComparisonOperator", GoMethod: "ResetComparisonOperator"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDatapointsToAlarm", GoMethod: "ResetDatapointsToAlarm"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDimensions", GoMethod: "ResetDimensions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEvaluateLowSampleCountPercentiles", GoMethod: "ResetEvaluateLowSampleCountPercentiles"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEvaluationCriteria", GoMethod: "ResetEvaluationCriteria"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEvaluationInterval", GoMethod: "ResetEvaluationInterval"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEvaluationPeriods", GoMethod: "ResetEvaluationPeriods"},
 			_jsii_.MemberMethod{JsiiMethod: "resetExtendedStatistic", GoMethod: "ResetExtendedStatistic"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetInsufficientDataActions", GoMethod: "ResetInsufficientDataActions"},
@@ -140,6 +149,89 @@ func init() {
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmConfig",
 		reflect.TypeOf((*CloudwatchMetricAlarmConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmEvaluationCriteria",
+		reflect.TypeOf((*CloudwatchMetricAlarmEvaluationCriteria)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmEvaluationCriteriaOutputReference",
+		reflect.TypeOf((*CloudwatchMetricAlarmEvaluationCriteriaOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "promqlCriteria", GoGetter: "PromqlCriteria"},
+			_jsii_.MemberProperty{JsiiProperty: "promqlCriteriaInput", GoGetter: "PromqlCriteriaInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putPromqlCriteria", GoMethod: "PutPromqlCriteria"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_CloudwatchMetricAlarmEvaluationCriteriaOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmEvaluationCriteriaPromqlCriteria",
+		reflect.TypeOf((*CloudwatchMetricAlarmEvaluationCriteriaPromqlCriteria)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmEvaluationCriteriaPromqlCriteriaOutputReference",
+		reflect.TypeOf((*CloudwatchMetricAlarmEvaluationCriteriaPromqlCriteriaOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "pendingPeriod", GoGetter: "PendingPeriod"},
+			_jsii_.MemberProperty{JsiiProperty: "pendingPeriodInput", GoGetter: "PendingPeriodInput"},
+			_jsii_.MemberProperty{JsiiProperty: "query", GoGetter: "Query"},
+			_jsii_.MemberProperty{JsiiProperty: "queryInput", GoGetter: "QueryInput"},
+			_jsii_.MemberProperty{JsiiProperty: "recoveryPeriod", GoGetter: "RecoveryPeriod"},
+			_jsii_.MemberProperty{JsiiProperty: "recoveryPeriodInput", GoGetter: "RecoveryPeriodInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPendingPeriod", GoMethod: "ResetPendingPeriod"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRecoveryPeriod", GoMethod: "ResetRecoveryPeriod"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_CloudwatchMetricAlarmEvaluationCriteriaPromqlCriteriaOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
 	)
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmMetricQuery",

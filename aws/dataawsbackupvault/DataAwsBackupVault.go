@@ -5,14 +5,14 @@ package dataawsbackupvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsbackupvault/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsbackupvault/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/backup_vault aws_backup_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/backup_vault aws_backup_vault}.
 type DataAwsBackupVault interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -378,7 +378,7 @@ func (j *jsiiProxy_DataAwsBackupVault) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/backup_vault aws_backup_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/backup_vault aws_backup_vault} Data Source.
 func NewDataAwsBackupVault(scope constructs.Construct, id *string, config *DataAwsBackupVaultConfig) DataAwsBackupVault {
 	_init_.Initialize()
 
@@ -396,7 +396,7 @@ func NewDataAwsBackupVault(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/backup_vault aws_backup_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/backup_vault aws_backup_vault} Data Source.
 func NewDataAwsBackupVault_Override(d DataAwsBackupVault, scope constructs.Construct, id *string, config *DataAwsBackupVaultConfig) {
 	_init_.Initialize()
 

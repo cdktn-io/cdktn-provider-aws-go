@@ -5,14 +5,14 @@ package ssmcontactscontact
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ssmcontactscontact/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/ssmcontactscontact/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssmcontacts_contact aws_ssmcontacts_contact}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ssmcontacts_contact aws_ssmcontacts_contact}.
 type SsmcontactsContact interface {
 	cdktn.TerraformResource
 	Alias() *string
@@ -472,7 +472,7 @@ func (j *jsiiProxy_SsmcontactsContact) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssmcontacts_contact aws_ssmcontacts_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ssmcontacts_contact aws_ssmcontacts_contact} Resource.
 func NewSsmcontactsContact(scope constructs.Construct, id *string, config *SsmcontactsContactConfig) SsmcontactsContact {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewSsmcontactsContact(scope constructs.Construct, id *string, config *Ssmco
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssmcontacts_contact aws_ssmcontacts_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ssmcontacts_contact aws_ssmcontacts_contact} Resource.
 func NewSsmcontactsContact_Override(s SsmcontactsContact, scope constructs.Construct, id *string, config *SsmcontactsContactConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package rdscustomdbengineversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/rdscustomdbengineversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/rdscustomdbengineversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rds_custom_db_engine_version aws_rds_custom_db_engine_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/rds_custom_db_engine_version aws_rds_custom_db_engine_version}.
 type RdsCustomDbEngineVersion interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -743,7 +743,7 @@ func (j *jsiiProxy_RdsCustomDbEngineVersion) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rds_custom_db_engine_version aws_rds_custom_db_engine_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/rds_custom_db_engine_version aws_rds_custom_db_engine_version} Resource.
 func NewRdsCustomDbEngineVersion(scope constructs.Construct, id *string, config *RdsCustomDbEngineVersionConfig) RdsCustomDbEngineVersion {
 	_init_.Initialize()
 
@@ -761,7 +761,7 @@ func NewRdsCustomDbEngineVersion(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rds_custom_db_engine_version aws_rds_custom_db_engine_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/rds_custom_db_engine_version aws_rds_custom_db_engine_version} Resource.
 func NewRdsCustomDbEngineVersion_Override(r RdsCustomDbEngineVersion, scope constructs.Construct, id *string, config *RdsCustomDbEngineVersionConfig) {
 	_init_.Initialize()
 

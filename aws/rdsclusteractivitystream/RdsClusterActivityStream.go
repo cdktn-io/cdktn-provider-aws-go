@@ -5,14 +5,14 @@ package rdsclusteractivitystream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/rdsclusteractivitystream/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/rdsclusteractivitystream/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rds_cluster_activity_stream aws_rds_cluster_activity_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/rds_cluster_activity_stream aws_rds_cluster_activity_stream}.
 type RdsClusterActivityStream interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_RdsClusterActivityStream) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rds_cluster_activity_stream aws_rds_cluster_activity_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/rds_cluster_activity_stream aws_rds_cluster_activity_stream} Resource.
 func NewRdsClusterActivityStream(scope constructs.Construct, id *string, config *RdsClusterActivityStreamConfig) RdsClusterActivityStream {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewRdsClusterActivityStream(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/rds_cluster_activity_stream aws_rds_cluster_activity_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/rds_cluster_activity_stream aws_rds_cluster_activity_stream} Resource.
 func NewRdsClusterActivityStream_Override(r RdsClusterActivityStream, scope constructs.Construct, id *string, config *RdsClusterActivityStreamConfig) {
 	_init_.Initialize()
 

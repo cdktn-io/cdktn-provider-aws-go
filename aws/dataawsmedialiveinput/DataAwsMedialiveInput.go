@@ -5,14 +5,14 @@ package dataawsmedialiveinput
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsmedialiveinput/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsmedialiveinput/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/medialive_input aws_medialive_input}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/medialive_input aws_medialive_input}.
 type DataAwsMedialiveInput interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsMedialiveInput) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/medialive_input aws_medialive_input} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/medialive_input aws_medialive_input} Data Source.
 func NewDataAwsMedialiveInput(scope constructs.Construct, id *string, config *DataAwsMedialiveInputConfig) DataAwsMedialiveInput {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsMedialiveInput(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/medialive_input aws_medialive_input} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/medialive_input aws_medialive_input} Data Source.
 func NewDataAwsMedialiveInput_Override(d DataAwsMedialiveInput, scope constructs.Construct, id *string, config *DataAwsMedialiveInputConfig) {
 	_init_.Initialize()
 

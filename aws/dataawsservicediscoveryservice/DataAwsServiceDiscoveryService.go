@@ -5,14 +5,14 @@ package dataawsservicediscoveryservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsservicediscoveryservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsservicediscoveryservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/service_discovery_service aws_service_discovery_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/service_discovery_service aws_service_discovery_service}.
 type DataAwsServiceDiscoveryService interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -423,7 +423,7 @@ func (j *jsiiProxy_DataAwsServiceDiscoveryService) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/service_discovery_service aws_service_discovery_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/service_discovery_service aws_service_discovery_service} Data Source.
 func NewDataAwsServiceDiscoveryService(scope constructs.Construct, id *string, config *DataAwsServiceDiscoveryServiceConfig) DataAwsServiceDiscoveryService {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewDataAwsServiceDiscoveryService(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/service_discovery_service aws_service_discovery_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/service_discovery_service aws_service_discovery_service} Data Source.
 func NewDataAwsServiceDiscoveryService_Override(d DataAwsServiceDiscoveryService, scope constructs.Construct, id *string, config *DataAwsServiceDiscoveryServiceConfig) {
 	_init_.Initialize()
 

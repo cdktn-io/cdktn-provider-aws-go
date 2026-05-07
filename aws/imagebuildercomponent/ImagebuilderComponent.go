@@ -5,14 +5,14 @@ package imagebuildercomponent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/imagebuildercomponent/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/imagebuildercomponent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/imagebuilder_component aws_imagebuilder_component}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/imagebuilder_component aws_imagebuilder_component}.
 type ImagebuilderComponent interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -683,7 +683,7 @@ func (j *jsiiProxy_ImagebuilderComponent) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/imagebuilder_component aws_imagebuilder_component} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/imagebuilder_component aws_imagebuilder_component} Resource.
 func NewImagebuilderComponent(scope constructs.Construct, id *string, config *ImagebuilderComponentConfig) ImagebuilderComponent {
 	_init_.Initialize()
 
@@ -701,7 +701,7 @@ func NewImagebuilderComponent(scope constructs.Construct, id *string, config *Im
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/imagebuilder_component aws_imagebuilder_component} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/imagebuilder_component aws_imagebuilder_component} Resource.
 func NewImagebuilderComponent_Override(i ImagebuilderComponent, scope constructs.Construct, id *string, config *ImagebuilderComponentConfig) {
 	_init_.Initialize()
 

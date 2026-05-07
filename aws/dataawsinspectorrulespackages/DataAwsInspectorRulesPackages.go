@@ -5,14 +5,14 @@ package dataawsinspectorrulespackages
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsinspectorrulespackages/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsinspectorrulespackages/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/inspector_rules_packages aws_inspector_rules_packages}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/inspector_rules_packages aws_inspector_rules_packages}.
 type DataAwsInspectorRulesPackages interface {
 	cdktn.TerraformDataSource
 	Arns() *[]*string
@@ -309,7 +309,7 @@ func (j *jsiiProxy_DataAwsInspectorRulesPackages) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/inspector_rules_packages aws_inspector_rules_packages} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/inspector_rules_packages aws_inspector_rules_packages} Data Source.
 func NewDataAwsInspectorRulesPackages(scope constructs.Construct, id *string, config *DataAwsInspectorRulesPackagesConfig) DataAwsInspectorRulesPackages {
 	_init_.Initialize()
 
@@ -327,7 +327,7 @@ func NewDataAwsInspectorRulesPackages(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/inspector_rules_packages aws_inspector_rules_packages} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/inspector_rules_packages aws_inspector_rules_packages} Data Source.
 func NewDataAwsInspectorRulesPackages_Override(d DataAwsInspectorRulesPackages, scope constructs.Construct, id *string, config *DataAwsInspectorRulesPackagesConfig) {
 	_init_.Initialize()
 

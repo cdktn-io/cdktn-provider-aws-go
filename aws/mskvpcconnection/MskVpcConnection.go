@@ -5,14 +5,14 @@ package mskvpcconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/mskvpcconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/mskvpcconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_vpc_connection aws_msk_vpc_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/msk_vpc_connection aws_msk_vpc_connection}.
 type MskVpcConnection interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -517,7 +517,7 @@ func (j *jsiiProxy_MskVpcConnection) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_vpc_connection aws_msk_vpc_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/msk_vpc_connection aws_msk_vpc_connection} Resource.
 func NewMskVpcConnection(scope constructs.Construct, id *string, config *MskVpcConnectionConfig) MskVpcConnection {
 	_init_.Initialize()
 
@@ -535,7 +535,7 @@ func NewMskVpcConnection(scope constructs.Construct, id *string, config *MskVpcC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/msk_vpc_connection aws_msk_vpc_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/msk_vpc_connection aws_msk_vpc_connection} Resource.
 func NewMskVpcConnection_Override(m MskVpcConnection, scope constructs.Construct, id *string, config *MskVpcConnectionConfig) {
 	_init_.Initialize()
 

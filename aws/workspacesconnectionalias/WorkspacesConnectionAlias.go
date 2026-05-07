@@ -5,14 +5,14 @@ package workspacesconnectionalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/workspacesconnectionalias/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/workspacesconnectionalias/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspaces_connection_alias aws_workspaces_connection_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/workspaces_connection_alias aws_workspaces_connection_alias}.
 type WorkspacesConnectionAlias interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -434,7 +434,7 @@ func (j *jsiiProxy_WorkspacesConnectionAlias) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspaces_connection_alias aws_workspaces_connection_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/workspaces_connection_alias aws_workspaces_connection_alias} Resource.
 func NewWorkspacesConnectionAlias(scope constructs.Construct, id *string, config *WorkspacesConnectionAliasConfig) WorkspacesConnectionAlias {
 	_init_.Initialize()
 
@@ -452,7 +452,7 @@ func NewWorkspacesConnectionAlias(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspaces_connection_alias aws_workspaces_connection_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/workspaces_connection_alias aws_workspaces_connection_alias} Resource.
 func NewWorkspacesConnectionAlias_Override(w WorkspacesConnectionAlias, scope constructs.Construct, id *string, config *WorkspacesConnectionAliasConfig) {
 	_init_.Initialize()
 

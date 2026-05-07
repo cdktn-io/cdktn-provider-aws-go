@@ -5,14 +5,14 @@ package medialivemultiplex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/medialivemultiplex/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/medialivemultiplex/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_multiplex aws_medialive_multiplex}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/medialive_multiplex aws_medialive_multiplex}.
 type MedialiveMultiplex interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -520,7 +520,7 @@ func (j *jsiiProxy_MedialiveMultiplex) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_multiplex aws_medialive_multiplex} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/medialive_multiplex aws_medialive_multiplex} Resource.
 func NewMedialiveMultiplex(scope constructs.Construct, id *string, config *MedialiveMultiplexConfig) MedialiveMultiplex {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewMedialiveMultiplex(scope constructs.Construct, id *string, config *Media
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/medialive_multiplex aws_medialive_multiplex} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/medialive_multiplex aws_medialive_multiplex} Resource.
 func NewMedialiveMultiplex_Override(m MedialiveMultiplex, scope constructs.Construct, id *string, config *MedialiveMultiplexConfig) {
 	_init_.Initialize()
 

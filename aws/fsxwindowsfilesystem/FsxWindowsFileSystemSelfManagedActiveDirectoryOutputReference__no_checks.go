@@ -87,6 +87,14 @@ func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference
 	return nil
 }
 
+func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference) validateSetPasswordWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference) validateSetPasswordWoVersionParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

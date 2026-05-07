@@ -5,14 +5,14 @@ package elasticachecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/elasticachecluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/elasticachecluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticache_cluster aws_elasticache_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/elasticache_cluster aws_elasticache_cluster}.
 type ElasticacheCluster interface {
 	cdktn.TerraformResource
 	ApplyImmediately() interface{}
@@ -1141,7 +1141,7 @@ func (j *jsiiProxy_ElasticacheCluster) TransitEncryptionEnabledInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticache_cluster aws_elasticache_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/elasticache_cluster aws_elasticache_cluster} Resource.
 func NewElasticacheCluster(scope constructs.Construct, id *string, config *ElasticacheClusterConfig) ElasticacheCluster {
 	_init_.Initialize()
 
@@ -1159,7 +1159,7 @@ func NewElasticacheCluster(scope constructs.Construct, id *string, config *Elast
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticache_cluster aws_elasticache_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/elasticache_cluster aws_elasticache_cluster} Resource.
 func NewElasticacheCluster_Override(e ElasticacheCluster, scope constructs.Construct, id *string, config *ElasticacheClusterConfig) {
 	_init_.Initialize()
 

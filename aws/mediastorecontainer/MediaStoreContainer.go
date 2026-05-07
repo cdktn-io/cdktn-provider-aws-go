@@ -5,14 +5,14 @@ package mediastorecontainer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/mediastorecontainer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/mediastorecontainer/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/media_store_container aws_media_store_container}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/media_store_container aws_media_store_container}.
 type MediaStoreContainer interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_MediaStoreContainer) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/media_store_container aws_media_store_container} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/media_store_container aws_media_store_container} Resource.
 func NewMediaStoreContainer(scope constructs.Construct, id *string, config *MediaStoreContainerConfig) MediaStoreContainer {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewMediaStoreContainer(scope constructs.Construct, id *string, config *Medi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/media_store_container aws_media_store_container} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/media_store_container aws_media_store_container} Resource.
 func NewMediaStoreContainer_Override(m MediaStoreContainer, scope constructs.Construct, id *string, config *MediaStoreContainerConfig) {
 	_init_.Initialize()
 

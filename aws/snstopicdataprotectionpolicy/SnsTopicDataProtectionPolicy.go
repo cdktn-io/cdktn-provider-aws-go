@@ -5,14 +5,14 @@ package snstopicdataprotectionpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/snstopicdataprotectionpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/snstopicdataprotectionpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sns_topic_data_protection_policy aws_sns_topic_data_protection_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/sns_topic_data_protection_policy aws_sns_topic_data_protection_policy}.
 type SnsTopicDataProtectionPolicy interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -389,7 +389,7 @@ func (j *jsiiProxy_SnsTopicDataProtectionPolicy) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sns_topic_data_protection_policy aws_sns_topic_data_protection_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/sns_topic_data_protection_policy aws_sns_topic_data_protection_policy} Resource.
 func NewSnsTopicDataProtectionPolicy(scope constructs.Construct, id *string, config *SnsTopicDataProtectionPolicyConfig) SnsTopicDataProtectionPolicy {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewSnsTopicDataProtectionPolicy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sns_topic_data_protection_policy aws_sns_topic_data_protection_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/sns_topic_data_protection_policy aws_sns_topic_data_protection_policy} Resource.
 func NewSnsTopicDataProtectionPolicy_Override(s SnsTopicDataProtectionPolicy, scope constructs.Construct, id *string, config *SnsTopicDataProtectionPolicyConfig) {
 	_init_.Initialize()
 

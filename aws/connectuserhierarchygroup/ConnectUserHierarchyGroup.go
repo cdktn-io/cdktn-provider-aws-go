@@ -5,14 +5,14 @@ package connectuserhierarchygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/connectuserhierarchygroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/connectuserhierarchygroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_user_hierarchy_group aws_connect_user_hierarchy_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/connect_user_hierarchy_group aws_connect_user_hierarchy_group}.
 type ConnectUserHierarchyGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -505,7 +505,7 @@ func (j *jsiiProxy_ConnectUserHierarchyGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_user_hierarchy_group aws_connect_user_hierarchy_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/connect_user_hierarchy_group aws_connect_user_hierarchy_group} Resource.
 func NewConnectUserHierarchyGroup(scope constructs.Construct, id *string, config *ConnectUserHierarchyGroupConfig) ConnectUserHierarchyGroup {
 	_init_.Initialize()
 
@@ -523,7 +523,7 @@ func NewConnectUserHierarchyGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_user_hierarchy_group aws_connect_user_hierarchy_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/connect_user_hierarchy_group aws_connect_user_hierarchy_group} Resource.
 func NewConnectUserHierarchyGroup_Override(c ConnectUserHierarchyGroup, scope constructs.Construct, id *string, config *ConnectUserHierarchyGroupConfig) {
 	_init_.Initialize()
 

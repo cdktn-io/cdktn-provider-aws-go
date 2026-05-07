@@ -5,14 +5,14 @@ package dataawsavailabilityzones
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsavailabilityzones/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsavailabilityzones/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/availability_zones aws_availability_zones}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/availability_zones aws_availability_zones}.
 type DataAwsAvailabilityZones interface {
 	cdktn.TerraformDataSource
 	AllAvailabilityZones() interface{}
@@ -475,7 +475,7 @@ func (j *jsiiProxy_DataAwsAvailabilityZones) ZoneIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/availability_zones aws_availability_zones} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/availability_zones aws_availability_zones} Data Source.
 func NewDataAwsAvailabilityZones(scope constructs.Construct, id *string, config *DataAwsAvailabilityZonesConfig) DataAwsAvailabilityZones {
 	_init_.Initialize()
 
@@ -493,7 +493,7 @@ func NewDataAwsAvailabilityZones(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/availability_zones aws_availability_zones} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/availability_zones aws_availability_zones} Data Source.
 func NewDataAwsAvailabilityZones_Override(d DataAwsAvailabilityZones, scope constructs.Construct, id *string, config *DataAwsAvailabilityZonesConfig) {
 	_init_.Initialize()
 

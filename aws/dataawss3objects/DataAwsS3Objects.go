@@ -5,14 +5,14 @@ package dataawss3objects
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawss3objects/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawss3objects/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/s3_objects aws_s3_objects}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/s3_objects aws_s3_objects}.
 type DataAwsS3Objects interface {
 	cdktn.TerraformDataSource
 	Bucket() *string
@@ -533,7 +533,7 @@ func (j *jsiiProxy_DataAwsS3Objects) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/s3_objects aws_s3_objects} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/s3_objects aws_s3_objects} Data Source.
 func NewDataAwsS3Objects(scope constructs.Construct, id *string, config *DataAwsS3ObjectsConfig) DataAwsS3Objects {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewDataAwsS3Objects(scope constructs.Construct, id *string, config *DataAws
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/s3_objects aws_s3_objects} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/s3_objects aws_s3_objects} Data Source.
 func NewDataAwsS3Objects_Override(d DataAwsS3Objects, scope constructs.Construct, id *string, config *DataAwsS3ObjectsConfig) {
 	_init_.Initialize()
 

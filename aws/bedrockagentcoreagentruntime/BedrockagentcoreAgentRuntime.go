@@ -5,14 +5,14 @@ package bedrockagentcoreagentruntime
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/bedrockagentcoreagentruntime/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/bedrockagentcoreagentruntime/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagentcore_agent_runtime aws_bedrockagentcore_agent_runtime}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/bedrockagentcore_agent_runtime aws_bedrockagentcore_agent_runtime}.
 type BedrockagentcoreAgentRuntime interface {
 	cdktn.TerraformResource
 	AgentRuntimeArn() *string
@@ -660,7 +660,7 @@ func (j *jsiiProxy_BedrockagentcoreAgentRuntime) WorkloadIdentityDetails() Bedro
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagentcore_agent_runtime aws_bedrockagentcore_agent_runtime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/bedrockagentcore_agent_runtime aws_bedrockagentcore_agent_runtime} Resource.
 func NewBedrockagentcoreAgentRuntime(scope constructs.Construct, id *string, config *BedrockagentcoreAgentRuntimeConfig) BedrockagentcoreAgentRuntime {
 	_init_.Initialize()
 
@@ -678,7 +678,7 @@ func NewBedrockagentcoreAgentRuntime(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagentcore_agent_runtime aws_bedrockagentcore_agent_runtime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/bedrockagentcore_agent_runtime aws_bedrockagentcore_agent_runtime} Resource.
 func NewBedrockagentcoreAgentRuntime_Override(b BedrockagentcoreAgentRuntime, scope constructs.Construct, id *string, config *BedrockagentcoreAgentRuntimeConfig) {
 	_init_.Initialize()
 

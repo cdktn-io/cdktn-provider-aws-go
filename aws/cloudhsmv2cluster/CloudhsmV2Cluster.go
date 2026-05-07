@@ -5,14 +5,14 @@ package cloudhsmv2cluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/cloudhsmv2cluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/cloudhsmv2cluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudhsm_v2_cluster aws_cloudhsm_v2_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudhsm_v2_cluster aws_cloudhsm_v2_cluster}.
 type CloudhsmV2Cluster interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -564,7 +564,7 @@ func (j *jsiiProxy_CloudhsmV2Cluster) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudhsm_v2_cluster aws_cloudhsm_v2_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudhsm_v2_cluster aws_cloudhsm_v2_cluster} Resource.
 func NewCloudhsmV2Cluster(scope constructs.Construct, id *string, config *CloudhsmV2ClusterConfig) CloudhsmV2Cluster {
 	_init_.Initialize()
 
@@ -582,7 +582,7 @@ func NewCloudhsmV2Cluster(scope constructs.Construct, id *string, config *Cloudh
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudhsm_v2_cluster aws_cloudhsm_v2_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudhsm_v2_cluster aws_cloudhsm_v2_cluster} Resource.
 func NewCloudhsmV2Cluster_Override(c CloudhsmV2Cluster, scope constructs.Construct, id *string, config *CloudhsmV2ClusterConfig) {
 	_init_.Initialize()
 

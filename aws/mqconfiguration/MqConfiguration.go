@@ -5,14 +5,14 @@ package mqconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/mqconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/mqconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/mq_configuration aws_mq_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/mq_configuration aws_mq_configuration}.
 type MqConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -81,6 +81,9 @@ type MqConfiguration interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	SkipDestroy() interface{}
+	SetSkipDestroy(val interface{})
+	SkipDestroyInput() interface{}
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsAll() *map[string]*string
@@ -143,6 +146,7 @@ type MqConfiguration interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRegion()
+	ResetSkipDestroy()
 	ResetTags()
 	ResetTagsAll()
 	SynthesizeAttributes() *map[string]interface{}
@@ -482,6 +486,26 @@ func (j *jsiiProxy_MqConfiguration) RegionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_MqConfiguration) SkipDestroy() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"skipDestroy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MqConfiguration) SkipDestroyInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"skipDestroyInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_MqConfiguration) Tags() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -553,7 +577,7 @@ func (j *jsiiProxy_MqConfiguration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/mq_configuration aws_mq_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/mq_configuration aws_mq_configuration} Resource.
 func NewMqConfiguration(scope constructs.Construct, id *string, config *MqConfigurationConfig) MqConfiguration {
 	_init_.Initialize()
 
@@ -571,7 +595,7 @@ func NewMqConfiguration(scope constructs.Construct, id *string, config *MqConfig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/mq_configuration aws_mq_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/mq_configuration aws_mq_configuration} Resource.
 func NewMqConfiguration_Override(m MqConfiguration, scope constructs.Construct, id *string, config *MqConfigurationConfig) {
 	_init_.Initialize()
 
@@ -734,6 +758,17 @@ func (j *jsiiProxy_MqConfiguration)SetRegion(val *string) {
 	_jsii_.Set(
 		j,
 		"region",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MqConfiguration)SetSkipDestroy(val interface{}) {
+	if err := j.validateSetSkipDestroyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"skipDestroy",
 		val,
 	)
 }
@@ -1149,6 +1184,14 @@ func (m *jsiiProxy_MqConfiguration) ResetRegion() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MqConfiguration) ResetSkipDestroy() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetSkipDestroy",
 		nil, // no parameters
 	)
 }

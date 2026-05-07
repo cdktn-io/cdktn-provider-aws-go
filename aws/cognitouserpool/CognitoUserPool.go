@@ -5,14 +5,14 @@ package cognitouserpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/cognitouserpool/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/cognitouserpool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_user_pool aws_cognito_user_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cognito_user_pool aws_cognito_user_pool}.
 type CognitoUserPool interface {
 	cdktn.TerraformResource
 	AccountRecoverySetting() CognitoUserPoolAccountRecoverySettingOutputReference
@@ -1115,7 +1115,7 @@ func (j *jsiiProxy_CognitoUserPool) WebAuthnConfigurationInput() *CognitoUserPoo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_user_pool aws_cognito_user_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cognito_user_pool aws_cognito_user_pool} Resource.
 func NewCognitoUserPool(scope constructs.Construct, id *string, config *CognitoUserPoolConfig) CognitoUserPool {
 	_init_.Initialize()
 
@@ -1133,7 +1133,7 @@ func NewCognitoUserPool(scope constructs.Construct, id *string, config *CognitoU
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cognito_user_pool aws_cognito_user_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cognito_user_pool aws_cognito_user_pool} Resource.
 func NewCognitoUserPool_Override(c CognitoUserPool, scope constructs.Construct, id *string, config *CognitoUserPoolConfig) {
 	_init_.Initialize()
 

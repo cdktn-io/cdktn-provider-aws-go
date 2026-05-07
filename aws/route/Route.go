@@ -5,14 +5,14 @@ package route
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/route/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/route/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route aws_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/route aws_route}.
 type Route interface {
 	cdktn.TerraformResource
 	CarrierGatewayId() *string
@@ -746,7 +746,7 @@ func (j *jsiiProxy_Route) VpcPeeringConnectionIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route aws_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/route aws_route} Resource.
 func NewRoute(scope constructs.Construct, id *string, config *RouteConfig) Route {
 	_init_.Initialize()
 
@@ -764,7 +764,7 @@ func NewRoute(scope constructs.Construct, id *string, config *RouteConfig) Route
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route aws_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/route aws_route} Resource.
 func NewRoute_Override(r Route, scope constructs.Construct, id *string, config *RouteConfig) {
 	_init_.Initialize()
 

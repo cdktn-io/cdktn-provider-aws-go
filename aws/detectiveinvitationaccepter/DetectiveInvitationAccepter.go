@@ -5,14 +5,14 @@ package detectiveinvitationaccepter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/detectiveinvitationaccepter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/detectiveinvitationaccepter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/detective_invitation_accepter aws_detective_invitation_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/detective_invitation_accepter aws_detective_invitation_accepter}.
 type DetectiveInvitationAccepter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -366,7 +366,7 @@ func (j *jsiiProxy_DetectiveInvitationAccepter) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/detective_invitation_accepter aws_detective_invitation_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/detective_invitation_accepter aws_detective_invitation_accepter} Resource.
 func NewDetectiveInvitationAccepter(scope constructs.Construct, id *string, config *DetectiveInvitationAccepterConfig) DetectiveInvitationAccepter {
 	_init_.Initialize()
 
@@ -384,7 +384,7 @@ func NewDetectiveInvitationAccepter(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/detective_invitation_accepter aws_detective_invitation_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/detective_invitation_accepter aws_detective_invitation_accepter} Resource.
 func NewDetectiveInvitationAccepter_Override(d DetectiveInvitationAccepter, scope constructs.Construct, id *string, config *DetectiveInvitationAccepterConfig) {
 	_init_.Initialize()
 

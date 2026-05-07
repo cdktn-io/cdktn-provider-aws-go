@@ -5,14 +5,14 @@ package opensearchserverlesssecuritypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/opensearchserverlesssecuritypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/opensearchserverlesssecuritypolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/opensearchserverless_security_policy aws_opensearchserverless_security_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/opensearchserverless_security_policy aws_opensearchserverless_security_policy}.
 type OpensearchserverlessSecurityPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -434,7 +434,7 @@ func (j *jsiiProxy_OpensearchserverlessSecurityPolicy) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/opensearchserverless_security_policy aws_opensearchserverless_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/opensearchserverless_security_policy aws_opensearchserverless_security_policy} Resource.
 func NewOpensearchserverlessSecurityPolicy(scope constructs.Construct, id *string, config *OpensearchserverlessSecurityPolicyConfig) OpensearchserverlessSecurityPolicy {
 	_init_.Initialize()
 
@@ -452,7 +452,7 @@ func NewOpensearchserverlessSecurityPolicy(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/opensearchserverless_security_policy aws_opensearchserverless_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/opensearchserverless_security_policy aws_opensearchserverless_security_policy} Resource.
 func NewOpensearchserverlessSecurityPolicy_Override(o OpensearchserverlessSecurityPolicy, scope constructs.Construct, id *string, config *OpensearchserverlessSecurityPolicyConfig) {
 	_init_.Initialize()
 

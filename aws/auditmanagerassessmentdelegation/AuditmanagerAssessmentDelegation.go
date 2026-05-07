@@ -5,14 +5,14 @@ package auditmanagerassessmentdelegation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/auditmanagerassessmentdelegation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/auditmanagerassessmentdelegation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/auditmanager_assessment_delegation aws_auditmanager_assessment_delegation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/auditmanager_assessment_delegation aws_auditmanager_assessment_delegation}.
 type AuditmanagerAssessmentDelegation interface {
 	cdktn.TerraformResource
 	AssessmentId() *string
@@ -468,7 +468,7 @@ func (j *jsiiProxy_AuditmanagerAssessmentDelegation) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/auditmanager_assessment_delegation aws_auditmanager_assessment_delegation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/auditmanager_assessment_delegation aws_auditmanager_assessment_delegation} Resource.
 func NewAuditmanagerAssessmentDelegation(scope constructs.Construct, id *string, config *AuditmanagerAssessmentDelegationConfig) AuditmanagerAssessmentDelegation {
 	_init_.Initialize()
 
@@ -486,7 +486,7 @@ func NewAuditmanagerAssessmentDelegation(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/auditmanager_assessment_delegation aws_auditmanager_assessment_delegation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/auditmanager_assessment_delegation aws_auditmanager_assessment_delegation} Resource.
 func NewAuditmanagerAssessmentDelegation_Override(a AuditmanagerAssessmentDelegation, scope constructs.Construct, id *string, config *AuditmanagerAssessmentDelegationConfig) {
 	_init_.Initialize()
 

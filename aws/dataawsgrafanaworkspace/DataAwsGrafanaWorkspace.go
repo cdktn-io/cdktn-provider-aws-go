@@ -5,14 +5,14 @@ package dataawsgrafanaworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsgrafanaworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsgrafanaworkspace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/grafana_workspace aws_grafana_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/grafana_workspace aws_grafana_workspace}.
 type DataAwsGrafanaWorkspace interface {
 	cdktn.TerraformDataSource
 	AccountAccessType() *string
@@ -554,7 +554,7 @@ func (j *jsiiProxy_DataAwsGrafanaWorkspace) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/grafana_workspace aws_grafana_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/grafana_workspace aws_grafana_workspace} Data Source.
 func NewDataAwsGrafanaWorkspace(scope constructs.Construct, id *string, config *DataAwsGrafanaWorkspaceConfig) DataAwsGrafanaWorkspace {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewDataAwsGrafanaWorkspace(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/grafana_workspace aws_grafana_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/grafana_workspace aws_grafana_workspace} Data Source.
 func NewDataAwsGrafanaWorkspace_Override(d DataAwsGrafanaWorkspace, scope constructs.Construct, id *string, config *DataAwsGrafanaWorkspaceConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package elasticsearchdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/elasticsearchdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/elasticsearchdomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain aws_elasticsearch_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/elasticsearch_domain aws_elasticsearch_domain}.
 type ElasticsearchDomain interface {
 	cdktn.TerraformResource
 	AccessPolicies() *string
@@ -818,7 +818,7 @@ func (j *jsiiProxy_ElasticsearchDomain) VpcOptionsInput() *ElasticsearchDomainVp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain aws_elasticsearch_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/elasticsearch_domain aws_elasticsearch_domain} Resource.
 func NewElasticsearchDomain(scope constructs.Construct, id *string, config *ElasticsearchDomainConfig) ElasticsearchDomain {
 	_init_.Initialize()
 
@@ -836,7 +836,7 @@ func NewElasticsearchDomain(scope constructs.Construct, id *string, config *Elas
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/elasticsearch_domain aws_elasticsearch_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/elasticsearch_domain aws_elasticsearch_domain} Resource.
 func NewElasticsearchDomain_Override(e ElasticsearchDomain, scope constructs.Construct, id *string, config *ElasticsearchDomainConfig) {
 	_init_.Initialize()
 

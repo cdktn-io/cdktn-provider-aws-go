@@ -5,14 +5,14 @@ package efsfilesystempolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/efsfilesystempolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/efsfilesystempolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/efs_file_system_policy aws_efs_file_system_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/efs_file_system_policy aws_efs_file_system_policy}.
 type EfsFileSystemPolicy interface {
 	cdktn.TerraformResource
 	BypassPolicyLockoutSafetyCheck() interface{}
@@ -413,7 +413,7 @@ func (j *jsiiProxy_EfsFileSystemPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/efs_file_system_policy aws_efs_file_system_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/efs_file_system_policy aws_efs_file_system_policy} Resource.
 func NewEfsFileSystemPolicy(scope constructs.Construct, id *string, config *EfsFileSystemPolicyConfig) EfsFileSystemPolicy {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewEfsFileSystemPolicy(scope constructs.Construct, id *string, config *EfsF
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/efs_file_system_policy aws_efs_file_system_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/efs_file_system_policy aws_efs_file_system_policy} Resource.
 func NewEfsFileSystemPolicy_Override(e EfsFileSystemPolicy, scope constructs.Construct, id *string, config *EfsFileSystemPolicyConfig) {
 	_init_.Initialize()
 

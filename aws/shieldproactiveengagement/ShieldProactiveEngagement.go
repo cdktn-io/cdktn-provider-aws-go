@@ -5,14 +5,14 @@ package shieldproactiveengagement
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/shieldproactiveengagement/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/shieldproactiveengagement/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/shield_proactive_engagement aws_shield_proactive_engagement}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/shield_proactive_engagement aws_shield_proactive_engagement}.
 type ShieldProactiveEngagement interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -353,7 +353,7 @@ func (j *jsiiProxy_ShieldProactiveEngagement) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/shield_proactive_engagement aws_shield_proactive_engagement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/shield_proactive_engagement aws_shield_proactive_engagement} Resource.
 func NewShieldProactiveEngagement(scope constructs.Construct, id *string, config *ShieldProactiveEngagementConfig) ShieldProactiveEngagement {
 	_init_.Initialize()
 
@@ -371,7 +371,7 @@ func NewShieldProactiveEngagement(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/shield_proactive_engagement aws_shield_proactive_engagement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/shield_proactive_engagement aws_shield_proactive_engagement} Resource.
 func NewShieldProactiveEngagement_Override(s ShieldProactiveEngagement, scope constructs.Construct, id *string, config *ShieldProactiveEngagementConfig) {
 	_init_.Initialize()
 

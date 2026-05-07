@@ -5,14 +5,14 @@ package dataawsroute53resolverrules
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsroute53resolverrules/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsroute53resolverrules/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/route53_resolver_rules aws_route53_resolver_rules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/route53_resolver_rules aws_route53_resolver_rules}.
 type DataAwsRoute53ResolverRules interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverRules) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/route53_resolver_rules aws_route53_resolver_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/route53_resolver_rules aws_route53_resolver_rules} Data Source.
 func NewDataAwsRoute53ResolverRules(scope constructs.Construct, id *string, config *DataAwsRoute53ResolverRulesConfig) DataAwsRoute53ResolverRules {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsRoute53ResolverRules(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/route53_resolver_rules aws_route53_resolver_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/route53_resolver_rules aws_route53_resolver_rules} Data Source.
 func NewDataAwsRoute53ResolverRules_Override(d DataAwsRoute53ResolverRules, scope constructs.Construct, id *string, config *DataAwsRoute53ResolverRulesConfig) {
 	_init_.Initialize()
 

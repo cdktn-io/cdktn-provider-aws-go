@@ -5,14 +5,14 @@ package dataawsapigatewaysdk
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsapigatewaysdk/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsapigatewaysdk/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/api_gateway_sdk aws_api_gateway_sdk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/api_gateway_sdk aws_api_gateway_sdk}.
 type DataAwsApiGatewaySdk interface {
 	cdktn.TerraformDataSource
 	Body() *string
@@ -424,7 +424,7 @@ func (j *jsiiProxy_DataAwsApiGatewaySdk) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/api_gateway_sdk aws_api_gateway_sdk} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/api_gateway_sdk aws_api_gateway_sdk} Data Source.
 func NewDataAwsApiGatewaySdk(scope constructs.Construct, id *string, config *DataAwsApiGatewaySdkConfig) DataAwsApiGatewaySdk {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewDataAwsApiGatewaySdk(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/api_gateway_sdk aws_api_gateway_sdk} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/api_gateway_sdk aws_api_gateway_sdk} Data Source.
 func NewDataAwsApiGatewaySdk_Override(d DataAwsApiGatewaySdk, scope constructs.Construct, id *string, config *DataAwsApiGatewaySdkConfig) {
 	_init_.Initialize()
 

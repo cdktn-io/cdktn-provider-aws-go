@@ -5,14 +5,14 @@ package directoryserviceradiussettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/directoryserviceradiussettings/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/directoryserviceradiussettings/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_radius_settings aws_directory_service_radius_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/directory_service_radius_settings aws_directory_service_radius_settings}.
 type DirectoryServiceRadiusSettings interface {
 	cdktn.TerraformResource
 	AuthenticationProtocol() *string
@@ -575,7 +575,7 @@ func (j *jsiiProxy_DirectoryServiceRadiusSettings) UseSameUsernameInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_radius_settings aws_directory_service_radius_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/directory_service_radius_settings aws_directory_service_radius_settings} Resource.
 func NewDirectoryServiceRadiusSettings(scope constructs.Construct, id *string, config *DirectoryServiceRadiusSettingsConfig) DirectoryServiceRadiusSettings {
 	_init_.Initialize()
 
@@ -593,7 +593,7 @@ func NewDirectoryServiceRadiusSettings(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_radius_settings aws_directory_service_radius_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/directory_service_radius_settings aws_directory_service_radius_settings} Resource.
 func NewDirectoryServiceRadiusSettings_Override(d DirectoryServiceRadiusSettings, scope constructs.Construct, id *string, config *DirectoryServiceRadiusSettingsConfig) {
 	_init_.Initialize()
 

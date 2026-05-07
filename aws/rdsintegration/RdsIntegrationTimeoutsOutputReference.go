@@ -5,9 +5,9 @@ package rdsintegration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/rdsintegration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/rdsintegration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -46,6 +46,9 @@ type RdsIntegrationTimeoutsOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Update() *string
+	SetUpdate(val *string)
+	UpdateInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type RdsIntegrationTimeoutsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
+	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -197,6 +201,26 @@ func (j *jsiiProxy_RdsIntegrationTimeoutsOutputReference) TerraformResource() cd
 	return returns
 }
 
+func (j *jsiiProxy_RdsIntegrationTimeoutsOutputReference) Update() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"update",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RdsIntegrationTimeoutsOutputReference) UpdateInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewRdsIntegrationTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) RdsIntegrationTimeoutsOutputReference {
 	_init_.Initialize()
@@ -298,6 +322,17 @@ func (j *jsiiProxy_RdsIntegrationTimeoutsOutputReference)SetTerraformResource(va
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_RdsIntegrationTimeoutsOutputReference)SetUpdate(val *string) {
+	if err := j.validateSetUpdateParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"update",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (r *jsiiProxy_RdsIntegrationTimeoutsOutputReference) ResetDelete() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetDelete",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RdsIntegrationTimeoutsOutputReference) ResetUpdate() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetUpdate",
 		nil, // no parameters
 	)
 }

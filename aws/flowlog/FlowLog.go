@@ -5,14 +5,14 @@ package flowlog
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/flowlog/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/flowlog/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/flow_log aws_flow_log}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/flow_log aws_flow_log}.
 type FlowLog interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -738,7 +738,7 @@ func (j *jsiiProxy_FlowLog) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/flow_log aws_flow_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/flow_log aws_flow_log} Resource.
 func NewFlowLog(scope constructs.Construct, id *string, config *FlowLogConfig) FlowLog {
 	_init_.Initialize()
 
@@ -756,7 +756,7 @@ func NewFlowLog(scope constructs.Construct, id *string, config *FlowLogConfig) F
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/flow_log aws_flow_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/flow_log aws_flow_log} Resource.
 func NewFlowLog_Override(f FlowLog, scope constructs.Construct, id *string, config *FlowLogConfig) {
 	_init_.Initialize()
 

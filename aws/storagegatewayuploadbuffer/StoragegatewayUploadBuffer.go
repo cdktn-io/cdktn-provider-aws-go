@@ -5,14 +5,14 @@ package storagegatewayuploadbuffer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/storagegatewayuploadbuffer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/storagegatewayuploadbuffer/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer}.
 type StoragegatewayUploadBuffer interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_StoragegatewayUploadBuffer) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer} Resource.
 func NewStoragegatewayUploadBuffer(scope constructs.Construct, id *string, config *StoragegatewayUploadBufferConfig) StoragegatewayUploadBuffer {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewStoragegatewayUploadBuffer(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer} Resource.
 func NewStoragegatewayUploadBuffer_Override(s StoragegatewayUploadBuffer, scope constructs.Construct, id *string, config *StoragegatewayUploadBufferConfig) {
 	_init_.Initialize()
 

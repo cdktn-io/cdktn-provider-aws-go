@@ -5,14 +5,14 @@ package dataawsspotdatafeedsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsspotdatafeedsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsspotdatafeedsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/spot_datafeed_subscription aws_spot_datafeed_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/spot_datafeed_subscription aws_spot_datafeed_subscription}.
 type DataAwsSpotDatafeedSubscription interface {
 	cdktn.TerraformDataSource
 	Bucket() *string
@@ -296,7 +296,7 @@ func (j *jsiiProxy_DataAwsSpotDatafeedSubscription) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/spot_datafeed_subscription aws_spot_datafeed_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/spot_datafeed_subscription aws_spot_datafeed_subscription} Data Source.
 func NewDataAwsSpotDatafeedSubscription(scope constructs.Construct, id *string, config *DataAwsSpotDatafeedSubscriptionConfig) DataAwsSpotDatafeedSubscription {
 	_init_.Initialize()
 
@@ -314,7 +314,7 @@ func NewDataAwsSpotDatafeedSubscription(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/spot_datafeed_subscription aws_spot_datafeed_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/spot_datafeed_subscription aws_spot_datafeed_subscription} Data Source.
 func NewDataAwsSpotDatafeedSubscription_Override(d DataAwsSpotDatafeedSubscription, scope constructs.Construct, id *string, config *DataAwsSpotDatafeedSubscriptionConfig) {
 	_init_.Initialize()
 

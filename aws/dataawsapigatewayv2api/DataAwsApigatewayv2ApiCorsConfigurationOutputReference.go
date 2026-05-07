@@ -5,9 +5,9 @@ package dataawsapigatewayv2api
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsapigatewayv2api/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsapigatewayv2api/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

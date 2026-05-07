@@ -75,6 +75,10 @@ func (e *jsiiProxy_EksAddon) validateOverrideLogicalIdParameters(newLogicalId *s
 	return nil
 }
 
+func (e *jsiiProxy_EksAddon) validatePutNamespaceConfigParameters(value *EksAddonNamespaceConfig) error {
+	return nil
+}
+
 func (e *jsiiProxy_EksAddon) validatePutPodIdentityAssociationParameters(value interface{}) error {
 	return nil
 }

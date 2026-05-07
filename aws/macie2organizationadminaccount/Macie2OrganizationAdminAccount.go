@@ -5,14 +5,14 @@ package macie2organizationadminaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/macie2organizationadminaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/macie2organizationadminaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/macie2_organization_admin_account aws_macie2_organization_admin_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/macie2_organization_admin_account aws_macie2_organization_admin_account}.
 type Macie2OrganizationAdminAccount interface {
 	cdktn.TerraformResource
 	AdminAccountId() *string
@@ -366,7 +366,7 @@ func (j *jsiiProxy_Macie2OrganizationAdminAccount) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/macie2_organization_admin_account aws_macie2_organization_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/macie2_organization_admin_account aws_macie2_organization_admin_account} Resource.
 func NewMacie2OrganizationAdminAccount(scope constructs.Construct, id *string, config *Macie2OrganizationAdminAccountConfig) Macie2OrganizationAdminAccount {
 	_init_.Initialize()
 
@@ -384,7 +384,7 @@ func NewMacie2OrganizationAdminAccount(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/macie2_organization_admin_account aws_macie2_organization_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/macie2_organization_admin_account aws_macie2_organization_admin_account} Resource.
 func NewMacie2OrganizationAdminAccount_Override(m Macie2OrganizationAdminAccount, scope constructs.Construct, id *string, config *Macie2OrganizationAdminAccountConfig) {
 	_init_.Initialize()
 

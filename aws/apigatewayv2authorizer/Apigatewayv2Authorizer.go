@@ -5,14 +5,14 @@ package apigatewayv2authorizer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/apigatewayv2authorizer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/apigatewayv2authorizer/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apigatewayv2_authorizer aws_apigatewayv2_authorizer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/apigatewayv2_authorizer aws_apigatewayv2_authorizer}.
 type Apigatewayv2Authorizer interface {
 	cdktn.TerraformResource
 	ApiId() *string
@@ -604,7 +604,7 @@ func (j *jsiiProxy_Apigatewayv2Authorizer) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apigatewayv2_authorizer aws_apigatewayv2_authorizer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/apigatewayv2_authorizer aws_apigatewayv2_authorizer} Resource.
 func NewApigatewayv2Authorizer(scope constructs.Construct, id *string, config *Apigatewayv2AuthorizerConfig) Apigatewayv2Authorizer {
 	_init_.Initialize()
 
@@ -622,7 +622,7 @@ func NewApigatewayv2Authorizer(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/apigatewayv2_authorizer aws_apigatewayv2_authorizer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/apigatewayv2_authorizer aws_apigatewayv2_authorizer} Resource.
 func NewApigatewayv2Authorizer_Override(a Apigatewayv2Authorizer, scope constructs.Construct, id *string, config *Apigatewayv2AuthorizerConfig) {
 	_init_.Initialize()
 

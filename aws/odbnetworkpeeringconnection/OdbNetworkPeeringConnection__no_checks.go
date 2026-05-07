@@ -119,6 +119,10 @@ func (j *jsiiProxy_OdbNetworkPeeringConnection) validateSetOdbNetworkIdParameter
 	return nil
 }
 
+func (j *jsiiProxy_OdbNetworkPeeringConnection) validateSetPeerNetworkCidrsParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_OdbNetworkPeeringConnection) validateSetPeerNetworkIdParameters(val *string) error {
 	return nil
 }

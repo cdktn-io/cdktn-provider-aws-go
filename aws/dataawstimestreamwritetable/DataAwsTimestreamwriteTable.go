@@ -5,14 +5,14 @@ package dataawstimestreamwritetable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawstimestreamwritetable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawstimestreamwritetable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/timestreamwrite_table aws_timestreamwrite_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/timestreamwrite_table aws_timestreamwrite_table}.
 type DataAwsTimestreamwriteTable interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -397,7 +397,7 @@ func (j *jsiiProxy_DataAwsTimestreamwriteTable) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/timestreamwrite_table aws_timestreamwrite_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/timestreamwrite_table aws_timestreamwrite_table} Data Source.
 func NewDataAwsTimestreamwriteTable(scope constructs.Construct, id *string, config *DataAwsTimestreamwriteTableConfig) DataAwsTimestreamwriteTable {
 	_init_.Initialize()
 
@@ -415,7 +415,7 @@ func NewDataAwsTimestreamwriteTable(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/timestreamwrite_table aws_timestreamwrite_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/timestreamwrite_table aws_timestreamwrite_table} Data Source.
 func NewDataAwsTimestreamwriteTable_Override(d DataAwsTimestreamwriteTable, scope constructs.Construct, id *string, config *DataAwsTimestreamwriteTableConfig) {
 	_init_.Initialize()
 

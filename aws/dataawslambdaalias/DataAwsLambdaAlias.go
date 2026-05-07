@@ -5,14 +5,14 @@ package dataawslambdaalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawslambdaalias/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawslambdaalias/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/lambda_alias aws_lambda_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/lambda_alias aws_lambda_alias}.
 type DataAwsLambdaAlias interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -388,7 +388,7 @@ func (j *jsiiProxy_DataAwsLambdaAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/lambda_alias aws_lambda_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/lambda_alias aws_lambda_alias} Data Source.
 func NewDataAwsLambdaAlias(scope constructs.Construct, id *string, config *DataAwsLambdaAliasConfig) DataAwsLambdaAlias {
 	_init_.Initialize()
 
@@ -406,7 +406,7 @@ func NewDataAwsLambdaAlias(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/lambda_alias aws_lambda_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/lambda_alias aws_lambda_alias} Data Source.
 func NewDataAwsLambdaAlias_Override(d DataAwsLambdaAlias, scope constructs.Construct, id *string, config *DataAwsLambdaAliasConfig) {
 	_init_.Initialize()
 

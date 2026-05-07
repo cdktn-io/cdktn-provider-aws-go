@@ -5,14 +5,14 @@ package glueuserdefinedfunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/glueuserdefinedfunction/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/glueuserdefinedfunction/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_user_defined_function aws_glue_user_defined_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_user_defined_function aws_glue_user_defined_function}.
 type GlueUserDefinedFunction interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -528,7 +528,7 @@ func (j *jsiiProxy_GlueUserDefinedFunction) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_user_defined_function aws_glue_user_defined_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_user_defined_function aws_glue_user_defined_function} Resource.
 func NewGlueUserDefinedFunction(scope constructs.Construct, id *string, config *GlueUserDefinedFunctionConfig) GlueUserDefinedFunction {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewGlueUserDefinedFunction(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_user_defined_function aws_glue_user_defined_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_user_defined_function aws_glue_user_defined_function} Resource.
 func NewGlueUserDefinedFunction_Override(g GlueUserDefinedFunction, scope constructs.Construct, id *string, config *GlueUserDefinedFunctionConfig) {
 	_init_.Initialize()
 

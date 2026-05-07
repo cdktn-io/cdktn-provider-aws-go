@@ -5,14 +5,14 @@ package wafregionalwebaclassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/wafregionalwebaclassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/wafregionalwebaclassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_web_acl_association aws_wafregional_web_acl_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/wafregional_web_acl_association aws_wafregional_web_acl_association}.
 type WafregionalWebAclAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_WafregionalWebAclAssociation) WebAclIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_web_acl_association aws_wafregional_web_acl_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/wafregional_web_acl_association aws_wafregional_web_acl_association} Resource.
 func NewWafregionalWebAclAssociation(scope constructs.Construct, id *string, config *WafregionalWebAclAssociationConfig) WafregionalWebAclAssociation {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewWafregionalWebAclAssociation(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_web_acl_association aws_wafregional_web_acl_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/wafregional_web_acl_association aws_wafregional_web_acl_association} Resource.
 func NewWafregionalWebAclAssociation_Override(w WafregionalWebAclAssociation, scope constructs.Construct, id *string, config *WafregionalWebAclAssociationConfig) {
 	_init_.Initialize()
 

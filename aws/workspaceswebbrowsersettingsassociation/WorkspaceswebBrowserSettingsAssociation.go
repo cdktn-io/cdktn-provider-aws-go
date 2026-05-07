@@ -5,14 +5,14 @@ package workspaceswebbrowsersettingsassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/workspaceswebbrowsersettingsassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/workspaceswebbrowsersettingsassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspacesweb_browser_settings_association aws_workspacesweb_browser_settings_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/workspacesweb_browser_settings_association aws_workspacesweb_browser_settings_association}.
 type WorkspaceswebBrowserSettingsAssociation interface {
 	cdktn.TerraformResource
 	BrowserSettingsArn() *string
@@ -365,7 +365,7 @@ func (j *jsiiProxy_WorkspaceswebBrowserSettingsAssociation) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspacesweb_browser_settings_association aws_workspacesweb_browser_settings_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/workspacesweb_browser_settings_association aws_workspacesweb_browser_settings_association} Resource.
 func NewWorkspaceswebBrowserSettingsAssociation(scope constructs.Construct, id *string, config *WorkspaceswebBrowserSettingsAssociationConfig) WorkspaceswebBrowserSettingsAssociation {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewWorkspaceswebBrowserSettingsAssociation(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspacesweb_browser_settings_association aws_workspacesweb_browser_settings_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/workspacesweb_browser_settings_association aws_workspacesweb_browser_settings_association} Resource.
 func NewWorkspaceswebBrowserSettingsAssociation_Override(w WorkspaceswebBrowserSettingsAssociation, scope constructs.Construct, id *string, config *WorkspaceswebBrowserSettingsAssociationConfig) {
 	_init_.Initialize()
 

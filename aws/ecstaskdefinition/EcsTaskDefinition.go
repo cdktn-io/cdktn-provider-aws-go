@@ -5,14 +5,14 @@ package ecstaskdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ecstaskdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/ecstaskdefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_task_definition aws_ecs_task_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ecs_task_definition aws_ecs_task_definition}.
 type EcsTaskDefinition interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -854,7 +854,7 @@ func (j *jsiiProxy_EcsTaskDefinition) VolumeInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_task_definition aws_ecs_task_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ecs_task_definition aws_ecs_task_definition} Resource.
 func NewEcsTaskDefinition(scope constructs.Construct, id *string, config *EcsTaskDefinitionConfig) EcsTaskDefinition {
 	_init_.Initialize()
 
@@ -872,7 +872,7 @@ func NewEcsTaskDefinition(scope constructs.Construct, id *string, config *EcsTas
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecs_task_definition aws_ecs_task_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ecs_task_definition aws_ecs_task_definition} Resource.
 func NewEcsTaskDefinition_Override(e EcsTaskDefinition, scope constructs.Construct, id *string, config *EcsTaskDefinitionConfig) {
 	_init_.Initialize()
 

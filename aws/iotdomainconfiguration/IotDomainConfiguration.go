@@ -5,14 +5,14 @@ package iotdomainconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/iotdomainconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/iotdomainconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_domain_configuration aws_iot_domain_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/iot_domain_configuration aws_iot_domain_configuration}.
 type IotDomainConfiguration interface {
 	cdktn.TerraformResource
 	ApplicationProtocol() *string
@@ -652,7 +652,7 @@ func (j *jsiiProxy_IotDomainConfiguration) ValidationCertificateArnInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_domain_configuration aws_iot_domain_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/iot_domain_configuration aws_iot_domain_configuration} Resource.
 func NewIotDomainConfiguration(scope constructs.Construct, id *string, config *IotDomainConfigurationConfig) IotDomainConfiguration {
 	_init_.Initialize()
 
@@ -670,7 +670,7 @@ func NewIotDomainConfiguration(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iot_domain_configuration aws_iot_domain_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/iot_domain_configuration aws_iot_domain_configuration} Resource.
 func NewIotDomainConfiguration_Override(i IotDomainConfiguration, scope constructs.Construct, id *string, config *IotDomainConfigurationConfig) {
 	_init_.Initialize()
 

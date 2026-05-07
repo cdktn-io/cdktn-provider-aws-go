@@ -5,14 +5,14 @@ package s3bucketrequestpaymentconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/s3bucketrequestpaymentconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/s3bucketrequestpaymentconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_request_payment_configuration aws_s3_bucket_request_payment_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3_bucket_request_payment_configuration aws_s3_bucket_request_payment_configuration}.
 type S3BucketRequestPaymentConfiguration interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -413,7 +413,7 @@ func (j *jsiiProxy_S3BucketRequestPaymentConfiguration) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_request_payment_configuration aws_s3_bucket_request_payment_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3_bucket_request_payment_configuration aws_s3_bucket_request_payment_configuration} Resource.
 func NewS3BucketRequestPaymentConfiguration(scope constructs.Construct, id *string, config *S3BucketRequestPaymentConfigurationConfig) S3BucketRequestPaymentConfiguration {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewS3BucketRequestPaymentConfiguration(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_request_payment_configuration aws_s3_bucket_request_payment_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3_bucket_request_payment_configuration aws_s3_bucket_request_payment_configuration} Resource.
 func NewS3BucketRequestPaymentConfiguration_Override(s S3BucketRequestPaymentConfiguration, scope constructs.Construct, id *string, config *S3BucketRequestPaymentConfigurationConfig) {
 	_init_.Initialize()
 

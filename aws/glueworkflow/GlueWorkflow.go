@@ -5,14 +5,14 @@ package glueworkflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/glueworkflow/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/glueworkflow/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_workflow aws_glue_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_workflow aws_glue_workflow}.
 type GlueWorkflow interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -498,7 +498,7 @@ func (j *jsiiProxy_GlueWorkflow) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_workflow aws_glue_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_workflow aws_glue_workflow} Resource.
 func NewGlueWorkflow(scope constructs.Construct, id *string, config *GlueWorkflowConfig) GlueWorkflow {
 	_init_.Initialize()
 
@@ -516,7 +516,7 @@ func NewGlueWorkflow(scope constructs.Construct, id *string, config *GlueWorkflo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_workflow aws_glue_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_workflow aws_glue_workflow} Resource.
 func NewGlueWorkflow_Override(g GlueWorkflow, scope constructs.Construct, id *string, config *GlueWorkflowConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package wafv2webaclrule
 
 
 type Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementByteMatchStatementTextTransformation struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafv2_web_acl_rule#priority Wafv2WebAclRuleA#priority}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/wafv2_web_acl_rule#priority Wafv2WebAclRuleA#priority}.
 	Priority *float64 `field:"required" json:"priority" yaml:"priority"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafv2_web_acl_rule#type Wafv2WebAclRuleA#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/wafv2_web_acl_rule#type Wafv2WebAclRuleA#type}.
 	Type *string `field:"required" json:"type" yaml:"type"`
 }
 

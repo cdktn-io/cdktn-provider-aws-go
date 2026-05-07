@@ -5,14 +5,14 @@ package lblistenercertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lblistenercertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/lblistenercertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_listener_certificate aws_lb_listener_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lb_listener_certificate aws_lb_listener_certificate}.
 type LbListenerCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_LbListenerCertificate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_listener_certificate aws_lb_listener_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lb_listener_certificate aws_lb_listener_certificate} Resource.
 func NewLbListenerCertificate(scope constructs.Construct, id *string, config *LbListenerCertificateConfig) LbListenerCertificate {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewLbListenerCertificate(scope constructs.Construct, id *string, config *Lb
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lb_listener_certificate aws_lb_listener_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lb_listener_certificate aws_lb_listener_certificate} Resource.
 func NewLbListenerCertificate_Override(l LbListenerCertificate, scope constructs.Construct, id *string, config *LbListenerCertificateConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package directoryservicetrust
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/directoryservicetrust/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/directoryservicetrust/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_trust aws_directory_service_trust}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/directory_service_trust aws_directory_service_trust}.
 type DirectoryServiceTrust interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -573,7 +573,7 @@ func (j *jsiiProxy_DirectoryServiceTrust) TrustTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_trust aws_directory_service_trust} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/directory_service_trust aws_directory_service_trust} Resource.
 func NewDirectoryServiceTrust(scope constructs.Construct, id *string, config *DirectoryServiceTrustConfig) DirectoryServiceTrust {
 	_init_.Initialize()
 
@@ -591,7 +591,7 @@ func NewDirectoryServiceTrust(scope constructs.Construct, id *string, config *Di
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/directory_service_trust aws_directory_service_trust} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/directory_service_trust aws_directory_service_trust} Resource.
 func NewDirectoryServiceTrust_Override(d DirectoryServiceTrust, scope constructs.Construct, id *string, config *DirectoryServiceTrustConfig) {
 	_init_.Initialize()
 

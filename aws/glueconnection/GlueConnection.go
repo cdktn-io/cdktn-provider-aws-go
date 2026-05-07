@@ -5,20 +5,22 @@ package glueconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/glueconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/glueconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_connection aws_glue_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection aws_glue_connection}.
 type GlueConnection interface {
 	cdktn.TerraformResource
 	Arn() *string
 	AthenaProperties() *map[string]*string
 	SetAthenaProperties(val *map[string]*string)
 	AthenaPropertiesInput() *map[string]*string
+	AuthenticationConfiguration() GlueConnectionAuthenticationConfigurationOutputReference
+	AuthenticationConfigurationInput() *GlueConnectionAuthenticationConfiguration
 	CatalogId() *string
 	SetCatalogId(val *string)
 	CatalogIdInput() *string
@@ -140,8 +142,10 @@ type GlueConnection interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutAuthenticationConfiguration(value *GlueConnectionAuthenticationConfiguration)
 	PutPhysicalConnectionRequirements(value *GlueConnectionPhysicalConnectionRequirements)
 	ResetAthenaProperties()
+	ResetAuthenticationConfiguration()
 	ResetCatalogId()
 	ResetConnectionProperties()
 	ResetConnectionType()
@@ -207,6 +211,26 @@ func (j *jsiiProxy_GlueConnection) AthenaPropertiesInput() *map[string]*string {
 	_jsii_.Get(
 		j,
 		"athenaPropertiesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GlueConnection) AuthenticationConfiguration() GlueConnectionAuthenticationConfigurationOutputReference {
+	var returns GlueConnectionAuthenticationConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"authenticationConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GlueConnection) AuthenticationConfigurationInput() *GlueConnectionAuthenticationConfiguration {
+	var returns *GlueConnectionAuthenticationConfiguration
+	_jsii_.Get(
+		j,
+		"authenticationConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -593,7 +617,7 @@ func (j *jsiiProxy_GlueConnection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_connection aws_glue_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection aws_glue_connection} Resource.
 func NewGlueConnection(scope constructs.Construct, id *string, config *GlueConnectionConfig) GlueConnection {
 	_init_.Initialize()
 
@@ -611,7 +635,7 @@ func NewGlueConnection(scope constructs.Construct, id *string, config *GlueConne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_connection aws_glue_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection aws_glue_connection} Resource.
 func NewGlueConnection_Override(g GlueConnection, scope constructs.Construct, id *string, config *GlueConnectionConfig) {
 	_init_.Initialize()
 
@@ -1164,6 +1188,17 @@ func (g *jsiiProxy_GlueConnection) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (g *jsiiProxy_GlueConnection) PutAuthenticationConfiguration(value *GlueConnectionAuthenticationConfiguration) {
+	if err := g.validatePutAuthenticationConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putAuthenticationConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GlueConnection) PutPhysicalConnectionRequirements(value *GlueConnectionPhysicalConnectionRequirements) {
 	if err := g.validatePutPhysicalConnectionRequirementsParameters(value); err != nil {
 		panic(err)
@@ -1179,6 +1214,14 @@ func (g *jsiiProxy_GlueConnection) ResetAthenaProperties() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAthenaProperties",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GlueConnection) ResetAuthenticationConfiguration() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAuthenticationConfiguration",
 		nil, // no parameters
 	)
 }

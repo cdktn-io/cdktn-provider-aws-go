@@ -5,14 +5,14 @@ package codecatalystdevenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/codecatalystdevenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/codecatalystdevenvironment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codecatalyst_dev_environment aws_codecatalyst_dev_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/codecatalyst_dev_environment aws_codecatalyst_dev_environment}.
 type CodecatalystDevEnvironment interface {
 	cdktn.TerraformResource
 	Alias() *string
@@ -554,7 +554,7 @@ func (j *jsiiProxy_CodecatalystDevEnvironment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codecatalyst_dev_environment aws_codecatalyst_dev_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/codecatalyst_dev_environment aws_codecatalyst_dev_environment} Resource.
 func NewCodecatalystDevEnvironment(scope constructs.Construct, id *string, config *CodecatalystDevEnvironmentConfig) CodecatalystDevEnvironment {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewCodecatalystDevEnvironment(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/codecatalyst_dev_environment aws_codecatalyst_dev_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/codecatalyst_dev_environment aws_codecatalyst_dev_environment} Resource.
 func NewCodecatalystDevEnvironment_Override(c CodecatalystDevEnvironment, scope constructs.Construct, id *string, config *CodecatalystDevEnvironmentConfig) {
 	_init_.Initialize()
 

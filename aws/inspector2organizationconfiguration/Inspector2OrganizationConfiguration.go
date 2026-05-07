@@ -5,14 +5,14 @@ package inspector2organizationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/inspector2organizationconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/inspector2organizationconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/inspector2_organization_configuration aws_inspector2_organization_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/inspector2_organization_configuration aws_inspector2_organization_configuration}.
 type Inspector2OrganizationConfiguration interface {
 	cdktn.TerraformResource
 	AutoEnable() Inspector2OrganizationConfigurationAutoEnableOutputReference
@@ -401,7 +401,7 @@ func (j *jsiiProxy_Inspector2OrganizationConfiguration) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/inspector2_organization_configuration aws_inspector2_organization_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/inspector2_organization_configuration aws_inspector2_organization_configuration} Resource.
 func NewInspector2OrganizationConfiguration(scope constructs.Construct, id *string, config *Inspector2OrganizationConfigurationConfig) Inspector2OrganizationConfiguration {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewInspector2OrganizationConfiguration(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/inspector2_organization_configuration aws_inspector2_organization_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/inspector2_organization_configuration aws_inspector2_organization_configuration} Resource.
 func NewInspector2OrganizationConfiguration_Override(i Inspector2OrganizationConfiguration, scope constructs.Construct, id *string, config *Inspector2OrganizationConfigurationConfig) {
 	_init_.Initialize()
 

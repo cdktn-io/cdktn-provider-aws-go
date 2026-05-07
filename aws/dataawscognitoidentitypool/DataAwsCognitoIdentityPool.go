@@ -5,14 +5,14 @@ package dataawscognitoidentitypool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawscognitoidentitypool/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawscognitoidentitypool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool}.
 type DataAwsCognitoIdentityPool interface {
 	cdktn.TerraformDataSource
 	AllowClassicFlow() cdktn.IResolvable
@@ -433,7 +433,7 @@ func (j *jsiiProxy_DataAwsCognitoIdentityPool) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool} Data Source.
 func NewDataAwsCognitoIdentityPool(scope constructs.Construct, id *string, config *DataAwsCognitoIdentityPoolConfig) DataAwsCognitoIdentityPool {
 	_init_.Initialize()
 
@@ -451,7 +451,7 @@ func NewDataAwsCognitoIdentityPool(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool} Data Source.
 func NewDataAwsCognitoIdentityPool_Override(d DataAwsCognitoIdentityPool, scope constructs.Construct, id *string, config *DataAwsCognitoIdentityPoolConfig) {
 	_init_.Initialize()
 

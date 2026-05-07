@@ -5,14 +5,14 @@ package networkmanagerconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/networkmanagerconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/networkmanagerconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_connection aws_networkmanager_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/networkmanager_connection aws_networkmanager_connection}.
 type NetworkmanagerConnection interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -543,7 +543,7 @@ func (j *jsiiProxy_NetworkmanagerConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_connection aws_networkmanager_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/networkmanager_connection aws_networkmanager_connection} Resource.
 func NewNetworkmanagerConnection(scope constructs.Construct, id *string, config *NetworkmanagerConnectionConfig) NetworkmanagerConnection {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewNetworkmanagerConnection(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_connection aws_networkmanager_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/networkmanager_connection aws_networkmanager_connection} Resource.
 func NewNetworkmanagerConnection_Override(n NetworkmanagerConnection, scope constructs.Construct, id *string, config *NetworkmanagerConnectionConfig) {
 	_init_.Initialize()
 

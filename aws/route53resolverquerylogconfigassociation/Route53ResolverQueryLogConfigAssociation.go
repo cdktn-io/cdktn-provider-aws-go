@@ -5,14 +5,14 @@ package route53resolverquerylogconfigassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/route53resolverquerylogconfigassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/route53resolverquerylogconfigassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_resolver_query_log_config_association aws_route53_resolver_query_log_config_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/route53_resolver_query_log_config_association aws_route53_resolver_query_log_config_association}.
 type Route53ResolverQueryLogConfigAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_Route53ResolverQueryLogConfigAssociation) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_resolver_query_log_config_association aws_route53_resolver_query_log_config_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/route53_resolver_query_log_config_association aws_route53_resolver_query_log_config_association} Resource.
 func NewRoute53ResolverQueryLogConfigAssociation(scope constructs.Construct, id *string, config *Route53ResolverQueryLogConfigAssociationConfig) Route53ResolverQueryLogConfigAssociation {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewRoute53ResolverQueryLogConfigAssociation(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/route53_resolver_query_log_config_association aws_route53_resolver_query_log_config_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/route53_resolver_query_log_config_association aws_route53_resolver_query_log_config_association} Resource.
 func NewRoute53ResolverQueryLogConfigAssociation_Override(r Route53ResolverQueryLogConfigAssociation, scope constructs.Construct, id *string, config *Route53ResolverQueryLogConfigAssociationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package detectiveorganizationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/detectiveorganizationconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/detectiveorganizationconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/detective_organization_configuration aws_detective_organization_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/detective_organization_configuration aws_detective_organization_configuration}.
 type DetectiveOrganizationConfiguration interface {
 	cdktn.TerraformResource
 	AutoEnable() interface{}
@@ -389,7 +389,7 @@ func (j *jsiiProxy_DetectiveOrganizationConfiguration) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/detective_organization_configuration aws_detective_organization_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/detective_organization_configuration aws_detective_organization_configuration} Resource.
 func NewDetectiveOrganizationConfiguration(scope constructs.Construct, id *string, config *DetectiveOrganizationConfigurationConfig) DetectiveOrganizationConfiguration {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewDetectiveOrganizationConfiguration(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/detective_organization_configuration aws_detective_organization_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/detective_organization_configuration aws_detective_organization_configuration} Resource.
 func NewDetectiveOrganizationConfiguration_Override(d DetectiveOrganizationConfiguration, scope constructs.Construct, id *string, config *DetectiveOrganizationConfigurationConfig) {
 	_init_.Initialize()
 

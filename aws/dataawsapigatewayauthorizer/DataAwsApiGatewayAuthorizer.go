@@ -5,14 +5,14 @@ package dataawsapigatewayauthorizer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsapigatewayauthorizer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsapigatewayauthorizer/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/api_gateway_authorizer aws_api_gateway_authorizer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/api_gateway_authorizer aws_api_gateway_authorizer}.
 type DataAwsApiGatewayAuthorizer interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -443,7 +443,7 @@ func (j *jsiiProxy_DataAwsApiGatewayAuthorizer) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/api_gateway_authorizer aws_api_gateway_authorizer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/api_gateway_authorizer aws_api_gateway_authorizer} Data Source.
 func NewDataAwsApiGatewayAuthorizer(scope constructs.Construct, id *string, config *DataAwsApiGatewayAuthorizerConfig) DataAwsApiGatewayAuthorizer {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewDataAwsApiGatewayAuthorizer(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/api_gateway_authorizer aws_api_gateway_authorizer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/api_gateway_authorizer aws_api_gateway_authorizer} Data Source.
 func NewDataAwsApiGatewayAuthorizer_Override(d DataAwsApiGatewayAuthorizer, scope constructs.Construct, id *string, config *DataAwsApiGatewayAuthorizerConfig) {
 	_init_.Initialize()
 

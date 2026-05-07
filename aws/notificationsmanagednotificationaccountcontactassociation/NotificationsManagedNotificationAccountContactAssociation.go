@@ -5,14 +5,14 @@ package notificationsmanagednotificationaccountcontactassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/notificationsmanagednotificationaccountcontactassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/notificationsmanagednotificationaccountcontactassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_managed_notification_account_contact_association aws_notifications_managed_notification_account_contact_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/notifications_managed_notification_account_contact_association aws_notifications_managed_notification_account_contact_association}.
 type NotificationsManagedNotificationAccountContactAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_NotificationsManagedNotificationAccountContactAssociation) Te
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_managed_notification_account_contact_association aws_notifications_managed_notification_account_contact_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/notifications_managed_notification_account_contact_association aws_notifications_managed_notification_account_contact_association} Resource.
 func NewNotificationsManagedNotificationAccountContactAssociation(scope constructs.Construct, id *string, config *NotificationsManagedNotificationAccountContactAssociationConfig) NotificationsManagedNotificationAccountContactAssociation {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewNotificationsManagedNotificationAccountContactAssociation(scope construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/notifications_managed_notification_account_contact_association aws_notifications_managed_notification_account_contact_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/notifications_managed_notification_account_contact_association aws_notifications_managed_notification_account_contact_association} Resource.
 func NewNotificationsManagedNotificationAccountContactAssociation_Override(n NotificationsManagedNotificationAccountContactAssociation, scope constructs.Construct, id *string, config *NotificationsManagedNotificationAccountContactAssociationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsservicequotasservicequota
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsservicequotasservicequota/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsservicequotasservicequota/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/servicequotas_service_quota aws_servicequotas_service_quota}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/servicequotas_service_quota aws_servicequotas_service_quota}.
 type DataAwsServicequotasServiceQuota interface {
 	cdktn.TerraformDataSource
 	Adjustable() cdktn.IResolvable
@@ -446,7 +446,7 @@ func (j *jsiiProxy_DataAwsServicequotasServiceQuota) Value() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/servicequotas_service_quota aws_servicequotas_service_quota} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/servicequotas_service_quota aws_servicequotas_service_quota} Data Source.
 func NewDataAwsServicequotasServiceQuota(scope constructs.Construct, id *string, config *DataAwsServicequotasServiceQuotaConfig) DataAwsServicequotasServiceQuota {
 	_init_.Initialize()
 
@@ -464,7 +464,7 @@ func NewDataAwsServicequotasServiceQuota(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/servicequotas_service_quota aws_servicequotas_service_quota} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/servicequotas_service_quota aws_servicequotas_service_quota} Data Source.
 func NewDataAwsServicequotasServiceQuota_Override(d DataAwsServicequotasServiceQuota, scope constructs.Construct, id *string, config *DataAwsServicequotasServiceQuotaConfig) {
 	_init_.Initialize()
 

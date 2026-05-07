@@ -5,14 +5,14 @@ package dataawsauditmanagercontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsauditmanagercontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsauditmanagercontrol/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/auditmanager_control aws_auditmanager_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/auditmanager_control aws_auditmanager_control}.
 type DataAwsAuditmanagerControl interface {
 	cdktn.TerraformDataSource
 	ActionPlanInstructions() *string
@@ -408,7 +408,7 @@ func (j *jsiiProxy_DataAwsAuditmanagerControl) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/auditmanager_control aws_auditmanager_control} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/auditmanager_control aws_auditmanager_control} Data Source.
 func NewDataAwsAuditmanagerControl(scope constructs.Construct, id *string, config *DataAwsAuditmanagerControlConfig) DataAwsAuditmanagerControl {
 	_init_.Initialize()
 
@@ -426,7 +426,7 @@ func NewDataAwsAuditmanagerControl(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/auditmanager_control aws_auditmanager_control} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/auditmanager_control aws_auditmanager_control} Data Source.
 func NewDataAwsAuditmanagerControl_Override(d DataAwsAuditmanagerControl, scope constructs.Construct, id *string, config *DataAwsAuditmanagerControlConfig) {
 	_init_.Initialize()
 

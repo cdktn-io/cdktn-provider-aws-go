@@ -5,14 +5,14 @@ package transferaccess
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/transferaccess/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/transferaccess/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_access aws_transfer_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/transfer_access aws_transfer_access}.
 type TransferAccess interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -533,7 +533,7 @@ func (j *jsiiProxy_TransferAccess) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_access aws_transfer_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/transfer_access aws_transfer_access} Resource.
 func NewTransferAccess(scope constructs.Construct, id *string, config *TransferAccessConfig) TransferAccess {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewTransferAccess(scope constructs.Construct, id *string, config *TransferA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transfer_access aws_transfer_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/transfer_access aws_transfer_access} Resource.
 func NewTransferAccess_Override(t TransferAccess, scope constructs.Construct, id *string, config *TransferAccessConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package networkinterface
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/networkinterface/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/networkinterface/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/network_interface aws_network_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/network_interface aws_network_interface}.
 type NetworkInterface interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -40,6 +40,8 @@ type NetworkInterface interface {
 	EnablePrimaryIpv6() interface{}
 	SetEnablePrimaryIpv6(val interface{})
 	EnablePrimaryIpv6Input() interface{}
+	EnaSrdSpecification() NetworkInterfaceEnaSrdSpecificationOutputReference
+	EnaSrdSpecificationInput() *NetworkInterfaceEnaSrdSpecification
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -181,9 +183,11 @@ type NetworkInterface interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutAttachment(value interface{})
+	PutEnaSrdSpecification(value *NetworkInterfaceEnaSrdSpecification)
 	ResetAttachment()
 	ResetDescription()
 	ResetEnablePrimaryIpv6()
+	ResetEnaSrdSpecification()
 	ResetId()
 	ResetInterfaceType()
 	ResetIpv4PrefixCount()
@@ -349,6 +353,26 @@ func (j *jsiiProxy_NetworkInterface) EnablePrimaryIpv6Input() interface{} {
 	_jsii_.Get(
 		j,
 		"enablePrimaryIpv6Input",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkInterface) EnaSrdSpecification() NetworkInterfaceEnaSrdSpecificationOutputReference {
+	var returns NetworkInterfaceEnaSrdSpecificationOutputReference
+	_jsii_.Get(
+		j,
+		"enaSrdSpecification",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkInterface) EnaSrdSpecificationInput() *NetworkInterfaceEnaSrdSpecification {
+	var returns *NetworkInterfaceEnaSrdSpecification
+	_jsii_.Get(
+		j,
+		"enaSrdSpecificationInput",
 		&returns,
 	)
 	return returns
@@ -925,7 +949,7 @@ func (j *jsiiProxy_NetworkInterface) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/network_interface aws_network_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/network_interface aws_network_interface} Resource.
 func NewNetworkInterface(scope constructs.Construct, id *string, config *NetworkInterfaceConfig) NetworkInterface {
 	_init_.Initialize()
 
@@ -943,7 +967,7 @@ func NewNetworkInterface(scope constructs.Construct, id *string, config *Network
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/network_interface aws_network_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/network_interface aws_network_interface} Resource.
 func NewNetworkInterface_Override(n NetworkInterface, scope constructs.Construct, id *string, config *NetworkInterfaceConfig) {
 	_init_.Initialize()
 
@@ -1639,6 +1663,17 @@ func (n *jsiiProxy_NetworkInterface) PutAttachment(value interface{}) {
 	)
 }
 
+func (n *jsiiProxy_NetworkInterface) PutEnaSrdSpecification(value *NetworkInterfaceEnaSrdSpecification) {
+	if err := n.validatePutEnaSrdSpecificationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putEnaSrdSpecification",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NetworkInterface) ResetAttachment() {
 	_jsii_.InvokeVoid(
 		n,
@@ -1659,6 +1694,14 @@ func (n *jsiiProxy_NetworkInterface) ResetEnablePrimaryIpv6() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetEnablePrimaryIpv6",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkInterface) ResetEnaSrdSpecification() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetEnaSrdSpecification",
 		nil, // no parameters
 	)
 }

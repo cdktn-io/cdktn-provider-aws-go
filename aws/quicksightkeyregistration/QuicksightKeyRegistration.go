@@ -5,14 +5,14 @@ package quicksightkeyregistration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/quicksightkeyregistration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/quicksightkeyregistration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration}.
 type QuicksightKeyRegistration interface {
 	cdktn.TerraformResource
 	AwsAccountId() *string
@@ -367,7 +367,7 @@ func (j *jsiiProxy_QuicksightKeyRegistration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration} Resource.
 func NewQuicksightKeyRegistration(scope constructs.Construct, id *string, config *QuicksightKeyRegistrationConfig) QuicksightKeyRegistration {
 	_init_.Initialize()
 
@@ -385,7 +385,7 @@ func NewQuicksightKeyRegistration(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration} Resource.
 func NewQuicksightKeyRegistration_Override(q QuicksightKeyRegistration, scope constructs.Construct, id *string, config *QuicksightKeyRegistrationConfig) {
 	_init_.Initialize()
 

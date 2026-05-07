@@ -5,14 +5,14 @@ package dataawsglobalacceleratorcustomroutingaccelerator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsglobalacceleratorcustomroutingaccelerator/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsglobalacceleratorcustomroutingaccelerator/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/globalaccelerator_custom_routing_accelerator aws_globalaccelerator_custom_routing_accelerator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/globalaccelerator_custom_routing_accelerator aws_globalaccelerator_custom_routing_accelerator}.
 type DataAwsGlobalacceleratorCustomRoutingAccelerator interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -412,7 +412,7 @@ func (j *jsiiProxy_DataAwsGlobalacceleratorCustomRoutingAccelerator) TerraformRe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/globalaccelerator_custom_routing_accelerator aws_globalaccelerator_custom_routing_accelerator} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/globalaccelerator_custom_routing_accelerator aws_globalaccelerator_custom_routing_accelerator} Data Source.
 func NewDataAwsGlobalacceleratorCustomRoutingAccelerator(scope constructs.Construct, id *string, config *DataAwsGlobalacceleratorCustomRoutingAcceleratorConfig) DataAwsGlobalacceleratorCustomRoutingAccelerator {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewDataAwsGlobalacceleratorCustomRoutingAccelerator(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/globalaccelerator_custom_routing_accelerator aws_globalaccelerator_custom_routing_accelerator} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/globalaccelerator_custom_routing_accelerator aws_globalaccelerator_custom_routing_accelerator} Data Source.
 func NewDataAwsGlobalacceleratorCustomRoutingAccelerator_Override(d DataAwsGlobalacceleratorCustomRoutingAccelerator, scope constructs.Construct, id *string, config *DataAwsGlobalacceleratorCustomRoutingAcceleratorConfig) {
 	_init_.Initialize()
 

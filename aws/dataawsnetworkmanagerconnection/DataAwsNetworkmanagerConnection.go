@@ -5,14 +5,14 @@ package dataawsnetworkmanagerconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsnetworkmanagerconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsnetworkmanagerconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/networkmanager_connection aws_networkmanager_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/networkmanager_connection aws_networkmanager_connection}.
 type DataAwsNetworkmanagerConnection interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -410,7 +410,7 @@ func (j *jsiiProxy_DataAwsNetworkmanagerConnection) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/networkmanager_connection aws_networkmanager_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/networkmanager_connection aws_networkmanager_connection} Data Source.
 func NewDataAwsNetworkmanagerConnection(scope constructs.Construct, id *string, config *DataAwsNetworkmanagerConnectionConfig) DataAwsNetworkmanagerConnection {
 	_init_.Initialize()
 
@@ -428,7 +428,7 @@ func NewDataAwsNetworkmanagerConnection(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/networkmanager_connection aws_networkmanager_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/networkmanager_connection aws_networkmanager_connection} Data Source.
 func NewDataAwsNetworkmanagerConnection_Override(d DataAwsNetworkmanagerConnection, scope constructs.Construct, id *string, config *DataAwsNetworkmanagerConnectionConfig) {
 	_init_.Initialize()
 

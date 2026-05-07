@@ -5,14 +5,14 @@ package cloudformationstackinstances
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/cloudformationstackinstances/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/cloudformationstackinstances/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudformation_stack_instances aws_cloudformation_stack_instances}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudformation_stack_instances aws_cloudformation_stack_instances}.
 type CloudformationStackInstances interface {
 	cdktn.TerraformResource
 	Accounts() *[]*string
@@ -580,7 +580,7 @@ func (j *jsiiProxy_CloudformationStackInstances) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudformation_stack_instances aws_cloudformation_stack_instances} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudformation_stack_instances aws_cloudformation_stack_instances} Resource.
 func NewCloudformationStackInstances(scope constructs.Construct, id *string, config *CloudformationStackInstancesConfig) CloudformationStackInstances {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewCloudformationStackInstances(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudformation_stack_instances aws_cloudformation_stack_instances} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudformation_stack_instances aws_cloudformation_stack_instances} Resource.
 func NewCloudformationStackInstances_Override(c CloudformationStackInstances, scope constructs.Construct, id *string, config *CloudformationStackInstancesConfig) {
 	_init_.Initialize()
 

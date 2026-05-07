@@ -5,14 +5,14 @@ package ec2trafficmirrorfilterrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ec2trafficmirrorfilterrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/ec2trafficmirrorfilterrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ec2_traffic_mirror_filter_rule aws_ec2_traffic_mirror_filter_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ec2_traffic_mirror_filter_rule aws_ec2_traffic_mirror_filter_rule}.
 type Ec2TrafficMirrorFilterRule interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -588,7 +588,7 @@ func (j *jsiiProxy_Ec2TrafficMirrorFilterRule) TrafficMirrorFilterIdInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ec2_traffic_mirror_filter_rule aws_ec2_traffic_mirror_filter_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ec2_traffic_mirror_filter_rule aws_ec2_traffic_mirror_filter_rule} Resource.
 func NewEc2TrafficMirrorFilterRule(scope constructs.Construct, id *string, config *Ec2TrafficMirrorFilterRuleConfig) Ec2TrafficMirrorFilterRule {
 	_init_.Initialize()
 
@@ -606,7 +606,7 @@ func NewEc2TrafficMirrorFilterRule(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ec2_traffic_mirror_filter_rule aws_ec2_traffic_mirror_filter_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ec2_traffic_mirror_filter_rule aws_ec2_traffic_mirror_filter_rule} Resource.
 func NewEc2TrafficMirrorFilterRule_Override(e Ec2TrafficMirrorFilterRule, scope constructs.Construct, id *string, config *Ec2TrafficMirrorFilterRuleConfig) {
 	_init_.Initialize()
 

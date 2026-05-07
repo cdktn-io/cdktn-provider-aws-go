@@ -5,14 +5,14 @@ package kinesisanalyticsv2applicationsnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/kinesisanalyticsv2applicationsnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/kinesisanalyticsv2applicationsnapshot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kinesisanalyticsv2_application_snapshot aws_kinesisanalyticsv2_application_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/kinesisanalyticsv2_application_snapshot aws_kinesisanalyticsv2_application_snapshot}.
 type Kinesisanalyticsv2ApplicationSnapshot interface {
 	cdktn.TerraformResource
 	ApplicationName() *string
@@ -435,7 +435,7 @@ func (j *jsiiProxy_Kinesisanalyticsv2ApplicationSnapshot) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kinesisanalyticsv2_application_snapshot aws_kinesisanalyticsv2_application_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/kinesisanalyticsv2_application_snapshot aws_kinesisanalyticsv2_application_snapshot} Resource.
 func NewKinesisanalyticsv2ApplicationSnapshot(scope constructs.Construct, id *string, config *Kinesisanalyticsv2ApplicationSnapshotConfig) Kinesisanalyticsv2ApplicationSnapshot {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewKinesisanalyticsv2ApplicationSnapshot(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kinesisanalyticsv2_application_snapshot aws_kinesisanalyticsv2_application_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/kinesisanalyticsv2_application_snapshot aws_kinesisanalyticsv2_application_snapshot} Resource.
 func NewKinesisanalyticsv2ApplicationSnapshot_Override(k Kinesisanalyticsv2ApplicationSnapshot, scope constructs.Construct, id *string, config *Kinesisanalyticsv2ApplicationSnapshotConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package servicequotasservicequota
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/servicequotasservicequota/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/servicequotasservicequota/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/servicequotas_service_quota aws_servicequotas_service_quota}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/servicequotas_service_quota aws_servicequotas_service_quota}.
 type ServicequotasServiceQuota interface {
 	cdktn.TerraformResource
 	Adjustable() cdktn.IResolvable
@@ -500,7 +500,7 @@ func (j *jsiiProxy_ServicequotasServiceQuota) ValueInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/servicequotas_service_quota aws_servicequotas_service_quota} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/servicequotas_service_quota aws_servicequotas_service_quota} Resource.
 func NewServicequotasServiceQuota(scope constructs.Construct, id *string, config *ServicequotasServiceQuotaConfig) ServicequotasServiceQuota {
 	_init_.Initialize()
 
@@ -518,7 +518,7 @@ func NewServicequotasServiceQuota(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/servicequotas_service_quota aws_servicequotas_service_quota} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/servicequotas_service_quota aws_servicequotas_service_quota} Resource.
 func NewServicequotasServiceQuota_Override(s ServicequotasServiceQuota, scope constructs.Construct, id *string, config *ServicequotasServiceQuotaConfig) {
 	_init_.Initialize()
 

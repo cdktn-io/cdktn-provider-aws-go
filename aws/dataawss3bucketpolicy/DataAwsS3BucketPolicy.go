@@ -5,14 +5,14 @@ package dataawss3bucketpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawss3bucketpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawss3bucketpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/s3_bucket_policy aws_s3_bucket_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/s3_bucket_policy aws_s3_bucket_policy}.
 type DataAwsS3BucketPolicy interface {
 	cdktn.TerraformDataSource
 	Bucket() *string
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataAwsS3BucketPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/s3_bucket_policy aws_s3_bucket_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/s3_bucket_policy aws_s3_bucket_policy} Data Source.
 func NewDataAwsS3BucketPolicy(scope constructs.Construct, id *string, config *DataAwsS3BucketPolicyConfig) DataAwsS3BucketPolicy {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewDataAwsS3BucketPolicy(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/s3_bucket_policy aws_s3_bucket_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/s3_bucket_policy aws_s3_bucket_policy} Data Source.
 func NewDataAwsS3BucketPolicy_Override(d DataAwsS3BucketPolicy, scope constructs.Construct, id *string, config *DataAwsS3BucketPolicyConfig) {
 	_init_.Initialize()
 

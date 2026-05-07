@@ -5,14 +5,14 @@ package dataawssignersigningprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawssignersigningprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawssignersigningprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/signer_signing_profile aws_signer_signing_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/signer_signing_profile aws_signer_signing_profile}.
 type DataAwsSignerSigningProfile interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -455,7 +455,7 @@ func (j *jsiiProxy_DataAwsSignerSigningProfile) VersionArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/signer_signing_profile aws_signer_signing_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/signer_signing_profile aws_signer_signing_profile} Data Source.
 func NewDataAwsSignerSigningProfile(scope constructs.Construct, id *string, config *DataAwsSignerSigningProfileConfig) DataAwsSignerSigningProfile {
 	_init_.Initialize()
 
@@ -473,7 +473,7 @@ func NewDataAwsSignerSigningProfile(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/signer_signing_profile aws_signer_signing_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/signer_signing_profile aws_signer_signing_profile} Data Source.
 func NewDataAwsSignerSigningProfile_Override(d DataAwsSignerSigningProfile, scope constructs.Construct, id *string, config *DataAwsSignerSigningProfileConfig) {
 	_init_.Initialize()
 

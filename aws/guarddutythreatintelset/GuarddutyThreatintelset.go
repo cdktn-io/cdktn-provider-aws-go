@@ -5,14 +5,14 @@ package guarddutythreatintelset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/guarddutythreatintelset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/guarddutythreatintelset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/guardduty_threatintelset aws_guardduty_threatintelset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/guardduty_threatintelset aws_guardduty_threatintelset}.
 type GuarddutyThreatintelset interface {
 	cdktn.TerraformResource
 	Activate() interface{}
@@ -528,7 +528,7 @@ func (j *jsiiProxy_GuarddutyThreatintelset) ThreatIntelSetId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/guardduty_threatintelset aws_guardduty_threatintelset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/guardduty_threatintelset aws_guardduty_threatintelset} Resource.
 func NewGuarddutyThreatintelset(scope constructs.Construct, id *string, config *GuarddutyThreatintelsetConfig) GuarddutyThreatintelset {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewGuarddutyThreatintelset(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/guardduty_threatintelset aws_guardduty_threatintelset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/guardduty_threatintelset aws_guardduty_threatintelset} Resource.
 func NewGuarddutyThreatintelset_Override(g GuarddutyThreatintelset, scope constructs.Construct, id *string, config *GuarddutyThreatintelsetConfig) {
 	_init_.Initialize()
 

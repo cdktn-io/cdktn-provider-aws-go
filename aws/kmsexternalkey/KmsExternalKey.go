@@ -5,14 +5,14 @@ package kmsexternalkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/kmsexternalkey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/kmsexternalkey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kms_external_key aws_kms_external_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/kms_external_key aws_kms_external_key}.
 type KmsExternalKey interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -664,7 +664,7 @@ func (j *jsiiProxy_KmsExternalKey) ValidToInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kms_external_key aws_kms_external_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/kms_external_key aws_kms_external_key} Resource.
 func NewKmsExternalKey(scope constructs.Construct, id *string, config *KmsExternalKeyConfig) KmsExternalKey {
 	_init_.Initialize()
 
@@ -682,7 +682,7 @@ func NewKmsExternalKey(scope constructs.Construct, id *string, config *KmsExtern
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kms_external_key aws_kms_external_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/kms_external_key aws_kms_external_key} Resource.
 func NewKmsExternalKey_Override(k KmsExternalKey, scope constructs.Construct, id *string, config *KmsExternalKeyConfig) {
 	_init_.Initialize()
 

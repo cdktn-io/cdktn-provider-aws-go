@@ -5,14 +5,14 @@ package keypair
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/keypair/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/keypair/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/key_pair aws_key_pair}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/key_pair aws_key_pair}.
 type KeyPair interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_KeyPair) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/key_pair aws_key_pair} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/key_pair aws_key_pair} Resource.
 func NewKeyPair(scope constructs.Construct, id *string, config *KeyPairConfig) KeyPair {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewKeyPair(scope constructs.Construct, id *string, config *KeyPairConfig) K
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/key_pair aws_key_pair} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/key_pair aws_key_pair} Resource.
 func NewKeyPair_Override(k KeyPair, scope constructs.Construct, id *string, config *KeyPairConfig) {
 	_init_.Initialize()
 

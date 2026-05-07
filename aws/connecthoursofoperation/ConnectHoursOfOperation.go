@@ -5,14 +5,14 @@ package connecthoursofoperation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/connecthoursofoperation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/connecthoursofoperation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_hours_of_operation aws_connect_hours_of_operation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/connect_hours_of_operation aws_connect_hours_of_operation}.
 type ConnectHoursOfOperation interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -529,7 +529,7 @@ func (j *jsiiProxy_ConnectHoursOfOperation) TimeZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_hours_of_operation aws_connect_hours_of_operation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/connect_hours_of_operation aws_connect_hours_of_operation} Resource.
 func NewConnectHoursOfOperation(scope constructs.Construct, id *string, config *ConnectHoursOfOperationConfig) ConnectHoursOfOperation {
 	_init_.Initialize()
 
@@ -547,7 +547,7 @@ func NewConnectHoursOfOperation(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/connect_hours_of_operation aws_connect_hours_of_operation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/connect_hours_of_operation aws_connect_hours_of_operation} Resource.
 func NewConnectHoursOfOperation_Override(c ConnectHoursOfOperation, scope constructs.Construct, id *string, config *ConnectHoursOfOperationConfig) {
 	_init_.Initialize()
 

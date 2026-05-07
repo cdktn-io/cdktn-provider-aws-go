@@ -5,14 +5,14 @@ package dataawsbedrockinferenceprofiles
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsbedrockinferenceprofiles/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsbedrockinferenceprofiles/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/bedrock_inference_profiles aws_bedrock_inference_profiles}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/bedrock_inference_profiles aws_bedrock_inference_profiles}.
 type DataAwsBedrockInferenceProfiles interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -309,7 +309,7 @@ func (j *jsiiProxy_DataAwsBedrockInferenceProfiles) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/bedrock_inference_profiles aws_bedrock_inference_profiles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/bedrock_inference_profiles aws_bedrock_inference_profiles} Data Source.
 func NewDataAwsBedrockInferenceProfiles(scope constructs.Construct, id *string, config *DataAwsBedrockInferenceProfilesConfig) DataAwsBedrockInferenceProfiles {
 	_init_.Initialize()
 
@@ -327,7 +327,7 @@ func NewDataAwsBedrockInferenceProfiles(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/bedrock_inference_profiles aws_bedrock_inference_profiles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/bedrock_inference_profiles aws_bedrock_inference_profiles} Data Source.
 func NewDataAwsBedrockInferenceProfiles_Override(d DataAwsBedrockInferenceProfiles, scope constructs.Construct, id *string, config *DataAwsBedrockInferenceProfilesConfig) {
 	_init_.Initialize()
 

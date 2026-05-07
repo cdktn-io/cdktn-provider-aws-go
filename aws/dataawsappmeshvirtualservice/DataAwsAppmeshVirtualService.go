@@ -5,14 +5,14 @@ package dataawsappmeshvirtualservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsappmeshvirtualservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsappmeshvirtualservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/appmesh_virtual_service aws_appmesh_virtual_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/appmesh_virtual_service aws_appmesh_virtual_service}.
 type DataAwsAppmeshVirtualService interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -447,7 +447,7 @@ func (j *jsiiProxy_DataAwsAppmeshVirtualService) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/appmesh_virtual_service aws_appmesh_virtual_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/appmesh_virtual_service aws_appmesh_virtual_service} Data Source.
 func NewDataAwsAppmeshVirtualService(scope constructs.Construct, id *string, config *DataAwsAppmeshVirtualServiceConfig) DataAwsAppmeshVirtualService {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewDataAwsAppmeshVirtualService(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/appmesh_virtual_service aws_appmesh_virtual_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/appmesh_virtual_service aws_appmesh_virtual_service} Data Source.
 func NewDataAwsAppmeshVirtualService_Override(d DataAwsAppmeshVirtualService, scope constructs.Construct, id *string, config *DataAwsAppmeshVirtualServiceConfig) {
 	_init_.Initialize()
 

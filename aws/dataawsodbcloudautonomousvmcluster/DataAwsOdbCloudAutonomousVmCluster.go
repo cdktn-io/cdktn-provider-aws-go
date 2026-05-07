@@ -5,14 +5,14 @@ package dataawsodbcloudautonomousvmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsodbcloudautonomousvmcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsodbcloudautonomousvmcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster}.
 type DataAwsOdbCloudAutonomousVmCluster interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -858,7 +858,7 @@ func (j *jsiiProxy_DataAwsOdbCloudAutonomousVmCluster) TotalContainerDatabases()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster} Data Source.
 func NewDataAwsOdbCloudAutonomousVmCluster(scope constructs.Construct, id *string, config *DataAwsOdbCloudAutonomousVmClusterConfig) DataAwsOdbCloudAutonomousVmCluster {
 	_init_.Initialize()
 
@@ -876,7 +876,7 @@ func NewDataAwsOdbCloudAutonomousVmCluster(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster} Data Source.
 func NewDataAwsOdbCloudAutonomousVmCluster_Override(d DataAwsOdbCloudAutonomousVmCluster, scope constructs.Construct, id *string, config *DataAwsOdbCloudAutonomousVmClusterConfig) {
 	_init_.Initialize()
 

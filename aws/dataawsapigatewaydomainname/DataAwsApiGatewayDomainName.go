@@ -5,14 +5,14 @@ package dataawsapigatewaydomainname
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsapigatewaydomainname/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsapigatewaydomainname/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/api_gateway_domain_name aws_api_gateway_domain_name}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/api_gateway_domain_name aws_api_gateway_domain_name}.
 type DataAwsApiGatewayDomainName interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -523,7 +523,7 @@ func (j *jsiiProxy_DataAwsApiGatewayDomainName) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/api_gateway_domain_name aws_api_gateway_domain_name} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/api_gateway_domain_name aws_api_gateway_domain_name} Data Source.
 func NewDataAwsApiGatewayDomainName(scope constructs.Construct, id *string, config *DataAwsApiGatewayDomainNameConfig) DataAwsApiGatewayDomainName {
 	_init_.Initialize()
 
@@ -541,7 +541,7 @@ func NewDataAwsApiGatewayDomainName(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/api_gateway_domain_name aws_api_gateway_domain_name} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/api_gateway_domain_name aws_api_gateway_domain_name} Data Source.
 func NewDataAwsApiGatewayDomainName_Override(d DataAwsApiGatewayDomainName, scope constructs.Construct, id *string, config *DataAwsApiGatewayDomainNameConfig) {
 	_init_.Initialize()
 

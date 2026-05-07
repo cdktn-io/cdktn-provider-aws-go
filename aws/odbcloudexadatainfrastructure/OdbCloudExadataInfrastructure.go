@@ -5,14 +5,14 @@ package odbcloudexadatainfrastructure
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/odbcloudexadatainfrastructure/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/odbcloudexadatainfrastructure/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/odb_cloud_exadata_infrastructure aws_odb_cloud_exadata_infrastructure}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/odb_cloud_exadata_infrastructure aws_odb_cloud_exadata_infrastructure}.
 type OdbCloudExadataInfrastructure interface {
 	cdktn.TerraformResource
 	ActivatedStorageCount() *float64
@@ -923,7 +923,7 @@ func (j *jsiiProxy_OdbCloudExadataInfrastructure) TotalStorageSizeInGbs() *float
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/odb_cloud_exadata_infrastructure aws_odb_cloud_exadata_infrastructure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/odb_cloud_exadata_infrastructure aws_odb_cloud_exadata_infrastructure} Resource.
 func NewOdbCloudExadataInfrastructure(scope constructs.Construct, id *string, config *OdbCloudExadataInfrastructureConfig) OdbCloudExadataInfrastructure {
 	_init_.Initialize()
 
@@ -941,7 +941,7 @@ func NewOdbCloudExadataInfrastructure(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/odb_cloud_exadata_infrastructure aws_odb_cloud_exadata_infrastructure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/odb_cloud_exadata_infrastructure aws_odb_cloud_exadata_infrastructure} Resource.
 func NewOdbCloudExadataInfrastructure_Override(o OdbCloudExadataInfrastructure, scope constructs.Construct, id *string, config *OdbCloudExadataInfrastructureConfig) {
 	_init_.Initialize()
 

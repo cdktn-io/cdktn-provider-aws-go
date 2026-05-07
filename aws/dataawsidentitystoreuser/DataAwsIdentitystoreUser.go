@@ -5,14 +5,14 @@ package dataawsidentitystoreuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsidentitystoreuser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsidentitystoreuser/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/identitystore_user aws_identitystore_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/identitystore_user aws_identitystore_user}.
 type DataAwsIdentitystoreUser interface {
 	cdktn.TerraformDataSource
 	Addresses() DataAwsIdentitystoreUserAddressesList
@@ -80,6 +80,7 @@ type DataAwsIdentitystoreUser interface {
 	SetUserId(val *string)
 	UserIdInput() *string
 	UserName() *string
+	UserStatus() *string
 	UserType() *string
 	// Experimental.
 	AddOverride(path *string, value interface{})
@@ -512,6 +513,16 @@ func (j *jsiiProxy_DataAwsIdentitystoreUser) UserName() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsIdentitystoreUser) UserStatus() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"userStatus",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsIdentitystoreUser) UserType() *string {
 	var returns *string
 	_jsii_.Get(
@@ -523,7 +534,7 @@ func (j *jsiiProxy_DataAwsIdentitystoreUser) UserType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/identitystore_user aws_identitystore_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/identitystore_user aws_identitystore_user} Data Source.
 func NewDataAwsIdentitystoreUser(scope constructs.Construct, id *string, config *DataAwsIdentitystoreUserConfig) DataAwsIdentitystoreUser {
 	_init_.Initialize()
 
@@ -541,7 +552,7 @@ func NewDataAwsIdentitystoreUser(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/identitystore_user aws_identitystore_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/identitystore_user aws_identitystore_user} Data Source.
 func NewDataAwsIdentitystoreUser_Override(d DataAwsIdentitystoreUser, scope constructs.Construct, id *string, config *DataAwsIdentitystoreUserConfig) {
 	_init_.Initialize()
 

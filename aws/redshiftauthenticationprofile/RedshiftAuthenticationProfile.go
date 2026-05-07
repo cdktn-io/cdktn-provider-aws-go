@@ -5,14 +5,14 @@ package redshiftauthenticationprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/redshiftauthenticationprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/redshiftauthenticationprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_authentication_profile aws_redshift_authentication_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshift_authentication_profile aws_redshift_authentication_profile}.
 type RedshiftAuthenticationProfile interface {
 	cdktn.TerraformResource
 	AuthenticationProfileContent() *string
@@ -389,7 +389,7 @@ func (j *jsiiProxy_RedshiftAuthenticationProfile) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_authentication_profile aws_redshift_authentication_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshift_authentication_profile aws_redshift_authentication_profile} Resource.
 func NewRedshiftAuthenticationProfile(scope constructs.Construct, id *string, config *RedshiftAuthenticationProfileConfig) RedshiftAuthenticationProfile {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewRedshiftAuthenticationProfile(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_authentication_profile aws_redshift_authentication_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshift_authentication_profile aws_redshift_authentication_profile} Resource.
 func NewRedshiftAuthenticationProfile_Override(r RedshiftAuthenticationProfile, scope constructs.Construct, id *string, config *RedshiftAuthenticationProfileConfig) {
 	_init_.Initialize()
 

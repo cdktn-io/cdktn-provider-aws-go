@@ -5,14 +5,14 @@ package cloudfronttruststore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/cloudfronttruststore/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/cloudfronttruststore/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_trust_store aws_cloudfront_trust_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudfront_trust_store aws_cloudfront_trust_store}.
 type CloudfrontTrustStore interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -445,7 +445,7 @@ func (j *jsiiProxy_CloudfrontTrustStore) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_trust_store aws_cloudfront_trust_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudfront_trust_store aws_cloudfront_trust_store} Resource.
 func NewCloudfrontTrustStore(scope constructs.Construct, id *string, config *CloudfrontTrustStoreConfig) CloudfrontTrustStore {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewCloudfrontTrustStore(scope constructs.Construct, id *string, config *Clo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudfront_trust_store aws_cloudfront_trust_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudfront_trust_store aws_cloudfront_trust_store} Resource.
 func NewCloudfrontTrustStore_Override(c CloudfrontTrustStore, scope constructs.Construct, id *string, config *CloudfrontTrustStoreConfig) {
 	_init_.Initialize()
 

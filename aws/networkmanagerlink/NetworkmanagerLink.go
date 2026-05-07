@@ -5,14 +5,14 @@ package networkmanagerlink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/networkmanagerlink/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/networkmanagerlink/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_link aws_networkmanager_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/networkmanager_link aws_networkmanager_link}.
 type NetworkmanagerLink interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -543,7 +543,7 @@ func (j *jsiiProxy_NetworkmanagerLink) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_link aws_networkmanager_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/networkmanager_link aws_networkmanager_link} Resource.
 func NewNetworkmanagerLink(scope constructs.Construct, id *string, config *NetworkmanagerLinkConfig) NetworkmanagerLink {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewNetworkmanagerLink(scope constructs.Construct, id *string, config *Netwo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_link aws_networkmanager_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/networkmanager_link aws_networkmanager_link} Resource.
 func NewNetworkmanagerLink_Override(n NetworkmanagerLink, scope constructs.Construct, id *string, config *NetworkmanagerLinkConfig) {
 	_init_.Initialize()
 

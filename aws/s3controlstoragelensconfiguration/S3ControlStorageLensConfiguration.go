@@ -5,14 +5,14 @@ package s3controlstoragelensconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/s3controlstoragelensconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/s3controlstoragelensconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3control_storage_lens_configuration aws_s3control_storage_lens_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3control_storage_lens_configuration aws_s3control_storage_lens_configuration}.
 type S3ControlStorageLensConfiguration interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -472,7 +472,7 @@ func (j *jsiiProxy_S3ControlStorageLensConfiguration) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3control_storage_lens_configuration aws_s3control_storage_lens_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3control_storage_lens_configuration aws_s3control_storage_lens_configuration} Resource.
 func NewS3ControlStorageLensConfiguration(scope constructs.Construct, id *string, config *S3ControlStorageLensConfigurationConfig) S3ControlStorageLensConfiguration {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewS3ControlStorageLensConfiguration(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3control_storage_lens_configuration aws_s3control_storage_lens_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3control_storage_lens_configuration aws_s3control_storage_lens_configuration} Resource.
 func NewS3ControlStorageLensConfiguration_Override(s S3ControlStorageLensConfiguration, scope constructs.Construct, id *string, config *S3ControlStorageLensConfigurationConfig) {
 	_init_.Initialize()
 

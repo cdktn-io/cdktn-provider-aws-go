@@ -377,6 +377,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 			_jsii_.MemberProperty{JsiiProperty: "userId", GoGetter: "UserId"},
 			_jsii_.MemberProperty{JsiiProperty: "userName", GoGetter: "UserName"},
+			_jsii_.MemberProperty{JsiiProperty: "userStatus", GoGetter: "UserStatus"},
 			_jsii_.MemberProperty{JsiiProperty: "userType", GoGetter: "UserType"},
 		},
 		func() interface{} {

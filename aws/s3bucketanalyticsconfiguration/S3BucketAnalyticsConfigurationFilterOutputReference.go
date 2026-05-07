@@ -5,9 +5,9 @@ package s3bucketanalyticsconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/s3bucketanalyticsconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/s3bucketanalyticsconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

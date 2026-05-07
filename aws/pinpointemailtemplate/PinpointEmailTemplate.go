@@ -5,14 +5,14 @@ package pinpointemailtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/pinpointemailtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/pinpointemailtemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pinpoint_email_template aws_pinpoint_email_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/pinpoint_email_template aws_pinpoint_email_template}.
 type PinpointEmailTemplate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -412,7 +412,7 @@ func (j *jsiiProxy_PinpointEmailTemplate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pinpoint_email_template aws_pinpoint_email_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/pinpoint_email_template aws_pinpoint_email_template} Resource.
 func NewPinpointEmailTemplate(scope constructs.Construct, id *string, config *PinpointEmailTemplateConfig) PinpointEmailTemplate {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewPinpointEmailTemplate(scope constructs.Construct, id *string, config *Pi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/pinpoint_email_template aws_pinpoint_email_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/pinpoint_email_template aws_pinpoint_email_template} Resource.
 func NewPinpointEmailTemplate_Override(p PinpointEmailTemplate, scope constructs.Construct, id *string, config *PinpointEmailTemplateConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsnetworkmanagerlink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsnetworkmanagerlink/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsnetworkmanagerlink/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/networkmanager_link aws_networkmanager_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/networkmanager_link aws_networkmanager_link}.
 type DataAwsNetworkmanagerLink interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -410,7 +410,7 @@ func (j *jsiiProxy_DataAwsNetworkmanagerLink) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/networkmanager_link aws_networkmanager_link} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/networkmanager_link aws_networkmanager_link} Data Source.
 func NewDataAwsNetworkmanagerLink(scope constructs.Construct, id *string, config *DataAwsNetworkmanagerLinkConfig) DataAwsNetworkmanagerLink {
 	_init_.Initialize()
 
@@ -428,7 +428,7 @@ func NewDataAwsNetworkmanagerLink(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/networkmanager_link aws_networkmanager_link} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/networkmanager_link aws_networkmanager_link} Data Source.
 func NewDataAwsNetworkmanagerLink_Override(d DataAwsNetworkmanagerLink, scope constructs.Construct, id *string, config *DataAwsNetworkmanagerLinkConfig) {
 	_init_.Initialize()
 

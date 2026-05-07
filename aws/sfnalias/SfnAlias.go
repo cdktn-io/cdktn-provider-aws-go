@@ -5,14 +5,14 @@ package sfnalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/sfnalias/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/sfnalias/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sfn_alias aws_sfn_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/sfn_alias aws_sfn_alias}.
 type SfnAlias interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_SfnAlias) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sfn_alias aws_sfn_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/sfn_alias aws_sfn_alias} Resource.
 func NewSfnAlias(scope constructs.Construct, id *string, config *SfnAliasConfig) SfnAlias {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewSfnAlias(scope constructs.Construct, id *string, config *SfnAliasConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/sfn_alias aws_sfn_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/sfn_alias aws_sfn_alias} Resource.
 func NewSfnAlias_Override(s SfnAlias, scope constructs.Construct, id *string, config *SfnAliasConfig) {
 	_init_.Initialize()
 

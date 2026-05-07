@@ -5,14 +5,14 @@ package lakeformationresourcelftag
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lakeformationresourcelftag/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/lakeformationresourcelftag/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lakeformation_resource_lf_tag aws_lakeformation_resource_lf_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lakeformation_resource_lf_tag aws_lakeformation_resource_lf_tag}.
 type LakeformationResourceLfTag interface {
 	cdktn.TerraformResource
 	CatalogId() *string
@@ -474,7 +474,7 @@ func (j *jsiiProxy_LakeformationResourceLfTag) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lakeformation_resource_lf_tag aws_lakeformation_resource_lf_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lakeformation_resource_lf_tag aws_lakeformation_resource_lf_tag} Resource.
 func NewLakeformationResourceLfTag(scope constructs.Construct, id *string, config *LakeformationResourceLfTagConfig) LakeformationResourceLfTag {
 	_init_.Initialize()
 
@@ -492,7 +492,7 @@ func NewLakeformationResourceLfTag(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lakeformation_resource_lf_tag aws_lakeformation_resource_lf_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lakeformation_resource_lf_tag aws_lakeformation_resource_lf_tag} Resource.
 func NewLakeformationResourceLfTag_Override(l LakeformationResourceLfTag, scope constructs.Construct, id *string, config *LakeformationResourceLfTagConfig) {
 	_init_.Initialize()
 

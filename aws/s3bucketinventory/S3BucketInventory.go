@@ -5,14 +5,14 @@ package s3bucketinventory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/s3bucketinventory/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/s3bucketinventory/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_inventory aws_s3_bucket_inventory}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3_bucket_inventory aws_s3_bucket_inventory}.
 type S3BucketInventory interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -530,7 +530,7 @@ func (j *jsiiProxy_S3BucketInventory) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_inventory aws_s3_bucket_inventory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3_bucket_inventory aws_s3_bucket_inventory} Resource.
 func NewS3BucketInventory(scope constructs.Construct, id *string, config *S3BucketInventoryConfig) S3BucketInventory {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewS3BucketInventory(scope constructs.Construct, id *string, config *S3Buck
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3_bucket_inventory aws_s3_bucket_inventory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3_bucket_inventory aws_s3_bucket_inventory} Resource.
 func NewS3BucketInventory_Override(s S3BucketInventory, scope constructs.Construct, id *string, config *S3BucketInventoryConfig) {
 	_init_.Initialize()
 

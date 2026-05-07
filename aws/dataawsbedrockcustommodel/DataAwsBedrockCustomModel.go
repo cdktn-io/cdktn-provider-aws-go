@@ -5,14 +5,14 @@ package dataawsbedrockcustommodel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsbedrockcustommodel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsbedrockcustommodel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/bedrock_custom_model aws_bedrock_custom_model}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/bedrock_custom_model aws_bedrock_custom_model}.
 type DataAwsBedrockCustomModel interface {
 	cdktn.TerraformDataSource
 	BaseModelArn() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsBedrockCustomModel) ValidationMetrics() DataAwsBedrock
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/bedrock_custom_model aws_bedrock_custom_model} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/bedrock_custom_model aws_bedrock_custom_model} Data Source.
 func NewDataAwsBedrockCustomModel(scope constructs.Construct, id *string, config *DataAwsBedrockCustomModelConfig) DataAwsBedrockCustomModel {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsBedrockCustomModel(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/bedrock_custom_model aws_bedrock_custom_model} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/bedrock_custom_model aws_bedrock_custom_model} Data Source.
 func NewDataAwsBedrockCustomModel_Override(d DataAwsBedrockCustomModel, scope constructs.Construct, id *string, config *DataAwsBedrockCustomModelConfig) {
 	_init_.Initialize()
 

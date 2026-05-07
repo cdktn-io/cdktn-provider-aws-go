@@ -5,14 +5,14 @@ package dataawsmskconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsmskconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsmskconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/msk_configuration aws_msk_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/msk_configuration aws_msk_configuration}.
 type DataAwsMskConfiguration interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -376,7 +376,7 @@ func (j *jsiiProxy_DataAwsMskConfiguration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/msk_configuration aws_msk_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/msk_configuration aws_msk_configuration} Data Source.
 func NewDataAwsMskConfiguration(scope constructs.Construct, id *string, config *DataAwsMskConfigurationConfig) DataAwsMskConfiguration {
 	_init_.Initialize()
 
@@ -394,7 +394,7 @@ func NewDataAwsMskConfiguration(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/msk_configuration aws_msk_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/msk_configuration aws_msk_configuration} Data Source.
 func NewDataAwsMskConfiguration_Override(d DataAwsMskConfiguration, scope constructs.Construct, id *string, config *DataAwsMskConfigurationConfig) {
 	_init_.Initialize()
 

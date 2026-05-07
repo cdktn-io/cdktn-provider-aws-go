@@ -5,14 +5,14 @@ package s3tablestablebucketreplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/s3tablestablebucketreplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/s3tablestablebucketreplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3tables_table_bucket_replication aws_s3tables_table_bucket_replication}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3tables_table_bucket_replication aws_s3tables_table_bucket_replication}.
 type S3TablesTableBucketReplication interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_S3TablesTableBucketReplication) VersionToken() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3tables_table_bucket_replication aws_s3tables_table_bucket_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3tables_table_bucket_replication aws_s3tables_table_bucket_replication} Resource.
 func NewS3TablesTableBucketReplication(scope constructs.Construct, id *string, config *S3TablesTableBucketReplicationConfig) S3TablesTableBucketReplication {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewS3TablesTableBucketReplication(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3tables_table_bucket_replication aws_s3tables_table_bucket_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3tables_table_bucket_replication aws_s3tables_table_bucket_replication} Resource.
 func NewS3TablesTableBucketReplication_Override(s S3TablesTableBucketReplication, scope constructs.Construct, id *string, config *S3TablesTableBucketReplicationConfig) {
 	_init_.Initialize()
 

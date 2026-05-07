@@ -5,14 +5,14 @@ package networkmanagerattachmentroutingpolicylabel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/networkmanagerattachmentroutingpolicylabel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/networkmanagerattachmentroutingpolicylabel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_attachment_routing_policy_label aws_networkmanager_attachment_routing_policy_label}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/networkmanager_attachment_routing_policy_label aws_networkmanager_attachment_routing_policy_label}.
 type NetworkmanagerAttachmentRoutingPolicyLabel interface {
 	cdktn.TerraformResource
 	AttachmentId() *string
@@ -364,7 +364,7 @@ func (j *jsiiProxy_NetworkmanagerAttachmentRoutingPolicyLabel) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_attachment_routing_policy_label aws_networkmanager_attachment_routing_policy_label} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/networkmanager_attachment_routing_policy_label aws_networkmanager_attachment_routing_policy_label} Resource.
 func NewNetworkmanagerAttachmentRoutingPolicyLabel(scope constructs.Construct, id *string, config *NetworkmanagerAttachmentRoutingPolicyLabelConfig) NetworkmanagerAttachmentRoutingPolicyLabel {
 	_init_.Initialize()
 
@@ -382,7 +382,7 @@ func NewNetworkmanagerAttachmentRoutingPolicyLabel(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkmanager_attachment_routing_policy_label aws_networkmanager_attachment_routing_policy_label} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/networkmanager_attachment_routing_policy_label aws_networkmanager_attachment_routing_policy_label} Resource.
 func NewNetworkmanagerAttachmentRoutingPolicyLabel_Override(n NetworkmanagerAttachmentRoutingPolicyLabel, scope constructs.Construct, id *string, config *NetworkmanagerAttachmentRoutingPolicyLabelConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package bedrockguardrail
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/bedrockguardrail/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/bedrockguardrail/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrock_guardrail aws_bedrock_guardrail}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/bedrock_guardrail aws_bedrock_guardrail}.
 type BedrockGuardrail interface {
 	cdktn.TerraformResource
 	BlockedInputMessaging() *string
@@ -694,7 +694,7 @@ func (j *jsiiProxy_BedrockGuardrail) WordPolicyConfigInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrock_guardrail aws_bedrock_guardrail} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/bedrock_guardrail aws_bedrock_guardrail} Resource.
 func NewBedrockGuardrail(scope constructs.Construct, id *string, config *BedrockGuardrailConfig) BedrockGuardrail {
 	_init_.Initialize()
 
@@ -712,7 +712,7 @@ func NewBedrockGuardrail(scope constructs.Construct, id *string, config *Bedrock
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrock_guardrail aws_bedrock_guardrail} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/bedrock_guardrail aws_bedrock_guardrail} Resource.
 func NewBedrockGuardrail_Override(b BedrockGuardrail, scope constructs.Construct, id *string, config *BedrockGuardrailConfig) {
 	_init_.Initialize()
 

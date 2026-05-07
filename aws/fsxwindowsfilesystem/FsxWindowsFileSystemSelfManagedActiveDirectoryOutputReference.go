@@ -5,9 +5,9 @@ package fsxwindowsfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/fsxwindowsfilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/fsxwindowsfilesystem/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -50,6 +50,12 @@ type FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference interface {
 	Password() *string
 	SetPassword(val *string)
 	PasswordInput() *string
+	PasswordWo() *string
+	SetPasswordWo(val *string)
+	PasswordWoInput() *string
+	PasswordWoVersion() *float64
+	SetPasswordWoVersion(val *float64)
+	PasswordWoVersionInput() *float64
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -89,6 +95,8 @@ type FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference interface {
 	ResetFileSystemAdministratorsGroup()
 	ResetOrganizationalUnitDistinguishedName()
 	ResetPassword()
+	ResetPasswordWo()
+	ResetPasswordWoVersion()
 	ResetUsername()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -275,6 +283,46 @@ func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference
 	return returns
 }
 
+func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference) PasswordWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"passwordWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference) PasswordWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"passwordWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference) PasswordWoVersion() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"passwordWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference) PasswordWoVersionInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"passwordWoVersionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -438,6 +486,28 @@ func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference
 	_jsii_.Set(
 		j,
 		"password",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference)SetPasswordWo(val *string) {
+	if err := j.validateSetPasswordWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"passwordWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference)SetPasswordWoVersion(val *float64) {
+	if err := j.validateSetPasswordWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"passwordWoVersion",
 		val,
 	)
 }
@@ -689,6 +759,22 @@ func (f *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference
 	_jsii_.InvokeVoid(
 		f,
 		"resetPassword",
+		nil, // no parameters
+	)
+}
+
+func (f *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference) ResetPasswordWo() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetPasswordWo",
+		nil, // no parameters
+	)
+}
+
+func (f *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference) ResetPasswordWoVersion() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetPasswordWoVersion",
 		nil, // no parameters
 	)
 }

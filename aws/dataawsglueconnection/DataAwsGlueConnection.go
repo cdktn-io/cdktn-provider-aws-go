@@ -5,18 +5,19 @@ package dataawsglueconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsglueconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsglueconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/glue_connection aws_glue_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/glue_connection aws_glue_connection}.
 type DataAwsGlueConnection interface {
 	cdktn.TerraformDataSource
 	Arn() *string
 	AthenaProperties() cdktn.StringMap
+	AuthenticationConfiguration() DataAwsGlueConnectionAuthenticationConfigurationList
 	CatalogId() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
@@ -144,6 +145,16 @@ func (j *jsiiProxy_DataAwsGlueConnection) AthenaProperties() cdktn.StringMap {
 	_jsii_.Get(
 		j,
 		"athenaProperties",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsGlueConnection) AuthenticationConfiguration() DataAwsGlueConnectionAuthenticationConfigurationList {
+	var returns DataAwsGlueConnectionAuthenticationConfigurationList
+	_jsii_.Get(
+		j,
+		"authenticationConfiguration",
 		&returns,
 	)
 	return returns
@@ -420,7 +431,7 @@ func (j *jsiiProxy_DataAwsGlueConnection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/glue_connection aws_glue_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/glue_connection aws_glue_connection} Data Source.
 func NewDataAwsGlueConnection(scope constructs.Construct, id *string, config *DataAwsGlueConnectionConfig) DataAwsGlueConnection {
 	_init_.Initialize()
 
@@ -438,7 +449,7 @@ func NewDataAwsGlueConnection(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/glue_connection aws_glue_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/glue_connection aws_glue_connection} Data Source.
 func NewDataAwsGlueConnection_Override(d DataAwsGlueConnection, scope constructs.Construct, id *string, config *DataAwsGlueConnectionConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsvpclatticeresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsvpclatticeresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsvpclatticeresourcepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/vpclattice_resource_policy aws_vpclattice_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/vpclattice_resource_policy aws_vpclattice_resource_policy}.
 type DataAwsVpclatticeResourcePolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataAwsVpclatticeResourcePolicy) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/vpclattice_resource_policy aws_vpclattice_resource_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/vpclattice_resource_policy aws_vpclattice_resource_policy} Data Source.
 func NewDataAwsVpclatticeResourcePolicy(scope constructs.Construct, id *string, config *DataAwsVpclatticeResourcePolicyConfig) DataAwsVpclatticeResourcePolicy {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewDataAwsVpclatticeResourcePolicy(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/vpclattice_resource_policy aws_vpclattice_resource_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/vpclattice_resource_policy aws_vpclattice_resource_policy} Data Source.
 func NewDataAwsVpclatticeResourcePolicy_Override(d DataAwsVpclatticeResourcePolicy, scope constructs.Construct, id *string, config *DataAwsVpclatticeResourcePolicyConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package ecrrepositorypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ecrrepositorypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/ecrrepositorypolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecr_repository_policy aws_ecr_repository_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ecr_repository_policy aws_ecr_repository_policy}.
 type EcrRepositoryPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_EcrRepositoryPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecr_repository_policy aws_ecr_repository_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ecr_repository_policy aws_ecr_repository_policy} Resource.
 func NewEcrRepositoryPolicy(scope constructs.Construct, id *string, config *EcrRepositoryPolicyConfig) EcrRepositoryPolicy {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewEcrRepositoryPolicy(scope constructs.Construct, id *string, config *EcrR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ecr_repository_policy aws_ecr_repository_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ecr_repository_policy aws_ecr_repository_policy} Resource.
 func NewEcrRepositoryPolicy_Override(e EcrRepositoryPolicy, scope constructs.Construct, id *string, config *EcrRepositoryPolicyConfig) {
 	_init_.Initialize()
 

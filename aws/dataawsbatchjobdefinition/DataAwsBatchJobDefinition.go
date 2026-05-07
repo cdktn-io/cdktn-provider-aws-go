@@ -5,14 +5,14 @@ package dataawsbatchjobdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsbatchjobdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsbatchjobdefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/batch_job_definition aws_batch_job_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/batch_job_definition aws_batch_job_definition}.
 type DataAwsBatchJobDefinition interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -480,7 +480,7 @@ func (j *jsiiProxy_DataAwsBatchJobDefinition) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/batch_job_definition aws_batch_job_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/batch_job_definition aws_batch_job_definition} Data Source.
 func NewDataAwsBatchJobDefinition(scope constructs.Construct, id *string, config *DataAwsBatchJobDefinitionConfig) DataAwsBatchJobDefinition {
 	_init_.Initialize()
 
@@ -498,7 +498,7 @@ func NewDataAwsBatchJobDefinition(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/batch_job_definition aws_batch_job_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/batch_job_definition aws_batch_job_definition} Data Source.
 func NewDataAwsBatchJobDefinition_Override(d DataAwsBatchJobDefinition, scope constructs.Construct, id *string, config *DataAwsBatchJobDefinitionConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package vpcendpointservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/vpcendpointservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/vpcendpointservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc_endpoint_service aws_vpc_endpoint_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/vpc_endpoint_service aws_vpc_endpoint_service}.
 type VpcEndpointService interface {
 	cdktn.TerraformResource
 	AcceptanceRequired() interface{}
@@ -670,7 +670,7 @@ func (j *jsiiProxy_VpcEndpointService) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc_endpoint_service aws_vpc_endpoint_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/vpc_endpoint_service aws_vpc_endpoint_service} Resource.
 func NewVpcEndpointService(scope constructs.Construct, id *string, config *VpcEndpointServiceConfig) VpcEndpointService {
 	_init_.Initialize()
 
@@ -688,7 +688,7 @@ func NewVpcEndpointService(scope constructs.Construct, id *string, config *VpcEn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc_endpoint_service aws_vpc_endpoint_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/vpc_endpoint_service aws_vpc_endpoint_service} Resource.
 func NewVpcEndpointService_Override(v VpcEndpointService, scope constructs.Construct, id *string, config *VpcEndpointServiceConfig) {
 	_init_.Initialize()
 

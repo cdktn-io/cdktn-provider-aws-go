@@ -5,14 +5,14 @@ package dataawsssmmaintenancewindows
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsssmmaintenancewindows/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsssmmaintenancewindows/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ssm_maintenance_windows aws_ssm_maintenance_windows}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ssm_maintenance_windows aws_ssm_maintenance_windows}.
 type DataAwsSsmMaintenanceWindows interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -333,7 +333,7 @@ func (j *jsiiProxy_DataAwsSsmMaintenanceWindows) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ssm_maintenance_windows aws_ssm_maintenance_windows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ssm_maintenance_windows aws_ssm_maintenance_windows} Data Source.
 func NewDataAwsSsmMaintenanceWindows(scope constructs.Construct, id *string, config *DataAwsSsmMaintenanceWindowsConfig) DataAwsSsmMaintenanceWindows {
 	_init_.Initialize()
 
@@ -351,7 +351,7 @@ func NewDataAwsSsmMaintenanceWindows(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ssm_maintenance_windows aws_ssm_maintenance_windows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ssm_maintenance_windows aws_ssm_maintenance_windows} Data Source.
 func NewDataAwsSsmMaintenanceWindows_Override(d DataAwsSsmMaintenanceWindows, scope constructs.Construct, id *string, config *DataAwsSsmMaintenanceWindowsConfig) {
 	_init_.Initialize()
 

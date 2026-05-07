@@ -5,14 +5,14 @@ package iamservicespecificcredential
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/iamservicespecificcredential/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/iamservicespecificcredential/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iam_service_specific_credential aws_iam_service_specific_credential}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/iam_service_specific_credential aws_iam_service_specific_credential}.
 type IamServiceSpecificCredential interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -490,7 +490,7 @@ func (j *jsiiProxy_IamServiceSpecificCredential) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iam_service_specific_credential aws_iam_service_specific_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/iam_service_specific_credential aws_iam_service_specific_credential} Resource.
 func NewIamServiceSpecificCredential(scope constructs.Construct, id *string, config *IamServiceSpecificCredentialConfig) IamServiceSpecificCredential {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewIamServiceSpecificCredential(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iam_service_specific_credential aws_iam_service_specific_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/iam_service_specific_credential aws_iam_service_specific_credential} Resource.
 func NewIamServiceSpecificCredential_Override(i IamServiceSpecificCredential, scope constructs.Construct, id *string, config *IamServiceSpecificCredentialConfig) {
 	_init_.Initialize()
 

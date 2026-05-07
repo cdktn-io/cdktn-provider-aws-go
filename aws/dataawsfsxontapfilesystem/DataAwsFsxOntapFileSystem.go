@@ -5,14 +5,14 @@ package dataawsfsxontapfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsfsxontapfilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsfsxontapfilesystem/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/fsx_ontap_file_system aws_fsx_ontap_file_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/fsx_ontap_file_system aws_fsx_ontap_file_system}.
 type DataAwsFsxOntapFileSystem interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -552,7 +552,7 @@ func (j *jsiiProxy_DataAwsFsxOntapFileSystem) WeeklyMaintenanceStartTime() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/fsx_ontap_file_system aws_fsx_ontap_file_system} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/fsx_ontap_file_system aws_fsx_ontap_file_system} Data Source.
 func NewDataAwsFsxOntapFileSystem(scope constructs.Construct, id *string, config *DataAwsFsxOntapFileSystemConfig) DataAwsFsxOntapFileSystem {
 	_init_.Initialize()
 
@@ -570,7 +570,7 @@ func NewDataAwsFsxOntapFileSystem(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/fsx_ontap_file_system aws_fsx_ontap_file_system} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/fsx_ontap_file_system aws_fsx_ontap_file_system} Data Source.
 func NewDataAwsFsxOntapFileSystem_Override(d DataAwsFsxOntapFileSystem, scope constructs.Construct, id *string, config *DataAwsFsxOntapFileSystemConfig) {
 	_init_.Initialize()
 

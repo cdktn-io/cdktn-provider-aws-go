@@ -63,6 +63,10 @@ func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutp
 	return nil
 }
 
+func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutputReference) validatePutExpandedPrefixesDataExportParameters(value *S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPrefixesDataExport) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutputReference) validatePutIncludeParameters(value *S3ControlStorageLensConfigurationStorageLensConfigurationInclude) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutp
 }
 
 func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutputReference) validateSetInternalValueParameters(val *S3ControlStorageLensConfigurationStorageLensConfiguration) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3ControlStorageLensConfigurationStorageLensConfigurationOutputReference) validateSetPrefixDelimiterParameters(val *string) error {
 	return nil
 }
 

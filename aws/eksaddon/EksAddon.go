@@ -5,14 +5,14 @@ package eksaddon
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/eksaddon/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/eksaddon/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/eks_addon aws_eks_addon}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/eks_addon aws_eks_addon}.
 type EksAddon interface {
 	cdktn.TerraformResource
 	AddonName() *string
@@ -61,6 +61,8 @@ type EksAddon interface {
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	ModifiedAt() *string
+	NamespaceConfig() EksAddonNamespaceConfigOutputReference
+	NamespaceConfigInput() *EksAddonNamespaceConfig
 	// The tree node.
 	Node() constructs.Node
 	PodIdentityAssociation() EksAddonPodIdentityAssociationList
@@ -147,11 +149,13 @@ type EksAddon interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutNamespaceConfig(value *EksAddonNamespaceConfig)
 	PutPodIdentityAssociation(value interface{})
 	PutTimeouts(value *EksAddonTimeouts)
 	ResetAddonVersion()
 	ResetConfigurationValues()
 	ResetId()
+	ResetNamespaceConfig()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -411,6 +415,26 @@ func (j *jsiiProxy_EksAddon) ModifiedAt() *string {
 	return returns
 }
 
+func (j *jsiiProxy_EksAddon) NamespaceConfig() EksAddonNamespaceConfigOutputReference {
+	var returns EksAddonNamespaceConfigOutputReference
+	_jsii_.Get(
+		j,
+		"namespaceConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksAddon) NamespaceConfigInput() *EksAddonNamespaceConfig {
+	var returns *EksAddonNamespaceConfig
+	_jsii_.Get(
+		j,
+		"namespaceConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_EksAddon) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -662,7 +686,7 @@ func (j *jsiiProxy_EksAddon) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/eks_addon aws_eks_addon} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/eks_addon aws_eks_addon} Resource.
 func NewEksAddon(scope constructs.Construct, id *string, config *EksAddonConfig) EksAddon {
 	_init_.Initialize()
 
@@ -680,7 +704,7 @@ func NewEksAddon(scope constructs.Construct, id *string, config *EksAddonConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/eks_addon aws_eks_addon} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/eks_addon aws_eks_addon} Resource.
 func NewEksAddon_Override(e EksAddon, scope constructs.Construct, id *string, config *EksAddonConfig) {
 	_init_.Initialize()
 
@@ -1244,6 +1268,17 @@ func (e *jsiiProxy_EksAddon) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (e *jsiiProxy_EksAddon) PutNamespaceConfig(value *EksAddonNamespaceConfig) {
+	if err := e.validatePutNamespaceConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putNamespaceConfig",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_EksAddon) PutPodIdentityAssociation(value interface{}) {
 	if err := e.validatePutPodIdentityAssociationParameters(value); err != nil {
 		panic(err)
@@ -1286,6 +1321,14 @@ func (e *jsiiProxy_EksAddon) ResetId() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EksAddon) ResetNamespaceConfig() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetNamespaceConfig",
 		nil, // no parameters
 	)
 }

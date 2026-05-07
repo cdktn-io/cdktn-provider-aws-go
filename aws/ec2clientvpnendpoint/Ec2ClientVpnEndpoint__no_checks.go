@@ -95,6 +95,10 @@ func (e *jsiiProxy_Ec2ClientVpnEndpoint) validatePutConnectionLogOptionsParamete
 	return nil
 }
 
+func (e *jsiiProxy_Ec2ClientVpnEndpoint) validatePutTransitGatewayConfigurationParameters(value *Ec2ClientVpnEndpointTransitGatewayConfiguration) error {
+	return nil
+}
+
 func validateEc2ClientVpnEndpoint_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

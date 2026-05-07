@@ -5,14 +5,14 @@ package appsyncdatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appsyncdatasource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/appsyncdatasource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource aws_appsync_datasource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/appsync_datasource aws_appsync_datasource}.
 type AppsyncDatasource interface {
 	cdktn.TerraformResource
 	ApiId() *string
@@ -639,7 +639,7 @@ func (j *jsiiProxy_AppsyncDatasource) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource aws_appsync_datasource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/appsync_datasource aws_appsync_datasource} Resource.
 func NewAppsyncDatasource(scope constructs.Construct, id *string, config *AppsyncDatasourceConfig) AppsyncDatasource {
 	_init_.Initialize()
 
@@ -657,7 +657,7 @@ func NewAppsyncDatasource(scope constructs.Construct, id *string, config *Appsyn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appsync_datasource aws_appsync_datasource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/appsync_datasource aws_appsync_datasource} Resource.
 func NewAppsyncDatasource_Override(a AppsyncDatasource, scope constructs.Construct, id *string, config *AppsyncDatasourceConfig) {
 	_init_.Initialize()
 

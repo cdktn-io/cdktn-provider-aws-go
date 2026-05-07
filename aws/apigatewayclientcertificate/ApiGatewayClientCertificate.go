@@ -5,14 +5,14 @@ package apigatewayclientcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/apigatewayclientcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/apigatewayclientcertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/api_gateway_client_certificate aws_api_gateway_client_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/api_gateway_client_certificate aws_api_gateway_client_certificate}.
 type ApiGatewayClientCertificate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_ApiGatewayClientCertificate) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/api_gateway_client_certificate aws_api_gateway_client_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/api_gateway_client_certificate aws_api_gateway_client_certificate} Resource.
 func NewApiGatewayClientCertificate(scope constructs.Construct, id *string, config *ApiGatewayClientCertificateConfig) ApiGatewayClientCertificate {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewApiGatewayClientCertificate(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/api_gateway_client_certificate aws_api_gateway_client_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/api_gateway_client_certificate aws_api_gateway_client_certificate} Resource.
 func NewApiGatewayClientCertificate_Override(a ApiGatewayClientCertificate, scope constructs.Construct, id *string, config *ApiGatewayClientCertificateConfig) {
 	_init_.Initialize()
 

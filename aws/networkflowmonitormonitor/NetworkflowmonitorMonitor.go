@@ -5,14 +5,14 @@ package networkflowmonitormonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/networkflowmonitormonitor/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/networkflowmonitormonitor/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkflowmonitor_monitor aws_networkflowmonitor_monitor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/networkflowmonitor_monitor aws_networkflowmonitor_monitor}.
 type NetworkflowmonitorMonitor interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -483,7 +483,7 @@ func (j *jsiiProxy_NetworkflowmonitorMonitor) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkflowmonitor_monitor aws_networkflowmonitor_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/networkflowmonitor_monitor aws_networkflowmonitor_monitor} Resource.
 func NewNetworkflowmonitorMonitor(scope constructs.Construct, id *string, config *NetworkflowmonitorMonitorConfig) NetworkflowmonitorMonitor {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewNetworkflowmonitorMonitor(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/networkflowmonitor_monitor aws_networkflowmonitor_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/networkflowmonitor_monitor aws_networkflowmonitor_monitor} Resource.
 func NewNetworkflowmonitorMonitor_Override(n NetworkflowmonitorMonitor, scope constructs.Construct, id *string, config *NetworkflowmonitorMonitorConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package transcribevocabularyfilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/transcribevocabularyfilter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/transcribevocabularyfilter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter}.
 type TranscribeVocabularyFilter interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -507,7 +507,7 @@ func (j *jsiiProxy_TranscribeVocabularyFilter) WordsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter} Resource.
 func NewTranscribeVocabularyFilter(scope constructs.Construct, id *string, config *TranscribeVocabularyFilterConfig) TranscribeVocabularyFilter {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewTranscribeVocabularyFilter(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter} Resource.
 func NewTranscribeVocabularyFilter_Override(t TranscribeVocabularyFilter, scope constructs.Construct, id *string, config *TranscribeVocabularyFilterConfig) {
 	_init_.Initialize()
 

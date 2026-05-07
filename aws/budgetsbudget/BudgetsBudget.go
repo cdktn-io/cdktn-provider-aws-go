@@ -5,14 +5,14 @@ package budgetsbudget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/budgetsbudget/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/budgetsbudget/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/budgets_budget aws_budgets_budget}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/budgets_budget aws_budgets_budget}.
 type BudgetsBudget interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -784,7 +784,7 @@ func (j *jsiiProxy_BudgetsBudget) TimeUnitInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/budgets_budget aws_budgets_budget} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/budgets_budget aws_budgets_budget} Resource.
 func NewBudgetsBudget(scope constructs.Construct, id *string, config *BudgetsBudgetConfig) BudgetsBudget {
 	_init_.Initialize()
 
@@ -802,7 +802,7 @@ func NewBudgetsBudget(scope constructs.Construct, id *string, config *BudgetsBud
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/budgets_budget aws_budgets_budget} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/budgets_budget aws_budgets_budget} Resource.
 func NewBudgetsBudget_Override(b BudgetsBudget, scope constructs.Construct, id *string, config *BudgetsBudgetConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package lightsailstaticip
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lightsailstaticip/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/lightsailstaticip/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lightsail_static_ip aws_lightsail_static_ip}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lightsail_static_ip aws_lightsail_static_ip}.
 type LightsailStaticIp interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -399,7 +399,7 @@ func (j *jsiiProxy_LightsailStaticIp) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lightsail_static_ip aws_lightsail_static_ip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lightsail_static_ip aws_lightsail_static_ip} Resource.
 func NewLightsailStaticIp(scope constructs.Construct, id *string, config *LightsailStaticIpConfig) LightsailStaticIp {
 	_init_.Initialize()
 
@@ -417,7 +417,7 @@ func NewLightsailStaticIp(scope constructs.Construct, id *string, config *Lights
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lightsail_static_ip aws_lightsail_static_ip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lightsail_static_ip aws_lightsail_static_ip} Resource.
 func NewLightsailStaticIp_Override(l LightsailStaticIp, scope constructs.Construct, id *string, config *LightsailStaticIpConfig) {
 	_init_.Initialize()
 

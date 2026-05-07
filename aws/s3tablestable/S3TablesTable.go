@@ -5,14 +5,14 @@ package s3tablestable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/s3tablestable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/s3tablestable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3tables_table aws_s3tables_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3tables_table aws_s3tables_table}.
 type S3TablesTable interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -628,7 +628,7 @@ func (j *jsiiProxy_S3TablesTable) WarehouseLocation() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3tables_table aws_s3tables_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3tables_table aws_s3tables_table} Resource.
 func NewS3TablesTable(scope constructs.Construct, id *string, config *S3TablesTableConfig) S3TablesTable {
 	_init_.Initialize()
 
@@ -646,7 +646,7 @@ func NewS3TablesTable(scope constructs.Construct, id *string, config *S3TablesTa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/s3tables_table aws_s3tables_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/s3tables_table aws_s3tables_table} Resource.
 func NewS3TablesTable_Override(s S3TablesTable, scope constructs.Construct, id *string, config *S3TablesTableConfig) {
 	_init_.Initialize()
 

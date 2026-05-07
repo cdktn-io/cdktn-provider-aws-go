@@ -5,14 +5,14 @@ package snapshotcreatevolumepermission
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/snapshotcreatevolumepermission/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/snapshotcreatevolumepermission/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/snapshot_create_volume_permission aws_snapshot_create_volume_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/snapshot_create_volume_permission aws_snapshot_create_volume_permission}.
 type SnapshotCreateVolumePermission interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -413,7 +413,7 @@ func (j *jsiiProxy_SnapshotCreateVolumePermission) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/snapshot_create_volume_permission aws_snapshot_create_volume_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/snapshot_create_volume_permission aws_snapshot_create_volume_permission} Resource.
 func NewSnapshotCreateVolumePermission(scope constructs.Construct, id *string, config *SnapshotCreateVolumePermissionConfig) SnapshotCreateVolumePermission {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewSnapshotCreateVolumePermission(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/snapshot_create_volume_permission aws_snapshot_create_volume_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/snapshot_create_volume_permission aws_snapshot_create_volume_permission} Resource.
 func NewSnapshotCreateVolumePermission_Override(s SnapshotCreateVolumePermission, scope constructs.Construct, id *string, config *SnapshotCreateVolumePermissionConfig) {
 	_init_.Initialize()
 

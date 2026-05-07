@@ -5,14 +5,14 @@ package ssoadminpermissionsboundaryattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ssoadminpermissionsboundaryattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/ssoadminpermissionsboundaryattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssoadmin_permissions_boundary_attachment aws_ssoadmin_permissions_boundary_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ssoadmin_permissions_boundary_attachment aws_ssoadmin_permissions_boundary_attachment}.
 type SsoadminPermissionsBoundaryAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -436,7 +436,7 @@ func (j *jsiiProxy_SsoadminPermissionsBoundaryAttachment) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssoadmin_permissions_boundary_attachment aws_ssoadmin_permissions_boundary_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ssoadmin_permissions_boundary_attachment aws_ssoadmin_permissions_boundary_attachment} Resource.
 func NewSsoadminPermissionsBoundaryAttachment(scope constructs.Construct, id *string, config *SsoadminPermissionsBoundaryAttachmentConfig) SsoadminPermissionsBoundaryAttachment {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewSsoadminPermissionsBoundaryAttachment(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ssoadmin_permissions_boundary_attachment aws_ssoadmin_permissions_boundary_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ssoadmin_permissions_boundary_attachment aws_ssoadmin_permissions_boundary_attachment} Resource.
 func NewSsoadminPermissionsBoundaryAttachment_Override(s SsoadminPermissionsBoundaryAttachment, scope constructs.Construct, id *string, config *SsoadminPermissionsBoundaryAttachmentConfig) {
 	_init_.Initialize()
 

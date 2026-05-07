@@ -5,14 +5,14 @@ package verifiedaccessendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/verifiedaccessendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/verifiedaccessendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint}.
 type VerifiedaccessEndpoint interface {
 	cdktn.TerraformResource
 	ApplicationDomain() *string
@@ -781,7 +781,7 @@ func (j *jsiiProxy_VerifiedaccessEndpoint) VerifiedAccessInstanceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint} Resource.
 func NewVerifiedaccessEndpoint(scope constructs.Construct, id *string, config *VerifiedaccessEndpointConfig) VerifiedaccessEndpoint {
 	_init_.Initialize()
 
@@ -799,7 +799,7 @@ func NewVerifiedaccessEndpoint(scope constructs.Construct, id *string, config *V
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint} Resource.
 func NewVerifiedaccessEndpoint_Override(v VerifiedaccessEndpoint, scope constructs.Construct, id *string, config *VerifiedaccessEndpointConfig) {
 	_init_.Initialize()
 

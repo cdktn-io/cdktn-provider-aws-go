@@ -5,14 +5,14 @@ package redshiftendpointaccess
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/redshiftendpointaccess/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/redshiftendpointaccess/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_endpoint_access aws_redshift_endpoint_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshift_endpoint_access aws_redshift_endpoint_access}.
 type RedshiftEndpointAccess interface {
 	cdktn.TerraformResource
 	Address() *string
@@ -493,7 +493,7 @@ func (j *jsiiProxy_RedshiftEndpointAccess) VpcSecurityGroupIdsInput() *[]*string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_endpoint_access aws_redshift_endpoint_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshift_endpoint_access aws_redshift_endpoint_access} Resource.
 func NewRedshiftEndpointAccess(scope constructs.Construct, id *string, config *RedshiftEndpointAccessConfig) RedshiftEndpointAccess {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewRedshiftEndpointAccess(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_endpoint_access aws_redshift_endpoint_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshift_endpoint_access aws_redshift_endpoint_access} Resource.
 func NewRedshiftEndpointAccess_Override(r RedshiftEndpointAccess, scope constructs.Construct, id *string, config *RedshiftEndpointAccessConfig) {
 	_init_.Initialize()
 

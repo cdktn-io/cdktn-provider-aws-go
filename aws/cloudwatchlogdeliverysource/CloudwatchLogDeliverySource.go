@@ -5,14 +5,14 @@ package cloudwatchlogdeliverysource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/cloudwatchlogdeliverysource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/cloudwatchlogdeliverysource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_log_delivery_source aws_cloudwatch_log_delivery_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudwatch_log_delivery_source aws_cloudwatch_log_delivery_source}.
 type CloudwatchLogDeliverySource interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -445,7 +445,7 @@ func (j *jsiiProxy_CloudwatchLogDeliverySource) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_log_delivery_source aws_cloudwatch_log_delivery_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudwatch_log_delivery_source aws_cloudwatch_log_delivery_source} Resource.
 func NewCloudwatchLogDeliverySource(scope constructs.Construct, id *string, config *CloudwatchLogDeliverySourceConfig) CloudwatchLogDeliverySource {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewCloudwatchLogDeliverySource(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/cloudwatch_log_delivery_source aws_cloudwatch_log_delivery_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/cloudwatch_log_delivery_source aws_cloudwatch_log_delivery_source} Resource.
 func NewCloudwatchLogDeliverySource_Override(c CloudwatchLogDeliverySource, scope constructs.Construct, id *string, config *CloudwatchLogDeliverySourceConfig) {
 	_init_.Initialize()
 

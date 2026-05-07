@@ -5,14 +5,14 @@ package redshiftintegration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/redshiftintegration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/redshiftintegration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_integration aws_redshift_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshift_integration aws_redshift_integration}.
 type RedshiftIntegration interface {
 	cdktn.TerraformResource
 	AdditionalEncryptionContext() *map[string]*string
@@ -530,7 +530,7 @@ func (j *jsiiProxy_RedshiftIntegration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_integration aws_redshift_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshift_integration aws_redshift_integration} Resource.
 func NewRedshiftIntegration(scope constructs.Construct, id *string, config *RedshiftIntegrationConfig) RedshiftIntegration {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewRedshiftIntegration(scope constructs.Construct, id *string, config *Reds
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/redshift_integration aws_redshift_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshift_integration aws_redshift_integration} Resource.
 func NewRedshiftIntegration_Override(r RedshiftIntegration, scope constructs.Construct, id *string, config *RedshiftIntegrationConfig) {
 	_init_.Initialize()
 

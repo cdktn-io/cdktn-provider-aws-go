@@ -5,14 +5,14 @@ package ec2transitgatewaypolicytable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ec2transitgatewaypolicytable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/ec2transitgatewaypolicytable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ec2_transit_gateway_policy_table aws_ec2_transit_gateway_policy_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ec2_transit_gateway_policy_table aws_ec2_transit_gateway_policy_table}.
 type Ec2TransitGatewayPolicyTable interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_Ec2TransitGatewayPolicyTable) TransitGatewayIdInput() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ec2_transit_gateway_policy_table aws_ec2_transit_gateway_policy_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ec2_transit_gateway_policy_table aws_ec2_transit_gateway_policy_table} Resource.
 func NewEc2TransitGatewayPolicyTable(scope constructs.Construct, id *string, config *Ec2TransitGatewayPolicyTableConfig) Ec2TransitGatewayPolicyTable {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewEc2TransitGatewayPolicyTable(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ec2_transit_gateway_policy_table aws_ec2_transit_gateway_policy_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ec2_transit_gateway_policy_table aws_ec2_transit_gateway_policy_table} Resource.
 func NewEc2TransitGatewayPolicyTable_Override(e Ec2TransitGatewayPolicyTable, scope constructs.Construct, id *string, config *Ec2TransitGatewayPolicyTableConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package workspaceswebipaccesssettingsassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/workspaceswebipaccesssettingsassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/workspaceswebipaccesssettingsassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspacesweb_ip_access_settings_association aws_workspacesweb_ip_access_settings_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/workspacesweb_ip_access_settings_association aws_workspacesweb_ip_access_settings_association}.
 type WorkspaceswebIpAccessSettingsAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -365,7 +365,7 @@ func (j *jsiiProxy_WorkspaceswebIpAccessSettingsAssociation) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspacesweb_ip_access_settings_association aws_workspacesweb_ip_access_settings_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/workspacesweb_ip_access_settings_association aws_workspacesweb_ip_access_settings_association} Resource.
 func NewWorkspaceswebIpAccessSettingsAssociation(scope constructs.Construct, id *string, config *WorkspaceswebIpAccessSettingsAssociationConfig) WorkspaceswebIpAccessSettingsAssociation {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewWorkspaceswebIpAccessSettingsAssociation(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/workspacesweb_ip_access_settings_association aws_workspacesweb_ip_access_settings_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/workspacesweb_ip_access_settings_association aws_workspacesweb_ip_access_settings_association} Resource.
 func NewWorkspaceswebIpAccessSettingsAssociation_Override(w WorkspaceswebIpAccessSettingsAssociation, scope constructs.Construct, id *string, config *WorkspaceswebIpAccessSettingsAssociationConfig) {
 	_init_.Initialize()
 

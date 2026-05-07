@@ -222,6 +222,22 @@ func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference
 	return nil
 }
 
+func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference) validateSetPasswordWoParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference) validateSetPasswordWoVersionParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

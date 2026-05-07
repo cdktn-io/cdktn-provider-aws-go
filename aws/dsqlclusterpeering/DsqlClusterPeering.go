@@ -5,14 +5,14 @@ package dsqlclusterpeering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dsqlclusterpeering/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dsqlclusterpeering/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dsql_cluster_peering aws_dsql_cluster_peering}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/dsql_cluster_peering aws_dsql_cluster_peering}.
 type DsqlClusterPeering interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_DsqlClusterPeering) WitnessRegionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dsql_cluster_peering aws_dsql_cluster_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/dsql_cluster_peering aws_dsql_cluster_peering} Resource.
 func NewDsqlClusterPeering(scope constructs.Construct, id *string, config *DsqlClusterPeeringConfig) DsqlClusterPeering {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewDsqlClusterPeering(scope constructs.Construct, id *string, config *DsqlC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/dsql_cluster_peering aws_dsql_cluster_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/dsql_cluster_peering aws_dsql_cluster_peering} Resource.
 func NewDsqlClusterPeering_Override(d DsqlClusterPeering, scope constructs.Construct, id *string, config *DsqlClusterPeeringConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawssavingsplanssavingsplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawssavingsplanssavingsplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawssavingsplanssavingsplan/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/savingsplans_savings_plan aws_savingsplans_savings_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/savingsplans_savings_plan aws_savingsplans_savings_plan}.
 type DataAwsSavingsplansSavingsPlan interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -493,7 +493,7 @@ func (j *jsiiProxy_DataAwsSavingsplansSavingsPlan) UpfrontPaymentAmount() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/savingsplans_savings_plan aws_savingsplans_savings_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/savingsplans_savings_plan aws_savingsplans_savings_plan} Data Source.
 func NewDataAwsSavingsplansSavingsPlan(scope constructs.Construct, id *string, config *DataAwsSavingsplansSavingsPlanConfig) DataAwsSavingsplansSavingsPlan {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewDataAwsSavingsplansSavingsPlan(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/savingsplans_savings_plan aws_savingsplans_savings_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/savingsplans_savings_plan aws_savingsplans_savings_plan} Data Source.
 func NewDataAwsSavingsplansSavingsPlan_Override(d DataAwsSavingsplansSavingsPlan, scope constructs.Construct, id *string, config *DataAwsSavingsplansSavingsPlanConfig) {
 	_init_.Initialize()
 

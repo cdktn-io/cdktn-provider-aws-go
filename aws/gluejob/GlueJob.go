@@ -5,14 +5,14 @@ package gluejob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/gluejob/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/gluejob/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_job aws_glue_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_job aws_glue_job}.
 type GlueJob interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -903,7 +903,7 @@ func (j *jsiiProxy_GlueJob) WorkerTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_job aws_glue_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_job aws_glue_job} Resource.
 func NewGlueJob(scope constructs.Construct, id *string, config *GlueJobConfig) GlueJob {
 	_init_.Initialize()
 
@@ -921,7 +921,7 @@ func NewGlueJob(scope constructs.Construct, id *string, config *GlueJobConfig) G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/glue_job aws_glue_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_job aws_glue_job} Resource.
 func NewGlueJob_Override(g GlueJob, scope constructs.Construct, id *string, config *GlueJobConfig) {
 	_init_.Initialize()
 

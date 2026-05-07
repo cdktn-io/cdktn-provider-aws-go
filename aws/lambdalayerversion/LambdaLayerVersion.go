@@ -5,14 +5,14 @@ package lambdalayerversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/lambdalayerversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/lambdalayerversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_layer_version aws_lambda_layer_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lambda_layer_version aws_lambda_layer_version}.
 type LambdaLayerVersion interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -694,7 +694,7 @@ func (j *jsiiProxy_LambdaLayerVersion) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_layer_version aws_lambda_layer_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lambda_layer_version aws_lambda_layer_version} Resource.
 func NewLambdaLayerVersion(scope constructs.Construct, id *string, config *LambdaLayerVersionConfig) LambdaLayerVersion {
 	_init_.Initialize()
 
@@ -712,7 +712,7 @@ func NewLambdaLayerVersion(scope constructs.Construct, id *string, config *Lambd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/lambda_layer_version aws_lambda_layer_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lambda_layer_version aws_lambda_layer_version} Resource.
 func NewLambdaLayerVersion_Override(l LambdaLayerVersion, scope constructs.Construct, id *string, config *LambdaLayerVersionConfig) {
 	_init_.Initialize()
 

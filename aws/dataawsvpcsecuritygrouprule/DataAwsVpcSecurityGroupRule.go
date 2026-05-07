@@ -5,14 +5,14 @@ package dataawsvpcsecuritygrouprule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsvpcsecuritygrouprule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsvpcsecuritygrouprule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/vpc_security_group_rule aws_vpc_security_group_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/vpc_security_group_rule aws_vpc_security_group_rule}.
 type DataAwsVpcSecurityGroupRule interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -465,7 +465,7 @@ func (j *jsiiProxy_DataAwsVpcSecurityGroupRule) ToPort() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/vpc_security_group_rule aws_vpc_security_group_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/vpc_security_group_rule aws_vpc_security_group_rule} Data Source.
 func NewDataAwsVpcSecurityGroupRule(scope constructs.Construct, id *string, config *DataAwsVpcSecurityGroupRuleConfig) DataAwsVpcSecurityGroupRule {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewDataAwsVpcSecurityGroupRule(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/vpc_security_group_rule aws_vpc_security_group_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/vpc_security_group_rule aws_vpc_security_group_rule} Data Source.
 func NewDataAwsVpcSecurityGroupRule_Override(d DataAwsVpcSecurityGroupRule, scope constructs.Construct, id *string, config *DataAwsVpcSecurityGroupRuleConfig) {
 	_init_.Initialize()
 

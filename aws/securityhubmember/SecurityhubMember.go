@@ -5,14 +5,14 @@ package securityhubmember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/securityhubmember/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/securityhubmember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_member aws_securityhub_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/securityhub_member aws_securityhub_member}.
 type SecurityhubMember interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_SecurityhubMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_member aws_securityhub_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/securityhub_member aws_securityhub_member} Resource.
 func NewSecurityhubMember(scope constructs.Construct, id *string, config *SecurityhubMemberConfig) SecurityhubMember {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewSecurityhubMember(scope constructs.Construct, id *string, config *Securi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/securityhub_member aws_securityhub_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/securityhub_member aws_securityhub_member} Resource.
 func NewSecurityhubMember_Override(s SecurityhubMember, scope constructs.Construct, id *string, config *SecurityhubMemberConfig) {
 	_init_.Initialize()
 

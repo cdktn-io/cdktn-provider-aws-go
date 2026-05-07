@@ -5,14 +5,14 @@ package qbusinessapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/qbusinessapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/qbusinessapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/qbusiness_application aws_qbusiness_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/qbusiness_application aws_qbusiness_application}.
 type QbusinessApplication interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -552,7 +552,7 @@ func (j *jsiiProxy_QbusinessApplication) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/qbusiness_application aws_qbusiness_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/qbusiness_application aws_qbusiness_application} Resource.
 func NewQbusinessApplication(scope constructs.Construct, id *string, config *QbusinessApplicationConfig) QbusinessApplication {
 	_init_.Initialize()
 
@@ -570,7 +570,7 @@ func NewQbusinessApplication(scope constructs.Construct, id *string, config *Qbu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/qbusiness_application aws_qbusiness_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/qbusiness_application aws_qbusiness_application} Resource.
 func NewQbusinessApplication_Override(q QbusinessApplication, scope constructs.Construct, id *string, config *QbusinessApplicationConfig) {
 	_init_.Initialize()
 

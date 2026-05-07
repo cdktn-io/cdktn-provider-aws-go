@@ -5,14 +5,14 @@ package dataawsroute53resolverfirewallrules
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsroute53resolverfirewallrules/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsroute53resolverfirewallrules/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/route53_resolver_firewall_rules aws_route53_resolver_firewall_rules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/route53_resolver_firewall_rules aws_route53_resolver_firewall_rules}.
 type DataAwsRoute53ResolverFirewallRules interface {
 	cdktn.TerraformDataSource
 	Action() *string
@@ -380,7 +380,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRules) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/route53_resolver_firewall_rules aws_route53_resolver_firewall_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/route53_resolver_firewall_rules aws_route53_resolver_firewall_rules} Data Source.
 func NewDataAwsRoute53ResolverFirewallRules(scope constructs.Construct, id *string, config *DataAwsRoute53ResolverFirewallRulesConfig) DataAwsRoute53ResolverFirewallRules {
 	_init_.Initialize()
 
@@ -398,7 +398,7 @@ func NewDataAwsRoute53ResolverFirewallRules(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/route53_resolver_firewall_rules aws_route53_resolver_firewall_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/route53_resolver_firewall_rules aws_route53_resolver_firewall_rules} Data Source.
 func NewDataAwsRoute53ResolverFirewallRules_Override(d DataAwsRoute53ResolverFirewallRules, scope constructs.Construct, id *string, config *DataAwsRoute53ResolverFirewallRulesConfig) {
 	_init_.Initialize()
 

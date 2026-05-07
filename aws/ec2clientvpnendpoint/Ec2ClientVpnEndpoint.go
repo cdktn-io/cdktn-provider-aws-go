@@ -5,14 +5,14 @@ package ec2clientvpnendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/ec2clientvpnendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/ec2clientvpnendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ec2_client_vpn_endpoint aws_ec2_client_vpn_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ec2_client_vpn_endpoint aws_ec2_client_vpn_endpoint}.
 type Ec2ClientVpnEndpoint interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -119,6 +119,8 @@ type Ec2ClientVpnEndpoint interface {
 	TrafficIpAddressType() *string
 	SetTrafficIpAddressType(val *string)
 	TrafficIpAddressTypeInput() *string
+	TransitGatewayConfiguration() Ec2ClientVpnEndpointTransitGatewayConfigurationOutputReference
+	TransitGatewayConfigurationInput() *Ec2ClientVpnEndpointTransitGatewayConfiguration
 	TransportProtocol() *string
 	SetTransportProtocol(val *string)
 	TransportProtocolInput() *string
@@ -176,6 +178,7 @@ type Ec2ClientVpnEndpoint interface {
 	PutClientLoginBannerOptions(value *Ec2ClientVpnEndpointClientLoginBannerOptions)
 	PutClientRouteEnforcementOptions(value *Ec2ClientVpnEndpointClientRouteEnforcementOptions)
 	PutConnectionLogOptions(value *Ec2ClientVpnEndpointConnectionLogOptions)
+	PutTransitGatewayConfiguration(value *Ec2ClientVpnEndpointTransitGatewayConfiguration)
 	ResetClientCidrBlock()
 	ResetClientConnectOptions()
 	ResetClientLoginBannerOptions()
@@ -196,6 +199,7 @@ type Ec2ClientVpnEndpoint interface {
 	ResetTags()
 	ResetTagsAll()
 	ResetTrafficIpAddressType()
+	ResetTransitGatewayConfiguration()
 	ResetTransportProtocol()
 	ResetVpcId()
 	ResetVpnPort()
@@ -816,6 +820,26 @@ func (j *jsiiProxy_Ec2ClientVpnEndpoint) TrafficIpAddressTypeInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_Ec2ClientVpnEndpoint) TransitGatewayConfiguration() Ec2ClientVpnEndpointTransitGatewayConfigurationOutputReference {
+	var returns Ec2ClientVpnEndpointTransitGatewayConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"transitGatewayConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Ec2ClientVpnEndpoint) TransitGatewayConfigurationInput() *Ec2ClientVpnEndpointTransitGatewayConfiguration {
+	var returns *Ec2ClientVpnEndpointTransitGatewayConfiguration
+	_jsii_.Get(
+		j,
+		"transitGatewayConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Ec2ClientVpnEndpoint) TransportProtocol() *string {
 	var returns *string
 	_jsii_.Get(
@@ -877,7 +901,7 @@ func (j *jsiiProxy_Ec2ClientVpnEndpoint) VpnPortInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ec2_client_vpn_endpoint aws_ec2_client_vpn_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ec2_client_vpn_endpoint aws_ec2_client_vpn_endpoint} Resource.
 func NewEc2ClientVpnEndpoint(scope constructs.Construct, id *string, config *Ec2ClientVpnEndpointConfig) Ec2ClientVpnEndpoint {
 	_init_.Initialize()
 
@@ -895,7 +919,7 @@ func NewEc2ClientVpnEndpoint(scope constructs.Construct, id *string, config *Ec2
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/ec2_client_vpn_endpoint aws_ec2_client_vpn_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ec2_client_vpn_endpoint aws_ec2_client_vpn_endpoint} Resource.
 func NewEc2ClientVpnEndpoint_Override(e Ec2ClientVpnEndpoint, scope constructs.Construct, id *string, config *Ec2ClientVpnEndpointConfig) {
 	_init_.Initialize()
 
@@ -1580,6 +1604,17 @@ func (e *jsiiProxy_Ec2ClientVpnEndpoint) PutConnectionLogOptions(value *Ec2Clien
 	)
 }
 
+func (e *jsiiProxy_Ec2ClientVpnEndpoint) PutTransitGatewayConfiguration(value *Ec2ClientVpnEndpointTransitGatewayConfiguration) {
+	if err := e.validatePutTransitGatewayConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putTransitGatewayConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_Ec2ClientVpnEndpoint) ResetClientCidrBlock() {
 	_jsii_.InvokeVoid(
 		e,
@@ -1720,6 +1755,14 @@ func (e *jsiiProxy_Ec2ClientVpnEndpoint) ResetTrafficIpAddressType() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetTrafficIpAddressType",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_Ec2ClientVpnEndpoint) ResetTransitGatewayConfiguration() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetTransitGatewayConfiguration",
 		nil, // no parameters
 	)
 }

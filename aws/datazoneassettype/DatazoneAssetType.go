@@ -5,14 +5,14 @@ package datazoneassettype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/datazoneassettype/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/datazoneassettype/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_asset_type aws_datazone_asset_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/datazone_asset_type aws_datazone_asset_type}.
 type DatazoneAssetType interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -493,7 +493,7 @@ func (j *jsiiProxy_DatazoneAssetType) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_asset_type aws_datazone_asset_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/datazone_asset_type aws_datazone_asset_type} Resource.
 func NewDatazoneAssetType(scope constructs.Construct, id *string, config *DatazoneAssetTypeConfig) DatazoneAssetType {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewDatazoneAssetType(scope constructs.Construct, id *string, config *Datazo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_asset_type aws_datazone_asset_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/datazone_asset_type aws_datazone_asset_type} Resource.
 func NewDatazoneAssetType_Override(d DatazoneAssetType, scope constructs.Construct, id *string, config *DatazoneAssetTypeConfig) {
 	_init_.Initialize()
 

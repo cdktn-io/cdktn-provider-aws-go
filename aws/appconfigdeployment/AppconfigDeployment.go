@@ -5,14 +5,14 @@ package appconfigdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/appconfigdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/appconfigdeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appconfig_deployment aws_appconfig_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/appconfig_deployment aws_appconfig_deployment}.
 type AppconfigDeployment interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -598,7 +598,7 @@ func (j *jsiiProxy_AppconfigDeployment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appconfig_deployment aws_appconfig_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/appconfig_deployment aws_appconfig_deployment} Resource.
 func NewAppconfigDeployment(scope constructs.Construct, id *string, config *AppconfigDeploymentConfig) AppconfigDeployment {
 	_init_.Initialize()
 
@@ -616,7 +616,7 @@ func NewAppconfigDeployment(scope constructs.Construct, id *string, config *Appc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/appconfig_deployment aws_appconfig_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/appconfig_deployment aws_appconfig_deployment} Resource.
 func NewAppconfigDeployment_Override(a AppconfigDeployment, scope constructs.Construct, id *string, config *AppconfigDeploymentConfig) {
 	_init_.Initialize()
 

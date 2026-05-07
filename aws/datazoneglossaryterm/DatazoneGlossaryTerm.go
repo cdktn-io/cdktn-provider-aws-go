@@ -5,14 +5,14 @@ package datazoneglossaryterm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/datazoneglossaryterm/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/datazoneglossaryterm/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_glossary_term aws_datazone_glossary_term}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/datazone_glossary_term aws_datazone_glossary_term}.
 type DatazoneGlossaryTerm interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -542,7 +542,7 @@ func (j *jsiiProxy_DatazoneGlossaryTerm) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_glossary_term aws_datazone_glossary_term} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/datazone_glossary_term aws_datazone_glossary_term} Resource.
 func NewDatazoneGlossaryTerm(scope constructs.Construct, id *string, config *DatazoneGlossaryTermConfig) DatazoneGlossaryTerm {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewDatazoneGlossaryTerm(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/datazone_glossary_term aws_datazone_glossary_term} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/datazone_glossary_term aws_datazone_glossary_term} Resource.
 func NewDatazoneGlossaryTerm_Override(d DatazoneGlossaryTerm, scope constructs.Construct, id *string, config *DatazoneGlossaryTermConfig) {
 	_init_.Initialize()
 

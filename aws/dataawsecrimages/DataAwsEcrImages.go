@@ -5,14 +5,14 @@ package dataawsecrimages
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsecrimages/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsecrimages/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ecr_images aws_ecr_images}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ecr_images aws_ecr_images}.
 type DataAwsEcrImages interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataAwsEcrImages) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ecr_images aws_ecr_images} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ecr_images aws_ecr_images} Data Source.
 func NewDataAwsEcrImages(scope constructs.Construct, id *string, config *DataAwsEcrImagesConfig) DataAwsEcrImages {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewDataAwsEcrImages(scope constructs.Construct, id *string, config *DataAws
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ecr_images aws_ecr_images} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ecr_images aws_ecr_images} Data Source.
 func NewDataAwsEcrImages_Override(d DataAwsEcrImages, scope constructs.Construct, id *string, config *DataAwsEcrImagesConfig) {
 	_init_.Initialize()
 

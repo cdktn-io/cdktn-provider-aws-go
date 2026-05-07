@@ -5,14 +5,14 @@ package dataawsec2networkinsightsanalysis
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsec2networkinsightsanalysis/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsec2networkinsightsanalysis/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ec2_network_insights_analysis aws_ec2_network_insights_analysis}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ec2_network_insights_analysis aws_ec2_network_insights_analysis}.
 type DataAwsEc2NetworkInsightsAnalysis interface {
 	cdktn.TerraformDataSource
 	AlternatePathHints() DataAwsEc2NetworkInsightsAnalysisAlternatePathHintsList
@@ -502,7 +502,7 @@ func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis) WarningMessage() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ec2_network_insights_analysis aws_ec2_network_insights_analysis} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ec2_network_insights_analysis aws_ec2_network_insights_analysis} Data Source.
 func NewDataAwsEc2NetworkInsightsAnalysis(scope constructs.Construct, id *string, config *DataAwsEc2NetworkInsightsAnalysisConfig) DataAwsEc2NetworkInsightsAnalysis {
 	_init_.Initialize()
 
@@ -520,7 +520,7 @@ func NewDataAwsEc2NetworkInsightsAnalysis(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/ec2_network_insights_analysis aws_ec2_network_insights_analysis} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ec2_network_insights_analysis aws_ec2_network_insights_analysis} Data Source.
 func NewDataAwsEc2NetworkInsightsAnalysis_Override(d DataAwsEc2NetworkInsightsAnalysis, scope constructs.Construct, id *string, config *DataAwsEc2NetworkInsightsAnalysisConfig) {
 	_init_.Initialize()
 

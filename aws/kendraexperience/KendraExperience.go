@@ -5,14 +5,14 @@ package kendraexperience
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/kendraexperience/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/kendraexperience/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kendra_experience aws_kendra_experience}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/kendra_experience aws_kendra_experience}.
 type KendraExperience interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -528,7 +528,7 @@ func (j *jsiiProxy_KendraExperience) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kendra_experience aws_kendra_experience} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/kendra_experience aws_kendra_experience} Resource.
 func NewKendraExperience(scope constructs.Construct, id *string, config *KendraExperienceConfig) KendraExperience {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewKendraExperience(scope constructs.Construct, id *string, config *KendraE
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/kendra_experience aws_kendra_experience} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/kendra_experience aws_kendra_experience} Resource.
 func NewKendraExperience_Override(k KendraExperience, scope constructs.Construct, id *string, config *KendraExperienceConfig) {
 	_init_.Initialize()
 

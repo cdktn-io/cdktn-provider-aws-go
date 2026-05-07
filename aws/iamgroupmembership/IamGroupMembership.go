@@ -5,14 +5,14 @@ package iamgroupmembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/iamgroupmembership/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/iamgroupmembership/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iam_group_membership aws_iam_group_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/iam_group_membership aws_iam_group_membership}.
 type IamGroupMembership interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -388,7 +388,7 @@ func (j *jsiiProxy_IamGroupMembership) UsersInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iam_group_membership aws_iam_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/iam_group_membership aws_iam_group_membership} Resource.
 func NewIamGroupMembership(scope constructs.Construct, id *string, config *IamGroupMembershipConfig) IamGroupMembership {
 	_init_.Initialize()
 
@@ -406,7 +406,7 @@ func NewIamGroupMembership(scope constructs.Construct, id *string, config *IamGr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/iam_group_membership aws_iam_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/iam_group_membership aws_iam_group_membership} Resource.
 func NewIamGroupMembership_Override(i IamGroupMembership, scope constructs.Construct, id *string, config *IamGroupMembershipConfig) {
 	_init_.Initialize()
 

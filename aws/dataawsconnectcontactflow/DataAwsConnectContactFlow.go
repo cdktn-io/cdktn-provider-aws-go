@@ -5,14 +5,14 @@ package dataawsconnectcontactflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsconnectcontactflow/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsconnectcontactflow/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/connect_contact_flow aws_connect_contact_flow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/connect_contact_flow aws_connect_contact_flow}.
 type DataAwsConnectContactFlow interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -450,7 +450,7 @@ func (j *jsiiProxy_DataAwsConnectContactFlow) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/connect_contact_flow aws_connect_contact_flow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/connect_contact_flow aws_connect_contact_flow} Data Source.
 func NewDataAwsConnectContactFlow(scope constructs.Construct, id *string, config *DataAwsConnectContactFlowConfig) DataAwsConnectContactFlow {
 	_init_.Initialize()
 
@@ -468,7 +468,7 @@ func NewDataAwsConnectContactFlow(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/connect_contact_flow aws_connect_contact_flow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/connect_contact_flow aws_connect_contact_flow} Data Source.
 func NewDataAwsConnectContactFlow_Override(d DataAwsConnectContactFlow, scope constructs.Construct, id *string, config *DataAwsConnectContactFlowConfig) {
 	_init_.Initialize()
 

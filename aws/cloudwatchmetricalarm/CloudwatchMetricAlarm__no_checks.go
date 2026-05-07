@@ -75,6 +75,10 @@ func (c *jsiiProxy_CloudwatchMetricAlarm) validateOverrideLogicalIdParameters(ne
 	return nil
 }
 
+func (c *jsiiProxy_CloudwatchMetricAlarm) validatePutEvaluationCriteriaParameters(value *CloudwatchMetricAlarmEvaluationCriteria) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudwatchMetricAlarm) validatePutMetricQueryParameters(value interface{}) error {
 	return nil
 }
@@ -132,6 +136,10 @@ func (j *jsiiProxy_CloudwatchMetricAlarm) validateSetDimensionsParameters(val *m
 }
 
 func (j *jsiiProxy_CloudwatchMetricAlarm) validateSetEvaluateLowSampleCountPercentilesParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudwatchMetricAlarm) validateSetEvaluationIntervalParameters(val *float64) error {
 	return nil
 }
 

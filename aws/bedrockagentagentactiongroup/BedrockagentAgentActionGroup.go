@@ -5,14 +5,14 @@ package bedrockagentagentactiongroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/bedrockagentagentactiongroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/bedrockagentagentactiongroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagent_agent_action_group aws_bedrockagent_agent_action_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/bedrockagent_agent_action_group aws_bedrockagent_agent_action_group}.
 type BedrockagentAgentActionGroup interface {
 	cdktn.TerraformResource
 	ActionGroupExecutor() BedrockagentAgentActionGroupActionGroupExecutorList
@@ -626,7 +626,7 @@ func (j *jsiiProxy_BedrockagentAgentActionGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagent_agent_action_group aws_bedrockagent_agent_action_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/bedrockagent_agent_action_group aws_bedrockagent_agent_action_group} Resource.
 func NewBedrockagentAgentActionGroup(scope constructs.Construct, id *string, config *BedrockagentAgentActionGroupConfig) BedrockagentAgentActionGroup {
 	_init_.Initialize()
 
@@ -644,7 +644,7 @@ func NewBedrockagentAgentActionGroup(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/bedrockagent_agent_action_group aws_bedrockagent_agent_action_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/bedrockagent_agent_action_group aws_bedrockagent_agent_action_group} Resource.
 func NewBedrockagentAgentActionGroup_Override(b BedrockagentAgentActionGroup, scope constructs.Construct, id *string, config *BedrockagentAgentActionGroupConfig) {
 	_init_.Initialize()
 

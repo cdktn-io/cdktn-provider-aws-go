@@ -5,14 +5,14 @@ package storagegatewaygateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/storagegatewaygateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/storagegatewaygateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/storagegateway_gateway aws_storagegateway_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/storagegateway_gateway aws_storagegateway_gateway}.
 type StoragegatewayGateway interface {
 	cdktn.TerraformResource
 	ActivationKey() *string
@@ -863,7 +863,7 @@ func (j *jsiiProxy_StoragegatewayGateway) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/storagegateway_gateway aws_storagegateway_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/storagegateway_gateway aws_storagegateway_gateway} Resource.
 func NewStoragegatewayGateway(scope constructs.Construct, id *string, config *StoragegatewayGatewayConfig) StoragegatewayGateway {
 	_init_.Initialize()
 
@@ -881,7 +881,7 @@ func NewStoragegatewayGateway(scope constructs.Construct, id *string, config *St
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/storagegateway_gateway aws_storagegateway_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/storagegateway_gateway aws_storagegateway_gateway} Resource.
 func NewStoragegatewayGateway_Override(s StoragegatewayGateway, scope constructs.Construct, id *string, config *StoragegatewayGatewayConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package wafregionalbytematchset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/wafregionalbytematchset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/wafregionalbytematchset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set}.
 type WafregionalByteMatchSet interface {
 	cdktn.TerraformResource
 	ByteMatchTuples() WafregionalByteMatchSetByteMatchTuplesList
@@ -390,7 +390,7 @@ func (j *jsiiProxy_WafregionalByteMatchSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set} Resource.
 func NewWafregionalByteMatchSet(scope constructs.Construct, id *string, config *WafregionalByteMatchSetConfig) WafregionalByteMatchSet {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewWafregionalByteMatchSet(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set} Resource.
 func NewWafregionalByteMatchSet_Override(w WafregionalByteMatchSet, scope constructs.Construct, id *string, config *WafregionalByteMatchSetConfig) {
 	_init_.Initialize()
 

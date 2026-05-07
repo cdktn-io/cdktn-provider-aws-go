@@ -5,14 +5,14 @@ package servicecatalogprovisionedproduct
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/servicecatalogprovisionedproduct/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/servicecatalogprovisionedproduct/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/servicecatalog_provisioned_product aws_servicecatalog_provisioned_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/servicecatalog_provisioned_product aws_servicecatalog_provisioned_product}.
 type ServicecatalogProvisionedProduct interface {
 	cdktn.TerraformResource
 	AcceptLanguage() *string
@@ -847,7 +847,7 @@ func (j *jsiiProxy_ServicecatalogProvisionedProduct) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/servicecatalog_provisioned_product aws_servicecatalog_provisioned_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/servicecatalog_provisioned_product aws_servicecatalog_provisioned_product} Resource.
 func NewServicecatalogProvisionedProduct(scope constructs.Construct, id *string, config *ServicecatalogProvisionedProductConfig) ServicecatalogProvisionedProduct {
 	_init_.Initialize()
 
@@ -865,7 +865,7 @@ func NewServicecatalogProvisionedProduct(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/servicecatalog_provisioned_product aws_servicecatalog_provisioned_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/servicecatalog_provisioned_product aws_servicecatalog_provisioned_product} Resource.
 func NewServicecatalogProvisionedProduct_Override(s ServicecatalogProvisionedProduct, scope constructs.Construct, id *string, config *ServicecatalogProvisionedProductConfig) {
 	_init_.Initialize()
 

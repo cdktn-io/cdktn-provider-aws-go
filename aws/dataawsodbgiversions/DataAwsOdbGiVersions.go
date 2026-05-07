@@ -5,14 +5,14 @@ package dataawsodbgiversions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsodbgiversions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsodbgiversions/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/odb_gi_versions aws_odb_gi_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/odb_gi_versions aws_odb_gi_versions}.
 type DataAwsOdbGiVersions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -309,7 +309,7 @@ func (j *jsiiProxy_DataAwsOdbGiVersions) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/odb_gi_versions aws_odb_gi_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/odb_gi_versions aws_odb_gi_versions} Data Source.
 func NewDataAwsOdbGiVersions(scope constructs.Construct, id *string, config *DataAwsOdbGiVersionsConfig) DataAwsOdbGiVersions {
 	_init_.Initialize()
 
@@ -327,7 +327,7 @@ func NewDataAwsOdbGiVersions(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/odb_gi_versions aws_odb_gi_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/odb_gi_versions aws_odb_gi_versions} Data Source.
 func NewDataAwsOdbGiVersions_Override(d DataAwsOdbGiVersions, scope constructs.Construct, id *string, config *DataAwsOdbGiVersionsConfig) {
 	_init_.Initialize()
 

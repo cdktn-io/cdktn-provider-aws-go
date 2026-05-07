@@ -5,14 +5,14 @@ package dataawsappconfigconfigurationprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/dataawsappconfigconfigurationprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsappconfigconfigurationprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/appconfig_configuration_profile aws_appconfig_configuration_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/appconfig_configuration_profile aws_appconfig_configuration_profile}.
 type DataAwsAppconfigConfigurationProfile interface {
 	cdktn.TerraformDataSource
 	ApplicationId() *string
@@ -456,7 +456,7 @@ func (j *jsiiProxy_DataAwsAppconfigConfigurationProfile) Validator() DataAwsAppc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/appconfig_configuration_profile aws_appconfig_configuration_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/appconfig_configuration_profile aws_appconfig_configuration_profile} Data Source.
 func NewDataAwsAppconfigConfigurationProfile(scope constructs.Construct, id *string, config *DataAwsAppconfigConfigurationProfileConfig) DataAwsAppconfigConfigurationProfile {
 	_init_.Initialize()
 
@@ -474,7 +474,7 @@ func NewDataAwsAppconfigConfigurationProfile(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/data-sources/appconfig_configuration_profile aws_appconfig_configuration_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/appconfig_configuration_profile aws_appconfig_configuration_profile} Data Source.
 func NewDataAwsAppconfigConfigurationProfile_Override(d DataAwsAppconfigConfigurationProfile, scope constructs.Construct, id *string, config *DataAwsAppconfigConfigurationProfileConfig) {
 	_init_.Initialize()
 

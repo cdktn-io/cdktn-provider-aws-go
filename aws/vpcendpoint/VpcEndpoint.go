@@ -5,14 +5,14 @@ package vpcendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v23/vpcendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/vpcendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc_endpoint aws_vpc_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/vpc_endpoint aws_vpc_endpoint}.
 type VpcEndpoint interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -862,7 +862,7 @@ func (j *jsiiProxy_VpcEndpoint) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc_endpoint aws_vpc_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/vpc_endpoint aws_vpc_endpoint} Resource.
 func NewVpcEndpoint(scope constructs.Construct, id *string, config *VpcEndpointConfig) VpcEndpoint {
 	_init_.Initialize()
 
@@ -880,7 +880,7 @@ func NewVpcEndpoint(scope constructs.Construct, id *string, config *VpcEndpointC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.41.0/docs/resources/vpc_endpoint aws_vpc_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/vpc_endpoint aws_vpc_endpoint} Resource.
 func NewVpcEndpoint_Override(v VpcEndpoint, scope constructs.Construct, id *string, config *VpcEndpointConfig) {
 	_init_.Initialize()
 
