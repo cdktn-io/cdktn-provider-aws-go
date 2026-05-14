@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshift_namespace_registration aws_redshift_namespace_registration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/redshift_namespace_registration aws_redshift_namespace_registration}.
 type RedshiftNamespaceRegistration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -437,7 +437,7 @@ func (j *jsiiProxy_RedshiftNamespaceRegistration) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshift_namespace_registration aws_redshift_namespace_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/redshift_namespace_registration aws_redshift_namespace_registration} Resource.
 func NewRedshiftNamespaceRegistration(scope constructs.Construct, id *string, config *RedshiftNamespaceRegistrationConfig) RedshiftNamespaceRegistration {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewRedshiftNamespaceRegistration(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/redshift_namespace_registration aws_redshift_namespace_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/redshift_namespace_registration aws_redshift_namespace_registration} Resource.
 func NewRedshiftNamespaceRegistration_Override(r RedshiftNamespaceRegistration, scope constructs.Construct, id *string, config *RedshiftNamespaceRegistrationConfig) {
 	_init_.Initialize()
 

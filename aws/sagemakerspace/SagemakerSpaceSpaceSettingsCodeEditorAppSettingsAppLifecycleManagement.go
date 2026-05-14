@@ -7,7 +7,7 @@ package sagemakerspace
 type SagemakerSpaceSpaceSettingsCodeEditorAppSettingsAppLifecycleManagement struct {
 	// idle_settings block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/sagemaker_space#idle_settings SagemakerSpace#idle_settings}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/sagemaker_space#idle_settings SagemakerSpace#idle_settings}
 	IdleSettings *SagemakerSpaceSpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettings `field:"optional" json:"idleSettings" yaml:"idleSettings"`
 }
 

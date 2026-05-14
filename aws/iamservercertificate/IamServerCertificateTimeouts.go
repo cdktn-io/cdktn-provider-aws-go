@@ -5,7 +5,7 @@ package iamservercertificate
 
 
 type IamServerCertificateTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/iam_server_certificate#delete IamServerCertificate#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/iam_server_certificate#delete IamServerCertificate#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
 }
 

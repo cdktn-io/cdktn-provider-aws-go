@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/appmesh_virtual_gateway aws_appmesh_virtual_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/appmesh_virtual_gateway aws_appmesh_virtual_gateway}.
 type AppmeshVirtualGateway interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -528,7 +528,7 @@ func (j *jsiiProxy_AppmeshVirtualGateway) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/appmesh_virtual_gateway aws_appmesh_virtual_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/appmesh_virtual_gateway aws_appmesh_virtual_gateway} Resource.
 func NewAppmeshVirtualGateway(scope constructs.Construct, id *string, config *AppmeshVirtualGatewayConfig) AppmeshVirtualGateway {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewAppmeshVirtualGateway(scope constructs.Construct, id *string, config *Ap
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/appmesh_virtual_gateway aws_appmesh_virtual_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/appmesh_virtual_gateway aws_appmesh_virtual_gateway} Resource.
 func NewAppmeshVirtualGateway_Override(a AppmeshVirtualGateway, scope constructs.Construct, id *string, config *AppmeshVirtualGatewayConfig) {
 	_init_.Initialize()
 

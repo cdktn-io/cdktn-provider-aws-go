@@ -5,7 +5,7 @@ package backupvault
 
 
 type BackupVaultTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/backup_vault#delete BackupVault#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/backup_vault#delete BackupVault#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_ml_transform aws_glue_ml_transform}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_ml_transform aws_glue_ml_transform}.
 type GlueMlTransform interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -684,7 +684,7 @@ func (j *jsiiProxy_GlueMlTransform) WorkerTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_ml_transform aws_glue_ml_transform} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_ml_transform aws_glue_ml_transform} Resource.
 func NewGlueMlTransform(scope constructs.Construct, id *string, config *GlueMlTransformConfig) GlueMlTransform {
 	_init_.Initialize()
 
@@ -702,7 +702,7 @@ func NewGlueMlTransform(scope constructs.Construct, id *string, config *GlueMlTr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_ml_transform aws_glue_ml_transform} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_ml_transform aws_glue_ml_transform} Resource.
 func NewGlueMlTransform_Override(g GlueMlTransform, scope constructs.Construct, id *string, config *GlueMlTransformConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/connect_lambda_function_association aws_connect_lambda_function_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/data-sources/connect_lambda_function_association aws_connect_lambda_function_association}.
 type DataAwsConnectLambdaFunctionAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -344,7 +344,7 @@ func (j *jsiiProxy_DataAwsConnectLambdaFunctionAssociation) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/connect_lambda_function_association aws_connect_lambda_function_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/data-sources/connect_lambda_function_association aws_connect_lambda_function_association} Data Source.
 func NewDataAwsConnectLambdaFunctionAssociation(scope constructs.Construct, id *string, config *DataAwsConnectLambdaFunctionAssociationConfig) DataAwsConnectLambdaFunctionAssociation {
 	_init_.Initialize()
 
@@ -362,7 +362,7 @@ func NewDataAwsConnectLambdaFunctionAssociation(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/connect_lambda_function_association aws_connect_lambda_function_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/data-sources/connect_lambda_function_association aws_connect_lambda_function_association} Data Source.
 func NewDataAwsConnectLambdaFunctionAssociation_Override(d DataAwsConnectLambdaFunctionAssociation, scope constructs.Construct, id *string, config *DataAwsConnectLambdaFunctionAssociationConfig) {
 	_init_.Initialize()
 

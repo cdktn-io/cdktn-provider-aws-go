@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ec2_network_insights_access_scope aws_ec2_network_insights_access_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/ec2_network_insights_access_scope aws_ec2_network_insights_access_scope}.
 type Ec2NetworkInsightsAccessScope interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -424,7 +424,7 @@ func (j *jsiiProxy_Ec2NetworkInsightsAccessScope) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ec2_network_insights_access_scope aws_ec2_network_insights_access_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/ec2_network_insights_access_scope aws_ec2_network_insights_access_scope} Resource.
 func NewEc2NetworkInsightsAccessScope(scope constructs.Construct, id *string, config *Ec2NetworkInsightsAccessScopeConfig) Ec2NetworkInsightsAccessScope {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewEc2NetworkInsightsAccessScope(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/ec2_network_insights_access_scope aws_ec2_network_insights_access_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/ec2_network_insights_access_scope aws_ec2_network_insights_access_scope} Resource.
 func NewEc2NetworkInsightsAccessScope_Override(e Ec2NetworkInsightsAccessScope, scope constructs.Construct, id *string, config *Ec2NetworkInsightsAccessScopeConfig) {
 	_init_.Initialize()
 

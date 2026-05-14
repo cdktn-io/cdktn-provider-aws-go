@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ssmcontacts_rotation aws_ssmcontacts_rotation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/data-sources/ssmcontacts_rotation aws_ssmcontacts_rotation}.
 type DataAwsSsmcontactsRotation interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsSsmcontactsRotation) TimeZoneId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ssmcontacts_rotation aws_ssmcontacts_rotation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/data-sources/ssmcontacts_rotation aws_ssmcontacts_rotation} Data Source.
 func NewDataAwsSsmcontactsRotation(scope constructs.Construct, id *string, config *DataAwsSsmcontactsRotationConfig) DataAwsSsmcontactsRotation {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsSsmcontactsRotation(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/ssmcontacts_rotation aws_ssmcontacts_rotation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/data-sources/ssmcontacts_rotation aws_ssmcontacts_rotation} Data Source.
 func NewDataAwsSsmcontactsRotation_Override(d DataAwsSsmcontactsRotation, scope constructs.Construct, id *string, config *DataAwsSsmcontactsRotationConfig) {
 	_init_.Initialize()
 

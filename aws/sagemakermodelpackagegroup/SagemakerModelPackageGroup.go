@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/sagemaker_model_package_group aws_sagemaker_model_package_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/sagemaker_model_package_group aws_sagemaker_model_package_group}.
 type SagemakerModelPackageGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -449,7 +449,7 @@ func (j *jsiiProxy_SagemakerModelPackageGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/sagemaker_model_package_group aws_sagemaker_model_package_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/sagemaker_model_package_group aws_sagemaker_model_package_group} Resource.
 func NewSagemakerModelPackageGroup(scope constructs.Construct, id *string, config *SagemakerModelPackageGroupConfig) SagemakerModelPackageGroup {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewSagemakerModelPackageGroup(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/sagemaker_model_package_group aws_sagemaker_model_package_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/sagemaker_model_package_group aws_sagemaker_model_package_group} Resource.
 func NewSagemakerModelPackageGroup_Override(s SagemakerModelPackageGroup, scope constructs.Construct, id *string, config *SagemakerModelPackageGroupConfig) {
 	_init_.Initialize()
 

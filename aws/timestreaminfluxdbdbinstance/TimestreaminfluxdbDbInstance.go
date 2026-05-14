@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/timestreaminfluxdb_db_instance aws_timestreaminfluxdb_db_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/timestreaminfluxdb_db_instance aws_timestreaminfluxdb_db_instance}.
 type TimestreaminfluxdbDbInstance interface {
 	cdktn.TerraformResource
 	AllocatedStorage() *float64
@@ -68,6 +68,8 @@ type TimestreaminfluxdbDbInstance interface {
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LogDeliveryConfiguration() TimestreaminfluxdbDbInstanceLogDeliveryConfigurationList
 	LogDeliveryConfigurationInput() interface{}
+	MaintenanceSchedule() TimestreaminfluxdbDbInstanceMaintenanceScheduleList
+	MaintenanceScheduleInput() interface{}
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -167,11 +169,13 @@ type TimestreaminfluxdbDbInstance interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutLogDeliveryConfiguration(value interface{})
+	PutMaintenanceSchedule(value interface{})
 	PutTimeouts(value *TimestreaminfluxdbDbInstanceTimeouts)
 	ResetDbParameterGroupIdentifier()
 	ResetDbStorageType()
 	ResetDeploymentType()
 	ResetLogDeliveryConfiguration()
+	ResetMaintenanceSchedule()
 	ResetNetworkType()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -483,6 +487,26 @@ func (j *jsiiProxy_TimestreaminfluxdbDbInstance) LogDeliveryConfigurationInput()
 	_jsii_.Get(
 		j,
 		"logDeliveryConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TimestreaminfluxdbDbInstance) MaintenanceSchedule() TimestreaminfluxdbDbInstanceMaintenanceScheduleList {
+	var returns TimestreaminfluxdbDbInstanceMaintenanceScheduleList
+	_jsii_.Get(
+		j,
+		"maintenanceSchedule",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TimestreaminfluxdbDbInstance) MaintenanceScheduleInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"maintenanceScheduleInput",
 		&returns,
 	)
 	return returns
@@ -819,7 +843,7 @@ func (j *jsiiProxy_TimestreaminfluxdbDbInstance) VpcSubnetIdsInput() *[]*string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/timestreaminfluxdb_db_instance aws_timestreaminfluxdb_db_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/timestreaminfluxdb_db_instance aws_timestreaminfluxdb_db_instance} Resource.
 func NewTimestreaminfluxdbDbInstance(scope constructs.Construct, id *string, config *TimestreaminfluxdbDbInstanceConfig) TimestreaminfluxdbDbInstance {
 	_init_.Initialize()
 
@@ -837,7 +861,7 @@ func NewTimestreaminfluxdbDbInstance(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/timestreaminfluxdb_db_instance aws_timestreaminfluxdb_db_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/timestreaminfluxdb_db_instance aws_timestreaminfluxdb_db_instance} Resource.
 func NewTimestreaminfluxdbDbInstance_Override(t TimestreaminfluxdbDbInstance, scope constructs.Construct, id *string, config *TimestreaminfluxdbDbInstanceConfig) {
 	_init_.Initialize()
 
@@ -1467,6 +1491,17 @@ func (t *jsiiProxy_TimestreaminfluxdbDbInstance) PutLogDeliveryConfiguration(val
 	)
 }
 
+func (t *jsiiProxy_TimestreaminfluxdbDbInstance) PutMaintenanceSchedule(value interface{}) {
+	if err := t.validatePutMaintenanceScheduleParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		t,
+		"putMaintenanceSchedule",
+		[]interface{}{value},
+	)
+}
+
 func (t *jsiiProxy_TimestreaminfluxdbDbInstance) PutTimeouts(value *TimestreaminfluxdbDbInstanceTimeouts) {
 	if err := t.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1506,6 +1541,14 @@ func (t *jsiiProxy_TimestreaminfluxdbDbInstance) ResetLogDeliveryConfiguration()
 	_jsii_.InvokeVoid(
 		t,
 		"resetLogDeliveryConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TimestreaminfluxdbDbInstance) ResetMaintenanceSchedule() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetMaintenanceSchedule",
 		nil, // no parameters
 	)
 }

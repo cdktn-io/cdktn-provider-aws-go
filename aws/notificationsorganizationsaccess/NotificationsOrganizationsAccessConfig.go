@@ -22,11 +22,11 @@ type NotificationsOrganizationsAccessConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/notifications_organizations_access#enabled NotificationsOrganizationsAccess#enabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/notifications_organizations_access#enabled NotificationsOrganizationsAccess#enabled}.
 	Enabled interface{} `field:"required" json:"enabled" yaml:"enabled"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/notifications_organizations_access#timeouts NotificationsOrganizationsAccess#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/notifications_organizations_access#timeouts NotificationsOrganizationsAccess#timeouts}
 	Timeouts *NotificationsOrganizationsAccessTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

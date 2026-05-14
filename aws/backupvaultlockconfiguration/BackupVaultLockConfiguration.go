@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/backup_vault_lock_configuration aws_backup_vault_lock_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/backup_vault_lock_configuration aws_backup_vault_lock_configuration}.
 type BackupVaultLockConfiguration interface {
 	cdktn.TerraformResource
 	BackupVaultArn() *string
@@ -449,7 +449,7 @@ func (j *jsiiProxy_BackupVaultLockConfiguration) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/backup_vault_lock_configuration aws_backup_vault_lock_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/backup_vault_lock_configuration aws_backup_vault_lock_configuration} Resource.
 func NewBackupVaultLockConfiguration(scope constructs.Construct, id *string, config *BackupVaultLockConfigurationConfig) BackupVaultLockConfiguration {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewBackupVaultLockConfiguration(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/backup_vault_lock_configuration aws_backup_vault_lock_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/backup_vault_lock_configuration aws_backup_vault_lock_configuration} Resource.
 func NewBackupVaultLockConfiguration_Override(b BackupVaultLockConfiguration, scope constructs.Construct, id *string, config *BackupVaultLockConfigurationConfig) {
 	_init_.Initialize()
 

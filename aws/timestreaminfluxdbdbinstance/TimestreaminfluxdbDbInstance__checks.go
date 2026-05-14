@@ -238,6 +238,37 @@ func (t *jsiiProxy_TimestreaminfluxdbDbInstance) validatePutLogDeliveryConfigura
 	return nil
 }
 
+func (t *jsiiProxy_TimestreaminfluxdbDbInstance) validatePutMaintenanceScheduleParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*TimestreaminfluxdbDbInstanceMaintenanceSchedule:
+		value := value.(*[]*TimestreaminfluxdbDbInstanceMaintenanceSchedule)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*TimestreaminfluxdbDbInstanceMaintenanceSchedule:
+		value_ := value.([]*TimestreaminfluxdbDbInstanceMaintenanceSchedule)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*TimestreaminfluxdbDbInstanceMaintenanceSchedule; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (t *jsiiProxy_TimestreaminfluxdbDbInstance) validatePutTimeoutsParameters(value *TimestreaminfluxdbDbInstanceTimeouts) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

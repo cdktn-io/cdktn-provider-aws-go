@@ -79,6 +79,10 @@ func (t *jsiiProxy_TimestreaminfluxdbDbInstance) validatePutLogDeliveryConfigura
 	return nil
 }
 
+func (t *jsiiProxy_TimestreaminfluxdbDbInstance) validatePutMaintenanceScheduleParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TimestreaminfluxdbDbInstance) validatePutTimeoutsParameters(value *TimestreaminfluxdbDbInstanceTimeouts) error {
 	return nil
 }

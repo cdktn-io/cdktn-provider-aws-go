@@ -5,7 +5,7 @@ package lambdaeventsourcemapping
 
 
 type LambdaEventSourceMappingMetricsConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/lambda_event_source_mapping#metrics LambdaEventSourceMapping#metrics}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/lambda_event_source_mapping#metrics LambdaEventSourceMapping#metrics}.
 	Metrics *[]*string `field:"required" json:"metrics" yaml:"metrics"`
 }
 
