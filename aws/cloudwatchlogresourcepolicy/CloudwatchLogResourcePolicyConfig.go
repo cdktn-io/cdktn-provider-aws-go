@@ -22,20 +22,20 @@ type CloudwatchLogResourcePolicyConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/cloudwatch_log_resource_policy#policy_document CloudwatchLogResourcePolicy#policy_document}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/cloudwatch_log_resource_policy#policy_document CloudwatchLogResourcePolicy#policy_document}.
 	PolicyDocument *string `field:"required" json:"policyDocument" yaml:"policyDocument"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/cloudwatch_log_resource_policy#id CloudwatchLogResourcePolicy#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/cloudwatch_log_resource_policy#id CloudwatchLogResourcePolicy#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/cloudwatch_log_resource_policy#policy_name CloudwatchLogResourcePolicy#policy_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/cloudwatch_log_resource_policy#policy_name CloudwatchLogResourcePolicy#policy_name}.
 	PolicyName *string `field:"optional" json:"policyName" yaml:"policyName"`
 	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/cloudwatch_log_resource_policy#region CloudwatchLogResourcePolicy#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/cloudwatch_log_resource_policy#region CloudwatchLogResourcePolicy#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/cloudwatch_log_resource_policy#resource_arn CloudwatchLogResourcePolicy#resource_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/cloudwatch_log_resource_policy#resource_arn CloudwatchLogResourcePolicy#resource_arn}.
 	ResourceArn *string `field:"optional" json:"resourceArn" yaml:"resourceArn"`
 }
 

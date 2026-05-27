@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/redshift_cluster_snapshot aws_redshift_cluster_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/redshift_cluster_snapshot aws_redshift_cluster_snapshot}.
 type RedshiftClusterSnapshot interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -494,7 +494,7 @@ func (j *jsiiProxy_RedshiftClusterSnapshot) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/redshift_cluster_snapshot aws_redshift_cluster_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/redshift_cluster_snapshot aws_redshift_cluster_snapshot} Resource.
 func NewRedshiftClusterSnapshot(scope constructs.Construct, id *string, config *RedshiftClusterSnapshotConfig) RedshiftClusterSnapshot {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewRedshiftClusterSnapshot(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/redshift_cluster_snapshot aws_redshift_cluster_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/redshift_cluster_snapshot aws_redshift_cluster_snapshot} Resource.
 func NewRedshiftClusterSnapshot_Override(r RedshiftClusterSnapshot, scope constructs.Construct, id *string, config *RedshiftClusterSnapshotConfig) {
 	_init_.Initialize()
 

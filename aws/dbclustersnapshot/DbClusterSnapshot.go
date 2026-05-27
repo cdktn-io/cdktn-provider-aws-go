@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/db_cluster_snapshot aws_db_cluster_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/db_cluster_snapshot aws_db_cluster_snapshot}.
 type DbClusterSnapshot interface {
 	cdktn.TerraformResource
 	AllocatedStorage() *float64
@@ -628,7 +628,7 @@ func (j *jsiiProxy_DbClusterSnapshot) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/db_cluster_snapshot aws_db_cluster_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/db_cluster_snapshot aws_db_cluster_snapshot} Resource.
 func NewDbClusterSnapshot(scope constructs.Construct, id *string, config *DbClusterSnapshotConfig) DbClusterSnapshot {
 	_init_.Initialize()
 
@@ -646,7 +646,7 @@ func NewDbClusterSnapshot(scope constructs.Construct, id *string, config *DbClus
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/db_cluster_snapshot aws_db_cluster_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/db_cluster_snapshot aws_db_cluster_snapshot} Resource.
 func NewDbClusterSnapshot_Override(d DbClusterSnapshot, scope constructs.Construct, id *string, config *DbClusterSnapshotConfig) {
 	_init_.Initialize()
 

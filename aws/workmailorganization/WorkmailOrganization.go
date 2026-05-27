@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/workmail_organization aws_workmail_organization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/workmail_organization aws_workmail_organization}.
 type WorkmailOrganization interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -598,7 +598,7 @@ func (j *jsiiProxy_WorkmailOrganization) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/workmail_organization aws_workmail_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/workmail_organization aws_workmail_organization} Resource.
 func NewWorkmailOrganization(scope constructs.Construct, id *string, config *WorkmailOrganizationConfig) WorkmailOrganization {
 	_init_.Initialize()
 
@@ -616,7 +616,7 @@ func NewWorkmailOrganization(scope constructs.Construct, id *string, config *Wor
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/workmail_organization aws_workmail_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/workmail_organization aws_workmail_organization} Resource.
 func NewWorkmailOrganization_Override(w WorkmailOrganization, scope constructs.Construct, id *string, config *WorkmailOrganizationConfig) {
 	_init_.Initialize()
 

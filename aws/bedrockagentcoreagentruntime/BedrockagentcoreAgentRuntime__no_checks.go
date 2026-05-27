@@ -83,6 +83,10 @@ func (b *jsiiProxy_BedrockagentcoreAgentRuntime) validatePutAuthorizerConfigurat
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreAgentRuntime) validatePutFilesystemConfigurationParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreAgentRuntime) validatePutLifecycleConfigurationParameters(value interface{}) error {
 	return nil
 }

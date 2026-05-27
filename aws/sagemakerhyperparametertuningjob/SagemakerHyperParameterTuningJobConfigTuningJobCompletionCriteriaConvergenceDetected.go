@@ -5,7 +5,7 @@ package sagemakerhyperparametertuningjob
 
 
 type SagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteriaConvergenceDetected struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/sagemaker_hyper_parameter_tuning_job#complete_on_convergence SagemakerHyperParameterTuningJob#complete_on_convergence}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/sagemaker_hyper_parameter_tuning_job#complete_on_convergence SagemakerHyperParameterTuningJob#complete_on_convergence}.
 	CompleteOnConvergence *string `field:"optional" json:"completeOnConvergence" yaml:"completeOnConvergence"`
 }
 

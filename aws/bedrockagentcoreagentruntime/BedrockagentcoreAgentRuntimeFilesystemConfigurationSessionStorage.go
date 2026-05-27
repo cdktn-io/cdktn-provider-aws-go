@@ -1,0 +1,11 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package bedrockagentcoreagentruntime
+
+
+type BedrockagentcoreAgentRuntimeFilesystemConfigurationSessionStorage struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagentcore_agent_runtime#mount_path BedrockagentcoreAgentRuntime#mount_path}.
+	MountPath *string `field:"required" json:"mountPath" yaml:"mountPath"`
+}
+

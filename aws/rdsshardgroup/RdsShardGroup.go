@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/rds_shard_group aws_rds_shard_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/rds_shard_group aws_rds_shard_group}.
 type RdsShardGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -552,7 +552,7 @@ func (j *jsiiProxy_RdsShardGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/rds_shard_group aws_rds_shard_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/rds_shard_group aws_rds_shard_group} Resource.
 func NewRdsShardGroup(scope constructs.Construct, id *string, config *RdsShardGroupConfig) RdsShardGroup {
 	_init_.Initialize()
 
@@ -570,7 +570,7 @@ func NewRdsShardGroup(scope constructs.Construct, id *string, config *RdsShardGr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/rds_shard_group aws_rds_shard_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/rds_shard_group aws_rds_shard_group} Resource.
 func NewRdsShardGroup_Override(r RdsShardGroup, scope constructs.Construct, id *string, config *RdsShardGroupConfig) {
 	_init_.Initialize()
 

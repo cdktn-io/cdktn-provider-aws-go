@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/data-sources/eip aws_eip}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/data-sources/eip aws_eip}.
 type DataAwsEip interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -559,7 +559,7 @@ func (j *jsiiProxy_DataAwsEip) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/data-sources/eip aws_eip} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/data-sources/eip aws_eip} Data Source.
 func NewDataAwsEip(scope constructs.Construct, id *string, config *DataAwsEipConfig) DataAwsEip {
 	_init_.Initialize()
 
@@ -577,7 +577,7 @@ func NewDataAwsEip(scope constructs.Construct, id *string, config *DataAwsEipCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/data-sources/eip aws_eip} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/data-sources/eip aws_eip} Data Source.
 func NewDataAwsEip_Override(d DataAwsEip, scope constructs.Construct, id *string, config *DataAwsEipConfig) {
 	_init_.Initialize()
 

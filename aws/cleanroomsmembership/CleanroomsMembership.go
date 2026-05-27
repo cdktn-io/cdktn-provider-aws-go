@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/cleanrooms_membership aws_cleanrooms_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/cleanrooms_membership aws_cleanrooms_membership}.
 type CleanroomsMembership interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -558,7 +558,7 @@ func (j *jsiiProxy_CleanroomsMembership) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/cleanrooms_membership aws_cleanrooms_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/cleanrooms_membership aws_cleanrooms_membership} Resource.
 func NewCleanroomsMembership(scope constructs.Construct, id *string, config *CleanroomsMembershipConfig) CleanroomsMembership {
 	_init_.Initialize()
 
@@ -576,7 +576,7 @@ func NewCleanroomsMembership(scope constructs.Construct, id *string, config *Cle
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/cleanrooms_membership aws_cleanrooms_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/cleanrooms_membership aws_cleanrooms_membership} Resource.
 func NewCleanroomsMembership_Override(c CleanroomsMembership, scope constructs.Construct, id *string, config *CleanroomsMembershipConfig) {
 	_init_.Initialize()
 

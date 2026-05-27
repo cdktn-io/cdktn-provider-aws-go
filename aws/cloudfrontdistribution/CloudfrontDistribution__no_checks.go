@@ -75,6 +75,10 @@ func (c *jsiiProxy_CloudfrontDistribution) validateOverrideLogicalIdParameters(n
 	return nil
 }
 
+func (c *jsiiProxy_CloudfrontDistribution) validatePutCacheTagConfigParameters(value *CloudfrontDistributionCacheTagConfig) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudfrontDistribution) validatePutConnectionFunctionAssociationParameters(value *CloudfrontDistributionConnectionFunctionAssociation) error {
 	return nil
 }

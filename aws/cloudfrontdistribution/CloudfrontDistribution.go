@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/cloudfront_distribution aws_cloudfront_distribution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/cloudfront_distribution aws_cloudfront_distribution}.
 type CloudfrontDistribution interface {
 	cdktn.TerraformResource
 	Aliases() *[]*string
@@ -22,6 +22,8 @@ type CloudfrontDistribution interface {
 	SetAnycastIpListId(val *string)
 	AnycastIpListIdInput() *string
 	Arn() *string
+	CacheTagConfig() CloudfrontDistributionCacheTagConfigOutputReference
+	CacheTagConfigInput() *CloudfrontDistributionCacheTagConfig
 	CallerReference() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
@@ -183,6 +185,7 @@ type CloudfrontDistribution interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutCacheTagConfig(value *CloudfrontDistributionCacheTagConfig)
 	PutConnectionFunctionAssociation(value *CloudfrontDistributionConnectionFunctionAssociation)
 	PutCustomErrorResponse(value interface{})
 	PutDefaultCacheBehavior(value *CloudfrontDistributionDefaultCacheBehavior)
@@ -195,6 +198,7 @@ type CloudfrontDistribution interface {
 	PutViewerMtlsConfig(value *CloudfrontDistributionViewerMtlsConfig)
 	ResetAliases()
 	ResetAnycastIpListId()
+	ResetCacheTagConfig()
 	ResetComment()
 	ResetConnectionFunctionAssociation()
 	ResetContinuousDeploymentPolicyId()
@@ -289,6 +293,26 @@ func (j *jsiiProxy_CloudfrontDistribution) Arn() *string {
 	_jsii_.Get(
 		j,
 		"arn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudfrontDistribution) CacheTagConfig() CloudfrontDistributionCacheTagConfigOutputReference {
+	var returns CloudfrontDistributionCacheTagConfigOutputReference
+	_jsii_.Get(
+		j,
+		"cacheTagConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudfrontDistribution) CacheTagConfigInput() *CloudfrontDistributionCacheTagConfig {
+	var returns *CloudfrontDistributionCacheTagConfig
+	_jsii_.Get(
+		j,
+		"cacheTagConfigInput",
 		&returns,
 	)
 	return returns
@@ -1035,7 +1059,7 @@ func (j *jsiiProxy_CloudfrontDistribution) WebAclIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/cloudfront_distribution aws_cloudfront_distribution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/cloudfront_distribution aws_cloudfront_distribution} Resource.
 func NewCloudfrontDistribution(scope constructs.Construct, id *string, config *CloudfrontDistributionConfig) CloudfrontDistribution {
 	_init_.Initialize()
 
@@ -1053,7 +1077,7 @@ func NewCloudfrontDistribution(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/cloudfront_distribution aws_cloudfront_distribution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/cloudfront_distribution aws_cloudfront_distribution} Resource.
 func NewCloudfrontDistribution_Override(c CloudfrontDistribution, scope constructs.Construct, id *string, config *CloudfrontDistributionConfig) {
 	_init_.Initialize()
 
@@ -1661,6 +1685,17 @@ func (c *jsiiProxy_CloudfrontDistribution) OverrideLogicalId(newLogicalId *strin
 	)
 }
 
+func (c *jsiiProxy_CloudfrontDistribution) PutCacheTagConfig(value *CloudfrontDistributionCacheTagConfig) {
+	if err := c.validatePutCacheTagConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putCacheTagConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CloudfrontDistribution) PutConnectionFunctionAssociation(value *CloudfrontDistributionConnectionFunctionAssociation) {
 	if err := c.validatePutConnectionFunctionAssociationParameters(value); err != nil {
 		panic(err)
@@ -1783,6 +1818,14 @@ func (c *jsiiProxy_CloudfrontDistribution) ResetAnycastIpListId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetAnycastIpListId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudfrontDistribution) ResetCacheTagConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetCacheTagConfig",
 		nil, // no parameters
 	)
 }

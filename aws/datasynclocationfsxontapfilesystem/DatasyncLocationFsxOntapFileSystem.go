@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/datasync_location_fsx_ontap_file_system aws_datasync_location_fsx_ontap_file_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/datasync_location_fsx_ontap_file_system aws_datasync_location_fsx_ontap_file_system}.
 type DatasyncLocationFsxOntapFileSystem interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -528,7 +528,7 @@ func (j *jsiiProxy_DatasyncLocationFsxOntapFileSystem) Uri() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/datasync_location_fsx_ontap_file_system aws_datasync_location_fsx_ontap_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/datasync_location_fsx_ontap_file_system aws_datasync_location_fsx_ontap_file_system} Resource.
 func NewDatasyncLocationFsxOntapFileSystem(scope constructs.Construct, id *string, config *DatasyncLocationFsxOntapFileSystemConfig) DatasyncLocationFsxOntapFileSystem {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewDatasyncLocationFsxOntapFileSystem(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/datasync_location_fsx_ontap_file_system aws_datasync_location_fsx_ontap_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/datasync_location_fsx_ontap_file_system aws_datasync_location_fsx_ontap_file_system} Resource.
 func NewDatasyncLocationFsxOntapFileSystem_Override(d DatasyncLocationFsxOntapFileSystem, scope constructs.Construct, id *string, config *DatasyncLocationFsxOntapFileSystemConfig) {
 	_init_.Initialize()
 

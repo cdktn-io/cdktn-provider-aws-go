@@ -127,6 +127,10 @@ func (j *jsiiProxy_VpclatticeResourceGateway) validateSetRegionParameters(val *s
 	return nil
 }
 
+func (j *jsiiProxy_VpclatticeResourceGateway) validateSetResourceConfigDnsResolutionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_VpclatticeResourceGateway) validateSetSecurityGroupIdsParameters(val *[]*string) error {
 	return nil
 }

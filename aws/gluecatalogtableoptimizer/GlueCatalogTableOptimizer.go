@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_catalog_table_optimizer aws_glue_catalog_table_optimizer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/glue_catalog_table_optimizer aws_glue_catalog_table_optimizer}.
 type GlueCatalogTableOptimizer interface {
 	cdktn.TerraformResource
 	CatalogId() *string
@@ -435,7 +435,7 @@ func (j *jsiiProxy_GlueCatalogTableOptimizer) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_catalog_table_optimizer aws_glue_catalog_table_optimizer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/glue_catalog_table_optimizer aws_glue_catalog_table_optimizer} Resource.
 func NewGlueCatalogTableOptimizer(scope constructs.Construct, id *string, config *GlueCatalogTableOptimizerConfig) GlueCatalogTableOptimizer {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewGlueCatalogTableOptimizer(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_catalog_table_optimizer aws_glue_catalog_table_optimizer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/glue_catalog_table_optimizer aws_glue_catalog_table_optimizer} Resource.
 func NewGlueCatalogTableOptimizer_Override(g GlueCatalogTableOptimizer, scope constructs.Construct, id *string, config *GlueCatalogTableOptimizerConfig) {
 	_init_.Initialize()
 

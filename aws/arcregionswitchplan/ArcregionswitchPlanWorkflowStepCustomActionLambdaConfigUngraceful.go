@@ -5,7 +5,7 @@ package arcregionswitchplan
 
 
 type ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngraceful struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/arcregionswitch_plan#behavior ArcregionswitchPlan#behavior}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/arcregionswitch_plan#behavior ArcregionswitchPlan#behavior}.
 	Behavior *string `field:"required" json:"behavior" yaml:"behavior"`
 }
 

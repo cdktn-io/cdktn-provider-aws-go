@@ -5,7 +5,7 @@ package cloudwatchlogtransformer
 
 
 type CloudwatchLogTransformerTransformerConfigUpperCaseString struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/cloudwatch_log_transformer#with_keys CloudwatchLogTransformer#with_keys}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/cloudwatch_log_transformer#with_keys CloudwatchLogTransformer#with_keys}.
 	WithKeys *[]*string `field:"required" json:"withKeys" yaml:"withKeys"`
 }
 

@@ -35,6 +35,7 @@ type DataAwsOpensearchDomainAdvancedSecurityOptionsOutputReference interface {
 	InternalUserDatabaseEnabled() cdktn.IResolvable
 	InternalValue() *DataAwsOpensearchDomainAdvancedSecurityOptions
 	SetInternalValue(val *DataAwsOpensearchDomainAdvancedSecurityOptions)
+	JwtOptions() DataAwsOpensearchDomainAdvancedSecurityOptionsJwtOptionsList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -157,6 +158,16 @@ func (j *jsiiProxy_DataAwsOpensearchDomainAdvancedSecurityOptionsOutputReference
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsOpensearchDomainAdvancedSecurityOptionsOutputReference) JwtOptions() DataAwsOpensearchDomainAdvancedSecurityOptionsJwtOptionsList {
+	var returns DataAwsOpensearchDomainAdvancedSecurityOptionsJwtOptionsList
+	_jsii_.Get(
+		j,
+		"jwtOptions",
 		&returns,
 	)
 	return returns

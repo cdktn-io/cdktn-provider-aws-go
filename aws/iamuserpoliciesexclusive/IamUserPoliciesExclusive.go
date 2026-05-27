@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/iam_user_policies_exclusive aws_iam_user_policies_exclusive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/iam_user_policies_exclusive aws_iam_user_policies_exclusive}.
 type IamUserPoliciesExclusive interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_IamUserPoliciesExclusive) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/iam_user_policies_exclusive aws_iam_user_policies_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/iam_user_policies_exclusive aws_iam_user_policies_exclusive} Resource.
 func NewIamUserPoliciesExclusive(scope constructs.Construct, id *string, config *IamUserPoliciesExclusiveConfig) IamUserPoliciesExclusive {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewIamUserPoliciesExclusive(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/iam_user_policies_exclusive aws_iam_user_policies_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/iam_user_policies_exclusive aws_iam_user_policies_exclusive} Resource.
 func NewIamUserPoliciesExclusive_Override(i IamUserPoliciesExclusive, scope constructs.Construct, id *string, config *IamUserPoliciesExclusiveConfig) {
 	_init_.Initialize()
 

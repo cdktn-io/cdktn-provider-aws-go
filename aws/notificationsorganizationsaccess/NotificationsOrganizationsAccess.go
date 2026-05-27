@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/notifications_organizations_access aws_notifications_organizations_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/notifications_organizations_access aws_notifications_organizations_access}.
 type NotificationsOrganizationsAccess interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -342,7 +342,7 @@ func (j *jsiiProxy_NotificationsOrganizationsAccess) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/notifications_organizations_access aws_notifications_organizations_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/notifications_organizations_access aws_notifications_organizations_access} Resource.
 func NewNotificationsOrganizationsAccess(scope constructs.Construct, id *string, config *NotificationsOrganizationsAccessConfig) NotificationsOrganizationsAccess {
 	_init_.Initialize()
 
@@ -360,7 +360,7 @@ func NewNotificationsOrganizationsAccess(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/notifications_organizations_access aws_notifications_organizations_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/notifications_organizations_access aws_notifications_organizations_access} Resource.
 func NewNotificationsOrganizationsAccess_Override(n NotificationsOrganizationsAccess, scope constructs.Construct, id *string, config *NotificationsOrganizationsAccessConfig) {
 	_init_.Initialize()
 

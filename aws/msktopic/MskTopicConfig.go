@@ -22,23 +22,23 @@ type MskTopicConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/msk_topic#cluster_arn MskTopic#cluster_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/msk_topic#cluster_arn MskTopic#cluster_arn}.
 	ClusterArn *string `field:"required" json:"clusterArn" yaml:"clusterArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/msk_topic#name MskTopic#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/msk_topic#name MskTopic#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/msk_topic#partition_count MskTopic#partition_count}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/msk_topic#partition_count MskTopic#partition_count}.
 	PartitionCount *float64 `field:"required" json:"partitionCount" yaml:"partitionCount"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/msk_topic#replication_factor MskTopic#replication_factor}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/msk_topic#replication_factor MskTopic#replication_factor}.
 	ReplicationFactor *float64 `field:"required" json:"replicationFactor" yaml:"replicationFactor"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/msk_topic#configs MskTopic#configs}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/msk_topic#configs MskTopic#configs}.
 	Configs *string `field:"optional" json:"configs" yaml:"configs"`
 	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/msk_topic#region MskTopic#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/msk_topic#region MskTopic#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/msk_topic#timeouts MskTopic#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/msk_topic#timeouts MskTopic#timeouts}
 	Timeouts *MskTopicTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

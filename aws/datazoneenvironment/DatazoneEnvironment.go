@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/datazone_environment aws_datazone_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/datazone_environment aws_datazone_environment}.
 type DatazoneEnvironment interface {
 	cdktn.TerraformResource
 	AccountIdentifier() *string
@@ -645,7 +645,7 @@ func (j *jsiiProxy_DatazoneEnvironment) UserParametersInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/datazone_environment aws_datazone_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/datazone_environment aws_datazone_environment} Resource.
 func NewDatazoneEnvironment(scope constructs.Construct, id *string, config *DatazoneEnvironmentConfig) DatazoneEnvironment {
 	_init_.Initialize()
 
@@ -663,7 +663,7 @@ func NewDatazoneEnvironment(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/datazone_environment aws_datazone_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/datazone_environment aws_datazone_environment} Resource.
 func NewDatazoneEnvironment_Override(d DatazoneEnvironment, scope constructs.Construct, id *string, config *DatazoneEnvironmentConfig) {
 	_init_.Initialize()
 

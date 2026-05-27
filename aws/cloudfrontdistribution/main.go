@@ -21,6 +21,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "anycastIpListId", GoGetter: "AnycastIpListId"},
 			_jsii_.MemberProperty{JsiiProperty: "anycastIpListIdInput", GoGetter: "AnycastIpListIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
+			_jsii_.MemberProperty{JsiiProperty: "cacheTagConfig", GoGetter: "CacheTagConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "cacheTagConfigInput", GoGetter: "CacheTagConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "callerReference", GoGetter: "CallerReference"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
 			_jsii_.MemberProperty{JsiiProperty: "comment", GoGetter: "Comment"},
@@ -86,6 +88,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "priceClassInput", GoGetter: "PriceClassInput"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
+			_jsii_.MemberMethod{JsiiMethod: "putCacheTagConfig", GoMethod: "PutCacheTagConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putConnectionFunctionAssociation", GoMethod: "PutConnectionFunctionAssociation"},
 			_jsii_.MemberMethod{JsiiMethod: "putCustomErrorResponse", GoMethod: "PutCustomErrorResponse"},
 			_jsii_.MemberMethod{JsiiMethod: "putDefaultCacheBehavior", GoMethod: "PutDefaultCacheBehavior"},
@@ -99,6 +102,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAliases", GoMethod: "ResetAliases"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAnycastIpListId", GoMethod: "ResetAnycastIpListId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCacheTagConfig", GoMethod: "ResetCacheTagConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetComment", GoMethod: "ResetComment"},
 			_jsii_.MemberMethod{JsiiMethod: "resetConnectionFunctionAssociation", GoMethod: "ResetConnectionFunctionAssociation"},
 			_jsii_.MemberMethod{JsiiMethod: "resetContinuousDeploymentPolicyId", GoMethod: "ResetContinuousDeploymentPolicyId"},
@@ -154,6 +158,44 @@ func init() {
 		func() interface{} {
 			j := jsiiProxy_CloudfrontDistribution{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionCacheTagConfig",
+		reflect.TypeOf((*CloudfrontDistributionCacheTagConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionCacheTagConfigOutputReference",
+		reflect.TypeOf((*CloudfrontDistributionCacheTagConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "headerName", GoGetter: "HeaderName"},
+			_jsii_.MemberProperty{JsiiProperty: "headerNameInput", GoGetter: "HeaderNameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_CloudfrontDistributionCacheTagConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

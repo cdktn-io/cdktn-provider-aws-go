@@ -5,7 +5,7 @@ package sagemakeralgorithm
 
 
 type SagemakerAlgorithmValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigShuffleConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/sagemaker_algorithm#seed SagemakerAlgorithm#seed}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/sagemaker_algorithm#seed SagemakerAlgorithm#seed}.
 	Seed *float64 `field:"required" json:"seed" yaml:"seed"`
 }
 

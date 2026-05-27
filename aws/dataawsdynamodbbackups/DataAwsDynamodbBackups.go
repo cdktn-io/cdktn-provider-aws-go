@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/data-sources/dynamodb_backups aws_dynamodb_backups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/data-sources/dynamodb_backups aws_dynamodb_backups}.
 type DataAwsDynamodbBackups interface {
 	cdktn.TerraformDataSource
 	BackupSummaries() DataAwsDynamodbBackupsBackupSummariesList
@@ -381,7 +381,7 @@ func (j *jsiiProxy_DataAwsDynamodbBackups) TimeRangeUpperBoundInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/data-sources/dynamodb_backups aws_dynamodb_backups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/data-sources/dynamodb_backups aws_dynamodb_backups} Data Source.
 func NewDataAwsDynamodbBackups(scope constructs.Construct, id *string, config *DataAwsDynamodbBackupsConfig) DataAwsDynamodbBackups {
 	_init_.Initialize()
 
@@ -399,7 +399,7 @@ func NewDataAwsDynamodbBackups(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/data-sources/dynamodb_backups aws_dynamodb_backups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/data-sources/dynamodb_backups aws_dynamodb_backups} Data Source.
 func NewDataAwsDynamodbBackups_Override(d DataAwsDynamodbBackups, scope constructs.Construct, id *string, config *DataAwsDynamodbBackupsConfig) {
 	_init_.Initialize()
 

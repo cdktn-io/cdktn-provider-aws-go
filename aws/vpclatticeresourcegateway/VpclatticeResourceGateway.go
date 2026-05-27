@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/vpclattice_resource_gateway aws_vpclattice_resource_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/vpclattice_resource_gateway aws_vpclattice_resource_gateway}.
 type VpclatticeResourceGateway interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -69,6 +69,9 @@ type VpclatticeResourceGateway interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	ResourceConfigDnsResolution() *string
+	SetResourceConfigDnsResolution(val *string)
+	ResourceConfigDnsResolutionInput() *string
 	SecurityGroupIds() *[]*string
 	SetSecurityGroupIds(val *[]*string)
 	SecurityGroupIdsInput() *[]*string
@@ -141,6 +144,7 @@ type VpclatticeResourceGateway interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRegion()
+	ResetResourceConfigDnsResolution()
 	ResetSecurityGroupIds()
 	ResetTags()
 	ResetTimeouts()
@@ -401,6 +405,26 @@ func (j *jsiiProxy_VpclatticeResourceGateway) RegionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_VpclatticeResourceGateway) ResourceConfigDnsResolution() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"resourceConfigDnsResolution",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpclatticeResourceGateway) ResourceConfigDnsResolutionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"resourceConfigDnsResolutionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_VpclatticeResourceGateway) SecurityGroupIds() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -552,7 +576,7 @@ func (j *jsiiProxy_VpclatticeResourceGateway) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/vpclattice_resource_gateway aws_vpclattice_resource_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/vpclattice_resource_gateway aws_vpclattice_resource_gateway} Resource.
 func NewVpclatticeResourceGateway(scope constructs.Construct, id *string, config *VpclatticeResourceGatewayConfig) VpclatticeResourceGateway {
 	_init_.Initialize()
 
@@ -570,7 +594,7 @@ func NewVpclatticeResourceGateway(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/vpclattice_resource_gateway aws_vpclattice_resource_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/vpclattice_resource_gateway aws_vpclattice_resource_gateway} Resource.
 func NewVpclatticeResourceGateway_Override(v VpclatticeResourceGateway, scope constructs.Construct, id *string, config *VpclatticeResourceGatewayConfig) {
 	_init_.Initialize()
 
@@ -689,6 +713,17 @@ func (j *jsiiProxy_VpclatticeResourceGateway)SetRegion(val *string) {
 	_jsii_.Set(
 		j,
 		"region",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VpclatticeResourceGateway)SetResourceConfigDnsResolution(val *string) {
+	if err := j.validateSetResourceConfigDnsResolutionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"resourceConfigDnsResolution",
 		val,
 	)
 }
@@ -1129,6 +1164,14 @@ func (v *jsiiProxy_VpclatticeResourceGateway) ResetRegion() {
 	_jsii_.InvokeVoid(
 		v,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VpclatticeResourceGateway) ResetResourceConfigDnsResolution() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetResourceConfigDnsResolution",
 		nil, // no parameters
 	)
 }

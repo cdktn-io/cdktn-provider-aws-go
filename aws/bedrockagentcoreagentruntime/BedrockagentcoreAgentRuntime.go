@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/bedrockagentcore_agent_runtime aws_bedrockagentcore_agent_runtime}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagentcore_agent_runtime aws_bedrockagentcore_agent_runtime}.
 type BedrockagentcoreAgentRuntime interface {
 	cdktn.TerraformResource
 	AgentRuntimeArn() *string
@@ -47,6 +47,8 @@ type BedrockagentcoreAgentRuntime interface {
 	EnvironmentVariables() *map[string]*string
 	SetEnvironmentVariables(val *map[string]*string)
 	EnvironmentVariablesInput() *map[string]*string
+	FilesystemConfiguration() BedrockagentcoreAgentRuntimeFilesystemConfigurationList
+	FilesystemConfigurationInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -143,6 +145,7 @@ type BedrockagentcoreAgentRuntime interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutAgentRuntimeArtifact(value interface{})
 	PutAuthorizerConfiguration(value interface{})
+	PutFilesystemConfiguration(value interface{})
 	PutLifecycleConfiguration(value interface{})
 	PutNetworkConfiguration(value interface{})
 	PutProtocolConfiguration(value interface{})
@@ -152,6 +155,7 @@ type BedrockagentcoreAgentRuntime interface {
 	ResetAuthorizerConfiguration()
 	ResetDescription()
 	ResetEnvironmentVariables()
+	ResetFilesystemConfiguration()
 	ResetLifecycleConfiguration()
 	ResetNetworkConfiguration()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -364,6 +368,26 @@ func (j *jsiiProxy_BedrockagentcoreAgentRuntime) EnvironmentVariablesInput() *ma
 	_jsii_.Get(
 		j,
 		"environmentVariablesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreAgentRuntime) FilesystemConfiguration() BedrockagentcoreAgentRuntimeFilesystemConfigurationList {
+	var returns BedrockagentcoreAgentRuntimeFilesystemConfigurationList
+	_jsii_.Get(
+		j,
+		"filesystemConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreAgentRuntime) FilesystemConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"filesystemConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -660,7 +684,7 @@ func (j *jsiiProxy_BedrockagentcoreAgentRuntime) WorkloadIdentityDetails() Bedro
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/bedrockagentcore_agent_runtime aws_bedrockagentcore_agent_runtime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagentcore_agent_runtime aws_bedrockagentcore_agent_runtime} Resource.
 func NewBedrockagentcoreAgentRuntime(scope constructs.Construct, id *string, config *BedrockagentcoreAgentRuntimeConfig) BedrockagentcoreAgentRuntime {
 	_init_.Initialize()
 
@@ -678,7 +702,7 @@ func NewBedrockagentcoreAgentRuntime(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/bedrockagentcore_agent_runtime aws_bedrockagentcore_agent_runtime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagentcore_agent_runtime aws_bedrockagentcore_agent_runtime} Resource.
 func NewBedrockagentcoreAgentRuntime_Override(b BedrockagentcoreAgentRuntime, scope constructs.Construct, id *string, config *BedrockagentcoreAgentRuntimeConfig) {
 	_init_.Initialize()
 
@@ -1198,6 +1222,17 @@ func (b *jsiiProxy_BedrockagentcoreAgentRuntime) PutAuthorizerConfiguration(valu
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreAgentRuntime) PutFilesystemConfiguration(value interface{}) {
+	if err := b.validatePutFilesystemConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putFilesystemConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreAgentRuntime) PutLifecycleConfiguration(value interface{}) {
 	if err := b.validatePutLifecycleConfigurationParameters(value); err != nil {
 		panic(err)
@@ -1281,6 +1316,14 @@ func (b *jsiiProxy_BedrockagentcoreAgentRuntime) ResetEnvironmentVariables() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetEnvironmentVariables",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreAgentRuntime) ResetFilesystemConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetFilesystemConfiguration",
 		nil, // no parameters
 	)
 }
