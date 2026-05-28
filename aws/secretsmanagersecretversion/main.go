@@ -59,6 +59,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetSecretStringWo", GoMethod: "ResetSecretStringWo"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSecretStringWoVersion", GoMethod: "ResetSecretStringWoVersion"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVersionStages", GoMethod: "ResetVersionStages"},
+			_jsii_.MemberProperty{JsiiProperty: "secretArn", GoGetter: "SecretArn"},
 			_jsii_.MemberProperty{JsiiProperty: "secretBinary", GoGetter: "SecretBinary"},
 			_jsii_.MemberProperty{JsiiProperty: "secretBinaryInput", GoGetter: "SecretBinaryInput"},
 			_jsii_.MemberProperty{JsiiProperty: "secretId", GoGetter: "SecretId"},

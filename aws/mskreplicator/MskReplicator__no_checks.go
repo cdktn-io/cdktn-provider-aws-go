@@ -79,6 +79,10 @@ func (m *jsiiProxy_MskReplicator) validatePutKafkaClusterParameters(value interf
 	return nil
 }
 
+func (m *jsiiProxy_MskReplicator) validatePutLogDeliveryParameters(value *MskReplicatorLogDelivery) error {
+	return nil
+}
+
 func (m *jsiiProxy_MskReplicator) validatePutReplicationInfoListParameters(value *MskReplicatorReplicationInfoListStruct) error {
 	return nil
 }

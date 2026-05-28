@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/msk_replicator aws_msk_replicator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/msk_replicator aws_msk_replicator}.
 type MskReplicator interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -53,6 +53,8 @@ type MskReplicator interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	LogDelivery() MskReplicatorLogDeliveryOutputReference
+	LogDeliveryInput() *MskReplicatorLogDelivery
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
@@ -134,10 +136,12 @@ type MskReplicator interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutKafkaCluster(value interface{})
+	PutLogDelivery(value *MskReplicatorLogDelivery)
 	PutReplicationInfoList(value *MskReplicatorReplicationInfoListStruct)
 	PutTimeouts(value *MskReplicatorTimeouts)
 	ResetDescription()
 	ResetId()
+	ResetLogDelivery()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -337,6 +341,26 @@ func (j *jsiiProxy_MskReplicator) Lifecycle() *cdktn.TerraformResourceLifecycle 
 	_jsii_.Get(
 		j,
 		"lifecycle",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MskReplicator) LogDelivery() MskReplicatorLogDeliveryOutputReference {
+	var returns MskReplicatorLogDeliveryOutputReference
+	_jsii_.Get(
+		j,
+		"logDelivery",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MskReplicator) LogDeliveryInput() *MskReplicatorLogDelivery {
+	var returns *MskReplicatorLogDelivery
+	_jsii_.Get(
+		j,
+		"logDeliveryInput",
 		&returns,
 	)
 	return returns
@@ -553,7 +577,7 @@ func (j *jsiiProxy_MskReplicator) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/msk_replicator aws_msk_replicator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/msk_replicator aws_msk_replicator} Resource.
 func NewMskReplicator(scope constructs.Construct, id *string, config *MskReplicatorConfig) MskReplicator {
 	_init_.Initialize()
 
@@ -571,7 +595,7 @@ func NewMskReplicator(scope constructs.Construct, id *string, config *MskReplica
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/msk_replicator aws_msk_replicator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/msk_replicator aws_msk_replicator} Resource.
 func NewMskReplicator_Override(m MskReplicator, scope constructs.Construct, id *string, config *MskReplicatorConfig) {
 	_init_.Initialize()
 
@@ -1091,6 +1115,17 @@ func (m *jsiiProxy_MskReplicator) PutKafkaCluster(value interface{}) {
 	)
 }
 
+func (m *jsiiProxy_MskReplicator) PutLogDelivery(value *MskReplicatorLogDelivery) {
+	if err := m.validatePutLogDeliveryParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putLogDelivery",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_MskReplicator) PutReplicationInfoList(value *MskReplicatorReplicationInfoListStruct) {
 	if err := m.validatePutReplicationInfoListParameters(value); err != nil {
 		panic(err)
@@ -1125,6 +1160,14 @@ func (m *jsiiProxy_MskReplicator) ResetId() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MskReplicator) ResetLogDelivery() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetLogDelivery",
 		nil, // no parameters
 	)
 }

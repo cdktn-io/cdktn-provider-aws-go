@@ -62,6 +62,9 @@ type RouteTableRouteOutputReference interface {
 	NetworkInterfaceId() *string
 	SetNetworkInterfaceId(val *string)
 	NetworkInterfaceIdInput() *string
+	OdbNetworkArn() *string
+	SetOdbNetworkArn(val *string)
+	OdbNetworkArnInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -113,6 +116,7 @@ type RouteTableRouteOutputReference interface {
 	ResetLocalGatewayId()
 	ResetNatGatewayId()
 	ResetNetworkInterfaceId()
+	ResetOdbNetworkArn()
 	ResetTransitGatewayId()
 	ResetVpcEndpointId()
 	ResetVpcPeeringConnectionId()
@@ -381,6 +385,26 @@ func (j *jsiiProxy_RouteTableRouteOutputReference) NetworkInterfaceIdInput() *st
 	return returns
 }
 
+func (j *jsiiProxy_RouteTableRouteOutputReference) OdbNetworkArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"odbNetworkArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RouteTableRouteOutputReference) OdbNetworkArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"odbNetworkArnInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_RouteTableRouteOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -628,6 +652,17 @@ func (j *jsiiProxy_RouteTableRouteOutputReference)SetNetworkInterfaceId(val *str
 	_jsii_.Set(
 		j,
 		"networkInterfaceId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_RouteTableRouteOutputReference)SetOdbNetworkArn(val *string) {
+	if err := j.validateSetOdbNetworkArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"odbNetworkArn",
 		val,
 	)
 }
@@ -949,6 +984,14 @@ func (r *jsiiProxy_RouteTableRouteOutputReference) ResetNetworkInterfaceId() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetNetworkInterfaceId",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RouteTableRouteOutputReference) ResetOdbNetworkArn() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetOdbNetworkArn",
 		nil, // no parameters
 	)
 }

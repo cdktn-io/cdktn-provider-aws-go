@@ -79,6 +79,10 @@ func (a *jsiiProxy_ArcregionswitchPlan) validatePutAssociatedAlarmsParameters(va
 	return nil
 }
 
+func (a *jsiiProxy_ArcregionswitchPlan) validatePutReportConfigurationParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ArcregionswitchPlan) validatePutTimeoutsParameters(value *ArcregionswitchPlanTimeouts) error {
 	return nil
 }

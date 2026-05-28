@@ -143,6 +143,14 @@ func (j *jsiiProxy_AcmCertificate) validateSetPrivateKeyParameters(val *string) 
 	return nil
 }
 
+func (j *jsiiProxy_AcmCertificate) validateSetPrivateKeyWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AcmCertificate) validateSetPrivateKeyWoVersionParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_AcmCertificate) validateSetProvisionersParameters(val *[]interface{}) error {
 	return nil
 }

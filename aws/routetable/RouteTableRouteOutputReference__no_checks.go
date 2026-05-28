@@ -103,6 +103,10 @@ func (j *jsiiProxy_RouteTableRouteOutputReference) validateSetNetworkInterfaceId
 	return nil
 }
 
+func (j *jsiiProxy_RouteTableRouteOutputReference) validateSetOdbNetworkArnParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_RouteTableRouteOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

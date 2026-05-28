@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/sns_topic_subscription aws_sns_topic_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/sns_topic_subscription aws_sns_topic_subscription}.
 type SnsTopicSubscription interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -672,7 +672,7 @@ func (j *jsiiProxy_SnsTopicSubscription) TopicArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/sns_topic_subscription aws_sns_topic_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/sns_topic_subscription aws_sns_topic_subscription} Resource.
 func NewSnsTopicSubscription(scope constructs.Construct, id *string, config *SnsTopicSubscriptionConfig) SnsTopicSubscription {
 	_init_.Initialize()
 
@@ -690,7 +690,7 @@ func NewSnsTopicSubscription(scope constructs.Construct, id *string, config *Sns
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/sns_topic_subscription aws_sns_topic_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/sns_topic_subscription aws_sns_topic_subscription} Resource.
 func NewSnsTopicSubscription_Override(s SnsTopicSubscription, scope constructs.Construct, id *string, config *SnsTopicSubscriptionConfig) {
 	_init_.Initialize()
 

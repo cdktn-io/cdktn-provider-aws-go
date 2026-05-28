@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/data-sources/connect_bot_association aws_connect_bot_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/connect_bot_association aws_connect_bot_association}.
 type DataAwsConnectBotAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -344,7 +344,7 @@ func (j *jsiiProxy_DataAwsConnectBotAssociation) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/data-sources/connect_bot_association aws_connect_bot_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/connect_bot_association aws_connect_bot_association} Data Source.
 func NewDataAwsConnectBotAssociation(scope constructs.Construct, id *string, config *DataAwsConnectBotAssociationConfig) DataAwsConnectBotAssociation {
 	_init_.Initialize()
 
@@ -362,7 +362,7 @@ func NewDataAwsConnectBotAssociation(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/data-sources/connect_bot_association aws_connect_bot_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/connect_bot_association aws_connect_bot_association} Data Source.
 func NewDataAwsConnectBotAssociation_Override(d DataAwsConnectBotAssociation, scope constructs.Construct, id *string, config *DataAwsConnectBotAssociationConfig) {
 	_init_.Initialize()
 

@@ -63,6 +63,10 @@ func (j *jsiiProxy_QuicksightDataSourceParametersAthenaOutputReference) validate
 	return nil
 }
 
+func (j *jsiiProxy_QuicksightDataSourceParametersAthenaOutputReference) validateSetRoleArnParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_QuicksightDataSourceParametersAthenaOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/arcregionswitch_plan aws_arcregionswitch_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/arcregionswitch_plan aws_arcregionswitch_plan}.
 type ArcregionswitchPlan interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -82,6 +82,8 @@ type ArcregionswitchPlan interface {
 	Regions() *[]*string
 	SetRegions(val *[]*string)
 	RegionsInput() *[]*string
+	ReportConfiguration() ArcregionswitchPlanReportConfigurationList
+	ReportConfigurationInput() interface{}
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsAll() cdktn.StringMap
@@ -142,6 +144,7 @@ type ArcregionswitchPlan interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutAssociatedAlarms(value interface{})
+	PutReportConfiguration(value interface{})
 	PutTimeouts(value *ArcregionswitchPlanTimeouts)
 	PutTriggers(value interface{})
 	PutWorkflow(value interface{})
@@ -153,6 +156,7 @@ type ArcregionswitchPlan interface {
 	ResetPrimaryRegion()
 	ResetRecoveryTimeObjectiveMinutes()
 	ResetRegion()
+	ResetReportConfiguration()
 	ResetTags()
 	ResetTimeouts()
 	ResetTriggers()
@@ -504,6 +508,26 @@ func (j *jsiiProxy_ArcregionswitchPlan) RegionsInput() *[]*string {
 	return returns
 }
 
+func (j *jsiiProxy_ArcregionswitchPlan) ReportConfiguration() ArcregionswitchPlanReportConfigurationList {
+	var returns ArcregionswitchPlanReportConfigurationList
+	_jsii_.Get(
+		j,
+		"reportConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ArcregionswitchPlan) ReportConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"reportConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ArcregionswitchPlan) Tags() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -625,7 +649,7 @@ func (j *jsiiProxy_ArcregionswitchPlan) WorkflowInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/arcregionswitch_plan aws_arcregionswitch_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/arcregionswitch_plan aws_arcregionswitch_plan} Resource.
 func NewArcregionswitchPlan(scope constructs.Construct, id *string, config *ArcregionswitchPlanConfig) ArcregionswitchPlan {
 	_init_.Initialize()
 
@@ -643,7 +667,7 @@ func NewArcregionswitchPlan(scope constructs.Construct, id *string, config *Arcr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/arcregionswitch_plan aws_arcregionswitch_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/arcregionswitch_plan aws_arcregionswitch_plan} Resource.
 func NewArcregionswitchPlan_Override(a ArcregionswitchPlan, scope constructs.Construct, id *string, config *ArcregionswitchPlanConfig) {
 	_init_.Initialize()
 
@@ -1185,6 +1209,17 @@ func (a *jsiiProxy_ArcregionswitchPlan) PutAssociatedAlarms(value interface{}) {
 	)
 }
 
+func (a *jsiiProxy_ArcregionswitchPlan) PutReportConfiguration(value interface{}) {
+	if err := a.validatePutReportConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putReportConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_ArcregionswitchPlan) PutTimeouts(value *ArcregionswitchPlanTimeouts) {
 	if err := a.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1262,6 +1297,14 @@ func (a *jsiiProxy_ArcregionswitchPlan) ResetRegion() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ArcregionswitchPlan) ResetReportConfiguration() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetReportConfiguration",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/evidently_feature aws_evidently_feature}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/evidently_feature aws_evidently_feature}.
 type EvidentlyFeature interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -646,7 +646,7 @@ func (j *jsiiProxy_EvidentlyFeature) VariationsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/evidently_feature aws_evidently_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/evidently_feature aws_evidently_feature} Resource.
 func NewEvidentlyFeature(scope constructs.Construct, id *string, config *EvidentlyFeatureConfig) EvidentlyFeature {
 	_init_.Initialize()
 
@@ -664,7 +664,7 @@ func NewEvidentlyFeature(scope constructs.Construct, id *string, config *Evident
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/evidently_feature aws_evidently_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/evidently_feature aws_evidently_feature} Resource.
 func NewEvidentlyFeature_Override(e EvidentlyFeature, scope constructs.Construct, id *string, config *EvidentlyFeatureConfig) {
 	_init_.Initialize()
 

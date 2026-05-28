@@ -5,7 +5,7 @@ package sagemakertrainingjob
 
 
 type SagemakerTrainingJobInputDataConfigDataSourceS3DataSourceModelAccessConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/sagemaker_training_job#accept_eula SagemakerTrainingJob#accept_eula}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/sagemaker_training_job#accept_eula SagemakerTrainingJob#accept_eula}.
 	AcceptEula interface{} `field:"required" json:"acceptEula" yaml:"acceptEula"`
 }
 

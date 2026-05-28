@@ -5,7 +5,7 @@ package cloudwatchalarmmuterule
 
 
 type CloudwatchAlarmMuteRuleMuteTargets struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/cloudwatch_alarm_mute_rule#alarm_names CloudwatchAlarmMuteRule#alarm_names}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/cloudwatch_alarm_mute_rule#alarm_names CloudwatchAlarmMuteRule#alarm_names}.
 	AlarmNames *[]*string `field:"required" json:"alarmNames" yaml:"alarmNames"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/data-sources/ecr_lifecycle_policy_document aws_ecr_lifecycle_policy_document}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/ecr_lifecycle_policy_document aws_ecr_lifecycle_policy_document}.
 type DataAwsEcrLifecyclePolicyDocument interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocument) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/data-sources/ecr_lifecycle_policy_document aws_ecr_lifecycle_policy_document} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/ecr_lifecycle_policy_document aws_ecr_lifecycle_policy_document} Data Source.
 func NewDataAwsEcrLifecyclePolicyDocument(scope constructs.Construct, id *string, config *DataAwsEcrLifecyclePolicyDocumentConfig) DataAwsEcrLifecyclePolicyDocument {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsEcrLifecyclePolicyDocument(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/data-sources/ecr_lifecycle_policy_document aws_ecr_lifecycle_policy_document} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/ecr_lifecycle_policy_document aws_ecr_lifecycle_policy_document} Data Source.
 func NewDataAwsEcrLifecyclePolicyDocument_Override(d DataAwsEcrLifecyclePolicyDocument, scope constructs.Construct, id *string, config *DataAwsEcrLifecyclePolicyDocumentConfig) {
 	_init_.Initialize()
 

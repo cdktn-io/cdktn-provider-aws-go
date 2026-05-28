@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/acm_certificate aws_acm_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/acm_certificate aws_acm_certificate}.
 type AcmCertificate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -76,6 +76,12 @@ type AcmCertificate interface {
 	PrivateKey() *string
 	SetPrivateKey(val *string)
 	PrivateKeyInput() *string
+	PrivateKeyWo() *string
+	SetPrivateKeyWo(val *string)
+	PrivateKeyWoInput() *string
+	PrivateKeyWoVersion() *float64
+	SetPrivateKeyWoVersion(val *float64)
+	PrivateKeyWoVersionInput() *float64
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -171,6 +177,8 @@ type AcmCertificate interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetPrivateKey()
+	ResetPrivateKeyWo()
+	ResetPrivateKeyWoVersion()
 	ResetRegion()
 	ResetSubjectAlternativeNames()
 	ResetTags()
@@ -534,6 +542,46 @@ func (j *jsiiProxy_AcmCertificate) PrivateKeyInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_AcmCertificate) PrivateKeyWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"privateKeyWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AcmCertificate) PrivateKeyWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"privateKeyWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AcmCertificate) PrivateKeyWoVersion() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"privateKeyWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AcmCertificate) PrivateKeyWoVersionInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"privateKeyWoVersionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_AcmCertificate) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -765,7 +813,7 @@ func (j *jsiiProxy_AcmCertificate) ValidationOptionInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/acm_certificate aws_acm_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/acm_certificate aws_acm_certificate} Resource.
 func NewAcmCertificate(scope constructs.Construct, id *string, config *AcmCertificateConfig) AcmCertificate {
 	_init_.Initialize()
 
@@ -783,7 +831,7 @@ func NewAcmCertificate(scope constructs.Construct, id *string, config *AcmCertif
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/acm_certificate aws_acm_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/acm_certificate aws_acm_certificate} Resource.
 func NewAcmCertificate_Override(a AcmCertificate, scope constructs.Construct, id *string, config *AcmCertificateConfig) {
 	_init_.Initialize()
 
@@ -927,6 +975,28 @@ func (j *jsiiProxy_AcmCertificate)SetPrivateKey(val *string) {
 	_jsii_.Set(
 		j,
 		"privateKey",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AcmCertificate)SetPrivateKeyWo(val *string) {
+	if err := j.validateSetPrivateKeyWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"privateKeyWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AcmCertificate)SetPrivateKeyWoVersion(val *float64) {
+	if err := j.validateSetPrivateKeyWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"privateKeyWoVersion",
 		val,
 	)
 }
@@ -1456,6 +1526,22 @@ func (a *jsiiProxy_AcmCertificate) ResetPrivateKey() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetPrivateKey",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AcmCertificate) ResetPrivateKeyWo() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetPrivateKeyWo",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AcmCertificate) ResetPrivateKeyWoVersion() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetPrivateKeyWoVersion",
 		nil, // no parameters
 	)
 }

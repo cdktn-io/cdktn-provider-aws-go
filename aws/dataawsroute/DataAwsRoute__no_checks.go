@@ -131,6 +131,10 @@ func (j *jsiiProxy_DataAwsRoute) validateSetNetworkInterfaceIdParameters(val *st
 	return nil
 }
 
+func (j *jsiiProxy_DataAwsRoute) validateSetOdbNetworkArnParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataAwsRoute) validateSetRegionParameters(val *string) error {
 	return nil
 }

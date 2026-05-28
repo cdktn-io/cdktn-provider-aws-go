@@ -70,6 +70,7 @@ type EksClusterRemoteNetworkConfigOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutRemoteNodeNetworks(value *EksClusterRemoteNetworkConfigRemoteNodeNetworks)
 	PutRemotePodNetworks(value *EksClusterRemoteNetworkConfigRemotePodNetworks)
+	ResetRemoteNodeNetworks()
 	ResetRemotePodNetworks()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -484,6 +485,14 @@ func (e *jsiiProxy_EksClusterRemoteNetworkConfigOutputReference) PutRemotePodNet
 		e,
 		"putRemotePodNetworks",
 		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_EksClusterRemoteNetworkConfigOutputReference) ResetRemoteNodeNetworks() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetRemoteNodeNetworks",
+		nil, // no parameters
 	)
 }
 

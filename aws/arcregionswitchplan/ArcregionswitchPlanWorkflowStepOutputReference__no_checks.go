@@ -83,6 +83,14 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) validatePutPa
 	return nil
 }
 
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) validatePutRdsCreateCrossRegionReadReplicaConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) validatePutRdsPromoteReadReplicaConfigParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) validatePutRegionSwitchPlanConfigParameters(value interface{}) error {
 	return nil
 }

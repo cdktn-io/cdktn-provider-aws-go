@@ -43,6 +43,7 @@ type DataAwsRouteTableRoutesOutputReference interface {
 	LocalGatewayId() *string
 	NatGatewayId() *string
 	NetworkInterfaceId() *string
+	OdbNetworkArn() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -248,6 +249,16 @@ func (j *jsiiProxy_DataAwsRouteTableRoutesOutputReference) NetworkInterfaceId() 
 	_jsii_.Get(
 		j,
 		"networkInterfaceId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsRouteTableRoutesOutputReference) OdbNetworkArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"odbNetworkArn",
 		&returns,
 	)
 	return returns

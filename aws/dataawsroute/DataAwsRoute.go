@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/data-sources/route aws_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/route aws_route}.
 type DataAwsRoute interface {
 	cdktn.TerraformDataSource
 	CarrierGatewayId() *string
@@ -77,6 +77,9 @@ type DataAwsRoute interface {
 	NetworkInterfaceIdInput() *string
 	// The tree node.
 	Node() constructs.Node
+	OdbNetworkArn() *string
+	SetOdbNetworkArn(val *string)
+	OdbNetworkArnInput() *string
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -141,6 +144,7 @@ type DataAwsRoute interface {
 	ResetLocalGatewayId()
 	ResetNatGatewayId()
 	ResetNetworkInterfaceId()
+	ResetOdbNetworkArn()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -506,6 +510,26 @@ func (j *jsiiProxy_DataAwsRoute) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsRoute) OdbNetworkArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"odbNetworkArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsRoute) OdbNetworkArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"odbNetworkArnInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsRoute) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -657,7 +681,7 @@ func (j *jsiiProxy_DataAwsRoute) VpcPeeringConnectionIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/data-sources/route aws_route} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/route aws_route} Data Source.
 func NewDataAwsRoute(scope constructs.Construct, id *string, config *DataAwsRouteConfig) DataAwsRoute {
 	_init_.Initialize()
 
@@ -675,7 +699,7 @@ func NewDataAwsRoute(scope constructs.Construct, id *string, config *DataAwsRout
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/data-sources/route aws_route} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/route aws_route} Data Source.
 func NewDataAwsRoute_Override(d DataAwsRoute, scope constructs.Construct, id *string, config *DataAwsRouteConfig) {
 	_init_.Initialize()
 
@@ -852,6 +876,17 @@ func (j *jsiiProxy_DataAwsRoute)SetNetworkInterfaceId(val *string) {
 	_jsii_.Set(
 		j,
 		"networkInterfaceId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAwsRoute)SetOdbNetworkArn(val *string) {
+	if err := j.validateSetOdbNetworkArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"odbNetworkArn",
 		val,
 	)
 }
@@ -1296,6 +1331,14 @@ func (d *jsiiProxy_DataAwsRoute) ResetNetworkInterfaceId() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetNetworkInterfaceId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAwsRoute) ResetOdbNetworkArn() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetOdbNetworkArn",
 		nil, // no parameters
 	)
 }

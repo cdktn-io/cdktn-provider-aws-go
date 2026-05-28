@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/config_remediation_configuration aws_config_remediation_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/config_remediation_configuration aws_config_remediation_configuration}.
 type ConfigRemediationConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -591,7 +591,7 @@ func (j *jsiiProxy_ConfigRemediationConfiguration) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/config_remediation_configuration aws_config_remediation_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/config_remediation_configuration aws_config_remediation_configuration} Resource.
 func NewConfigRemediationConfiguration(scope constructs.Construct, id *string, config *ConfigRemediationConfigurationConfig) ConfigRemediationConfiguration {
 	_init_.Initialize()
 
@@ -609,7 +609,7 @@ func NewConfigRemediationConfiguration(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/config_remediation_configuration aws_config_remediation_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/config_remediation_configuration aws_config_remediation_configuration} Resource.
 func NewConfigRemediationConfiguration_Override(c ConfigRemediationConfiguration, scope constructs.Construct, id *string, config *ConfigRemediationConfigurationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/route_table_association aws_route_table_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/route_table_association aws_route_table_association}.
 type RouteTableAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_RouteTableAssociation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/route_table_association aws_route_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/route_table_association aws_route_table_association} Resource.
 func NewRouteTableAssociation(scope constructs.Construct, id *string, config *RouteTableAssociationConfig) RouteTableAssociation {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewRouteTableAssociation(scope constructs.Construct, id *string, config *Ro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/route_table_association aws_route_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/route_table_association aws_route_table_association} Resource.
 func NewRouteTableAssociation_Override(r RouteTableAssociation, scope constructs.Construct, id *string, config *RouteTableAssociationConfig) {
 	_init_.Initialize()
 

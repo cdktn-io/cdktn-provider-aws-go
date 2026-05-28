@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/transfer_server aws_transfer_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/transfer_server aws_transfer_server}.
 type TransferServer interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -74,6 +74,9 @@ type TransferServer interface {
 	InvocationRole() *string
 	SetInvocationRole(val *string)
 	InvocationRoleInput() *string
+	IpAddressType() *string
+	SetIpAddressType(val *string)
+	IpAddressTypeInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -193,6 +196,7 @@ type TransferServer interface {
 	ResetId()
 	ResetIdentityProviderType()
 	ResetInvocationRole()
+	ResetIpAddressType()
 	ResetLoggingRole()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -567,6 +571,26 @@ func (j *jsiiProxy_TransferServer) InvocationRoleInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_TransferServer) IpAddressType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipAddressType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TransferServer) IpAddressTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipAddressTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_TransferServer) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -928,7 +952,7 @@ func (j *jsiiProxy_TransferServer) WorkflowDetailsInput() *TransferServerWorkflo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/transfer_server aws_transfer_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/transfer_server aws_transfer_server} Resource.
 func NewTransferServer(scope constructs.Construct, id *string, config *TransferServerConfig) TransferServer {
 	_init_.Initialize()
 
@@ -946,7 +970,7 @@ func NewTransferServer(scope constructs.Construct, id *string, config *TransferS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/transfer_server aws_transfer_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/transfer_server aws_transfer_server} Resource.
 func NewTransferServer_Override(t TransferServer, scope constructs.Construct, id *string, config *TransferServerConfig) {
 	_init_.Initialize()
 
@@ -1101,6 +1125,17 @@ func (j *jsiiProxy_TransferServer)SetInvocationRole(val *string) {
 	_jsii_.Set(
 		j,
 		"invocationRole",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TransferServer)SetIpAddressType(val *string) {
+	if err := j.validateSetIpAddressTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ipAddressType",
 		val,
 	)
 }
@@ -1737,6 +1772,14 @@ func (t *jsiiProxy_TransferServer) ResetInvocationRole() {
 	_jsii_.InvokeVoid(
 		t,
 		"resetInvocationRole",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TransferServer) ResetIpAddressType() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetIpAddressType",
 		nil, // no parameters
 	)
 }

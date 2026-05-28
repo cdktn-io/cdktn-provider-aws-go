@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/transfer_tag aws_transfer_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/transfer_tag aws_transfer_tag}.
 type TransferTag interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_TransferTag) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/transfer_tag aws_transfer_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/transfer_tag aws_transfer_tag} Resource.
 func NewTransferTag(scope constructs.Construct, id *string, config *TransferTagConfig) TransferTag {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewTransferTag(scope constructs.Construct, id *string, config *TransferTagC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/transfer_tag aws_transfer_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/transfer_tag aws_transfer_tag} Resource.
 func NewTransferTag_Override(t TransferTag, scope constructs.Construct, id *string, config *TransferTagConfig) {
 	_init_.Initialize()
 

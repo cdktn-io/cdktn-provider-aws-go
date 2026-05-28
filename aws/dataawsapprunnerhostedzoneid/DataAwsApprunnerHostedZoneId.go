@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/data-sources/apprunner_hosted_zone_id aws_apprunner_hosted_zone_id}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/apprunner_hosted_zone_id aws_apprunner_hosted_zone_id}.
 type DataAwsApprunnerHostedZoneId interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsApprunnerHostedZoneId) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/data-sources/apprunner_hosted_zone_id aws_apprunner_hosted_zone_id} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/apprunner_hosted_zone_id aws_apprunner_hosted_zone_id} Data Source.
 func NewDataAwsApprunnerHostedZoneId(scope constructs.Construct, id *string, config *DataAwsApprunnerHostedZoneIdConfig) DataAwsApprunnerHostedZoneId {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsApprunnerHostedZoneId(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/data-sources/apprunner_hosted_zone_id aws_apprunner_hosted_zone_id} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/apprunner_hosted_zone_id aws_apprunner_hosted_zone_id} Data Source.
 func NewDataAwsApprunnerHostedZoneId_Override(d DataAwsApprunnerHostedZoneId, scope constructs.Construct, id *string, config *DataAwsApprunnerHostedZoneIdConfig) {
 	_init_.Initialize()
 

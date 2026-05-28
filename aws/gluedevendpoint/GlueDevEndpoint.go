@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint}.
 type GlueDevEndpoint interface {
 	cdktn.TerraformResource
 	Arguments() *map[string]*string
@@ -824,7 +824,7 @@ func (j *jsiiProxy_GlueDevEndpoint) ZeppelinRemoteSparkInterpreterPort() *float6
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint} Resource.
 func NewGlueDevEndpoint(scope constructs.Construct, id *string, config *GlueDevEndpointConfig) GlueDevEndpoint {
 	_init_.Initialize()
 
@@ -842,7 +842,7 @@ func NewGlueDevEndpoint(scope constructs.Construct, id *string, config *GlueDevE
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint} Resource.
 func NewGlueDevEndpoint_Override(g GlueDevEndpoint, scope constructs.Construct, id *string, config *GlueDevEndpointConfig) {
 	_init_.Initialize()
 

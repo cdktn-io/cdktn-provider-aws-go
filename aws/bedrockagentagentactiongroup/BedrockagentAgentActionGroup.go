@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagent_agent_action_group aws_bedrockagent_agent_action_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/bedrockagent_agent_action_group aws_bedrockagent_agent_action_group}.
 type BedrockagentAgentActionGroup interface {
 	cdktn.TerraformResource
 	ActionGroupExecutor() BedrockagentAgentActionGroupActionGroupExecutorList
@@ -626,7 +626,7 @@ func (j *jsiiProxy_BedrockagentAgentActionGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagent_agent_action_group aws_bedrockagent_agent_action_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/bedrockagent_agent_action_group aws_bedrockagent_agent_action_group} Resource.
 func NewBedrockagentAgentActionGroup(scope constructs.Construct, id *string, config *BedrockagentAgentActionGroupConfig) BedrockagentAgentActionGroup {
 	_init_.Initialize()
 
@@ -644,7 +644,7 @@ func NewBedrockagentAgentActionGroup(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagent_agent_action_group aws_bedrockagent_agent_action_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/bedrockagent_agent_action_group aws_bedrockagent_agent_action_group} Resource.
 func NewBedrockagentAgentActionGroup_Override(b BedrockagentAgentActionGroup, scope constructs.Construct, id *string, config *BedrockagentAgentActionGroupConfig) {
 	_init_.Initialize()
 

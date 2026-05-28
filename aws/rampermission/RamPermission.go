@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/ram_permission aws_ram_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/ram_permission aws_ram_permission}.
 type RamPermission interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -491,7 +491,7 @@ func (j *jsiiProxy_RamPermission) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/ram_permission aws_ram_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/ram_permission aws_ram_permission} Resource.
 func NewRamPermission(scope constructs.Construct, id *string, config *RamPermissionConfig) RamPermission {
 	_init_.Initialize()
 
@@ -509,7 +509,7 @@ func NewRamPermission(scope constructs.Construct, id *string, config *RamPermiss
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/ram_permission aws_ram_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/ram_permission aws_ram_permission} Resource.
 func NewRamPermission_Override(r RamPermission, scope constructs.Construct, id *string, config *RamPermissionConfig) {
 	_init_.Initialize()
 

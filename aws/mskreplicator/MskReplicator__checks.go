@@ -238,6 +238,17 @@ func (m *jsiiProxy_MskReplicator) validatePutKafkaClusterParameters(value interf
 	return nil
 }
 
+func (m *jsiiProxy_MskReplicator) validatePutLogDeliveryParameters(value *MskReplicatorLogDelivery) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (m *jsiiProxy_MskReplicator) validatePutReplicationInfoListParameters(value *MskReplicatorReplicationInfoListStruct) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

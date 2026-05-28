@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/s3control_multi_region_access_point aws_s3control_multi_region_access_point}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/s3control_multi_region_access_point aws_s3control_multi_region_access_point}.
 type S3ControlMultiRegionAccessPoint interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -54,6 +54,7 @@ type S3ControlMultiRegionAccessPoint interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	Name() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
@@ -337,6 +338,16 @@ func (j *jsiiProxy_S3ControlMultiRegionAccessPoint) Lifecycle() *cdktn.Terraform
 	return returns
 }
 
+func (j *jsiiProxy_S3ControlMultiRegionAccessPoint) Name() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"name",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_S3ControlMultiRegionAccessPoint) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -458,7 +469,7 @@ func (j *jsiiProxy_S3ControlMultiRegionAccessPoint) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/s3control_multi_region_access_point aws_s3control_multi_region_access_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/s3control_multi_region_access_point aws_s3control_multi_region_access_point} Resource.
 func NewS3ControlMultiRegionAccessPoint(scope constructs.Construct, id *string, config *S3ControlMultiRegionAccessPointConfig) S3ControlMultiRegionAccessPoint {
 	_init_.Initialize()
 
@@ -476,7 +487,7 @@ func NewS3ControlMultiRegionAccessPoint(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/s3control_multi_region_access_point aws_s3control_multi_region_access_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/s3control_multi_region_access_point aws_s3control_multi_region_access_point} Resource.
 func NewS3ControlMultiRegionAccessPoint_Override(s S3ControlMultiRegionAccessPoint, scope constructs.Construct, id *string, config *S3ControlMultiRegionAccessPointConfig) {
 	_init_.Initialize()
 

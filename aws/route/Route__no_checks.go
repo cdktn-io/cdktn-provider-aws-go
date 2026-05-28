@@ -151,6 +151,10 @@ func (j *jsiiProxy_Route) validateSetNetworkInterfaceIdParameters(val *string) e
 	return nil
 }
 
+func (j *jsiiProxy_Route) validateSetOdbNetworkArnParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_Route) validateSetProvisionersParameters(val *[]interface{}) error {
 	return nil
 }

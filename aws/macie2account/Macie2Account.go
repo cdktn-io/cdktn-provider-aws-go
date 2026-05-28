@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/macie2_account aws_macie2_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/macie2_account aws_macie2_account}.
 type Macie2Account interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_Macie2Account) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/macie2_account aws_macie2_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/macie2_account aws_macie2_account} Resource.
 func NewMacie2Account(scope constructs.Construct, id *string, config *Macie2AccountConfig) Macie2Account {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewMacie2Account(scope constructs.Construct, id *string, config *Macie2Acco
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/macie2_account aws_macie2_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/macie2_account aws_macie2_account} Resource.
 func NewMacie2Account_Override(m Macie2Account, scope constructs.Construct, id *string, config *Macie2AccountConfig) {
 	_init_.Initialize()
 

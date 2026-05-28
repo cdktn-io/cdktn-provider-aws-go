@@ -47,6 +47,10 @@ func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) validateInte
 	return nil
 }
 
+func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) validatePutDestinationDataSharingParameters(value *SsmResourceDataSyncS3DestinationDestinationDataSharing) error {
+	return nil
+}
+
 func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

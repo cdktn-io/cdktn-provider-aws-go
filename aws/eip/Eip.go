@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/eip aws_eip}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/eip aws_eip}.
 type Eip interface {
 	cdktn.TerraformResource
 	Address() *string
@@ -741,7 +741,7 @@ func (j *jsiiProxy_Eip) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/eip aws_eip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/eip aws_eip} Resource.
 func NewEip(scope constructs.Construct, id *string, config *EipConfig) Eip {
 	_init_.Initialize()
 
@@ -759,7 +759,7 @@ func NewEip(scope constructs.Construct, id *string, config *EipConfig) Eip {
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/eip aws_eip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/eip aws_eip} Resource.
 func NewEip_Override(e Eip, scope constructs.Construct, id *string, config *EipConfig) {
 	_init_.Initialize()
 

@@ -270,6 +270,14 @@ func (j *jsiiProxy_RouteTableRouteOutputReference) validateSetNetworkInterfaceId
 	return nil
 }
 
+func (j *jsiiProxy_RouteTableRouteOutputReference) validateSetOdbNetworkArnParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_RouteTableRouteOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

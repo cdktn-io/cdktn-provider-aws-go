@@ -57,6 +57,10 @@ type ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference interface 
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
+	RdsCreateCrossRegionReadReplicaConfig() ArcregionswitchPlanWorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigList
+	RdsCreateCrossRegionReadReplicaConfigInput() interface{}
+	RdsPromoteReadReplicaConfig() ArcregionswitchPlanWorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigList
+	RdsPromoteReadReplicaConfigInput() interface{}
 	RegionSwitchPlanConfig() ArcregionswitchPlanWorkflowStepParallelConfigStepRegionSwitchPlanConfigList
 	RegionSwitchPlanConfigInput() interface{}
 	Route53HealthCheckConfig() ArcregionswitchPlanWorkflowStepParallelConfigStepRoute53HealthCheckConfigList
@@ -101,6 +105,8 @@ type ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference interface 
 	PutEksResourceScalingConfig(value interface{})
 	PutExecutionApprovalConfig(value interface{})
 	PutGlobalAuroraConfig(value interface{})
+	PutRdsCreateCrossRegionReadReplicaConfig(value interface{})
+	PutRdsPromoteReadReplicaConfig(value interface{})
 	PutRegionSwitchPlanConfig(value interface{})
 	PutRoute53HealthCheckConfig(value interface{})
 	ResetArcRoutingControlConfig()
@@ -112,6 +118,8 @@ type ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference interface 
 	ResetEksResourceScalingConfig()
 	ResetExecutionApprovalConfig()
 	ResetGlobalAuroraConfig()
+	ResetRdsCreateCrossRegionReadReplicaConfig()
+	ResetRdsPromoteReadReplicaConfig()
 	ResetRegionSwitchPlanConfig()
 	ResetRoute53HealthCheckConfig()
 	// Produce the Token's value at resolution time.
@@ -394,6 +402,46 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 	_jsii_.Get(
 		j,
 		"nameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) RdsCreateCrossRegionReadReplicaConfig() ArcregionswitchPlanWorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigList {
+	var returns ArcregionswitchPlanWorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigList
+	_jsii_.Get(
+		j,
+		"rdsCreateCrossRegionReadReplicaConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) RdsCreateCrossRegionReadReplicaConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"rdsCreateCrossRegionReadReplicaConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) RdsPromoteReadReplicaConfig() ArcregionswitchPlanWorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigList {
+	var returns ArcregionswitchPlanWorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigList
+	_jsii_.Get(
+		j,
+		"rdsPromoteReadReplicaConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) RdsPromoteReadReplicaConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"rdsPromoteReadReplicaConfigInput",
 		&returns,
 	)
 	return returns
@@ -849,6 +897,28 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 	)
 }
 
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) PutRdsCreateCrossRegionReadReplicaConfig(value interface{}) {
+	if err := a.validatePutRdsCreateCrossRegionReadReplicaConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putRdsCreateCrossRegionReadReplicaConfig",
+		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) PutRdsPromoteReadReplicaConfig(value interface{}) {
+	if err := a.validatePutRdsPromoteReadReplicaConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putRdsPromoteReadReplicaConfig",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) PutRegionSwitchPlanConfig(value interface{}) {
 	if err := a.validatePutRegionSwitchPlanConfigParameters(value); err != nil {
 		panic(err)
@@ -939,6 +1009,22 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 	_jsii_.InvokeVoid(
 		a,
 		"resetGlobalAuroraConfig",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) ResetRdsCreateCrossRegionReadReplicaConfig() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetRdsCreateCrossRegionReadReplicaConfig",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) ResetRdsPromoteReadReplicaConfig() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetRdsPromoteReadReplicaConfig",
 		nil, // no parameters
 	)
 }

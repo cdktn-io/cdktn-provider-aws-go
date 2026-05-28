@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/appmesh_virtual_node aws_appmesh_virtual_node}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/appmesh_virtual_node aws_appmesh_virtual_node}.
 type AppmeshVirtualNode interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -528,7 +528,7 @@ func (j *jsiiProxy_AppmeshVirtualNode) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/appmesh_virtual_node aws_appmesh_virtual_node} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/appmesh_virtual_node aws_appmesh_virtual_node} Resource.
 func NewAppmeshVirtualNode(scope constructs.Construct, id *string, config *AppmeshVirtualNodeConfig) AppmeshVirtualNode {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewAppmeshVirtualNode(scope constructs.Construct, id *string, config *Appme
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/appmesh_virtual_node aws_appmesh_virtual_node} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/appmesh_virtual_node aws_appmesh_virtual_node} Resource.
 func NewAppmeshVirtualNode_Override(a AppmeshVirtualNode, scope constructs.Construct, id *string, config *AppmeshVirtualNodeConfig) {
 	_init_.Initialize()
 

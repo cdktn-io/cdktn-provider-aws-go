@@ -31,6 +31,8 @@ type SsmResourceDataSyncS3DestinationOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DestinationDataSharing() SsmResourceDataSyncS3DestinationDestinationDataSharingOutputReference
+	DestinationDataSharingInput() *SsmResourceDataSyncS3DestinationDestinationDataSharing
 	// Experimental.
 	Fqn() *string
 	InternalValue() *SsmResourceDataSyncS3Destination
@@ -79,6 +81,8 @@ type SsmResourceDataSyncS3DestinationOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutDestinationDataSharing(value *SsmResourceDataSyncS3DestinationDestinationDataSharing)
+	ResetDestinationDataSharing()
 	ResetKmsKeyArn()
 	ResetPrefix()
 	ResetSyncFormat()
@@ -142,6 +146,26 @@ func (j *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) CreationStac
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) DestinationDataSharing() SsmResourceDataSyncS3DestinationDestinationDataSharingOutputReference {
+	var returns SsmResourceDataSyncS3DestinationDestinationDataSharingOutputReference
+	_jsii_.Get(
+		j,
+		"destinationDataSharing",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) DestinationDataSharingInput() *SsmResourceDataSyncS3DestinationDestinationDataSharing {
+	var returns *SsmResourceDataSyncS3DestinationDestinationDataSharing
+	_jsii_.Get(
+		j,
+		"destinationDataSharingInput",
 		&returns,
 	)
 	return returns
@@ -589,6 +613,25 @@ func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) Interpolatio
 	)
 
 	return returns
+}
+
+func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) PutDestinationDataSharing(value *SsmResourceDataSyncS3DestinationDestinationDataSharing) {
+	if err := s.validatePutDestinationDataSharingParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putDestinationDataSharing",
+		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) ResetDestinationDataSharing() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDestinationDataSharing",
+		nil, // no parameters
+	)
 }
 
 func (s *jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference) ResetKmsKeyArn() {

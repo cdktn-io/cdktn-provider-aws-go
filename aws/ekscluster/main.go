@@ -731,6 +731,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "remoteNodeNetworksInput", GoGetter: "RemoteNodeNetworksInput"},
 			_jsii_.MemberProperty{JsiiProperty: "remotePodNetworks", GoGetter: "RemotePodNetworks"},
 			_jsii_.MemberProperty{JsiiProperty: "remotePodNetworksInput", GoGetter: "RemotePodNetworksInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRemoteNodeNetworks", GoMethod: "ResetRemoteNodeNetworks"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRemotePodNetworks", GoMethod: "ResetRemotePodNetworks"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},

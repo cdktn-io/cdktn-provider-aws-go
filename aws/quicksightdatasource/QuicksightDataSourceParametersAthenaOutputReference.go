@@ -32,6 +32,9 @@ type QuicksightDataSourceParametersAthenaOutputReference interface {
 	Fqn() *string
 	InternalValue() *QuicksightDataSourceParametersAthena
 	SetInternalValue(val *QuicksightDataSourceParametersAthena)
+	RoleArn() *string
+	SetRoleArn(val *string)
+	RoleArnInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,6 +70,7 @@ type QuicksightDataSourceParametersAthenaOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetRoleArn()
 	ResetWorkGroup()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -128,6 +132,26 @@ func (j *jsiiProxy_QuicksightDataSourceParametersAthenaOutputReference) Internal
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightDataSourceParametersAthenaOutputReference) RoleArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"roleArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightDataSourceParametersAthenaOutputReference) RoleArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"roleArnInput",
 		&returns,
 	)
 	return returns
@@ -230,6 +254,17 @@ func (j *jsiiProxy_QuicksightDataSourceParametersAthenaOutputReference)SetIntern
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_QuicksightDataSourceParametersAthenaOutputReference)SetRoleArn(val *string) {
+	if err := j.validateSetRoleArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"roleArn",
 		val,
 	)
 }
@@ -451,6 +486,14 @@ func (q *jsiiProxy_QuicksightDataSourceParametersAthenaOutputReference) Interpol
 	)
 
 	return returns
+}
+
+func (q *jsiiProxy_QuicksightDataSourceParametersAthenaOutputReference) ResetRoleArn() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetRoleArn",
+		nil, // no parameters
+	)
 }
 
 func (q *jsiiProxy_QuicksightDataSourceParametersAthenaOutputReference) ResetWorkGroup() {
